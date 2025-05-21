@@ -1,0 +1,58 @@
+﻿l_spanish:
+
+
+  ################################
+  # Widowed Events
+  # 1000 - 1999
+  # by Badger
+  ################################
+
+  agot_widowed_events.0001.t: "Il Dolce Ricordo dell'Amore"
+  agot_widowed_events.0001.desc: "[Select_CString(dead_lover.IsFemale,'La mia cara','Il mio caro')] [dead_lover.GetFirstNameNicknamedNoTooltip], è passat[dead_lover.Custom('DE_END_PRO_S_N')] a una vita migliore. #italic Darei qualsiasi cosa per avere solo un altro giorno con [dead_lover.GetSheHe]...#!\n\nLe mie stanze sembrano vuote — eppure devo indugiare in questo luogo. Forse questa tristezza si attenuerà col tempo."
+  agot_widowed_events.0001.a: "Devo andare avanti senza di [dead_lover.GetSheHe]."
+
+  agot_widowed_events.0002.t: "Il Pungiglione Amaro dell'Amore"
+  agot_widowed_events.0002.desc: "Sembra solo ieri che [Select_CString(widowed_memory.IsFemale,'la mia cara','il mio caro')] [widowed_memory.GetFirstNameNicknamedNoTooltip] camminava ancora su questa terra, sempre [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] e lasciandomi desiderare il suo tocco. Se solo potessi avere un altro giorno con [widowed_memory.GetSheHe]...\n\nI miei pensieri si disperdono mentre mi rendo conto di essere qui, da solo, immerso nelle profondità dolorose del mio dolore."
+  agot_widowed_events.0002.a: "È questo tutto ciò che mi resta nella vita?"
+
+  agot_widowed_events.0003.t: "L'Amore, a un Prezzo"
+  agot_widowed_events.0003.desc: "Nulla in questo mondo sostituirà [Select_CString(widowed_memory.IsFemale,'la mia','il mio')] [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic o così pensavo.#!\n\nUna notte trascorsa a vagare per le parti più malfamate di [location.GetName] mi porta in un locale dove si può trovare l'amore, #bold ma a un prezzo#!. [succubus.GetFirstName] mi accoglie con un sorriso [succubus.Custom('quirk_pos_adjective')], e sento un battito nel petto che non provavo dalla morte [Select_CString(widowed_memory.IsFemale,'della mia cara','del mio caro')] [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip]."
+  agot_widowed_events.0003.a: "La moneta vale bene il tocco di un [succubus.GetWomanMan]."
+  agot_widowed_events.0003.b: "No, questo non è giusto..."
+
+  agot_widowed_events.0004.t: "L'Amore è una Follia"
+  agot_widowed_events.0004.desc: "Il tempo è passato eppure sento ancora una pungente tristezza pensando [Select_CString(widowed_memory.IsFemale,'alla mia cara','al mio caro')] [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Quando cesserà questo dolore?#!\n\n#bold No.#! Questo è assurdo. L'amore è uno spreco dei miei sforzi e non gli dedicherò neanche un altro minuto del mio tempo."
+  agot_widowed_events.0004.a: "Non provo più niente."
+  agot_widowed_events.0004.b: "No, questo non è giusto..."
+
+  agot_widowed_events.0005.t: "Un Amore... per la Lettura"
+  agot_widowed_events.0005.desc: "Il tempo è passato eppure sento ancora una pungente tristezza pensando [Select_CString(widowed_memory.IsFemale,'alla mia cara','al mio caro')]  [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Come posso superare questo amore?#!\n\nMentre combatto con i miei pensieri, nella mia sala del trono entra [learned_courtier.GetFirstNameNicknamed], un membro colto della mia corte. [learned_courtier.GetSheHe|U] mi guarda, [learned_courtier.Custom('quirk_pos_adverb')], prima di annunciare: 'Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|l], sai qual è l'unico vero rimedio per un cuore spezzato... #bold imparare!#!'\n\nValuto [learned_courtier.GetFirstNameNoTooltip] con qualche dubbio, ma forse [learned_courtier.GetSheHe] ha ragione? Dovrei dedicarmi agli studi?"
+  agot_widowed_events.0005.a: "Devo farlo!" #Breve a causa delle icone dei tratti.
+  agot_widowed_events.0005.b: "I libri sono per i deboli."
+  agot_widowed_events.0005.maester.tt: "Abbandoni tutte le possessioni mondane per diventare un maestro."
+
+  agot_widowed_events.0006.t: "Un Amore... per il Bere"
+  agot_widowed_events.0006.desc: "Nulla in questo mondo sostituirà [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic o almeno così pensavo.#!\n\nUna notte trascorsa a girovagare nelle parti più malfamate di [location.GetName] mi porta in una vivace taverna con [party_friend.GetFirstName]. 'Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|l], ti mostrerò come divertirti — #bold e dimenticare tutta la tua tristezza,#!' proclama [party_friend.GetSheHe].\n\nI suoni dei peccati intorno a me inondano i miei sensi. Assaggio, alzando il calice per brindare alla folla."
+  agot_widowed_events.0006.a: "Questa sarà una notte per... #bold dimenticare!#!"
+  agot_widowed_events.0006.a.tt: "La tua dissolutezza potrebbe avere conseguenze."
+  agot_widowed_events.0006.b: "Un brindisi a [widowed_memory.GetFirstName], il mio amato!"
+
+  agot_widowed_events.0007.t: "Un Amore... per il Giardinaggio"
+  agot_widowed_events.0007.desc: "Il tempo è passato eppure sento ancora una pungente tristezza pensando al mio caro [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Come posso superare questo amore?#!\n\nHo trascorso gran parte del mio tempo appena liberato all'aperto, lasciando che la natura diventasse la mia compagna. Forse pianterò un albero in onore del mio amore che crescerà?"
+  agot_widowed_events.0007.a: "Resterà come un monumento al nostro amore."
+  agot_widowed_events.0007.b: "Questo è tutto spazzatura..."
+
+  agot_widowed_events.0008.t: "Un Nuovo Amore: Un Cucciolo"
+  agot_widowed_events.0008.desc: "Nulla in questo mondo sostituirà [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic o almeno così pensavo.#!\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] viene da me, tenendo per il collo un cucciolo tra le mani. 'Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|l], questo giovane cucciolo è la cura perfetta per la tristezza che provi,' dice [pet_giver.GetFirstNameNoTooltip]. 'Vuoi dargli una casa?'"
+  agot_widowed_events.0008.a: "Un nuovo animale domestico potrebbe riempire il vuoto nella mia vita..."
+  agot_widowed_events.0008.b: "Sono più un amante dei gatti."
+
+  agot_widowed_events.0009.t: "Un Nuovo Amore: Un Gattino"
+  agot_widowed_events.0009.desc: "Nulla in questo mondo sostituirà [widowed_memory.GetFirstNameNicknamedPossessiveNoTooltip] [widowed_memory.Custom('quirk_pos_noun')]... #italic o almeno così pensavo.#!\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', pet_giver)] [pet_giver.GetFirstName] viene da me, tenendo per il collo un cucciolo tra le mani. 'Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|l], questo giovane gattino è la cura perfetta per la tristezza che provi,' dice [pet_giver.GetFirstNameNoTooltip]. 'Vuoi dargli una casa?'"
+  agot_widowed_events.0009.a: "Un nuovo animale domestico potrebbe riempire il vuoto nella mia vita..."
+  agot_widowed_events.0009.b: "Sono più un amante dei cani."
+
+  agot_widowed_events.0010.t: "Amore Congelato"
+  agot_widowed_events.0010.desc: "Sembra solo ieri che [Select_CString(widowed_memory.IsFemale,'la mia cara','il mio caro')] [widowed_memory.GetFirstNameNicknamedNoTooltip] camminava ancora su questa terra, sempre [widowed_memory.Custom('quirk_pos_adjective')], [widowed_memory.Custom('quirk_pos_pp')] e lasciandomi desiderare il suo tocco. Se solo potessi avere un altro giorno con [widowed_memory.GetSheHe]...\n\nAnche se il tempo scorre avanti, non credo che mi risposerò mai più."
+  agot_widowed_events.0010.a: "Terrò [widowed_memory.GetSheHe] con me."
+  agot_widowed_events.0010.b: "Forse ho solo bisogno di più tempo."

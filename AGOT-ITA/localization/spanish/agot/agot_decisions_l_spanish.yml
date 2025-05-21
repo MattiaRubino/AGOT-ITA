@@ -1,0 +1,335 @@
+﻿l_spanish: 
+  I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "Almeno tre dei tuoi antenati appartengono alla tua attuale [house|E] e hanno governato il tuo [primary_title|E] per almeno dieci anni."
+  I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:2 "Meno di tre dei tuoi antenati appartengono alla tua attuale [house|E] e hanno governato il tuo [primary_title|E] per almeno dieci anni."
+
+  start_contraceptives_decision:0 "Usare Contracettivi"
+  start_contraceptives_decision_desc:0 "Consultando un medico posso ottenere contraccettivi, come l'infuso di luna, che possono essere utilizzati per assicurarmi che i miei occasionali flirt non portino a figli."
+  start_contraceptives_decision_tooltip:0 "Sacrifica parte del tuo [income|E] per ridurre la tua [fertility|E]."
+  start_contraceptives_decision_confirm:0 "Sono pronto."
+
+  stop_contraceptives_decision:0 "Smettere di Usare Contracettivi"
+  stop_contraceptives_decision_desc:0 "È ora di mettere da parte erbe e unguenti. Potrei non aver voluto figli prima, ma è giunto il momento di portare figli e figlie nel mondo."
+  stop_contraceptives_decision_tooltip:0 "Smetti di sacrificare parte del tuo [income|E] per ridurre la tua [fertility|E]."
+  stop_contraceptives_decision_confirm:0 "Lascia che la natura segua il suo corso."
+
+  weirwood_meditate_decision:0 "Meditare presso un Albero Cuore"
+  weirwood_meditate_decision_desc:0 "Indipendentemente dalla fede, pochi luoghi nel mondo possono eguagliare un Parco degli Dei in termini di tranquillità e solitudine ultraterrena. Forse dovrei visitare l'albero cuore per chiedere qualche consiglio."
+  weirwood_meditate_decision_tooltip:0 "Visiterai il Parco degli Dei per una possibilità di rinnovamento."
+  weirwood_meditate_decision_confirm:0 "Gli alberi mi chiamano."
+
+  # House Revival
+  house_revival_tooltip:0 "Per violenza o destino, questa casata è estinta, ma a causa della sua storia rinomata può essere resuscitata."
+  darklyn_revival_decision:0 "Risuscitare Casa Darklyn"
+  darklyn_revival_desc:0 "Nell'Età dei Cento Regni, Casa Darklyn di Duskendale regnava come re, rivendicando la foce del Fiume delle Acque Nere. L'ultimo Lord Darklyn perse il suo seggio, le sue terre e la sua vita quando prese prigioniero il suo re. Il prezzo per la sua sfida fu la rovina della sua famiglia. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  darklyn_revival_decision_confirm:0 "Sotto la Luce Fioca dell'Alba"
+  reyne_revival_decision:0 "Risuscitare Casa Reyne"
+  reyne_revival_desc:0 "Casa Reyne fa risalire la sua discendenza ai Primi Uomini nell'Età degli Eroi, costruendo il loro seggio di Castamere intorno a un ricco sistema di miniere, assicurandosi così un grande potere nelle Terre dell'Ovest. Casa Reyne incontrò la sua rovina quando il Lord Roger Reyne rifiutò di pagare i suoi debiti e si ribellò contro Casa Lannister. La loro ribellione si concluse rapidamente con l'estinzione della loro dinastia. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  reyne_revival_decision_confirm:0 "Lunga e Affilata"
+  gardener_revival_decision:0 "Risuscitare Casa Gardener"
+  gardener_revival_desc:0 "Molte casate sono dette discendere dal leggendario Garth Greenhand, nessuna più prestigiosa di Casa Gardener. L'ultimo Re Gardener Mern IX e i suoi parenti furono bruciati vivi al Campo di Fuoco nel 1 AC, ponendo fine alla dinastia Gardener. Le loro terre furono date a Casa Tyrell che aveva servito fedelmente come loro amministratori. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  gardener_revival_decision_confirm:0 "L'Albero Più Alto"
+  durrandon_revival_decision:0 "Risuscitare Casa Durrandon"
+  durrandon_revival_desc:0 "Nell'Età degli Eroi, il leggendario Re Durran Godsgrief eresse il castello Capo Tempesta e fondò il Regno delle Terre della Tempesta, cementando così il dominio di Casa Durrandon. Secoli dopo, il suo discendente Argilac l'Arrogante perse il suo regno e la sua vita — le sue terre e sua figlia date a Lord Orys Baratheon, ponendo fine alla dinastia Durrandon. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  durrandon_revival_decision_confirm:0 "Nostra è la furia"
+  stark_revival_decision:0 "Risuscitare Casa Stark"
+  stark_revival_desc:0 "Per destino e sfortuna, l'antica casa di Bran il Costruttore è estinta, ponendo fine a migliaia di anni di dominio degli Stark a Grande Inverno. Ho riconquistato Grande Inverno — forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo... Perché deve sempre esserci uno Stark a Grande Inverno."
+  stark_revival_decision_confirm:0 "L'Inverno Sta Arrivando"
+  arryn_revival_decision:0 "Risuscitare Casa Arryn"
+  arryn_revival_desc:0 "Per destino e sfortuna, l'antica casa del Cavaliere del Falco è estinta, ponendo fine a migliaia di anni di dominio degli Arryn nella Valle. Ho riconquistato Nido dell'Aquila — forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  arryn_revival_decision_confirm:0 "In alto come l'Onore"
+  lannister_revival_decision:0 "Risuscitare Casa Lannister"
+  lannister_revival_desc:0 "Per destino e sfortuna, l'antica casa di Lann l'Astuto è estinta, ponendo fine a migliaia di anni di dominio dei Lannister. Ho riconquistato Castel Granito — forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+  lannister_revival_decision_confirm:0 " Udite il mio Ruggito!"
+  hoare_revival_decision:0 "Risuscitare Casa Hoare"
+  hoare_revival_desc:0 "Per migliaia di anni la mia famiglia ha governato le Isole di Ferro, mietendo ferro e terrore lungo le coste di Westeros. Fu solo attraverso il fuoco dei draghi che fummo umiliati — ma ancora resistiamo. Ho riconquistato Orkmont, la nostra casa ancestrale. Forse è il momento di rifondare la [dynasty|E] di Qhored il Crudele, con me stesso come capo."
+  hoare_revival_decision_confirm:0 "Sferzato nel sangue"
+
+  dynamic_bastard_house_revival_decision:0 "Rinascita della Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
+  dynamic_bastard_house_revival_decision_desc:0 "La Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] si è estinta. In quanto discendente diretto, posso rivendicarne l’eredità e il nome."
+  dynamic_bastard_house_revival_decision_confirm:0 "La Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] rinascerà dalle ceneri!"
+  dynamic_bastard_house_revival_decision_bastard:0 "La tua [house|e] è un [bastard_branch|e]"
+  dynamic_bastard_house_revival_decision_westeros_needs_legitimization:0 "[top_liege.GetName] ascolterà la tua petizione per assumere il nome, il motto e le armi della Casa [bastard_house_of.GetName]."
+
+
+  set_capital_kingslanding_decision:0 "Rivendica Approdo del Re"
+  set_capital_kingslanding_decision_confirm:0 "Ripristina la vera sede dei Sette Regni!"
+  set_capital_kingslanding_decision_desc:0 "Approdo del Re è la capitale dei Sette Regni del Trono di Spade e come tale appartiene legittimamente a me."
+  set_capital_kingslanding_decision_tooltip:0 "Ripristina Approdo del Re come capitale del tuo Regno."
+
+
+  ######## Emperor reclaims KL from you
+  agot_events_generic.0002.t:0 "Miserabile [ROOT.Char.Custom('GirlBoy')],"
+  agot_events_generic.0002.desc_vassal:0 "Ti ho strappato via dalla sporcizia, e posso rimetterti lì dentro di nuovo! Non hai davvero #EMP mai#! pensato che #EMP Approdo del Re#!, l'ultimo pilastro di erudizione su questa terra spregevole, potesse essere davvero tuo! Né tanto meno il tuo più piccolo dito è degno di calpestare i suoi mattoni scintillanti! Resterà tua, o altrimenti le Acque Nere saranno la tua fossa di annegamento — ti ci getterò dentro personalmente, se necessario."
+  agot_events_generic.0002.a:0 "Me ne stavo solo occupando per te!"
+  agot_events_generic.0002.b:0 "Spero che il tuo posteriore lamentoso venga tagliato sul Trono di Spade."
+
+
+
+  ############################
+  ## Knighting Decision Loc ##
+  ############################
+
+  agot_buy_knighthood_decision:0 "Comprare il Cavalierato"
+  agot_buy_knighthood_decision_desc:0 "Mentre la pressione sociale vieta la vendita e l'acquisto del cavalierato, ci saranno sempre persone disposte a venderlo per il giusto prezzo. Per circostanze non importanti, non sono stato nominato cavaliere fino a questo momento della mia vita. Usando la mia influenza e la mia ricchezza, posso sicuramente rimediare."
+  agot_buy_knighthood_decision_desc_outsider:0 "Mentre il cavalierato non è particolarmente apprezzato o addirittura rilevante nel mio background, diventare un cavaliere mi interessa comunque. Trovare una persona disposta a fare cavaliere un #italic estraneo#! sarà difficile, ma sono sicuro di poter trovare qualcuno disposto per il giusto prezzo."
+  agot_buy_knighthood_decision_confirm:0 "Compralo!"
+  agot_buy_knighthood_decision_tooltip:0 "Compra il cavalierato"
+  agot_decision_bought_knighthood_effect_tt:0 "Il tuo #V nucleo familiare#! sarà informato del tuo cavalierato."
+
+  ############################
+  ## Mostra Localizzazione Acciaio Valyriano ##
+  ############################
+  #show_valyrian_steel_decision:0 "Mostra Spade in Acciaio Valyriano"
+  #show_valyrian_steel_decision_desc:0 "Portami l'elenco di tutte le spade in acciaio valyriano conosciute."
+  #show_valyrian_steel_decision.tt:0 "Ti verrà presentato un elenco di tutti coloro che possiedono le spade in acciaio valyriano"
+  #show_valyrian_steel_decision_confirm:0 "Mostramelo!"
+  #show_valyrian_steel_decision_tooltip:0 "Ti verrà presentato un elenco di tutti i possessori conosciuti di spade in acciaio valyriano"
+
+  reforge_valyrian_steel_decision:0 "Riforgiare Lama in Acciaio di Valyria"
+  reforge_valyrian_steel_decision_desc:0 "Desidero forgiare una nuova lama secondo le mie idee"
+  reforge_valyrian_steel_decision.tt:0 "Inizierai il processo di riforgiare una lama in acciaio di Valyria in tuo possesso"
+  reforge_valyrian_steel_decision_confirm:0 "Chiamate lo speziale!"
+  reforge_valyrian_steel_decision_tooltip:0 "Inizierai il processo di riforgiare una lama in acciaio di Valyria in tuo possesso"
+  reforge_valyrian_steel_excellent_aptitude:0 "Il tuo $court_smith_court_position$ deve avere un’attitudine di livello #V Eccellente#!, con conoscenze nella riforgiatura dell’Acciaio di Valyria o appartenere a una fede con il precetto [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
+
+  # Dawn
+  claim_dawn_unworthy_decision:0 "Rivendica Alba"
+  claim_dawn_unworthy_decision_desc:0 "La spada è mia di diritto, 'degno' o no, la rivendico come mia."
+  claim_dawn_unworthy_decision_tooltip:0 "Rivendica la leggendaria spada Alba come tua"
+  claim_dawn_unworthy_decision_confirm:0 "Rivendica"
+  claim_dawn_worthy_decision:0 "Rivendica Alba"
+  claim_dawn_worthy_decision_desc:0 "Credo di essere degno."
+  claim_dawn_worthy_decision_tooltip:0 "Rivendica la leggendaria spada Alba come tua"
+  claim_dawn_worthy_decision_confirm:0 "Sono degno!"
+
+  #Brightroar
+  recover_brightroar_decision:0 "Recupera Ruggibrillante"
+  recover_brightroar_decision_desc:0 "Finanzierò un coraggioso esploratore affinché si avventuri tra le rovine insidiose della Vecchia Valyria alla ricerca di Ruggibrillante, la spada ancestrale della Casa Lannister."
+  recover_brightroar_decision_tooltip:0 "Organizza una spedizione per recuperare Ruggibrillante"
+  recover_brightroar_decision_confirm:0 "Prepara una nave"
+
+  ###############################################################
+  ## Manage Realm Affairs - World Notification Config Decision ##
+  ###############################################################
+
+ #Decision localization
+
+  manage_realm_affairs_decision:0 "Gestire gli Affari del Regno"
+  manage_realm_affairs_decision_desc:0 "Petizioni, eredità al di fuori del mio dominio... le decisioni quotidiane possono diventare fastidiose. Davvero devo essere disturbato da tutto questo?\n\nPosso notificare ai miei servitori che non desidero essere disturbato dalle notizie di questioni futili."
+  manage_realm_affairs_decision_tooltip:0 "Scegli di quali eventi nel regno desideri rimanere informato."
+  manage_realm_affairs_decision_confirm:0 "Chiamare un servo."
+  manage_realm_affairs_decision_effect:0 "Scegli quali questioni devono essere portate direttamente davanti a te, o scopri di più riguardo le segnalazioni provenienti da tutto il mondo"
+  CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Seleziona Argomento"
+
+  choose_petitioners_and_homage_name:0 "Petizioni & Omaggi"
+  choose_petitioners_and_homage_tooltip:0 "Scegli se desideri ricevere petizioni e omaggi"
+  choose_foreign_succession_name:0 "Eredità Straniere"
+  choose_foreign_realms_succession_tooltip:0 "Scegli se desideri essere informato sulle successioni straniere"
+
+  choose_foreign_succession_invalid:0 "Tu governi già il Trono di Spade!"
+  choose_nights_watch_elections_name:0 "Elezioni della Guardia della Notte"
+  choose_nights_watch_elections_tooltip:0 "Scegli se desideri essere informato quando viene eletto un nuovo Lord Comandante della Guardia della Notte"
+  choose_nights_watch_elections_invalid:0 "Tu sei già il Lord Comandante!"
+  choose_show_valyrian_steel_name:0 "Acciaio Valyriano"
+  choose_show_valyrian_steel_tooltip:0 "Ti verrà presentato un elenco di tutti i possessori conosciuti di lame in acciaio di Valyria"
+ 
+  choose_dragons_name:0 "Draghi"
+  choose_dragons_tooltip:0 "Scegli se desideri essere informato delle notizie relative ai [dragons_plural|E] oppure se preferisci ricevere un elenco di tutti i draghi e delle loro uova"
+  choose_house_feuds:0 "Faide tra Casate"
+  choose_house_feuds_desc:0 "Ti verrà mostrato un elenco di tutte le [house_feuds|E] conosciute"
+  choose_house_feuds_tooltip:0 "Ti verrà mostrato un elenco di tutte le [house_feuds|E] conosciute"
+
+  choose_dragon_trees:0 "Alberi Genealogici dei Draghi"
+  choose_dragon_trees_tooltip:0 "Ti verrà mostrato un elenco di tutte le [dragon_matriarchs|E] conosciute"
+
+  choose_banks:0 "Banche"
+  choose_banks_desc:0 "Ti verrà mostrato un elenco di tutte le banche conosciute"
+  choose_banks_tooltip:0 "Ti verrà mostrato un elenco di tutte le banche conosciute"
+
+  # DLC Tooltips
+  agot_requires_rc:0 "Questa opzione richiede il DLC Royal Court"
+  agot_requires_court:0 "Questa opzione richiede [royal_court|E]"
+  agot_requires_fnf:0 "Questa opzione richiede il DLC Friends and Foes"
+  agot_requires_rtp:0 "Questa opzione richiede il DLC Roads to Power"
+
+  #Fallback event
+  global_events_settings.0001.t:0 "Affari del Regno"
+  global_events_settings.0001.desc:0 "Le decisioni quotidiane del regno stanno prendendo troppo del mio tempo ultimamente...\n\nMentre un altro affare mi viene portato all'attenzione da uno dei miei servitori, mi chiedo se davvero ho bisogno di essere disturbato da tutto ciò."
+
+  global_events_settings.0001.dragonrider_death_toggle_on:0 "Tienimi informato sulla morte dei cavalieri dei draghi."
+  global_events_settings.0001.dragonrider_death_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che muore un cavaliere dei draghi."
+  global_events_settings.0001.dragonrider_death_toggle_off:0 "La morte dei cavalieri dei draghi non mi interessa."
+  global_events_settings.0001.dragonrider_death_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che muore un cavaliere dei draghi."
+  global_events_settings.0001.dragon_death_toggle_on:0 "Tienimi informato sulla morte dei draghi."
+  global_events_settings.0001.dragon_death_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che muore un drago."
+  global_events_settings.0001.dragon_death_toggle_off:0 "La morte dei draghi non mi interessa."
+  global_events_settings.0001.dragon_death_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che muore un drago."
+  global_events_settings.0001.inform_dragon_egg_hatched_toggle_on:0 "Tienimi informato sulle uova di drago che si schiudono."
+  global_events_settings.0001.inform_dragon_egg_hatched_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che un uovo di drago si schiude."
+  global_events_settings.0001.inform_dragon_egg_hatched_toggle_off:0 "Le uova di drago che si schiudono non mi interessano."
+  global_events_settings.0001.inform_dragon_egg_hatched_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un uovo di drago si schiude."
+  global_events_settings.0001.inform_dragon_tamed_toggle_on:0 "Tienimi informato sui draghi che vengono domati."
+  global_events_settings.0001.inform_dragon_tamed_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che un drago viene domato."
+  global_events_settings.0001.inform_dragon_tamed_toggle_off:0 "I draghi che vengono domati non mi interessano."
+  global_events_settings.0001.inform_dragon_tamed_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un drago viene domato."
+
+  global_events_settings.0001.vs_blades:0 "Riguardo ai portatori dell'acciaio di Valyria..."
+  global_events_settings.0001.petitioners:0 "Riguardo alle petizioni e agli omaggi..."
+  global_events_settings.0001.it_succession:0 "Riguardo al Trono di Spade..."
+  global_events_settings.0001.nw_elections:0 "Riguardo alle elezioni della Guardia della Notte..."
+  global_events_settings.0001.mute_plagues:0 "Riguardo alle epidemie..."
+  global_events_settings.0001.dragon_categories:0 "Riguardo ai draghi e alle lor uova..."
+  global_events_settings.0001.dragon_trees:0 "Informazioni sugli alberi genealogici dei draghi..."
+  global_events_settings.0001.house_feuds:0 "Informazioni sulle faide tra casate..."
+  global_events_settings.main_screen:0 "C'è qualcos'altro..."
+  global_events_settings.dismiss:0 "È tutto."
+  #Petitioners & Homage
+  global_events_settings.0002.t:0 "$global_events_settings.0001.t$"
+  global_events_settings.0002.desc:0 "$global_events_settings.0001.desc$"
+  global_events_settings.0002.less_homage:0 "Lascia che i miei vassalli paghino omaggio a un ritmo ragionevole."
+  global_events_settings.0002.less_homage.tt:0 "Vedrai la normale quantità di vassalli che pagano omaggio."
+  global_events_settings.0002.more_homage:0 "Tutti devono farmi omaggio."
+  global_events_settings.0002.more_homage.tt:0 "Ti occuperai di #N #bold MOLTI DI PIÙ#!#! vassalli che he vi rendono omaggi."
+  global_events_settings.0002.homage_on:0 "Che i signori del regno mi rendano nuovamente omaggio."
+  global_events_settings.0002.homage_on.tt:0 "Permetterai nuovamente #P #bold AI VASSALLI#!#! di renderti omaggio."
+  global_events_settings.0002.homage_off:0 "Non ho interesse per l'omaggio."
+  global_events_settings.0002.homage_off.tt:0 "Cesserai di permettere ai vassalli di renderti omaggio."
+  global_events_settings.0002.petitioners_on:0 "Che i signori del regno mi presentino nuovamente le loro petizioni."
+  global_events_settings.0002.petitioners_on.tt:0 "Permetterai nuovamente #P #bold AI Petitori#!#! di presentarti le loro richieste."
+  global_events_settings.0002.petitioners_off:0 "Non voglio vedere più petizioni."
+  global_events_settings.0002.petitioners_off.tt:0 "Cesserai #N #bold di Permettere#!#! petizioni."
+
+  #Successione del Trono di Spade
+  global_events_settings.0003.t:0 "$global_events_settings.0002.t$"
+  global_events_settings.0003.desc:0 "$global_events_settings.0002.desc$"
+  global_events_settings.0003.it_toggle_on:0 "Tienimi informato sulla successione del Trono di Spade."
+  global_events_settings.0003.it_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato sulla successione del Trono di Spade."
+  global_events_settings.0003.it_toggle_off:0 "La successione del Trono di Spade non mi interessa."
+  global_events_settings.0003.it_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un nuovo sovrano sale sul Trono di Spade."
+
+  #Elezioni della Guardia della Notte
+  global_events_settings.0004.t:0 "$global_events_settings.0002.t$"
+  global_events_settings.0004.desc:0 "$global_events_settings.0002.desc$"
+  global_events_settings.0004.nw_toggle_on:0 "Gli affari della Guardia della Notte mi interessano."
+  global_events_settings.0004.nw_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato sulle elezioni della Guardia della Notte."
+  global_events_settings.0004.nw_toggle_off:0 "Le azioni della Guardia della Notte non mi riguardano."
+  global_events_settings.0004.nw_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che viene eletto un nuovo Lord Comandante della Guardia della Notte."
+  agot_house_maintenance.1000.t:0 "Visualizza le Faide tra Casate"
+  agot_house_maintenance.1000.desc:0 "Mio signore, ecco tutte le faide tra casate attualmente conosciute:"
+  agot_house_maintenance.1000.desc_none:0 "Mio signore, al momento non ci sono faide tra casate conosciute."
+
+  ###############################################################
+  ## Gestione della Banca ##
+  ###############################################################
+  # Localizzazione decisione
+  manage_bank_decision:0 "Gestisci la Banca"
+  manage_bank_decision_desc:0 "In qualità di [agot_bank_director|El], ho molti mezzi a disposizione per guidare la [agot_bank|El] verso un futuro redditizio."
+  manage_bank_decision_tooltip:0 "Scegli quali politiche bancarie desideri modificare"
+  manage_bank_decision_confirm:0 "Convoca uno scriba."
+  manage_bank_decision_effect:0 "Scegli quali politiche bancarie desideri modificare"
+  CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON:0 "Seleziona Argomento"
+
+  set_risk_level_name:0 "Modifica Livello di Rischio"
+  set_risk_level_tooltip:0 "Potrai scegliere tra livelli di [agot_bank_risk_levels_l|E] basso, medio e alto per prestiti e investimenti."
+
+  set_dividend_level_name:0 "Regola i Dividendi"
+  set_dividend_level_tooltip:0 "Potrai scegliere tra aliquote di [agot_bank_dividends|El] basse, medie e alte."
+
+  set_interest_level_name:0 "Regola i Tassi d’Interesse"
+  set_interest_level_tooltip:0 "Potrai scegliere tra tassi di [agot_bank_interest_rates_l|E] più bassi, normali o più alti. Più basso è il tasso, più clienti attirerai, ma i tuoi [agot_bank_profits|El] per prestito saranno minori, e viceversa."
+
+  delegate_defaulter_handling_name:0 "Delega la Gestione degli Insolventi"
+  delegate_defaulter_handling_tooltip:0 "Non riceverai più messaggi riguardo i debitori inadempienti."
+
+  handle_defaulters_again_name:0 "Gestisci gli Insolventi"
+  handle_defaulters_again_tooltip:0 "Riceverai un messaggio ogni volta che si verificherà un'inadempienza."
+
+  investments_forbidden_name:0 "Rifiuta Nuovi Investimenti"
+  investments_forbidden_tooltip:0 "Solo tu potrai investire nella banca."
+
+  investments_allowed_name:0 "Permetti Nuovi Investimenti"
+  investments_allowed_tooltip:0 "Ogni personaggio nel tuo dominio potrà investire nella banca."
+
+  #####################################
+  ## adopt_personal_coa Decision Loc ##
+  #####################################
+
+  adopt_personal_coa:0 "Adotta un Set di Armi Personali"
+  adopt_personal_coa_desc:0 "Un set di [agot_personal_coa|e] può distinguermi ulteriormente dalla mia casa e dalla mia famiglia."
+  adopt_personal_coa_confirm:0 "Fallo."
+
+  adopt_personal_coa_tooltip:0 "Adotta un Set di Armi Personali"
+  adopt_personal_coa_effect_tt:0 "Acquisirai un stemma personale che sarà visualizzato accanto al sigillo della tua casa."
+
+  pcoa_plain:0 "Stemma Semplice"
+  pcoa_plain_tooltip:0 "Otterrai uno stemma personale identico a quello della tua Casata. Perfetto per la personalizzazione."
+
+  pcoa_nickname:0 "Stemma Basato sul Soprannome"
+  pcoa_nickname_tooltip:0 "Otterrai uno stemma personale basato sul tuo soprannome."
+
+  pcoa_ancestral_quartering:0 "Stemma Quartato Ancestrale"
+  pcoa_ancestral_quartering_tooltip:0 "Otterrai uno stemma personale quartato con quello di una Casata ancestrale."
+
+  pcoa_religious:0 "Stemma Basato sulla Fede"
+  pcoa_religious_tooltip:0 "Otterrai uno stemma personale basato sulla tua fede."
+
+  pcoa_fourth_child:0 "Stemma del Quarto [CHARACTER.Custom('GetDaughterSon')|U]"
+  pcoa_fourth_child_tooltip:0 "Otterrai uno stemma personale con quello della tua Casata ripetuto quattro volte."
+
+  adopt_personal_coa_decision_next_stop_button:0 "Continua"
+  personal_coa_name_gui:0 "Stemma Personale"
+  coa_new_name:0 ""
+  pcoa_random:0 "Stemma Casuale"
+  pcoa_random_tooltip:0 "Otterrai uno stemma personale generato casualmente."
+
+  CUSTOMIZE_PERSONAL_ARMS:0 "#T Personalizza [agot_personal_coa|e]#!\nApri il menu di personalizzazione per modificare le tue armi personali."
+
+
+  #####################################
+  ## Epidemic Isolate Realm Decision ##
+  #####################################
+  ########### Close Option
+  control_realm_borders_close_decision:0 "Isolare il Regno"
+  control_realm_borders_decision:0 "Inizia Isolamento"
+  control_realm_borders_decision_desc:0 "$control_realm_borders_decision$"
+  control_realm_borders_decision_tooltip:0 "Restringi i viaggi nel tuo regno per prevenire la diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_decision_alert_tt:0 "Il tuo regno deve essere libero da [epidemics|E] [plague_apocalyptic|E]."
+  control_realm_borders_decision_confirm:0 "$control_realm_borders_decision$"
+  # Descrizione di apertura
+  control_realm_borders_close_decision_opening_desc.dorne:0 "Posso restringere i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], per prevenire la diffusione dell'infezione nel mio dominio. Questo è normalmente molto efficace."
+  control_realm_borders_close_decision_opening_desc.vale:0 "Posso restringere i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], per prevenire la diffusione dell'infezione nel mio dominio. Questo è normalmente molto efficace."
+  control_realm_borders_close_decision_opening_desc.north:0 "Posso restringere i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], per prevenire la diffusione dell'infezione nel mio dominio. Questo è normalmente molto efficace."
+  control_realm_borders_close_decision_opening_desc.iron_islands:0 "Posso restringere i viaggi nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], per prevenire la diffusione dell'infezione nel mio dominio. Questo è normalmente molto efficace."
+  # Tooltip Descrizione
+  control_realm_borders_close_decision_tooltip.dorne:0 "Restringi i viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] per prevenire la diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_decision_tooltip.vale:0 "Restringi i viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] per prevenire la diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_decision_tooltip.north:0 "Restringi i viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] per prevenire la diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_decision_tooltip.iron_islands:0 "Restringi i viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] per prevenire la diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  # Descrizione Effetto
+  control_realm_borders_close_effect_tt.dorne:0 "Restringerai i viaggi verso [title.GetName] e sarai altamente resistente alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_effect_tt.vale:0 "Restringerai i viaggi verso [title.GetName] e sarai altamente resistente alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_effect_tt.north:0 "Restringerai i viaggi verso [title.GetName] e sarai altamente resistente alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_close_effect_tt.iron_islands:0 "Restringerai i viaggi verso [title.GetName] e sarai altamente resistente alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+
+  ########### Opzione Aprire
+  control_realm_borders_open_decision:0 "Termina l'Isolamento del Regno"
+  uncontrol_realm_borders_decision:0 "Termina Isolamento"
+  uncontrol_realm_borders_decision_desc:0 "$uncontrol_realm_borders_decision$"
+  uncontrol_realm_borders_decision_tooltip:0 "Permetti viaggi nel tuo regno con il rischio di diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  uncontrol_realm_borders_decision_alert_tt:0 "Il tuo regno deve essere stato precedentemente isolato da [epidemics|E] [plague_apocalyptic|E]."
+  uncontrol_realm_borders_decision_confirm:0 "$uncontrol_realm_borders_decision$"
+  # Descrizione di apertura
+  control_realm_borders_open_decision_opening_desc.dorne:0 "Posso permettere nuovamente i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma sarò a maggior rischio di diffusione infettiva."
+  control_realm_borders_open_decision_opening_desc.vale:0 "Posso permettere nuovamente i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma sarò a maggior rischio di diffusione infettiva."
+  control_realm_borders_open_decision_opening_desc.north:0 "Posso permettere nuovamente i viaggi sulle strade e nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma sarò a maggior rischio di diffusione infettiva."
+  control_realm_borders_open_decision_opening_desc.iron_islands:0 "Posso permettere nuovamente i viaggi nei porti di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma sarò a maggior rischio di diffusione infettiva."
+  # Tooltip Descrizione
+  control_realm_borders_open_decision_tooltip.dorne:0 "Permetti viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] con il rischio di diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_decision_tooltip.vale:0 "Permetti viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] con il rischio di diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_decision_tooltip.north:0 "Permetti viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] con il rischio di diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_decision_tooltip.iron_islands:0 "Permetti viaggi verso [ROOT.Char.GetPrimaryTitle.GetName] con il rischio di diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  # Descrizione Effetto
+  control_realm_borders_open_effect_tt.dorne:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_effect_tt.vale:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_effect_tt.north:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+  control_realm_borders_open_effect_tt.iron_islands:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."

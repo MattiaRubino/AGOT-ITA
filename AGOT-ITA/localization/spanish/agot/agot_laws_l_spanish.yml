@@ -1,0 +1,66 @@
+﻿l_spanish:
+
+  title_succession_laws_singular:0 "[succession_law|e]"
+
+  # Silent Sisters
+  the_silent_sisterhood_succession_law:0 "Successione della Sorella Silenziosa"
+
+  # Guardiani della Notte
+  night_watch_centralization:0 "Guardiani della Notte"
+  night_watch_centralization_0:0 "Nessuna Organizzazione dei Guardiani della Notte"
+  night_watch_centralization_1:0 "Organizzazione Limitata dei Guardiani della Notte"
+  night_watch_centralization_2:0 "Alta Organizzazione dei Guardiani della Notte"
+  night_watch_centralization_3:0 "Organizzazione Assoluta dei Guardiani della Notte"
+
+  slavery_laws:0 "Schiavitù"
+  slavery_laws_singular:0 "Politica sulla Schiavitù"
+  slavery_disallowed_law:0 "Schiavitù Proibita"
+  slavery_disallowed_law_effect:1 "Nessuna forma di schiavitù è tollerata. I sovrani possono accedere al [casus_bellis|E] #V Liberazione degli Schiavi#!."
+  slavery_allowed_law:0 "Schiavitù Permessa"
+  slavery_allowed_law_effect:0 "I sovrani possono [buildings|E] e usare le linee di edifici $building_type_agot_slave_camps_01$ e vendere prigionieri come schiavi. I sovrani possono usare il [casus_bellis|E] #V Incursione per Schiavi#! per riempire i loro campi di schiavitù."
+
+  SLAVERY_LAW_IS_ON_COOLDOWN:0 "Hai modificato di recente le Leggi sulla Schiavitù. Potrai cambiarle di nuovo dopo [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]"
+  SLAVERY_CRIMINAL_UNDER_FAITH:0 "La tua fede considera la schiavitù un crimine"
+
+  DRAGONPIT_LAW_IS_ON_COOLDOWN:0 "Hai modificato di recente le Leggi sulla Fossa del Drago. Potrai cambiarle di nuovo dopo [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]"
+
+  dragonpit_laws:0 "Leggi d’Accesso alla Fossa del Drago"
+  dragonpit_laws_singular:0 "Politica d’Accesso alla Fossa del Drago"
+  dragonpit_close_family_law:0 "Solo Famiglia Stretta"
+  dragonpit_close_family_law_effects:0 "I [dragons_plural|E] nella tua [dragonpit|e] possono essere cavalcati solo dai [close_family_members|e]"
+  dragonpit_house_law:0 "Solo Casata"
+  dragonpit_house_law_effects:0 "I [dragons_plural|E] nella tua [dragonpit|e] possono essere cavalcati solo dai membri della [house|e]"
+  dragonpit_dynasty_law:0 "Solo Dinastia"
+  dragonpit_dynasty_law_effects:0 "I [dragons_plural|E] nella tua [dragonpit|e] possono essere cavalcati solo dai membri della [dynasty|e]"
+  dragonpit_everyone_law:0 "Tutti"
+  dragonpit_everyone_law_effects:0 "I [dragons_plural|E] nella tua [dragonpit|e] possono essere cavalcati da #warning chiunque#!"
+  YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT:0 "Ti è vietato l’accesso alla [dragonpit|e] dove si trova questo drago"
+
+  # Città Libere
+  franchise_laws: "Franchigia"
+  franchise_laws_singular: "Politica sulla Franchigia"
+  franchise_democratic_full: "Popolare"
+  franchise_lean_democratic: "Oligarchica"
+  franchise_lean_aristocratic: "Aristocratica"
+  franchise_aristocratic_full: "Patrizia"
+  franchise_theocratic: "Teocratica"
+
+  policy_laws: "Politica Estera"
+  policy_laws_singular: "$policy_laws$"
+  policy_mercantile_full: "Pacifista"
+  policy_lean_mercantile: "Mercantile"
+  policy_lean_militaristic: "Militarista"
+  policy_militaristic_full: "Imperialista"
+
+  term_length_laws: "Durata del Mandato"
+  term_length_laws_singular: "Politica sulla Durata del Mandato"
+  term_length_historical_laws: "Durata del Mandato"
+  term_length_historical_laws_singular: "Politica sulla Durata del Mandato"
+  term_length_historical: "Storica"
+  term_length_historical_effects: "I mandati elettivi si basano sulla durata storica delle tradizioni delle Città Libere"
+  term_length_short: "Mandati Brevi"
+  term_length_short_effects: "I mandati elettivi durano 5 anni"
+  term_length_long: "Mandati Lunghi"
+  term_length_long_effects: "I mandati elettivi durano 10 anni"
+  term_length_life: "Mandato a Vita"
+  term_length_life_effects: "Il mandato dura fino alla morte"

@@ -1,0 +1,123 @@
+﻿l_spanish:
+  agot_decisions_events.0001.t:0 "Un Regno Indiscusso"
+  agot_decisions_events.0001.desc:0 "Con la forza della mia posizione ora al di là di ogni dubbio, sono finalmente pronto a dichiarare il mio regno un vero e proprio regno. Queste terre sono state combattute e saccheggiate fin dalla Rovina di Valyria, ma finalmente le ho unite. Le Terre Disputate non saranno più devastate e saccheggiate come uno spettacolo di potere tra le altre Città Libere, ma invece si ergono sul potere del nostro stesso regno. Il mio regno."
+  agot_decisions_events.0001.a:0 "Possano prosperare a lungo i nostri regno."
+  agot_decisions_events.0001.b:0 "Finalmente, il mio sogno è stato realizzato..."
+
+  agot_decisions_events.0002.t:0 "$agot_decisions_events.0001.t$"
+  agot_decisions_events.0002.desc:0 "Andando sempre più forte, [founder.GetTitledFirstName] ha finalmente dichiarato il suo regno un vero e proprio regno.\n\nLa forza di questo regno ora unito è al di là di ogni dubbio."
+  agot_decisions_events.0002.a:0 "Dimostreremo a tutti di che pasta siamo fatti."
+  agot_decisions_events.0002.b:0 "Interessante."
+
+  agot_decisions_events.0003.t:0 "$agot_decisions_events.0001.t$"
+  agot_decisions_events.0003.desc:0 "Andando sempre più forte, [founder.GetTitledFirstName] ha finalmente dichiarato il suo regno un vero e proprio regno.\n\nLa forza di questo regno ora unito è al di là di ogni dubbio."
+  agot_decisions_events.0003.a:0 "Non dureranno a lungo!"
+  agot_decisions_events.0003.b:0 "Qualcosa a cui fare attenzione."
+  agot_decisions_events.0003.c:0 "Interessante."
+
+  k_undisputed_lands:0 "Terre Indiscusse"
+
+  bind_dragon_horn_decision:0 "Vincola il Corno del Drago"
+  bind_dragon_horn_decision_desc:0 "Un rituale di sangue stabilirà una connessione magica tra me e il corno del drago in mio possesso. Senza il vincolo, il corno non funzionerà correttamente."
+  bind_dragon_horn_decision_effect:0 "Cercherai di vincolarti al corno del drago — a un costo elevato."
+  bind_dragon_horn_decision_tooltip:0 "Conduci un rituale di vincolo del sangue con il corno del drago"
+  bind_dragon_horn_decision_confirm:0 "Prepara il rituale"
+
+  binding_available_prisoner:0 "Ha un prigioniero adulto da sacrificare."
+  binding_available_kin:0 "Ha parenti da sacrificare."
+  binding_available_soulmate:0 "Ha una persona amata da sacrificare."
+  binding_available_blood:0 "Non è danneggiato."
+
+  needs_the_rhllor_religion_chaplain:0 "Il tuo cappellano di corte segue la religione di R'hllor."
+  needs_the_flames_religion_chaplain:0 "Il tuo cappellano di corte segue la religione Valyriana."
+  needs_mystic_figure:0 "Un cortigiano ha lo stile di vita [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]."
+
+  agot_bloodbinding:0 "Vincolo del Sangue"
+
+  agot_decisions_events.0100.t:0 "$agot_bloodbinding$: Il Prezzo"
+  agot_decisions_events.0100.desc:0 ""Perché il vincolo sia efficace, deve essere pagato un prezzo," avverte [ritualist.GetFirstNameNicknamed], "e un prezzo elevato. La stregoneria come questa non cede facilmente... Cede #bold solo al sangue#!."\n\n"E non è tutto," continua [ritualist.GetSheHe]. "Il legame deve essere rinforzato con il fuoco. Sangue e fuoco, fuoco e sangue." [ritualist.GetSheHe|U] lascia che le parole rimangano nell'aria per un momento prima di continuare. "Il sacrificio di uno sconosciuto potrebbe andar bene, certo, se offri una goccia del proprio sangue...  Ma è meglio un'offerta personale, del proprio sangue o di quello di un parente stretto. Il costo sarà grande, ma la ricompensa sarà ancora maggiore.""
+  agot_decisions_events.0100.a:0 "Porta i prigionieri."
+  agot_decisions_events.0100.a.tt:0 "Selezionerai un sacrificio tra i tuoi prigionieri, ma le tue possibilità di successo saranno #difficulty_hard minime#!"
+  agot_decisions_events.0100.b:0 "Chiamami la mia famiglia."
+  agot_decisions_events.0100.b.tt:0 "Selezionerai un sacrificio tra i tuoi parenti stretti, quindi le tue possibilità di successo saranno #difficulty_medium modeste#!"
+  agot_decisions_events.0100.c:0 "#BER Io#! fornirò il mio sangue."
+  agot_decisions_events.0100.c.tt:0 "Sanguinerai pesantemente per questo, e le tue possibilità di successo saranno #difficulty_easy alte#!"
+  agot_decisions_events.0100.soulmate:0 "Rinuncerò al mio cuore, [soulmate.GetFirstName]."
+  agot_decisions_events.0100.soulmate.tt:0 "[soulmate.GetTitledFirstNameNoTooltip], la tua persona amata, sarà sacrificata in questo rituale, #true_white;bold garantendo il successo#!"
+  agot_decisions_events.0100.d:0 "Il prezzo è troppo alto."
+  agot_decisions_events.0100.hidden:0 "" # sarà sostituito con agot_empty
+
+  agot_decisions_events.0101.t:0 "$agot_bloodbinding$: Il Sacrificio"
+  agot_decisions_events.0101.desc:0 "Seleziona il sacrificio per il rituale."
+  agot_decisions_events.0101.a:0 "Un ottimo sacrificio..."
+  agot_decisions_events.0101.b:0 "Deve essere pagato un prezzo diverso."
+  agot_decisions_events.0101.c:0 "A pensarci bene, è una follia."
+
+  agot_decisions_events.0102.t:0 "$agot_bloodbinding$: Il Rituale"
+  agot_decisions_events.0102.intro.sacrifice_ritualist:0 ""Molto bene," parla [ritualist.GetFirstName] con un tono vuoto ma diligente.\n\n"
+  agot_decisions_events.0102.intro.sacrifice_child:0 ""Ho dato a [sacrifice.GetSheHe] latte di papavero, non sentirà nulla," dice [ritualist.GetFirstNameNoTooltip] mentre [sacrifice.GetFirstName], mio figlio, viene portato avanti. Mentre guardo il suo volto, inizio a chiedermi se ne valga la pena. Lo è, deve #bold esserlo#!."
+  agot_decisions_events.0102.intro.sacrifice_kin:0 "[sacrifice.GetFirstName] viene portato davanti a me, e il peso della mia scelta inizia a farsi sentire. #italic Funzionerà?#! penso tra me e me, ma lo sguardo negli occhi di [ritualist.GetFirstNamePossessiveNoTooltip] mi dice che sì. Sicuramente, una tale fiducia non è mal riposta."
+  agot_decisions_events.0102.intro.sacrifice_prisoner:0 "Il mio prigioniero [sacrifice.GetFirstName] viene portato davanti a me, e il peso della mia decisione inizia a farsi sentire. Criminale o meno, un destino simile non è una punizione giusta... I dubbi si insinuano, ma lo sguardo negli occhi di [ritualist.GetFirstNamePossessiveNoTooltip] mi rassicura. Questo #bold è#! giusto."
+  agot_decisions_events.0102.intro.sacrifice_soulmate:0 ""Mio amore, cos'è questo?" In questo momento, la voce di [soulmate.GetFirstNamePossessive] è come vetro di drago nelle mie vene, lacerandomi dall'interno. Ordino a [soulmate.GetSheHe] di tacere, ma il silenzio fa #bold altrettanto male#!."
+  agot_decisions_events.0102.intro.bleed_self:0 "Mi preparo mentalmente a ciò che accadrà dopo. "Non sarà facile," dice [ritualist.GetFirstNameNoTooltip] leggermente. "Saranno drenati quasi fino alla morte, e potresti non riprenderti mai più." Il mio sguardo al corno del drago si indurisce. "Quando sarai pronto, inizieremo," dice [ritualist.GetSheHe]."
+  agot_decisions_events.0102.desc.blood_self:0 "\n\nAnnuisco, e il rituale inizia. Traccio una lama affilata lungo il mio braccio, osservando mentre il profondo liquido cremisi sembra fare delle bolle lungo il taglio. Poi arriva un flusso, più di quanto mi aspettassi. Più di quanto sperassi...\n\nMi sento leggermente stordito, mentre l'oscurità si insinua ai bordi della mia vista."
+  agot_decisions_events.0102.desc.blood_sacrifice:0 "\n\n[sacrifice.GetFirstNameNoTooltip] sobbalza mentre faccio scorrere la mia lama delicatamente lungo il suo collo. [sacrifice.GetSheHe|U] potrebbe aver urlato, ma il suono si blocca in un gorgoglio di sangue. Un caldo flusso di cremisi esce dalla ferita ormai spalancata... e la luce negli occhi di [sacrifice.GetFirstNamePossessiveNoTooltip] si spegne.\n\nIl corno è immerso nel sangue del sacrificio. Offro anche alcune gocce del mio stesso sangue."
+  agot_decisions_events.0102.desc.fire:0 "Nel fuoco, i glifi del corno brillano intensamente. Il vincolo è sigillato. Il rituale è finito."
+  agot_decisions_events.0102.a:0 "Ha... funzionato?"
+  agot_decisions_events.0102.tt:0 "C'è solo un modo per scoprirlo."
+  agot_decisions_events.0102.toast.soulmate:0 "Sai cosa hai fatto."
+
+  agot_decisions_events.0105.t:0 "Vincolo in Crisi"
+  agot_decisions_events.0105.desc.intro:0 "Ultimamente, [dragon.GetName] è diventato sempre più irrequieto. Sempre più spesso, [dragon.Custom('GetDragonSheHe')] ha mostrato riluttanza a seguire i miei ordini, e a volte osa addirittura disobbedire. Temerei che il mio controllo su di [dragon.Custom('GetDragonSheHe')] sia diventato teso e che presto potrebbe liberarsi del vincolo.\n\nC'è solo un modo per risolvere questo; devo suonare il corno del drago in presenza di [dragon.GetNamePossessiveNoTooltip] ancora una volta."
+  agot_decisions_events.0105.desc.imminent_break:0 "Temo che sia questa la scelta o perdere del tutto il controllo su [dragon.GetNameNoTooltip]."
+  agot_decisions_events.0105.desc.imminent_shatter:0 "[dragon.GetNameNoTooltip] potrebbe cercare vendetta se [dragon.Custom('GetDragonSheHe')] infrange il nostro vincolo forzato."
+  agot_decisions_events.0105.a:0 "Devo risolvere questo."
+
+  agot_decisions_events.0106.t:0 "$agot_dragonbinding$: Vincolo Rotto"
+  agot_decisions_events.0106.desc:0 "[dragon.GetNameNicknamed] non obbedisce più ai miei comandi, il mio controllo su di [dragon.Custom('GetDragonSheHe')] è completamente svanito. Devo affrontare il fatto che non sono più un cavaliere dei draghi."
+  agot_decisions_events.0106.a:0 "Attendente, trovatemi il corno."
+  agot_decisions_events.0106.a.tt:0 "Cercherai di rilegare il drago con il corno."
+  agot_decisions_events.0106.b:0 "Poteva finire molto peggio."
+  agot_decisions_events.0106.dragon_flee:0 "Il drago si libera dal tuo controllo e fuggirà se non possiedi una [dragonpit|E]"
+
+  agot_decisions_events.0107.t:0 "$agot_dragonbinding$: Vincolo Distrutto"
+  agot_decisions_events.0107.desc:0 "Il vincolo su [dragon.GetName] è deteriorato rapidamente, a dimostrazione della pura sua forza di volontà . Con rinnovata chiarezza, [dragon.GetNameNoTooltip] ha di nuovo il controllo completo del suo destino — e [dragon.Custom('GetDragonSheHe')] vuole #bold vendetta#! Non avrei mai dovuto fidarmi della magia del sangue!"
+  agot_decisions_events.0107.a:0 "Il corno, ora!"
+  agot_decisions_events.0107.b:0 "[dragon.GetNameNoTooltip], fermati! Ho detto #bold fermati#!!"
+  agot_decisions_events.0107.b.valyrian:0 "#italic Dohaerās, [dragon.GetNameNoTooltip]! Lykiri!#!"
+
+  agot_decisions_events.0109.t:0 "$agot_dragonbinding$: Un Brusco Risveglio"
+  agot_decisions_events.0109.desc:0 "[dragon.GetNameNicknamed] ha improvvisamente smesso di rispondere ai miei comandi. Solo quando [dragon.Custom('GetDragonSheHe')] rivolge a me lo sguardo, posso percepire l'odio profondo che questo drago nutre nei miei confronti...\n\nÈ solo quando le sue mascelle si chiudono attorno al mio corpo che capisco cosa sia successo. Il vincolo è stato spezzato! Qualcun altro si è legato al mio corno di drago!"
+  agot_decisions_events.0109.a:0 "[ROOT.Char.Custom('Scream')]"
+
+  agot_decisions_events.0110.t:0 "$agot_dragonbinding$: Partenza Improvvisa"
+  agot_decisions_events.0110.desc:0 "All'inizio, era poco chiaro cosa avesse costretto [dragon.GetName] a partire così improvvisamente. Fino ad ora, il mio controllo su [dragon.Custom('GetDragonSheHe')] sembrava solido.\n\nMa a rifletterci, c'è solo una conclusione naturale; qualcuno altro si è legato al mio corno di drago! Col senno di poi, non avrei mai dovuto smarrire quell'oggetto. Mi ritengo fortunato, poteva andare molto peggio."
+  agot_decisions_events.0110.a:0 "Peccato perdere il drago però."
+
+  agot_decisions_events.0200.t:0 "Il Trattato Braavos-Pentos: Infranto!"
+  agot_decisions_events.0200.desc:0 "Mi giunge notizia che Pentos non rispetterà più il Trattato Braavos-Pentos del 209! Lo hanno dichiarato nullo e privo di valore, e già stanno ricostruendo i loro eserciti e i campi di schiavi!"
+  agot_decisions_events.0200.a: "Che follia hanno commesso?!"
+  agot_decisions_events.0200.b: "È guerra, allora!"
+  agot_decisions_events.0200.a_tt:0 "I sovrani di Braavos potranno usare il Casus Belli #bold Raffermare il Trattato Braavos-Pentos#! per 15 anni"
+
+  agot_decisions_events.0201.t:0 "Il Trattato Braavos-Pentos: Infranto!"
+  agot_decisions_events.0201.desc:0 "Notizie giungono direttamente da [GetTitleByKey('c_princes_quarter').GetNameNoTier]: il Trattato Braavos-Pentos del 209 è stato dichiarato nullo e privo di valore.\n\nPossiamo riprendere la nostra partecipazione al commercio degli schiavi, ricostruire gli eserciti ed arruolare mercenari liberamente."
+  agot_decisions_events.0201.a:0 "Per Pentos!"
+
+  agot_decisions_events.0202.t:0 "Il Trattato Braavos-Pentos: Infranto!"
+  agot_decisions_events.0202.desc:0 "I magistri di Pentos non saranno più soggetti ai capricci dei Braavosi!\n\nIl Trattato Braavos-Pentos del 209 è stato ufficialmente dichiarato nullo e privo di valore, grazie ai miei sforzi. Ora, la città di Pentos può ricostruire i suoi eserciti, partecipare alla schiavitù e arruolare mercenari liberamente."
+  agot_decisions_events.0202.a:0 "Per Pentos!"
+
+  agot_decisions_events.0203.t:0 "Il Trattato Braavos-Pentos"
+  agot_decisions_events.0203.desc:0 "Con la nostra sconfitta nella Sesta Guerra Braavosi-Pentoshi, [attacker.GetName] ha decretato che le seguenti sanzioni saranno imposte a tutta Pentos:\n\n$EFFECT_LIST_BULLET$L'esercito di Pentos sarà drasticamente ridotto.\n$EFFECT_LIST_BULLET$Sarà vietato ai Pentoshi di arruolare mercenari.\n$EFFECT_LIST_BULLET$Infine, Pentos sarà esclusa dal commercio degli schiavi."
+  agot_decisions_events.0203.a:0 "Che disastro..."
+
+  agot_decisions_events.0204.t:0 "Il Trattato Braavos-Pentos"
+  agot_decisions_events.0204.desc:0 "Con la nostra vittoria nella Sesta Guerra Braavosi-Pentoshi, le seguenti sanzioni saranno immediatamente imposte ai nostri nemici:\n\n$EFFECT_LIST_BULLET$L'esercito di Pentos sarà drasticamente ridotto.\n$EFFECT_LIST_BULLET$Sarà vietato ai Pentoshi di arruolare mercenari.\n$EFFECT_LIST_BULLET$Infine, Pentos sarà esclusa dal commercio degli schiavi."
+  agot_decisions_events.0204.a:0 "Il Titano è vittorioso!"
+
+  agot_decisions_events.0205.t:0 "$agot_decisions_events.0202.t$"
+  agot_decisions_events.0205.desc:0 "Braavos ha annunciato che il [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] è stato dichiarato nullo e privo di valore!\n\nOra la città di Pentos può ricostruire liberamente i propri eserciti, praticare la schiavitù e assoldare mercenari. Inoltre, i Braavosi possono dichiarare guerra a Pentos e ai suoi vassalli senza vincoli!"
+  agot_decisions_events.0205.a:0 "Non ci riguarda più di tanto."
+  agot_decisions_events.0205.a_pentos_pov:0 "E così crollano le stesse parole del Titano!"
+

@@ -1,0 +1,35 @@
+﻿l_spanish:
+
+  # Offerta di ospiti di condividere voci da un regno straniero vicino.
+  agot_hold_court.1001.t:0 "$hold_court_header$ Una Proposta Suprema"
+  agot_hold_court.1001.desc:0 "[paramount_petitioner.Custom('DE_ART_DEF_P_D')] mi[paramount_petitioner.Custom('DE_END_PRO_S_N')] vassall[paramount_petitioner.Custom('DE_END_PRO_S_N')] [paramount_petitioner.GetTitledFirstName] si avvicina al mio trono e fa un profondo inchino.\n\n"Saluti, vostra maestà. Il [paramount_title.GetName] non ha un sovrano indipendente dalla corona. Desidero propormi per governare questa regione in vostro nome.""
+  agot_hold_court.1001.a:0 "Sovrintenderai [paramount_title.GetName] per me."
+  agot_hold_court.1001.b:0 "Avete sbagliato! Non si ottiene nulla! Buona giornata, ser!"
+
+  agot_hold_court.1011.t:0 "$hold_court_header$ Confini Sanguinolenti"
+  agot_hold_court.1011.desc_paramount:0 "[aggressor_vassal.GetName] accusa [defender_vassal.GetName] di detenere illegalmente il dominio su terre e signori che dovrebbero giustamente prestargli fedeltà. [vassal_claim.GetName] è la sua principale irritazione , poiché sostiene che [defender_vassal_vassal.GetName], ha prestato fedeltà a [defender_vassal.GetName], causando uno squilibrio nel regno, e che piuttosto queste terre e i loro redditi dovrebbero essere giurati a lui.\n\n"
+  agot_hold_court.1011.desc_direct:0 "[aggressor_vassal.GetName] afferma che il [vassal_claim.GetName] detenuto da [defender_vassal.GetName] e affidato direttamente a voi fa parte del loro territorio De Jure, ed è nell'interesse del regno restituirlo al loro consesso.\n\n"
+
+  agot_hold_court.1011.desc_historic_claimant:0 "Aggiunge inoltre che [defender_vassal.GetTitledFirstName] non è neanche il legittimo signore di [vassal_claim.GetName], e piuttosto Casa [dynasty.GetName] lo ha detenuto per molti anni giurando al [aggressor_vassal.GetPrimaryTitle.GetName]. Come tale, suggerisce che possa essere riassegnata a [historic_claimant.GetName], la cui famiglia è stata espropriata delle loro terre storiche."
+  agot_hold_court.1011.desc_historic_same:0 "Casa [dynasty.GetName] è il detentore tradizionale del [vassal_claim.GetName], quindi [defender_vassal.GetName] è in diritto di possedere la terra."
+  agot_hold_court.1011.desc_default:0 "[vassal_claim.GetName] [dynasty.GetName]."
+  agot_hold_court.1011.desc_paramount_titles:0 "Per complicare ulteriormente le cose, [defender_vassal_vassal.GetTitledFirstName] detiene titoli in tutto il regno."
+  agot_hold_court.1011.desc_titles:0 "Per complicare ulteriormente le cose, [defender_vassal.GetTitledFirstName] detiene titoli in tutto il regno."
+
+
+  agot_hold_court.1011.a.direct:0 "Il [defender_vassal.GetTitleAsNameNoTooltip] presterà giuramento di fedeltà a voi."
+  agot_hold_court.1011.a.indirect:0 "Il [defender_vassal_vassal.GetTitleAsNameNoTooltip] presterà giuramento di fedeltà a voi."
+  agot_hold_court.1011.b.direct:0 "Il regno di [defender_vassal.GetFirstNamePossessive] è cresciuto troppo e deve essere diviso."
+  agot_hold_court.1011.b.indirect:0 "Il regno di [defender_vassal_vassal.GetFirstNamePossessive] è cresciuto troppo e deve essere diviso."
+
+  agot_hold_court.1011.c:0 "Prenderò i titoli in eccesso per voi!"
+  agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] è storicamente la sede della Casa [historic_claimant.GetHouse.GetName], apparterrà a [historic_claimant.GetFirstName]!"
+
+  ##################################################
+  # Dispossessed Character asks for land return 
+  # Badger 
+  # 1021 - 29
+  ##################################################
+
+  agot_hold_court.1021.t:0 "[historic_claimant.GetName]"
+  agot_hold_court.1021.desc:0 "Ehi amico, hai il [claim_title.GetName], ma Casa [dynasty.GetName] lo ha tenuto per secoli e noi non abbiamo terre, forse puoi darmelo tu"

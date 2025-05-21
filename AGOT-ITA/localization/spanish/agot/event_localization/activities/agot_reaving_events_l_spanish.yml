@@ -1,0 +1,283 @@
+﻿l_spanish:
+  activity_reaving:0 "Razzia"
+  activity_reaving_owner:0 "Razziatore"
+  activity_reaving_name:0 "La Grande Razzia"
+  reaving_header:0 "[ROOT.Char.Custom('reavingHeader')]"
+  very_long_reaving_tt:0 "Questa è una razzia #V eccezionalmente lunga#!"
+  long_reaving_tt:0 "Questa è una razzia #V molto lunga#!"
+  medium_reaving_tt:0 "Questa è una razzia #V lunga#!"
+  short_reaving_tt:0 "Questa è una razzia #V breve#!"
+
+  reaving_return_home:0 "Torno a casa a [start_location.GetNameNoTier]"
+
+  # Generic reaving Start Events
+
+  agot_reaving.0001.t:0 "Razzia [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
+  agot_reaving.0001.desc:0 "È il momento di preparare le lunghe navi e intraprendere una Grande Razzia, di quelle di cui i Verdi sussurreranno ai loro figli. Ma da quale campo mieteremo la pula?"
+  agot_reaving.0001.a:0 "Le Terre Contese sono pronte per il saccheggio."
+  agot_reaving.0001.b:0 "L'Essos del Nord soffrirà."
+  agot_reaving.0001.c:0 "Le Terre del Mare d'Estate sono deboli."
+  agot_reaving.0001.d:0 "La Baia degli Schiavisti ha molto bottino!"
+  agot_reaving.0001.e:0 "Ho cambiato idea. Questo non è il momento giusto."
+
+  agot_reaving.0010.desc:0 "Perché accetteresti il mio invito solo per partecipare alla corte di [other_host.GetTitledFirstNamePossessive] non lo so, ma sappi che me ne ricorderò."
+  agot_reaving.0010.a:0 "Sfortunato."
+
+  # Inviti alle Razzie
+
+  agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+  agot_reaving.1002.opening_desc:0 "Ti invito formalmente a un banchetto presso la mia corte a [barony.GetNameNoTier]!"
+  agot_reaving.1002.host_likes_me:0 "Spero che parteciperai, poiché la tua assenza si farebbe sentire."
+  agot_reaving.1002.host_gets_along_with_me:0 "Come un notevole [ROOT.Char.GetTitleTierName], sarei onorato della tua presenza."
+  agot_reaving.1002.host_dislikes_me:0 "Mi aspetto che tutti i personaggi di rilievo siano presenti, il che purtroppo include te."
+  agot_reaving.1002.a:0 "Certamente parteciperò."
+  agot_reaving.1002.b:0 "Parteciperò. Riluttante."
+  agot_reaving.1002.c:0 "Mi dispiace dire che sono occupato."
+  agot_reaving.1002.d:0 "No, rifiuto!"
+
+  agot_reaving.1003.desc:0 "Ti invito formalmente a una Grande Razzia presso la mia corte a [barony.GetNameNoTier]! Sarà un grande evento, degno della tua onorevole presenza."
+  agot_reaving.1003.a:0 "Sarà un piacere."
+  agot_reaving.1003.b:0 "Ho questioni più importanti a cui pensare."
+
+  agot_reaving.1004.desc:0 "Ti invito formalmente a una razzia presso la mia corte a [barony.GetNameNoTier]! Sarà un grande evento, con cibo e intrattenimento deliziosi."
+  agot_reaving.1004.a:0 "Sarà un piacere."
+  agot_reaving.1004.b:0 "Ho questioni più importanti a cui pensare."
+
+
+  agot_reaving.1008.t:0 "Grande Razzia: Partenza"
+  agot_reaving.1008.desc.opening:0 "Un groviglio di assi e pennoni affolla il porto di [ROOT.Char.GetCapitalLocation.GetName]. Questa robusta flottiglia di navi da guerra ha come equipaggio i leali e audaci Uomini di Ferro che hanno risposto alla chiamata di [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]. Sono ansiosi di dimostrare il sale nel loro sangue saccheggiando le terre verdi al di là del Mare Stretto. \n\nMentre ci prepariamo per la Grande [reaving|E] verso [ROOT.Char.Custom('ReavingDestination')], so che [ROOT.Char.GetFaith.PantheonTerm] gonfierà le nostre vele e guiderà le nostre spade."
+  agot_reaving.1008.desc.short:0 "\n\nMentre ci avvolgiamo nel sangue e nella gloria, affido il benessere del regno alla mia casa."
+  agot_reaving.1008.desc.medium:0 "\n\nMentre vado con [ROOT.Char.GetFaith.HighGodNameAlternate], il mio regno deve aspettare, per quanto tempo sarò assente."
+  agot_reaving.1008.desc.long:0 "\n\nLa mia destinazione è lontana da casa, ma al servizio di [ROOT.Char.GetFaith.DivineRealm], persino il mio regno deve aspettare."
+  agot_reaving.1008.desc.very_long:0 "\n\nSarò assente per molto tempo, e posso solo pregare affinché [ROOT.Char.GetFaith.HighGodNameAlternate] vegli sul mio regno."
+  agot_reaving.1008.a:0 "Pagheremo il Prezzo di Ferro."
+
+  agot_reaving.1009.t:0 "Un Caloroso Benvenuto"
+  agot_reaving.1009.likes_host:0 "Ogni ospite è riunito nella grande sala, e il nostro gentile ospite, [activity.GetOwner.GetTitledFirstName], ci ha dato il benvenuto a tutti al banchetto!"
+  agot_reaving.1009.dislikes_host:0 "Ogni ospite è riunito nella grande sala, e il nostro [activity.GetOwner.Custom('InsultAdjective')] ospite, [activity.GetOwner.GetTitledFirstName], ci ha finalmente dato il benvenuto al banchetto."
+  agot_reaving.1009.a.gluttonous:0 "Posso sentire l'odore della cucina da qui!"
+  agot_reaving.1009.a.drunkard:0 "Dove sono le botti!"
+  agot_reaving.1009.a.gregarious:0 "Non vedo l'ora di parlare con tutti!"
+  agot_reaving.1009.a.shy:0 "Ci sono molte persone qui..."
+  agot_reaving.1009.a:0 "Non vedo l'ora di questo!"
+  agot_reaving.1009.b:0 "Questo deve valere il mio tempo."
+
+  agot_reaving.2001.t:0 "Test"
+  agot_reaving.2001.desc:0 "Icles"
+
+  ###########################
+  #   Crippled Ship:Cannibal#
+  ###########################
+  agot_reaving.2002.t:0 "Una Nave Danneggiata: Cannibale"
+  agot_reaving.2002.desc:0 "L'equipaggio ha avvistato una nave con la vela danneggiata all'orizzonte. L'odore della morte ci ha accolto durante il nostro avvicinamento alla nave. Quando sono salito a bordo, ho capito cosa era accaduto sul ponte e ho visto i corpi massacrati. Gli uomini disperati compiono atti disperati: quando la nave è stata danneggiata e le scorte hanno iniziato a scarseggiare, gli uomini si sono rivolti l'uno contro l'altro. Io e i miei uomini abbiamo iniziato a cercare tra la carneficina qualsiasi cosa di valore quando abbiamo sentito un grido e abbiamo visto un uomo affamato e pazzo correre verso di noi, spada in mano!"
+  agot_reaving.2002.a:0 "Armiamoci!"
+  agot_reaving.2002.a.tt:0 "Sfoderate l'Acciaio e affrontate il pazzo testa a testa!"
+  agot_reaving.2002.b:0 "Che follia! Torniamo alla nave!"
+  agot_reaving.2002.b.tt:0 "Nessun oro vale questa follia!"
+  agot_reaving.2002.a.success_title:0 "Cannibale Ucciso"
+  agot_reaving.2002.a.failure_title:0 "Costretti alla Fuga!"
+
+  ################################
+  # Crippled Ship:Captains Gamble#
+  ################################
+  agot_reaving.2003.t:0 "Una Nave Danneggiata: La Scommessa di un Capitano"
+  agot_reaving.2003.desc:0 "L'equipaggio ha avvistato una nave con la vela danneggiata all'orizzonte. Mentre ci avvicinavamo alla nave, vedemmo un uomo e il suo equipaggio in attesa. Non fecero nulla per impedirci di salire a bordo della nave danneggiata, invece tenevano gli occhi su un uomo al centro di loro. Ho dedotto rapidamente che fosse il loro Capitano. Il Capitano si avvicinò e incrociò il mio sguardo: 'So che siete Uomini di Ferro e non siete qui per salvarci o commerciare con noi per quello di cui abbiamo bisogno. Invece, vi propongo un'offerta.' Il Capitano indicò due uomini che sollevarono un grande baule sulla balaustra della nave, minacciando di gettarlo in mare. 'Quel baule contiene tutti i nostri beni preziosi sulla nave. Propongo di giocare a dadi: se voi vincete e vi prendete il forziere, se vinco io ottengo vele e provviste extra...'"
+  agot_reaving.2003.a:0 "Pagherò il Prezzo di Ferro, un duello tra noi due"
+  agot_reaving.2003.a.tt:0 "Combatti contro il Capitano tu stesso e paga il Prezzo di Ferro per il Tesoro!"
+  agot_reaving.2003.b:0 "Giocerò alla tua partita..."
+  agot_reaving.2003.b.tt:0 "Lancerai i dadi con il Capitano, che il vincitore prenda tutto!"
+  agot_reaving.2003.c:0 "Il Dio della Tempesta è nemico di tutti gli uomini"
+  agot_reaving.2003.c.tt:0 "Il Dio della Tempesta è nemico di tutti gli uomini, non è dovere dei figli del Dio Abissale ostacolare i suoi tentativi? Darai loro le forniture necessarie per sfidare il Dio della Tempesta!"
+  agot_reaving.2003.a.success_title:0 "Hai ucciso il capitano e vinto il tesoro!"
+  agot_reaving.2003.a.failure_title:0 "Hai perso contro il Capitano..."
+  agot_reaving.2003.b.success_title:0 "I Dadi ti hanno reso Vincitore!"
+  agot_reaving.2003.b.failure_title:0 "I Dadi non sono stati dalla tua parte..."
+
+  ################################
+  # Crippled Ship:IronBorn        #
+  ################################
+  agot_reaving.2004.t:0 "Una Nave Danneggiata: Uomini di Ferro"
+  agot_reaving.2004.desc:0 "L'equipaggio ha avvistato una nave con la vela danneggiata all'orizzonte. Ci siamo avvicinati e abbiamo visto che si trattava di una nave degli Uomini di Ferro! L'equipaggio discute di fornire rifornimenti e aiutare i nostri fratelli a riparare la loro nave in modo che possano raggiungere la riva."
+  agot_reaving.2004.a:0 "Contribuirò con rifornimenti"
+  agot_reaving.2004.a.tt:0 "Darai parte dei tuoi rifornimenti, come razioni o bottino, per aiutare i tuoi fratelli."
+  agot_reaving.2004.b:0 "Non avranno nulla da me"
+  agot_reaving.2004.b.tt:0 "Perché dovrei dare quello che è mio, avrebbero dovuto essere meglio preparati!"
+
+
+  ###########################
+  #   Empty Village         #
+  ###########################
+
+  agot_reaving.2005.t:0 "Un Villaggio Vuoto"
+  agot_reaving.2005.desc:0 "Sotto la copertura della notte, con remi silenziosi, approdammo al piccolo villaggio costiero. Eravamo felici che il nostro approdo fosse passato inosservato, poi ci siamo resi conto del perché. Il villaggio era vuoto. La vista del villaggio con i beni intatti era inquietante per alcuni dei miei uomini, altri andarono a saccheggiare senza fare domande. Ai margini del villaggio uno degli uomini trovò una grande fossa, al suo interno c'erano i cadaveri degli abitanti del villaggio, con i volti contorti dalla malattia."
+  agot_reaving.2005.a:0 "L'oro vale il rischio..."
+  agot_reaving.2005.a.tt:0 "I morti non ne hanno bisogno, perché non prenderlo?."
+  agot_reaving.2005.b:0 "Ferma il saccheggio e andiamocene."
+  agot_reaving.2005.b.tt:0 "La vostra vita non vale nessuna somma d'oro..."
+
+  ###########################
+  #  Village: Sacrifice     #
+  ###########################
+
+  agot_reaving.2006.t:0 "Il Villaggio: Sacrificio"
+  agot_reaving.2006.desc:0 "Sotto la copertura della notte, con remi silenziosi, approdammo al piccolo villaggio costiero. Il nostro avvicinamento non era stato notato a causa del fatto che il villaggio stava celebrando qualche evento. Potevamo sentire risate, canti e vedere la luce proveniente da diverse pire ardenti. Mentre noi Uomini di Ferro caricavamo nel bel mezzo della celebrazione, ho capito cosa erano le pire. Tre erano in fiamme con i resti carbonizzati di ciò che un tempo era una persona, una quarta era spenta con una donna legata al tronco di un albero, legna da ardere e offerte preziose per questo dio del fuoco ai suoi piedi. La maggior parte dei partecipanti alla festa cercò di fuggire, alcuni si armavano con armi, principalmente quelli che indossavano vesti rosse. Uno di questi sacerdoti sembrava afferrare un'arma e stare facendo da guardia alla donna che doveva essere bruciata..."
+  agot_reaving.2006.a:0 "Cercherò ciò che ha valore!"
+  agot_reaving.2006.a.tt:0 "Non mi importa della donna, solo dell'oro!"
+  agot_reaving.2006.b:0 "Libererò la donna!"
+  agot_reaving.2006.b.tt:0 "Libererò la donna e la prenderò come mia moglie del sale!"
+  agot_reaving.2006.a.success_title:0 "Ucciso il sacerdote rosso e pagato il prezzo di ferro per l'oro!"
+  agot_reaving.2006.a.failure_title:0 "Il sacerdote rosso ti ha costretto a fuggire..."
+  agot_reaving.2006.b.success_title:0 "Ucciso il sacerdote rosso e pagato il prezzo di ferro per la donna!"
+  agot_reaving.2006.b.failure_title:0 "Il sacerdote rosso ti ha costretto a fuggire..."
+
+  ##################
+  #The Leviathan   #
+  ##################
+  
+  agot_reaving.2007.t:0 "Il Leviatano: L'Attacco"
+  agot_reaving.2007.desc:0 "Gli uomini hanno avvistato una grande balena che ci segue da qualche giorno. La bestia ha mantenuto la sua distanza, ma gli uomini dicono di poter vedere cicatrici su di essa quando emerge in superficie. Mi chiedo se la balena sia sopravvissuta agli attacchi delle navi Ibbenesi? IIo e gli uomini ci affanniamo ad armarci per cercare di abbattere la bestia o di scacciarla prima che possa affondare la nostra nave!"
+  agot_reaving.2007.a:0 "Maledetti cacciatori di balene Ibbenesi!"
+  agot_reaving.2007.a.tt:0 "La bestia ha deciso che non è più la preda e ha colpito, scambiando la tua imbarcazione per una baleniera Ibbenese!"
+
+
+  ###########################
+  #  Pursuit: Ibbenese      #
+  ###########################
+
+  agot_reaving.2008.t:0 "Inseguimento: Ibbenese"
+  agot_reaving.2008.desc:0 "Potevamo sentire l'odore della nave prima di vederla. Una nave baleniera Ibbenese era davanti a noi, gli uomini erano divisi su se dovessimo inseguirla. Alcuni pensavano che non ne valesse la pena, altri sembravano annoiati o desiderosi di combattere, dopotutto una tale nave sarebbe facile da raggiungere. Gli uomini si rivolgono a me per decidere come dovremmo agire."
+  agot_reaving.2008.a:0 "Stazioni, la prenderemo!"
+  agot_reaving.2008.a.tt:0 "L'oro è oro e pagheremo il prezzo di ferro!"
+  agot_reaving.2008.b:0 "Non vale la pena di sentirne l'odore..."
+  agot_reaving.2008.b.tt:0 "Un odore del genere si attaccherebbe a te e al tuo equipaggio per un po'...."
+
+  ###########################
+  #   No Wind               #
+  ###########################
+
+  agot_reaving.2009.t:0 "Una Giornata Senza Vento"
+  agot_reaving.2009.desc:0 "Oggi il vento è sparito dalle nostre vele, lasciandoci poco più che alla deriva. Gli uomini si aggirano sul ponte della nave, cercando modi per combattere la monotonia delle acque calme, alcuni si sono dedicati al 'Danza delle Dita', mentre altri hanno iniziato a scommettere sui dadi."
+  agot_reaving.2009.a:0 "Ogni uomo a un remo! Il Dio della Tempesta non ci impedirà di Razziare"
+  agot_reaving.2009.a.tt:0 "Il vento non ruberà la tua velocità! Ci sono rive e bottini da razziare..."
+  agot_reaving.2009.b:0 "So ballare le Dita come nessun altro uomo"
+  agot_reaving.2009.b.tt:0 "Un gioco di lancio di ascie amato nelle Isole di Ferro, ma pericoloso."
+  agot_reaving.2009.c:0 "Forse avrò fortuna con i dadi"
+  agot_reaving.2009.c.tt:0 "Rischia il tuo oro nel gioco d'azzardo!"
+  agot_reaving.2009.a.success_title:0 "Hai vinto alla Danza delle Dita!"
+  agot_reaving.2009.a.failure_title:0 "L'ascia ti è scivolata di mano..."
+  agot_reaving.2009.b.success_title:0 "I dadi sono andati a tuo favore!"
+  agot_reaving.2009.b.failure_title:0 "I dadi non sono stati gentili..."
+
+
+  ###########################
+  #  Pursuit: Pentoshi Ship #
+  ###########################
+  agot_reaving.2010.t:0 "Inseguimento: Nave Pentoshi"
+  agot_reaving.2010.desc:0 "Una nave Pentoshi è stata avvistata dagli uomini. I venti sono a nostro favore e sembra lenta a causa di un carico completo. Mi viene l'acquolina in bocca al pensiero dei formaggi e del vino ambrato di Pentos che potrebbero trovarsi nel carico della nave."
+  agot_reaving.2010.a:0 "In Postazione, la prenderemo!"
+  agot_reaving.2010.a.tt:0 "Inizia a inseguire la nave! Siamo i Lupi del Mare, dopotutto!"
+  agot_reaving.2010.b:0 "Non vale il nostro tempo"
+  agot_reaving.2010.b.tt:0 "Ci sarà qualcosa migliore là fuori..."
+  agot_reaving.2010.a.success_title:0 "Hai catturato la nave!"
+  agot_reaving.2010.a.failure_title:0 "La nave è scappata..."
+
+
+
+  ###########################
+  #  Pursuit: Lys Ship #
+  ###########################
+  agot_reaving.2011.t:0 "Inseguimento: Nave di Lys"
+  agot_reaving.2011.desc:0 "Una nave di Lys è stata avvistata all'orizzonte. Una nave del genere potrebbe trasportare oggetti di valore e forse schiavi destinati alle case del piacere della sua terra d'origine. Gli uomini guardano a me per decidere se proseguire."
+  agot_reaving.2011.a:0 "Ho intenzione di prendere una moglie di sale!"
+  agot_reaving.2011.a.tt:0 "Inizia a inseguire la nave! Siamo i Lupi del Mare, dopotutto!"
+  agot_reaving.2011.b:0 "In Postazione, la prenderemo!"
+  agot_reaving.2011.b.tt:0 "Inizia a inseguire la nave! Siamo i Lupi del Mare, dopotutto!"
+  agot_reaving.2011.c:0 "Non vale il nostro tempo"
+  agot_reaving.2011.c.tt:0 "Ci sarà qualcosa migliore là fuori..."
+  agot_reaving.2011.a.success_title:0 "Hai catturato la nave e reclamato una moglie di sale!"
+  agot_reaving.2011.a.failure_title:0 "La nave è scappata..."
+  agot_reaving.2011.b.success_title:0 "Hai catturato la nave!"
+  agot_reaving.2011.b.failure_title:0 "La nave è scappata..."
+
+  ###########################
+  #  Tyroshi War Gallon     #
+  ###########################
+  agot_reaving.2012.t:0 "Galea da Guerra Tyroshi"
+  agot_reaving.2012.desc:0 "È stata avvistata una Galea da Guerra Tyroshi, senza dubbio diretta a eliminare qualche signore dei pirati dalle Stepstones che ha causato problemi alle rotte commerciali."
+  agot_reaving.2012.a:0 "Forse potremmo vendere le nostre lame a loro?"
+  agot_reaving.2012.a.tt:0 "Offri di lavorare come mercenario per i Tyroshi, sarai guardato con disprezzo da alcuni, ma si guadagnerà oro!"
+  agot_reaving.2012.b:0 "Meglio evitarli.."
+  agot_reaving.2012.b.tt:0 "Non può nascere nulla di buono dall'incontrarli..."
+  agot_reaving.2012.a.success_title:0 "Lavora come Mercenario"
+  agot_reaving.2012.a.failure_title:0 "Offerta respinta..."
+
+  ###########################
+  #   Fishing Village       #
+  ###########################
+  agot_reaving.2013.t:0 "Piccolo Villaggio di Pescatori"
+  agot_reaving.2013.desc:0 "Abbiamo razziato un piccolo villaggio di pescatori, non c'è stata resistenza quando siamo sbarcati. La maggior parte ha cercato di scappare e nascondersi, alcuni hanno opposto resistenza, ma non erano addestrati e sono caduti rapidamente. Il bottino preso è stato scarso."
+  agot_reaving.2013.a:0 "Dov'è l'oro qui?"
+  agot_reaving.2013.a.tt:0 "Deve esserci qualcosa di valore qui..."
+  agot_reaving.2013.b:0 "Sarà mia moglie di sale."
+  agot_reaving.2013.b.tt:0 "Sarà una bella moglie di sale."
+  agot_reaving.2013.c:0 "Sarà mia moglie di sale."
+  agot_reaving.2013.c.tt:0 "Sarà una bella moglie di sale."
+  agot_reaving.2013.d:0 "Sarà mia moglie di sale."
+  agot_reaving.2013.d.tt:0 "Sarà una bella moglie di sale."
+
+  ###########################
+  #   Pirate Hide Out        #
+  ###########################
+  agot_reaving.2014.t:0 "Piccolo Nascondiglio di Pirati"
+  agot_reaving.2014.desc:0 "Abbiamo scoperto il nascondiglio di un piccolo signore dei pirati nelle Stepstones. Sebbene siamo meglio armati di loro, si sono rifugiati in una caverna fortificata lungo la costa. Potremmo guidare una carica e rompere le difese o forse potremmo riuscire a infiltrare alcuni uomini e aprire un passaggio."
+  agot_reaving.2014.a:0 "Dovremo combattere per entrare!"
+  agot_reaving.2014.a.tt:0 "Guida una carica contro la caverna fortificata, la tua potenza d'armi cercherà di aprirsi strada attraverso!"
+  agot_reaving.2014.b:0 "Forse la furtività è la nostra migliore opzione..."
+  agot_reaving.2014.b.tt:0 "Deve esserci un altro modo..."
+  agot_reaving.2014.a.success_title:0 "Entrato nel Nascondiglio dei Pirati!!"
+  agot_reaving.2014.a.failure_title:0 "Fallito nel tentatico di penetrare... Torneremo!"
+  agot_reaving.2014.b.success_title:0 "Trovata una via d'accesso!"
+  agot_reaving.2014.b.failure_title:0 "Impossibile trovare un altro percorso... Torneremo!"
+
+  ###########################
+  #   A Meal for the Crabs   #
+  ###########################
+  agot_reaving.2015.t:0 "Un Pasto per i Granchi"
+  agot_reaving.2015.desc:0 "Le grida di aiuto sono ciò che ha attirato la nostra attenzione sulla massa di pietra che si protende dal mare e che aveva guadagnato l'area il nome di Lance del Re delle Sirene. Un uomo era intrappolato su una di queste lance di pietra, anche dalle nostre posizioni potevo vedere che i granchi stavano già cercando di assalirlo. Il mio primo pensiero è stato che fosse un sopravvissuto al naufragio, ma un altro compagno di equipaggio ha fatto notare che l'uomo era legato alla pietra e che qualsiasi crimine avesse commesso doveva essere atroce."
+  agot_reaving.2015.a:0 "Il mio compagno di equipaggio ha ragione, è meglio lasciare il folle"
+  agot_reaving.2015.a.tt:0 "Qualcuno si è dato da fare per dare a quest'uomo una morte crudele, non voglio avere a che fare con un tale individuo."
+  agot_reaving.2015.b:0 "Salverò l'uomo"
+  agot_reaving.2015.b.tt:0 "Salverò l'uomo dal diventare pasto per i granchi, mi dovrà la sua vita!"
+
+  ###########################
+  #  A Ironborn in Need     #
+  ###########################
+  agot_reaving.2016.t:0 "Uomini di Ferro in Pericolo"
+  agot_reaving.2016.desc:0 "Mentre razziavamo un villaggio, un picchiere stava mettendo sotto pressione uno dei nostri uomini e la situazione non sembrava destinata a finire bene. Il picchiere è completamente concentrato sull'Uomino di Ferro che sta pressando e ha un'apertura esposta, sarebbe una uccisione veloce."
+  agot_reaving.2016.a:0 "Attacca l'uomo"
+  agot_reaving.2016.a.tt:0 "Un attacco rapido romperà la pressione del picchiere e permetterà al tuo compagno di riprendersi."
+
+  ###################################
+  #    Shieldmaiden in Disguise     #
+  #             Badger              #
+  ###################################
+  agot_reaving.2017.t:0 "Clandestino: [GetTrait('shieldmaiden').GetName(GetNullCharacter)]"
+  agot_reaving.2017.desc:0 "Sono passati giorni dall'ultimo incontro in mare aperto quando una rissa scoppia sul ponte principale. Nel momento in cui riesci a controllare il caos, si è formato un cerchio intorno al soggetto della rissa.\n\n\"[shieldmaiden.GetName] è stat[shieldmaiden.Custom('DE_END_PRO_S_N')] un[shieldmaiden.Custom('DE_PRO_POS_P_2P')] [shieldmaiden.GetWomanMan] tutto questo tempo, Capitano!\" Grugnisce uno dei tuoi membri dell'equipaggio mentre [shieldmaiden.GetSheHe] brandisce un'ascia da abbordaggio tenendo lontano l'equipaggio. È chiaro che [shieldmaiden.GetSheHe] è fluente con l'arma, oltre alle competenze che ti aspetteresti da un clandestino.\n\n\"[ROOT.Char.GetTitledFirstName],\" dice [shieldmaiden.GetSheHe]. \"Mi sono allenat[shieldmaiden.Custom('DE_END_PRO_S_N')] tutta la vita per pagare il Prezzo di Ferro e desidero solo servirti e guadagnarmi il favore del Dio Abissale. Per favore, permettimi di unirmi a voi in questa grande impresa!\""
+  agot_reaving.2017.a:0 "Un [GetTrait('shieldmaiden').GetName(GetNullCharacter)] sarà un ottim[shieldmaiden.Custom('DE_END_PRO_S_N')] compagn[shieldmaiden.Custom('DE_END_PRO_S_N')] nella nostra prossima incursione!"
+  agot_reaving.2017.b:0 "Non voglio che una donna combatta per me."
+  agot_reaving.2017.c:0 "Puoi servire il Dio Abissale in un altro modo."
+  agot_reaving.2017.d:0 "Forse puoi unirti a me nella mia cabina... e mantenere la corazza addosso."
+
+  ################################
+  # Return Events
+  # 9001-9999
+  # by Badger 
+  ################################
+  
+  agot_reaving.9002.t:0 "Un Grande Ritorno"
+  agot_reaving.9002.desc:0 ""
+  agot_reaving.9002.a:0 "Siamo veri Uomini di Ferro"
+
+
+
+

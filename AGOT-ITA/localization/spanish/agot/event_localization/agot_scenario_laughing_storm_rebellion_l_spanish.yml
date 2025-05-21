@@ -1,0 +1,610 @@
+﻿l_spanish:
+  ##############################################################
+  ## 0001-0010 LAUGHING STORM EVENTS - Canon Scenario         ##
+  ##############################################################
+
+  #Lyonel's Fury
+  ### POV: Lyonel Baratheon
+  ### Bookmark starter event
+  agot_laughing_storm_rebellion.0001.t:0 "La Tempesta che Ride si Avvicina"
+  agot_laughing_storm_rebellion.0001.desc:0 "Il tradimento trafigge più a fondo di qualunque lama. [duncansmall.GetTitledFirstNameNicknamed], un tempo promesso alla mia amata figlia [cassandra.GetFirstName], ha rinnegato i suoi voti e si è legato a quella fanciulla misteriosa, [jenny.GetNameNicknamed]. Quest'affronto alla Casa [lyonel.GetHouse.GetBaseName] non può restare impunito.\n\nL'onore della mia famiglia giace in rovina, calpestato dai capricci del Trono di Spade. La Casa [lyonel.GetHouse.GetBaseNameNoTooltip] non tollererà simili insulti. L'indipendenza è la mia risposta, e se sarà guerra, così sia.\n\nLe Terre della Tempesta si ergeranno da sole, e io reclamerò l'onore della mia stirpe con tutta la forza che possiamo radunare."
+  agot_laughing_storm_rebellion.0001.a:0 "Nostra è la Furia!"
+
+  #The King's Trouble
+  ### POV: Aegon V
+  ### Bookmark starter event
+  #### Triggers: 0003
+  agot_laughing_storm_rebellion.0002.t:0 "Una Tempesta all'Orizzonte"
+  agot_laughing_storm_rebellion.0002.desc:0 "Il peso della corona non è mai stato così gravoso. Mio figlio, [duncansmall.GetTitledFirstNameNicknamed], ha infranto una promessa di nozze, rinnegando [cassandra.GetFullName] per [jenny.GetFirstNameNicknamed].\n\nL’ira di [lyonel.GetFullNameNicknamed] ora minaccia il reame. Ha reclamato l'indipendenza dal Trono di Spade, pronto a gettare i Sette Regni nella guerra per riscattare l'onore della sua casata. Come re, devo agire con prontezza per evitare il disastro.\n\nUna proposta di Singolar Tenzone tra [lyonel.GetTitledFirstNameNoTooltip] e [duncantall.GetTitledFirstName] 'il Gigante' potrebbe offrire una via alla pace. È una scommessa, ma potrebbe salvare il reame da uno spargimento di sangue inutile."
+  agot_laughing_storm_rebellion.0002.a:0 "Che sia il Lord Comandante a decidere."
+
+  #The King's Offer
+  ### POV: Lyonel
+  ### Pre-event for the Lyonel v Duncan Tall duel.
+  #### Option A: will lead to duel (Triggers: 0004)
+  #### Option B: might lead to immediate war of independence (Triggers: 0025)
+  agot_laughing_storm_rebellion.0003.t:0 "Il Duello dell'Onore"
+  agot_laughing_storm_rebellion.0003.desc:0 "Un corvo giunge con la proposta del re: risolvere il conflitto con un singolo duello, una Singolar Tenzone contro [duncantall.GetTitledFirstName] 'il Gigante'. Ricordo le battaglie combattute insieme — un tempo compagni, ora forse nemici. Questo duello è più di una prova di spade; è una battaglia per l’onore, per l’anima stessa della Casa [lyonel.GetHouse.GetBaseName].\n\nRifiutare significherebbe indipendenza, ma a quale prezzo? È giunta l’ora di decidere il nostro destino."
+  agot_laughing_storm_rebellion.0003.a:0 "Sia il volere degli dèi a guidarci; risolviamo questo con la #bold Singolar Tenzone#!."
+  agot_laughing_storm_rebellion.0003.b:0 "Non obbedirò ai capricci di un falso re."
+
+  #A Trial
+  ### POV: Lyonel
+  ### Duel event.
+  #### If Lyonel wins triggers 0020
+  #### If Duncan wins and Lyonel is alive triggers 0007 and 0008
+  #### If Duncan wins and Lyonel has died triggers 0009
+  agot_laughing_storm_rebellion.0004.t:0 "Lo Scontro tra Tempesta e Acciaio"
+  agot_laughing_storm_rebellion.0004.desc:0 "Il viaggio verso Rocca del Re è stato lungo e carico di tensione. Ora, davanti alla Fortezza Rossa, affronto [duncantall.GetFirstName] 'il Gigante', Lord Comandante della Guardia Reale. I ricordi delle battaglie combattute fianco a fianco riaffiorano, ma oggi la fratellanza è messa da parte.\n\nQuesta è una lotta per l’onore, per il nome della Casa [lyonel.GetHouse.GetBaseName]. Gli occhi del reame sono puntati su di noi, e solo uno uscirà vincitore.\n\nChe il clangore dell’acciaio sovrasti il mio riso, e che il migliore tra noi vinca questo duello fatale."
+  agot_laughing_storm_rebellion.0004.a:0 "#bold Ah ah ah!#!"
+
+  #Duel Tooltips
+  agot_laughing_storm_rebellion.t:0 "Singolar Tenzone"
+  agot_laughing_storm_rebellion.duncan_won:0 "[duncantall.GetTitledFirstNameNoTooltip] ha vinto il duello contro [lyonel.GetTitledFirstNameNoTooltip]."
+  agot_laughing_storm_rebellion.lyonel_won:0 "[lyonel.GetTitledFirstNameNoTooltip] ha vinto il duello contro [duncantall.GetTitledFirstNameNoTooltip]."
+
+  #Lyonel Lost
+  ### POV: Lyonel
+  ### Post-duel event.
+  agot_laughing_storm_rebellion.0007.t:0 "La Caduta della Tempesta"
+  agot_laughing_storm_rebellion.0007.desc:0 "Il duello è concluso, e il suono delle spade è ormai ricordo. Nonostante il mio valore, [duncantall.GetTitledFirstName] è uscito vittorioso. La sconfitta è un fardello amaro, il peso della perdita grava su di me.\n\nL’onore della Casa [lyonel.GetHouse.GetBaseName], contuso e lacerato, giace ora nelle mani di [aegonv.GetTitledFirstNameRegnal]. Mentre m’inginocchio davanti al Trono di Spade, in attesa del giudizio del re, il destino delle Terre della Tempesta pende in bilico. Quale sorte ci attende?"
+  agot_laughing_storm_rebellion.0007.a:0 "Accoglierò il mio destino con onore."
+
+
+  #Lyonel Lost
+  ### POV: Aegon V
+  ### Post-duel event.
+  #### Triggers: 0010 (regardless the selected option)
+  agot_laughing_storm_rebellion.0008.t:0 "La Misericordia del Re"
+  agot_laughing_storm_rebellion.0008.desc:0 "[lyonel.GetFullNameNicknamed] si presenta dinanzi a me, sconfitto ma non spezzato. Nonostante la sua disfatta contro [duncantall.GetTitledFirstName], la tensione nel reame persiste. In quanto re, comprendo il bisogno di pace e stabilità. Una punizione severa potrebbe riaccendere le fiamme della ribellione, ma la clemenza potrebbe invece sanare la frattura.\n\nPer preservare quest’equilibrio fragile, valuto l’idea di proporre un’alleanza matrimoniale che leghi i Baratheon più saldamente al Trono di Spade.\n\nDevo offrire la mano di mia figlia al figlio di costui, o limitarmi a pretendere rinnovata fedeltà senza ulteriori concessioni?"
+  agot_laughing_storm_rebellion.0008.a:0 "Offro la mano di Rhaelle a suo figlio."
+  agot_laughing_storm_rebellion.0008.b:0 "Offro la mano di Vaella a suo figlio."
+  agot_laughing_storm_rebellion.0008.c:0 "Non offro nulla."
+
+  #Lyonel Lost - Lyonel died
+  ### POV: Aegon V
+  ### Post-duel event.
+  #### Triggers: 0031
+  agot_laughing_storm_rebellion.0009.t:0 "La Fine della Tempesta"
+  agot_laughing_storm_rebellion.0009.desc:0 "[lyonel.GetFullNameNicknamed] ha trovato la morte nella Singolar Tenzone contro [duncantall.GetTitledFirstName]. La sua sfida e il suo coraggio, un tempo minaccia temibile, sono ora ridotti al silenzio. La ribellione che rischiava di lacerare il reame è cessata con la caduta del suo condottiero.\n\nIl prezzo della pace è stato alto, e gli echi di questo conflitto riecheggeranno a lungo nelle cronache della storia. Con le Terre della Tempesta ormai domate, il reame può cominciare a guarire, ma l’ombra di questi eventi incomberà sul Trono di Spade per generazioni."
+  agot_laughing_storm_rebellion.0009.a:0 "Ha combattuto, ha perso, e ora riposa."
+
+  #A new betrothal
+  ### POV: Lyonel
+  ### Betrothal offer from Egg
+  #### Option A: Leads to betrothal (Triggers: 0028)
+  #### Option B: Leads to end of story (Triggers: 0030)
+  #### Option C: Leads to end of story (Triggers: 0030)
+  agot_laughing_storm_rebellion.0010.t:0 "Le Conseguenze della Tempesta"
+  agot_laughing_storm_rebellion.0010.betrothal.desc:0 "Dopo la mia sconfitta nella Singolar Tenzone, [aegonv.GetTitledFirstNameRegnal] tende un ramoscello d'ulivo, offrendo in sposa sua figlia, [targ_betrothed.GetTitledFirstNamePossessive], a mio figlio, [bara_betrothed.GetTitledFirstName]. Questo gesto, volto a sanare la frattura tra la Casa [lyonel.GetHouse.GetBaseName] e il Trono di Spade, porta con sé il peso della speranza di pace e unità.\n\nL’onore della mia casa potrebbe così essere riscattato attraverso questa unione, forgiando un legame che potrebbe garantire un futuro stabile alle Terre della Tempesta."
+  agot_laughing_storm_rebellion.0010.nobetrothal.desc:0 "Dopo la mia sconfitta nella Singolar Tenzone, il silenzio proveniente dal Trono di Spade è assordante. [aegonv.GetTitledFirstNameRegnal] non offre alcuna mano in matrimonio, nessun gesto di pace, solo la fredda realtà della mia sconfitta.\n\nL’onore della Casa [lyonel.GetHouse.GetBaseName] resta macchiato, e il futuro delle Terre della Tempesta è incerto. Resto solo, a riflettere sui prossimi passi per la mia casata, sapendo che il cammino sarà arduo e che l’ombra di questa disfatta si stenderà lunga sul nostro destino."
+  agot_laughing_storm_rebellion.0010.a:0 "Accetto la proposta del re."
+  agot_laughing_storm_rebellion.0010.b:0 "Devo rifiutare questa proposta."
+  agot_laughing_storm_rebellion.0010.c:0 "Accetto il mio destino."
+
+  ##############################################################
+  ## 0011-0018 LAUGHING STORM EVENTS - Canon Breakups         ##
+  ##############################################################
+
+  #Jaehaerys & Shaera
+  ### POV: Jaehaerys Targaryen
+  ### Breaking betrothals between Jaeharys+Celia Tully and Shaera+Luthor Tyrell
+  #### Option A: Parents notified about the breakup (Triggers: 0013)
+  #### Option B: End of story
+  agot_laughing_storm_rebellion.0011.t:0 "Il Dilemma del Cuore"
+  agot_laughing_storm_rebellion.0011.desc:0 "Le azioni di mio fratello maggiore [duncansmall.GetFirstName] hanno risvegliato pensieri profondi in me. La sua scelta di abbandonare [cassandra.GetTitledFirstName] per [jenny.GetFirstNameNicknamed], seguendo il richiamo del vero amore, mi ha spinto a interrogarmi sul mio stesso destino. Legato in matrimonio con [celia.GetTitledFirstName], il mio cuore anela a [shaera.GetFirstName], il mio vero amore.\n\nIl peso del dovere e il richiamo dell’amore si contendono la mia anima. Devo seguire le orme di mio fratello e inseguire ciò che davvero desidero, o restare fedele ai voti pronunciati?"
+  agot_laughing_storm_rebellion.0011.a:0 "Sì, devo seguire il mio cuore."
+  agot_laughing_storm_rebellion.0011.b:0 "No, il dovere deve prevalere."
+
+  #Daeron
+  ### POV: Daeron Targaryen
+  ### Breaking betrothal between Daeron+Olenna Redwyne
+  #### Option A: Parents notified about the breakup (Triggers: 0014)
+  #### Option B: End of story
+  agot_laughing_storm_rebellion.0012.t:0 "Dubbi sul Cammino"
+  agot_laughing_storm_rebellion.0012.desc:0 "Osservando le scelte dei miei fratelli maggiori, che hanno seguito il cuore rompendo legami per amore, mi trovo in profonda agitazione. Legato a un imminente matrimonio con [olenna.GetTitledFirstName], una fanciulla che conosco a malapena, il dubbio offusca i miei pensieri. [olenna.GetTitledFirstName] può anche apparire gentile, ma mente e cuore sono altrove.\n\nLe aspettative del dovere gravano su di me, ma il desiderio di vera felicità mi chiama. Devo aprirmi un mio sentiero e cercare l’amore, o restare fedele agli obblighi che mi sono stati imposti?"
+  agot_laughing_storm_rebellion.0012.a:0 "Sì, devo seguire il mio cuore."
+  agot_laughing_storm_rebellion.0012.b:0 "No, sarà il dovere a guidarmi."
+
+  #Jaehaerys & Shaera - notification
+  ## Can be triggered via event 0021 (or can trigger after some time in historical game ruler)
+  ### POV: Egg, Steffon Tully, Garlan Tyrell
+  ### Jaeharys+Celia Tully and Shaera+Luthor Tyrell broke up
+  #### Option A: End of story
+  #### Option B (only for Egg): End of story + Jaehaerys and Shaera are disinherited
+  agot_laughing_storm_rebellion.0013.t:0 "Unioni Infrante"
+  agot_laughing_storm_rebellion.0013.desc:0 "Un evento luttuoso è giunto a compimento. [jaehaerys.GetTitledFirstName] ha spezzato il suo fidanzamento con [celia.GetTitledFirstName], e [shaera.GetTitledFirstName] ha rotto il suo con [luthor.GetTitledFirstName]. Sfidando tradizioni e doveri, ora affermano d’essersi sposati tra loro.\n\nQuesto gesto avventato ha seminato discordia e delusione, scuotendo le fondamenta delle alleanze e delle aspettative. Le conseguenze di questa unione riecheggeranno nei reami, lasciando i capi delle casate a fronteggiare le ramificazioni di tali scelte infauste."
+  agot_laughing_storm_rebellion.0013.a:0 "Un grave errore."
+  agot_laughing_storm_rebellion.0013.b:0 "Devono essere puniti."
+
+  #Daeron - notification
+  ## Can be triggered via event 0021 (or can trigger after some time in historical game ruler)
+  ### POV: Egg, Runceford Redwyne
+  ### Daeron+Olenna Redwyne broke up
+  #### Option A (only for Egg): End of story
+  #### Option B (only for Runceford if Luthor Tyrell is NOT betrothed): Luthor and Olenna betrothal might happen (Triggers: 0015)
+  #### Option C (only for Runceford if Luthor Tyrell is betrothed): End of story
+  agot_laughing_storm_rebellion.0014.t:0 "Promessa Infranta"
+  agot_laughing_storm_rebellion.0014.desc:0 "La notizia giunge con amarezza. [daeron.GetTitledFirstName] ha rotto il fidanzamento con [olenna.GetTitledFirstName], accantonando i piani pazientemente tessuti per la loro unione. Questo sviluppo inatteso è quanto mai sfortunato, e porta con sé delusione e incertezza.\n\nLe ripercussioni di questa promessa infranta si faranno sentire in entrambe le casate, mettendo alla prova alleanze e aspettative."
+  agot_laughing_storm_rebellion.0014.aegonv.a:0 "Una delusione grave."
+  agot_laughing_storm_rebellion.0014.runceford.a:0 "Forse è tempo di proporre un'unione con Garlan."
+  agot_laughing_storm_rebellion.0014.runceford.a.tt:0 "Verrà proposta un’unione tra [olenna.GetTitledFirstName] e [luthor.GetTitledFirstName]"
+  agot_laughing_storm_rebellion.0014.runcefordx.a:0 "Una delusione grave."
+
+  #Luthor + Olenna = ?
+  ### POV: Garlan Tyrell
+  ### Betrothal offer from Runceford Redwyne
+  #### Option A: Agrees to the betrothal (Triggers: 0016)
+  #### Option B: Refuses the betrothal (Triggers: 0018)
+  agot_laughing_storm_rebellion.0015.t:0 "Una Nuova Proposta"
+  agot_laughing_storm_rebellion.0015.desc:0 "Dopo che [daeron.GetTitledFirstName] ha rotto il fidanzamento con [olenna.GetTitledFirstName], suo padre [runceford.GetTitledFirstName] mi ha presentato una nuova proposta: un’unione tra [olenna.GetTitledFirstName] e mio figlio, [luthor.GetTitledFirstName].\n\nQuest’alleanza potrebbe rivelarsi molto vantaggiosa, rafforzando i legami e consolidando il futuro della Casa [garlan.GetHouse.GetBaseName]. È un’opportunità che merita seria riflessione."
+  agot_laughing_storm_rebellion.0015.a:0 "Questa unione porterà benefici alla nostra casata."
+  agot_laughing_storm_rebellion.0015.b:0 "Devo rifiutare quest’offerta."
+
+  #Luthor + Olenna = betrothal
+  ### POV: Runceford Redwyne
+  ### Betrothal between Olenna and Luthor
+  #### Option A: Final confirmation on the betrothal (Triggers: 0017)
+  #### Option B: Refuses the betrothal (Triggers: 0018)
+  agot_laughing_storm_rebellion.0016.t:0 "La Decisione di un Padre"
+  agot_laughing_storm_rebellion.0016.desc:0 "[garlan.GetTitledFirstName] ha accettato l’offerta di unire in matrimonio [olenna.GetTitledFirstName] e [luthor.GetTitledFirstName]. Quest’alleanza promette grandi benefici e rafforzerà i legami tra le nostre casate. Tuttavia, come padre di [olenna.GetFirstNamePossessiveNoTooltip], è mio dovere assicurarmi che quest’unione sia anche nel suo interesse.\n\nLa decisione finale spetta a me, e dovrò ponderare con attenzione i vantaggi per la nostra famiglia rispetto alla felicità futura di mia figlia."
+  agot_laughing_storm_rebellion.0016.a:0 "Procediamo con il fidanzamento."
+  agot_laughing_storm_rebellion.0016.b:0 "Devo rifiutare, per il bene di Olenna."
+
+  #Luthor + Olenna = betrothal notification
+  ### POV: Garlan Tyrell
+  ### Olenna and Luthor betrothed, alliance made
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0017.t:0 "Alleanza Forgiata"
+  agot_laughing_storm_rebellion.0017.desc:0 "Infine, il fidanzamento tra [olenna.GetTitledFirstName] e [luthor.GetTitledFirstName] è stato ufficializzato. Quest’unione promette di rafforzare i legami tra le nostre casate, portando benefici reciproci e consolidando le alleanze future.\n\nCon questo vincolo, entrambe le famiglie potranno accrescere potere e influenza, aprendo la via a un futuro prospero."
+  agot_laughing_storm_rebellion.0017.a:0 "È il momento di festeggiare."
+
+
+  #Luthor + Olenna = refused
+  ### POV: Garlan Tyrell OR Runceford Redwyne (depending who refused it)
+  ### Olenna and Luthor betrothal negotiation failed
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0018.t:0 "Un'Opportunità Perduta"
+  agot_laughing_storm_rebellion.0018.desc:0 "Il fidanzamento tra [olenna.GetTitledFirstName] e [luthor.GetTitledFirstName] è stato rifiutato. È un vero peccato, poiché quest’unione avrebbe giovato grandemente a entrambe le nostre casate, rafforzando i legami e assicurando un futuro stabile.\n\nNonostante questa battuta d’arresto, dobbiamo guardare avanti e valutare altri sentieri per consolidare le nostre alleanze e la prosperità della famiglia."
+  agot_laughing_storm_rebellion.0018.a:0 "Mio figlio troverà l’amore altrove."
+
+
+  ##############################################################
+  ## 0020-0035 LAUGHING STORM EVENTS - Non-Canon Scenarios    ##
+  ##############################################################
+
+  #Lyonel Won
+  ### POV: Lyonel
+  ### Lyonel beats Duncan Tall in the duel
+  #### Option A: Lyonel remains a vassal if Egg agrees to sending Duncan Targaryen to the wall and a marriage between Rhaella and Ormund Baratheon (or Herbert if Ormund died somehow) (Triggers: 0021)
+  #### Option B: Declares independence (Triggers: 0026)
+  agot_laughing_storm_rebellion.0020.t:0 "La Vittoria della Tempesta"
+  agot_laughing_storm_rebellion.0020.desc:0 "La Singolar Tenzone è conclusa, e [duncantall.GetTitledFirstName] giace sconfitto per mia mano. L'onore della Casa [lyonel.GetHouse.GetBaseName] è stato ristabilito, e il brivido della vittoria scorre nelle mie vene. Ora, mi trovo a un bivio.\n\n"
+  agot_laughing_storm_rebellion.0020.desc.both:0 "Posso scegliere di restare indipendente, tracciando un sentiero mio, libero dal giogo del Trono di Spade. In alternativa, potrei giurare nuovamente fedeltà, ma solo a patto di un nuovo fidanzamento da parte di [aegonv.GetTitledFirstNameRegnal] e dell'esilio di [duncansmall.GetTitledFirstNameNicknamed] alla Barriera."
+  agot_laughing_storm_rebellion.0020.desc.only_banishment:0 "Posso scegliere di restare indipendente, tracciando un sentiero mio, libero dal giogo del Trono di Spade. In alternativa, potrei giurare nuovamente fedeltà, ma solo a patto dell'esilio di [duncansmall.GetTitledFirstNameNicknamed] alla Barriera."
+  agot_laughing_storm_rebellion.0020.desc.only_betrothal:0 "Posso scegliere di restare indipendente, tracciando un sentiero mio, libero dal giogo del Trono di Spade. In alternativa, potrei giurare nuovamente fedeltà, ma solo a patto di un nuovo fidanzamento da parte di [aegonv.GetTitledFirstNameRegnal]."
+  agot_laughing_storm_rebellion.0020.desc.none:0 "Posso scegliere di restare indipendente, tracciando un sentiero mio, libero dal giogo del Trono di Spade. In alternativa, potrei giurare nuovamente fedeltà, ma non lo farò alla cieca."
+  agot_laughing_storm_rebellion.0020.a:0 "Giuro fedeltà, ma reclamo giustizia."
+  agot_laughing_storm_rebellion.0020.a.simple:0 "Non serve altro sangue — giuro la mia fedeltà."
+  agot_laughing_storm_rebellion.0020.b:0 "Le Terre della Tempesta resteranno sole."
+
+  #Lyonel Won
+  ### POV: Aegon V
+  ### Lyonel demanded to send Prince Duncan to the wall and a marriage between Rhaella and Ormund Baratheon in order for him to remain loyal
+  #### Option A: Demand refused - might lead to the break of betrothals (Triggers: 0013, 0014, 0023, 0024 and 0032)
+  #### Option B: Demand accepted (Triggers: 0028)
+  agot_laughing_storm_rebellion.0021.t:0 "Le Richieste della Tempesta"
+  agot_laughing_storm_rebellion.0021.no_demand.t:0 "La Vittoria della Tempesta"
+  agot_laughing_storm_rebellion.0021.desc:0 "[lyonel.GetFullNameNicknamed] è uscito vittorioso dalla Singolar Tenzone, sconfiggendo [duncantall.GetTitledFirstName].\n\n"
+  agot_laughing_storm_rebellion.0021.desc.both:0 "Ora si dichiara pronto a giurare nuovamente fedeltà, ma il suo giuramento ha un prezzo: un nuovo fidanzamento da parte della Corona e l'esilio di mio figlio, [duncansmall.GetTitledFirstNameNicknamed], alla Barriera. È una decisione gravosa, che richiede di bilanciare l'onore del reame con le richieste di un potente vassallo.\n\nDevo valutare con grande attenzione le implicazioni di accettare o rifiutare tali condizioni."
+  agot_laughing_storm_rebellion.0021.desc.only_banishment:0 "Ora si dichiara pronto a giurare nuovamente fedeltà, ma il suo giuramento ha un prezzo: l'esilio di mio figlio, [duncansmall.GetTitledFirstNameNicknamed], alla Barriera. È una decisione gravosa, che richiede di bilanciare l'onore del reame con le richieste di un potente vassallo.\n\nDevo valutare con attenzione le implicazioni di accettare o rifiutare tali condizioni."
+  agot_laughing_storm_rebellion.0021.desc.only_betrothal:0 "Ora si dichiara pronto a giurare nuovamente fedeltà, ma il suo giuramento ha un prezzo: un nuovo fidanzamento da parte della Corona. È una decisione gravosa, che richiede di bilanciare l'onore del reame con le richieste di un potente vassallo.\n\nDevo valutare con attenzione le implicazioni di accettare o rifiutare tali condizioni."
+  agot_laughing_storm_rebellion.0021.desc.none:0 "Ora si dichiara pronto a giurare nuovamente fedeltà, senza condizioni né pretese. Il suo giuramento riporta un'apparente pace nel reame, ma le ferite del passato non si rimarginano così facilmente.\n\nPer ora, i Sette Regni restano uniti."
+  agot_laughing_storm_rebellion.0021.a:0 "Rifiuto questa pretesa audace."
+  agot_laughing_storm_rebellion.0021.a.no_demand:0 "Che la pace regni."
+  agot_laughing_storm_rebellion.0021.b:0 "Questa offerta potrebbe riportare la pace."
+
+  #Lyonel Refused the marriage
+  ### POV: Aegon V
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0022.t:0 "La Sfida del Cervo"
+  agot_laughing_storm_rebellion.0022.desc:0 "La risposta di [lyonel.GetTitledFirstNamePossessive] giunge rapida e schietta — rifiuta l’unione. Nessuna scusa, nessuna cortesia, solo la volontà ferrea di un uomo che non vuole vedere la propria casata legata alla mia, neppure per la pace.\n\nHa perso il duello, eppure in questo resta inflessibile. La tempesta non si doma così facilmente."
+  agot_laughing_storm_rebellion.0022.a:0 "Così sia."
+  agot_laughing_storm_rebellion.0022.a.tt:0 "Così sia."
+
+  #creating the alliance
+  ### POV: Runceford Redwyne, Steffon Tully, Garlan Tyrell (only if their children are involved in Targaryen betrothal break ups)
+  ### Lyonel offers alliance for the coming war
+  #### Option A: Ally with Lyonel
+  #### Option B: End of story
+  agot_laughing_storm_rebellion.0023.t:0 "Chiamata alla Ribellione"
+  agot_laughing_storm_rebellion.0023.desc:0 "Il disonore inferto alla Casa [lyonel.GetHouse.GetBaseName] dal fidanzamento spezzato da parte di [duncansmall.GetTitledFirstNameNicknamedPossessive] ora alimenta la ribellione di [lyonel.GetTitledFirstNameNicknamedPossessive] contro il Trono di Spade. [lyonel.GetTitledFirstNameNoTooltip] raduna i suoi alleati, deciso a combattere per l'indipendenza.\n\nAnche mio figlio ha subito un'onta per mano dei Targaryen, e unirsi a [lyonel.GetFirstNameNoTooltip] pare giusto. Eppure, la lealtà al Trono di Spade è sempre stata la nostra via, e le conseguenze della ribellione pesano come una lama. Questa è una decisione epocale, che forgerà il destino della nostra casata."
+  agot_laughing_storm_rebellion.0023.a:0 "Ci schieriamo con 'la Tempesta che Ride'."
+  agot_laughing_storm_rebellion.0023.b:0 "Restiamo fedeli al Trono di Spade."
+
+
+  #WAR
+  ### POV: Lyonel
+  ### War event (desc depends on who accepted the call)
+  #### Option A: The war begins
+  agot_laughing_storm_rebellion.0024.t:0 "Inizia la Tempesta"
+  agot_laughing_storm_rebellion.0024.garlan_steffon_runceford.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [runceford.GetTitledFirstName], [garlan.GetTitledFirstName] e [steffon.GetTitledFirstName] al mio fianco, il richiamo della guerra echeggia per tutte le Terre della Tempesta. Il disonore inflitto alla Casa [lyonel.GetHouse.GetBaseName] sarà lavato con la furia di una tempesta.\n\nMarciamo per reclamare il nostro onore e la nostra indipendenza, pronti ad affrontare qualunque sfida. Che il Trono di Spade tremi: la tempesta è in arrivo."
+  agot_laughing_storm_rebellion.0024.steffon_runceford.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [steffon.GetTitledFirstName] e [runceford.GetTitledFirstName] al mio fianco, il richiamo della guerra echeggia per tutte le Terre della Tempesta. Il disonore inflitto alla Casa [lyonel.GetHouse.GetBaseName] sarà lavato con la furia di una tempesta.\n\nMarciamo per reclamare il nostro onore e la nostra indipendenza. Che il Trono di Spade tremi."
+  agot_laughing_storm_rebellion.0024.garlan_runceford.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [garlan.GetTitledFirstName] e [runceford.GetTitledFirstName] al mio fianco, il richiamo della guerra echeggia per tutte le Terre della Tempesta. Il disonore inflitto alla Casa [lyonel.GetHouse.GetBaseName] sarà lavato con la furia di una tempesta.\n\nMarciamo per la libertà e la gloria."
+  agot_laughing_storm_rebellion.0024.garlan_steffon.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [garlan.GetTitledFirstName] e [steffon.GetTitledFirstName] al mio fianco, il richiamo della guerra echeggia per le Terre della Tempesta. L'affronto subito dalla mia casata sarà vendicato col ferro e col fuoco."
+  agot_laughing_storm_rebellion.0024.garlan.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [garlan.GetTitledFirstName] al mio fianco, risuona il richiamo della guerra. La Casa [lyonel.GetHouse.GetBaseName] non dimentica né perdona."
+  agot_laughing_storm_rebellion.0024.steffon.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [steffon.GetTitledFirstName] al mio fianco, cavalchiamo per l’onore e per la nostra indipendenza. Che il mondo trattenga il fiato: la tempesta è qui."
+  agot_laughing_storm_rebellion.0024.runceford.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con [runceford.GetTitledFirstName] al mio fianco, le Terre della Tempesta si sollevano per rivendicare ciò che ci spetta di diritto."
+  agot_laughing_storm_rebellion.0024.none.desc:0 "È giunta l’ora. Il mio esercito è pronto, gli stendardi svettano alti e i cuori sono temprati alla battaglia. Con fedeli alleati al mio fianco, il richiamo della guerra echeggia. Il disonore sarà vendicato con la furia di una tempesta."
+  agot_laughing_storm_rebellion.0024.a:0 "Alla guerra!"
+
+  agot_laughing_storm_rebellion.0025.t:0 "Il Dilemma del Re"
+  agot_laughing_storm_rebellion.0025.desc:0 "[lyonel.GetTitledFirstName] ha rifiutato la Singolar Tenzone contro [duncantall.GetTitledFirstName], un gesto che non mi aspettavo. Questo colpo di scena mi pone davanti a una scelta difficile.\n\nDovrei concedergli l'indipendenza che reclama, correndo il rischio di creare un pericoloso precedente, oppure far rispettare le conseguenze della sua ribellione, pur sapendo che ciò potrebbe gettare il reame nel caos? Il destino delle Terre della Tempesta e la stabilità del Trono di Spade sono appesi a un filo."
+  agot_laughing_storm_rebellion.0025.a:0 "Dovrà affrontare le conseguenze."
+  agot_laughing_storm_rebellion.0025.b:0 "Concediamogli l'indipendenza."
+
+  agot_laughing_storm_rebellion.0026.t:0 "Il Re della Tempesta"
+  agot_laughing_storm_rebellion.0026.desc:0 "La vittoria è nostra. Abbiamo conquistato la nostra indipendenza, e le Terre della Tempesta torneranno a governarsi da sole, come fecero un tempo i Durrandon. I nostri stendardi sventolano fieri, proclamando la nostra sovranità e il ritorno dei nostri antichi diritti.\n\nL’onore della Casa [lyonel.GetHouse.GetBaseName] è stato restaurato, e siamo pronti a forgiare il nostro destino, liberi dal giogo del Trono di Spade. Che tutti sappiano: il Re della Tempesta regna."
+  agot_laughing_storm_rebellion.0026.a:0 "Gloria alle Terre della Tempesta!"
+
+  agot_laughing_storm_rebellion.0027.t:0 "La Tempesta che si Raduna"
+  agot_laughing_storm_rebellion.0027.desc:0 "Avendo rifiutato la Singolar Tenzone, ora mi trovo sull'orlo della guerra. La tensione è palpabile, e le Terre della Tempesta si preparano al conflitto che incombe. Per assicurare la nostra indipendenza e difendere il nostro onore, dovrò cercare alleati disposti a combattere al nostro fianco contro l'ira del Trono di Spade.\n\nLa strada sarà ardua, ma con il sostegno dei fedeli, potremo affrontare ogni tempesta."
+  agot_laughing_storm_rebellion.0027.a:0 "Radunate gli alleati."
+
+  agot_laughing_storm_rebellion.0028.t:0 "La Pace Ritrovata"
+  agot_laughing_storm_rebellion.0028.desc:0 "Dopo un periodo di lotte, un nuovo fidanzamento è stato disposto dal re, e la pace è di nuovo a portata di mano. Le Terre della Tempesta possono ora guardare al futuro con speranza, il nostro onore salvo e i legami col Trono di Spade rinsaldati.\n\nQuesta alleanza promette stabilità e unità rinnovata, permettendoci di concentrarci sulla prosperità e sul benessere del nostro popolo."
+  agot_laughing_storm_rebellion.0028.desc.no_betrothal:0 "Dopo un periodo di lotte, la pace è di nuovo a portata di mano. Le Terre della Tempesta possono ora guardare al futuro con speranza, il nostro onore salvo e i legami col Trono di Spade rinsaldati.\n\nQuesta alleanza promette stabilità e unità rinnovata, permettendoci di concentrarci sulla prosperità e sul benessere del nostro popolo."
+  agot_laughing_storm_rebellion.0028.a:0 "Accogliamo questa nuova pace."
+
+  agot_laughing_storm_rebellion.0029.t:0 "Il Re della Tempesta"
+  agot_laughing_storm_rebellion.0029.desc:0 "La Casa [lyonel.GetHouse.GetBaseName] ha ottenuto la vittoria nella sua lotta per l’indipendenza. Le Terre della Tempesta torneranno a regnare sovrane, come facevano i Durrandon prima di loro. I loro stendardi ora sventolano fieri, proclamando la loro sovranità e il ritorno dei loro antichi diritti.\n\nL’onore è stato riscattato, e sono pronti a plasmare un nuovo destino, lontani dal dominio del Trono di Spade."
+  agot_laughing_storm_rebellion.0029.a:0 "La Tempesta che Ride ha avuto l'ultima risata?"
+
+  #Fin
+  ### POV: Everyone
+  ### Everything goes back to normal (canon-ish timeline)
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0030.t:0 "La Pace Ritrovata"
+  agot_laughing_storm_rebellion.0030.desc:0 "Dopo un periodo di lotte, si è giunti a una risoluzione che ha riportato stabilità nel reame. Le Terre della Tempesta devono ora volgere lo sguardo al futuro, con gli ultimi tumulti come monito del caro prezzo della discordia.\n\nCon la pace ristabilita, il reame può iniziare a guarire. L’attenzione si sposta ora sulla ricostruzione e sul benessere del popolo.\n\nChe questo momento sia un monito sull’importanza dell’unità e sulla fragile natura della pace."
+  agot_laughing_storm_rebellion.0030.a:0 "Speriamo che la pace duri."
+
+  #Lyonel died
+  ### POV: Everyone
+  ### Lyonel died in the trial by combat
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0031.t:0 "La Fine della Tempesta"
+  agot_laughing_storm_rebellion.0031.desc:0 "[lyonel.GetFullNameNicknamed] ha trovato la morte nella Singolar Tenzone contro [duncantall.GetTitledFirstName]. La sua sfida e il suo valore, un tempo minaccia temibile, ora sono ridotti al silenzio. La ribellione che rischiava di lacerare il reame è stata troncata con la caduta del suo capo.\n\nIl prezzo della pace è stato alto, e gli echi di questo conflitto riecheggeranno a lungo. Con le Terre della Tempesta domate, il reame può cominciare a guarire, ma l’ombra di questi eventi incomberà sul Trono di Spade per anni."
+  agot_laughing_storm_rebellion.0031.a:0 "Ha combattuto, ha perso, e ora riposa."
+
+  #Lyonel's Demand refused
+  ### POV: Lyonel
+  ### Aegon refused Lyonel's demand of new betrothal and sending Duncan Small to the wall
+  #### Option A: Escalating the situation
+  agot_laughing_storm_rebellion.0032.t:0 "La Furia della Tempesta"
+  agot_laughing_storm_rebellion.0032.desc:0 "Dopo aver sconfitto [duncantall.GetTitledFirstName] in Singolar Tenzone, ho reclamato giustizia: l'esilio del principe [duncansmall.GetTitledFirstNameNicknamed] alla Barriera e un nuovo legame matrimoniale tra le nostre casate. Ma il re ha osato rifiutare le mie giuste richieste!\n\nQuest'affronto è intollerabile. Ora non resta altra via che quella delle armi. Combatteremo per la nostra indipendenza.\n\nLe Terre della Tempesta non si piegheranno più. La guerra è alle porte, e solo la vittoria potrà ristabilire il nostro onore."
+  agot_laughing_storm_rebellion.0032.a:0 "Rimpiangerà il giorno in cui mi ha sfidato."
+  agot_laughing_storm_rebellion.0032.b:0 "Forse sarebbe saggio cercare la pace."
+
+  #Reconquest
+  ### POV: Jaehaerys, Daeron or Duncan Targaryen
+  ### Triggers in the future for either Jaehaerys, Daeron or Duncan if they inherit the throne AND if any of The Stormlands LP title gained independent
+  #### Option A: Declare reconquest war against The Stormlands
+  #### Option A: No reconquest
+  agot_laughing_storm_rebellion.0034.t:0 "Il Giudizio del Drago"
+  agot_laughing_storm_rebellion.0034.desc:0 "Le Terre della Tempesta, un tempo legate al Trono di Spade, ora si ergono autonome, un reame forgiato nella ribellione sotto lo stendardo di [lyonel.GetNamePossessive].\n\nDurante il regno di mio padre il reame si è fratturato, errore che non posso ignorare. La forza dei Targaryen non si spezza con facilità, e le Terre della Tempesta ci appartengono di diritto. La guerra ha un prezzo: sangue, oro e vite. La mia scelta ora riecheggerà nei secoli."
+  agot_laughing_storm_rebellion.0034.a:0 "Riprenderò le Terre della Tempesta con fuoco e sangue."
+  agot_laughing_storm_rebellion.0034.b:0 "Che godano pure della loro libertà… per ora."
+
+  #Realm Reconquest
+  ### POV: Jaehaerys, Daeron or Duncan Targaryen
+  ### Triggers in the future for either Jaehaerys, Daeron or Duncan if they inherit the throne AND if any of the LP titles gained independent
+  #### Option A: Declare reconquest war against the next independent kingdom
+  #### Option A: No reconquest
+  agot_laughing_storm_rebellion.0037.t:0 "Un Trono Diviso"
+  agot_laughing_storm_rebellion.0037.desc:0 "[reconquest_target_title.GetName], un tempo legato al Trono di Spade, ora si erge come reame ribelle, la sua indipendenza un amaro ricordo del fallimento di mio padre. Ogni giorno si fanno più audaci, le loro ricchezze crescono, il loro potere si espande. Il regno è fratturato, il trono indebolito dalla loro assenza.\n\nIl peso della loro ribellione mi tormenta, e non posso più tollerarlo. Il Trono di Spade dev’essere intero, il suo dominio indiscusso. Lasciare libero [reconquest_target_title.GetNameNoTooltip] significa mettere un’arma nelle mani dei nostri nemici."
+  agot_laughing_storm_rebellion.0037.a:0 "Il Trono deve essere uno. Preparatevi alla guerra."
+  agot_laughing_storm_rebellion.0037.b:0 "Forse non è ancora tempo di combattere."
+
+  #Redwyne Independence
+  ### POV: Redwyne
+  agot_laughing_storm_rebellion.0038.t:0 "Una Corona di Vite"
+  agot_laughing_storm_rebellion.0038.desc:0 "Per generazioni, l’Arbor ha piegato il ginocchio a signori dal nome più grande, ma mai di maggior valore. Le nostre navi riempivano le loro casse, il nostro vino adornava le loro tavole, eppure eravamo solo un ramo del loro albero. Mai più.\n\n[stormlands.GetNameNoTier] si è liberato dal giogo del drago, e così fa anche [arbor.GetNameNoTier]. Che il mondo lo sappia — non sono più un semplice signore di vigne e flotte, ma un re a pieno diritto. L’Arbor non si inchina a nessuno."
+  agot_laughing_storm_rebellion.0038.a:0 "Che l’Arbor regni su sé stesso, come ha sempre dovuto fare."
+
+  #Reach informed about PK Arbor
+  ### POV: Reach
+  agot_laughing_storm_rebellion.0039.t:0 "Il Tralcio si Spezza"
+  agot_laughing_storm_rebellion.0039.desc:0 "Per quanto la memoria degli uomini possa ricordare, la ricchezza e le flotte di [arbor.GetNameNoTierPossessive] erano al servizio di [reach.GetNameNoTier], giurando lealtà come vassalli devoti.\n\nOra, con il drago abbattuto e il nostro dominio consolidato, essi si proclamano re di sé stessi. [k_arbor_holder.GetTitledFirstNameNicknamed] si dichiara [Select_CString(k_arbor_holder.IsFemale,'regina','re')], e i suoi stendardi non rispondono più al nostro richiamo."
+  agot_laughing_storm_rebellion.0039.desc.olenna:0 "\n\n[olenna.GetTitledFirstName] dimora ancora nelle mie sale, ospite di nome, ostaggio di fatto. [k_arbor_holder.GetTitledFirstNameNoTooltip] può anche chiamarsi [Select_CString(k_arbor_holder.IsFemale,'regina','re')], può rivendicare l’Arbor come indipendente, ma il sangue è una catena più salda dell’orgoglio."
+  agot_laughing_storm_rebellion.0039.a:0 "L’Altopiano resta solo."
+  agot_laughing_storm_rebellion.0039.b:0 "Manda parola all’Arbor — la sua corona per la sua vita."
+
+  #Arbor: Reach Threat
+  ### POV: Redwyne
+  agot_laughing_storm_rebellion.0040.t:0 "Il Prezzo della Corona"
+  agot_laughing_storm_rebellion.0040.desc:0 "Un messaggio giunge, gravido come una lama alla gola. [olenna.GetTitledFirstName] è nelle segrete di [e_reach_holder.GetTitledFirstName], pedina nel tentativo di spezzare la mia corona prima che possa attecchire. [e_reach_holder.GetSheHe|U] offre una scelta semplice — giura fedeltà, inchinati come l’Arbor ha sempre fatto, oppure guarda [olenna.GetTitledFirstNameNoTooltip] soffrire per la mia sfida.\n\nInginocchiarsi significa rinnegare tutto ciò che abbiamo conquistato. Rifiutare significa condannare il mio stesso sangue. Non esiste scelta giusta, solo quella con cui dovrò convivere."
+  agot_laughing_storm_rebellion.0040.a:0 "L’Arbor si piega — Olenna deve vivere."
+  agot_laughing_storm_rebellion.0040.b:0 "Mi dispiace, Olenna."
+
+  ##Arbor remains loyal
+  ### POV: Reach
+  agot_laughing_storm_rebellion.0041.t:0 "Una Corona Rinnegata"
+  agot_laughing_storm_rebellion.0041.desc:0 "[k_arbor_holder.GetTitledFirstName] ha visto la ragione. La sua corona è abbandonata, i suoi stendardi abbassati, e [arbor.GetNameNoTier] si piega di nuovo a [reach.GetNameNoTier]. Un trono rinunciato, una vita salvata. Un giusto scambio — o forse l’unico possibile.\n\nCon la sua resa, la prigionia di [olenna.GetTitledFirstName] non ha più scopo. L’Arbor è di nuovo nostro, com’è sempre dovuto essere."
+  agot_laughing_storm_rebellion.0041.a:0 "Rilasciatela — la questione è chiusa."
+
+  ##Arbor remains independent
+  ### POV: Reach
+  agot_laughing_storm_rebellion.0042.t:0 "Il Prezzo della Corona"
+  agot_laughing_storm_rebellion.0042.desc:0 "[k_arbor_holder.GetTitledFirstName] ha fatto la sua scelta. [arbor.GetNameNoTier] si erge solo, i suoi stendardi intatti, la sua corona inviolata. [k_arbor_holder.GetSheHe|U] preferisce vedere scorrere il proprio sangue che piegare il ginocchio. Così sia.\n\nIl destino di [olenna.GetTitledFirstName] è segnato. Un monito per chi osa sfidarmi, un prezzo pagato per un trono afferrato con troppa arroganza. L’Altopiano non dimenticherà quest’insulto, né io.\n\nL’Arbor può anche restare in piedi, ma le sue radici sono ormai bagnate dal suo stesso sangue."
+  agot_laughing_storm_rebellion.0042.a:0 "Che sia fatto."
+
+
+  #Initial event for everyone
+  ### POV: Every Seven Kingdoms ruler (except Lyonel and Aegon because they have their own starter event)
+  ### Bookmark starter event
+  agot_laughing_storm_rebellion.0050.t:0 "La Ribellione della Tempesta che Ride"
+  agot_laughing_storm_rebellion.0050.desc:0 "Il reame è travolto dal caos. [lyonel.GetTitledFirstNameNicknamed] ha innalzato i suoi stendardi in aperta ribellione contro il Trono di Spade. La sua furia è esplosa quando [duncansmall.GetTitledFirstNameNicknamed], erede al trono, ha messo da parte la figlia di Lyonel per sposare una ragazza di umili origini per amore — uno scandalo che ha umiliato Casa Baratheon e spezzato l’alleanza tra Capo Tempesta e Rocca del Re.\n\nLa Tempesta che Ride non si lascia deridere. La sua sfida risuona per le Terre della Tempesta, un’aperta provocazione al dominio dei Targaryen che minaccia di trascinare il reame nella guerra. Mentre Lyonel colpisce con rabbia, il Trono di Spade deve prepararsi alla resa dei conti. I venti di guerra ululano, e ogni casata deve ora decidere a chi giurare fedeltà."
+  agot_laughing_storm_rebellion.0050.a:0 "La tempesta è arrivata."
+
+
+  ##############################################################
+  ## 0100-0104 MAELYS BLACKFYRE EVENTS                        ##
+  ##############################################################
+
+  #Maelys Challenging Daemon
+  ### POV: Maelys the Monstrous
+  ### Triggers in the future. Challenging the ruler of the Golden Company to take over the leadership
+  #### Option A: Initiate duel against GC ruler (Triggers: 0101 or 0102)
+  #### Option B: End of story
+  agot_laughing_storm_rebellion.0100.t:0 "Sfida per la Leadership"
+  agot_laughing_storm_rebellion.0100.desc:0 "Ho osservato [daemonbf_lsr.GetTitledFirstNameNicknamed] lottare troppo a lungo con il peso della guida. È giunto il momento di agire. Sfiderò Daemon in duello per il diritto di comandare.\n\nSolo attraverso forza e determinazione potremo assicurarci il futuro e reclamare ciò che ci spetta di diritto."
+  agot_laughing_storm_rebellion.0100.a:0 "La guida sarà mia."
+  agot_laughing_storm_rebellion.0100.b:0 "Lascio che [daemonbf_lsr.GetFirstNameNoTooltip] comandi."
+
+  agot_laughing_storm_rebellion.0101.t:0 "Duello per il Dominio"
+  agot_laughing_storm_rebellion.0101.desc:0 "[maelysbf_lsr.GetTitledFirstNameNicknamed] ha messo in discussione la mia leadership, deciso a prendere il comando. Rifiutare questo duello significherebbe perdere il rispetto e la lealtà del mio popolo. È giunto il momento di difendere il mio diritto a regnare e dimostrare la mia forza.\n\nDevo accettare questa sfida e affrontare [maelysbf_lsr.GetFirstNameNoTooltip] in combattimento per garantire il mio posto e il futuro della nostra causa."
+  agot_laughing_storm_rebellion.0101.a:0 "Che il duello cominci."
+
+  agot_laughing_storm_rebellion.0102.t:0 "L’Ombra del Blackfyre"
+  agot_laughing_storm_rebellion.0102.desc:0 "[maelysbf_lsr.GetFirstNameNicknamed] irrompe nella mia corte con la sua banda di mercenari, lo sguardo acceso da ambizione e crudeltà. Sento la paura attanagliarmi il cuore mentre la sua figura mostruosa incombe su di me, gettando un’ombra cupa sul mio destino.\n\nI titoli che mi spettavano, tutto ciò che conoscevo, stanno svanendo. Peggio ancora, nei suoi occhi leggo l’intenzione di farla finita: vuole uccidermi, spezzare la mia vita e la mia pretesa. Sono solo di fronte alla bestia, con il mio futuro ormai quasi spento."
+  agot_laughing_storm_rebellion.0102.a:0 "Non c’è scampo dal mostro."
+  agot_laughing_storm_rebellion.0102.b:0 "Non può finire così."
+  agot_laughing_storm_rebellion.0102.c:0 "[king_house_member.GetTitledFirstName] deve sapere di questo."
+
+  agot_laughing_storm_rebellion.0104.maelys.t:0 "L’Ascesa del Mostruoso"
+  agot_laughing_storm_rebellion.0104.notmaelys.t:0 "La Caduta del Mostruoso"
+  agot_laughing_storm_rebellion.0104.maelys.desc:0 "Ora il comando è mio. Con forza e determinazione guiderò il mio popolo verso la gloria e reclamerò ciò che ci è stato negato. Il futuro della nostra causa è nelle mie mani, e nulla mi fermerà finché non trionferemo.\n\nChe tutti coloro che ci ostacolano tremino: Maelys 'il Mostruoso' è ora alla guida."
+  agot_laughing_storm_rebellion.0104.notmaelys.desc:0 "Maelys è caduto, e la mia leadership è ormai consolidata. Con forza e determinazione guiderò il mio popolo verso la gloria."
+  agot_laughing_storm_rebellion.0104.notmaelys.a:0 "Avanti!"
+  agot_laughing_storm_rebellion.0104.maelys.a:0 "Che inizi il mio regno."
+
+  agot_laughing_storm_rebellion.0105.t:0 "Ceneri e Giuramenti"
+  agot_laughing_storm_rebellion.0105.desc:0 "Tre anni, e ancora il sapore della sconfitta mi brucia in gola come fiele. La Quarta Ribellione Blackfyre si è infranta su acciaio gelido e sangue di traditori, i nostri vessilli strappati, i nostri congiunti massacrati o dispersi.\n\nHo versato il mio sangue per [daemon_blackfyre.GetFirstName], per i suoi figli, per quel sogno che giurammo di forgiare dalle rovine di una dinastia morente. Eppure, non è bastato. Ma la Compagnia Dorata vive ancora.\n\nGli esiliati, i dimenticati, le spade che non conoscono casa se non la guerra. I Blackfyre non sono finiti. E nemmeno io. Un giorno attraverseremo di nuovo il Mare Stretto. Un giorno, il drago pagherà il suo debito."
+  agot_laughing_storm_rebellion.0105.a:0 "Nessun re regna per sempre."
+
+  ##############################################################
+  ## 0200 - 0201 SCALY EVENTS                                 ##
+  ##############################################################
+
+  #Scaly Baby
+  ### POV: A random Stormlandler ruler
+  ### Birth of Scaly Allard
+  #### Option A: End of story
+  agot_laughing_storm_rebellion.0201.t:0 "Il Trovatello Squamoso"
+  agot_laughing_storm_rebellion.0201.desc:0 "Un cortigiano irrompe nei miei alloggi, ansimante per la fretta e colmo di notizie su una scoperta fatta nel cortile. È stato trovato un neonato, abbandonato e solo. Quando mi avvicino al bambino, noto qualcosa di straordinario. La sua pelle ha una consistenza insolita, simile a delle squame.\n\nColpito e incuriosito dal destino di quella creatura, decido di accoglierlo sotto la mia protezione, giurando che [allard.GetSheHe] crescerà al sicuro, guidato e custodito presso la mia corte."
+  agot_laughing_storm_rebellion.0201.a:0 "Benvenuto, piccolo cucciolo squamoso."
+
+
+  ##############################################################
+  ## 0300 - 0311 TYTOS & ELLYN EVENTS                         ##
+  ##############################################################
+
+  #Ellyn's Seduction
+  ### POV: Ellyn Reyne
+  ### Seduction attempt on Tytos Lannister
+  #### Option A: Seduction attempt
+  agot_laughing_storm_rebellion.0300.t:0 "La Strega di Castel Granito"
+  agot_laughing_storm_rebellion.0300.desc:0 "È cosa amara cadere in disgrazia, ma non tanto da non poter risalire. [tytos.GetTitledFirstName] è debole, un uomo che si lascia guidare da una mano gentile, e io so ancora come far dimenticare agli uomini le loro mogli.\n\n[jeyne.GetTitledFirstName]? Un'ombra, un sussurro passeggero nei corridoi di Castel Granito, ma farò in modo che si torni a cantare il mio nome.\n\nSono stata disprezzata abbastanza a lungo. Devo aprirmi il mio cammino, e se passa dal cuore di [tytos.GetTitledFirstNameNoTooltip], così sia."
+  agot_laughing_storm_rebellion.0300.a:0 "Presto il cuore del leone batterà per me."
+
+  agot_laughing_storm_rebellion.0301.t:0 "La Tentazione del Leone"
+  agot_laughing_storm_rebellion.0301.desc:0 "[ellyn.GetFirstName] è vicina, le sue parole dolci come miele, i suoi occhi pieni di promesse, di ciò che è stato e potrebbe essere ancora. L’aria tra noi si fa densa, la sua mano sfiora la mia, il suo tocco brucia attraverso le fredde mura di Castel Granito.\n\n[jeyne.GetFirstName]... mia moglie, il mio dovere. Ma Ellyn, col suo fuoco, la sua ambizione... risveglia qualcosa in me, qualcosa di pericoloso. Devo voltarle le spalle, o lasciare che la fiamma ci consumi entrambi?"
+  agot_laughing_storm_rebellion.0301.a:0 "Jeyne è mia moglie, il mio onore è con lei."
+  agot_laughing_storm_rebellion.0301.b:0 "Forse vale la pena rischiare per questo fuoco."
+
+  agot_laughing_storm_rebellion.0302.t:0 "Rinnegata da un Leone"
+  agot_laughing_storm_rebellion.0302.desc:0 "Tytos mi ha voltato le spalle. Quel leone tremante ha scelto [jeyne.GetFirstName] invece di me. Una donna insipida, senza colore, che gli offre solo dovere freddo. Io gli avevo offerto potere, gloria, il regno di una regina, eppure resta avvinto a lei.\n\nGli sciocchi spesso compiono simili errori, ma l’errore di uno sciocco non resterà impunito. Potrei accettare l'affronto... oppure far sì che il regno di [jeyne.GetFirstNamePossessiveNoTooltip] come signora di Castel Granito sia più breve del previsto."
+  agot_laughing_storm_rebellion.0302.a:0 "Attenderò il momento giusto... per ora."
+  agot_laughing_storm_rebellion.0302.b:0 "Jeyne si pentirà d’aver mai osato sfidarmi."
+
+  agot_laughing_storm_rebellion.0303.t:0 "La Vera Compagna del Leone"
+  agot_laughing_storm_rebellion.0303.desc:0 "[tytos.GetFirstName] è venuto a me, vedendo infine ciò che io ho sempre saputo: che io sono la sua vera regina, colei che può condurlo più in alto di quanto [jeyne.GetFirstName] abbia mai potuto. Ma tra noi c’è ancora un ostacolo. Jeyne.\n\nNon possiamo davvero regnare insieme finché lei resta sua moglie. Devo convincere Tytos a metterla da parte, a farmi tornare Signora di Castel Granito. Insieme, regneremo come era destino che fosse."
+  agot_laughing_storm_rebellion.0303.a:0 "Rendiamo ufficiale il nostro amore."
+
+  agot_laughing_storm_rebellion.0304.t:0 "Il Dilemma del Leone"
+  agot_laughing_storm_rebellion.0304.desc:0 "Il desiderio di [ellyn.GetFirstNamePossessive] arde con forza, ma la via che ci attende è colma di insidie. [jeyne.GetFirstName] è ancora mia moglie, e sebbene potremmo tenere segreta la nostra relazione, i segreti non restano tali a lungo nei corridoi di Castel Granito.\n\nSolo l’Alto Septon ha il potere di sciogliere i miei voti con Jeyne e concedermi la libertà di sposare Ellyn. Ma una tale richiesta non è senza conseguenze. Continuare a nasconderci... o fare un passo audace verso un nuovo futuro?"
+  agot_laughing_storm_rebellion.0304.a:0 "Per ora, resterà un segreto."
+  agot_laughing_storm_rebellion.0304.b:0 "Chiederò la benedizione di mio padre."
+  agot_laughing_storm_rebellion.0304.c:0 "Chiederò la benedizione dell’Alto Septon."
+
+  agot_laughing_storm_rebellion.0305.t:0 "Il Peso di un Padre"
+  agot_laughing_storm_rebellion.0305.desc:0 "[tytos.GetFirstName], mio figlio, si presenta dinanzi a me parlando di amore e di [ellyn.GetFirstName]. Vuole ripudiare [jeyne.GetFirstName], sua moglie, e sposare la vedova di suo fratello. Va contro le nostre tradizioni, contro l’ordine che i Lannister hanno sempre difeso. Eppure, il suo cuore è deciso, e forse una via c’è.\n\nL’Alto Septon potrebbe essere persuaso, se io stesso sostenessi la richiesta con il peso della nostra casata."
+  agot_laughing_storm_rebellion.0305.a:0 "Scriverò all’Alto Septon."
+
+  agot_laughing_storm_rebellion.0306.t:0 "Il Giudizio dell’Alto Septon"
+  agot_laughing_storm_rebellion.0306.desc:0 "Giunge la risposta dell’Alto Septon, intrisa del peso delle leggi divine e degli uomini. Scrive che questo divorzio sarebbe una grave offesa ai sacri vincoli del matrimonio."
+  agot_laughing_storm_rebellion.0306.greedy.desc:0 "\n\nEppure, verso la fine della lettera, il tono cambia. Un sussurro tra le righe. Forse, con una giusta prova di gratitudine, il suo cuore potrebbe ammorbidirsi. Corre voce che non disdegni l’oro, se offerto con garbo.\n\nOra la scelta spetta a me. Lasciare andare la questione o pagare il prezzo per ottenere la sua benedizione."
+  agot_laughing_storm_rebellion.0306.a:0 "È deciso. Si volta pagina."
+  agot_laughing_storm_rebellion.0306.b:0 "Forse un’offerta generosa lo convincerà."
+  agot_laughing_storm_rebellion.0306.c:0 "Non posso macchiare il mio onore con una corruzione."
+  agot_laughing_storm_rebellion.0306.c.tt:0 "Il fratello di Ellyn, Roger, potrebbe tentare di corrompere l’Alto Septon al mio posto."
+
+  agot_laughing_storm_rebellion.0307.t:0 "Il Dilemma di un Fratello"
+  agot_laughing_storm_rebellion.0307.desc:0 "[gerold.GetFirstName] ha cercato la benedizione dell’Alto Septon affinché [tytos.GetFirstName] possa ripudiare [jeyne.GetFirstName] e sposare [ellyn.GetFirstName], ma la benedizione è stata negata… a meno che l’oro non possa mutare la decisione.\n\nStranamente, nonostante la ricchezza dei Lannister, Tytos non ha pagato il prezzo richiesto. Ora, le speranze di [ellyn.GetFirstNamePossessiveNoTooltip] vacillano, e lei si rivolge a me, suo fratello, in cerca d’aiuto.\n\nVorrei vederla tornare al potere, ma il prezzo non è cosa da poco, nemmeno per Castamere."
+  agot_laughing_storm_rebellion.0307.a:0 "Il prezzo è troppo alto, anche per Ellyn."
+  agot_laughing_storm_rebellion.0307.b:0 "Per mia sorella, pagherò qualunque somma serva."
+
+  #Tytos and Ellyn: Noone funded the divorce -> Keep the secret, or elope
+  ### POV: Tytos Lannister
+  ### Noone granted us divorce
+  #### Option A: Leads to end of story (Triggers: 0311)
+  #### Option B: We marry anyway (Triggers: 0309 and 0310)
+  agot_laughing_storm_rebellion.0308.t:0 "Legati dalla Legge, Lacerati dal Desiderio"
+  agot_laughing_storm_rebellion.0308.desc:0 "Sembra non esistere via legale per ottenere il mio divorzio, nessuna benedizione dell’Alto Septon che possa sciogliermi dai voti con [jeyne.GetFirstName]. Gli dèi e gli uomini entrambi ci ostacolano, eppure il mio cuore continua a battere per [ellyn.GetFirstName].\n\nLa tradizione potrà incatenarci, ma l’amore non si arrende così facilmente."
+  agot_laughing_storm_rebellion.0308.a:0 "Potremo amarci comunque, a dispetto della legge."
+  agot_laughing_storm_rebellion.0308.b:0 "Al Diavolo la tradizione, sposerò Ellyn!"
+  agot_laughing_storm_rebellion.0308.b.tt:0 "Mio padre potrebbe diseredarmi per questo."
+
+  agot_laughing_storm_rebellion.0309.t:0 "Il Tradimento di un Figlio"
+  agot_laughing_storm_rebellion.0309.desc:0 "Tytos ha sfidato la legge e l’onore della nostra casata, ripudiando [jeyne.GetFirstName] per sposare quella Reyne. Ha scelto il cuore sopra la tradizione, e per cosa? Una passione passeggera che potrebbe gettare vergogna sulla Casa Lannister.\n\nLo avevo avvertito, eppure ha agito contro l’ordine stesso che tiene insieme il nostro mondo."
+  agot_laughing_storm_rebellion.0309.a:0 "Che gli dèi ti perdonino... e che tu non te ne penta."
+  agot_laughing_storm_rebellion.0309.b:0 "Non sei più figlio mio, considerati diseredato."
+
+  agot_laughing_storm_rebellion.0310.t:0 "Legati dal Destino"
+  agot_laughing_storm_rebellion.0310.desc:0 "Finalmente, l’Alto Septon ha concesso il suo benestare. La via verso la mia libertà da [jeyne.GetFirstName] è libera, e [ellyn.GetFirstName] sarà mia moglie, nel nome degli dèi e degli uomini.\n\nI Sette ci hanno sorriso, e nulla ora ci ostacola. Insieme, Ellyn ed io plasmeremo un nuovo futuro — forse persino il destino della Casa Lannister. Che il mondo sussurri pure: questo è solo l’inizio."
+  agot_laughing_storm_rebellion.0310.ellyn.desc:0 "La via verso la libertà di [tytos.GetTitledFirstNamePossessive] da [jeyne.GetFirstName] è libera, ed ora prenderò il mio posto al suo fianco come sua vera moglie.\n\nI Sette ci hanno sorriso, e nulla più mi separa dal potere che mi è sempre spettato. Insieme, Tytos ed io riscriveremo il nostro destino, e forse anche quello della Casa Reyne. Che sussurrino pure, se ne hanno il coraggio: questo è solo l’inizio."
+  agot_laughing_storm_rebellion.0310.ellyn_anyway.desc:0 "Ce l’abbiamo fatta. Contro la volontà del reame, contro i sussurri dei cortigiani e il peso delle tradizioni, ora sono la moglie di [tytos.GetFirstName]. I Sette potrebbero non aver benedetto quest’unione, ma il potere non nasce dalla devozione, bensì dall’ambizione, e io ne ho in abbondanza.\n\nChe i nobili si scandalizzino, che i septon predichino: io sono dove sono sempre stata destinata a stare. Insieme regneremo, e chi ci ostacolerà imparerà il prezzo della sfida."
+  agot_laughing_storm_rebellion.0310.a:0 "Ora inizia la nostra nuova vita."
+
+  agot_laughing_storm_rebellion.0311.t:0 "Il Tradimento di un Amante"
+  agot_laughing_storm_rebellion.0311.desc:0 "Credevo che [tytos.GetFirstName] sarebbe stato mio, interamente mio. Che avrebbe lasciato [jeyne.GetFirstName] per me. E ora, dopo tutto ciò che abbiamo condiviso, esita. Preferisce restare al fianco di quella donna timorosa, invece di reclamare il potere che potremmo detenere insieme.\n\nQuanto è debole, quanto è facile da piegare al dovere e alla paura. Mi aspettavo di più da lui. Ma forse un’altra via si aprirà davanti a me. Se non salirà al potere con me, allora troverò un altro sentiero."
+  agot_laughing_storm_rebellion.0311.a:0 "Non sarò messa da parte così facilmente."
+
+  ##############################################################
+  ## 0400-0469 BLOODRAVEN EVENTS                             ##
+  ##############################################################
+
+  #Bloodraven Elected
+  ### POV: Bloodraven
+  ### Bookmark starter event
+  agot_laughing_storm_rebellion.0400.t:0 "Nuovo Lord Comandante alla Barriera"
+  agot_laughing_storm_rebellion.0400.desc:0 "Con la recente morte di [jack.GetTitledFirstName], i Fratelli Giurati dei Guardiani della Notte hanno scelto me come loro nuovo comandante. Ora spetta a me guidare la confraternita e proteggere il reame dai pericoli che si celano oltre la Barriera...\n\n#weak La notte si avvicina, e ora comincia la mia guardia. Non finirà se non con la mia morte. Non prenderò moglie, non possiederò terre, non genererò figli. Non porterò corone e non cercherò gloria. Vivrò e morirò al mio posto. Sono la spada nelle tenebre. Sono il guardiano sulle mura. Sono il fuoco che arde contro il gelo, la luce che porta l’alba, il corno che sveglia i dormienti, lo scudo che protegge i regni degli uomini. Offro la mia vita e il mio onore ai Guardiani della Notte, per questa notte e per tutte le notti a venire.#!"
+  agot_laughing_storm_rebellion.0400.a:0 "E ora comincia la mia guardia."
+
+  agot_laughing_storm_rebellion.0401.t:0 "Sorella Oscura"
+  agot_laughing_storm_rebellion.0401.desc:0 "Sono passati anni da quando ho mandato [bloodraven.GetTitledFirstName] alla Barriera, e con lui è andata la spada in acciaio di Valyria, [dark_sister_sword.GetName]. Una lama tanto antica e potente quanto Sorella Oscura appartiene al Trono, non al gelo del Nord.\n\nPosso inviare parola a Brynden, offrendogli una fortuna in oro affinché la restituisca al suo posto legittimo: il Trono di Spade."
+  agot_laughing_storm_rebellion.0401.a:0 "Sorella Oscura appartiene al Trono di Spade."
+  agot_laughing_storm_rebellion.0401.b:0 "Quella spada non ha più valore per me."
+
+  agot_laughing_storm_rebellion.0402.opening:0 "A [bloodraven.GetTitledFirstNameNoTooltip]"
+  agot_laughing_storm_rebellion.0402.desc:0 "Ti scrivo non come tuo re, ma come discendente del sangue della Vecchia Valyria, chiedendoti di restituire ciò che appartiene al Trono. [dark_sister_sword.GetName], la spada delle leggende, una lama che ha conosciuto sangue e gloria nelle mani dei nostri avi, non dovrebbe marcire oltre la Barriera.\n\nTi offro una somma d'oro pari al suo peso e al suo valore, perché possa tornare là dove appartiene. Che ne dici, Brynden? Onorerai la nostra casa e restituirai Sorella Oscura, o la lascerai perdersi tra i ghiacci?"
+  agot_laughing_storm_rebellion.0402.a:0 "Sorella Oscura resterà con me."
+  agot_laughing_storm_rebellion.0402.b:0 "Restituirò Sorella Oscura al suo legittimo posto."
+
+  agot_laughing_storm_rebellion.0403.opening:0 "A [aegonv.GetTitledFirstNameNoTooltip]"
+  agot_laughing_storm_rebellion.0403.desc:0 "La tua lettera mi ha raggiunto alla Barriera, e ho riflettuto a lungo sulla tua richiesta. [dark_sister_sword.GetName] è stata una compagna fedele, come lo fu per i grandi Targaryen prima di me. La sua lama ha versato sangue nemico, ha difeso il reame tra le mie mani. Ma io non sono più l’uomo che fui, e il mio tempo con la spada è finito.\n\nPer il bene del reame e in onore della nostra casata, la restituirò a te, affinché possa servire ancora il Trono di Spade. Che tu possa trovare una mano degna per impugnarla."
+  agot_laughing_storm_rebellion.0403.a:0 "Sorella Oscura torna a casa."
+
+  agot_laughing_storm_rebellion.0404.opening:0 "A [aegonv.GetTitledFirstNameNoTooltip]"
+  agot_laughing_storm_rebellion.0404.desc:0 "Le tue parole mi sono giunte, ma devo rifiutare. [dark_sister_sword.GetName] è stata al mio fianco in innumerevoli battaglie, la sua lama intrisa del sangue di traditori e nemici del reame. Ora appartiene a me, qui alla Barriera, dove il suo servizio continua. Il Nord è spietato, ma è qui che sconto la mia pena, ed è qui che Sorella Oscura trova il suo scopo.\n\nL’oro che offri non ha alcun valore in queste terre ghiacciate, e non mi separerò da lei. Alcuni legami, una volta forgiati, non si spezzano."
+  agot_laughing_storm_rebellion.0404.a:0 "Questo non sarà dimenticato."
+
+  agot_laughing_storm_rebellion.0420.t:0 "Il Richiamo Oltre la Barriera"
+  agot_laughing_storm_rebellion.0420.desc:0 "Le visioni si fanno più intense: l’albero, il gelo, i sussurri strani che sembrano chiamare da oltre la Barriera. Ora li sento chiaramente, qualcosa là fuori mi attira. Il vento che ulula nella notte sembra una voce, che mi invita a scoprire cosa si cela oltre i confini del mondo conosciuto.\n\nTutto mi dice che è pericoloso, forse una trappola, ma il richiamo è irresistibile. La Barriera è tutto ciò che mi separa dal mio destino. Non posso ignorare questa sensazione."
+  agot_laughing_storm_rebellion.0420.a:0 "Le risposte mi attendono oltre la Barriera, devo trovarle."
+  agot_laughing_storm_rebellion.0420.a.tt:0 "Inizi a viaggiare verso nord"
+  agot_laughing_storm_rebellion.0420.b:0 "Il mio dovere è qui."
+
+  agot_laughing_storm_rebellion.0421.t:0 "L’Ultimo Volo di Bloodraven"
+  agot_laughing_storm_rebellion.0421.desc:0 "Là, sotto l’albero antico, li vedo: i bambini verdi dei miei sogni. Stanno in silenzio, i loro occhi fissi su di me, come se mi aspettassero da sempre. L’aria attorno a loro è diversa, carica di qualcosa di antico e potente. Lo sento anche io, un cambiamento profondo dentro di me, come se una parte di me non fosse più umana.\n\nFaccio un passo avanti e la foresta pare respirare, le foglie sussurrano segreti che quasi comprendo. I bambini non parlano, ma percepisco il loro invito, il richiamo verso un mondo più antico di quanto potessi immaginare."
+  agot_laughing_storm_rebellion.0421.a:0 "Devo vedere dove conduce questo sentiero."
+  agot_laughing_storm_rebellion.0421.a.tt:0 "...e potrei non tornare mai più."
+
+  agot_laughing_storm_rebellion.0451.t:0 "L'Albero"
+  agot_laughing_storm_rebellion.0451.desc:0 "Nel sonno mi ritrovo in un sogno che ho camminato molte volte, eppure non è mai meno inquietante. Il mondo attorno svanisce, non sono più Lord Comandante dei Guardiani della Notte, ma un’ombra solitaria in un paesaggio gelido e straniero. Davanti a me, su una collina, sorge un albero immenso, la sua corteccia pallida brilla al chiaro di luna come osso. Ai suoi piedi, una caverna si spalanca come una bocca in attesa.\n\nSento il richiamo, e mi avvicino, ma il terreno inizia a ghiacciarsi sotto i miei piedi, il gelo mi risale le gambe come dita pronte a trattenermi. Lotta dopo lotta, il freddo ha la meglio. Mi sveglio di colpo, ancora scosso dalla visione."
+  agot_laughing_storm_rebellion.0451.a:0 "Cosa significa davvero questo sogno?"
+  agot_laughing_storm_rebellion.0451.a.tt:0 "...sono io il gelo strisciante? La caverna oscura? O forse l’albero stesso?"
+
+  agot_laughing_storm_rebellion.0452.t:0 "Il Lupo Oscuro"
+  agot_laughing_storm_rebellion.0452.desc:0 "Il sonno mi trascina, e un nuovo sogno mi avvolge. Il mondo è un deserto coperto di neve, un vento gelido mi trafigge il mantello. In lontananza lo vedo: un lupo, enorme, con il manto oscuro come il cielo notturno, fuso con le ombre. I suoi occhi, rossi come sangue sulla neve, brillano con una luce inquietante. Mi osserva, come se sapesse qualcosa che io ignoro.\n\nProvo ad avvicinarmi, ma a ogni passo il lupo si ritira nella nebbia. Solo i suoi occhi restano visibili, finché anch’essi svaniscono.\n\nMi risveglio di colpo, il cuore che batte forte. Quegli occhi non mi abbandonano."
+  agot_laughing_storm_rebellion.0452.a:0 "Cosa vuole da me quel lupo?"
+  agot_laughing_storm_rebellion.0452.a.tt:0 "...e perché i suoi occhi sembrano i miei?"
+
+  agot_laughing_storm_rebellion.0453.t:0 "Il Corvo Strano"
+  agot_laughing_storm_rebellion.0453.desc:0 "Nel sonno, un altro sogno mi rapisce. Mi ritrovo in un campo desolato, il cielo sopra di me cupo e opprimente. Un corvo si avvicina, le ali nere fendono l’aria con grazia silenziosa. Ma non è un corvo qualunque. Al centro della fronte, un terzo occhio mi fissa, immobile, onnisciente. Il corvo gira in cerchio sopra di me, il suo sguardo inquietante, come se vedesse molto più di quanto potrei mai comprendere.\n\nStrilla una volta, il suo verso riecheggia nel vuoto, e mi sento osservato da qualcosa oltre di lui.\n\nMi sveglio con il peso del suo sguardo ancora addosso, l’immagine del corvo a tre occhi scolpita nei miei pensieri."
+  agot_laughing_storm_rebellion.0453.a:0 "Che segreti vede il corvo con il suo terzo occhio?"
+  agot_laughing_storm_rebellion.0453.a.tt:0 "...cosa vede in me?"
+
+  #Dream: A Climber
+  ### POV: Bloodraven
+  ### Vision/Dream/Flashback event.
+  agot_laughing_storm_rebellion.0454.t:0 "Il Bambino Scalatore"
+  agot_laughing_storm_rebellion.0454.desc:0 "Il sonno mi avvolge ancora una volta, trascinandomi in un sogno che è al tempo stesso strano e familiare. Mi trovo all’ombra di un grande castello, le sue mura si innalzano verso il cielo come montagne. Con la coda dell’occhio scorgo un ragazzo, piccolo e agile, che scala quelle mura con incredibile facilità, come se fosse un’ombra. Le sue mani e i suoi piedi trovano appigli impossibili nella pietra, salendo sempre più in alto. Non si volta mai, come se non conoscesse la paura della caduta.\n\nLo chiamo, ma il vento inghiotte la mia voce. Continua a salire, più in alto di quanto un uomo dovrebbe mai osare, finché scompare nella nebbia in cima alla torre.\n\nMi sveglio con l’immagine ancora impressa negli occhi, il ricordo della sua scalata impossibile che mi tormenta."
+  agot_laughing_storm_rebellion.0454.a:0 "Chi è quel bambino, e cosa sta cercando di raggiungere?"
+  agot_laughing_storm_rebellion.0454.a.tt:0 "...e come farà a scendere?"
+
+  agot_laughing_storm_rebellion.0455.t:0 "L'Albero Chiama Ancora"
+  agot_laughing_storm_rebellion.0455.desc:0 "Ancora una volta il sogno ritorna, identico, familiare. L’albero gigantesco è ancora lì, sulla collina, con la corteccia chiara e le sue lunghe braccia che si tendono verso il cielo come dita contorte. La caverna sotto di esso spalanca la bocca più scura che mai, come se attendesse qualcosa. Il gelo ritorna, sale dai miei piedi... ma questa volta non mi ferma.\n\nMi avvicino, ogni passo più pesante, ma la chiamata dell’albero è più chiara, più urgente. Mentre salgo la collina, il vento ulula e la terra trema. I rami dell’albero ondeggiano come se fossero vivi, richiamandomi.\n\nMi sveglio di colpo, il freddo del sogno ancora nell’aria, il richiamo dell’albero più forte che mai."
+  agot_laughing_storm_rebellion.0455.a:0 "Cosa si cela sotto quell’albero?"
+  agot_laughing_storm_rebellion.0455.a.tt:0 "...e perché mi chiama?"
+
+  agot_laughing_storm_rebellion.0456.t:0 "Il Lupo nella Neve"
+  agot_laughing_storm_rebellion.0456.desc:0 "Il sogno mi richiama ancora una volta. La distesa ghiacciata si apre davanti a me, e il vento morde la mia pelle. Ma non è il gelo che mi inquieta: è lo sguardo che sento addosso. Il lupo oscuro è di nuovo lì, più grande di prima, il suo manto confuso tra le ombre. Gli occhi rossi brillano nell’oscurità, fissi su di me.\n\nQuesta volta non fugge. Rimane fermo, immobile. Mi avvicino, e un ringhio basso rompe il silenzio. Sembra che voglia parlarmi, mettermi alla prova... o forse ammonirmi. Faccio un passo, e lui scopre i denti. Esito. Il momento si prolunga, poi mi sveglio. Ma quegli occhi ardenti rimangono con me."
+  agot_laughing_storm_rebellion.0456.a:0 "Cosa vuole davvero quel lupo?"
+  agot_laughing_storm_rebellion.0456.a.tt:0 "...e che cosa sta aspettando?"
+
+  agot_laughing_storm_rebellion.0457.t:0 "La Veglia Silenziosa"
+  agot_laughing_storm_rebellion.0457.desc:0 "Ancora una volta il sogno mi reclama. Il campo spoglio si estende davanti a me. Il corvo appare subito, piombando dal cielo oscuro. I suoi tre occhi brillano nella penombra, uno in particolare sembra penetrare la mia anima, come se vedesse non ciò che sono, ma ciò che potrei diventare.\n\nSi posa su un ramo contorto. Non parla, ma la sua presenza è schiacciante. Canta una volta, il suono è così forte da far tremare l’intero mondo. Resta lì, in silenzio, aspettando che io comprenda un messaggio che ancora mi sfugge.\n\nMi sveglio, gli occhi del corvo ancora impressi nella mia mente."
+  agot_laughing_storm_rebellion.0457.a:0 "Quale conoscenza cela quel corvo?"
+  agot_laughing_storm_rebellion.0457.a.tt:0 "...e perché mi cerca?"
+
+  agot_laughing_storm_rebellion.0458.t:0 "Il Fuoco nel Cielo"
+  agot_laughing_storm_rebellion.0458.desc:0 "Ancora il sogno mi rapisce. Il bambino è lì, ancora una volta intento a scalare quelle mura impossibili. Questa volta mi avvicino. Le pietre sotto i piedi sono fredde. Il cielo si oscura, e una cometa rossa squarcia l’orizzonte come una spada infuocata. La sua coda di fiamme illumina l’ascesa del ragazzo, proiettando ombre lunghe e spettrali.\n\nPoi, quando guardo di nuovo, il bambino è sparito. Al suo posto, un corvo nero è posato sul muro. Mi osserva, poi spiega le ali e vola via.\n\nMi sveglio, la cometa e l’assenza del ragazzo scolpiti nella mia memoria."
+  agot_laughing_storm_rebellion.0458.a:0 "Quale sventura annuncia la cometa?"
+  agot_laughing_storm_rebellion.0458.a.tt:0 "...e che ne è stato del bambino?"
+
+  agot_laughing_storm_rebellion.0459.t:0 "Ombre della Notte"
+  agot_laughing_storm_rebellion.0459.desc:0 "Il sonno mi avvolge e mi sprofonda nell’oscurità. Una notte senza stelle, un gelo che penetra nelle ossa. Il mondo è coperto di neve e ghiaccio. Il vento ulula come mille voci, portando con sé timori e condanne. In lontananza, una debole fiamma vacilla. Cerco di raggiungerla, ma l’oscurità si fa più densa a ogni passo.\n\nLe ombre si muovono nella neve. C'è qualcosa in esse. Antico. Maligno. Alzo lo sguardo: il cielo è vuoto. Niente luna. Niente stelle. Solo un vuoto eterno.\n\nIl fuoco si spegne. Le tenebre si stringono attorno a me. Mi sveglio col freddo ancora addosso."
+  agot_laughing_storm_rebellion.0459.a:0 "Cosa si agita tra le ombre della notte?"
+  agot_laughing_storm_rebellion.0459.a.tt:0 "...e perché fa così freddo?"
+
+  agot_laughing_storm_rebellion.0460.t:0 "Di Nuovo Camminano"
+  agot_laughing_storm_rebellion.0460.desc:0 "Nel sogno, sono spinto in un mondo familiare, ma contorto. L’aria è fredda, e odora di morte. Cammino in un campo desolato. Figure si muovono all’orizzonte, lente, innaturali. All’inizio sembrano ombre, ma si avvicinano…\n\nNon sono vivi. Sono cadaveri. Facce pietrificate, occhi vuoti, pelle marcia. Ma camminano. Mi guardano. O forse no. Cerco di gridare, ma non ho voce. Uno di loro si gira. Mi fissa.\n\nMi sveglio in un bagno di sudore freddo. Quelle facce non mi lasceranno mai."
+  agot_laughing_storm_rebellion.0460.a:0 "Perché i morti camminano?"
+  agot_laughing_storm_rebellion.0460.a.tt:0 "...e cosa stanno cercando?"
+
+  agot_laughing_storm_rebellion.0461.t:0 "Il Sogno del Drago"
+  agot_laughing_storm_rebellion.0461.desc:0 "Entro silenziosamente nella camera del Maestro Aemon, ma lui si agita nel sonno. Si sveglia di colpo, confuso, gli occhi ancora colmi di visioni. Si siede, mormorando parole intrise di presagio.\n\n#italic “Il drago ha tre teste,”#! sussurra. #italic “Le ha sempre avute... sempre le avrà. Tre teste, un solo corpo. Senza di esse... il drago è spezzato.”#! Mi guarda, come se mi vedesse solo in quel momento. #italic “Capisci? Una testa non basta. Le altre devono sorgere.”#!\n\nSi passa le mani sul viso, come a scacciare il sogno, ma le sue parole restano pesanti nell’aria."
+  agot_laughing_storm_rebellion.0461.a:0 "Cosa ha visto in quel sogno?"
+
+  agot_laughing_storm_rebellion.0462.t:0 "Il Drago Lontano"
+  agot_laughing_storm_rebellion.0462.desc:0 "Tardi nella notte entro nei quartieri di Aemon. È sveglio, ma i suoi occhi sembrano guardare oltre le mura. Quando incrocia il mio sguardo, parla con voce smarrita:\n\n#italic “C’è un Targaryen... in una terra lontana,”#! dice piano. #italic “Non so dove, ma l’ho visto... qualcuno con il nostro sangue, perduto e solo.”#! Le mani tremano mentre se le porta alla fronte. #italic “Non capisco... ma so che è importante. In qualche modo, è legato a noi.”#!\n\nResta in silenzio, lo sguardo fisso nel vuoto. Le sue parole si sospendono nell’aria, lasciando un mistero insondabile."
+  agot_laughing_storm_rebellion.0462.a:0 "Sta parlando di me?"
+
+  agot_laughing_storm_rebellion.0463.t:0 "Il Bambino"
+  agot_laughing_storm_rebellion.0463.desc:0 "Sono tornato da un piccolo pattugliamento, ma qualcosa mi tormenta. Nei boschi innevati ho visto qualcosa — o qualcuno.\n\nUn bambino, piccolo e rapido, che si muoveva tra gli alberi. Per un istante la sua pelle sembrava... verde, come il fogliame. Poi, svanito. Nessun altro ha visto nulla. Quando ho chiesto, mi hanno guardato come fossi impazzito.\n\nForse è stato solo un gioco di luci. Ma non riesco a scrollarmi di dosso quell’immagine. Quel bambino verde mi ossessiona."
+  agot_laughing_storm_rebellion.0463.a:0 "Era solo un’illusione?"
+
+  #Ranging: The Children
+  ### POV: Bloodraven
+  ### Vision/Dream/Flashback event.
+  agot_laughing_storm_rebellion.0464.t:0 "I Figli della Foresta"
+  agot_laughing_storm_rebellion.0464.desc:0 "Durante la mia sortita, mi allontanai di poco dal gruppo, spinto dalla curiosità di esplorare la quiete della natura selvaggia. Fu allora che li vidi, tre fanciulli, appena oltre gli alberi. La loro pelle aveva una sfumatura insolita, quasi verde, si fondeva con la foresta come se ne fossero parte. Non dissero nulla, ma i loro occhi sembravano chiamarmi, invitandomi silenziosamente nel loro mondo. Feci un passo verso di loro, sentendo una strana attrazione, ma poi ricordai gli altri.\n\nCorsi a radunarli, impaziente di mostrare ciò che avevo visto. Ma quando tornai con il gruppo, i bambini erano spariti, svaniti come se non fossero mai esistiti. Gli altri mi guardarono con sospetto, ed io stesso cominciai a dubitare di quanto avevo visto. Eppure, la sensazione della loro presenza permane, come se ancora mi osservassero nell’ombra."
+  agot_laughing_storm_rebellion.0464.a:0 "È forse la foresta a ingannarmi?"
+
+  agot_laughing_storm_rebellion.0465.t:0 "Fratelli"
+  agot_laughing_storm_rebellion.0465.desc:0 "Il vento gelido del Nord spazza il Castello Nero, costante monito del duro fardello che ora porto. Mentre scruto oltre la Barriera, i miei pensieri vagano senza freno verso un tempo remoto, verso volti impressi nella memoria come cicatrici nell’anima. Due fratelli si stagliano più nitidi fra i ricordi: uno, nobile e fiero, che un tempo amai prima che l’ambizione ce lo portasse via; l’altro, figura d’ombra, colmo di rancore e vendetta, il cui odio era gelido quanto il ghiaccio sotto i miei piedi.\n\nQuesti pensieri mi tormentano ancora, riaffiorando nonostante gli anni. I legami di sangue e tradimento hanno forgiato l’uomo che sono ora, sentinella sul confine del mondo. Questo dovere non concede né conforto né fuga dagli echi del passato. Forse è qui, tra neve eterna e alberi antichi, che troverò pace... o porterò con me quei fantasmi fino alla fine."
+  agot_laughing_storm_rebellion.0465.a:0 "Il passato non è mai davvero dietro di noi."
+
+  agot_laughing_storm_rebellion.0466.t:0 "Sorgendo dalle Fiamme"
+  agot_laughing_storm_rebellion.0466.desc:0 "Il sonno mi trascina in un’altra visione, ardente come il sole. Una figura mi appare, circondata dalle fiamme, la sua forma distorta dal calore che la divora. Il fuoco è insopportabile, si alza sempre più, inghiottendola completamente.\n\nCerco di raggiungerla, ma il fuoco mi respinge. Appena prima che sparisca nell’inferno, alzo lo sguardo e vedo il cielo notturno infuocato, come se le stelle stesse bruciassero, i cieli incendiati. Il suolo trema sotto i miei piedi, e dal cuore delle fiamme, un’ombra si muove. Un drago, imponente e terribile, emerge dal fuoco, le sue scaglie brillano come acciaio fuso. I suoi occhi si fissano nei miei, e sento la sua presenza, antica e potente.\n\nMi sveglio in un sudore gelido, l’immagine del drago e della figura impressa nella mente, i loro destini legati al cielo infuocato."
+  agot_laughing_storm_rebellion.0466.a:0 "Il drago si è risvegliato... ma a quale prezzo?"
+
+  agot_laughing_storm_rebellion.0467.t:0 "Il Trono in Fiamme"
+  agot_laughing_storm_rebellion.0467.desc:0 "Nel sonno, una visione di fuoco e rovina mi travolge. Una grande città si stende davanti a me, ma qualcosa non va. Le fiamme che la divorano non sono naturali, bensì verdi, innaturali, brillanti di una luce sinistra e maligna che distorce l’aria. Altofuoco.\n\nGli edifici scricchiolano e sfrigolano mentre le fiamme verdi li divorano, fondendo pietra e legno in forme grottesche. Il fuoco sembra vivo, affamato, non solo dei palazzi, ma della terra stessa.\n\nL’odore di pietra bruciata e cenere mi riempie le narici, e osservo, impotente, il cuore della città ridotto in rovina. Mi risveglio di colpo, l’immagine della città in fiamme incisa nei miei pensieri, l’altofuoco verde ancora ardente nella mia mente."
+  agot_laughing_storm_rebellion.0467.a:0 "È forse un ricordo contorto di Aerion?"
+  agot_laughing_storm_rebellion.0467.a.tt:0 "...o qualcosa di più malvagio?"
+
+  agot_laughing_storm_rebellion.0468.t:0 "Sussurri del Drago"
+  agot_laughing_storm_rebellion.0468.desc:0 "Mentre mi trovo in cima alla Barriera, le distese ghiacciate si stendono senza fine davanti a me, e il vento sussurra tra i ghiacci come una voce antica. Il freddo mi punge la pelle, ma è il peso del passato a gelarmi ancor di più. I miei pensieri tornano ai racconti di un tempo, ai Targaryen che vedevano visioni del futuro, sogni tormentati da ciò che sarebbe potuto accadere.\n\nMolto prima della Conquista, si diceva che i draghi potessero vedere oltre il presente, i loro sogni dono e condanna al tempo stesso. Profezie di fuoco, sangue e rovina, viste tra le fiamme, esigevano un prezzo — trascinando i sognatori nella follia o nella disperazione.\n\nMentre fisso l’orizzonte, il mondo innevato sembra mutare. Il peso di quei sogni grava su di me. Condivido anch’io quest’eredità? Le ombre del futuro mi chiamano, mostrandomi ciò che potrebbe essere, a un prezzo terribile? La Barriera non offre risposte, solo gelo e silenzio."
+  agot_laughing_storm_rebellion.0468.a:0 "Questi sogni sono un dono?"
+  agot_laughing_storm_rebellion.0468.a.tt:0 "...o una maledizione pronta a schiudersi?"
+
+  agot_laughing_storm_rebellion.0469.t:0 "La Notte Gelida e Oscura"
+  agot_laughing_storm_rebellion.0469.desc:0 "Il vento freddo ulula là fuori, portando con sé il gelo infinito del Nord. Nella mia stanza, la fiamma tremolante d’una candela solitaria proietta ombre sulle pareti di pietra. Siedo in silenzio, avvolto nel mantello nero dei Guardiani della Notte. In notti come questa, i ricordi dei tradimenti passati si insinuano nella mia mente.\n\nIl mio sguardo si posa su un angolo remoto, dove un corvo sta appollaiato in silenzio, osservando. Mormoro tra me, ricordando una conversazione ormai lontana: #italic \"Il tradimento non è meno vile se il traditore si rivela un codardo.\"#! Butterwell imparò quella lezione, e ora anche questi fratelli camminano con cautela nella mia ombra.\n\nLa notte si fa più profonda, il freddo preme contro le mura di Castel Nero. Là fuori, nell’oscurità, segreti si agitano, ma per ora, tutto tace. Resto vigile, la mia veglia non avrà fine."
+  agot_laughing_storm_rebellion.0469.a:0 "La notte è lunga, ma resisterò."
+  agot_laughing_storm_rebellion.0469.a.tt:0 "Il fuoco scoppietta piano, offrendo scarso conforto contro il gelo implacabile del Nord"
+  agot_laughing_storm_rebellion.0469.b:0 "Il tradimento lascia un segno, ma la vigilanza è il mio scudo."
+  agot_laughing_storm_rebellion.0469.b.tt:0 "L’occhio del corvo brilla alla luce della candela, monito che nessun segreto sfugge al mio sguardo"
+  agot_laughing_storm_rebellion.0469.c:0 "Il freddo punge, ma la mia veglia continua."
+  agot_laughing_storm_rebellion.0469.c.tt:0 "Fuori, il vento urla nella notte. Dentro, siedo in silenzio, sempre vigile"

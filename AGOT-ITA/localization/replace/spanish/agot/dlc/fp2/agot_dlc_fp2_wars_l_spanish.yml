@@ -1,0 +1,45 @@
+﻿l_spanish:
+  ## Guardiani della Notte Struggle Loc ##
+  GREAT_RANGING_WAR_NAME:0 "La Grande Esplorazione"
+  GREAT_RANGING_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  GREAT_RANGING_CB:0 "Grande Esplorazione"
+  great_ranging_defeat_desc:0 "I Bruti ora sanno che i Guardiani della Notte sono solo l'ombra di sé stessi."
+  great_ranging_victory_desc:0 "I Bruti continueranno a litigare tra di loro, garantendo sicurezza per i regni degli uomini."
+
+  # AGOT TODO
+  great_ranging_white_peace_desc:0 "Testo di Pace Bianca provvisorio"
+  great_ranging_invalidated_desc:0 "Testo di Invalidazione provvisorio"
+
+  GENERIC_RANGING_WAR_NAME:0 "Campo Oltre la Barriera"
+  GENERIC_RANGING_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  GENERIC_RANGING_CB:0 "Campo Oltre la Barriera"
+
+  nw_generic_ranging_cb_desc_victory_attacker:0 "Guadagni [gold|E] in proporzione allo [development|E] della [county|E] di destinazione, che diminuirà.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+  nw_generic_ranging_cb_desc_victory_defender:0 "[attacker.GetName] guadagna [gold|E] in proporzione allo [development|E] della [county|E] di destinazione, che diminuirà.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+  nw_generic_ranging_cb_desc_white_peace_attacker:0 "Scegli di abbandonare la tua spedizione tentata."
+  nw_generic_ranging_cb_desc_white_peace_defender:0 "[attacker.GetName] abbandona la sua spedizione oltre il confine."
+  nw_generic_ranging_cb_desc_defeat_attacker:0 "La tua spedizione oltre il confine fallisce spettacolarmente, lasciando dietro armi e forniture del valore di [gold|E]."
+  nw_generic_ranging_cb_desc_defeat_defender:1 "[attacker.GetName] lascia dietro armi e forniture del valore di [gold|E] nella loro disastrosa spedizione oltre il confine."
+
+  nw_generic_ranging_message_title:0 "Pattuglia dei Guardiani della Notte"
+
+  btw_reclamation_cb_victory_desc_attacker_vassalize:0 "Sottoponi a vassallaggio a [defender.GetShortUIName|U]"
+  btw_reclamation_cb_victory_desc_defender_vassalize:0 "[attacker.GetShortUIName|U] si sottomette a vassallaggio"
+  btw_reclamation_cb_victory_desc_attacker_conquer_1:0 "$EFFECT_LIST_BULLET$Diventi [liege|E] dei [vassals|E] [struggle_involved|E] di rango inferiore di [defender.GetShortUINamePossessive|U] nella [duchy|E] di destinazione"
+  btw_reclamation_cb_victory_desc_attacker_conquer_2:0 "$EFFECT_LIST_BULLET$Ottieni le [counties|E] contestate [struggle_uninvolved|E], e quelle dei [holders|E] con terre al di fuori della [duchy|E]\n"
+  btw_reclamation_cb_victory_desc_defender_conquer_1:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] diventa [liege|E] dei [vassals|E] [struggle_involved|E] di rango inferiore di [defender.GetShortUINamePossessive|U] nella [duchy|E] di destinazione"
+  btw_reclamation_cb_victory_desc_defender_conquer_2:0 "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] ottiene le [counties|E] contestate non-[struggle_involved|E], e quelle dei [holders|E] con terre al di fuori della [duchy|E]\n"
+
+  btw_reclamation_cb_white_peace_desc_vassalize:0 "[defender.GetShortUIName|U] rimarrà [independent|E]"
+  btw_reclamation_cb_white_peace_desc_conquer:0 "[defender.GetShortUIName|U] manterrà i [titles|E] contestati"
+  btw_reclamation_cb_defeat_desc_vassalize:0 "$btw_reclamation_cb_white_peace_desc_vassalize$"
+  btw_reclamation_cb_defeat_desc_conquer:0 "$btw_reclamation_cb_white_peace_desc_conquer$"
+  btw_reclamation_cb_defeat_desc:0 "$btw_reclamation_cb_white_peace_desc$"
+
+  CB_COST_BTW_RECLAMATION:0 "Costo [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] per [county|E]"
+
+  #BTW Struggle
+  CB_COST_STRUGGLE_PHASE_OPPORTUNITY:0 "[struggle_phase_btw_opportunity|E]"
+  CB_COST_STRUGGLE_PHASE_HOSTILITY:0 "[struggle_phase_btw_hostility|E]"
+  CB_COST_STRUGGLE_PHASE_COMPROMISE:0 "[struggle_phase_btw_compromise|E]"
+  CB_COST_STRUGGLE_PHASE_CONCILIATION:0 "[struggle_phase_btw_conciliation|E]"

@@ -1,0 +1,133 @@
+﻿l_spanish:
+
+  #########################
+  ## Hedge Knight Events ##
+  #########################
+
+  # Hedge knight wants to squire your heir
+  agot_knighthood.0016.t:0 "Il Cavaliere Errante"
+  agot_knighthood.0016.desc:0 "Un cavaliere errante ha dormito nei miei saloni per le ultime notti. Sembra che mio figlio, [potential_child_squire.GetName], gli sia affezionato. Allo stesso modo, il cavaliere errante è diventato affezionato a mio figlio. Mio figlio si è innamorato del cavaliere errante dopo aver sentito lui raccontare le sue avventure mozzafiato di cavalleria.\n\nNel suo ultimo giorno alla mia corte, il cavaliere errante offre di rimanere nella mia corte e fare di mio figlio il suo scudiero.\n\nL'uomo sembra abbastanza onesto, e farebbe molto felice mio figlio. Devo pensarci."
+  agot_knighthood.0016.a:0 "Sì, devi rimanere e prenderlo come scudiero!"
+  agot_knighthood.0016.a.tt:0 "[hedge_knight.GetName] si unirà alla tua corte e prenderà tuo figlio come suo scudiero."
+  agot_knighthood.0016.b:0 "No, non credo che tu sia il cavaliere giusto."
+  agot_knighthood.0016.b.tt:0 "[hedge_knight.GetName] lascerà la tua corte."
+
+  # Il cavaliere errante vuole fare cavaliere tuo figlio non erede
+  agot_knighthood.0700.t:0 "Il Cavaliere Errante e l'Allievo"
+  agot_knighthood.0700.desc:0 "Un cavaliere errante di nome [hedge_knight.GetName], ha visitato di recente la mia corte. Nato in [hedge_knight.GetCulture.GetName], ha viaggiato per tutto il regno per cercare il servizio di un signore. So poco di quest'uomo, tranne il fatto che proviene da una nobile famiglia minore delle Terre dell'Ovest, ed è, naturalmente, un cavaliere.\n\nNon gli ho prestato attenzione, e quindi mi aspettavo che si sarebbe mosso presto. Tuttavia, è venuto da me, in confidenza, e ha offerto di fare cavaliere a mio figlio, [potential_child_knight.GetName], in cambio di poter rimanere per tutto il tempo che desidera!"
+  agot_knighthood.0700.a:0 "Suppongo che si possa fare un simile accordo."
+  agot_knighthood.0700.b:0 "No, non accetterò."
+
+  # Il cavaliere errante vuole fare cavaliere te
+  agot_knighthood.0701.t:0 "Il Cavaliere Errante e il Signore"
+  agot_knighthood.0701.desc:0 "Un cavaliere errante di nome [hedge_knight.GetName], ha visitato di recente la mia corte. Nato in [hedge_knight.GetCulture.GetName], sta viaggiando per tutto il regno per motivi sconosciuti.\n\nMentre non gli ho prestato attenzione, sembra che lui abbia prestato attenzione a me. Una nota scritta in modo grossolano che offre a me la cavalleria, firmata nientemeno che da [hedge_knight.GetFirstNamePossessive], è stata consegnata a uno dei miei servitori la scorsa mattina. Per il giusto prezzo, sostiene la nota, posso essere fatto cavaliere."
+  agot_knighthood.0701.a:0 "Accetterò questa offerta."
+  agot_knighthood.0701.b:0 "No, non accetterò."
+
+
+  #####################
+  # Dynasty Knighting #
+  #####################
+
+  #0017-19
+  agot_knighthood.0017.t:0 "Cavaliere Dinastico"
+  agot_knighthood.0017.desc:0 "Mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('potential_squire'))], [potential_squire.GetName], non è ancora uno scudiero. Forse offrendo di fare di [potential_squire.GetHerHim] mio scudiero, potrei forgiare un rapporto migliore tra noi?"
+  agot_knighthood.0017.a:0 "Sì, offri a [potential_squire.GetHerHim] la nomina di scudiero."
+  agot_knighthood.0017.a.tt:0 "Chiedi a [potential_squire.GetName] di diventare il tuo [squire|e]"
+  agot_knighthood.0017.b:0 "No, è una perdita di tempo."
+  agot_knighthood.0017.b.tt:0 "Non chiedi a [potential_squire.GetName] di diventare il tuo scudiero."
+
+  agot_knighthood.0018.opening:0 "A [potential_knight_for_child.GetName],"
+  agot_knighthood.0018.desc:0 "Mi sono accorto che non sei ancora uno scudiero! Se desideri rimediare, è importante che tu trovi presto un cavaliere disposto...\n\nFortunatamente, il destino ci ha legato dal sangue! Se lo desideri, ti farei diventare il mio scudiero, e un giorno, se lo meriti, ti concederò la nomina di cavaliere."
+  agot_knighthood.0018.a:0 "Wow, accetto!"
+  agot_knighthood.0018.b:0 "Mi dispiace, ma no."
+  agot_knighthood.0018.b_toast:0 "[potential_squire.GetName] Risponde"
+  agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetName] ha respinto la tua offerta."
+
+  agot_knighthood.0019.opening:0 "A [knight_offerer.GetName],"
+  agot_knighthood.0019.desc:0 "Accetto la tua proposta di diventare il tuo scudiero. Lo stesso sangue scorre nelle nostre vene, quindi dovremmo cercare di rafforzare questi legami!"
+  agot_knighthood.0019.a:0 "Fantastico!"
+
+
+  ##############################
+  # Squire Notification Events #
+  ##############################
+
+  agot_knighthood.became_a_squire_toast.t:0 "Nomina di Scudiero"
+  agot_knighthood.became_a_squire_toast.tt:0 "Sono diventato lo scudiero [my_knight.Custom('IT_NAM_COL2')][my_knight.GetTitledFirstName]"
+
+
+  agot_knighthood.0300.t:0 "Il Progresso di uno Scudiero"
+  agot_knighthood.0300.desc:0 "Il mio scudiero, [my_squire.GetName], ha dimostrato il suo valore! [my_squire.GetSheHe|U] è arrivato lontano come scudiero e credo che sia ora di farlo diventare un cavaliere."
+  agot_knighthood.0300.a:0 "Farò di [my_squire.GetHerHim] un cavaliere."
+  agot_knighthood.0300.a.tt:0 "[my_squire.GetName] sarà nominato cavaliere!"
+
+  agot_knighthood.0320.t:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))|U] È Nominato Cavaliere!"
+  agot_knighthood.0320.desc_same_house:0  "Mi giunge notizia che il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))], [my_relation.GetTitledFirstName], è stato nominato cavaliere! [my_relation.GetSheHe|U] ha reso molto orgogliosa Casa [ROOT.GetCharacter.GetHouse.GetName]."
+  agot_knighthood.0320.desc_not_same_house:0 "Mi giunge notizia che il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('my_relation'))], [my_relation.GetTitledFirstName], è stato nominato cavaliere! [my_relation.GetSheHe|U] ci ha resi tutti molto orgogliosi."
+  agot_knighthood.0320.a:0 "Bene per [my_relation.GetSheHe]!"
+
+  ##################
+  # Toast Tooltips #
+  ##################
+
+  agot_knighthood.increase_progtoknighthood_toast.tt:0 "Il tuo progresso verso la nomina a cavaliere aumenta."
+  agot_knighthood.decrease_progtoknighthood_toast.tt:0 "Il tuo progresso verso la nomina a cavaliere diminuisce."
+
+  agot_knighthood.0021.a_toast:0 "Nomina di Scudiero Concessa"
+  agot_knighthood.0021.a_toast.tt:0 "Sei diventato lo scudiero di [potential_knight.GetNamePossessive]."
+  agot_knighthood.0021.b_toast:0 "Risposta di [nearby_knight.GetName]"
+  agot_knighthood.0021.b_toast.tt:0 "[nearby_knight.GetName] ha respinto la tua richiesta."
+
+  ## Usato nell'interazione con lo scudiero (tramite il menu del personaggio)
+  agot_knighthood_squire_offer_accept_toast:0 "Offerta di Nomina di Scudiero Accettata"
+  agot_knighthood_squire_offer_accept_toast.tt:0 "Hai ottenuto uno scudiero!"
+  agot_knighthood_squire_offer_reject_toast:0 "Offerta di Nomina di Scudiero Respinta"
+  agot_knighthood_squire_offer_reject_toast.tt:0 "La tua offerta di nomina di scudiero è stata #N respinta!#!"
+
+
+
+  agot_knighthood_offer_rejected_toast:0 "Offerta di Nomina a Cavaliere Respinta"
+  agot_knighthood_offer_rejected_toast.tt:0 "La tua offerta di nomina a cavaliere è stata #N respinta!#!"
+
+  # Usato in luoghi al di fuori dell'interazione 'concessione di cavalleria'
+  agot_knighthood_made_a_knight_generic_toast:0 "Hai Nominato Cavaliere Qualcuno!"
+  agot_knighthood_made_a_knight_generic_toast.tt:0 "Hai nominato cavaliere qualcuno"
+
+
+  #################################
+  ## Battlefield Knighting Event ##
+  #################################
+
+  agot_knighthood.0601.t:0 "Nomina sul Campo di Battaglia"
+  agot_knighthood.0601.desc:0 "Dopo la battaglia a [battle_province.GetName], uno dei miei assistenti mi presenta una lista di soldati che si sono distinti particolarmente. Il nome di [soldier_to_be_knighted.GetNamePossessive] mi colpisce in particolare.\n\nIl mio assistente consiglia di nominarli in una cerimonia in fretta, sul campo di battaglia; secondo lui, nominare questi soldati mentre si trovano tra la carneficina e le rovine della battaglia ispirerà il morale tra le nostre file."
+  agot_knighthood.0601.a:0 "Sì, nominerò cavaliere [soldier_to_be_knighted.GetFirstName]."
+  agot_knighthood.0601.a.tt:0 "Nominerai cavaliere [soldier_to_be_knighted.GetNameNoTooltip]."
+  agot_knighthood.0601.b:0 "No, non li nominerò cavaliere."
+
+  agot_knighthood.0602.t:0 "Nomina sul Campo di Battaglia"
+  agot_knighthood.0602.desc:0 "Dopo la battaglia a [battle_province.GetName], un pugno di uomini, me compreso, è stato convocato dal comandante, [side_commander.GetName].\n\n[side_commander.GetSheHe] ci ha informato che [side_commander.GetSheHe] era impressionato dal nostro valore sul campo di battaglia e che saremmo stati nominati cavalieri per le nostre azioni!"
+  agot_knighthood.0602.a:0 "Sono un cavaliere ora!"
+  agot_knighthood.0602.a.tt:0 "Sei stato nominato cavaliere!"
+
+  ######################################
+  ## Special Squire Assignment Events ##
+  ######################################
+  agot_knighthood.0800.t:0 "Nomina di Cavalieri tra i Giovani"
+  agot_knighthood.0800.desc:0 "Mio figlio, [squire.GetName], è ora abbastanza grande per diventare scudiero. Forse potrei ordinare a un membro della mia Guardia Reale di accogliere [squire.GetHerHim] come scudiero? Credo che [knight.GetName] sarebbe un buon candidato."
+  agot_knighthood.0800.a:0 "Sì!"
+  agot_knighthood.0800.b:0 "No!"
+
+  agot_knighthood.0801.t:0 "Nomina di Cavalieri tra i Giovani"
+  agot_knighthood.0801.desc:0 "Mio figlio, [squire.GetName], è ora abbastanza grande per diventare scudiero. Forse potrei ordinare a un vassallo del mio regno di accogliere [squire.GetHerHim] come scudiero? Credo che [knight.GetName] sarebbe un buon candidato."
+  agot_knighthood.0801.a:0 "Sì!"
+  agot_knighthood.0801.b:0 "No!"
+
+  agot_knighthood.0802.opening:0 "Al mio leale suddito,"
+  agot_knighthood.0802.desc:0 "Ti ordino ufficialmente di prendere [squire.GetName] come tuo scudiero! Spero che tu insegni a [squire.GetName] cosa significa essere un cavaliere!"
+  agot_knighthood.0802.a:0 "Ho ricevuto l'ordine."
+
+
+  ##LOC KEYS FOR KNIGHTING
+
+  contest_winner_ceremony_knighthood_tt:0 "È stato nominato cavaliere da [host.GetShortUIName|U]"

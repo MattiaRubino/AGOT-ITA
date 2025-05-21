@@ -1,0 +1,204 @@
+﻿l_spanish:
+  #Drago
+  trait_dragon_generic: "Drago"
+  trait_dragon_wild: "Drago Selvaggio"
+  trait_dragon_owned: "Drago Posseduto"
+  trait_dragon_tamed: "Drago Domato"
+  trait_dragon_bound: "Drago Legato"
+  trait_dragon_desc: "Che siano creati dalla magia del sangue, dalla carne di fuoco, da un frammento della luna, o da un corpo divino sulla terra, nessuno può negare che i [dragons_plural|El] siano una delle specie più impressionanti del mondo."
+  trait_dragon_character_desc: "Che siano creati dalla magia del sangue, dalla carne di fuoco, da un frammento della luna, o da un corpo divino sulla terra, nessuno può negare che [ROOT.Char.GetNameNoTooltip] sia un membro di una delle specie più impressionanti del mondo, un [dragon|El] dell'antica Valyria."
+
+  #Cavaliere di Drago
+  trait_dragonrider: "Cavaliere di Drago"
+  trait_dragonrider_desc: "I cavalieri di drago sono quei pochi uomini e donne che hanno legato un drago, utilizzando quel potere temibile per i propri scopi."
+  trait_dragonrider_character_desc: "Avendo addomesticato e legato il drago '[ROOT.Var('current_dragon').Char.GetName]', [ROOT.GetCharacter.GetFirstNameNoTooltip] è ora in grado di cavalcare [ROOT.Var('current_dragon').Char.Custom('GetDragonSheHe')]."
+  trait_dragonbinder_desc: "Avendo legato il drago '[ROOT.Var('current_dragon').Char.GetNameNicknamed]' con la magia del sangue dell'antica Valyria, [ROOT.GetCharacter.GetFirstNameNoTooltip] è ora in grado di cavalcare [ROOT.Var('current_dragon').Char.Custom('GetDragonSheHe')]."
+  trait_dragon_name_dragon_alive: "[ROOT.Var('current_dragon').Char.GetNamePossessive|U] Cavaliere"
+  trait_track_dragon_training: "Addestramento del Drago"
+  trait_track_dragon_training_desc: "Il tempo trascorso ad addestrare o combattere insieme migliora l'abilità e la velocità con cui un cavaliere può utilizzare il potente potere del drago.\n\nOgni livello di addestramento aumenterà [dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon! #P +10%#!, fino a un massimo di #P +30%#!."
+  trait_track_dragon_bond: "Legame con il Drago"
+  trait_track_dragon_bond_desc: "Il legame tra un drago e il cavaliere è sempre forte, ma i migliori si dice siano legati magicamente. Un legame più stretto manterrà un drago al servizio del cavaliere anche nelle circostanze più stressanti."
+  trait_dragonless_dragonrider: "Cavaliere senza Drago"
+  trait_dragonless_dragonrider_desc: "Avendo precedentemente legato un drago, questo personaggio ha un tempo maneggiato la forza più grande del mondo; anche se attualmente è senza drago."
+  trait_dragonless_dragonrider_character_desc: "Avendo precedentemente legato un drago, [ROOT.GetCharacter.GetFirstNameNoTooltip] ha un tempo maneggiato la forza più grande del mondo; anche se [ROOT.GetCharacter.GetSheHe] è attualmente senza drago."
+  trait_dragonwidowed: "Legame Spezzato"
+  trait_dragonwidowed_desc: "Avendo precedentemente legato un drago, la perdita del compagno legato ha lasciato questo personaggio incapace di considerare di legarsi con un altro drago."
+  trait_dragonwidowed_character_desc: "Avendo precedentemente legato un drago, la perdita del compagno legato ha lasciato [ROOT.GetCharacter.GetFirstNameNoTooltip] incapace di considerare di legarsi con un altro drago."
+
+  #Cacciatore di Draghi
+  trait_dragonslayer: "Cacciatore di Draghi"
+  trait_dragonslayer_desc: "Pochissimi possono vantare il titolo di cacciatore di draghi, ma questo personaggio ha fatto proprio questo!"
+  trait_dragonslayer_character_desc_alive: "[ROOT.Char.GetFirstNameNoTooltip] ha ucciso il drago [ROOT.Char.MakeScope.Var('slain_dragon').GetCharacter.GetNameNoTooltip], un'impresa davvero impressionante di abilità marziale!"
+  trait_dragonslayer_character_desc_dead: "[ROOT.Char.GetFirstNameNoTooltip] ha ucciso un potente drago, un'impresa davvero impressionante di abilità marziale!"
+
+  #Tratti della Personalità dei Draghi
+  trait_dragon_aggressive: "Aggressivo"
+  trait_dragon_aggressive_desc: "Pronto a scatenare la propria ira contro qualsiasi creatura e in qualsiasi situazione, questo drago è noto per la sua collera."
+  trait_dragon_aggressive_character_desc: "Pronto a scatenare la propria ira contro qualsiasi creatura e in qualsiasi situazione, [ROOT.Char.GetFirstNameNoTooltip] è noto per la sua collera."
+
+  trait_dragon_friendly: "Amichevole"
+  trait_dragon_friendly_desc: "Questo drago è sorprendentemente pacifico e premuroso con la maggior parte delle creature, e spesso può essere calmo o persino giocoso."
+  trait_dragon_friendly_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è sorprendentemente pacifico e premuroso con la maggior parte delle creature, e spesso può essere calmo o persino giocoso."
+
+  trait_dragon_cooperative: "Cooperativo"
+  trait_dragon_cooperative_desc: "Questo drago è un animale da branco fino in fondo. Eccelle quando ha dei compagni al suo fianco."
+  trait_dragon_cooperative_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è un animale da branco fino in fondo. [ROOT.Char.Custom('GetDragonSheHe')|U] eccelle con dei compagni al suo fianco."
+
+  trait_dragon_solitary: "Solitario"
+  trait_dragon_solitary_desc: "Questo drago è al massimo della sua efficacia quando è libero da distrazioni e da altri draghi."
+  trait_dragon_solitary_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è al massimo della propria efficacia quando è libero da distrazioni e da altri draghi."
+
+  trait_dragon_imperious: "Imperioso"
+  trait_dragon_imperious_desc: "C'è qualcosa di quasi regale nei rapporti tra questo drago e gli altri draghi. Si aspetta che tutti, draghi e uomini, si sottomettano a lui."
+  trait_dragon_imperious_character_desc: "C'è qualcosa di quasi regale nei rapporti tra [ROOT.Char.GetFirstNameNoTooltip] e gli altri draghi. [ROOT.Char.Custom('GetDragonSheHe')|U] si aspetta che tutti, draghi e uomini, si sottomettano a [ROOT.Char.Custom('GetDragonSheHe')]."
+
+  trait_dragon_supporting: "Sostenitore"
+  trait_dragon_supporting_desc: "Sembra che questo drago sarebbe più felice come uno dei tanti aiutanti. Valuta la lealtà più che il controllo."
+  trait_dragon_supporting_character_desc: "Sembra che [ROOT.Char.GetFirstNameNoTooltip] sarebbe più felice come uno dei tanti aiutanti. [ROOT.Char.Custom('GetDragonSheHe')|U] valuta la lealtà più che il controllo."
+
+  trait_dragon_impulsive: "Impulsivo"
+  trait_dragon_impulsive_desc: "Attaccando con abbandono sconsiderato, questo drago tende a coinvolgere immediatamente i nemici."
+  trait_dragon_impulsive_character_desc: "Attaccando con abbandono sconsiderato, [ROOT.Char.GetFirstNameNoTooltip] tende a coinvolgere immediatamente i nemici."
+
+  trait_dragon_calculating: "Calcolatore"
+  trait_dragon_calculating_desc: "Bestia paziente, questo drago preferisce combattere con le mosse ben pianificate e focalizzate."
+  trait_dragon_calculating_character_desc: "Bestia paziente, [ROOT.Char.GetFirstNameNoTooltip] preferisce combattere con mosse ben pianificate e focalizzate."
+
+  trait_dragon_voracious: "Vorace"
+  trait_dragon_voracious_desc: "Con un appetito insaziabile, questo drago è noto per nutrirsi in eccesso."
+  trait_dragon_voracious_character_desc: "Con un appetito insaziabile, [ROOT.Char.GetFirstNameNoTooltip] è noto per nutrirsi in eccesso."
+
+  trait_dragon_restrained: "Contenuto"
+  trait_dragon_restrained_desc: "Questo drago mangia meno di quanto ci si aspetterebbe per una bestia delle sue dimensioni, preservando risorse preziose."
+  trait_dragon_restrained_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] mangia meno di quanto ci si aspetterebbe per un drago delle sue dimensioni, preservando risorse preziose."
+
+  trait_dragon_defiant: "Sfidante"
+  trait_dragon_defiant_desc: "Detestando la sottomissione a qualsiasi uomo, questo drago è incline a rifiutare cavalieri, ordini o catene."
+  trait_dragon_defiant_character_desc: "Detestando la sottomissione a qualsiasi uomo, [ROOT.Char.GetFirstNameNoTooltip] è incline a rifiutare cavalieri, ordini o catene."
+
+  trait_dragon_accepting: "Accogliente"
+  trait_dragon_accepting_desc: "Curiosamente rilassato intorno alle persone, questo drago ha mostrato una tendenza ad accettare cavalieri e seguire istruzioni."
+  trait_dragon_accepting_character_desc: "Curiosamente rilassato intorno alle persone, [ROOT.Char.GetFirstNameNoTooltip] ha mostrato una tendenza ad accettare cavalieri e seguire istruzioni."
+
+  trait_dragon_bloodthirsty: "Assetato di Sangue"
+  trait_dragon_bloodthirsty_desc: "Questo drago brama il conflitto sanguinoso ed è chiaramente a suo agio come causa di morte o distruzione."
+  trait_dragon_bloodthirsty_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] brama il conflitto sanguinoso ed è chiaramente a suo agio come causa di morte o distruzione."
+
+  trait_dragon_skittish: "Inquieto"
+  trait_dragon_skittish_desc: "Con una tendenza a fuggire dal conflitto, questo drago sembra terribilmente inconsapevole del proprio potere."
+  trait_dragon_skittish_character_desc: "Con una tendenza a fuggire dal conflitto, [ROOT.Char.GetFirstNameNoTooltip] sembra terribilmente inconsapevole del proprio potere."
+
+  trait_dragon_cannibal: "Cannibale"
+  trait_dragon_cannibal_desc: "Lontano dal semplicemente combattere per territorio o in guerra, questo drago è noto per cannibalizzare altri draghi, per saziare il proprio appetito."
+  trait_dragon_cannibal_character_desc: "Lontano dal semplicemente combattere per territorio o in guerra, [ROOT.Char.GetFirstNameNoTooltip] è noto per cannibalizzare altri draghi per saziare il proprio appetito."
+
+  trait_dragon_physique_good_3: "Leviatano Tirannico"
+  trait_dragon_physique_good_3_desc: "Alcuni draghi sono talmente maestosi che il loro splendore fisico è noto da Asshai alla Barriera. Essere in loro presenza è come trovarsi di fronte alla morte incarnata."
+  trait_dragon_physique_good_3_character_desc: "Da Asshai alla Barriera, tutti conoscono la pura maestosità fisica di [ROOT.Char.GetFirstNameNoTooltip]. Essere in sua presenza è come trovarsi di fronte alla morte incarnata."
+
+  trait_dragon_physique_good_2: "Grande Drago"
+  trait_dragon_physique_good_2_desc: "Non tutti i draghi sono uguali, e alcuni sembrano irradiare la forza del fuoco fatto carne, stupendo chiunque li contempli."
+  trait_dragon_physique_good_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è un esemplare straordinario della specie draconica. Le sue scaglie perfette irradiano la forza del fuoco fatto carne."
+
+  trait_dragon_physique_good_1: "Terrificante Wyrm"
+  trait_dragon_physique_good_1_desc: "Con ali potenti, una corporatura massiccia e un morso titanico, alcuni draghi mostrano il potere dell'antica Valyria semplicemente con la loro presenza."
+  trait_dragon_physique_good_1_character_desc: "Con ali potenti, una corporatura massiccia e un morso titanico, [ROOT.Char.GetFirstNameNoTooltip] dimostra il potere dell'antica Valyria."
+
+  trait_dragon_physique_good: "Buona Fisicità del Drago"
+  trait_dragon_physique_bad: "Cattiva Fisicità del Drago"
+
+  trait_dragon_physique_bad_1: "Wyrm Malato"
+  trait_dragon_physique_bad_1_desc: "Con ali leggermente malformate e macchie di scaglie deformi, anomalie nel sangue o interferenze misteriose possono rendere alcuni draghi leggermente inferiori rispetto agli altri."
+  trait_dragon_physique_bad_1_character_desc: "Con ali leggermente malformate e macchie di scaglie deformi, la presenza di [ROOT.Char.GetFirstNameNoTooltip] come drago è leggermente attenuata."
+
+  trait_dragon_physique_bad_2: "Drago Malformato"
+  trait_dragon_physique_bad_2_desc: "Non tutti i draghi sono uguali, e alcuni portano il segno di una creatura inferiore, con arti disgiunti posti in angoli scomodi e movimenti goffi e impacciati."
+  trait_dragon_physique_bad_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è visibilmente inferiore ai suoi pari; arti disgiunti posti in angoli scomodi e movimenti goffi e impacciati."
+
+  trait_dragon_physique_bad_3: "Wyrmling Pietoso"
+  trait_dragon_physique_bad_3_desc: "Tale è il destino dei draghi nati nei tempi meno magici, dove da punta a coda ogni parte sembra fuori posto. Occhi deformi sistemati in un cranio asimmetrico. Le ali sono troppo piccole e il dorso troppo grande. Lontano dal suscitare terrore, queste creature incitano pietà."
+  trait_dragon_physique_bad_3_character_desc: "Dalla punta alla coda, ogni parte di [ROOT.Char.GetFirstNameNoTooltip] sembra fuori posto. Occhi deformi sistemati in un cranio asimmetrico. Le ali sono troppo piccole e il dorso troppo grande. Lontano dal suscitare terrore, questa creatura incita pietà."
+
+  trait_dragon_swift: "Agile"
+  trait_dragon_swift_desc: "Alcuni draghi sono noti per la loro velocità e agilità, capaci di superare i pari della stessa taglia e età."
+  trait_dragon_swift_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è noto per la sua velocità e agilità, capace di superare i pari della stessa taglia e età."
+
+  trait_dragon_slow: "Lento"
+  trait_dragon_slow_desc: "Alcuni draghi sono lenti e pesanti, incapaci di tenere il passo con i pari della stessa taglia e età."
+  trait_dragon_slow_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è lento e pesante, incapace di tenere il passo con i pari della stessa taglia e età."
+
+  trait_dragon_spindly: "Esile"
+  trait_dragon_spindly_desc: "Con arti allungati e una corporatura sottile, alcuni draghi sono noti per un aspetto esile e inquietante, rendendoli sia più piccoli che più agili dei loro pari."
+  trait_dragon_spindly_character_desc: "Con arti allungati e una corporatura sottile, [ROOT.Char.GetFirstNameNoTooltip] è noto per un aspetto esile e inquietante che lo rende sia più piccolo che più agile dei suoi pari."
+
+  trait_dragon_majestic: "Maestoso"
+  trait_dragon_majestic_desc: "Ispirando meraviglia con la loro presenza, alcuni draghi sono noti per la loro pura maestosità e grandiosità, con scaglie che brillano al sole come metallo lucido."
+  trait_dragon_majestic_character_desc: "Ispirando meraviglia con la sua presenza, [ROOT.Char.GetFirstNameNoTooltip] è noto per la sua pura maestosità e grandiosità, con scaglie che brillano al sole come metallo lucido."
+
+  trait_dragon_ugly: "Brutto"
+  trait_dragon_ugly_desc: "La maggior parte dei draghi è o bella o terrificante, ma con scaglie opache e un volto che solo una madre potrebbe amare, alcuni draghi possono essere anche brutti."
+  trait_dragon_ugly_character_desc: "Con scaglie opache e un volto che solo una madre potrebbe amare, [ROOT.Char.GetFirstNameNoTooltip] è condannato a essere un drago brutto."
+
+  trait_dragon_fertile: "Fertile"
+  trait_dragon_fertile_desc: "La fertilità dei draghi è una cosa capricciosa, ma questo drago è noto per essere fruttuoso e fertile."
+  trait_dragon_fertile_character_desc: "La fertilità dei draghi è una cosa capricciosa, ma [ROOT.GetCharacter.GetFirstNameNoTooltip] è noto per essere fruttuoso e fertile."
+
+  trait_dragon_destined: "Destinato"
+  trait_dragon_destined_desc: "Le ruote del destino girano incessantemente, e ciò ha visto questo drago segnato come strumento del destino."
+  trait_dragon_destined_character_desc: "Le ruote del destino girano incessantemente, e ciò ha visto [ROOT.GetCharacter.GetFirstNameNoTooltip] segnato come strumento del destino."
+
+
+  # Tratti di educazione
+  trait_education_dragon_1: "Drago Selvaggio"
+  trait_education_dragon_1_desc: "Crescendo da solo in ambienti ostili, un drago diventa selvaggio come qualsiasi bestia della natura."
+  trait_education_dragon_1_character_desc: "Crescendo da solo in ambienti ostili, [ROOT.Char.GetFirstNameNoTooltip] è diventato selvaggio come qualsiasi bestia della natura."
+
+  trait_education_dragon_2: "Drago Naturale"
+  trait_education_dragon_2_desc: "Cresciuto nella wilderness senza guida né addestramento, un drago è volitivo e incline ad atti animalistici."
+  trait_education_dragon_2_character_desc: "Cresciuto nella wilderness senza guida né addestramento, [ROOT.Char.GetFirstNameNoTooltip] è volitivo e incline ad atti animalistici."
+
+  trait_education_dragon_3: "Drago Addestrato"
+  trait_education_dragon_3_desc: "Cresciuto tra gli uomini, alcuni draghi manterranno comunque il tratto selvaggio e indipendente tipico della loro specie."
+  trait_education_dragon_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] è stato cresciuto tra gli uomini, ma mantiene il tratto selvaggio e indipendente tipico dei draghi."
+
+  trait_education_dragon_4: "Drago Socializzato"
+  trait_education_dragon_4_desc: "Essendo stato adeguatamente sfidato e stimolato durante la crescita, un drago può essere messo a proprio agio sia con gli uomini che con altri draghi."
+  trait_education_dragon_4_character_desc: "Essendo stato adeguatamente sfidato e stimolato durante la crescita, [ROOT.Char.GetFirstNameNoTooltip] è a suo agio sia con gli uomini che con altri draghi."
+
+  trait_education_dragon_5: "Drago Nobile"
+  trait_education_dragon_5_desc: "Esemplare di temperamento e carattere, un drago idealmente cresciuto è tutto ciò che un cavaliere drago potrebbe desiderare nel proprio drago."
+  trait_education_dragon_5_character_desc: "Esemplare di temperamento e carattere, [ROOT.Char.GetFirstNameNoTooltip] è tutto ciò che un cavaliere drago potrebbe desiderare nel proprio drago."
+
+  # Tratti di salute
+  trait_dragon_wounded: "Ferito"
+  trait_dragon_wounded_1: "Leggermente Ferito"
+  trait_dragon_wounded_1_desc: "Che sia per un lieve incidente o un combattimento molto sbilanciato, un drago può essere leggermente ferito."
+  trait_dragon_wounded_1_character_desc: "Che sia per un lieve incidente o un combattimento molto sbilanciato, [ROOT.Char.GetFirstNameNoTooltip] è stato leggermente ferito."
+
+  trait_dragon_wounded_2: "Ferito"
+  trait_dragon_wounded_2_desc: "Sorprendente per creature della loro statura, i draghi possono essere feriti in combattimento o per incidenti."
+  trait_dragon_wounded_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha subito una ferita — sorprendente per una creatura della sua statura."
+
+  trait_dragon_wounded_3: "Gravemente Ferito"
+  trait_dragon_wounded_3_desc: "Un drago può subire una grave ferita che richiede molto riposo per guarire completamente."
+  trait_dragon_wounded_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha subito una grave ferita e avrà bisogno di molto riposo per guarire completamente."
+
+  trait_dragon_wounded_4: "Gravemente Ferito"
+  trait_dragon_wounded_4_desc: "Una ferita di questa entità può essere stata inflitta solo da qualcosa di grande e terribile."
+  trait_dragon_wounded_4_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha subito una ferita veramente grave — una ferita di questa grandezza può essere stata inflitta solo da qualcosa di grande e terribile."
+
+  trait_dragon_wounded_5: "Mortale Ferito"
+  trait_dragon_wounded_5_desc: "Contro ogni probabilità per una creatura di tale magnificenza, i draghi possono subire ferite talmente gravi da essere quasi fatali."
+  trait_dragon_wounded_5_character_desc: "Contro ogni probabilità per una creatura della sua statura, [ROOT.Char.GetFirstNameNoTooltip] è stato ferito così gravemente da essere quasi vicino alla morte."
+
+  trait_dragon_burned: "Bruciato"
+  trait_dragon_burned_desc: "Anche se intrinsecamente resistente al fuoco, i draghi possono essere bruciati da un calore veramente intenso."
+  trait_dragon_burned_character_desc: "Esposto a un calore veramente intenso, [ROOT.Char.GetFirstNameNoTooltip] è stato bruciato su ampie sezioni del suo corpo."
+
+  trait_dragon_ill: "Malato"
+  trait_dragon_ill_desc: "Anche se i draghi si ammalano raramente, è noto che accadano occasionalmente a causa di un pasto avariato o di una malattia invisibile."
+  trait_dragon_ill_character_desc: "Anche se i draghi si ammalano raramente, [ROOT.Char.GetFirstNameNoTooltip] è stato colpito da una malattia invisibile o da un pasto avariato."
+  trait_dragon_blind: "Cieco"
+  trait_dragon_blind_desc: "A causa di un'infortunio o di una sfortuna alla nascita, questo drago è incapace di vedere."
+  trait_dragon_blind_character_desc: "A causa di un'infortunio o di una sfortuna alla nascita, [ROOT.Char.GetFirstNameNoTooltip] è incapace di vedere."
+  trait_dragon_blind_character_desc_laenas_wyrm:0 "A causa di un'infortunio o di una sfortuna alla nascita, [ROOT.Char.GetNicknameNoTooltip] è incapace di vedere."

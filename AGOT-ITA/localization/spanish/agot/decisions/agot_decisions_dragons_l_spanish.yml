@@ -1,0 +1,84 @@
+﻿l_spanish:
+  # Dragon Eggs
+  hatch_dragon_egg_decision:0 "Schiudi l'uovo di drago"
+  hatch_dragon_egg_decision_desc:0 "Proverò a schiudere il mio uovo di drago."
+  hatch_dragon_egg_decision_tooltip:0 "Assolutamente nulla può andare storto"
+  hatch_dragon_egg_decision_confirm:0 "Questa è una brutta idea..."
+
+  spend_time_with_dragon_egg_decision:0 "Trascorri del Tempo con l'Uovo di Drago"
+  spend_time_with_dragon_egg_decision_desc:0 "Non è sufficiente possedere un uovo di drago, bisogna legarsi ad esso per assicurare una forte connessione con il drago che ne nascerà."
+  spend_time_with_dragon_egg_decision_tooltip:0 "Decidi di trascorrere del tempo con il tuo uovo di drago"
+  spend_time_with_dragon_egg_decision_confirm:0 "Trascorri del Tempo con il Tuo Uovo"
+
+  agot_appoint_dragonkeeper_head:0 "Nomina il Capo dei Custodi dei Draghi"
+  agot_appoint_dragonkeeper_head_desc:0 "La posizione di Capo dei Custodi dei Draghi è vacante. Per preservare e mantenere la nostra [dragonpit|e], dovremmo nominarne uno nuovo."
+  agot_appoint_dragonkeeper_head_dragonmount_desc:0 "La posizione di Capo dei Custodi dei Draghi è vacante. Per mantenere il Monte del Drago sorvegliato e curato, dovremmo nominarne uno nuovo."
+  agot_appoint_dragonkeeper_head_tooltip:0 "Nomina un nuovo Capo dei Custodi dei Draghi"
+  agot_appoint_dragonkeeper_head_confirm:0 "Nomina un nuovo Capo dei Custodi dei Draghi"
+  tooltip_employ_dragonkeeper:0 "Non devi già impiegare un Capo dei Custodi dei Draghi."
+  agot_appoint_dragonkeeper_head_effect_tooltip:0 "Un nuovo Capo dei Custodi dei Draghi sarà generato in base al finanziamento per l'amenità della tua fossa del drago."
+  agot_restore_dragonstone_dragonkeepers:0 "Ripristina i Custodi dei Draghi del Monte del Drago"
+  agot_restore_dragonstone_dragonkeepers_desc:0 "Dopo molti anni di inattività, [GetBuilding('agot_dragonmont_01').GetName] richiede nuovamente un ordine di [dragonkeepers|e] per sorvegliarlo."
+  agot_restore_dragonmont_dragonkeepers_effect_tooltip:0 "Un nuovo [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] e un ordine di custodi dei draghi saranno stabiliti in [GetTitleByKey('c_dragonstone').GetNameNoTier]."
+
+  # Campagna del Terrore
+  conduct_terror_campaign:0 "Conduci una Campagna del Terrore"
+  conduct_terror_campaign_desc:0 "Come cavaliere di un grande drago, spetta a me decidere come usarlo in guerra. Sebbene il loro utilizzo sia stato storicamente limitato agli eserciti nemici, nulla mi impedisce di usarlo per devastare la popolazione civile dei miei avversari."
+  conduct_terror_campaign_effect:0 "Inizierai una campagna di terrore draconico, danneggiando tutte le province intorno a te quando sei in guerra.\n\n#X @warning_icon! Una tale distruzione indiscriminata causerà estrema ira sia nei tuoi nemici che negli alleati più scrupolosi.#!"
+  conduct_terror_campaign_tooltip:0 "#X @warning_icon! Una tale distruzione indiscriminata causerà estrema ira sia nei tuoi nemici che negli alleati più scrupolosi.#!"
+  conduct_terror_campaign_dragon_condition:0 "Il tuo drago ha almeno 100 [dragon_combat_effectiveness|E]"
+  conduct_terror_campaign_confirm:0 "Bruciateli tutti!"
+
+  stop_terror_campaign:0 "Termina la Campagna del Terrore"
+  stop_terror_campaign_show_condition:0 "Stai conducendo una campagna del terrore"
+  stop_terror_campaign_desc:0 "Attualmente sto conducendo una campagna di terrore draconico. Qualsiasi esercito in cui mi trovo io o il mio drago sarà utilizzato come base per devastare le terre circostanti. Sebbene senza dubbio efficace, tali tattiche vanno contro tutte le convenzioni delle regole onorevoli della guerra."
+  stop_terror_campaign_tooltip:0 "Terminerai la tua campagna del terrore"
+  stop_terror_campaign_confirm:0 "Cessa la distruzione"
+
+  # Cavalca il tuo Drago
+  ride_dragon_decision:0 "Cavalca [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]"
+  ride_dragon_decision_desc:0 "È passato troppo tempo dall'ultima volta che io e [ROOT.Var('current_dragon').Char.GetFirstName] abbiamo semplicemente volato insieme. Desidero sentire di nuovo il vento che mi sferza e la libertà del cielo aperto."
+  ride_dragon_decision_tooltip:0 "Cavalca il tuo drago"
+  ride_dragon_decision_confirm:0 "Cavalca il tuo drago"
+  ride_dragon_effect_tooltip:0 "Perderai un po' di [stress|E] e potresti rafforzare il tuo legame con il drago."
+
+  # Usa / Non Usare il Drago
+  use_dragon_decision:0 "Usa [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in Guerra"
+  use_dragon_decision_desc:0 "Ho un drago, un'arma di distruzione di massa. Non devo sporcarmi nel fango con i miei soldati, posso semplicemente volare sopra il campo di battaglia e scatenare il fuoco sui miei nemici."
+  use_dragon_decision_tooltip:0 "Puoi scegliere di usare nuovamente il tuo drago quando sei in guerra"
+  use_dragon_decision_confirm:0 "Usa il tuo drago"
+  use_dragon_decision_effect:0 "Il tuo [dragon|E] potrà unirsi agli eserciti e combatterai con esso"
+  dont_use_dragon_decision:0 "Non Usare [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] in Guerra"
+  dont_use_dragon_decision_desc:0 "Sebbene potente, non è sempre saggio usare ogni risorsa a disposizione. Per sicurezza, orgoglio o per qualche altra ragione, posso scegliere di non usare il mio drago in guerra."
+  dont_use_dragon_decision_tooltip:0 "Sebbene sia una risorsa potente, puoi scegliere di non usare il tuo drago in battaglia"
+  dont_use_dragon_decision_confirm:0 "Non usare il tuo drago"
+  dont_use_dragon_decision_effect:0 "Il tuo [dragon|E] non si unirà agli eserciti e combatterai senza di esso"
+
+  # Mostrami i Draghi
+  show_me_dragons_decision:0 "Mostra i Draghi"
+  show_me_dragons_decision_desc:0 "Portatemi l'elenco di tutti i draghi conosciuti."
+  show_me_dragons_decision_tooltip:0 "Ti sarà presentato un elenco di tutti i draghi viventi"
+  show_me_dragons_decision_confirm:0 "Mostrameli!"
+  show_me_dragons_decision_effect_tooltip:0 "Ti sarà mostrato un elenco di tutti i draghi viventi"
+
+  # Casa dei Cavalieri di Drago
+  become_dragonrider_house_decision:0 "Diventa la Casata dei Cavalieri dei Draghi"
+  become_dragonrider_house_decision_desc:0 "Ci sono poche cose al mondo più prestigiose di essere un cavaliere di drago. Spesso la minaccia della mia bestia è sufficiente a far inginocchiare i miei nemici.\n\nUn drago mi ha accettato, il sangue di fuoco scorre nelle mie vene. C'è solo un ultimo passo da compiere, per assicurarmi che i miei eredi possano volare e dominare, come ho fatto io."
+  become_dragonrider_house_decision_living_house_member_count_tt:0 "5 o più membri viventi della tua [house|E] sono cavalieri di drago"
+  become_dragonrider_house_decision_confirm:0 "Verso i cieli!"
+  become_dragonrider_house_decision_tooltip:0 "Afferma il legame della tua casata con i draghi"
+
+  # Seme di Drago
+  call_for_dragonseeds_decision:0 "Invita Sangue di Drago"
+  call_for_dragonseeds_decision_desc:0 "La capacità di rivendicare un drago è nel sangue, non nel nome. Potrebbero esserci persone che portano il sangue del drago, ma che non portano il nome di una grande casata. Se chiamo, alcuni potrebbero rispondere. I rischi sarebbero grandi, ma la ricompensa potrebbe essere il rafforzamento della mia casata, purché giurino tutti la loro fedeltà."
+  call_for_dragonseeds_decision_unclaimed_dragons_tt:0 "Almeno un [owned_dragon|E] è nelle tue fosse dei draghi e può essere domato"
+  call_for_dragonseeds_decision_local_wild_dragons_tt:0 "Almeno un [wild_dragon|E] ha la sua tana nel tuo [domain|E] e può essere domato"
+  call_for_dragonseeds_decision_confirm:0 "Invia l'araldo"
+  call_for_dragonseeds_decision_tooltip:0 "I Sangu di Drago sono convocati a unirsi alla tua corte"
+
+  # Bevi Fuocovivo
+  drink_wildfire_decision:0 "Bevi Altofuoco"
+  drink_wildfire_decision_desc:0 "Da quando la Gilda degli Alchimisti ha creato questa sostanza, si vocifera che possieda il potere di trasformare un uomo in un drago."
+  drink_wildfire_decision_confirm:0 "Portami la mia coppa!"
+  drink_wildfire_decision_tooltip:0 "Diventa un drago"
+  drink_wildfire_decision_effect:0 "Nessun uomo è mai sopravvissuto a un tentativo del genere, ma forse non possedevano il sangue del drago"

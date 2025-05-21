@@ -1,0 +1,117 @@
+﻿l_spanish:
+  agot_dragonkeepers.0001.t:0 "Istituzione dell'Ordine dei Custodi dei Draghi"
+  agot_dragonkeepers.0001.desc:0 "Con il completamento di una [dragonpit|E], è giunto il momento di istituire un ordine di fedeli custodi giurati a proteggere i draghi che un giorno verranno ospitati all'interno. Questi custodi, #bold i custodi dei draghi#!, non solo proteggeranno i miei draghi, ma garantiranno anche che le antiche tradizioni e la saggezza del mantenimento dei draghi vengano preservate.\n\nComandare i miei [dragonkeepers|E] non sarà un compito semplice. Fortunatamente, ho già un candidato in mente per guidare questo ordine: [head_dragonkeeper.GetName]."
+  agot_dragonkeepers.0001.a:0 "Eccellente!"
+  agot_dragonkeepers.0002.t:0 "Nominato il nuovo Capo dei Guardiani dei Draghi"
+  agot_dragonkeepers.0002.desc:0 "L'Ordine dei Custodi dei Draghi ha nominato un nuovo capo per il loro illustre ordine a servizio mio.\n\nDopo aver osservato le antiche tradizioni della vecchia Valyria, [head_dragonkeeper.GetName] è stato selezionato per guidare i [dragonkeepers|E]. Che [head_dragonkeeper.GetSheHe] possa servirmi bene."
+  agot_dragonkeepers.0002.a:0 "Eccellente!"
+
+
+  ####################
+  ### MISC EVENTS ####
+  ####################
+
+  agot_dragonkeepers.0100.t:0 "I Custodi dei Draghi"
+  agot_dragonkeepers.0100.desc:0 "Con il completamento della restaurazione della [dragonpit|E], è fondamentale che ora reinstauriamo #bold l'Ordine dei Custodi dei Draghi#! per occuparne. Questi onorati custodi proteggeranno e si prenderanno cura dei draghi che un giorno saranno ospitati all'interno, oltre a garantire che le antiche tradizioni e la saggezza del mantenimento dei draghi vengano preservate.\n\nFortunatamente, si sono presentate alcune opzioni su chi dovrà guidare i [dragonkeepers|E]."
+  agot_dragonkeepers.0100.a:0 "[head_dragonkeeper.GetName] è una buona scelta!"
+  agot_dragonkeepers.0100.a.tt:0 "Sarà creato un Ordine dei Custodi dei Draghi con [head_dragonkeeper.GetName] come loro capo."
+  agot_dragonkeepers.0100.b:0 "Scelgo io qualcuno personalmente."
+  agot_dragonkeepers.0100.b.tt:0 "Sarà istituito un Ordine dei Custodi dei Draghi, ma dovrai nominare manualmente il loro capo."
+  agot_dragonkeepers.0101.t:0 "Il Ritorno dei Custodi dei Draghi"
+  agot_dragonkeepers.0101.desc:0 "Per la prima volta dopo molti anni, il Monte del Drago è di nuovo protetto da un ordine di custodi dei draghi. [head_dragonkeeper.GetName] è stato nominato come loro leader."
+  agot_dragonkeepers.0101.a:0 "Speriamo che [head_dragonkeeper.GetSheHe] ci serva bene."
+
+
+  #####################
+  ### FLAVOR EVENTS ###
+  #####################
+
+  agot_dragonkeepers.0300.t:0 "I Custodi dei Draghi Richiedono Maggiori Fondi"
+  agot_dragonkeepers.0300.desc:0 "[head_dragonkeeper.GetName] riporta che il loro attuale budget mensile ha portato all'incapacità dei custodi dei draghi di acquistare attrezzature adeguate per l'addestramento dei nuovi recluti.\n\n"Per favore, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], le casse dell'ordine non possono sostenere le nostre esigenze per nuovi recluti. Senza l'attrezzatura e l'addestramento adeguati, non possiamo occuparci adeguatamente delle esigenze dei tuoi draghi. Ho già inviato tre membri dell'ordine dai maestri con ferite questa settimana."\n\n"Magari un aumento dei fondi, o se gradisce mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]..." [head_dragonkeeper.GetSheHe] tira fuori un rotolo dalle sue vesti, "Ho anche una lista di attrezzature se preferisce fornirle tramite mezzi propri.""
+  agot_dragonkeepers.0300.a:0 "Aumenterò i fondi per i custodi dei draghi."
+  agot_dragonkeepers.0300.b:0 "Acquisterò direttamente l'attrezzatura."
+  agot_dragonkeepers.0300.c:0 "Devono arrangiarsi con ciò che hanno."
+
+  agot_dragonkeepers.0301.t:0 "I Custodi dei Draghi Avvertono Brontolii della Fame"
+  agot_dragonkeepers.0301.desc:0 "[head_dragonkeeper.GetName] riporta che le scorte di cibo della tua Fossa del Drago stanno finendo. Sono vicini a razionare il cibo.\n\n"Mi[ROOT.Char.GetLadyLord], viviamo per servire i tuoi draghi. Gli animali da mangime migliori, #italic naturalmente#!, sono destinati alle loro priorità. Vedi, l'appetito di un drago sano può mettere a dura prova il nostro budget mensile."\n\n[head_dragonkeeper.GetSherHe|U] abbassa lo sguardo in segno di vergogna. "Abbiamo bisogno di assistenza per procurare più cibo per il nostro ordine, altrimenti ci troveremo a implementare razionamenti rigidi."
+  agot_dragonkeepers.0301.b:0 "Importa subito più cibo."
+
+  agot_dragonkeepers.0302.t:0 "I Custodi dei Draghi Subiscono una Vittima"
+  agot_dragonkeepers.0302.desc:0 "[head_dragonkeeper.GetName] riporta che [dead_dragonkeeper.GetName] è stat[dead_dragonkeeper.Custom('DE_END_PRO_S_N')] uccis[dead_dragonkeeper.Custom('DE_END_PRO_S_N')]! Inoltre, [head_dragonkeeper.GetSheHe] dice che ciò è stato causato dallo scarso finanziamento per l'ordine e che avrebbe potuto essere evitato.\n\n"Siamo in grado di sbarcare il lunario, ma non tutte le preoccupazioni possono essere affrontate rapidamente, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]. Il nostro attuale finanziamento non ci consente di avere abbastanza manodopera. Le catene di [dragon.GetName] erano in attesa di manutenzione regolare, ma il nostro intervento è settimane in ritardo. Stiamo attualmente lavorando turni doppi per prevenire ulteriori #italic sfortunate disgrazie#!..." [head_dragonkeeper.GetSheHe] sospira profondamente.\n\n"Abbiamo fatto tutto il possibile, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]. [dragon.GetNameNoTooltip] sembrava persino affezionarsi a [dead_dragonkeeper.GetSheHe], ma alla fine non ha lasciato resti da seppellire."
+  agot_dragonkeepers.0302.a:0 "Questo è imbarazzante!"
+
+  agot_dragonkeepers.0303.t:0 "Infortunio nell'Ordine"
+  agot_dragonkeepers.0303.desc:0 "[head_dragonkeeper.GetName] riporta che [injured_dragonkeeper.GetName]  è stat[dead_dragonkeeper.Custom('DE_END_PRO_S_N')] ferit[injured_dragonkeeper.Custom('DE_END_PRO_S_N')] a causa del cattivo finanziamento dell'ordine.\n\n"Addestrare uomini a gestire #italic il fuoco fatto carne#! non è un'impresa da poco!" [head_dragonkeeper.GetNameNoTooltip] sottolinea che i suoi custodi dei draghi sono equipaggiati con armature nere, che richiedono un addestramento intensivo e sono diverse da altre armature.\n\n"I draghi possono essere molto lenti a familiarizzare con un custode dei draghi inesperto. Il nostro tipo di legame si forma lentamente e la fiducia di un drago non si guadagna facilmente. Maggiori finanziamenti per l'addestramento possono aiutare a tenere il tuo ordine al sicuro."
+  agot_dragonkeepers.0303.a:0 "Questo è imbarazzante!"
+
+  agot_dragonkeepers.0304.t:0 "Intruso Catturato nella Fossa del Drago"
+  agot_dragonkeepers.0304.desc:0 "[head_dragonkeeper.GetName] riporta che un intruso che tentava di infiltrarsi nella Fossa del Drago è stato catturato. È stato picchiato dalle guardie, ma è stato preso in custodia senza ulteriori danni.\n\nL'intruso è stato #italic leggermente interrogato#! e afferma di essere entrato per una scommessa dopo un paio di troppi alcolici. Si chiama [thief.GetName], e giura su [thief.GetFaith.HighGodName] che non lo farà mai più.\n\n"Anche se [dragon.GetName] ha buoni istinti, potremmo sempre chiedere se [dragon.Custom('GetDragonSheHe')] pensa che sia uno spia." [head_dragonkeeper.GetNameNoTooltip] ride."
+  agot_dragonkeepers.0304.a:0 "Ottimo lavoro."
+  agot_dragonkeepers.0304.b:0 "Dai da mangiare l'intruso a un drago."
+
+  agot_dragonkeepers.0305.t:0 "Un Soprannome per il Mio Drago"
+  agot_dragonkeepers.0305.desc:0 "[head_dragonkeeper.GetName] riporta che i Custodi dei Draghi sono diventati così familiari con [dragon.GetName] che gli hanno dato un soprannome.\n\n"Abbiamo cominciato a chiamare [dragon.Custom('GetDragonShehe')] #italic [dragon.GetNickname]#!, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]. Un appellativo adatto per una creatura così magnifica.""
+  agot_dragonkeepers.0305.a:0 "Davvero?"
+  agot_dragonkeepers.0305.a.tt:0 "[dragon.GetName|V] ha ottenuto il [nickname|E] '[dragon.GetNickname|V]'"
+  agot_dragonkeepers.0305.b:0 "Questo è #emp il mio#! drago, e lo chiamerete con il suo nome corretto."
+  agot_dragonkeepers.0305.b.tt:0 "[dragon.GetName|V] non avrà il [nickname|E] '[dragon.GetNickname|V]'"
+
+
+  agot_dragonkeepers.0306.t:0 "Giovane Visitatore Scoperto nella Fossa del Drago"
+  agot_dragonkeepers.0306.desc:0 "[head_dragonkeeper.GetName] riporta che [child.GetName] si è intrufolat[child.Custom('DE_END_PRO_S_N')] nella fossa del drago!\n\n[child.GetSheHe|U] è stat[child.Custom('DE_END_PRO_S_N')]  trovat[child.Custom('DE_END_PRO_S_N')] san[child.Custom('DE_END_PRO_S_N')] e salv[child.Custom('DE_END_PRO_S_N')] senza incidenti, ma ha dimostrato una #italic curiosità più che sana#! nei confronti dei draghi. Molti dei Custodi dei draghi hanno coccolato il bambino, rispondendo alle sue domande.\n\nL'ordine ha già effettuato le modifiche necessarie alla sicurezza per prevenire a ulteriori #italic giovani draghi ambiziosi#! dall'accedere, ma il giovane [child.GetNameNoTooltip] sembra solo più affascinato dall'esperienza."
+  agot_dragonkeepers.0306.a:0 "Speriamo che non sia solo una fase."
+
+  agot_dragonkeepers.0307.t:0 "Custodi dei draghi Accoglie un Ospite Inaspettato"
+  agot_dragonkeepers.0307.desc:0 "[head_dragonkeeper.GetName] riporta che [child.GetName] si è intrufolat[child.Custom('DE_END_PRO_S_N')] nella fossa del drago!\n\n[child.GetSheHe|U] è stat[child.Custom('DE_END_PRO_S_N')]  trovat[child.Custom('DE_END_PRO_S_N')] san[child.Custom('DE_END_PRO_S_N')] e salv[child.Custom('DE_END_PRO_S_N')], anche se rannicchiat[child.Custom('DE_END_PRO_S_N')] in un armadietto con le guance rigate di lacrime. I Custodi dei draghi sono riusciti a calmarl[child.Custom('DE_END_PRO_S_N')], ma [child.GetName] ha espresso una seria paura dei draghi.\n\nI Custodi dei draghi hanno dovuto scortare il bambino di ritorno alla sicurezza del mio castello."
+  agot_dragonkeepers.0307.a:0 "Speriamo che sia solo una fase."
+
+  agot_dragonkeepers.0308.t:0 "Nuovo Uovo Trovato nella Mia Fossa del Drago"
+  agot_dragonkeepers.0308.desc:0 "Il capo del mio #bold Ordine dei Custodi dei draghi#!, [head_dragonkeeper.GetName], riporta che un uovo è stato recuperato in sicurezza dalla camera che ospita [dragon_parent.GetName].\n\n[head_dragonkeeper.GetNameNoTooltip] guida una piccola processione di una mezza dozzina di Custodi dei draghi vestiti con la loro tradizionale armatura nera. [head_dragonkeeper.GetSheHe|U] sta da un lato mentre un paio di uomini che portano un braciere ornamentale si avvicinano e lo pongono ai miei piedi.\n\n"Lo abbiamo trovato nelle prime ore del mattino, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]. Un uovo bellissimo, una testimonianza della magnificenza di [dragon_parent.GetNameNoTooltip]!"
+  agot_dragonkeepers.0308.a:0 "Davvero?"
+  agot_dragonkeepers.0308.a_tt:0 "[dragon_parent.GetName] ha deposto un uovo."
+
+  agot_dragonkeepers.0309.t:0 "Nuove Reclute Custodi dei draghi Progrediscono nel Dovere"
+  agot_dragonkeepers.0309.desc:0 "[head_dragonkeeper.GetName] riporta che le loro nuove reclute stanno progredendo eccellentemente grazie al tuo finanziamento.\n\nLe reclute sono ben pagate e straordinariamente addestrate. Il loro Valyriano sta progredendo più rapidamente del previsto e i pavimenti non sono mai stati così puliti. Il morale sembra alto mentre le nuove reclute della mia fossa del drago si esercitano nel cortile."
+  agot_dragonkeepers.0309.a:0 "Fantastico!"
+
+  agot_dragonkeepers.0310.t:0 "Custodi dei draghi Esplorano Misteri Più Profondi"
+  agot_dragonkeepers.0310.desc:0 "[head_dragonkeeper.GetName] riporta che un numero di Custodi dei draghi stanno conducendo uno sforzo di ricerca congiunto nel tentativo di fornire intuizioni sui draghi.\n\n"Abbiamo fatto diverse osservazioni interessanti riguardanti lacune nella nostra conoscenza che sono andate perse nel #italic Disastro#! della vecchia Valyria. Queste intuizioni potrebbero portare a una migliore cura di [dragon.GetName] durante tutta la sua vita, così come a uno spettacolo più temibile per coloro che si frappongono al tuo cammino.""
+  agot_dragonkeepers.0310.a:0 "Interessante..."
+
+  agot_dragonkeepers.0311.t:0 "Catene Deboli nella Fossa del Drago"
+  agot_dragonkeepers.0311.desc:0 "[head_dragonkeeper.GetName] riporta che diverse delle catene per legare i draghi nella fossa del drago sono deboli e di scarsa qualità. Il loro budget regolare non può sostenere la sostituzione.\n\nLe catene originali erano state forgiate dal miglior offerente per cercare di risparmiare sui costi dell'ordine."
+  agot_dragonkeepers.0311.b:0 "Pagherò direttamente per le nuove catene."
+
+  agot_dragonkeepers.0312.t:0 "Custodi dei draghi Snobbati dai Fornitori Locali"
+  agot_dragonkeepers.0312.desc:0 "[head_dragonkeeper.GetName] riporta che diverse aziende agricole sono #italic riluttanti#! a soddisfare le richieste della fossa del drago. Affermano che il compenso non corrisponde al volume di cibo che sono tenuti a produrre, e il budget dei Custodi dei draghi non può sostenere l'aumento dei prezzi.\n\n"Se non si raggiunge un accordo, le forniture alimentari potrebbero diventare scarse, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]." [head_dragonkeeper.GetSheHe] implora con un gesto, unendo le mani.\n\n"Forse se potessi sostenere questo impegno, o anche inviare un rappresentante per trattare a nostro nome?""
+  agot_dragonkeepers.0312.b:0 "Importa direttamente grandi forniture di cibo."
+  agot_dragonkeepers.0312.d:0 "Invia il tuo attendente a concludere un accordo."
+
+  agot_dragonkeepers.0314.t:0 "Malattia Colpisce la Fossa del Drago"
+  agot_dragonkeepers.0314.desc:0 "[head_dragonkeeper.GetName] riporta che il drago [dragon.GetName] è caduto malato.\n\nUn budget ridotto combinato con condizioni scadenti ha portato a un comportamento disordinato e letargico di [dragon.GetNamePossessiveNoTooltip].\n\n"Anche i grandi fuochi possono spegnersi di tanto in tanto..." [head_dragonkeeper.GetSheHe] riflette pensieroso."
+
+  agot_dragonkeepers.0315.t:0 "Visita di [child_with_egg.GetFirstNamePossessiveNoTooltip]"
+  agot_dragonkeepers.0315.desc:0 "Sento un leggero colpo alla porta e mi giro per vedere [child_with_egg.Custom('DE_ART_DEF_P_A')] mi[child_with_egg.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', child_with_egg)] [child_with_egg.GetFirstName] entra timidamente nella stanza portando con sé l'uovo di drago. Gli occhi di [child_with_egg.GetSherHe] sono lucidi mentre passa le dita sulle squame metalliche. "Non sento calore, e non si schiuderà..."\n\n[child_with_egg.GetSheHe] mi guarda, una lacrima scende dal suo volto. "Puoi aiutarmi?""
+  agot_dragonkeepers.0315.a:0 "Scelgo un altro uovo per te."
+  agot_dragonkeepers.0315.a_tt:0 "Sceglierai quale uovo concedere a [child_with_egg.GetNameNoTooltip]"
+  agot_dragonkeepers.0315.b:0 "Dagli più tempo, bambino."
+  agot_dragonkeepers.0315.c:0 "Se desideri cavalcare un drago, dovrai reclamarne uno."
+  agot_dragonkeepers.0315.c_tt:0 "Sceglierai un drago nella fossa del drago con cui [child_with_egg.GetNameNoTooltip] cercherà di stabilire un legame"
+  agot_dragonkeepers.0315.d:0 "Non ho tempo per il tuo piagnisteo."
+  agot_dragonkeepers.0315.d_tt:0 "[child_with_egg.GetNameNoTooltip] potrebbe cercare soluzioni alternative ai suoi problemi..."
+
+  agot_dragonkeepers.0316.t:0 "Un Nuovo Uovo per [child_with_egg.GetNameNoTooltip]"
+  agot_dragonkeepers.0316.desc:0 "Scegli un nuovo uovo da concedere a [child_with_egg.GetNameNoTooltip] e prendi il suo vecchio uovo per la custodia."
+  agot_dragonkeepers.0316.a:0 "Questo dovrebbe fare al caso..."
+  agot_dragonkeepers.0316.b:0 "Ripensandoci, lascia perdere."
+
+  agot_dragonkeepers.0318.t:0 "La Scommessa di [child_with_egg.GetFirstNamePossessiveNoTooltip]"
+  agot_dragonkeepers.0318.desc_child_tamed_dragon:0 "Sento un ruggito lontano mentre passo accanto alla fossa del drago. Mi precipito verso l'edificio e trovo [child_with_egg.GetName] accanto a [childs_dragon.GetName], con un legame fresco forgiato tra di loro. Il suo coraggio ha dato i suoi frutti."
+  agot_dragonkeepers.0318.desc_child_failed_at_taming_dragon:0 "Un grido echeggia nella fossa del drago e corro per trovare i Custodi dei draghi che forzano una bestia di nuovo nel suo covo, e [child_with_egg.GetName] appoggiato a una parete ansimante. Sembra che fosse così ansios[child_with_egg.Custom('DE_END_PRO_S_N')] di legare un drago che si è intrufolat[child_with_egg.Custom('DE_END_PRO_S_N')] nella fossa senza istruzioni. Almeno [child_with_egg.GetSheHe] è viv[child_with_egg.Custom('DE_END_PRO_S_N')]."
+  agot_dragonkeepers.0318.desc_child_died_while_taming_dragon:0 "Apro la porta delle mie stanze e vedo due Custodi dei draghi che stringono una figura avvolta in una pesante coperta. La svelano per rivelare [child_with_egg.GetName], ora un cadavere bruciato e carbonizzato. Spiegano che nella fretta di legarsi a un drago, [child_with_egg.GetSheHe] è entrat[child_with_egg.Custom('DE_END_PRO_S_N')] nella fossa senza istruzioni.\n\nQuesto sarà preso come un cattivo presagio."
+  agot_dragonkeepers.0318.a:0 "È fatto."
+
+  agot_dragonkeepers.0319.t:0 "Un Drago per [child_with_egg.GetNameNoTooltip]"
+  agot_dragonkeepers.0319.desc:0 "Scegli un drago con cui [child_with_egg.GetNameNoTooltip] possa provare a stabilire un legame."
+  agot_dragonkeepers.0319.a:0 "$agot_dragonkeepers.0316.a$"
+  agot_dragonkeepers.0319.b:0 "$agot_dragonkeepers.0316.b$"

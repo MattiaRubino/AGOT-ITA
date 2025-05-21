@@ -1,0 +1,29 @@
+﻿l_spanish:
+  agot_dragon_dreams.0001.intro_own_dream:0 "Mi sveglio di soprassalto dal mio sonno, aggrappandomi alle tempie mentre cerco freneticamente di ricordare i dettagli del mio sogno.\n"
+  agot_dragon_dreams.0001.intro_visit:0 "[dragon_dreamer.GetFirstNameNoTooltip] si presenta nelle mie stanze nel cuore della notte, pallido e sudato.\n\n#italic "[ROOT.Char.GetFirstNameNoTooltip], ho avuto un sogno..."#!"
+  agot_dragon_dreams.0001.intro_letter:0 "Uno dei servitori mi trova presto la mattina mentre mi preparo per la giornata. "Permesso, è arrivato un corvo da [dragon_dreamer.GetTitledFirstName]. Aveva una lettera per te, e un biglietto allegato diceva che era urgente che la vedessi il prima possibile.\n\n#italic"[ROOT.Char.GetFirstNameNoTooltip], ho avuto un sogno... #!"
+
+
+  agot_dragon_dreams.0001.murder:0 "\n#italic    Un drago si libra nei cieli aperti...#!\n#italic       una figura ombrosa si accovaccia dietro uno scorpione, il veleno luccica sulla punta del suo dardo...#!\n#italic          il drago ruggisce e cade dal cielo mentre il dardo trafigge la sua ala.#!\n\nQualcuno sta tramando di uccidere"
+  agot_dragon_dreams.0001.abduction:0 "\n#italic    Una cucciolata di uova di drago luccica...#!\n#italic       una figura ombrosa striscia verso di loro, un sacco vuoto alla vita...#!\n#italic          una ad una, le uova scompaiono nella borsa del ladro.#!\n\nQualcuno sta architettando di rapire"
+  agot_dragon_dreams.0001.fallback:0 "\n#italic    Un drago giace disteso sulla terra calda...#!\n#italic       riposa tranquillo, il suo respiro un ruggito tonante...#!\n#italic          quando si sveglia di soprassalto, con un ruggito straziante!#!\n\nQualcuno sta complottando contro"
+  agot_dragon_dreams.0001.elope:0 "\n#italic    Due draghi si librano sopra un mare di cristallo...#!\n#italic       le ali sembrano intrecciarsi mentre volano insieme...#!\n#italic          due che diventano uno, oltre il Mare Stretto.#!\n\nQualcuno sta progettando di fuggire con"
+  agot_dragon_dreams.0001.steal_back_artifact:0 "\n#italic    Una dragonessa sta in piedi con fierezza sopra la sua cucciolata di uova...#!\n#italic       si alza nell'aria serale, senza vedere la figura ombrosa che si avvicina dalla nebbia...#!\n#italic          un uovo prezioso, di valore inestimabile, preso nella notte.#!\n\nQualcuno sta cercando di rubare a"
+  agot_dragon_dreams.0001.target_other:0 "al mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"
+  agot_dragon_dreams.0001.target_dreamer:0 "[target.GetHerHim]!"
+  agot_dragon_dreams.0001.target_me:0 "me!"
+
+  agot_dragon_dreams.0001.child_new_dreamer:0 "\n\nSembra che [dragon_dreamer.GetFirstNameNoTooltip] sia un sognatore di draghi. Il cuore mi si stringe per il bambino, questo sarà un peso difficile da sopportare negli anni a venire..."
+  agot_dragon_dreams.0001.self_new_dreamer:0 "\n\nSembra che io sia un sognatore di draghi. Ricordando i sognatori di draghi di un tempo, spero che questi sogni si rivelino più utili che gravosi..."
+  agot_dragon_dreams.0001.relative_new_dreamer:0 "\n\nSembra che [dragon_dreamer.GetFirstNameNoTooltip] sia un sognatore di draghi. Per il suo bene , spero che si riveli più benedizione che maledizione..."
+  agot_dragon_dreams.0001.known_dreamer:0 "\n\nPer quanto io sia grato per l'informazione, spero che i sogni che tormentano [dragon_dreamer.GetFirstNameNoTooltip] non stiano influenzando troppo gravemente [dragon_dreamer.GetHerHim]..."
+  agot_dragon_dreams.0001.known_dreamer_self:0 "\n\nFino a quando non sarò in grado di fermare questo complotto, questi sogni mi tormenteranno sicuramente..."
+
+  agot_dragon_dreams.0001.a:0 "Dobbiamo fermare il criminale dietro tutto ciò!"
+
+  agot_dragon_dreams.0100.t:0 "Problemi Previsti"
+  agot_dragon_dreams.0100.desc.1:0 "Mi sono svegliato nel cuore della notte "
+  agot_dragon_dreams.0100.desc.root_is_dreamer:0 "coperto di sudore e paura. Ho avuto un sogno sulla mia rovina imminente! Non posso essere troppo sicuro di cosa succeda, ma so abbastanza per impedirlo che accada ora."
+  agot_dragon_dreams.0100.desc.other_dreamer:0 "al suono di passi urgenti. Un servo mi dice che è arrivata una lettera da [ROOT.Var('dreamer').Char.GetName], con istruzioni di aprirla immediatamente. Nervosamente, apro la lettera e vedo che [ROOT.Var('dreamer').Char.GetSheHe] ha previsto la mia rovina imminente! [ROOT.Var('dreamer').Char.GetSheHe|U] dice che [ROOT.Var('dreamer').Char.GetSheHe] non può essere troppo sicuro di cosa succeda, ma [ROOT.Var('dreamer').Char.GetSheHe] fornisce abbastanza dettagli per impedirmi che accada."
+  agot_dragon_dreams.0100.desc.fallback:0 "La mia rovina imminente è stata prevista."
+  agot_dragon_dreams.0100.a:0 "Per un pelo!"

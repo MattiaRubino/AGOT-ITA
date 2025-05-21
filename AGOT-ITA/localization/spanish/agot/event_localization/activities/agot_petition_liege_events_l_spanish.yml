@@ -1,0 +1,38 @@
+﻿l_spanish:
+
+  # Liege hears petition, makes a decision
+  # Paramount Title
+  petition_liege.0101.t.title_paramount:0 "$petition_liege_header$ Pretendente al Titolo Supremo"
+  petition_liege.0101.t.legitimate_house_boost:0 "$petition_liege_header$ Rinforzo alla Casata Legittima"
+
+  # Desc
+  petition_liege.0101.desc.title_paramount:0 "Con rispetto, vostra maestà, il [petition_paramount.GetName] mi spetta di diritto!" \n\n"Voi regnate su un possente [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], mio [petition_liege.GetLadyLord], non potete forse concedermi il diritto di governare un solo regno, rivendicato con onestà? Dovreste ben comprendere quanto siano vitali le pretese nei domini che custodiamo.""
+  petition_liege.0101.desc.legitimate_house_boost:0 "Come ben sapete, vostra maestà, il mio dominio su [petition_legitimate_house_boost_title.GetName] è... messo in discussione per via della nostra storia più recente."\n\n"A vantaggio di entrambi, vi chiedo di sostenere la pretesa della mia casata di essere riconosciuta come [agot_legitimate_house|E], e aiutarmi a placare i disordini sorti da tale incertezza nel reame.""
+
+  # Accept
+  petition_liege.0101.accept.title_paramount:0 "Così sia, il [petition_paramount.GetTierAsNameNoTooltip|l] è tuo."
+  petition_liege.0101.accept.legitimate_house_boost:0 "Sosterrò la casata [petition_vassal.GetHouse.GetName] in questo."
+
+  # Bribe gold
+  petition_liege.0101.bribe_gold.title_paramount:0 "E cosa me ne viene, [petition_vassal.GetFirstNameNoTooltip]?"
+  petition_liege.0101.bribe_gold.legitimate_house_boost:0 "Forse, se potessi vedere qualche prova di questo beneficio?"
+
+  # Bribe favor
+  petition_liege.0101.bribe_favor.title_paramount:0 "Non scorderò facilmente il debito contratto con me."
+  petition_liege.0101.bribe_favor.legitimate_house_boost:0 "Sostegno nei tuoi domini significa sostegno nei miei."
+
+  # Bribe factions
+  petition_liege.0101.bribe_factions.title_paramount:0 "Per questo titolo, voglio la tua lealtà eterna."
+  petition_liege.0101.bribe_factions.legitimate_house_boost:0 "Se giuri fedeltà a me, così sarà."
+
+  # Bribe contract
+  petition_liege.0101.bribe_contract.title_paramount:0 "Queste terre comportano maggiori doveri."
+  petition_liege.0101.bribe_contract.legitimate_house_boost:0 "Esigerò di più da te, in cambio."
+
+  # Refuse
+  petition_liege.0101.refusal.title_paramount:0 "Anche io reclamo il [petition_paramount.GetNameNoTierNoTooltip]."
+  petition_liege.0101.refusal.legitimate_house_boost:0 "Non posso oppormi alla tradizione in questo caso."
+
+  # Liege grants petition
+  petition_liege.0201.desc.title_paramount:0 "\n\nRivendico con rispetto la mia legittima pretesa su [petition_paramount.GetName], allegando i lunghi documenti che la attestano, e attendo la risposta del [petition_liege.GetTitleAsNamePossessiveNoTooltip]."
+  petition_liege.0201.desc.legitimate_house_boost:0 "\n\nSenza esitazione, espongo la pretesa della mia casata di essere riconosciuta come [agot_legitimate_house|E] di [petition_legitimate_house_boost_title.GetNameNoTier], elencando le molte giuste sentenze che abbiamo emesso e come abbiamo rispettato le leggi dei suoi domini."

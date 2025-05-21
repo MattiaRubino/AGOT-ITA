@@ -1,0 +1,98 @@
+﻿l_spanish:
+
+  ### Dichiarare Guerra Privata
+  rv_declare_private_war_interaction:0 "Dichiarare Guerra Privata"
+  rv_liege_warning:0 "Il [liege|E] del difensore si unirà alla guerra"
+  ### CB di Salvataggio
+  rv_rescue_war:0 "Guerra per Liberare i Prigionieri"
+  rv_duskendale_rescue_war:0 "Guerra per Liberare i Prigionieri"
+  rv_duskendale_rescue_war_invalidated_desc:0 "La Guerra per Liberare i Prigionieri è giunta alla fine."
+  RESCUE_WAR_NAME:0 "Guerra per Liberare i Prigionieri"
+  CB_RESCUE_COST:0 "Numero di Prigionieri Target"
+  CB_RESCUE_CRIMINAL_COST:0 "Numero di Criminali Target"
+  rv_release_effect:0 "• [Scope.GetCharacter.GetShortUIName|U] sarà liberato"
+  rv_other_effect:0 "• I tuoi alleati condividono [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] in base al loro contributo \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n    • Gli alleati condividono [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] in base al loro contributo\n    • Aumenta la sua opinione degli alleati in base al loro contributo"
+  rescue_war_victory_desc:0 "Libera tutti i [prisoners|E] selezionati nella prigione di [defender.GetShortUINamePossessive]."
+  rescue_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] libera tutti i [prisoners|E] elencati nella tuoa prigione."
+  rv_failed_rescue:0 "Salvataggio Fallito"
+  rv_rescue_war_invalidated_desc:0 "Guerra per Liberare Prigioniero annullata!"
+  rv_rescue_war_white_peace_desc:0 "Nessun [prisoner|E] viene liberato."
+  rv_rescue_war_defeat_desc:0 "$rv_rescue_war_white_peace_desc$"
+  rv_failed_rescue_desc_1:0 "Ho fallito nel salvataggio di [rescue_target_dead.GetName] ucciso da [rescue_target_killer.GetName]"
+  rv_failed_rescue_desc_second_perspective_1:0 "[owner.GetName] ha fallito nel salvataggio di [rescue_target_dead.GetName] ucciso da [rescue_target_killer.GetName]"
+  rv_failed_rescue_desc_third_perspective_1:0 "[owner.GetName] ha fallito nel salvataggio di [rescue_target_dead.GetName] ucciso da [rescue_target_killer.GetName]"
+  RV_IS_CRIMINAL:0 "Questo personaggio è [imprisoned|E] per il suo [crime|E]. Liberarlo comporterà costi aggiuntivi di [prestige|E] e ti porterà e al suo carceriere a diventare [rivals|E]."
+
+    ### Rescue_Opinions
+  rv_rescued_me: "Mi ha liberato"
+  rv_rescued_family: "Ha liberato [family_member|E]"
+  rv_rescued_former_spouse: "Mi ha liberato da [concubinage|E] come ex [spouse|E]"
+  rv_rescued_close_relation: "Ha liberato un parente stretto"
+  rv_rescued_very_close: "Ha liberato [best_friend|E] o [soulmate|E]"
+  rv_rescued_rival: "Ha liberato un [rival|E]"
+  rv_rescued_nemesis: "Ha liberato un [nemesis|E]"
+  rv_attempt_free_my_criminal: "Ha tentato di liberare un [criminal|E]"
+  rv_attempted_rescuing_me: "Ha tentato di liberarmi"
+  rv_attempted_rescuing_family: "Ha tentato di liberare [family_member|E]"
+  rv_attempted_rescuing_close_relation: "Ha tentato di liberare un parente stretto"
+  rv_attempted_rescuing_very_close: "Ha tentato di liberare [best_friend|E] o [soulmate|E]"
+  rv_attempted_rescuing_rival: "Ha tentato di liberare un [rival|E]"
+  rv_attempted_rescuing_nemesis: "Ha tentato di liberare un [nemesis|E]"
+  rv_avenged_family: "Ha vendicato [family_member|E]"
+  rv_avenged_close_relation: "Ha vendicato un parente stretto"
+  rv_avenged_very_close: "Ha vendicato [best_friend|E] o [soulmate|E]"
+
+    ### Revenge CB
+  REVENGE_WAR_NAME: "Guerra di Vendetta"
+  rv_revenge_war: "Guerra di Vendetta"
+  CB_REVENGE_COST: "Vittime da Vendicare"
+  REVENGE_LABEL: "Vittime da Vendicare"
+  rv_no_revenge_target_trigger: "rv_no_revenge_target"
+  rv_no_revenge_target: "Non c'è nessuno da vendicare"
+  revenge_war_victory_desc: "Ti vendichi per i crimini di [defender.GetShortUINamePossessive] contro coloro che ti sono vicini."
+  revenge_war_victory_desc_defender: "[attacker.GetShortUIName|U] si vendica per i tuoi crimini contro coloro che gli sono vicini."
+  rv_revenge_war_white_peace_desc: "I crimini commessi da [defender.GetShortUIName|U] non sono stati vendicati."
+  rv_revenge_war_defeat_desc: "I crimini commessi da [defender.GetShortUIName|U] non sono stati vendicati. [attacker.GetShortUIName|U] pagherà Riparazioni di Guerra, [attacker.GetShortUIName|U] perderà [prestige_i][EmptyScope.ScriptValue('major_prestige_value')|-0], [defender.GetShortUIName|U] otterrà un [imprisonment_reason|E] su [attacker.GetShortUIName|U]."
+  rv_revenge_war_invalidated_desc: "Guerra di vendetta annullata!"
+
+  # Memoria di vendetta riuscita
+  rv_successful_revenged_lover: "Vendetta Riuscita"
+  rv_revenged_lover_desc_1: "Ho vendicato la morte del mio amante [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_lover_desc_second_perspective_1: "Hai vendicato la morte del tuo amante [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_lover_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte del suo amante [target_revenged.GetName] ucciso da [target_killer.GetName]"
+
+  rv_successful_revenged_soulmate: "Vendetta Riuscita"
+  rv_revenged_soulmate_desc_1: "Ho vendicato la morte della mia anima gemella [target_revenged.GetName] uccisa da [target_killer.GetName]"
+  rv_revenged_soulmate_desc_second_perspective_1: "Hai vendicato la morte della tua anima gemella [target_revenged.GetName] uccisa da [target_killer.GetName]"
+  rv_revenged_soulmate_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte della sua anima gemella [target_revenged.GetName] uccisa da [target_killer.GetName]"
+
+  rv_successful_revenged_friend: "Vendetta Riuscita"
+  rv_revenged_friend_desc_1: "Ho vendicato la morte del mio amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_friend_desc_second_perspective_1: "Hai vendicato la morte del tuo amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_friend_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte del suo amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+
+  rv_successful_revenged_best_friend: "Vendetta Riuscita"
+  rv_revenged_best_friend_desc_1: "Ho vendicato la morte del mio migliore amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_best_friend_desc_second_perspective_1: "Hai vendicato la morte del tuo migliore amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_best_friend_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte del suo migliore amico [target_revenged.GetName] ucciso da [target_killer.GetName]"
+
+  rv_successful_revenged_spouse: "Vendetta Riuscita"
+  rv_revenged_spouse_desc_1: "Ho vendicato la morte del mio coniuge [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_spouse_desc_second_perspective_1: "Hai vendicato la morte del tuo coniuge [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_spouse_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte del suo coniuge [target_revenged.GetName] ucciso da [target_killer.GetName]"
+
+  rv_successful_revenged_family: "Vendetta Riuscita"
+  rv_revenged_family_desc_1: "Ho vendicato la morte del mio familiare [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_family_desc_second_perspective_1: "Hai vendicato la morte del tuo familiare [target_revenged.GetName] ucciso da [target_killer.GetName]"
+  rv_revenged_family_desc_third_perspective_1: "[owner.GetName] ha vendicato la morte del suo familiare [target_revenged.GetName] ucciso da [target_killer.GetName]"
+
+  rv_was_revenged: "È Stato Vendicato"
+  rv_was_revenged_desc_1: "La mia morte causata da [target_killer.GetName] è stata vendicata da [target_revenger.GetName] (Post mortem)"
+  rv_was_revenged_desc_second_perspective_1: "La tua morte causata da [target_killer.GetName] è stata vendicata da [target_revenger.GetName] (Post mortem)"
+  rv_was_revenged_desc_third_perspective_1: "La morte di [owner.GetName] causata da [target_killer.GetName] è stata vendicata da [target_revenger.GetName] (Post mortem)"
+
+  # Storia della vendetta fallita
+  rv_failed_revenge_desc_1: "Ho fallito nel vendicarmi di [target_killer.GetName]."
+  rv_failed_revenge_desc_second_perspective_1: "Hai fallito nel vendicarti di [target_killer.GetName]."
+  rv_failed_revenge_desc_third_perspective_1: "[owner.GetName] ha fallito nel vendicarsi di [target_killer.GetName]."
+  rv_failed_revenge: "Vendetta Fallita"

@@ -1,0 +1,30 @@
+﻿l_spanish:
+
+  ###########################
+  #   Rhllor Filler Events  #
+  ###########################
+  
+  agot_filler_rhllor.0001.t:0 "Il Signore della Luce"
+  agot_filler_rhllor.0001.desc:0 "In una notte infausta sei solo nel tuo studio, assorto in rapporti e dettagli solitamente lasciati a uomini di rango inferiore. Improvvisamente, la tua porta si schiude e, senza alcuna cerimonia, una donna entra. Indossa tutto il rosso, i suoi capelli sono fuoco, e parla con una voce profonda, stranamente melodica. È bellissima, seducente, e per un momento ti chiedi se non ti sia addormentato. Ma quando batti le palpebre, lei è ancora lì.\n\nLa Donna Rossa ti parla di una profezia, del Signore della Luce e di un nome che riconosci da lezioni lontane. Azor Ahai, l'artefice di Lightbringer, nato in mezzo a sale e fumo e il salvatore del mondo conosciuto.\n\nSussurra nell'orecchio, dicendoti che è giunto il momento di raggiungere finalmente le tue glorie, di adempiere alle augurazioni viste già nei templi fin dallontanati come Asshai. Tutto ciò che devi fare ora è coglierlo..."
+  agot_filler_rhllor.0001.a:0 "Ascolterò, ma nient'altro."
+  agot_filler_rhllor.0001.b:0 "Devo tener conto di questi segni..."
+  agot_filler_rhllor.0001.b.tt:0 "...perché la notte è buia e piena di terrore."
+  agot_filler_rhllor.0001.c:0 "Devo tener conto di questi segni...e #italic di più#!..."
+  agot_filler_rhllor.0001.d:0 "Vai via, strega vile! Non hai alcun potere su di me!"
+  agot_filler_rhllor.0001.e:0 "Guardie! Assassino!"
+
+  agot_filler_rhllor.0002.t:0 "Abbracciare la Luce"
+  agot_filler_rhllor.0002.desc:0 "Avendo abbracciato il Signore della Luce, ti distingui dal resto della tua casa, i cui credi rimangono radicati nei vecchi modi.\n\nPer simboleggiare questo profondo cambiamento e la tua incrollabile devozione al Dio Rosso, stai considerando di adottare un nuovo sigillo. Questo emblema renderebbe ancora omaggio alla tua nobile casa pur riflettendo l'essenza infuocata e le fiamme sacre del Signore della Luce. Approfitterai di questa occasione per far brillare la tua fede attraverso il tuo stendardo, o conserverai gli stemmi tradizionali della tua famiglia?"
+  agot_filler_rhllor.0002.a:0 "Lascia che le fiamme di R'hllor guidino il nostro stendardo."
+  agot_filler_rhllor.0002.b:0 "Conserverò i nostri stemmi tradizionali."
+
+  
+ ##################################
+ # CONVERT TO R'HLLOR (0020-0030) #
+ ##################################
+
+  agot_filler_rhllor.0020.t:0 "Il Sacerdote Rosso di [current_location.GetNameNoTooltip]"
+  agot_filler_rhllor.0020.desc:0 "Mentre ci facciamo strada per le strade affollate di [current_location.GetNameNoTooltip], io e [companion.GetTitledFirstName] non possiamo fare a meno di notare il crescente tumulto davanti a noi. Il ruggito della folla riunita davanti a noi diventa sempre più forte, come un falò che si nutre di troppa legna.\n\nDavanti alla folla si erge un sacerdote rosso di R'hllor che pronuncia un acceso discorso, lasciando l'audience in raptus. Ogni sua parola sembra spingere gli ascoltatori sempre più verso una frenesia...\n\n#italic "La notte diventa buia intorno a noi, soffocando la luce in ognuno di noi... La luce del Signore, la stessa fiamma della nostra esistenza, richiede sacrificio!"#! La voce tonante di [red_priest.GetFirstNamePossessive] taglia l'aria mentre i suoi occhi si bloccano con i miei. "Ehi! Cosa abbiamo #italic qui#!? Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] potente [ROOT.Char.GetLadyLord|l] venut[ROOT.Char.Custom('DE_END_PRO_S_N')] a mescolarsi coi comuni mortali."\n\nIl silenzio improvviso ci avvolge come la fiamma di una candela schiacciata tra due dita, ma il mio sguardo rimane fisso su [red_priest.GetFirstNameNoTooltip]. "Cosa offriresti al Signore della Luce, per vedere il suo #italic vero#! volto?" #italic I suoi occhi si spostano verso un rogo acceso accanto a [red_priest.GetSheHe].#!"
+  agot_filler_rhllor.0020.a:0 "Solo il sangue di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetLadyLord] andrà bene."
+  agot_filler_rhllor.0020.b:0 "Sicuramente il Signore della Luce accetterebbe [companion.GetFirstNameNoTooltip]."
+  agot_filler_rhllor.0020.c:0 "Penso che sia ora di andare via da [current_location.GetNameNoTooltip]"

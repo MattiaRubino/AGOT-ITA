@@ -1,0 +1,41 @@
+﻿l_spanish:
+  btw_struggle:0 "Lotta Oltre la Barriera"
+  btw_struggle_desc:1 "$game_concept_btw_struggle$"
+
+  game_concept_btw_struggle:1 "Contesa Oltre la Barriera"
+  game_concept_btw_struggle_desc:2 "La $game_concept_btw_struggle$ rappresenta i millenni di rapporti conflittuali oltre la Barriera. Sebbene nata con l'erezione della Barriera ottomila anni fa alla fine della Lunga Notte, la [struggle|E] si alterna tra [struggle_phase_phases|E] di violenza alimentata dall'odio, tregue diffidenti e cooperazioni dettate dalla necessità. In una tale situazione ci sono pochi alleati duraturi, e i [rulers|E] dovrebbero diffidare dal fare affidamento solo su una [faith|E] o una [culture|E] condivisa."
+
+
+  struggle_btw_phase_opportunity:0 "Opportunità"
+  struggle_btw_phase_opportunity_desc:0 "$game_concept_struggle_phase_btw_opportunity_desc$"
+  struggle_btw_phase_hostility:0 "Ostilità"
+  struggle_btw_phase_hostility_desc:0 "$game_concept_struggle_phase_btw_hostility_desc$"
+  #struggle_btw_phase_tension:0 "Tensione"
+  struggle_btw_phase_compromise:0 "Compromesso"
+  struggle_btw_phase_compromise_desc:0 "$game_concept_struggle_phase_btw_compromise_desc$"
+  struggle_btw_phase_conciliation:0 "Conciliazione"
+  struggle_btw_phase_conciliation_desc:0 "$game_concept_struggle_phase_btw_conciliation_desc$"
+
+  found_empire_decision_not_part_of_btw_struggle:0 "Siete  [struggle_uninvolved|E] nella $btw_struggle$"
+
+  FORM_BTW_MUST_END_STRUGGLE_TRIGGER:0 ""$e_beyond_the_wall$ non può essere formato fino a quando la [btw_struggle|E] non è stata risolta""
+
+  game_concept_struggle_phase_btw_opportunity:1 "Fase dell'Opportunità"
+  game_concept_struggle_phase_btw_opportunity_desc:2 "Dopo un lungo periodo di coesistenza relativamente pacifica durante la [struggle_phase_btw_conciliation|E], si insinua la compiacenza. Tutti si adagiano sul fatto che le cose semplicemente #EMP funzionano#!, permettendo ai [characters|E] più scaltri di approfittare della loro ingenuità.\n\nPrima o poi, nuovi abusi porteranno a un'escalation verso la [struggle_phase_btw_hostility|E], oppure a un precario equilibrio raggiunto con astuzia attraverso la [struggle_phase_btw_conciliation|E]."
+
+  game_concept_struggle_phase_btw_hostility:1 "Fase dell'Ostilità"
+  game_concept_struggle_phase_btw_hostility_desc:2 "Le tensioni esplodono e gli animi si surriscaldano in questa $game_concept_struggle_phase_phase$. Atti di malizia ripetuti e incomprensioni crescenti durante la [struggle_phase_btw_opportunity|E] hanno portato a un odio crescente verso i [characters|E] di [cultures|E] diverse.\n\nTuttavia, tale spargimento di sangue non può durare in eterno. Alla fine, o prevarranno menti più fredde o sarà l'esaurimento stesso a spingere le terre oltre la Barriera verso la [struggle_phase_btw_compromise|E]."
+
+  game_concept_struggle_phase_btw_compromise:1 "Fase del Compromesso"
+  game_concept_struggle_phase_btw_compromise_desc:2 "Che sia per stanchezza del conflitto della [struggle_phase_btw_hostility|E] o per un'abile escalation durante la [struggle_phase_btw_conciliation|E], la $game_concept_struggle_phase_btw_compromise$ rappresenta un crescente accomodamento tra i Bruti. Le differenze vengono messe da parte, e una storia e un'eredità condivise uniscono coloro che un tempo erano nemici.\n\nLe terre oltre la Barriera si trovano a un bivio: se i conflitti riemergono, la [struggle_phase_btw_opportunity|E] li attende."
+
+  game_concept_struggle_phase_btw_conciliation: "Fase della Conciliazione"
+  game_concept_struggle_phase_btw_conciliation_desc: "Frutto di una significativa [struggle_phase_btw_compromise|E], durante questa $game_concept_struggle_phase_phase$, i rapporti tra i Bruti diventano così cordiali che gli estranei faticano a comprenderne la permissività.\n\nMa ciò non può durare in eterno, e gli abusi di fiducia condurranno inevitabilmente la [btw_struggle|E] nuovamente verso la [struggle_phase_btw_compromise|E]."
+
+  game_concept_btw_reclamation:0 "Riconquista Oltre la Barriera"
+  game_concept_btw_reclaiming: "Riconquista Oltre la Barriera"
+  game_concept_btw_reclamations: "Riconquiste Oltre la Barriera"
+  game_concept_btw_reclamation_desc: "Si tratta di un tipo speciale di [war|E] disponibile per i [struggle_involved|E] [rulers|E] della [btw_struggle|E].\n\nL'attaccante mira a conquistare un [duchy|E] che contenga [counties|E] tenute da un [struggle_interloper|E] o da un [struggle_uninvolved|E] [ruler|E], oppure a [vassalize|E] questi ultimi se non possiedono terre al di fuori di quel Ducato."
+
+  game_concept_secure_btw_foothold_decision: "$secure_btw_foothold_decision_title$"
+  game_concept_secure_btw_foothold_decision_desc: "Una [decision|E] che consente a un [ruler|E] non [struggle_involved|E] di porre fine alla [btw_struggle|E]."

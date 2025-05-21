@@ -1,0 +1,101 @@
+﻿l_spanish:
+ #start AGOT modofiche
+ secure_btw_foothold_decision_title:0 "Stabilire una presenza Oltre la Barriera"
+ secure_btw_foothold_decision_desc:0 "Le tribù di Bruti in guerra, indebolite nell'estremo nord, hanno aperto le porte della regione agli stranieri. Se qualcuno potesse dichiararsi il nuovo leader [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] della regione o semplicemente un glorioso invasore, potrebbe ottenere molto."
+ secure_btw_foothold_decision_tooltip:0 "Integrare parte delle terre Oltre la Barriera"
+ secure_btw_foothold_decision_confirm:0 "Al più forte."
+ fp2_struggle_uninvolved_or_external_tt:0 "La tua [capital|E] è al di fuori della [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]"
+ fp2_struggle_secure_btw_foothold_empire_tt:0 "Possiedi un [title|E] di [empire|E] che non è [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_phase_hostility_or_opportunity_tt:1 "La [struggle_phase|E] Oltre la Barriera è [struggle_phase_btw_hostility|E] o [struggle_phase_btw_opportunity|E] (Attuale: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"
+ fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "Tu [hold|E] e [completely_control|E] un [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_kingdom_faith_tt:0 "Almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! dei [counties|E] [de_jure|E] di questo [title|E] appartengono a [questa.Char.GetFaith.GetAdjective] [faith|E] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_percent_value')|1]%)"
+ fp2_struggle_secure_btw_foothold_kingdom_border_tt:0 "Questo [title|E] confina con terre [de_jure|E] di un [empire|E] di cui tu [hold|E], ma non è [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_kingdom_held_tt:0 "Hai posseduto questo [title|E] per almeno [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] anni"
+ fp2_struggle_secure_btw_foothold_religion_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! dei [counties|E] appartenenti alla [faith|E] [questa.Char.GetFaith.GetReligion.GetAdjective] nella regione [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)"
+ fp2_struggle_secure_btw_foothold_outsider_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! dei [counties|E] nella regione [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)"
+ fp2_struggle_secure_btw_foothold_empire_held_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] del [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] dell'[empire|E] di [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_ends_the_struggle_tt:0 "La [btw_struggle|E] termina"
+ btw_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
+ secure_btw_foothold_decision_title:0 "Stabilire una presenza Oltre la Barriera"
+ secure_btw_foothold_decision_desc:0 "Le tribù di Bruti in guerra, indebolite nell'estremo nord, hanno aperto le porte della regione agli stranieri. Se qualcuno potesse dichiararsi il nuovo leader [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] della regione o semplicemente un glorioso invasore, potrebbe ottenere molto."
+ secure_btw_foothold_decision_tooltip:0 "Integrare parte delle terre Oltre la Barriera"
+ secure_btw_foothold_decision_confirm:0 "Al più forte."
+ fp2_struggle_uninvolved_or_external_tt:0 "La tua [capital|E] è al di fuori della [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]"
+ fp2_struggle_secure_btw_foothold_empire_tt:0 "Possiedi un [title|E] di [empire|E] che non è [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_phase_hostility_or_opportunity_tt:1 "La [struggle_phase|E] Oltre la Barriera è [struggle_phase_btw_hostility|E] o [struggle_phase_btw_opportunity|E] (Attuale: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"
+ fp2_struggle_secure_btw_foothold_kingdom_btw_tt:0 "Tu [hold|E] e [completely_control|E] un [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_kingdom_faith_tt:0 "Almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! dei [counties|E] [de_jure|E] di questo [title|E] appartengono a [questa.Char.GetFaith.GetAdjective] [faith|E] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_percent_value')|1]%)"
+ fp2_struggle_secure_btw_foothold_kingdom_border_tt:0 "Questo [title|E] confina con terre [de_jure|E] di un [empire|E] di cui tu [hold|E], ma non è [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_kingdom_held_tt:0 "Hai posseduto questo [title|E] per almeno [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] anni"
+ fp2_struggle_secure_btw_foothold_religion_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! dei [counties|E] appartenenti alla [faith|E] [questa.Char.GetFaith.GetReligion.GetAdjective] nella regione [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)"
+ fp2_struggle_secure_btw_foothold_outsider_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! dei [counties|E] nella regione [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)"
+ fp2_struggle_secure_btw_foothold_empire_held_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] del [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] dell'[empire|E] di [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
+ fp2_struggle_secure_btw_foothold_ends_the_struggle_tt:0 "La [btw_struggle|E] termina"
+ btw_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
+ fp2_other_decisions.1000.t:0 "$secure_btw_foothold_decision_title$: Consolidazione di [btw_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+ fp2_other_decisions.1000.involved_religion:0 "Le guerre delle tribù frammentate delle terre oltre la Barriera hanno quasi piegato i regni [ROOT.Char.GetFaith.GetReligion.GetAdjective] della regione.\n\nSenza il nostro intervento, i fedeli di [ROOT.Char.GetFaith.HighGodNamePossessive] sarebbero stati alla fine scacciati dalle terre oltre la Barriera dagli infedeli imperiosi.\n\n"
+ fp2_other_decisions.1000.desc:0 "Le tribù selvagge divise ci hanno offerto una grande opportunità, troppo occupate a combattere tra di loro per opporsi all'invasione [ROOT.Char.GetFaith.GetReligion.GetAdjective] del nord."
+ fp2_other_decisions.1000.involved_faith:0 "Siamo i difensori legittimi dei [ROOT.Char.GetFaith.GetAdherentNamePlural] dell'ovest, ora al sicuro sotto la protezione di [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
+ fp2_other_decisions.1000.uninvolved_faith:0 "Ci è toccato portare la luce di [ROOT.Char.GetFaith.GetName]; come parte di [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] queste terre torneranno prosperose e pacifiche."
+ fp2_other_decisions.1000.closing:0 "\n\nCon il tempo vedranno che l'era dei loro falsi dei è finita e gioiranno che [ROOT.Char.GetFaith.HighGodName] ha guidato [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] verso la salvezza della regione."
+ fp2_other_decisions.1000.a:0 "Nuovo sangue era necessario oltre la Barriera."
+ fp2_other_decisions.1001.involved_religion:0 "Dopo secoli di guerre tra antiche fedi, la nostra lotta è stata ora sfruttata dagli invasori imperiosi [btw_footholder.GetPrimaryTitle.GetAdjective].\n\n"
+ fp2_other_decisions.1001.desc:0 "Attraverso distrazione, invidia e negligenza, noi Oltre la Barriera abbiamo permesso agli invasori [btw_footholder.GetPrimaryTitle.GetAdjective] di sfruttare la divisione della nostra terra d'origine e invadere le tribù storiche del nord."
+ fp2_other_decisions.1001.involved_faith:0 "[btw_footholder.GetTitledFirstName] si è dichiarato il legittimo leader [btw_footholder.GetFaith.GetAdjectiveNoTooltip] del nord, utilizzando le sue vittorie come prova della sua legittimità sulle tribù malridotte dei Bruti [btw_footholder.GetFaith.GetReligion.GetAdjective]."
+ fp2_other_decisions.1001.same_uninvolved_faith:0 "Sostengono che i nostri fallimenti erano la punizione di [ROOT.Char.GetFaith.HighGodNamePossessive] per esserci allontanati dalla retta via di [btw_footholder.GetFaith.GetName], e che [btw_footholder.GetTitledFirstName] è il leader legittimo di [ROOT.Char.GetFaith.GetReligion.GetAdjective] tutti i Bruti..."
+ fp2_other_decisions.1001.uninvolved_faith:0 "Con le sue vittorie come prova, [btw_footholder.GetTitledFirstName] ha dichiarato che la sua fede [btw_footholder.GetFaith.GetAdjective] è la vera strada [btw_footholder.GetFaith.GetReligion.GetAdjective]; una che unirà tutte le tribù dei Bruti sotto [btw_footholder.GetFaith.HighGodName]."
+ fp2_other_decisions.1001.closing:0 "\n\nMentre [btw_footholder.GetTitledFirstName] consolida le sue conquiste, le passate divergenze delle antiche fedi sembrano sbiadire in confronto a questa occupazione [btw_footholder.GetFaith.GetAdjective]..."
+ fp2_other_decisions.1001.a:0 "Maledetti invasori."
+ #End AGOT modifiche
+
+ improve_city_province_decision:1 "$improve_city_province_decision_name$"
+ improve_city_province_decision_name:0 "Espandi le Città"
+ improve_city_province_decision_desc:1 "Paga per la costruzione di nuovi quartieri stravaganti nella tua città"
+ improve_city_province_decision_confirm:0 "Inizia l'espansione"
+ improve_city_province_decision_tooltip:0 "Investi denaro per ottenere nuovi slot per gli [building|E] nelle tue [cities|E]"
+ improve_city_province_decision_decision_no_effect:1 "Nessuna [city|E] è idonea"
+ improve_city_province_decision_at_least_one_city_tt:0 "Almeno una città ha meno di 5 slot per gli edifici."
+
+
+ secure_iberian_foothold_decision_title:0 "Metti piede in Iberia"
+ secure_iberian_foothold_decision_desc:0 "L'indebolimento degli Stati in guerra dell'Iberia ha spalancato le porte della penisola agli invasori stranieri. Se uno potesse dichiararsi il nuovo leader della religione [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] della regione, o semplicemente un glorioso invasore, si potrebbe guadagnare molto."
+ secure_iberian_foothold_decision_tooltip:0 "Integra parte dell'Iberia"
+ secure_iberian_foothold_decision_confirm:0 "Al più forte."
+ fp2_struggle_secure_iberian_foothold_empire_tt:0 "Tu [hold|E] un [title|E] di [empire|E] che non è [GetTitleByKey('e_spain').GetNameNoTier]"
+
+ fp2_struggle_secure_iberian_foothold_kingdom_iberian_tt:0 "Tu [hold|E] e [completely_controls|E] un [kingdom|E] [de_jure|E] di [GetTitleByKey('e_spain').GetNameNoTier]"
+
+ fp2_struggle_secure_iberian_foothold_kingdom_faith_tt:0 "Almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_faith_target_percent_value')|0]%#! delle [counties|E] [de_jure|E] di questo [title|E] sono di fede [THIS.Char.GetFaith.GetAdjective]"
+ fp2_struggle_secure_iberian_foothold_kingdom_border_tt:0 "Questo [title|E] confina con un [kingdom|E] [de_jure|E] di un [empire|E] che tu [hold|E] che non è [GetTitleByKey('e_spain').GetNameNoTier]"
+ fp2_struggle_secure_iberian_foothold_kingdom_held_tt:0 "Tu hai posseduto questo [title|E] per almeno [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_years_value')|0Z] anni"
+
+ fp2_struggle_secure_iberian_foothold_religion_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_target_percent_value')|0]%#! delle [counties|E] di [faith|E] [THIS.Char.GetFaith.GetReligion.GetAdjective] nella [region|E] dell'[GetGeographicalRegion('world_europe_west_iberia').GetName]  (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_religion_percent_value')|1]%)\n"
+ fp2_struggle_secure_iberian_foothold_outsider_tt:0 "Tu [hold|E] almeno #Z [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_target_percent_value')|0]%#! delle [counties|E] nella [region|E] dell'[GetGeographicalRegion('world_europe_west_iberia').GetName] (Attuale: [SCOPE.ScriptValue('fp2_struggle_secure_iberian_foothold_outsider_percent_value')|0]%)\n"
+
+ fp2_struggle_secure_iberian_foothold_empire_held_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_spain').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] di [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
+ fp2_struggle_secure_iberian_foothold_empire_dejure_effect_tt:0 "Ogni [kingdom|E] [de_jure|E] di [GetTitleByKey('e_spain').GetNameNoTier] che soddisfa le seguenti condizioni diventerà parte [de_jure|E] dell'[empire|E] di [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
+
+ fp2_struggle_secure_iberian_foothold_ends_the_struggle_tt:0 "La [iberian_struggle|E] termina"
+  
+ iberian_footholder_transfer_tt:0 "[THIS] [THIS.Title.GetName] [THIS.GetName]"
+
+
+
+ ### Council of Toledo Decision
+ # Event - Organization
+ # Event - Arrival
+ # Event - Debate
+ # Event - Invalidated
+ # Event - Ping
+ # Custom Loc
+ # Tooltips
+ # Modifiers
+ # Opinions
+ # Tasks
+ # Other
+
+
+
+ 

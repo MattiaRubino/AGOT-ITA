@@ -1,0 +1,5 @@
+﻿l_spanish:
+  invite_to_activity_flavor_funeral:0 "Vi invito formalmente al funerale di [ROOT.Char.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstName], per rendere omaggio."
+  agot_hike_province_requirement_landless:0 "Una delle seguenti condizioni deve essere soddisfatta:\n$EFFECT_LIST_BULLET$[adventurers|E] e [characters|E] senza un [domain|E] possono solo [hike_i][hike|E] nella [barony|E] in cui si trovano o in una baronia adiacente\n$EFFECT_LIST_BULLET$Il luogo scelto deve trovarsi fuori da un terreno di tipo [GetTerrain( 'urban' ).GetName|E]"
+
+  agot_hike_province_requirement_landed:0 "Puoi [hike_i][hike|E] solo in aree fuori dal terreno [GetTerrain( 'urban' ).GetName|E] e all'interno del tuo [realm|E]"

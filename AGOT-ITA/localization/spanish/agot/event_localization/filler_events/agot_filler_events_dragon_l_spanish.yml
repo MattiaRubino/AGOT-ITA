@@ -1,0 +1,611 @@
+﻿l_spanish:
+  ##################################
+  # DRAGONPIT STORMING (0001-0002) #
+  ##################################
+
+  agot_filler_dragon.0002.t:0 "L'Assalto alla Fossa del Drago"
+  agot_filler_dragon.0002.desc.intro:0 "Notizie terrificanti! La popolazione di [dragonpit_location.GetNameNoTier], apparentemente stanca del dominio di [ROOT.Char.GetHouse.GetBaseName], ha tentato l'insano! Mi dicono che una folla massiccia, di almeno migliaia di persone, ha assaltato la Fossa del Drago!\n\nOra centinaia giacciono morte, la maggior parte per mano dei draghi rinchiusi dentro, e molti altri quando la cupola è stata abbattuta su di loro! I resti in macerie sono ora solo una scena di sangue e ossa carbonizzate."
+  agot_filler_dragon.0002.desc.escaped_only:0 "Fortunatamente tutte le bestie rinchiuse sono riuscite a scappare senza subire ferite. Mi dicono che ora stanno vagando per la campagna e ci vorranno tempo e sforzi per radunarle di nuovo."
+  agot_filler_dragon.0002.desc.wounded_only:0 "Anche se alcuni sono stati feriti nella lotta, mi dicono che tutte le bestie rinchiuse sono riuscite a scappare. Apparentemente, ora stanno vagando per la campagna e ci vorranno tempo e sforzi per radunarle di nuovo."
+  agot_filler_dragon.0002.desc.died_only:0 "Non si è visto alcun movimento tra le macerie una volta che la cupola è crollata. I miei guardiani e servitori mi dicono di mantenere la speranza, ma temo che tutti i draghi rinchiusi siano periti, o a causa di qualche folle fortunato nella folla, o per il crollo stesso."
+  agot_filler_dragon.0002.desc.escaped_and_wounded:0 "Fortunatamente sembra che tutti i nostri draghi siano sopravvissuti, anche se alcuni sembrano essere stati feriti mentre fuggivano dalla struttura crollata. Tuttavia, ci vorranno tempo e sforzi per ricostruire la Fossa del Drago e, tanto meno, radunare di nuovo i draghi."
+  agot_filler_dragon.0002.desc.escaped_and_died:0 "Sebbene fortunatamente almeno uno sembra essere riuscito a scappare illeso, volando via rapidamente mentre la fossa veniva assaltata, altri sembrano non aver ceduto fino a quando l'edificio stesso è crollato su di loro. Quelli sono stati uccisi dalla folle o schiacciati dal crollo dell'edificio."
+  agot_filler_dragon.0002.desc.wounded_and_died:0 "Sebbene alcuni dei nostri draghi sembrano essere riusciti a scappare, tutti sono feriti o morti. Mi dicono che i corpi di uomini e draghi giacciono ancora sotto tonnellate di roccia e macerie, e quelli che sono sopravvissuti alla carneficina dovranno prendere tempo per guarire dalle ferite."
+  agot_filler_dragon.0002.desc.escaped_and_wounded_and_died:0 "Deve essere stato uno spettacolo davvero caotico. Mi dicono che sebbene alcune sagome siano state viste volare via, abbiamo tragicamente perso alcuni dei nostri beni più preziosi. Quelli che sono riusciti a fuggire dalla carneficina dovranno prendere tempo per guarire dalle ferite e potrebbero essere difficili da radunare di nuovo."
+  agot_filler_dragon.0002.desc.dragon_died:0 "\n\nTragicamente, il mio [right_dragon_head.GetName] è tra quelli uccisi."
+  agot_filler_dragon.0002.desc.dragon_wounded:0 "\n\nFortunatamente, il mio [right_dragon_head.GetName] sembra essere sopravvissuto all'atrocità, anche se [right_dragon_head.Custom('GetDragonSheHe')] è stato ferito nella lotta."
+  agot_filler_dragon.0002.desc.dragon_alive:0 "\n\nFortunatamente, il mio [right_dragon_head.GetName] sembra essere sopravvissuto all'atrocità, anche se [right_dragon_head.Custom('GetDragonSheHe')] è chiaramente turbato dall'esperienza."
+  agot_filler_dragon.0002.desc.end_fine:0 "\n\nAnche se siamo riusciti ad evitare il peggio che un tale attacco avrebbe potuto causare, un attacco così palese e forzato alla nostra base di potere deve essere affrontato!"
+  agot_filler_dragon.0002.desc.end_died:0 "\n\nI draghi formano la base del potere di [ROOT.Char.GetHouse.GetNameNoTooltip], e tale danno inflitto ai nostri beni più preziosi deve essere vendicato!"
+  agot_filler_dragon.0002.wounded_dragon_tt:0 "[wounded_dragon.GetName] è stato ferito"
+  agot_filler_dragon.0002.a:0 "Il popolo di [dragonpit_location.GetNameNoTier] affronterà sangue e fuoco!"
+  agot_filler_dragon.0002.a.f:0 "Esegui uccisioni di rappresaglia come segno di potere e vendetta contro questo attacco."
+  agot_filler_dragon.0002.b:0 "[dragonpit_location.GetNameNoTier] ha visto abbastanza morte oggi."
+  agot_filler_dragon.0002.b.f:0 "Non risponderai a questo attacco."
+
+
+  #######################################
+  # CHILD APPROACHES DRAGON (0003-0004) #
+  #######################################
+
+  agot_filler_dragon.0004.t:0 "La Curiosità Uccide..."
+  agot_filler_dragon.0004.desc.burned:0 "Una tragedia è stata il tema della corte oggi.\n\nA quanto pare, [dragon_investigating_child.GetFirstName] è riuscito a uscire furtivamente verso la Fossa del Drago la scorsa notte, riuscendo a eludere le nostre guardie, e si è imbattuto nel [visited_dragon.GetFirstName] addormentato.\n\n[visited_dragon.GetFirstNameNoTooltip] non ha preso bene questa intrusione e ha bruciato [dragon_investigating_child.GetFirstNameNoTooltip] per la sua curiosità!\n\nLe ragioni dietro l'avventura notturna non sono ancora state determinate poiché [dragon_investigating_child.GetFirstNameNoTooltip] è ancora in fase di recupero dalle ferite, ma gli altri bambini sono sotto interrogatorio.\n\nA parte il fallimento evidente della mia sicurezza e l'indagine per determinare cosa sia successo, la domanda più grande che mi viene posta è cosa fare con [visited_dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0004.desc.died:0 "Una tragedia è stata il tema della corte oggi.\n\nA quanto pare, [dragon_investigating_child.GetFirstName] è riuscito a uscire furtivamente verso la Fossa del Drago la scorsa notte, riuscendo a eludere le nostre guardie, e si è imbattuto nel [visited_dragon.GetFirstName] addormentato.\n\n[visited_dragon.GetFirstNameNoTooltip] non ha preso bene questa intrusione e ha ucciso [dragon_investigating_child.GetFirstNameNoTooltip] per la sua curiosità!\n\nLe ragioni dietro l'avventura fatale non sono ancora state determinate poiché [dragon_investigating_child.GetFirstNameNoTooltip] non può dirci nulla e nessun altro si è fatto avanti come parte di essa, ma gli altri bambini sono sotto interrogatorio.\n\nA parte il fallimento evidente della mia sicurezza e l'indagine per determinare cosa sia successo, la domanda più grande che mi viene posta è cosa fare con [visited_dragon.GetFirstName]."
+  agot_filler_dragon.0004.a:0 "[visited_dragon.GetFirstNameNoTooltip] deve essere messo in catene."
+  agot_filler_dragon.0004.b:0 "Un triste epilogo per una gita infantile, ma un drago è pur sempre un drago."
+  agot_filler_dragon.0004.b.f:0 "Non farai nulla per punire [visited_dragon.GetFirstNameNoTooltip]."
+
+
+  #####################################
+  # DRAGON SHOW FOR MONEY (0005-0006) #
+  #####################################
+
+  agot_filler_dragon.0006.t:0 "Un Cavaliere di Mummery?"
+  agot_filler_dragon.0006.desc:0 "Osservo i registri davanti a me e non dipingono un quadro roseo. I debiti che ora affronto sono considerevoli, e i miei finanziatori mi dicono che ci vorrà molto tempo prima che possiamo essere considerati di nuovo solventi.\n\nAccanto ai fogli di aggiornamenti finanziari che ho davanti c'è un volantino: uno spettacolo di mummer si svolgerà a [ROOT.Char.GetCapitalLocation.GetTitle.GetDefinitiveName] questa settimana, ma mi dicono che è già tutto esaurito. Che interesse da parte dei piccoli! Non posso immaginare che la compagnia teatrale affronti le difficoltà che affronto ora...\n\nMi viene un'idea. Sono il cavaliere di [ROOT.Var('current_dragon').Char.GetFirstName], e mi è stato detto che vederci volare è uno spettacolo meraviglioso! Forse, se organizzassi uno spettacolo, potrei suscitare lo stesso livello di interesse? Anche se alcuni potrebbero pensare che tale mummery sia sotto il mio rango, la mia situazione debitoria sarebbe certamente alleviata."
+  agot_filler_dragon.0006.a:0 "Un drago dal vivo per oro! Venite tutti!"
+  agot_filler_dragon.0006.a.f:0 "Utilizzerai [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] per organizzare uno spettacolo di raccolta fondi!"
+  agot_filler_dragon.0006.b:0 "Tale comportamento è sotto di me."
+  agot_filler_dragon.0006.b.f:0 "Pagherai il tuo debito in modo più tradizionale."
+
+
+
+  ###################################
+  # WILD DRAGON WORSHIP (0007-0011) #
+  ###################################
+
+  # 0008
+  agot_filler_dragon.worshiping_rebels_title:0 "Culto del Drago"
+  agot_filler_dragon.worshiping_rebels_army_name:0 "Veneratori del Drago"
+  agot_filler_dragon.0008.t:0 "Un Culto Alato"
+  agot_filler_dragon.0008.desc:0 "È ben noto che il drago [worshiped_dragon.GetFirstName] dimora nella [worshiping_county.GetName]. Anche se occasionalmente si è dimostrato pericoloso e ha causato qualche lamento, [worshiped_dragon.Custom('GetDragonSheHe')] è diventato una realtà per la popolazione. Oggi, però, ho ricevuto una strana notizia dai miei amministratori locali.\n\nSembra che, contrariamente alla diffidenza che ci si aspetterebbe quando si ha a che fare con una bestia come [worshiped_dragon.GetFirstNameNoTooltip], i contadini locali abbiano cominciato a #italic adorare#! la creatura! Mi dicono che ogni settimana portano a [worshiped_dragon.Custom('GetDragonSheHe')] tributi sotto forma di carne e, secondo alcuni rapporti più frenetici, persino sacrifici animali vivi!\n\nAnche se non sono stati riportati decessi, i pericoli di tali attività sono evidenti."
+  agot_filler_dragon.0008.a:0 "I contadini hanno usanze bizzarre. Questa è solo un'altra."
+  agot_filler_dragon.0008.a.f:0 "Lascerai i piccoli a coltivare le loro credenze esoteriche."
+  agot_filler_dragon.0008.b:0 "Eresia! Dobbiamo fermare tutto questo immediatamente!"
+  agot_filler_dragon.0008.b.f:0 "Le tue guardie si impegneranno per assicurarsi che nessuno di questi cultisti si avvicini alla tana di [worshiped_dragon.GetFirstNamePossessiveNoTooltip]."
+  agot_filler_dragon.0008.c:0 "Interessante! Forse dovrei partecipare a un rito?"
+  agot_filler_dragon.0008.c.f:0 "Esprimerai interesse a partecipare al prossimo rito di questo... culto."
+
+  # 0009
+  agot_filler_dragon.0009.t:0 "Il Cultista Sta Arrivando!"
+  agot_filler_dragon.0009.desc:0 "Notizie orribili! Abbiamo sottovalutato drasticamente il loro zelo! Nel giro di poche ore dalla sistemazione del nostro perimetro attorno alla tana di [worshiped_dragon.GetFirstNamePossessive], siamo stati assaliti da centinaia di arrabbiati contadini!\n\nLa folla ha fatto a pezzi i miei uomini, e ora ho sentito dire che uno di loro, un certo [peasant_leader.GetFirstName], è riuscito persino ad avvicinarsi e domare la bestia! Se guardo fuori dalla finestra, vedo già [peasant_leader.GetSheHe] guidare la folla proprio verso di noi a cavallo del drago!"
+  agot_filler_dragon.0009.a:0 "Presto uomini! Alle armi!"
+  agot_filler_dragon.0009.a.f:0 "Anche se a cavallo di un temibile avversario, il loro esercito è solo una leva di contadini. Se raduni il tuo esercito altrove, forse potrai sconfiggerli..."
+
+  # 0010
+  agot_filler_dragon.0010.t:0 "Servizio di Fuoco"
+  agot_filler_dragon.0010.desc:0 "Non ci vuole molto prima che il prossimo rito sia pronto per essere celebrato. Io e, naturalmente, i miei servitori ci raduniamo e marciamo sotto la luce della luna verso la tana del drago.\n\nArriviamo e troviamo i contadini in fila per presentare le loro offerte; carne e formaggio impilati su semplici vassoi, tutti collocati su un grande tavolo. Scorgo persino una capra viva legata a un palo accanto!\n\n"Non manca molto!" sento uno degli uomini gridare dalla folla.\n\n"Il grande [worshiped_dragon.GetFirstName] sta arrivando!""
+  agot_filler_dragon.0010.a.wrathful:0 ""Ne ho avuto abbastanza di queste sciocchezze! Guardie! Uccideteli tutti!""
+  agot_filler_dragon.0010.a.zealous:0 ""Ne ho avuto abbastanza di eresie! Guardie! Uccideteli tutti!""
+  agot_filler_dragon.0010.a.craven:0 ""Questo è troppo pericoloso! Guardie! Uccideteli rapidamente!""
+  agot_filler_dragon.0010.a.sadistic:0 "Sai cosa sarebbe uno spettacolo grandioso? #emp Massacro...#!"
+  agot_filler_dragon.0010.a.f:0 "I tuoi uomini massacreranno i contadini, sperando che il drago sia sazio dai loro corpi."
+  agot_filler_dragon.0010.b:0 "Non parteciperò a questo... rito."
+  agot_filler_dragon.0010.b.f:0 "Ti tirerai indietro, limitandoti a osservare cosa accade."
+  agot_filler_dragon.0010.c:0 "Dovrei partecipare, aggiungere una mia offerta."
+  agot_filler_dragon.0010.c.f:0 "Ti metterai in fila per porre le tue offerte sul tavolo."
+
+
+  # 0011
+  
+  agot_filler_dragon.0011.t:0 "Risultati Draconici..."
+  agot_filler_dragon.0011.desc.massacre:0 "È stato un massacro.\n\nI contadini, ubriachi di fervore religioso, birra e tutto ciò che le loro strane pratiche consideravano sacro, non hanno nemmeno visto l'attacco che si avvicinava da dietro. Gli uomini non armati e privi di protezioni sono stati massacrati prima ancora di riuscire a formare una linea difensiva. La resistenza che hanno opposto è stata schiacciata. Gli uomini sono morti, le donne e i bambini hanno subito lo stesso destino o sono fuggiti verso le loro case.\n\nQuando [worshiped_dragon.GetFirstName] è arrivato al banchetto, c'era molto più che semplici carni ad aspettare [worshiped_dragon.Custom('GetDragonSheHe')]. Anche dopo che [worshiped_dragon.Custom('GetDragonSheHe')] ha cotto i corpi con il fuoco draconico, sembra che ci fosse ancora più cibo di quanto [worshiped_dragon.Custom('GetDragonSheHe')] potesse mangiare. Dopo aver divorato una mezza dozzina di prede, [worshiped_dragon.Custom('GetDragonSheHe')] si è ritirato, tornando nella sua tana."
+  agot_filler_dragon.0011.desc.watch_ate:0 "La mia scorta e io ci siamo seduti ad aspettare che [worshiped_dragon.GetFirstName] uscisse dalla sua tana. Per alcuni minuti sembrava che non succedesse nulla, ma alla fine [worshiped_dragon.Custom('GetDragonSheHe')] è apparso lentamente.\n\nAnche da questa distanza, era la volta che ero più vicino a [worshiped_dragon.Custom('GetDragonSheHe')]. La vista dei muscoli che si muovevano sotto le scaglie e la grandezza stessa della creatura erano entrambe ipnotiche.\n\nSembra però che le mie paure non si siano avverate. Proprio come [worshiped_dragon.Custom('GetDragonSheHe')] aveva fatto molte volte prima, [worshiped_dragon.GetFirstNameNoTooltip] si è avvicinato tranquillamente alle offerte e, dopo aver emesso un getto di fiamma per cuocerle, ha cominciato a banchettare."
+  agot_filler_dragon.0011.desc.watch_attacked:0 "Un drago potrebbe non essere un dio, ma in questa notte, [worshiped_dragon.GetFirstName] avrebbe potuto esserlo.\n\nAll'inizio c'era silenzio, e poi un ruggito assordante. Prima che potessimo coprirci le orecchie, il ruggito della gola fu sostituito da un ruggito di fiamme. Osservo in orrore mentre una ventina di contadini vengono bruciati davanti ai miei occhi in pochi secondi, uomini, donne e bambini tutti avvolti dalle fiamme. La folla si disperde immediatamente, le grida di terrore prendono brevemente il sopravvento sul paesaggio sonoro prima di essere di nuovo sostituite dal battito delle ali e da un torrente di fuoco draconico.\n\nSenza nemmeno aspettare l'ordine, sento i miei uomini afferrarmi per fuggire, e mentre i nostri cavalli battono la via del ritorno verso casa, le grida dell'umanità in fiamme tormentano il nostro galoppo."
+  agot_filler_dragon.0011.desc.participate_ate:0 "Mi faccio avanti e mi dirigo verso la fine della fila, volendo rispettare questa strana offerta. I contadini intorno a me sembrano sorpresi, ma soddisfatti della mia partecipazione, e mantengono una distanza rispettosa in fila. Alla fine, è il mio turno di mettere la mia offerta sul tavolo. Lo faccio e, senza ancora vedere [worshiped_dragon.GetFirstName], mi unisco alla folla.\n\nPassa un minuto, poi due, e l'ultima offerta viene posta sul tavolo. Finalmente si sente un basso brontolio e la grande forma di [worshiped_dragon.GetFirstNameNoTooltip] si avvicina alle nostre offerte. Da così vicino, sento che potrei quasi allungare la mano e toccare [worshiped_dragon.Custom('GetDragonSheHe')].\n\nMi inchino rispettosamente, allontanandomi lentamente mentre guardo il grande spettacolo."
+  agot_filler_dragon.0011.desc.participate_attacked:0 "Sono l'ultimo dei partecipanti a mettersi in fila, ritardato dalla decisione. Man mano che la fila avanza lentamente, posso sentire l'anticipazione di vedere [worshiped_dragon.GetFirstName] più vicino che mai crescere.\n\nFinalmente, proprio quando sono sul punto di mettere la mia offerta con le altre, si sente un basso brontolio. Passi. Una grande ombra emerge dall'oscurità, con occhi luminosi che rivelano un ardente fuoco interiore contro il nero. Quando la massiccia forma di [worshiped_dragon.GetFirstNameNoTooltip] si erge davanti a me, non posso fare a meno di inginocchiarmi e offrire la mia parte in supplica.\n\nSento la forma di [worshiped_dragon.GetFirstNameNoTooltip] sollevare la sua testa sopra di me per osservarla prima che io senta il calore ardente del fuoco draconico avvolgere gli spettatori dietro di me! L'ultima cosa che sento sono le urla inorridite dei contadini intorno a me, mentre alzo lo sguardo e vedo una grande bocca dentata discendere..."
+  agot_filler_dragon.0011.a:0 "Per quanto brutale, possiamo essere grati che questo non si sia diffuso ulteriormente."
+  agot_filler_dragon.0011.a.sadistic:0 "Che #bold carneficina#!! Ricorderò questo per molto tempo."
+  agot_filler_dragon.0011.a.f:0 "[worshiping_county.GetBaseName] sarà leggermente meno produttiva mentre si riprende dalla perdita di questi lavoratori, ma più compiacente."
+  agot_filler_dragon.0011.b:0 "Che sollievo!"
+  agot_filler_dragon.0011.b.f:0 "Dopo aver visto il rito di persona, ti senti più sicuro che questo non causerà danni significativi."
+  agot_filler_dragon.0011.c:0 "Immagina se avessi partecipato!"
+  agot_filler_dragon.0011.c.f:0 "L'attacco del drago impedirà l'arrivo di un culto simile per un po' di tempo."
+  agot_filler_dragon.0011.d:0 "Che grande esperienza! Forse tornerò di nuovo."
+  agot_filler_dragon.0011.d.f:0 "La tua partecipazione è stata notata e apprezzata dai contadini."
+  agot_filler_dragon.0011.e:0 "Oh no..."
+  agot_filler_dragon.0011.e.f:0 "Non sei l'ultimo a morire questa notte. I cultisti e la tua scorta sono stati massacrati."
+
+
+  # Coping events
+  # Comfort eater
+  agot_filler_dragon.0013.t:0 "Un Banchetto del Drago?"
+  agot_filler_dragon.0013.desc:0 "Il banchetto personale che ho ordinato è stato preparato splendidamente, con i cibi e i vini più pregiati serviti davanti a me. Mentre sto per iniziare a mangiare, penso a [dragon.GetFirstName], che da anni vive con il cibo standard. Forse [dragon.Custom('GetDragonSheHe')] troverebbe conforto in un banchetto come questo?\n\n#italic Eugh#!, ma passerà almeno un'altra settimana prima che un banchetto simile possa essere preparato di nuovo!"
+  agot_filler_dragon.0013.a:0 "Questo è stato preparato per me, e lo mangerò!"
+  agot_filler_dragon.0013.a.f:0 "Ti avventuri nel banchetto, godendoti i sapori."
+  agot_filler_dragon.0013.b:0 "[dragon.GetFirstNameNoTooltip] merita una ricompensa."
+  agot_filler_dragon.0013.b.f:0 "Ordini che il banchetto venga portato a [dragon.GetFirstNameNoTooltip] invece."
+  agot_filler_dragon.0013.b.tt_gluttonous:0 "La natura vorace del tuo drago aumenta il suo apprezzamento."
+  agot_filler_dragon.0013.b.tt_temperate:0 "La natura temperata del tuo drago diminuisce il suo apprezzamento."
+  agot_filler_dragon.0013.b.tt:0 "Il tuo drago apprezza il cibo extra."
+
+  # Contrito
+  agot_filler_dragon.0015.t:0 "Ricognizione Aerea"
+  agot_filler_dragon.0015.desc:0 "Ieri sera, mentre facevo volare [dragon.GetFirstName] verso terra, non ho potuto fare a meno di sentire una voce piuttosto #italic eccitata #! lamentarsi nel cielo notturno. Così coinvolto era [court_lover.GetSheHe] nei piaceri della carne, che né [court_lover.GetFirstName] né [court_lover_partner.GetFirstName] potevano udire il battito delle grandi ali!\n\nSono sicuro che [court_lover.GetSheHe] si vergognerebbe molto sapendo che ho ascoltato, ma mi sento obbligato a raccontare alla corte ciò che ho visto!"
+  agot_filler_dragon.0015.a:0 "Racconterò alla corte dell'indiscrezione di [court_lover.GetFirstNamePossessiveNoTooltip]!"
+  agot_filler_dragon.0015.b:0 "Sono sicuro che [court_lover.GetFirstNameNoTooltip] potrebbe essere convinto ad agire nei miei interessi..."
+  agot_filler_dragon.0015.c:0 "Preferisco tenere per me questa notizia."
+
+  # Uccisore
+  agot_filler_dragon.0017.t:0 "Conseguenze di un'abbuffata"
+  agot_filler_dragon.0017.desc:0 "Mi sveglio con un mal di testa pulsante e una bocca che sa di latrina. Non ricordo molto della notte scorsa, ma ricordo che [courtier.GetFirstName] e io abbiamo bevuto molto vino. Mi aspetto di trovare [courtier.GetHerHim] in uno stato simile, ma il colpo alla porta dimostra il contrario.\n\n“Oh [ROOT.Char.GetTitledFirstNameNoTooltip], sono così eccitato!” esclama [courtier.GetSheHe]. Apparentemente, la scorsa notte ho acconsentito a portare [courtier.GetFirstNameNoTooltip] a fare un giro su [dragon.GetFirstName] oggi, e [courtier.GetSheHe] sta aspettando che io mi svegli da allora!\n\nNon sono sicuro di essere all’altezza di questo..."
+  agot_filler_dragon.0017.a:0 "Sono sicuro che [courtier.GetFirstNameNoTooltip] capirà."
+  agot_filler_dragon.0017.a.f:0 "Dici a [courtier.GetFirstNameNoTooltip] che non ti senti bene e dovrai rimandare."
+  agot_filler_dragon.0017.b:0 "Dovrò solo stringere i denti e sopportare."
+  agot_filler_dragon.0017.b.f:0 "Porti [courtier.GetFirstNameNoTooltip] a fare un giro, nonostante il tuo stato attuale."
+  agot_filler_dragon.0017.b.live:0 "Entrambi avete un volo piacevole."
+  agot_filler_dragon.0017.b.death:0 "Entrambi crollate nei vostri stati post-sbornia."
+
+  # Flagellante
+  agot_filler_dragon.0019.t:0 "Il Flagello del Drago"
+  agot_filler_dragon.0019.desc:0 "Mi sto flagellando da ore, eppure il dolore non mi soddisfa. Ho bisogno di qualcosa di più, qualcosa di più #italic intenso.#!\n\nRifletto su cosa ho a disposizione, e [dragon.GetFirstName] appare nella mia mente. Un drago è una bestia da guerra, eppure... sono certo che con il suo aiuto potrei provare il dolore che così disperatamente cerco!"
+  agot_filler_dragon.0019.a:0 "Il fuoco di drago sarebbe il dolore supremo!"
+  agot_filler_dragon.0019.a.f:0 "Ordini a [dragon.GetFirstNameNoTooltip] di bruciarti."
+  agot_filler_dragon.0019.b:0 "Quei artigli sembrano sempre così affilati..."
+  agot_filler_dragon.0019.b.f:0 "Ordini a [dragon.GetFirstNameNoTooltip] di graffiare la tua schiena."
+  agot_filler_dragon.0019.c:0 "È un ponte troppo lontano, anche per me."
+  agot_filler_dragon.0019.c.f:0 "Non userai [dragon.GetFirstNameNoTooltip] per il tuo sollievo perverso."
+
+  # Improvvido
+  agot_filler_dragon.0021.t:0 "Soldi da Drago?"
+  agot_filler_dragon.0021.desc:0 "Mentre mi informano sui miei conti, non posso fare a meno di restare sbalordito dalla grandezza di alcune di queste voci rispetto al reddito medio di un contadino. Anche se ho l'abitudine di fare donazioni dove posso, e anche dove non posso, non posso fare a meno di sentire che potrei fare di più.\n\nRifletto su cosa potrei fare, e mi viene in mente [dragon.GetFirstName]. [dragon.Custom('GetDragonSheHe')|U] potrebbe sicuramente essere usato per distribuire i soldi attraverso la capitale! Forse dovrei far arrivare l'oro direttamente ai poveri?"
+  agot_filler_dragon.0021.a:0 "Carica quell'oro!"
+  agot_filler_dragon.0021.a.f:0 "Butti l'oro ai poveri dall'alto di [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0021.a.bad:0 "Le monete feriscono i poveri mentre cadono."
+  agot_filler_dragon.0021.a.good:0 "Una così grande dimostrazione è l'argomento di tutto il regno!"
+  agot_filler_dragon.0021.b:0 "Ripensandoci, sembra rischioso..."
+  agot_filler_dragon.0021.b.f:0 "Non utilizzerai [dragon.GetFirstNameNoTooltip] per distribuire la tua ricchezza."
+
+  # Inappetente
+  agot_filler_dragon.0023.t:0 "Un Volo di Carestia"
+  agot_filler_dragon.0023.desc:0 "Oggi mi sento con ancora meno energia del solito. Un mal di testa pulsante si trova dietro ai miei occhi scavati. Mentre sto per salire su [dragon.GetFirstName] per un volo che mi faccia sentire meglio, sento la vista oscurarsi e le gambe cedermi...\n\nQuando mi risveglio a terra, apro gli occhi per vedere [dragon.GetFirstNameNoTooltip] che mi guarda confuso, mentre i miei servitori accorrono in mio aiuto.\n\nSembra che la mia astinenza dal cibo mi abbia finalmente raggiunto. È questa la sveglia di cui ho bisogno per ricominciare a mangiare correttamente?"
+  agot_filler_dragon.0023.a:0 "Devo cercare di mangiare di più."
+  agot_filler_dragon.0023.a.f:0 "Cerchi di superare questo disturbo alimentare."
+  agot_filler_dragon.0023.b:0 "Ho solo bisogno di riposo..."
+  agot_filler_dragon.0023.b.f:0 "Riposi per il giorno invece."
+
+  # Irritabile
+  agot_filler_dragon.0025.t:0 "Ira su Grande Scala"
+  agot_filler_dragon.0025.desc:0 "Oggi sono di cattivo umore. Non posso fare a meno di sentire che il mondo è contro di me. Che tutti sono pronti a ostacolarmi. Non sono sicuro di cosa abbia causato questo, ma non posso fare a meno di sentire che [dragon.GetFirstName] è l'unico in cui posso fidarmi.\n\nSali su [dragon.GetFirstNameNoTooltip] e prendi il volo, ma anche questo non placa il malcontento che mi tormenta. Sento il bisogno di sfogare la mia rabbia su qualcosa, su qualsiasi cosa! Proprio oltre l'orizzonte, vedo la [target_county.GetName].\n\n#italic Questo va bene...#!"
+  agot_filler_dragon.0025.a:0 "Brucia tutto [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0025.a.f:0 "Ordini a [dragon.GetFirstNameNoTooltip] di bruciare la contea."
+  agot_filler_dragon.0025.b:0 "No, questo è sbagliato!"
+  agot_filler_dragon.0025.b.f:0 "Resisterai ai tuoi impulsi oscuri."
+
+  # Sprecone
+  agot_filler_dragon.0027.t:0 "Una Grande Cerimonia!"
+  agot_filler_dragon.0027.desc:0 "Mentre sto per salire su [dragon.GetFirstName], guardo in basso e vedo il pavimento polveroso, il rispetto ma poco cerimonioso inchino dei miei servitori. Possiamo fare meglio di così!\n\nUn grande tappeto su cui camminare mentre monto, una fanfara per annunciare il mio arrivo e una grande processione che mi segua mentre prendo il volo! Sono sicuro che tutta la corte apprezzerebbe una tale dimostrazione!"
+  agot_filler_dragon.0027.a:0 "Avrò una grande processione!"
+  agot_filler_dragon.0027.a.tt:0 "Ogni volta che prendi la decisione #V Cavalca il Tuo Drago#!, guadagnerai 100 [prestige_i] [prestige|E]"
+  agot_filler_dragon.0027.b:0 "Bah! Troppo costoso!"
+
+  # Libidinoso
+  agot_filler_dragon.0029.t:0 "Un Giro da Letto"
+  agot_filler_dragon.0029.desc:0 "Mi sono svegliato in un umore piuttosto #italic amoroso#! oggi, e come mi capita in questo stato, incontro uno dei bei corpi in vendita in alcune delle zone meno scrupolose della città.\n\nMentre ci divertiamo, una di queste bellezze, una certa [prostitute_character.GetFirstName], menziona [dragon.GetFirstName], avendo sentito dei miei exploit come cavaliere di drago.\n\n[prostitute_character.GetSheHe|U] si avvicina e sussurra alcune... #italic idee interessanti#! su come usare quelle cinghie, e vuole andare in cielo subito!"
+  agot_filler_dragon.0029.a:0 "Oh #emp assolutamente!#!"
+  agot_filler_dragon.0029.a.f:0 "Porti [prostitute_character.GetFirstNameNoTooltip] per un #italic giro.#!"
+  agot_filler_dragon.0029.a.good:0 "Hai un'esperienza davvero indimenticabile!"
+  agot_filler_dragon.0029.a.bad:0 "Usare le cinghie di sicurezza in quel modo?! Cosa ti passava per la testa?!"
+  agot_filler_dragon.0029.b:0 "Vuoi fare cosa adesso?!"
+  agot_filler_dragon.0029.b.f:0 "Dici a questa sgualdrina pompata esattamente cosa pensi della sua idea."
+
+  # Riservato
+  agot_filler_dragon.0031.t:0 "Uscire dal Rifugio?"
+  agot_filler_dragon.0031.desc:0 "So che non passo quanto dovrei tempo con [dragon.GetFirstName], ma non posso fare a meno di pensare che [dragon.Custom('GetDragonSheHe')] stia meglio nel proprio spazio, proprio come me. Pensavo di riuscire a vedere [dragon.Custom('GetDragonSheHe')] oggi, ma non riesco a sopportare l'idea di lasciare le mie stanze.\n\nForse dovrei rinunciare a questa faccenda dei voli ricreativi. Ci sono sempre così tante persone tra le mie stanze e [dragon.GetFirstNameNoTooltip]... Potrebbe non valerne la pena."
+  agot_filler_dragon.0031.a:0 "Non salirò più su [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0031.a.tt:0 "Hai rinunciato ai voli ricreativi per sempre e non sarai più in grado di prendere la decisione #V Cavalca il Tuo Drago#!"
+  agot_filler_dragon.0031.b:0 "No, è passato troppo tempo. Devo vedere [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0031.b.tt:0 "Sarai in grado di prendere la decisione #V Cavalca il Tuo Drago#! come al solito."
+
+  # Atleta
+  agot_filler_dragon.0033.t:0 "Correre con un Drago"
+  agot_filler_dragon.0033.desc:0 "Stavo finendo una delle mie corse mattutine attorno al cortile quando vedo un uccello sorvolarmi, superando la mia velocità senza sforzo mentre vola fino alla cima di un muro vicino. Non posso fare a meno di sentire un po' di invidia per la grazia senza sforzo della creatura, e la mia mente va a [dragon.GetFirstName].\n\nLa velocità del volo del drago è, ovviamente, senza pari, eppure mi chiedo come si comporterebbe [dragon.GetFirstNameNoTooltip] a terra? Una corsa insieme potrebbe farci bene! Forse potremmo correre insieme regolarmente?"
+  agot_filler_dragon.0033.a:0 "Organizzerò la corsa!"
+  agot_filler_dragon.0033.a.good:0 "[dragon.GetFirstNameNoTooltip] sembra apprezzare l'attività."
+  agot_filler_dragon.0033.a.bad:0 "Per quanto ci provi, non riesci a far correre [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0033.b:0 "Un drago che corre? Che idea assurda!"
+
+  # Confidente
+  agot_filler_dragon.0035.t:0 "L'Orecchio di un Drago"
+  agot_filler_dragon.0035.desc:0 "Mi sento piuttosto giù ultimamente e non sono sicuro del perché. Sento il bisogno di parlare con qualcuno, ma non sono sicuro a chi potrei fidarmi. Con mia sorpresa, mentre mi avvicino a [dragon.GetFirstName], mi sento spinto a parlare semplicemente a [dragon.Custom('GetDragonSheHe')].\n\nAnche se so che [dragon.Custom('GetDragonSheHe')] non capirebbe, forse potrebbe comunque aiutarmi, e non dovrei preoccuparmi che [dragon.Custom('GetDragonSheHe')] mi giudichi."
+  agot_filler_dragon.0035.a:0 "Chi sarebbe più sicuro con cui confidarsi se non [dragon.GetFirstNameNoTooltip]?"
+  agot_filler_dragon.0035.a.good:0 "Ti senti meglio dopo aver parlato con [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0035.a.bad:0 "Sei visto mentre parli con [dragon.GetFirstNameNoTooltip] e sei giudicato un po' per questo."
+  agot_filler_dragon.0035.b:0 "Parlare con un animale? No, decisamente no."
+
+  # Giornalista
+  agot_filler_dragon.0037.t:0 "Ispirazione dal Cielo"
+  agot_filler_dragon.0037.desc:0 "Sono appassionato di journaling e lo sono da un po'. Trovo che mi aiuti a tenere in ordine i miei pensieri e a seguire la mia vita.\n\nEppure, dopo il mio ultimo volo su [dragon.GetFirstName], mi sento ispirato più del solito. Le parole scorrono sulla pagina, una descrizione ispirata di una città dall'aria.\n\nPrima che me ne renda conto, ho riempito il manoscritto con il racconto del nostro volo precedente e mi sento meglio che mai."
+  agot_filler_dragon.0037.a:0 "Che ispirazione! Devo volare di nuovo presto!"
+  agot_filler_dragon.0037.a.f:0 "I tuoi scritti trovano nuova vita dopo le tue esperienze in volo con [dragon.GetFirstNameNoTooltip]."
+
+  # Maleducato
+  agot_filler_dragon.0039.t:0 "Nasi e Odori"
+  agot_filler_dragon.0039.desc:0 "Cammino attorno al muso di [dragon.GetFirstName] mentre mi preparo a salire su [dragon.Custom('GetDragonSheHe')], e mentre lo faccio vedo le sue narici dilatarsi. In pochi secondi [dragon.Custom('GetDragonSheHe')] si ritrae ed è chiaramente a disagio con la mia vicinanza.\n\nLa mia igiene potrebbe non essere delle migliori, ma sicuramente non può essere così cattiva da offendere un drago?"
+  agot_filler_dragon.0039.a:0 "Forse dovrei #italic farmi un bagno#!"
+  agot_filler_dragon.0039.a.f:0 "Cerchi di migliorare la tua igiene."
+  agot_filler_dragon.0039.b:0 "Sono sicuro che [dragon.GetFirstNameNoTooltip] si abituarà."
+  agot_filler_dragon.0039.b.f:0 "Non cambierai le tue abitudini."
+
+
+  # Education events
+  # Dragon education - Diplomacy
+  # Ali delle Parole
+  agot_filler_dragon.0041.t:0 "Ali delle Parole"
+  agot_filler_dragon.0041.desc:0 "Sono in buona salute, il regno è in pace, eppure alcuni dei miei vassalli sono infelici. Un regno stabile con vassalli infelici non è stabile a lungo. Mentre rifletto su cosa fare a riguardo, penso a [dragon.GetFirstName]. Sì...\n\n"
+  agot_filler_dragon.0041.desc.both:0 "Anche se è una bestia da guerra, un drago è anche una creatura di grande maestà. Sono certo che se portassi [flight_offer_vassal.GetName] a fare un volo sopra [dragon.GetFirstNameNoTooltip], [flight_offer_vassal.GetSheHe] sarebbe più disposto ad ascoltare le mie parole.\n\nNaturalmente, alcuni vassalli meno accettanti o più cinici non risponderebbero o accetterebbero tale invito. [threaten_offer_vassal.GetName] sarebbe più propenso a rispondere a una dimostrazione di forza, se applicata nel modo giusto."
+  agot_filler_dragon.0041.desc.flight:0 "Anche se è una bestia da guerra, un drago è anche una creatura di grande maestà. Sono certo che se portassi [flight_offer_vassal.GetName] a fare un volo sopra [dragon.GetFirstNameNoTooltip], [flight_offer_vassal.GetSheHe] sarebbe più disposto ad ascoltare le mie parole."
+  agot_filler_dragon.0041.desc.threaten:0 "Alcuni dei miei vassalli meno accettanti o più cinici comprendono solo le azioni diplomatiche più brutali. [threaten_offer_vassal.GetName] sarebbe probabilmente propenso a rispondere a una dimostrazione di forza, se applicata nel modo giusto."
+  agot_filler_dragon.0041.a:0 "Porterò [flight_offer_vassal.GetName] a fare un volo!"
+  agot_filler_dragon.0041.a.f:0 "[flight_offer_vassal.GetFirstNameNoTooltip] ha passato un magnifico momento sopra [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0041.b:0 "Inviterò [threaten_offer_vassal.GetName] a pranzo... con [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0041.b.f:0 "[threaten_offer_vassal.GetFirstNameNoTooltip] pranzerà con te mentre [dragon.GetFirstNameNoTooltip] si nutre di carcasse animali accanto al tuo tavolo."
+  agot_filler_dragon.0041.c:0 "Mi occuperò dei miei vassalli nel modo tradizionale."
+
+  # Ali della Guerra
+  agot_filler_dragon.0043.t:0 "Ali della Guerra"
+  agot_filler_dragon.0043.desc:0 "Il regno potrebbe essere in pace ora, ma so che non durerà per sempre. In un mondo come questo, è solo una questione di tempo prima che la guerra arrivi alla mia porta. Devo essere pronto per una tale eventualità e penso che [dragon.GetFirstName] possa aiutare.\n\nIn guerra, le informazioni sono fondamentali e quando arriverà il momento della guerra, potremmo non avere tempo per raccoglierle. Potrei anticipare questo problema, portando [dragon.GetFirstNameNoTooltip] a mappare il mio regno, aiutandoci nei nostri futuri conflitti. Naturalmente, potrei anche concentrarmi sull'addestramento con [dragon.GetFirstNameNoTooltip], assicurandoci la nostra competenza in battaglia qualora ce ne fosse bisogno."
+  agot_filler_dragon.0043.a:0 "Rotte di rifornimento, posizioni di imboscate, difese deboli... Le troveremo tutte!"
+  agot_filler_dragon.0043.a.f:0 "Porterai [dragon.GetFirstNameNoTooltip] a mappare il tuo regno."
+  agot_filler_dragon.0043.b:0 "[dragon.GetFirstNameNoTooltip]! Addestriamo!"
+  agot_filler_dragon.0043.b.f:0 "Ti allenerai con [dragon.GetFirstNameNoTooltip]."
+
+  # Ali della Ricchezza
+  agot_filler_dragon.0045.t:0 "Ali della Ricchezza"
+  agot_filler_dragon.0045.desc:0 "Anche se la pace fa girare sufficientemente la ruota del commercio, c'è sempre di più che si può fare per ingrassarla. Penso a [dragon.GetFirstName], e a come [dragon.Custom('GetDragonSheHe')] potrebbe essere indirizzato verso scopi più produttivi in questi tempi senza nemici da bruciare.\n\nForse potrei usare le sue fiamme per liberare terre per lo sviluppo? O forse potremmo abituarci a sorvegliare la campagna, prevenendo il contrabbando e garantendo la sicurezza dei nostri mercanti?"
+  agot_filler_dragon.0045.a:0 "Più sviluppo è sempre positivo!"
+  agot_filler_dragon.0045.a.f:0 "Utilizzerai [dragon.GetFirstNameNoTooltip] per liberare terre per lo sviluppo."
+  agot_filler_dragon.0045.b:0 "Nessun bandito o contrabbandiere sfuggirà al nostro sguardo!"
+  agot_filler_dragon.0045.b.f:0 "Utilizzerai [dragon.GetFirstNameNoTooltip] per sorvegliare la campagna."
+  agot_filler_dragon.0045.b.tt:0 "Ogni contea entro due contee dalla tua capitale riceverà il modificatore [GetModifier('agot_patrolled_on_dragonback').GetNameWithTooltip] per 10 anni."
+  agot_filler_dragon.0045.c:0 "Le carcasse fanno davvero ottimo fertilizzante..."
+  agot_filler_dragon.0045.c.f:0 "Utilizzerai [dragon.GetFirstNameNoTooltip] per fertilizzare le tue terre attraverso i cadaveri di animali vicini."
+  agot_filler_dragon.0045.d:0 "I draghi producono molta spazzatura!"
+  agot_filler_dragon.0045.d.f:0 "Utilizzerai i rifiuti di [dragon.GetFirstNamePossessiveNoTooltip] per fertilizzare le tue terre."
+
+  # Ali dei Sussurri
+  agot_filler_dragon.0047.t:0 "Ali dei Sussurri"
+  agot_filler_dragon.0047.desc:0 "Come ogni cortigiano astuto ti dirà, un regno pacifico non rende il cortile pacifico. Come cavaliere di drago sono protetto da molte minacce esterne, ma una lama nel collo è mortale sia in battaglia che nel sonno.\n\nIntessere la mia rete di segreti è quindi di fondamentale importanza in tempi come questi. Anche se non è così direttamente impattante, sicuramente potrei fare uso di [dragon.GetFirstName] per estorcere alcuni dei segreti che circondano me.\n\nLa domanda è: chi?"
+  agot_filler_dragon.0047.a:0 "[prisoner.GetName] è nelle mie mani, [prisoner.GetSheHe] mi dirà quello che voglio sapere!"
+  agot_filler_dragon.0047.a.f:0 "[prisoner.GetFirstNameNoTooltip] sicuramente svelerà i suoi segreti se lo minacci con [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0047.a.tt:0 "Imparerai uno dei segreti di #V [prisoner.GetTitledFirstNamePossessive]#!"
+  agot_filler_dragon.0047.b:0 "La mia famiglia sa quanto può essere mortale [dragon.GetFirstNameNoTooltip]..."
+  agot_filler_dragon.0047.b.f:0 "Minaccerai sottilmente [family_member.GetTitledFirstNameNoTooltip] con [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0047.b.tt:0 "Imparerai uno dei segreti di #V [family_member.GetTitledFirstNamePossessive]#!"
+  agot_filler_dragon.0047.c:0 "[vassal.GetTitledFirstName] è sembrato sospetto ultimamente."
+  agot_filler_dragon.0047.c.f:0 "[vassal.GetFirstNameNoTooltip] non è così forte di volontà dopo qualche minuto con [dragon.GetNameNoTooltip]."
+  agot_filler_dragon.0047.c.tt:0 "Imparerai uno dei segreti di #V [vassal.GetTitledFirstNamePossessive]#!"
+  agot_filler_dragon.0047.d:0 "Ho visto [courtier.GetFirstName] aggirarsi in modo furtivo prima."
+  agot_filler_dragon.0047.d.f:0 "[courtier.GetFirstNameNoTooltip] sicuramente dirà la verità quando sarà confrontato con [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0047.d.tt:0 "Imparerai uno dei segreti di #V [courtier.GetTitledFirstNamePossessive]#!"
+  agot_filler_dragon.0047.e:0 "Minacce così basse sono al di sotto di [dragon.GetFirstNameNoTooltip] e di me."
+  agot_filler_dragon.0047.e.f:0 "Non utilizzerai [dragon.GetFirstNameNoTooltip] per estorcere segreti."
+  agot_filler_dragon.0047.toast.title:0 "Segreto Rivelato"
+  agot_filler_dragon.0047.toast.desc:0 "Scoperto il segreto di [target.GetTitledFirstNamePossessive] [target_secret.GetName]!"
+
+  # Educazione del Drago - Apprendimento
+  agot_filler_dragon.0049.t:0 "Ali della Saggezza"
+  agot_filler_dragon.0049.desc:0 "Anche se la mia educazione è completa, so che posso sempre imparare di più. Come cavaliere di drago ho accesso a uno dei più grandi misteri dell'epoca. Forse potrei utilizzare [dragon.GetFirstName] in questi tempi di pace per fini più studiose?\n\nHo sentito racconti dei [investigate_culture.GetName], anche se ne so poco. Forse potrei usare [dragon.GetFirstNameNoTooltip] per volare lì per un breve periodo? Naturalmente, i draghi stessi sono oggetto di studio e potrei contribuire al campo grazie alla mia stretta vicinanza."
+  agot_visiting_dragonrider_culture_acceptance:0 "Il cavaliere di drago ha visitato con intento amichevole"
+  agot_filler_dragon.0049.a:0 "Volo per incontrare questi... [investigate_culture.GetCollectiveNounNoTooltip]."
+  agot_filler_dragon.0049.a.f:0 "Vola nella contea più vicina dei [investigate_culture.GetNameNoTooltip] per conoscere meglio i loro modi."
+  agot_filler_dragon.0049.b:0 "Studierò [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0049.b.f:0 "Studierai [dragon.GetFirstNameNoTooltip] per aiutare il regno a comprendere meglio i draghi."
+
+  # Eventi di Stile di Vita
+  # Stile di vita del Drago - Festaiolo
+  agot_filler_dragon.0051.t:0 "Animale da Festa"
+  agot_filler_dragon.0051.desc:0 "Annoio. Annoio. Annoio. Annoio. #Emp Annoio!#!\n\nSembra che qualunque cosa faccia, non riesco a scacciare questo sentimento di noia. Anche se ho cercato di trovare sollievo nei banchetti e nei balli in corso, non posso fare a meno di sentire che sto semplicemente seguendo la routine. Sono tutti così...#italic uguali#!.\n\nHo bisogno di qualcosa di più, qualcosa di #italic nuovo#!. Mentre rifletto su cosa fare, penso a [dragon.GetFirstName]. Sicuramente nessuno ha mai festeggiato con un #emp drago#! prima d'ora? Forse potrei usare [dragon.GetFirstNameNoTooltip] per ravvivare la sala del banchetto stasera?"
+  agot_filler_dragon.0051.a:0 "Non c'è mai stata una festa come una festa con il drago!"
+  agot_filler_dragon.0051.a.f:0 "Inviterai la tua corte a un banchetto con [dragon.GetFirstNameNoTooltip] come ospite d'onore!"
+  agot_filler_dragon.0051.a.good:0 "Il regno non ha mai visto una festa come questa!"
+  agot_filler_dragon.0051.a.good.title:0 "Gli ospiti sono deliziati da [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0051.a.bad:0 "[dragon.GetFirstNameNoTooltip] non è un fan del rumore e del caos, e sfonda il tetto per scappare"
+  agot_filler_dragon.0051.a.bad.title:0 "[dragon.GetFirstNameNoTooltip] non era divertito"
+  agot_filler_dragon.0051.b:0 "Sembra poco consigliabile..."
+  agot_filler_dragon.0051.b.f:0 "Non utilizzerai [dragon.GetFirstNameNoTooltip] come trucco da festa."
+
+  # Stile di vita del Drago - Maestro di Spada
+  agot_filler_dragon.0053.t:0 "Colpo o Volo?"
+  agot_filler_dragon.0053.desc:0 "Sento la vibrazione attraverso le mani mentre la mia lama incontra il manichino da allenamento. Come una danza, mi muovo attraverso le forme, ogni colpo e parata simulata un passo nel balletto mortale. Sento il sudore sulla fronte e il dolore nei muscoli, mi sento #emp vivo#!.\n\nQuando termino la mia routine, orgoglioso del mio lavoro di oggi, e guardo intorno al campo di allenamento agli uomini che eseguono le loro routine. Sono lenti. Maldestri. Con mia sorpresa vedo il mio orgoglio evaporare.\n\nGuardo il pomo nella mia mano. Qual è il senso di tutto questo allenamento se sono l'unico che lo comprende veramente? Inoltre, ho a disposizione un drago. Potrei essere un demone sul campo di battaglia, ma sulla schiena di [dragon.GetName] sono un dio! Non posso fare a meno di chiedermi perché mi stia sforzando così tanto."
+  agot_filler_dragon.0053.a:0 "Mi concentrerò tutto il mio allenamento con [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0053.b:0 "No, ci sono benefici nell'allenamento oltre alla pratica del sangue."
+  agot_filler_dragon.0053.b.f:0 "Continuerai ad allenarti come hai fatto finora."
+  agot_filler_dragon.0053.c:0 "Perché non allenarsi con la spada dalla schiena del drago?"
+  agot_filler_dragon.0053.c.f:0 "Ti allenerai con [dragon.GetFirstNameNoTooltip] come tuo cavalcatura, cercando di creare un nuovo stile di combattimento montato."
+  agot_filler_dragon.0053.c.good:0 "Il tuo allenamento è fruttuoso, anche se non è frequentemente utile"
+  agot_filler_dragon.0053.c.bad:0 "Il tuo allenamento è infruttuoso e sembri piuttosto sciocco"
+
+  # Stile di vita del Drago - Cacciatore
+  agot_filler_dragon.0055.t:0 "Di Scaglie e Pelli"
+  agot_filler_dragon.0055.desc:0 "Guardo il percorso pianificato per la caccia di domani. È un buon percorso e sono sicuro che riuscirò a trovare qualche selvaggina. Tuttavia, non è mai certo...\n\nAll'improvviso, mi viene in mente un pensiero. Ho a disposizione un drago, eppure sto ancora pianificando di cacciare a piedi. Qual è il senso di tutto ciò?\n\nGuardo di nuovo la mappa e traccio un secondo percorso. Dovrei pianificare una caccia dalla schiena del drago! Potrei coprire molto più terreno, usare [dragon.GetFirstName] per stanare la selvaggina, e potrei persino [dragon.GetFirstNameNoTooltip] raggiungere la selvaggina che non avrei mai sperato di inseguire a piedi. Avremmo sicuramente successo!\n\nEppure...mi piace così tanto l'emozione della caccia."
+  agot_filler_dragon.0055.a:0 "Cacceremo dalla schiena del drago!"
+  agot_filler_dragon.0055.a.f:0 "Sarai sicuro di avere successo sopra [dragon.GetFirstNameNoTooltip], e diventerai più abile nel volare sotto pressione."
+  agot_filler_dragon.0055.b:0 "Caccerò a piedi come previsto."
+  agot_filler_dragon.0055.b.f:0 "Sembra comunque un po' #italic poco sportivo#! dopo tutto."
+
+  # Stile di vita del Drago - Mistico
+  agot_filler_dragon.0057.t:0 "Un Sogno di Drago Risvegliato"
+  agot_filler_dragon.0057.desc:0 "Ho preparato questo rituale per settimane, e ora è finalmente il momento. Ho raccolto i componenti necessari, preparato l'area e persino riuscito a fare in modo che [dragon.GetFirstName] stia fermo!\n\nOrdino di chiudere le persiane e mi siedo con le gambe incrociate davanti a [dragon.GetFirstNameNoTooltip], accendendo la candela tra [dragon.Custom('GetDragonSheHe')] e me. [dragon.Custom('GetDragonSheHe')|U] abbassa la sua testa all'altezza della mia, e guardo profondamente nei suoi occhi.\n\nLa candela brucia tra i nostri sguardi. Fisso quegli occhi che portano una saggezza oltre la mia comprensione. Il debole legame tra noi, mai pronunciato ma sempre presente, lo sento ora. Reale. Tangibile. Intessuto tra noi. Sento il mondo svanire...\n\nSono in un luogo di sogni, e non sono solo. Sono con [dragon.GetFirstNameNoTooltip]. Siamo insieme, e noi siamo..."
+  agot_filler_dragon.0057.a:0 "Volando tra le nuvole!"
+  agot_filler_dragon.0057.a.f:0 "Anche se il legame svanisce rapidamente, ti senti più in sintonia con [dragon.GetFirstNameNoTooltip] che mai."
+  agot_filler_dragon.0057.b:0 "Massacrando i nostri nemici!"
+  agot_filler_dragon.0057.b.f:0 "Visioni di battaglia e sangue riempiono la tua mente, e ti senti più preparato per il futuro. In qualche modo, sai che anche [dragon.GetFirstNameNoTooltip] lo sente."
+  agot_filler_dragon.0057.c:0 "Dormendo su un campo aperto."
+  agot_filler_dragon.0057.c.f:0 "Ti senti più in pace di quanto non sia stato da molto tempo, e sai che [dragon.GetFirstNameNoTooltip] sarà con te per molti anni a venire."
+
+  # Stile di vita del Drago - Medico
+  agot_filler_dragon.0059.t:0 "Studi sul Popolo dei Draghi"
+  agot_filler_dragon.0059.desc:0 "Sono state consegnate al mio studio delle nuove pagine di disegni anatomici. La relazione tra la struttura ossea e la personalità, l'equilibrio degli umori e la salute generale. #EMP Bah!#! Nulla di tutto ciò è nuovo per me. Quando arriverà qualche lavoro veramente originale?\n\nMentre rifletto su questo, penso a [dragon.GetFirstName]. Ho studiato l'anatomia umana per anni ormai, eppure non ho ancora nemmeno considerato di fare progressi nella comprensione della natura dei Draghi. Forse concentrando i miei studi su [dragon.GetFirstNameNoTooltip] potrei ottenere qualche lavoro veramente originale?"
+  agot_filler_dragon.0059.a:0 "Farò più che studiare, ho avuto un'idea ispirata!"
+  agot_filler_dragon.0059.a.f:0 "Ordinerai ai tuoi uomini di uccidere [dragon.GetFirstNameNoTooltip], tentando di utilizzare gli organi e il sangue freschi per creare un elisir potente."
+  agot_filler_dragon.0059.b:0 "Invierò le mie osservazioni alla Cittadella, per essere condivise con il mondo."
+  agot_filler_dragon.0059.c:0 "Dovrei studiare [dragon.GetFirstNameNoTooltip] più da vicino!"
+  agot_filler_dragon.0059.c.f:0 "Studierai [dragon.GetFirstNameNoTooltip] per cercare di comprendere meglio la sua natura."
+  agot_filler_dragon.0059.d:0 "La perfezione nella comprensione della forma umana è il mio obiettivo. L'originalità non lo è."
+  agot_filler_dragon.0059.d.f:0 "Leggerai le nuove pagine di disegni anatomici, originali o meno, cercando di perfezionare la tua comprensione della forma umana."
+  agot_filler_dragon.0059.toast.t:0 "Un nuovo elisir"
+
+  # Stile di vita del Drago - Erborista
+  agot_filler_dragon.0061.t:0 "Erbe Potenzianti"
+  agot_filler_dragon.0061.desc:0 "Schiaccio le erbe nella mia mano, il forte profumo di tinture e elisir che riempie l'aria. Sento che questo lotto sarà forte, e non vedo l'ora di vedere i risultati. Naturalmente, non è ancora finito, poiché ho un ingrediente segreto che pochi altri erboristi possono mai vantare.\n\n#bold Un Drago.#!\n\nLa domanda non è se dovrei usare [dragon.GetFirstName] nel mio lavoro, ma come dovrei cercare di infondere la sua nel essenza mio prossimo unguento?"
+  agot_filler_dragon.0061.a:0 "Una scaglia schiacciata, per la forza!"
+  agot_filler_dragon.0061.b:0 "Una goccia di sangue, per la virilità!"
+  agot_filler_dragon.0061.c:0 "Un frammento di artiglio, per una mente acuta!"
+  agot_filler_dragon.0061.d:0 "Un pezzo di dente, per arguzia mordace!"
+  agot_filler_dragon.0061.e:0 "Una goccia di escremento, per uno stomaco forte!"
+
+  # Stile di vita del Drago - Giardiniere
+  agot_filler_dragon.0063.t:0 "Un Giardino per un Drago"
+  agot_filler_dragon.0063.desc:0 "Sento la terra sotto le dita e il sole sulla schiena. Ho lavorato al mio giardino per un po' di tempo ormai, e sono orgoglioso del lavoro che ho fatto. Molte piante e fiori cresceranno dal lavoro svolto qui oggi, e non vedo l'ora di vederli in piena fioritura.\n\nMentre guardo il giardino, non posso fare a meno di sentirmi un po' in colpa. Ecco che sto lavorando al mio giardino, mentre [dragon.GetFirstName] è "
+  agot_filler_dragon.0063.desc.dragonpit:0 "bloccato nel freddo e buio sotterraneo del drago.\n\n"
+  agot_filler_dragon.0063.desc.else:0 "in piedi su pietra, senza verde visibile.\n\n"
+  agot_filler_dragon.0063.desc.end:0 "Mi chiedo se potrei creare un giardino per [dragon.GetFirstNameNoTooltip], così che [dragon.Custom('GetDragonSheHe')] possa avere un posto per godere del sole e dei fiori come faccio io?"
+  agot_filler_dragon.0063.a:0 "Creerò un giardino per [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0063.a.f:0 "Creerai un giardino per [dragon.GetFirstNameNoTooltip], ma chissà come reagirà [dragon.Custom('GetDragonSheHe')]?"
+  agot_filler_dragon.0063.a.good:0 "Il giardino è un grande successo, e [dragon.GetFirstNameNoTooltip] sembra apprezzarlo"
+  agot_filler_dragon.0063.a.good.tt:0 "[dragon.GetName] guadagnerà $add_temperament_5$"
+  agot_filler_dragon.0063.a.good.toast.t:0 "Fiori che muovono fiamme"
+  agot_filler_dragon.0063.a.bad:0 "Il giardino è un fallimento, e [dragon.GetFirstNameNoTooltip] sembra indifferente"
+  agot_filler_dragon.0063.a.bad.toast.t:0 "Fiamme non sono fiori"
+  agot_filler_dragon.0063.a.bad.toast.desc:0 "[dragon.GetFirstNameNoTooltip] è rimasto indifferente al giardino."
+  agot_filler_dragon.0063.b:0 "Ho il mio giardino di cui preoccuparmi."
+  agot_filler_dragon.0063.b.f:0 "Non creerai un giardino per [dragon.GetFirstNameNoTooltip]."
+
+
+  agot_filler_dragon.0065.t:0 "Proposta di Pozione Assurda"
+  agot_filler_dragon.0065.desc:0 ""Ah, [ROOT.Char.GetTitledFirstName]!" esclama [proposing_courtier.GetFirstName] mentre entro nella sala del tribunale. "Voglio parlarti del mio ultimo progetto. Vedi, ho lavorato a una miscela, una veramente potente." spiega eccitatamente [proposing_courtier.GetSheHe].\n\n"Te la offrirei, ovviamente. Vivo per servire. C'è un piccolo...problema, però. Ho bisogno del cadavere del tuo drago..." dice [proposing_courtier.GetSheHe], guardando leggermente nervoso la mia espressione sbalordita.\n\n"Ti assicuro, mio signore, che sarebbe un prezzo ben speso!" balbetta [proposing_courtier.GetSheHe], chiaramente più nervoso ora che la sua idea è venuta alla luce."
+  agot_filler_dragon.0065.a:0 "Sei completamente pazzo?!"
+  agot_filler_dragon.0065.a.f:0 "Rifiuterai aspramente la richiesta di [proposing_courtier.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0065.b:0 "Guardie, arrestate quest'uomo folle!"
+  agot_filler_dragon.0065.b.f:0 "Farai arrestare [proposing_courtier.GetFirstNameNoTooltip] per la sua richiesta assurda."
+  agot_filler_dragon.0065.c:0 "Sai cosa... d'accordo!"
+  agot_filler_dragon.0065.c.f:0 "Permetterai a [proposing_courtier.GetFirstNameNoTooltip] di uccidere [dragon.GetFirstNameNoTooltip] e usare il suo corpo per la loro pozione."
+  agot_filler_dragon.0065.d:0 "Adesso me ne vado."
+  agot_filler_dragon.0065.d.f:0 "Continuerai il tuo cammino e spererai che [proposing_courtier.GetFirstNameNoTooltip] non sollevi mai più questo argomento."
+
+  # Eventi pozione drago
+  agot_filler_dragon.0066.t:0 "Saggio di Diplomazia"
+  agot_filler_dragon.0066.desc:0 "Mi siedo davanti ai documenti del regno, portati dai miei fedeli servitori. Nulla di grande importanza, ma le delicatezze della diplomazia devono ancora essere gestite con la mia mano.\n\nStranamente, oggi sento che le parole scorrono dalla mia penna con una grazia e una facilità mai provate prima. Sento come se potessi scrivere una lettera in grado di influenzare anche i vassalli più testardi.\n\nDev'essere il [artifact.GetName] che ho bevuto prima. Mi sento come se potessi fare qualsiasi cosa!"
+  agot_filler_dragon.0066.a:0 "Iniziamo a scrivere!"
+  agot_filler_dragon.0067.t:0 "Saggio di Pericolo"
+  agot_filler_dragon.0067.desc:0 "Guardo i report più recenti delle truppe, le stazioni di guardia e i modelli di pattugliamento. All'improvviso, vedo un'inefficienza che non avevo mai notato prima. Piccola, forse, ma potrebbe fare la differenza tra vita e morte.\n\nMentre scrivo le mie istruzioni per sistemarla, mi chiedo come ho potuto mai non vederla prima? Dev'essere il [artifact.GetName] che ho bevuto prima!"
+  agot_filler_dragon.0067.a:0 "Attenzione mondo, eccomi!"
+  agot_filler_dragon.0068.t:0 "Saggio di Dovere"
+  agot_filler_dragon.0068.desc:0 "I conti del regno sono sparsi davanti a me. Numeri e bilanci e report sui movimenti commerciali. Questo è un compito poco eccitante, eppure sento una chiarezza improvvisa che non ho mai provato prima. Posso vedere i modelli del regno, i flussi e i riflussi dell'economia, e soprattutto, posso vedere dove posso fare la differenza.\n\nSento come se potessi migliorare il regno, e so che lo farò. Questa crescita nella mia comprensione deve essere dovuta al [artifact.GetName] che ho bevuto prima!"
+  agot_filler_dragon.0068.a:0 "Farò del regno un posto migliore!"
+  agot_filler_dragon.0069.t:0 "Saggio di Inganno"
+  agot_filler_dragon.0069.desc:0 "Le voci della corte sono sempre una cosa capricciosa. Gli ultimi pettegolezzi su chi sta tramando contro chi, quali soldi stanno entrando nelle tasche di chi e dove verrà il prossimo scandalo. Oggi la mia rete sembra tessersi con maggiore facilità nella mia mente, bugie e mezze verità venendo a me con una chiarezza che non ho mai provato prima.\n\nLa mia mente deve essere affilata dal [artifact.GetName] che ho bevuto prima!"
+  agot_filler_dragon.0069.a:0 "Ora posso davvero giocare il gioco dei troni!"
+  agot_filler_dragon.0070.t:0 "Saggio di Scoperta"
+  agot_filler_dragon.0070.desc:0 "Mi siedo nel mio studio, circondato dai più recenti tomi e rotoli. Ho studiato le ultime teorie e scoperte degli studiosi del regno. Trattati esotici e antichi, e le ultime novità nelle scienze fisiche e misteriche. Oggi, mi sento come se potessi capirli tutti, come se potessi vedere le connessioni tra di essi che non avevo mai visto prima.\n\nDevo essere stato illuminato dal [artifact.GetName] che ho bevuto prima!"
+  agot_filler_dragon.0070.a:0 "Il mondo è più chiaro per me ora!"
+  agot_filler_dragon.0071.t:0 "Saggio di Danno"
+  agot_filler_dragon.0071.desc:0 "Mi sveglio nel cuore della notte, il mio corpo tormentato dal dolore. Mi giro e vedo il sangue macchiare le lenzuola. Come è successo?! È come se la mia pelle si fosse...aperta.\n\nPotrebbe essere l'effetto del [artifact.GetName] che ho bevuto?"
+  agot_filler_dragon.0071.a:0 "Ho bisogno di un guaritore!"
+  agot_filler_dragon.0072.t:0 "Saggio di Diagnosi"
+  agot_filler_dragon.0072.desc.bad:0 "Mi sveglio nel cuore della notte, il mio corpo tormentato dal dolore. Sento come se stessi bruciando, il calore dentro di me che fa sudare il mio corpo. Sento il cuore battere veloce, e il respiro che viene a scatti.\n\nTemo brevemente un avvelenamento ma so che il mio cibo è stato testato ieri. Potrebbe essere l'effetto del [artifact.GetName] che ho bevuto prima?"
+  agot_filler_dragon.0072.desc.good:0 "Mi sveglio prima del solito, sentendomi rinvigorito e pronto ad affrontare la giornata. Mi sento come se potessi correre un miglio — come se fossi nella migliore forma della mia vita!\n\nSebbene la causa di questo improvviso scatto di energia sia sconosciuta, non posso fare a meno di chiedermi se sia l'effetto del [artifact.GetName] che ho bevuto?"
+  agot_filler_dragon.0072.a:0 "Oh, il dolore!"
+  agot_filler_dragon.0072.b:0 "Che effetto fantastico!"
+  agot_filler_dragon.0073.t:0 "Assaggio dei sogni"
+  agot_filler_dragon.0073.desc.bad:0 "Resto a letto, la mente in subbuglio tra pensieri e immagini. Addormentato ma sveglio, bloccato in posizione dalle visioni che danzano davanti ai miei occhi. Bloccato nel mio corpo, vedo le mie ossa essere estratte dagli arti ancora sensibili. Il mio sangue, drenato in una ciotola da qualche demone insensibile. Sento il dolore, eppure non posso muovermi, non posso urlare, non posso fare altro che guardare!\n\nAlla fine, mi siedo a letto, il sudore freddo che copre il mio cuore pulsante. Non erano sogni normali. Erano quasi come se... è questo l'effetto del [artifact.GetName]?"
+  agot_filler_dragon.0073.desc.good:0 "Resto a letto, la mente in subbuglio tra pensieri e immagini. Addormentato ma sveglio, bloccato in posizione dalle visioni che danzano davanti ai miei occhi. Cieli calmi di blu, nero e viola. Il mondo sotto di me, un arazzo di verde e marrone. Sento il vento sulla mia faccia e il sole sulla mia schiena. Allargo le mie ali e volo, libero come un uccello, libero come un drago!\n\nAlla fine, mi siedo a letto, con un sorriso sul volto. Non erano sogni normali. Erano quasi come se... è questo l'effetto del [artifact.GetName]?"
+  agot_filler_dragon.0073.a:0 "Che incubo!"
+  agot_filler_dragon.0073.b:0 "Che sogno fantastico!"
+  agot_filler_dragon.0074.t:0 "Assaggio di morte"
+  agot_filler_dragon.0074.desc:0 "Mentre mi dirigo verso la sala del consiglio, sento il sudore scendere dalla mia fronte. Il cuore mi batte forte e posso sentire il sangue pulsare nelle orecchie. È l'effetto del [artifact.GetName] che ho bevuto questa mattina?\n\nSono costretto a fermarmi e appoggiarmi al muro, sperando di riprendere fiato, ma il calore che sento dentro il mio corpo non diminuisce. Il dolore si diffonde nel petto e penso di sentire un sibilo. Vengo costretto in ginocchio mentre il personale preoccupato accorre al mio fianco.\n\nIl dolore, come non ho mai provato, mi travolge, cancellando ogni pensiero e strappandomi un urlo dal petto! Guardando in basso, vedo le mie vene gonfiarsi, diventare nere e arancioni. Come fuoco! Sento il calore, salire, strappando attraverso di me e lacerando la mia pelle e la mia carne!"
+  agot_filler_dragon.0074.a:0 "#bold AGHHHHH!#!"
+  agot_filler_dragon.0074.a.f:0 "Le tue urla di agonia sono l'ultima cosa che senti prima che pezzi bruciati di te vengano sparsi nella stanza."
+
+
+  ################################
+  # WALK YOUR DRAGON (0075-0080) #
+  ################################
+
+  # 0076 - Take your dragon for a walk
+  agot_filler_dragon.0076.t:0 "Come camminare con il drago"
+  agot_filler_dragon.0076.desc:0 "Oggi è una giornata sorprendentemente bella, e un'idea ispirata ha fornito un'opportunità per goderne. Ho deciso di portare a passeggio [pet_dragon.GetName]! Il guidatore mi ha guardato stranamente quando ho preso il comando, ma almeno è stato abbastanza sottile da non sbirciare. Apparentemente, una tale civiltà è al di fuori della capacità dei piccoli nobili.\n\nQuando arriviamo nella piazza del mercato, tutti smettono completamente di fare shopping! Nessun frammento di decenza! Cosa stanno facendo a guardarci? È come se... stessero aspettando qualcosa? Oh! Stanno aspettando un trucco! Ne ho proprio uno in mente \"[pet_dragon.GetNameNoTooltip]...\""
+  agot_filler_dragon.0076.injury_warning:0 "Potresti subire delle lesioni"
+  agot_filler_dragon.0076.a:0 "\"Seduto.\""
+  agot_filler_dragon.0076.b:0 "\"Dammi la zampa.\""
+  agot_filler_dragon.0076.c:0 "\"Fai una capriola!\""
+  agot_filler_dragon.0076.d:0 "#N \"BRUCIA\"#!"
+  agot_filler_dragon.0076.d.tt:0 "#X I piccoli nobili non saranno felici del tuo massacro#!"
+  agot_filler_dragon.0076.d.tt.vassals_warning:0 "#X I tuoi vassalli potrebbero o meno gradire questo a seconda delle loro caratteristiche#!"
+  agot_filler_dragon.0076.d.tt.courtiers_warning:0 "#X I tuoi cortigiani e ospiti potrebbero o meno gradire questo a seconda delle loro caratteristiche#!"
+  agot_filler_dragon.0076.e:0 "\"Andiamo via!\""
+  agot_filler_dragon.0076.success:0 "Successo!"
+  agot_filler_dragon.0076.success.sit:0 "[pet_dragon.GetNameNoTooltip] si siede al tuo comando"
+  agot_filler_dragon.0076.success.sat:0 "[pet_dragon.GetName] si è seduto, come il buon [pet_dragon.Custom('DragonGirlBoy')]"
+  agot_filler_dragon.0076.success.shake:0 "[pet_dragon.GetNameNoTooltip] dà la zampa al tuo comando"
+  agot_filler_dragon.0076.success.shook:0 "[pet_dragon.GetName] ha dato la zampa, come il buon [pet_dragon.Custom('DragonGirlBoy')] "
+  agot_filler_dragon.0076.success.flip_past:0 "Tu e [pet_dragon.GetNameNoTooltip] avete successo nella vostra capriola"
+  agot_filler_dragon.0076.success.flip:0 "Tu e [pet_dragon.GetName] avete fatto una capriola! È stata molto impressionante!"
+  agot_filler_dragon.0076.failure:0 "Fallimento!"
+  agot_filler_dragon.0076.failure.sit:0 "[pet_dragon.GetNameNoTooltip] non si siede al tuo comando"
+  agot_filler_dragon.0076.failure.sat:0 "[pet_dragon.GetName] non si è seduto al tuo comando. Cattivo drago!"
+  agot_filler_dragon.0076.failure.shake:0 "[pet_dragon.GetNameNoTooltip] non dà la zampa al tuo comando"
+  agot_filler_dragon.0076.failure.shook:0 "[pet_dragon.GetName] non ha dato la zampa al tuo comando. Cattivo drago!"
+  agot_filler_dragon.0076.failure.flip_past:0 "Tu e [pet_dragon.GetNameNoTooltip] fallite la vostra capriola"
+  agot_filler_dragon.0076.failure.flip:0 "Tu e [pet_dragon.GetName] avete fallito la capriola, apparendo goffi piuttosto che impressionanti."
+
+
+  ########################################
+  # KNIGHT & MERCHANT EVENTS (0081-0087) #
+  ########################################
+  # A knight wants to fight your dragon
+  agot_filler_dragon.0082.t:0 "Il Coraggio Spesso Porta a..."
+  agot_filler_dragon.0082.desc:0 "Oggi è entrato nella mia sala un [brave_knight.GetWomanMan] estremamente strano, non tanto per il suo aspetto quanto per le sue parole. Egli afferma di essere un cavaliere, anche se nessuno dei miei cortigiani ha mai sentito parlare di lui. Nonostante ciò, l'assurdità della sua richiesta ha fatto sì che venisse direttamente a me.\n\n\"Per favore, grande [ROOT.Char.GetTitledFirstName], ti prego, permettimi di combattere il tuo drago! Sono un cavaliere e devo dimostrare il mio coraggio a tutto il regno!\" le sue parole risuonano sinceramente nella stanza e posso vedere il fuoco nei suoi occhi.\n\nDevo ammettere che sono curioso di vedere come andrà a finire, ma sicuramente questo... [brave_knight.GetName] è pazzo?"
+  agot_filler_dragon.0082.a:0 "Se è il tuo desiderio, allora sia fatto."
+  agot_filler_dragon.0082.a.f:0 "Permetterai a [brave_knight.GetFirstNameNoTooltip] di combattere contro [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0082.a.tt_1:0 "[brave_knight.GetNameNoTooltip] morirà quasi sicuramente."
+  agot_filler_dragon.0082.a.tt_2:0 "[dragon.GetNameNoTooltip] non è completamente al sicuro dal danno, però..."
+  agot_filler_dragon.0082.b:0 "Non permetterò questa follia."
+  agot_filler_dragon.0082.b.f:0 "Rifiuterai la richiesta di [brave_knight.GetFirstNamePossessiveNoTooltip]."
+  # Drago vinto
+  agot_filler_dragon.0084.t:0 "Spesso Porta alla Stupidità"
+  agot_filler_dragon.0084.desc:0 "Il duello è stato breve quanto idiota. [brave_knight.GetFirstName] è caricato contro [dragon.GetFirstName], la voce che riecheggia nella sala, e è stato prontamente "
+  agot_filler_dragon.0084.desc.burned:0 "incenerito dalle fiamme di [dragon.GetFirstNamePossessiveNoTooltip]."
+  agot_filler_dragon.0084.desc.eaten:0 "consumato mentre [dragon.GetFirstNamePossessiveNoTooltip] chiudeva su [brave_knight.GetHerHim]."
+  agot_filler_dragon.0084.desc.crushed:0 "schiacciato dalle artigli di [dragon.GetFirstNamePossessiveNoTooltip]."
+  agot_filler_dragon.0084.desc_end:0 "\n\nLa sala è rimasta in silenzio per un momento, prima che la corte esplodesse in risate nervose miste a gemiti di orrore. Anche se non posso fare a meno di sentire un po' di dispiacere per [brave_knight.GetFirstNameNoTooltip], questo era un tentativo insensato fin dall'inizio."
+  agot_filler_dragon.0084.a:0 "Beh, era prevedibile."
+  agot_filler_dragon.0084.a.f:0 "La storia della morte di [brave_knight.GetFirstNamePossessiveNoTooltip] si diffonde rapidamente per il regno."
+  # Drago perso
+  agot_filler_dragon.0085.t:0 "Spesso Porta alla Gloria"
+  agot_filler_dragon.0085.desc:0 "Non dimenticherò mai quei momenti successivi finché vivrò. [brave_knight.GetFirstName] ha caricato contro [dragon.GetFirstName], la voce che riecheggia nella sala, #italic schivando#! sotto il getto di fiamme che avrebbe dovuto essere la sua rovina. Con un colpo possente, [brave_knight.GetFirstNameNoTooltip] ha colpito [dragon.GetFirstNameNoTooltip] al collo, di nuovo tuffandosi per evitare che il suo grande corpo schiacciasse [brave_knight.GetFirstNamePossessiveNoTooltip].\n\nCiò che è accaduto dopo è un turbinio di movimento, i due bloccati nella danza della morte. Ciò che è chiaro però, è quell'immagine finale di [brave_knight.GetFirstNameNoTooltip] in piedi sulla pancia di [dragon.GetFirstNameNoTooltip], spada conficcata nel suo petto, una folla sbalordita che esplode in applausi e ovazioni.\n\n[brave_knight.GetFirstNameNoTooltip] ha, contro ogni previsione, #italic vinto#!."
+  agot_filler_dragon.0085.a:0 "Un cavaliere come te deve restare con me!"
+  agot_filler_dragon.0085.a.f:0 "Offrirai a [brave_knight.GetFirstNameNoTooltip] un posto nella tua corte."
+  agot_filler_dragon.0085.b:0 "#EMP Come osi! Esci dalla mia vista!#!"
+  agot_filler_dragon.0085.b.f:0 "Mandate via [brave_knight.GetFirstNameNoTooltip], rifiutando di riconoscere la sua vittoria e traboccante di rabbia e rimpianto."
+  agot_filler_dragon.0085.c:0 "#X IN GALERA CON TE!#!"
+  agot_filler_dragon.0085.c.f:0 "Hai fatto gettare [brave_knight.GetFirstNameNoTooltip] in prigione per aver osato uccidere il tuo drago [dragon.GetFirstNameNoTooltip]."
+
+  # Un mercante vuole comprare un volo sul tuo drago
+  agot_filler_dragon.0087.t:0 "Volo in Prima Classe"
+  agot_filler_dragon.0087.desc:0 "Sembra che oggi sia una delle mie giornate più interessanti. Un ricco mercante locale, [merchant_petitioner.GetFirstName], è venuto da me con una richiesta molto insolita. [merchant_petitioner.GetSheHe|U] desidera acquistare un volo su [dragon.GetFirstName], e [merchant_petitioner.GetSheHe] è disposto a pagare una somma considerevole per il privilegio!\n\nAnche se l'offerta non è priva di fascino, l'idea di vendere un volo su [dragon.GetFirstNameNoTooltip] sembra...#italic sgradevole#!. Dalla reazione della corte quando [merchant_petitioner.GetSheHe] ha espresso l'offerta, sembra che sfiori l'insulto."
+  agot_filler_dragon.0087.a:0 "Oh, perché no?"
+  agot_filler_dragon.0087.a.f:0 "Permetterai a [merchant_petitioner.GetFirstNameNoTooltip] di acquistare un volo su [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0087.b:0 "Non venderò i servizi del mio drago."
+  agot_filler_dragon.0087.b.f:0 "Rifiuterai l'offerta di [merchant_petitioner.GetFirstNamePossessiveNoTooltip]."
+  agot_filler_dragon.0087.c:0 "Certamente puoi! #italic Ti porterò io stesso...#!"
+  agot_filler_dragon.0087.c.f:0 "Farai in modo che il volo di [merchant_petitioner.GetFirstNamePossessiveNoTooltip] sia un ricordo che [merchant_petitioner.GetSheHe] non dimenticherà mai..."
+
+
+  ########################################
+  # LORD'S FILLER            (0088-0089) #
+  ########################################
+  agot_filler_dragon.0089.t:0 "Bestie Fierce e Paure Bestiali"
+  agot_filler_dragon.0089.desc:0 "Quando è stata l'ultima volta che non mi sono svegliato con un nodo allo stomaco o che non ho sussultato all'angolo di un corridoio? È difficile per me saperlo. La paura è diventata la mia amante, e trascorro più tempo tra le sue braccia che"
+  agot_filler_dragon.0089.desc_spouse:0 "in quelle di mia moglie/mio marito."
+  agot_filler_dragon.0089.desc_no_spouse:0 "in quelle di chiunque altro."
+  agot_filler_dragon.0089.desc_cont:0 "Ma non può continuare così. Ho un drago, la creatura più pericolosa e potente del mondo; non posso continuare ad essere un codardo per tutta la vita.\n\nEcco perché sono qui, di fronte a [dragon.GetName]. [dragon.Custom('GetDragonSheHe')|U] mi terrorizza, io che sono il suo cavaliere. Devo imparare a domare la mia paura, proprio come ho domato [dragon.GetFirstNameNoTooltip].\n\nI nostri sguardi si incrociano con una rara intensità. Sento il suo respiro. Posso sentire il suo battito del cuore, pulsante. O è il mio? Devo..."
+  agot_filler_dragon.0089.stress.t:0 "La Paura Ti Sovrasta"
+  agot_filler_dragon.0089.a:0 "...Respira profondamente."
+  agot_filler_dragon.0089.a.f:0 "Combattere la paura è combattere soprattutto. Inspirare, espirare è come alternare attacco e difesa in un duello."
+  agot_filler_dragon.0089.b:0 "...Mantieni il controllo del mio corpo."
+  agot_filler_dragon.0089.b.f:0 "La paura è della mente, ma gli effetti sono del corpo. Controllare il corpo significa controllare la paura."
+  agot_filler_dragon.0089.c:0 "...Lasciati attraversare dalla paura."
+  agot_filler_dragon.0089.c.f:0 "La paura è l'assassina della mente. La paura è la piccola morte che porta alla totale obliterazione. Affronterò la mia paura. Permetterò che mi attraversi e mi oltrepassi. E quando sarà passata, girerò l'occhio interiore per vedere il suo percorso. Dove è passata la paura non ci sarà nulla. Solo io rimarrò."
+  agot_filler_dragon.0089.d:0 "...Superati, maledizione!"
+  agot_filler_dragon.0089.d.f:0 "Sono un cavaliere dei draghi! Ho affrontato cose peggiori di questa. Non lascerò che la paura mi controlli!"
+  agot_filler_dragon.0089.e:0 "...Concentrati sul fuoco."
+  agot_filler_dragon.0089.e.f:0 "Così feroce, così potente. È una fonte di luce, di vita. È una fonte di potere e coraggio."
+  agot_filler_dragon.0089.f:0 "...Pensa a ciò che potrei ottenere."
+  agot_filler_dragon.0089.f.f:0 "Lasciando andare la mia paura, potrei salire così in alto con una creatura del genere."
+  agot_filler_dragon.0089.g:0 "...Aspetta, e passerà."
+  agot_filler_dragon.0089.g.f:0 "Non importa quanto tempo ci vorrà, in presenza di questa creatura, la paura alla fine si consumerà come un rametto nel fuoco."
+  agot_filler_dragon.0089.h:0 "...Vattene. È stato un errore."
+
+  # Il cavaliere dei draghi eccentrico o pazzo diventa ossessionato dal fuoco
+  agot_filler_dragon.0091.t:0 "Fuoco e... Fuoco"
+  agot_filler_dragon.0091.desc:0 "Negli ultimi giorni, ho dormito meno del solito. Quando chiudo gli occhi, vedo ancora [dragon.Custom('GetDragonSheHe')] chiaramente. Distinto come un fuoco nel buio, come un faro nella notte. Vedo [dragon.Custom('GetDragonSheHe')], [dragon.GetName].\n\nCon gli occhi svegli, vedo la ruota di fuoco. La pupilla che mi fissa.\n\nNon ricordo il sapore del cibo. I miei sogni sono di fiamme, i miei ricordi di brace.\n\nLe fiamme si agitano tutto intorno a me..."
+  agot_filler_dragon.0091.a:0 "Sono così belle..."
+  agot_filler_dragon.0091.b:0 "Sono così spaventose..."
+
+
+  ##################################
+  # CHILD RIDES EVENTS (0092-0094) #
+  ##################################
+  # Your child wants to ride your dragon
+  agot_filler_dragon.0093.t:0 "Prendere le Redini"
+  agot_filler_dragon.0093.desc_father:0 ""Ma Paaaadre!" [child.GetFirstName] "
+  agot_filler_dragon.0093.desc_mother:0 ""Ma Madreeee!" [child.GetFirstName] "
+  agot_filler_dragon.0093.desc_bossy:0 "esige "Devo assolutamente #emp montare #! [dragon.GetFirstName]! Sono sangue del tuo sangue, sicuramente [dragon.Custom('GetDragonSheHe')] non mi farà del male!"\n\nVedo il fuoco negli occhi di [child.GetFirstNamePossessiveNoTooltip], la determinazione nella sua postura. [child.GetFirstNameNoTooltip] non accetterà un rifiuto.\n\n"
+  agot_filler_dragon.0093.desc_charming:0 "implora "Sono stato così buono! Non mi lamenterò nemmeno per tutta la settimana se mi lasci montare [dragon.GetFirstName]! Per favore, oh per favorepleasepleaseplease!" quella voce così dolce mi fa venire voglia di piegarmi alla sua volontà. "Potrei doverne montare uno io stesso un giorno, comunque" aggiunge [child.GetFirstNameNoTooltip].\n\n"
+  agot_filler_dragon.0093.desc_curious:0 "chiede "Devo semplicemente sapere com'è cavalcare [dragon.GetFirstName]? Ho sentito così tante storie, e voglio vederlo con i miei occhi!" [child.GetFirstNameNoTooltip] mi guarda con quegli occhi grandi, pieni di curiosità e meraviglia. So che [child.GetFirstNameNoTooltip] non è uno che si arrende quando ha una domanda.\n\n"
+  agot_filler_dragon.0093.desc_pensive:0 "mormora "Ho pensato a lungo, e credo che cavalcare [dragon.GetFirstName] sarebbe una buona esperienza per me. Potrei imparare così tanto." [child.GetFirstNameNoTooltip] mi guarda con quegli occhi riflessivi, pieni di saggezza e maturità. [child.GetFirstNameNoTooltip] ha un piano, e vuole portarlo a termine.\n\n"
+  agot_filler_dragon.0093.desc_rowdy:0 "grida "Voglio cavalcare [dragon.GetFirstName]! Voglio cavalcare [dragon.GetFirstNameNoTooltip]! Voglio cavalcare [dragon.GetFirstNameNoTooltip]!"\n\n[child.GetFirstNameNoTooltip] salta su e giù, così pieno di energia ed entusiasmo. A questo ritmo, [child.GetFirstNameNoTooltip] potrebbe farsi male prima ancora che [dragon.GetFirstNameNoTooltip] abbia la possibilità di intervenire!\n\n"
+  agot_filler_dragon.0093.desc_end:0 "Tuttavia, è una proposta pericolosa. [dragon.GetFirstNameNoTooltip] è una creatura potente e pericolosa, e anche se io sono in sella, non si può mai sapere come un drago reagirà a nuovi cavalieri. Devo decidere..."
+  agot_filler_dragon.0093.a:0 "Mi dispiace [child.GetFirstNameNoTooltip], ma no."
+  agot_filler_dragon.0093.a.f:0 "Rifiuterai la richiesta di [child.GetFirstNameNoTooltip] di cavalcare [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0093.a.cowardly:0 "[child.GetFirstNameNoTooltip] impara la saggezza nella codardia"
+  agot_filler_dragon.0093.a.not:0 "[child.GetFirstNameNoTooltip] si farà una ragione"
+  agot_filler_dragon.0093.b:0 "Va bene, facciamolo!"
+  agot_filler_dragon.0093.b.f:0 "Tu e [child.GetFirstNameNoTooltip] cavalcherete insieme [dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0093.b.good:0 "[child.GetFirstNameNoTooltip] è soddisfatto della tua risposta"
+  agot_filler_dragon.0093.b.love:0 "[child.GetSheHe|U] ha adorato l'emozione"
+  agot_filler_dragon.0093.b.indifferent:0 "[child.GetSheHe|U] ha passato un buon momento"
+  agot_filler_dragon.0093.b.hate:0 "[child.GetSheHe|U] non ha gradito l'esperienza"
+  agot_filler_dragon.0093.b.bad:0 "Una raffica di vento improvvisa fa cadere [child.GetFirstNameNoTooltip] da [dragon.GetFirstNameNoTooltip]"
+  agot_filler_dragon.0093.b_trait:0 "Cosa sto dicendo, [dragon.GetFirstNameNoTooltip] non farebbe mai del male a [child.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0093.c:0 "Ma certo! Guardie! Portate 'Il Terrore Rosa'!"
+  agot_filler_dragon.0093.c.f:0 "Presenterai a [child.GetFirstNameNoTooltip] un grosso maiale da cavalcare al suo posto!"
+
+  # Il bambino è riuscito a scappare e a cavalcare il drago!
+  agot_filler_dragon.0094.t:0 "Prendere il Volo"
+  agot_filler_dragon.0094.desc_alive:0 "Non posso credere a ciò che sto vedendo! Sono stato trascinato fuori dai miei alloggi incredulo, e infatti vedo chiaramente la silhouette di [child.GetFirstName] sopra [dragon.GetFirstName] contro il cielo notturno! Non solo sopra, ma in sella!\n\nDopo alcuni giri e picchiate, [child.GetFirstNameNoTooltip] e [dragon.GetFirstNameNoTooltip] ci vedono e atterrano nel cortile. [child.GetFirstNameNoTooltip] è raggiante mentre scivola giù da [dragon.GetFirstNameNoTooltip]. \"L'hai visto?!\" esclama [child.GetFirstNameNoTooltip]. Non so se dovrei essere arrabbiato o orgoglioso di questo coraggioso [child.Custom('GirlBoy')]."
+  agot_filler_dragon.0094.desc_dead:0 "Non posso credere a ciò che sto vedendo. Sono stato trascinato fuori dai miei alloggi incredulo, e infatti vedo chiaramente la silhouette di [child.GetFirstName] sopra [dragon.GetFirstName] contro il cielo notturno! Non erano pronti per questo, la sella!...\n\nNon appena lo penso, lo vedo con i miei stessi occhi. Come in un incubo ad occhi aperti, guardo mentre [child.GetFirstNameNoTooltip] perde la presa e cade. Giù, giù, giù. È così lontano che non riesco nemmeno a sentire l'urlo.\n\nPer fortuna, non sento nemmeno l'impatto."
+  agot_filler_dragon.0094.a:0 "Non posso credere che tu abbia fatto questo!"
+  agot_filler_dragon.0094.a.f:0 "Sgridarai [child.GetFirstNameNoTooltip] per essere uscito di nascosto a cavalcare [dragon.GetFirstNameNoTooltip]. Dentro di te, però, non puoi fare a meno di sentirti un po' orgoglioso."
+  agot_filler_dragon.0094.b:0 "Il mio mondo! Come hai potuto fare questo a te stesso?!"
+  agot_filler_dragon.0094.b.f:0 "Ti precipiti verso il corpo di [child.GetFirstNameNoTooltip] e non ricordi quanto a lungo hai tenuto il suo corpo senza vita."
+  agot_filler_dragon.0094.c:0 "Che spreco di [dragon.GetFirstNameNoTooltip]!"
+  agot_filler_dragon.0094.c.f:0 "Verifichi che il tuo bene [dragon.GetFirstNameNoTooltip] non sia stato danneggiato dalle attività di stasera, e poi rivolgi la tua attenzione alla disposizione del corpo di [child.GetFirstNamePossessiveNoTooltip]."
+
+  ##################################
+  # WILD DRAGON EVENTS (0095-0100) #
+  ##################################
+  agot_filler_dragon.0096.t:0 "[wild_dragon.GetFirstNameNoTooltip]: Attacchi alla Popolazione"
+  agot_filler_dragon.0096.desc:0 "Le notizie provenienti da [wild_dragon_location.GetName] sono sconfortanti. Dicono che [wild_dragon.GetName] abbia attaccato un gruppo di contadini in viaggio attraverso la zona. I sopravvissuti raccontano di una grande bestia che è scesa dal cielo, sputando fuoco e strappando le persone con le sue fauci.\n\nLa popolazione è terrorizzata e, oltre a questo, è arrabbiata per la mancanza di protezione."
+  agot_filler_dragon.0096.a:0 "Posso almeno pagare per i funerali."
+  agot_filler_dragon.0096.a.f:0 "Pagherai i funerali dei contadini uccisi da [wild_dragon.GetName]."
+  agot_filler_dragon.0096.b:0 "Sembra terribile!"
+  agot_filler_dragon.0096.b.asshole:0 "Questo sembra un problema per i contadini, non per me."
+
+  agot_filler_dragon.0097.t:0 "[wild_dragon.GetFirstNameNoTooltip]: Attacchi al Bestiame"
+  agot_filler_dragon.0097.desc:0 "Le città intorno a [wild_dragon_location.GetName] sono in subbuglio.\n\nSi dice che [wild_dragon.GetName] abbia attaccato il bestiame della zona, scendendo dal cielo e portando via mucche, pecore e un cavallo.\n\nGli agricoltori sono in preda al panico e l'economia locale sta soffrendo."
+  agot_filler_dragon.0097.a:0 "Con una gestione oculata, possiamo riprenderci."
+  agot_filler_dragon.0097.a.f:0 "Il tuo intervento aiuterà l'economia locale a riprendersi dagli attacchi di [wild_dragon.GetNameNoTooltip]."
+  agot_filler_dragon.0097.b:0 "Non il bestiame!"
+
+  agot_filler_dragon.0098.t:0 "[wild_dragon.GetFirstNameNoTooltip]: Attacchi ai Raccolti"
+  agot_filler_dragon.0098.desc:0 "I campi intorno a [wild_dragon_location.GetName] sono in rovina! Mi dicono che [wild_dragon.GetName] abbia, per motivi sconosciuti, bruciato i campi di raccolti e distrutto il mezzo di sostentamento degli agricoltori locali.\n\nQueste persone stanno già lottando per arrivare a fine mese, e ora devono affrontare anche questo! Senza intervento, la popolazione dell'area starà sicuramente morendo di fame."
+  agot_filler_dragon.0098.a:0 "Darò loro ciò di cui hanno bisogno per riprendersi."
+  agot_filler_dragon.0098.a.f:0 "Pagherai per il rifacimento dei campi e il recupero dagli attacchi di [wild_dragon.GetFirstNameNoTooltip]."
+  agot_filler_dragon.0098.b:0 "Non c'è semplicemente cibo da risparmiare."
+
+  agot_filler_dragon.0099.t:0 "[wild_dragon.GetFirstNameNoTooltip]: Attacchi alle Nostre Strutture"
+  agot_filler_dragon.0099.desc:0 "In una spettacolare dimostrazione di forza, [wild_dragon.GetName] ha attaccato i possedimenti di [target_barony.GetName]. Mi dicono che la bestia sia scesa dal cielo, sputando fuoco e distruggendo uno degli edifici della zona.\n\nCi vorrà tempo e risorse per ricostruire, e la gente è terrorizzata che [wild_dragon.GetNameNoTooltip] possa tornare."
+  agot_filler_dragon.0099.a:0 "Nessuno può liberarmi da questa bestia odiosa?"
+
+  agot_filler_dragon.0100.t:0 "[wild_dragon.GetFirstNameNoTooltip]: Attacchi alla Corte"
+  agot_filler_dragon.0100.desc:0 "Terribili notizie scuotono la corte oggi, poiché mi dicono che [dead_courtier.GetFirstName] è stato ucciso da [wild_dragon.GetName] mentre viaggiava attraverso [wild_dragon_location.GetName] durante i suoi doveri.\n\nLa corte è in subbuglio e la sua famiglia è devastata."
+  agot_filler_dragon.0100.a:0 "Questo deve finire!"
+
+  # Ammirare un cavaliere drago della corte #
+  agot_filler_dragon.0102.t:0 "Una Storia di Passione"
+  agot_filler_dragon.0102.desc:0 "Sto passeggiando per i giardini quando una grande ombra passa sopra di me. Alzo lo sguardo e vedo [dragonrider_in_court.GetFirstName] in sella a [dragon_of_courtier.GetFirstName], i due che volano attraverso il cielo. Il vento tra i suoi capelli, il sole sul suo volto, la potenza della bestia sotto di [dragonrider_in_court.GetHerHim].\n\nLa forza, la grazia, la bellezza, e tutto sotto il suo comando. Non posso fare a meno di provare una forte emozione mentre guardo [dragonrider_in_court.GetHerHim] volare!"
+  agot_filler_dragon.0102.a:0 "Forse anche altre cose potrebbero essere sotto [dragonrider_in_court.GetHerHim]..."
+  agot_filler_dragon.0102.b:0 "Che fortunato/a [ROOT.Char.GetWomanMan] sono!"
+  agot_filler_dragon.0102.c:0 "È solo una fantasia passeggera, nient'altro."
+
+  # Cavaliere drago prigioniero #
+  agot_filler_dragon.0104.t:0 "Un Legame Più Forte delle Catene"
+  agot_filler_dragon.0104.desc:0 "Da quanto tempo sono qui? Giorni? Mesi? Perdo gradualmente il senso del tempo, ma una cosa rimane nonostante tutto: il mio legame con [dragon.GetName].\n\nAnche qui, anche rinchiuso tra queste mura, privato della sensazione del vento sul mio volto, sento qualcosa. Qualcosa di profondo dentro di me. Anche se siamo separati, sento [dragon.GetFirstNameNoTooltip] così vicino.\n\nIn questo momento, il pensiero di nessun altro mi dà un tale senso di sicurezza e conforto. È come se [dragon.Custom('GetDragonSheHe')] fosse qui — come se potessi allungare la mano e toccare le sue squame sotto le mie dita..."
+  agot_filler_dragon.0104.a:0 "Ti vedo, [dragon.GetFirstNameNoTooltip]..."
+  agot_filler_dragon.0104.a.f:0 "Il legame con il tuo drago ti dà sollievo in questo momento buio."
+  agot_filler_dragon.0104.b:0 "Se solo fossi qui, sarei libero!"
+  agot_filler_dragon.0104.b.f:0 "Il tuo ardente desiderio di fuga ti riempie di visioni di fiamme e libertà."
+  agot_filler_dragon.0104.c:0 "Non ho molto tempo... Oh, [dragon.GetFirstNameNoTooltip], devo rivederti!"
+  agot_filler_dragon.0104.c.f:0 "Senti una rinnovata forza, trovando dentro di te la forza per rivedere [dragon.GetFirstNameNoTooltip]."

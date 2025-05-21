@@ -1,0 +1,94 @@
+﻿l_spanish:
+  become_paramours_interaction:0 "Diventa Amanti"
+  become_paramours_interaction_desc:0 "Prendi ufficialmente [recipient.GetShortUINameNoTooltip] come amante."
+
+  mark_as_captive_interaction:0 "Contrassegna come Prigioniero"
+  mark_as_captive_interaction_desc:0 "Contrassegna come prigioniero per interrompere tutti i matrimoni e le concubinage, e aggiungilo alla tua corte durante una Guerra per liberare i prigionieri."
+
+  unmark_as_captive_interaction:0 "Annulla Contrassegna Prigioniero"
+  unmark_as_captive_interaction_desc:0 "Annulla il contrassegno come prigioniero per interrompere tutti i matrimoni e le concubinage, e aggiungilo alla tua corte durante una Guerra per liberare i prigionieri."
+
+  mark_for_freedom_interaction:0 "Contrassegna per la Libertà"
+  mark_for_freedom_interaction_desc:0 "Contrassegna per il rilascio dalla prigione. Questo ti permette di dichiarare una 'Guerra per liberare i prigionieri' contro il suo carceriere."
+
+  unmark_for_freedom_interaction:0 "Annulla Contrassegna per la Libertà"
+  unmark_for_freedom_interaction_desc:0 "Annulla per il rilascio dalla prigione durante una Guerra per liberare i prigionieri."
+
+  marked_release_from_prison.title:0 "Prigioniero Rilasciato"
+  marked_release_from_prison.desc:0 "Un prigioniero che avevi contrassegnato per la libertà, [marked.GetTitledFirstName], è stato rilasciato."
+
+  impart_values_interaction:0 "Impartisci Valori"
+  impart_values_interaction_desc:0 "Tenta di impressionare su [recipient.GetShortUINameNoTooltip] una lezione di vita."
+
+  legitimize_bastard_liege_interaction:0 "Richiedi la Legittimazione del Bastardo"
+  legitimize_bastard_liege_interaction_extra_icon:0 "$hook_extra_icon$"
+  legitimize_bastard_liege_interaction_desc:0 "Richiedi che il sovrano in carica legittimi il tuo bastardo."
+  recipient_secondary_legitimize_bastard_liege_interaction:0 "Bastardo"
+
+  agot_goad_interaction:0 "Provocazione"
+  agot_goad_interaction_desc:0 "Cerchi di provocare questa persona, se avrai successo diventerà meno razionale e più propenso a cercare una rissa. Sta attento a non essere tu dall'altra parte della sua ira..."
+  goad.success_title:0 "Provocazione Riuscita"
+  goad.failure_title:0 "Provocazione Fallita..."
+
+  recall_wanderer_interaction:0 "Richiama Errante"
+  recall_wanderer_interaction_desc:0 "Riporta il membro della tua casata che è lontano da casa."
+
+  demand_trial_by_combat_interaction:0 "Richiedi un Processo per Mezzo del Combattimento"
+  demand_trial_by_combat_interaction_desc:0 "Richiedi un processo per mezzo del combattimento per provare la tua innocenza agli occhi degli dèi e degli uomini."
+  demand_trial_by_combat_duel:0 "Avrete entrambi la possibilità di scegliere campioni che lotteranno per voi per provare o confutare la sua colpevolezza."
+
+  sent_to_silent_sisterhood_interaction:0 "Invio alle Sorelle Silenti"
+  sent_to_silent_sisterhood_interaction_desc:0 "Invia [recipient.GetShortUINameNoTooltip] a pronunciare i voti del silenzio e unirsi alle sorelle."
+
+  reveal_royal_bastardry_interaction:0 "Rivela Bastardaggine Reale"
+  reveal_royal_bastardry_interaction_desc:0 "Considererai se dovresti rivelare l'ascendenza di [recipient.GetShortUINameNoTooltip]."
+
+  set_signature_weapon_interaction:0 "Imposta Arma Distintiva"
+  set_signature_weapon_interaction_desc:0 "Scegli la tua arma predefinita per le animazioni del ritratto"
+  set_signature_weapon_swordshield_person:0 "Spada e Scudo"
+  set_signature_weapon_maceshield_person:0 "Mazza e Scudo"
+  set_signature_weapon_spearshield_person:0 "Lancia e Scudo"
+  set_signature_weapon_sword_person:0 "Spada"
+  set_signature_weapon_axe_person:0 "Ascia"
+  set_signature_weapon_spear_person:0 "Lancia"
+  set_signature_weapon_mace_person:0 "Mazza"
+  set_signature_weapon_hammer_person:0 "Martello"
+
+  agot_char_interaction.0200.opening:1 "[actor.Custom2('AppropriateGreeting', recipient )]"
+  agot_char_interaction.0200.desc:0 "Ti ordino di mandare [secondary_recipient.GetName] alla mia corte immediatamente, affinché diventi il protetto di [secondary_actor.GetName]."
+  agot_char_interaction.0200.a:0 "Capisco."
+  agot_char_interaction.0200.tt:0 "[actor.GetName] ha usato un appiglio contro di te."
+
+  EXECUTION_DRAGON_FED:0 "Dato in Pasto al Drago"
+  EXECUTION_DRAGON_BURN:0 "Bruciato dal Fuoco del Drago"
+  EXECUTION_DRAGON_STOMPED:0 "Calpestato dal Drago"
+  EXECUTION_DRAGON_DROPPED:0 "Gettato dal Dorso del Drago"
+  EXECUTION_MOON_DOOR:0 "Spinto attraverso la Porta della Luna"
+  EXECUTION_BLASPHEMOUS_SACRIFICE:0 "Sacrificato in un Rito Oscuro"
+  EXECUTION_PRISONER_IMPROVE_QUALITY:0 "Perché la tua [faith|e] prevede che l'esecuzione di prigionieri migliori la qualità dei manufatti"
+
+  agot_laamp_legitimist_prestige_or_patron_warning:0 "#warning Per accettare questo [task_contract|E], [recipient.GetShortUIName] deve essere il tuo [contact_list_contact|E] oppure devi avere almeno il livello di [prestige_level|E] [GetPrestigeLevelName('(int32)4')]#!"
+  agot_request_legitimist_support_tt:0 "Potrai negoziare fino a #color_yellow 1800 d'oro#! e #color_yellow 3000 truppe d'élite#!, in cambio di lauti pagamenti a [recipient.GetShortUIName] in seguito."
+
+  agot_sacrifice_child_to_others:0 "Sacrifica il Bambino agli Estranei"
+  agot_sacrifice_child_to_others_desc:0 "Sacrifica [recipient.GetShortUINameNoTooltip] agli Estranei."
+
+  agot_send_food_to_dragon_religious:0 "Invia Cibo al Drago"
+  agot_send_food_to_dragon_religious_desc:0 "I draghi sono divini, perciò è necessario rendere omaggio a [recipient.GetShortUINameNoTooltip]."
+  agot_send_food_to_dragon_religious_dragon_belongs_to_someone:0 "[recipient.GetShortUINameNoTooltip] appartiene già a qualcuno!"
+  agot_send_food_to_dragon_religious_tt:0 "Tenterai di inviare del cibo a [recipient.GetShortUINameNoTooltip]. I seguenti esiti sono possibili:\n$EFFECT_LIST_BULLET$#N Potresti essere ferito o ucciso#! da [recipient.GetShortUINameNoTooltip]!\n$EFFECT_LIST_BULLET$Guadagni #P [EmptyScope.ScriptValue('minor_piety_value')|0]#! pietà.\n$EFFECT_LIST_BULLET$Guadagni #P [EmptyScope.ScriptValue('major_piety_value')|0]#! pietà."
+
+  agot_send_for_faceless_interaction:0 "Manda a Chiamare un Uomo Senza Volto"
+  agot_send_for_faceless_interaction_desc:0 "Gli Uomini Senza Volto di Braavos elimineranno il tuo problema... al giusto prezzo."
+  required_intrigue_faceless.tt:0 "Tu o il tuo [spymaster|E] avete almeno [intrigue_i] 20 in [intrigue|E]"
+  faceless_payed_child_price.tt:0 "Gli Uomini Senza Volto non hanno ancora accettato un [artifact|E] da parte tua"
+
+  action_agot_faceless_interaction:0 "Puoi consultare un Uomo Senza Volto riguardo a [recipient.GetShortUINameNoTooltip]"
+  action_agot_faceless_interaction_label:0 "Manda a Chiamare un Uomo Senza Volto"
+  action_agot_faceless_interaction_desc:0 "Hai una trama omicida contro [recipient.GetShortUIName]. \n\n#help Gli Uomini Senza Volto di Braavos possono occuparsene, se paghi il loro prezzo. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"
+  action_agot_faceless_interaction_click:0 "#I Clicca per aprire la finestra di interazione.\n#!"
+  action_agot_faceless_interaction_combined_label:0 "Consulta un Uomo Senza Volto riguardo a [recipient.GetUIName]."
+  action_agot_faceless_interaction_combined_description:0 "Consulta un Uomo Senza Volto riguardo a [recipient.GetUIName]."
+  action_agot_faceless_interaction_combined_group_label:0 "Manda a Chiamare un Uomo Senza Volto"
+  action_agot_faceless_interaction_combined_group_name:0 "Manda a Chiamare un Uomo Senza Volto"
+  action_agot_faceless_interaction_combined_group_description:0 "Hai una trama omicida contro [recipient.GetShortUIName] e la tua [intrigue|E] è superiore a 19. \n\n#help Gli Uomini Senza Volto di Braavos possono eliminare il tuo bersaglio, se il prezzo è giusto. \n\n[Glossary( 'Valar morghulis.', 'VALAR_MORGHULIS_GLOSS' )] #!"

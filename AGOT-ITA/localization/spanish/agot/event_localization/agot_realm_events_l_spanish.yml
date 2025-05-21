@@ -1,0 +1,67 @@
+﻿l_spanish:
+  agot_realm.1001.t:0 "Una Rivendicazione Storica"
+  agot_realm.1001.desc:0 "[historic_claimant.GetFullName] è il prossimo richiedente del giorno. 'Mio signore, voi avete il [claim_title.GetName] ma la dinastia [dynasty.GetName] lo ha posseduto per molte generazioni. Gli antichi diritti vengono onorati e come discendente di quella antica linea, sarei molto grato se poteste restituire queste terre alla mia Casa. In cambio, giurerò di essere vostro uomo!'"
+  agot_realm.1001.a:0 "Terrai queste terre per me"
+  agot_realm.1001.b:0 "Oggi non avrai nulla, ma sei il benvenuto a condividere il mio pane e sale."
+  agot_realm.1001.c:0 "Chi sei tu per fare richieste?! Gettate questo vagabondo nelle celle!"
+  agot_realm.1001.d:0 "Lasciatemi pensare.... no!"
+
+    
+  ############################
+  #       The Teats          #
+  #       Badger             #
+  #       0020               #
+  ############################
+
+  agot_realm.0020.t:0 "I Colli"
+  agot_realm.0020.desc:0 "Sto cavalcando attraverso il regno con il mio [lover.Custom('ComplimentAdjective')] [lover.GetName] quando ci troviamo nel profondo delle Terre dei Fiumi. Il nostro amorevole gioco viene interrotto dall'emergere di due dossi erbosi che si profilano all'orizzonte, suscitando una risatina da parte nostra entrambi. \n\nQuesto particolare tratto di terra è popolarmente conosciuto come [teats.GetName], per la sua somiglianza non troppo sottile con il corpetto di una donna. Anche se inclinando improvvisamente la testa, ti ricordano una coppia con cui sei intimamente familiare.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]," parla [lover.GetName] [lover.Custom('quirk_pos_adverb')], strappandoti dalla tua contemplazione e lei risponde con un sorriso. "Qualcosa ti frulla per la mente?" Riesci a trattenere lo sguardo dall'andare a vagare verso le colline ridotte a dimensioni piccole mentre un'idea comincia a formarsi..."
+  agot_realm.0020.a:0 "Guardate questi colli, o potenti, e disperate"
+  agot_realm.0020.a.tt:0 "I Colli saranno ribattezzati come Colli di [lover.GetFirstNamePossessive]"
+  renamed_teats:0 "Colli di [GetGlobalVariable('teats_name').Char.GetFirstNamePossessive]"
+  agot_realm.0020.b:0 "I miei sono migliori"
+  agot_realm.0020.b.tt:0 "I Colli saranno ribattezzati con il nome dei tuoi Colli"
+  agot_realm.0020.c:0 "Nulla, caro mio."
+
+
+    ############################
+  #    Thone Rejection       #
+  #       Badger             #
+  #       0030               #
+  ############################
+  agot_realm.0030.t:0 "Il Trono lo rifiuta"
+  agot_realm.0030.desc:0 "Sto governando il [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] dall'alto della bestia di metallo contorto che è il Trono di Spade. Se solo ci fosse altro da fare che ascoltare un'interminabile processione di suppliche, cortigiani e leccaculo che miagolano per favori o riparazioni. Stringo i pugni mentre un altro si inginocchia e si prostra con la sua supplica ossequiosa. Che enorme spreco del mio prezioso tempo.\n\nAll'improvviso un calore bianco attraversa il mio braccio e mi ritraggo dal dolore. Il manicotto della mia tunica si macchia di un carminio scuro mentre il sangue si insinua. Lo strappo strappato di tessuto ancora conficcato nel dente di ferro su cui ho strappato il mio braccio.\n\n"Maestro, chiamate il maestro!" chiama una voce.\n"[ROOT.Char.GetSheHe|U] è stato morso dal trono!" chiama un altro.\n"[ROOT.Char.GetSheHe|U] è stato ripreso!"\n#EMP "[ROOT.Char.GetFirstNameNoTooltip] non è un vero [ROOT.Char.GetTitleAsNameNoTooltip|l]!"#!"
+  agot_realm.0030.a:0 "Questo è un presagio..."
+  agot_realm.0030.a.tt:0 "I tuoi vassalli prenderanno questo come un cattivo presagio"
+
+
+  ############################
+  #    Executed Family       #
+  #       Sililex            #
+  #       0031               #
+  ############################
+
+  agot_realm.0031.t:0 "Famiglia Giustiziata!"
+  agot_realm.0031.desc:0 "Notizie tragiche! Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetTitledFirstName], è stato giustiziato da [executioner.GetTitledFirstName]!\n\nLa banalità delle parole sulla carta cela il dolore nel mio cuore. Un simile attacco violento alla mia famiglia e all'onore non può rimanere senza risposta, anche quando è fatto dal mio signore. Cosa devo fare?"
+  agot_realm.0031.a:0 "Questo falso [executioner.GetTitleAsNameNoTooltip|l] non governerà più!"
+  agot_realm.0031.a.f:0 "Scrivi ai tuoi alleati e inizi a radunare le tue forze."
+  agot_realm.0031.b:0 "Metterò fine al suo dominio, in un modo o nell'altro..."
+  agot_realm.0031.b.f:0 "Inizi a complottare per la caduta di [executioner.GetTitledFirstNameNoTooltip]."
+  agot_realm.0031.c:0 "Questo non sarà perdonato!"
+  agot_realm.0031.c.f:0 "Ricorderai come il governo di [executioner.GetTitledFirstNamePossessiveNoTooltip] ti ha ingiustamente trattato."
+  agot_realm.0031.d:0 "Tragico o meno, era nei suoi diritti."
+  agot_realm.0031.d.f:0 "Non ti opporrai al governo di [executioner.GetTitledFirstNamePossessiveNoTooltip], lasciando che la questione della morte di [victim.GetTitledFirstNamePossessiveNoTooltip] si risolva da sola."
+
+    
+  ############################
+  #     Girlbossing          #
+  #       Aithnea            #
+  #       0040               #
+  ############################
+
+  agot_realm.0040.t:0 "Una Questione di Successione"
+  agot_realm.0040.desc:0 "Il reame è tenuto insieme da tradizione e fiducia. Le tradizioni condivise dei nostri popoli, e la fiducia che quei popoli — e i miei leali vassalli — ripongono in me. Con la gioiosa nascita di [new_heir.GetName], un legittimo erede secondo ogni tradizione, sono giunto a un bivio per la successione del reame.\n\n[old_heir.GetName] è stato a lungo in fila come mio erede, e la fiducia nel mio giudizio ha calmato le riserve del reame riguardo a [old_heir.GetSheHe]."
+  agot_realm.0040.capable:0 "[old_heir.GetFirstNameNoTooltip] è un sovrano capace, qualsiasi lord mi direbbe questo. [old_heir.GetSheHe|U] condurrebbe senza dubbio il reame verso una maggiore prosperità."
+  agot_realm.0040.friend:0 "[old_heir.GetFirstNameNoTooltip] è sempre stato vicino a me, come un'ombra tanto quanto un [old_heir.Custom('GetDaughterSon')]. La sua fiducia in me è altrettanto importante!"
+  agot_realm.0040.outro:0 "\n\nMa, con così tanto in gioco, [new_heir.GetFirstNameNoTooltip] sarebbe un erede migliore?"
+  agot_realm.0040.a:0 "[old_heir.GetNameNoTooltip] resterà il mio erede."
+  agot_realm.0040.b:0 "Non posso negare a [new_heir.GetNameNoTooltip] il suo diritto di nascita."

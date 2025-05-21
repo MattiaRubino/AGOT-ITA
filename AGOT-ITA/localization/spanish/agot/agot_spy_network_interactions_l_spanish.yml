@@ -1,0 +1,77 @@
+﻿l_spanish:
+  agot_invite_to_spy_network_interaction: "Arruola come Spia"
+  agot_check_for_potential_spies_interaction: "Verifica potenziali spie"
+  agot_remove_from_spy_network_interaction: "Congeda Spia"
+  SPY_RECRUIT_GOLD: "Corrompi"
+  SPY_RECRUIT_GOLD_VALID: "Paga a [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
+  AGOT_RECRUIT_SPY_SKILL_MOD: "La tua abilità [intrigue|E]: $VALUE|=+0$"
+  AGOT_RECRUIT_SPY_CAP_MODIFIER: "Hai più spie di quante puoi gestire: $VALUE|=+0$"
+  AGOT_RECRUIT_SPY_KINGSGUARD_REASON: "[recipient.GetShortUINameNoTooltip] è un membro della Guardia Reale: $VALUE|=+0$"
+  highest_held_title_tier_greater_than: "Hai un rango di titolo superiore al suo."
+  DECEITFUL_REASON: "[recipient.GetShortUINameNoTooltip] è Ingannevole: $VALUE|+0=$"
+  HONEST_REASON: "[recipient.GetShortUINameNoTooltip] è Onesto: $VALUE|+0=$"
+  JUST_REASON: "[recipient.GetShortUINameNoTooltip] è Giusto: $VALUE|+0=$"
+  TRUSTING_REASON: "[recipient.GetShortUINameNoTooltip] è Fiducioso: $VALUE|+0=$"
+  LAZY_REASON: "[recipient.GetShortUINameNoTooltip] è Pigro: $VALUE|+0=$"
+  SHY_REASON: "[recipient.GetShortUINameNoTooltip] è Timido: $VALUE|+0=$"
+  CRAVEN_REASON: "[recipient.GetShortUINameNoTooltip] è Vigliacco: $VALUE|+0=$"
+  PARANOID_REASON: "[recipient.GetShortUINameNoTooltip] è Paranoico: $VALUE|+0=$"
+  DRUNKARD_REASON: "[recipient.GetShortUINameNoTooltip] è un Ubriacone: $VALUE|+0=$"
+  CONTRITE_REASON: "[recipient.GetShortUINameNoTooltip] è Contrito: $VALUE|+0=$"
+
+  agot_spy_network.0200.interface.employer.t:0 "Una spia rivela un segreto"
+  agot_spy_network.0200.interface.employer.desc:0 "Una delle tue spie alla corte di [courtowner.GetTitledFirstNamePossessive] ha rivelato un segreto che potrebbe tornare utile."
+
+  agot_spy_network.0201.interface.employer.t:0 "Una spia rivela informazioni"
+  agot_spy_network.0201.interface.employer.desc:0 "Una delle tue spie ha rivelato informazioni personali e militari sul signore della loro corte."
+
+  agot_spy_network.0200.interface.spymaster.t:0 "Una spia rivela un segreto"
+  agot_spy_network.0200.interface.spymaster.desc:0 "Una delle tue spie alla corte di [courtowner.GetTitledFirstNamePossessive] ha rivelato un segreto che potrebbe tornare utile."
+
+  agot_spy_network.0210.t:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord],"
+  agot_spy_network.0210.desc:0 "Sono riuscito a ottenere un segreto che [secret_holder.GetTitledFirstName] sta cercando di proteggere alla corte di [courtowner.GetShortUINamePossessive]. Ti consegnerò le prove che ho trovato, ma solo se il mio servizio verrà adeguatamente ricompensato."
+  agot_spy_network.0210.a:0 "Devo sapere tutto!"
+  agot_spy_network.0210.b:0 "Non mi interessa."
+  agot_spy_network.0210.c:0 "Non ho le monete..."
+
+  agot_spy_network.0400.t:0 "Una spia è stata reclutata"
+  agot_spy_network.0400.desc:0 "[councillor.GetTitledFirstName] ha trovato una persona disposta a fare la spia per te alla corte di [target_character.GetShortUINamePossessive]."
+  agot_spy_network.0400.a:0 "[new_spy.GetTitledFirstName] mi servirà bene."
+
+  agot_spy_network.0500.t:0 "Una spia è stata scoperta"
+  agot_spy_network.0500.desc:0 "[councillor.GetTitledFirstName] ha scoperto una spia! [discovered_spy.GetTitledFirstName] è stato colto a cercare segreti nei recessi più oscuri della tua corte."
+  agot_spy_network.0500.a:0 "Chi ti ha mandato?"
+
+  agot_spy_network.0510.t:0 "Sei stato scoperto!"
+  agot_spy_network.0510.desc:0 "In qualche modo mi hanno scoperto! Sono stato colto a spiare per [discovered_spy_employer.GetTitledFirstName]. Ora la mia vita è in pericolo. Forse potrei salvarmi se rivelassi chi mi ha assoldato?"
+  agot_spy_network.0510.a:0 "Pietà! Vi dirò tutto!"
+  agot_spy_network.0510.b:0 "Le mie labbra rimarranno sigillate!"
+
+  agot_spy_network.0520.t:0 "Una spia è stata scoperta"
+  agot_spy_network.0520.flipped.desc:0 "[discovered_spy.GetTitledFirstName] ha rivelato chi stava spiando contro di te, implorando pietà: era [discovered_spy_employer.GetTitledFirstName]!"
+  agot_spy_network.0520.loyal.desc:0 "[discovered_spy.GetTitledFirstName] si rifiuta di rivelare chi stava spiando contro di te."
+  agot_spy_network.0520.desc:0 "Come desideri procedere con il traditore?"
+  agot_spy_network.0520.a:0 "[discovered_spy.GetTitledFirstNameNoTooltip] sarà bandito dal reame."
+  agot_spy_network.0520.b:0 "[discovered_spy.GetTitledFirstNameNoTooltip] marcirà in una cella."
+  agot_spy_network.0520.c:0 "Esiste una sola pena per questo crimine: la morte!"
+  agot_spy_network.0520.d:0 "Sarò clemente. Ma questi intrighi devono cessare!"
+
+  agot_spy_network.0600.t:0 "La tua spia è stata scoperta!"
+  agot_spy_network.0600.desc:0 "I rapporti clandestini che ricevevamo da [discovered_spy.GetTitledFirstName] si sono improvvisamente interrotti. Pare che le sue capacità non siano state sufficienti a evitare la scoperta."
+  agot_spy_network.0600.flipped.desc:0 "Ancora peggio, [discovered_spy.GetTitledFirstName] ha rivelato il tuo coinvolgimento!"
+  agot_spy_network.0600.a:0 "[discovered_spy.GetSheHe|U] non è stat[discovered_spy.Custom('DE_END_PRO_S_N')] abbastanza caut[discovered_spy.Custom('DE_END_PRO_S_N')]!"
+
+  agot_spy_network.0700.t:0 "Una spia è stata assunta"
+  agot_spy_network.0700.desc:0 "[recipient.GetTitledFirstName] si è unito alle fila della tua estesa rete di spionaggio."
+  agot_spy_network.0700.a:0 "L'influenza cresce come un'erba infestante..."
+
+  agot_spy_network.0800.t:0 "Una spia può essere assunta"
+  agot_spy_network.0800.desc:0 "Il tuo maestro delle spie ha trovato una potenziale nuova spia alla corte di [recipient.GetTitledFirstNamePossessive]. [potential_new_spy.GetTitledFirstName] potrebbe essere convinto a unirsi alla tua rete di spionaggio."
+  agot_spy_network.0800.a:0 "Dovrei contattare presto [potential_new_spy.GetTitledFirstName]..."
+
+  hostile_scheme_discovery_spy.2001.intro:0 "Il mio maestro delle spie, [spymaster.GetTitledFirstName], ha scoperto la preparazione di un complotto contro di me alla corte di [courtowner.GetTitledFirstNamePossessive]. Anche se non sappiamo ancora chi,"
+
+  potential_spy_in_court:0 "Un personaggio in questa corte è disposto a fare la spia per te."
+
+  #GUI
+  your_spies:0 "Le tue spie"

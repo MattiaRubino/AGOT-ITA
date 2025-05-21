@@ -1,0 +1,90 @@
+﻿l_spanish:
+  ##### Hostilità #####
+  struggle_btw_ending_hostility_decision:1 "Dominio [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+  struggle_btw_ending_hostility_decision_desc:0 "È giunto il momento per un leader forte di trascinare finalmente le tribù degli Uomini Liberi fuori dal pantano della guerra e della divisione. Il vero Nord sarà unito sotto un [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.Custom('GetQueenKing')|l] che sventola il vessillo [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!"
+  struggle_btw_ending_hostility_decision_tooltip:0 "Metti fine alle lotte Oltre la Barriera"
+  struggle_btw_ending_hostility_decision_confirm:1 "Metti fine alle lotte Oltre la Barriera"
+  # Trigger
+  struggle_btw_ending_hostility_decision_kingdom_tt: "Tu [hold|E] il [completely_control|E] di almeno 2 [kingdoms|E] [de_jure|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])"
+  struggle_btw_ending_hostility_decision_united_wildling_tribe_tt: "Hai unito le tribù degli Uomini Liberi sotto il tuo [primary_title|E]."
+  struggle_btw_ending_hostility_decision_county_tt: "Ogni [de_jure|E] [county|E] del vostra [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) deve essere [THIS.Char.GetCulture.GetName] e [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_value')|0])"
+  struggle_btw_ending_hostility_decision_county_light_tt: "Il 75% del [de_jure|E] [counties|E] del vostro [capital|E] [kingdom|E] ([THIS.Char.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]) deve essere [THIS.Char.GetCulture.GetName] e [THIS.Char.GetFaith.GetAdjective] ([SCOPE.ScriptValue('fp2_struggle_hostility_county_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_hostility_county_total_light_value')|0])"
+  struggle_btw_ending_hostility_decision_region_tt: "Nessun altro [independent|E] [struggle_involved|E] [ruler|E] controlla più del [SCOPE.ScriptValue('fp2_struggle_hostility_region_percent_value')|0]% del [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]."
+  # Effects
+  fp2_struggle_hostility_opinion_tt:1 "[characters|E] della stessa [faith|E] e/o [culture|E] [opinion|E]: #positive_value +[SCOPE.ScriptValue('fp2_struggle_hostility_opinion_value')]#!"
+  fp2_struggle_hostility_opinion_negative_tt:0 "[characters|E] di altre [struggle_involved|E] [faiths|E] e/o [cultures|E] [opinion|E]: #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_opinion_negative_value')]#!"
+  fp2_struggle_hostility_conversion_tt:1 "$task_conversion$ e/o $task_promote_culture$ [councillor_tasks|E] velocità in [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]: #P +50%#!"
+  fp2_struggle_hostility_conversion_culture_tt:0 "$task_promote_culture$ [councillor_task|E] velocità in [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]: #P +50%#!"
+  fp2_struggle_hostility_list_tt:1 "$EFFECT_LIST_BULLET$La tua casa riceverà il [GetModifier('fp2_struggle_hostility_house_culture_modifier').GetNameWithTooltip|L] modifier. Inoltre, alcune Conquest [wars|E] saranno più facili da combattere."
+  fp2_struggle_hostility_culture_cb_tt:0 "[CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] contro altre [struggle_involved|E] [cultures|E]: #positive_value -50%#!"
+  fp2_struggle_hostility_culture_tt:0 "Tutte le [struggle_involved|E] [cultures|E] perdono #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_value')]% [cultural_acceptance|E] reciproca"
+  fp2_struggle_hostility_culture_large_tt:0 "Tutte le [struggle_involved|E] [cultures|E] perdono #negative_value [SCOPE.ScriptValue('fp2_struggle_hostility_culture_acceptance_large_value')]% [cultural_acceptance|E] reciproca"
+  fp2_struggle_hostility_acceptance_tt:0 "Ostilità Oltre la Barriera"
+
+    # Modifiers
+  fp2_struggle_hostility_house_faith_modifier:1 "Ostilità Religiosa"
+  fp2_struggle_hostility_house_faith_modifier_desc:0 "Questa casata ha conquistato la maggior parte delle tribù dei Bruti nel nome della loro fede."
+  fp2_struggle_hostility_house_culture_modifier:1 "Ostilità Culturale"
+  fp2_struggle_hostility_house_culture_modifier_desc:0 "Questa casata ha conquistato la maggior parte delle tribù dei Bruti nel nome del loro popolo."
+  fp2_struggle_hostility_house_combined_modifier:1 "Ostilità di Dominio"
+  fp2_struggle_hostility_house_combined_modifier_desc:0 "Questa casata ha conquistato la maggior parte delle tribù dei Bruti nel nome della loro fede e del loro popolo."
+  fp2_struggle_hostility_faith_conversion_task_desc:0 "$fp2_struggle_hostility_house_faith_modifier$"
+  fp2_struggle_hostility_culture_conversion_task_desc:0 "$fp2_struggle_hostility_house_culture_modifier$"
+  ##### Compromesso #####
+  struggle_btw_ending_compromise_decision:1 "Status Quo"
+  struggle_btw_ending_compromise_decision_desc:0 "Questi conflitti infiniti nel Nord ci indeboliscono tutti. È ora di accettare che il Nord non è mai stato destinato a essere unito, dobbiamo accontentarci invece di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+  struggle_btw_ending_compromise_decision_tooltip:0 "$struggle_btw_ending_hostility_decision_tooltip$"
+  struggle_btw_ending_compromise_decision_confirm:0 "$struggle_btw_ending_hostility_decision_confirm$"
+
+  # Triggers
+  struggle_btw_ending_compromise_decision_kingdom_tt:0 "Controlli [hold|E] e [completely_control|E] ogni [de_jure|E] [kingdom|E] di [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] ([SCOPE.ScriptValue('fp2_struggle_ending_kingdom_counter_value')|0]/[SCOPE.ScriptValue('fp2_struggle_conciliation_kingdom_total_value')|0])"
+  struggle_btw_ending_compromise_decision_region_tt:0 "Controlli meno del [SCOPE.ScriptValue('fp2_struggle_compromise_owned_percent_value')|0]% della [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [regione|E] (Attuale: [SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_region_owned_percent_value')|0]%)"
+  struggle_btw_ending_compromise_decision_other_region_tt:0 "Nessun altro [independent|E] [struggle_involved|E] [ruler|E] controlla il [SCOPE.ScriptValue('fp2_struggle_compromise_involved_percent_value')|0]% o più della [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [regione|E]"
+  struggle_btw_ending_compromise_decision_opinion_tt:0 "Tutti gli altri [independent|E] [struggle_involved|E] [rulers|E] hanno almeno [SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_opinion_value')|0] [opinione|E] di te o sono il bersaglio di un [strong_hook|E] ([SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_opinion_counter_value')|0]/[SCOPE.ScriptValue('struggle_btw_ending_ending_decision_foreign_realm_total_value')|0])"
+  struggle_btw_ending_compromise_decision_independent_tt:0 "Nessun altro [independent|E] [struggle_involved|E] [rulers|E] è [king|E] o [emperor|E] [rank|E] (Attuale: [SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_independent_counter_value')|0])"
+  struggle_btw_ending_compromise_decision_interloper_tt:0 "Più del [SCOPE.ScriptValue('fp2_struggle_compromise_uninvolved_percent_value')]% della [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [regione|E] è controllato da [struggle_interloper|E] o [struggle_uninvolved|E] [rulers|E] (Attuale: [SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_region_interloper_percent_value')|1]%)"
+  struggle_btw_ending_compromise_truce_tt:1 "Nessuna [war|E] tra [struggle_involved|E] [independent|E] [rulers|E] (Attuale: [SCOPE.ScriptValue('struggle_btw_ending_compromise_decision_war_counter_value')|0])"
+  # Effects
+  fp2_struggle_compromise_create_new_kingdoms_tt:0 "Ogni [independent|E] o [duchy|E] separato nella [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [regione|E] diventa un [de_jure|E] [kingdom|E]"
+  fp2_struggle_compromise_create_new_empires_tt:1 "Ogni [de_jure|E] [kingdom|E] nella [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [regione|E] con più di [EmptyScope.ScriptValue('fp2_struggle_compromise_ending_minimal_empire_size')|0] [contea|E] diventa un [de_jure|E] [empire|E]. Le [kingdoms|E] rimanenti cadranno sotto il [de_jure|E] di un [empire|E] vicino."
+  fp2_struggle_compromise_house_rewards_tt:2 "I tuoi e [independent|E] [struggle_involved|E] [rulerpossessive|E] [houses|E]"
+  fp2_struggle_compromise_house_enforce_truce_rewards_tt:0 "Sblocca l'[enforce_truce|E] [interaction|E] verso le altre [houses|E]"
+  fp2_struggle_compromise_defensive_rewards_tt:2 "Le [capital|E] [counties|E] delle tue e [independent|E] [struggle_involved|E] [rulerpossessive|E]"
+  fp2_struggle_compromise_truce_tt:1 "Ogni [independent|E] [struggle_involved|E] [ruler|E] guadagna una [truce|E] di #V 10 anni#! con tutti gli altri"
+  TRUCE_FP2_COMPROMISE:0 "Compromesso Oltre la Barriera"
+
+    # Modificatori
+  fp2_struggle_compromise_house_reward_modifier:0 "Compromesso"
+  fp2_struggle_compromise_house_reward_modifier_desc:0 "Questa casata ha guidato il loro regno fuori dalla lotta per il vero Nord."
+  fp2_struggle_compromise_defensive_reward_modifier:0 "Fortezza Regionale"
+  fp2_struggle_compromise_defensive_reward_modifier_desc:1 "Questa contea è la capitale storica di una delle tribù  diBruti che è sopravvissuta ai millenni di lotta."
+  ##### Conciliazione ######
+  struggle_btw_ending_conciliation_decision:1 "Distensione"
+  struggle_btw_ending_conciliation_decision_desc:0 "Le ferite dei millenni passati non saranno facilmente guarite, ma dobbiamo tentare se il vero Nord deve trovare una pace duratura. Veramente, le terre Oltre la Barriera appartengono a tutti noi."
+  struggle_btw_ending_conciliation_decision_tooltip:0 "$struggle_btw_ending_hostility_decision_tooltip$"
+  struggle_btw_ending_conciliation_decision_confirm:0 "$struggle_btw_ending_hostility_decision_confirm$"
+  # Triggers
+  struggle_btw_ending_conciliation_decision_alliance_tt:0 "Tutti gli altri [rulers|E] [independent|E] [struggle_involved|E] hanno una [alleanza|E] con te ([SCOPE.ScriptValue('struggle_btw_ending_conciliation_decision_alliance_counter_value')|0]/[SCOPE.ScriptValue('struggle_btw_ending_ending_decision_foreign_realm_total_value')|0])"
+  # Effects
+  fp2_struggle_conciliation_marriage_unlocked_tt:1 "Permette permanentemente #positive_value#! matrimoni interculturali tra tutte le [struggle_involved|E] [cultures|E]"
+  fp2_struggle_conciliation_acceptance_tt:0 "Conciliazione Oltre la Barriera"
+  fp2_struggle_conciliation_culture_tt:0 "Tutte le [struggle_involved|E] [cultures|E] guadagnano #positive_value +[SCOPE.ScriptValue('fp2_struggle_conciliation_culture_acceptance_value')|0]%#! [cultural_acceptance|E] reciproca"
+  fp2_struggle_conciliation_join_war_tt:1 "Permette permanentemente ai [rulers|E] delle [culture|E] e delle [faith|E] coinvolte nella lotta di unirsi alle [wars|E] difensive l'uno dell'altro contro gli invasori esterni di [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName]"
+  # Modifiers
+  fp2_struggle_conciliation_house_reward_modifier:0 "Conciliazione"
+  fp2_struggle_conciliation_house_reward_modifier_desc:0 "Questa casata ha accettato che la via per una pace duratura Oltre la Barriera risiede nella pace e nella tolleranza."
+  ### Common
+  fp2_struggle_can_create_empire_of_btw_tt:0 "Sblocca la creazione dell'[empire|E] "[GetTitleByKey('e_beyond_the_wall').GetNameNoTier]""
+  fp2_struggle_compromise_destroy_btw_tt:1 "L'[empire|E] "[GetTitleByKey('e_beyond_the_wall').GetNameNoTier]" è permanentemente #negative_value distrutto#!"
+
+  CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT:0 "Ostilità Bruta"
+  CB_COST_FP2_STRUGGLE_HOSTILITY_FAITH_DISCOUNT:0 "$CB_COST_FP2_STRUGGLE_HOSTILITY_CULTURE_DISCOUNT$"
+  struggle_btw_ending_hostility_decision_correct_phase_tt:1 "La [struggle_phase|E] attuale è la [struggle_phase_btw_hostility|E]"
+  struggle_btw_ending_compromise_decision_correct_phase_tt:1 "La [struggle_phase|E] attuale è la [struggle_phase_btw_compromise|E]"
+  struggle_btw_ending_conciliation_decision_correct_phase_tt:1 "La [struggle_phase|E] attuale è la [struggle_phase_btw_conciliation|E]"
+  fp2_struggle_house_tt:1 "Tutti i membri della [house|E]:"
+  fp2_struggle_compromise_war_cost_tt:0 "$CONQUEST_DUCHY_CB_NAME$ [casus_bellis|E] contro altre [struggle_involved|E] [cultures|E]: #negative_value +50%#!"
+  CB_COST_FP2_STRUGGLE_COMPROMISE_MULTIPLIER:0 "Compromesso"
+  struggle_compromise_duchy_transfer_tt:0 "[duchies|E] collegate e [completely_controlled|E] trasferiscono [de_jure|E] al [kingdom|E] primario del loro [top_liege|E]"
+  fp2_struggle_can_keep_using_struggle_clash_tt:0 "[struggle_conquest|E] rimane disponibile"
+  struggle_ending_decision_correct_involvement_tt:0 "Tu sei [struggle_involved|E]"

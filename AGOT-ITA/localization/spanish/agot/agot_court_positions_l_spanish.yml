@@ -1,0 +1,192 @@
+﻿l_spanish:
+
+  #AGOT COURT POSITIONS
+
+  #King's Justice - Executioner re-flavour
+  #King's Counter/Sclaes?
+  #Keeper of Keys?
+  #Wardens of Mint?
+  #Lord Confessor/Keeper of the Cells
+  #Gold Cloaks
+  #Head Dragonkeeper
+
+
+  ## TRAITS ##
+
+  court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
+  court_position_education_martial_2_trait:0 "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
+  court_position_education_martial_3_trait:0 "[GetTrait('education_martial_3').GetName( ROOT.Char )]"
+  court_position_education_martial_4_trait:0 "[GetTrait('education_martial_4').GetName( ROOT.Char )]"
+
+  court_position_disloyal_trait:0 "[GetTrait('disloyal').GetName( ROOT.Char )]"
+
+  court_position_authoritative_trait:0 "[GetTrait('authoritative').GetName( ROOT.Char )]"
+  court_position_inquisitve_trait:0 "[GetTrait('inquisitive').GetName( ROOT.Char )]"
+  court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
+
+  court_position_historic_title_holder:0 "Detentore Storico del Titolo"
+
+
+  #Positions 
+
+  maester_court_position:0 "Maestro" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+  maester_tradition_bonus:0 "Da [culture_tradition|E]"
+  maester_court_position_desc:1 "Il $maester_court_position$ è responsabile della salute e del benessere della [court|E] nella quale si trova. Curerà le malattie e suturerà le ferite al meglio delle proprie capacità."
+  maester_employer_custom_effect_description:1 "Esegue [medical_treatments|E]#!\nMiglia i risultati dell'[education|E]\nSblocca l'[interaction|E] #V $make_child_learn_language_interaction$#!\n@warning_icon!#X [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
+
+  grandmaester_court_position:0 "Gran Maestro" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
+  grandmaester_tradition_bonus:0 "Da [culture_tradition|E]"
+  grandmaester_court_position_desc:1 "Il $grandmaester_court_position$ è responsabile della salute e del benessere della famiglia reale. Curano le malattie e suturano le ferite nel miglior modo possibile."
+  grandmaester_employer_custom_effect_description:1 "Effettua [medical_treatments|E]#!\nMigliora gli esiti dell'[education|E]\nSblocca l'interazione #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
+
+
+  household_guard_court_position:0 "Capitano della Guardia della Casata"
+  household_guard_tradition_bonus:0 "Da [culture_tradition|E]"
+  household_guard_court_position_desc:0 "Il $household_guard_court_position$ è responsabile dell'organizzazione della protezione della [house|E] che serve."
+  household_guard_employer_custom_effect_description:2 "Riduce il rischio di morire o essere catturati nelle battaglie in cui entrambi combattete #!\n@warning_icon!#X [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
+
+  septon_court_position:0 "Septon"
+  speton_tradition_bonus:0 "Da [culture_tradition|E]"
+  septon_court_position_desc:1 "Il $septon_court_position$ fornisce servizi religiosi per i membri della tua [court|E] che fanno parte della Fede dei Sette."
+
+  septa_court_position:0 "Septa"
+  speta_tradition_bonus:0 "Da [culture_tradition|E]"
+  septa_court_position_desc:1 "La $septa_court_position$ è responsabile dell'educazione dei tuoi [children|E] che non hanno un [guardian|E]."
+
+  gaoler_court_position:0 "Guardiano delle Celle"
+  gaoler_court_position_desc:1 "Nelle profondità oscure del castello si estendono i sotterranei, dove i prigionieri gemono e il $gaoler_court_position$  colpisce."
+
+  harbormaster_court_position:0 "Maestro della Flotta"
+  harbormaster_tradition_bonus:0 "Da [culture_tradition|E]"
+  harbormaster_court_position_desc:0 "Il $harbormaster_court_position$ è il funzionario che regola il commercio marittimo e supervisiona le dogane nei tuoi porti."
+
+  warden_of_the_north_court_position:0 "Protettore del Nord"
+  warden_of_the_north_court_position_desc:1 "Il Protettore del Nord è incaricato di difendere il Nord in caso di minacce o invasioni straniere."
+  warden_of_the_east_court_position:0 "Protettore dell'Est"
+  warden_of_the_east_court_position_desc:1 "Il Protettore dell'Est è incaricato di difendere l'Est in caso di minacce o invasioni straniere."
+  warden_of_the_west_court_position:0 "Protettore dell'Ovest"
+  warden_of_the_west_court_position_desc:1 "Il Protettore dell'Ovest è incaricato di difendere l'Ovest in caso di minacce o invasioni straniere."
+  warden_of_the_south_court_position:0 "Protettore del Sud"
+  warden_of_the_south_court_position_desc:1 "Il Protettore del Sud è incaricato di difendere il Sud in caso di minacce o invasioni straniere."
+  
+  goldcloaks_court_position:0 "Comandante della Guardia Cittadina"
+  goldcloaks_tradition_bonus:0 "Da [culture_tradition|E]"
+  goldcloaks_court_position_desc:0 "Il $goldcloaks_court_position$ è il comandante della Guardia Cittadina di Approdo del Re, una posizione di notevole prestigio e importanza."
+  goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
+
+  master_at_arms_court_position:0 "Maestro d'armi"
+  master_at_arms_court_position_desc:1 "Il $$master_at_arms_court_position$$ è responsabile delle armi del regno. Conserva e presiede le questioni araldiche e araldiche; spesso fa anche da araldo di corte al suo signore."
+
+  court_smith_court_position:0 "Fabbro di Corte"
+  court_smith_court_position_desc:2 "Il $court_smith_court_position$ è responsabile della manutenzione e cura delle opere metalliche."
+
+  # Cavaliere di Sangue
+  bloodrider_court_position:0 "Cavaliere di Sangue"
+  bloodrider_court_position_desc:0 "Un $bloodrider_court_position$ è un guardiano — legato da un giuramento di sangue come fratello e compagno — giurato a proteggere il proprio leader. Non è soltanto un vincolo di servizio: è un legame infrangibile tra le loro anime, che dura finché il loro capo vive. Se dovessero fallire nel loro compito, il giuramento si trasforma in vendetta... e infine in morte, quando raggiungeranno il loro leader nell'aldilà."
+  bloodrider_employer_custom_effect_description: "$BULLET$Ha una possibilità di sventare complotti di [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Riduce il rischio che tu muoia o venga catturato in [battles|E] in cui combattete insieme#!\n$BULLET$Otterrà il tratto [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] e diventerà tuo [friend|E], se non lo è già\n$BULLET$Si toglierà la vita alla tua morte per onorare il giuramento di sangue"
+
+  first_sword_court_position:0 "Primo Spada di Braavos"
+  first_sword_court_position_desc:0 "Il $first_sword_court_position$ è il principale protettore del Signore del Sigillo di Braavos."
+
+
+  #NIGHTS WATCH
+
+  nw_septon:0 "Septon"
+  nw_septon_desc:0 "Il septon residente che serve i fratelli della Guardiani della Notte che seguono i Sette."
+
+  COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Custodi dei Castelli"
+  b_the_shadow_tower_keeper:0 "Comandante della Torre delle Ombre"
+  b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Cura e protegge la Torre delle Ombre"
+  b_the_shadow_tower_keeper_desc:0 "Cura e protegge la Torre delle Ombre"
+
+  b_eastwatch_by_the_sea_keeper:0 "Comandante del Forte Orientale "
+  b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Cura e protegge Forte Orientale "
+  b_eastwatch_by_the_sea_keeper_desc:0 "Cura e protegge Forte Orientale 
+
+  b_the_nightfort_keeper:0 "Comandante del Forte della Notte"
+  b_the_nightfort_keeper_employer_custom_effect_description:0 "Cura e protegge il Forte della Notte"
+  b_the_nightfort_keeper_desc:0 "Cura e protegge il Forte della Notte"
+
+  b_icemark_keeper:0 "Comandante di Icemark"
+  b_icemark_keeper_employer_custom_effect_description:0 "Cura e protegge Icemark"
+  b_icemark_keeper_desc:0 "Cura e protegge Icemark"
+
+  b_deep_lake_keeper:0 "Comandante di Deep Lake"
+  b_deep_lake_keeper_employer_custom_effect_description:0 "Cura e protegge Deep Lake"
+  b_deep_lake_keeper_desc:0 "Cura e protegge Deep Lake"
+
+  b_queensgate_keeper:0 "Comandante di Queen's Gate"
+  b_queensgate_keeper_employer_custom_effect_description:0 "Cura e protegge Queen's Gate"
+  b_queensgate_keeper_desc:0 "Cura e protegge Queen's Gate"
+
+  b_oakenshield_keeper:0 "Comandante di Oakenshield"
+  b_oakenshield_keeper_employer_custom_effect_description:0 "Cura e protegge Oakenshield"
+  b_oakenshield_keeper_desc:0 "Cura e protegge Oakenshield"
+
+  b_woodswatch_by_the_pool_keeper:0 "Comandante di Wood's Watch by The Pool"
+  b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Cura e protegge Wood's Watch by The Pool"
+  b_woodswatch_by_the_pool_keeper_desc:0 "Cura e protegge Wood's Watch by The Pool"
+
+  b_westwatch_by_the_bridge_keeper:0 "Comandante del Ponte del Forte Occidentale "
+  b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Cura e protegge il Ponte del Forte Occidentale "
+  b_westwatch_by_the_bridge_keeper_desc:0 "Cura e protegge il Ponte del Forte Occidentale "
+
+  b_sentinel_stand_keeper:0 "Comandante del Bastione Sentinella"
+  b_sentinel_stand_keeper_employer_custom_effect_description:0 "Cura e protegge il Bastione Sentinella"
+  b_sentinel_stand_keeper_desc:0 "Cura e protegge Bastione Sentinella"
+
+  b_greyguard_keeper:0 "Comandante di Guardia Grigia"
+  b_greyguard_keeper_employer_custom_effect_description:0 "Cura e protegge Guardia Grigia"
+  b_greyguard_keeper_desc:0 "Cura e protegge Guardia Grigia"
+
+  b_stonedoor_keeper:0 "Comandante di Stonedoor"
+  b_stonedoor_keeper_employer_custom_effect_description:0 "Cura e protegge Stonedoor"
+  b_stonedoor_keeper_desc:0 "Cura e protegge Stonedoor"
+
+  b_hoarfrost_hill_keeper:0 "Comandante della Porta della Brina"
+  b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Cura e protegge Porta della Brina"
+  b_hoarfrost_hill_keeper_desc:0 "Cura e protegge Porta della Brina"
+
+  b_sable_hall_keeper:0 "Comandante della Radura degli Zibellini"
+  b_sable_hall_keeper_employer_custom_effect_description:0 "Cura e protegge la Radura degli Zibellini"
+  b_sable_hall_keeper_desc:0 "Cura e protegge la Radura degli Zibellini"
+
+  b_rimegate_keeper:0 "Comandante di Rimegate"
+  b_rimegate_keeper_employer_custom_effect_description:0 "Cura e protegge Rimegate"
+  b_rimegate_keeper_desc:0 "Cura e protegge Rimegate"
+
+  b_long_barrow_keeper:0 "Comandante di Lungo Tumulo"
+  b_long_barrow_keeper_employer_custom_effect_description:0 "Cura e protegge Lungo Tumulo"
+  b_long_barrow_keeper_desc:0 "Cura e protegge Lungo Tumulo"
+
+  b_the_torches_keeper:0 "Comandante delle Torches"
+  b_the_torches_keeper_employer_custom_effect_description:0 "Cura e protegge le Torches"
+  b_the_torches_keeper_desc:0 "Cura e protegge le Torches"
+
+  b_greenguard_keeper:0 "Comandante di Greenguard"
+  b_greenguard_keeper_employer_custom_effect_description:0 "Cura e protegge Greenguard"
+  b_greenguard_keeper_desc:0 "Cura e protegge Greenguard"
+
+  ################
+  # DRAGONKEEPER #
+  ################
+
+  head_dragonkeeper_court_position:0 "Capo guardiano dei draghi"
+  head_dragonkeeper_court_position_desc:1 "Il $head_dragonkeeper_court_position$ è il capo dell'ordine dei [dragonkeeper|E] cui serve. Proteggeranno e allevano [dragons_plural|e] nel [dragonpit|e] al meglio delle loro capacità."
+  head_dragonkeeper_court_position_custom_effect_description:1 "Sblocca [dragonpit_interactions|E]"
+  court_position_knows_valyrian_language:0 "Conosce la Lingua Valyriana"
+  court_position_valyrian_heritage:0 "Ha un Eredità Valyriana"
+  court_position_blood_of_old_valyria:0 "Sangue di Antica Valyria"
+  deepen_bond_with_dragon_scheme_scheme_power_mult:0 "#V Approfondisci il Legame con il Tuo Drago#! [scheme|E] potere"
+  bond_with_dragon_scheme_scheme_power_mult:0 "#V Lega con il Drago#! [scheme|E] potere"
+  court_position_professional_dragonkeeper_training:0 "Formazione Professionale per Custodi di Draghi"
+  court_position_standarized_dragonkeeper_training:0 "Formazione Standardizzata per Custodi di Draghi"
+
+
+  #cost descs
+  agot_laamp_cost_reduction:0 "Sei senza terre"
+
+  # Maestro VS Medico per localizzazione evento
+  agot_physician_essos:0 "medico"
+  agot_physician_maester:0 "maestro"
+

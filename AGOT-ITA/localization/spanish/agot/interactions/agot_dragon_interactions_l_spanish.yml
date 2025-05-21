@@ -1,0 +1,162 @@
+﻿l_spanish:
+
+  # DOMARE
+  tame_dragon_interaction:0 "Domare Drago"
+  tame_dragon_interaction_desc:0 "Cercherai di domare [recipient.GetNameNoTooltip]"
+  tame_dragon_interaction_desc_warning:0 "Cercherai di domare [recipient.GetNameNoTooltip].\n\n@warning_icon! #warning Domare un drago prima di legarlo è estremamente rischioso.#!"
+  tame_dragon_no_active_bond_schemes:0 "Non possiedi un [GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme|e]"
+  tame_dragon_notification:0 "Tentativo di Domare Drago"
+  tame_dragon_interaction_tt1:0 "Potresti domare [recipient.GetName] o potresti essere ferito o morire."
+  tame_dragon_interaction_tt2:0 "#warning Domare un drago prima di legarlo è estremamente rischioso.#!"
+
+  # LEGAME
+  bond_with_dragon_interaction:0 "Legarsi al Drago"
+  bond_with_dragon_interaction_desc:0 "Cercherai di legarti a [recipient.GetNameNoTooltip]."
+  bond_dragon_notification:0 "Legame con [recipient.GetNameNoTooltip]"
+  deepen_bond_with_dragon_interaction:0 "Rafforzare il Legame"
+  deepen_bond_with_dragon_interaction_desc:0 "Cercherai di approfondire il tuo legame con [recipient.GetNameNoTooltip]."
+  deepen_bond_dragon_notification:0 "Rafforzamento del Legame con [recipient.GetNameNoTooltip]"
+  blow_dragon_horn_interaction:0 "Rafforzare il Legame con il Corno"
+  blow_dragon_horn_interaction_desc:0 "Il legame di [recipient.GetNamePossessiveNoTooltip] è diminuito. Cercherai di rinforzare nuovamente quel legame con il tuo corno dal drago."
+  must_equip_dragon_horn:0 "È necessario un corno dal drago equipaggiato"
+  binding_is_unstable:0 "La forza del legame su questo drago è debole"
+  visit_dragonpit_with_child_interaction:0 "Visita la Fossa del Drago Insieme"
+  visit_dragonpit_with_child_interaction_desc:0 "Visiti la Fossa del Drago con [recipient.GetNameNoTooltip]."
+  visit_dragonpit_interaction_tt:0 "[recipient.GetName] potrebbe legare un legame o domare un drago nella tua Fossa del Drago."
+
+  dragon_beyond_the_wall:0 "I draghi non si allontaneranno oltre la Barriera"
+
+  # UCCIDERE UN DRAGO
+  slay_dragon_interaction:0 "Uccidere Drago"
+  slay_dragon_interaction_desc:0 "Cercherai di uccidere [recipient.GetNameNicknamed].\n\n@warning_icon! #warning Tentare di uccidere un drago è incredibilmente pericoloso#!"
+  slay_dragon_notification:0 "Tentativo di Uccidere Drago"
+  slay_dragon_interaction.found_cave:0 "Trovi il covo di [recipient.GetNamePossessiveNoTooltip]"
+  slay_dragon_interaction.found_by_dragon:0 "[recipient.GetNameNoTooltip] ti trova"
+  slay_dragon_interaction.cannot_find_cave:0 "Non riesci a localizzare [recipient.GetNameNoTooltip]"
+  ds_cooldown_desc:0 "Hai recentemente combattuto o tentato di uccidere un drago"
+  dragon_is_in_combat:0 "Il drago è impegnato in combattimento."
+  dragon_is_in_dragonpit:0 "Il drago è rinchiuso in un Fossa del Drago."
+
+
+  # SCHEMI
+  bond_with_dragon_scheme:0 "Legarsi a Questo Drago"
+  bond_with_dragon_scheme_action:0 "Legarsi a"
+  bond_with_dragon_scheme_desc:0 "Puoi tentare di legarti a questo drago"
+  bond_with_dragon_scheme_desc_general:0 "Un personaggio può tentare di approfondire il proprio legame con questo drago"
+  deepen_bond_with_dragon_scheme:0 "Rafforzare il Legame con il Tuo Drago"
+  deepen_bond_with_dragon_scheme_action:0 "Rafforzare il Legame con"
+  deepen_bond_with_dragon_scheme_desc:0 "Puoi tentare di approfondire il tuo legame con il tuo drago"
+  deepen_bond_with_dragon_scheme_desc_general:0 "Un personaggio può tentare di approfondire il legame con il tuo drago"
+
+  # Schemi / probabilità di successo
+  SCHEME_DRAGON_BASE:0 "Base: #V $VALUE|0=$#!"
+  SCHEME_DRAGON_BONDED_BASE:0 "Base Drago Legato: #V $VALUE|0=$#!"
+  SCHEME_DRAGON_UNBONDED_BASE:0 "Base Drago Non Legato: #V $VALUE|0=$#!"
+  SCHEME_BOND_DRAGON_THEIR_OPINION:0 "Opinione di [target.GetTitledFirstNamePossessive] su di te: $VALUE|+0=-+$"
+  SCHEME_BOND_BOTH_TRAIT:0 "Hai una personalità simile: $VALUE|+0=-+$"
+  SCHEME_BOND_OWNER_DILIGENT:0 "Sei [GetTrait('diligent').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+  SCHEME_BOND_OWNER_LAZY:0 "Sei [GetTrait('lazy').GetName(GetNullCharacter)]: $VALUE|+0=-+$"
+  DRAGON_AGE:0 "Età di [target.GetTitledFirstNamePossessive]: #N -[target.GetAge]#!"
+  SCHEME_BOND_DRAGON_DREAD:0 "La tua presenza intimidatoria: $VALUE|+0=-+$"
+  SCHEME_BOND_DRAGON_GRAVITAS:0 "Il tuo carisma personale: $VALUE|+0=-+$"
+  SCHEME_BOND_DRAGON_DRACONIC_DREAD:0 "[target.GetFirstNamePossessive] [draconic_dread|E]: $VALUE|+0=-+$"
+  SCHEME_BOND_DRAGON_TEMPERAMENT:0 "[target.GetFirstNamePossessive] [temperament|E]: $VALUE|+0=-+$"
+  SCHEME_BOND_DRAGON_TAMING_CHANCE:0 "Probabilità di domare [target.GetFirstNamePossessive]: $VALUE|+0=-+$"
+  BOND_DRAGON_SUCCESS_DESC:0 "Ti legherai a questo [dragon|E]"
+  DEEPEN_BOND_DRAGON_SUCCESS_DESC:0 "Aumenterai l'esperienza del tuo legame con [GetTrait('dragonrider').GetName(GetNullCharacter)]"
+  SCHEME_BOND_VALYRIAN_BLOOD:0 "Hai il Sangue di Drago: $VALUE|+0=-+$"
+  SCHEME_BOND_DYNASTY_LEGACY:0 "[GetDynastyPerk( 'dragonrider_dynasty_legacy_2' ).GetName]: $VALUE|+0=-+$"
+  SCHEME_EX_DRAGONRIDER:0 "Hai già legato un [dragon|E]: $VALUE|+0=-+$"
+  SCHEME_BOND_DESTINED_RIDER:0 "Senti un legame predestinato: $VALUE|+0=-+$"
+  bonded_with_me:0 "Legato con me"
+  failed_to_bond_with_me:0 "Fallito nel legarsi con me"
+
+
+  # UOVA / SCHIUSA
+  select_egg_for_hatching:0 "Seleziona Uovo di Drago per l'Attività di Schiusa"
+  select_egg_for_hatching_desc:0 "Seleziona quale dei tuoi uova di drago tenterai di far schiudere"
+  selected_egg_for_hatching_notification_title:0 "Uovo Selezionato per la Schiusa"
+  selected_egg_for_hatching_notification_desc:0 "Hai selezionato il [target.GetName] per la schiusa."
+  cradle_egg:0 "Uovo di Drago da Accudire"
+  cradle_egg_desc:0 "Accudisci il tuo uovo di drago"
+  started_cradling_egg_notification:0 "Stai Accudendo un Uovo di Drago"
+  started_cradling_egg_notification_title:0 "Accudimento Uovo di Drago"
+  started_cradling_egg_notification_desc:0 "Stai accudendo il [target.GetName]."
+  give_egg:0 "Dare Uovo di Drago"
+  give_egg_desc:0 "Dai un uovo di drago a [recipient.GetName]"
+  gave_egg_for_cradling_notification:0 "Dato Uovo al Bambino"
+  gave_egg_for_cradling_notification_title:0 "Dato Uovo di Drago a [recipient.GetFirstName]"
+  gave_egg_for_cradling_notification_desc:0 "Hai dato il [target.GetName] a [recipient.GetFirstName]."
+  received_egg_for_cradling_notification_title:0 "ricevuto Uovo di Drago da [actor.GetTitledFirstName]"
+  received_egg_for_cradling_notification_desc:0 "Hai ricevuto un [target.GetName] da [actor.GetFirstName]! Ora stai accudendo questo uovo."
+  taught_dragonlore_title:0 "Insegnato la storia dei draghi"
+  taught_dragonlore_desc:0 "Hai insegnato la storia dei draghi a [recipient.GetName]."
+  taught_dragonlore_received_desc:0 "Hai ricevuto l'insegnamento della storia dei draghi da [actor.GetFirstName]."
+  has_no_dragons:0 "[actor.GetFirstName] non possiede un drago legato o addomesticato"
+
+  # Campagna di Terrore
+  agot_instruct_to_conduct_terror_campaign:0 "Conducere una Campagna di Terrore"
+  agot_instruct_to_conduct_terror_campaign_desc:0 "Istruisci [recipient.GetName] a usare [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] per condurre una Campagna di Terrore.\n$conduct_terror_campaign_tooltip$"
+
+  agot_stop_conducting_terror_campaign:0 "Terminare la Campagna di Terrore"
+  agot_stop_conducting_terror_campaign_desc:0 "Istruisci [recipient.GetName] a cessare la sua Campagna di Terrore"
+
+  agot_refusing_stop_conducting_terror_campaign_tt:0 "[recipient.GetFirstName] ha già rifiutato di fermare la sua Campagna di Terrore"
+
+  agot_dragon.imprisoned_on_terror_campaign.t:0 "Campagna di Terrore Terminata!"
+  agot_dragon.imprisoned_on_terror_campaign.desc:0 "[ROOT.Char.GetFirstName] è stato imprigionato e non brucerà più le terre dei tuoi nemici."
+
+  # Insegnare dragonlore
+  agot_teach_dragonlore:0 "Insegnare la storia dei draghi"
+  agot_teach_dragonlore_desc:0 "Con l'aiuto del tuo [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], insegnerai a [recipient.GetName] la storia dei draghi fondamentale per l'addomesticamento dei draghi"
+  scheme_taught_dragonlore:0 "Insegnato della storia dei draghi: $VALUE|+0=-+$"
+  scheme_dragonkeeper:0 "Capo dei Custode dei Draghi: $VALUE|+0=-+$"
+  scheme_pitted_dragon:0 "Incarcerato in un [dragonpit|e]: $VALUE|+0=-+$"
+  scheme_wild_dragon:0 "[wild_dragon|E]: $VALUE|+0=-+$"
+  agot_teach_dragonlore_increased_dragonlore_preview_tt:0 "[recipient.GetName] aumenterà la propria conoscenza della storia dei draghi di #P [TopScope.GetValue('hdk_aptitude')]#!"
+  agot_teach_dragonlore_increased_dragonlore_interface_tt:0 "[recipient.GetName] ha aumentato la propria conoscenza della storia dei draghi di #P [TopScope.GetValue('hdk_aptitude')]#!"
+
+
+  # Dragonpit
+  agot_send_to_dragonpit:0 "Invia alla Fossa del Drago"
+  agot_send_to_dragonpit_desc:0 "L'AI invierà [recipient.GetName] alla sua [dragonpit|E]"
+
+  agot_remove_from_dragonpit:0 "Rimuovi dalla Fossa del Drago"
+  agot_remove_from_dragonpit_desc:0 "L'AI rimuoverà [recipient.GetName] dalla tua [dragonpit|E]"
+
+  agot_grant_dragonpit_permission:0 "Concedi Accesso alla Fossa del Drago"
+  agot_grant_dragonpit_permission_desc:0 "Concedi a [recipient.GetName] l'accesso alla tua [dragonpit|e], e a tutti i [dragons_plural|e] imprigionati al suo interno. Questo farà di [recipient.GetNameNoTooltip] un [authorized_tamer|e] di quella Fossa del Drago."
+  agot_grant_dragonpit_permission_effect_tt:0 "[recipient.GetName] diventerà [authorized_tamer|e] nella [dragonpit|e] [dragon_pit_location.GetNameNoTier] ."
+
+  agot_ban_from_dragonpit:0 "Escludi dalla Fossa del Drago"
+  agot_ban_from_dragonpit_desc:0 "[recipient.GetName] ha attualmente accesso alla tua [dragonpit|e] grazie alle tue [laws|e] sulla Fossa del Drago. Questo rimuoverà il loro accesso alla Fossa del Drago specificata."
+  agot_banned_from_dragonpit_permission_effect_tt:0 "[recipient.GetName] sarà escluso dalla [dragonpit|e] [dragon_pit_location.GetNameNoTier] ."
+  agot_banned_from_dragonpit_interface_tt:0 "[recipient.GetName] è stato escluso dall'accesso alla tua [dragonpit|e] a [dragon_pit_location.GetNameNoTier]."
+
+  agot_reverse_dragonpit_ban:0 "Revoca Esclusione dalla Fossa del Drago"
+  agot_reverse_dragonpit_ban_desc:0 "[recipient.GetName] è attualmente escluso da una [dragonpit|e] nel tuo [domain|e], questa azione annullerà tale esclusione."
+  agot_reversed_ban_from_dragonpit_interface_tt:0 "L'esclusione di [recipient.GetNamePossessive] dall'accesso alla tua [dragonpit|e] è stata revocata."
+  agot_ban_lifted_from_dragonpit_effect_tt:0 "L'esclusione di [recipient.GetNamePossessive] dalla s[dragonpit|e] [target.GetNameNoTier] sarà revocata."
+
+  agot_request_dragonpit_permission:0 "Richiedi Accesso alla Fossa del Drago"
+  agot_request_dragonpit_permission_desc:0 "Puoi richiedere il permesso di accedere alla [dragonpit|e] di [recipient.GetShortUINamePossessive]."
+  agot_request_dragonpit_permission_effect_tt:0 "[actor.GetShortUIName] diventerà [authorized_tamer|e] nella  [dragonpit|e] di  [dragon_pit_location.GetNameNoTier]."
+
+  agot_dragonpit_access_gained:0 "Accesso Concesso alla Fossa del Drago"
+  agot_dragonpit_access_gained_interface_tt:0 "[actor.GetShortUIName] ti ha fatto diventare un [authorized_tamer|E] della sua [dragonpit|E]!"
+  agot_dragonpit_access_denied:0 "Accesso alla Fossa del Drago Negato"
+  agot_dragonpit_access_denied_interface_tt:0 "[recipient.GetShortUIName] ha rifiutato il tuo accesso alla sua [dragonpit|E]!"
+  agot_request_dragonpit_permission_ai_modifier_i_am_blood_of_the_dragon:0 "Riconosce l'importanza dei loro draghi"
+
+  # Uova
+  agot_send_egg_to_pit:0 "Invia Uovo alla Fossa del Drago"
+  agot_send_egg_to_pit_desc:0 "Invia una delle tue uova di drago in una [dragonpit|e] per la schiusa"
+  agot_send_all_eggs_to_pit:0 "Send All Eggs to Dragonpit"
+  agot_send_all_eggs_to_pit_desc:0 "Send all unequipped dragon eggs to a [dragonpit|e] for hatching"
+
+  agot_retrieve_egg_from_pit:0 "Recupera Uovo dalla Fossa del Drago"
+  agot_retrieve_egg_from_pit_desc:0 "Recupera un uovo conservato in una delle tue [dragonpits|e]"
+
+  rename_dragon_interaction:0 "Rinomina Drago"
+  rename_dragon_interaction_desc:0 "Rinomina [recipient.GetName]"
+  renaming_dragon_you_are_house_head_tt:0 "Almeno una delle seguenti condizioni:\n$EFFECT_LIST_BULLET$Sei il compagno di questo drago\n$EFFECT_LIST_BULLET$Sei il capo della casata del compagno o del cavaliere di questo drago"
