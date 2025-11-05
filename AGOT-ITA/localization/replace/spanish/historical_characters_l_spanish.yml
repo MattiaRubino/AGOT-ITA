@@ -16,9 +16,6 @@
  danger_dynasty_abandon_tt: "#X @warning_icon! Abbandonerai la tua [dynasty|E] e non potrai più riprendere a giocare nei suoi panni!#!"
  will_wander_tt: "[historical_character.GetFullName] diverrà un [wanderer|E]"
  
- historical_char_creation_events.t: "Echi della Storia: [historical_character.GetFullNameNicknamedNoTooltip]"
- historical_char_creation_events.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')] conosciut[historical_character.Custom('DE_END_PRO_S_N')] come [historical_character.GetFullNameNicknamed] si dice che vaghi per il mio regno in cerca di impiego. [historical_character.GetSheHe|U] proviene da [birth_location.GetName], e ha un'aria particolare... [historical_character.Custom('DescriptorPositiveStandalone')] ma in qualche modo [historical_character.Custom('DescriptorNegativeStandalone')].\n\n\n@historical_character_icon! #weak Questo personaggio è storico:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
- historical_char_creation_events_alternative.desc: "[historical_character.Custom('HistoricalCharacterJobDesc')], conosciut[historical_character.Custom('DE_END_PRO_S_N')] come [historical_character.GetFullNameNicknamed], si è fatto un nome a corte. [historical_character.GetSheHe|U] È [historical_character.Custom('DescriptorPositiveStandalone')], e, anche se non riesco a capirlo, c'è qualcosa di straordinario in [historical_character.GetHerHim]...\n\n\n@historical_character_icon! #weak Questo personaggio è storico:#!\n#help_light_background [historical_character.Custom('HistoricalCharacterDesc')]#!"
  historical_char_creation_events.1.a: "Mi chiedo quale sia il destino che l[historical_character.Custom('DE_END_PRO_S_N')] attende..."
  historical_char_creation_events.1.b: "Un[personaggio.Custom('DE_PRO_POS_P_2P')] [historical_character.GetWomanMan] così potrebbe servirmi bene!"
  historical_char_creation_events.1.c: "[historical_character.GetFullNameNoTooltip]? Chi se ne frega!"
@@ -134,7 +131,6 @@
  historical_character.regino_of_prum: "Regino of Prüm was a notable 9th-century Benedictine monk, historian, and music theorist. He served as the abbot of Prüm Abbey until his expulsion in 899, after which he became abbot of St. Martin's Abbey in Trier. He is best known for his chronicle the "Chronicon"."
  historical_character.geoffrey_of_monmouth: "Geoffrey of Monmouth was a 12th-century Welsh cleric and one of the most significant figures in the development of British historiography and Arthurian literature. His seminal work, "Historia Regum Britanniae" (The History of the Kings of Britain), is a pseudo-historical account that chronicles the lives of the kings of Britain."
  historical_character.raiktor: "In 1081, amid the turmoil following Alexios I Komnenos's rise to power, Raiktor, a monk, falsely claimed to be the deposed Emperor Michael VII. Seizing this opportunity, Norman duke Robert Guiscard used Raiktor's claim to justify his invasion of the Balkans. Despite the deception being uncovered, Guiscard continued with his campaign, parading Raiktor before Dyrrachium to gain support. Ultimately, Guiscard abandoned Raiktor as the ruse failed, likely leading to Raiktor's quiet disposal once he was no longer useful."
- generic_importance: "This character is of real-life historical importance."
  
  historical_character.poet: "Un poeta rinomato e stimato"
  historical_character.theologian: "Un teologo pio e preparato"
@@ -149,18 +145,10 @@
  historical_character.warrior: "Un guerriero potente e temuto"
  historical_character.gallant_knight: "Un cavaliere galante"
  historical_character.strategist: "Un abile stratega e comandante"
- historical_character.eunuch: "Un eunuco esperto e servile"
  historical_character.diplomat: "Un diplomatico tattico e benvoluto"
  historical_character.author: "Autore e poeta prolifico"
  
- rule_historical_characters: "Personaggi Storici"
- setting_default_historical_characters: "Predefinito"
- setting_default_historical_characters_desc: "Possono nascere vari personaggi storici come Tommaso d'Aquino, Ibn Battuta o Hildegard von Bingen. Verrai informato solo se sono nati nel tuo [domain|E] o se sono molto conosciuti."
- setting_all_historical_characters: "#high Notifica Tutto#!"
- setting_all_historical_characters_desc: "Possono nascere vari personaggi storici come Tommaso d'Aquino, Ibn Battuta o Hildegard von Bingen. Verrai informato di tutti i nati all'interno di tutto il tuo sotto-[realm|E]."
- setting_no_historical_characters: "#high Disattiva Generazione#!"
- setting_no_historical_characters_desc: "Non appariranno personaggi storici."
- 
+
  Basava: "Basava"
  Dante: "Dante"
  dynn_Bingen: "Bingen"

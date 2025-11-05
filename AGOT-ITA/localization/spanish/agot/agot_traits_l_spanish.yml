@@ -3,6 +3,8 @@
   agot_trait_adventurer_former_Golden_Company_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nella [GetTitleByKey('d_laamp_merc_golden_company').GetNameNoTier] come mercenario."
   agot_trait_adventurer_former_Second_Sons_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nei [GetTitleByKey('d_laamp_merc_second_sons').GetNameNoTier] come mercenario."
   agot_trait_adventurer_former_Windblown_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nei [GetTitleByKey('d_laamp_merc_windblown').GetNameNoTier] come mercenario."
+  trait_triplet:0 "Trigemino"
+  trait_triplet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nacque come trigemino."
 
   #Trait Groups
   trait_citadel:0 "Membri della Cittadella"
@@ -11,10 +13,6 @@
   trait_aged: "Invecchiato"
   trait_aged_desc: "La vecchiaia ha lasciato il personaggio cieco."
   trait_aged_character_desc: "La vecchiaia ha lasciato [ROOT.GetCharacter.GetFirstNameNoTooltip] cieco."
-
-  trait_declared_incapable: "Dichiarato Incapace"
-  trait_declared_incapable_desc: "Giudicato inadatto a governare dal consiglio, questo personaggio dipende da un reggente per governare in suo nome."
-  trait_declared_incapable_character_desc: "Giudicato inadatto a governare dal consiglio di, [ROOT.GetCharacter.GetFirstNameNoTooltip] dipende da un reggente per governare."
 
   trait_mute: "Muto"
   trait_mute_desc: "Questo personaggio non è in grado di esprimere il proprio pensiero, o di parlare affatto."
@@ -177,6 +175,9 @@
   trait_track_knight: "Cavalleria"
   trait_track_knight_desc: "Cavalleria. Onore. Gloria. Essere un cavaliere significa essere un guerriero esaltato."
 
+  trait_stripped_knight:0 "Cavaliere decaduto"
+  trait_stripped_knight_desc:0 "Questo personaggio è stato privato della dignità cavalleresca."
+  trait_stripped_knight_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato privato di [ROOT.GetCharacter.GetHerHis] dignità cavalleresca."
 
   # Tratti della personalità
 
@@ -359,9 +360,14 @@
   trait_scurvy_desc: "Questo personaggio ha lo scorbuto, portando affaticamento, sanguinamenti frequenti e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la morte."
   trait_scurvy_character_desc: "Hai lo scorbuto. Lo scorbuto porta affaticamento, casi di sanguinamento frequente e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la tua morte."
 
+  #Player customizer traits
   trait_house_customizer: "Personalizzatore di Casa"
   trait_house_customizer_desc: "Puoi usare questa caratteristica per consentire al tuo personaggio progettato di assumere il nome e le armi di qualsiasi casa esistente o da una selezione di case estinte."
   trait_house_customizer_character_desc: "Puoi usare questa caratteristica per consentire al tuo personaggio progettato di assumere il nome e le armi di qualsiasi casa esistente o da una selezione di case estinte."
+
+  trait_vs_customizer:0 "Personalizzatore d'Acciaio di Valyria"
+  trait_vs_customizer_desc:0 "Con questo tratto puoi permettere al tuo personaggio di scegliere una spada d'Acciaio di Valyria da possedere."
+  trait_vs_customizer_character_desc:0 "Con questo tratto puoi permettere a [ROOT.GetCharacter.GetFirstNameNoTooltip] di scegliere una spada d'Acciaio di Valyria da possedere."
 
   trait_heterochromia_customizer:0 "Personalizzatore di Eterocromia"
   trait_heterochromia_customizer_desc:0 "Puoi usare questo tratto per permettere al tuo personaggio di avere un colore degli occhi eterocromatico a tua scelta."
@@ -371,10 +377,16 @@
   trait_line_of_char_desc: "Questo personaggio rappresenta i numerosi antenati persi nei registri nel corso del tempo."
   trait_line_of_char_character_desc: "Questo personaggio rappresenta i numerosi antenati persi nei registri nel corso del tempo."
 
-  trait_ruin:0 "Rovina"
-  trait_ruin_desc:0 "Che sia per negligenza, condizioni meteorologiche o saccheggi incessanti, questo possedimento è ridotto in rovina."
-  trait_ruin_character_desc:0 "[ROOT.GetCharacter.GetPrimaryTitle] è ceduto alle devastazioni del tempo. Qualunque cosa ci fosse qui prima è ora irriconoscibile."
- 
+  #Ruin Character Trait
+  trait_ruin:0 ""
+  trait_ruin_desc:0 ""
+  trait_ruin_character_desc:0 ""
+
+  #Unknown Character Trait
+  trait_unknown:0 ""
+  trait_unknown_desc:0 ""
+  trait_unknown_character_desc:0 ""
+
   # Dummy Trait
   trait_agot_dummy_trait:0 ""
   trait_agot_dummy_trait_desc:0 ""
@@ -520,3 +532,7 @@
 
   trait_hidden:0 ""
   trait_hidden_desc:0 ""
+
+  trait_accidental_kinslayer:0 "Uccisore accidentale di consanguinei"
+  trait_accidental_kinslayer_desc:0 "Questo personaggio ha accidentalmente commesso il peccato di uccidere i propri consanguinei."
+  trait_accidental_kinslayer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha accidentalmente commesso il peccato di uccidere i suoi consanguinei."

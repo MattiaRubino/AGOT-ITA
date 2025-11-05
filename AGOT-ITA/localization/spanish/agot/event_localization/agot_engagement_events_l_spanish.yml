@@ -5,7 +5,7 @@
   agot_engagement_events.0002.desc.lowborn:0 "[betrothed_2.GetSheHe|U] è un plebeo."
   agot_engagement_events.0002.desc.bastard:0 "Un bastardo... Come potrei...?"
   agot_engagement_events.0002.desc.not_attracted_to_me:0 "Il mio fidanzato non troverà soddisfazione con un [betrothed_1.GetWomanMan] come me."
-  agot_engagement_events.0002.desc.not_attracted_to_them:0 "Non posso trovare, ehm, #italic soddisfazione#! da un [betrothed_2.GetWomanMan] come [betrothed_2.GetHerHim]."
+  agot_engagement_events.0002.desc.not_attracted_to_them:0 "Non posso trovare, ehm, #italic soddisfazione#! da un [betrothed_2.GetWomanMan] come [betrothed_2.GetSheHe]."
   agot_engagement_events.0002.desc.deformed:0 "[betrothed_2.GetSheHe|U] è... deforme."
   agot_engagement_events.0002.desc.unfaithful:0 "Uno sciocco infedele... [betrothed_2.GetSheHe|U] non potrà mai rimanere fedele a me."
   agot_engagement_events.0002.desc.prude:0 "[betrothed_2.GetSheHe|U] è troppo #italic tirato#! per i miei gusti..."
@@ -16,13 +16,13 @@
   agot_engagement_events.0002.desc.outro:0 "Per favore, [betrothed_1.Custom2('RelationToMeShort',ROOT.Char)], #italic per favore#! non farmi fare questo."
   agot_engagement_events.0002.a:0 "[betrothed_1.GetFirstNameNoTooltip] manterrà il matrimonio che ho organizzato."
   agot_engagement_events.0002.a.tt:0 "Costringerai [betrothed_1.GetFirstNameNoTooltip] a mantenere il fidanzamento con [betrothed_2.GetNameNoTooltip], ma potrebbe avere conseguenze non volute."
-  agot_engagement_events.0002.b:0 "Va bene, non devi sposare [betrothed_2.GetHerHim]."
+  agot_engagement_events.0002.b:0 "Va bene, non devi sposarl[betrothed_2.Custom('DE_END_PRO_S_N')]."
   agot_engagement_events.0002.b.tt:0 "Metterai fine al fidanzamento tra [betrothed_1.GetNameNoTooltip] e [betrothed_2.GetNameNoTooltip]."
   agot_engagement_events.0002.c:0 "Puoi sposare il tuo amante."
 
   agot_engagement_events.0003.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
   agot_engagement_events.0003.desc:0 "I sogni del tuo fidanzamento — le tue speranze di controllare la mia vita — mi hanno solo allontanato ulteriormente. Non riesco ad immaginare di continuare a vivere con un [ROOT.Char.Custom('InsultNoun')] insensato come te. Non preoccuparti di diseredarmi, lo farò da solo."
-  agot_engagement_events.0003.a:0 "Come #bold osi#! [betrothed_1.GetSheHe]!"
+  agot_engagement_events.0003.a:0 "Come #bold osi#!!"
 
   agot_engagement_events.0004.opening:0 "[betrothed_1.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
   agot_engagement_events.0004.desc:0 "Le tue speranze di fidanziarmi contro i miei desideri hanno preso la mia decisione per me: ho lasciato per unirmi alla Guardia della Notte, una fratellanza dove non verrò trattato come una moneta di scambio."
@@ -41,11 +41,16 @@
   agot_engagement_events.0007.a:0 "No. No no no #bold no#!!"
 
   agot_engagement_events.0008.t:0 "Un Sogno Infranto"
-  agot_engagement_events.0008.desc:0 "[betrothed_1.GetFirstName] torna nelle mie stanze, e posso subito dire che la nostra discussione sul fidanzamento è destinata a continuare. Mi muovo per tranquillizzare [betrothed_1.GetHerHim], ma vengo interrotto—\n\n"Se rifiuti di prendere in considerazione la mia opinione sul mio futuro coniuge, allora rifiuterò di prendere in considerazione la tua anche io," dice il mio [ROOT.Char.Custom2('RelationToMe', betrothed_1)], [betrothed_1.Custom('quirk_neg_adverb')]. "Non mi sposerò né con [betrothed_2.GetHerHim]... #bold né con nessun altro#!.""
+  agot_engagement_events.0008.desc:0 "[betrothed_1.GetFirstName] torna nelle mie stanze, e posso subito dire che la nostra discussione sul fidanzamento è destinata a continuare. Mi muovo per tranquillizzarl[betrothed_1.Custom('DE_END_PRO_S_N')], ma vengo interrotto—\n\n"Se rifiuti di prendere in considerazione la mia opinione sul mio futuro coniuge, allora rifiuterò di prendere in considerazione la tua anche io," dice il mio [ROOT.Char.Custom2('RelationToMe', betrothed_1)], [betrothed_1.Custom('quirk_neg_adverb')]. "Non mi sposerò né con [betrothed_2.GetSheHe]... #bold né con nessun altro#!.""
   agot_engagement_events.0008.a:0 "Questo non promette nulla di buono..."
   agot_engagement_events.0008.b:0 "Non sarai disobbedito!"
   agot_engagement_events.0008.c:0 "Vattene dalla mia vista!"
 
+  agot_engagement_events.0009.t:0 "Ciò che il Cuore Desidera"
+  agot_engagement_events.0009.desc.incest_parents:0 ""[betrothed_1.Custom2('RelationToMeShort', ROOT.Char)|U], non voglio sposare il mio [betrothed_1.Custom2('RelationToMeShort', betrothed_2)]. Le nozze tra consanguinei sono..." Il suo volto si oscura, consapevole delle usanze della nostra stessa Casa.\n\n"Serve a mantenere puro il sangue, dolcezza mia," dico cercando di rassicurarlo, ma capisco all’istante che le mie parole cadono nel vuoto. [betrothed_1.GetFirstName] si volta da me, agitandosi a disagio.\n\n"Non voglio diventare come te," [betrothed_1.GetSheHe] sospira, le lacrime che gli rigano il viso. "Non voglio... #bold questo#!.""
+  agot_engagement_events.0009.desc.normal_parents:0 ""[betrothed_1.Custom2('RelationToMeShort', ROOT.Char)|U], perché non posso avere un matrimonio come il tuo?" La sua supplica mi colpisce come un fulmine. #italic Come ho potuto pensare di costringere [betrothed_1.GetFirstName] a sposare il suo [betrothed_1.Custom2('RelationToMeShort', betrothed_2)]?#!\n\n"È innaturale e... non voglio #bold Lui#!," [betrothed_1.GetSheHe] sospira, le lacrime che gli rigano il viso.\n\n#italic Che cosa ho fatto...#!"
+  agot_engagement_events.0009.a:0 "Non ho altra scelta…"
+  agot_engagement_events.0009.b:0 "Allora non avrai alcuna eredità da me!"
 
 
 

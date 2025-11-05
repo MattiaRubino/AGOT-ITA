@@ -47,10 +47,12 @@
   setting_agot_shatter_empires_desc:0 "Solo i titoli esistenti a livello di impero verranno distrutti."
 
   rule_agot_canon_dragons:0 "#R AGOT:#! Draghi Canonici"
-  setting_agot_canon_dragons_enabled:0 "Abilitato"
-  setting_agot_canon_dragons_enabled_desc:0 "Se vengono soddisfatti determinati requisiti, i personaggi schiuderanno o domeranno i loro draghi canonici."
   setting_agot_canon_dragons_disabled:0 "Disabilitato"
   setting_agot_canon_dragons_disabled_desc:0 "I personaggi schiuderanno e domeranno draghi casuali."
+  setting_agot_canon_dragons_enabled:0 "Abilitato"
+  setting_agot_canon_dragons_enabled_desc:0 "Se soddisfi certi requisiti, potranno nascere draghi canonici e i personaggi domeranno i loro draghi canonici."
+  setting_agot_canon_dragons_enabled_traits:0 "Abilitato con Tratti Canonici"
+  setting_agot_canon_dragons_enabled_traits_desc:0 "Se soddisfi certi requisiti, potranno nascere draghi canonici dotati dei loro Tratti Canonici e i personaggi domeranno i loro draghi canonici."
 
   rule_agot_canon_children:0 "#R AGOT:#! Figli Canonici"
   setting_agot_canon_children_enabled:0 "Abilitato"
@@ -126,17 +128,20 @@
   setting_agot_targaryen_exile_invasion_nothing:0 "Nessuna Storia Scriptata"
   setting_agot_targaryen_exile_invasion_nothing_desc:0 "Gli Esuli Targaryen #N non#! riceveranno contenuti scriptati. Esisteranno come personaggi ordinari sulla mappa — #N soggetti alle stesse regole degli altri.#!"
 
-  rule_agot_faegon_invasion:0 "#R AGOT:#! Invasione di fAegon"
+  rule_agot_faegon_invasion:0 "#R AGOT:#! Invasione di Aegon"
   setting_agot_faegon_invasion_enabled:0 "Abilitata"
   setting_agot_faegon_invasion_enabled_desc:0 "Aegon di Essos invaderà Westeros intorno al 298 CA in partite non frantumate iniziate nel 282 o dopo."
   setting_agot_faegon_invasion_disabled:0 "Disabilitata"
   setting_agot_faegon_invasion_disabled_desc:0 "Aegon di Essos #N NON#! invaderà Westeros."
 
-  rule_agot_faegon_identity:0 "#R AGOT:#! Identità di fAegon"
+  rule_agot_faegon_identity:0 "#R AGOT:#! Identità di Aegon"
   setting_agot_faegon_identity_default:0 "Predefinita"
   setting_agot_faegon_identity_open_blackfyre:0 "Blackfyre Aperto"
-  setting_agot_faegon_identity_default_desc:0 "L'identità di Aegon sarà determinata dalle condizioni in cui appare."
+  setting_agot_faegon_identity_default_desc:0 "L'identità di Aegon sarà determinata dalle circostanze della sua comparsa. Potrà emergere come un Blackfyre pubblico o segreto, oppure come figlio di Rhaegar."
   setting_agot_faegon_identity_open_blackfyre_desc:0 "Aegon sarà un membro della Casa Blackfyre."
+  setting_agot_faegon_identity_real:0 "Vero Targaryen"
+  setting_agot_faegon_identity_real_desc:0 "Se possibile, Aegon nascerà sempre come il vero figlio di Rhaegar, ma dovrà conquistare il Trono di Spade per rendere ufficiale quella rivendicazione."
+
 
 
   rule_agot_balding: "#R AGOT:#! Personaggio Calvo"
@@ -165,11 +170,34 @@
   setting_agot_no_dragon_culling:0 "Pseudo-Illimitato"
   setting_agot_no_dragon_culling_desc:0 "Non ci sarà un limite tangibile sul numero di draghi.\n@warning_icon! #X Questa impostazione potrebbe essere #bold pesante#! sulle prestazioni. Usala a tuo rischio e pericolo!#!"
 
+  rule_agot_dragon_trait_inheritance:0 "#R AGOT:#! Eredità dei Tratti dei Draghi"
+
+  setting_agot_dragon_trait_inheritance_full:0 "Completa"
+  setting_agot_dragon_trait_inheritance_full_desc:0 "I draghi erediteranno i tratti congeniti dei genitori a un tasso comparabile a quello degli umani."
+
+  setting_agot_dragon_trait_inheritance_reduced:0 "Ridotta"
+  setting_agot_dragon_trait_inheritance_reduced_desc:0 "L'ereditarietà dei tratti congeniti nei draghi è ridotta al 75% del tasso umano standard."
+
+  setting_agot_dragon_trait_inheritance_half:0 "Metà"
+  setting_agot_dragon_trait_inheritance_half_desc:0 "L'ereditarietà dei tratti congeniti nei draghi è ridotta al 50% del tasso umano standard."
+
+  setting_agot_dragon_trait_inheritance_disabled:0 "Disabilitata"
+  setting_agot_dragon_trait_inheritance_disabled_desc:0 "L'ereditarietà dei tratti è disabilitata. I tratti congeniti dei draghi sono completamente casuali."
+
+
   rule_agot_silly:0 "#R AGOT:#! Modalità Bizzarra"
   setting_agot_silly_mode:0 "Bizzarra"
   setting_agot_silly_mode_desc:0 "Aspettati disastri. Ad esempio, Cannibal sarà impegnato nelle sue bizzarrie del primo giorno."
   setting_agot_no_silly:0 "Disabilitata"
   setting_agot_no_silly_desc:0 "Equilibrio normale del gioco."
+
+  rule_agot_essos:0 "#R AGOT:#! Essos Abilitato"
+
+  setting_agot_essos_enabled:0 "Essos Abilitato"
+  setting_agot_essos_enabled_desc:0 "Essos è disponibile per l'interazione."
+
+  setting_agot_essos_disabled:0 "Essos Disabilitato"
+  setting_agot_essos_disabled_desc:0 "Essos non è disponibile per l'interazione."
 
   #Vanilla Add-Ons
   setting_epidemic_frequency_very_very_rare:0 "Estremamente Raro"

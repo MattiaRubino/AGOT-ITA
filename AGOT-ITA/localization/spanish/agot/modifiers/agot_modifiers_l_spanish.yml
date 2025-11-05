@@ -15,6 +15,8 @@
   agot_precarious_reputation:0 "Reputazione Precarica"
   agot_precarious_reputation_desc:0 "A causa delle sue circostanze attuali, gli altri sono diffidenti nel farsi coinvolgere negli affari di questo personaggio."
 
+  agot_incest_aversion_modifier:0 "Avversione all’Incesto"
+  agot_incest_aversion_modifier_desc:0 "Questo personaggio non brama nozze con un fratello o con una sorella."
 
   #################
   # Filler Events #
@@ -283,6 +285,9 @@
   divided_dynasty_house_modifier:0 "Dinastia Divisa"
   divided_dynasty_house_modifier_desc:0 "Questa casa è stata separata dalla dinastia principale e non può chiamare membri di dinastie non legate alla casa per aiuto. Le morti tra case divise non comporteranno il tratto [kinslayer|E]."
 
+  disavowed_incest_house_modifier:0 "Incesto Ripudiato"
+  disavowed_incest_house_modifier_desc:0 "Questa casata ha scelto di non avvalersi dell’esenzione all’incesto sancita dalla Dottrina dell’Eccezionalità."
+
   bittersteel_modifier:0 "Bittersteel"
   bittersteel_modifier_desc:0 "Questo personaggio è Aegor Bittersteel, discendente di Aegon IV e fedele sostenitore della Casa Blackfyre."
   walled_off_no_more_modifier:0 "Muri Abbattuti"
@@ -355,14 +360,142 @@
   visited_by_the_dead_modifier:0 "Visitato dai Morti"
 
   ### RELIGION ###
-  the_seven_religion_opinion:0 "Opinione $the_seven_religion$"
-  rhllor_fots_opinion:0 "Opinione $rhllor_fots$"
-  fc_pan_bearded_opinion:0 "Opinione $bearded_god$"
-  the_pact_religion_opinion:0 "Opinione $the_pact_religion$"
-  the_ways_religion_opinion:0 "Opinione $the_ways_religion$"
-  the_rhllor_religion_opinion:0 "Opinione $the_rhllor_religion$"
-  the_flames_religion_opinion:0 "Opinione $the_flames_religion$"
-  the_mother_religion_opinion:0 "Opinione $the_mother_religion$"
+  the_pact_religion_opinion:0 "Opinione su $the_pact_religion$"
+  old_gods_wnw_opinion:0 "Opinione su $old_gods_wnw$"
+  old_gods_rnh_opinion:0 "Opinione su $old_gods_rnh$"
+  old_gods_mnv_opinion:0 "Opinione su $old_gods_mnv$"
+  old_gods_rng_opinion:0 "Opinione su $old_gods_rng$"
+  old_gods_fng_opinion:0 "Opinione su $old_gods_fng$"
+  old_gods_snw_opinion:0 "Opinione su $old_gods_snw$"
+  old_gods_dns_opinion:0 "Opinione su $old_gods_dns$"
+  old_gods_sns_opinion:0 "Opinione su $old_gods_sns$"
+  old_gods_btw_fnf_opinion:0 "Opinione su $old_gods_btw_fnf$"
+  old_gods_btw_sni_opinion:0 "Opinione su $old_gods_btw_sni$"
+  old_gods_btw_mns_opinion:0 "Opinione su $old_gods_btw_mns$"
+  old_gods_btw_pnv_opinion:0 "Opinione su $old_gods_btw_pnv$"
+  old_gods_btw_dnc_opinion:0 "Opinione su $old_gods_btw_dnc$"
+  old_gods_btw_sas_opinion:0 "Opinione su $old_gods_btw_sas$"
+  old_gods_children_opinion:0 "Opinione su $old_gods_children$"
+
+  the_others_religion_opinion:0 "Opinione su $the_others_religion$"
+  cold_gods_opinion:0 "Opinione su $cold_gods$"
+  cold_gods_wildling_opinion:0 "Opinione su $cold_gods_wildling$"
+
+  the_seven_religion_opinion:0 "Opinione su $the_seven_religion$"
+  fots_stars_opinion:0 "Opinione su $fots_stars$"
+  fots_seven_opinion:0 "Opinione su $fots_seven$"
+  fots_blessed_opinion:0 "Opinione su $fots_blessed$"
+  fots_sword_opinion:0 "Opinione su $fots_sword$"
+  fots_pure_opinion:0 "Opinione su $fots_pure$"
+  fots_oldnew_opinion:0 "Opinione su $fots_oldnew$"
+  fots_sands_opinion:0 "Opinione su $fots_sands$"
+  fots_axe_opinion:0 "Opinione su $fots_axe$"
+  fots_scourged_opinion:0 "Opinione su $fots_scourged$"
+  the_ways_religion_opinion:0 "Opinione su $the_ways_religion$"
+  drowned_god_opinion:0 "Opinione su $drowned_god$"
+  fots_drowned_opinion:0 "Opinione su $fots_drowned$"
+  storm_god_opinion:0 "Opinione su $storm_god$"
+
+  the_mother_religion_opinion:0 "Opinione su $the_mother_religion$"
+  mother_rhoyne_opinion:0 "Opinione su $mother_rhoyne$"
+  mother_orphan_opinion:0 "Opinione su $mother_orphan$"
+  mother_summer_opinion:0 "Opinione su $mother_summer$"
+
+  the_cults_religion_opinion:0 "Opinione su $the_cults_religion$"
+  fc_pan_braavos_opinion:0 "Opinione su $fc_pan_braavos$"
+  fc_pan_faceless_opinion:0 "Opinione su $fc_pan_faceless$"
+  fc_pan_tyrosh_opinion:0 "Opinione su $fc_pan_tyrosh$"
+  fc_pan_lys_opinion:0 "Opinione su $fc_pan_lys$"
+  fc_pan_myr_opinion:0 "Opinione su $fc_pan_myr$"
+  fc_pan_pentos_opinion:0 "Opinione su $fc_pan_pentos$"
+  fc_pan_lorath_opinion:0 "Opinione su $fc_pan_lorath$"
+  fc_pan_volantis_opinion:0 "Opinione su $fc_pan_volantis$"
+  fc_pan_essaria_opinion:0 "Opinione su $fc_pan_essaria$"
+  fc_pan_boash_opinion:0 "Opinione su $fc_pan_boash$"
+  fc_pan_blackgoat_opinion:0 "Opinione su $fc_pan_blackgoat$"
+  fc_pan_bearded_opinion:0 "Opinione su $fc_pan_bearded$"
+
+  the_flames_religion_opinion:0 "Opinione su $the_flames_religion$"
+  valyrian_pan_freehold_opinion:0 "Opinione su $valyrian_pan_freehold$"
+  fots_dragon_opinion:0 "Opinione su $fots_dragon$"
+  valyrian_pan_dragon_opinion:0 "Opinione su $valyrian_pan_dragon$"
+
+  the_rhllor_religion_opinion:0 "Opinione su $the_rhllor_religion$"
+  rhllor_asshai_opinion:0 "Opinione su $rhllor_asshai$"
+  rhllor_fc_opinion:0 "Opinione su $rhllor_fc$"
+  rhllor_fots_opinion:0 "Opinione su $rhllor_fots$"
+  rhllor_hyrkoon_opinion:0 "Opinione su $rhllor_hyrkoon$"
+
+  the_graces_religion_opinion:0 "Opinione su $the_graces_religion$"
+  sc_harpy_opinion:0 "Opinione su $sc_harpy$"
+  sc_spear_opinion:0 "Opinione su $sc_spear$"
+
+  the_flocks_religion_opinion:0 "Opinione su $the_flocks_religion$"
+  shepherd_faith_opinion:0 "Opinione su $shepherd_faith$"
+
+  the_counsels_religion_opinion:0 "Opinione su $the_counsels_religion$"
+  dothraki_faith_opinion:0 "Opinione su $dothraki_faith$"
+
+  the_liturgies_religion_opinion:0 "Opinione su $the_liturgies_religion$"
+  sarnori_faith_opinion:0 "Opinione su $sarnori_faith$"
+
+  the_houses_religion_opinion:0 "Opinione su $the_houses_religion$"
+  qh_warlock_opinion:0 "Opinione su $qh_warlock$"
+  qh_pureborn_opinion:0 "Opinione su $qh_pureborn$"
+  qh_commoner_opinion:0 "Opinione su $qh_commoner$"
+
+  the_first_gods_religion_opinion:0 "Opinione su $the_first_gods_religion$"
+  fg_pan_bronze_opinion:0 "Opinione su $fg_pan_bronze$"
+  fg_pan_sisters_opinion:0 "Opinione su $fg_pan_sisters$"
+  fg_pan_elenei_opinion:0 "Opinione su $fg_pan_elenei$"
+  fg_pan_merling_opinion:0 "Opinione su $fg_pan_merling$"
+  fg_pan_sni_opinion:0 "Opinione su $fg_pan_sni$"
+  fg_pan_garth_opinion:0 "Opinione su $fg_pan_garth$"
+
+  the_venerations_religion_opinion:0 "Opinione su $the_venerations_religion$"
+  ib_ven_god_king_opinion:0 "Opinione su $ib_ven_god_king$"
+  ib_ven_sound_opinion:0 "Opinione su $ib_ven_sound$"
+
+  the_courts_religion_opinion:0 "Opinione su $the_courts_religion$"
+  yt_court_celestial_opinion:0 "Opinione su $yt_court_celestial$"
+  yt_court_jewel_opinion:0 "Opinione su $yt_court_jewel$"
+  yt_court_ancestor_opinion:0 "Opinione su $yt_court_ancestor$"
+  yt_court_bloodstone_opinion:0 "Opinione su $yt_court_bloodstone$"
+  yt_court_leng_opinion:0 "Opinione su $yt_court_leng$"
+
+  the_songs_religion_opinion:0 "Opinione su $the_songs_religion$"
+  song_moon_opinion:0 "Opinione su $song_moon$"
+  fc_pan_moon_opinion:0 "Opinione su $fc_pan_moon$"
+  song_nefer_opinion:0 "Opinione su $song_nefer$"
+  song_mossovy_opinion:0 "Opinione su $song_mossovy$"
+
+  the_churches_religion_opinion:0 "Opinione su $the_churches_religion$"
+  eldritch_fishgod_opinion:0 "Opinione su $eldritch_fishgod$"
+  eldritch_bloodgod_opinion:0 "Opinione su $eldritch_bloodgod$"
+  eldritch_yellow_opinion:0 "Opinione su $eldritch_yellow$"
+  eldritch_deep_dreams_opinion:0 "Opinione su $eldritch_deep_dreams$"
+  eldritch_starry_wisdom_opinion:0 "Opinione su $eldritch_starry_wisdom$"
+  eldritch_leng_opinion:0 "Opinione su $eldritch_leng$"
+
+  the_shanties_religion_opinion:0 "Opinione su $the_shanties_religion$"
+  shanty_basilisks_opinion:0 "Opinione su $shanty_basilisks$"
+  shanty_toad_opinion:0 "Opinione su $shanty_toad$"
+  shanty_brindle_opinion:0 "Opinione su $shanty_brindle$"
+  shanty_black_opinion:0 "Opinione su $shanty_black$"
+  shanty_greenhell_opinion:0 "Opinione su $shanty_greenhell$"
+
+  the_orders_religion_opinion:0 "Opinione su $the_orders_religion$"
+  order_paradise_opinion:0 "Opinione su $order_paradise$"
+  order_sting_opinion:0 "Opinione su $order_sting$"
+  order_spice_opinion:0 "Opinione su $order_spice$"
+  order_cow_opinion:0 "Opinione su $order_cow$"
+  order_chain_opinion:0 "Opinione su $order_chain$"
+
+  the_chosen_religion_opinion:0 "Opinione su $the_chosen_religion$"
+  god_naath_opinion:0 "Opinione su $god_naath$"
+
+  the_temples_religion_opinion:0 "Opinione su $the_temples_religion$"
+  summer_gods_pan_opinion:0 "Opinione su $summer_gods_pan$"
 
   ## Riverlands Filler Modifiers ## 
   agot_heard_good_tales:0 "Sentito Racconti Eccellenti"
@@ -1499,3 +1632,8 @@
 
   black_heart_blessing:0 "Il Cuore Nero"
   black_heart_blessing_desc:0 "Una determinazione oscura e implacabile pulsa in questo personaggio, rafforzandone la volontà e affinandone l’istinto."
+  agot_kinslayer_malus_0:0 "Known [GetTrait('accidental_kinslayer').GetName( GetNullCharacter )]"
+  agot_kinslayer_malus_1:0 "Known [GetTrait('kinslayer_1').GetName( GetNullCharacter )]"
+  agot_kinslayer_malus_2:0 "Known [GetTrait('kinslayer_2').GetName( GetNullCharacter )]"
+  agot_kinslayer_malus_3:0 "Known [GetTrait('kinslayer_3').GetName( GetNullCharacter )]"
+  accidental_kinslayer_crime_dynasty:0 "$kinslayer_crime_dynasty$"

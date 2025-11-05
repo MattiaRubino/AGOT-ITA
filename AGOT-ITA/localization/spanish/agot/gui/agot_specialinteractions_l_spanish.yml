@@ -41,4 +41,8 @@
   WILDLING_MARRIAGE_STRONG:0 "[secondary_actor.GetFirstName] è forte: $VALUE|=+0$"
   WILDLING_MARRIAGE_STRONG_OWN:0 "Tu sei forte: $VALUE|=+0$"
   AGOT_HOUSE_ALREADY_HAS_ROYAL_MAR:0 "La tua [house|e] ha già un matrimonio reale: $VALUE|=+0$"
-  agot_grant_title_blocked:0 "Non puoi concedere questo [title|E]"
+  AGOT_DIVIDED_DYNASTY_MARRIAGE_REASON:0 "Le tue [casate|e] sono divise da [GetModifier('divided_dynasty_house_modifier').GetNameWithTooltip]: $VALUE|=+0$"
+
+  agot_grant_title_blocked:0 "Non puoi cedere questo [titolo|E]"
+
+  AGOT_IS_DWARF:0 "[secondary_actor.GetFirstName] è un nano: $VALUE|=+0$"

@@ -408,12 +408,6 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  REVOKE_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED:0 "@warning_icon! #X [TITLE.GetName] è [occupied|E]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY:1 "@warning_icon! #X Devi revocare tutti i titoli di [TITLE_2.GetName] invece del solo [TITLE.GetName]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_NON_DOMAIN_BARONY:0 "@warning_icon! #X [TITLE.GetName] è una [barony|E] che non fa parte del tuo [domain|E] e pertanto non può essere revocata a [CHARACTER.GetShortUIName]#!"
- REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName] è un titolo di [noble_family|E] e dunque non può essere revocato#!"
-
- create_noble_family_title: "Crea un titolo di nobile casata per [THIS.GetCharacter.GetNameNoTooltip]"
- create_noble_family_tt: "Diventa capo di una nuova [noble_family|E]"
- create_noble_family_tt_past: "È divenuto capo di una nuova [noble_family|E]"
-
  REVOKE_TITLE_SELECT:0 "@warning_icon! #X Non c'è nessun titolo selezionato#!"
  REVOKE_TITLE_REVOKE:0 "#T Revoca il Titolo selezionato a [CHARACTER.GetShortUIName]#!"
  REVOKE_TITLE_PROVINCE_TITLE_TOOLTIP:4 "Puoi revocare il [TITLE.GetName]\n#I Clicca per selezionarlo per la revoca#!"
@@ -466,18 +460,12 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  WE_ARE_BEST_FRIENDS:0 "Siete migliori amici: $VALUE|=+0$"
  YOU_ARE_MY_RELATIVE:0 "Siete parenti: $VALUE|=+0$"
  THEY_ARE_MY_CLOSE_KIN:0 "[secondary_recipient.GetShortUINameNoTooltip] è un parente: $VALUE|=+0$"
- THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] è un suo [close_family|E]: $VALUE|=+0$"
-
  YOU_ARE_MY_HOUSE_MEMBER:0 "Tu sei della [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
  YOU_ARE_MY_DYNASTY_MEMBER:0 "Tu sei della [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$"
  THEY_ARE_MY_HOUSE_MEMBER:0 "[secondary_recipient.GetShortUINameNoTooltip] è della [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
  THEY_ARE_MY_DYNASTY_MEMBER:0 "[secondary_recipient.GetShortUINameNoTooltip] è della [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$"
  I_AM_A_KINSLAYER:0 "Sono un [kinslayer|E]: $VALUE|=+0$"
  THEY_ARE_A_KINSLAYER:0 "[secondary_recipient.GetShortUINameNoTooltip] è un [kinslayer|E]: $VALUE|=+0$"
- SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
- RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
-
- 
  # Divorce interaction loc
  DIVORCE_GIVEN_CHILDREN:0 "[secondary_recipient.GetShortUINameNoTooltip] ti ha dato diversi bambini sani: $VALUE|=+0$"
  I_DIVORCED_X:0 "[recipient.GetShortUINameNoTooltip] ha garantito [actor.GetShortUINameNoTooltip] un divorzio da[secondary_recipient.GetShortUINameNoTooltip]!"
@@ -614,9 +602,7 @@ AI_CONTRACT_BALANCE: "Benefici del contratto: $VALUE|=+0$"
  AI_I_AM_INCAPABLE:0 "Io sono [GetTrait('incapable').GetName(GetNullCharacter)]: $VALUE|=+0$"
  AI_I_AM_IMPRISONED:0 "Io sono [imprisoned|E]: $VALUE|=+0$"
  AI_LACKS_POLITICAL_CAPITAL:0 "Non ho il [prestige|E] per opporre resistenza: $VALUE|=+0$"
- SPYMASTER_INTRIGUE_SKILL_REASON: "Abilità nell’Intrigo di [owner.GetShortUINamePossessive|U] [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive]: $VALUE|=+0$"
- SECOND_INTRIGUE_SKILL_REASON: "Abilità nell’Intrigo del [GetCourtPositionType( 'second_camp_officer' ).GetName] di [owner.GetShortUINamePossessive|U]: $VALUE|=+0$"
-
+ 
  HAS_DIPLOMACY_SKILL_REASON:0 "Ha l'[diplomacy_skill|E]: $VALUE|=+0$"
  HAS_MARTIAL_SKILL_REASON:0 "Ha l'[martial_skill|E]: $VALUE|=+0$"
  HAS_INTRIGUE_SKILL_REASON:0 "Ha l'[intrigue_skill|E]: $VALUE|=+0$"

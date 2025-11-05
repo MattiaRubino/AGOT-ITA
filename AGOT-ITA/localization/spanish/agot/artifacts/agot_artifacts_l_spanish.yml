@@ -429,6 +429,12 @@
   valyrian_steel_armor_description:0 "Un’armatura composta da scaglie d’acciaio valyriano. Questo manufatto vale più di un regno ed è senz’altro tra le corazze più protettive mai forgiate."
   decorated_dragon_plate_armor_name:0 "Corazza Decorata del Drago"
   decorated_dragon_plate_armor_description:0 "Questa armatura completa presenta rifiniture argentate e delicati solchi che richiamano le ali di un drago."
+  
+  royce_runic_armor_name:0 "Armatura runica di bronzo"
+  royce_runic_armor_description:0 "Uno dei diversi set di armature di piastra di bronzo antiche possedute dalla Casa Royce. È incisa con rune che, secondo le leggende, rendono il portatore immune alle ferite."
+
+  raven_feather_cloak_name:0 "Mantello di piume di corvo"
+  raven_feather_cloak_description:0 "Un magnifico mantello realizzato con le piume d’onice dei corvi che si posano presso l’antico albero sacro morto di Raventree Hall."
 
   lucerys_gun_name:0 "Pistola di Lucerys"
   lucerys_gun_desc:0 "Preparati a morire."
@@ -449,13 +455,13 @@
   agot_artifact_winter_rose:0 "Rosa d'Inverno"
   agot_artifact_winter_rose_desc:0 "Un bel fiore azzurro pallido del colore del gelo dell'inverno appena iniziato."
   artifact_dragon_egg_reforged_tt:0 "Il tuo uovo è stato riforgiato in un [court_artifact|E]"
-  dud_egg_desc:0 "[egg.GetDesc]\n\nQuesto uovo sembra essere pietrificato e non mostra segni di schiusa."
+  dud_egg_desc:0 "[egg_artifact.GetDesc]\n\nQuesto uovo sembra essere pietrificato e non mostra segni di schiusa."
   artifact_dragon_egg:0 "Uovo di Drago"
   dragon_egg_gen_desc:0 "Un uovo di drago pietrificato. I secoli lo hanno trasformato in pietra, eppure arde ancora di una bellezza viva."
 
-  dragon_egg_gen_parent:0 "[egg.GetDesc] Fu deposto da [dragon_parent.GetName]."
+  dragon_egg_gen_parent:0 "[egg_artifact.GetDesc] Fu deposto da [dragon_parent.GetName]."
 
-  dragon_egg_gen_parents:0 "[egg.GetDesc] Fu deposto da [dragon_parent.GetName] e [dragon_parent_other.GetName]."
+  dragon_egg_gen_parents:0 "[egg_artifact.GetDesc] Fu deposto da [dragon_parent.GetName] e [dragon_parent_other.GetName]."
 
 
   dragon_egg_rainbow:0 "Uovo di Drago Arcobaleno"
@@ -473,18 +479,24 @@
   dragon_egg_red:0 "Uovo di Drago Rosso"
   dragon_egg_red_desc:0 "$dragon_egg_gen_desc$ Le scaglie di un rosso scuro di questo uovo emettono scintille cremisi come rubini che scintillano alla luce del sole."
   dragon_egg_red_desc_living:0 "Le scaglie di un rosso scuro di questo uovo emettono scintille cremisi come rubini che scintillano alla luce del sole."
-  dragon_egg_tan:0 "Uovo di Drago Color Crema"
-  dragon_egg_tan_desc:0 "$dragon_egg_gen_desc$ I vortici di abbronzatura e crema fanno pensare alle sabbie dorniane."
-  dragon_egg_tan_desc_living:0 "Le tonalità di marrone e crema evocano immagini delle sabbie dorniche. "
-  dragon_egg_brown:0 "Uovo di Drago Marrone"
-  dragon_egg_brown_desc:0 "$dragon_egg_gen_desc$ Le scaglie di marrone scuro di quest'uovo riflettono bagliori dorati e bronzei alla luce."
-  dragon_egg_brown_desc_living:0 "Le scaglie di marrone scuro di quest'uovo riflettono bagliori dorati e bronzei alla luce."
-  dragon_egg_blackDarkRed:0 "Uovo di Drago Obsidiano"
-  dragon_egg_blackDarkRed_desc:0 "$dragon_egg_gen_desc$ Le scaglie nere di quest'uovo sono ondulate e striate di un profondo scarlatto."
-  dragon_egg_blackDarkRed_desc_living:0 "Le scaglie nere di quest'uovo sono ondulate e striate di un profondo scarlatto."
-  dragon_egg_iceFire:0 "Uovo di Drago Ghiaccio e Fuoco"
-  dragon_egg_iceFire_desc:0 "$dragon_egg_gen_desc$ Le scaglie di quest'uovo sono una miscela straordinaria di rossi infuocati e blu ghiacciati, come se fuoco e ghiaccio fossero bloccati in un eterno conflitto."
-  dragon_egg_iceFire_desc_living:0 "Le scaglie di quest'uovo sono una miscela straordinaria di rossi infuocati e blu ghiacciati, come se fuoco e ghiaccio fossero bloccati in un eterno conflitto."
+  
+  dragon_egg_tan:0 "Uovo di drago crema"
+  dragon_egg_tan_desc:0 "$dragon_egg_gen_desc$ Turbinii di tonalità sabbia e crema evocano le sabbie di Dorne."
+  dragon_egg_tan_desc_living:0 "Turbinii di tonalità sabbia e crema evocano le sabbie di Dorne."
+
+  dragon_egg_brown:0 "Uovo di drago bruno"
+  dragon_egg_brown_desc:0 "$dragon_egg_gen_desc$ Le scaglie di profondo bruno di quest’uovo riflettono bagliori d’oro e bronzo alla luce."
+  dragon_egg_brown_desc_living:0 "Le scaglie di profondo bruno di quest’uovo riflettono bagliori d’oro e bronzo alla luce."
+
+  dragon_egg_blackdarkred:0 "Uovo di drago d’ossidiana"
+  dragon_egg_blackdarkred_desc:0 "$dragon_egg_gen_desc$ Le scaglie nere di quest’uovo sono increspate e vorticano di un cremisi profondo."
+  dragon_egg_blackdarkred_desc_living:0 "Le scaglie nere di quest’uovo sono increspate e vorticano di un cremisi profondo."
+
+  dragon_egg_icefire:0 "Uovo di drago ghiaccio e fuoco"
+  dragon_egg_icefire_desc:0 "$dragon_egg_gen_desc$ Le scaglie di quest’uovo mostrano un contrasto tra rossi infuocati e blu ghiaccio, come se fuoco e ghiaccio fossero in eterna contesa."
+  dragon_egg_icefire_desc_living:0 "Le scaglie di quest’uovo mostrano un contrasto tra rossi infuocati e blu ghiaccio, come se fuoco e ghiaccio fossero in eterna contesa..."
+
+
   dragon_egg_black:0 "Uovo di Drago Nero"
   dragon_egg_black_desc:0 "$dragon_egg_gen_desc$ La lucentezza di ossidiana di quest'uovo ricorda le notti senza luna più oscure."
   dragon_egg_black_desc_living:0 "La lucentezza di ossidiana di quest'uovo ricorda le notti senza luna più oscure."
@@ -500,15 +512,21 @@
   dragon_egg_green_1:0 "Uovo di Drago Verde"
   dragon_egg_green_1_desc:0 "$dragon_egg_gen_desc$ Un verde giada, le scaglie di questo uovo sono più che belle."
   dragon_egg_green_1_desc_living:0 "Di un verde smeraldo, le scaglie di questo uovo sono più che belle."
-  dragon_egg_green_2:0 "Uovo di Drago Verde"
-  dragon_egg_green_2_desc:0 "$dragon_egg_gen_desc$ Un verde giada intrecciato con il bronzo, le scaglie di questo uovo sono più che belle."
-  dragon_egg_green_2_desc_living:0 "Un verde scuro mescolato con bronzo, le scaglie di questo uovo sono più che belle."
-  dragon_egg_grey_1:0 "Uovo di Drago Grigio"
-  dragon_egg_grey_1_desc:0 "$dragon_egg_gen_desc$ L'ombra fumosa di questo uovo ricorda la cenere vulcanica."
-  dragon_egg_grey_1_desc_living:0 "L'ombra fumosa di questo uovo ricorda la cenere vulcanica."
-  dragon_egg_grey_2:0 "Uovo di Drago Grigio"
-  dragon_egg_grey_2_desc:0 "$dragon_egg_gen_desc$ L'ombra fumosa di questo uovo ricorda la cenere vulcanica."
-  dragon_egg_grey_2_desc_living:0 "L'ombra fumosa di questo uovo ricorda la cenere vulcanica."
+
+  dragon_egg_green_2:0 "Uovo di drago berillo"
+  dragon_egg_green_2_desc:0 "$dragon_egg_gen_desc$ Un verde profondo intrecciato al bronzo, le scaglie di quest’uovo sono più che meravigliose."
+  dragon_egg_green_2_desc_living:0 "Un verde profondo intrecciato al bronzo, le scaglie di quest’uovo sono più che meravigliose."
+
+  dragon_egg_grey_1:0 "Uovo di drago grigio"
+  dragon_egg_grey_1_desc:0 "$dragon_egg_gen_desc$ L’ombra fumosa di quest’uovo ricorda quella della cenere vulcanica."
+  dragon_egg_grey_1_desc_living:0 "L’ombra fumosa di quest’uovo ricorda quella della cenere vulcanica."
+
+  dragon_egg_grey_2:0 "Uovo di drago ardesia"
+  dragon_egg_grey_2_desc:0 "$dragon_egg_gen_desc$ L’ombra fumosa di quest’uovo ricorda quella della cenere vulcanica."
+  dragon_egg_grey_2_desc_living:0 "L’ombra fumosa di quest’uovo ricorda quella della cenere vulcanica."
+
+
+
   dragon_egg_gold:0 "Uovo di Drago d'Oro"
   dragon_egg_gold_desc:0 "$dragon_egg_gen_desc$ Adornato con scaglie dorate incantevoli che brillano alla luce, questo uovo è una bellezza."
   dragon_egg_gold_desc_living:0 "Le scaglie dorate di questo uovo brillano alla luce."
@@ -683,6 +701,52 @@
   dragon_blood_and_bones_potion:0 "Elisir del Drago"
   dragon_blood_and_bones_potion_desc:0 "Un elisir torbido realizzato con il sangue e le ossa fresche di [dragon.GetName]. Sebbene i suoi effetti non siano del tutto chiari, coloro che l'hanno consumato sono noti per avere... esperienze strane che attribuiscono a questo elisir."
 
+
+  gold_leaves_name:0 "Foglie d’oro"
+  gold_leaves_desc:0 "Si dice che queste coppie di foglie d’oro siano cadute dall’albero dorato cresciuto da Rowan Alberod’oro, dall’alto di una mela legata ai suoi capelli d’oro filato. La verità è dubbia, poiché un orafo avrebbe potuto semplicemente forgiare le foglie, ma la Casa Rowan serba grande risentimento verso tali pretese."
+
+  bors_skull_name:0 "Teschio di Bors"
+  bors_skull_desc:0 "Questo antico cimelio della Casa Bulwer è il teschio di un uomo dal quale spuntano lucide corna di toro — una deformità che Bors il Demolitore acquistò bevendo solo sangue di toro. La Citiglia resta scettica su tale racconto."
+
+  elenei_cloak_name:0 "Mantello della Vergine Elenei"
+  elenei_cloak_desc:0 "Questo mantello, tessuto con stoffa sconosciuta, era un prezioso cimelio della Casa Durrandon e ora della Casa Baratheon. Il tessuto è morbido e bello, simile alla seta ma più leggero e resistente, e spesso usato a sostegno della divinità di Elenei."
+  elenei_cloak_old_desc:0 "Questo mantello, tessuto con stoffa sconosciuta, è un prezioso cimelio della Casa Durrandon. Il tessuto è morbido e bello, simile alla seta ma più leggero e resistente, e spesso usato a sostegno della divinità di Elenei."
+
+  stone_skin_club_name:0 "Clava di Pelle di Pietra"
+  stone_skin_club_desc:0 "Argoth PellediPietra, secondo le leggende dell’Altopiano, vinse il primo torneo mai tenuto a Westeros. Tuttavia, il ‘Gigante Grigio’ non ricevette mai il premio — la mano di Maris la Vergine — e trascorse il resto della vita ruggendo per lei fuori dalla Città Vecchia."
+
+  herndons_horn_name:0 "Frammenti del Corno di Herndon"
+  herndons_horn_desc:0 "Frammenti frantumati di un antico corno d’osso: la Casa Tarly afferma che siano i resti del corno da caccia usato da Herndon del Corno, uno dei leggendari fratelli fondatori della loro casata."
+
+  florys_cloak_01_name:0 "Mantello delle Nozze della Volpe"
+  florys_cloak_01_desc:0 "Secondo la leggenda, Florys la Volpe sposò tre mariti, indossando un mantello diverso per ciascun matrimonio. Si dice che questo sia uno di essi, rimasto nelle mani della Casa Florent sin dall’Era degli Eroi."
+  florys_cloak_02_name:0 "Mantello delle Nozze della Volpe"
+  florys_cloak_02_desc:0 "Secondo la leggenda, Florys la Volpe sposò tre mariti, indossando un mantello diverso per ciascun matrimonio. Si dice che questo sia uno di essi, rimasto nelle mani della Casa Peake sin dall’Era degli Eroi."
+  florys_cloak_03_name:0 "Mantello delle Nozze della Volpe"
+  florys_cloak_03_desc:0 "Secondo la leggenda, Florys la Volpe sposò tre mariti, indossando un mantello diverso per ciascun matrimonio. Si dice che questo sia uno di essi, rimasto nelle mani della Casa Ball sin dall’Era degli Eroi."
+
+  foss_bow_name:0 "Arco di Foss"
+  foss_bow_desc:0 "Quest’antico arco, conservato per non rompersi, sarebbe quello di Foss l’Arciere, padre dei Fossoway e figlio del leggendario Garth Maniaverde. Foss era celebre per abbattere mele dal capo di qualunque donzella attirasse il suo sguardo."
+
+  dondarrion_message_name:0 "Messaggio del Signore del Fulmine"
+  dondarrion_message_desc:0 "Si narra che la Casa Dondarrion nacque quando un lampo porpora squarciò il cielo, salvando un messaggero da due Dorniani in agguato e permettendogli di recapitare il messaggio in tempo. Si dice che questo sia quel medesimo messaggio, sigillato e conservato come cimelio."
+
+  flaying_knife_name:0 "Coltello Affilato"
+  flaying_knife_desc:0 "Una lama tagliente, un tempo usata per scorticare la carne di coloro abbastanza sventurati da definirsi nemici della Casa Bolton. Sebbene la pratica sia proibita, le vecchie abitudini muoiono dure — e voci insistono che continuino a scuoiar prigionieri e a esporre le pelli in una camera segreta del Forte dell’Orrore."
+
+  falcon_knight_helm_name:0 "Elmo Rotto del ‘Cavaliere Falco’"
+  falcon_knight_helm_desc:0 "L’elmo rotto del Cavaliere Falco di facciata, ucciso da Re Robar II Royce. Fu grazie al coraggio di quel cavaliere che Ser Artys Arryn, il vero Cavaliere Falco, poté assalire i Primi Uomini da dietro e vincere la Battaglia delle Sette Stelle."
+
+  marsh_king_mount_name:0 "Pelle della Bestia del Re delle Paludi"
+  marsh_king_mount_desc:0 "La Casa Reed custodisce da tempo la pelle della lucertaleone personale del Re delle Paludi, con cui cavalcava in battaglia contro i Re d’Inverno."
+
+  horns_of_the_wood_name:0 "Corna della Foresta"
+  horns_of_the_wood_desc:0 "I grandi palchi di un alce maschio montati su una pregevole targa."
+
+  green_hand_tabard_name:0 "Tabarro della Mano Verde"
+  green_hand_tabard_desc:0 "Un tabarro recante lo stemma dell’Ordine della Mano Verde. Sebbene ufficialmente gli ultimi membri dell’ordine siano morti con Re Mern IX Giardiniere al Campo del Fuoco, molti cavalieri della Casa Manderly nel Nord ne rivendicano ancora l’appartenenza."
+
+
   bittersteel_skull:0 "Teschio di Bittersteel"
   bittersteel_skull_desc:0 "Teschio di Bittersteel, primo Capitano-Generale della Compagnia Dorata."
   maelys_skull:0 "Teschio di Maelys il Monstruoso"
@@ -755,6 +819,9 @@
   horn_of_herrock_name:0 "Corno di Herrock"
   horn_of_herrock_desc:0 "Un grande corno nero, attorcigliato e bandeato in oro. La leggenda narra che [GetScriptedCharacterByHistoryID('KenningK_4').GetFirstNameNicknamed] lo suonò fuori dalle mura di [GetTitleByKey('c_kayce').GetNameNoTier] come segnale per le prostitute della città di aprire una porta secondaria, permettendo a lui e ai suoi uomini di prendere la città per Casa [GetDynastyByID('dynn_Lannister').GetName]."
   horn_of_herrock_valid:0 "Deve essere un membro della Casa [GetDynastyHouseByID('house_KenningK').GetName] e detenere la contea di [GetTitleByKey('c_kayce').GetNameNoTier] come tua [realm_capital|E]."
+
+  krakenhorn_name:0 "Corno del Kraken"
+  krakenhorn_desc:0 "Tra i tesori accumulati dalla Casa [GetDynastyByID('dynn_Celtigar').GetName] si dice vi sia un magnifico corno che, soffiato, richiama i kraken dalle profondità del mare.\n\nLe creature degli abissi obbediscono davvero al suo richiamo? La verità è tutt’altro che chiara. In ogni caso, è un #italic molto bello#! corno."
 
   #Maester Artifacts
   artifact_maester_link:0 "Anello della Catena"

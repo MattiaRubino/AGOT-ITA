@@ -17,6 +17,17 @@
   weirwood_meditate_decision_tooltip:0 "Visiterai il Parco degli Dei per una possibilità di rinnovamento."
   weirwood_meditate_decision_confirm:0 "Gli alberi mi chiamano."
 
+  high_heart_the_pact_decision:0 "Rigenerare gli alberi sacri di High Heart"
+  high_heart_the_pact_decision_desc:0 "Per troppo tempo, High Heart è rimasta un monumento agli Andali e alle loro nuove divinità. È tempo di incoronare nuovamente la collina con gli alberi sacri — i loro volti scolpiti vigileranno su chiunque vi si avventuri."
+  high_heart_the_pact_decision_effect:0 "Pianterai la selva, che si svilupperà infine in [GetBuilding('agot_high_heart_01').GetName]"
+  high_heart_the_pact_decision_tooltip:0 "Rigenererai gli alberi sacri di High Heart"
+  high_heart_the_pact_decision_confirm:0 "Gli Antichi Dei lo sussurrano!"
+
+  high_heart_the_seven_decision:0 "Abbattere gli alberi sacri di High Heart"
+  high_heart_the_seven_decision_desc:0 "L'opera di Erreg è stata vanificata. Ora dobbiamo purificare High Heart dagli alberi demoniaci ancora una volta."
+  high_heart_the_seven_decision_tooltip:0 "Abbatterai gli alberi sacri di High Heart"
+  high_heart_the_seven_decision_confirm:0 "Come esigono i Sette!"
+
   # House Revival
   house_revival_tooltip:0 "Per violenza o destino, questa casata è estinta, ma a causa della sua storia rinomata può essere resuscitata."
   darklyn_revival_decision:0 "Risuscitare Casa Darklyn"
@@ -91,6 +102,7 @@
   reforge_valyrian_steel_decision_confirm:0 "Chiamate lo speziale!"
   reforge_valyrian_steel_decision_tooltip:0 "Inizierai il processo di riforgiare una lama in acciaio di Valyria in tuo possesso"
   reforge_valyrian_steel_excellent_aptitude:0 "Il tuo $court_smith_court_position$ deve avere un’attitudine di livello #V Eccellente#!, con conoscenze nella riforgiatura dell’Acciaio di Valyria o appartenere a una fede con il precetto [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
+  reforge_valyrian_steel_additional_requirements:0 "Al tuo $court_smith_court_position$ serve o la sapienza di riforgiare l’Acciaio di Valyria o una fede col tenet [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
 
   # Dawn
   claim_dawn_unworthy_decision:0 "Rivendica Alba"
@@ -107,6 +119,18 @@
   recover_brightroar_decision_desc:0 "Finanzierò un coraggioso esploratore affinché si avventuri tra le rovine insidiose della Vecchia Valyria alla ricerca di Ruggibrillante, la spada ancestrale della Casa Lannister."
   recover_brightroar_decision_tooltip:0 "Organizza una spedizione per recuperare Ruggibrillante"
   recover_brightroar_decision_confirm:0 "Prepara una nave"
+
+  #Retrieve Hidden Artifact
+  retrieve_hidden_artifact_decision:0 "Recupera l'artefatto nascosto"
+  retrieve_hidden_artifact_decision_desc:0 "All'oscuro del mondo, posseggo [ROOT.Char.Custom('HiddenArtifact')]. Non vedo più ragione di tenerlo segreto. È giunto il momento di rivelarlo."
+  retrieve_hidden_artifact_decision_tooltip:0 "Recupera un artefatto attualmente nascosto"
+  retrieve_hidden_artifact_decision_confirm:0 "Si sappia!"
+
+  #Retrieve Stored Artifacts
+  retrieve_stored_artifacts_decision:0 "Recupera gli artefatti custoditi"
+  retrieve_stored_artifacts_decision_desc:0 "Molte reliquie della Casa Targaryen giacciono dimenticate nelle segrete sotto la Fortezza Rossa. Corone e antichi teschi di drago raccolgono polvere in silenzio. È tempo di farle riaffiorare e restituirle al loro legittimo posto nella storia."
+  retrieve_stored_artifacts_decision_tooltip:0 "Recupera gli artefatti Targaryen custoditi sotto la Fortezza Rossa"
+  retrieve_stored_artifacts_decision_confirm:0 "Manda i servi sotto."
 
   ###############################################################
   ## Manage Realm Affairs - World Notification Config Decision ##
@@ -333,3 +357,9 @@
   control_realm_borders_open_effect_tt.vale:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
   control_realm_borders_open_effect_tt.north:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
   control_realm_borders_open_effect_tt.iron_islands:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+
+  # AI only, blank loc keys
+  agot_request_paramountcy_ai_desc:0 ""
+  agot_request_paramountcy_ai:0 ""
+  agot_request_paramountcy_ai_tooltip:0 ""
+  agot_request_paramountcy_ai_confirm:0 ""

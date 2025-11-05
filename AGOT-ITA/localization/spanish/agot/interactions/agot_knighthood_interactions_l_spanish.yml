@@ -16,15 +16,15 @@
   agot_offer_squire_interaction_desc:0 "Offri a [recipient.GetShortUIName] un [squire|E], rendendo qualcuno nella sua [court|E], [agot_knight|E] del personaggio scelto."
   agot_offer_squire_interaction_extra_icon:0 "$hook_extra_icon$"
 
-  agot_offer_knight_education_interaction:0 "Offri Educazione a Cavaliere"
-  agot_offer_knight_education_interaction_desc:0 "Offri a [recipient.GetShortUIName] un [agot_knight|E], facendo diventare qualcuno nella sua [court|E], [squire|E] del personaggio adulto scelto."
-  agot_oagot_offer_knight_education_interaction_extra_icon:0 "$hook_extra_icon$"
+  agot_offer_knight_tutelage_interaction:0 "Offri Educazione a Cavaliere"
+  agot_offer_knight_tutelage_interaction_desc:0 "Offri a [recipient.GetShortUIName] un [agot_knight|E], facendo diventare qualcuno nella sua [court|E], [squire|E] del personaggio adulto scelto."
+  agot_oagot_offer_knight_tutelage_interaction_extra_icon:0 "$hook_extra_icon$"
 
   actor_secondary_agot_offer_squire_interaction:0 "Scudiero"
   recipient_secondary_agot_offer_squire_interaction:0 "Cavaliere"
 
-  actor_secondary_agot_offer_knight_education_interaction:0 "Cavaliere"
-  recipient_secondary_agot_offer_knight_education_interaction:0 "Scudiero"
+  actor_secondary_agot_offer_knight_tutelage_interaction:0 "Cavaliere"
+  recipient_secondary_agot_offer_knight_tutelage_interaction:0 "Scudiero"
 
   EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT:0 "#I Scegli uno [squire|E] o [agot_knight|E] dalla tua [court|E]#!"
   EDUCATE_SELECT_THEIR_KNIGHT:0 "#I Scegli un [agot_knight|E] dalla loro [court|E]#!"
@@ -46,14 +46,15 @@
   offer_of_squirehood:0 "Offerta di Scudiero"
   OFFER_SQUIREHOOD_NOTIFICATION:0 "Il cammino verso il cavalierato inizia con lo scudiero. Diventa il mio scudiero e garantirò che, se sarai uno studente degno, diventerai un giorno cavaliere per mano mia!" #AGOT TODO per favore riscrivi questo
 
-  agot_remove_my_squire_interaction:0 "Rimuovi Scudiero"
-  agot_remove_my_squire_interaction_desc:0 "[recipient.GetFirstNameNicknamedNoTooltipRegnal] è il tuo scudiero, ma con poche parole, puoi rimuoverlo da quella posizione."
+  agot_remove_my_squire_interaction:0 "Rimuovi lo Scudiero"
+  agot_remove_my_squire_interaction_desc:0 "Rimuovi [recipient.GetFirstNameNicknamedNoTooltipRegnal] dalla sua posizione di tuo [scudiero|E]."
 
-  squirehood_removal:0 "Rimosso dallo Scudiero"
-  REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "Ai miei occhi, non sei più degno di essere uno scudiero! Dovrai trovare un cavaliere diverso per continuare il tuo addestramento cavalleresco!"
+  squirehood_removal:0 "Privato dello Scudierato"
+  REMOVAL_OF_SQUIREHOOD_NOTIFICATION:0 "Ai miei occhi non sei più degno di essere uno scudiero! Dovrai trovare un altro cavaliere per proseguire il tuo addestramento cavalleresco."
 
-  agot_train_squire_interaction:0 "Addestra Scudiero"
-  agot_train_squire_interaction_desc:0 "Addestra [recipient.GetFirstNameNicknamedNoTooltipRegnal] nei modi del cavaliere."
+  agot_train_squire_interaction:0 "Addestra lo Scudiero"
+  agot_train_squire_interaction_desc:0 "Addestra [recipient.GetFirstNameNicknamedNoTooltipRegnal] alle vie della cavalleria. [recipient.GetSheHe|U] continuerà comunque a vivere eventi di addestramento automatico da [scudiero|E] al di fuori di questa interazione."
+
 
   remove_knight_interaction:0 "Rimuovi Cavaliere del Figlio"
   remove_knight_interaction_desc:0 "Rimuovi il cavaliere di [recipient.GetNamePossessive]."

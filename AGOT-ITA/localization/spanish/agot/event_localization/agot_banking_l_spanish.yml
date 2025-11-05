@@ -142,7 +142,9 @@
   agot_banking.0203.desc:0 "La [ROOT.Char.Custom('agot_bank_name')] ha inviato un emissario per chiedermi se sono disposto a investire nella banca acquistando una quota delle sue attività. Ogni cinque anni riceverei [agot_bank_dividends|E] su quella quota, oppure potrei venderla in anticipo per ottenere oro.\n\nIl prezzo attuale di una quota è @gold_icon! [ROOT.Var('ShareBuyingPrice').GetValue|2|N]."
   agot_banking.0203.a:0 "Non posso permettermelo!"
   agot_banking.0203.b:0 "Affare fatto!"
-  agot_banking.0203.c:0 "Non ora, ho cambiato idea."
+  agot_banking.0203.c:0 "Acquisterò 5 azioni."
+  agot_banking.0203.d:0 "Non ora, ho cambiato idea."
+
 
   agot_banking.0204.t:0 "Vendita di una Quota della Banca"
   agot_banking.0204.desc:0 "Non sono soddisfatto dell’oro che ho vincolato nella [ROOT.Char.Custom('agot_bank_name')] per qualche misera moneta ogni lustro! È meglio vendere una quota e recuperare l’oro, prima che il suo valore crolli.\n\nPosso vendere una quota della [ROOT.Char.Custom('agot_bank_name')] e ricevere il suo valore attuale: @gold_icon! [ROOT.Var('ShareSellingPrice').GetValue|2|N]."
@@ -514,3 +516,24 @@
   agot_banking.0705.t:0 "Il Saccheggiatore ha Promesso il Rimborso"
   agot_banking.0705.desc:0 "[bank_raider.GetTitledFirstNameNicknamed] ha ceduto e ha promesso di restituire l’oro rubato entro i prossimi tre anni. Lo considereremo un prestito con interesse annuo del 5%."
   agot_banking.0705.a:0 "Speriamo che [bank_raider.GetSheHe] mantenga la parola."
+
+  gift_share_interaction:0 "Regala una quota bancaria"
+  gift_share_interaction_desc:0 "Regala al personaggio una delle tue azioni in banca"
+  gift_share:0 "Ecco, prendi una quota"
+
+  take_share_interaction:0 "Ritira quote bancarie"
+  take_share_interaction_desc:0 "Prendi tutte le quote bancarie da un membro della casata"
+  take_share:0 "Dammi le tue quote"
+
+  agot_banking.0801.t:0 "Minaccia di fallimento"
+  agot_banking.0801.desc:0 "La [ROOT.Char.Custom('agot_bank_name')] non dispone di riserve in denaro sufficienti per coprire i costi operativi. Tutti gli azionisti sono pertanto invitati ad acquistare subito ulteriori azioni per evitare il fallimento.\n\nSe non si raccolgono fondi a sufficienza, la banca sarà costretta a chiudere definitivamente i battenti."
+  agot_banking.0801.a:0 "Farò la mia parte."
+  agot_banking.0801.b:0 "Confido negli altri azionisti."
+
+  agot_banking.0803.t:0 "Fallimento"
+  agot_banking.0803.desc:0 "Disastro!\n\nLa [ROOT.Char.Custom('agot_bank_name')] non è riuscita a raccogliere investimenti sufficienti per far fronte ai costi operativi. Di conseguenza, la banca è ufficialmente fallita e cesserà definitivamente le sue attività."
+  agot_banking.0803.a:0 "Il mio investimento è perso..."
+
+  agot_banking.0804.t:0 "La banca è salva"
+  agot_banking.0804.desc:0 "Grazie alla disponibilità di un numero sufficiente di azionisti a incrementare ancora il loro investimento, il fallimento imminente è stato scongiurato."
+  agot_banking.0804.a:0 "Che sollievo!"

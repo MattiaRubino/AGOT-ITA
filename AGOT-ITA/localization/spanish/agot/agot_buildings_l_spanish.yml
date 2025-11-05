@@ -25,6 +25,10 @@
   building_monastery_04:1 "Grande Monastero"
   building_monastery_04_desc:1 "L'ex piccola comunità religiosa è cresciuta in un grande monastero che serve centinaia di fratelli e sorelle giurati, e rappresenta il cuore del pensiero e della discussione sulle credenze più profonde della fede. La città nelle vicinanze è cresciuta diventando una piccola città per supportare le numerose persone che vengono e vanno dal grande monastero."
 
+  building_type_unknown_01:0 "Sconosciuto"
+  building_unknown_01:0 "Sconosciuto"
+  building_unknown_01_desc:0 "Questa località è sconosciuta."
+
   building_type_godswood_01:0 "Parco degli Dei"
   building_type_godswood_01_desc:0 "Quando i Primi Uomini adottarono i Vecchi Dei dei figli della foresta, crearono il Parco degli Dei, radure all'interno dei loro castelli e villaggi dove veniva piantato un singolo albero cuoriforme, noto come 'albero centrale' e scolpito con un volto, per poter adorare gli dei."
   building_godswood_01:0 "Giardino degli Dei"
@@ -148,6 +152,52 @@
   building_agot_scholastic_guilds_03:0 "Osservatorio"
   building_agot_scholastic_guilds_03_desc:0 "Con l'acquisizione di alcuni Occhi di Myr, la gilda accademica ha completato un osservatorio, portando i loro studi del cielo e delle stelle a nuove vette."
   TOOLTIP_SCHOLASTIC_GUILDS_03:0 "Ti mancano abbastanza studiosi per viaggiare a [GetTitleByKey('b_myr').GetNameNoTier] per invitarne alcuni"
+
+  # AGOT Slave Duchy Buildings
+  building_type_agot_slave_diplomacy_01:0 "Case del Piacere"
+  building_type_agot_slave_diplomacy_01_desc:0 "Gli schiavi possono addestrarsi a molti mestieri, ma quelli istruiti nelle arti dell’amore e del desiderio sono rinomati in tutto il mondo."
+  building_agot_slave_diplomacy_01:0 "Schiavi da Letto"
+  building_agot_slave_diplomacy_01_desc:0 "L’uso degli schiavi da letto è un mezzo efficace per alleviare lo stress e compiacere dignitari stranieri."
+  building_agot_slave_diplomacy_02:0 "Via dei Sette Sospiri"
+  building_agot_slave_diplomacy_02_desc:0 "Gli schiavi qui sono addestrati alla Via dei Sette Sospiri, donando relax e rinvigorimento ai visitatori."
+  building_agot_slave_diplomacy_03:0 "Sedici Seggi del Piacere"
+  building_agot_slave_diplomacy_03_desc:0 "Gli schiavi di questo luogo non sono solo addestrati, ma hanno perfezionato l’uso dei Sedici Seggi del Piacere, attirando apprezzamenti da terre lontane."
+
+  building_type_agot_slave_stewardship_01:0 "Piazze del Mercato"
+  building_type_agot_slave_stewardship_01_desc:0 "Il commercio degli schiavi è fonte di ricchezza per città, nazioni ed imperi."
+  building_agot_slave_stewardship_01:0 "Celle per Schiavi"
+  building_agot_slave_stewardship_01_desc:0 "La chiave per lucrare nel commercio è disporre di spazio sufficiente per il «merce»."
+  building_agot_slave_stewardship_02:0 "Banchi d’Asta"
+  building_agot_slave_stewardship_02_desc:0 "Perché vendere uno schiavo a prezzo fisso quando i compratori possono gareggiare in offerte, facendo lievitare il prezzo?"
+  building_agot_slave_stewardship_03:0 "Torrione del Mercato"
+  building_agot_slave_stewardship_03_desc:0 "Le vendite sono talmente fiorenti che il mercato si è esteso oltre un semplice spazio, divenendo un vero torrione!"
+
+  building_type_agot_slave_martial_01:0 "Piazze di Guerra"
+  building_type_agot_slave_martial_01_desc:0 "L’impiego di soldati schiavi è tradizione antica, su cui imperi e feudi si sono fondati."
+  building_agot_slave_martial_01:0 "Piazza della Punizione"
+  building_agot_slave_martial_01_desc:0 "La Piazza della Punizione è rinomata per le pene inflitte ai nuovi arrivati durante l’addestramento militare."
+  building_agot_slave_martial_02:0 "Piazza della Pazienza"
+  building_agot_slave_martial_02_desc:0 "I soldati schiavi della Piazza della Pazienza sono addestrati da anni e obbediscono a ogni ordine senza esitazione."
+  building_agot_slave_martial_03:0 "Piazza dell’Orgoglio"
+  building_agot_slave_martial_03_desc:0 "Qui i migliori soldati schiavi sono in mostra: solo chi ha superato ogni prova e sopravvissuto a battaglie merita d’essere qui."
+
+  building_type_agot_slave_learning_01:0 "Accademie degli Eunuchi"
+  building_type_agot_slave_learning_01_desc:0 "Gli schiavi qui sono dedicati agli studi e alle arti al servizio dei padroni."
+  building_agot_slave_learning_01:0 "Schiavi Sacerdoti"
+  building_agot_slave_learning_01_desc:0 "Perfino i sacerdoti sono schiavi, se non agli uomini, certo agli dèi."
+  building_agot_slave_learning_02:0 "Archivi del Tempio"
+  building_agot_slave_learning_02_desc:0 "Gli schiavi dei templi custodiscono registri antichissimi, risalenti a millenni."
+  building_agot_slave_learning_03:0 "Studi Accademici"
+  building_agot_slave_learning_03_desc:0 "Gli schiavi dell’accademia sono devoti agli studi in ogni disciplina."
+
+  building_type_agot_slave_intrigue_01:0 "Occhi e Orecchie"
+  building_type_agot_slave_intrigue_01_desc:0 "Devi sapere che in ogni luogo esistono sempre occhi e orecchie, e l’unico segreto sicuro è quello noto a una sola creatura."
+  building_agot_slave_intrigue_01:0 "Schiavi Attendant"
+  building_agot_slave_intrigue_01_desc:0 "Chi detiene il potere è circondato dagli schiavi: essi ascoltano e, a giusto compenso, parlano."
+  building_agot_slave_intrigue_02:0 "Topi Ascoltatori"
+  building_agot_slave_intrigue_02_desc:0 "I muri non hanno orecchie, ma i topi che vi scorazzano certamente sì."
+  building_agot_slave_intrigue_03:0 "Uccelli Spie"
+  building_agot_slave_intrigue_03_desc:0 "Non solo i muri hanno orecchie, ma sembra che gli uccelli abbiano occhi: i segreti dei tuoi sudditi ti arrivano prima ancora di esser pensati."
 
   #AGOT Special Buildings
 
@@ -396,6 +446,17 @@
   building_agot_ruins_hightide_02:0 "Sala delle Maree Ricostruita"
   building_agot_ruins_hightide_02_desc:0 "Ricostruita nuovamente nella sua antica grandezza, la Sala delle Maree è ancora una meraviglia della Casa Velaryon. I tetti d'argento di Alta Marea, le alte torri e la grande sala mostrano di nuovo a tutti la grandiosità di Driftmark."
 
+  building_type_agot_driftmark_01:0 "Driftmark"
+  building_type_agot_driftmark_01_desc:0 "La sede ancestrale della Casa Velaryon: è da qui che il Signore delle Maree tramò il suo potere e condusse la casata alla gloria."
+  building_agot_driftmark_01:0 "Il Patto del Re dei Tritoni"
+  building_agot_driftmark_01_desc:0 "Quando gli avi della Casa Velaryon sbarcarono per la prima volta a Westeros, non avevano nulla: né nome, né terre, né ricchezze. Eppure il Re dei Tritoni ne percepì la grandezza e stipulò con loro un patto, donando loro il Trono di Legno, l’Isola di Driftmark e il titolo di Signore delle Maree. Da quel patto la Casa Velaryon crebbe fino a diventare una delle più illustri stirpi di sangue valyriano, seconda solo ai signori dei draghi stessi."
+
+  building_type_agot_rooks_rest_01:0 "Rook's Rest"
+  building_type_agot_rooks_rest_01_desc:0 "Capoluogo della Casa Staunton, Rook's Rest ha sempre vegliato sui territori più civili contro gli insidiosi paludi dei Bogmen."
+  building_agot_rooks_rest_01:0 "Resti Carbonizzati"
+  building_agot_rooks_rest_01_desc:0 "La Danza dei Draghi fu forse la guerra più crudele nella storia del Trono di Spade: vide la morte di draghi, sangue di famiglia e re. La Battaglia di Rook's Rest fu una delle più feroci. Alla fine, Aegon II e Sunfyre rimasero sfigurati e menomati, mentre Rhaenys “la Regina che non fu mai” e Meleys la Regina Rossa caddero carbonizzate. La testa di Meleys fu riportata alla Fortezza Rossa, ma il suo corpo giace ancora oggi oltre le mura del castello."
+
+
   # Reach Special Buildings
   building_type_highgarden_01:0 "Alto Giardino"
   building_type_highgarden_01_desc:0 "Il pittoresco castello di Alto Giardino ha servito prima come sede della Casa Gardener e poi della Casa Tyrell. È da lungo tempo famoso per la bellezza del suo Tempio e dei suoi giardini e come dimora di artisti e musicisti."
@@ -482,6 +543,10 @@
   building_agot_brightwater_moat_01:0 "Fossato d'Acque Chiare"
   building_agot_brightwater_moat_01_desc:0 "Vicino alle sorgenti dell'Honeywine, Rocca d'Acque Chiare utilizza il fiume per creare un grande fossato a protezione della rocca. Non è grandioso o famoso come il fossato di Delta delle Acque, ma protegge comunque bene il castello."
 
+  building_type_agot_mermaids_palace_01:0 "Palazzo delle Sirene"
+  building_type_agot_mermaids_palace_01_desc:0 "L’Arbor e le isole circostanti son sempre state terre di abbondanza, che attirano genti da ogni angolo del mondo. Se alle leggende si dà fede, persino i metamorfi del mare vi si avvicinarono. Sulla seconda isola per vastità si narra che le sirene edificarono un sontuoso palazzo, richiamando a sé coloro disposti a cantar loro dolci lodi da ogni reame degli uomini."
+  building_agot_mermaids_palace_01:0 "$building_type_agot_mermaids_palace_01$"
+  building_agot_mermaids_palace_01_desc:0 "$building_type_agot_mermaids_palace_01_desc$"
 
   # Riverlands Special Buildings
 
@@ -494,6 +559,12 @@
   building_type_the_twins_01_desc:0 "Le Torri Gemelle, o il Guado, sono la sede della Casa Frey. Appropriatamente chiamato in entrambi i casi, il castello è definito da una coppia di torri gemelle su lati opposti del Green Fork, un grande ponte di pietra che le collega. È ben fortificato, con fossati che circondano ciascuna delle torri, trasformando entrambe in isole situate all'interno del fiume."
   building_the_twins_01:0 "$building_type_the_twins_01$"
   building_the_twins_01_desc:0 "$building_type_the_twins_01_desc$"
+
+  building_type_generic_harrenhal_01:0 "Il Castello Nero"
+  building_type_generic_harrenhal_01_desc:0 "Per dimostrare la potenza e l’unità delle Terre dei Fiumi, è stato innalzato un nuovo castello — una maestosa roccaforte — capace di rivaleggiare con l’Eyrie, Casterly Rock e Storm’s End. Le sue mura si stagliano più alte di ogni altra, il suo bosco sacro è più vasto di quello di molti castelli, e le sue imponenti torri nere incutono terrore in chiunque osi assediarlo."
+  building_generic_harrenhal_01:0 "$building_type_generic_harrenhal_01$"
+  building_generic_harrenhal_01_desc:0 "$building_type_generic_harrenhal_01_desc$"
+
 
   building_type_harrenhal_01:0 "Harrenhal"
   building_type_harrenhal_01_desc:0 "Il castello della Casa Hoare, Harrenhal si erge come una testimonianza della dinastia di Harren il Nero e dei suoi Uomini di Ferro sui Fiumi. Considerato il più grande castello di Westeros, sebbene ciò sia contestato da coloro che si trovano nei Westerlands, è una chiara dichiarazione del controllo e della prominenza degli Hoare non solo sul loro dominio, ma anche sulle terre circostanti."
@@ -527,12 +598,17 @@
   building_agot_inn_at_the_crossroads_01:0 "$building_type_agot_inn_at_the_crossroads_01$"
   building_agot_inn_at_the_crossroads_01_desc:0 "$building_type_agot_inn_at_the_crossroads_01_desc$"
 
-  building_type_agot_high_heart_01:0 "Cuore Alto"
-  building_type_agot_high_heart_01_desc:0 "Su Cuore Alto si erge una grande radura di alberi cuoriformi, la più grande collezione di alberi a sud dell'Incollatura al di fuori dell'Isola dei Volti."
-  building_agot_high_heart_01:0 "Radura di Cuoralto"
-  building_agot_high_heart_01_desc:0 "Su Cuore Alto si erge una grande radura di alberi cuoriformi, la più grande collezione di alberi a sud dell'Incollatura al di fuori dell'Isola dei Volti."
-  building_agot_high_heart_02:0 "Radura Abbattuta
-  building_agot_high_heart_02_desc:0 "Quando gli Andali arrivarono a Cuore Alto, abbatterono tutti gli alberi demoniaci, ponendo fine all'influenza degli Antichi Dei nelle Terre dei Fiumi."
+  building_type_agot_high_heart_01:0 "High Heart"
+  building_type_agot_high_heart_01_desc:0 "Su High Heart si erge un'ampia selva di alberi sacri, la più vasta raccolta di tali alberi a sud de L'Incollatura, al di fuori dell'Isola dei Volti."
+  building_agot_high_heart_01:0 "Selva di High Heart"
+  building_agot_high_heart_01_desc:0 "Su High Heart si erge un'ampia selva di alberi sacri, la più vasta raccolta di tali alberi a sud de L'Incollatura, al di fuori dell'Isola dei Volti."
+
+  building_type_agot_ruin_high_heart_01:0 "High Heart"
+  building_type_agot_ruin_high_heart_01_desc:0 "Su High Heart si ergeva un'ampia selva di alberi sacri, la più vasta raccolta di tali alberi a sud de L'Incollatura, al di fuori dell'Isola dei Volti."
+  building_agot_ruin_high_heart_01:0 "Selva di High Heart"
+  building_agot_ruin_high_heart_01_desc:0 "Su High Heart si ergeva un'ampia selva di alberi sacri, la più vasta raccolta di tali alberi a sud de L'Incollatura, al di fuori dell'Isola dei Volti."
+  building_agot_ruin_high_heart_02:0 "Selva Abbattuta"
+  building_agot_ruin_high_heart_02_desc:0 "Quando gli Andali giunsero a High Heart, abbatterono tutti gli alberi demonici, ponendo fine all'influsso degli Antichi Dei nelle Terre dei Fiumi."
 
   building_type_agot_seagard_01:0 "Seagard"
   building_type_agot_seagard_01_desc:0 "Seagard ha resistito agli Uomini di Ferro e ai loro assalti per innumerevoli millenni. Per questo è stata costruita la Torre Risonante. Il suo suono si può sentire per miglia e miglia."
@@ -561,6 +637,27 @@
   building_type_agot_stoney_sept_01_desc:0 "Una città nei Fiumi Meridionali, il Tempio Stoney accoglie viaggiatori da tutti i Sette Regni, dalle Terre delle Tempeste al Nord."
   building_agot_stoney_sept_01:0 "Piazza della Trota Saltante"
   building_agot_stoney_sept_01_desc:0 "La via principale del Tempio Stoney, la piazza è nota per la sua fontana con la trota saltante. Ha tutto ciò che un viaggiatore potrebbe desiderare, dai beni e servizi (compresi i pesche) a letti sicuri."
+
+  building_type_agot_wayfarers_rest_01:0 "Riposo del Viandante"
+  building_type_agot_wayfarers_rest_01_desc:0 "Riposo del Viandante era il castello costruito da Armistead Vance, usato come roccaforte durante gli attacchi andali sulle Terre Occidentali. Ancora oggi i signori del Riposo del Viandante mantengono la numerosa guardia personale istituita dall'antico signore della guerra."
+  building_agot_wayfarers_rest_01:0 "Il Mastio del Signore della Guerra"
+  building_agot_wayfarers_rest_01_desc:0 "$building_type_agot_wayfarers_rest_01_desc$"
+
+  building_type_agot_fairmarket_01:0 "Fairmarket"
+  building_type_agot_fairmarket_01_desc:0 "Fairmarket è uno dei principali centri economici delle Terre dei Fiumi. Sebbene non abbia ottenuto le contee per espandersi e diventare una vera città, attira comunque molti viaggiatori e mercanti. Sarebbe un’ottima sede per qualsiasi aspirante re, anche venuto dal mare."
+  building_agot_fairmarket_01:0 "$building_type_agot_fairmarket_01$"
+  building_agot_fairmarket_01_desc:0 "$building_type_agot_fairmarket_01_desc$"
+
+  building_type_agot_mudgrave_01:0 "Mudgrave"
+  building_type_agot_mudgrave_01_desc:0 "La fine della Casa Mudd arrivò a furor di mille colpi. Tristifer IV respinse gli invasori andali per anni in novantanove battaglie, ma cadde infine nella Battaglia dei Sette Re, condannando la sua casata e segnando l'avvento delle Terre dei Fiumi andal."
+  building_agot_mudgrave_01:0 "$building_type_agot_mudgrave_01$"
+  building_agot_mudgrave_01_desc:0 "$building_type_agot_mudgrave_01_desc$"
+
+  building_type_agot_atranta_01:0 "Atranta"
+  building_type_agot_atranta_01_desc:0 "Sede della casata cadetta Vance, Atranta è da tempo un faro per i fedeli e si trova all'incrocio dei regni delle Cime, dell'Altopiano, delle Terre della Tempesta e delle Terre dei Fiumi."
+  building_agot_atranta_01:0 "$building_type_agot_atranta_01$"
+  building_agot_atranta_01_desc:0 "$building_type_agot_atranta_01_desc$"
+
 
   # Westerlands Special Buildings
 
@@ -595,6 +692,41 @@
   building_type_agot_lions_dock_01_desc:0 "I moli di Lannisport, sebbene non siano grandi come quelli di Volantis o sicuri come quelli di Braavos, attraggono navi da tutto il mondo. Leggende sull'oro della Roccia di Castely sono conosciute da Asshai a Ib, e i mercanti cercheranno sempre l'oro."
   building_agot_lions_dock_01:0 "$building_type_agot_lions_dock_01$"
   building_agot_lions_dock_01_desc:0 "$building_type_agot_lions_dock_01_desc$"
+
+  building_type_agot_crakehall_01:0 "Crakehall"
+  building_type_agot_crakehall_01_desc:0 "Dimora ancestrale della casata Crakehall, discendenti di Crake l’Uccisore di Cinghiali."
+  building_agot_crakehall_01:0 "Campi del Cinghiale di Crake"
+  building_agot_crakehall_01_desc:0 "Crake l’Uccisore di Cinghiali guadagnò il suo epiteto erigendo il castello accanto a vasti campi infestati da grossi cinghiali. Cavalieri e uomini di Crakehall vi cacciano regolarmente queste bestie, addestrando i loro destrieri alla caccia."
+
+  building_type_agot_midges_inn_01:0 "Hetherfield Hall"
+  building_type_agot_midges_inn_01_desc:0 "Antica sede della casata Hetherspoon, Hetherfield Hall è sempre stata fedele vassalla dei Lannister della Roccia del Drago."
+  building_agot_midges_inn_01:0 "Locanda di Midge"
+  building_agot_midges_inn_01_desc:0 "Lungo la Strada d’Oro, presso Hetherfield Hall, sorge la Locanda di Midge. Non esistono documenti chiari sull’identità di Midge, ma da secoli questo nome richiama viandanti da tutti i Sette Regni."
+
+  building_type_agot_deep_den_01:0 "Deep Den"
+  building_type_agot_deep_den_01_desc:0 "Dimora ancestrale della casata Lydden e residenza del primo re andalo della Roccia del Drago, Joffrey Lannister."
+  building_agot_deep_den_01:0 "La Tana Profonda"
+  building_agot_deep_den_01_desc:0 "I Lydden controllano da tempo una delle arterie principali verso le Terre Occidentali e, per difenderla, hanno ampliato il castello in superficie e sottoterra. Hanno scavato gallerie, stanze e rifugi nelle profondità della roccia."
+
+  building_type_agot_cornfield_01:0 "Cornfield"
+  building_type_agot_cornfield_01_desc:0 "Dimora ancestrale della casata Swyft, Cornfield è da sempre sostegno fedele dei Lannister e della Roccia del Drago."
+  building_agot_cornfield_01:0 "Campi Verdi"
+  building_agot_cornfield_01_desc:0 "Cornfield è da secoli il granaio delle Terre Occidentali, con raccolti rigogliosi che nutrono Lannisport e la Roccia del Drago."
+
+  building_type_agot_fair_isle_01:0 "Isola di Fair"
+  building_type_agot_fair_isle_01_desc:0 "Dimora ancestrale della casata Farman, l’Isola di Fair è da sempre teatro di lotte tra le Terre Occidentali e gli Uomini di Ferro."
+  building_agot_fair_isle_01:0 "Darsene dei Farman"
+  building_agot_fair_isle_01_desc:0 "I Farman sono una potenza navale delle Terre Occidentali, fedeli ai Lannister contro i temuti Uomini di Ferro e i predoni dei mari."
+
+  building_type_agot_hornvale_01:0 "Hornvale"
+  building_type_agot_hornvale_01_desc:0 "Antica sede della casata Brax, Hornvale governa la valle da quando gli Andali conquistarono queste terre."
+  building_agot_hornvale_01:0 "Valle del Corno"
+  building_agot_hornvale_01_desc:0 "Fonte della Forca Rossa, la Valle del Corno è ricca di ferro, che dona alle acque la caratteristica tinta rossa."
+
+  building_type_agot_feastfires_01:0 "Feastfires"
+  building_type_agot_feastfires_01_desc:0 "Dimora ancestrale della casata Prester."
+  building_agot_feastfires_01:0 "Torre di Guardia di Lann"
+  building_agot_feastfires_01_desc:0 "Feastfires funge da vedetta avanzata per Lannisport e le Terre Occidentali meridionali contro le incursioni degli Uomini di Ferro: la torre incendia segnali all’avvistamento delle loro navi."
 
   # Stormlands Special Buildings
 
@@ -756,6 +888,32 @@
   building_agot_greywater_watch_01:0 "Il Castello Errante"
   building_agot_greywater_watch_01_desc:0 "Il celebre castello della Casa Reed, il Guardavalle delle Acque Grigie, è famoso per essere il più grande dei castelli dei Paludiatori e, come gli altri, si dice che si sposti attraverso le Paludi dell'Incollatura, rendendolo ancora più difficile da trovare e attaccare."
 
+  building_type_agot_rills_stables_01:0 "Scuderie dei Rills"
+  building_type_agot_rills_stables_01_desc:0 "I Rills sono sempre stati dimora di signori equestri, che fossero della Casa Ryder o della Casa Ryswell. Pur non essendo i cavalli dei Rills grandi quanto quelli impiegati dai cavalieri andali del sud, sono rinomati per la loro velocità e robustezza."
+  building_agot_rills_stables_01:0 "$building_type_agot_rills_stables_01$"
+  building_agot_rills_stables_01_desc:0 "$building_type_agot_rills_stables_01_desc$"
+
+  building_type_agot_widows_watch_01:0 "L'Avviso del Lupo Affamato"
+  building_type_agot_widows_watch_01_desc:0 "Quando gli Andali giunsero al Nord, incontrarono Theon il Lupo Affamato. Non solo sconfisse il Sette Stelle e il suo esercito, ma rese giustizia compiendo incursioni fin dentro Andalos, portando con sé le teste dei caduti lungo le coste settentrionali come monito per i futuri invasori."
+  building_agot_widows_watch_01:0 "$building_type_agot_widows_watch_01$"
+  building_agot_widows_watch_01_desc:0 "$building_type_agot_widows_watch_01_desc$"
+
+  building_agot_widows_watch_02:0 "La Torre della Vedova"
+  building_agot_widows_watch_02_desc:0 "Dall'arrivo dei Manderly, le coste orientali del Nord non sono più così inospitali come un tempo. Eppure la zona conserva il nome di Torre della Vedova, che appartiene al baluardo principale della regione."
+  building_agot_widows_watch_03:0 "Il Rinnovato Avviso del Lupo"
+  building_agot_widows_watch_03_desc:0 "Con il Nord di nuovo libero, i suoi confini sono tornati sotto la sua cura. Come avvertimento per eventuali predoni o schiavisti, gli aculei di Theon sono stati rialzati lungo la costa."
+  agot_widows_watch_trigger:0 "Ora che il Nord ha giurato fedeltà al Trono di Spade, un simile avviso non è più necessario. Ma se mai dovesse tornare indipendente, potrebbe tornare utile risvegliare l'Avviso del Lupo Affamato."
+
+  building_type_agot_flints_cliffs_01:0 "Scogliere di Flint"
+  building_type_agot_flints_cliffs_01_desc:0 "Il Dito di Flint è da sempre teatro di scontri fra gli uomini del Nord e gli Uomini di Ferro, e le Scogliere di Flint hanno custodito la difesa dei Nordiani contro i pericoli del mare."
+  building_agot_flints_cliffs_01:0 "$building_type_agot_flints_cliffs_01$"
+  building_agot_flints_cliffs_01_desc:0 "$building_type_agot_flints_cliffs_01_desc$"
+
+  building_type_agot_grey_cliffs_01:0 "Scogliere Grigie"
+  building_type_agot_grey_cliffs_01_desc:0 "Le Scogliere Grigie hanno sempre favorito la difesa degli uomini del Nord contro le minacce del Mare Ghiacciato, poiché saccheggiatori e schiavisti cercano spesso mete isolate e vulnerabili."
+  building_agot_grey_cliffs_01:0 "$building_type_agot_grey_cliffs_01$"
+  building_agot_grey_cliffs_01_desc:0 "$building_type_agot_grey_cliffs_01_desc$"
+
   # Dorne Special Buildings
   building_type_sunspear_01:0 "Lancia del Sole"
   building_type_sunspear_01_desc:0 "Lancia del Sole è la sede della Casa Nymeros-Martell. Come i Dorniani stessi, il castello è un mix di elementi Roinari e Andali. Accanto alla vecchia fortezza Andala chiamata la Nave di Sabbia, sorgono le Torri del Sole e della Lancia, entrambe costruite nello stile Roinaro. La Torre del Sole è dove il Principe o la Principessa di Dorne regna dai loro troni gemelli, uno recante un sole e l'altro una lancia."
@@ -767,8 +925,13 @@
   building_agot_tower_of_joy_01:0 "$building_type_agot_tower_of_joy_01$"
   building_agot_tower_of_joy_01_desc:0 "$building_type_agot_tower_of_joy_01_desc$"
 
+  building_type_agot_ruin_tower_of_joy_01:0 "$building_type_agot_tower_of_joy_01$"
+  building_type_agot_ruin_tower_of_joy_01_desc:0 "$building_type_agot_tower_of_joy_01_desc$"
+  building_agot_ruin_tower_of_joy_01:0 "Tumuli degli Otto"
+  building_agot_ruin_tower_of_joy_01_desc:0 "Su una cresta del Passo del Principe, potresti imbattersi in otto tombe accanto ai resti di una torre."
+
   building_type_agot_the_water_gardens_01:0 "I Giardini dell'Acqua"
-  building_type_agot_the_water_gardens_01_desc:0 "Costruiti dal Principe Moran per la sua sposa, la Principessa Daenerys, i Giardini dell'Acqua sono diventati un gioiello nel deserto che è Dorne. Realizzati in marmo rosa, i Giardini dell'Acqua hanno servito come ritiro privato per i Principi di Dorne fin dalla loro costruzione."
+  building_type_agot_the_water_gardens_01_desc:0 "Costruiti dal Principe Maron per la sua sposa, la Principessa Daenerys, i Giardini dell'Acqua sono diventati un gioiello nel deserto che è Dorne. Realizzati in marmo rosa, i Giardini dell'Acqua hanno servito come ritiro privato per i Principi di Dorne fin dalla loro costruzione."
   building_agot_the_water_gardens_01:0 "$building_type_agot_the_water_gardens_01$"
   building_agot_the_water_gardens_01_desc:0 "$building_type_agot_the_water_gardens_01_desc$"
 
@@ -824,6 +987,30 @@
   building_agot_plankytown_01:0 "Città di Planky"
   building_agot_plankytown_01_desc:0 "Il più grande insediamento di Dorne, costruito sulle acque della foce del Greenblood, dove le barche a palo collegano i numerosi edifici galleggianti."
 
+  building_type_agot_sandstone_01:0 "Arenaria"
+  building_type_agot_sandstone_01_desc:0 "La sede ancestrale della Casa Qorgyle, Arenaria ha resistito sia ai pericoli del deserto e delle dune, sia alle minacce provenienti oltre Dorne."
+  building_agot_sandstone_01:0 "Resti di Meraxes"
+  building_agot_sandstone_01_desc:0 "Sebbene i Qorgyle abbiano restituito il cranio di Meraxes nel trattato di pace con il Trono di Spade, le altre parti del drago furono inghiottite dalle sabbie e dagli scarabei. Tuttavia, quando le dune si spostano, le ossa nere possono talvolta riemergere, prima di essere di nuovo sommerse."
+
+  building_type_agot_broken_tower_01:0 "Porto Martello"
+  building_type_agot_broken_tower_01_desc:0 "Sulla costa del Braccio Spezzato di Dorne si erge una torre di basalto nero, una pietra non comune in zona. Si dice che la torre esistesse già prima dell’arrivo degli Andali e sia stata sempre chiamata Torre Spezzata: chi sale in cima giura di udire le onde infrangersi con fragore, come martellate su un’incudine."
+  building_agot_broken_tower_01:0 "Torre Spezzata"
+  building_agot_broken_tower_01_desc:0 "$building_type_agot_broken_tower_01_desc$"
+
+  building_type_agot_merling_port_01:0 "Porto dei Metamorfi"
+  building_type_agot_merling_port_01_desc:0 "Nonostante l’arido deserto di Dorne, anche lì circolano leggende sui metamorfi del mare. Sulla costa del Mare di Dorne esiste un piccolo porto che si narra abbia accolto i metamorfi durante l’Era degli Eroi. Ancora oggi dà rifugio a chi fugge dalle insidie del mare."
+  building_agot_merling_port_01:0 "Porto dei Metamorfi"
+  building_agot_merling_port_01_desc:0 "$building_type_agot_merling_port_01_desc$"
+
+  building_type_agot_pit_of_snakes_01:0 "Fossa delle Vipere"
+  building_type_agot_pit_of_snakes_01_desc:0 "Quando Baelor l’Beato salì sul Trono di Spade, cercò di sanare le ferite della guerra del Giovane Drago. Andò in Dorne, concluse la pace e chiese il rilascio del cugino Aemon il Cavaliere di Drago. Ma Lord Wyl si rifiutò, così il re attraversò a piedi una fossa di vipere che, si dice, gli inchinarono il capo, liberando il prigioniero."
+  building_agot_pit_of_snakes_01:0 "$building_type_agot_pit_of_snakes_01$"
+  building_agot_pit_of_snakes_01_desc:0 "$building_type_agot_pit_of_snakes_01_desc$"
+
+  building_type_agot_pit_of_snakes_02:0 "$building_type_agot_pit_of_snakes_01$"
+  building_type_agot_pit_of_snakes_02_desc:0 "I Wyl sono famigerati nelle Marche di Dorne e oltre per la loro crudeltà, specialmente verso i prigionieri. Si narra che uno dei loro metodi preferiti sia appendere gli alti nascosti in gabbie sopra una fossa di vipere."
+  building_agot_pit_of_snakes_02:0 "$building_type_agot_pit_of_snakes_01$"
+  building_agot_pit_of_snakes_02_desc:0 "$building_type_agot_pit_of_snakes_02_desc$"
 
   # Vale Special Buildings
 
@@ -842,10 +1029,10 @@
   building_agot_grafton_keep_01:0 "$building_type_agot_grafton_keep_01$"
   building_agot_grafton_keep_01_desc:0 "$building_type_agot_grafton_keep_01_desc$"
 
-  building_type_agot_gulltown_01:0 "Gulltown"
-  building_type_agot_gulltown_01_desc:0 "La terza città di Westeros e la seconda più piccola, Gulltown è il principale porto della Valle ed è tale da prima dell'arrivo degli Andali."
-  building_agot_gulltown_01:0 "Casa della Madre Maris"
-  building_agot_gulltown_01_desc:0 "La Casa della Madre Maris fu fondata da una delle Sette Oratrici, Madre Maris. Da qui insegnò a molte orfane e figlie bastarde, assistendo alla morte della Lady Jeyne Arryn."
+  building_type_agot_maris_motherhouse_01:0 "Città dei Gabbiani"
+  building_type_agot_maris_motherhouse_desc:0 "La terza città di Westeros, e la seconda per dimensioni più piccola, la Città dei Gabbiani è il principale porto della Valle fin da prima dell’arrivo degli Andali."
+  building_agot_maris_motherhouse_01:0 "Casa Madre di Maris"
+  building_agot_maris_motherhouse_01_desc:0 "La Casa Madre di Maris fu fondata da una delle Sette Speaker, Madre Maris. Da qui insegnò a molti orfani e figlie illegittime, e assistette alla morte di Lady Jeyne Arryn."
 
   building_type_agot_runestone_01:0 "Runestone"
   building_type_agot_runestone_01_desc:0 "L'antica casa di Casa Royce, Runestone ha visto combattimenti fin dai tempi precedenti all'arrivo degli Andali e anche dopo."
@@ -883,6 +1070,11 @@
   building_type_agot_ruthermont_01_desc:0 "La sede antica della Casa Ruthermont, da qui la casa è prosperata sin dalle Invasioni Andali."
   building_agot_ruthermont_01:0 "Il Ruthermont"
   building_agot_ruthermont_01_desc:0 "La montagna dalla quale la Casa Ruthermont ha preso il nome è stata una grande fonte di prosperità per la Casa. Non ricca d'oro come i Westerlands, ha permesso alla Casa di utilizzare e sviluppare meglio le terre circostanti."
+
+  building_type_agot_upcliffs_haven_01:0 "Rifugio di Upcliff"
+  building_type_agot_upcliffs_haven_01_desc:0 "Antica dimora della Casa Upcliff, i discendenti di Ursula governano ancora l’isola in questo luogo."
+  building_agot_upcliffs_haven_01:0 "Corte della Sposa dei Metamorfi"
+  building_agot_upcliffs_haven_01_desc:0 "Gli Andali la chiamavano strega, ma gli Upcliff e i Primi Uomini della Valle conoscono Ursula Upcliff come la Sposa della Regina Metamorfa, colei che difese la sua isola non solo con spada e scudo, ma anche con le onde e i flutti del suo consorte."
 
   # Iron Islands Special Buildings
 
@@ -928,11 +1120,76 @@
   building_agot_ruins_fist_of_the_first_men_04:0 "Il Castello del Pugno"
   building_agot_ruins_fist_of_the_first_men_04_desc:0 "Il Pugno dei Primi Uomini ora è all'altezza del suo nome. Sulla collina ora sorge un vero forte, pronto a respingere qualsiasi nemico."
 
+  building_type_agot_btw_milkwater_cairns_01:0 "Tumuli della Valle del Latte"
+  building_type_agot_btw_milkwater_cairns_01_desc:0 "Nella Valle del Latte, i Bruti seppelliscono i loro re ed eroi in grandi tumuli e barrows. I Bruti che vivono fra loro curano le tombe, onorando i morti con riverenza."
+  building_agot_btw_milkwater_cairns_01:0 "$building_type_agot_btw_milkwater_cairns_01$"
+  building_agot_btw_milkwater_cairns_01_desc:0 "$building_type_agot_btw_milkwater_cairns_01_desc$"
+
+  building_type_agot_btw_frostfang_crypts_01:0 "Cripte dei Denti di Ghiaccio"
+  building_type_agot_btw_frostfang_crypts_01_desc:0 "I Denti di Ghiaccio sono antichi e gelidi. Lì i Bruti talvolta tumulano i loro lord e re in cripte oscure e spettrali."
+  building_agot_btw_frostfang_crypts_01:0 "$building_type_agot_btw_frostfang_crypts_01$"
+  building_agot_btw_frostfang_crypts_01_desc:0 "$building_type_agot_btw_frostfang_crypts_01_desc$"
+
+  building_type_agot_haggons_tower_01:0 "Dimora del Metamorfo"
+  building_type_agot_haggons_tower_01_desc:0 "I Metamorfi non sono benvenuti nei villaggi e nelle tribù; costruiscono rifugi solitari o si ritrovano in piccoli gruppi fra loro."
+  building_agot_haggons_tower_01:0 "Torre di Haggon"
+  building_agot_haggons_tower_01_desc:0 "Haggon era noto sia ai Bruti oltre la Barriera sia ai Guardiani della Notte. Dove altri usavano il loro dono per terrore e dominio, Haggon insegnò un’altra via, cercando di impedire ai suoi simili di diventare abomini."
+
+  building_type_agot_ruddy_hall_01:0 "Sala Rossa"
+  building_type_agot_ruddy_hall_01_desc:0 "La Sala Rossa, dimora di Tormund Granlingua, è celebre oltre i Denti di Ghiaccio per il suo idromele robusto e i suoi focolari scoppiettanti."
+  building_agot_ruddy_hall_01:0 "Sala Rossa"
+  building_agot_ruddy_hall_01_desc:0 "$building_type_agot_ruddy_hall_01_desc$"
+
+  building_type_agot_the_heated_pools_01:0 "Piscine Calde"
+  building_type_agot_the_heated_pools_01_desc:0 "Oltre la Barriera, dove il gelo è implacabile, si trovano alcune grandi piscine calde. Offrono calore e conforto a chi vive vicino e possono decidere fra vita e morte."
+  building_agot_the_heated_pools_01:0 "Piscine Calde"
+  building_agot_the_heated_pools_01_desc:0 "$building_type_agot_the_heated_pools_01_desc$"
+
+  building_type_agot_cold_cradle_01:0 "La Culla Gelida"
+  building_type_agot_cold_cradle_01_desc:0 "Non tutti gli uomini oltre la Barriera rispettano il Patto; alcuni si sono rivolti a dei più oscuri e gelidi. E che vale la vita di un figlio rispetto al favore degli Antichi Dei?"
+  building_agot_cold_cradle_01:0 "La Culla Gelida"
+  building_agot_cold_cradle_01_desc:0 "$building_type_agot_cold_cradle_01_desc$"
+
+  building_type_agot_others_arrival_01:0 "L'Arrivo degli Estranei"
+  building_type_agot_others_arrival_01_desc:0 "Quando la Lunga Notte tornerà, gli Estranei marceranno di nuovo dalle Terre dell’Eterna Inverno, portando oscurità e morte ai regni degli uomini."
+  building_agot_others_arrival_01:0 "L'Arrivo degli Estranei"
+  building_agot_others_arrival_01_desc:0 "$building_type_agot_others_arrival_01_desc$"
+
+  building_type_agot_whitetree_01:0 "Villaggio dell'Albero Bianco"
+  building_type_agot_whitetree_01_desc:0 "Uno dei più antichi insediamenti a nord della Barriera, il Villaggio dell'Albero Bianco sorge sotto un enorme albero sacro, offrendo rifugio stabile a chi affronta l’inverno."
+  building_agot_whitetree_01:0 "Villaggio dell'Albero Bianco"
+  building_agot_whitetree_01_desc:0 "$building_type_agot_whitetree_01_desc$"
+
+  building_type_agot_selkie_sund_01:0 "Insenatura delle Selkie"
+  building_type_agot_selkie_sund_01_desc:0 "Laggiù, sulla Costa Gelata, giacciono i resti di un’enorme creatura. I Bruti locali dicono siano le ossa di un drago marino, scacciato dal mare dalle stesse Selkie."
+  building_agot_selkie_sund_01:0 "Resti del Drago Marino"
+  building_agot_selkie_sund_01_desc:0 "$building_type_agot_selkie_sund_01_desc$"
+
+  building_type_agot_last_green_01:0 "Ultimo Verde"
+  building_type_agot_last_green_01_desc:0 "Poco prima che le terre diventino un gelido deserto, in un luogo chiamato Ultimo Verde, giace un’antica conchiglia di granchio gigante. È lì da quando cantastorie e anziani esistono, e c’è chi crede sia il guscio mortale di uno degli Antichi Dei."
+  building_agot_last_green_01:0 "La Grande Conchiglia"
+  building_agot_last_green_01_desc:0 "$building_type_agot_last_green_01_desc$"
+
+  building_type_agot_charred_weald_01:0 "Selva Carbonizzata"
+  building_type_agot_charred_weald_01_desc:0 "La Selva Carbonizzata custodisce un antico campo di battaglia. Ogni tribù narra di aver combattuto lì contro il nemico del suo tempo, e le storie persistono immutate nei secoli."
+  building_agot_charred_weald_01:0 "Selva Carbonizzata"
+  building_agot_charred_weald_01_desc:0 "$building_type_agot_charred_weald_01_desc$"
+
+  building_type_agot_great_ice_dome_01:0 "Grande Cupola di Ghiaccio"
+  building_type_agot_great_ice_dome_01_desc:0 "Il luogo di raduno centrale della Confederazione dei Popoli del Lago, la Grande Cupola di Ghiaccio è un’imponente struttura nell’estremo Nord, capace di ospitare senza fatica decine di signori e capi delle varie genti."
+  building_agot_great_ice_dome_01:0 "$building_type_agot_great_ice_dome_01$"
+  building_agot_great_ice_dome_01_desc:0 "$building_type_agot_great_ice_dome_01_desc$"
+
 
   building_type_agot_thenn_great_kilns_01:0 "Tun Vunag"
   building_type_agot_thenn_great_kilns_01_desc:0 "Il principale insediamento dei Thenn, è da qui che i Magnar hanno governato il loro popolo sin dall'Età dell'Alba."
   building_agot_thenn_great_kilns_01:0 "Le Grandi Fornaci di Tun Vunag"
   building_agot_thenn_great_kilns_01_desc:0 "I Thenn sono famosi tra tutte le tribù Oltre la Barriera per essere l'unico gruppo a lavorare il metallo, estraendo stagno e rame e fondendo bronzo. Questo ha dato loro un vantaggio sui loro vicini, sia militarmente che economicamente."
+  
+  building_type_agot_thenn_valley_01:0 "Valle dei Thenn"
+  building_type_agot_thenn_valley_01_desc:0 "La Valle dei Thenn ha da tempo offerto rifugio al Magnar e al suo popolo, essendo molto più calda e fertile delle terre circostanti, permettendo ai Thenn un grado di stabilità non concesso agli altri Bruti."
+  building_agot_thenn_valley_01:0 "$building_type_agot_thenn_valley_01$"
+  building_agot_thenn_valley_01_desc:0 "$building_type_agot_thenn_valley_01_desc$"
 
   building_type_agot_thenn_great_circle_01:0 "Kelksam"
   building_type_agot_thenn_great_circle_01_desc:0 "Kelksam è la casa del Grande Tumulo Circolare, il principale sito religioso nella Valle dei Thenn, se non Oltre la Barriera nel suo complesso."
@@ -1030,22 +1287,43 @@
   building_agot_red_temple_tyrosh_01_desc:0 "$building_type_agot_red_temple_tyrosh_01_desc$"
 
   # Edifici Speciali di Lys
-  building_type_agot_lys_01:0 "Lys"
-  building_type_agot_lys_01_desc:0 "Una delle Nove Città Libere, e la più bella di tutte."
-  building_agot_lys_01:0 "Rifugio del Signore dei Draghi"
-  building_agot_lys_01_desc:0 "Governare un impero è un duro lavoro, e il Dominio era un impero nonostante le sue elezioni. I signori dei draghi trovarono Lys un ottimo rifugio dalla politica spietata delle quaranta famiglie, dove potevano rilassarsi e rigenerarsi, prima di ritornare alle battaglie di corte tra le torri senzatetto."
-  building_agot_lys_02:0 "Lys la Bella"
-  building_agot_lys_02_desc:0 "Dai suoi inizi come rifugio per i Signori dei Draghi di Valyria, Lys è cresciuta fino a diventare una grande potenza di per sé, rinomata in tutto il mondo per la sua bellezza, sia della città stessa che del suo popolo."
+
+  building_type_agot_temple_of_trade_01:0 "Tempio del Commercio"
+  building_type_agot_temple_of_trade_01_desc:0 "Centro del governo di Lys, il Tempio del Commercio è dove i Magistri si riuniscono quando convocati dal Primo Magistro. Il tempio è celebre per le esecuzioni pubbliche celebrate ai suoi piedi ogni volta che un Magistro supera i propri limiti."
+  building_agot_temple_of_trade_01:0 "$building_type_agot_temple_of_trade_01$"
+  building_agot_temple_of_trade_01_desc:0 "$building_type_agot_temple_of_trade_01_desc$"
 
   building_type_agot_lys_walls_01:0 "Mura di Lys"
-  building_type_agot_lys_walls_01_desc:0 "La Città Libera di Lys è difesa dalle sue grandi mura di pietra e torri. Da tempo è motivo di orgoglio per la città."
-  building_agot_lys_walls_01:0 "Le Mura del Mare"
-  building_agot_lys_walls_01_desc:0 "Costruite per difendere la città e le numerose case di piacere e giardini che punteggiano la città, le Mura del Mare di Lys brillano per accogliere qualsiasi visitatore, sia esso amico o nemico."
+  building_type_agot_lys_walls_01_desc:0 "La Città Libera di Lys è difesa dalle sue possenti mura e dalle torri di pietra. Da sempre ispirano orgoglio agli abitanti."
+  building_agot_lys_walls_01:0 "Mura Marine"
+  building_agot_lys_walls_01_desc:0 "Erette a difesa della città e delle numerose Case del Piacere e dei giardini, le Mura Marine di Lys splendono al sole per accogliere ogni visitatore, amico o nemico."
+
+  building_type_agot_temple_of_yndros_01:0 "Tempio del Crepuscolo"
+  building_type_agot_temple_of_yndros_01_desc:0 "Il grande tempio dedicato a Yndros del Crepuscolo, una delle divinità più venerate a Lys. Si narra che chi vi entra da uomo o da donna ne esca trasformato nell’altro sesso."
+  building_agot_temple_of_yndros_01:0 "$building_type_agot_temple_of_yndros_01$"
+  building_agot_temple_of_yndros_01_desc:0 "$building_type_agot_temple_of_yndros_01_desc$"
+
 
   building_type_agot_red_temple_lys_01:0 "Tempio del Signore della Luce di Lys"
   building_type_agot_red_temple_lys_01_desc:0 "Il Tempio del Signore della Luce di Lys è stato un faro per i R'hlloristi sin dai tempi sotto il dominio Volanteno. Nonostante le sue radici straniere, ha sempre sostenuto Lys e i suoi interessi all'estero, assicurandosi un posto nelle complesse intrighe della città."
   building_agot_red_temple_lys_01:0 "$building_type_agot_red_temple_lys_01$"
   building_agot_red_temple_lys_01_desc:0 "$building_type_agot_red_temple_lys_01_desc$"
+
+  building_type_agot_port_of_lys_01:0 "Porto di Lys"
+  building_type_agot_port_of_lys_01_desc:0 "Il grandioso porto di Lys, pur non essendo celebre come quelli di Braavos o Volantis, resta uno dei principali delle Città Libere. Essendo un’isola, merci – materiali o schiavi – transitano qui, mentre la torre di Aeksio Vilinion, signore del porto, veglia dall’alto."
+  building_agot_port_of_lys_01:0 "$building_type_agot_port_of_lys_01$"
+  building_agot_port_of_lys_01_desc:0 "$building_type_agot_port_of_lys_01_desc$"
+
+  building_type_agot_prison_of_lys_01:0 "Prigione di Lys"
+  building_type_agot_prison_of_lys_01_desc:0 "La Prigione di Lys, tristemente nota come Ozlet, è celebre per le sue mura invalicabili e le sue celle sotterranee. Si dice che chiunque vi entri non rivedrà mai più il sole."
+  building_agot_prison_of_lys_01:0 "L'Ozlet"
+  building_agot_prison_of_lys_01_desc:0 "$building_type_agot_prison_of_lys_01_desc$"
+
+  building_type_agot_perfumed_garden_01:0 "Giardino Profumato"
+  building_type_agot_perfumed_garden_01_desc:0 "Il celebre bordello della famiglia Rogare, il Giardino Profumato ha ospitato molte delle cortigiane e degli schiavi da letto più rinomati di Lys, ed è stato fucina di intrighi orditi sia dai padroni sia da chi tramava contro di loro."
+  building_agot_perfumed_garden_01:0 "$building_type_agot_perfumed_garden_01$"
+  building_agot_perfumed_garden_01_desc:0 "$building_type_agot_perfumed_garden_01_desc$"
+
 
   # Edifici Speciali di Myr
   building_type_agot_great_wheel_01:0 "Grande Ruota di Myr"
@@ -1115,12 +1393,21 @@
   building_agot_valdrizes_01:0 "La Regina dei Draghi"
   building_agot_valdrizes_01_desc:0 "Questa antica statua, soprannominata Regina dei Draghi, si erge alta sulla sua collina che domina la strada valyriana. Un tempo la Sfinge di Valyria era in coppia con il suo compagno, ma i Dothraki hanno trascinato via il Re molto tempo fa."
 
+  building_type_agot_nontelos_bazaar_01:0 "Nontelos"
+  building_type_agot_nontelos_bazaar_01_desc:0 "Una città importante in Essos, Nontelos fu una delle numerose città conquistate dalle Città Libere durante il Secolo di Sangue. Ora è governata da Pentos."
+  building_agot_nontelos_bazaar_01:0 "Bazar di Nontelos"
+  building_agot_nontelos_bazaar_01_desc:0 "Il Bazar di Nontelos è celebre in tutto l’ovest di Essos. Rappresenta un ponte commerciale fondamentale tra Pentos e Myr: tappeti, vetri e formaggi abbondano nelle sue bancarelle."
 
   # Edifici Speciali di Andalos
   building_type_agot_hugor_hill_01:0 "Collina sotto le Stelle"
   building_type_agot_hugor_hill_01_desc:0 "Quando i Sette che Sono Uno si rivelarono al loro popolo scelto, fu su questa collina che ciò avvenne. Da qui Hugor fu scelto come re, unto con i doni dei Sette e incoronato con le stelle."
   building_agot_hugor_hill_01:0 "$building_type_agot_hugor_hill_01$"
   building_agot_hugor_hill_01_desc:0 "$building_type_agot_hugor_hill_01_desc$"
+
+  building_type_agot_godworf_01:0 "Godworf"
+  building_type_agot_godworf_01_desc:0 "Un antico porto nella parte settentrionale del Mare Stretto, si ritiene che Godworf fosse il porto principale degli Andali nelle loro invasioni di Westeros, ed è ancora rifugio per chi navighi il Mare Stretto."
+  building_agot_godworf_01:0 "Porto degli Dei"
+  building_agot_godworf_01_desc:0 "$building_type_agot_godworf_01_desc$"
 
   # Braavos Special Buildings
   building_type_agot_sealords_palace_01:0 "Palazzo del Signore del Mare"
@@ -1162,6 +1449,21 @@
   building_type_agot_sweetwater_font_01_desc:0 "Il Fiume dell'Acqua Dolce, il grande acquedotto che nutre la città, trova la sua sorgente tra le colline coperte di nebbia a sud. È un bastione cruciale per mantenere in vita la città segreta."
   building_agot_sweetwater_font_01:0 "Fonte dell'Acqua Dolce"
   building_agot_sweetwater_font_01_desc:0 "Il Fiume dell'Acqua Dolce, il grande acquedotto che nutre la città, trova la sua sorgente tra le colline coperte di nebbia a sud. È un bastione cruciale per mantenere in vita la città segreta."
+
+  building_type_agot_mothermont_01:0 "Monte Madre"
+  building_type_agot_mothermont_01_desc:0 "La grande vetta nella parte settentrionale delle Colline d’Andalos, Monte Madre è venerata come sacra da molti abitanti di Essos."
+  building_agot_mothermont_01:0 "$building_type_agot_mothermont_01$"
+  building_agot_mothermont_01_desc:0 "$building_type_agot_mothermont_01_desc$"
+
+  building_type_agot_nevios_retreat_01:0 "Ritiro di Nevio"
+  building_type_agot_nevios_retreat_01_desc:0 "Scoperto per la prima volta da Nevio Paralios, le fertili terre intorno al Ritiro di Nevio, i Noporzhyr, sono il granaio di Braavos. Fu da qui che la città si nutrì prima dell’Unmasking."
+  building_agot_nevios_retreat_01:0 "Ritiro di Nevio"
+  building_agot_nevios_retreat_01_desc:0 "$building_type_agot_nevios_retreat_01_desc$"
+
+  building_type_agot_moonbowl_01:0 "Conca della Luna"
+  building_type_agot_moonbowl_01_desc:0 "La Conca della Luna è una regione fertile nelle Colline settentrionali d’Andalos. Da tempo rinomata per le sue terre coltivabili, può sfamare una città o un esercito."
+  building_agot_moonbowl_01:0 "La Conca della Luna"
+  building_agot_moonbowl_01_desc:0 "$building_type_agot_moonbowl_01_desc$"
 
   # Yi Ti Special Buildings
   building_type_agot_azure_palace_01:0 "Palazzo Imperiale della Dinastia Azzurra"

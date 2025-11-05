@@ -1,5 +1,7 @@
 ﻿l_spanish:
   btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] fa parte della [btw_struggle|E] e tu no: $VALUE|=+0$"
+  agot_set_relation_debug_paramour:0 "#difficulty_medium Amante#!"
+  agot_remove_relation_debug_paramour:0 "#difficulty_medium Rimuovi Amante#!"
 
 
   #Prisoner Interactions
@@ -79,11 +81,16 @@
   agot_dragon.0004.t:0 "Un Momento Difficile"
   agot_dragon.0004.desc:0 "Sono stato svegliato nelle prime ore del mattino da due guardie sconosciute. Avevo certamente considerato ciò che sta per accadere nei miei momenti più oscuri. Ma nessuna quantità di immagini mentali avrebbe potuto prepararmi ad affrontare questo. Mentre vengo scortato davanti al drago di [actor.GetShortUINamePossessive], vivo un momento di serena e perfetta chiarezza. Passiamo tanto tempo a considerare le nostre azioni, le nostre decisioni e come queste influenzano il mondo. Ma è tutto una menzogna. Non sono altro che un sacco di carne, tendini e ossa. Questo, questo essere che mi guarda con lo sguardo affamato di un predatore, questo è il loro mondo; noi ci viviamo solo dentro.\n\nO, beh, vivevamo."
 
-  hunt_cannot_hunt_parameter_faith_tt:0 "La [faith|E] non permette la caccia"
-  ACTIVITY_GUEST_CANNOT_HUNT_REASON_FAITH:0 "Fede [ROOT.Char.GetFaith.GetName] [doctrines|E]: $VALUE|=+0$"
+  hunt_cannot_hunt_parameter_faith_tt:0 "[faith|E] non può cacciare"
+  AGOT_ACTIVITY_GUEST_CANNOT_HUNT_REASON_FAITH:0 "Fede di [ROOT.Char.GetFaith.GetName] [doctrines|E]: $VALUE|=+0$"
+  AGOT_ACTIVITY_GUEST_DIVIDED_DYNASTY:0 "[ROOT.Char.GetSheHe|U] sospetta del tuo invito: $VALUE|=+0$"
+  AGOT_ACTIVITY_GUEST_HOUSE_FEUD:0 "[ROOT.Char.GetSheHe|U] sospetta del tuo invito: $VALUE|=+0$"
 
-  # Interazioni con R'hllor
-  seek_healing_from_red_priest_interaction:0 "Chiedi Guarigione"
+  # Interazioni con i seguaci di R'hllor
+  seek_healing_from_red_priest_interaction:0 "Chiedi guarigione"
   seek_healing_from_red_priest_interaction_desc:0 "Chiedi guarigione a [recipient.GetShortUINameNoTooltip]"
-  offer_red_priest_healing_to_liege_interaction:0 "Offri Guarigione"
+  offer_red_priest_healing_to_liege_interaction:0 "Offri guarigione"
   offer_red_priest_healing_to_liege_interaction_desc:0 "Offri guarigione a [recipient.GetShortUINameNoTooltip]"
+
+  # Generale
+  agot_can_disinherit_flag_tt:0 "[recipient.GetShortUIName] ha rifiutato di adempiere al tentativo di fidanzamento"

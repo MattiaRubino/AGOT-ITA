@@ -6,12 +6,12 @@
   game_concept_agot_knight:0 "Cavaliere"
   game_concept_agot_knights:0 "Cavalieri"
   game_concept_agot_knightspossessive:0 "del Cavaliere"
-  game_concept_agot_knight_desc:0 "Un cavaliere è un guerriero che pratica un codice cavalleresco.\n\nSebbene tradizionalmente si trovino nei Sette Regni di Westeros, qualsiasi cavaliere può creare un nuovo cavaliere, anche se potrebbero essere culturalmente o religiosamente diversi.\n\nUn cavaliere può prendere al massimo uno [squire|E] e addestrarlo per diventare un cavaliere un giorno. Un cavaliere può anche conferire il cavalierato a coloro che ne sono degni.\n\nUna persona può diventare cavaliere una volta compiuti 16 anni o più, e se non ha #N tratti che la escludono#!. Un personaggio può diventare cavaliere a partire dai 12 anni se ha un [prowess|E] eccezionalmente alto."
+  game_concept_agot_knight_desc:0 "Un cavaliere è un guerriero che segue un codice di cavalleria.\n\nSebbene tradizionalmente lo si trovi nei Sette Regni di Westeros, qualunque cavaliere può investire un altro cavaliere, anche se di cultura o fede diversa.\n\nPuoi prendere fino a uno [squire|E] e addestrarlo perché un giorno diventi cavaliere. Puoi inoltre conferire il cavalierato a chi ne ha i requisiti.\n\nPuoi diventare cavaliere a partire dai 16 anni, a patto di non possedere alcun tratto #N squalificante#!. Un personaggio può essere investito cavaliere già a 12 anni se dimostra un eccezionale [prowess|E]."
 
   game_concept_squire:0 "Scudiero"
   game_concept_squires:0 "Scudieri"
   game_concept_squirepossessive:0 "dello Scudiero"
-  game_concept_squire_desc:0 "Uno scudiero è un [agot_knight|E] in formazione. Serve come assistente del cavaliere, aiutandolo con tutti i suoi doveri.\n\nUn personaggio è idoneo a diventare scudiero una volta compiuti 9 anni, e fino a 21 anni. Mentre serve come scudiero, vivrà eventi speciali che #P aumentano#! o #N diminuiscono#! la sua esperienza da scudiero. Una volta abbastanza grande e con sufficiente esperienza, potrà essere nominato cavaliere.\n\nIl percorso di uno scudiero verso il cavalierato è influenzato dai suoi tratti e dalla personalità; alcuni personaggi lo affronteranno meglio di altri!"
+  game_concept_squire_desc:0 "Uno scudiero è un [agot_knight|E] in addestramento. Serve come assistente del cavaliere, aiutandolo in tutti i suoi compiti.\n\nPuoi eleggere un personaggio scudiero al compimento del nono anno, e fino al ventunesimo. Durante il servizio da scudiero vivrà eventi speciali che #P aumenteranno#! o #N diminuiranno#! la sua esperienza di tirocinio. Raggiunta l’età e accumulata sufficiente esperienza, potrà infine essere investito cavaliere.\n\nIl cammino dello scudiero verso la cavalleria è influenzato dai suoi tratti e dalla personalità — alcuni lo affronteranno meglio di altri!"
 
   ## Dynastic Stability
   game_concept_agot_dynastic_stability:0 "Stabilità Dinastica"
@@ -44,12 +44,18 @@
   game_concept_monastery_holdings:0 "Possedimenti Monastici"
   game_concept_monastery_holding_desc:0 ""
 
+  game_concept_unknown_holding:0 "Sconosciuto"
+  game_concept_unknown:0 "Sconosciuto"
+  game_concept_unknown_holdings:0 "Tenute sconosciute"
+  game_concept_unknown_holding_desc:0 "La tenuta di questo reame è sconosciuta, poiché giace al di là della portata della tua vista diplomatica."
+
   game_concept_ruin_holding:0 "Rovina"
-  game_concept_ruin_holding_desc:0 "Un possedimento dimenticato e abbandonato da tempo, solo l'ombra di sé stesso. Si può iniziare lo [reconstruction_effort|E] interagendo direttamente con la rovina."
+  game_concept_ruin_holding_desc:0 "Una tenuta che è stata a lungo dimenticata e abbandonata, misera ombra di sé stessa. Puoi iniziare lo [reconstruction_effort|E] interagendo con la rovina stessa."
   game_concept_ruin:0 "Rovina"
   game_concept_ruins:0 "Rovine"
-  game_concept_ruin_holdings:0 "Possedimenti in Rovina"
-  game_concept_ruin_holdings_desc:0 "Possedimenti dimenticati e abbandonati da tempo, solo l'ombra di sé stessi."
+  game_concept_ruin_holdings:0 "Tenute in rovina"
+  game_concept_ruin_holdings_desc:0 "Tenute che sono state a lungo dimenticate e abbandonate, misere ombre di ciò che erano un tempo."
+
 
   game_concept_ruin_reconstruction:0 "Ricostruzione delle Rovine"
   game_concept_ruin_reconstruction_desc:0 "Attraverso l'upgrade degli [buildings|E] di una rovina, essa può essere ricostruita in un vero possedimento, anche se il processo è lungo e faticoso.\n\nPer iniziare la ricostruzione, clicca sul personaggio della rovina che la possiede, il che ti porterà in un'altra finestra. Lì, clicca sul pulsante 'Ripristina Rovine'."
@@ -260,6 +266,10 @@
   game_concept_host_govt:0 "Ospitata"
   game_concept_host_govt_desc:0 "L’$game_concept_host_govt$ è meno un governo e più una riunione temporanea di persone, spesso per uno scopo preciso. L'ospitata non è un [government|E] permanente, e cambierà o si scioglierà una volta compiuto il suo scopo."
   game_concept_host_govt_i:0 "@host_government!"
+  
+  game_concept_unknown_govt:0 "Sconosciuto"
+  game_concept_unknown_govt_desc:0 "Il $game_concept_unknown_govt$ è un governo non giocabile che rappresenta reami oltre i confini della tua portata diplomatica."
+  game_concept_unknown_govt_i:0 "@unknown_government!"
 
 
   game_concept_ruins_govt:0 "Rovina"

@@ -5,6 +5,27 @@
   CHARACTER_IN_LOCATION_PROPER:0 "#underline Situato a [Character.GetCurrentLocation.GetName|V]#!"
 
   NO_PATRON:0 "Nessun Patrono Selezionato"
+
+
+  AGOT_RULER_DESIGNER_HEIGHT_3_4:0 "[GeneCategory.GetName]: [Select_float(GreaterThan_float(Divide_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0'), '(float)4.0'), '(float)4', '(float)3')] piedi [Modulo_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0')] pollici"
+
+  AGOT_RULER_DESIGNER_HEIGHT_5_6:0 "[GeneCategory.GetName]: [Select_float(GreaterThanOrEqualTo_float(Divide_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0'), '(float)6.0'), '(float)6', '(float)5')] piedi [Modulo_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0')] pollici"
+
+  AGOT_RULER_DESIGNER_HEIGHT_7_8:0 "[GeneCategory.GetName]: [Select_float(GreaterThanOrEqualTo_float(Divide_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0'), '(float)8.0'), '(float)8', '(float)7')] piedi [Modulo_float(Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.18313725490196078431372549019608', '(float)0.2')), Select_float(RulerDesignerWindow.IsFemale, '(float)45.0', '(float)47.0')), '(float)12.0')] pollici"
+
+  AGOT_RULER_DESIGNER_HEIGHT_CM:0 "[GeneCategory.GetName]: [Add_float(Multiply_float(RulerDesignerWindow.GetMorphGeneValue(GeneCategory.Self), Select_float(RulerDesignerWindow.IsFemale, '(float)0.46509803921568627450980392156863', '(float)0.5078431372549019607843137254902')), Select_float(RulerDesignerWindow.IsFemale, '(float)114.3', '(float)119.4'))] cm"
+
+  RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_LABEL:0 "Mostra Abiti"
+  RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_TOOLTIP_SHOW:0 "#T $RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_LABEL$#!\nMostra gli abiti sul ritratto del personaggio. Rimarranno vestiti anche in fase di finalizzazione.\n\n#I Clicca per nascondere#!"
+  RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_TOOLTIP_HIDE:0 "#T $RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_LABEL$#!\nNasconde gli abiti sul ritratto del personaggio. Rimarranno vestiti anche in fase di finalizzazione.\n\n#I Clicca per mostrare#!"
+  RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_TOOLTIP:0 "[SelectLocalization( Not(GetGlobalVariable('character_undress').IsSet), 'RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_TOOLTIP_SHOW', 'RULER_DESIGNER_TOGGLE_SHOW_CLOTHING_TOOLTIP_HIDE' )]"
+
+  RULER_DESIGNER_TOGGLE_SIDE_PROFILE_LABEL:0 "Vista di Profilo Fissa"
+  RULER_DESIGNER_TOGGLE_SIDE_PROFILE_TOOLTIP_SHOW:0 "#T $RULER_DESIGNER_TOGGLE_SIDE_PROFILE_LABEL$#!\nAbilita la vista di profilo fissa, utilizzando gli angoli frontale e laterale fissi del ritratto del personaggio.\n\n#I Clicca per disabilitare la vista di profilo fissa#!"
+  RULER_DESIGNER_TOGGLE_SIDE_PROFILE_TOOLTIP_HIDE:0 "#T $RULER_DESIGNER_TOGGLE_SIDE_PROFILE_LABEL$#!\nDisabilita la vista di profilo fissa, utilizzando gli angoli standard di offset del ritratto del personaggio.\n\n#I Clicca per abilitare la vista di profilo fissa#!"
+  RULER_DESIGNER_TOGGLE_SIDE_PROFILE_TOOLTIP:0 "[SelectLocalization( GetGlobalVariable('true_profile_view').IsSet, 'RULER_DESIGNER_TOGGLE_SIDE_PROFILE_TOOLTIP_SHOW', 'RULER_DESIGNER_TOGGLE_SIDE_PROFILE_TOOLTIP_HIDE' )]"
+
+  
   agot_character_performing_councillor_task: "mentre svolgeva un compito"
   agot_character_traveling: "mentre viaggiava"
 

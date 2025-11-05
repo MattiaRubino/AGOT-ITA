@@ -202,6 +202,19 @@
   emperor_theocracy_female_the_seven_religion:0 "Alta Septa"
   empire_theocracy_the_seven_religion:0 "Septerio"
 
+
+  # Unknown
+
+  unknown_government:0 "Sconosciuto"
+  unknown_government_with_icon:0 "@unknown_government! $unknown_government$"
+  unknown_government_adjective:0 "Sconosciuto"
+  unknown_government_realm:0 "Sconosciuto"
+  unknown_government_filter_option:0 "$game_concept_unknown_govt$"
+  unknown_government_filter_option_desc:0 "Mostra solo i personaggi con [unknown|E] [government|E]"
+  unknown_government_desc:0 "Il governo di questo reame è sconosciuto, poiché giace al di là della portata della tua vista diplomatica."
+  unknown_govt_concept:0 "[unknown_govt_i|E]"
+  government_is_unknown:0 "[government|E] di tipo [GetGovernment('unknown_government').GetName]"
+
   # Rovine
   ruins_government:0 "Rovina"
   ruins_government_with_icon:0 "@ruins_government! $ruins_government$"
@@ -228,6 +241,23 @@
   emperor_ruin_male:0 "Custode"
   emperor_ruin_female:0 "Custode"
   empire_ruin:0 "Rovina"
+
+  baron_unknown_male:0 "Sconosciuto"
+  baron_unknown_female:0 "Sconosciuta"
+  barony_unknown:0 "Reame"
+  count_unknown_male:0 "Sconosciuto"
+  count_unknown_female:0 "Sconosciuta"
+  county_unknown:0 "Reame"
+  duke_unknown_male:0 "Sconosciuto"
+  duke_unknown_female:0 "Sconosciuta"
+  duchy_unknown:0 "Reame"
+  king_unknown_male:0 "Sconosciuto"
+  king_unknown_female:0 "Sconosciuta"
+  kingdom_unknown:0 "Reame"
+  emperor_unknown_male:0 "Sconosciuto"
+  emperor_unknown_female:0 "Sconosciuta"
+  empire_unknown:0 "Reame"
+
 
   # Titoli Watch
   baron_watch_male:0 ""

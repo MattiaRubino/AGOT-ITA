@@ -163,7 +163,8 @@
  initiate_consolamentum_decision_desc_alternate:0 "#F Con la fine della mia vita che si avvicina, dovrei sottopormi ai sacri rituali di suicidio che purificheranno la mia anima dal peccato prima di abbandonare questo mondo.#!"
  initiate_consolamentum_decision_confirm:2 "Inizia Suicidio Rituale"
 
- seek_aid_of_the_spirits_decision:0 "Cerca l'aiuto degli Spiriti"
+ seek_aid_of_the_spirits_decision:0 "Cerca Aiuto dagli Spiriti"
+ seek_aid_of_the_spirits_decision_tooltip:0 "Tenta di contattare gli spiriti"
  seek_aid_of_the_spirits_decision_desc: "#F Gli spiriti abitano il mondo intorno a noi, alcuni sono utili, altri malevoli e altri ancora sono indifferenti alle vite umane."
  seek_aid_of_the_spirits_decision_desc_landless: "\n\nPosso eseguire un rituale per invocare il loro aiuto, ma non so quale sarà il risultato...#!"
  seek_aid_of_the_spirits_decision_desc_landed: "\n\nPosso chiedere al/alla mio/a [ROOT.Char.Custom('MyPriestTitle')] di chiedere il loro aiuto per i miei piani, ma non so dire se ne verrà fuori qualcosa...#!"
@@ -977,13 +978,13 @@ go_on_hajj_decision_tooltip:0 "Intraprendi un [pilgrimage|E] alla Mecca, per ade
  stress_loss_irritable_decision_tooltip:0 "Lascia che la tua bocca si sciolga per calmare la tua mente."
  stress_loss_irritable_decision_confirm:0 "Ehi! Ehi tu!"
 
- stress_loss_flagellant_decision: "Indulge in Flagellation"
- stress_loss_flagellant_exaltation_decision_desc: "Nothing cleanses the mind like the catharsis of pain. The benefit of also feeling closer to [ROOT.Char.GetFaith.HighGodName] is... a... #EMP divine#! happenstance."
- stress_loss_exaltation_decision_desc: "The flesh is here to serve as a vessel for a communion with [ROOT.Char.GetFaith.HighGodName]. Let me break the flesh that such a harmony may appear."
- stress_loss_flagellant_decision_desc:0 "Nothing cleanses the mind like the catharsis of pain. I will apply the whip to my own back until my mind clears."
- stress_loss_flaggelant_decision_effect_tooltip:0 "You will lose stress" #Not actually used atm
- stress_loss_flagellant_decision_tooltip:0 "Cleanse your mind with pain"
- stress_loss_flagellant_decision_confirm:0 "Ugh–!"
+ stress_loss_flagellant_decision: "Indulgere nella Flagellazione"
+ stress_loss_flagellant_exaltation_decision_desc: "Niente libera la mente più della catarsi attraverso il dolore. L'ulteriore vantaggio di sentirsi più vicini a [ROOT.Char.GetFaith.HighGodName] è... una... #EMP divina#! combinazione."
+ stress_loss_exaltation_decision_desc: "La carne serve come veicolo per la comunione con [ROOT.Char.GetFaith.HighGodName]. Lasciate che io spezzi la carne affinché tale armonia possa avvenire."
+ stress_loss_flagellant_decision_desc:0 "Niente purifica la mente come la catarsi del dolore. Userò la frusta sulla mia schiena, finché la mia mente non si sarà purificata."
+ stress_loss_flaggelant_decision_effect_tooltip:0 "Perderai stress" #Not actually used atm
+ stress_loss_flagellant_decision_tooltip:0 "Purifichi la mente con il dolore"
+ stress_loss_flagellant_decision_confirm:0 "Argh!"
 
  stress_loss_profligate_decision:0 "Visita il Mercato"
  stress_loss_profligate_decision_desc:0 "Qualcosa di nuovo, qualcosa di lucido, qualcosa di raro... Niente mi centra come un nuovo acquisto, e il mercato locale racchiude molti tesori!"
