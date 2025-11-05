@@ -1,0 +1,205 @@
+﻿l_spanish:
+  #Marked for Review
+
+  ########################
+  # MEDITATE AT WEIRWOOD #
+  ########################
+  agot_religious_decision.1001.t:0 "L'Albero del Cuore"
+  agot_religious_decision.1001.desc:0 "A prescindere dalla fede, pochi luoghi al mondo raggiungono la tranquillità e la solitudine ultraterrena dell’Albero del Cuore in un boschetto sacro. Ma non è un semplice giardino rilassante in cui passeggiare — qui dominano gli Antichi Dei.\n\nAvvicinandomi all’albero del cuore, non desidero altro che..."
+  agot_religious_decision.1001.a:0 "...la benedizione degli Antichi Dei."
+  agot_religious_decision.1001.b:0 "...buona salute."
+  agot_religious_decision.1001.c:0 "...calma."
+  agot_religious_decision.1001.d:0 "...guida."
+
+  gain_piety_tooltip:0 "La mia pietà non passa inosservata"
+  wounds_turn_to_cripple_tooltip:0 "Le tue ferite guariscono completamente, ma diventi [GetTrait('crippled').GetName( GetNullCharacter )]"
+
+  weirwood_fertility_bonus_modifier:0 "Benedizione di Fertilità degli Alberi Sacri"
+  weirwood_minor_health_bonus_modifier:0 "Benedizione di Salute degli Alberi
+  weirwood_medium_health_bonus_modifier:0 "Benedizione di Salute degli Alberi"
+  weirwood_stress_modifier:0 "Pace degli Alberi sacri"
+
+
+  ######################
+  # RESTORE HIGH HEART #
+  ######################
+
+  agot_religious_decision.1101.t:0 "Sotto le Foglie Rosse"
+  agot_religious_decision.1101.desc:0 "Gli alberi sacri piantati a High Heart hanno messo radici con vigore sorprendente. I loro tronchi ossei si ergono verso il cielo, i rami carichi di foglie cremisi che sussurrano al vento. L’aria qui è densa di silenzio e riverenza, interrotta solo dal fruscio delle foglie.\n\nSto al centro della selva, dove un tempo i ceppi antichi gemevano nel silenzio, e sento di nuovo gli Antichi Dei vegliare. Questo luogo sacro è tornato a vivere."
+  agot_religious_decision.1101.a:0 "Lascia che gli dèi guidino il mio cammino."
+
+
+  ########################
+  # LOOK INTO THE FLAMES #
+  ########################
+
+  agot_religious_decision.3001.t:0 "Le Fiamme Benedette"
+  agot_religious_decision.3001.desc:0 "Si dice che [ROOT.Char.GetFaith.HighGodName] parli ai suoi eletti attraverso il fuoco sacro, in un linguaggio di cenere e brace — un idioma difficile persino per i suoi sacerdoti.\n\nOsservo i roghi notturni e mi chiedo: cosa vedrò al loro interno?\n\n[red_priest.GetFirstName] suggerisce che un’offerta certo mi guadagnerebbe il favore di [ROOT.Char.GetFaith.HighGodNameAlternate]."
+  agot_religious_decision.3001.prisoner:0 "Il sangue di re ha potere, un potere che compiacerà [ROOT.Char.GetFaith.HighGodName]."
+  agot_religious_decision.3001.prisoner.tt:0 "I [vassals|E], i [courtiers|E] e gli [guests|E] zelanti nella tua fede ottengono #P 10#! di [opinion|E] verso di te#!"
+  agot_religious_decision.3001.prisoner.tt.a:0 "Tutti i [vassals|E], i [courtiers|E] e gli [guests|E] che non praticano sacrifici rituali perdono #N 30#! di [opinion|E] verso di te#!"
+  agot_religious_decision.3001.peasants:0 "Basterebbero alcuni plebei a soddisfare [ROOT.Char.GetFaith.HighGodNameAlternate]?"
+  agot_religious_decision.3001.peasants.tt:0 "Tutti i [courtiers|E] e gli [guests|E] che non praticano sacrifici rituali perdono #N 15#! di [opinion|E] verso di te#!"
+  agot_religious_decision.3001.peasants.tt.a:0 "I [courtiers|E] e gli [guests|E] zelanti nella tua fede ottengono #P 10#! di [opinion|E] verso di te#!"
+  agot_religious_decision.3001.false_idols:0 "Non ci sono dèi all’infuori di [ROOT.Char.GetFaith.HighGodName]; gli idoli falsi bruceranno."
+  agot_religious_decision.3001.false_idols.tt:0 "Un’offerta minore potrebbe non ottenere il favore che cerco..."
+  agot_religious_decision.3001.a:0 "Questa volta non farò offerte."
+  agot_religious_decision.3001.a.tt:0 "Non saranno fatte offerte."
+  agot_religious_decision.3001.b:0 "In effetti, non è il momento giusto."
+
+  agot_religious_decision.3002.t:0 "Preghiere Inascoltate"
+  agot_religious_decision.3002.desc:0 "[red_priest.GetFirstName] ed io abbiamo passato ore a fissare le fiamme sacre notte dopo notte, e nonostante tutti gli sforzi, non compare alcuna figura — nulla se non fumo e brace che salgono verso il cielo..."
+  agot_religious_decision.3002.offering_desc:0 "Le ore scorrono, e benché [red_priest.GetFirstName] prosegua le sue preghiere con fervore sempre più acceso, le fiamme non rivelano forme né visioni.\n\nGli occhi mi bruciano per il fumo ascendente — nonostante il sacrificio compiuto, non vedo altro che un normale rogo notturno..."
+  agot_religious_decision.3002.zealous:0 "Mi ha forse abbandonato [ROOT.Char.GetFaith.HighGodNameAlternate]?"
+  agot_religious_decision.3002.cynical:0 "Un fuoco come un altro, dopotutto..."
+  agot_religious_decision.3002.a:0 "[ROOT.Char.GetFaith.HighGodNameAlternate] rimane in silenzio."
+
+  agot_look_into_flames.vision_intro_desc:0 "Mentre [red_priest.GetFirstName] persiste nelle sue preghiere davanti al falò che scaccia l’oscurità della notte, mi lascio lentamente andare alla contemplazione.\n\n"
+  agot_look_into_flames.vision_outro_desc:0 " #italic Sono forse stato benedetto da una vera visione di [ROOT.Char.GetFaith.HighGodName]? Quale messaggio potrà celare...?!"
+  agot_look_into_flames.vision_title:0 "Una Visione nelle Fiamme"
+
+  agot_religious_decision.3003.t:0 "$agot_look_into_flames.vision_title$: L’Ombra"
+  agot_religious_decision.3003.desc:0 "Incantato dalle fiamme, intravedo un’ombra solitaria, una sagoma evanescente nascosta nell’oscurità, e mentre le fiamme tremolano, la figura pare offrirmi un invito con un gesto.\n\nUn brivido mi percorre la schiena, e tanto rapidamente quanto l’ombra è apparsa, si dissolve in nebbia; il fuoco torna a essere solo fuoco."
+  agot_religious_decision.3003.a:0 "Un sussurro di un’amicizia futura ancora da venire?"
+  agot_religious_decision.3003.b:0 "Ombre che si celano nell’oscurità... un avvertimento di pericolo in agguato?"
+  agot_religious_decision.3003.tt:0 "Le mie preghiere sono esaudite."
+
+  agot_religious_decision.3004.t:0 "$agot_look_into_flames.vision_title$: Il Guerriero"
+  agot_religious_decision.3004.desc:0 "Inebriato dalle fiamme danzanti, intravedo la sagoma di un conquistatore armato di possente spada, circondato da nemici caduti ai suoi piedi. In un baleno, la spada si frantuma in mille scintille che volano verso il cielo.\n\nUn brivido mi percorre la schiena, e il fuoco torna a essere solo fuoco."
+  agot_religious_decision.3004.a:0 "[ROOT.Char.GetFaith.HighGodNameAlternate] mi condurrà alla vittoria."
+  agot_religious_decision.3004.b:0 "Meglio allontanarsi dai conflitti…"
+
+  agot_religious_decision.3005.t:0 "$agot_look_into_flames.vision_title$: Il Castello"
+  agot_religious_decision.3005.desc:0 "Per un istante, le scintille che salgono verso il cielo sembrano ardere più vive, e attraverso le fiamme scorgo un castello maestoso — in qualche modo familiare — che si scioglie in bagliori dorati.\n\nIl cuore mi balza nel petto, e in un lampo tutto svanisce, lasciando il fuoco com’è: solo fuoco."
+  agot_religious_decision.3005.a:0 "Un’eco di gloria e ricchezze future che mi attendono."
+  agot_religious_decision.3005.a.tt:0 "Perseveranza e diligenza saranno ricompensate."
+  agot_religious_decision.3005.b:0 "Uno scorcio di vecchia Valyria, ridotta in cenere."
+  agot_religious_decision.3005.b.tt:0 "Affascinato dalla visione, mi concentrerò a studiare i regni antichi."
+
+  agot_religious_decision.3006.t:0 "$agot_look_into_flames.vision_title$: Pugnali nell’Ombra"
+  agot_religious_decision.3006.desc:0 "Mentre il crepitio del fuoco lancia scintille nel cielo, per un battito diventano pugnali infuocati, trafiggendo con facilità le tenebre avvolte dal fumo.\n\nColto dal terrore, rabbrividisco nonostante il calore del rogo, e in un istante tutto svanisce; il fuoco torna a essere solo fuoco."
+  agot_religious_decision.3006.a:0 "Devo restare vigile."
+  agot_religious_decision.3006.b:0 "Forse è giunto il momento di colpire?"
+
+  agot_religious_decision.3007.t:0 "$agot_look_into_flames.vision_title$: I Glifi Danzanti"
+  agot_religious_decision.3007.desc:0 "Incantato dalle fiamme tremolanti, fumo e vortici di fuoco formano strani simboli — si compongono, sfarfallano e si fondono fra loro, come ombre danzanti davanti a me.\n\nApparsi per un lampo, si dissolvono, e le fiamme tornano ad essere un fuoco normale."
+  agot_religious_decision.3007.a:0 "Devo addentrarmi oltre nei misteri superiori!"
+  agot_religious_decision.3007.b:0 "Le risposte giacciono nei racconti antichi…"
+
+  agot_religious_decision.3008.t:0 "$agot_look_into_flames.vision_title$: Camminare indenni"
+  agot_religious_decision.3008.t.scheme:0 "$agot_look_into_flames.vision_title$: Tradimento Svelato"
+  agot_religious_decision.3008.desc:0 "Mentre [red_priest.GetFirstName] compie i riti sacri e prega davanti al falò, per un solo istante\n\n"
+  agot_religious_decision.3008.scheme_murder_desc:0 "le fiamme danzanti delineano l’ombra velata di [owner.GetTitledFirstName] — comprendo che trama di #bold uccidermi#!"
+  agot_religious_decision.3008.scheme_abduction_desc:0 "le fiamme danzanti delineano l’ombra velata di [owner.GetTitledFirstName] — comprendo che trama di #bold rapirmi#!"
+  agot_religious_decision.3008.scheme_steal_artifact_desc:0 "le fiamme danzanti delineano l’ombra velata di [owner.GetTitledFirstName] — comprendo che trama di #bold rubarmi un artefatto#!"
+  agot_religious_decision.3008.scheme_fallback_desc:0 "le fiamme danzanti delineano l’ombra velata di [owner.GetTitledFirstName] — capisco che complotta contro di me!"
+
+  agot_religious_decision.3008.no_scheme_desc:0 "Mi riconosco nelle fiamme.\n\nCon torcia in mano, cammino intatto nell’oscurità. Più che mai, sono certo che [ROOT.Char.GetFaith.HighGodNameAlternate] veglia su di me."
+  agot_religious_decision.3008.a:0 "[ROOT.Char.GetFaith.HighGodName] mi favorisce."
+  agot_religious_decision.3008.b:0 "Quel mostro dagli occhi di ghiaccio!"
+
+
+  ####################
+  # TRADE EXPEDITION #
+  ####################
+
+  agot_religious_decision.4000.t:0 "Una grande proposta per una spedizione commerciale"
+  agot_religious_decision.4000.desc:0 "I miei consiglieri e mercanti sussurrano di mercati inesplorati in terre lontane. Dopo attenta riflessione, ho deciso di proporre alla corte una grande spedizione commerciale. Questa impresa potrebbe portare immense ricchezze al mio reame, ma potrebbe anche rivelarsi un inutile spreco di risorse. Ora che il consiglio si raduna per discutere il piano, devo decidere quanto investire nel viaggio."
+  agot_religious_decision.4000.a:0 "Un investimento modesto; quel tanto che basta per sondare il terreno."
+  agot_religious_decision.4000.a.flavor:0 "Una spedizione partirà e farà ritorno entro due mesi."
+  agot_religious_decision.4000.b:0 "Un investimento equilibrato; sufficiente per avere un impatto tangibile."
+  agot_religious_decision.4000.b.flavor:0 "Una spedizione partirà e farà ritorno entro sei mesi."
+  agot_religious_decision.4000.c:0 "Un investimento generoso; abbastanza per assicurarsi ricompense sostanziali."
+  agot_religious_decision.4000.c.flavor:0 "Una spedizione partirà e farà ritorno entro un anno."
+  agot_religious_decision.4000.d:0 "Un investimento sfarzoso; non badarò a spese."
+  agot_religious_decision.4000.d.flavor:0 "Una spedizione partirà e farà ritorno entro due anni."
+  agot_religious_decision.4000.e:0 "Annulla."
+
+  agot_religious_decision.4001.t:0 "La spedizione fa ritorno"
+  agot_religious_decision.4001.desc:0 "Dopo mesi di attesa, la mia spedizione commerciale è finalmente rientrata, ma i risultati sono lontani da quanto speravo. Una serie di disavventure — cattiva pianificazione, maltempo e attacchi di pirati — ha lasciato la flotta con ben poco da mostrare rispetto all’investimento iniziale. Qualche merce è stata recuperata, ma l’impresa non ha fruttato le ricompense promesse."
+  agot_religious_decision.4001.a:0 "Sfortunato."
+
+  agot_religious_decision.4002.t:0 "La spedizione fa ritorno"
+  agot_religious_decision.4002.desc:0 "La mia spedizione commerciale è tornata con una modesta partita di merci. Non è il colpo grosso che speravo, ma certo non è un fallimento. Sono state aperte nuove rotte commerciali, anche se non redditizie come immaginavo. È comunque un buon inizio."
+  agot_religious_decision.4002.a:0 "Il meglio che ci si potesse aspettare."
+
+  agot_religious_decision.4003.t:0 "La spedizione fa ritorno"
+  agot_religious_decision.4003.desc:0 "La mia spedizione commerciale è rientrata trionfante, carica di ricchezze e nuove rotte mercantili. I partner esteri che ho assicurato ripagano ampiamente l’investimento. Quest’impresa ha esaltato la reputazione della mia capitale come fiorente centro di commerci."
+  agot_religious_decision.4003.a:0 "Incredibile!"
+
+
+  ######################
+  # WHALING EXPEDITION #
+  ######################
+
+  agot_religious_decision.5000.t:0 "Spedizione baleniera"
+  agot_religious_decision.5000.desc:0 "È tempo di raccogliere le provviste e i fondi necessari per lanciare la mia spedizione baleniera."
+  agot_religious_decision.5000.a:0 "Spenderò generosamente per questa impresa."
+  agot_religious_decision.5000.b:0 "Investirò fondi moderati."
+  agot_religious_decision.5000.c:0 "Spenderò il minimo indispensabile."
+  agot_religious_decision.5000.d:0 "Annulla, non sono più interessato."
+
+  agot_religious_decision.5001.t:0 "Spedizione baleniera"
+  agot_religious_decision.5001.desc_great:0 "Dopo solo poche ore di perlustrazione in mare, avvisto alcune balene che emergono in lontananza. Sebbene siamo a notevole distanza, sembrano grandi come isolotti. Almeno questo dirò ai mercanti a terra.\n\nIn ogni caso, io e i miei marinai vediamo chiaramente che valgono una piccola fortuna!"
+  agot_religious_decision.5001.desc_good:0 "Un grido improvviso di uno dei marinai attira la mia attenzione.\n\nLo seguo tra urla crescenti, teste girate e dita protese, finché non scorgo una balena che si dibatte in lontananza. Dal mio punto di vista, è un esemplare che frutterà un buon prezzo..."
+  agot_religious_decision.5001.desc_bad:0 "La spedizione si è prolungata fin troppo. I marinai gemono e si lamentano perché non hanno visto alcuna balena e temono di non vederne mai.\n\nNonostante la loro pigrizia mi ferisca, temo abbiano ragione. Questa impresa è uno spreco e le mie casse sono state saccheggiate dalla mia stessa ambizione!"
+  agot_religious_decision.5001.a:0 "Devo inseguirle!"
+  agot_religious_decision.5001.b:0 "Sarà mia!"
+  agot_religious_decision.5001.c:0 "Dannazione!"
+  agot_religious_decision.5001.a.tt_success:0 "Uccidi le balene e fai ritorno con esse"
+  agot_religious_decision.5001.b.tt_success:0 "Uccidi la balena e fai ritorno con essa"
+  agot_religious_decision.5001.a.tt_failure:0 "Non riesci a uccidere la balena"
+
+
+  ####################
+  # OILY BLACK STONE #
+  ####################
+
+  agot_religious_decision.5100.t:0 "Un Richiamo Viscerale"
+  agot_religious_decision.5100.desc.holy_site:0 "Davanti a me si erge un colossale obelisco di pietra nera oleosa, la cui superficie liscia riflette un potere antico e sommesso. Nella sua veglia silenziosa si muovono echi di misteri dimenticati.\n\nPer secoli, la gente ha strappato pezzi come trofei e costruito monumenti. Qui, un obelisco naturale si staglia — quali segreti cela? Cosa dovrò sacrificare?"
+  agot_religious_decision.5100.desc.artifact:0 "Nella mia mano riposa un frammento di pietra nera oleosa, la sua superficie liscia riflette un potere antico e sommesso. Fissando la pietra, sento affiorare echi di misteri dimenticati.\n\nNei secoli, grandi monumenti sono stati scolpiti da questa roccia e obelischi neri sorgono dove non avrebbero dovuto. Altri prima di me hanno portato frammenti simili — quali segreti celano? Cosa dovrò sacrificare?"
+  agot_religious_decision.5100.a:0 "Un’offerta gloriosa"
+  agot_religious_decision.5100.a.tt:0 "Pongo davanti alla pietra qualcosa di grande valore, cercando di placare il potere che essa detiene. Un dono simile potrebbe attirare… attenzioni."
+  agot_religious_decision.5100.b:0 "Un tributo umile"
+  agot_religious_decision.5100.b.tt:0 "Un’offerta più modesta, ma significativa. Forse basterà a suscitare l’interesse della pietra senza incitarne l’ira."
+  agot_religious_decision.5100.c:0 "Nulla, solo me stesso"
+  agot_religious_decision.5100.c.tt:0 "Invece di ricchezze materiali, offro la mia volontà alla pietra, in cerca di comprensione — o follia. Cosa pretenderà in cambio?"
+  agot_religious_decision.5100.d:0 "Lasciare tutto com’è"
+  agot_religious_decision.5100.d.tt:0 "La pietra resta indisturbata. Il suo potere è innegabile, ma forse non è ancora il momento — o è più saggio ignorarla del tutto."
+
+  agot_religious_decision.5101.t:0 "Il Rituale"
+  agot_religious_decision.5101.desc.start_no_offering:0 "Mi trovo davanti alla pietra, offrendo solo la mia presenza. Sento la roccia attirarmi, come se stesse valutando la mia scelta."
+  agot_religious_decision.5101.desc.start_offering:0 "Colloco il mio dono davanti alla pietra, in segno di riverenza. La roccia pare riconoscere il gesto, in attesa di qualcosa di più."
+  agot_religious_decision.5101.desc:0 "\n\nInizio un rituale di intensa concentrazione: la pietra e la sua oleosa levigatezza dominano i miei pensieri. Ogni gesto, parola o pensiero sembra carico di potere, come se potesse plasmare ciò che verrà."
+
+  agot_religious_decision.5101.desc.end_no_change:0 "\n\nVoltandomi e allontanandomi dalla pietra, non avverto cambiamenti. Il silenzio della roccia mi delude, ma non posso scrollarmi di dosso la sensazione che qualcosa sia rimasto non detto."
+  agot_religious_decision.5101.desc.end_changed:0 "\n\nVoltandomi e allontanandomi dalla pietra, avverto un mutamento dentro di me. È difficile dire cosa, ma sento il cambiamento sotto la pelle."
+  agot_religious_decision.5101.shrewd:0 "Mente Affilata"
+  agot_religious_decision.5101.shrewd.tt:0 "La pietra mi ha donato un acume strategico. Penso con chiarezza disarmante, prevedendo le mosse altrui con precisione."
+  agot_religious_decision.5101.strong:0 "Forza Inossidabile"
+  agot_religious_decision.5101.strong.tt:0 "La pietra mi ha infuso vigore fisico. Mi sento più capace, il mio corpo una forza più temibile."
+  agot_religious_decision.5101.good:0 "Un dono della pietra"
+  agot_religious_decision.5101.good.tt:0 "Qualunque cosa abbia fatto la pietra, è qualcosa di positivo. Nuova sapienza o un vantaggio inatteso mi accompagneranno."
+  agot_religious_decision.5101.no_change_tt:0 "La pietra non ha fatto nulla. Le mie speranze svaniscono, lasciandomi a domandarmi se sia valso davvero lo sforzo."
+  agot_religious_decision.5101.bad:0 "Un prezzo pagato"
+  agot_religious_decision.5101.bad.tt:0 "Qualunque mutamento sia avvenuto, mi è costato caro. La pietra ha preso quanto ha dato."
+  agot_religious_decision.5101.possessed:0 "Una Voce nell’Oscurità"
+  agot_religious_decision.5101.possessed.tt:0 "Avverto qualcosa agitarsi dentro di me, una presenza aliena che attecchisce nella mente. Il potere della pietra sembra avermi reclamato in modi inspiegabili."
+  agot_religious_decision.5101.no_change.zealous:0 "Perché gli dèi mi odiano?"
+  agot_religious_decision.5101.no_change.zealous.tt:0 "Sento come se gli dèi mi avessero respinto, il loro favore scivola via. Sono frustrato e confuso, in cerca di risposte dove non ce ne sono."
+  agot_religious_decision.5101.no_change:0 "Inascoltato"
+  agot_religious_decision.5101.no_change.tt:0 "La pietra non ha fatto nulla. Le mie speranze svaniscono, lasciandomi a domandarmi se sia valso davvero lo sforzo."
+
+  #########
+  # BLOOD #
+  #########
+
+  agot_religious_decision.5200.t:0 "L’Essenza Stessa della Vita"
+  agot_religious_decision.5200.desc:0 "Chi dei miei prigionieri verrà dissanguato?"
+  agot_religious_decision.5200.a:0 "Questo andrà bene."
+  agot_religious_decision.5200.b:0 "$agot_religious_decision.5200.a$"
+
+  agot_religious_decision.5201.t:0 "L’Essenza Stessa della Vita"
+  agot_religious_decision.5201.desc:0 "Osservo con cupo fascino mentre i miei torturatori trascinano [living_blood_bag.GetName] nella segreta e cominciano a prosciugargli il sangue usando sanguisughe e altri strumenti dell’orrore."
+  agot_religious_decision.5201.a:0 "Che emozione!"
+  agot_religious_decision.5201.a_tt:0 "Hai guadagnato 20 sangue."
