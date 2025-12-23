@@ -5,7 +5,7 @@
   agot_trial_by_combat.0001.desc: "Non ci sarà alcun processo per i tuoi crimini, marcirai qui dentro fino alla morte."
   agot_trial_by_combat.0001.a: "Quel [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!"
 
-  agot_trial_by_combat.0002.trigger_failure.actor: "\"Il mio processo per singolar tenzone è stato annullato.\""
+  agot_trial_by_combat.0002.trigger_failure.actor: ""Il mio processo per singolar tenzone è stato annullato.""
   agot_trial_by_combat.0002.trigger_failure.recipient: "[actor.GetFirstNameNoTooltip]'s processo per singolar tenzone è stato annullato"
 
   agot_trial_by_combat.1000.t: "$agot_trial_by_combat.0000.t$: Scelta di un Campione"
@@ -88,26 +88,26 @@
 
   # Singolar Tenzone
   agot_trial_by_combat.9000.t:0 "Singolar Tenzone"
-  agot_trial_by_combat.9000.desc:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo due roghi; uno con il mio campione [actor_champion.GetTitledFirstName] già legato.\n\n\"Ho scelto il fuoco come mio campione oggi,\" [recipient.GetTitledFirstName] ride follemente."
-  agot_trial_by_combat.9000.desc.self_champion:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo un rogo pronto, e le guardie cominciano a trascinarmi verso di esso.\n\n\"Ho scelto il fuoco come mio campione oggi,\" [recipient.GetTitledFirstName] ride follemente."
+  agot_trial_by_combat.9000.desc:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo due roghi; uno con il mio campione [actor_champion.GetTitledFirstName] già legato.\n\n"Ho scelto il fuoco come mio campione oggi," [recipient.GetTitledFirstName] ride follemente."
+  agot_trial_by_combat.9000.desc.self_champion:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo un rogo pronto, e le guardie cominciano a trascinarmi verso di esso.\n\n"Ho scelto il fuoco come mio campione oggi," [recipient.GetTitledFirstName] ride follemente."
   agot_trial_by_combat.9000.a:0 "Oh."
 
   agot_trial_by_combat.9001.t:0 "Singolar Tenzone"
-  agot_trial_by_combat.9001.desc:0 "Quando [actor_champion.GetTitledFirstName] arriva, sono pronto. Faccio catturare [actor_champion.GetHerHim] dalle mie guardie, lo lego a uno dei due roghi che ho preparato e poi mando a chiamare [actor.GetTitledFirstName].\n\nLo sguardo sul suo volto quando si rende conto è glorioso.\n\n\"Ho scelto il fuoco come mio campione oggi,\" dico. \"Ora iniziamo.\""
-  agot_trial_by_combat.9001.desc.self_champion:0 "Non appena il rogo è pronto, mando a chiamare [actor.GetTitledFirstName].\n\nLo sguardo sul suo volto quando si rende conto è glorioso.\n\n\"Ho scelto il fuoco come mio campione oggi,\" dico. \"Ora iniziamo.\""
+  agot_trial_by_combat.9001.desc:0 "Quando [actor_champion.GetTitledFirstName] arriva, sono pronto. Faccio catturare [actor_champion.GetHerHim] dalle mie guardie, lo lego a uno dei due roghi che ho preparato e poi mando a chiamare [actor.GetTitledFirstName].\n\nLo sguardo sul suo volto quando si rende conto è glorioso.\n\n"Ho scelto il fuoco come mio campione oggi," dico. "Ora iniziamo.""
+  agot_trial_by_combat.9001.desc.self_champion:0 "Non appena il rogo è pronto, mando a chiamare [actor.GetTitledFirstName].\n\nLo sguardo sul suo volto quando si rende conto è glorioso.\n\n"Ho scelto il fuoco come mio campione oggi," dico. "Ora iniziamo.""
   agot_trial_by_combat.9001.a:0 "È bellissimo."
   agot_trial_by_combat.9001.tt:0 "[actor.GetTitledFirstName] e il suo campione, [actor_champion.GetTitledFirstName], muoiono entrambi."
   agot_trial_by_combat.9001.tt.self_champion:0 "[actor.GetTitledFirstName] muore."
 
 
   agot_trial_by_combat.9100.t:0 "Giudizio per Singolar Tenzone"
-  agot_trial_by_combat.9100.desc:0 "Vengo portato dalla prigione incatenato al luogo dove si svolgerà il mio giudizio per Singolar Tenzone. Tuttavia, invece di un campo di battaglia, trovo [dragon.GetName] accanto a [recipient.GetTitledFirstName]!\n\n\"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi,\" dice [recipient.GetTitledFirstNameNoTooltip] con un sorriso ironico, mentre [actor_champion.GetFirstName] guarda terrorizzato alla prospettiva di affrontare un drago faccia a faccia."
-  agot_trial_by_combat.9100.desc.self_champion:0 "Vengo portato dalla prigione incatenato al luogo dove si svolgerà il mio giudizio per Singolar Tenzone. Tuttavia, invece di un campo di battaglia, trovo [dragon.GetName] accanto a [recipient.GetTitledFirstName]!\n\n\"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi,\" dice [recipient.GetTitledFirstNameNoTooltip] con un sorriso ironico, e il terrore mi attanaglia mentre realizzo che dovrò affrontare un drago faccia a faccia."
+  agot_trial_by_combat.9100.desc:0 "Vengo portato dalla prigione incatenato al luogo dove si svolgerà il mio giudizio per Singolar Tenzone. Tuttavia, invece di un campo di battaglia, trovo [dragon.GetName] accanto a [recipient.GetTitledFirstName]!\n\n"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi," dice [recipient.GetTitledFirstNameNoTooltip] con un sorriso ironico, mentre [actor_champion.GetFirstName] guarda terrorizzato alla prospettiva di affrontare un drago faccia a faccia."
+  agot_trial_by_combat.9100.desc.self_champion:0 "Vengo portato dalla prigione incatenato al luogo dove si svolgerà il mio giudizio per Singolar Tenzone. Tuttavia, invece di un campo di battaglia, trovo [dragon.GetName] accanto a [recipient.GetTitledFirstName]!\n\n"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi," dice [recipient.GetTitledFirstNameNoTooltip] con un sorriso ironico, e il terrore mi attanaglia mentre realizzo che dovrò affrontare un drago faccia a faccia."
   agot_trial_by_combat.9100.a:0 "Oh."
 
   agot_trial_by_combat.9101.t:0 "Giudizio per Singolar Tenzone"
-  agot_trial_by_combat.9101.desc:0 "[dragon.GetFirstName] sibilante morbido, assaporando l'aria mentre il profumo della preda si diffonde. Quando arriva [actor_champion.GetTitledFirstName], il volto che [actor_champion.GetSheHe] fa dice tutto. La speranza abbandona i loro occhi e non rimane altro che disprezzo e disperazione.\n\n\"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi,\" dico, affermando ciò che era già chiaro. \"Ora iniziamo.\""
-  agot_trial_by_combat.9101.desc.self_champion:0 "[dragon.GetFirstName] sibilante morbido, assaporando l'aria mentre il profumo della preda si diffonde. Quando arriva [actor.GetTitledFirstName], il volto che [actor.GetSheHe] fa dice tutto. La speranza abbandona i suoi occhi e non rimane altro che disprezzo e disperazione.\n\n\"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi,\" dico, affermando ciò che era già chiaro. \"Ora iniziamo.\""
+  agot_trial_by_combat.9101.desc:0 "[dragon.GetFirstName] sibilante morbido, assaporando l'aria mentre il profumo della preda si diffonde. Quando arriva [actor_champion.GetTitledFirstName], il volto che [actor_champion.GetSheHe] fa dice tutto. La speranza abbandona i loro occhi e non rimane altro che disprezzo e disperazione.\n\n"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi," dico, affermando ciò che era già chiaro. "Ora iniziamo.""
+  agot_trial_by_combat.9101.desc.self_champion:0 "[dragon.GetFirstName] sibilante morbido, assaporando l'aria mentre il profumo della preda si diffonde. Quando arriva [actor.GetTitledFirstName], il volto che [actor.GetSheHe] fa dice tutto. La speranza abbandona i suoi occhi e non rimane altro che disprezzo e disperazione.\n\n"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi," dico, affermando ciò che era già chiaro. "Ora iniziamo.""
   agot_trial_by_combat.9101.a:0 "L'esito era certo, ma lo spettacolo è stato buono."
   agot_trial_by_combat.9101.tt:0 "[actor.GetTitledFirstName] e il/la suo/a campione, [actor_champion.GetTitledFirstName], sono stati entrambi bruciati vivi da [dragon.GetName]."
   agot_trial_by_combat.9101.tt.self_champion:0 "[actor.GetTitledFirstName] è stato bruciato vivo da [dragon.GetName]."

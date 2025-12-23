@@ -573,7 +573,7 @@
 
     #Shiny Trinkets continued - The witness confronts you via proxy
     coronation_banquet.1018.t:1 "... Emergerà"
-    coronation_banquet.1018.desc_intro:1 "Improvvisamente, un emissario di [witness.GetTitledFirstName], di nome [witness_proxy.GetTitledFirstName], si presenta alla mia porta. \"Salve, mio [ROOT.Char.GetLadyLord]! Porto messaggi dal suo più grazioso [witness.GetTitledFirstNameNoTooltip].\"\n\nL'emissario appare leggermente a disagio: \"[witness.GetTitledFirstNameNoTooltip] farà sapere che [feast_host.GetTitledFirstName] sta cercando il suo [trinket_to_steal.GetName] e...\", [witness_proxy.GetSheHe] fa una pausa brevemente, \"sembra che il mio [witness.Custom('MistressMaster')] pensi che tu possa averlo visto durante il banchetto?\" [witness_proxy.GetTitledFirstNameNoTooltip] mi scruta dalla testa ai piedi."
+    coronation_banquet.1018.desc_intro:1 "Improvvisamente, un emissario di [witness.GetTitledFirstName], di nome [witness_proxy.GetTitledFirstName], si presenta alla mia porta. "Salve, mio [ROOT.Char.GetLadyLord]! Porto messaggi dal suo più grazioso [witness.GetTitledFirstNameNoTooltip]."\n\nL'emissario appare leggermente a disagio: "[witness.GetTitledFirstNameNoTooltip] farà sapere che [feast_host.GetTitledFirstName] sta cercando il suo [trinket_to_steal.GetName] e...", [witness_proxy.GetSheHe] fa una pausa brevemente, "sembra che il mio [witness.Custom('MistressMaster')] pensi che tu possa averlo visto durante il banchetto?" [witness_proxy.GetTitledFirstNameNoTooltip] mi scruta dalla testa ai piedi."
     coronation_banquet.1018.desc_greedy:0 "\n\nCome osa [witness.GetTitledFirstNameNoTooltip]! Le unghie si conficcano nel palmo delle mie mani, cerco di rimanere calmo e lucido di fronte a queste accuse."
     coronation_banquet.1018.desc_default:1 "\n\nIl mio cuore batte forte nelle mie orecchie mentre sento un filo di sudore scorrere lungo la mia schiena. Questo è il rischio che corro in cambio di quel dolce, dolce momento di acquisizione."
     coronation_banquet.1018.a:0 "Ho qui una borsa di monete che potrebbe avere."
@@ -590,8 +590,8 @@
     #ORPHANED - Shiny Trinkets continued - You return the piece to the feast_host
     coronation_banquet.1019.t:1 "Le Scuse"
     coronation_banquet.1019_start:0 "Quando entro nelle stanze di [feast_host.GetTitledFirstNameNoTooltip], il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('feast_host'))] mi guarda con uno"
-    coronation_banquet.1019.desc_intro_redeemed:0 "$coronation_banquet.1019_start$ sguardo deluso.\n\n\"Non me lo aspettavo, lo ammetto. Avere il mio [feast_host.Custom2('RelationToMe', ROOT.Char)] caduto vittima di un comportamento così vergognoso... davvero questo deve pesare su di te. Applaudo alla tua confessione, è il primo passo verso il miglioramento.\""
-    coronation_banquet.1019.desc_intro_condemned:0 "$coronation_banquet.1019_start$ sguardo di disapprovazione.\n\n\"Non siamo mai andati d'accordo, tu e io. Avere il mio [feast_host.Custom2('RelationToMe', ROOT.Char)] cedere a una cosa come il furto meschino... #EMP è#! estremamente imbarazzante, oltre che deprecabile. Devi fare meglio.\""
+    coronation_banquet.1019.desc_intro_redeemed:0 "$coronation_banquet.1019_start$ sguardo deluso.\n\n"Non me lo aspettavo, lo ammetto. Avere il mio [feast_host.Custom2('RelationToMe', ROOT.Char)] caduto vittima di un comportamento così vergognoso... davvero questo deve pesare su di te. Applaudo alla tua confessione, è il primo passo verso il miglioramento.""
+    coronation_banquet.1019.desc_intro_condemned:0 "$coronation_banquet.1019_start$ sguardo di disapprovazione.\n\n"Non siamo mai andati d'accordo, tu e io. Avere il mio [feast_host.Custom2('RelationToMe', ROOT.Char)] cedere a una cosa come il furto meschino... #EMP è#! estremamente imbarazzante, oltre che deprecabile. Devi fare meglio.""
     coronation_banquet.1019.desc_redemption_greedy:0 "\n\nRecito questa parte teatrale, mentre so che l'alternativa sarebbe stata molto peggiore. Almeno sono fuori dai guai... questa volta."
     coronation_banquet.1019.desc_condemnation_greedy:0 "\n\nLottando per trattenermi, guardo a terra davanti a lui e offro un cenno. Sì. #EMP Farò meglio la prossima volta.#!"
     coronation_banquet.1019.desc_redemption:0 "\n\nMortificato dal mio stesso comportamento, mi sento davvero grato per la sua risposta benevola alla mia supplica. Una pietra figurativa è stata davvero sollevata dalle mie spalle."
@@ -619,7 +619,7 @@
     coronation_banquet.1020.tt_guests: "#z [THIS.Var('num_unhappy_guests').GetValue|0]#! ospite(i) apprezzano questa azione e guadagnano opinione di te"
 
     coronation_banquet.1030.t:0 "Eroi del Nostro Tempo"
-    coronation_banquet.1030.desc:0 "Un'esibizione si conclude con la prima appassionata recita di [minstrel.GetFirstNamePossessive]. Gli occhi sono asciutti, i tavoli vengono battuti.\n\n\"Un'altra storia!\" offre [minstrel.GetSheHe]. \"Devo cantare di come il grande $knight_culture_player_no_tooltip_lowercase$ [knight_1.GetFirstName]"
+    coronation_banquet.1030.desc:0 "Un'esibizione si conclude con la prima appassionata recita di [minstrel.GetFirstNamePossessive]. Gli occhi sono asciutti, i tavoli vengono battuti.\n\n"Un'altra storia!" offre [minstrel.GetSheHe]. "Devo cantare di come il grande $knight_culture_player_no_tooltip_lowercase$ [knight_1.GetFirstName]"
     coronation_banquet.1030.ethical:0 "ha nobili difeso i deboli?"
     coronation_banquet.1030.amoral:0 "ha massacrato nemici di ogni descrizione?"
     coronation_banquet.1030.leader:0 "ha guidato i compagni attraverso grandi pericoli?"
@@ -648,7 +648,7 @@
     coronation_banquet.1030.d.tt:0 "Un sempre più popolare fautore di quest e gesta... reali e non."
 
     coronation_banquet.2002.t:1 "Un Ammiratore"
-    coronation_banquet.2002.desc:0 "Qualcuno non visto mi ha infilato un biglietto durante il banchetto:\n\n\"[letterAuthor.Custom2('love_letter', SCOPE.sC('letterRecipient'))]\"\n\nChi potrebbe essere questo tenero messaggio? C'era qualcosa nel modo in cui [crush_1.GetTitledFirstName] mi guardava timidamente. O come [crush_2.GetTitledFirstName] sorrideva quando ci siamo incontrati. D'altra parte, [crush_3.GetTitledFirstName] sembrava molto desideroso di sedersi vicino a me..."
+    coronation_banquet.2002.desc:0 "Qualcuno non visto mi ha infilato un biglietto durante il banchetto:\n\n"[letterAuthor.Custom2('love_letter', SCOPE.sC('letterRecipient'))]"\n\nChi potrebbe essere questo tenero messaggio? C'era qualcosa nel modo in cui [crush_1.GetTitledFirstName] mi guardava timidamente. O come [crush_2.GetTitledFirstName] sorrideva quando ci siamo incontrati. D'altra parte, [crush_3.GetTitledFirstName] sembrava molto desideroso di sedersi vicino a me..."
     coronation_banquet.2002.a:0 "Deve essere stato [crush_1.GetFirstNameNoTooltip]!"
     coronation_banquet.2002.b:0 "Potrebbe essere stato [crush_2.GetFirstNameNoTooltip]?"
     coronation_banquet.2002.c:0 "Questo ha la firma di [crush_3.GetFirstNameNoTooltip]."
@@ -660,8 +660,8 @@
 
     coronation_banquet.2005.t:1 "Ovunque sul Mio Nuovo [ROOT.Char.Custom('GetClothingArticle')|U]"
     coronation_banquet.2005.desc:0 "Tutti potevamo vedere che [drunk.GetTitledFirstName] aveva bevuto troppo, anche se [drunk.GetSheHe] insisteva di mostrarci quanto fosse sobrio.\n\nAlzarsi dalla sedia si è rivelato troppo per lui, e ora sono coperto di vomito puzzolente!"
-    coronation_banquet.2005.a:0 "\"Dovresti vergognarti, [drunk.GetFirstNameNoTooltip]!\""
-    coronation_banquet.2005.b:0 "\"Ah! Che spettacolo hai messo in scena!\""
+    coronation_banquet.2005.a:0 ""Dovresti vergognarti, [drunk.GetFirstNameNoTooltip]!""
+    coronation_banquet.2005.b:0 ""Ah! Che spettacolo hai messo in scena!""
 
     coronation_banquet.2006.t:2 "[Select_CString(befriending_guest.IsFemale,'La volenterosa','Il volenteroso')] [befriending_guest.GetTitleTierName|U]"
     coronation_banquet.2006.desc:0 "Mentre [befriending_guest.Custom2('MyCharacterIntroduction', ROOT.Char)] interrompe ancora una volta una conversazione con una risata forte, non posso più negare che [befriending_guest.GetSheHe] sta agendo in modo strano.\n\n[befriending_guest.GetSheHe|U] non si allontana mai da me, si unisce a ogni conversazione, esprime apprezzamento per tutto ciò che dico..."
@@ -687,7 +687,7 @@
     coronation_banquet.2008.d.unlock_text:0 "Questa opzione è disponibile a causa della tua [sexuality|E]"
 
     coronation_banquet.2009.t:1 "Per Favore, Continua"
-    coronation_banquet.2009.desc:1 "Ascolto attentamente [secret_holder.GetTitledFirstName] mentre [secret_holder.GetSheHe] rivela con noncuranza ogni genere di cose. Distratto nel tentativo di ottenere un'ultima goccia dal suo boccale, [secret_holder.GetSheHe] è inconsapevole di quanto attentamente stia prestando attenzione.\n\nUna volta che [secret_holder.GetSheHe] se ne rende conto, [secret_holder.GetSheHe] inizia ad alzarsi. \"Sto solo chiacchierando! Non è vero comunque, niente di tutto ciò!\""
+    coronation_banquet.2009.desc:1 "Ascolto attentamente [secret_holder.GetTitledFirstName] mentre [secret_holder.GetSheHe] rivela con noncuranza ogni genere di cose. Distratto nel tentativo di ottenere un'ultima goccia dal suo boccale, [secret_holder.GetSheHe] è inconsapevole di quanto attentamente stia prestando attenzione.\n\nUna volta che [secret_holder.GetSheHe] se ne rende conto, [secret_holder.GetSheHe] inizia ad alzarsi. "Sto solo chiacchierando! Non è vero comunque, niente di tutto ciò!""
     coronation_banquet.2009.a:0 "Oh, si stanno rivelando #EMP molto#! interessanti chiacchiere."
 
     coronation_banquet.2012.t:1 "Il Testimone"
@@ -697,11 +697,11 @@
     coronation_banquet.2012.c:0 "Il mio silenzio ha un prezzo."
 
     coronation_banquet.2013.t:1 "Il Leccapiedi"
-    coronation_banquet.2013.desc:0 "Le voci che circolano su [bootlicker.GetTitledFirstName] che desidera conquistare le simpatie di [shared_liege.GetTitledFirstName] vengono confermate quando [bootlicker.GetSheHe] gli porge un regalo.\n\n\"Mio carissimo [bootlicker.Custom2('RelationToMeShort', SCOPE.sC('shared_liege'))], è così bello vederti! Sapendo che ci saremmo incontrati qui, ti ho portato questa meravigliosa pelliccia, come segno della mia gratitudine.\"\n\n[shared_liege.GetTitledFirstName] sorride mentre [shared_liege.GetSheHe] esamina la pelle animale. Vedendo quanto sia felice [shared_liege.GetSheHe] per il regalo ricevuto, realizzo di rischiare di perdere l'opportunità di migliorare anche il mio rapporto con lui!"
-    coronation_banquet.2013.a:0 "\"Mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shared_liege'))]! Ho un regalo anche per te!\""
+    coronation_banquet.2013.desc:0 "Le voci che circolano su [bootlicker.GetTitledFirstName] che desidera conquistare le simpatie di [shared_liege.GetTitledFirstName] vengono confermate quando [bootlicker.GetSheHe] gli porge un regalo.\n\n"Mio carissimo [bootlicker.Custom2('RelationToMeShort', SCOPE.sC('shared_liege'))], è così bello vederti! Sapendo che ci saremmo incontrati qui, ti ho portato questa meravigliosa pelliccia, come segno della mia gratitudine."\n\n[shared_liege.GetTitledFirstName] sorride mentre [shared_liege.GetSheHe] esamina la pelle animale. Vedendo quanto sia felice [shared_liege.GetSheHe] per il regalo ricevuto, realizzo di rischiare di perdere l'opportunità di migliorare anche il mio rapporto con lui!"
+    coronation_banquet.2013.a:0 ""Mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('shared_liege'))]! Ho un regalo anche per te!""
     coronation_banquet.2013.a.success:0 "[shared_liege.GetTitledFirstName] è colpito dal tuo regalo improvvisato."
     coronation_banquet.2013.a.failure:0 "[shared_liege.GetTitledFirstName] non è impressionato dal tuo regalo improvvisato."
-    coronation_banquet.2013.b:0 "\"#EMP Ehm!#! Propongo un brindisi a [shared_liege.GetTitledFirstNameNoTooltip]!\""
+    coronation_banquet.2013.b:0 ""#EMP Ehm!#! Propongo un brindisi a [shared_liege.GetTitledFirstNameNoTooltip]!""
     coronation_banquet.2013.b.success:0 "[shared_liege.GetTitledFirstName] è colpito dal tuo brindisi improvvisato."
     coronation_banquet.2013.b.failure:0 "[shared_liege.GetTitledFirstName] non è impressionato dal tuo brindisi improvvisato."
     coronation_banquet.2013.c:0 "Rovescia il tuo drink sulla pelliccia regalata e afferma che è stato un incidente."
@@ -720,11 +720,11 @@
     coronation_banquet.3002.b:0 "No, potremmo essere scoperti."
 
     coronation_banquet.3003.t:1 "Compagnia Sgradevole"
-    coronation_banquet.3003.desc:1 "È stato un banchetto così piacevole, ma poi #EMP [rival.GetSheHe]#! è comparso. Non posso avere una sola serata non macchiata dal fetore invadente di [rival.GetTitledFirstNameNoTooltip]?\n\nPeggio di tutto è il suo fastidioso tono di voce mentre [rival.GetSheHe] si avvicina a me. \"Perché questa faccia da acido, [ROOT.Char.GetFirstNameNoTooltip]?\""
+    coronation_banquet.3003.desc:1 "È stato un banchetto così piacevole, ma poi #EMP [rival.GetSheHe]#! è comparso. Non posso avere una sola serata non macchiata dal fetore invadente di [rival.GetTitledFirstNameNoTooltip]?\n\nPeggio di tutto è il suo fastidioso tono di voce mentre [rival.GetSheHe] si avvicina a me. "Perché questa faccia da acido, [ROOT.Char.GetFirstNameNoTooltip]?""
     coronation_banquet.3003.a:0 "[rival.GetSheHe|U] mi fa venire voglia di prenderlo a pugni in faccia!"
 
     coronation_banquet.3004.t:1 "Alterchi Ingiuriosi"
-    coronation_banquet.3004.desc:0 "Dopo che quantità copiose di cibo e bevande sono state consumate, trovo [rival_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] in mezzo a una conversazione rumorosa. [rival_guest.GetSheHe|U] si volta verso di me non appena [rival_guest.GetSheHe] nota la mia presenza.\n\n\"E #EMP tu#! – la tua semplice presenza rovina questa serata!\""
+    coronation_banquet.3004.desc:0 "Dopo che quantità copiose di cibo e bevande sono state consumate, trovo [rival_guest.Custom2('MyCharacterIntroduction', ROOT.Char )] in mezzo a una conversazione rumorosa. [rival_guest.GetSheHe|U] si volta verso di me non appena [rival_guest.GetSheHe] nota la mia presenza.\n\n"E #EMP tu#! – la tua semplice presenza rovina questa serata!""
     coronation_banquet.3004.a:0 "Penso che tu abbia bevuto abbastanza per stasera."
     coronation_banquet.3004.b:0 "Non sei altro che un [rival_guest.Custom('InsultAdjective')] [rival_guest.Custom('InsultNoun')]!"
     coronation_banquet.3004.b.success:0 "Hai vinto il combattimento."
@@ -736,11 +736,11 @@
     coronation_banquet.3005.t:1 "Una Sfida"
     coronation_banquet.3005.desc:0 "La sala riecheggia delle risate del mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_to_duel'))] [rival_to_duel.GetTitledFirstName], con le sue provocazioni e insulti — quando [rival_to_duel.GetSheHe] mi chiama [ROOT.Char.Custom('InsultAdjectiveArticle')] [ROOT.Char.Custom('InsultNoun')] tiro fuori la mia spada."
     coronation_banquet.3005.desc_won:0 "\n\nRitorno in me stesso mentre mi piego su di lui, stivale sul suo petto, entrambi ansimando."
-    coronation_banquet.3005.desc_lost:0 "\n\nRitorno in me stesso mentre [rival_to_duel.GetSheHe] si piega su di me, stivale sul mio petto. [rival_to_duel.GetSheHe|U] sibila nella mia orecchia, \"Voglio sentirti implorare pietà.\""
-    coronation_banquet.3005.a:0 "\"Pagherai per tutto ciò che hai fatto.\""
-    coronation_banquet.3005.b:0 "\"Non mi arrenderò mai a uno come #EMP te#!!\""
-    coronation_banquet.3005.c:0 "\"Per favore, non farmi del male!\""
-    coronation_banquet.3005.d:0 "\"Voglio sentirti implorare pietà.\""
+    coronation_banquet.3005.desc_lost:0 "\n\nRitorno in me stesso mentre [rival_to_duel.GetSheHe] si piega su di me, stivale sul mio petto. [rival_to_duel.GetSheHe|U] sibila nella mia orecchia, "Voglio sentirti implorare pietà.""
+    coronation_banquet.3005.a:0 ""Pagherai per tutto ciò che hai fatto.""
+    coronation_banquet.3005.b:0 ""Non mi arrenderò mai a uno come #EMP te#!!""
+    coronation_banquet.3005.c:0 ""Per favore, non farmi del male!""
+    coronation_banquet.3005.d:0 ""Voglio sentirti implorare pietà.""
     coronation_banquet.3005.e:0 "Allungo la mano e, con un solo movimento fluido, gli recido il tendine del tallone."
 
     coronation_banquet.3096.t:0 "Una Nuova Possibilità"

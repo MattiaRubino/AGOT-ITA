@@ -424,16 +424,16 @@
 
   # 0076 - Take your dragon for a walk
   agot_filler_dragon.0076.t:0 "Come camminare con il drago"
-  agot_filler_dragon.0076.desc:0 "Oggi è una giornata sorprendentemente bella, e un'idea ispirata ha fornito un'opportunità per goderne. Ho deciso di portare a passeggio [pet_dragon.GetName]! Il guidatore mi ha guardato stranamente quando ho preso il comando, ma almeno è stato abbastanza sottile da non sbirciare. Apparentemente, una tale civiltà è al di fuori della capacità dei piccoli nobili.\n\nQuando arriviamo nella piazza del mercato, tutti smettono completamente di fare shopping! Nessun frammento di decenza! Cosa stanno facendo a guardarci? È come se... stessero aspettando qualcosa? Oh! Stanno aspettando un trucco! Ne ho proprio uno in mente \"[pet_dragon.GetNameNoTooltip]...\""
+  agot_filler_dragon.0076.desc:0 "Oggi è una giornata sorprendentemente bella, e un'idea ispirata ha fornito un'opportunità per goderne. Ho deciso di portare a passeggio [pet_dragon.GetName]! Il guidatore mi ha guardato stranamente quando ho preso il comando, ma almeno è stato abbastanza sottile da non sbirciare. Apparentemente, una tale civiltà è al di fuori della capacità dei piccoli nobili.\n\nQuando arriviamo nella piazza del mercato, tutti smettono completamente di fare shopping! Nessun frammento di decenza! Cosa stanno facendo a guardarci? È come se... stessero aspettando qualcosa? Oh! Stanno aspettando un trucco! Ne ho proprio uno in mente "[pet_dragon.GetNameNoTooltip]...""
   agot_filler_dragon.0076.injury_warning:0 "Potresti subire delle lesioni"
-  agot_filler_dragon.0076.a:0 "\"Seduto.\""
-  agot_filler_dragon.0076.b:0 "\"Dammi la zampa.\""
-  agot_filler_dragon.0076.c:0 "\"Fai una capriola!\""
-  agot_filler_dragon.0076.d:0 "#N \"BRUCIA\"#!"
+  agot_filler_dragon.0076.a:0 ""Seduto.""
+  agot_filler_dragon.0076.b:0 ""Dammi la zampa.""
+  agot_filler_dragon.0076.c:0 ""Fai una capriola!""
+  agot_filler_dragon.0076.d:0 "#N "BRUCIA"#!"
   agot_filler_dragon.0076.d.tt:0 "#X I piccoli nobili non saranno felici del tuo massacro#!"
   agot_filler_dragon.0076.d.tt.vassals_warning:0 "#X I tuoi vassalli potrebbero o meno gradire questo a seconda delle loro caratteristiche#!"
   agot_filler_dragon.0076.d.tt.courtiers_warning:0 "#X I tuoi cortigiani e ospiti potrebbero o meno gradire questo a seconda delle loro caratteristiche#!"
-  agot_filler_dragon.0076.e:0 "\"Andiamo via!\""
+  agot_filler_dragon.0076.e:0 ""Andiamo via!""
   agot_filler_dragon.0076.success:0 "Successo!"
   agot_filler_dragon.0076.success.sit:0 "[pet_dragon.GetNameNoTooltip] si siede al tuo comando"
   agot_filler_dragon.0076.success.sat:0 "[pet_dragon.GetName] si è seduto, come il buon [pet_dragon.Custom('DragonGirlBoy')]"
@@ -455,7 +455,7 @@
   ########################################
   # A knight wants to fight your dragon
   agot_filler_dragon.0082.t:0 "Il Coraggio Spesso Porta a..."
-  agot_filler_dragon.0082.desc:0 "Oggi è entrato nella mia sala un [brave_knight.GetWomanMan] estremamente strano, non tanto per il suo aspetto quanto per le sue parole. Egli afferma di essere un cavaliere, anche se nessuno dei miei cortigiani ha mai sentito parlare di lui. Nonostante ciò, l'assurdità della sua richiesta ha fatto sì che venisse direttamente a me.\n\n\"Per favore, grande [ROOT.Char.GetTitledFirstName], ti prego, permettimi di combattere il tuo drago! Sono un cavaliere e devo dimostrare il mio coraggio a tutto il regno!\" le sue parole risuonano sinceramente nella stanza e posso vedere il fuoco nei suoi occhi.\n\nDevo ammettere che sono curioso di vedere come andrà a finire, ma sicuramente questo... [brave_knight.GetName] è pazzo?"
+  agot_filler_dragon.0082.desc:0 "Oggi è entrato nella mia sala un [brave_knight.GetWomanMan] estremamente strano, non tanto per il suo aspetto quanto per le sue parole. Egli afferma di essere un cavaliere, anche se nessuno dei miei cortigiani ha mai sentito parlare di lui. Nonostante ciò, l'assurdità della sua richiesta ha fatto sì che venisse direttamente a me.\n\n"Per favore, grande [ROOT.Char.GetTitledFirstName], ti prego, permettimi di combattere il tuo drago! Sono un cavaliere e devo dimostrare il mio coraggio a tutto il regno!" le sue parole risuonano sinceramente nella stanza e posso vedere il fuoco nei suoi occhi.\n\nDevo ammettere che sono curioso di vedere come andrà a finire, ma sicuramente questo... [brave_knight.GetName] è pazzo?"
   agot_filler_dragon.0082.a:0 "Se è il tuo desiderio, allora sia fatto."
   agot_filler_dragon.0082.a.f:0 "Permetterai a [brave_knight.GetFirstNameNoTooltip] di combattere contro [dragon.GetFirstNameNoTooltip]."
   agot_filler_dragon.0082.a.tt_1:0 "[brave_knight.GetNameNoTooltip] morirà quasi sicuramente."
@@ -554,7 +554,7 @@
 
   # Il bambino è riuscito a scappare e a cavalcare il drago!
   agot_filler_dragon.0094.t:0 "Prendere il Volo"
-  agot_filler_dragon.0094.desc_alive:0 "Non posso credere a ciò che sto vedendo! Sono stato trascinato fuori dai miei alloggi incredulo, e infatti vedo chiaramente la silhouette di [child.GetFirstName] sopra [dragon.GetFirstName] contro il cielo notturno! Non solo sopra, ma in sella!\n\nDopo alcuni giri e picchiate, [child.GetFirstNameNoTooltip] e [dragon.GetFirstNameNoTooltip] ci vedono e atterrano nel cortile. [child.GetFirstNameNoTooltip] è raggiante mentre scivola giù da [dragon.GetFirstNameNoTooltip]. \"L'hai visto?!\" esclama [child.GetFirstNameNoTooltip]. Non so se dovrei essere arrabbiato o orgoglioso di questo coraggioso [child.Custom('GirlBoy')]."
+  agot_filler_dragon.0094.desc_alive:0 "Non posso credere a ciò che sto vedendo! Sono stato trascinato fuori dai miei alloggi incredulo, e infatti vedo chiaramente la silhouette di [child.GetFirstName] sopra [dragon.GetFirstName] contro il cielo notturno! Non solo sopra, ma in sella!\n\nDopo alcuni giri e picchiate, [child.GetFirstNameNoTooltip] e [dragon.GetFirstNameNoTooltip] ci vedono e atterrano nel cortile. [child.GetFirstNameNoTooltip] è raggiante mentre scivola giù da [dragon.GetFirstNameNoTooltip]. "L'hai visto?!" esclama [child.GetFirstNameNoTooltip]. Non so se dovrei essere arrabbiato o orgoglioso di questo coraggioso [child.Custom('GirlBoy')]."
   agot_filler_dragon.0094.desc_dead:0 "Non posso credere a ciò che sto vedendo. Sono stato trascinato fuori dai miei alloggi incredulo, e infatti vedo chiaramente la silhouette di [child.GetFirstName] sopra [dragon.GetFirstName] contro il cielo notturno! Non erano pronti per questo, la sella!...\n\nNon appena lo penso, lo vedo con i miei stessi occhi. Come in un incubo ad occhi aperti, guardo mentre [child.GetFirstNameNoTooltip] perde la presa e cade. Giù, giù, giù. È così lontano che non riesco nemmeno a sentire l'urlo.\n\nPer fortuna, non sento nemmeno l'impatto."
   agot_filler_dragon.0094.a:0 "Non posso credere che tu abbia fatto questo!"
   agot_filler_dragon.0094.a.f:0 "Sgridarai [child.GetFirstNameNoTooltip] per essere uscito di nascosto a cavalcare [dragon.GetFirstNameNoTooltip]. Dentro di te, però, non puoi fare a meno di sentirti un po' orgoglioso."
