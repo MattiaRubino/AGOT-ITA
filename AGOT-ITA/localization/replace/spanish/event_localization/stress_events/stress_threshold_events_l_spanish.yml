@@ -75,7 +75,7 @@
  stress_threshold.1502.intro.desc:0 "Perché devo #EMP sempre#! fare tutto da sol[ROOT.Char.Custom('DE_END_PRO_S_N')]? Come ci si può aspettare che io gestisca gli affari di [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] quando metà della mia [ROOT.Char.Custom('GetCourt')|l] è incapace di seguire i miei ordini, e l'altra metà neanche li capisce?"
  stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.GetFirstName], in particolare, è diventat[scoped_courtier.Custom('DE_END_PRO_S_N')] insopportabile negli ultimi tempi. Riesco a malapena a tollerare il suo chiacchiericcio incessante."
  stress_threshold.1502.nocourtier.desc:0 ""
- stress_threshold.1502.a:0 "Non sei altro che [Select_CString(scoped_courtier.IsFemale,'una','un')]  [scoped_courtier.Custom('InsultAdjective')] [scoped_courtier.Custom('InsultNoun')]!"
+stress_threshold.1502.a: 0 "Non sei altro che un[scoped_courtier.Custom2('InsultAdjective', ROOT.Char)] [scoped_courtier.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.1502.b:0 "Carceriere! Prendimi un altro prigioniero!"
  stress_threshold.1502.c:0 ""Perché dovete essere tutti degli #EMP idioti#! incompetenti!!?""
  stress_threshold.1502.d:0 "Una visita nelle [ROOT.Char.Custom('GetDungeon')] mi schiarirà l amente..." #controllare se il codice significa SEGRETE
@@ -101,7 +101,7 @@
  stress_threshold.1504.f:0 "Sono circondato da degli stolti!"
  stress_threshold.1504.g:0 "Raccoglierò i miei pensieri per iscritto."
  stress_threshold.1504.h:0 "Saddle my horse, I need to go for a ride!"
-
+stress_threshold.1504.i: "Mi serve un momento di quiete per riflettere."
  stress_threshold.1601.t:0 "Crollo Mentale: Pensieri Vorticanti"
  stress_threshold.1601.desc:0 "Non riesco a concentrarmi, ho mille pensieri per la testa! Devo supervisionare la [ROOT.Char.Custom('GetCourt')|l], devo controllare le truppe, devo...\n\nCome posso trovare pace quando persino i miei pensieri mi tradiscono in questo modo?!"
  stress_threshold.1601.profligate.gain:0 "E se comprassi qualcosa di luccicante su cui concentrare i miei pensieri..."
@@ -130,6 +130,9 @@
  stress_threshold.1601.drunkard.effect:0 "Mi sento sempre più concentrato dopo una bevuta."
  stress_threshold.1601.journaller.gain:0 "Scrivere i miei pensieri dovrebbe portarmi un po' di chiarezza..."
  stress_threshold.1601.journaller.effect:0 "Scrivere i miei pensieri mi porta sempre chiarezza!"
+stress_threshold.1601.burdened.gain: "Sognare un posto migliore potrebbe aiutare."
+stress_threshold.1601.burdened.effect: "Sognare cose buone aiuta sempre!"
+
  stress_threshold.1601.endure_no_option:0 "Devo resistere. Non c'è nulla che io possa fare..."
 
  stress_threshold.1602.t:0 "Crollo Mentale: Emozioni Turbinanti"
@@ -144,8 +147,8 @@
  stress_threshold.1602.rakish.effect:0 "Niente è come un forte desiderio e la lussuria!"
  stress_threshold.1602.reclusive.gain:0 "Forse potrei calmarmi se fossi solo..."
  stress_threshold.1602.reclusive.effect:0 "Ottengo sempre chiarezza quando sono solo."
- stress_threshold.1602.confider.gain:0 "Parlarne con [friend.GetFirstNameNoTooltip] potrebbe aiutare."
- stress_threshold.1602.confider.effect:0 "Parlarne con [friend.GetFirstNameNoTooltip] di solito aiuta!"
+ stress_threshold.1602.confider.gain:0 "Parlarne con [friend.GetFirstName] potrebbe aiutare."
+ stress_threshold.1602.confider.effect:0 "Parlare con [friend.GetFirstName] spesso aiuta!"
  stress_threshold.1602.athletic.gain:0 "Correrò finché non proverò altro che soddisfazione."
  stress_threshold.1602.athletic.effect:0 "Una corsetta calma sempre le mie emozioni."
  stress_threshold.1602.contrite.gain:0 "Potrei calmarmi se confessassi le mie colpe."
@@ -158,6 +161,8 @@
  stress_threshold.1602.journaller.effect:0 "Scrivere i miei sentimenti funziona sempre!"
  stress_threshold.1602.drunkard.gain:0 "Con una buona bevuta tutte le emozioni svaniranno..."
  stress_threshold.1602.drunkard.effect:0 "Posso sempre lasciarmi alle spalle le mie emozioni bevendo!"
+stress_threshold.1602.burdened.gain: "Se solo potessi pensare a qualcos’altro, #EMP qualsiasi cosa#!."
+stress_threshold.1602.burdened.effect: "Se lascio vagare i pensieri, l’ansia si attenuerà."
 
  # Level 2 Stress Events
  stress_threshold.2001.t:0 "Crollo Mentale: Ingratitude"
@@ -175,8 +180,8 @@
  stress_threshold.2101.endure:0 "Forse tutto ciò è solo nella mia testa..."
 
  stress_threshold.2201.t:0 "Crollo Mentale: Rabbia Ribollente"
- stress_threshold.2201.desc.insult_adventurer: ""Potrai anche essere [Select_CString(character_to_yell_at.IsFemale,'una mia','un mio')] [ROOT.Char.Custom('GetCourtier')], [character_to_yell_at.GetFirstName], ma sei anche [Select_CString(character_to_yell_at.IsFemale,'una','un')] [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n"
- stress_threshold.2201.desc.insult:0 ""Potrai anche essere [Select_CString(character_to_yell_at.IsFemale,'una','un')] [character_to_yell_at.GetTitleAsName], [character_to_yell_at.GetFirstName], ma sei anche [Select_CString(character_to_yell_at.IsFemale,'una','un')] [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n"
+stress_threshold.2201.desc.insult_adventurer: "«Potrai pure essere il mio [ROOT.Char.Custom('GetCourtier')], [character_to_yell_at.GetFirstName], ma sei anche un[character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!»\n\n"
+stress_threshold.2201.desc.insult: 0 "«Potrai pure essere [character_to_yell_at.GetTitleAsName], [character_to_yell_at.GetFirstName], ma sei anche un[character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!»\n\n"
  stress_threshold.2201.desc:0 "Esito non appena vedo lo sguardo sulla faccia [Select_CString(character_to_yell_at.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], ma... mi sento così #EMP arrabbiat[ROOT.Char.Custom('DE_END_PRO_S_N')]#! tutto il tempo e tutti cercano la mia ira–\n\n"
  stress_threshold.2201.desc_liege:0 ""Cosa ti è preso, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Questo comportamento è inaccettabile."
  stress_threshold.2201.desc_vassal:0 "Mio signore, qual è il significato di questo comportamento?!"
@@ -195,7 +200,7 @@
  stress_threshold.2202.desc:0 "[stress_character.Custom('DE_ART_IND_A')|U] è stat[stress_character.Custom('DE_END_PRO_S_N')] parecchio sotto stress ultimamente, ma"
  stress_threshold.2202.desc.rival:0 "quando [stress_character.Custom('DE_PRO_DEM')] sono state chieste spiegazioni, ha raddoppiato gli insulti."
  stress_threshold.2202.desc.other:0 "per comportarsi così..."
- stress_threshold.2202.a:0 "Darò tanto quanto ricevo. "[stress_character.Custom('InsultNoun')|U]!""
+stress_threshold.2202.a: 0 "Renderò pan per focaccia, [stress_character.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.2202.b:0 "Che anche [stress_character.GetSheHe] si arrabbi... è rilassante."
 
  # Level 3 Stress Events
@@ -214,12 +219,12 @@
  stress_threshold.3101.lunatic.tt:0 "#F Portatemi una torcia!#!"
 
  stress_threshold.3201.t:0 "Crollo Mentale: Sovraccarico"
- stress_threshold.3201.desc:0 "È tutto troppo, perché ci sto addirittura provando?\n\nSiamo nel bel mezzo di una cena quando tutto... crolla. Devo tenere d'occhio le finanze della [ROOT.Char.Custom('GetCourt')|l], devo risolvere una dozzina di piccole controversie, devo...\n\n"Vi sentite bene, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]?" [Select_CString(vassal.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], da cautamente voce alle sue preoccupazioni."
+ stress_threshold.3201.desc:0 "È tutto troppo, perché ci sto addirittura provando?\n\nSiamo nel bel mezzo di una cena quando tutto... crolla. Devo tenere d'occhio le finanze della [ROOT.Char.Custom('GetCourt')|l], devo risolvere una dozzina di piccole controversie, devo...\n\n"Vi sentite bene, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]?" [vassal.Custom('DE_ART_DEF_P_A')|U] mi[vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.GetTitledFirstName], da cautamente voce alle sue preoccupazioni."
  stress_threshold.3201.depressed.gain:0 "Che importanza ha? Mi arrendo."
  stress_threshold.3201.depressed.effect:0 "È tutto inutile comunque..."
  stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Aiutami ti prego.""
- stress_threshold.3201.wrathful.gain:0 ""No tu [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')], #EMP non#! va tutto bene!""
- stress_threshold.3201.wrathful.effect:0 ""Ti mostrerò io chi è che sta #EMP bene#!, tu [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')]!""
+stress_threshold.3201.wrathful.gain: 0 "«No, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], #EMP non#! sto affatto bene!»"
+stress_threshold.3201.wrathful.effect: 0 "«Ti farò vedere chi sta #EMP bene#!, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]!»"
  stress_threshold.3201.wrathful.effect.success:0 "Picchi [vassal.GetTitledFirstName]"
  stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] ti affronta"
 

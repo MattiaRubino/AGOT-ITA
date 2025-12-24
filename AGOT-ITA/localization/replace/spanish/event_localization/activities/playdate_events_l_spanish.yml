@@ -26,7 +26,7 @@
  playdate.1001.a:0 "Ma certo che ci sarò."
  playdate.1001.b:0 "No, mi rifiuto!"
 
- playdate.1002.opening_desc:0 "Mi farebbe piacere se [child_scope.Custom2('YourCharacterIntroduction', ROOT.Char)] potesse far visita alla mia corte a [barony.GetNameNoTier] per incontrare i suoi coetanei!"
+playdate.1002.opening_desc: "Sarei lieto se [child_scope.Custom2('YourCharacterIntroduction', ROOT.Char)] potesse visitare la mia casa a [barony.GetNameNoTier] per incontrare i suoi coetanei!"
  playdate.1002.host_likes_child:0 "Spero che [child_scope.GetSheHe] partecipi, poiché è tanto che aspetto un'occasione per vederl[child_scope.Custom('DE_END_PRO_S_N')]!"
  playdate.1002.host_dislikes_child:0 "Sto invitando tutta la gente che conta, il che sfortunatamente include anche [child_scope.GetSheHe]."
  playdate.1002.host_gets_along_with_child:0 "Spero che [child_scope.GetSheHe] partecipi, giacché sentirei molto la sua mancanza qualora non lo facesse!"
@@ -48,8 +48,8 @@
  playdate.2003.a:0 "Perché non è venuto nessuno?"
  
  playdate.2501.t:1 "Un Caldo Benvenuto"
- playdate.2501.likes_host:1 "Tutti sono riuniti nella sala grande mentre [host.GetTitledFirstNameNoTooltip] ci dà il benvenuto all'incontro tra coetanei!"
- playdate.2501.dislikes_host:1 "Tutti sono riuniti nella sala grande mentre quel[host.Custom('InsultAdjective')] di [host.GetTitledFirstNameNoTooltip] ci dà il benvenuto all'incontro tra coetanei."
+playdate.2501.likes_host: "Tutti sono riuniti nella sala quando [host.GetTitledFirstNameNoTooltip] ci dà il benvenuto all’incontro tra pari!"
+playdate.2501.dislikes_host: "Tutti sono riuniti nella sala quando il/la [host.Custom2('InsultAdjective', ROOT.Char)] [host.GetTitledFirstNameNoTooltip] ci dà il benvenuto all’incontro tra pari."
  playdate.2501.a:0 "Non vedo l'ora!"
  playdate.2501.a_dislike:0 "Leviamoci questo impiccio."
 
@@ -139,7 +139,7 @@
  playdate.3009.c.failure:0 "[participant.GetSheHe|U] si rende conto che stai mentendo"
 
  playdate.3010.t:1 "Giorno del Mercato"
- playdate.3010.desc:0 "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ed io siamo d'accordo che il commercio sia un'abilità importante da imparare per un nobile, e così decidiamo di visitare il mercato locale di [ROOT.Char.GetCurrentLocation.GetName].\n\nAbbiamo solo alcuni ciottoli come moneta, ma sono #EMP molto#! luccicanti!"
+playdate.3010.desc: "[participant.Custom2('MyCharacterIntroduction', ROOT.Char)|U] e io concordiamo che il commercio è un’abilità importante per un nobile, così decidiamo di visitare il mercato di [ROOT.Char.GetCurrentLocation.GetName].\n\nAbbiamo solo qualche sassolino per moneta, ma sono #EMP molto#! lucidi!"
  playdate.3010.a:0 "Ehum, vorrei acquistare della merce, per favore."
  playdate.3010.a.success:0 "Convinci il mercante a commerciare"
  playdate.3010.a.failure:0 "Il mercante ti manda via"
@@ -181,7 +181,7 @@
  playdate.3014.a.tt_participant:0 "Tu e [participant.GetFirstNameNoTooltip] proseguite i vostri studi nell'arte del [ROOT.Char.Custom('education_focus_child')]"
  playdate.3014.a.failure:0 "Non impari nulla"
  playdate.3014.b:0 "No, ciò che mi interessa che è tu ci raccondi delle avventure!"
- 
+
 # Learning your child drowned - by Isabella Welch
 
  playdate.4000.t:0 "Bagnato dalle Lacrime"
@@ -189,7 +189,7 @@
  playdate.4000.a:0 "Spero che [participant.GetSheHe] giocherà in [ROOT.Char.GetFaith.PositiveAfterLife]."
  playdate.4000.b:0 "L'innocenza è un veleno mortale."
  playdate.4000.c:0 "Auguro lo stesso destino a [host.GetTitledFirstNameNoTooltip]."
- 
+
  playdate.4001.t:1 "La barriera linguistica"
  playdate.4001.desc.rowdy:0 ""Ho detto #EMP "bambola"#! non #EMP "vongola!"#! Caspita!" [participant.GetTitledFirstName] è ovviamente in agitazione a causa della nostra barriera linguistica. Il gesto di alzare le mani in aria dipinge l'immagine di uno scatto d'ira che sta per iniziare."
  playdate.4001.desc.pensive:0 ""Scusa... #EMP Abitazione#!. Lei ritorna alla sua umile abitazione, non alla sua utile agitazione." Nonostante le sue buone maniere, le sopracciglia di [participant.GetTitledFirstNamePossessive] sono aggrottate dalla frustrazione."
@@ -197,7 +197,7 @@
  playdate.4001.a:0 "Parlerò lentamente e a voce alta! Questo dovrebbe essere d'aiuto!"
  playdate.4001.b:0 "Forse posso chiedere a [participant.GetFirstNameNoTooltip] di insegnarmi un po' della lingua [participant.GetCulture.GetLanguage.GetNameNoTooltip]?"
  playdate.4001.c:0 "Bleh, perché dovrei preoccuparmene? Io voglio solo divertirmi!"
- 
+
  playdate.5001.t: "Usciamo a giocare?"
  playdate.5001.desc: "Un pallone rimbalza davanti a me e viene recuperato tra le braccia in attesa di [participant.GetFirstName].\n\n"Vuoi unirti a noi? Abbiamo una palla e potremmo avere bisogno di altri giocatori."\n\nLa piccola folla di bambini si raccoglie in attesa intorno a noi."
  playdate.5001.a: "Mi unirò a voi!"
@@ -208,7 +208,7 @@
  playdate.5002.desc: "La palla rimbalza in modo irregolare mentre mi passa accanto, rimbalzando su un muro... e in un giardino vicino! Una frazione di secondo dopo, un rumore di schegge e un grido irato annunciano le conseguenze.\n\n[neighbour.GetFirstName] esce di corsa da una porta, tenendo in mano il/la suo/a [broken_artifact.GetName] danneggiato/a. Scrutando la folla, [neighbour.GetSheHe] mi identifica come il/la colpevole.\n\n"Cos'hai da dire a tua discolpa, piccolo/a moccioso/a?" sbraita [neighbour.GetSheHe|U]. Mi guardo intorno in cerca di sostegno. Non arriva nessuno."
  playdate.5002.a: ""Mi[parent.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('parent'))] pagherà le riparazioni!""
  playdate.5002.a.tt: "Opuure, beh, suppongo che #EMP io#! ripagherò il danno, ma al momento sono a corto di soldi..."
- playdate.5002.b: ""Vi ordino di restituire la palla, [neighbour.Custom('InsultNoun')].""
+playdate.5002.b: "«Vi ordino di restituire la palla, [neighbour.Custom2('InsultNoun', ROOT.Char)].»"
  playdate.5002.b.tt: "Avete dimenticato che io sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]?"
  playdate.5002.b.success: "[neighbour.GetSheHe|U] restituisce rispettosamente il pallone"
  playdate.5002.b.failure: "[neighbour.GetSheHe|U] si acciglia mentre restituisce la palla"
@@ -258,7 +258,7 @@
  playdate.5006.d: ""La palla la lasci qui. È nostra adesso.""
 
  playdate.5007.t: "Preso di Mira"
- playdate.5007.desc: "Risate sguaiate squarciano l'aria. Proprio di fronte a me, nel cortile, [sad_kid.GetFirstName] si agita di fronte a [bully_kid.GetFirstName], che l[sad_kid.Custom('DE_END_PRO_S_N')] sta indicando in segno di scherno.\n\n"[sad_kid.GetSheHe|U] riesce a malapena a calciare un pallone! Chi vorrebbe essere amico di quest[sad_kid.Custom('DE_END_PRO_S_N')] [sad_kid.Custom('InsultNoun')]!"\n\n[sad_kid.GetFirstNameNoTooltip] piagnucola guardandosi intorno in cerca di un po' di sostegno, ma sembra che ve ne sia poco e niente."
+playdate.5007.desc: "Risate fragorose spaccano l’aria. Dall’altro lato del cortile, [sad_kid.GetFirstName] si raggomitola davanti a [bully_kid.GetFirstName], che [sad_kid.GetHerHim] indica con scherno.\n\n«[sad_kid.GetSheHe|U] a malapena sa calciare un pallone! Chi vorrebbe essere amico di quell’[sad_kid.Custom2('InsultNoun', SCOPE.sC('bully_kid'))]?»\n\n[sad_kid.GetFirstNameNoTooltip], piagnucolando, cerca sostegno con lo sguardo, ma pare scarso."
  playdate.5007.a: ""Lascial[sad_kid.Custom('DE_END_PRO_S_N')] in pace!""
  playdate.5007.a.tt: "Ti fai avanti per affrontare [bully_kid.Custom('DE_ART_DEF_P_A')] bull[bully_kid.Custom('DE_END_PRO_S_N')]...."
  playdate.5007.a.success: "L[bully_kid.Custom('DE_END_PRO_S_N')] intimidisci e l[bully_kid.Custom('DE_END_PRO_S_N')] fai indietreggiare"
@@ -312,7 +312,7 @@
  playdate.9002.t:1 "Ritorno a Casa"
  playdate.9002.desc:0 "Quanto ci siamo divertiti! Ricorderò le giornate trascorse con [host.GetTitledFirstName] per tanto tempo.\n\nOra mi è stato detto che è tempo di fare i bagagli e tornare a casa ai miei doveri, ma mi auguro che presto potremo rifarlo."
  playdate.9002.a:0 "Arrivederci [host.GetFirstNameNoTooltip]!"
- 
+
  playdate_saved_from_bully_log_title: "Insieme Contro la Rabbia"
  playdate_saved_from_bully_log: "[CHARACTER.GetTitledFirstName] ha salvato [TARGET_CHARACTER.GetTitledFirstName] da un aggressore di bassa lega e i due sono diventati amici"
 

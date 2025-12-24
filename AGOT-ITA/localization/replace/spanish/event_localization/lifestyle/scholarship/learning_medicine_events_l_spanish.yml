@@ -30,7 +30,7 @@
  learning_medicine.2001.b:0 "Un fiore raro illuminerebbe la giornata di [flower_receiver.GetFirstNamePossessiveNoTooltip]."
  learning_medicine.2001.c:0 "[herbalist.GetSheHe | U] potrebbe piantare un giardino di erbe sacre."
  learning_medicine.2001.d:1 "Non ho tempo da perdere con la terra e le piante."
- learning_medicine.2001.d.chaplain_hates_herbs:0 "Mi fido del giudizio di [chaplain_hates_herbs.GetCouncilTitle] [chaplain_hates_herbs.GetNamePossessiveNoTooltip] su questo argomento."
+learning_medicine.2001.d.chaplain_hates_herbs: 0 "Mi fido del giudizio di [chaplain_hates_herbs.GetCouncilTitle] in questa faccenda."
 
  learning_medicine.2002.start.desc:0 "[herbalist.GetFirstName] e io stiamo trascorrendo un'altra nottata classificando piante e preparando pozioni. Sto sfogliando uno dei suoi tomi consumati quando scopro"
  learning_medicine.2002.chaplain_hates_herbs.desc:0 "un paragrafo che farebbe schiumare [chaplain_hates_herbs.GetCouncilTitle] [chaplain_hates_herbs.GetFirstName] dalla bocca!"
@@ -56,6 +56,11 @@
 # Improve the skills of your court physician, by Mathilda Bjarnehed
  learning_medicine.2010.t:0 "Una Traduzione Problematica"
  learning_medicine.2010.start.desc:0 "Quando oltrepasso la soglia dell'ufficio del mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('court_physician'))] [court_physician.GetFirstName], [court_physician.Custom('DE_PRO_POS_P_3P')] trovo chin[court_physician.Custom('DE_END_PRO_S_N')], immers[court_physician.Custom('DE_END_PRO_S_N')] in un libro.\n\n"Questa traduzione di"
+learning_medicine.2010.sun_simiao.desc: "Sun Simiao"
+learning_medicine.2010.zhan_zhongjing.desc: "Zhang Zhongjing"
+learning_medicine.2010.hua_tuo.desc: "Hua Tuo"
+learning_medicine.2010.tamba_yasuyori.desc: "Tamba Yasuyori"
+learning_medicine.2010.bianque.desc: "[Glossary( 'Bian Que', 'BIAN_QUE_GLOSS' )]"
  learning_medicine.2010.fallback.desc:0 "un rapporto di autopsia"
  learning_medicine.2010.end.desc:0 "anatomia è atroce," dice [court_physician.GetSheHe] con un sospiro. "Qualora seguissi queste istruzioni, avrei la stessa probabilità di curare il mio paziente che di ucciderlo.""
 
@@ -66,17 +71,17 @@
  learning_medicine.2010.c:0 "Dovresti guardare i Sacri Testi per avere una guida."
 
  # Fertility treatment, by Mathilda Bjarnehed
- learning_medicine.2021.t:0 "Al[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]"
- learning_medicine.2021.desc:0 "Il mio nome è [physician.GetTitledFirstNameNoTooltip], e sono un medico specializzato in problemi di fertilità. Forse il mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] potrebbe beneficiare del mio consiglio in maniera discreta? Sarei onorat[physician.Custom('DE_END_PRO_S_N')] di servirla, per una cifra simbolica, ovviamente."
+learning_medicine.2021.t: 0 "[ROOT.Char.Custom('DE_END_ADJ_DEF_P_A')] [ROOT.Char.Custom('FormalComplimentAdjective')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip],"
+learning_medicine.2021.desc: 0 "Mi chiamo [physician.GetTitledFirstNameNoTooltip] e sono [Select_CString(physician.IsFemale,'una','un')] medico specializzat[Select_CString(physician.IsFemale,'a','o')] in questioni di fertilità.\n\nForse i miei discreti consigli gioverebbero al [Select_CString(ROOT.Char.IsFemale,'la tua','il tuo')] [ROOT.Char.GetLadyLord]? Sarebbe un onore servirti — per un modico compenso."
  learning_medicine.2021.a:0 "Il tuo aiuto mi farebbe comodo..."
- learning_medicine.2021.a.tt:0 "[physician.GetFirstName|V] mi offrirà un trattamento per la fertilità"
+learning_medicine.2021.a.tt: 0 "Accetti il trattamento di fertilità"
  learning_medicine.2021.b:0 "Un medico esperto è sempre benvenuto."
  learning_medicine.2021.b.tt:0 "Rifiuti il trattamento per la fertilità"
  learning_medicine.2021.c:0 "Non ho di questi #EMP problemi!#!"
 
  learning_medicine.2022.t:0 "Problemi di fertilità"
  learning_medicine.2022.old_physician.desc:0 "Ho visto [physician.GetTitledFirstName] gestire qualsiasi cosa, dalle sanguisughe ai corpi in decomposizione, ma il disagio sul suo viso è qualcosa di interamente nuovo.\n\n"In quanto tuo medico, io sono [physician.Custom('DE_ART_DEF_P_A')] guardian[physician.Custom('DE_END_PRO_S_N')] della tua salute", dice [physician.GetSheHe], fissandosi le scarpe. "Ciò include anche la tua... salute #EMP riproduttiva#!. Potrei fare una tintura che potrebbe aiutare te e [spouse.Custom('DE_ART_DEF_P_A')] tu[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')]. Ho anche letto di alcuni trattamenti sperimentali con risultati promettenti.""
- learning_medicine.2022.new_physician.desc:0 "Volevo dare al mio nuovo medico il tempo di sistemarsi, ma poche ore dopo il suo arrivo, [physician.GetFirstName] ha fatto irruzione nel mio ufficio portando con se un grande baule. [physician.GetSheHe|U] lo solleva sulla mia scrivania e si sente un inquietante #EMP sferragliare#!.\n\n"Tu e [spouse.Custom('DE_ART_DEF_P_A')] tu[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')] avete diverse opzioni, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Ci sono tinture che sono provate e vere — ma ho anche alcuni trattamenti sperimentali in fase di sviluppo.""
+learning_medicine.2022.new_physician.desc: 0 "Volevo dare al[Select_CString(physician.IsFemale,'la','')] mi[Select_CString(physician.IsFemale,'a','o')] nuov[Select_CString(physician.IsFemale,'a','o')] medico il tempo di ambientarsi, ma poche ore dopo [Select_CString(physician.IsFemale,'il','il')] [Select_CString(physician.IsFemale,'suo','suo')] arrivo, [physician.GetFirstName] irrompe nel mio studio trascinando un grande baule. Lo solleva sulla scrivania con un inquietante #EMP clang#!.\n\n«Tu e [Select_CString(spouse.IsFemale,'la tua','il tuo')] [spouse.Custom('WifeHusband')] avete diverse opzioni, [ROOT.Char.Custom('FormOfAddressForLiege')]. Ci sono tinture provate e sicure… ma ho anche alcuni trattamenti sperimentali in sviluppo.»"
  learning_medicine.2022.b:0 "Una semplice tintura sembra sensata."
  learning_medicine.2022.b.success:0 "Il trattamento è riuscito"
  learning_medicine.2022.b.failure:0 "Il trattamento non ha avuto successo"
@@ -87,7 +92,7 @@
  learning_medicine.2022.c:0 "In realtà voglio solo qualche... consiglio."
  learning_medicine.2022.a.unexpected.tt:0 "Potrebbe accadere qualcosa di inaspettato"
 
- learning_medicine.2023.urine.desc:0 ""I vostri corpi non sono sincronizzati, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] ​​Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ma ho un rimedio per quello. Devi bere l'urina del[spouse.Custom('DE_END_ADJ_NUL_S_N')] tu[spouse.Custom('DE_END_PRO_S_N')] spos[spouse.Custom('DE_END_PRO_S_N')] e [spouse.GetSheHe] deve bere la tua. Ogni sera prima di andare a letto, per una settimana. Allora le tue energie si allineeranno sicuramente! "\n\nÈ stata una lunga settimana."
+learning_medicine.2023.urine.desc: 0 "«I vostri corpi non sono sincronizzati, [ROOT.Char.Custom('FormOfAddressForLiege')], ma ho un rimedio. Dovete bere l’urina di [Select_CString(spouse.IsFemale,'vostra','vostro')] [spouse.Custom('WifeHusbandPossessive')], e [Select_CString(spouse.IsFemale,'lei','lui')] la vostra. Ogni notte, prima di coricarvi, per una settimana. Allora le vostre energie si allineeranno!»\n\nÈ stata una lunga settimana."
  learning_medicine.2023.unpleasant_end.desc:0 "\n\nAnche se il trattamento in sé è stato meno che piacevole,"
  learning_medicine.2023.pig_testicles.desc:0 ""Ho acquisito il maiale più virile in tutta [location.GetNameNoTooltip] e ho fatto essiccare e polverizzare i suoi testicoli. Bevilo nel vino per due settimane e la tua fertilità aumenterà di dieci volte! ""
  learning_medicine.2023.pig_testicles_end.desc:0 "\n\nAnche se la polvere ha dato al vino una sfumatura di muffa, è stata nel complesso un'esperienza sorprendentemente piacevole."
@@ -104,10 +109,10 @@
  learning_medicine.2024.a:0 "Voglio solo riposare..."
  learning_medicine.2024.b:0 "Guardie! Imprigionate il ciarlatano!"
 
- learning_medicine.2025.start.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], ho grandi notizie! È ancora presto, ma tu[spouse.Custom('DE_END_PRO_S_N')] [spouse.Custom('WifeHusband')] mostra tutti i segni di una gravidanza!"\n\nAll'inizio, felicità e sollievo mi pervadono, ma ad essi rapidamente segue la confusione. "Ma non hai ancora somministrato il tuo trattamento, [physician.GetFirstName]," puntualizzo io.\n\n"
+learning_medicine.2025.start.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho grandi notizie! È presto, ma [Select_CString(spouse.IsFemale,'la tua','il tuo')] [spouse.Custom('WifeHusband')] mostra tutti i segni di una gravidanza!»\n\nDapprima felicità e sollievo mi pervadono, ma subito segue la confusione. «Ma non hai ancora somministrato il tuo trattamento, [physician.GetFirstName]» dico con punta d’accusa.\n\n"
  learning_medicine.2025.fertilitygod.desc:0 "[physician.GetFaith.FertilityGodName]"
  learning_medicine.2025.the_universe.desc:0 "L'universo"
- learning_medicine.2025.end.desc:0 "lavora in modi misteriosi, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. A volte è meglio abbracciare le vostre benedizioni piuttosto che cercare di spiegarle.""
+learning_medicine.2025.end.desc: 0 "[Select_CString(ROOT.Char.IsFemale,'Lavora','Lavora')] in modi misteriosi, [ROOT.Char.Custom('FormOfAddressForLiege')]. Talvolta è meglio accogliere le nostre benedizioni invece di cercare di spiegarle.»"
  learning_medicine.2025.b:0 "Parole sagge!"
  learning_medicine.2025.a:0 "[spouse.GetFirstNameNoTooltip]. Dobbiamo parlare. In privato."
  learning_medicine.2025.a.tt:0 "Affronto [spouse.GetShortUIName]"
@@ -155,7 +160,7 @@
  learning_medicine.2051.start_our.desc:0 "[soldier.Custom('DE_ART_DEF_P_D')] nostr[soldier.Custom('DE_END_PRO_S_N')]"
  learning_medicine.2051.start.desc:0 "Il paziente urla e si dimena. Anche se tre [soldier.GetWomenMen] adult[soldier.Custom('DE_END_NOU_S_G')] l[soldier.Custom('DE_END_PRO_S_N')] trattengono, ogni passo dell'operazione è una battaglia."
  learning_medicine.2051.middle.desc:0 "Ma [helper.GetFirstNameNoTooltip] rimane calm[soldier.Custom('DE_END_PRO_S_N')] e, alla fine riusciamo a concentrarci.\n\nNon sono sicuro di come ci siamo riusciti, ma alla fine sembra che il soldato vivrà. "È stata un'impresa impressionante,"
- learning_medicine.2051.my_ladylord.desc:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')],""
+learning_medicine.2051.my_ladylord.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U],»"
  learning_medicine.2051.firstname.desc:1 "[ROOT.Char.GetFirstNameNoTooltip],""
  learning_medicine.2051.end.desc:0 "mi dice con un sorriso stanco." È stato un onore servire al tuo fianco.""
  learning_medicine.2051.a:0 "non avrei potuto farcela senza di te."
@@ -166,7 +171,7 @@
  learning_medicine.2052.b:0 "Non ho bisogno della tua pietà!"
 
  learning_medicine.2053.start_my.desc:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')]"
- learning_medicine.2053.desc:0 "Ma la mia conoscenza non mi delude e le mie mani rimangono salde.\n\nNon sono sicuro di come io ce l'abbia fatta, ma alla fine, sembra che il soldato vivrà. Il suo compagno mi da una pacca sulle spalle, il sollievo ha preso il posto del decoro. "Grazie, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Avremmo perso [soldier.GetFirstName] se non fosse stato per voi!""
+learning_medicine.2053.desc: 0 "Ma la mia conoscenza non mi tradisce e le mani restano ferme.\n\nNon so bene come ci sia riuscit[Select_CString(ROOT.Char.IsFemale,'a','o')], ma alla fine pare che il soldato vivrà. I [Select_CString(soldier.IsFemale,'suoi','suoi')] commilitoni mi battono la schiena, il decoro perso nel sollievo. «Grazie, [ROOT.Char.Custom('FormOfAddressForLiege')]. Avremmo perduto [soldier.GetFirstName] senza di te!»"
  learning_medicine.2053.a:0 "Ho salvato una vita oggi!"
 
  learning_medicine.2054.desc:0 "\n\nLavoro freneticamente, gridando ordini in mezzo al caos, ma non c'è speranza. [soldier.Custom('DE_ART_DEF_P_D')] [soldier.GetWomanMan] diventa sempre più debole, la sua linfa vitale mi scorre tra le dita.\n\nMentre portano via il corpo, [helper.GetFirstName] mi guarda con"
@@ -176,6 +181,7 @@
 
  #A vassal (or your liege) wants to eat some hashish while visiting your capital, by Ewan Cowhig Croft.
  learning_medicine.2110.desc:0 "Io e il mio seguito stiamo tornando da un breve viaggio a [capital.GetNameNoTooltip], quando ci imbattiamo inaspettatamente in [hashish_vassal_or_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] e nel suo seguito, intenti ad aggirarsi per la mia capitale per ragioni sconosciute.\n\n"
+learning_medicine.2110.desc_bad_terms: 0 "La tensione nell’aria si taglia, le nostre rispettive guardie pronte alla rissa. «[ROOT.Char.Custom('FormOfAddressForLiege')|U]» pigola nervoso un giovane soldato alle mie spalle «forse potremmo calmarci con qualche torta di hashish in quella taverna laggiù?»\n\nIl silenzio cala sui due gruppi mentre [hashish_vassal_or_liege.GetFirstNameNoTooltip] attende la mia risposta."
  learning_medicine.2110.a.good_terms:0 "Le mie scuse, ma devo rimettermi in cammino."
  learning_medicine.2110.a.bad_terms:0 "Con questo cagnaccio? Mai!"
  learning_medicine.2110.a.neutral_terms:0 "Tempo di avere dei posti in cui andare."

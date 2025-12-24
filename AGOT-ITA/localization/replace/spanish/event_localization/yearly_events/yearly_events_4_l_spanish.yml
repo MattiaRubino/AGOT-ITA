@@ -10,7 +10,7 @@
 
  yearly.4001.opening:0 "[neighboring_ruler.Custom2('AppropriateGreeting', ROOT.Char)]"
  yearly.4001.desc:0 "([vassal.Custom('DE_ART_DEF_P_A')|U]) [vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], "
- yearly.4001.desc_opinion:0 "mi ha insultato gravemente. Ha avuto l'ardire di chiamarmi [neighboring_ruler.Custom('InsultAdjectiveArticle')] [neighboring_ruler.Custom('InsultNoun')] davanti alla mia corte."
+yearly.4001.desc_opinion: 0 "mi ha gravemente insultato. [Select_CString(vassal.IsFemale,'Ella','Egli')|U] ha avuto l’ardire di chiamarmi [neighboring_ruler.Custom2('InsultAdjectiveArticle', SCOPE.sC('vassal'))] [neighboring_ruler.Custom2('InsultNoun', SCOPE.sC('vassal'))] davanti alla mia corte."
  yearly.4001.desc_lover:0 "ha osato condurre mi[neighboring_ruler_secondary.Custom('DE_END_PRO_S_N')] [neighboring_ruler.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler_secondary'))] [neighboring_ruler_secondary.GetTitledFirstName] al peccato carnale."
  yearly.4001.desc_murder:0 "ha ucciso [neighboring_ruler.Custom2('RelationToMeShort', SCOPE.sC('neighboring_ruler_secondary'))] [neighboring_ruler_secondary.GetTitledFirstName] in una rissa disonesta."
  yearly.4001.desc_rival:1 "Non mi sarei dovuto aspettare di meglio da qualcuno associato a #EMP te#!, ma questo è inaccettabile!"
@@ -44,8 +44,8 @@
 
  yearly.4031.t:0 "Un Assassino in Mezzo a Noi"
  yearly.4031.desc_opening:0 "L'odore mi colpisce prima che la porta venga aperta; un odore pesante e carnoso che permea la zona. È il fetore di qualcuno morto di recente.\n\n"
- yearly.4031.desc_physician:0 ""Un altro omicidio, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." [physician.GetTitledFirstName] si pulisce le mani insanguinate su un grembiule mentre si alza in piedi dopo aver guardato il corpo. "Dobbiamo fermare questo assassino senza senso!""
- yearly.4031.desc:0 "È stato trovato un altro corpo... Sono tutte persone di poca importanza, grazie a [ROOT.Char.GetFaith.HighGodName], ma la corte si sta innervosendo."
+yearly.4031.desc_physician: 0 "«Un altro omicidio, [ROOT.Char.Custom('FormOfAddressForLiege')].» [physician.Custom('IT_NAM_COL3')][physician.GetTitledFirstName] si pulisce le mani insanguinate sul grembiule mentre [Select_CString(physician.IsFemale,'si alza','si alza')] dopo aver esaminato il corpo. «Dobbiamo fermare questo assassino insensato!»"
+yearly.4031.desc: 0 "È stato trovato un altro cadavere... Per grazia di [ROOT.Char.GetFaith.HighGodName] sono tutte persone di poca importanza, ma i notabili stanno diventando nervosi."
  yearly.4031.a:0 "Setaccerò il [ROOT.Char.Custom('ResidenceBuilding')] per trovare questo assassino!"
  yearly.4031.tt:0 "Viene avviata un'indagine"
  yearly.4031.b:0 "Seppelliamo il corpo e dimentichiamo questa farsa."
@@ -53,10 +53,10 @@
  yearly.4031.c:0 "Come mio medico, dovresti studiare i corpi."
 
  yearly.4061.t:0 "Il Saggio Matto"
- yearly.4061.desc_opening:0 ""Il mio nome è [hodja.GetTitledFirstName], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Sono giunto dinnanzi a voi per offrirvi la mia saggezza."\n\n"
+yearly.4061.desc_opening: 0 "«Mi chiamo [hodja.Custom('IT_NAM_COL3')][hodja.GetTitledFirstName], [ROOT.Char.Custom('FormOfAddressForLiege')]. Sono giunt[Select_CString(hodja.IsFemale,'a','o')] innanzi a te per offrirti la mia saggezza».\n\n"
  yearly.4061.desc_guard:0 "[guard.Custom2('MyCharacterIntroduction', ROOT.Char)|U], che ha portato l'uomo al mio cospetto, sembra scettico."
  yearly.4061.desc:0 "La guardia che ha portato l'uomo al mio cospetto sembra scettica."
- yearly.4061.desc_ending:0 ""Si è avvicinato al [ROOT.Char.Custom('ResidenceBuilding')] in groppa ad un asino, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Al contrario.""
+yearly.4061.desc_ending: 0 "«Si avvicinò alla [ROOT.Char.Custom('ResidenceBuilding')] in groppa a un asino, [ROOT.Char.Custom('FormOfAddressForLiege')]. Al contrario.»"
  yearly.4061.a:0 "Per favore, condividi con me la tua saggezza."
  yearly.4061.a_success:0 "Ottieni alcune conoscenze"
  yearly.4061.a_failure:0 "Le sue storie ti confondono e basta"
@@ -75,6 +75,7 @@
  yearly.4071.b:0 "Distribuiteli tra i miei [ROOT.Char.Custom('GetCourtierPlural')]."
 
  yearly.4081.t:0 "Traduzioni"
+yearly.4081.desc: 0 "«Gli studiosi locali necessitano di mecenati per tradurre libri dal greco in arabo, [ROOT.Char.Custom('FormOfAddressForLiege')] — sforzi che gioveranno a tutto il mondo arabo!»\n\n[councillor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi ha portato un elenco di dotti che potrei patrocinare e delle opere cui stanno lavorando."
  yearly.4081.a:0 "#EMP De materia Medica#!... Sembra interessante!"
  yearly.4081.a.tt:0 "Tu sponsorizzi la traduzione di un libro sulla medicina"
  yearly.4081.b:0 "Oh, questo! #EMP Sulle Ascensioni#!."

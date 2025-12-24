@@ -20,7 +20,7 @@
  death_management.1000.killed.tt:1 "[dead_character.GetTitledFirstName] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')] da [killer.GetTitledFirstName]."
  death_management.1000.t:0 "Finché Morte Non Ci Separi"
  death_management.1000.murder:0 "[dead_character.GetTitledFirstName] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')]!\n\n"
- death_management.1000.plaguestart: "La malattia e l'epidemia continuano la loro straziante marcia attraverso [realm.GetNameNoTier], olpendo contadini e nobili. Questa verità brutale e indiscriminata raramente si mette a nudo fino a momenti come questi.\n\n"
+death_management.1000.plaguestart: "Malattia e pestilenza proseguono la loro angosciante marcia attraverso [realm.GetNameNoTier], abbattendo i grandi e gli umili allo stesso modo. Questa brutale verità, indiscriminata, raramente si manifesta con tanta chiarezza come in momenti simili.\n\n"
  death_management.1000.plaguespouse: "Posso solo guardare in silenzio mentre i medici si allontanano dal corpo di mi[dead_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))]. Mi avvicino per prendere la sua mano. È ancora calda.\n\n"
  death_management.1000.like:0 "Come può un cuore sopportare un tale dolore senza frantumarsi? È impossibile! Eppure eccomi qua, il mio cuore batte mentre il tuo si è acquietato. Oh, [dead_character.GetFirstName], mi[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('LoverPetName')]. La vita non sarà la stessa senza di te."
  death_management.1000.neutral:0 "Mi[dead_character.Custom('DE_END_PRO_S_N')] car[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.GetFirstName]. Potrei non averti amato, eppure sento la tua scomparsa più intensamente di quanto avrei mai creduto possibile. Tu eri sempre lì, mi[dead_character.Custom('DE_END_PRO_S_N')] compagn[dead_character.Custom('DE_END_PRO_S_N')] fedele. Ti ho dato per scontato? Ci sono molte cose lasciate non dette..."
@@ -66,7 +66,7 @@
  death_management.1007.a.tt:1 "Il tuo erede, [dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
 
  death_management.1006.t:0 "Una Maledizione Spezzata"
- death_management.1006.desc:0 "I colpi di scena del destino non sono sempre stati a mio vantaggio, [ROOT.Char.GetFaith.HighGodName] sa che io fui maledetto il giorno che incontrai [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName]. Oggi, tuttavia, quella maledizione è stata sciolta! Il destino mi ha sorriso e ha portato quel[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom('InsultAdjective')] nella tomba!"
+death_management.1006.desc: "I capricci del fato non sono sempre stati a mio favore: [ROOT.Char.GetFaith.HighGodName] sa che fui maledett[Select_CString(ROOT.Char.IsFemale,'a','o')] il giorno in cui conobbi [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName]. Oggi, però, quella maledizione è svanita! La sorte mi ha sorriso e ha condotto quell[dead_character.Custom2('InsultNoun', ROOT.Char)] [dead_character.Custom2('InsultAdjective', ROOT.Char)] fino alla sua tomba!"
  death_management.1006.a.tt:1 "Il tuo [rival|E], [dead_character.GetFullName], [dead_character.GetDeathReasonHideKiller]."
 
  death_management.parent.desc:2 "Tu[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('MotherFather')], [dead_character.GetFullName], [dead_character.GetDeathReason]."
@@ -79,6 +79,8 @@
  death_management.liege.desc:2 "Il tuo [vassal|E], [dead_character.GetFullName] [dead_character.GetDeathReason]."
 
  death_management.pinned.desc:2 "Una persona di tuo interesse, [dead_character.GetFullName], [dead_character.GetDeathReason]."
+
+death_management.elder.desc: "[elder|E], [deceased_elder.GetFullName], [deceased_elder.GetDeathReason]."
 
  death_management.1008.desc:0 "[dead_character.GetTitledFirstName], il coniuge di mi[dead_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse_of_dead_character'))] [spouse_of_dead_character.GetFirstName], è mort[dead_character.Custom('DE_END_PRO_S_N')]. Tutti quei piani accuratamente elaborati sono stati distrutti dall'impulso volubile di [ROOT.Char.GetFaith.DeathDeityNamePossessive], sebbene tali lamentele possano sembrare meschine e inconsistenti rispetto al dolore della sua famiglia..."
  death_management.1008.a:0 "Riposa in pace."
@@ -114,11 +116,11 @@
  death_management.2000.neutral_end_killer:0 "Al pensiero che [prison_holder.GetTitledFirstName] ti abbia portat[dead_character.Custom('DE_END_PRO_S_N')] via da me in modo tanto violento..."
  death_management.2000.neutral_end:0 "Al pensiero che tu sia mort[dead_character.Custom('DE_END_PRO_S_N')] nelle sue segrete..."
  death_management.2000.dislike:0 "[dead_character.GetWifeHusband|U], quando hai esalato l'ultimo respiro sono stato travolto dal sollievo così come dalla rabbia. Forse dovrei provare vergogna, Vorse dovrei provare vergogna, ma in verità, non c'è stato alcun amore perduto tra di noi.."
- death_management.2000.dislike_end_killer:0 "Tuttavia, l'insulto della tua morte per mano di un [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] come [prison_holder.GetTitledFirstName]..."
+death_management.2000.dislike_end_killer: "Tuttavia, l'onta di vederti morire per mano di un[Select_CString(prison_holder.IsFemale,'a','')] [prison_holder.Custom2('InsultNoun', ROOT.Char)] [prison_holder.Custom2('InsultAdjective', ROOT.Char)] come [prison_holder.Custom('IT_NAM_COL3')][prison_holder.GetTitledFirstName]..."
  death_management.2000.dislike_end_unknown_killer:1 "Tuttavia, l'insulto della tua morte per mano di un assassino..."
  death_management.2000.dislike_end_no_killer:0 "$death_management.2000.dislike_end$"
- death_management.2000.dislike_end:0 "Tuttavia, l'insulto della tua morte nelle segrete di un [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] come [prison_holder.GetFirstName]..."
- death_management.2000.a:0 "Che un tale [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] abbia potuto portarti via da me..."
+death_management.2000.dislike_end: "Tuttavia, l'onta di vederti morire nelle segrete di un[Select_CString(prison_holder.IsFemale,'a','')] [prison_holder.Custom2('InsultNoun', ROOT.Char)] [prison_holder.Custom2('InsultAdjective', ROOT.Char)] come [prison_holder.GetFirstName]..."
+death_management.2000.a: "Che un[Select_CString(prison_holder.IsFemale,'a','')] [prison_holder.Custom2('InsultNoun', ROOT.Char)] [prison_holder.Custom2('InsultAdjective', ROOT.Char)] ti abbia strappato a me..."
  death_management.2000.b:0 "È un crimine imperdonabile!"
  death_management.2000.c:0 "È imperdonabile!"
  death_management.2000.d:0 "E che bel modo di andarsene..."
@@ -137,8 +139,8 @@
  death_management.2001.opening:1 "[dead_character.Custom('DE_ART_DEF_P_A')] mi[dead_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstName], è mort[dead_character.Custom('DE_END_PRO_S_N')]!\n\n"
  death_management.2001.child:0 "Avevo così tante speranze per te, mi[dead_character.Custom('DE_END_PRO_S_N')] dolce figli[dead_character.Custom('DE_END_PRO_S_N')]. Tutto ciò che avresti imparato, vissuto e fatto. C'erano così tante possibilità, un'intera vita da vivere. Forse avresti avuto dei figli tuoi un giorno. Ma ora, nessuna di queste cose si realizzerà mai, tutto grazie a [prison_holder.GetTitledFirstName]..."
  death_management.2001.like:0 "Oh [ROOT.Char.GetFaith.HighGodName], come hai potuto permettere a [prison_holder.GetTitledFirstName] di fare questo a [dead_character.GetFirstName]?"
- death_management.2001.like_end_killer:0 "Prego che [prison_holder_character.Custom('DE_ART_DEF_P_A')] [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] [prison_holder.GetFirstName] non conosca né riposo, né pace, né #EMP amore#!, come prezzo per aver posto fine alla vita di mi[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('GetDaughterSon')]."
- death_management.2001.like_end:0 "Prego che [prison_holder.Custom('DE_ART_DEF_P_A')] [prison_holder.Custom('InsultAdjective')] [prison_holder.Custom('InsultNoun')] [prison_holder.GetFirstName] non conosca né riposo, né pace, né #EMP amore#!, come prezzo per aver permesso che mi[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('GetDaughterSon')] deperisse nelle sue segrete."
+death_management.2001.like_end_killer: "Prego che quell[Select_CString(prison_holder.IsFemale,'a','')] [prison_holder.Custom2('InsultNoun', ROOT.Char)] [prison_holder.Custom2('InsultAdjective', ROOT.Char)] di [prison_holder.GetFirstName] non conosca riposo, pace né #EMP amore#!, a saldo dell'aver posto fine alla vita del[Select_CString(dead_character.IsFemale,'la mia','mio')] [dead_character.Custom('GetDaughterSon')]."
+death_management.2001.like_end: "Prego che quell[Select_CString(prison_holder.IsFemale,'a','')] [prison_holder.Custom2('InsultNoun', ROOT.Char)] [prison_holder.Custom2('InsultAdjective', ROOT.Char)] di [prison_holder.GetFirstName] non conosca riposo, pace né #EMP amore#!, a saldo dell'aver lasciato che il[Select_CString(dead_character.IsFemale,'la mia','mio')] [dead_character.Custom('GetDaughterSon')] si consumasse nelle sue segrete."
  death_management.2001.neutral:0 "Credevo di essere troppo vecchi[dead_character.Custom('DE_END_PRO_S_N')] per essere sorpreso dalle crudeltà di questo mondo, eppure non ho mai previsto di dover sperimentare la morte del della mi[dead_character.Custom('DE_END_PRO_S_N')] stess[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('GetDaughterSon')] per mano di [prison_holder.GetTitledFirstName]. La mia unica speranza è che [dead_character.GetSheHe] si sia risparmiat[dead_character.Custom('DE_END_PRO_S_N')] la sofferenza che avrebbe dovuto sopportare..."
  death_management.2001.dislike:0 "Non è il dovere di ogni [ROOT.Char.Custom('MotherFather')] di amare i suoi figli? Eppure, non riesco a smettere di piangere [dead_character.GetFirstNamePossessive] per la sua morte."
  death_management.2001.dislike_end_killer:0 "Provo solo rabbia all'insulto subito da parte di [prison_holder.GetTitleTierName] che ha fatto si che mi[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('GetDaughterSon')] perisse per mano sua."
@@ -209,7 +211,7 @@
  death_management.3002.tt:1 "Tu[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('MotherFather')], [dead_character.GetTitledFirstName], è mort[dead_character.Custom('DE_END_PRO_S_N')] nelle tue segrete."
 
  death_management.3006.t:0 "Sopravvivere al Mio Rivale"
- death_management.3006.desc:1 "Quando il mio carceriere ha portato la gioiosa notizia, non riuscivo a crederci! [dead_character.Custom('DE_ART_DEF_P_D')] mi[dead_character.Custom('DE_END_PRO_S_N')] rivale, [dead_character.GetTitledFirstName], è finalmente mort[dead_character.Custom('DE_END_PRO_S_N')] nelle mie segrete.\n\nPensare che vivrò in un mondo libero da quel[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom('InsultNoun')], e che è merito mio! Sono così felice che potrei danzare!"
+death_management.3006.desc: "Quando il mio carceriere portò la lieta novella, a stento riuscivo a crederci! Il mio rivale, [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName], è finalmente perit[Select_CString(dead_character.IsFemale,'a','o')] nelle mie segrete.\n\nPensare che vivrò in un mondo libero da quell[dead_character.Custom2('InsultNoun', ROOT.Char)] e che sono stato io a renderlo possibile. Sono così felice che potrei danzare!"
  death_management.3006.a:0 "Danzare si, sulla sua tomba!"
  death_management.3006.a.tt:2 "[dead_character.Custom('DE_ART_DEF_P_D')] tu[dead_character.Custom('DE_END_PRO_S_N')] [rival|E] [dead_character.GetFirstNameNoTooltip] è mort[dead_character.Custom('DE_END_PRO_S_N')]!"
 
@@ -325,8 +327,10 @@
  death_management.killer.witnessed.enemy:0 "In pochi istanti, [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] di [battle_death_killer.GetLiege.GetTitledFirstName], carica in avanti con determinazione, tenendo in alto [battle_death_killer.Custom('signature_weapon')], supera facilmente la forza residua di [dead_character.GetFirstNameNoTooltip] e [dead_character.Custom('DE_PRO_DEM')] inligge il colpo di grazia. "
  death_management.no_killer:0 "\n[dead_character.Custom('DE_ART_IND_A')|U] è stat[dead_character.Custom('DE_END_PRO_S_N')] colpit[dead_character.Custom('DE_END_PRO_S_N')] da una freccia vagante durante una feroce schermaglia.'#!"
  # Spouse
+  death_management.1200.t:0 "Consorte decedut[dead_character.Custom('DE_END_PRO_S_N')]" 
  death_management.1200.desc_sad: "\n\nNon avrei dovuto lasciarl[dead_character.Custom('DE_END_PRO_S_N')] andare... non così..."
- death_management.1200.desc_happy: "\n\nFinalmente, quel[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom('InsultNoun')]è mort[dead_character.Custom('DE_END_PRO_S_N')]!"
+death_management.1200.desc_happy: "\n\nFinalmente, quel[dead_character.Custom2('InsultNoun', ROOT.Char)] è morto!"
+death_management.1200.a: "[battle_death_killer.GetFirstNameNoTooltip] è un[Select_CString(battle_death_killer.IsFemale,'a','')] [battle_death_killer.GetWomanMan] mort[Select_CString(battle_death_killer.IsFemale,'a','o')]! Mort[Select_CString(battle_death_killer.IsFemale,'a','o')]!"
  death_management.1200.b:0 "Non ti dimenticherò mai..."
  death_management.1200.c:0 "Hai dimostrato il tuo valore, amore mio..."
  death_management.1200.d:0 "Finalmente sono liber[ROOT.Char.Custom('DE_END_PRO_S_N')]!"

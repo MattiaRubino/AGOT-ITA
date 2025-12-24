@@ -69,7 +69,7 @@
  ep3_laamps.8080.t: "Uno Strano Marinaio"
  ep3_laamps.8080.desc.intro_sea: "Moored for the night, I've made my way to a local tavern, where I soon find myself swapping stories with a most peculiar old sailor called [sailor.GetFirstNameNicknamed].\n\n"
  ep3_laamps.8080.desc.intro: "I find myself spending the evening in a local tavern, swapping stories with a talkative old sailor, [sailor.GetFirstNameNicknamed].\n\n"
- ep3_laamps.8080.desc.outro: ""You tell a [ROOT.Char.Custom('WomanManOpposite')]'s tale, my [ROOT.Char.GetLadyLord]!" [sailor.GetSheHe] laughs, cutting off another one of my stories. "Look at me ol' [sailor.Custom('GetInjuredBodyPart')]! Why, my ship once had a leak to plug, it did, and I'd naught else to plug it with but that!"\n\n"Those were the glory days, my [ROOT.Char.GetLadyLord], oh yes..." [sailor.GetSheHe] pines. "And I long to live 'em again...""
+ep3_laamps.8080.desc.outro: "«Racconti una storia da [ROOT.Char.Custom('WomanManOpposite')], [ROOT.Char.Custom('FormOfAddressForLiege')]!» [sailor.GetSheHe] ride, troncando un’altra delle mie storie. «Guarda il mio [sailor.Custom('GetInjuredBodyPart')]! Perché, una volta la mia nave faceva acqua, e non avevo altro per turarla se non quello!»\n\n«Quelli erano i giorni di gloria, [ROOT.Char.Custom('FormOfAddressForLiege')], oh sì...» [sailor.GetSheHe] sospira. «E bramo riviverli...»"
  ep3_laamps.8080.a: ""Ahhha! Siete un genio!""
  ep3_laamps.8080.b: ""Abbiamo proprio bisogno di un vecchio marinaio al campo.""
  ep3_laamps.8080.c: ""Pensate davvero che #EMP questa#! sia una buona storia?""
@@ -85,6 +85,10 @@
  ep3_laamps.8090.desc.world_steppe: "Dove [Select_CString(ROOT.Char.IsFemale,'una donna','un uomo')] è liber[ROOT.Char.Custom('DE_END_PRO_S_N')] se non nella steppa infinita, con nient'altro che il grande cielo azzurro di [ROOT.Char.GetFaith.CreatorName] sopra di [ROOT.Char.GetSheHe]? Mi sento quasi come se potessi passare la mia vita a correre e cavalcare, sentendo il vento sul viso e l'erba sotto i piedi, inseguendo l'orizzonte per sempre."
  ep3_laamps.8090.desc.world_tibet: "In lontananza, sento il raro suono di canti e mi viene voglia di unirmi a quelle persone. L'infinita bellezza dell'Himalaya si estende davanti a me e mi sento in dovere di scoprire ogni fessura nascosta e ogni segreta utopia che si cela in quel luogo."
  ep3_laamps.8090.desc.world_burma: "Il calore crescente conferisce un luccichio opalescente, simile a quello di un pavone, a tutto l'ambiente circostante e alle persone che lavorano sotto le alte pagode. L'odore delle foglie di tè permea queste strade e si mescola a quello del teak appena levigato, formando una miscela inebriante. Il sole è alto sopra questa valle scavata dal potente Irrawaddy e le centinaia di culture che vivono qui mi accolgono come se fossi loro [Select_CString(ROOT.Char.IsFemale,'sorella','fratello')]."
+ep3_laamps.8090.desc.world_asia_china: "Le montagne torreggianti offrono ombra alle risaie sottostanti. L’aria fresca e umida mi si appiccica al viso mentre scaccio una zanzara. Ho trovato la vera prosperità nelle valli montane e mi pare di aver scovato un paradiso personale in terra."
+ep3_laamps.8090.desc.world_asia_japan: "Il fragore delle onde che si infrangono sulla riva mi riempie le orecchie e, con un respiro profondo, l’aria salmastra mi invade naso e polmoni. Una calma mi pervade il corpo, e mi riempie una brama di vita. Vorrei solo restare in questa terra, anche solo un attimo. Assaporarla tutta."
+ep3_laamps.8090.desc.world_asia_korea: "Come la spina dorsale del mondo vedo lunghe catene montuose distendersi fino all’orizzonte, con la neve sulle vette. La gente qui è gentile e generosa, e fa di tutto per farmi sentire benvenut[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+ep3_laamps.8090.desc.world_asia_southeast: "Fronde pesanti mi proteggono dal sole cocente mentre godo delle splendide vedute dinanzi a me. Vedo una libellula posarsi su un ninfeo e non posso evitare di riflettere sul mio viaggio. Sono quella libellula, e questo luogo è davvero unico e magico, e me ne sono perdutamente innamorat[Select_CString(ROOT.Char.IsFemale,'a','o')]. "
  ep3_laamps.8090.desc.outro: "\n\n[Select_CString(ROOT.Char.IsFemale,'Una donna','Un uomo')] attraversa [county.Custom('IT_COU_COL4')][county.GetNameNoTierNoTooltip], ma [ROOT.Char.GetSheHe] è sempre [ROOT.Char.GetFirstameNicknamed]?"
  ep3_laamps.8090.a: "[Select_CString(ROOT.Char.IsFemale,'Una donna','Un uomo')] non può essere allo stesso tempo sia [ROOT.Char.GetCulture.GetNameNoTooltip] che [county.GetCountyData.GetCulture.GetNameNoTooltip]?"
  ep3_laamps.8090.b: "Chiunque io stia per diventare, sarò meraviglios[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
@@ -200,7 +204,7 @@
  ep3_laamps.8107.desc: "Le parole non possono esprimere la mia delusione nei vostri confronti. #EMP Verme#! Avevamo un futuro così brillante davanti a noi e voi avete deciso di rinunciare a tutto.\nConsiderate che sono profondamente scontent[petitioned_ruler.Custom('DE_END_PRO_S_N')] di voi e che voi non siete altro che la più spregevole delle persone. Abbiate almeno il tatto di lasciare questo mondo pietosamente in silenzio."
  ep3_laamps.8107.a: "Il destino aveva altri piani."
  ep3_laamps.8107.a.desc: "Hai fallito nel garantirti la tua rivendicazione [claimed_title.Custom('IT_COU_COL3')][claimed_title.GetName]"
- 
+
  ep3_laamps.8108.t: "$laamp_legitimist_support_contract$ — Il Pagamento"
  ep3_laamps.8108.desc: "Che gioia il mio arrivo vittorioso in [claimed_title.GetName]! Dopo aver viaggiato a lungo per strade inospitali, da ospite in terra straniera, senza una casa, senza ciò che mi apparteneva di diritto, ora ho il mio dolce titolo di [claimed_title.GetTierAsNameNoTooltip]. Tutto è bene ciò che finisce bene, come doveva essere fin dall'inizio. Ora sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] potente [ROOT.Char.GetTitleAsNameNoTooltip].\n\nTuttavia, questa rosa non è priva di spine. [petitioned_ruler.Custom('IT_NAM_COL3')|U][petitioned_ruler.GetTitledFirstName], che mi ha aiutat[ROOT.Char.Custom('DE_END_PRO_S_N')] enormemente per raggiungere questo obiettivo, pretende che io paghi quanto concordato tanti anni fa. L'onorevole casata [ROOT.Char.GetHouse.GetNameNoTooltip] paga sempre i suoi debiti, no?"
  ep3_laamps.8108.a: "[Glossary( 'Pacta Sunt Servanda', 'PACTA_SUNT_SERVANTA_GLOSS' )]"
@@ -214,12 +218,12 @@
  ep3_laamps.8108.c: "[petitioned_ruler.GetShortUINameNoTooltip], imbecille senza speranza!"
  ep3_laamps.8108.c.desc: "@warning_icon! Non pagherai una singola moneta bucata [petitioned_ruler.Custom('IT_NAM_COL4')][petitioned_ruler.GetTitledFirstName]. Avrebbe dovuto saperlo."
  ep3_laamps.8108.legitimist_too_poor: "#italic A causa delle tue magre [income|e], paghi ogni volta solo l'importo preciso di #color_yellow 300 #! [gold_i]"
- 
+
  ep3_laamps.8109.t: "[ROOT.Char.Custom('IT_NAM_COL4')|U][ROOT.Char.GetTitledFirstNameNoTooltip]"
  ep3_laamps.8109.desc: "Che [Select_CString(previous_ruler.IsFemale,'la nostra cara','il nostro caro')] [previous_ruler.GetTitledFirstName] non sieda più sul trono è qualcosa che mi spezza il cuore, che [petitioned_ruler.GetFaith.HighGodName] benedica la sua anima. Purtroppo, non ho ancora ricevuto il pagamento per il mio sostegno alla sua ascesa al trono. Mi auguro che siate stat[ROOT.Char.Custom('DE_END_PRO_S_N')] mess[ROOT.Char.Custom('DE_END_PRO_S_N')] al corrente dei dettagli e che siate tanto onorevole da ottemperare alla vostra parte dell'accordo."
  ep3_laamps.8109.a: "$ep3_laamps.8108.a$"
  ep3_laamps.8109.a.desc: "[petitioned_ruler.Custom('IT_NAM_COL3')|U][petitioned_ruler.GetShortUIName] si attende di ricevere, tra un anno, un pagamento pari alla metà delle entrate annuali del regno"
- 
+
  ep3_laamps.8110.t: "$laamp_legitimist_support_contract$ — Conclusione Inaspettata"
  ep3_laamps.8110.desc_intro: "Molto tempo fa, venne stipulato un accordo: [petitioned_ruler.Custom('IT_NAM_COL3')][petitioned_ruler.GetTitledFirstName] fornì sostegno per la rivendicazione [claimed_title.Custom('IT_COU_COL')][claimed_title.GetName], sotto forma di soldati e oro in anticipo, in cambio di una parte sostanziale delle entrate del mio regno.\n\nTuttavia, [petitioned_ruler.GetSheHe] non poteva prevedere "
  ep3_laamps.8110.desc_war: "che sarebbe stat[petitioned_ruler.Custom('DE_END_PRO_S_N')] impegnat[petitioned_ruler.Custom('DE_END_PRO_S_N')] in una guerra contro di me"
@@ -251,3 +255,10 @@
  ep3_laamps.8200.b: "Vi prego di andarvene!"
  ep3_laamps.8200.c: "Andatevene e spargete la voce: state tutti alla larga dal mio campo!"
  ep3_laamps.8200.c.tt: "Nessuno cercherà di unirsi al vostro campo per i prossimi 20 anni"
+
+
+
+
+
+
+

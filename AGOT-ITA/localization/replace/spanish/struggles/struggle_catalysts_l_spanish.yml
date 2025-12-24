@@ -14,7 +14,7 @@
  ##################################################
  # Catalyst Names
  catalyst_passing_of_time:1 "[struggle_catalyst_catalyst|E] - Deriva annuale"
- catalyst_passing_of_time_desc:2 "Deriva Annua:  tendenza naturale verso questa [struggle_phase|E]"
+catalyst_passing_of_time_desc: 2 "Deriva annuale: flusso naturale verso questa [struggle_phase|E]"
  catalyst_demanding_important_conversion:0 "[struggle_catalyst_catalyst|E] - Richiedi la Conversione"
  catalyst_demanding_important_conversion_desc:4 "[demand_conversion|E] da un [ruler|E] [Concept( 'struggle_involved', 'Coinvolto' )|E]"
  catalyst_enforcing_de_jure_claims:0 "[struggle_catalyst_catalyst|E] - [claims|E] [de_jure|E] imposte"
@@ -69,12 +69,12 @@
  catalyst_toledo_council_tension:0 "[struggle_catalyst_catalyst|E] - $fp2_small_council_modifier$ Tensione"
  catalyst_toledo_council_tension_desc:0 "$catalyst_toledo_council_hostility_desc$"
 
- catalyst_imprison_important:0 "[struggle_catalyst_catalyst|E] - Imprigionato un Duca o qualcuno di livello superiore"
+catalyst_imprison_important: 0 "Ha incarcerato un [duke|E] o un [title_tier|E] superiore [struggle_catalyst_catalyst|E]"
  catalyst_imprison_important_desc:1 "Imprigiona un [duke|E] o un [character|E] di livello superiore, inclusi il [head_of_faith|E] e il [cultural_head|E]"
 
  catalyst_truce_was_enforced:0 "[struggle_catalyst_catalyst|E] - [enforced_truce|E]"
  catalyst_truce_was_enforced_desc:0 "[enforced_truce|E] con il [ruler|E] [Concept( 'struggle_involved', 'Coinvolto' )|E]"
- catalyst_execute_important:0 "[struggle_catalyst_catalyst|E] - Giustiziato un Duca oppure un Sovrano"
+catalyst_execute_important: 0 "Ha giustiziato un [duke|E] o un [title_tier|E] superiore [struggle_catalyst_catalyst|E]"
  catalyst_execute_important_desc:1 "Giustiziato un [duke|E] opuure un [character|E] di livello superiore, inclusi il [head_of_faith|E] e il [cultural_head|E]"
  catalyst_new_building_in_castle:1 "[struggle_catalyst_catalyst|E] - Costruito in un [castle|E]"
  catalyst_new_building_in_castle_desc:1 "Costruisci un [building|E] in un [holding|E] di tipo [castle|E]"
@@ -91,10 +91,10 @@
  catalyst_vassalize_independent_ruler:0 "[struggle_catalyst_catalyst|E] Vassallizzato un [independent_ruler]"
  catalyst_vassalize_independent_ruler_desc:0 "Vassallizza un [independent_ruler|E]"
  catalyst_join_war_as_assisant:0 "[struggle_catalyst_catalyst|E] - Preso parte ad una guerra"
- catalyst_join_war_as_assisant_desc:1 "Partecipa ad una guerra vendendo i tuoi servigi ad un [ruler|E] [Concept( 'struggle_involved', 'Coinvolto' )|E] che non è un tuo alleato"
+catalyst_join_war_as_assisant_desc: 1 "Partecipa a una guerra vendendo i tuoi servigi a un [ruler|E] [struggle_involved|E] non [allied|E]"
 
- catalyst_win_any_war_within_the_region:0 "[struggle_catalyst_catalyst|E] - Vinta una guerra"
- catalyst_win_any_war_within_the_region_desc:1 "Vinci una guerra iniziata contro un altro [ruler|E] [Concept( 'struggle_involved', 'Coinvolto' )|E]"
+catalyst_win_any_war_within_the_region: 0 "Ha vinto una [war|E] [struggle_catalyst_catalyst|E]"
+catalyst_win_any_war_within_the_region_desc: 1 "Vinci una [war|E] che hai iniziato contro un altro [struggle_involved|E] [ruler|E]"
  catalyst_becomes_rival_with_involved:0 "[struggle_catalyst_catalyst|E] - Rivalità accentuata"
  catalyst_becomes_rival_with_involved_desc:1 "Diventa un [rival|E] oppure una [nemesis|E] di un altro [ruler|E] [Concept( 'struggle_involved', 'Coinvolto' )|E]"
  catalyst_using_a_hook_on_very_important_character:0 "[struggle_catalyst_catalyst|E] - Usato un [hook|E]"
@@ -307,7 +307,15 @@
  supporter_and_detractor: "un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] e un [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
  supporter_and_detractor_caps: "Un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] e un [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )]"
 
- catalyst_revealed_secret_faith_non_islam: "[struggle_catalyst_catalyst|E] - Rivelato il Segreto [faith|E] non-[GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_non_islam_desc: "Rivela il Segreto [faith|E] non-[GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_islam: "[struggle_catalyst_catalyst|E] - Rivelato il Segreto [faith|E] [GetReligionByKey('islam_religion').GetAdjective]"
- catalyst_revealed_secret_faith_islam_desc: "Rivela il Segreto [faith|E] [GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_non_islam: "[struggle_catalyst_catalyst|E] - Rivelato la [faith|E] Segreta non-[GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_non_islam_desc: "Rivela la [faith|E] Segreta non-[GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_islam: "[struggle_catalyst_catalyst|E] - Rivelato la [faith|E] Segreta [GetReligionByKey('islam_religion').GetAdjective]"
+ catalyst_revealed_secret_faith_islam_desc: "Rivela la [faith|E] Segreta [GetReligionByKey('islam_religion').GetAdjective]"
+
+
+ catalyst_coronation_event_unrest: "Una rumorosa proclamazione di insoddisfazione durante un’incoronazione"
+catalyst_coronation_event_unrest_desc: "Una discussione accesa tra $supporter_and_detractor$ durante una [coronation|E] si è conclusa con un fragoroso sostegno a scuotere lo status quo"
+ catalyst_coronation_event_concession: "Una rumorosa proclamazione di insoddisfazione durante un’incoronazione"
+catalyst_coronation_event_concession_desc: "Una discussione accesa tra $supporter_and_detractor$ durante una [coronation|E] si è conclusa con un fragoroso sostegno a trovare una via di mezzo"
+ catalyst_coronation_event_stabilization: "$catalyst_coronation_event_unrest$"
+catalyst_coronation_event_stabilization_desc: "Una discussione accesa tra $supporter_and_detractor$ durante una [coronation|E] si è conclusa con un fragoroso sostegno alla stabilità"

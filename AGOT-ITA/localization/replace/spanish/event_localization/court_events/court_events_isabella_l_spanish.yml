@@ -43,31 +43,15 @@
 ##### All-male-choirs by Isabella Welch
 
  court.4100.t:0 "Uomini in Calzamaglia"
- court.4100.desc:0 "[court_musician.Custom('DE_ART_DEF_P_D')] mi[court_musician.Custom('DE_END_PRO_S_N')] musicista di corte si avvicina a me, praticamente saltellando al ritmo che solo [court_musician.GetSheHe] può percepire.\n\n"Una briciola della vostra attenzione, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Ho preparato un coro di soli uomini senza paragoni! Secondo il mio nuovo metodo, non solo cantano, ma indossano anche una calzamaglia, indossano dei codini ornati in cima ai loro lombi scintillanti, e ballano in modo sincronizzato! Tutto in mezzo a lodi di [ROOT.GetCharacter.GetFaith.HighGodName], naturalmente. Sono certo che se lei finanzierà una grande performance, farà molto piacere alle signore della corte.""
+court.4100.desc: 0 "Il mio Musicista di Corte si avvicina quasi saltellando a un ritmo che solo [court_musician.GetSheHe] sente.\n\n«Un briciolo della tua attenzione, [ROOT.Char.Custom('FormOfAddressForLiege')]. Ho preparato un coro tutto maschile senza eguali! Con il mio nuovo metodo non solo cantano, ma indossano calzamaglie, brache ornate sui loro fianchi lucenti e danzano all’unisono! Il tutto mentre lodano [ROOT.GetCharacter.GetFaith.HighGodName], s’intende. Sono certo che, se finanzierai una grande esibizione, piacerà molto alle dame di corte.»"
  court.4100.a:0 "La mia gola si gonfia! Getta questo depravato nelle prigioni!"
  court.4100.b:0 "Sono sicuro che le loro calzamaglie sono troppo da sopportare per le signore."
  court.4100.c:0 "Hai il mio denaro, aspetto con impazienza lo spettacolo!"
 
-##### Sneaky passages by Isabella Welch ######
-
- court.4200.t:0 "Hidden Murderways"
- court.4200.desc:0 "[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha recentemente presentato alla corte un individuo sospetto che ha l'aria di aver trascorso tutta la sua vita a nascondersi negli angoli più squallidi e malfamati di [capital.GetName]."
- court.4200.desc_middle:0 "\n\n"Ho sentito dire che potresti voler installare un passaggio segreto. Posso creare qualsiasi corridoio impuro che il tuo cuore perverso desideri."
- court.4200.desc_oubliette:0 "$court.4200.desc_middle$ Posso anche aggiungere una camera da letto per il tuo amante in cui gettarti nel calore della passione!""
- court.4200.desc_gluttony:0 "$court.4200.desc_middle$ Posso anche realizzare un pozzo discreto tra la tua camera da letto e la cucina per issare la torta nel cuore della notte!""
- court.4200.desc_fallback:0 "$court.4200.desc_middle$""
- court.4200.a:0 "Entrerò e uscirò dalle stanze solo dalla porta d'ingresso, sgualdrina!"
- court.4200.b:0 "Una serie di spioncini dove si riuniscono i miei cortigiani, per favore!"
- court.4200.c:0 "Sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] semplice [ROOT.Char.GetWomanMan], un passaggio di sicurezza nascosto andrà bene."
- court.4200.d:0 "Un argano per torte? Geniale!"
- court.4200.e:0 "Ammetto che mi piacerebbe essere gettato in un camera segreta completamente nud[ROOT.Char.Custom('DE_END_PRO_S_N')]."
- court.4200.f:0 "Una stanza di tortura nascosta dove posso farla franca meglio."
- court.4200.g:0 "Una stanza dove posso farmi prendere dal panico senza essere disturbato!"
-
 ##### My Spire is Bigger than Yours! by Isabella Welch #####
 
  court.4250.t:0 "La mia Torre è più grande della tua!"
- court.4250.desc:1 ""Cortigiani mugolanti di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]," [tower_challenger_rival.GetTitledFirstName] si precipita davanti alla mia sala del trono.\n\n"Mentre [ROOT.Char.GetTitledFirstNameNoTooltip] sguazza a terra come un maiale nel fango, Ho eretto la torre più alta che questa terra maledetta abbia mai visto in [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier]. Dal mio [tower_challenger_rival.Custom('FortifiedBuilding')], Ora posso quasi strappare i pianeti dal cielo. Dove sono le tue stelle, [ROOT.Char.GetTitledFirstNameNoTooltip]?"\n\n[concerned_steward.Custom('DE_ART_DEF_P_D')] mi[concerned_steward.Custom('DE_END_PRO_S_N')]  [concerned_steward.GetCouncilTitle|l] [concerned_steward.GetTitledFirstName] mette una mano prudente sulla mia spalla. "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')]  Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], la torre di [tower_challenger_rival.GetTitledFirstNamePossessiveNoTooltip] è quattrocento piedi di argilla e pasta strutturalmente instabile. Ignorate la sua provocazione e aspettate che si sgretoli!""
+court.4250.desc: 1 "«Cortigiani piagnucolosi di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]», irrompe [tower_challenger_rival.Custom('IT_NAM_COL3')][tower_challenger_rival.GetTitledFirstName] all’ingresso della sala del trono.\n\n«Mentre [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip] si rotola nel fango come un porco, io ho eretto a [tower_challenger_rival.GetCapitalLocation.GetTitle.GetNameNoTier] la torre più alta che questa terra maledetta abbia mai visto. Dal mio [tower_challenger_rival.Custom('FortifiedBuilding')] ora posso quasi ghermire i pianeti dal cielo. Dove sono le tue stelle, [ROOT.Char.GetTitledFirstNameNoTooltip]?»\n\nIl/la mi[Select_CString(concerned_steward.IsFemale,'a','o')] [concerned_steward.GetCouncilTitle|l] [concerned_steward.Custom('IT_NAM_COL3')][concerned_steward.GetTitledFirstName] mi posa una mano cauta sulla spalla. «[ROOT.Char.Custom('FormOfAddressForLiege')|U], la torre di [tower_challenger_rival.GetTitledFirstNamePossessiveNoTooltip] sono quattrocento piedi di argilla e colla strutturalmente precaria. Ignora le sue provocazioni e attendine il crollo!»"
  court.4250.a:0 "Vai a ficcarti il tuo ago del cielo su per il tuo alto didietro!"
  court.4250.b:0 "Estenderemo la nostra torre per essere un piede più alta della vostra!"
  court.4250.c:0 "I demand we build a tower #EMP one hundred feet #!taller!"
@@ -117,7 +101,7 @@
 ## Our Nobles are attacking Islamic Caravans by Isabella Welch
 
  court.4355.t:0 "Chi osa combattere il Saraceno?"
- court.4355.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," [reporting_marshal.Custom('DE_ART_DEF_P_A')] mi[reporting_marshal.Custom('DE_END_PRO_S_N')] [reporting_marshal.GetCouncilTitle] chiama, "Ho sentito [caravan_attacker.GetTitledFirstName] vantarsi che [caravan_attacker.GetSheHe] e un gruppo di nobili sono andati in giro come briganti comuni a razziare le carovane che portano lo zucchero da  [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]. Questi cani sbavano per la guerra santa, e stanno cercando di provocare [attacked_liege.GetTitledFirstName]. Tuttavia, suggerisco che abbiamo bisogno del commercio molto più di qualsiasi battaglia—"\n\n"Non abbiamo bisogno di cibo, solo di bere il sangue dell'infedele!" grida [caravan_attacker.GetTitledFirstNameNoTooltip] dall'altra parte della sala del trono."
+court.4355.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]» chiama il/la mi[Select_CString(reporting_marshal.IsFemale,'a','o')] [reporting_marshal.GetCouncilTitle], «ho sentito [caravan_attacker.Custom('IT_NAM_COL3')][caravan_attacker.GetTitledFirstName] vantarsi che [caravan_attacker.GetSheHe] e un manipolo di nobili vanno in giro come briganti comuni ad assaltare carovane cariche di zucchero da [attacked_liege.GetCapitalLocation.GetTitle.GetNameNoTier]. Quei cani sbavano per la guerra santa e cercano di provocare [attacked_liege.Custom('IT_NAM_COL3')][attacked_liege.GetTitledFirstName]. Tuttavia, ritengo che il commercio ci sia più necessario di qualunque battaglia—»\n\n«Non ci serve cibo, solo bere il sangue dell’infedele!» urla [caravan_attacker.Custom('IT_NAM_COL3')][caravan_attacker.GetTitledFirstNameNoTooltip] dall’altra parte della sala."
  court.4355.a:0 "Bel lavoro! Saccheggiare gli infedeli è un atto sacro!"
  court.4355.a.tt:0 "Organizzi altre incursioni commerciali"
  court.4355.b:0 "Guardie! Picchiatel[caravan_attacker.Custom('DE_END_PRO_S_N')] [caravan_attacker.GetHerHim] con una zuccheriera finché non si pente."
@@ -266,7 +250,7 @@
  court.4750.g:0 "Perché, sarei io, naturalmente!"
  court.4750.h:0 "Non ho né tempo né oro da sprecare."
 
- court.4751.intro:0 "Come da mia richiesta, [Select_CString(personaggio.IsFemale,'la nuova poetessa','il nuovo poeta')], [poet.GetFirstName], mi porta un lavoro ispirato"
+ court.4751.intro:0 "Come da mia richiesta, [Select_CString(poet.IsFemale,'la nuova poetessa','il nuovo poeta')], [poet.GetFirstName], mi porta un lavoro ispirato"
  court.4751.topic.ruler_hero:0 "alla mia vita eroica,"
  court.4751.topic.unexpected:0 "ma non è come mi aspettavo."
  court.4751.ruler_character:0 "\n\nUn breve sguardo ai manoscritti miniati mostra che sono presente accanto all'eroe come personaggio!\n\n"

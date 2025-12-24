@@ -36,7 +36,7 @@
  stress_trait_coping_decisions.2002.desc_ending:0 "Oh, maledett[rival.Custom('DE_END_PRO_S_N')]!"
  stress_trait_coping_decisions.2002.a:0 "Per favore... qualcuno... mi porti dei vestiti!"
  stress_trait_coping_decisions.2002.b:0 "[rival.GetFirstNameNoTooltip]! Tu serpe!"
- 
+
  stress_trait_coping_decisions.2004.t: "Stress Coping: Consequences"
  stress_trait_coping_decisions.2004.desc: "I am approached out-of-the-blue one afternoon by a peasant woman clutching a babe, tears streaming down [prostitute.GetHerHis] cheeks.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]!" she chides, "Your antics are not without consequence! This little [baby.Custom('GirlBoy')] is #EMP yours#!!"\n\nI almost choke — but do I recall [prostitute.GetHerHis] face, [prostitute.GetHerHis] body, glowing dimly by candle in some den of iniquity...?"
  stress_trait_coping_decisions.2004.a: "A [baby.Custom('GetDaughterSon')]! #EMP My#! [baby.Custom('GetDaughterSon')]!"
@@ -49,9 +49,9 @@
  stress_trait_coping_decisions.2501.a:0 "Ora sono in pace!"
 
  stress_trait_coping_decisions.3001.t:0 "Affrontare lo Stress: Non Trattenerti"
- stress_trait_coping_decisions.3001.desc_vassal:1 ""[vassal.GetTitledFirstName], mi[vassal.Custom('DE_END_PRO_S_N')] car[vassal.Custom('DE_END_PRO_S_N')][ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))]!" sorrido [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"Sei nat[vassal.Custom('DE_END_PRO_S_N')] così [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')], o lo sei diventato nel tempo?""
- stress_trait_coping_decisions.3001.desc_has_vassals:0 "Non appena i miei vassali si siedono e [vassal.GetTitledFirstName] comincia a parlare, sorrido [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"[vassal.GetTitledFirstNameNoTooltip], scusa per l'interruzione ma perche sei sempre così [vassal.Custom('InsultAdjectiveArticle')] [vassal.Custom('InsultNoun')]? [vassal_2.GetTitledFirstName], sei nato così [vassal_2.Custom('InsultNoun')], o lo sei diventato nel tempo?""
- stress_trait_coping_decisions.3001.desc_has_target_character: "As soon as everyone is seated, and [target_character.GetTitledFirstName] starts talking, I smile [ROOT.Char.Custom('quirk_neg_adverb')].\n\n"[target_character.GetTitledFirstNameNoTooltip], sorry to interrupt, but why are you always such [target_character.Custom('InsultAdjectiveArticle')] [target_character.Custom('InsultNoun')]?""
+stress_trait_coping_decisions.3001.desc_vassal: 1 "«[vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName], [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] mio carissimo!» Sorrido [ROOT.Char.Custom('quirk_neg_adverb')].\n\n«Sei nat[Select_CString(vassal.IsFemale,'a','o')] così [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], o lo sei diventat[Select_CString(vassal.IsFemale,'a','o')] in seguito?»"
+stress_trait_coping_decisions.3001.desc_has_vassals: 0 "Non appena tutti i vassalli prendono posto e [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName] inizia a parlare, sorrido [ROOT.Char.Custom('quirk_neg_adverb')].\n\n«[vassal.GetTitledFirstNameNoTooltip], scusa l’interruzione, ma perché sei sempre così [vassal.Custom2('InsultAdjectiveArticle', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]? E tu, [vassal_2.Custom('IT_NAM_COL3')][vassal_2.GetTitledFirstName], sei nat[Select_CString(vassal_2.IsFemale,'a','o')] [vassal_2.Custom2('InsultNoun', ROOT.Char)] o lo sei diventat[Select_CString(vassal_2.IsFemale,'a','o')] dopo?»"
+stress_trait_coping_decisions.3001.desc_has_target_character: "Non appena tutti sono seduti e [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] inizia a parlare, sorrido [ROOT.Char.Custom('quirk_neg_adverb')].\n\n«[target_character.GetTitledFirstNameNoTooltip], scusa l’interruzione, ma perché sei sempre così [target_character.Custom2('InsultAdjectiveArticle', ROOT.Char)] [target_character.Custom2('InsultNoun', ROOT.Char)]?»"
  stress_trait_coping_decisions.3001.desc:0 "As soon as the [ROOT.Char.Custom('GetCourt'|l)] gathers I smile [ROOT.Char.Custom('quirk_neg_adverb')] – the time has come.\n\n"You, over there! Were you born such a churl, or did that come later in life?""
  stress_trait_coping_decisions.3001.a_target:0 "The look on [target_character.GetHerHis] face...!"
  stress_trait_coping_decisions.3001.a:0 "E #EMP tu#!! Non pensare che non ti vedo!"
@@ -88,7 +88,7 @@
  stress_trait_coping_decisions.5502.desc_landless: "Girovagando per il campo mentre aspetto che il mio pasto venga preparato, incontro un giovane di uno degli insediamenti vicini.\n\nSi scusa perché il dovere chiama, ma non possiamo permetterlo, vero? Mi sono appena imbattuto nel miglior pasto immaginabile!\n\nLo conduco al limite del bosco, dove un paio di urla non faranno differenza. E poi, faccio un #EMP banchetto#!!"
  stress_trait_coping_decisions.5502.a:0 "E ho ancora il dolcetto che mi aspetta di sopra!"
  stress_trait_coping_decisions.5502.a_landless: "Questo #EMP sì#! che mi rilassa."
- 
+
  stress_trait_coping_decisions.6001.t:0 "Affrontare lo Stress: Rinuncia al Cibo"
  stress_trait_coping_decisions.6001.desc:0 ""Informate il cuoco che non parteciperò, per il prossimo futuro, ai pasti."\n\nNon appena le parole hanno lasciato la mia bocca mi sono sentito subito più leggero - niente più distrazioni, niente più ingozzamenti! Ora posso concentrarmi su ciò che è importante!"
  stress_trait_coping_decisions.6001.a:0 "Si, così va bene."
@@ -108,7 +108,7 @@
  stress_trait_coping_decisions.7501.t:1 "$stress_trait_coping_decisions.activity$ Sudare"
  stress_trait_coping_decisions.7501.desc:0 "Mentre finisco il mio giro di corsa attorno al [ROOT.Char.Custom('ResidenceBuilding')|l], riesco a sentire le mie preoccupazioni gocciolare via insieme al sudore.\n\nAlcune persone dicono che scappo dai miei problmi, ma io rispondo che invece corro verso le soluzioni!"
  stress_trait_coping_decisions.7501.a:0 "Un altro giro!"
- #tradurre da qui in poi
+
  stress_trait_coping_decisions.7502.t:0 "$stress_trait_coping_decisions.activity$ Più Pesante è Meglio è"
  stress_trait_coping_decisions.7502.desc:0 "'Non è abbastanza!' penso, mentre poso [ROOT.Char.Custom('signature_weapon')] d'addestramento. Mi sono addestrato senza sosta ma non sono affatto stanco, ho bisogno di mettermi alla prova più duramente!\n\nSì... qualcosa di più grande... o magari più pesante!\n\nQualcosa che di certo mi sfinisca dalla stanchezza!"
  stress_trait_coping_decisions.7502.a:0 "Il/La [random_artifact.GetNameNoTooltip] dovrebbe andare!"
@@ -132,7 +132,7 @@
  stress_trait_coping_decisions.7503.failure:0 "[random_knight.GetTitledFirstNameNoTooltip] vince la sfida"
 
  stress_trait_coping_decisions.7504.desc:0 "A volte è difficile trovare la motivazione per rimanere costante quando mi esercito da sol[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nPotrei cercare di trovare un compagno d'addestramento che non solo mi motiverebbe nelle brutte giornate, ma sarebbe anche qualcuno con cui mettere a confronto i miei progressi.\n\nChe tipo di compagno d'addestramento mi è più consono? Qualcuno che possa ammirare, qualcuno che mi tenga sulla corda oppure qualcuno che so per certo non vorrei mai aspirare a diventare?"
- stress_trait_coping_decisions.7504.a:0 "Dovrei addestrarmi con qualcuno di cui invidio la maestria. Come [ideal_character.GetFirstNameNoTooltip]!"
+stress_trait_coping_decisions.7504.a: 0 "Dovrei allenarmi con qualcuno la cui prodezza invidio. Come [ideal_character.GetFirstNameNoTooltip]!"
  stress_trait_coping_decisions.7504.b:0 "[similar_character.GetFirstNameNoTooltip] ha un fisico simile al mio e può ripetere bene le mia stessa sequenza di esercizi."
  stress_trait_coping_decisions.7504.c:0 "Osservare gli sforzi fatti da [not_ideal_character.GetFirstNameNoTooltip] sarà motivante."
  stress_trait_coping_decisions.7504.d:0 "Non ho bisogno di compagnia durante l'addestramento."

@@ -7,8 +7,8 @@
 
  # GUI
  ACTIVITY_WAITING_TOOLTIP:0 "Ospitato da [CHARACTER.GetName].\nIn attesa di risposta da tutti gli inviti.\n$DESC|F$\n\n#I Clicca per visualizzare i dettagli#! "
- ACTIVITY_TIME_LEFT:0 "#D Inizierà tra $TIME|V$ giorni#!"
- ACTIVITY_OWNED_BY:0 "#D Organizzatore: $NAME$#!"
+ACTIVITY_TIME_LEFT: 0 "Inizierà tra $TIME|V$ giorni"
+ACTIVITY_OWNED_BY: 0 "Proprietario: $NAME$"
  ACTIVITY_SHORT_NAME:0 "[ActivityType.GetNameNoTooltip]"
 
  ACTIVITY_TYPE_DESC:0 "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]"
@@ -74,7 +74,7 @@
  activity_feast_desc:0 "Rafforza i legami di lealtà invitando vassalli e vicini nelle tue sale a mangiare, bere e divertirsi!\n\nI banchetti ben organizzati manterranno stabile il tuo regno, placando i sudditi e stringendo amicizie."
  activity_feast_owner:0 "Organizzatore"
  activity_feast_destination_selection:0 "La contea scelta riceverà il modificatore [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] per 5 anni."
- activity_feast_selection_tooltip:1 "Ospita un grande banchetto per rafforzare le tue relazioni\n\nRicompense Previste:\n$BULLET_WITH_TAB$[opinion_i][opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] Perdita di [stress|E]"
+activity_feast_selection_tooltip: "Ospita un grande banchetto per rafforzare le tue relazioni\n\nRicompense previste:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] [stress_loss|E]"
  activity_feast_amenity_effect:0 "$BULLET_WITH_TAB$Le ricompense aumentano in base alla categoria Cibo delle tue [court_amenities|E]"
  activity_feast_host_desc:1 "$BULLET_WITH_TAB$Puoi aumentare l'[opinion|E] che i [vassals|E] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] hanno nei tuoi confronti\n$BULLET_WITH_TAB$Puoi guadagnare [prestige_i][prestige|E]\n$BULLET_WITH_TAB$È possibile guadagnare [legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$I Partecipanti possono aumentare l'[opinion|E] che i personaggi presenti hanno nei loro confronti\n$BULLET_WITH_TAB$I Partecipanti possono perdere [stress_loss_i][stress|E]\n$BULLET_WITH_TAB$I Partecipanti possono guadagnare il [trait|E] [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]\n[SelectLocalization( HasDlcFeature( 'royal_court' ), 'activity_feast_amenity_effect', 'blank_line' )]"
  activity_feast_conclusion_desc:1 "Il/La [GetActivityType( 'activity_feast' ).GetName] si è concluso/a"
@@ -97,12 +97,13 @@
  honorary_guest_desc_for_host:0 "Non si può chiamare $feast_type_murder$ senza un $honorary_guest_for_host$. L'organizzatore può selezionare la sua vittima con cura e, se vuole, mettere fine alla sua vita insieme a quella di tutto il suo seguito. Ma bisogna stare attenti — se qualcuno si accorge dell'assenza della vittima potrebbero esserci ulteriori conseguenze."
  honorary_guest_regular_desc:0 "$honorary_guest_desc$"
  honorary_guest_regular_desc_for_host:0 "$honorary_guest_desc$"
- activity_window_character_honorary_guest:2 "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), '$honorary_guest_for_host|q$', '[honorary_guest|E]' )]\n[Character.GetShortUINameNoTooltip|U]"
+activity_window_character_honorary_guest: 2 "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_honorary_guest_regular:2 "[honorary_guest|E]\n[Character.GetShortUINameNoTooltip|U]"
  feast_cost_discount_longhouses:0 "La località possiede $building_type_longhouses_01$"
  feast_cost_discount_farm_estates:0 "La località possiede $building_type_farm_estates_01$"
  feast_cost_discount_orchards:0 "La località possiede $building_type_orchards_01$"
  feast_cost_discount_cereal_fields:0 "La località possiede $building_type_cereal_fields_01$"
+feast_cost_discount_paddy_fields: "La località ha $building_type_paddy_fields_01$"
  feast_cost_discount_hill_farms:0 "La località possiede $building_type_hill_farms_01$"
  feast_cost_discount_desert_agriculture:0 "La località possiede $building_type_plantations_01$"
  feast_cost_discount_leisure_palaces:0 "La località possiede $building_type_leisure_palace_01$"
@@ -114,8 +115,8 @@
  feast_cost_discount_citadel_of_aleppo:0 "La località possiede $building_citadel_of_aleppo_02$"
  feast_cost_discount_theodosian_walls:0 "La località possiede $building_theodosian_walls_01$"
  feast_cost_discount_hall_of_heroes:0 "La località possiede $building_type_hall_of_heroes_01$"
- activity_feast_province_desc_theodosian_walls:1 "#P +++ $building_type_theodosian_walls_01$#!"
- activity_feast_province_desc_hall_of_heroes:0 "#P +++ $building_type_hall_of_heroes_01$#!"
+ activity_feast_province_desc_theodosian_walls:1 "#P +++ $building_type_theodosian_walls_01$#!\n"
+ activity_feast_province_desc_hall_of_heroes:0 "#P +++ $building_type_hall_of_heroes_01$#!\n"
  activity_feast_province_desc_citadel_of_aleppo:1 "#P +++ $building_type_citadel_of_aleppo_01$#!\n"
  activity_feast_province_desc_palace_of_aachen:2 "#P +++ $building_type_palace_of_aachen_01$#!\n"
  activity_feast_province_desc_doges_palace:1 "#P +++ $building_type_doges_palace_01$#!\n"
@@ -124,6 +125,7 @@
  activity_feast_province_desc_leisure_palace:1 "#P +++ $building_type_leisure_palace_01$#!\n"
  activity_feast_province_desc_alhambra:1 "#P +++ $building_type_alhambra_01$#!\n"
  activity_feast_province_desc_farm_estates:1 "#P ++ $building_type_farm_estates_01$#!\n"
+activity_feast_province_desc_paddy_fields: "#P ++ $building_type_paddy_fields_01$#!\n"
  activity_feast_province_desc_longhouses:1 "#P + $building_type_longhouses_01$#!\n"
  activity_feast_province_desc_orchards:0 "#P + $building_type_orchards_01$#!\n"
  activity_feast_province_desc_cereal_fields:1 "#P + $building_type_cereal_fields_01$#!\n"
@@ -144,7 +146,7 @@
  food_bad_reward_tt_title:0 "$final_reward_tt$"
  food_bad_reward_tt:0 "La complessità dei piatti ha deluso gli ospiti"
  not_poor_health_tt:1 "La [health|E] è #V Scarsa#! o peggiore"
- activity_feast_guest_help_text:1 "Ogni [guests|E] invitato avrà l'opportunità di stringere rapporti con gli altri partecipanti e incrementare l'[opinion|E] che questi hanno di loro.\n\nLe feste sono anche un'occasione perfetta se ci si vuole solo rilassare e perdere un po' di [stress|E]."
+activity_feast_guest_help_text: 1 "Ogni [activity_guests|E] invitato avrà l'opportunità di interagire con gli altri partecipanti e aumentare la propria [opinion|E].\n\nI banchetti sono anche l'occasione perfetta per rilassarsi e ridurre un po' di [stress|E]."
  murder_feast_failed_tt_title:0 "Assassinio Fallito"
  murder_feast_failed_tt:1 "Il tentativo di assassinio è fallito"
  murder_feast_solo_kill_tt_title:0 "Banchetto per Uccidere"
@@ -155,7 +157,7 @@
  murder_feast_liege_kill_tt:0 "[ROOT.Char.GetShortUIName] è riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad uccidere il suo signore"
  murder_feast_hof_kill_tt_title:0 "$murder_feast_liege_kill_tt_title$"
  murder_feast_hof_kill_tt:0 "[ROOT.Char.GetShortUIName] è riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] ad uccidere il suo capo della fede"
- activity_window_character_honorary_guest_traveling_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n Sta [traveling|E] a [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
+ activity_window_character_honorary_guest_traveling_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n Sta [Concept( 'traveling', 'viaggiando' )|E] verso [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]"
  activity_window_character_honorary_guest_murder:0 "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]"
  activity_feast_province_desc:0 "Hai tenuto un Banchetto in [ROOT.Province.GetName]\nLe province con edifici adatti concedono uno sconto in [gold_i][gold|E]\n"
  
@@ -165,9 +167,9 @@
  activity_hunt_name:0 "La Battuta di Caccia di [ACTIVITY.GetOwner.GetName]"
  activity_hunt_desc: "[GetPlayer.Custom('GetHuntDesc')|U]"
  activity_hunt_desc_regular: "L'inseguimento offre emozioni e pericoli in abbondanza e serve a fornire una solida base di equitazione e tiro con l'arco.\n\nLe battute di caccia sono supervisionate dal [GetCourtPositionType('master_of_hunt_court_position').GetName()], che annuncerà gli [hunt_sightings_no_prefix|E] di bestie comuni, rare e feroci."
- activity_hunt_desc_adventurer: "L'inseguimento offre emozioni e pericoli in abbondanza e serve a fornire una solida base di equitazione e tiro con l'arco.\n\In quanto [GetGovernment('landless_adventurer_government').GetName] la battuta di caccia fa ottenere meno [prestige_i][prestige|E] ma fornisce [provisions_i][provisions|E]. Le battute di caccia sono supervisionate dal [GetCourtPositionType('huntperson_camp_officer').GetName()].\n\nAll'inizio di una battuta di caccia avrai l'opportunità di comprare i diritti di caccia in cambio di [gold_i][gold|E], oppure otterrai [trait_level_track_xp|E] [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName]."
+ activity_hunt_desc_adventurer: "L'inseguimento offre emozioni e pericoli in abbondanza e serve a fornire una solida base di equitazione e tiro con l'arco.\n\n In quanto [GetGovernment('landless_adventurer_government').GetName] la battuta di caccia fa ottenere meno [prestige_i][prestige|E] ma fornisce [provisions_i][provisions|E]. Le battute di caccia sono supervisionate dal [GetCourtPositionType('huntperson_camp_officer').GetName()].\n\nAll'inizio di una battuta di caccia avrai l'opportunità di comprare i diritti di caccia in cambio di [gold_i][gold|E], oppure otterrai [trait_level_track_xp|E] [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName]."
  activity_hunt_owner:0 "Cacciatore"
-
+ #Meditation
  activity_meditation:0 "Meditazione in disparte"
  activity_meditation_name:0 "La Meditazione in disparte di [ACTIVITY.GetOwner.GetName]"
  activity_meditation_desc:0 "[ACTIVITY.GetOwner.GetTitledFirstName] si è ritirato in isolamento così da poter meditare in pace."
@@ -251,6 +253,7 @@
  activity_invite_spouses_close_family:0 "Parenti stretti del Coniuge"
  activity_invite_spouses_extended_family:0 "Membri della Famiglia Allargata del Coniuge"
  activity_invite_mp:0 "Altri Giocatori"
+ activity_invite_rule_councillors: "Consiglieri"
 
  ##### PILGRIMAGE #####
  activity_pilgrimage.is_location_valid.hajj_mecca:0 "L'Hajj può essere diretto solo a La Mecca"
@@ -268,6 +271,7 @@
  activity_pilgrimage.is_valid.hajjed_recently:0 "Puoi intraprendere l'Hajj una volta ogni [EmptyScope.ScriptValue('hajj_cooldown_value')|0] anni"
 
  ACTIVITY_TYPE_ON_COOLDOWN:0 "@warning_icon! #X Questa attività non può essere intrapresa per [DATE.GetTimeToDate()]#!"
+ is_activity_type_on_cooldown: "Questa attività non può essere organizzata per [DATE.GetTimeToDate()]"
 
  is_healthy_tt:0 "E' in salute"
 
@@ -313,6 +317,7 @@
  activity_gruesome_festival_predicted_cost:0 "Il costo di un [GetActivityType( 'activity_gruesome_festival' ).GetNameNoTooltip] è determinato soprattutto dalle [activity_options|E] che selezioni."
  activity_witch_ritual_predicted_cost:0 "Il costo di un [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip] è determinato soprattutto dalle tue [income|E]"
  activity_playdate_predicted_cost:0 "Il costo di un [GetActivityType( 'activity_playdate' ).GetNameNoTooltip] è determinato soprattutto dalle tue [income|E] e dal tuo [title_tier|E]."
+
  liege_accolades_glory_reward_title:0 "[glory|E] Ottenuta"
  liege_accolades_glory_reward:0 "I partecipanti hanno parlato con reverenza della virtù marziale tra di loro, in particolare quella dei [root_scope.Custom('KnightCulturePluralNoTooltip')|l] di [root_scope.GetShortUIName]"
 
@@ -322,9 +327,11 @@
  liege_accolades_glory_reward_tour_title:0 "[glory|E] Ottenuta"
  liege_accolades_glory_reward_tour:0 "I [root_scope.Custom('KnightCulturePluralNoTooltip')|l] di [root_scope.GetShortUIName] cavalcavano attraverso il paese, con il loro splendore e il loro predominio ben evidente."
 
+
  # Chariot Race
  activity_chariot_race_province_constantinople: "\n#P +++ Costantinopoli#!"
  activity_chariot_race_province_capital: "\n#P ++ È la tua Captiale#!"
 
  # Voyager Cost Tooltips
  journey_planner_perk_desc: "[GetPerk('journey_planner_perk').GetName( GetNullCharacter )] "
+

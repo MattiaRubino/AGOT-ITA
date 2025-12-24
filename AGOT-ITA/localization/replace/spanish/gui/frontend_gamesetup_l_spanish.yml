@@ -12,12 +12,15 @@
 
  GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "Benvenuto su Crusader Kings III"
  GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III è un gioco di strategia profonda di dinastie e intrighi!"
- GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER:0 "Se sei nuovo del mondo di Crusader Kings, ti consigliamo vivamente di giocare il tutorial. Nel tutorial giocherai nei panni del $bookmark_rags_to_riches_petty_king_murchad$, un sovrano irlandese. Guida la tua dinastia per sconfiggere i tuoi nemici e diventare re d'Irlanda!"
- GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Vuoi apprendere il gioco nei panni del $bookmark_rags_to_riches_petty_king_murchad$?"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER: "$GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA$"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER: "L’Irlanda è divisa tra numerosi piccoli re e signori feudali.\n\nCome [BookmarkCharacter.GetName|V] di [BookmarkCharacter.GetTitleName], guida la tua Dinastia, unisci le terre e diventa Re d’Irlanda!"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER: "Nella burocrazia imperiale cinese, solo i più meritevoli vengono scelti come governatori.\n\n[BookmarkCharacter.GetName|V] ha il potenziale per essere sia un brillante poeta sia un abile burocrate. Forse un giorno i suoi discendenti governeranno tutta la Cina?"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA: "[SelectLocalization( BookmarkCharacter.GetGovernmentType.IsType( 'celestial_government' ), 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER', 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER' )]"
+GAMESETUP_TUTORIAL_PROMPT_ASK: 0 "Impara il gioco come [BookmarkCharacter.GetName]"
 
  GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "Forse più tardi"
  GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"
- GAMESETUP_PLAY_TUTORIAL:0 "Gioca il Tutorial"
+GAMESETUP_PLAY_TUTORIAL: 0 "Avvia il tutorial"
  GAMESETUP_GAME_INFO:0 "Informazioni di gioco"
  
- GAMESETUP_TUTORIAL_PROMPT_PLAY_BUTTON_TOOLTIP:0 "#T Gioca con $bookmark_rags_to_riches_petty_king_murchad$, nel 1066#!"
+ 

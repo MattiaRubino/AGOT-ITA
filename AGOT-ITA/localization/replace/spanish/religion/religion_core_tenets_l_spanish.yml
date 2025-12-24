@@ -105,6 +105,8 @@
  tenet_hedonistic_name:0 "Edonistico"
  tenet_hedonistic_desc:0 "Il divino ha riempito questo mondo con una munificenza di piaceri per noi per indulgere e godere - non partecipare a queste cose è ignorare l'opera stessa della creazione."
  doctrine_parameter_piety_from_feasts_active:1 "Sostenere una [feast|E] fa guadagnare [piety|E]"
+doctrine_parameter_piety_from_festivals_active: "[AddLocalizationIf( HasDlcFeature( 'all_under_heaven' ), 'doctrine_parameter_piety_from_festivals_active_auh')]"
+doctrine_parameter_piety_from_festivals_active_auh: "Ospitare [GetActivityType('activity_festival').GetName] concede [piety|E]"
 
  tenet_carnal_exaltation_name:0 "Esaltazione Carnale"
  tenet_carnal_exaltation_desc:0 "I piaceri della carne sono sublimi in un modo che trascende le altre esperienze terrene, avvicinandoci al divino. Dovremmo glorificare i nostri desideri sessuali e cercare opportunità per noi di soddisfarli."
@@ -183,6 +185,8 @@
  tenet_adaptive_desc:0 "L'adesione dogmatica alle vecchie restrizioni danneggia solo i fedeli. Finché rimaniamo fedeli alle credenze fondamentali della nostra fede, possiamo adattare le nostre leggi al mondo che ci circonda."
  doctrine_parameter_tenet_adaptive_conversion_resistance:0 "Resistenza alla Conversione delle Contee: #P +30%#!"
  doctrine_parameter_reduced_vassal_religion_discontent:1 "I [vassals|E] infedeli sono meno propensi ad unirsi a [factions|E] di Indipendenza e Populismo"
+doctrine_parameter_immaterial_harmony_conversion_cost_reduced: "Costo di [piety_i|E][piety|E] per convertirsi a un'altra [faith|E] con questa [doctrine|E]: #P -50%#!"
+doctrine_parameter_immaterial_harmony_buddhist_take_vows: "Le [faiths|E] [GetReligionByKey('buddhism_religion').GetAdjective] possono usare l'[interaction|E] #V $take_vows_interaction$#!"
 
  tenet_inner_journey_name:0 "Cammino Interiore"
  tenet_inner_journey_desc:0 "Solo comprendendo se stessi possiamo capire il mondo. Il viaggio di scoperta di sé è importante perché è lungo e difficile."
@@ -236,7 +240,7 @@
  doctrine_parameter_healthier_children_active:0 "I bambini hanno #P meno probabilità#! di essere malati o nascere morti"
  doctrine_parameter_piety_from_childbirth_active:0 "Madri e padri ottengono [piety|E] alla nascita del loro figlio"
  piety_from_childbirth_toast:0 "Parto Sacro"
- 
+
  tenet_sanctity_of_nature_name:0 "La Sacralità della Natura"
  tenet_sanctity_of_nature_desc:1 "Il mondo naturale è la creazione del divino, e noi siamo semplicemente ospiti in esso. Dobbiamo rispettare e onorare ogni albero, ogni animale, e anche la terra stessa."
  # This parameter does nothing; it's just here to flag the tenet's nature silently so we can reference it without directly tagging the tenet.
@@ -283,16 +287,27 @@
  eastern_syncretic_recipient_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
  eastern_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
 
- tenet_eastern_syncretism_name:0 "Sincretismo Orientale"
- tenet_eastern_syncretism_desc:0 "C'è qualcosa da imparare dal modo in cui le diverse religioni orientali si tollerano a vicenda. Essi magari seguono la vera fede, ma ciò non li rende malvagi."
- doctrine_parameter_hostility_override_eastern_hostility_doctrine:0 "Le [faiths|E] Orientali sono considerati solamente [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
- #Instead, add these doctrine parameters to appropriate tenets (presently Eastern Syncretism).
- doctrine_parameter_is_eastern_faith_bilateral_loc_override:0 "Considera le [faiths|E] Orientali, ed è considerato da esse, come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
- doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith:0 "Considera le [faiths|E] Orientali, ed è considerato da esse, come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
- doctrine_parameter_eastern_syncretic_actor_opinion_active:0 "Bonus d'[opinion|E] reciproco di [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] Orientali"
+tenet_eastern_syncretism_name: "Sincretismo $rf_eastern$"
+tenet_eastern_syncretism_desc: 0 "C'è qualcosa da imparare dal modo in cui le diverse religioni dharmiche si tollerano a vicenda. Potrebbero non seguire la vera fede, ma ciò non le rende malvagie."
+doctrine_parameter_hostility_override_eastern_hostility_doctrine: "Le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName] sono considerate soltanto [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
+doctrine_parameter_is_eastern_faith_bilateral_loc_override: "Considera le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName] — e viene considerata dalle $rf_eastern$ $game_concept_faiths$ — come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith: "Considera le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName] — e viene considerata dalle $rf_eastern$ $game_concept_faiths$ — come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_eastern_syncretic_actor_opinion_active: "Bonus reciproco di [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] all’[opinion|E] con le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName]"
  doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 ""
  doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "Bonus d'[opinion|E] reciproco di [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] che hanno il [core_tenet|E] $tenet_eastern_syncretism_name$ "
  doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
+
+tenet_sinitic_syncretism_name: 0 "Sincretismo sinitico"
+tenet_sinitic_syncretism_desc: 0 "Possiamo imparare dalle antiche religioni sinitiche. Nel corso dei secoli e dei millenni hanno ispirato una vita retta e buoni costumi."
+doctrine_parameter_hostility_override_sinitic_hostility_doctrine: 1 "Le [faiths|E] sinitiche sono considerate solo [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
+doctrine_parameter_is_sinitic_faith_bilateral_loc_override: 0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_is_sinitic_faith: 0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_sinitic_syncretic_actor_opinion_active: 0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] sinitiche"
+doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active: 0 ""
+doctrine_parameter_sinitic_syncretic_recipient_opinion_active: 0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] che hanno il [core_tenet|E] $tenet_sinitic_syncretism_name$"
+doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active: 0 ""
 
  tenet_unreformed_syncretism_name:0 "Tradizioni Popolari Sincretiche"
  tenet_unreformed_syncretism_desc:0 "Chi siamo noi per dire agli altri che le loro tradizioni sono false? Non spetta a noi dar loro lezioni sui costumi che praticano da secoli: invece, dovremmo imparare tranquillamente sui loro modi."
@@ -324,7 +339,7 @@
  doctrine_parameter_adoptionists_are_mutual_evil:0 "Considera (da loro ricambiato) tutti gli altri $christianity_religion_adherent_plural$ come $hostility_evil_tooltippable$"
  doctrine_parameter_adoptionist_school_removed_on_reformation:0 "Le sottili sfumature di questa scuola sono #EMP permanentemente#! perse a causa della [reformation|E]"
  doctrine_parameter_adoptionists_attractively_intuitive_theology:0 "[EmptyScope.ScriptValue('fp2_lyonese_monk_conversion_bonus_root_value')|=+%0] di velocità di conversione contro altre [faiths|E] [GetReligionByKey('christianity_religion').GetAdjective]"
- 
+
  tenet_islamic_syncretism_name:0 "Sincretismo Islamico" 
  tenet_islamic_syncretism_desc:0 "Le parole del Profeta sono indiscutibilmente sagge e giuste, e qualsiasi siano i nostri dubbi, dovremmo prestare attenzione ai suoi pensieri e alle sue azioni."
  doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:1 "Considera le [faiths|E] Islamiche, ed è considerato dalle $game_concept_faiths$ Islamiche, come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
@@ -354,14 +369,15 @@
  doctrine_parameter_reduced_stress_from_torture:0 "I Seguaci sono resistenti agli effetti negativi dell'essere torturati"
  doctrine_parameter_self_mutilation_active:0 "Puoi [Concept( 'decide', 'decidere' )|E] di performare l'Automutilazione, guadagnando [piety|E] al costo di prendere il [trait|E] [GetTrait('wounded_1').GetName( GetPlayer )]"
  self_mutilation_active_name: "[GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
- self_mutilation_minor_piety_gain_tt: "[THIS.Char.Custom('IT_NAM_COL3')|U][THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('minor_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
- self_mutilation_medium_piety_gain_tt: "[THIS.Char.GetShortUIName|U] [THIS.Char.LocalPlayerString('ottieni', 'ottiene')] #P [THIS.ScriptValue('medium_piety_gain')]#![piety_i] in ragione [THIS.Char.LocalPlayerString('del tuo', 'del suo')] [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
- self_mutilation_major_piety_gain_tt: "[THIS.Char.GetShortUIName|U][THIS.Char.GetShortUIName|U] [THIS.Char.LocalPlayerString('ottieni', 'ottiene')] #P [THIS.ScriptValue('major_piety_gain')]#![piety_i] in ragione [THIS.Char.LocalPlayerString('del tuo', 'del suo')] [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
+ self_mutilation_minor_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('minor_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
+ self_mutilation_medium_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('medium_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
+ self_mutilation_major_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('major_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
 
  tenet_sacred_shadows_name:0 "Bugie Sacre"
  tenet_sacred_shadows_desc:0 "Mentire è l'arte più profonda in assoluto. Quelli che possono convincere gli altri con le loro bugie sono sacri. Quelli che possono mentire a loro stessi sono inarrestabili."
  doctrine_parameter_piety_gain_from_successful_intrigue_schemes:0 "I Credenti guadagnano pietà dopo aver completato con successo i [schemes|E] di tipo [intrigue|E]"
  doctrine_parameter_adherents_more_likely_to_join_schemes:0 "I Credenti sono più propensi a diventare Agenti in [schemes|E] altrui."
+
  tenet_pursuit_of_power_name:0 "Ricerca del Potere"
  tenet_pursuit_of_power_desc:0 "Quello che è giusto e non è passeggero, definito da quelli che attualmente detengono il potere. Questo significa che la ricerca del potere è l'unica vera e giusta causa."
 
@@ -374,6 +390,7 @@
  doctrine_parameter_naked_adherents_active:0 "I Seguaci non indossano vestiti"
  doctrine_parameter_natural_primitivism_law_cost_increase:0 "Costo della Legge: #N +50%#!"
  
+
  #FP3 tenets
 
  tenet_communal_possessions_name: "Possedimenti in comune"
@@ -395,6 +412,59 @@
  doctrine_parameter_master_assassin_court_position_unlocked: "Sblocca la #V [GetCourtPositionType( 'master_assassin_court_position' ).GetName()]#! [master_assassin|E]"
  doctrine_parameter_death_is_glory: "Probabilità di morte o lesioni in [battle|E]: #N +10%#!"
  doctrine_parameter_sanctioned_assassinations: "Nessuna perdita della [piety|e] per aver ucciso personaggi di un'altra [faith|E] per mezzo dei [schemes|E] [GetScheme('murder').GetTypeName]"
+ 
+ # EP3 Tenets
+ tenet_household_gods_name: "Dei della Casata"
+ tenet_household_gods_desc: "Veneriamo i nostri #EMP Lari#! e i #EMP Genii#! — gli spiriti protettori che vegliano sulle nostre dimore. Sopra ogni cosa, onoriamo il nostro glorioso imperatore, la cui anima è investita della protezione dell’intero regno."
 
  # BP3 Parameter
  doctrine_parameter_allows_brewery: "$allows_brewery$ per le [temple_holdings|E]"
+
+ # TGP
+immaterial_harmony_name: "Armonia Immateriale"
+special_doctrine_immaterial_harmony_name: "Armonia Immateriale"
+special_doctrine_immaterial_harmony_desc: "Non vi è conflitto tra le nostre tradizioni e gli insegnamenti del Buddha o dei saggi. Si può praticarne una qualsiasi, o persino tutte insieme, senza alcuna difficoltà spirituale."
+doctrine_parameter_hostility_override_special_doctrine_immaterial_harmony: "Considera, ed è considerata da, le [faiths|E] con la [special_doctrine_immaterial_harmony_name$] dottrina speciale come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_astray_tooltippable$, $hostility_hostile_tooltippable$ o $hostility_evil_tooltippable$"
+
+tenet_extinction_of_dharma_name: "Estinzione del Dharma"
+tenet_extinction_of_dharma_desc: "I demoni camminano sulla terra sotto le spoglie dei pii e dei devoti; chiunque ne uccida uno compirà un passo verso la Buddhità, chiunque ne uccida dieci compirà dieci passi verso la Buddhità."
+
+tenet_cranial_trophies_name: "Trofei cranici"
+tenet_cranial_trophies_desc: "La testa è il vaso della quintessenza del suo proprietario. Recidendola ed estraendone il contenuto possiamo rivendicarne la potente energia spirituale."
+doctrine_parameter_killing_bestows_heads: "È possibile ottenere un [artifact|E] Trofeo Cranico [executing|E] un altro personaggio, uccidendolo in un [single_combat_duel|E] o in [battle|E]"
+doctrine_parameter_decapitation_steals_prestige_as_piety: "Quando si ottiene un [artifact|E] Trofeo Cranico, l'uccisore guadagna inoltre [piety|E] in proporzione al [prestige|E] del defunto"
+
+tenet_benevolent_governance_name: "Governo benevolo"
+tenet_benevolent_governance_desc: "Coloro che governano le masse hanno il dovere morale di promuovere il bene e abjurare il male. Solo attenendosi a questo principio un sovrano può essere davvero giusto."
+tenet_filial_piety_name: "Pietà filiale"
+tenet_filial_piety_desc: "La pietà filiale e l'obbedienza agli anziani sono fondamentali per l'attuazione della bontà umana. Quando i nostri genitori sono vivi li serviamo con proprietà; quando muoiono li seppelliamo con proprietà e poi li veneriamo con proprietà."
+tenet_harmonious_society_name: "Società armoniosa"
+tenet_harmonious_society_desc: "Tutto deve essere in equilibrio: individui, natura, società. Il Figlio del Cielo dà il tempo e noi seguiamo il suo canto."
+doctrine_parameter_sway_scheme_better: "[GetScheme('sway').GetTypeName] [scheme_success_chance|E]: [success_chance_i]#P +15%#!"
+doctrine_parameter_sway_scheme_piety: "[schemes|E] di [GetScheme('sway').GetTypeName] riuscite contro il tuo [liege|E] o i tuoi [vassals|E] forniscono [piety_i][piety|E]"
+doctrine_parameter_more_often_zealots: "È più probabile che i [vassals|E] abbiano la [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] [vassal_stance|E]"
+tenet_harmonious_society_sway_boon: "La tua [faith|E] ha [GetFaithDoctrine('tenet_harmonious_society').GetBaseName]: $VALUE|+0=$"
+tenet_pursuit_of_knowledge_name: "Ricerca del sapere"
+tenet_pursuit_of_knowledge_desc: "Coloro che sono naturalmente dotati di conoscenza fin dalla nascita sono i più elevati. Coloro che cercano volontariamente la conoscenza vengono secondi. Gli ottusi e chi non cerca di imparare sono la gente più bassa."
+doctrine_parameter_inspections_unlocked_and_costs_piety: "Sblocca l'[activity|E] [GetActivityType('activity_survey').GetName] al costo di [piety|E]"
+doctrine_parameter_inspection_gives_devotion: "Completare l'[activity|E] [GetActivityType('activity_survey').GetName] fornisce [piety_experience|E]"
+doctrine_parameter_better_study_scheme: "[GetScheme('study_confucian_classics').GetTypeName] [scheme_success_chance|E]: [success_chance_i]#P +15%#!"
+
+doctrine_parameter_parents_get_hooks_on_children: "I genitori otterranno automaticamente [perpetual_hooks|E] sui propri [children|E]"
+
+tgp_local_shrines_patronized: "Santuari locali patrocinati"
+ 
+tenet_sacred_destruction_name: "Distruzione sacra"
+tenet_sacred_destruction_desc: "Non può esservi creazione senza distruzione. Perché qualcosa di nuovo inizi, qualcosa di vecchio deve finire."
+doctrine_parameter_successful_sieges_give_piety: "Vincere un [siege|E] offensivo fornisce [piety|E] e distrugge più [development|E] della [county|E]"
+successful_sieges_give_piety_toast: "Dogma $tenet_sacred_destruction_name$"
+ 
+tenet_preservation_name: "Conservazione"
+tenet_preservation_desc: "Creazione, protezione, trasformazione. La virtù deriva dal costruire, dall'innalzare qualcosa e vederlo prosperare."
+building_temples_gives_development_toast: "Dogma $tenet_preservation_name$"
+doctrine_parameter_building_temples_gives_development: "Costruire in una [church_holding|E] o in una [temple_citadel_holding|E] aumenta il [development|E] della [county|E]"
+doctrine_parameter_monastic_schools_allowed_in_every_holding_type: "Consente la costruzione della linea di [buildings|E] #V $building_type_monastic_schools_01$#! in tutti i [holding_types|E]"
+ 
+doctrine_parameter_mountain_trait_bonuses: "Alcuni [commander_traits|E] e [personality_traits|E] hanno bonus aggiuntivi in montagna"
+desert_mountains_holding_construction_piety_cost: "Costo di costruzione della [holding|E] in $desert_mountains$"
+mountains_holding_construction_piety_cost: "Costo di costruzione della [holding|E] in $mountains$"

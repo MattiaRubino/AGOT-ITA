@@ -66,7 +66,7 @@
  
  martial_strategy.2021.t:0 "Inganno Riuscito"
  martial_strategy.2020.desc.opening:0 "Ho riunito il mio seguito per alcuni giochi di guerra, desideroso di provare la mia idea di fingere una disfatta per attirare i miei avversari e fare allungare eccessivamente il loro schieramento."
- martial_strategy.2021.desc:0 "\n\nUna volta che ci siamo divisi in squadre, ho avuto cura di mostrare a tutti come concedere quel tanto di terreno necessario per ingannare l'altra parte e farla uscire allo scoperto, senza cedere troppo, in modo che le nostre linee non si spezzino. \n\nLa mia nuova tattica ha funzionato perfettamente, permettendoci di circondare la squadra nemica e di costringerla ad arrendersi!"
+ martial_strategy.2021.desc:0 "\n\nUna volta che ci siamo divisi in squadre, ho avuto cura di mostrare a tutti come concedere quel tanto di terreno necessario per ingannare l'altra parte e farla uscire allo scoperto, senza cedere troppo, in modo che le nostre linee non si spezzino.\n\nLa mia nuova tattica ha funzionato perfettamente, permettendoci di circondare la squadra nemica e di costringerla ad arrendersi!"
  martial_strategy.2021.a:0 "Aspetto il giorno in cui potrò usare questo trucco in una vera battaglia!"
 
  martial_strategy.2022.t:0 "Sogni Infranti"
@@ -192,16 +192,16 @@
  martial_strategy_special.1399.desc_win:0 "Il [ROOT.Char.Custom('FortifiedBuilding')] è nostro!"
  martial_strategy_special.1399.desc_loose:0 "La battaglia è persa, e i difensori hanno trionfato."
  martial_strategy_special.1399.desc:0 "Tra i soldati che festeggiano trovo [siege_proposer.GetTitledFirstName], che si congratula con me per un assalto ben condotto."
- martial_strategy_special.1399.desc_win2:0 "\n\n"Guardali, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Il cambiamento di ritmo ha fatto bene. Anche tu sembri rinvigorito, nonostante il tuo [ROOT.Char.Custom('FortifiedBuilding')] sia appena stato perso a causa degli aggressori!""
- martial_strategy_special.1399.desc_loose2:0 "\n\n"Anche se non siete riusciti a prendere il [ROOT.Char.Custom('FortifiedBuilding')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], sia tu che le truppe, sembrate rinvigoriti dal cambio di ritmo!"\n\nNon posso fare altro che essere d'accordo. Inoltre, è confortante sapere che il mio [ROOT.Char.Custom('FortifiedBuilding')] non può essere invaso così facilmente!"
+martial_strategy_special.1399.desc_win2: 0 "\n\n«Guardali, [ROOT.Char.Custom('FormOfAddressForLiege')]. Il cambio di passo ha fatto bene a tutti. Persino tu sembri rinvigorit[Select_CString(ROOT.Char.IsFemale,'a','o')], anche se il tuo [ROOT.Char.Custom('FortifiedBuilding')] è appena caduto agli assalitori!»"
+martial_strategy_special.1399.desc_loose2: 0 "\n\n«Anche se non hai preso il [ROOT.Char.Custom('FortifiedBuilding')], [ROOT.Char.Custom('FormOfAddressForLiege')], sia le truppe sia tu sembrate rinvigoriti dal cambio di passo!»\n\nNon posso che concordare. Inoltre mi conforta sapere che il mio [ROOT.Char.Custom('FortifiedBuilding')] non cadrà così facilmente!"
  martial_strategy_special.1399.a:0 "I nostri nemici non avranno mai una possibilità!"
  martial_strategy_special.1399.b:0 "Come forza difensiva, siamo formidabili!"
 
 
  #March gone awry, by Petter Vilberg
  martial_strategy_special.1401.t:0 "In Marcia"
- martial_strategy_special.1401.opening:1 "Alla fine dell'esercitazione sul campo, era sembrata un'idea brillante...\n\nPer esercitarmi a riorganizzare un esercito in disordine, ho diviso le mie truppe e ho ordinato a ogni ufficiale di recarsi in modo autonomo a [capital.GetNameNoTier].\n\nNaturalmente, al terzo giorno di attesa, ma con solo metà del mio esercito in posizione, sto vedendo i difetti del piano."
- martial_strategy_special.1401.commander:0 "[commander.GetTitledFirstName]"
+ martial_strategy_special.1401.opening:1 "Alla fine dell'esercitazione sul campo, era sembrata un'idea brillante...\n\nPer esercitarmi a riorganizzare un esercito allo sbaraglio, ho diviso le mie truppe e ho ordinato a ogni ufficiale di raggiungere in modo autonomo [capital.GetNameNoTier].\n\nNaturalmente, al terzo giorno di attesa, ma con solo metà del mio esercito presente, sto vedendo i difetti del piano."
+ martial_strategy_special.1401.commander:0 "\n[commander.GetTitledFirstName]"
  martial_strategy_special.1401.officer_fallback:0 "Uno dei miei ufficiali"
  martial_strategy_special.1401.end:1 "mi suggerisce di uscire con un contingente di $knight_culture_player_plural_no_tooltip_lowercase$ per trovare le truppe scomparse, mentre il resto dell'esercito torna a casa."
  martial_strategy_special.1401.a:0 "Sarà una ricerca emozionante!"
@@ -218,17 +218,17 @@
  martial_strategy_special.1401.give_up:0 "Abbandoni la ricerca e torni a casa"
 
  martial_strategy_special.1402.t:0 "In Marcia"
- martial_strategy_special.1402.desc:2 "Sento un grande putiferio provenire da un'osteria sul ciglio della strada. Uno dei miei $knight_culture_player_plural_no_tooltip_lowercase$ apre a calci la porta, rivelando una stanza piena dei miei soldati ribelli.\n\nLa mia entrata li fa cadere nel silenzio e gli fa fissare il fondo dei loro boccali, senza pronunciare una parola. Il proprietario stringe gli occhi. "Quindi #EMP sei tu#! il responsabile di questa marmaglia?""
+martial_strategy_special.1402.desc: 0 "Sento un baccano infernale provenire da una taverna lungo la strada. Uno dei miei $knight_culture_player_plural_no_tooltip_lowercase$ spalanca la porta con un calcio, rivelando una sala piena dei miei soldati allo sbando.\n\nAl mio arrivo tacciono e fissano il fondo delle coppe senza fiatare. Il proprietario socchiude gli occhi. «Quindi #EMP sei tu#! il responsabile di questa marmaglia?»"
  martial_strategy_special.1402.a:0 "Ho abbastanza soldi per pagare i danni."
- martial_strategy_special.1402.a.tt:2 "#F Trattare con soldati turbolenti è più facile che trattare con un albergatore turbolento e inoltre devi continuare la tua ricerca.#!"
- martial_strategy_special.1402.b:0 "Questi uomini hanno le idee chiare. Versami da bere!"
+ martial_strategy_special.1402.a.tt:2 "#F Trattare con soldati turbolenti è più facile che trattare con un oste turbolento e inoltre devi continuare la tua ricerca.#!"
+ martial_strategy_special.1402.b:0 "Questi uomini hanno avuto l'idea giusta. Versami da bere!"
  martial_strategy_special.1402.b.tt:1 "#F Bere con la gente comune! Che vita! Almeno fino a quando non dovrai continuare la tua ricerca.#!"
  martial_strategy_special.1402.c:0 "Sono stanco di avere a che fare con soldati indisciplinati."
- martial_strategy_special.1402.d:1 "Prendete da bere per gli uomini che sono in strada, e andiamo via!"
+martial_strategy_special.1402.d: 1 "Prendete un sorso per la strada e mettiamoci in marcia!"
  martial_strategy_special.1402.d.tt:2 "#F Sei sicuro di poter convincere questi soldati ad unirsi alla ricerca.#!"
 
  martial_strategy_special.1403.t:0 "In Marcia"
- martial_strategy_special.1403.desc:1 "Avvicinandomi a [ROOT.Char.Custom('IndefiniteBodyOfWater')], vedo un accampamento sulle sue rive. Entrando, vengo accolt[ROOT.Char.Custom('DE_END_PRO_S_N')] dal sergente in carica.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! Le nostre riserve d'acqua si sono esaurite durante il viaggio, e i nostri animali da soma non possono tornare a casa con l'attuale quantità di acqua". \nIl soldato mi guarda nervosamente. "Tuttavia, se [ROOT.Char.Custom('DE_ART_DEF_P_A')] signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] e i suoi [ROOT.Char.Custom('MountedWarriorTermPlural')] ci aiutassero a trasportare le bisacce d'acqua...""
+martial_strategy_special.1403.desc: 1 "Avvicinandoci a [ROOT.Char.Custom('IndefiniteBodyOfWater')], scorgo un campo allestito sulla riva. Appena entro vengo accolto dal sergente al comando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Le nostre scorte d’acqua sono andate perse in marcia e i nostri animali da soma non possono tornare a casa con l’acqua che ci resta.» Il soldato mi guarda nervoso. «Se [Select_CString(ROOT.Char.IsFemale,'la','il')] [ROOT.Char.GetLadyLord] e [Select_CString(ROOT.Char.IsFemale,'le sue','i suoi')] [ROOT.Char.Custom('MountedWarriorTermPlural')] aiutassero a portare gli otri, però...»"
  martial_strategy_special.1403.a:0 "Se questo è l'unico modo..."
  martial_strategy_special.1403.a.tt:0 "#F La vergogna di portare l'acqua per i muli!#!"
  martial_strategy_special.1403.b:0 "Gli uomini marceranno, e marceranno ora!"
@@ -248,7 +248,7 @@
  martial_strategy_special.1404.d.tt:0 "[soldier_friend.GetSheHe|U] li porterà sani e salvi al castello."
 
  martial_strategy_special.1405.t:0 "In Marcia"
- martial_strategy_special.1405.desc:1 "Passando per un piccolo villaggio, noto che, anche se vestite di semplice stoffa, tutte le guardie della città portano le armi con sopra inciso il mio marchio!\n\nAd accogliermi nella strada fangosa, è stato [zealot.GetTitledFirstName], l'autoproclamato "guardiano divino" della città. I miei soldati hanno deposto la loro armatura per aiutare questo predicatore a servire [zealot.GetFaith.HighGodName]!"
+ martial_strategy_special.1405.desc:1 "Passando per un piccolo villaggio, noto che, anche se vestite di semplice stoffa, tutte le guardie della città portano le armi con sopra inciso il mio stemma!\n\nAd accogliermi sulla strada fangosa, è [zealot.GetTitledFirstName], il sedicente "guardiano divino" della città. I miei soldati hanno deposto le loro armature per aiutare questo predicatore a servire [zealot.GetFaith.HighGodName]!"
  martial_strategy_special.1405.a.tt:1 "#F "È meglio che questi soldati si ricordino che #EMP io#! sono stato scelto da [zealot.GetFaith.HighGodName] secondo un piano divino."#!"
  martial_strategy_special.1405.b:0 "Hai un giorno per lasciare questo posto, fanatico."
  martial_strategy_special.1405.b.tt:2 "#F "Sembra pericoloso punirl[zealot.Custom('DE_END_PRO_S_N')], ma mandarl[zealot.Custom('DE_END_PRO_S_N')] in esilio potrebbe risolvere per ora il mio problema."#!"

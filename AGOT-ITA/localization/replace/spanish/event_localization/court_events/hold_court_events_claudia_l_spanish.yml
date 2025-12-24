@@ -4,9 +4,9 @@
  #End AGOT modifiche
 
 
- #Empty Granaries questo file ha bisogno di una revisione
+ #Empty Granaries
  hold_court.6000.t:0 "Granai vuoti"
- hold_court.6000.desc_intro:0 "Al mio cospetto vi è [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)], con il capo chino.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [6000_province.GetNameNoTooltip] è stata colpita duramente"
+hold_court.6000.desc_intro: 0 "Davanti a me sta [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)], con il capo chino.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [6000_province.GetNameNoTooltip] è stat[Select_CString(6000_poor.IsFemale,'a','o')] duramente colpit[Select_CString(6000_poor.IsFemale,'a','o')] dalla recente"
  hold_court.6000.desc_occupation:0 "dalla recente occupazione nemica."
  hold_court.6000.desc_raiding:0 "dalla recente razzia e saccheggio."
  hold_court.6000.desc_epidemics:1 "dalle recenti epidemie."
@@ -21,7 +21,7 @@
  hold_court.6000.d:0 "Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che puoi farcela con le tue forze."
  #From Beyond the Border
  hold_court.6030.t:0 "Da oltre il confine"
- hold_court.6030.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], giungo dalla comunità religiosa di [6030_church.GetName], nel/nella [6030_border.GetName].\n\n"Lì, [6030_monk.GetWomenMen] saggi/e e pii/e hanno raccolto e preservato la conoscenza tradizionale della cultura [6030_monk.GetCulture.GetName] per secoli. Come segno della nostra buona volontà, vi offro questa preziosa antologia dei testi della cultura [6030_monk.GetCulture.GetNameNoTooltip] tradotti nella vostra lingua.\n\n"Speriamo che lo accettiate e che otteniate una nuova prospettiva sul nostro popolo.""
+hold_court.6030.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], vengo dalla comunità religiosa di [6030_church.GetName], nel [6030_border.GetName].\n\n«Là, saggi e pii [6030_monk.GetWomenMen] raccolgono e preservano da secoli il sapere tradizionale della cultura [6030_monk.GetCulture.GetName]. In segno di buona volontà ti offro questa preziosa antologia di testi [6030_monk.GetCulture.GetNameNoTooltip] tradotti nella tua lingua.\n\n«Speriamo che tu l’accetti e ottenga una nuova prospettiva sul nostro popolo.»"
  hold_court.6030.a:0 "Accetto con gratitudine."
  hold_court.6030.b:0 "Per favore, rimani e insegnami di più!"
  hold_court.6030.b.tt.2:0 "Tutti i sovrani della cultura [6030_monk.GetCulture.GetName]"
@@ -30,16 +30,16 @@
  hold_court.6030.d.tt:0 "Tutti i tuoi vassalli di cultura [6030_monk.GetCulture.GetName]"
  #A Lost Treasure
  hold_court.6040.t:0 "Un Tesoro Perduto"
- hold_court.6040.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], io rappresento la comunità religiosa di [6040_church.GetNameNoTooltip].\n\n"Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro molto particolare. La copertina era polverosa, la rilegatura fragile e le pagine erano ingiallite dal tempo, ma conteneva i disegni più insoliti e la scrittura stessa era sconosciuta a tutti noi.\n\n"Siamo certi che è unico al mondo, un patrimonio di conoscenza perduto da tempo, un vero tesoro! Ecco perché ve lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], oppure è un ricordo della creazione del mondo!""
+hold_court.6040.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], rappresento la comunità religiosa di [6040_church.GetName].\n\n«Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro curioso. La coperta è polverosa, la legatura fragile e le pagine ingiallite dal tempo, ma contiene disegni insoliti e la scrittura è ignota perfino ai nostri [6040_monk.GetFaith.PriestNeuterPlural].\n\n«Siamo certi che sia unico al mondo, un antico scrigno di conoscenza, un vero tesoro! Per questo te lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], o le memorie della creazione del mondo!»"
  hold_court.6040.a:0 "Grazie, lo aggiungerò alla mia collezione."
  hold_court.6040.b:0 "#EMP Affascinante!#! Chiamate il mio antiquario!"
  hold_court.6040.b.tt:0 "Il tuo antiquario non ci capisce niente"
- hold_court_6040_b_fake:1 "Il libro è un falso mal fatto, senza valore ed inutile"
+hold_court_6040_b_fake: 1 "Il libro è una falsificazione malfatta — senza valore e inutile"
  hold_court_6040_b_generic:0 "Il libro è effettivamente antico, ma è solo un [6040_monk.Custom('GetOldBook')]."
  hold_court_6040_b_clueless:0 "Nemmeno il tuo antiquario può far luce sulle origini e lo scopo del libro"
  hold_court_6040_b_artifact:0 "Il libro è un'antica e preziosa copia di un capolavoro!"
  hold_court.6040.c:0 "Fammi dare un'occhiata al libro, #EMP adesso#!!"
- hold_court.6040.c.tt:1 "È un falso mal fatto!"
+hold_court.6040.c.tt: 1 "È una falsificazione malfatta!"
  hold_court.6040.c.tt.2:0 "Tl libro rimane un mistero per te"
  hold_court.6040.c.tt.3:0 "È un bel manoscritto, ma niente di speciale"
  hold_court.6040.c.tt.4:0 "È un testo raro e prezioso"
@@ -48,7 +48,7 @@
  hold_court.6040.e:0 "A chi importa dei libri?"
  #A Holy Tomb
  hold_court.6050.t:0 "Una Tomba Sacra"
- hold_court.6050.desc:1 "[6050_pop.Custom('DE_ART_DEF_P_D')] contadin[6050_pop.Custom('DE_END_PRO_S_N')] di fronte a me sembra sul punto di esplodere dall'eccitazione.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! I miracoli! La santità! Siamo stati #EMP BENEDETTI#!!"\n\nLe sue divagazioni entusiastiche sono confuse, ma alla fine capisco il succo del discorso: [6050_pop.GetSheHe] vuole che io sponsorizzi il culto di un santo locale che è morto recentemente a [6050_tomb.GetNameNoTooltip]. [6050_holy.GetFirstName] in vita era un[6050_holy.Custom('DE_PRO_PER_P_3P_G')]realizza[6050_holy.Custom('DE_END_NOU_S_GS_N')] di miracoli, conosciut[6050_holy.Custom('DE_END_PRO_S_N')] per [6050_holy.Custom('GetMiracle1')] e [6050_holy.Custom('GetMiracle2')]. La sua la tomba sta attirando visitatori devoti da tutto il regno."
+hold_court.6050.desc: " [Select_CString(6050_pop.IsFemale,'La','Il')] contadin[Select_CString(6050_pop.IsFemale,'a','o')] davanti a me sembra sul punto di esplodere dall'emozione.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]! I miracoli! La santità! Siamo stati #EMP BENEDETTI#!!\"\n\n[Select_CString(6050_pop.IsFemale,'Le sue','I suoi')] divagazioni entusiaste sono confuse, ma alla fine colgo il succo: [Select_CString(6050_pop.IsFemale,'lei','lui')] vuole che io patrocini il culto di un[Select_CString(6050_holy.IsFemale,'a','')] sant[Select_CString(6050_holy.IsFemale,'a','o')] locale morto di recente a [6050_tomb.GetNameNoTooltip]. [6050_holy.GetFirstName] operò miracoli in vita, [Select_CString(6050_holy.IsFemale,'nota','noto')] per [6050_holy.Custom('GetMiracle1')] e [6050_holy.Custom('GetMiracle2')]. La sua tomba attira devoti da ogni parte del reame."
  hold_court.6050.desc_hof:0 "\n\nIn qualità di [head_of_faith|E], è mia prerogativa decidere se condannare o promuovere questo culto."
  hold_court.6050.a:0 "La sua santità avrà la venerazione che [6050_holy.GetSheHe] merita."
  hold_court.6050.b:0 "Lo so già. Il Santo mi è apparso in sogno."
@@ -62,8 +62,8 @@
  easier_to_culture_convert_desc: "L'identità religiosa di questa contea si è recentemente indebolita, rendendola più suscettibile alle nuove culture.\n\n#P +25%#! Velocità di Conversione della Cultura" 
  #A Convenient offer
  hold_court.6060.t:0 "Un'Offerta Conveniente"
- hold_court.6060.desc:0 "Davanti a me c'è [6060_rich.Custom2('MyCharacterIntroduction', ROOT.Char)] con un espressione speranzosa in volto.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')],"
- hold_court.6060.desc_merchant:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], lasciate che mi presenti: il mio nome è [6060_rich.GetTitledFirstName] ed io sono un[6060_rich.Custom('DE_PRO_POS_P_2P')] ricc[6060_rich.Custom('DE_END_PRO_S_N')] mercante proveniente dalla capitale.\n\n"
+hold_court.6060.desc: "[6060_rich.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sta davanti a me, con un'espressione di speranza sul volto.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U],"
+hold_court.6060.desc_merchant: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], permettimi di presentarmi: mi chiamo [6060_rich.Custom('IT_NAM_COL3')][6060_rich.GetTitledFirstName] e sono un[Select_CString(6060_rich.IsFemale,'a','')] ricc[Select_CString(6060_rich.IsFemale,'a','o')] mercante della capitale.\n\n"
  hold_court.6060.desc_ending:1 ""Non posso fare a meno di notare che, in tempi recenti, le finanze del regno non se la sono passata bene. Naturalmente le avete amministrate in modo egregio ma, forse, potrebbe farvi comodo un po' di denaro in più.\n\n"Sono dispost[6060_rich.Custom('DE_END_PRO_S_N')] a comprare un insediamento minore nelle vostre mani in cambio di una generosa somma di denaro. Sarebbe accettabile?""
  hold_court.6060.a:0 "Molto bene. Puoi avere [6060_offer.GetNameNoTooltip]."
  hold_court.6060.b:1 "Prendi la terra e costruiscici sopra una città."
@@ -82,15 +82,15 @@
  hold_court.6070.e:1 "Quel bambino è una nota minaccia, non l[6070_child.Custom('DE_END_PRO_S_N')] scaricherai a me!"
  #Settling the [people]
  hold_court.6080.t:0 "Stabilire la cultura [6080_culture.GetNameNoTooltip|U]"
- hold_court.6080.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], rappresento le genti di cultura [6080_culture.GetNameNoTooltip] del/della [6080_county.GetNameNoTooltip]," dichiara [6080_count.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Siamo sudditi devoti e fedeli, ma la nostra terra è povera, sottosviluppata e scarsamente popolata. Per favore, permetteteci di reinsediarla e di amministrarla secondo le nostre tradizioni!\n\n"Sotto la vostra benevola protezione, la nostra terra può ancora prosperare, e voi guadagnerete un nuovo fedele vassallo!""
+hold_court.6080.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], rappresento il popolo [6080_culture.GetNameNoTooltip] della [6080_county.GetNameNoTooltip]\", dichiara [6080_count.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n\"Siamo sudditi devoti e fedeli, ma la nostra terra è povera, poco sviluppata e scarsamente popolata. Ti preghiamo, permettici di reinsediarci e di amministrarla secondo le nostre tradizioni!\n\n\"Sotto la tua benevola protezione, la nostra terra potrà ancora prosperare, e tu guadagnerai un nuovo vassallo fedele!\""
  hold_court.6080.a:0 "Molto bene. Vi concedo la possibilità di popolare la/l'[6080_county.GetNameNoTooltip]."
  hold_court.6080.a.tt:0 "Non sarà possibile revocare questo titolo fino alla morte di [6080_count.GetFirstNamePossessiveNoTooltip]"
  hold_court.6080.b:0 "So cosa è meglio per la/l'[6080_county.GetNameNoTooltip]."
  hold_court.6080.c:1 "La vostra gente avrà sempre un posto sicuro a [6080_province.GetNameNoTooltip]." 
  #Heretics at Large
  hold_court.6090.t:0 "Eretici in libertà"
- hold_court.6090.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Mi dispiace informarvi che la situazione religiosa nelle mie terre è fuori controllo...\n\n"Ho cercato di far vedere ai miei sudditi la luce della nostra vera fede, ma troppi di loro persistono nelle loro credenze sbagliate! Vi prego di usare la vostra autorità e il vostro potere per aiutarmi!""
- hold_court.6090.desc.almoner:0 "\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] — se posso", interviene [high_almoner.Custom2('MyCharacterIntroduction', ROOT.Char)], "Forse potrebbero essere persuasi dal gestire generose elemosine ai #EMP veri#! fedeli?""
+hold_court.6090.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi duole informarti che la situazione religiosa nelle mie terre è fuori controllo...\n\n\"Ho cercato di far vedere ai miei sudditi la luce della nostra vera fede, ma troppi persistono in credenze errate! Ti supplico di usare la tua autorità e il tuo potere per aiutarmi!\""
+hold_court.6090.desc.almoner: "\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], se posso\", interviene [high_almoner.Custom2('MyCharacterIntroduction', ROOT.Char)], \"Forse potrebbero essere persuasi distribuendo generose elemosine ai fedeli #EMP giusti#!?\""
  hold_court.6090.desc.executioner:0 "\n\n"Scommetto che hanno solo bisogno di #EMP una mano ferma!#!" dice [executioner.Custom2('MyCharacterIntroduction', ROOT.Char)] con un sorriso cupo."
  hold_court.6090.b:0 "[high_almoner.GetFirstNameNoTooltip], organizza alcune elemosine locali."
  hold_court.6090.c:0 "La coesistenza pacifica è sempre la soluzione migliore."
@@ -99,7 +99,7 @@
  hold_court.6090.e:0 "Questo sembra un tuo problema, non il mio."
  #A Land at War
  hold_court.6100.t:0 "Una Paese in Guerra"
- hold_court.6100.desc:0 "Davanti a me si trovano [6100_vassal_1.Custom2('MyCharacterIntroduction', ROOT.Char)] e [6100_vassal_2.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" inizia [6100_vassal_1.GetFirstNameNoTooltip] "la guerra tra me e [6100_vassal_2.GetTitledFirstNameNoTooltip] si sta trascinando a causa del suo ostinato rifiuto a vedere la ragione, quindi veniamo da te per una mediazione."\n\n"Quindi ora è #EMP colpa mia!!!?" interviene [6100_vassal_2.GetFirstNameNoTooltip] "Incredibile bastardo! Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], digliel[6100_vassal_1.Custom('DE_END_PRO_S_N')]!""
+hold_court.6100.desc: "Davanti a me stanno [6100_vassal_1.Custom2('MyCharacterIntroduction', ROOT.Char)] e [6100_vassal_2.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]\" comincia [6100_vassal_1.GetFirstNameNoTooltip] \"la guerra tra me e [6100_vassal_2.Custom('IT_NAM_COL3')][6100_vassal_2.GetTitledFirstNameNoTooltip] si trascina a causa della sua ostinata incapacità di ragionare, perciò veniamo da te in cerca di mediazione.\"\n\n\"Quindi adesso è #EMP colpa mia#!!?\" interviene [6100_vassal_2.GetFirstNameNoTooltip] \"Canagli[Select_CString(6100_vassal_1.IsFemale,'a','o')] incredibile! Mio [ROOT.Char.GetLadyLord], [Select_CString(6100_vassal_1.IsFemale,'dille','digli')]!\""
  hold_court.6100.desc.jester:0 "\n\n[jester.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si rallegra: "Ohh, #EMP Amo#! i piccoli battibecchi! Si accompagnano perfettamente alle... RITMI DIVERTENTI!""
  hold_court.6100.a:0 "Chiunque potrebbe vedere che [6100_vassal_1.GetFirstNameNoTooltip] è nel giusto."
  hold_court.6100.b:0 "la [6100_vassal_2.GetFirstNamePossessiveNoTooltip] posizione è legittima."
@@ -118,7 +118,7 @@
  hold_court.6101.tt:0 "[sc_victor.GetTitledFirstName|U] è dichiarato il vincitore della guerra"
  #A Ravished Land
  hold_court.6110.t:0 "Una Terra Devastata"
- hold_court.6110.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Non sono che un umile contadino, ma imploro il vostro aiuto! La terra del mio popolo è stata devastata dalla lunga e sanguinosa guerra tra i tuoi vassalli [6110_vassal_1.GetTitledFirstName] e [6110_vassal_2.GetTitledFirstName]!\n\n"I campi bruciano, gli animali vengono macellati e i contadini muoiono! Per favore, fermate lo spargimento di sangue!""
+hold_court.6110.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], sono solo un umile contadino, ma ti imploro il tuo aiuto! La terra della mia gente è stata devastata dalla lunga e sanguinosa guerra tra i tuoi vassalli [6110_vassal_1.Custom('IT_NAM_COL3')][6110_vassal_1.GetTitledFirstName] e [6110_vassal_2.Custom('IT_NAM_COL3')][6110_vassal_2.GetTitledFirstName]!\n\n\"I campi bruciano, gli animali vengono massacrati e i contadini muoiono! Ti prego, ferma lo spargimento di sangue!\""
  hold_court.6110.desc.almoner:0 "\n\n"Possa la misericordia di [almoner.GetFaith.HighGodName] e la generosità dei [almoner.GetFaith.HighGodNamePossessive] figli essere un balsamo alle vostre sofferenze" suggerisce in modo sommesso [almoner.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6110.a:1 "La guerra è finita, [6110_vassal_1.GetTitledFirstNameNoTooltip] è [Select_CString(6110_vassal_1.IsFemale,'la vincitrice','il vincitore')]."
  hold_court.6110.b:1 "Entrambe le parti devono essere fermate immediatamente!"
@@ -128,8 +128,8 @@
  6110_custom_every_realm_2:0 "Tutte le contee nel nel regno di [6110_vassal_2.GetShortUIName]"
  #The Day of Truth
  hold_court.6120.t:0 "Il Giorno della Verità"
- hold_court.6120.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], [steward.Custom('DE_ART_DEF_P_A')] [steward.Custom2('MyCharacterIntroduction', ROOT.Char)], prende la parola —— "Ho un'idea per migliorare la tassazione".\n\n"Potreste inviare dei commissari per interrogare i vostri sudditi su ogni proprietà: il nome, il proprietario, l'estensione e il valore, e quante persone e animali vi vivono!""
- hold_court.6120.desc.seneschal:0 "\n\n"Per favore, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], permettetemi di supervisionare la questione." parla in modo chiaro [seneschal.Custom('DE_ART_DEF_P_A')] [seneschal.Custom2('YourCharacterIntroduction', ROOT.Char)|U]."
+hold_court.6120.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]!\" [steward.Custom2('MyCharacterIntroduction', ROOT.Char)] prende la parola. \"Ho un'idea per migliorare la tassazione.\"\n\n\"Potresti inviare periti a interrogare i tuoi sudditi su ogni proprietà: nome, proprietario, estensione e valore, e quante persone e quanti animali vi abitano!\""
+hold_court.6120.desc.seneschal: "\n\n\"Per favore, [ROOT.Char.Custom('FormOfAddressForLiege')], permettimi di sovrintendere alla questione.\" [seneschal.Custom2('YourCharacterIntroduction', ROOT.Char)|U] interviene."
  hold_court.6120.desc.swans:0 "\n\n"E vi fornirò una lista di tutti i cigni della vostra terra! Il mio preferito è [keeper_swans.Custom('GetSwanName')]! Vi ho detto di recente quanto è morbida e soffice la sua pancia? Ieri siamo andati a fare una passeggiata e..." Decido di ignorare [keeper_swans.Custom2('MyCharacterIntroduction', ROOT.Char)] mentre [keeper_swans.GetSheHe] blatera sul maledetto uccello."
  hold_court.6120.desc.jester:0 "\n\n"Ma i calcoli sono #EMP noiosi!#!" si lamenta [jester.Custom('DE_ART_DEF_P_A')] [jester.Custom2('MyCharacterIntroduction', ROOT.Char)]. "Balliamo invece!""
  hold_court.6120.a:0 "Molto bene, procedete con il censimento."
@@ -149,16 +149,16 @@
  swan_name_angrynipper:0 "Moccioso Arrabbiato"
  swan_name_odette:0 "Odette"
  hold_court.6121.t:0 "Il giorno della verità: censimento completato"
- hold_court.6121.desc:1 ""È fatta, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" afferma [6121_responsible.Custom('REL_TO_ME')][6121_responsible.Custom2('MyCharacterIntroduction', ROOT.Char)] mentre si inchina davanti a me.\n\n"Diversi mesi fa avete commissionato un censimento di tutte le vostre terre; adesso è stato portato a termine, e i dettagli sulla proprietà e sul valore della terra sono tutti raccolti in questo libro. Giacché questa descrizione è fedele alla realtà, la vostra tassazione sarà più efficiente in tutto il vostro regno!""
+hold_court.6121.desc: "\"È fatto, [ROOT.Char.Custom('FormOfAddressForLiege')]\" dichiara [6121_responsible.Custom2('MyCharacterIntroduction', ROOT.Char)] mentre si inchina davanti a me.\n\n\"Alcuni mesi fa hai commissionato un censimento di tutte le tue terre; ora è completo, e i dettagli su proprietà e valore dei terreni sono raccolti in questo volume. Finché questa descrizione resterà fedele alla realtà, la tua tassazione sarà più efficiente in tutto il tuo reame!\""
  hold_court.6121.a:0 "Ottimo lavoro, [6121_responsible.GetFirstNameNoTooltip]!"
  #The Cadastre
  hold_court.6130.t:0 "Il Catasto"
- hold_court.6130.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] interviene "Propongo un censimento catastale di tutte le contee che possedete.\n\n"Una migliore conoscenza e mappatura della tua terra aumenterà certamente la sua prosperità!"
+hold_court.6130.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]\" [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] prende la parola \"Propongo un rilievo catastale di tutte le contee che possiedi.\n\n\"Una migliore conoscenza e mappatura delle tue terre ne accrescerà certamente la prosperità!\""
  hold_court.6130.a:0 "Molto bene, [6130_proposer.GetFirstNameNoTooltip]. Puoi procedere."
  hold_court.6130.a.tt:1 "[6130_proposer.GetFirstNameNoTooltip] inizia a lavorare al catasto. Ci vorranno diversi mesi per completarlo e, una volta terminato, darà le seguenti ricompense:"
  hold_court.6130.d:0 "Le mappe sono sovrastimate."
  hold_court.6131.t:0 "Il Catasto: Completato!"
- hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si inchina rapidamente davanti a me e spiega con un sorriso soddisfatto: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], forse vi ricorderete che, alcuni mesi fa, avete investito una grande somma d'oro per il censimento delle vostre contee. \n\n"Ho supervisionato personalmente la questione e posso dire con orgoglio che il lavoro è completato!""
+hold_court.6131.desc: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si inchina brevemente davanti a me e spiega con un sorriso soddisfatto: \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], ricorderai che, alcuni mesi fa, hai investito una grande somma d'oro in un catasto delle tue contee. \n\n\"Ho supervisionato personalmente la questione e posso affermare con orgoglio che il lavoro è compiuto!\""
  hold_court.6131.desc_tutor:0 "Sono anche lieto di sentire un rapporto dettagliato dei [6130_tutored.GetTitledFirstNamePossessive] insegnamenti sotto la guida di [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_hunt:0 "\n\nSono anche lieto di sentire un rapporto dettagliato del grande aiuto offerto da [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_dead:0 "\n\nSfortunatamente, [6130_helper.GetTitledFirstName] non ha vissuto abbastanza a lungo per vedere il completamento del catasto che [6130_helper.GetSheHe] aveva giurato di contribuire a completare."
@@ -166,7 +166,7 @@
  all_realm_county: "Ogni [county|E] del [realm|E]"
  #A Cumbersome Gift
  hold_court.6140.t:0 "Un Regalo Scomodo"
- hold_court.6140.desc:2 "Tutta la sala del trono tace quando [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] entra trionfalmente, seguit[6140_gifter.Custom('DE_END_PRO_S_N')] da due servitori in difficoltà che stanno trascinando un #EMP [ROOT.Char.Custom('GetAnimalType')] in catene#!.\n\nSorridendo orgogliosamente, [6140_gifter.GetFirstNameNoTooltip] esclama: "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], vi presento un regalo degno del più potente sovrano del mondo! Questa magnifica bestia è stata cacciata nel [6140_province.GetTerrain.GetNameNoTooltip] di [6140_province.GetCounty.GetName], e ora ve la offro come simbolo della mia devozione e del vostro impareggiabile potere!""
+hold_court.6140.desc: "L'intera sala del trono tace quando [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] entra trionfante, seguit[Select_CString(6140_gifter.IsFemale,'a','o')] da due servi che trascinano a fatica #EMP un [ROOT.Char.Custom('GetAnimalType')] incatenato#!.\n\nSorridendo fiero, [6140_gifter.GetFirstNameNoTooltip] esclama: \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], ti presento un dono degno del più possente sovrano del mondo! Questa magnifica bestia è stata cacciata [6140_province.GetTerrain.GetNameNoTooltip] di [6140_province.GetCounty.GetName], e ora te la offro quale simbolo della mia devozione e del tuo potere senza pari!\""
  6140_bear:0 "orso"
  6140_tiger:0 "tigre"
  6140_lion:0 "leone"
@@ -193,7 +193,7 @@
  hold_court.6150.desc:0 "Non appena è il suo turno di parlare, l[6150_preacher.Custom('DE_PRO_PER_S_3P_N')][6150_preacher.GetWomanMan] agitat[6150_preacher.Custom('DE_END_PRO_S_N')] di fronte a me urla: "#EMP LA FINE È VICINA!#!\n\n"I segni sono chiari e ovunque:"
  hold_court.6150.desc_county:0 "la gente di [6150_county.GetName] sa tutto fin troppo bene: "
  hold_court.6150.desc_unsafety:0 "disordini, banditi, ladri, violenza, e la scomparsa della giustizia tra gli uomini!"
- hold_court.6150.desc_nature:0 "cattivi raccolti, cavallette che invadono i campi, freddo senza fine, inondazioni e la peste che cammina tra noi!"
+hold_court.6150.desc_nature: "raccolti che falliscono, cavallette che invadono i campi, freddo interminabile, inondazioni e la Peste che cammina tra noi!"
  hold_court.6150.desc_looting:0 "prima di tutto, i barbari alle nostre porte, che saccheggiano i nostri raccolti, uccidono la nostra gente, razziano le nostre città diffondendo malattie e fame!"
  hold_court.6150.desc_infidels:0 "gli infedeli sono ovunque, minacciandoci sia al di là del confine che all'interno del nostro stesso regno!"
  hold_court.6150.desc_lost_hgw:0 "cosa potrebbe essere più chiaro degli eserciti di [ROOT.GetCharacter.GetFaith.HighGodName] che vengono sconfitti dagli infedeli?"
@@ -224,7 +224,7 @@
  hold_court.6150.d:0 "Toglietemi dalla vista quest[6150_preacher.Custom('DE_END_PRO_S_N')] folle."
  #Empty Coffers
  hold_court.6160.t:0 "Forzieri Vuoti"
- hold_court.6160.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]" inizia [6160_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], con un aspetto molto contrito "l'ultimo periodo è stato davvero duro per il mio dominio, sono state richieste spese ulteriori su ogni fronte, e le mie casse sono tristemente vuote...\n\n"Mi duole, ma ho deciso di fare appello alla vostra munificenza per aiutarmi a pagare i miei debiti.""
+hold_court.6160.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]\" comincia [6160_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)], con aria molto contrita \"l'ultimo periodo è stato davvero duro per il mio dominio: spese extra sono state necessarie su ogni fronte e le mie casse, purtroppo, sono vuote...\n\n\"Mi duole dirlo, ma ho deciso di appellarmi alla tua munificenza per aiutarmi a saldare i miei debiti."
  hold_court.6160.desc_friend:0 "\n\n"In nome dei legami che ci uniscono, per favore, aiutami!"
  hold_court.6160.desc_hook:0 "\n\n"Se lo farete, considererò ripagato il favore che mi dovete."
  hold_court.6160.desc_fallback:0 "\n\n"Non dimenticherò la vostra generosità nel momento del bisogno!""
@@ -236,7 +236,7 @@
  hold_court.6160.f:0 "Mi dispiace, non ho soldi da investire."
  #Ignoble Imprisonment
  hold_court.6170.t:0 "Prigionia Ingiusta"
- hold_court.6170.desc:0 "[6170_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sta di fronte a me, un'espressione preoccupata sul suo volto. "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], Vengo a nome di [6170_relative.Custom2('MyCharacterIntroduction', 6170_vassal)].\n\n"[6170_relative.GetSheHe|U] è stato ingiustamente imprigionato da [6170_rival.Custom2('YourCharacterIntroduction', 6170_vassal)] per motivi banali e assurdi. Il mio cuore sanguina per le condizioni miserabili che il mio povero [6170_vassal.Custom2('RelationToMe', SCOPE.sC('6170_relative'))] deve sopportare...\n\n"Per favore, dimostragli/le misericordia e ordina che sia rilasciato/a!""
+hold_court.6170.desc: "[6170_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si presenta davanti a me con un'espressione preoccupata. \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], vengo a nome di [6170_relative.Custom2('MyCharacterIntroduction', 6170_vassal)].\n\n\"[6170_relative.GetSheHe|U] è stat[Select_CString(6170_relative.IsFemale,'a','o')] ignobilmente imprigionat[Select_CString(6170_relative.IsFemale,'a','o')] da [6170_rival.Custom2('YourCharacterIntroduction', 6170_vassal)] per motivi futili e assurdi. Il mio cuore sanguina per le miserabili condizioni che il[Select_CString(6170_relative.IsFemale,'la mia','il mio')] [6170_vassal.Custom2('RelationToMe', SCOPE.sC('6170_relative'))] deve sopportare...\n\n\"Ti prego, abbi misericordia [Select_CString(6170_relative.IsFemale,'di lei','di lui')] e ordina che [Select_CString(6170_relative.IsFemale,'sia rilasciata','sia rilasciato')]!\""
  hold_court.6170.a:0 "Che [6170_relative.GetFirstNameNoTooltip] venga liberat[6170_relative.Custom('DE_END_PRO_S_N')]!"
  hold_court.6170.b:0 "[6170_rival.GetFirstNameNoTooltip] deve aver avuto una buona ragione per imprigionarl[6170_relative.Custom('DE_END_PRO_S_N')]."
  hold_court.6170.c:0 "[6170_rival.Custom('DE_END_PRO_P_A')] concederò solo una piccola grazia."
@@ -244,7 +244,7 @@
  hold_court.6170.e:0 "Non mi interessano i vostri battibecchi."
  #A Shadow in the Night
  hold_court.6190.t:0 "Un'Ombra nella Notte"
- hold_court.6190.desc:1 "L[6190_local.Custom('DE_PRO_PER_S_3P_N')][6190_local.GetWomanMan] chi si avvicina al mio trono è chiaramente un[6190_local.Custom('DE_PRO_POS_P_2P')] plebe[6190_local.Custom('DE_END_PRO_S_N')]. "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", inizia [6190_local.GetSheHe] il suo discorso, "Rappresento la comunità locale di [capital.GetNameNoTooltip]."\n\n"Negli ultimi mesi, i nostri cimiteri sono stati afflitti dalla scomparsa dei cadaveri! Erano stati tutti dissotterrati e non hanno lasciato tracce. All'inizio, abbiamo temuto la presenza di animali selvatici, o di oscure potenze all'opera, ma poi il vostro $court_physician_court_position$ [physician.GetTitledFirstName] è stat[physician.Custom('DE_END_PRO_S_N')] colt[physician.Custom('DE_END_PRO_S_N')] in flagrante mentre portava via i morti per i suoi esperimenti!\n\n"Per favore, ponete fine a questa blasfemia!""
+hold_court.6190.desc: "[6190_local.GetWomanMan] che si avvicina al mio trono è chiaramente un[Select_CString(6190_local.IsFemale,'a','')] popolano[Select_CString(6190_local.IsFemale,'a','')]. \"[ROOT.Char.Custom('FormOfAddressForLiege')|U]\" comincia il suo discorso, \"rappresento la comunità locale di [capital.GetNameNoTooltip].\"\n\n\"Negli ultimi mesi i nostri cimiteri sono stati afflitti dalla sparizione dei corpi! Tutte le tombe sono state dissepolte senza lasciare traccia. All'inizio temevamo animali selvatici o oscuri poteri all'opera, ma poi il tuo stesso $court_physician_court_position$ [physician.Custom('IT_NAM_COL3')][physician.GetTitledFirstName] è stat[Select_CString(physician.IsFemale,'a','o')] colto sul fatto mentre trascinava via i morti per i suoi esperimenti!\n\n\"Ti prego, poni fine a questa blasfemia!\""
  hold_court.6190.a:0 "Studiare il corpo umano è una triste necessità."
  hold_court.6190.b:0 "Perché non mi avete invitato? [physician.GetFirstNameNoTooltip]?!"
  hold_court.6190.c:0 "#EMP Carne#! Fresca — i corpi sono soggetti migliori per i test..."
@@ -252,7 +252,7 @@
  hold_court.6190.e:0 "[physician.GetFirstNameNoTooltip], falla finita."
  #A Land of Foreigners
  hold_court.6210.t:1 "Una Terra di Stranieri"
- hold_court.6210.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], mi dispiace informarvi che sono al capolinea!" [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] è chiaramente esasperat[6210_vassal.Custom('DE_END_PRO_S_N')].\n\n"Il popolo su cui dovrei governare è al di là della mia comprensione, con costumi ridicoli e un #EMP pessimo#! gusto per il cibo! Tutti i miei sforzi fin ora sono stati vani, sembra semplicemente impossibile fare di loro dei buoni servi della gleba.\n\n"Temo che un forte intervento dall'alto sia l'unica soluzione disponibile.""
+hold_court.6210.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi rincresce informarti che sono al limite!\" [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] è chiaramente esasperat[Select_CString(6210_vassal.IsFemale,'a','o')].\n\n\"La gente che dovrei governare mi è incomprensibile, con usanze ridicole e un gusto culinario #EMP terribile#! Tutti i miei sforzi finora sono stati vani: sembra impossibile farne buoni servi.\n\n\"Temo che ora l'unica soluzione sia un forte intervento dall'alto.\""
  hold_court.6210.a:1 "[steward.GetFirstNameNoTooltip], mostragli i nostri modi."
  hold_court.6210.b:0 "Mostriamo loro la nostra grandezza, cambieranno idea!"
  hold_court.6210.b.tt:0 "Tu mandi il tuo $royal_architect_court_position$ a sviluppare le infrastrutture delle contee."
@@ -260,7 +260,7 @@
  hold_court.6210.d:0 "Fintanto che pagano le loro tasse, non mi importa."
  #A Massive Problem
  hold_court.6230.t:0 "Un Problema #EMP Enorme#!"
- hold_court.6230.desc:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], un momento della vostra attenzione, se posso..." [6230_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] parla. "[6230_province.GetName] ha sofferto di un problema un bel po' #EMP ingombrante#! nelle ultime settimane...\n\n"Vedete, un branco di elefanti #EMP completamente fuori controllo#! è andato su tutte le furie attraverso la contea, lasciando dietro di sé una scia di devastazione e, a volte, di morte! Le loro spaventose trombe riecheggiano nelle nostre orecchie notte e giorno, posso ancora sentirle persino ora!" [6230_vassal.Custom('DE_ART_IND_D')] procede a fare degli sconvenienti #EMP rumori di trombe#!. "Vi prego, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], mandate aiuto!""
+hold_court.6230.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], un momento della tua attenzione, se posso...\" [6230_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] interviene. \"[6230_province.GetName] ha sofferto un problema alquanto #EMP ingombrante#! nelle ultime settimane...\n\n\"Vedi, una mandria #EMP completamente fuori controllo#! di elefanti ha imperversato per tutta la contea, lasciandosi dietro una scia di devastazione e, talvolta, di morte! Il loro temibile barrire echeggia nelle nostre orecchie notte e giorno — lo sento ancora adesso!\" [6230_vassal.GetSheHe] procede a emettere sconvenienti #EMP barriti#!. \"Per favore, [ROOT.Char.Custom('FormOfAddressForLiege')], manda aiuto!\""
  hold_court.6230.a:0 "Prendete un po' d'oro e ricostruite."
  hold_court.6230.b:0 "Manderò qualcuno a fermare le bestie."
  hold_court.6230.b.success:0 "I tuoi cacciatori catturano gli elefanti selvaggi"

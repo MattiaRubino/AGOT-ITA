@@ -106,11 +106,10 @@
  seduce_outcome.2306.a:0 "Poiché eravamo uniti nel matrimonio, ora siamo uniti nel cuore!"
  seduce_outcome.2306.b:0 "I vincoli del matrimonio sono più che sufficienti."
 
- seduce_outcome.2307.t:0 "[target.Custom('DE_ART_DEF_P_D')] mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('InsultAdjective')|U] Amante"
+seduce_outcome.2307.t: 0 "[Select_CString(target.IsFemale,'La mia','Il mio')] [target.Custom2('InsultAdjective', ROOT.Char)|U] amante"
  seduce_outcome.2307.desc:0 "Mentre mi avvicino a [target.GetFirstName] non so se strappar[target.Custom('DE_PRO_DEM')] i vestiti di dosso o prendere a pugni il sorriso [target.Custom('quirk_neg_adjective')] che ha in faccia. [target.GetSheHe|U] mi bacia, in segno di sfida, ed io l[target.Custom('DE_END_PRO_S_N')] tiro più vicin[target.Custom('DE_END_PRO_S_N')] a me, dando[target.Custom('DE_PRO_DEM')] una risposta adeguata.\n\nI sentimenti che si fanno la guerra nel mio petto trovano eco nei nostri corpi; passiamo la notte a scambiarci insulti e piacere l'uno all'altr[target.Custom('DE_END_PRO_S_N')]."
- seduce_outcome.2307.a:0 "Baciami ancora mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('InsultAdjective')] [target.Custom('InsultNoun')]!"
- seduce_outcome.2307.b:0 "Lasciami stare, [target.Custom('InsultNounSexual')]."
-
+seduce_outcome.2307.a: 0 "Baciami ancora, [Select_CString(target.IsFemale,'mia','mio')] [target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom2('InsultNoun', ROOT.Char)]!"
+seduce_outcome.2307.b: 0 "Lasciami in pace, [target.Custom2('InsultNounSexual', ROOT.Char)]."
 
  seduce_outcome.2308.t:0 "[target.Custom('DE_ART_DEF_P_D')] mi[target.Custom('DE_END_PRO_S_N')] amat[target.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))|U]"
  seduce_outcome.2308.desc_illigal:0 "Mentre [target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] sorride [target.Custom('quirk_pos_adverb')] trovo difficile ricordare che l'attrazione che provo sia malvista.\n\nE poi, nel momento in cui [target.GetSheHe] mi tira su la [ROOT.Char.Custom('GetUpperClothingArticle')] e lascia vagare le sue mani, scopro che non mi importa. "
@@ -130,10 +129,10 @@
  seduce_outcome.2900.a:0 "Cosa ci accadrà ora?"
 
  seduce_outcome.3901.t:0 "Una Serpe a Corte"
- seduce_outcome.3901.desc:0 "Riconosco lo sguardo ansioso sul viso del[dummy_servant_gender.Custom('DE_END_ADJ_NUL_S_N')] mi[dummy_servant_gender.Custom('DE_END_PRO_S_N')] serv[dummy_servant_gender.Custom('DE_END_PRO_S_N')]. [dummy_servant_gender.GetSheHe|U] è qui per portarmi cattive notizie.\n\n "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], dovete venire subito! [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] è stat[owner.Custom('DE_END_PRO_S_N')] appena vist[owner.Custom('DE_END_PRO_S_N')] lasciare le camere di [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""
+seduce_outcome.3901.desc: 0 "Riconosco lo sguardo ansioso sul volto del mio servitore. È qui per portarmi cattive notizie.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], devi venire subito! [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] è stat[Select_CString(owner.IsFemale,'a','o')] appena visto uscire dagli alloggi di [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""
  seduce_outcome.3900.a:0 "Ciò può significare una sola cosa!"
 
- seduce_outcome.3000.desc:0 "Mentre ci incontriamo clandestinamente, il Sommo Pontefice ed io, il mio essere è pervaso da un timore e un desiderio più di natura carnale che spirituale. Di certo, nessuno prima di me ha ricevuto la banedizione di Sua Santità in questa maniera.\n\n[owner.Custom('DE_ART_IND_D')] allunga la mano, io chiudo gli occhi e mi inginocchio..."
+seduce_outcome.3000.desc: 0 "Mentre ci incontriamo di nascosto, il Sommo Pontefice e io, vengo pervas[Select_CString(ROOT.Char.IsFemale,'a','o')] da uno stupore e da un desiderio più carnale che spirituale. Di certo, nessuno prima di me ha ricevuto la benedizione della Sua Santità in questo modo.\n\nLa mano di [Select_CString(owner.IsFemale,'lei','lui')] si protende, chiudo gli occhi e mi inginocchio..."
  seduce_outcome.3000.a:0 "[owner.GetSheHe|U] possiede la chiave del mio regno."
 
  seduce_outcome.3010.desc:0 "[owner.Custom('DE_ART_DEF_P_D')] [owner.GetTitledFirstName] giunge nei miei alloggi, evidentemente con due tipi di sete, e portando vino in abbondanza per la prima di esse. Ci vuole poco per dimostrare che abbiamo le stesse intenzioni.\n\nIl primo bacio suggella il patto, e poi passiamo il giorno e la notte successivi a bere, fare l'amore, bere, fare l'amore..."
@@ -173,9 +172,9 @@
  seduce_outcome.3306.desc:0 "Quando torno nelle stanze che condivido con [owner.GetFirstName] vengo accolt[ROOT.Char.Custom('DE_END_PRO_S_N')] da uno spettacolo inaspettato, ma apprezzato. Il nostro letto è stato decorato con [SCOPE.Custom('SeductionObjectMultiple')] e l[owner.Custom('DE_END_PRO_S_N')] stess[owner.Custom('DE_END_PRO_S_N')] [owner.GetFirstName] vi è sdraiat[owner.Custom('DE_END_PRO_S_N')] sopra, sorridendo [owner.Custom('quirk_pos_adverb')].\n\nCon le mani, la bocca e gli arti riaffermiamo la devozione che abbiamo giurato davanti a [ROOT.Char.GetFaith.HighGodName], forse in modo più carnale del previsto."
  seduce_outcome.3306.a:0 "Così come eravamo già uniti nel matrimonio, ora lo siamo nei nostri cuori!"
 
- seduce_outcome.3307.t:0 "[owner.Custom('DE_ART_DEF_P_A')] mi[owner.Custom('DE_END_PRO_S_N')] [owner.Custom('InsultAdjective')|U] Paramour"
+seduce_outcome.3307.t: 0 "[Select_CString(owner.IsFemale,'La mia','Il mio')] [owner.Custom2('InsultAdjective', ROOT.Char)|U] amante"
  seduce_outcome.3307.desc:0 "Mentre [owner.Custom('DE_ART_DEF_P_A')] [owner.GetTitledFirstName] si avvicina non so se strappar[owner.Custom('DE_PRO_DEM')] i vestiti di dosso o prendere a pugni il sorriso [owner.Custom('quirk_neg_adjective')] che mostra in volto. [owner.Custom('DE_PRO_POS_S_3P') Bacio - una sfida - e [owner.GetSheHe] mi trascina più vicino - una risposta appropriata.\n\nI sentimenti di guerra nel mio petto fanno eco ai nostri corpi; passiamo la notte scambiandoci insulti ed effusioni."
- seduce_outcome.3307.a:0 "Baciami ancora mi[owner.Custom('DE_END_PRO_S_N')] [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')]!"
+seduce_outcome.3307.a: 0 "Baciami ancora, [Select_CString(owner.IsFemale,'mia','mio')] [owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)]!"
  seduce_outcome.3307.b:0 "È meglio dimenticare questo momento di debolezza."
 
  seduce_outcome.3308.t:0 "[owner.Custom('DE_ART_DEF_P_A')] mi[owner.Custom('DE_END_PRO_S_N')] Amat[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))|U]"
@@ -191,13 +190,13 @@
  seduce_outcome.4001.regular.desc:0 ""Sei [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [ROOT.Char.GetWomanMan] [ROOT.Char.GetFirstNameNoTooltip], ma non mi piaci in questo modo ", dice [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] e [target.Custom('quirk_neg_present')]." Solo [target.GetFaith.HighGodName] sa cosa potrebbe riservarci il futuro.""
  seduce_outcome.4001.a:0 "Oh... Sì, certo..."
 
- seduce_outcome.4002.desc:0 "Quando entro a tarda notte nella camera del[target.Custom('DE_END_ADJ_NUL_S_N') [target.GetTitledFirstNamePossessive], non vengo accolt[ROOT.Char.Custom('DE_END_PRO_S_N')] da un dolce abbraccio, ma da un [target.Custom('InsultNoun')] beffardo!\n\n"Ho sopportato i vostri ridicoli tentativi di incantarmi, per pura gentilezza. Ma questo non lo sopporto! Stai lontan[ROOT.Char.Custom('DE_END_PRO_S_N')] da me, tu [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]!""
- seduce_outcome.4002.a:0 "Bene, e tu sei un[target.Custom('DE_PRO_POS_P_2P')]... [target.Custom('InsultAdjective')]... [target.Custom('InsultNounSexual')]!"
+seduce_outcome.4002.desc: 0 "Quando entro negli alloggi [target.Custom('IT_NAM_COL2')][target.GetTitledFirstNamePossessive] a notte fonda, non mi accoglie un dolce abbraccio, ma un[Select_CString(target.IsFemale,'a','o')] [target.Custom2('InsultNoun', ROOT.Char)] ghignante!\n\n"Per cortesia ho sopportato i tuoi ridicoli tentativi di ammaliarmi. Ma questo non posso ingoiarlo! Stai lontano da me, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('target'))] [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('target'))]!""
+seduce_outcome.4002.a: 0 "Be’, allora tu sei un[Select_CString(target.IsFemale,'a','o')]... [target.Custom2('InsultAdjective', ROOT.Char)]... [target.Custom2('InsultNounSexual', ROOT.Char)]!"
 
  seduce_outcome.4003.t:0 "Scopert[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  seduce_outcome.4003.plot.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] mi accoglie con un sorriso malizioso e le sue mani ansiose si mettono subito a lavorare su lacci e bottoni. Entro pochi battiti, resto nud[ROOT.Char.Custom('DE_END_PRO_S_N')] e tremante davanti a [target.GetSheHe]. Ma quando tento di restituire il favore, [target.GetFirstNameNoTooltip] mi spinge via e urla!\n\n"Guardie! C'è un intruso nelle mie stanze! #EMP Guardie! #!"\n\nNudo come un piccolo neonato, corro attraverso la stanza e striscio fuori dalla finestra."
  seduce_outcome.4003.regular.desc:0 "Mentre mi arrampicavo fino alla finestra del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitledFirstNamePossessive], il suo urlo scioccato non era il benvenuto che avevo in mente! Non ho tempo per fermar[target.Custom('DE_PRO_POS_P_3P')] prima che corra verso la porta e la spalanchi.\n\n"Aiuto! Guardie! C'è un intruso nelle mie stanze!"\n\nPrima che questa notte peggiori, torno indietro da dove sono venut[ROOT.Char.Custom('DE_END_PRO_S_N')]."
- seduce_outcome.4003.a.plot:0 "Il [target.Custom('InsultAdjective')] [target.Custom('InsultNoun')] la pagherà!"
+seduce_outcome.4003.a.plot: 0 "Quel[Select_CString(target.IsFemale,'la','lo')] [target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom2('InsultNoun', ROOT.Char)] la pagherà!"
  seduce_outcome.4003.a.regular:0 "Potrei aver giudicato male la sua impazienza."
 
  seduce_outcome.4004.t:0 "Un Gioco Pericoloso"
@@ -207,13 +206,13 @@
  seduce_outcome.4004.sodomy.desc:0 ""[target.Custom('LoverPetName')|U], sei là? Sono io – [ROOT.Char.GetFirstNameNoTooltip]!""
  seduce_outcome.4004.a:0 "Perché dovremmo preoccuparci? Per favore, apri la porta!"
 
- seduce_outcome.4005.desc:0 "La trave sotto la finestra del[target.Custom('DE_END_ADJ_NUL_S_N')] [target.GetTitledFirstNamePossessive] sembra meno che robusta, ma niente si metterà tra me e il desiderio dei miei lombi! Alla fine della pericolosa salita, le mie dita si piegano attorno al suo davanzale.\n\n"[target.GetFirstNameNoTooltip]! Apri, mi[target.Custom('DE_END_PRO_S_N')] [target.Custom('LoverPetName')]! Sono io, [ROOT.Char. GetFirstNameNoTooltip]!" Tocco le persiane, ma nessuno risponde.\n\n"Com'è che hai appena chiamato [target.Custom('DE_ART_DEF_P_A')] mi[taget.Custom('DE_END_PRO_S_N')] [target_liege.Custom2('RelationToMeShort', SCOPE.sC ('target'))], tu [ROOT.Char.Custom ( 'InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')] ?!" Alzo lo sguardo. [target_liege.Custom('DE_ART_DEF_P_A')] [target_liege.GetTitledFirstName] si sporge dalla finestra sopra di me!"
+seduce_outcome.4005.desc: 0 "La grata sotto la finestra [target.Custom('IT_NAM_COL2')][target.GetTitledFirstNamePossessive] non sembra molto solida, ma nulla si frapporrà tra me e il desiderio dei miei lombi! Al termine dell’ardua scalata, le dita si chiudono sul [Select_CString(target.IsFemale,'suo','suo')] davanzale.\n\n"[target.GetFirstNameNoTooltip]! Apri, [Select_CString(target.IsFemale,'mia','mio')] [target.Custom('LoverPetName')]! Sono io, [ROOT.Char.GetFirstNameNoTooltip]!" Busso alle imposte, ma nessuno risponde.\n\n"Come hai chiamato [Select_CString(target.IsFemale,'la mia','il mio')] [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('target_liege'))] [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('target_liege'))]?!" Alzo lo sguardo. [target_liege.Custom('IT_NAM_COL3')][target_liege.GetTitledFirstName] si sta sport[Select_CString(target_liege.IsFemale,'a','o')] dalla finestra sopra di me!"
  seduce_outcome.4005.a:0 "Penso sia ora di andare!"
 
  seduce_outcome.4900.desc:0 "Mi sto dirigendo verso le mie stanze per godermi un sonno beato quando sento un debole fruscio da una finestra. "Solo il vento" penso, finché il vento inizia a parlare.\n\n"[target.GetFirstNameNoTooltip]! Apri tesor[target.Custom('DE_END_PRO_S_N')] mi[target.Custom('DE_END_PRO_S_N')]! Sono io, [owner.GetFirstNameNoTooltip]!" Spingo le persiane, ed ecco, un[owner.Custom('DE_PRO_POS_P_2P')] [owner.GetWomanMan] è alla finestra di [target.GetFirstName]! È [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
- seduce_outcome.4900.a.family:0 "Come hai appena chiamato mi[target.Custom('DE_END_PRO_S_N')] [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], [owner.Custom('InsultNounSexual')]?!"
+seduce_outcome.4900.a.family: 0 "Come hai chiamato [Select_CString(target.IsFemale,'la mia','il mio')] [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], [owner.Custom2('InsultNounSexual', SCOPE.sC('target_liege'))]?"
  seduce_outcome.4900.a.courtier:0 "In nome del [ROOT.Char.GetFaith.DevilName], non ti vergogni? Guardie!"
-
+  
  seduce_outcome.8101.t:1 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('owner') )|U] Amore"
  seduce_outcome.8101.desc:0 "Non ci sono più dubbi. [owner.GetTitledFirstName] – mi[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner') )] - vuole essere più che una famiglia...\n\n"
  seduce_outcome.8101.desc_positive:0 "Anche se non posso dire che il pensiero non mi sia mai passato per la mente, la realizzazione è ancora uno shock."

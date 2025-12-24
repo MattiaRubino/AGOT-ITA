@@ -7,7 +7,6 @@
  bell_special_yearly.6000.desc:0 "Nella rovina Andala si tiene un concerto per tutta la mia corte, che promette una notte di musica in un antico tempio a lume di candela.\n\nLa solita musica dei menestrelli prosegue, mentre alcuni ospiti si lamentano dell'odore particolare. Godiamo di alcuni brani leggeri con flauti e corde pizzicate, e i pezzi diventano più struggenti con il trascorrere della notte.\n\nAl termine, i servitori seguono il mio ordine di accorrere e suonare le campane a tempo con l'ultima canzone. Le urla dei miei cortigiani si uniscono alla voce del coro mentre tutti vedono le mie teste sferraglianti e rintoccanti!"
  #End AGOT modifiche
 
-
  bell_special_yearly.1000.t:0 "La Campana di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
  # [faction_member_1_faction.GetName]
  bell_special_yearly.1000.a:0 "Potrei uccidererl[faction_member_1.Custom('DE_END_PRO_S_N')] senza che nessuno ci veda!"
@@ -38,7 +37,7 @@
  bell_discovery_failure_effect:0 "La Campana viene scoperta"
 
 
- bell_special_yearly.5000.a:0 "Suona con me, [bell_discoverer.GetTitledFirstName]."
+bell_special_yearly.5000.a: 0 "Suona per me, [bell_discoverer.Custom('IT_NAM_COL3')][bell_discoverer.GetTitledFirstNameNoTooltip]."
 
 
  bell_special_yearly.6000.a:0 "Che musica!"

@@ -95,6 +95,7 @@
  metal_wrought_iron:0 "ferro battuto"
  metal_folded_iron:0 "ferro piegato"
  metal_steel:0 "acciaio"
+ metal_bintie_steel: "bintie steel"
 
  # Metal Feature Derivatives 
  feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
@@ -125,6 +126,7 @@
  metal_pewter:0 "peltro"
  metal_latten:0 "lamiera"
 
+
  # Pure black 'alloy' of sulfur, copper, silver, and lead. Commonly used as an inlay in engraved or etched metals, or sometimes as a background in reliefs.
  metal_niello:0 "niello"
  # Golden (gold-leafed) bronze. More common in East Asia but could be found in Europe.
@@ -135,6 +137,11 @@
  # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
  # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
  metal_meteoric_iron:0 "ferro meteorico"
+ # Asian
+ #Copper-gold alloy, with rich patination valued in luxury sword fittings and ornaments.
+ metal_shakudo: "shakudo"
+ #Copper-silver alloy for subtle gray inlay, more refined than copper but not on par with gold
+ metal_shibuichi: "shibuichi"
 
  feature_decoration_material_inlay_gold:0 "$metal_gold$"
  feature_decoration_material_inlay_electrum:0 "$metal_electrum$"
@@ -142,6 +149,10 @@
  feature_decoration_material_inlay_copper:0 "$metal_copper$"
  feature_decoration_material_inlay_pewter:0 "$metal_pewter$"
  feature_decoration_material_inlay_niello:0 "$metal_niello$"
+ feature_decoration_material_inlay_jade:0 "$gem_jade$"
+ feature_decoration_material_inlay_amber:0 "$gem_amber$"
+ feature_decoration_material_inlay_shakudo: "$metal_shakudo$"
+ feature_decoration_material_inlay_shibuichi: "$metal_shibuichi$"
 
  feature_decoration_material_wire_gold:0 "$metal_gold$"
  feature_decoration_material_wire_electrum:0 "$metal_electrum$"
@@ -203,6 +214,22 @@
  wood_coromandel:0 "coromandel"
  wood_ebony:0 "legno di ebano"
 
+ # Regional - East Asia
+ wood_nanmu: "nanmu"
+ wood_boxwood: "bosso"
+ wood_paulownia: "paulonia"
+ wood_camphorwood: "legno di canfora"
+
+ # Regional - Southeast Asia
+ wood_narra: "narra"
+ wood_toona_sureni: "toona sureni"
+ wood_agarwood: "legno d'agar"
+ wood_sandalwood: "sandalo"
+
+ # Regional - Northeast Asia
+ wood_birch: "betulla"
+ wood_linden: "tiglio"
+
  # Wood Feature Derivatives 
  feature_generic_material_wood_ash:0 "$wood_ash$"
  feature_generic_material_wood_oak:0 "$wood_oak$"
@@ -222,6 +249,16 @@
  feature_generic_material_wood_olivewood:0 "$wood_olivewood$"
  feature_generic_material_wood_coromandel:0 "$wood_coromandel$"
  feature_generic_material_wood_ebony:0 "$wood_ebony$"
+ feature_generic_material_wood_nanmu: "$wood_nanmu$"
+ feature_generic_material_wood_boxwood: "$wood_boxwood$"
+ feature_generic_material_wood_paulownia: "$wood_paulownia$"
+ feature_generic_material_wood_camphorwood: "$wood_camphorwood$"
+ feature_generic_material_wood_narra: "$wood_narra$"
+ feature_generic_material_wood_toona_sureni: "$wood_toona_sureni$"
+ feature_generic_material_wood_agarwood: "$wood_agarwood$"
+ feature_generic_material_wood_sandalwood: "$wood_sandalwood$"
+ feature_generic_material_wood_birch: "$wood_birch$"
+ feature_generic_material_wood_linden: "$wood_linden$"
 
  feature_shaft_wood_ash:0 "$wood_ash$"
  feature_shaft_wood_oak:0 "$wood_oak$"
@@ -241,6 +278,16 @@
  feature_shaft_wood_olivewood:0 "$wood_olivewood$"
  feature_shaft_wood_coromandel:0 "$wood_coromandel$"
  feature_shaft_wood_ebony:0 "$wood_ebony$"
+ feature_shaft_wood_nanmu: "$wood_nanmu$"
+ feature_shaft_wood_boxwood: "$wood_boxwood$"
+ feature_shaft_wood_paulownia: "$wood_paulownia$"
+ feature_shaft_wood_camphorwood: "$wood_camphorwood$"
+ feature_shaft_wood_narra: "$wood_narra$"
+ feature_shaft_wood_toona_sureni: "$wood_toona_sureni$"
+ feature_shaft_wood_agarwood: "$wood_agarwood$"
+ feature_shaft_wood_sandalwood: "$wood_sandalwood$"
+ feature_shaft_wood_birch: "$wood_birch$"
+ feature_shaft_wood_linden: "$wood_linden$"
 
  ##########
  # Cloths #
@@ -369,7 +416,6 @@
  gem_emerald:0 "smeraldo"
  gem_emerald_plural:0 "smeraldi"
 
- ###SOTITUITE LE GEMME "FEMMINILI" CON ALCUNE "MASCHILI" PER FAR COMBACIARE L'ARTICOLO NELLA DESCRIZIONE DEI MANUFATTI
  feature_decoration_material_gem_rock_crystal:0 "$gem_rock_crystal$"
  feature_decoration_material_gem_jet:0 "$gem_jet$"
  feature_decoration_material_gem_agate:0 "$gem_agate$"
@@ -393,6 +439,52 @@
  feature_decoration_material_gem_ruby:0 "$gem_ruby$"
  feature_decoration_material_gem_emerald:0 "$gem_emerald$"
 
+
+ ########
+ # Inks #
+ ########
+
+  ink_pine_soot: "inchiostro nero di fuliggine di pino"
+  ink_oil_soot: "inchiostro nero di fuliggine d'olio"
+  ink_lacquer_soot: "inchiostro nero di fuliggine di lacca"
+  ink_charcoal: "inchiostro nero di carbone"
+  ink_cinnabar: "inchiostro vermiglione di cinabro"
+  ink_orpiment: "inchiostro giallo all'orpimento"
+  ink_lac_dye: "inchiostro rosso intenso alla tintura di lacca"
+  ink_silver: "inchiostro d'argento luminoso"
+  ink_shell_gold: "inchiostro d'oro in conchiglia lucente"
+
+ feature_decoration_material_ink_pine_soot: "$ink_pine_soot$"
+ feature_decoration_material_ink_oil_soot: "$ink_oil_soot$"
+ feature_decoration_material_ink_lacquer_soot: "$ink_lacquer_soot$"
+ feature_decoration_material_ink_charcoal: "$ink_charcoal$"
+ feature_decoration_material_ink_cinnabar: "$ink_cinnabar$"
+ feature_decoration_material_ink_orpiment: "$ink_orpiment$"
+ feature_decoration_material_ink_lac_dye: "$ink_lac_dye$"
+ feature_decoration_material_ink_silver: "$ink_silver$"
+ feature_decoration_material_ink_shell_gold: "$ink_shell_gold$"
+
+ ##########
+ # Slates #
+ ##########
+
+ slate_bamboo: "tavoletta di semplice bambù"
+ slate_soapstone: "tavoletta di pietra saponaria lucidata"
+ slate_bronze: "tavoletta di bronzo cupo"
+ slate_quartz: "tavoletta di quarzo luccicante"
+ slate_jade: "tavoletta di giada lucente"
+ slate_ivory: "tavoletta di avorio brillante"
+ slate_rhinocerous_horn: "tavoletta di corno di rinoceronte luminescente"
+
+ feature_decoration_material_slate_bamboo: "$slate_bamboo$"
+ feature_decoration_material_slate_soapstone: "$slate_soapstone$"
+ feature_decoration_material_slate_bronze: "$slate_bronze$"
+ feature_decoration_material_slate_quartz: "$slate_quartz$"
+ feature_decoration_material_slate_jade: "$slate_jade$"
+ feature_decoration_material_slate_ivory: "$slate_ivory$"
+ feature_decoration_material_slate_rhinocerous_horn: "$slate_rhinocerous_horn$"
+
+
  ############################
  # Horns, Shells, and Bones #
  ############################
@@ -412,6 +504,7 @@
  feature_decoration_material_inlay_HSB_tortoiseshell:0 "$hsb_tortoiseshell$"
  feature_decoration_material_inlay_HSB_mother_of_pearl:0 "$hsb_mother_of_pearl$"
  feature_decoration_material_inlay_HSB_ivory:0 "$hsb_ivory$"
+ feature_decoration_material_inlay_HSB_bone: "$material_bone$"
 
  #Other
  material_bone:0 "osso"
@@ -524,6 +617,8 @@
  dagger_decoration_hilt:0 "$sword_decoration_hilt$"
  dagger_decoration_blade:0 "$sword_decoration_blade$"
  dagger_decoration_none:0 "$sword_decoration_none$"
+ artifact_kris_name:0 "[owner.GetTitledFirstNamePossessiveNoTooltip] Kris"
+ artifact_kris_description: "A [newly_created_artifact.GetFeatureText( 'blade_metal' )] Kris of [SCOPE.Custom('ArtifactQuality')] craftsmanship. [newly_created_artifact.Custom('ArtifactDaggerDecoration')]"
 
  # Axe, Spear, Hammer, and Mace components (Heads, Shafts/Hafts)
  feature_head_decoration_etched_pattern:0 "incisa per mostrare in rilievo [Artifact.GetFeatureText( 'decoration_pattern' )]"
@@ -614,6 +709,8 @@
  feature_artifact_armor_descriptor_armor_gold_decorated:0 "Decorata in Oro"
  feature_artifact_armor_descriptor_armor_silver_decorated:0 "Intarsiata in Argento"
  feature_artifact_armor_descriptor_armor_copper_decorated:0 "Intarsiata in Rame"
+ feature_artifact_armor_descriptor_armor_shakudo_decorated:0 "Shakudo-Inlaid"
+ feature_artifact_armor_descriptor_armor_shibuichi_decorated:0 "Shibuichi-Inlaid"
 
  feature_armor_material_iron:0 "$metal_iron$"
  feature_armor_material_steel:0 "$metal_steel$"
@@ -666,8 +763,23 @@
  feature_regalia_accessory_necklace:0 "una grande collana cabochon con [Artifact.GetFeatureText( 'decoration_material_gem' )]"
  feature_regalia_clothes_robe:0 "pregiati abiti di [Artifact.GetFeatureText( 'generic_material_cloth' )] che sono stati ricamati con [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
  feature_regalia_clothes_cloak:0 "un mantello di [Artifact.GetFeatureText( 'generic_material_cloth' )] ricamato con fili di [Artifact.GetFeatureText( 'decoration_material_embroidery' )]"
-
+ 
  create_artifact_regalia_tooltip:1 "[inspiration_owner.GetShortUIName] ha realizzato una regalia di [SCOPE.Custom('ArtifactQuality')] fattura"
+
+ artifact_seal_of_investiture: "$artifact_name_prefix$ $seal_of_investiture$"
+ seal_of_investiture: "Seal of Investiture"
+artifact_seal_of_investiture_court: "$seal_of_investiture$"
+ seal_of_investiture.desc: "[SCOPE.Custom('ArtifactArticleWealth')] [seal_of_investiture|E] of [SCOPE.Custom('ArtifactQuality')] craftsmanship. It is a [newly_created_artifact.GetFeatureText( 'decoration_material_slate' )] with [newly_created_artifact.GetFeatureText( 'decoration_material_ink' )].\n\nIt was crafted by order of [tributary_scope.GetSuzerain.GetFullName] to document the loyalty of [tributary_scope.GetFullName], presented to [tributary_scope.GetHerHim] at the closing ceremonies of [tributary_scope.GetHerHis] tribute mission to [tributary_scope.GetSuzerain.GetCapitalLocation.GetName]."
+ feature_regalia_seal_slate: "a [Artifact.GetFeatureText( 'decoration_material_slate' )] imperial seal"
+ feature_regalia_seal_ink: "calligraphed in [Artifact.GetFeatureText( 'decoration_material_ink' )]"
+
+heirloom_seal.name: "Sigillo di famiglia"
+heirloom_seal.desc: "Questo antico sigillo di giada fu creato da Qin Shi Huang oltre un millennio fa, dopo l’unificazione degli Stati Combattenti della Cina. Si dice sia stato scolpito dall’Heshibi, uno dei più sacri tesori imperiali mai esistiti.\n\nL’iscrizione recita: «Avendo ricevuto il Mandato del Cielo, possa l’imperatore vivere a lungo e prosperare»."
+
+artifact_seal_dynastic: "Sigillo imperiale"
+dynastic_imperial_seal.name: "Sigillo imperiale di [owner.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+dynastic_imperial_seal.desc: "Questo è il sigillo imperiale dei [owner.GetDynasty.GetBaseNameNoTooltip] e di [owner.GetPrimaryTitle.GetBaseNameNoTooltip]. Fu creato su richiesta [owner.GetTitledFirstNamePossessiveNoTooltip] ed è un [newly_created_artifact.GetFeatureText( 'decoration_material_slate' )] con [newly_created_artifact.GetFeatureText( 'decoration_material_ink' )]. Il sigillo è uno dei massimi tesori del reame e un simbolo della dinastia regnante."
+
 
  # Crowns
  artifact_crown_name:0 "Corona $artifact_name_prefix$"
@@ -911,7 +1023,7 @@
 
  #bp1_yearly.7200
  perfume_bottle_description:0 "[ROOT.Char.GetFirstNameNoTooltip] ha raccolto gli ingredienti per questa fragranza."
- 
+
  # travel_events.4005
  maritime_trading_handbook:0 "Manuale di Commercio Marittimo"
  maritime_trading_handbook_description:0 "Un manuale scritto con competenza sulla natura delle pratiche commerciali marittime [merchant_character_scope.GetCulture.GetName]."
@@ -1005,6 +1117,10 @@
  al_taj_crown_description:0 "La 'Corona d'Onore' o 'Fascia della Venerazione' è la tradizionale corona processionale dei Califfi Fatimidi. È ornata dall'enorme gioiello 'al-Yatima'.."
  qadib_al_mulk_name:0 "Qadib al-Mulk"
  qadib_al_mulk_description:0 "L'asta processionale del Califfato Fatimide, ricoperta d'oro e incastonata di perle e gioielli."
+ryukyu_shaku_name: "Shaku dei Tre Monti"
+ryukyu_shaku_description: "Un bastone cerimoniale laccato, ricavato da cedro isolano sacro, simbolo dell’unificazione dei clan sotto un unico mandato divino."
+ryukyu_crown_name: "Corona del Drago"
+ryukyu_crown_description: "Un diadema intarsiato di corallo, sormontato da un drago marino dorato che stringe una perla di saggezza. Il suo fulgore echeggia sulle onde, faro di potere e prosperità."
  al_sayf_al_khass_name:0 "al-Sayf al-Khass"
  al_sayf_al_khass_description:0 "Si dice che questa spada ingioiellata sia stata ricavata da un fulmine. È conservata in un coperchio d'oro inciso, che ha lasciato raramente a causa del suo significato cerimoniale nel Califfato."
  al_dawat_name:0 "al-Dawat"
@@ -1074,6 +1190,8 @@
  artifact_dragvandil_description:0 "Una spada che si dice sia appartenuta a Egill Skallagrimsson, agricoltore, poeta e guerriero, noto dalla Saga di Egill."
  artifact_szczerbiec_name:0 "Szczerbiec"
  artifact_szczerbiec_description:0 "Si dice che sia stata data al re Boleslaw il Coraggioso da un angelo, questa spada si dice sia quella usata per colpire la porta d'oro di Kiev. Ha un immenso significato simbolico."
+artifact_chinese_caligraphy_description: "Questo delicato foglio è coperto da caratteri bellissimi e molto precisi; dal foglio emanano chiarezza ed eleganza. Sebbene lo scriba che li ha tracciati sia ignoto, la fattura è senza dubbio eccellente."
+artifact_ruyi_description: 0 "Si tratta di un piccolo scettro di giada, coperto di simboli e ornamenti. La fattura è squisita."
  turquoise_throne_name:0 "Trono Turchese"
  turquoise_throne_description:0 "Questo trono reale ingioiellato è stato realizzato a immagine del leggendario trono dei re Persiani dello Shahnama. La sua cornice d'ebano è ornata da una quantità innumerevole di turchesi e da piastre d'oro puro smaltate con una tonalità turchese. La sua bellezza mozzafiato potrebbe essere ottenuta solo dai migliori artigiani nei loro campi."
  peacock_throne_name:0 "Trono di Pavone"
@@ -1150,7 +1268,7 @@
  # Blessed Junk
  fp2_blessed_junk:0 "[ROOT.Char.Custom('TrinketLookAdjective')|U] $blessed_artifact_modifier$"
  fp2_blessed_junk_desc:0 "Un [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] sebbene altrimenti inutile. $blessed_artifact_modifier_desc$."
-   
+ 
  local_artisan_modifier:0 "Artigiano Locale"
  local_artisan_modifier_desc:0 "Questo personaggio è un artigiano locale persuaso da un nobile sovrano a mettersi al suo servizio.\n#weak Tutte le [inspirations|E] che produrrà saranno di minore qualità.#!"
 
@@ -1178,6 +1296,7 @@
  artifact_crossbow:0 "Balestra"
  artifact_crossbow_name:0 "Balestra $artifact_name_prefix$"
  artifact_crossbow_description:0 "Una balestra [SCOPE.Custom('ArtifactQuality')] in [newly_created_artifact.GetFeatureText( 'bow_wood' )], con intelaiatura in ferro e incordatura in tendine. Estremamente potente e in grado di essere tenuto pronto all'uso, ma lento nella ricarica."
+ create_artifact_bow_tooltip: "[inspiration_owner.GetShortUIName] produced [SCOPE.Custom('ArtifactBowType')] of [SCOPE.Custom('ArtifactQuality')] craftsmanship"
  feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
  feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
  feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
@@ -1235,7 +1354,7 @@
  feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
  feature_generic_material_earthware_stone:0 "$earthware_stone$"
  feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"
- 
+
  # FP3 artifacts
  artifact_oxus_bracelet_name:0 "Bracciale Oxus"
  artifact_oxus_bracelet_description:0 "Si dice che questo bracciale di meravigliosa fattura provenda dalle terre di $k_transoxiana$. Sebbene l'intarsio di smalto e pietre semipreziose sia andato perduto da tempo, l'oro conserva ancora la sua lucentezza. Bracciali come questo erano doni di grande pregio alle corti del Re dei Re nell'antichità, quindi è probabile che un tempo sia stato indossato da uno dei grandi Signori di Babilonia."
@@ -1259,7 +1378,6 @@
 
  medicine_jar: "Vasetto Medicinale"
  medicine_jar_desc: "Questa sottile terracotta smaltata contiene erbe rare e potenti, minerali curativi e varie parti di animali essicate, tutti materiali utilizzati dai medici per il trattamento delle malattie e per il bilanciamento degli umori."
-
  whale_fat_candles_name: "Candele di Grasso di Balena"
  whale_fat_candles_description: "Queste candele sono state ricavate dal grasso di un terribile leviatano. Minacciano con spuntoni di grasso di balena."
 
@@ -1268,6 +1386,11 @@
 
  traitors_head: "Testa del Traditore"
  traitors_head_description: "Una testa mozzata, tagliata con precisione dal suo proprietario. È più un messaggio che un souvenir."
-
+ 
  artifact_: "Manufatto Distrutto"
  artifact_slot_untyped: "Manufatto Distrutto             " # Yes the tabs are intended
+
+ artifact_tale_of_genji: "Il racconto di Genji"
+ artifact_tale_of_genji_description: "Presumibilmente ispirato alla vita di Minamoto $TO_ru$, il Racconto di Genji è un’opera di carattere romanzesco scritta da Lady Murasaki. Narra la vita e gli amori del fittizio principe Genji, figlio dell’Imperatore."
+ artifact_pillow_book: "Il libro del guanciale"
+ artifact_pillow_book_description: "Scritto dalla poetessa e dama di corte Sei Shōnagon come diario privato, il cosiddetto «Libro del guanciale» offre uno scorcio su pettegolezzi, amori e intrighi quotidiani dell’aristocrazia giapponese."

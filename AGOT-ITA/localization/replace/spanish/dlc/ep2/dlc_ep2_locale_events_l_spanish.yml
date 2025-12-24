@@ -26,8 +26,8 @@
 
  ep2_locale_events.1010.t:0 "$tournament_locale_tavern$: Un Gioco?"
  ep2_locale_events.1010.desc:0 "L'oscurità della taverna è compensata dal crepitio del fuoco e dalla continua baldoria degli avventori. Passo accanto a due ubriaconi particolarmente chiassosi e mi siedo a un tavolo vicino, vuoto a parte una persona.\n\n"Una bella serata, non è vero?" [gambler.GetFirstName] fa un gesto verso la folla. Annuisco gentilmente. Finisco a malapena di rimettere la testa in posizione quando [gambler.GetFirstNameNoTooltip] porta sul tavolo un set di dadi e tazze.\n\n"Volete fare un gioco semplice? Anche uno sciocco potrebbe giocarci! Entrambi tiriamo i dadi sotto le tazze e voi dovete indovinate se il vostro tiro è più alto o più basso del mio." [gambler.Custom('DE_ART_IND_A')|U] sorride, con un luccichio da giocatore d'azzardo negli occhi. " Vince chi ne indovina due su tre.""
- #ep2_locale_events.1010.a: "Ma come posso fidarmi dei tuoi dadi?"
- #ep2_locale_events.1010.a.tt: "Usiamo il mio set. Il mio set molto equo e non ponderato."
+ #ep2_locale_events.1010.a: "But how can I trust your dice?"
+ #ep2_locale_events.1010.a.tt: "Let's use my set. My very fair and non-weighted set."
  ep2_locale_events.1010.b:0 "Passa i dadi qui!"
  ep2_locale_events.1010.c:0 "Non sono un giocatore d'azzardo."
 
@@ -75,7 +75,7 @@
  ep2_locale_events.1014.f:0 "Potrei bere qualcosa!"
 
  ep2_locale_events.1050.t:1 "$tournament_locale_tavern$: Giocat[ROOT.Char.Custom('DE_END_NOU_S_GS_N')] d'azzardo?"
- ep2_locale_events.1050.desc:0 "Sono appena entrato nella taverna quando vengo avvicinato da una figura. [wealthy_gambler.GetFirstName] mi batte sulla spalla e mi porta in un angolo appartato, abbassando la sua voce a un tono cospiratorio.\n\n"Stai partecipando alle prove marziali, vero?" ,continua senza nemmeno accorgersi del mio cenno. "Beh, c'è una scommessa piuttosto insolita, vedete. Uno dei miei... soci pensa che lei sia un #EMP [Select_CString(ROOT.Char.IsFemale,'una fessacchiotta','un pollo')] #!, per così dire." [wealthy_gambler.GetFirstName] ignora le mie immediate proteste.\n\n"Certo, ho difeso il tuo onore, [Select_CString(ROOT.Char.IsFemale,'mia Signoa','mio Signore')]! Gli ho detto che saresti stato così coraggioso da andare senza elmo al torneo! ! Naturalmente, se mi desse la sua #EMP garanzia#! di ciò, well,potrei farle guadagnare qualcosa...""
+ep2_locale_events.1050.desc: "Sono appena entrat[Select_CString(ROOT.Char.IsFemale,'a','o')] nella taverna quando una figura mi assale. [wealthy_gambler.GetFirstName] mi dà una pacca sulla spalla e mi trascina in un angolo appartato, abbassando la voce a un tono cospiratorio.\n\n«Partecipate agli hastiludi, vero?» [wealthy_gambler.GetSheHe|U] prosegue senza nemmeno notare il mio cenno. «Be’, ho in ballo una scommessa piuttosto inusuale. Un[Select_CString(wealthy_gambler.IsFemale,'a','o')] dei miei… soci ritiene che siate un po’ un #EMP damerino#!, per così dire.» [wealthy_gambler.GetSheHe|U] respinge con un gesto le mie immediate proteste.\n\n«Ovviamente ho difeso il vostro onore, [ROOT.Char.Custom('FormOfAddressForLiege')]! Ho detto che sareste stat[Select_CString(ROOT.Char.IsFemale,'a','o')] così coraggios[Select_CString(ROOT.Char.IsFemale,'a','o')] da gareggiare senza elmo! Naturalmente, se poteste #EMP garantire#! l’accadimento… immagino potrei rendermi generos[Select_CString(wealthy_gambler.IsFemale,'a','o')] per ricompensarvi.»"
  ep2_locale_events.1050.a:0 "Suppongo che quelli laggiù siano i tuoi compagni di scommessa?"
  ep2_locale_events.1050.a.tt:0 "Potrebbero essere interessati a questo piccolo accordo, a meno che una ricompensa decente non mi convinca a tacere..."
  ep2_locale_events.1050.b:0 "#EMP Codard[ROOT.Char.Custom('DE_END_PRO_S_N')]?!#! Gareggerò anche senza i dannati #EMP guanti!#!"
@@ -200,7 +200,7 @@
  ep2_locale_events.2500.d:0 "È un ottimo lavoro..."
 
  ep2_locale_events.2501.t:0 "$tournament_locale_tailor$: Un Abbigliamento da Papa"
- ep2_locale_events.2501.desc:0 "Le stoffe e i tessuti offerti dal sarto vanno dalla canapa grezza fino ai più raffinati damaschi, velluti e sete. Mentre li esamino insieme al mio [ROOT.Char.Custom2('RelationToMeShort', random_knight)] [random_knight.GetFirstName], all'improvviso noto un motivo familiare.\n\nÈ una replica esatta delle insegne papali!\n\n"Ne abbiamo anche per i Cardinali, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" [tournament_tailor.GetFirstName] [ROOT.Char.Custom('DE_ART_DEF_P_A')] sart[CHARACTER.Custom('DE_END_PRO_S_N')], svolazza dietro di noi. [random_knight.GetFirstNamePossessiveNoTooltip] mi spinge furiosamente da parte, mentre i suoi occhi scintillano. Nel frattempo [ROOT.Char.Custom('DE_ART_DEF_P_A')] sart[CHARACTER.Custom('DE_END_PRO_S_N')] continua.\n\n"E questo ha un cappello abbinato.""
+ep2_locale_events.2501.desc: "Le stoffe e i tessuti offerti dal sarto vanno dalla ruvida canapa ai più fini damaschi, velluti e sete. Mentre li esamino insieme al mio [ROOT.Char.Custom2('RelationToMeShort', random_knight)] [random_knight.GetFirstName], un motivo stranamente familiare mi fa esitare.\n\nSollevando la veste alla luce, gli occhi mi si spalancano. È una ricostruzione completa delle insegne di un Papa!\n\n«Ne abbiamo anche per i Cardinali, [ROOT.Char.Custom('FormOfAddressForLiege')]!» [tournament_tailor.GetFirstName], il sarto, svolazza dietro di noi. Gli occhi di [random_knight.GetFirstNameNoTooltip] brillano di gioia mentre [random_knight.GetSheHe] mi dà una vigorosa gomitata alle costole. Il sarto riprende a parlare.\n\n«E quella viene con cappello abbinato.»"
  ep2_locale_events.2501.a:0 "#EMP VENDUTO!#!"
  ep2_locale_events.2501.a.tt:0 "Tu e i tuoi [knights|E] indossate i vostri vestiti..."
  ep2_locale_events.2501.b:0 "Questa è blasfemia!"
@@ -248,8 +248,8 @@
  
  ep2_locale_events.2560.t:0 "$tournament_locale_tailor$: Un Nuovo Acquisto"
  ep2_locale_events.2560.desc.intro:0 "Trovo [tailor.GetTitledFirstName] che taglia un pezzo di stoffa. Un paio di tavoli sono stati disposti per mostrare il suo lavoro: calze, copricapi, cuffiette e maniche. Di fronte, un piccolo fuoco arde nel focolare.\n\n"
- ep2_locale_events.2560.desc.previous_artifact:0 ""Stai cercando qualcosa per adornare il tuo abbigliamento, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]? Vedo che avete portato anche alcuni manufatti dalla capitale... Se non vi dispiace, ho sempre desiderato esaminare il lavoro dei maestri di  [capital_barony.GetAdjectiveNoTooltip].""
- ep2_locale_events.2560.desc.new_artifact:0 ""Attento!" mi avverte, facendo quasi cadere l'attrezzo. "Stavi per inciampare nella biancheria, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," borbotta scusandosi, raccogliendo rapidamente gli indumenti. "Sono sicur[tailor.Custom('DE_END_PRO_S_N')] di poter indovinare il motivo della vostra visita," mentre si affanna a riordinare"
+ep2_locale_events.2560.desc.previous_artifact: "«Cercate qualcosa per adornare il vostro abito, [ROOT.Char.Custom('FormOfAddressForLiege')]? Vedo che avete portato anche certi manufatti dalla capitale… Se permettete, ho sempre desiderato esaminare l’opera dei maestri di [capital_barony.GetAdjectiveNoTooltip].»"
+ep2_locale_events.2560.desc.new_artifact: "«Attenzione!» [tailor.GetSheHe] mi avverte, quasi lasciando cadere lo strumento. «Stavate per inciampare nella biancheria, [ROOT.Char.Custom('FormOfAddressForLiege')]», mormora scusandosi, raccogliendo in fretta i capi. «Sono quasi cert[Select_CString(tailor.IsFemale,'a','o')] di poter indovinare il motivo della vostra visita», il suo volto spunta a malapena fuori dal caos."
  ep2_locale_events.2560.desc.new_artifact_2:0 ""C'è qualcosa di particolare che [Select_CString(ROOT.Char.IsFemale,'la mia Signora','il mio Signore')] sta cercando?" [tailor.Custom('quirk_pos_standalone')|l]. La collezione accanto a [tailor.GetSheHe] è davvero più impressionante di quanto mi aspettassi"
  ep2_locale_events.2560.a:0 ""In effetti, il mio  [previous_artifact.GetNameNoTooltip] avrebbe bisogno di qualche decorazione...""
  ep2_locale_events.2560.b:0 ""Potrei comprare questo [purchasable_trinket.GetNameNoTooltip]?""
@@ -311,7 +311,7 @@
  ep2_locale_events.4001.a.success:1 "[tournament_bowyer.GetFirstNameNoTooltip] sostituisce gratuitamente l'arco"
  ep2_locale_events.4001.a.failure:1 "[tournament_bowyer.GetFirstNameNoTooltip] si rifiuta di pagare"
  ep2_locale_events.4001.b:0 "Accidenti. Beh, ne avete uno in vendita?"
- ep2_locale_events.4001.c:1 "Tu [tournament_bowyer.Custom('InsultNoun')]! Tu, tu... #EMP [tournament_bowyer.Custom('InsultNoun')]#!!"
+ep2_locale_events.4001.c: "Tu [tournament_bowyer.Custom2('InsultNoun', ROOT.Char)]! Tu, tu… #EMP [tournament_bowyer.Custom2('InsultNoun', ROOT.Char)]#!!"
 
  ep2_locale_events.4010.t:0 "$tournament_locale_bowyer$: Regali Balistici"
  ep2_locale_events.4010.desc:0 "Osservo la merce esposta alla bancarella dell'arciere, ammirando i vari archi, frecce e accessori.\n\nPenso subito a [befriend_target.GetFirstName] mentre osservo il gran numero di oggetti utili offerti.\n\nForse qualcosa qui potrebbe stuzzicare la sua fantasia..."
@@ -326,12 +326,12 @@
  ep2_locale_events.4011.reply_quiver:0 "All'interno c'è una faretra sorprendentemente più grande della norma.\n\n"
  ep2_locale_events.4011.reply_hunt:0 "All'interno c'è un set di frecce da caccia accuratamente realizzate.\n\n"
  ep2_locale_events.4011.opening:0 "[befriend_actor.GetTitledFirstName] appare improvvisamente davanti a me, un pacchetto dalla forma strana tra le braccia. Un regalo?\n\n"
- ep2_locale_events.4011.success_bow:0 "$ep2_locale_events.4511.reply_bow$Questa è una grande opera d'arte, un arco degno di un nobile."
- ep2_locale_events.4011.bow:0 "$ep2_locale_events.4511.reply_bow$È difficile nascondere la mia delusione. Voglio dire, un arco..."
- ep2_locale_events.4011.success_quiver:0 "$ep2_locale_events.4511.reply_quiver$Ho passato un po' di tempo ad esaminarla, questa è la faretra più ergonomica che abbia mai visto!"
- ep2_locale_events.4011.quiver:0 "$ep2_locale_events.4511.reply_quiver$A cosa mi serve? Voglio dire, davvero..."
- ep2_locale_events.4011.success_hunt:0 "$ep2_locale_events.4511.reply_hunt$Sono di costruzione eccezionalmente robusta e sono chiaramente perfetti per la caccia alla piccola selvaggina."
- ep2_locale_events.4011.hunt:0 "$ep2_locale_events.4511.reply_hunt$Freccie da caccia? Non avresti dovuto farlo, #EMP davvero#!..."
+ep2_locale_events.4011.success_bow: "$ep2_locale_events.4011.reply_bow$È un pezzo di gran pregio, un arco degno di un nobile."
+ep2_locale_events.4011.bow: "$ep2_locale_events.4011.reply_bow$Fatico a nascondere la delusione. Voglio dire, un arco…"
+ep2_locale_events.4011.success_quiver: "$ep2_locale_events.4011.reply_quiver$Lo esamino a lungo, è il faretra più ergonomica che abbia mai visto!"
+ep2_locale_events.4011.quiver: "$ep2_locale_events.4011.reply_quiver$A cosa mi serve? Davvero…"
+ep2_locale_events.4011.success_hunt: "$ep2_locale_events.4011.reply_hunt$Sono insolitamente robuste nella costruzione, chiaramente perfette per la piccola selvaggina."
+ep2_locale_events.4011.hunt: "$ep2_locale_events.4011.reply_hunt$Frecce da caccia? #EMP Davvero#! non dovevate…"
  ep2_locale_events.4011.a:0 "Non posso nascondere il mio sorriso, che bella scelta!"
  ep2_locale_events.4011.b:0 ""Che regalo... premuroso...""
  ep2_locale_events.4012.opening:0 "[befriend_target.GetTitledFirstName] lo prende volentieri, aprendo le legature dell'involucro con un'allegria infantile.\n\n"
@@ -349,7 +349,7 @@
  ep2_locale_events.4012.b:0 "A cosa serve..."
 
  ep2_locale_events.4050.t:0 "$tournament_locale_bowyer$: Tenetevi Forte"
- ep2_locale_events.4050.desc:0 "Frugando tra i cumuli di frecce e le corde d'arco ammucchiate,  mi imbatto in una pila ordinata di bracciali di cuoio particolarmente buoni. Se ne metto uno sull'avambraccio, la pelle rigida proteggerà l'interno del braccio.\n\n"Sono i nostri migliori bracciali, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Diecimila colpi di arco non li consumeranno!" [tournament_bowyer.GetFirstName] percepisce una potenziale vendita, e scivola rapidamente al mio fianco.\n\nEsamino il cuoio con curiosità, soppesandolo nella mia mano."
+ep2_locale_events.4050.desc: "Rovistando tra fasci di frecce e cataste di corde d’arco, m’imbatto in una pila ordinata di bracciali in cuoio di fattura particolarmente fine. Infilandone uno sull’avambraccio, il cuoio irrigidito protegge l’interno del braccio.\n\n«Sono i nostri bracciali migliori, [ROOT.Char.Custom('FormOfAddressForLiege')]. Diecimila frustate della corda dell’arco non li scalfiranno!» [tournament_bowyer.GetFirstName] fiuta una vendita e scivola rapidamente al mio fianco.\n\nTasto il cuoio con curiosità, pesandolo nella mano."
  ep2_locale_events.4050.a:0 "Forse possiamo trovare un accordo?"
  ep2_locale_events.4050.a.success:0 "La negoziazione è andata a buon fine"
  ep2_locale_events.4050.a.failure:0 "La negoziazione non è riuscita"
@@ -363,7 +363,7 @@
  ep2_locale_events.4500.start:0 "Consegno "
  ep2_locale_events.4500.artifact:0 "[chipped_sword.GetName] "
  ep2_locale_events.4500.noartifact:0 "la mia arma "
- ep2_locale_events.4500.end:2 "per prepararla per le prove che mi aspettano, ma il rammarico mi invade immediatamente quando lascia le mie mani. [tournament_weaponsmith.GetFirstName] l'armaiol[tournament_weaponsmith.Custom('DE_END_PRO_S_N')] è chiaramente sommers[tournament_weaponsmith.Custom('DE_END_PRO_S_N')] di richieste, e [tournament_weaponsmith.GetSheHe] a sua volta la passa a un apprendista dall'aria un po' timida perché se ne occupi.\n\n[Select_CString(tournament_weaponsmith.IsFemale,'La giovane donna','Il giovane uomo')] prende l'arma con entusiasmo, dando dei fendenti in aria, troppo incauto. L'arma impatta contro un'incudine vicina, provocando una profonda scheggiatura!\n\nIl mio urlo involontario fa sì che l'armaiolo si volti inorridito, afferrando l'arma danneggiata con una mano e stringendo con l'altra l'orecchio dell'apprendista."
+ ep2_locale_events.4500.end:2 "per prepararla per le prove che mi aspettano, ma il rammarico mi invade immediatamente quando lascia le mie mani. [tournament_weaponsmith.GetFirstName] l'armaiol[tournament_weaponsmith.Custom('DE_END_PRO_S_N')] è chiaramente sommers[tournament_weaponsmith.Custom('DE_END_PRO_S_N')] di richieste, e [tournament_weaponsmith.GetSheHe] a sua volta la passa a un apprendista dall'aria un po' timida perché se ne occupi.\n\n[tournament_weaponsmith.Custom('DE_ART_DEF_P_D')] ragazz[tournament_weaponsmith.Custom('DE_END_PRO_S_N')] prende l'arma con entusiasmo, dando dei fendenti in aria, troppo incauto. L'arma impatta contro un'incudine vicina, provocando una profonda scheggiatura!\n\nIl mio urlo involontario fa sì che l'armaiolo si volti inorridito, afferrando l'arma danneggiata con una mano e stringendo con l'altra l'orecchio dell'apprendista."
  ep2_locale_events.4500.a:0 "Risolvete il problema! Riparatela immediatamente!"
  ep2_locale_events.4500.a.tt:0 "Sarà costoso e molto impegnativo ripararlo, ma mi serve!!"
  ep2_locale_events.4500.b:0 "Ne avete in vendita?"
@@ -378,14 +378,14 @@
  ep2_locale_events.4501.desc:0 "Sto osservando [tournament_weaponsmith.GetFirstName] che affila una nuova arma quando sento un piccolo ma evidente #EMP clank#!. Scrutando nella penombra, vedo finalmente [spying_spouse.Custom('DE_ART_DEF_P_A')] mi[spying_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spying_spouse'))] [spying_spouse.GetFirstName] accovacciat[spying_spouse.Custom('DE_END_PRO_S_N')] dietro un tavolino!\n\n I suoi occhi vagano sulle braccia vigorose di [tournament_weaponsmith.GetFirstNamePossessiveNoTooltip] mentre il sudore cola dai suoi muscoli tesi.  È chiaro che la vampata di calore di [spying_spouse.GetFirstNamePossessiveNoTooltip] non è dovuta solo al caldo...\n\n Faccio un passo verso [spying_spouse.GetSheHe]. E' tutto quello che serve: [spying_spouse.GetFirstNameNoTooltip] soffoca a stento un urlo quando ci troviamo faccia a faccia, cogliend[spying_spouse.Custom('DE_END_PRO_S_N')] in flagrante."
  ep2_locale_events.4501.a:0 "Forse dovremmo vedere se tutti condividono questo interesse?"
  ep2_locale_events.4501.a.tt:0 "Il sorriso che si intravede all'angolo della bocca di quel fabbro dice già molto, direi..."
- #ep2_locale_events.4501.a.custom.tt: "#high [spying_spouse.GetFirstName]#! si lamenta con #high [tournament_weaponsmith.GetFirstName]#!"
+ #ep2_locale_events.4501.a.custom.tt: "#high [spying_spouse.GetFirstName]#! lays with #high [tournament_weaponsmith.GetFirstName]#!"
  ep2_locale_events.4501.b:0 "Beh, sono braffia  #EMP molto#! forti..."
  ep2_locale_events.4501.b.tt:0 "Chiaramente [spying_spouse.Custom('DE_ART_DEF_P_A')] mi[spying_spouse.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spying_spouse'))] ha un gusto superbo!"
  ep2_locale_events.4501.c:0 "Ehi, ce ne andiamo!"
  ep2_locale_events.4501.d:0 "Sta solo guardando. Non sta succedendo niente."
 
  ep2_locale_events.4505.t:0 "$tournament_locale_weaponsmith$: Lama Famosa"
- ep2_locale_events.4505.desc:0 "Nel momento in cui entro nella fucina, gli occhi di [tournament_weaponsmith.GetFirstNamePossessive] si spalancano. Indossa un mantello di seta stretto con riverenza.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]." la sua voce trema leggermente. "La tua abilità e la tua spada sono leggendarie. Ho... fatto questo per voi."\n\n[tournament_weaponsmith.GetSheHe|U] apre il mantello per rivelare una spada di meravigliosa opulenza. Mentre la prendo, mi rendo conto che è della migliore qualità e sento l'arma come se fosse un'estensione del mio stesso braccio.\n\n"L'ho forgiata a tua immagine e somiglianza, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Non ci sarebbe onore più grande per me che voi lo accettaste come dono.""
+ep2_locale_events.4505.desc: "Non appena entro in fucina, gli occhi di [tournament_weaponsmith.GetFirstName] si spalancano. Tra le braccia, stretto con riverenza, [tournament_weaponsmith.GetSheHe] regge un manto di seta.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U].» La sua voce trema leggermente. «La vostra perizia e il vostro valore con la lama sono leggendari. Io… ho fatto questo per voi.»\n\n[tournament_weaponsmith.GetSheHe|U] solleva il manto rivelando una spada di meravigliosa opulenza. Quando la impugno è chiaro che sia di qualità eccelsa, l’arma pare un’estensione del mio braccio.\n\n«L’ho forgiata sulle vostre stesse misure, [ROOT.Char.Custom('FormOfAddressForLiege')]. Sarebbe un onore sommo se l’accettaste in dono.»"
  ep2_locale_events.4505.a:0 "L'onore è tutto mio, [tournament_weaponsmith.GetFirstNameNoTooltip]."
  ep2_locale_events.4505.a.tt:0 "Un regalo?! Ma questo vale mille spade. Ma perché non...?"
  ep2_locale_events.4505.b:0 "Un'arma così pregiata merita un pagamento adeguato."
@@ -473,7 +473,7 @@
  ep2_locale_events.1520.superstitious:0 "Diventate superstiziosi"
  
  ep2_locale_events.3010.t:0 "Aria Malsana"
- ep2_locale_events.3010.desc:0 "Appena entro nel campo vengo accolto da un odore pungente. Mentre mi copro il naso con la massima grazia possibile, [alerted_physician.GetFirstName] mi si avvicina tenendosi il naso con un fazzoletto.\n\n"Dovresti andartene, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], i concorrenti si stanno ammalando, colpiti dall'aria malsana", mi avverte."
+ep2_locale_events.3010.desc: "Appena metto piede nel campo, mi accoglie un odore pungente. Coprendomi il naso con tutta la grazia possibile mentre tento di non sentirmi male, mi si avvicina [alerted_physician.GetFirstName], che tiene un fazzoletto sul proprio.\n\n«Dovreste andarvene, [ROOT.Char.Custom('FormOfAddressForLiege')], i contendenti si ammalano, danneggiati dalla cattiva aria», mi avverte [alerted_physician.GetSheHe]."
  ep2_locale_events.3010.a:0 "Deve esserci una spiegazione. Trovatela."
  ep2_locale_events.3010.a.success:0 "[alerted_physician.GetShortUIName] indaga sul campo"
  ep2_locale_events.3010.b:0 "Il torneo deve essere stato maledetto!"
@@ -486,6 +486,7 @@
  ep2_locale_events.3010.a.failure:0 "[alerted_physician.GetShortUIName] non ha successo"
  
  ep2_locale_events.3011.t:0 "$ep2_locale_events.3010.t$: Miasma"
+ep2_locale_events.3011.desc: "[alerted_physician.GetFirstName] torna da me con un sorriso soddisfatto in volto. «Ho trovato la fonte, [ROOT.Char.Custom('FormOfAddressForLiege')]», annuncia cercando di trattenere una risata.\n\n«Gli ospiti non hanno trovato un posto dove disfarsi dei loro… rifiuti, quindi hanno pensato bene di scaricarli nel fiume. L’aria viziata porta le malattie, come proclamò Ippocrate.»"
  ep2_locale_events.3011.a:0 "Devo avvertirli!"
  ep2_locale_events.3011.b.contestant:0 "Lo terrò per me."
  ep2_locale_events.3011.b.champion:0 "Avvertirò solo il mio campione, [contest_champion.GetFirstNameNoTooltip]."
@@ -544,7 +545,7 @@
  ep2_locale_events.1060.a.failure:0 "Perdi il tuo oro"
  
  ep2_locale_events.4530.t:0 "$tournament_locale_weaponsmith$: La Saggezza del Martello"
- ep2_locale_events.4530.desc:0 "Riesco a vedere il lieve tremolio delle fiamme dall'altro lato della strada. Il loro calore avvolge il mio corpo in un abbraccio familiare ancor prima di aprire la porta. All'interno, il fabbro sta preparando una serie di chiodi.\n\n"Posso essere d'aiuto, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]?" chiede, con la fronte macchiata di carbone. Qui l'aria è più densa."
+ep2_locale_events.4530.desc: "Dall’altro lato della strada scorgo il dolce tremolio delle fiamme. Il loro calore mi avvolge in un abbraccio familiare ancora prima di aprire la porta. All’interno, il fabbro allinea una partita di chiodi.\n\n«Posso esservi utile, [ROOT.Char.Custom('FormOfAddressForLiege')]?» chiede [tournament_weaponsmith.GetSheHe], la fronte macchiata di carbone. L’aria qui è più densa."
  ep2_locale_events.4530.a:0 ""Ho sentito dire che i fabbri possono rompere gli incantesimi. Ti prego, calma la mia anima.""
  ep2_locale_events.4530.a.tt:0 "Sei diventat[ROOT.Char.Custom('DE_END_PRO_S_N')] superstizios[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  ep2_locale_events.4530.b:0 ""Potete mostrarmi una tecnica da esperto?""
@@ -559,7 +560,7 @@
  improved_artifact_desc:0 "[improved_weapon.GetDesc]\n\nMigliorato da un abile armaiolo poco prima di un importante torneo."
  ep2_locale_events.4530.e:0 ""Mi stavo guardando intorno.""
  
- # TRAINING GROUNDSLa folla ride di voi
+ # TRAINING GROUNDS
  ep2_locale_events.5000.t:0 "Il Richiamo dell'Acciaio"
  ep2_locale_events.5000.desc.intro:1 "Mentre visito il campo del torneo insieme a mi[my_child.Custom('DE_END_PRO_S_N')] figli[CHARACTER.Custom('DE_END_PRO_S_N')]  [my_child.GetFirstName], ci imbattiamo in un gruppo di [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')], che si allenano ferocemente per la prossima gara. Saluto [my_knight.GetTitledFirstName], quasi irriconoscibile sotto quell'elmo.\n\n"Ah, sarebbe un grande onore per la nostra casa se..." ma mi fermo subito, perché noto che gli occhi di [my_child.GetFirstNamePossessiveNoTooltip] sono fissi sulle spade."
  ep2_locale_events.5000.desc.martial:0 " Non sorprende, vista la sua inclinazione per le attività marziali."

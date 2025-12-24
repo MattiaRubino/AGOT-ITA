@@ -5,16 +5,20 @@
  mpo_nomad_legacy_5_name: "Uniti in un Solo Gregge"
  #End AGOT modifiche
 
- mpo_nomad_legacy_track_name: "Nomadi"
- mpo_nomad_legacy_track_desc: "Poiché tutto il mondo è nostro da conquistare"
- 
- mpo_nomad_legacy_1_name: "Signori della Steppa"
+
+ mpo_nomad_legacy_track_name: "Nomadica"
+ mpo_nomad_legacy_track_desc: "Poiché il mondo intero ci appartiene"
+
+ mpo_nomad_legacy_1_name: "Signori delle Steppe"
  
  mpo_nomad_legacy_2_name: "Terra Bruciata"
- mpo_nomad_legacy_2_effect_raid_intent_global: "Sblocca l’#EMP $raze_intent$#! [raid_intent|E]"
+ mpo_nomad_legacy_2_effect_raid_intent_global: "Sblocca l'[raid_intent|E] #EMP $raze_intent$#!"
  
+ mpo_nomad_legacy_3_name: "La Storia Segreta"
  mpo_nomad_legacy_3_effect_peace_acceptance_global: "Accettazione della [peace|E]: #positive_value 10#!"
  
- mpo_nomad_legacy_4_effect_kheshig_maa_global: "Sblocca i [GetMaA('kheshig').GetName] [men_at_arms|E]"
+ mpo_nomad_legacy_4_name: "Il Castigo di Dio"
+ mpo_nomad_legacy_4_effect_kheshig_maa_global: "Sblocca gli [men_at_arms|E] [GetMaA('kheshig').GetName]"
  
- mpo_nomad_legacy_5_effect_pax_mongolica_global: "Sblocca [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName] [decision|E]"
+ mpo_nomad_legacy_5_name: "La pace del Gran Khan"
+ mpo_nomad_legacy_5_effect_pax_mongolica_global: "Sblocca la [decision|E] [GetDecisionWithKey('mpo_pax_mongolica_decision').GetName]"

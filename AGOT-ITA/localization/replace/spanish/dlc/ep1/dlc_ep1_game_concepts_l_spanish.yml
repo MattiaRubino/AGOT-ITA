@@ -43,10 +43,12 @@
  game_concept_inspiration_desc:2 "I [characters|E] ispirati sono artigiani esperti con un [project|E] che potrebbe diventare realtà qualora tu diventassi il loro [sponsor|E].\n\nPuoi usare la [decision|E] Commissiona Manufatto per assumere tale Personaggio, al fine di creare un [artifact|E].[SelectLocalization( HasDlcFeature( 'royal_court' ), 'game_concept_inspiration_desc_DLC', '' )]\n\nUna volta completato il Progetto, il Benefattore ottiene il risultato, di norma un Manufatto."
  game_concept_inspiration_desc_DLC:0 "\n\nIn aggiunta, i Personaggi Ispirati appaiono periodicamente nelle [royal_courts|E], specialmente in quelle con un [court_grandeur_level|E] alto."
  game_concept_sponsor:0 "Benefattore"
- game_concept_sponsor_desc:2 "Un Benefattore è un [ruler|E] che finanzia il [project|E] di un [character|E] [inspired|E]."
+game_concept_sponsored: "Patrocinato"
+game_concept_sponsor_desc: "Un $game_concept_sponsor$ è un [ruler|E] che finanzia il [project|E] di un [character|E] [inspired|E]."
 
  game_concept_artifact:0 "Manufatto"
  game_concept_artifacts:0 "Manufatti"
+game_concept_artifact_i: "@artifact_icon!"
  game_concept_artifact_desc:5 "Un Manufatto è un oggetto degno di nota che fornisce bonus al [character|E] che lo usa.\n\n[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_artifact_desc_DLC', 'game_concept_artifact_desc_NO_DLC' )]\n\nAlcuni Manufatti sono più speciali di altri, e sono più [Concept( 'rarity', 'rari' )|E]\n\nProprio come con i [titles|E], i Personaggi possono ottenere delle [artifact_claims|E] su un Manufatto, e provare a prendere il Manufatto per se stessi.\n\nI Manufatti hanno anche una [durability|E]: quando questa raggiunge lo zero, ciò causa la distruzione del Manufatto.\n\nI Manufatti vengono sempre ereditati dall'[Concept( 'player_heir', 'erede primario' )|E] del personaggio. Se un Manufatto viene ereditato da qualcuno che non è un [close_family_member|E], perderà [durability|E] o addirittura verrà distrutto definitivamente."
  game_concept_artifact_desc_NO_DLC:0 "Poiché i Manufatti sono portati o indossati sulla tua persona, sono anche conosciuti come [inventory_artifacts|E]."
  game_concept_artifact_desc_DLC:0 "I Manufatti sono divisi in due categorie:\n$BULLET_WITH_TAB$I [inventory_artifacts|E] vengono indossati o portati da un Personaggio\n$BULLET_WITH_TAB$I [court_artifacts|E] risiedono all'interno della [royal_court|E] di un [ruler|E]"

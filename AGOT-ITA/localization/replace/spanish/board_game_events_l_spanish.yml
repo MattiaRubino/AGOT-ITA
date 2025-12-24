@@ -40,7 +40,7 @@
  board_games.0001.desc.opponent_winning.trait.impatient:0 ""Siete davvero piuttosto lento quando giocate a [SCOPE.Custom('BG_GameType')], [bg_myself.Custom2('GetYoungMiddleAgedOld',bg_opponent)]", borbotta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], tamburellando le dita sul tavolo."
  board_games.0001.desc.opponent_winning.trait.arrogant:0 ""Non prendetevala troppo [bg_myself.GetFirstNameNoTooltip]," mi lusinga [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], adagiandosi ancor più comodamente dove siede. "Non possiamo essere tutti così naturalmente #EMP talentuosi#!""
  board_games.0001.desc.opponent_winning.trait.humble:0 ""Onestamente, state andando alla grande," cinguetta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Di solito non me la cavo bene, quindi credo che voi siate stat[bg_opponent.Custom('DE_END_PRO_S_N')] solo sfortunat[bg_opponent.Custom('DE_END_PRO_S_N')].""
- board_games.0001.desc.opponent_winning.trait.deceitful:1 ""Non prendetevela troppo," mi tranquillizza [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], con voce dolce come il miele ma caustica come il peccato. "Neanche [bg_opponent.GetFaith.TricksterGodName] riuscirebbe a seguire le mie mosse.""
+board_games.0001.desc.opponent_winning.trait.deceitful: 1 "«Non sentirti troppo mal[Select_CString(bg_myself.IsFemale,'a','e')]», mormora il mio avversario, con voce melliflua. «Neppure [bg_opponent.GetFaith.TricksterGodName] riuscirebbe a seguire le mie mosse.»"
  board_games.0001.desc.opponent_winning.trait.honest:0 ""Caspita, sta andando tutto #EMP molto#! meglio di quanto mi aspettassi!" esclama [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Non siete affatto un avversario difficile... Oh, scusate, non volevo essere scortese. Semplicemente onesto.""
  board_games.0001.desc.opponent_winning.trait.craven:0 ""Io... sto vincendo? Sto vincendo!" urla [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. Sembra sinceramente sorpres[bg_opponent.Custom('DE_END_PRO_S_N')], poi,però, #EMP ha#! trascorso metà della partita a guardare attraverso le dita."
  board_games.0001.desc.opponent_winning.trait.brave:0 ""Permettetemi di sorridere", rimarca [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Ma dovrete giocare più audacemente di #EMP così#! per #EMP battermi#!""
@@ -91,7 +91,7 @@
  board_games.0001.desc.opponent_winning.other.avlf:0 ""Voi siete un[bg_opponent.Custom('DE_PRO_POS_P_2P')] espert[bg_opponent.Custom('DE_END_PRO_S_N')] del gioco? Non adulatevi troppo, [bg_myself.GetFirstNameNoTooltip]. Non siete neppure un[bg_opponent.Custom('DE_PRO_POS_P_2P')] gioca[bg_opponent.Custom('DE_END_NOU_S_GS_N')].""
 
  ##################################################
- # Player Winning 
+ # Player Winning
  board_games.0001.desc.i_am_winning.diplomacy.low:0 ""Io non... non posso... Andateci piano con me!" urla [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], chiaramente frustrato e incapace di trovare le parole giuste."
  board_games.0001.desc.i_am_winning.diplomacy.medium:0 "[bg_opponent.Custom('DE_ART_DEF_P_D')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')] non dice nulla, limitandosi a tamburellare le dita sul tavolo in preda alla rabbia."
  board_games.0001.desc.i_am_winning.diplomacy.high:0 ""Sembrerebbe," ringhia [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "che mi abbiate messo in una posizione di leggero svantaggio. Per ora.""
@@ -115,7 +115,7 @@
  board_games.0001.desc.i_am_winning.trait.generous:0 "[bg_opponent.Custom('DE_ART_DEF_P_D')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')] mi sorride gentilmente. "State facendo #EMP talmente#! bene, continuate così!""
  board_games.0001.desc.i_am_winning.trait.lazy:0 ""Oh, è il mio turno?", sbadiglia [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Scusate, non stavo prestando #EMP molta#! attenzione.""
  board_games.0001.desc.i_am_winning.trait.diligent:0 ""Sì, ora siete in vantaggio," predica [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "ma con un po' di impegno, posso recuperare!""
- board_games.0001.desc.i_am_winning.trait.wrathful:0 "Una vena particolarmente antiestetica [bg_opponent.Custom('MaskFace_BehindIn')] sul [bg_opponent.Custom('MaskFace')] del[bg_opponent.Custom('DE_END_ADJ_NUL_S_N')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Se continuerete a vincere, vomiterò sangue #EMP letteralmente#! su tutto il tavolo, [bg_myself.Custom('InsultNoun')] bar[bg_opponent.Custom('DE_END_PRO_S_N')]!""
+board_games.0001.desc.i_am_winning.trait.wrathful: 0 "Una vena particolarmente sgradevole pulsa [bg_opponent.Custom('MaskFace_BehindIn')] la [bg_opponent.Custom('MaskFace')] del mio avversario. «Se continui a vincere, vomiterò sangue #EMP letteralmente#! su questa tavola, [bg_myself.Custom2('InsultNoun', SCOPE.sC('bg_opponent'))]!»"
  board_games.0001.desc.i_am_winning.trait.calm:0 "Il portamento solitamente sereno del[bg_opponent.Custom('DE_END_ADJ_NUL_S_N')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')] è... alterato. Il leggero aggrottamento delle sopracciglia offusca la sua [bg_opponent.Custom('MaskFace_BehindAcross')] [bg_opponent.Custom('MaskFace')]."
  board_games.0001.desc.i_am_winning.trait.patient:0 ""Per il momento potete anche avere il sopravvento," osserva [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "ma prima o poi sbaglierete. Succede sempre.""
  board_games.0001.desc.i_am_winning.trait.impatient:0 ""Per [bg_opponent.GetFaith.HighGodName], avete già vinto, #EMP ok#!?" esclama arrabiat[bg_opponent.Custom('DE_END_PRO_S_N')] [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]t. "Finitela e basta.""
@@ -132,7 +132,7 @@
  board_games.0001.desc.i_am_winning.trait.arbitrary:0 ""Non vedo perché non si possano usare le mie regole," si lamenta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Vi sto dicendo che questo è il modo in cui tutti giocano a [bg_opponent.GetCurrentLocation.GetNameNoTooltip].""
  board_games.0001.desc.i_am_winning.trait.just:0 ""Non posso provarlo," mormora [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "ma io sono #EMP cert[bg_opponent.Custom('DE_END_PRO_S_N')]#! che state imbrogliando.""
  board_games.0001.desc.i_am_winning.trait.cynical:0 ""Naturalmente state vincendo", dice gemendo [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], con aria triste. "Nessuno #EMP mai#! mi lascia vincere una partita a [SCOPE.Custom('BG_GameType')]"."
- board_games.0001.desc.i_am_winning.trait.zealous:0 ""[bg_opponent.GetFaith.KnowledgeGodName] liberami da questa minaccia," borbotta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')] sottovoce."
+board_games.0001.desc.i_am_winning.trait.zealous: 0 "«Per [bg_opponent.GetFaith.KnowledgeGodName]! Liberami da questa minaccia», borbotta il mio avversario a bassa voce."
  board_games.0001.desc.i_am_winning.trait.paranoid:0 ""Lo avevate programmato, vero?", sbotta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Avete pianificato di #EMP umiliarmi#! con una partita truccata!""
  board_games.0001.desc.i_am_winning.trait.trusting:0 ""Per [bg_opponent.GetFaith.KnowledgeGodName]," si lamenta [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')]. "Pensate che vi abbia concesso troppe aperture? Non mi aspettavo di perdere tanto male e così in fretta.""
  board_games.0001.desc.i_am_winning.trait.compassionate:0 ""Sapete," riflette con attenzione [bg_opponent.Custom('DE_ART_DEF_P_A')] mi[bg_opponent.Custom('DE_END_PRO_S_N')] avversari[bg_opponent.Custom('DE_END_PRO_S_N')], "Lo scopo di questo gioco, [SCOPE.Custom('BG_GameType')], dovrebbe essere #EMP divertirsi #!, non solo vincere a ogni costo.""
@@ -172,7 +172,7 @@
  ##################################################
  # Introductions
  board_games.0001.desc.intro.opening.defender:0 "[bg_opponent.GetTitledFirstName] è già in attesa di iniziare la nostra piccola partita a [SCOPE.Custom('BG_GameType')], sedut[bg_opponent.Custom('DE_END_PRO_S_N')] ad aspettare con un[bg_opponent.Custom('DE_PRO_POS_P_2P')] #color_blue_gray [bg_myself.Custom('BG_RandomFacialExpression')]#! sul suo viso."
- board_games.0001.desc.intro.opening.attacker:0 "[bg_opponent.GetTitledFirstName] si siede di fronte a me. La nostra piccola partita a [SCOPE.Custom('BG_GameType')] sta per iniziare e [bg_opponent.Custom('DE_ART_DEF_P_A')] su[bg_opponent.Custom('DE_END_PRO_S_N')] #color_blue_gray [SCOPE.Custom('BG_RandomFacialExpression')]#! mi fa capire esattamente quanto [bg_opponent.GetFirstName] sia fiducios[bg_opponent.Custom('DE_END_PRO_S_N')].\n\n[bg_opponent.Custom('DE_ART_IND_D')] inizia, aprendo con"
+board_games.0001.desc.intro.opening.attacker: 0 "[bg_opponent.Custom('IT_NAM_COL3')][bg_opponent.GetTitledFirstName] prende posto di fronte a me. La nostra piccola partita a [SCOPE.Custom('BG_GameType')] sta per iniziare, e un #color_blue_gray [SCOPE.Custom('BG_RandomFacialExpression')]#! mi rivela esattamente quanto sia sicur[Select_CString(bg_opponent.IsFemale,'a','o')] di sé il [bg_myself.Custom2('RelationToMeShort', bg_opponent)].\n\n[Select_CString(bg_opponent.IsFemale,'Lei','Lui')] apre per prim[Select_CString(bg_opponent.IsFemale,'a','o')], iniziando con"
  board_games.0001.desc.intro.subsequent:0 "La nostra partita prosegue, [bg_opponent.GetFirstName] continua con"
 
  ##################################################
@@ -395,7 +395,7 @@
  ##################################################
  # Ending Events
  board_games.0031.t:0 "$board_games.0000.t$"
- 
+
 
  board_games.0031.desc.intro.01:0 "Con un ruggito di trionfo, mi alzo in piedi, sparpagliando [SCOPE.Custom('BG_GamePiecePlural')] ovunque."
  board_games.0031.desc.intro.02:0 "Con un sorriso compiaciuto, posiziono il mio ultimo [SCOPE.Custom('BG_GamePiece')] sulla scacchiera."
@@ -408,12 +408,12 @@
  board_games.0031.desc.end.01:0 "\n\nUn[bg_loser.Custom('DE_PRO_POS_P_2P')] desolat[bg_loser.Custom('DE_END_PRO_S_N')] [bg_loser.GetFirstName] rimane sedut[bg_loser.Custom('DE_END_PRO_S_N')], mani sui fianchi, cercando di capire dove abbia sbagliato."
  board_games.0031.desc.end.02:0 "\n\nDi [bg_loser.GetFirstName] non rimane altro che un'ombra dell[bg_loser.Custom('DE_PRO_PER_S_3P_N')][bg_loser.GetWomanMan] che era. [bg_loser.GetSheHe|U] non riesce a credere che io abbia vinto."
  board_games.0031.desc.end.03:0 "\n\n[bg_loser.GetFirstName] riesce a malapena a mantenere il controllo. L[bg_loser.Custom('DE_PRO_PER_S_3P_N')]ho battut[bg_loser.Custom('DE_END_PRO_S_N')] e umiliat[bg_loser.Custom('DE_END_PRO_S_N')]."
- 
- 
+
+
  board_games.0031.a:0 "Bella partita!"
  board_games.0031.a.a:0 "Un'ottima partita!"
  board_games.0031.b:0 "Cosa si prova a perdere, piccol[bg_loser.Custom('DE_END_PRO_S_N')] [bg_loser.GetWomanMan]?"
- board_games.0031.b.a:1 "Inchinati dinanzi a me [bg_loser.Custom('InsultNoun')]!"
+board_games.0031.b.a: 1 "Inginocchiati davanti a me, [bg_loser.Custom2('InsultNoun', ROOT.Char)]!"
  board_games.0031.b.b:0 "Non abbattetevi #EMP troppo#!, non tutti possono essere astuti quanto me."
  board_games.0031.b.progress_towards_rival:0 "[bg_loser.GetTitledFirstName] la prende sul personale"
  board_games.0031.c:0 "Mi piacerebbe giocare di nuovo qualche volta..."
@@ -435,7 +435,7 @@
 
  board_games.0041.desc.end.01:0 "\n\nSono davvero così #EMP scars[ROOT.Char.Custom('DE_END_PRO_S_N')]#! a [SCOPE.Custom('BG_GameType')]?"
  board_games.0041.desc.end.02:0 "\n\nLe mie mani sudano e le mie ginocchia cedono quando mi rendo conto che il meglio delle mie capacità non è sufficiente per battere [bg_victor.GetFirstName]."
- board_games.0041.desc.end.03:0 "\n\nQuel[bg_victor.Custom('DE_END_ADJ_NUL_S_N')] [recipient.Custom('InsultNoun')]! Quel[bg_victor.Custom('DE_END_ADJ_NUL_S_N')] [recipient.Custom('InsultNoun')]! Non è possibile che non abbia imbrogliato, come #EMP ho#! potuto perdere?!"
+board_games.0041.desc.end.03: 0 "\n\nQuel [recipient.Custom2('InsultNoun', ROOT.Char)]! Quel [recipient.Custom2('InsultNoun', ROOT.Char)]! Non c'è modo che non abbia barato, come ho potuto perdere #EMP io#!?!"
 
  board_games.0041.a:0 "Vedremo chi vincerà la prossima volta..."
  board_games.0041.b:0 "Oggi vi siete fatt[bg_victor.Custom('DE_END_PRO_S_N')] un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nemic[ROOT.Char.Custom('DE_END_PRO_S_N')]."
@@ -459,4 +459,3 @@
  board_games.0102.a:0 "Una partita normale, per favore."
  board_games.0102.b:0 "Solo l'avversario utilizza le locazioni vincenti, per favore."
  board_games.0102.c:0 "Solo l'avversario utilizza le locazioni perdenti, per favore."
- 

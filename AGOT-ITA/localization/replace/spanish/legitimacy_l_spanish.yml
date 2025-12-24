@@ -1,4 +1,4 @@
-﻿l_spanish: 
+﻿l_spanish:
  #start AGOT modofiche
  default_legitimacy_level_3_flavor: "Lecito"
  default_legitimacy_level_4_flavor: "Legittimo"
@@ -11,21 +11,33 @@
  default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_4: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_5: "[legitimacy|E] $LEVEL|V:roman$"
+default_legitimacy_level_6: "[legitimacy|E] $LEVEL|V:roman$"
+default_legitimacy_level_7: "[legitimacy|E] $LEVEL|V:roman$"
+default_legitimacy_level_8: "[legitimacy|E] $LEVEL|V:roman$"
  default_legitimacy_level_0_flavor: "Illegittimo"
  default_legitimacy_level_1_flavor: "Aspirante"
  default_legitimacy_level_2_flavor: "Riconosciuto"
  default_legitimacy_level_3_flavor: "Legittimo"
  default_legitimacy_level_4_flavor: "Vero"
  default_legitimacy_level_5_flavor: "Consacrato"
+default_legitimacy_level_6_flavor: "Destinato"
+default_legitimacy_level_7_flavor: "Cosmico"
+default_legitimacy_level_8_flavor: "Eterno"
+mandate_legitimacy_level_7_flavor: "Celestiale"
 
  count_legitimacy_type_name: "[rank|E] di [count|E]"
  duke_legitimacy_type_name: "[rank|E] [Concept('duke','Ducale')|E]"
  king_legitimacy_type_name: "[rank|E] [Concept('kingdom','Reale')|E]"
  emperor_legitimacy_type_name: "[rank|E] [Concept('emperor','Imperiale')|E]"
+hegemon_legitimacy_type_name: "[rank|E] di [hegemon|E]"
  nomadic_legitimacy_type_name: "[GetGovernment( 'nomad_government' ).GetName] [ruler|E]"
+mandate_legitimacy_type_name: "[rank|E] del [mandate_of_heaven|E]"
+mandala_legitimacy_type_name: "[ruler|E] [GetGovernment( 'mandala_government' ).GetName]"
 
- LEGITIMACY_EFFECTS: "#S Effetti:#!\n[LegitimacyLevel.GetModifierDesc]"
+LEGITIMACY_CHANGED_EFFECTS: "\n[LegitimacyLevel.GetOnLevelEnteredDesc( Character.Self )]"
+LEGITIMACY_EFFECTS: "$LEGITIMACY_CHANGED_EFFECTS$#S Effetti:#!\n[LegitimacyLevel.GetModifierDesc]"
  LEGITIMACY_AVERAGE_EXPECTATIONS: "#S [Select_CString(Character.IsLocalPlayer,'La tua','')|U] [Concept( 'expected_legitimacy', 'Legittimità' )|E] Media [Concept( 'expected_legitimacy', 'Prevista' )|E] [Select_CString(Character.IsLocalPlayer,'','di')] [Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)|U]:#!\n$BULLET$[powerful_vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAveragePowerfulVassalLegitimacyExpectation )|V] #weak ([Character.GetAveragePowerfulVassalLegitimacyExpectation.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!\n$BULLET$[vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAverageVassalLegitimacyExpectation )|V] #weak ([Character.GetAverageVassalLegitimacyExpectation.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
+LEGITIMACY_AVERAGE_EXPECTATIONS_NO_POWERFUL_VASSALS: "#S [Character.GetShortUINamePossessive|U] [expected_legitimacy|E] media:#!\n$BULLET$[vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAverageVassalLegitimacyExpectation )|V] #weak ([Character.GetAverageVassalLegitimacyExpectation.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
  LEGITIMACY_BELOW_AVERAGE_EXPECTATIONS: "@warning_icon! #X Al di sotto della Legittimità Prevista di tutti i Vassalli#!"
  VASSAL_BELOW_EXPECTED_LEGITIMACY_TT: "\n@warning_icon! #X [legitimacy_levels|E] al di sotto delle sue aspettative: [Subtract_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex )|V]#!"
  VASSAL_EXPECTED_LEGITIMACY_TT: "#T [expected_legitimacy|E]: [Character.GetLegitimacyExpectationsOfLiege]#![AddLocalizationIf( GreaterThan_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex ), 'VASSAL_BELOW_EXPECTED_LEGITIMACY_TT' )]"
@@ -34,8 +46,11 @@
  legitimacy_hud_tt: "Governante [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
  legitimacy_hud_tt_subheading: "[legitimacy_level|E] per [LegitimacyType.GetName]" #controllare
  legitmacy_flavor_and_level: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )|V] #weak ([LegitimacyLevel.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
- LEGITIMACY_TRACK_TITLE: "Legittimità [Character.GetLegitimacy|V^]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^]"
+ LEGITIMACY_TRACK_TITLE: "Legittimità [Character.GetLegitimacy|V^0]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^0]"
  LEGITIMACY_TRACK_TOOLTIP: "#T [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )]#!\nRichiede almeno [LegitimacyLevel.GetThreshold( Character.Self )|V^] Legittimità\n\n$LEGITIMACY_EFFECTS$"
 
  legitimacy_high_modifier_tt: "Alta [legitimacy|E]"
  legitimacy_low_modifier_tt: "Bassa [legitimacy|E]"
+
+legitimacy_on_level_entered: "#S Al cambio di livello:#!\n"
+legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Attiva \"$catalyst_hegemon_lost_mandate_of_heaven$\", che porterà il [dynastic_cycle|E] nella [situation_dynastic_cycle_phase|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]#!"

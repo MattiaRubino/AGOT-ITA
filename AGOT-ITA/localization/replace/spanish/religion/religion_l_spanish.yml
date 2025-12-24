@@ -5,11 +5,8 @@
  doctrine_parameter_kinslaying_any_dynasty_member_crime:0 "[kinslayers|E] con il tratto [GetTrait('kinslayer_1').GetName( GetPlayer )] [trait|E] o superiore, sei considerato un [criminale|E] agli occhi della tua [house|E]"
  doctrine_parameter_kinslaying_extended_family_crime:0 "[kinslayers|E] con il tratto [GetTrait('kinslayer_2').GetName( GetPlayer )] [trait|E] o superiore, sei considerato un [criminale|E] agli occhi della tua [house|E]"
  doctrine_parameter_kinslaying_close_kin_crime:0 "[kinslayers|E] con il tratto [GetTrait('kinslayer_3').GetName( GetPlayer )] [trait|E], sei considerato un [criminale|E] agli occhi della tua [house|E]"
-
+ 
  #End AGOT modifiche
-
-
-
 
  RELIGION_LOC_PLACEHOLDER:0 "#D PLACEHOLDER!#!"
 
@@ -40,7 +37,7 @@
  FERVOR_GAIN_FROM_HOLY_SITES:0 "Dai [holy_sites|E]"
  PIETY_HEAD_OF_FAITH:0 "[head_of_faith|E]"
  FERVOR_GAIN_SIZE_MODIFIER:0 "Dimensione della [faith|E]"
- 
+
  #One-time fervor changes
  fervor_gain_built_temple_holding:0 "Nuova Proprietà Religiosa a [temple_location.GetName]"
  fervor_gain_upgraded_temple_holding_culture_parameter:0 "Proprietà Religiosa Migliorata #weak (dalla [tradition|E])#!"
@@ -106,7 +103,10 @@
  PIETY_TEXT_ICON_eastern:0 "@piety_icon_eastern!"
  PIETY_TEXT_ICON_judaism:0 "@piety_icon_judaism!"
  PIETY_TEXT_ICON_zoroastrian:0 "@piety_icon_zoroastrian!"
+PIETY_TEXT_ICON_confucianism: 0 "@piety_icon_confucianism!"
+PIETY_TEXT_ICON_taoism: 0 "@piety_icon_taoism!"
 
+faith_conversion_cost_confucian_education: "[GetTrait('confucian_education').GetName(GetNullCharacter)] [trait_level_track_xp|E]"
  faith_conversion_cost_reformed_converting_to_unreformed:1 "Conversione da una Fede [organized|E] ad una Fede non riformata"
  faith_conversion_cost_feudal_converting_to_unreformed:0 "Sovrano Feudale che si converte ad una fede non riformata"
  faith_conversion_cost_clan_converting_to_unreformed:0 "Sovrano di Clan che si converte ad una fede non riformata"
@@ -129,7 +129,10 @@
  faith_conversion_cost_conversion_blocked_till_decision_taken:0 "Questa [faith|E] deve essere sbloccata tramite una [decision|E]"
  faith_conversion_cost_conversion_blocked_till_nebulous_circumstances:0 "Questa [faith|E] deve essere sbloccata tramite #EMP circostanze misteriose#!"
  faith_conversion_cost_unreformed_to_organized:0 "La [faith|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] si converte ad una [faith] [organized|E]"
+faith_conversion_cost_suzerains_missionary: "Un missionario del tuo [suzerain|E] sta promuovendo questa [faith|E] alla tua corte"
+faith_conversion_cost_immaterial_harmony: "Conversione a un’altra [GetFaithDoctrine('special_doctrine_immaterial_harmony').GetBaseName] [faith|E]"
  faith_reformation_via_decision:0 "Questa [faith|E] può essere riformata solo tramite la [decision|E]"
+
  MINIMUM_FAITH_CONVERSION_PIETY_COST:0 "Costo Minimo: [GetLocalPlayerPietyTextIcon]$VALUE|V$"
 
  faith_conversion_cost_fervor_difference:0 "Differenza di [fervor|E]"
@@ -264,6 +267,7 @@
  holy_site_hamadan_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_hamadan_name$)#!"
  holy_site_babylon_name:0 "Babilonia"
  holy_site_babylon_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_babylon_name$)#!"
+
  #Holy Sites: Dualism
  holy_site_khozistan_name:0 "Khozistan"
  holy_site_khozistan_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_khozistan_name$)#!"
@@ -304,6 +308,41 @@
  holy_site_ava_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_ava_name$)#!"
  holy_site_sittaung_name:0 "Sittaung"
  holy_site_sittaung_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_sittaung_name$)#!"
+holy_site_shaolin_name: "Shaolin"
+holy_site_shaolin_effect_name: "Da [holy_site|E] #weak ($holy_site_shaolin_name$)#!"
+holy_site_lingyin_name: "Lingyin"
+holy_site_lingyin_effect_name: "Da [holy_site|E] #weak ($holy_site_shaolin_name$)#!"
+holy_site_wutai_name: "Monte Wutai"
+holy_site_wutai_effect_name: "Da [holy_site|E] #weak ($holy_site_wutai_name$)#!"
+holy_site_emei_name: "Monte Emei"
+holy_site_emei_effect_name: "Da [holy_site|E] #weak ($holy_site_emei_name$)#!"
+holy_site_jiuhua_name: "Monte Jiuhua"
+holy_site_jiuhua_effect_name: "Da [holy_site|E] #weak ($holy_site_jiuhua_name$)#!"
+holy_site_putuo_name: "Monte Putuo"
+holy_site_putuo_effect_name: "Da [holy_site|E] #weak ($holy_site_putuo_name$)#!"
+holy_site_luoyang_name: "Luoyang"
+holy_site_luoyang_effect_name: "Da [holy_site|E] #weak ($holy_site_luoyang_name$)#!"
+holy_site_bulguksa_name: "Bulguksa"
+holy_site_bulguksa_effect_name: "Da [holy_site|E] #weak ($holy_site_bulguksa_name$)#!"
+holy_site_xi_an_name: "Xi'an"
+holy_site_xi_an_effect_name: "Da [holy_site|E] #weak ($holy_site_xi_an_name$)#!"
+holy_site_magadha_name: "Magadha"
+holy_site_magadha_effect_name: "Da [holy_site|E] #weak ($holy_site_magadha_name$)#!"
+holy_site_dali_name: "Dali"
+holy_site_dali_effect_name: "Da [holy_site|E] #weak ($holy_site_dali_name$)#!"
+holy_site_mungyeong_name: "Mungyeong"
+holy_site_mungyeong_effect_name: "Da [holy_site|E] #weak ($holy_site_mungyeong_name$)#!"
+holy_site_borobudur_name: 0 "Borobudur"
+holy_site_borobudur_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_borobudur_name$)#!"
+holy_site_muara_takus_name: 0 "Muara Takus"
+holy_site_muara_takus_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_muara_takus_name$)#!"
+holy_site_kalasan_name: 0 "Kalasan"
+holy_site_kalasan_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_kalasan_name$)#!"
+holy_site_bupaya_name: 0 "Bupaya"
+holy_site_bupaya_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_bupaya_name$)#!"
+holy_site_bayon_name: 0 "Bayon"
+holy_site_bayon_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_bayon_name$)#!"
+
 
  #Holy Sites: Hinduism
  holy_site_varanasi_name:0 "Varanasi"
@@ -320,6 +359,28 @@
  holy_site_ujjayini_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_ujjayini_name$)#!"
  holy_site_dwarka_name:0 "Dwarka"
  holy_site_dwarka_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_dwarka_name$)#!"
+holy_site_angkor_name: 0 "Angkor"
+holy_site_angkor_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_angkor_name$)#!"
+holy_site_bantey_srei_name: 0 "Bantey Srei"
+holy_site_bantey_srei_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_bantey_srei_name$)#!"
+holy_site_prambanan_name: 0 "Prambanan"
+holy_site_prambanan_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_prambanan_name$)#!"
+holy_site_preah_vihear_name: 0 "Preah Vihear"
+holy_site_preah_vihear_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_preah_vihear_name$)#!"
+holy_site_my_son_name: 0 "My Son"
+holy_site_my_son_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_my_son_name$)#!"
+holy_site_bumiayu_name: 0 "Bumiayu"
+holy_site_bumiayu_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_bumiayu_name$)#!"
+holy_site_khao_khlang_nai_name: 0 "Khao Khlang Nai"
+holy_site_khao_khlang_nai_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_khao_khlang_nai_name$)#!"
+holy_site_konarak_name: 0 "Konarak"
+holy_site_konarak_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_konarak_name$)#!"
+holy_site_shringeri_name: 0 "Shringeri"
+holy_site_shringeri_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_shringeri_name$)#!"
+holy_site_badrinath_name: 0 "Badrinath"
+holy_site_badrinath_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_badrinath_name$)#!"
+holy_site_puri_name: 0 "Puri"
+holy_site_puri_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_puri_name$)#!"
 
  #Holy sites: Jain
  holy_site_palitana_name:0 "Palitana"
@@ -481,7 +542,7 @@
  holy_site_ob_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_ob_name$)#!"
  holy_site_olkhon_name:0 "Olkhon"
  holy_site_olkhon_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_olkhon_name$)#!"
-
+ 
  #Holy Sites: Basque
  holy_site_viscaya_name:0 "$c_viscaya$"
  holy_site_viscaya_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_viscaya_name$)#!"
@@ -489,7 +550,7 @@
  holy_site_aneto_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_aneto_name$)#!"
  holy_site_bordeaux_name:0 "$c_bordeaux$"
  holy_site_bordeaux_effect_name:0 "Dal [holy_site|E] #weak ($holy_site_bordeaux_name$)#!"
- 
+
  #Holy Sites: Hellenic
  holy_site_athens_name:0 "Atene"
  holy_site_athens_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_athens_name$)#!"
@@ -524,6 +585,25 @@
  # Holy Sites: Taoism
  holy_site_suzhou_name:0 "Suzhou"
  holy_site_suzhou_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_suzhou_name$)#!"
+holy_site_mount_heng_name: 0 "Monte Heng"
+holy_site_mount_heng_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_heng_name$)#!"
+holy_site_mount_longhu_name: 0 "Monte Longhu"
+holy_site_mount_longhu_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_longhu_name$)#!"
+holy_site_mount_qingcheng_name: 0 "Monte Qingcheng"
+holy_site_mount_qingcheng_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_qingcheng_name$)#!"
+holy_site_mount_tai_name: 0 "Monte Tai"
+holy_site_mount_tai_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_tai_name$)#!"
+holy_site_mount_mian_name: 0 "Monte Mian"
+holy_site_mount_mian_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_mian_name$)#!"
+holy_site_mount_kunyu_name: 0 "Monte Kunyu"
+holy_site_mount_kunyu_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_kunyu_name$)#!"
+holy_site_mount_wudang_name: 0 "Monte Wudang"
+holy_site_mount_wudang_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_wudang_name$)#!"
+holy_site_mount_qiyung_name: 0 "Monte Qiyung"
+holy_site_mount_qiyung_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_mount_qiyung_name$)#!"
+holy_site_luyi_name: 0 "Luyi"
+holy_site_luyi_effect_name: 0 "Da [holy_site|E] #weak ($holy_site_luyi_name$)#!"
+
 
  #Holy Sites: Siguic
  holy_site_awkar_name:0 "Awkar"
@@ -600,9 +680,235 @@
  holy_site_mogadishu_name:0 "Mogadiscio"
  holy_site_mogadishu_effect_name:0 "Dal [holy_site|E] di #weak ($holy_site_mogadishu_name$)#!"
 
+holy_site_kirinyaga_name: "Kirinyaga"
+holy_site_kirinyaga_effect_name: "Da [holy_site|E] #weak ($holy_site_kirinyaga_name$)#!"
+holy_site_mangea_name: "Mangea"
+holy_site_mangea_effect_name: "Da [holy_site|E] #weak ($holy_site_mangea_name$)#!"
+holy_site_kilimanjaro_name: "Kilimanjaro"
+holy_site_kilimanjaro_effect_name: "Da [holy_site|E] #weak ($holy_site_kilimanjaro_name$)#!"
+
+holy_site_wenang_name: "Wenang"
+holy_site_wenang_effect_name: "Da [holy_site|E] #weak ($holy_site_wenang_name$)#!"
+holy_site_siang_name: "Siang"
+holy_site_siang_effect_name: "Da [holy_site|E] #weak ($holy_site_siang_name$)#!"
+holy_site_butun_name: "Butun"
+holy_site_butun_effect_name: "Da [holy_site|E] #weak ($holy_site_butun_name$)#!"
+holy_site_banggai_name: "Banggai"
+holy_site_banggai_effect_name: "Da [holy_site|E] #weak ($holy_site_banggai_name$)#!"
+holy_site_buru-sula_name: "Buru-Sula"
+holy_site_buru-sula_effect_name: "Da [holy_site|E] #weak ($holy_site_buru-sula_name$)#!"
+
+holy_site_tengchong_name: "Tengchong"
+holy_site_tengchong_effect_name: "Da [holy_site|E] #weak ($holy_site_tengchong_name$)#!"
+holy_site_shicheng_name: "Shicheng"
+holy_site_shicheng_effect_name: "Da [holy_site|E] #weak ($holy_site_shicheng_name$)#!"
+holy_site_jinglong_name: "Jinglong"
+holy_site_jinglong_effect_name: "Da [holy_site|E] #weak ($holy_site_jinglong_name$)#!"
+holy_site_jianchang_name: "Jianchang"
+holy_site_jianchang_effect_name: "Da [holy_site|E] #weak ($holy_site_jianchang_name$)#!"
+holy_site_xuhen_name: "Xuhen"
+holy_site_xuhen_effect_name: "Da [holy_site|E] #weak ($holy_site_xuhen_name$)#!"
+
+holy_site_zhaotong_name: "Zhaotong"
+holy_site_zhaotong_effect_name: "Da [holy_site|E] #weak ($holy_site_zhaotong_name$)#!"
+holy_site_zuining_name: "Zuining"
+holy_site_zuining_effect_name: "Da [holy_site|E] #weak ($holy_site_zuining_name$)#!"
+
+holy_site_cotabato_name: "Cotabato"
+holy_site_cotabato_effect_name: "Da [holy_site|E] #weak ($holy_site_cotabato_name$)#!"
+holy_site_biri_larosa_name: "Biri Larosa"
+holy_site_biri_larosa_effect_name: "Da [holy_site|E] #weak ($holy_site_biri_larosa_name$)#!"
+holy_site_mantalingajan_name: "Mantalingajan"
+holy_site_mantalingajan_effect_name: "Da [holy_site|E] #weak ($holy_site_mantalingajan_name$)#!"
+holy_site_pinatubo_name: "Pinatubo"
+holy_site_pinatubo_effect_name: "Da [holy_site|E] #weak ($holy_site_pinatubo_name$)#!"
+holy_site_pulag_name: "Pulag"
+holy_site_pulag_effect_name: "Da [holy_site|E] #weak ($holy_site_pulag_name$)#!"
+
+holy_site_hsenwi_name: "Hsenwi"
+holy_site_hsenwi_effect_name: "Da [holy_site|E] #weak ($holy_site_hsenwi_name$)#!"
+holy_site_sukhothai_name: "Sukhothai"
+holy_site_sukhothai_effect_name: "Da [holy_site|E] #weak ($holy_site_sukhothai_name$)#!"
+holy_site_vien_chan_name: "Vien Chan"
+holy_site_vien_chan_effect_name: "Da [holy_site|E] #weak ($holy_site_vien_chan_name$)#!"
+holy_site_cao_bang_name: "Cao Bang"
+holy_site_cao_bang_effect_name: "Da [holy_site|E] #weak ($holy_site_cao_bang_name$)#!"
+holy_site_phayao_name: "Phayao"
+holy_site_phayao_effect_name: "Da [holy_site|E] #weak ($holy_site_phayao_name$)#!"
+
+holy_site_tarayka_name: "Tarayka"
+holy_site_tarayka_effect_name: "Da [holy_site|E] #weak ($holy_site_tarayka_name$)#!"
+holy_site_molihewen_name: "Molihewen"
+holy_site_molihewen_effect_name: "Da [holy_site|E] #weak ($holy_site_molihewen_name$)#!"
+holy_site_yizhou_name: "Yizhou"
+holy_site_yizhou_effect_name: "Da [holy_site|E] #weak ($holy_site_yizhou_name$)#!"
+holy_site_yam_alin_name: "Yam Alin"
+holy_site_yam_alin_effect_name: "Da [holy_site|E] #weak ($holy_site_yam_alin_name$)#!"
+holy_site_kunasir_name: "Kunasir"
+holy_site_kunasir_effect_name: "Da [holy_site|E] #weak ($holy_site_kunasir_name$)#!"
+
+holy_site_amandee_name: "Amandee"
+holy_site_amandee_effect_name: "Da [holy_site|E] #weak ($holy_site_amandee_name$)#!"
+holy_site_sefa_utaki_name: "Sefa Utaki"
+holy_site_sefa_utaki_effect_name: "Da [holy_site|E] #weak ($holy_site_sefa_utaki_name$)#!"
+holy_site_tate_name: "Tate"
+holy_site_tate_effect_name: "Da [holy_site|E] #weak ($holy_site_tate_name$)#!"
+holy_site_fuzhou_name: "Fuzhou"
+holy_site_fuzhou_effect_name: "Da [holy_site|E] #weak ($holy_site_fuzhou_name$)#!"
+
+holy_site_iban_name: "Iban"
+holy_site_iban_effect_name: "Da [holy_site|E] #weak ($holy_site_iban_name$)#!"
+holy_site_kudat_name: "Kudat"
+holy_site_kudat_effect_name: "Da [holy_site|E] #weak ($holy_site_kudat_name$)#!"
+holy_site_taiao_name: "Taiao"
+holy_site_taiao_effect_name: "Da [holy_site|E] #weak ($holy_site_taiao_name$)#!"
+holy_site_sukadana_name: "Sukadana"
+holy_site_sukadana_effect_name: "Da [holy_site|E] #weak ($holy_site_sukadana_name$)#!"
+holy_site_kutai_name: "Kutai"
+holy_site_kutai_effect_name: "Da [holy_site|E] #weak ($holy_site_kutai_name$)#!"
+ 
+holy_site_qufu_name: "Qufu"
+holy_site_qufu_effect_name: "Da [holy_site|E] #weak ($holy_site_qufu_name$)#!"
+holy_site_quzhou_name: "Quzhou"
+holy_site_quzhou_effect_name: "Da [holy_site|E] #weak ($holy_site_quzhou_name$)#!"
+holy_site_linzi_name: "Linzi"
+holy_site_linzi_effect_name: "Da [holy_site|E] #weak ($holy_site_linzi_name$)#!"
+holy_site_bianliang_name: "Bianliang"
+holy_site_bianliang_effect_name: "Da [holy_site|E] #weak ($holy_site_bianliang_name$)#!"
+
+ #Holy Sites: Kamuyism
+
+holy_site_nutapkauspe_name: "Nutapkauspe"
+holy_site_nutapkauspe_effect_name: "Da [holy_site|E] #weak ($holy_site_nutapkauspe_name$)#!"
+holy_site_makkarinupuri_name: "Makkarinupuri"
+holy_site_makkarinupuri_effect_name: "Da [holy_site|E] #weak ($holy_site_makkarinupuri_name$)#!"
+holy_site_kamuykotan_name: "Kamuykotan"
+holy_site_kamuykotan_effect_name: "Da [holy_site|E] #weak ($holy_site_kamuykotan_name$)#!"
+holy_site_hitakami_name: "Hitakami River"
+holy_site_hitakami_effect_name: "Da [holy_site|E] #weak ($holy_site_hitakami_name$)#!"
+
+ #Holy Sites: Hantuism
+
+holy_site_hoanya_name: "Hoanya"
+holy_site_hoanya_effect_name: "Da [holy_site|E] #weak ($holy_site_hoanya_name$)#!"
+holy_site_qiongzhou_name: "Qiongzhou"
+holy_site_qiongzhou_effect_name: "Da [holy_site|E] #weak ($holy_site_qiongzhou_name$)#!"
+holy_site_sonba_i_name: "Sonba-i"
+holy_site_sonba_i_effect_name: "Da [holy_site|E] #weak ($holy_site_sonba_i_name$)#!"
+holy_site_riak_nan_berbedur_name: "Riak Nan Berbedur"
+holy_site_riak_nan_berbedur_effect_name: "Da [holy_site|E] #weak ($holy_site_riak_nan_berbedur_name$)#!"
+
+ #Holy Sites: Tolotang
+
+holy_site_amparita_name: "Amparita"
+holy_site_amparita_effect_name: "Da [holy_site|E] #weak ($holy_site_amparita_name$)#!"
+holy_site_papua_selatan_name: "Papua Selatan"
+holy_site_papua_selatan_effect_name: "Da [holy_site|E] #weak ($holy_site_papua_selatan_name$)#!"
+holy_site_kepala_burung_name: "Kepala Burung"
+holy_site_kepala_burung_effect_name: "Da [holy_site|E] #weak ($holy_site_kepala_burung_name$)#!"
+holy_site_tidore_name: "Tidore"
+holy_site_tidore_effect_name: "Da [holy_site|E] #weak ($holy_site_tidore_name$)#!"
+
+ holy_site_gangganegara_name: "Gangganegara"
+holy_site_gangganegara_effect_name: "Da [holy_site|E] #weak ($holy_site_gangganegara_name$)#!"
+
+holy_site_mogao_name: "Mogao"
+holy_site_mogao_effect_name: "Da [holy_site|E] #weak ($holy_site_mogao_name$)#!"
+
+holy_site_sanuki_name: "Sanuki"
+holy_site_sanuki_effect_name: "Da [holy_site|E] #weak ($holy_site_sanuki_name$)#!"
+
+holy_site_isawa_name: "Isawa"
+holy_site_isawa_effect_name: "Da [holy_site|E] #weak ($holy_site_isawa_name$)#!"
+
+holy_site_shimotsuke_name: "Shimotsuke"
+holy_site_shimotsuke_effect_name: "Da [holy_site|E] #weak ($holy_site_shimotsuke_name$)#!"
+
+holy_site_yeongwon_name: "Yeongwon"
+holy_site_yeongwon_effect_name: "Da [holy_site|E] #weak ($holy_site_yeongwon_name$)#!"
+
+holy_site_sunan_name: "Sunan"
+holy_site_sunan_effect_name: "Da [holy_site|E] #weak ($holy_site_sunan_name$)#!"
+
+holy_site_gaeseong_name: "Gaeseong"
+holy_site_gaeseong_effect_name: "Da [holy_site|E] #weak ($holy_site_gaeseong_name$)#!"
+
+holy_site_goseong_name: "Goseong"
+holy_site_goseong_effect_name: "Da [holy_site|E] #weak ($holy_site_goseong_name$)#!"
+
+holy_site_cheongju_name: "Cheongju"
+holy_site_cheongju_effect_name: "Da [holy_site|E] #weak ($holy_site_cheongju_name$)#!"
+
+holy_site_zunyi_name: "Zunyi"
+holy_site_zunyi_effect_name: "Da [holy_site|E] #weak ($holy_site_zunyi_name$)#!"
+
+holy_site_yangtze_name: "Yangtze"
+holy_site_yangtze_effect_name: "Da [holy_site|E] #weak ($holy_site_yangtze_name$)#!"
+
+holy_site_nguu_hong_name: "Nguu Hong"
+holy_site_nguu_hong_effect_name: "Da [holy_site|E] #weak ($holy_site_nguu_hong_name$)#!"
+
+holy_site_haripunjaya_name: "Haripunjaya"
+holy_site_haripunjaya_effect_name: "Da [holy_site|E] #weak ($holy_site_haripunjaya_name$)#!"
+
+holy_site_anlong_name: "Anlong"
+holy_site_anlong_effect_name: "Da [holy_site|E] #weak ($holy_site_anlong_name$)#!"
+
+holy_site_daozhou_name: "Daozhou"
+holy_site_daozhou_effect_name: "Da [holy_site|E] #weak ($holy_site_daozhou_name$)#!"
+
+holy_site_sizhou_name: "Sizhou"
+holy_site_sizhou_effect_name: "Da [holy_site|E] #weak ($holy_site_sizhou_name$)#!"
+
+holy_site_muze_name: "Muze"
+holy_site_muze_effect_name: "Da [holy_site|E] #weak ($holy_site_muze_name$)#!"
+
+holy_site_nanning_name: "Nanning"
+holy_site_nanning_effect_name: "Da [holy_site|E] #weak ($holy_site_nanning_name$)#!"
+
+holy_site_wehale_name: "Wehale"
+holy_site_wehale_effect_name: "Da [holy_site|E] #weak ($holy_site_wehale_name$)#!"
+
+holy_site_dongting_name: "Dongting"
+holy_site_dongting_effect_name: "Da [holy_site|E] #weak ($holy_site_dongting_name$)#!"
+
+holy_site_zhuolu_name: "Zhuolu"
+holy_site_zhuolu_effect_name: "Da [holy_site|E] #weak ($holy_site_zhuolu_name$)#!"
+
+holy_site_turpan_name: "Turpan"
+holy_site_turpan_effect_name: "Da [holy_site|E] #weak ($holy_site_turpan_name$)#!"
+
+holy_site_quanzhou_name: "Quanzhou"
+holy_site_quanzhou_effect_name: "Da [holy_site|E] #weak ($holy_site_quanzhou_name$)#!"
+
+holy_site_awa_name: "Awa"
+holy_site_awa_effect_name: "Da [holy_site|E] #weak ($holy_site_awa_name$)#!"
+
+holy_site_chupka_name: "Chupka"
+holy_site_chupka_effect_name: "Da [holy_site|E] #weak ($holy_site_chupka_name$)#!"
+
+holy_site_tochi_ji_name: "Tōchō-ji"
+holy_site_tochi_ji_effect_name: "Da [holy_site|E] #weak ($holy_site_tochi_ji_name$)#!"
+
+holy_site_ivatan_name: "$c_PHI_ivatan$"
+holy_site_ivatan_effect_name: "Da [holy_site|E] #weak ($holy_site_ivatan_name$)#!"
+
+holy_site_hangzhou_name: "$c_hangzhou$"
+holy_site_hangzhou_effect_name: "Da [holy_site|E] #weak ($holy_site_hangzhou_name$)#!"
+
+holy_site_danai_name: "$b_danai$"
+holy_site_danai_effect_name: "Da [holy_site|E] #weak ($holy_site_danai_name$)#!"
+
+holy_site_nakkavaram_name: "$c_nakkavaram$"
+holy_site_nakkavaram_effect_name: "Da [holy_site|E] #weak ($holy_site_nakkavaram_name$)#!"
+
+holy_site_ar_kol_name: "$biliku_divine_realm$"
+holy_site_ar_kol_effect_name: "Da [holy_site|E] #weak ($holy_site_ar_kol_name$)#!"
+
  rf_abrahamic:0 "Abramitica"
  rf_pagan:0 "Pagana"
- rf_eastern:0 "Orientale"
+rf_eastern: 0 "Dharmica"
+rf_sinitic: "Sinitica"
 
  sinful_theocrat_exposed_title:0 "[sinful_theocrat.Custom('GetActualBishopTitle')] Peccaminoso Scoperto"
  virtuous_theocrat_celebrated_title:0 "Acclamato [virtuous_theocrat.Custom('GetActualBishopTitle')] Virtuoso"
@@ -637,7 +943,7 @@
  doctrine_parameter_warmonger:0 "[at_peace_opinion|E] invece di [offensive_war_opinion|E]"
  doctrine_parameter_increased_dynasty_prestige_birth_mult:0 "[prestige|E] dal [dynasty_prestige_level|E] per i neonati: $VALUE|+=%0$"
  doctrine_parameter_increased_dynasty_prestige_marriage_mult:0 "[prestige|E] dal [dynasty_prestige_level|E] quando [married|E]: $VALUE|+=%0$"
- doctrine_parameter_increased_dynasty_prestige_long_reign_mult:0 "Massimo bonus all'opinione per [long_reign|E]: $VALUE|+=%0$"
+doctrine_parameter_increased_dynasty_prestige_long_reign_mult: 0 "Bonus massimo di [long_reign|E] all'opinione: $VALUE|+=%0$"
  doctrine_parameter_combatant_must_be_female_if_no_roco:0 "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_must_be_female', '' )]"
  doctrine_parameter_combatant_must_be_male_if_no_roco:0 "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_must_be_male', '' )]"
  doctrine_parameter_combatant_can_be_either_gender_if_no_roco:0 "[SelectLocalization( Not(HasDlcFeature( 'diverge_culture' )), 'doctrine_parameter_combatant_can_be_either_gender', '' )]"
@@ -711,8 +1017,10 @@
  abrahamic_hostility_doctrine_desc:0 "Le seguenti religioni sono Abramitiche:\n[GetReligionFamily('rf_abrahamic').GetReligions]"
  pagan_hostility_doctrine_name:0 "Pagano"
  pagan_hostility_doctrine_desc:0 "Le seguenti religioni sono Pagane:\n[GetReligionFamily('rf_pagan').GetReligions]"
- eastern_hostility_doctrine_name:0 "Orientale"
- eastern_hostility_doctrine_desc:0 "Le seguenti religioni sono Orientali:\n[GetReligionFamily('rf_eastern').GetReligions]"
+eastern_hostility_doctrine_name: "Dharmica"
+eastern_hostility_doctrine_desc: "Le seguenti religioni sono dharmiche:\n[GetReligionFamily('rf_eastern').GetReligions]"
+sinitic_hostility_doctrine_name: "Sinitica"
+sinitic_hostility_doctrine_desc: "Le seguenti religioni sono sinitiche:\n[GetReligionFamily('rf_eastern').GetReligions]"
  
  special_tolerance_name:0 "Tolleranza Speciale"
  special_doctrine_ecumenical_christian_name:0 "Ecumenismo"
@@ -781,6 +1089,7 @@
  doctrine_parameter_adultery_female_accepted:1 "Donne col [trait|E] [GetTrait('adulterer').GetName( GetNullCharacter )] o [GetTrait('fornicator').GetName( GetNullCharacter )] sono pienamente accettate"
  
  doctrine_kinslaying_name:0 "Uccisione dei parenti"
+ 
 
  doctrine_parameter_kinslaying_shunned:0 "Gli [kinslayers|E] sono da evitare"
  doctrine_parameter_kinslaying_accepted:0 "I personaggi che uccidono i parenti non sono visti come [kinslayers|E]"
@@ -795,6 +1104,8 @@
  kinslayer_crime_dynasty:0 "Uccisore di parenti"
  
  doctrine_consanguinity_name:0 "Consanguineità"
+doctrine_consanguinity_dynastic_name: "Proibizione lineare"
+doctrine_consanguinity_dynastic_desc: "È severamente proibito sposare chi condivide il tuo cognome e una comune ascendenza, per quanto lontana, e non è accettabile sposare persone di altri cognomi legate da sangue in modo prossimo."
  doctrine_consanguinity_restricted_name:0 "Tabù per Parenti stretti"
  doctrine_consanguinity_restricted_desc:0 "È un peccato contro [ROOT.Faith.HighGodName] permettere a due parenti di sposarsi o di intrattenere relazioni sessuali."
  doctrine_parameter_consanguinity_restricted_marriage:0 "Il matrimonio tra [extended_family_members|E] e/o [close_family_members|E] è proibito"
@@ -811,6 +1122,7 @@
  doctrine_consanguinity_unrestricted_desc:0 "È naturale e salutare per i membri della famiglia amarsi l'un l'altro e quelli che dicono che l'amore dovrebbe essere limitato alle relazioni non sessuali sono degli sciocchi."
  doctrine_parameter_consanguinity_unrestricted_marriage:0 "È consentito il matrimonio tra tutti i membri della famiglia"
  doctrine_parameter_consanguinity_unrestricted_incest:0 "Le relazioni sessuali tra qualsiasi membro della famiglia non produrranno il [secret|E] Incesto"
+doctrine_parameter_consanguinity_restricted_dynastic_marriage: "Il matrimonio tra membri della stessa [dynasty|E] è proibito"
  #The following 3 strings intentionally left blank:
  doctrine_parameter_allows_cousin_marriage:0 ""
  doctrine_parameter_allows_aunt_nephew_and_uncle_niece_marriage:0 ""
@@ -887,12 +1199,22 @@
  doctrine_parameter_clerical_appointment_fixed_disabled:1 "Il [realm_priest|E] o il [court_chaplain|E] può essere licenziato e sostituito da un nuovo incaricato"
  doctrine_parameter_clerical_appointment_fixed:0 "Il [realm_priest|E] o il [court_chaplain|E] mantengono il loro posto a vita"
 
+doctrine_theism_name: "Teismo"
+doctrine_monotheist_name: "Monoteista"
+doctrine_monotheist_desc: "Si venera un solo dio. Gli altri cosiddetti «dèi» sono nel migliore dei casi idoli vuoti, e nel peggiore tentativi di qualche maligno ingannatore di distogliere i fedeli dal retto culto di [ROOT.Faith.HighGodName].[AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_monotheist_warning')]"
+mandala_monotheist_warning: "\n\n$FAITH_MANDALA_MONOTHEIST_WARNING$"
+mandala_monotheist_warning_tt_global: "[AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_monotheist_warning')]"
+ mandala_monotheist_warning_tt_first: "$mandala_monotheist_warning_tt_global$"
+ mandala_monotheist_warning_tt_third: "$mandala_monotheist_warning_tt_global$"
+doctrine_polytheist_name: "Politeista"
+doctrine_polytheist_desc: "Il cosmo è pieno di potenti divinità e spiriti. Può esistere un pantheon chiaramente definito, ma può anche darsi che il mondo spirituale sia incalcolabile, pervada ogni cosa e non abbia nemmeno dei dal nome proprio."
+
  unreformed_faith_doctrine_name:1 "Non Riformata"
  unreformed_faith_name:1 "dottrina"
  unreformed_faith_doctrine_desc:1 "Una Fede non riformata manca di un clero organizzato e di dottrine canoniche stabilite; comunità diverse possono nominalmente seguire la stessa fede pur avendo pratiche e credenze religiose estremamente diverse."
  doctrine_parameter_unreformed:1 "Impedisce ai [rulers|E] Tribali di cambiare forma di [government|E] \n$EFFECT_LIST_BULLET$Fornisce il [unreformed_pagan_combat_bonus|E]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:2 "Le [faiths|E] non-Pagane con la dottrina $tenet_unreformed_syncretism_name$ sono considerate [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
- 
+
  west_african_unreformed_faith_doctrine_name:0 "$unreformed_faith_doctrine_name$"
  west_african_unreformed_faith_doctrine_desc:0 "$unreformed_faith_doctrine_desc$"
  
@@ -904,7 +1226,7 @@
  divine_destiny_doctrine_name:0 "Legittimi Sovrani del Mondo"
  divine_destiny_doctrine_desc:0 "Siamo quelli che inaugureranno un'era di pace e prosperità per tutti i popoli. Siamo i legittimi Sovrani del mondo."
  doctrine_parameter_divine_destiny_holy_war_cost_reduction:0 "Costo in [piety|e] per una Guerra Santa: #P -50%#!"
-
+ 
  adoptionist_school_name:0 "Credo Adozionista"
  special_doctrine_adoptionist_school_elipandic_doctrine_name:0 "Scuola Elipandica"
  special_doctrine_adoptionist_school_elipandic_doctrine_desc:0 "Preferendo concentrarsi sulle variazioni sottili della Cristologia, la variante elipandica del $adoptionist$ sottolinea l'importanza delle differenze #EMP precise#! rispetto al dogma della Trinità. Una distinzione complessa ben fatta è considerata infinitamente meglio rispetto a una spiegazione semplice e mal giustificata."
@@ -912,7 +1234,7 @@
  special_doctrine_adoptionist_school_felicitous_doctrine_desc:0 "L'$adoptionist$ feliciano crede nella praticità al di sopra della purezza, capendo che deve lavorare all'interno dei sistemi ostili per poterli indebolire. Si pensa che, al servizio di una nobile causa, una atroce menzogna valga quanto mille schiette verità."
  special_doctrine_adoptionist_school_radical_doctrine_name:0 "Scuola Radicale"
  special_doctrine_adoptionist_school_radical_doctrine_desc:0 "Gli $adoptionist_adherent_plural$ radicali non ammettono altro Dio che il Padre, non accettano la divinità della carne mortale e non riconoscono altri $christianity_religion_adherent_plural$ oltre loro stessi. Ricevere Cristo senza accettare ogni #EMP lettera#! del canone significa ammettere l'apostasia."
- 
+
  special_doctrine_is_christian_faith_name:0 "Insegnamenti di Gesù"
  is_christian_faith_name:0 "$special_doctrine_is_christian_faith_name$"
  special_doctrine_is_christian_faith_desc:0 "Ci sono quelli nel mondo che aderiscono agli insegnamenti di Gesù senza riconoscere la sua divinità. Anche se blasfemi, dovremmo comunque mostrare compassione per queste anime sviate, poiché un giorno potrebbero convertirsi alla vera fede."
@@ -934,6 +1256,7 @@
  prophecy_of_malachi_desc:0 "Secondo la dottrina Ebraica tradizionale, un nuovo Sommo Sacerdote può essere nominato solo con la venuta del Profeta o se si trova un discendente di Aronne adatto a servire come sacerdote."
  special_doctrine_not_allowed_to_hof_desc:0 "Il Sommo Sacerdozio di questa fede è stato completamente smantellato. Qualsiasi tentativo di nominare un Sommo Sacerdote richiederebbe prima una ricostruzione completa della struttura tradizionale della Chiesa."
  doctrine_parameter_block_from_create_hof_parameter:0 "Questa fede non può ricreare il suo [head_of_faith|E] in circostanze normali."
+
  special_doctrine_is_eastern_faith_name:0 "Mescolanza Religiosa"
  is_eastern_faith_name:0 "$special_doctrine_is_eastern_faith_name$"
  special_doctrine_is_eastern_faith_desc:0 "Insieme siamo legati non da una sola fede, ma dalle molte fedi che compongono il tessuto religioso della nostra società. Anche se possiamo chiamarci con nomi diversi e seguire percorsi diversi, alcuni al di fuori del nostro sistema di credenze hanno imparato a coesistere nella nostra società come se fossero uno di noi."
@@ -948,6 +1271,12 @@
  special_doctrine_fire_worship_desc: "Siamo tutti uniti dalla venerazione del fuoco, elemento purissimo e strumento della gloria divina. È nostro sacro dovere mantenere i fuochi eterni accesi nel mondo, per dissipare la falsità e il male." 
 
  doctrine_parameter_same_hof_hostility_override:0 "Considera [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] le altre [faiths|E] che condividono il proprio [head_of_faith|E]"
+
+is_hostile_to_maitreya_name: "Ostilità verso $maitreya$"
+special_doctrine_maitreya_hostility_name: "Ostile ai $maitreya_adherent_plural$"
+special_doctrine_maitreya_hostility_desc: "I $maitreya_adherent_plural$ cercano di distruggere tutti gli altri seguaci degli insegnamenti del Buddha. Benché non tutti seguano la stessa via, i modi di $maitreya$ sono intollerabili."
+special_doctrine_is_maitreya_name: "È $maitreya$"
+special_doctrine_is_maitreya_desc: "È nostro solenne dovere ricostruire il mondo e inaugurare l’era del Buddha Maitreya."
 
  TOO_FEW_SPOUSES_PIETY:0 "Troppo pochi Coniugi"
 
@@ -1038,6 +1367,10 @@
 
 
  doctrine_pilgrimage_name:0 "Attitudine al pellegrinaggio"
+doctrine_pilgrimage_local_rites_name: "Riti locali"
+doctrine_pilgrimage_local_rites_desc: "I fedeli di questa fede preferiscono il conforto e la stabilità di riti abituali presso santuari locali ai rischi e alle fatiche di lungi pellegrinaggi."
+doctrine_parameter_local_shrine_offering: 0 "Ha accesso alla [decision|E] [GetDecisionWithKey('visit_local_shrine_decision').GetName] ma l'[activity|E] [pilgrimage|E] è più costosa"
+local_shrine_offering_name: 0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_local_rites_name$"
  doctrine_pilgrimage_forbidden_name:0 "Proibito"
  doctrine_pilgrimage_forbidden_desc:0 "la presenza di [ROOT.Faith.HighGodName] si avverte ovunque e l'idea che certi luoghi siano più divini di altri non è altro che un'eresia."
  doctrine_pilgrimage_encouraged_name:0 "Incoraggiato"
@@ -1047,20 +1380,19 @@
  doctrine_pilgrimage_mandatory_hajj_name:0 "Hajj"
  doctrine_pilgrimage_mandatory_hajj_desc:0 "Ci si aspetta che tutti i Musulmani abili completino l'Hajj alla Mecca nel corso della loro vita. Anche se spesso vengono concesse esenzioni speciali, qualsiasi [ROOT.Faith.GetAdherentNameNoTooltip] chi non riesca a completare l'Hajj sarà guardato con scetticismo."
  forbidden_from_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_forbidden_name$"
- doctrine_parameter_forbidden_from_pilgrimage:0 "Non ha accesso all'[activity|E] del [pilgrimage|E]"
- can_go_on_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_encouraged_name$"
+doctrine_parameter_forbidden_from_pilgrimage: 0 "Non ha accesso all’[activity|E] [pilgrimage|E][AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_pilgrimage_warning')]"
  doctrine_parameter_can_go_on_pilgrimage:0 "Ha accesso all'[activity|E] del [pilgrimage|E]"
  mandatory_pilgrimage_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
  doctrine_parameter_mandatory_pilgrimage:1 "Il [trait|E] [GetTrait('pilgrim').GetName( GetNullCharacter )] garantisce ulteriori vantaggi e l'[activity|E] del [pilgrimage|E] grantisce della [piety|E] supplementare al suo completamento"
  mandatory_hajj_name:0 "$doctrine_pilgrimage_name$: $doctrine_pilgrimage_mandatory_name$"
  doctrine_parameter_mandatory_hajj:1 "Il [trait|E] [GetTrait('hajjaj').GetName( GetNullCharacter )] [trait|E] garantisce ulteriori vantaggi e l'[activity|E] dell'[hajj|E] grantisce della [piety|E] supplementare al suo completamento"
  doctrine_parameter_basic_pilgrimage_rewards:0 ""
- 
+mandala_pilgrimage_warning: "\n@alert_icon! #alert_trial Convertire a una [faith|E] $forbidden_from_pilgrimage_name$ renderà impossibile progredire come [ruler|E] [mandala_government|E]#!\n"
+
  special_doctrine_has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
  special_doctrine_jizya_name: "$tenet_tax_nonbelievers_jizya_name$"
  special_doctrine_jizya_desc: "$tenet_tax_nonbelievers_desc$"
  has_jizya_doctrine_name: "$tenet_tax_nonbelievers_jizya_name$"
- 
  doctrine_funeral_name: "Tradizione Funebre"
  doctrine_funeral_stoic_name: "Sepoltura Stoica"
  doctrine_funeral_stoic_desc: "Il corpo è morto, ma l'anima continua a vivere. La morte non è un momento di dolore e di lamento, lo scopo del funerale è onorare il defunto affidando il suo corpo alla terra con una cerimonia umile e tranquilla."
@@ -1072,15 +1404,28 @@
  doctrine_funeral_sky_burial_desc: "$tenet_sky_burials_desc$"
  doctrine_funeral_mummification_name: "Mummificazione"
  doctrine_funeral_mummification_desc: "Il corpo ha cessato di funzionare, ma è ancora il contenitore attraverso il quale lo spirito viaggia verso il [ROOT.Faith.PositiveAfterLife]. La forma fisica deve quindi conservarsi allo stesso modo dell'anima, nell'attesa del giudizio di [ROOT.Faith.FateGodName]."
+doctrine_family_rites_name: "Riti familiari"
+doctrine_family_rites_desc: "La morte è un periodo di lutto e rituale per i vivi. Gerarchia e anzianità contano nella morte quanto nella vita; è importante venerare i più anziani anche dopo il trapasso, e far vedere che si venera nel modo corretto."
  doctrine_parameter_burial_funeral: ""
  doctrine_parameter_stoic_funeral: "L'[activity|E] del [funeral|E] offre maggiori opportunità di ottenere [piety|E]"
  doctrine_parameter_bewailment_funeral: "L'[activity|E] del [funeral|E] offre maggiori opportunità di ridurre lo [stress|E]"
  doctrine_parameter_cremation_funeral: "L'[activity|E] del [funeral|E]  ha un costo d'[gold|E] notevolmente ridotto"
  doctrine_parameter_mummification_funeral: "L'[activity|E] del [funeral|E] costa più [gold|E] e produce potenti [artifacts|E] al termine dell'attività"
-
+doctrine_parameter_family_rites: "L'[activity|E] del [funeral|E] offre opportunità di ottenere [merit|E]"
  doctrine_parameter_unlock_voluntary_laampdom_faith: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'doctrine_parameter_unlock_voluntary_laampdom_faith_DLC', 'doctrine_parameter_unlock_voluntary_laampdom_faith_NO_DLC' )]"
  doctrine_parameter_unlock_voluntary_laampdom_faith_DLC: "$culture_parameter_unlock_voluntary_laampdom_DLC$"
  doctrine_parameter_unlock_voluntary_laampdom_faith_NO_DLC: "$culture_parameter_unlock_voluntary_laampdom_NO_DLC$"
  unlock_voluntary_laampdom_faith_name: "[GetFaithDoctrine('tenet_struggle_submission').GetBaseName], [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName], [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName], [GetFaithDoctrine('tenet_vows_of_poverty').GetBaseName], o [GetFaithDoctrine('tenet_asceticism').GetBaseName]"
 
+global_religion.1000.t: "[local_character.GetFaith.GetAdherentNamePluralNoTooltip] in esilio"
+global_religion.1000.desc_same_faith_counties: "Oltre [local_character.MakeScope.Var( 'loc_number' ).GetValue|0] [local_character.GetFaith.GetAdherentNamePlural], esiliati da [target_faith_associated_county.GetName], chiedono di entrare nel mio reame. Il loro capo, [local_character.GetFirstName], chiede udienza: «Cerchiamo una vita migliore e più sicura, [ROOT.Char.GetTitleAsNameNoTooltip]», [Select_CString(local_character.IsFemale,'dice','dice')]. «Lasciateci insediarci per tutto [ROOT.Char.GetPrimaryTitle.GetDefinitiveName].»"
+global_religion.1000.desc_same_faith_counties_alt: "La persecuzione religiosa dilaga in [target_faith_associated_county.GetName], dove la nobiltà [target_faith_associated_county_faith.GetAdjective] sta convertendo con la forza i [local_character.GetFaith.GetAdherentNamePlural].\n\nOra, oltre [local_character.MakeScope.Var( 'loc_number' ).GetValue|0] esuli chiedono di entrare nel mio reame. Il loro capo, [local_character.GetFirstName], chiede udienza: «Cerchiamo una vita migliore e più sicura, [ROOT.Char.GetTitleAsNameNoTooltip]», [Select_CString(local_character.IsFemale,'dice','dice')]. «Lasciateci insediarci per tutto [ROOT.Char.GetPrimaryTitle.GetDefinitiveName].»"
+global_religion.1000.desc_any_counties: "La persecuzione religiosa dilaga in [target_faith_associated_county.GetName], dove la nobiltà [target_faith_associated_county_faith.GetAdjective] sta convertendo con la forza i [local_character.GetFaith.GetAdherentNamePlural].\n\nOra, oltre [local_character.MakeScope.Var( 'loc_number' ).GetValue|0] esuli chiedono di entrare nel mio reame. Il loro capo, [local_character.GetFirstName], chiede udienza: «Cerchiamo una vita migliore e più sicura, [ROOT.Char.GetTitleAsNameNoTooltip]», [Select_CString(local_character.IsFemale,'implora','implora')]. «Lasciateci insediarci attorno a [initial_county_target.GetNameNoTier].»\n\nSe lo permetto, la fede [local_character.GetFaith.GetAdjective] si diffonderà per [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
+global_religion.1000.desc_any_counties_alt: "Oltre [local_character.MakeScope.Var( 'loc_number' ).GetValue|0] [local_character.GetFaith.GetAdherentNamePlural], esiliati da [target_faith_associated_county.GetName], chiedono di entrare nel mio reame. Il loro capo, [local_character.GetFirstName], chiede udienza: «Cerchiamo una vita migliore e più sicura, [ROOT.Char.GetTitleAsNameNoTooltip]», [Select_CString(local_character.IsFemale,'implora','implora')]. «Lasciateci insediarci attorno a [initial_county_target.GetNameNoTier].»\n\nSe lo permetto, la fede [local_character.GetFaith.GetAdjective] si diffonderà per [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
+global_religion.1000.special: "Abbraccerò la fede [local_character.GetFaith.GetAdjectiveNoTooltip]!"
+global_religion.1000.a: "Siete più che benvenuti."
+global_religion.1000.b: "[ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] non può ospitarvi."
+global_religion.1000.violent: "Esuli indifesi? Derubiamoli."
+global_religion.1000.serenity_aspect: "Vivrete nella capitale, [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]."
 
+is_faith_dominant_gender_tt: "Il genere di [THIS.Char.GetShortUINamePossessiveNoFormat|U] ([THIS.Char.Custom('FemaleMale')|U]) è dominante nella [faith|E] di [CharYourHerHis( THIS.Char )] #weak ([THIS.Char.GetFaith.GetName])#!"

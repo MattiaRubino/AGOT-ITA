@@ -21,9 +21,9 @@
  #############
  #HASHISHIYAH#
  #############
+ stress_trait_ongoing.0501.t:0 "Una Serata Rilassante"
  stress_trait_ongoing.0501.adventurer: "The business of leading a camp has been so stressful, recently. If it's not this, it's that, if it's not that, it's this. An endless list of petty tasks, issues, and questions, all waiting for #EMP my#! solutions.\n\nI deserve a day to myself, with no pep-talks or speeches, no training or meetings. Just me and this large plate of hashish cakes..."
  stress_trait_ongoing.0501.administrative: "The business of leading house [ROOT.Char.GetDynastyHouse.GetBaseNameNoTooltip] has been so stressful, recently. If it's not this, it's that, if it's not that, it's this. An endless list of petty tasks, issues, and questions, all waiting for #EMP my#! solutions.\n\nI deserve a day to myself, with no plotting or preening, no fawning or fabricating. Just me and this large plate of hashish cakes..."
- stress_trait_ongoing.0501.t:0 "Una Serata Rilassante"
  stress_trait_ongoing.0501.a:0 "A lavoro!"
  stress_trait_ongoing.0501.b:0 "È solo un giorno di riposo-.."
  overworking_diplomacy_modifier:0 "Oberato dalla Diplomazia"
@@ -95,7 +95,7 @@
  stress_trait_ongoing.1501.b.flavor:0 "Un po' di tempo da soli porterà un sollievo temporaneo, se non altro."
  stress_trait_ongoing.1501.c:0 "Un viaggio al bordello mi distoglierà la mente da [obsession.GetHerHim]..."
  stress_trait_ongoing.1501.c.flavor:0 "#EMP Qualcuno#! c'è sicuramente che può aiutarmi a superare tutto questo."
- stress_trait_ongoing.1501.d:0 "Non dovrei trattare [obsession.GetFirstName] come un oggetto, è #EMP sbagliato#!!"
+stress_trait_ongoing.1501.d: 0 "Non dovrei oggettificare [obsession.GetFirstNameNoTooltip] in questo modo, è #EMP sbagliato#!!"
  stress_trait_ongoing.1501.d.flavor:0 "Questa ossessione è altrettanto ingiusta per [obsession.GetSheHe] quanto dannosa per me."
 
  ###########
@@ -136,12 +136,12 @@
 
  stress_trait_ongoing.4502.t:0 "La Fame"
  stress_trait_ongoing.4502.desc:0 "Le ultime settimane sono state particolarmente stressanti, e tutto quello che voglio è un bel taglio di carne succoso. Un bel taglio tenero come una lombata, o magari delle costolette?\n\n La mia bocca sbava al pensiero, e so che non riuscirò a trattenere la fame. Non questa volta."
- stress_trait_ongoing.4502.a:0 "Non è che qualcuno sentirà la mancanza [prisoner.Custom('DE_PRO_PER_P_3P_A')] [prisoner.GetTitledFirstName]."
- stress_trait_ongoing.4502.b:0 "[courtier.Custom('DE_ART_DEF_P_D')] [courtier.GetTitledFirstName] se lo merita, in ogni caso..."
+stress_trait_ongoing.4502.a: 0 "Non è che qualcuno sentirà la mancanza di [prisoner.GetTitledFirstNameNoTooltip]."
+stress_trait_ongoing.4502.b: 0 "[courtier.GetTitledFirstNameNoTooltip] in fondo se l’è cercata..."
  stress_trait_ongoing.4502.c:0 "Tempo per un viaggio fino a [hapless_village.GetNameNoTier]!"
 
  stress_trait_ongoing.5001.t:0 "Festa delle Intenzioni"
- stress_trait_ongoing.5001.desc:0 ""Vieni con me [ROOT.Char.GetTitledFirstName]; Ho una sorpresa per te!" dice [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] senza giri di parole. "Ho notato che non hai mangiato bene, così ho passato settimane a cercare le prelibatezze più rare che potessi trovare!"\n\nNel seguirl[giver.Custom('DE_END_PRO_S_N')], vedo una tavola imbandita con una grande varietà di pietanze da buongustai. [ROOT.Char.Custom('GetExpensiveMeal')|U] e [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]...anche solo l'odore mi è rivoltante.\n\n"Allora? Dateci dentro, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!""
+stress_trait_ongoing.5001.desc: 0 "«Vieni con me, [ROOT.Char.GetTitledFirstName]; ho una sorpresa per te!» dice con entusiasmo [giver.Custom2('MyCharacterIntroduction', ROOT.Char)]. «Ho notato che non ti stai alimentando bene, quindi ho passato settimane a cercare le più rare prelibatezze che potessi trovare!»\n\nSeguendo [Select_CString(giver.IsFemale,'lei','lui')], vedo una tavola colma di una grande varietà di piatti di alta cucina. [ROOT.Char.Custom('GetExpensiveMeal')|U] e [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... il solo profumo mi rivolta lo stomaco.\n\n«Allora? Serviti, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
  stress_trait_ongoing.5001.a:0 ""È, uh... davvero buono. Mmm. Così gustoso.""
  stress_trait_ongoing.5001.a.flavor:0 "Mangerò il pasto, ma solo per educazione."
  stress_trait_ongoing.5001.b:0 ""Non avresti dovuto... no, davvero. #EMP Servi! #! Portate via questa roba!.""

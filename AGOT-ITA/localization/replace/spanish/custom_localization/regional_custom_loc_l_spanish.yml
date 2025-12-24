@@ -17,7 +17,9 @@
  mansions:0 "palazzi"
  temple:0 "tempio"
  temples:0 "templi"
- 
+office: "ufficio"
+office_plural: "uffici"
+
  residence: "residenza"
  residences: "residenze"
  yurt_residence: "yurt"
@@ -35,6 +37,7 @@
  #RandomExampleName
  random_example_name_default:0 "Ranald"
  #TerrainType
+terrain_terraced_hills: "colline terrazzate"
  terrain_plains:0 "pianure"
  terrain_farmlands:0 "terreni agricoli"
  terrain_hills:0 "colline"
@@ -215,8 +218,8 @@
  mead:0 "idromele"
  palm_wine:0 "vino di palma" #tradurre da qui
  slivovitz:0 "slivovitz"
- byzantine_cypriots: "Vini Commandaria Ciprioti" 
  byzantine_cypriot:0 "Cipriota Bizantino"
+ byzantine_cypriots: "Vini Commandaria Ciprioti" 
  shiraz_white:0 "Shiraz bianco"
  prunelle_liquer:0 "Liquore di Prunella"
  sack_wine:0 "vino da sacco"
@@ -234,6 +237,17 @@
  malvasias: "Vini Malvasia"
  retsina: "Retsina"
  retsinas: "Vini Retsina" 
+rice_wine: "vino di riso"
+lychee_wine: "vino di litchi"
+millet_wine: "vino di miglio"
+sorghum_wine: "vino di sorgo"
+plum_wine: "vino di prugna"
+huangjiu: "huangjiu"
+sake: "sake"
+toddy: "toddy"
+tuba: "tuba"
+koumiss: "kumis"
+
 
  #Game
  deck_of_cards:0 "mazzo di carte"
@@ -254,7 +268,7 @@
  sand_dune:0 "duna di sabbia"
  boulder:0 "macigno"
  tree:0 "albero"
- 
+
  #Curses (should not be translated, but remain the same in every language of the game)
  curse_helvete:0 "helvete"
  curse_helvetes_javla_skit:0 "helvetes jävla skit"
@@ -298,7 +312,7 @@
  curse_morbleu:0 "morbleu"
  curse_diantre:0 "diantre"
  curse_peste:0 "peste"
- curse_mortecouille:0 "mortecouille "
+ curse_mortecouille:0 "mortecouille"
  curse_ventre_dieu:0 "ventre-dieu"
  curse_puterelle:0 "puterelle"
  curse_proklyatie:0 "proklyatie"
@@ -313,6 +327,9 @@
  curse_minchia:0 "minchia"
  curse_merda:0 "merda"
  curse_vaffanculo:0 "vaffanculo"
+curse_fu_gu: "fu gu"
+curse_yanwang_suoming: "yán wáng suo mìng"
+curse_lai_hama: "lài háma"
  #Curses (fallbacks/religious, should be translated)
  curse_curses:0 "maledizioni"
  curse_shit:0 "merda"
@@ -342,6 +359,16 @@
  dog_type_saluki:0 "saluki"
  dog_type_tazi:0 "tazi"
  dog_type_desi:0 "desi"
+dog_type_chow_chow: "chow chow"
+dog_type_hokkaido: "hokkaido"
+dog_type_jindo: "jindo"
+dog_type_asong_gubat: "asong gubat"
+dog_type_telomian: "telomian"
+dog_type_kinta: "kinta"
+dog_type_shar_pei: "shar pei"
+dog_type_tibetan_mastiff: "mastino tibetano"
+dog_type_shikoku: "shikoku"
+dog_type_akita: "akita"
  dog_type_lion_dog:0 "lion dog"
  dog_type_hound:0 "sighthound"
  #get_region_flower_type
@@ -367,6 +394,22 @@
  flower_type_rose:0 "rosa"
  flower_type_orchid:0 "orchidea"
  flower_type_aster:0 "astro"
+flower_type_camellia: "camelia"
+flower_type_chinese_primrose: "primula cinese"
+flower_type_plum_blossom: "fiore di pruno"
+flower_type_cherry_blossom: "fiore di ciliegio"
+flower_type_japanese_iridaceae: "iridacee"
+flower_type_korean_bellflower: "campanula coreana"
+flower_type_korean_rhododendron: "rododendro coreano"
+flower_type_hokkaido_alpine: "fiore alpino di Hokkaidō"
+flower_type_tropical_rafflesia: "rafflesia"
+flower_type_nepenthes_pitcher: "pianta a brocca"
+flower_type_jade_vine: "vite di giada"
+flower_type_medinilla: "medinilla"
+flower_type_tiger_orchid: "orchidea tigre"
+flower_type_telipogon: "telipogon"
+flower_type_bali_orchid: "orchidea di Bali"
+flower_type_weigela: "weigela"
  #get_region_flower_type_plural
  flower_type_hibiscus_plural:0 "ibischi"
  flower_type_gardenia_plural:0 "gardenie"
@@ -388,12 +431,30 @@
  flower_type_rose_plural:0 "rose"
  flower_type_orchid_plural:0 "orchidee"
  flower_type_aster_plural:0 "astri"
+flower_type_camellia_plural: "camelie"
+flower_type_chinese_primrose_plural: "primule cinesi"
+flower_type_plum_blossom_plural: "fiori di pruno"
+flower_type_cherry_blossom_plural: "fiori di ciliegio"
+flower_type_japanese_iridaceae_plural: "iridacee"
+flower_type_korean_bellflower_plural: "campanule coreane"
+flower_type_korean_rhododendron_plural: "rododendri coreani"
+flower_type_hokkaido_alpine_plural: "fiori alpini di Hokkaidō"
+flower_type_tropical_rafflesia_plural: "rafflesie"
+flower_type_nepenthes_pitcher_plural: "piante a brocca"
+flower_type_jade_vine_plural: "viti di giada"
+flower_type_medinilla_plural: "medinille"
+flower_type_tiger_orchid_plural: "orchidee tigre"
+flower_type_telipogon_plural: "telipogoni"
+flower_type_bali_orchid_plural: "orchidee di Bali"
+flower_type_weigela_plural: "weigelie"
+flower_type_lavender_plural: "lavande"
+flower_type_jasmine_plural: "gelsomini"
  kasbah:0 "kasbah"
  durga:0 "durga"
  kastron:0 "[Glossary( 'kástron', 'KASTRON_GLOSS' )]"
  KASTRON_GLOSS: "Originariamente riferito ad una fortezza o cittadella, il #bold kástron#! servì a dare risalto alla città Bizantina nel suo complesso."
- 
  stronghold:0 "forte"
+compound: "complesso"
  #Mythical Horned Creatures
  horned_mythical_creature_tarasque:0 "tarasque"
  horned_mythical_creature_indrik:0 "indrik"
@@ -418,7 +479,7 @@
  mythical_creature_north_europe_antero_vipunen:0 "Antero Vipunen"
  mythical_creature_north_europe_tjelvar:0 "Tjelvar"
  mythical_creature_north_europe_fin:0 "Fin"
- #Gotland
+ ##Gotland
  mythical_creature_north_europe_bysn: "Bysn"
  mythical_creature_north_europe_disma: "Di Sma Undar Jårdi" 
  #South Europe
@@ -449,6 +510,9 @@
  mythical_creature_east_asia_manaul:0 "manaul"
  mythical_creature_east_asia_bashee:0 "Bashee"
  mythical_creature_east_asia_camphruch:0 "Camphruch"
+mythical_creature_east_asia_qilin: "Qilin"
+mythical_creature_east_asia_tengu: "Tengu"
+mythical_creature_east_asia_naga: "Nāga"
  #West Steppe
  mythical_creature_west_steppe_aptah_baga: "Aptah-Baga"
  mythical_creature_west_steppe_xullykuns: "Xullykuns"
@@ -502,6 +566,9 @@
  mythical_creature_east_asia_manaul_lower:0 "manaul"
  mythical_creature_east_asia_bashee_lower:0 "bashee"
  mythical_creature_east_asia_camphruch_lower:0 "camphruch"
+mythical_creature_east_asia_qilin_lower: "qilin"
+mythical_creature_east_asia_tengu_lower: "tengu"
+mythical_creature_east_asia_naga_lower: "nāga"
  #West Steppe
  mythical_creature_west_steppe_aptah_baga_lower: "aptah-baga"
  mythical_creature_west_steppe_xullykuns_lower: "xullykuns"
@@ -523,6 +590,10 @@
  root_vegetable_kokoro:0 "kokoro"
  root_vegetable_ginger:0 "zenzero"
  root_vegetable_taro:0 "taro"
+root_vegetable_daikon_radish: "ravanello daikon"
+root_vegetable_lotus_root: "radice di loto"
+root_vegetable_burdock_root: "radice di bardana"
+root_vegetable_arrowroot: "radice di maranta"
  root_vegetable_onion_plural:0 "cipolle"
  root_vegetable_okra_plural:0 "gombi"
  root_vegetable_carrot_plural:0 "carote"
@@ -532,7 +603,11 @@
  root_vegetable_kokoro_plural:0 "kokoro"
  root_vegetable_ginger_plural:0 "zenzeri"
  root_vegetable_taro_plural:0 "tari"
- #RegionalFerociousAnimal
+root_vegetable_daikon_radish_plural: "ravanelli daikon"
+root_vegetable_lotus_root_plural: "radici di loto"
+root_vegetable_burdock_root_plural: "radici di bardana"
+root_vegetable_arrowroot_plural: "radici di maranta"
+#RegionalFerociousAnimal
  regional_ferocious_animal_bear:0 "un orso"
  regional_ferocious_animal_wolf:0 "un lupo"
  regional_ferocious_animal_boar:0 "un cinghiale"
@@ -551,7 +626,12 @@
  regional_edible_animal_boar:0 "un verro"
  regional_edible_animal_gazelle:0 "una gazzella"
  regional_edible_animal_goat: "capra"
+regional_edible_animal_duck: "anatra"
  regional_edible_animal_marmot: "marmotta"
+regional_edible_animal_sarus_crane: "gru sarus"
+regional_edible_animal_pangolin: "pangolino"
+regional_edible_animal_sika_deer: "cervo sika"
+regional_edible_animal_softshell_turtle: "tartaruga dal guscio molle"
  regional_edible_animal_hart_plural: "cervi"
  regional_edible_animal_chicken_plural: "polli"
  regional_edible_animal_hare_plural: "lepri"
@@ -562,6 +642,9 @@
  regional_edible_animal_gazelle_plural: "gazzelle"
  regional_edible_animal_goat_plural: "capre"
  regional_edible_animal_marmot_plural: "marmotte" 
+regional_edible_animal_sarus_crane_plural: "grue sarus"
+regional_edible_animal_pangolin_plural: "pangolini"
+regional_edible_animal_softshell_turtle_plural: "tartarughe dal guscio molle"
  #RegionalEdibleMeat
  regional_edible_meat_venison:0 "di cervo"
  regional_edible_meat_chicken:0 "di pollo"
@@ -570,7 +653,11 @@
  regional_edible_meat_beef:0 "di manzo"
  regional_edible_meat_pork:0 "di maiale"
  regional_edible_meat_goat: "di pecora"
+regional_edible_meat_duck: "anatra"
  regional_edible_meat_marmot: "di marmotta"
+regional_edible_meat_crane: "gru"
+regional_edible_meat_pangolin: "pangolino"
+regional_edible_meat_turtle: "tartaruga"
  #GetRandomRegionalSmallGame
  animal_squirrel:0 "scoiattolo"
  animal_squirrel_plural: "scoiattoli"
@@ -689,17 +776,119 @@
  fish_arowana: "arowana"
  fish_barramundi: "barramundi"
  fish_croaker: "croaker"
- 
+
+ #Asian Fish
+fish_mandarin: "pesce mandarino"
+fish_loach: "cobite"
+fish_gudgeon: "gobione"
+fish_tilapia: "tilapia"
+fish_giant_gourami: "gurami gigante"
+fish_snakehead: "pesce serpente"
+fish_mudskipper: "saltafango"
+fish_dragon_loach: "cobite drago"
+fish_chub: "cavedano"
+
+
  #TerrainInspirationLoc
  TerrainInspirationMountains: "alte vette montuose"
  TerrainInspirationHills: "colline ondulate, che si alzano e si abbassano come onde"
  TerrainInspirationJungle: "giungla, con le sue liane intrecciate e i fiori sgargianti"
- TerrainInspirationTaiga: "taiga ghiacciata e le sue ampie distese di neve intatta"
+TerrainInspirationTaiga: "la taiga gelata e le ampie distese di neve intatta"
  TerrainInspirationWetlands: "terre umide, punteggiate di ampie paludi e canneti"
  TerrainInspirationFloodplains: "pianure, attraversate da fiumi e ruscelli"
  TerrainInspirationDesert: "deserti, con le loro dune ondulate e il caldo rovente"
  TerrainInspirationForest: "foreste profonde e generose"
  TerrainInspirationFarmlands: "campi rigogliosi e ondulati"
  TerrainInspirationSteppe: "steppa selvaggia, che si estende per miglia senza interruzione"
- TerrainInspirationdrylands: "vasti territori aridi e il loro orizzonte color sabbia"
+TerrainInspirationdrylands: "ampie terre aride e un orizzonte color sabbia"
+
+TerrainStruggleWinter: "attraverso una fitta nevicata"
+TerrainStruggleRain: "attraverso piogge torrenziali incessanti"
+TerrainStruggleSun: "sotto il sole battente"
  
+trickster_spirit_britannia: "[Glossary( 'pixie', 'PIXIE_GLOSS' )]"
+PIXIE_GLOSS: "Uno spirito minuscolo e alato del folklore celtico e britannico, amante di scherzi giocosi e di sviare i viandanti."
+ 
+trickster_spirit_germania: "[Glossary( 'kobold', 'KOBOLD_GLOSS' )]"
+KOBOLD_GLOSS: "Uno spirito domestico del folklore tedesco che alterna lavori d’aiuto a scherzi dispettosi quando si sente offeso."
+ 
+trickster_spirit_netherlands: "[Glossary( 'kabouter', 'KABOUTER_GLOSS' )]"
+KABOUTER_GLOSS: "Una creatura simile a uno gnomo del folklore olandese, spesso d’aiuto nei lavori o incline ai dispetti quando non rispettata."
+ 
+trickster_spirit_francia: "[Glossary( 'lutin', 'LUTIN_GLOSS' )]"
+LUTIN_GLOSS: "Un piccolo spirito domestico o dei boschi del folklore francese, noto per birbonate come annodare i capelli e nascondere oggetti."
+ 
+trickster_spirit_iberia: "[Glossary( 'duende', 'DUENDE_GLOSS' )]"
+DUENDE_GLOSS: "Un piccolo spirito elusivo del folklore iberico che provoca piccoli scompigli nelle case."
+ 
+trickster_spirit_north: "[Glossary( 'tomte', 'TOMTE_GLOSS' )]"
+TOMTE_GLOSS: "Uno spirito scandinavo che si dice protegga fattorie e animali, ma incline ai dispetti se adirato."
+ 
+trickster_spirit_east: "[Glossary( 'domovoi', 'DOMOVOI_GLOSS' )]"
+DOMOVOI_GLOSS: "Uno spirito domestico slavo che custodisce la casa ma fa scherzi quando è offeso o trascurato."
+ 
+trickster_spirit_middle_east: "[Glossary( 'djinn', 'DJINN_GLOSS' )]"
+DJINN_GLOSS: "Uno spirito di fuoco senza fumo del folklore mediorientale, capace di mutare forma e di ingannare."
+ 
+trickster_spirit_india: "[Glossary( 'rakshasa', 'RAKSHASA_GLOSS' )]"
+RAKSHASA_GLOSS: "Un mutaforma malevolo della mitologia indiana, abile nelle illusioni e nei raggiri."
+ 
+trickster_spirit_africa_north: "[Glossary( 'ifrit', 'IFRIT_GLOSS' )]"
+IFRIT_GLOSS: "Uno spirito fiammeggiante e ribelle del folklore nordafricano, associato all’inganno e alla forza."
+ 
+trickster_spirit_africa_west: "[Glossary( 'ninki nanka', 'NINKI_NANKA_GLOSS' )]"
+NINKI_NANKA_GLOSS: "Uno spaventoso spirito simile a un drago delle paludi dell’Africa occidentale, ritenuto portare la morte a chi lo vede."
+ 
+trickster_spirit_africa_east: "[Glossary( 'popo bawa', 'POPOBAWA_GLOSS' )]"
+POPOBAWA_GLOSS: "Uno spirito simile a un pipistrello del folklore swahili, noto per diffondere paura di notte tramite metamorfosi e tormento psicologico."
+ 
+trickster_spirit_steppe: "[Glossary( 'Gulyabani', 'GULYABANI_GLOSS' )]"
+GULYABANI_GLOSS: "Un alto e irsuto ghoul del folklore turco, noto per infestare luoghi desolati e predare i viaggiatori solitari nella notte."
+ 
+trickster_spirit_siberia: "[Glossary( 'kutkh', 'KUTKH_GLOSS' )]"
+KUTKH_GLOSS: "Uno spirito-corvo presente nelle tradizioni siberiane, al tempo stesso creatore e burlone."
+ 
+trickster_spirit_tibet: "[Glossary( 'ro-langs', 'ROLANGS_GLOSS' )]"
+ROLANGS_GLOSS: "Un cadavere rianimato del folklore tibetano, noto per i movimenti rigidi e le intenzioni malevole."
+ 
+trickster_spirit_china: "[Glossary( 'huli jing', 'HULIJING_GLOSS' )]"
+HULIJING_GLOSS: "Uno spirito volpe cinese dotato di poteri di mutaforma, famoso per inganni e seduzioni."
+ 
+trickster_spirit_korea: "[Glossary( 'kumiho', 'KUMIHO_GLOSS' )]"
+KUMIHO_GLOSS: "Una volpe a nove code della mitologia coreana, nota per ingannare e predare gli umani."
+ 
+trickster_spirit_japan: "[Glossary( 'tanuki', 'TANUKI_GLOSS' )]"
+TANUKI_GLOSS: "Uno spirito mutaforma di cane-procione del folklore giapponese, noto per illusioni e birbonate giocose."
+ 
+trickster_spirit_sakhalin_hokkaido: "[Glossary( 'kamaitachi', 'KAMAITACHI_GLOSS' )]"
+KAMAITACHI_GLOSS: "Uno spirito-donnola che cavalca il vento nelle leggende del nord del Giappone, noto per tagliare la carne senza dolore."
+ 
+trickster_spirit_thailand: "[Glossary( 'phi tai hong', 'PHITAIHONG_GLOSS' )]"
+PHITAIHONG_GLOSS: "Un fantasma vendicativo della tradizione thailandese, nato da morte improvvisa o violenta, noto per perseguitare e sviare."
+ 
+trickster_spirit_malaysia: "[Glossary( 'penanggalan', 'PENANGGALAN_GLOSS' )]"
+PENANGGALAN_GLOSS: "Uno spirito con la testa volante del folklore malese, che di giorno appare ingannevolmente umano e di notte è terrificante."
+ 
+trickster_spirit_indonesia: "[Glossary( 'ebu gogo', 'EBU_GOGO_GLOSS' )]"
+EBU_GOGO_GLOSS: "Piccoli spiriti pelosi dei boschi del folklore indonesiano, noti per imitare la voce umana e rubare cibo o piccoli oggetti dai villaggi."
+ 
+trickster_spirit_philippines: "[Glossary( 'tikbalang', 'TIKBALANG_GLOSS' )]"
+TIKBALANG_GLOSS: "Un alto spirito dalla testa di cavallo del folklore filippino, famoso per sviare i viandanti e fare scherzi nelle foreste."
+ 
+trickster_spirit_borneo: "[Glossary( 'orang bunian', 'ORANG_BUNIAN_GLOSS' )]"
+ORANG_BUNIAN_GLOSS: "Spiriti invisibili dei boschi del folklore del Borneo, noti per interagire con gli umani, talvolta sviandoli o facendo dispetti."
+ 
+trickster_spirit_maluku: "[Glossary( 'jin kurcaci', 'JIN_KURCACI_GLOSS' )]"
+JIN_KURCACI_GLOSS: "Piccoli esseri umanoidi del folklore delle Molucche, noti per abitare foreste e montagne, offrendo guida o dispetti a chi incontrano."
+ 
+trickster_spirit_italy: "[Glossary( 'mazapégul', 'MAZAPEGUL_GLOSS' )]"
+MAZAPEGUL_GLOSS: "Uno spirito notturno dispettoso del folklore italiano, noto per infestare le camere da letto, intrecciare le criniere dei cavalli e sedersi sul petto dei dormienti per provocare incubi."
+ 
+trickster_spirit_balkans: "[Glossary( 'kallikantzaros', 'KALLIKANTZAROS_GLOSS' )]"
+KALLIKANTZAROS_GLOSS: "Un folletto malevolo che emerge durante i dodici giorni di Natale per combinare scherzi e seminare il caos."
+ 
+trickster_spirit_indochina: "[Glossary( 'mrenh kongveal', 'MRENH_KONGVEAL_GLOSS' )]"
+MRENH_KONGVEAL_GLOSS: "Piccoli spiriti elusivi del folklore khmer, noti per scherzi giocosi e per proteggere animali e viandanti."
+ 
+trickster_spirit_default: "spirito burlone"
+

@@ -136,6 +136,11 @@
  artifact_wall_sword_attila_name:1 "Spada di Dio"
  artifact_wall_sword_attila_description:0 "La leggendaria spada del capo unno Attila, il flagello di Dio. Conosciuta anche come la Spada di Marte."
 
+artifact_sword_goujian_name: "Spada di Gujian"
+artifact_sword_goujian: "Si dice che questa antica spada appartenesse un tempo al re di Yue, Goujian. Pur dal disegno antiquato, mostra eccellente manifattura. Vicino all’elsa sono visibili iscrizioni dorate in scrittura «uccello-verme»."
+artifact_sword_goujian_refulgence: "[gujian_sword.GetDesc]\n\nSi ritiene che questa sia la spada detta «Splendore», che Gujian portava quando cercò il consiglio di Confucio."
+artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nSi ritiene che questa sia la spada «Purezza»."
+
  # Animals (used in ArtifactAnimalType)
  animal_type_cat:0 "gatto"
  animal_type_dog:0 "cane"
@@ -154,7 +159,7 @@
  animal_type_unicorn:0 "unicorno"
  animal_type_dragon:0 "drago"
  animal_type_lynx:0 "lince"
- 
+
  animal_type_lions: "leoni"
  animal_type_tigers: "tigri"
  animal_type_leopards: "leopardi"
@@ -164,7 +169,6 @@
  animal_type_wolves: "lupi"
  animal_type_bears: "orsi"
  animal_type_dogs: "cani"
- 
 
  # Hides
  artifact_hide_type_cat:1 "[ROOT.Char.Custom('CatStoryName')], l'amato gatto di [owner.GetTitledFirstNamePossessiveNoTooltip]"
@@ -236,7 +240,7 @@
  artifact_animal_hide_big_name:3 "$artifact_animal_hide_name_base$"
  artifact_animal_hide_big_description:4 "$artifact_animal_hide_description$"
  create_artifact_big_hide_tooltip:4 "$create_artifact_small_hide_tooltip$"
- 
+
  # Skull
  artifact_wall_skull_name_legendary:3 "Teschio di [newly_created_artifact.Custom('ArtifactAnimalType')|U] [newly_created_artifact.Custom('GetLegendaryColor')|U] di [owner.MakeScope.Var('adventure_artifact_location').Province.GetTitle.GetDeJureLiege.GetNameNoTierNoTooltip]"
  artifact_wall_skull_name_adventurer:1 "Teschio del [newly_created_artifact.Custom('ArtifactAnimalAdjective')|U] [newly_created_artifact.Custom('ArtifactAnimalType')|U] di [owner.MakeScope.Var('adventure_artifact_location').Province.GetBaronyNameExplicitlyNoTooltip]"
@@ -279,12 +283,12 @@
  feature_animal_skull_type_hart:0 "un fiero cervo"
  feature_animal_skull_type_bison:0 "un imponente bisonte"
  create_artifact_wall_animal_skull_tooltip:1 "[inspiration_owner.GetShortUIName] ti ha riportato l'imponente teschio di [newly_created_artifact.GetFeatureText( 'animal_skull_type' )]"
-
+ 
  # Horn
  artifact_wall_narwhal_horn_name:0 "Corno di Unicorno"
  artifact_wall_narwhal_horn:1 "Un grande corno dritto di un bianco scintillante. Si dice che sia stato preso dal corpo di un unicorno ucciso. Il corno è [SCOPE.Custom('ArtifactAdverbQuality')] preservato e attaccato a un supporto [SCOPE.Custom('ArtifactAdverbWealth')] di [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] decorato."
- #artifact_wall_rhino_horn_name: "Dente di Drago"
- #artifact_wall_rhino_horn: "Un grande corno o un dente, ricurvo. Se è un dente, l'enorme dimensione significa che deve essere appartenuto ad una bestia temibile, molto probabilmente un drago."
+ #artifact_wall_rhino_horn_name: "Dragon's Tooth"
+ #artifact_wall_rhino_horn: "A large, curved horn or tooth. If it is a tooth, the large size means it must have come from a fearsome beast, most likely a dragon."
 
  # Sculptures
  artifact_sculpture_name:0 "Statua $artifact_name_prefix$"
@@ -303,8 +307,8 @@
  artifact_sculpture_religious_christian_description:1 "Una statua scolpita e dipinta di [owner.Custom('RandomSaint')]. La base è iscritta con una citazione dal testo sacro [owner.GetFaith.GetAdjective]."
  artifact_statue_religious_jesus:0 "Gesù sulla Croce"
  artifact_statue_religious_mary:0 "Maria Vergine"
- #artifact_sculpture_virgin_mary_description: "Una statua scolpita e dipinta della Vergine Maria, madre di Gesù."
- #artifact_sculpture_visnu_description: "Una statua scolpita e dipinta di Vishnu il Protettore."
+ #artifact_sculpture_virgin_mary_description: "A carved and painted statue of the Virgin Mary, mother of Jesus."
+ #artifact_sculpture_visnu_description: "A carved and painted statue of Vishnu the Preserver."
  artifact_sculpture_animal_description:0 "Una statua [SCOPE.Custom('ArtifactWealth')] di un animale, dipinta e scolpita [SCOPE.Custom('ArtifactAdverbQuality')]. Le qualità mitiche della creatura sono interpretate come un'allegoria di [owner.GetTitleAsNameNoTooltip] e del suo [owner.Custom('RulerSkill')]. Il materiale in [newly_created_artifact.GetFeatureText( 'sculpture_material' )] della scultura è lavorato con [SCOPE.Custom('ArtifactAdverbQuality')]."
  feature_sculpture_material_stone:0 "pietra"
  feature_sculpture_material_wood:0 "[Artifact.GetFeatureText( 'generic_material_wood' )]"
@@ -312,8 +316,8 @@
 
  artifact_sculpture_ark_of_covenant_name:1 "Arca dell'Alleanza"
  artifact_sculpture_ark_of_covenant_description:0 "Un grande scrigno di pietra che si dice essere l'originale Arca dell'Alleanza, contenente le tavole di pietra date a Mosè da Dio."
- #artifact_sculpture_kali_description: "Una statua scolpita e dipinta di Kali, la Dea Nera."
- #artifact_sculpture_ganesh_description: "Una statua scolpita e dipinta di Ganesh il Soppressore degli Ostacoli."
+ #artifact_sculpture_kali_description: "A carved and painted statue of Kali, the Black Goddess."
+ #artifact_sculpture_ganesh_description: "A carved and painted statue of Ganesh the Remover of Obstacles."
  artifact_sculpture_armor_babr_name:0 "Babr-e Bayan"
  artifact_sculpture_armor_babr:1 "Questa è la leggendaria Babr-e Bayan, l'armatura indossata dall'eroe persiano Rostam."
  artifact_sculpture_cabinet_pentapyrgion_name:1 "Pentapyrgion"
@@ -382,11 +386,11 @@
  artifact_pedestal_skull_of_the_enemy_description:0 "Un teschio umano perfettamente pulito e preservato appartenente a [rival.GetTitledFirstNameNoTooltip], rimosso chirurgicamente a causa delle offese personali nei confronti di [owner.GetTitledFirstNameNoTooltip]."
  artifact_pedestal_skull_of_the_apostate_name:0 "Teschio dell' Apostata"
  artifact_pedestal_skull_of_the_apostate_description:0 "Un teschio umano perfettamente pulito e preservato appartenente a [rival.GetTitledFirstNameNoTooltip], rimosso chirurgicamente per aver vissuto in modo opposto ai valori di [owner.GetFaith.GetName]."
- #artifact_pedestal_statuette_description: "Una piccola statuetta di squisita fattura, che rappresenta [owner.Custom('StatuetteSubject')]."
- #artifact_pedestal_statuette_minor_god: "una divinità minore di [owner.GetFaith.GetNameNoTooltip]"
- #artifact_pedestal_statuette_zoroastr: "un Faravahar"
- #artifact_pedestal_statuette_lion: "un leone maestoso"
- #artifact_pedestal_statuette_griffin: "un grifone spaventoso"
+ #artifact_pedestal_statuette_description: "A small statuette of exquisite workmanship, representing [owner.Custom('StatuetteSubject')]."
+ #artifact_pedestal_statuette_minor_god: "a minor god of [owner.GetFaith.GetNameNoTooltip]"
+ #artifact_pedestal_statuette_zoroastr: "a Faravahar"
+ #artifact_pedestal_statuette_lion: "a majestic lion"
+ #artifact_pedestal_statuette_griffin: "a fearsome griffin"
  artifact_pedestal_massive_diamond_name:1 "Diamante di [owner.GetTitledFirstNameNoTooltip]"
  artifact_pedestal_massive_diamond:0 "Un diamante enorme, lucente e levigato, unico per dimensioni e purezza."
  artifact_pedestal_crown_justinian_name:0 "Corona di Giustiniano"
@@ -421,11 +425,10 @@
  artifact_pedestal_veil_veronica:1 "L'autentico Velo della Veronica: un pezzo di stoffa su cui fu miracolosamente impresso il volto di Gesù durante la Passione. Si dice che guarisca i malati per mezzo della Grazia di Dio"
  artifact_pedestal_cornerstone_name:0 "Pietra Angolare Rubata"
  artifact_pedestal_cornerstone_name_desc:0 "Una pietra angolare del [rival.Custom('FortifiedBuilding')] di [rival.GetTitledFirstNamePossessive]"
- #artifact_pedestal_mosque_lamp_name: "Preziosa Lampada ad Olio"
- #artifact_pedestal_mosque_lamp: "Una magnifica lampada da moschea - una preziosa lampada a olio in vetro smaltato e dorato."
+ #artifact_pedestal_mosque_lamp_name: "Precious Oil Lamp"
+ #artifact_pedestal_mosque_lamp: "A magnificent mosque lamp — a precious oil lamp made of enamelled glass and gilded."
  artifact_tree_automa_name: "Albero Automa"
  artifact_tree_automa: "Un albero finemente scolpito e dorato, con uccelli in carne e ossa seduti sui suoi rami. Solo i greci conoscono i segreti della sua pompa idraulica nascosta, che fa muovere e cantare piacevolmente gli uccelli."
-
 
 
  # Books
@@ -504,18 +507,18 @@
 
 # witch
  feature_book_title_witch_love_sorcery:0 "Il Fascino di [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_love_sorcery:0 "Libro di qualità [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di di incantesimi e sortilegi per indurre l'amore."
+ feature_book_topic_witch_love_sorcery:0 "Libro di qualità [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di di incantesimi e sortilegi per indurre l'amore."
  feature_book_title_witch_curse_sorcery:0 "Le Maledizioni di [Artifact.GetFeatureText( 'book_subject' )]"
- feature_book_topic_witch_curse_sorcery:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] qualità che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di maledizioni e pozioni per ostacolare i tuoi nemici."
+ feature_book_topic_witch_curse_sorcery:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità che detiene il potere e la conoscenza di [Artifact.GetFeatureText( 'book_subject' )]. Contiene descrizioni [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] illustrate di maledizioni e pozioni per ostacolare i tuoi nemici."
  feature_book_title_witch_witch:0 "[Artifact.GetOwner.GetFaith.WitchGodName|U]"
 
-# martial                      ...ArtifactBookContentQuality significa ECCELLENTE
- feature_book_title_martial_military:0 "L'Arte della Guerra $artifact_name_prefix_artifact_scope$"
- feature_book_topic_martial_military:0 "Un libro [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] sulla strategia e la guerra, nato dalla lunga esperienza di [Artifact.GetOwner.GetFirstNamePossessiveNoTooltip] sul campo di battaglia."
- feature_book_title_martial_duels:0 "Manuale di Arti Marziali $artifact_name_prefix_artifact_scope$"
- feature_book_topic_martial_duels:0 "Un manuale [Artifact.GetOwner.Custom('ArtifactBookContentQuality')|U] contenente consigli per allenarsi nel duello con ogni arma conosciuta sul campo di battaglia, nei tornei e nelle giostre."
+# martial
+ feature_book_title_martial_military:0 "L'Arte della Guerra di $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_martial_military:0 "Un libro di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità sulla strategia e la guerra, partorito dalla lunga esperienza di [Artifact.GetOwner.GetFirstNamePossessiveNoTooltip] sul campo di battaglia"
+ feature_book_title_martial_duels:0 "Manuale di Arti Marziali di $artifact_name_prefix_artifact_scope$"
+ feature_book_topic_martial_duels:0 "Un manuale di [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] qualità contenente consigli per allenarsi nel duello con ogni arma conosciuta sul campo di battaglia, nei tornei e nelle giostre"
  feature_book_title_martial_chivalry:0 "Il Libro della Cavalleria [Artifact.GetOwner.GetCulture.GetNameNoTooltip]"
- feature_book_topic_martial_chivalry:0 "Un tomo [Artifact.GetOwner.Custom('ArtifactWealth')|U] contenente una serie [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] di consigli e elucubrazioni sulla cavalleria e sulla cortesia."
+ feature_book_topic_martial_chivalry:0 "Un tomo [Artifact.GetOwner.Custom('ArtifactWealth')|U] contenente una serie [Artifact.GetOwner.Custom('ArtifactBookContentQuality')] di consigli e elucubrazioni sulla cavalleria e sulla cortesia"
 
 # diplomacy
  feature_book_title_diplomacy_dynasty:1 "Le Cronache della Dinastia [Artifact.GetOwner.GetDynasty.GetBaseNameNoTooltip]"
@@ -579,7 +582,7 @@
  feature_book_title_soulmate:0 "Devozione $artifact_name_prefix_artifact_scope$"
  feature_book_topic_soulmate:0 "Un manoscritto [Artifact.GetOwner.Custom('ArtifactWealth')|U] e coloratamente illuminato che [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] trasmette la devozione che [Artifact.GetOwner.GetTitledFirstName] sente nei confronti di [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName], immortalando il loro amore."
  feature_book_title_nemesis:0 "L'odio imperituro di [Artifact.GetOwner.GetTitledFirstName]"
- feature_book_topic_nemesis:0 "Un manoscritto [Artifact.GetOwner.Custom('ArtifactWealth')|U] che [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] trasmette l'odio che [Artifact.GetOwner.GetTitleAsName] sente nei confronti di [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – chiamandol[Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('DE_END_PRO_S_N')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultAdjectiveArticle')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom('InsultNoun')] insieme a moltre altre cose. Il testo è minuziosamente illustrato per ritrarre l[ROOT.Char.Custom('DE_PRO_PER_S_3P_N')][Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetWomanMan] in quante più situazioni spiacevoli possibili."
+feature_book_topic_nemesis: 0 "Manoscritto [Artifact.GetOwner.Custom('ArtifactArticleWealth')] [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] che trasmette l’odio che [Artifact.GetOwner.Custom('IT_NAM_COL3')][Artifact.GetOwner.GetTitleAsName] prova per [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – chiamand[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'ola','olo')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultAdjectiveArticle', ROOT.Char)] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultNoun', ROOT.Char)] tra molte altre cose. Il testo è minuziosamente illustrato per ritrarre quell[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'a','o')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetWomanMan] nel maggior numero possibile di situazioni poco lusinghiere."
  
 # mystical animal
  feature_book_title_mystical_animal:0 "Il [Artifact.GetOwner.Custom('GetAnimalType')|U] bianco"
@@ -710,8 +713,8 @@
  artifact_book_content_quality_adequate_adverb:0 "adeguatamente"
  artifact_book_content_quality_modest_adverb:0 "modestamente"
  # travel (currently not used)
- #feature_book_title_travels: "I Viaggi di [inspiration_owner.GetFirstNameNoTooltip]"
- #feature_book_topic_travels: "Il resoconto degli avventurosi viaggi di [inspiration_owner.GetTitledFirstNameNoTooltip] nelle misteriose terre di [owner.Custom('GetFarRegion')]."
+ #feature_book_title_travels: "The Travels of [inspiration_owner.GetFirstNameNoTooltip]"
+ #feature_book_topic_travels: "[SCOPE.Custom('ArtifactArticleBookContentQuality')|U] account of the adventurous travels of [inspiration_owner.GetTitledFirstNameNoTooltip] to the mysterious lands of [owner.Custom('GetFarRegion')]."
  artifact_book_topic_travels_africa:0 "Sudan, oltre il deserto del Sahara"
  artifact_book_topic_travels_india:0 "India"
  artifact_book_topic_travels_steppe:0 "le steppe"
@@ -762,8 +765,8 @@
  artifact_pedestal_skull_goblet_description:0 "Un elegante ma macabro calice per bere, ricavato dal cranio di [bp1_yearly_5601_dead_nemesis.GetFirstName]."
  artifact_skull_goblet_trinket_name:0 "Ninnolo fatto con un Teschio"
  artifact_skull_goblet_trinket_description:0 "Un elegante ma macabro ninnolo, formato in parte dal teschio di [bp1_yearly_5601_dead_nemesis.GetFirstName]."
- 
- # ALCHEMY
+
+# ALCHEMY
  feature_elixir_youth:0 "Elisir della Giovinezza"
  feature_elixir_youth_desc:0 "un elisir abbastanza potente da restituire la giovinezza perduta"
  feature_elixir_immortality:0 "Elisir dell'Immortalità"
@@ -808,6 +811,33 @@
  artifact_scepter_description:0 "Uno scettro, forgiato in oro, ornato e decorato, di [SCOPE.Custom('ArtifactQuality')] fattura. Un autentico simbolo di distinzione."
  
  artifact_scepter_pedestal:0 "Scettro"
- 
+
  artifact_wall_icon_court_large: "Icona Grande"
  artifact_wall_icon_court_small: "Icona Piccola" 
+
+artifact_pedestal_sakanoue_sword_name: "Banke no Hōken" # 坂家宝剣
+artifact_pedestal_sakanoue_sword_desc: "Questa spada fu brandita dal celebre generale $dynn_Sakanoue$ $Tamuramaro$ e si dice protegga la corte imperiale. Fu presentata al palazzo da $Saga_JP$ $king_tenno_male_japanese$ alla morte di $Tamuramaro$."
+artifact_higekiri_sword_name: "Higekiri" # 髭切
+artifact_higekiri_sword_desc: "La «Tagliabarbe» fu commissionata insieme alla Hizamaru da $dynn_Minamoto$ no $Mitsunaka$ e tramandata nella famiglia $Seiwa$ $dynn_Minamoto$."
+artifact_hizamaru_sword_name: "Hizamaru" # 膝丸
+ artifact_hizamaru_sword_desc: "Questa spada fu commissionata insieme a Higekiri da $dynn_Minamoto$ no $Mitsunaka$ e tramandata nella casata $Seiwa$ $dynn_Minamoto$."
+artifact_dojigiri_sword_name: "Dojigiri" # 童子切
+artifact_dojigiri_sword_desc: "Questa spada fu forgiata dal celebre fabbro $Yasutsuna_4$ per $dynn_Fujiwara$ $Toshihito$ e tramandata nella famiglia $dynn_Fujiwara$."
+artifact_mikazuki_munechika_sword_name: "Mikazuki" # 三日月
+artifact_mikazuki_munechika_sword_desc: "La «Luna crescente» fu forgiata dal celebre fabbro $dynn_SanjO_$ $Munechika_2$ durante il regno di $IchijO_$ $king_tenno_male_japanese$."
+artifact_odenta_sword_name: "Ōtenta" # 大典太
+artifact_odenta_sword_desc: "La «Grande Tenta» fu forgiata dal celebre fabbro $Mitsuyo$, detto Tenta, durante il regno di $Shirakawa$ $king_tenno_male_japanese$."
+artifact_pedestal_hamayumi_bow_name: "Hamayumi" # 破魔弓
+artifact_pedestal_hamayumi_bow_desc: "L’«Uccisore del male» fu usato da $dynn_Minamoto$ $Yorimasa$, convocato a palazzo imperiale per scacciare gli spiriti maligni."
+artifact_pedestal_seven_branched_sword_name: "Shichishitō" # 七支刀
+artifact_pedestal_seven_branched_sword_desc: "La «Spada a sette rami», una lama di ferro con sette ramificazioni simili a fiamme, si dice fosse un dono d’amicizia al $king_tenno_male_japanese$, inviato oltre mare dal re di Baekje in tempi antichi."
+artifact_pedestal_gyerimro_dagger_name: "Pugnale esotico"
+artifact_pedestal_gyerimro_dagger_desc: "Questo pugnale squisitamente lavorato, con elsa e fodero in oro finemente intarsiato di pietre preziose, è un bene pregiato della corte di Silla e si dice provenga da terre lontane a occidente."
+artifact_karakawa_armor_name: "Karakawa" # 唐皮
+artifact_karakawa_armor_desc: "Questa splendida armatura ō-yoroi è un cimelio della famiglia Taira e si dice fosse un dono del nipote di $Kanmu$ $king_tenno_male_japanese$."
+artifact_nukemaru_sword_name: "Nukemaru" # 抜丸
+artifact_nukemaru_sword_desc: "Si narra che Amaterasu stessa l’abbia donata a un cacciatore di Ise; fu poi acquistata da $dynn_Taira$ $Tadamori$ e si dice che si sia sguainata da sola quando un serpente minacciò il suo sonno."
+artifact_kogarasumaru_sword_name: "Kogarasumaru" # 小烏丸
+artifact_kogarasumaru_sword_desc: "La «Piccola Cornacchia» fu forgiata da Amakuni per la corte imperiale e in seguito concessa a $dynn_Taira$ $Sadamori$ da $Suzaku$ $king_tenno_male_japanese$ per il servizio nella ribellione Jōhei-Tengyō."
+artifact_statue_green_amitabha_buddha_name: "Buddha Amitabha in pietra verde"
+artifact_statue_green_amitabha_buddha_descripton: "Questa splendida statua del Buddha Amitabha sembra scolpita da un monolite di pietra verde. La base è decorata con petali di loto e motivi d’onde.\n\nSi dice che la statua sia apparsa miracolosamente dalle macerie di una pagoda crollata poco dopo la costruzione."

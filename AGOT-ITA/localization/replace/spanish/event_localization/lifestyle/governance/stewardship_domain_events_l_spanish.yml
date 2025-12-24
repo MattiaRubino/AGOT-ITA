@@ -34,8 +34,8 @@
  
  # Granary Infestation, by Sean Hughes
  stewardship_domain.1052.t:0 "Granaio Infestato"
- stewardship_domain.1052.desc:0 "I parassiti hanno infestato diversi granai [target_county.Custom('IT_COU_COL2')][target_county.GetName], distruggendo i semi immagazzinati in essi. Non avendo nulla da piantare per i raccolti del prossimo anno, i liberi cittadini che vivono lì sono venuti da me per chiedere aiuto.\n\nData la loro situazione disastrosa, questi agricoltori alla fine saranno costretti ad accettare i termini che offro loro."
- stewardship_domain.1052.a:0 "Ho un sacco di grano, dovrebbero diventare i miei servi..."
+stewardship_domain.1052.desc: 0 "Parassiti hanno infestato diversi granai nel [target_county.GetName], distruggendo il grano da seme in essi conservato. Non avendo nulla da piantare per il raccolto dell’anno prossimo, i contadini che vi abitano sono venuti a chiedermi aiuto.\n\nData la loro situazione disperata, saranno senz’altro costretti ad accettare qualunque condizione io imponga."
+stewardship_domain.1052.a: 0 "Ho grano in abbondanza, se mi giurano fedeltà…"
  stewardship_domain.1052.b:0 "Abbi pietà di loro, aprite i miei depositi di grano."
  stewardship_domain.1052.c:0 "Ordina ai [ROOT.Char.Custom('DefaultPriestTitlePlural')] di fare loro la carità."
  stewardship_domain.1052.d:0 "Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('almoner'))] distribuirà loro il grano."
@@ -58,7 +58,7 @@
 
  # Reduce revolt risk by being diligent, by Linnéa Thimrén
  stewardship_domain.5031.t:0 "Una Contea in Difficoltà"
- stewardship_domain.5031.desc:0 "Questi sono tempi tumultuosi per il/la [county.GetName]. Arrivano continui rapporti che descrivono in dettaglio le terribili condizioni della zona e i contadini hanno iniziato a mormorare riguardo una soluzione #EMP alternativa#!..."
+ stewardship_domain.5031.desc:0 "Questi sono tempi tumultuosi per [county.Custom('IT_COU_COL4')][county.GetName]. Arrivano continui rapporti che descrivono in dettaglio le terribili condizioni della zona e i contadini hanno iniziato a mormorare riguardo una soluzione #EMP alternativa#!..."
  stewardship_domain.5031.a:0 "Risolvi il problema personalmente."
  stewardship_domain.5031.b:0 "Aumenta le tasse come punizione."
 
@@ -66,7 +66,7 @@
  stewardship_domain.6001.t:0 "Drenaggio"
  stewardship_domain.6001.desc:0 "Alcuni mesi fa [baron.GetTitledFirstName] ha iniziato un lavoro complesso per ripulire le paludi per l'insediamento di [barony.GetNameNoTier]. Aratri pesanti e fossati freschi rendono il terreno solido, ma è un lavoro lento.\n\n[baron.GetFirstName] ha scritto al mio [steward.GetCouncilTitle], per chiedere la riduzione del suo contributo per le leve militari. Ansioso di completare i lavori prima del prossimo raccolto, spera di reclutare soldati per il lavoro."
  stewardship_domain.6001.a:0 "Prendi tutti i popolani di cui hai bisogno, [baron.GetFirstNameNoTooltip]!"
- stewardship_domain.6001.b:0 "Sono certo che [county.GetName] possa farcela."
+stewardship_domain.6001.b: 0 "Tutta [county.GetNameNoTierNoTooltip] potrebbe cavarsela con quello."
  stewardship_domain.6001.c:0 "No, i campi di battaglia avranno bisogno di molti corpi quest'anno!"
 
  # Forest Clearing, by Petter Vilberg
@@ -91,7 +91,7 @@
  stewardship_domain.6013.a:0 ""Allora abbiamo un accordo.""
  stewardship_domain.6013.b:0 "Sicuramente posso trovare muratori più economici da qualche altra parte."
 
- stewardship_domain.6014.desc:0 ""Insulti me e tutta la mia professione, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]!" Il capo muratore non è affatto soddisfatto delle offerte che sono disposto a fare. "In effetti, i prezzi sono in aumento. E' semplicemente il costo del lavoro, ovviamente. Sono sicuro [ROOT.Char.GetTitleTierName] comprenda.""
+stewardship_domain.6014.desc: 0 "«Mi insulti e insulti la mia intera professione, [ROOT.Char.Custom('FormOfAddressForLiege')]!» Il capomastro non è affatto soddisfatto delle offerte che sono disposto a fare. «Anzi, i prezzi stanno salendo. Solo il costo della manodopera, s’intende. Sono certo che il [ROOT.Char.GetTitleTierName] capisce.»"
  stewardship_domain.6014.a:0 ""Capisco perfettamente.""
  stewardship_domain.6014.b:0 "[county.GetTierAsNameNoTooltip] è al mio servizio, così la sua gilda!"
 
@@ -153,7 +153,7 @@
  stewardship_domain_special.1101.b:0 "La licenza verrà concessa al [local_baron.GetFaith.HouseOfWorship] di [barony.GetNameNoTierNoTooltip]."
  stewardship_domain_special.1101.c:0 "Usa invece il campo per il pascolo."
 
- stewardship_domain_special.1102.desc:0 "[second_local_baron.GetTitledFirstName] mi presenta merci provenienti da tutto il mondo; stoffe dai confini più remoti della via della seta, colture coltivate localmente, meraviglie tecnologiche dall'est...\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], quali prodotti promuovere per la nuova fiera?""
+stewardship_domain_special.1102.desc: 0 "[second_local_baron.Custom('IT_NAM_COL3')][second_local_baron.GetTitledFirstName] mi presenta merci da ogni angolo del mondo; stoffe dagli estremi della Via della Seta, raccolti locali, meraviglie tecnologiche d’Oriente...\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], quali merci dovremmo promuovere per la nuova fiera?»"
  stewardship_domain_special.1102.a:0 "Importeremo quanta più seta possibile!"
  stewardship_domain_special.1102.a.tt:0 "È più probabile che le persone lo apprezzino se l'area è stabile e prospera"
  stewardship_domain_special.1102.b:0 "Ci concentreremo sulle colture coltivate localmente!"
@@ -166,12 +166,12 @@
  stewardship_domain_special.1103.desc_technology:0 "Meraviglie tecnologiche che attirano la gente e merci di prima scelta in tutte le bancarelle: è stata una settimana di festa e commercio!"
  stewardship_domain_special.1103.a:0 "Hai il mio permesso di farlo ogni anno d'ora in poi."
 
- stewardship_domain_special.1104.desc_silk:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], cosa dovremmo fare con tutta questa seta?"\n\nApparentemente, la domanda di seta non era elevata nella zona e [second_local_baron.GetTitledFirstName] è rimasto con molta merce invenduta."
- stewardship_domain_special.1104.desc_crops:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], i raccolti stanno diventando stantii e ammuffiti, cosa dovremmo fare con tutto questo?"\n\nApparentemente, la domanda di colture locali non era elevata nell'area e [second_local_baron.GetTitledFirstName] è rimasto con molta merce invenduta."
- stewardship_domain_special.1104.desc_technology:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], cosa dovremmo fare con questi ninnoli?"\n\nApparentemente, la richiesta di tecnologia meravigliosa non era elevata nell'area e [second_local_baron.GetTitledFirstName] è rimasto con molta merce invenduta."
+stewardship_domain_special.1104.desc_silk: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa dovremmo fare con tutta questa seta?»\n\nA quanto pare, la domanda di seta non era alta nella zona, e [second_local_baron.Custom('IT_NAM_COL3')][second_local_baron.GetTitledFirstName] si ritrova con molto del costoso tessuto invenduto."
+stewardship_domain_special.1104.desc_crops: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], i raccolti stanno ammuffendo e andando a male, cosa dovremmo farne?»\n\nA quanto pare, la domanda di prodotti locali non era alta nella zona, e [second_local_baron.Custom('IT_NAM_COL3')][second_local_baron.GetTitledFirstName] si ritrova con molto invenduto."
+stewardship_domain_special.1104.desc_technology: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa dovremmo fare con questi gingilli?»\n\nA quanto pare, la domanda per la meravigliosa tecnologia non era alta nella zona, e [second_local_baron.Custom('IT_NAM_COL3')][second_local_baron.GetTitledFirstName] si ritrova con molti pezzi invenduti."
  stewardship_domain_special.1104.a:0 "Un inizio tumultuoso, ma sono sicuro che la gente del posto può gestirlo ora!"
 
- stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] mi presenta merci provenienti da tutto il mondo; oggetti religiosi delle città sante, cibo coltivato da [local_baron.GetFaith.DevoteeMalePlural] e [local_baron.GetFaith.DevoteeFemalePlural] nell'area, meraviglie delle religioni straniere...\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], quali prodotti promuovere per la nuova fiera?""
+stewardship_domain_special.1105.desc: 0 "[local_baron.Custom('IT_NAM_COL3')][local_baron.GetTitledFirstName] mi presenta merci da ogni angolo del mondo; oggetti religiosi da città sante, cibi coltivati dai [local_baron.GetFaith.DevoteeMalePlural] e dalle [local_baron.GetFaith.DevoteeFemalePlural] della zona, meraviglie di fedi straniere...\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], quali merci dovremmo promuovere per la nuova fiera?»"
  stewardship_domain_special.1105.a:0 "Onoreremo i santi locali concentrandoci su oggetti religiosi!"
  stewardship_domain_special.1105.a.tt:1 "È più probabile che le persone lo apprezzino se il loro fervore religioso è forte"
  stewardship_domain_special.1105.b:0 "Porta più cibo possibile!"
@@ -184,9 +184,9 @@
  stewardship_domain_special.1106.desc_religious_other:0 "Di fronte alle religioni straniere le persone [county.Custom('IT_COU_COL')][county.GetName] hanno pregato e apprezzato la loro comunità più del solito: è stata una settimana di pii festeggiamenti e commerci!"
  stewardship_domain_special.1106.a:0 "Hai il mio permesso di farlo ogni anno d'ora in poi."
 
- stewardship_domain_special.1107.desc_religious_objects:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], cosa dovremmo fare con questi sacri ninnoli?"\n\nApparentemente, gli oggetti sacri non hanno attirato i devoti nella misura in cui speravo, e [local_baron.GetTitledFirstName] è rimasto con materiale invenduto."
- stewardship_domain_special.1107.desc_religious_food:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], cosa dovremmo fare con tutto questo cibo?"\n\nApparentemente, i pasti preparati da [local_baron.GetFaith.DevoteeMalePlural] e [local_baron.GetFaith.DevoteeFemalePlural] dell'area avrebbero beneficiato di un intervento divino - quasi nulla è stato venduto."
- stewardship_domain_special.1107.desc_religious_other:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], cosa dovremmo fare con questi gingilli blasfemi?"\n\nGli oggetti stranieri non facevano altro che respingere le persone, scoraggiandole dal visitare il mercato. [local_baron.GetTitledFirstName] riceve presto l'ordine di bruciarli, ma il danno è già stato fatto."
+stewardship_domain_special.1107.desc_religious_objects: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa dovremmo fare con questi reliquiari?»\n\nA quanto pare, gli oggetti sacri non hanno attirato i pii quanto speravo, e [local_baron.Custom('IT_NAM_COL3')][local_baron.GetTitledFirstName] si ritrova con molto invenduto."
+stewardship_domain_special.1107.desc_religious_food: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa dovremmo fare con tutto questo cibo?»\n\nA quanto pare, i pasti preparati dai [local_baron.GetFaith.DevoteeMalePlural] e dalle [local_baron.GetFaith.DevoteeFemalePlural] della zona avrebbero giovato di un intervento divino: non si è venduto quasi nulla."
+stewardship_domain_special.1107.desc_religious_other: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa dovremmo fare con questi cenciosi cimeli blasfemi?»\n\nGli articoli stranieri hanno solo disgustato la gente, scoraggiandola dal visitare il mercato. [local_baron.Custom('IT_NAM_COL3')][local_baron.GetTitledFirstName] riceve presto l’ordine di bruciarli, ma il danno è fatto."
  stewardship_domain_special.1107.a:0 "Un inizio tumultuoso, ma sono sicuro che la gente del posto possa gestirlo ora!"
 
 
@@ -198,7 +198,7 @@
  stewardship_domain_special.1301.decrease_road_quality_1:0 "#V Qualità della strada#! diminuita di #N 1#!"
 
  stewardship_domain_special.1301.t:0 "La Strada"
- stewardship_domain_special.1301.steward_opening:0 "Il mio amministratore [steward.GetTitledFirstName] mi informa"
+stewardship_domain_special.1301.steward_opening: 0 "Il mio [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName] [steward.Custom('IT_NAM_COL3')][steward.GetTitledFirstName] mi informa"
  stewardship_domain_special.1301.no_steward_opening:0 "Il mio sindaco mi informa"
  stewardship_domain_special.1301.desc:0 "che c'è un disperato bisogno di una nuova strada per attraversare [project_county.Custom('IT_COU_COL4')][project_county.GetName]. Molte delle vecchie strade sono fatiscenti e persino pericolose!\n\nUn cittadino comune di nome [peasant_leader.GetTitledFirstName] è stato presentato come il leader naturale dello sforzo di costruzione."
  stewardship_domain_special.1301.a:0 "Consideralo fatto."
@@ -234,7 +234,7 @@
  stewardship_domain_special.1315.t:0 "La Strada: Stivali in Marcia"
  stewardship_domain_special.1315.end:0 "\n\nPer fortuna, un uso intensivo è esattamente ciò che è necessario per calpestare il terreno e pianeggiarlo! Con un po 'di fortuna, anche la maggior parte delle leve potrebbe tornare indietro."
  stewardship_domain_special.1315.a:0 "Portateli in prima linea!"
- stewardship_domain_special.1315.b:0 "Marceranno dove [project_leader.GetTitledFirstName] comanda."
+stewardship_domain_special.1315.b: 0 "Marceranno come ordina [project_leader.Custom('IT_NAM_COL3')][project_leader.GetTitledFirstNameNoTooltip]."
 
  stewardship_domain_special.1316.t:0 "La Strada: Miglioramenti Commmissionati"
  stewardship_domain_special.1316.desc:0 "Trovando le parti già completate della nuova strada immensamente vantaggiose, la gilda dei commercianti [project_county.Custom('IT_COU_COL')][project_county.GetName] ha fatto una donazione per espandere ulteriormente la strada."
@@ -247,7 +247,7 @@
  stewardship_domain_special.1317.b:0 "Fateli tornare alla strada!"
 
  stewardship_domain_special.1318.t:0 "La Strada: Progressi"
- stewardship_domain_special.1318.desc:0 "Secondo [project_leader.GetTitledFirstName], i lavori sulla strada [project_county.Custom('IT_COU_COL2')][project_county.GetName] stanno andando bene.\n\n"Il terreno è più solido e i tratti sono più piatti di quanto sperassimo, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].""
+stewardship_domain_special.1318.desc: 0 "Secondo [project_leader.Custom('IT_NAM_COL3')][project_leader.GetTitledFirstName], i lavori sulla strada in [project_county.GetNameNoTier] procedono bene.\n\n«Il terreno è più solido e i tratti più piani di quanto sperassimo, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
  stewardship_domain_special.1318.a:0 "Espandi ulteriormente la strada!"
  stewardship_domain_special.1318.b:0 "Le cose stanno andando esattamente come voglio."
  stewardship_domain_special.1318.c:0 "Un'opportunità perfetta per tagliare i costi!"
@@ -265,12 +265,12 @@
  stewardship_domain_special.1321.t:0 "La Strada: Mancanza di Esperienza"
  stewardship_domain_special.1321.desc:0 ""Continuo a dire loro di passare direttamente attraverso il campo, ma [peasant_leader.GetTitledFirstName] insiste per reindirizzarli attraverso i boschi vicini! "[Steward.GetTitledFirstName] è visibilmente turbato dai lavori per la strada [project_county.Custom('IT_COU_COL2')][project_county.GetName].\n\nTuttavia, [peasant_leader.GetTitledFirstName] continua ad insistere con la sua idea. "Il terreno nel campo è irregolare e non abbastanza compatto, mio ​​signore! La foresta è un percorso molto migliore.""
  stewardship_domain_special.1321.a:0 "Ascolta i più saggi, contadino!"
- stewardship_domain_special.1321.b:0 "[peasant_leader.GetTitledFirstName] sembra sapere cosa è meglio..."
+stewardship_domain_special.1321.b: 0 "[peasant_leader.Custom('IT_NAM_COL3')][peasant_leader.GetTitledFirstNameNoTooltip] sembra sapere il fatto suo..."
 
  stewardship_domain_special.1391.t:0 "La Strada: Mancanza di Comando"
  stewardship_domain_special.1391.desc:0 "Con [project_leader.GetTitledFirstName] andato via, il lavoro sulla strada [project_county.Custom('IT_COU_COL2')][project_county.GetName] è senza una chiara direzione. Se deve essere terminato, qualcun altro deve essere incaricato di condurre i lavori."
- stewardship_domain_special.1391.a:0 "[peasant_leader.GetTitledFirstName] sembra un buon rimpiazzo."
- stewardship_domain_special.1391.b:0 "È ora che [steward.GetTitledFirstName] prenda le redini."
+stewardship_domain_special.1391.a: 0 "[peasant_leader.Custom('IT_NAM_COL3')][peasant_leader.GetTitledFirstNameNoTooltip] sembra [Select_CString(peasant_leader.IsFemale,'una sostituta competente','un sostituto competente')]."
+stewardship_domain_special.1391.b: 0 "È ora che [steward.Custom('IT_NAM_COL3')][steward.GetTitledFirstNameNoTooltip] prenda il controllo."
 
  stewardship_domain_special.1392.t:0 "La strada: Ridurre le Perdite"
  stewardship_domain_special.1392.desc:0 "Con la perdita [project_county.Custom('IT_COU_COL')][project_county.GetName], completare la strada non sarebbe molto vantaggioso per me. Almeno le tasse raccolte per il progetto sono nella mia tesoreria, piuttosto che sprecate per una strada."
@@ -301,7 +301,7 @@
  stewardship_domain_special.1401.b.tt:0 "Conduco io stesso le indagini"
  stewardship_domain_special.1401.c:0 "I villaggi scompaiono di continuo, non farci caso."
 
- stewardship_domain_special.1411.desc:0 "[collector.GetTitledFirstName], l'esattore [county.Custom('IT_COU_COL')][county.GetName] ha fatto di tutto per insistere su quanto fosse importante che venissi a vedere di persona il villaggio "scomparso".\n\nDopo giorni di viaggio, arrivo finalmente al villaggio. Sembra come qualsiasi altro sudicio insediamento. [collector.GetTitledFirstName] è comunque insistente. "Mio signore, permettetemi di mostrarvi questo posto, vi prego. Questa è casa mia.""
+stewardship_domain_special.1411.desc: 0 "[collector.Custom('IT_NAM_COL3')][collector.GetTitledFirstName], l’esattore delle tasse in [county.GetName], ha fatto di tutto per sottolineare quanto fosse importante che venissi a vedere con i miei occhi il villaggio «scomparso».\n\nDopo giorni di viaggio, infine cavalco nel villaggio. Sembra un qualunque misero insediamento. [collector.Custom('IT_NAM_COL3')][collector.GetTitledFirstName] insiste nondimeno. «[ROOT.Char.Custom('FormOfAddressForLiege')|U], permettimi di mostrarti questo luogo, te ne prego. Questa è casa mia.»"
  stewardship_domain_special.1411.a:0 "Molto bene, fammi vedere."
  stewardship_domain_special.1411.a.tt:0 "[collector.GetTitledFirstName] mi mostra il suo villaggio"
  stewardship_domain_special.1411.b:0 "Hai già sprecato troppo del mio tempo!"
@@ -461,7 +461,7 @@
  stewardship_domain_special.1560.c:0 "I commercianti hanno ragione."
 
  stewardship_domain_special.1590.desc.start:0 "Dopo molti lunghi mesi esaminando le mie terre, è completato."
- stewardship_domain_special.1590.perfect.desc:0 "Sotto la mia guida, i miei assessori hanno compilato una registrazione assolutamente perfetta delle mie proprietà. Con tutto ciò che è dettagliato fino all'ultimo pollo, questo mi assicurerà di raccogliere l'intera e completa tassa che mi è dovuta ogni anno!"
+stewardship_domain_special.1590.perfect.desc: 0 "Sotto la mia guida, i miei periti hanno compilato un registro assolutamente perfetto dei miei possedimenti. Con tutto elencato fin all’ultima gallina, questo assicurerà che ogni anno riscuota l’intera imposta che mi è dovuta!"
  stewardship_domain_special.1590.excellent:0 "I miei censori compilano un registro preciso delle mie partecipazioni"
  stewardship_domain_special.1590.excellent.desc:0 "I miei censori hanno compilato un registro eccezionalmente preciso delle mie partecipazioni. Ciò garantirà di riscuotere l'intera e completa imposta dovuta ogni anno!"
  stewardship_domain_special.1590.good:0 "I miei censori compilano una stima accurata delle mie partecipazioni"
@@ -541,13 +541,13 @@
  stewardship_domain_special.8001.if_successful:0 "In caso di successo:"
 
  stewardship_domain_special.8011.t:1 "$stewardship_domain_special.8001.t$: Sforare il Budget"
- stewardship_domain_special.8011.desc:0 "Il mio assistente architetto è venuto da me chiedendomi di spendere ancora di più per il progetto dell'acquedotto [county.Custom('IT_COU_COL2')][county.GetName].\n\n"Sicuramente tu stesso puoi capire che qualsiasi progetto di costruzione sarebbe costoso in queste condizioni, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].""
+stewardship_domain_special.8011.desc: 0 "Il mio architetto assistente nominato è venuto da me, chiedendomi di spendere ancora di più per il progetto di acquedotto nella [county.GetName].\n\n«Sono certo che tu stesso/a possa vedere che qualsiasi cantiere sarebbe costoso in queste condizioni, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
  stewardship_domain_special.8011.a:1 "[steward.GetFirstNameNoTooltip], trovatemi un rimpiazzo!"
  stewardship_domain_special.8011.a.tt:0 "#F Avevo grandi speranze per questo...#!"
  stewardship_domain_special.8011.b:0 "Hai ragione. Prendi quello che ti serve."
 
  stewardship_domain_special.8012.t:1 "$stewardship_domain_special.8001.t$: Problemi Continui"
- stewardship_domain_special.8012.desc:0 "Non ci sono architetti competenti nel mio regno?! Il mio nuovo assistente, sovrintendente alla costruzione dell'acquedotto [county.Custom('IT_COU_COL2')][county.GetName], ha anche superato il budget!\n\nSono stanco di scuse senza senso come "non si può fare, mio ​​signore"!"
+stewardship_domain_special.8012.desc: 0 "Non ci sono architetti competenti nel mio reame? Anche il mio nuovo architetto assistente, che sovrintende alla costruzione dell’acquedotto in [county.GetNameNoTier], è andato fuori budget!\n\nSono stufo di scuse senza senso del tipo «non si può fare, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
  stewardship_domain_special.8012.a:0 "Prendi l'oro, ma faresti meglio a completare il progetto con questo!"
  stewardship_domain_special.8012.a.tt:0 "#F Come può mai costare così tanto costruire un semplice acquedotto?#!"
  stewardship_domain_special.8012.b:0 "reclutate altri contadini per la corvée."
@@ -564,20 +564,20 @@
  stewardship_domain_special.8021.c:0 "Ci sono sempre curve che possiamo tagliare per ritornare in pista!"
 
  stewardship_domain_special.8022.t:1 "$stewardship_domain_special.8001.t$: Condizioni Sfortunate"
- stewardship_domain_special.8022.desc:0 "Il progetto di irrigazione [county.Custom('IT_COU_COL2')][county.GetName] sta continuando a ritmo sostenuto, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] ", riferisce il mio amministratore. La mia compiacenza svanisce presto, tuttavia." Sfortunatamente, i contadini stanno morendo a una velocità allarmante.""
+stewardship_domain_special.8022.desc: 0 "«Il progetto di irrigazione in [county.GetNameNoTier] procede a buon ritmo, [ROOT.Char.Custom('FormOfAddressForLiege')],» riferisce il mio amministratore. La mia compiacenza però svanisce presto. «Purtroppo i contadini addetti ai lavori stanno morendo a un ritmo allarmante.»"
  stewardship_domain_special.8022.a:0 "Potrei aver bisogno di supervisionare le cose un po 'più da vicino da qui in poi."
  stewardship_domain_special.8022.b:0 "Non vivono per servirmi?"
  stewardship_domain_special.8022.c:0 "Ah ... Rimpiazzateli se necessario."
  stewardship_domain_special.8022.c.tt:0 "#F Non dite loro a cosa ci servono.#!"
 
  stewardship_domain_special.8023.t:1 "$stewardship_domain_special.8001.t$: Progresso Stagnante"
- stewardship_domain_special.8023.desc:0 ""Mio signore, il progetto di irrigazione [county.Custom('IT_COU_COL2')][county.GetName] è in ritardo rispetto a quanto pianificato", riferisce [steward.Custom2('MyCharacterIntroduction', ROOT.Char)]. "Molto in ritardo. Dopo aver ispezionato il lavoro, mi domando se riuscirà ad essere completato durante il corso della mia vita."\n\nNon so dire se [steward.GetSheHe] sia seri[steward.Custom('DE_END_PRO_S_N')] o meno."
+stewardship_domain_special.8023.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], il progetto di irrigazione in [county.GetNameNoTier] è in forte ritardo,» riferisce [steward.Custom2('MyCharacterIntroduction', ROOT.Char)]. «Molto in ritardo. Avendo ispezionato i lavori, temo che non sarà completato nella mia vita.»\n\nNon riesco a capire se [Select_CString(steward.IsFemale,'lei','lui')] sia seri[Select_CString(steward.IsFemale,'a','o')] oppure no."
  stewardship_domain_special.8023.a:0 "Sostituisci i supervisori. E dagli altre frustate."
  stewardship_domain_special.8023.b:0 "Assumi comunque tutti i lavoratori che sono necessari!"
  stewardship_domain_special.8023.c:0 "Forse è ora di abbassare il tiro..."
  stewardship_domain_special.8023.c.tt:0 "Ciò ridurrà l'effetto del mio progetto"
 
-  #Localisation for completion of the governance lifestyle.
+ #Localisation for completion of the governance lifestyle.
  stewardship_domain_special.9999.t:0 "Tutto sul mio Libro Mastro"
  stewardship_domain_special.9999.desc_opening:0 "Con un dito in ogni torta, un occhio su ogni questione e un'opinione su ogni decisione Mi sono concentrato su questioni amministrative da molto tempo ormai."
  stewardship_domain_special.9999.desc_education_4:0 "\n\nMentre esamino i miei risultati, mi rendo conto che non mi resta più niente da imparare!"
