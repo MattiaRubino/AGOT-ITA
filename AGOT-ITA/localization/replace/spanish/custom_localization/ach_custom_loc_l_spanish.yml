@@ -1,0 +1,145 @@
+﻿l_spanish:
+
+# GetRandomConflictDescriptor
+ RandomConflictDescriptorIrelandToCathay: "sono tristemente note dall’Irlanda al Catài"
+ RandomConflictDescriptorAcrossChristendom: "sono tristemente note in tutta la cristianità"
+ RandomConflictDescriptorSchism: "sono più gravi di quelle tra Oriente e Occidente"
+ RandomConflictDescriptorStuffOfLegends: "sono leggendarie"
+ RandomConflictDescriptorFromEastToWest: "si raccontano da Est a Ovest"
+ RandomConflictDescriptorMarTheMood: "guastano l’atmosfera, altrimenti gioiosa"
+ RandomConflictDescriptorHangDarkly: "aleggiano cupamente sulla processione"
+# GetHoFGreeterExchangeFirstPerson
+ HoFGreeterExchangeFPHopefullySubtleEmbrace: "godere —si spera— di un abbraccio discreto tra noi"
+ HoFGreeterExchangeFPAllTooShortEmbrace: "scambiarci un abbraccio fin troppo breve"
+ HoFGreeterExchangeFPJoyousEmbrace: "condividere un abbraccio gioioso"
+ HoFGreeterExchangeFPBriefAndCourteous: "avere un dialogo breve ed educato"
+ HoFGreeterExchangeFPCurtAndBrief: "avere un dialogo piuttosto secco e, per fortuna, breve"
+ HoFGreeterExchangeFPVitriolAndAnger: "sfogare diversi minuti di livore e ira"
+ HoFGreeterExchangeFPVeiledInsults: "uno scambio di insulti velati"
+# GetHoFGreeterExchange
+ HoFGreeterExchangeTenderAndBrotherly: "condividere un abbraccio tenero e fraterno"
+ HoFGreeterExchangeTenderAndSisterly: "condividere un abbraccio tenero e fraterno"
+ HoFGreeterExchangeOverlong: "condividere un abbraccio troppo lungo"
+ HoFGreeterExchangeJoyous: "avere un dialogo gioioso e colmo di risate"
+ HoFGreeterExchangeCourteous: "scambiare alcune parole educate"
+ HoFGreeterExchangeBrief: "un dialogo breve"
+ HoFGreeterExchangeTense: "un dialogo teso"
+ HoFGreeterExchangeOpenlyHostile: "poche parole chiaramente ostili"
+ HoFGreeterExchangeLoudAndCurseLaden: "una discussione accesa e piena di imprecazioni"
+# GetRandomCoronationObject
+ RandomCoronationObjectWhiteRod: "bastone bianco di investitura"
+ RandomCoronationObjectCoronationCloak: "mantello di incoronazione"
+ RandomCoronationObjectApostolicCross: "croce apostolica"
+ RandomCoronationObjectRoyalReligioustext: "[ROOT.Char.GetFaith.ReligiousText2] reale"
+ RandomCoronationObjectRegaliaArtifact: "[equipped_regalia.GetName]"
+ RandomCoronationObjectSceptreAndOrb: "scettro e globo"
+ RandomCoronationObjectCoronationSpoon: "cucchiaio di incoronazione"
+ RandomCoronationObjectCoronationSword: "spada di incoronazione"
+ RandomCoronationObjectCoronationRings: "anelli di incoronazione"
+# GetBusynessOpinion
+ BusynessOpinionLazy: "e per di più, "
+ BusynessOpinionDiligent: "per fortuna,"
+ BusynessOpinionNeutral: "ma almeno,"
+# GetCoronationSite
+ CoronationSitePalatineChapel: "Cappella Palatina"
+ CoronationSiteChurchOfTheHolySepulchre: "Chiesa del Santo Sepolcro"
+ CoronationSiteWawelCathedral: "Cattedrale di Wawel"
+ CoronationSiteWestminsterAbbey: "Abbazia di Westminster"
+ CoronationSiteLocalHolding: "[ROOT.Province.GetName]"
+# GetCoronationSiteShort
+ CoronationSitePalatineChapel_short: "la cappella"
+ CoronationSiteChurchOfTheHolySepulchre_short: "la chiesa"
+ building_hagia_sophia_01_short: "la chiesa"
+ building_hagia_sophia_02_short: "la moschea"
+ CoronationSiteWawelCathedral_short: "la cattedrale"
+ CoronationSiteWestminsterAbbey_short: "l’abbazia"
+ CoronationSiteLocalHolding_short: "la sala dell’incoronazione"
+# GetRandomHoldingStreet
+ RandomHoldingLocationOutskirts: "le periferie"
+ RandomHoldingLocationRoads: "le strade"
+ RandomHoldingLocationStreets: "le vie"
+ RandomHoldingLocationAlleys: "i vicoli"
+ RandomHoldingLocationCanals: "i canali"
+
+ # GetTitleTierAdjective
+ adjective_khaganal: "caganale"
+ adjective_imperial: "imperiale"
+ adjective_khanal: "canale"
+ adjective_royal: "reale"
+ adjective_chiefly: "caporalesco"
+ adjective_ducal: "ducale"
+ adjective_comital: "comitale"
+ adjective_baronial: "baronale"
+ adjective_noble: "nobile"
+ adjective_common: "plebeo"
+
+ # GetLocalCommonerTerm
+ tribesman: "uomo tribale"
+ tribeswoman: "donna tribale"
+ villager: "villano"
+ townsman: "borghese"
+ townswoman: "borghese"
+ peasant: "[Select_CString(ROOT.Char.IsFemale,'contadina','contadino')]"
+
+# GetLocalCommonerTermPlural
+ tribespeople: "membri di una tribù"
+ villagers: "villani"
+ cityfolk: "cittadini"
+ townsfolk: "abitanti"
+ commoners: "plebei"
+
+# GetFighterTerm
+ man_at_arms: "uomo d’arme"
+ soldier: "soldato"
+ warrior: "guerriero"
+
+ # GetFighterTermPlural
+ soldiers_custom_loc: "uomini d’arme"
+ men_at_arms: "uomini d’arme"
+
+# GetFighterTermPossessive
+ man_at_arms_possessive: "dell’uomo d’arme"
+ soldier_possessive: "del soldato"
+ warrior_possessive: "del guerriero"
+
+# GetMotherlyFatherly
+ motherly: "materno"
+ fatherly: "paterno"
+ parental: "genitoriale"
+
+# GetLowOfficial
+ tribal_elder: "anziano tribale"
+ seigneur: "signore"
+ signore: "signore"
+ hidalgo: "hidalgo"
+ junker: "junker"
+# GetLowOfficialPlural
+ magistrates: "magistrati"
+ archons: "arconti"
+ tribal_elders: "anziani tribali"
+ seigneurs: "signori"
+ signori: "signori"
+ hidalgos: "hidalgos"
+ walis: "wālī"
+ junkers: "junkers"
+
+# GetRegionalSword
+katana: "katana"
+ shamshir: "shamshir"
+ shotel: "shotel"
+ akrafena: "akrafena"
+ ida: "ida"
+ takoba: "takuba"
+ dha: "dha"
+ talwar: "talwar"
+ khanda: "khanda"
+ kilij: "kilij"
+ saber: "sciabola"
+ longsword: "spada lunga"
+ estoc: "stocco"
+ saif: "saif"
+ spathion: "spathion"
+
+# GetChronicleSaga
+ chronicle: "cronaca"
+ saga: "saga"

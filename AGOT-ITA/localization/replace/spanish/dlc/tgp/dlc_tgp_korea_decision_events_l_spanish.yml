@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+ ##################################################
+ # KOREA DECISION EVENTS 
+ ##################################################
+ # unify_goryeo_decision
+  tgp_korea_decision.9101.t: "Un regno unificato"
+  tgp_korea_decision.9101.intro: "I numerosi regni e popoli di questa penisola hanno lottato inutilmente per secoli, preda degli invasori e ciechi alla grandezza e alla forza che potremmo avere se solo ci unissimo."
+  tgp_korea_decision.9101.desc: "\n\nOggi quel sogno è divenuto realtà, e il mio lascito è assicurato come [ROOT.Char.GetMotherFather] di [GetTitleByKey('e_goryeo').GetDefinitiveName] e della casa reale dei [ROOT.Char.GetHouse.GetBaseName]!"
+  tgp_korea_decision.9101.a: "Possa l’[GetTitleByKey('e_goryeo').GetTierAsNameNoTooltip] durare mille anni."
+  tgp_korea_decision.9101.b: "E sarà chiamato «Goryeo», in riconoscimento del nostro fiero retaggio."
+  tgp_korea_decision.9101.b.reason: "Questa opzione è disponibile grazie alla tua [culture|E] [ROOT.Char.GetCulture.GetName]"
+  tgp_korea_decision.9101.b.tt: "[GetTitleByKey('e_goryeo').GetDefinitiveName] sarà rinominato #V Goryeo#!"
+  tgp_korea_decision.9102.t: "$tgp_korea_decision.9101.t$"
+  tgp_korea_decision.9102.desc: "\n\nOggi quel sogno è divenuto realtà, e il lascito di [king_of_goryeo.GetTitledFirstNamePossessive] è assicurato come [ROOT.Char.GetMotherFather] di [GetTitleByKey('e_goryeo').GetDefinitiveName] e della casa reale dei [ROOT.Char.GetHouse.GetBaseName]!"
+  cultural_acceptance_gain_unify_goryeo: "Unì gli Husamguk"
+  unify_goryeo_decision_requirement_tt: "I [realms|E] [administrative|E] di [heritage|E] $heritage_korean_name$ devono formare [GetTitleByKey('e_goryeo').GetNameNoTier|V] tramite la [decision|E] [GetDecision('tgp_korea_unify_goryeo_decision').GetName]"
+  unify_goryeo_decision_blocker_tt: "I [realms|E] [administrative|E] di [heritage|E] $heritage_korean_name$ non possono creare [GetTitleByKey('k_goguryeo').GetNameNoTier|V], [GetTitleByKey('k_silla').GetNameNoTier|V] o [GetTitleByKey('k_baekje').GetNameNoTier|V] una volta presa la [decision|E] [GetDecision('tgp_korea_unify_goryeo_decision').GetName]"
+
+  tgp_korea_decision.9201.t: "Un timone a molte mani"
+  tgp_korea_decision.9201.desc: "Mentre la gloria del mio regno risplende sempre più, molti cercano conforto nella mia ombra. Nessun [ROOT.Char.GetTitleAsNameNoTooltip] può governare da solo, e la linea in cui risiede il vero potere è in perenne mutamento.\n\nDevo essere prudente se i miei discendenti vorranno continuare a governare [ROOT.Char.GetPrimaryTitle.GetDefinitiveNameNoTooltip] non solo di nome..."
+  tgp_korea_decision.9201.a: "Devo essere un passo avanti."
+  MERITOCRATIC_CEREMONIAL_LIEGE_TITLE: "Trono [founder.GetPrimaryTitle.GetAdjectiveNoTooltip]"
+
+  tgp_korea_decision.9202.desc: "Mentre la gloria del regno di [founder.GetTitledFirstNamePossessive] risplende sempre più, molti cercano conforto nella [founder.GetHerHis] ombra. Nessun [founder.GetTitleAsNameNoTooltip] può governare da solo, e la linea in cui risiede il vero potere è in perenne mutamento.\n\n[founder.GetSheHe|U] dovrà essere prudente se i [founder.GetHerHis] discendenti vorranno continuare a governare [founder.GetPrimaryTitle.GetDefinitiveNameNoTooltip] non solo di nome..."
+  tgp_korea_decision.9202.a: "Il potere assume molte forme."
+ 
+tgp_create_meritocratic_ruling_regent_title_effect: "In quanto [ruler|E] di un [empire|E] [GetGovernment('meritocratic_government').GetName]:"
+tgp_create_meritocratic_ruling_regent_title_effect_title_tt: "Ottieni un [title|E] titolare di [kingdom|E] con la [law|E] [GetLaw('single_heir_succession_law').GetName]"
+tgp_create_meritocratic_ruling_regent_title_effect_faction_tt: "I [vassals|E] possono creare #V $replace_ceremonial_regent_faction$#! [factions|E]"
+tgp_create_meritocratic_ruling_regent_title_message_title: "Monarchia di [founder.GetPrimaryTitle.GetBaseNameNoTierNoTooltip] contestata"

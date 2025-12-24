@@ -1,0 +1,106 @@
+﻿l_spanish:
+
+  treasury_concept: "[treasury|E]"
+  treasury_icon_concept: "[treasury_i|E]"
+  transfer_small_gold_amount_to_treasury_interaction: "Integra la Tesoreria"
+  transfer_gold_amount_to_treasury_interaction_desc: ""
+TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP: "#T Integra il tesoro#!\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\n\n#i Clic destro per trasferire [gold_i]#V 50#!\n#i Ctrl+clic sinistro per trasferire [gold_i]#V 500#!"
+  transfer_treasury_because_you_are_greedy: "Poiché sei [GetTrait('greedy').GetName( GetNullCharacter )]:"
+  transfer_treasury_because_you_are_generous: "Poiché sei [GetTrait('generous').GetName( GetNullCharacter )]:"
+
+TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP: "#T Preleva oro#!\nPreleva [gold_i][Character.CalcScriptedValue('medium_treasury_value')|0] dal tuo Tesoro, con alcune conseguenze.\n[AddLine( Decision.GetCommandDescForPlayer)]\n#i Clicca per aprire [Decision.GetName]#!"
+extract_gold_from_treasury: "Preleva fondi dal tesoro"
+extract_gold_from_treasury_desc: "Abbiamo l’opportunità e il diritto di riassegnare risorse governative precedentemente stanziate dal [treasury|E] di [GetPlayer.GetPrimaryTitle.GetDefinitiveName], per renderle disponibili al mio uso personale.\nTuttavia, questo atto pubblico potrebbe sollevare qualche sopracciglio."
+extract_gold_from_treasury_tooltip: "Abbiamo l’opportunità e il diritto di riassegnare risorse governative precedentemente stanziate dal [treasury|E] di [GetPlayer.GetPrimaryTitle.GetDefinitiveName]."
+extract_gold_from_treasury_confirm: "Non devo dare spiegazioni..."
+
+tgp_dipped_into_treasury_modifier: "Mano nel tesoro"
+tgp_dipped_into_treasury_modifier_desc: "Questo personaggio ha attinto in modo eccessivo al tesoro governativo per spese personali, cosa malvista.\n"
+
+ tgp_minister_dipped_into_treasury_modifier: "$tgp_dipped_into_treasury_modifier$"
+ tgp_minister_dipped_into_treasury_modifier_desc: "$tgp_dipped_into_treasury_modifier_desc$"
+
+  TREASURY_MONTHLY_INCOME: "Entrate mensili"
+  TREASURY_MONTHLY_EXPENSES: "Spese mensili"
+  CLICK_TO_OPEN_TREASURY_BUDGETING: "Fai clic per aprire il bilancio della Tesoreria"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_TITLE: "Modifica i bilanci della Tesoreria"
+  WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATED: "Nuovo calcolo del [treasury_budget|E]"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECTS: "Effetti dell’attuazione del bilancio"
+  WINDOW_TREASURY_BUDGET_CATEGORY_MINISTRY: "[treasury_ministry_budget|E]"
+  WINDOW_TREASURY_BUDGET_CATEGORY_SALARY: "[treasury_salary_budget|E]"
+  WINDOW_TREASURY_BUDGET_CATEGORY_MILITARY: "[treasury_military_budget|E]"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_TREASURY_LABEL: "Tesoreria: [treasury_i] [Character.GetTreasury|0]"
+  WINDOW_TREASURY_BUDGET_CHANGE_MONTHLY_INCOME_LABEL: "Entrate mensili: [treasury_i] [GetPlayerMonthlyTreasury|1+=]"
+  WINDOW_TREASURY_BUDGET_CHANGE_PREVIOUS_BUDGET: "Precedente [treasury_budget_capacity|E]: [treasury_i] [TreasuryBudgetChangeWindow.GetCurrentBudgetCapacity|1=] (attuato: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort])"
+  WINDOW_TREASURY_BUDGET_CHANGE_BUDGET_CAPACITY: "[treasury_budget_capacity|E] attuale: [treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetCapacity|1=] (variazione: [TreasuryBudgetChangeWindow.GetBudgetCapacityDiff|1=+])"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_GROUP_HEADER: "Gruppo"
+  WINDOW_TREASURY_BUDGET_CHANGE_CHARACTERS_HEADER: "Beneficiari"
+  WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_HEADER: "Allocazione"
+  WINDOW_TREASURY_BUDGET_CHANGE_BASE_RATE_HEADER: "[treasury_budget_base_rate_short|E]"
+  WINDOW_TREASURY_BUDGET_CHANGE_TOTAL_HEADER: "Totale"
+  WINDOW_TREASURY_BUDGET_CHANGE_TREND_HEADER: "[treasury_budget_category_trend_short|E]"
+  WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_TREND: "[TreasuryBudgetChangeWindow.GetBudgetTotalDiff( GuiLawGroup.Self )|2+=]"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_RECEIVER_TOOLTIP: "Inizio della precedente attuazione del bilancio: [TreasuryBudgetChangeWindow.GetCurrentBudgetReceiverCount( GuiLawGroup.Self )] (variazione: [TreasuryBudgetChangeWindow.GetBudgetRecipientCountDiff( GuiLawGroup.Self )|+=])"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_TREASURY: "[treasury_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]"
+  WINDOW_TREASURY_BUDGET_CHANGE_CATEGORY_BASE_RATE_GOLD: "[gold_i] [TreasuryBudgetChangeWindow.GetNewBudgetBaseRate( GuiLawGroup.Self )|2]"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_TOTAL: "Totale"
+  WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_UNALLOCATED: "[treasury_budget_unallocated_short|E]"
+  WINDOW_TREASURY_BUDGET_CHANGE_SUMMARY_DEFICIT: "[treasury_budget_deficit_short|E]"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_EXPLANATION: "#weak Se prevedi di ottenere più vassalli prima della prossima attuazione del bilancio, potresti voler allocare meno del 100% della tua [treasury_budget_capacity|E], poiché per ogni [treasury_budget_category|E] la [treasury_budget_base_rate|E] che stabilirai al momento dell’attuazione è fissa per beneficiario.#!"
+  WINDOW_TREASURY_BUDGET_CHANGE_DEFICIT_WARNING: "#warning @warning_icon! Il totale del bilancio supera la tua [treasury_budget_capacity|E] e verrà prelevato dalla [treasury|E] accumulata.#!"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST: "Costo: [TreasuryBudgetChangeWindow.GetTotalChangeCostShort]"
+  WINDOW_TREASURY_BUDGET_CHANGE_ENACT_COST_TOOLTIP: "#T Costo totale#!\n[TreasuryBudgetChangeWindow.GetTotalChangeCostDescription]"
+  WINDOW_TREASURY_BUDGET_CHANGE_ALLOCATION_LAWS: "Modifica le leggi di allocazione"
+  WINDOW_TREASURY_BUDGET_CHANGE_ENACT_BUDGET: "Promulga il bilancio"
+
+
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT: "Ultimo bilancio promulgato: [TreasuryBudgetChangeWindow.GetCurrentBudgetEnactDate.GetStringShort]\n"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE_TITLE: "\nVariazioni entrate dei beneficiari:\n"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_BASE_RATE: "$BULLET$ #indent_newline:2 $CATEGORY_NAME$: $BASE_RATE_CHANGE_PERCENTAGE|%0+=$#!\n"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_TITLE: "\nEffetti opinione:\n"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION: "I beneficiari di $CATEGORY_NAME$ ottengono:\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+0$ di [opinion|E]\n#!"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_OPINION_DURATION: "I beneficiari di $CATEGORY_NAME$ ottengono:\n$BULLET$#indent_newline:2 $OPINION_MODIFIER_NAME$: $OPINION_CHANGE|+=0$ di [opinion|E] per $DURATION$#!\n"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS_TITLE: "\nEffetti da allocazione modificata:\n"
+  WINDOW_TREASURY_BUDGET_CHANGE_EFFECT_CATEGORY_EFFECTS: "$LAW_DESC$[AddLine('$ENACT_DESC|q$')]\n\n"
+
+  WINDOW_TREASURY_BUDGET_COST_LAW_CHANGE: "[LawGroup.GetName]: $BREAKDOWN$\n"
+  WINDOW_TREASURY_BUDGET_COST_ENACTMENT: "Attuazione: $BREAKDOWN$\n"
+
+  WINDOW_TREASURY_BUDGET_CHANGE_TOP_LIEGE: "@warning_icon! #X Solo [CHARACTER.GetUIName] può promulgare un nuovo bilancio#!"
+
+  treasury_budget_ministry_reduction_large: "Grande riduzione del [treasury_ministry_budget|E]"
+  treasury_budget_ministry_reduction_medium: "Riduzione media del [treasury_ministry_budget|E]"
+  treasury_budget_ministry_reduction_small: "Piccola riduzione del [treasury_ministry_budget|E]"
+  treasury_budget_ministry_increase_large: "Grande aumento del [treasury_ministry_budget|E]"
+  treasury_budget_ministry_increase_medium: "Aumento medio del [treasury_ministry_budget|E]"
+  treasury_budget_ministry_increase_small: "Piccolo aumento del [treasury_ministry_budget|E]"
+
+  treasury_budget_military_reduction_large: "Grande riduzione del [treasury_military_budget|E]"
+  treasury_budget_military_reduction_medium: "Riduzione media del [treasury_military_budget|E]"
+  treasury_budget_military_reduction_small: "Piccola riduzione del [treasury_military_budget|E]"
+  treasury_budget_military_increase_large: "Grande aumento del [treasury_military_budget|E]"
+  treasury_budget_military_increase_medium: "Aumento medio del [treasury_military_budget|E]"
+  treasury_budget_military_increase_small: "Piccolo aumento del [treasury_military_budget|E]"
+
+  treasury_budget_salary_reduction_large: "Grande riduzione di [governor_salary|E]"
+  treasury_budget_salary_reduction_medium: "Riduzione media di [governor_salary|E]"
+  treasury_budget_salary_reduction_small: "Piccola riduzione di [governor_salary|E]"
+  treasury_budget_salary_increase_large: "Grande aumento di [governor_salary|E]"
+  treasury_budget_salary_increase_medium: "Aumento medio di [governor_salary|E]"
+  treasury_budget_salary_increase_small: "Piccolo aumento di [governor_salary|E]"
+
+  five_years_since_budget: "Cinque anni dall’ultima promulgazione del bilancio"
+  four_years_since_budget: "Quattro anni dall’ultima promulgazione del bilancio"
+  three_years_since_budget: "Tre anni dall’ultima promulgazione del bilancio"
+  two_years_since_budget: "Due anni dall’ultima promulgazione del bilancio"
+  one_year_since_budget: "Un anno dall’ultima promulgazione del bilancio"
+  treasury_in_debt: "Tesoreria in debito"

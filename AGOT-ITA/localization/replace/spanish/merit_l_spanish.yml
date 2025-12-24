@@ -1,0 +1,63 @@
+﻿l_spanish:
+
+  TOTAL_MERIT: "Totale [merit|E]: $VALUE|V0$"
+  MERIT_EFFECTS_BREAKDOWN: "#S Effetti:#![AddTextIf( Not( StringIsEmpty(GetMeritLevelEffects( Character.GetMeritLevel )) ), '\n' )][GetMeritLevelEffects( Character.GetMeritLevel )]"
+MERIT_PROGRESSBAR_MARKER_TOOLTIP: "#T [GetMeritLevelNameNoTooltip( ComplexBarItem.GetIndex )]#!\nRichiede [GetMeritLevelThreshold( ComplexBarItem.GetIndex )|V^] $game_concept_merit$\n\n[GetMeritModifierByLevel( ComplexBarItem.GetIndex ).GetDescWithBulletPointEffects][AddTextIf( GreaterThan_int32( ComplexBarItem.GetIndex, '(int32)1' ), '\n' )]$BULLET$[movement_power|E]: [movement_power_i] [Multiply_int32( ComplexBarItem.GetIndex, '(int32)10' )|+=0]\n[GetMaxAppointmentRankDescription( 'merit', ComplexBarItem.GetIndex )][Character.GetMeritLevelDescription( ComplexBarItem.GetIndex )]"
+  MERIT_TOOLTIP_COMPLETED_EXAMINATIONS: "Completati [imperial_examinations|E]"
+  MERIT_TOOLTIP_EXAMINATION_DISCLAIMER: "I [governors|E] devono ritirarsi per completare altri Esami"
+MERIT_TOOLTIP_EXAMINATION_PASSED_CHILD_EXAM: "@child_exam_icon! #T Esame infantile#!\n$CHILDRENS_EXAMINATION_PASSED_FAIL$\n\nEffettuato tramite la [decision|E] $tgp_china_attend_child_exam_decision$"
+MERIT_TOOLTIP_EXAMINATION_PASSED_PROVINCIAL_EXAM: "@provincial_exam_icon! #T Esame provinciale#!\n[SelectLocalization( HasPassedProvincialExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedProvincialExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\n\n#S Se superato:#!\n[GetModifier( 'tgp_passed_provincial_exam_modifier' ).GetDescWithBulletPointEffects]\n\nTenuto da funzionari governativi durante l’[activity|E] [GetActivityType('activity_local_examination').GetName]"
+MERIT_TOOLTIP_EXAMINATION_PASSED_METROPOLITAN_EXAM: "@metropolitan_exam_icon! #T Esame metropolitano#!\n[SelectLocalization( HasPassedMetropolitanExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedMetropolitanExamination(Character),'EXAMINATION_FAILED','EXAMINATION_NOT_TAKEN') )]\n\n#S Se superato:#!\n[GetModifier( 'tgp_passed_metropolitan_exam_modifier' ).GetDescWithBulletPointEffects]\n\nTenuto dal [GetGovernment('celestial_government').GetName|E] [government|E] durante l’[activity|E] [GetActivityType('activity_imperial_examination').GetName]"
+MERIT_TOOLTIP_EXAMINATION_PASSED_PALACE_EXAM: "@palace_exam_icon! #T Esame di Palazzo#!\n[SelectLocalization( HasPassedPalaceExamination(Character), 'EXAMINATION_PASSED', 'EXAMINATION_NOT_TAKEN' )]\n\n#S Se superato:#!\n[GetModifier( 'tgp_passed_palace_exam_modifier' ).GetDescWithBulletPointEffects]\n\nTenuto davanti al [son_of_heaven|E] durante l’[activity|E] [GetActivityType('activity_imperial_examination').GetName]"
+
+CHILDRENS_EXAMINATION_PASSED_FAIL: "[SelectLocalization( HasPassedChildrenExamination(Character), 'EXAMINATION_PASSED', SelectLocalization(HasFailedChildrenExamination(Character), SelectLocalization(Character.IsAdult, 'EXAMINATION_FAILED_NO_RETAKE' , 'EXAMINATION_FAILED') ,'EXAMINATION_NOT_TAKEN') )]"
+
+EXAMINATION_PASSED: "@passed_examination!#P Superato#!"
+EXAMINATION_FAILED_NO_RETAKE: "@failed_examination!#N Fallito#!"
+EXAMINATION_FAILED: "$EXAMINATION_FAILED_NO_RETAKE$ #weak (può essere ripetuto)#![AddLocalizationIf(And(And(Character.IsMeritCapped, Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]"
+EXAMINATION_NOT_TAKEN: "#weak Non sostenuto#![AddLocalizationIf(And(And(And(Character.IsMeritCapped, Character.CanImproveMeritRank), Character.IsAdult), Or(ObjectsEqual(GetPlayer, Character.GetWarden.Self), Character.IsLocalPlayer)), 'EXAMINATION_WOULD_TAKE')]"
+EXAMINATION_WOULD_TAKE: "\n\nIl [merit_level|E] massimo di [Character.GetShortUINamePossessive|U] è limitato dal non aver superato questo [examination|E]. [SelectLocalization(Character.IsLocalPlayer, 'EXAMINATION_WOULD_TAKE_ME', 'EXAMINATION_WOULD_TAKE_OTHER')]"
+EXAMINATION_WOULD_TAKE_ME: "Dovresti partecipare a un esame."
+EXAMINATION_WOULD_TAKE_OTHER: "Se parteciperai a un esame e [Character.GetSheHe] sarà disponibile, si unirà a te."
+  MERIT_GOVERNOR_APPOINTMENT_SCORE_POSITIVE: "$BULLET$[candidate_score|E]: @appointment_score!#P +[Character.GetGovernorAppointmentScoreByMerit]#!"
+  MERIT_GOVERNOR_APPOINTMENT_SCORE_NEGATIVE: "$BULLET$[candidate_score|E]: @appointment_score!#N [Character.GetGovernorAppointmentScoreByMerit]#!"
+  MERIT_MOVEMENT_POWER: "$BULLET$[movement_power|E]: [movement_power_i] [Character.GetMovementPowerByMerit|+=0]"
+
+  MERIT_PROGRESS_HEADING: "Progresso verso il prossimo $game_concept_merit_level$"
+  MAX_MERIT_RANK_BREAKDOWN_TOOLTIP: "#T [merit_level|E] massimo#!\n[PlayerValueItem.GetMaxLevelBreakdown( Character.Self )]"
+
+  MERIT_CAP_OVERFLOW_WILL_COUNT: "#weak Il merito ottenuto al limite di merito sarà conteggiato verso i livelli superiori una volta superati gli Esami.#!"
+MERIT_RANK_CAP_TT: "#T Al limite del merito#!\n[SelectLocalization( Character.GetGovernment.IsType( 'celestial_government' ), 'MERIT_RANK_CAP_CELESTIAL_TT', 'MERIT_RANK_CAP_MERITOCRATIC_TT')]"
+MERIT_RANK_CAP_CELESTIAL_TT: "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)3' ), 'MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)5' ), 'MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT' )][AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)7' ), 'MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT' )]\n\n$MERIT_CAP_OVERFLOW_WILL_COUNT$"
+MERIT_RANK_CAP_MERITOCRATIC_TT: "[AddLocalizationIf( Character.ShouldShowExaminationRequirement( '(int32)4' ), 'MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT' )]\n\n$MERIT_CAP_OVERFLOW_WILL_COUNT$"
+  MERIT_RANK_CAP_NO_EXAMINATION_TT: "Chiunque può raggiungere @merit_level_1_icon![GetModifier( 'merit_level_1' ).GetNameWithTooltip|L]"
+MERIT_RANK_CAP_CELESTIAL_PROVINCIAL_EXAMINATION_TT: "Completare l’[provincial_examination|E] (o superiore) è necessario per raggiungere @merit_level_3_icon![GetModifier( 'merit_level_3' ).GetNameWithTooltip|L]"
+MERIT_RANK_CAP_CELESTIAL_METROPOLITAN_EXAMINATION_TT: "Completare l’[metropolitan_examination|E] (o superiore) è necessario per raggiungere @merit_level_5_icon![GetModifier( 'merit_level_5' ).GetNameWithTooltip|L]"
+MERIT_RANK_CAP_CELESTIAL_PALACE_EXAMINATION_TT: "Completare l’[palace_examination|E] è necessario per raggiungere @merit_level_7_icon![GetModifier( 'merit_level_7' ).GetNameWithTooltip|L]"
+MERIT_RANK_CAP_MERITOCRATIC_PROVINCIAL_EXAMINATION_TT: "Completare l’[provincial_examination|E] (o superiore) è necessario per raggiungere @merit_level_4_icon![GetModifier( 'merit_level_4' ).GetNameWithTooltip|L]"
+
+  currency_tier_0_appointment_pool_desc: "$BULLET$Non può essere nominato ad alcun [title|E]"
+  currency_tier_1_appointment_pool_desc: "$BULLET$Può essere nominato a [barony|E] [title_tier|E] [titles|E]"
+  currency_tier_2_appointment_pool_desc: "$BULLET$Può essere nominato a [county|E] [title_tier|E] [titles|E] #weak (e inferiori)#!"
+  currency_tier_3_appointment_pool_desc: "$BULLET$Può essere nominato a [duchy|E] [title_tier|E] [titles|E] #weak (e inferiori)#!"
+  currency_tier_4_appointment_pool_desc: "$BULLET$Può essere nominato a [kingdom|E] [title_tier|E] [titles|E] #weak (e inferiori)#!"
+  currency_tier_5_appointment_pool_desc: "$BULLET$Può essere nominato a [empire|E] [title_tier|E] [titles|E] #weak (e inferiori)#!"
+  currency_tier_6_appointment_pool_desc: "$BULLET$Può essere nominato a [hegemony|E] [title_tier|E] [titles|E] #weak (e inferiori)#!"
+
+  career_path_civilian_province: "@celestial_standard_administration! [civilian_career_path|E]"
+  career_path_military_province: "@celestial_military_administration! [military_career_path|E]"
+  career_path_none: "Nessun percorso di carriera scelto"
+
+celestial_government_merit_level_0_description: "\n\nSostieni gli [imperial_examinations|E] per avanzare di grado."
+celestial_government_merit_level_1_description: "\n\nSostieni gli [imperial_examinations|E] per avanzare a [GetModifier( 'merit_level_2' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_2_description: "\n\nSostieni gli [imperial_examinations|E] per avanzare a [GetModifier( 'merit_level_3' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_3_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: per raggiungere questo grado, ci si aspetta che gli studiosi abbiano completato il [provincial_examination|E]. Proseguire a [GetModifier( 'merit_level_4' ).GetNameWithTooltip|L] richiede di superare [examinations|E] di livello superiore."
+celestial_government_merit_level_4_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: per raggiungere questo grado, gli studiosi devono aver completato il [provincial_examination|E]. Proseguire a [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] richiede di superare l’[metropolitan_examination|E]."
+celestial_government_merit_level_5_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: i funzionari a questo [merit_level|E] dovrebbero aver completato l’[metropolitan_examination|E]. Il grado successivo è [GetModifier( 'merit_level_6' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_6_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: i funzionari a questo grado devono aver completato l’[metropolitan_examination|E]. Il grado successivo è [GetModifier( 'merit_level_7' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_7_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: i funzionari a questo grado dovrebbero aver completato l’[palace_examination|E]. Il grado successivo è [GetModifier( 'merit_level_8' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_8_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: i funzionari a questo grado dovrebbero aver completato l’[palace_examination|E]. Il grado successivo è [GetModifier( 'merit_level_9' ).GetNameWithTooltip|L]."
+celestial_government_merit_level_9_description: "\n\nPer il [GetGovernment('celestial_government').GetName] [government|E]: i funzionari a questo grado dovrebbero aver completato l’[palace_examination|E]."
+ 
+ SORT_MERIT: "$game_concept_merit$"
+ 

@@ -1,0 +1,17 @@
+﻿l_spanish:
+
+  feast_default_laurence.100.t: "Una causa comune"
+  feast_default_laurence.100.desc: "Al mio rientro, dopo essermi appartat[Select_CString(ROOT.Char.IsFemale,'a','o')], mi si avvicina [conspiratorial_fellow.GetName] dagli occhi d’acciaio. [Select_CString(conspiratorial_fellow.IsFemale,'Lei','Lui')] mi intrattiene con i racconti della [war_memory.MakeScope.Var('war_cb').GetFlagName] che ha combattuto contro [intent_target.GetName]. A denti stretti si rammarica d’aver mancato l’occasione di spaccar[Select_CString(intent_target.IsFemale,'la','lo')] dall’ombelico alle mascelle. Si china verso di me e fissa i suoi occhi nei miei.\n\n«Che il/la [ROOT.Char.Custom('RegionalEdibleAnimal')] che i tuoi cuochi hanno così ben preparato non sia l’unica bestia infilzata a questo banchetto! Ti basta ordinare alle tue guardie di chiudere gli occhi e turarsi le orecchie. Al resto penserò io.»"
+  feast_default_laurence.100.a: "Lascia che la tua lama beva a fondo!"
+  feast_default_laurence.100.a.tt.success: "[intent_target.Custom('IT_NAM_COL3')][intent_target.GetTitledFirstName] ha sanguinato come una vittima sacrificale"
+  feast_default_laurence.100.a.tt.failure: "[intent_target.Custom('IT_NAM_COL3')][intent_target.GetTitledFirstName] si è dimostrat[Select_CString(intent_target.IsFemale,'a troppo scaltra','o troppo scaltro')]"
+  feast_default_laurence.100.b: "Il pensiero della sua morte smuove qualcosa in me, ma osserviamo e attendiamo."
+  feast_default_laurence.100.c: "Dimentica queste sciocchezze, ma sappi che io non dimenticherò."
+  feast_default_laurence.101.desc: "Il mio ospite ha fatto del suo meglio per imbandire un banchetto degno. Pur umile rispetto alle suntuose delizie di [intent_target.GetCapitalLocation.GetName], apprezzo la dedizione del mio vassallo all’ospitalità.\n\nAll’improvviso noto che nella sala c’è meno gente. Sì, pare che le guardie si siano allontanate.\n\nUn pizzico al fianco! È forse una pulce? Qualcosa di caldo attenua il prurito. Guardo in basso: dall’intercapedine tra le costole mi è cresciuta l’elsa d’una lama. Che ci fa lì…"
+  feast_default_laurence.101.a: "La morte mi ha trovato."
+  feast_default_laurence.102.desc: "Volevo offrire a [intent_target.GetName] un pegno della mia fedeltà. Un pegno tanto grande da richiedere tutti i miei uomini d’arme per portarlo. Ahimè, quando uscirono dalla sala per andarlo a prendere, pare che al mio ospite sia spuntata una lama tra le costole.\n\n[conspiratorial_fellow.GetName] mi sorride; i suoi occhi ardono, avendo catturato la luce d’una vita che si spegne."
+  feast_default_laurence.102.a: "Che questa collaborazione sia l’inizio di una grande amicizia."
+  feast_default_laurence.102.b: "Tradisci la mia ospitalità con questo spargimento di sangue!"
+  feast_default_laurence.102.b.flavor: "Cerchi di imprigionar[Select_CString(conspiratorial_fellow.IsFemale,'la','lo')]."
+  feast_default_laurence.102.b.tt.success: "Le tue guardie sottomettono [Select_CString(conspiratorial_fellow.IsFemale,'la traditrice','il traditore')]."
+  feast_default_laurence.102.b.tt.fail: "Le tue guardie non riescono ad afferrare [conspiratorial_fellow.GetName]."

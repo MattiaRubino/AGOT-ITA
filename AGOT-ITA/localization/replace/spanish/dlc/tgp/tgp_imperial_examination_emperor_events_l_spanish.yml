@@ -1,0 +1,65 @@
+﻿l_spanish:
+
+
+  emperor_imperial_examination.100.t: "In soggezione"
+emperor_imperial_examination.100.desc: "«[Select_CString(ROOT.Char.IsFemale,'Somma e saggia','Sommo e saggio')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], è il massimo onore stare alla tua presenza.» [Select_CString(examination_character_2.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], parla con reverenza. «Possa questo esame dimostrare che sono [Select_CString(examination_character_2.IsFemale,'la vostra leale servitrice','il vostro leale servitore')].»\n\n«Possano la potenza e lo splendore di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], e [ROOT.Char.Custom('GetDaughterSon')|U] del Cielo, durare diecimila anni!»"
+  emperor_imperial_examination.100.a: "La lealtà, virtù sopra ogni altra."
+  emperor_imperial_examination.100.b: "Le lodi sono fugaci, contano le azioni."
+  imperial_examination.advantage.other.tt: "Ottiene un [exam_advantage|E]"
+  imperial_examination.advantage.dynasty_legacy.tt: "Poiché hai sbloccato il Retaggio dinastico [GetDynastyPerk( 'tgp_chinese_legacy_1' ).GetName], inizierai l'attività con un [exam_advantage|E]"
+
+  emperor_imperial_examination.200.t: "Una bellezza prescelta"
+  emperor_imperial_examination.200.desc: "«Maestà stimata,» dice con reverenza [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName]. «Durante i miei viaggi in [concubine_origin.GetNameNoTier] ho incontrato una famiglia di buon lignaggio, i [examination_character_1.GetHouse.GetName], e ho parlato con gli anziani [examination_character_1.GetCulture.GetName].»\n\n«Mi hanno chiesto di scegliere un [examination_character_1.GetLadyLord] che ti servisse nel palazzo interno — ho scelto [examination_character_1.GetFirstName], un[Select_CString(examination_character_1.IsFemale,'a',' ')] [examination_character_1.GetWomanMan] di rara grazia. Speriamo che [Select_CString(examination_character_1.IsFemale,'lei','lui')] ti sia gradit[Select_CString(examination_character_1.IsFemale,'a','o')], o [ROOT.Char.Custom('GetDaughterSon')|U] del Cielo.»"
+  emperor_imperial_examination.200.a: "[Select_CString(examination_character_1.IsFemale,'Lei','Lui')] può unirsi all'harem."
+  emperor_imperial_examination.200.b: "Parlami dei tuoi viaggi."
+  emperor_imperial_examination.200.c: "Il mio palazzo ti pare un bordello?"
+
+  emperor_imperial_examination.300.t: "Offerta di cimelio"
+  emperor_imperial_examination.300.desc: "«[Select_CString(ROOT.Char.IsFemale,'Somma','Sommo')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], la tua saggia grazia è immensa.» [Select_CString(examination_character_2.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], si prostra dinanzi a me. «Porto un'umile offerta, un manufatto da esporre nel palazzo.»\n\n«Questo [newly_created_artifact.GetName] è un cimelio della casata [examination_character_2.GetHouse.GetName]. Non chiediamo altro che la tua sovrana maestà ci riconosca come servitori leali.»"
+  emperor_imperial_examination.300.a: "Un'offerta degna."
+  emperor_imperial_examination.300.b: "Manifattura scadente, sbarazzatene."
+  emperor_imperial_examination.300.c: "La casata [examination_character_2.GetHouse.GetNameNoTooltip] deve concentrarsi sull'esame."
+
+  emperor_imperial_examination.400.t: "Recitare gli Annali"
+  emperor_imperial_examination.400.desc: "Esaminatori ed entranti a palazzo stanno radunati, leggendo intensamente e bisbigliando tra loro con voci sommesse e nervose. È giusto che io, [ROOT.Char.Custom('GetDaughterSon')|U] del Cielo, impartisca una sapienza senza tempo. Al mio cenno, la sala tace in soggezione, in attesa.\n\nIndico gli scaffali, e i servitori portano..."
+  emperor_imperial_examination.400.a: "...gli Annali di [ROOT.Char.Custom('GetRandomAnnalsPassage')]."
+  emperor_imperial_examination.400.b: "...il [ROOT.Char.Custom('GetRandomPoetryPassage')]."
+  emperor_imperial_examination.400.c: "...il [ROOT.Char.Custom('GetRandomRitesPassage')]."
+  every_palace_entrant: "Ogni aspirante di palazzo"
+  custom_every_examiner: "Ogni esaminatore"
+
+  emperor_imperial_examination.500.t: "La poesia di [examination_character_2.GetFirstNameNoTooltip]"
+  emperor_imperial_examination.500.desc: "«Maestà celeste, ho scritto un poema in onore della tua infinita grazia.» [Select_CString(examination_character_2.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], apre un libro e recita:\n\n#EMP «[examination_character_2.Custom('GetAdventureNameBand')|l] di [examination_character_2.Custom('GeneratePoem_Title_Fragment_Season')], [examination_character_2.Custom('GetAdventureNameBand')|l] di [examination_character_2.Custom('GetAdventureNameSuffix')|l] e [examination_character_2.Custom('GetAdventureNameSuffix')|l] — [examination_character_2.Custom('GetAdventureNamePrefixes')|l] nelle [poetry_province.Custom('GetTerrainTypePlural')], [examination_character_2.Custom('GetRandomSmallPreciousItem')] tra le mani. Da [poetry_county.GetNameNoTier], in [poetry_province.Custom('ProvinceCompliment')] [examination_character_2.Custom('GeneratePoem_Title_Fragment_Noun')|l], entro [ROOT.Char.GetPrimaryTitle.GetNameNoTier] [examination_character_2.Custom('FormalComplimentAdjective')|l].»#!\n\n[Select_CString(examination_character_2.IsFemale,'Lei','Lui')] attende con impazienza il mio verdetto."
+  emperor_imperial_examination.500.a: "I tuoi versi sono misurati, eppure carichi di senso."
+  emperor_imperial_examination.500.b: "Parole povere quanto il tuo merito."
+
+  emperor_imperial_examination.600.t: "Di buon umore"
+  emperor_imperial_examination.600.desc: "Mentre osservo la folla, un[Select_CString(examination_character_2.IsFemale,'a',' ')] aspirante, [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], si appassiona tanto a raccontare scherzi che [Select_CString(examination_character_2.IsFemale,'lei','lui')] quasi non bada a dove va. Procedendo piano all'indietro, [Select_CString(examination_character_2.IsFemale,'lei','lui')] senza volerlo mi si avvicina, esclamando: «...ed è così che [examination_character_2.Custom('GetAdventureNameBand')|l] perse [examination_character_2.Custom('GetAdventureNameSuffix')|l]!»\n\nTossisco piano.\n\nLa folla davanti a [Select_CString(examination_character_2.IsFemale,'lei','lui')] ammutolisce. [examination_character_2.GetFirstNameNoTooltip] si immobilizza per la paura."
+  emperor_imperial_examination.600.a: "Molto divertente."
+  emperor_imperial_examination.600.b: "Basta, concentrati sull'esame."
+  emperor_imperial_examination.600.c: "Un affronto; vattene subito."
+
+  emperor_imperial_examination.700.t: "Dono d'argento"
+  emperor_imperial_examination.700.desc: "«[Select_CString(ROOT.Char.IsFemale,'Somma','Sommo')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip],» [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], si prostra profondamente. «La mia famiglia, i [examination_character_2.GetHouse.GetName], ha legami con i mercanti della [GetSituationType('silk_road_situation').GetName|l] e del $sea_yellow_sea$ — legami che ho sfruttato per offrirti un umile dono.»\n\n«È uno scrigno di monete d'argento da [silver_county.GetNameNoTier], recanti il sigillo [silver_county_top_liege.Custom('IT_NAM_COL2')][silver_county_top_liege.GetTitleAsNameNoTooltip] di [silver_county_top_liege.GetPrimaryTitle.GetDefinitiveName|l].»"
+  emperor_imperial_examination.700.a: "Accetto con magnanimità."
+  emperor_imperial_examination.700.b: "Parlami di [silver_county_top_liege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|l]."
+  emperor_imperial_examination.700.c: "Dividetelo tra voi; usatelo per gli studi."
+  situation_type_silk_road_situation: "La Via della Seta"
+  situation_type_silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
+
+  emperor_imperial_examination.800.t: "Un eunuco in tributo"
+  emperor_imperial_examination.800.desc: "«[Select_CString(ROOT.Char.IsFemale,'Magnanima','Magnanimo')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], [Select_CString(examination_character_2.IsFemale,'la tua umile servitrice','il tuo umile servitore')] chiede perdono per l'interruzione,» dice [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], inchinandosi con un gongshou. «Questo è [examination_character_1.GetFirstName] — un [GetTrait('eunuch_1').GetName( GetNullCharacter )] ricco di risorse, da lungo tempo leale alla casata [examination_character_2.GetHouse.GetName].»\n\n«Offriamo il suo servizio al palazzo, perché [ROOT.Char.GetPrimaryTitle.GetNameNoTier] fiorisca sotto la tua grazia.»"
+  emperor_imperial_examination.800.a: "Gli troveremo un incarico."
+  emperor_imperial_examination.800.b: "Potrebbe essere un esaminatore."
+  emperor_imperial_examination.800.c: "Tieni il tuo servitore."
+  becomes_imperial_examiner.tt: "Diventa esaminatore"
+
+  emperor_imperial_examination.900.t: "Un[Select_CString(examination_character_2.IsFemale,'a',' ')] [Select_CString(examination_character_2.IsFemale,'servitrice','servitore')] [examination_character_2.Custom('ComplimentAdjective')|U]"
+  emperor_imperial_examination.900.desc: "«Celeste [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], ti ringraziamo per questo banchetto,» dice [Select_CString(examination_character_1.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_1)], [examination_character_1.Custom('IT_NAM_COL3')][examination_character_1.GetTitledFirstName], inchinandosi profondamente con un servitore al [Select_CString(examination_character_1.IsFemale,'suo','suo')] fianco. «Quest[examination_character_2.Custom('DE_PRO_PER_S_3P_N')] è [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [examination_character_1.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.GetFirstName] — recante un umile dono: [examination_character_1.Custom('GetExpensiveDrink')] dalla mia terra, [origin_county.GetNameNoTier].»\n\n«Ma più della bevanda, offro il [Select_CString(examination_character_2.IsFemale,'suo','suo')] servizio. La [Select_CString(examination_character_2.IsFemale,'sua','sua')] conoscenza di [examination_character_2.Custom('highest_skill_noun')] gioverà al palazzo.»"
+  emperor_imperial_examination.900.a: "Le sue abilità sono benvenute."
+  emperor_imperial_examination.900.b: "[Select_CString(examination_character_2.IsFemale,'Lei','Lui')] ti servirà meglio."
+
+  emperor_imperial_examination.1000.t: "Talento straniero"
+  emperor_imperial_examination.1000.desc: "«[Select_CString(ROOT.Char.IsFemale,'Saggia','Saggio')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], vengo a te con umile gratitudine,» dice l'entrante a palazzo, [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], parlando un [chinese.GetLanguage.GetName] impeccabile. «Benché per nascita e lingua io sia [examination_character_2.GetCulture.GetName], sono giunt[Select_CString(examination_character_2.IsFemale,'a','o')] fin qui per la tua grazia — e non desidero altro che servire [ROOT.Char.GetPrimaryTitle.GetNameNoTier].»\n\n«Così ho appreso la lingua dei cieli — il [chinese.GetLanguage.GetName] — come segno di umiltà [examination_character_2.GetCulture.GetName].»"
+  emperor_imperial_examination.1000.a: "I tuoi sforzi saranno riconosciuti."
+  emperor_imperial_examination.1000.b: "L'imitazione [examination_character_2.GetCulture.GetNameNoTooltip] non ha posto qui."

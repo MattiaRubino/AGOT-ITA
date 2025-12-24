@@ -1,0 +1,24 @@
+﻿l_spanish:
+
+ # Meritocratic
+  game_concept_meritocratic: "Meritocratico"
+game_concept_meritocratic_desc: "$game_concept_meritocratic$ è una [government_bureaucratic_type|E] [government_form|E] simile a [celestial|E], in cui il [liege|E] nomina personaggi come [governors|E], di due tipi: civili e militari.\n\nI personaggi hanno accesso a [influence|E], [noble_families|E] e [family_estates|E].\n\nI [rulers|E] indipendenti hanno [legitimacy|E], mentre i [vassals|E] puntano a ottenere [merit|E]."
+  game_concept_meritocratic_i: "@government_type_meritocratic!"
+ 
+ # Meritocratic Bureaucracy
+  game_concept_meritocratic_bureaucracy: "Burocrazia meritocratica"
+  game_concept_meritocratic_bureaucracy_desc: "$game_concept_meritocratic_bureaucracy$ rappresenta il livello di centralizzazione del [realm_possessive|E] [meritocratic|E] e il potere generale che il [ruler|E] esercita sui propri [vassals|E].\n\nSolo il [top_liege|E] può cambiare la $game_concept_meritocratic_bureaucracy$. I $game_concept_vassals$ meritocratici usano lo stesso livello del loro $game_concept_liege$.\n\nEsistono quattro livelli di $game_concept_meritocratic_bureaucracy$:\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_0$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_1$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_2$\n$EFFECT_LIST_BULLET$$meritocratic_bureaucracy_3$\n\nAumentare la $game_concept_meritocratic_bureaucracy$ costa una quantità di [prestige|E] che dipende da [realm_size|E] e dalla [learning_skill|E] del sovrano."
+
+ # Steppe Admin
+  game_concept_steppe_admin: "Khanato meritocratico"
+  game_concept_steppe_admin_desc: "$game_concept_steppe_admin$ è una [government_form|E] [government_bureaucratic_type|E] simile alla [celestial|E] e alla [meritocratic|E], ma originata da un $game_concept_government_form$ [nomadic|E]. Il [liege|E] nomina i personaggi a [governors|E], di due tipi: civile e militare. Mantengono [tributaries|E], impongono l'[obedience|E] e hanno un [dread|E] massimo più elevato.\n\nI personaggi hanno accesso a [influence|E], [noble_families|E] e [family_estates|E].\n\nI [rulers|E] indipendenti hanno [legitimacy|E], mentre i [vassals|E] puntano a ottenere [merit|E]."
+  game_concept_steppe_admin_i: "@government_type_steppe_admin!"
+
+  game_concept_ceremonial_claimant_faction: "$ceremonial_claimant_faction$"
+  game_concept_ceremonial_claimant_factions: "Fazioni del Pretendente cerimoniale"
+  game_concept_ceremonial_claimant_faction_desc: "La $game_concept_claimant_faction$ mira a insediare un particolare [claimant|E] come [ceremonial_liege|E]. Se ha successo, l'attuale Signore cerimoniale dovrà cedere il suo [title|E] al Pretendente. Tutti i membri della [faction|E] otterranno un [hook|E] sul Pretendente."
+
+  game_concept_imperial_policy_faction: "$imperial_policy_faction$"
+  game_concept_faction_imperial_policy: "Politica imperiale"
+  game_concept_imperial_policy_factions: "Fazioni di Politica imperiale"
+  game_concept_imperial_policy_faction_desc: "La $game_concept_imperial_policy_faction$ mira a cambiare la [imperial_policy|E] del [realm|E], adottando una nuova [law|E] selezionata dal leader della fazione."

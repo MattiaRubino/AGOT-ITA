@@ -1,0 +1,198 @@
+﻿l_spanish:
+
+ game_concept_nomadic_government: "Governo Nomade"
+ game_concept_nomadic: "Nomade"
+ game_concept_nomadic_desc: "I [rulers|E] Nomadi consumano la [county_fertility|E] per accrescere la loro Mandria. Possono usare la loro Mandria come [horde|E], che può essere migliorata a [men_at_arms|E]. Hanno una [yurt|E].\n\nI nomadi possono [Concept( 'migrate', 'migrare' )|E] al fine di trovare delle terre più fertili, sebbene i grandi [realms|E] nomadi possono far crescere la loro mandria attraverso i [tributaries|E] o raggiungendo un alto livello di [fertility_equilibrium|E].\n\nI nomadi hanno una [dread|E] massima più alta."
+ game_concept_nomad_i: "@government_type_nomad!"
+ game_concept_nomads: "Nomadi"
+ game_concept_nomads_desc: "$game_concept_nomadic_desc$"
+ game_concept_nomad: "Nomade"
+ game_concept_nomad_desc: "$game_concept_nomadic_desc$"
+
+
+ game_concept_confederation_government: "Governo della Confederazione"
+ game_concept_confederation: "Confederazione"
+ game_concept_confederations: "Confederazioni" 
+game_concept_confederation_desc: "Un rapporto che vincola [rulers|E] [tribal|E] o [nomadic|E] alla difesa reciproca, simile a un'[alliance|E]. Formata tramite la [decision|E] #high $call_for_confederation_decision$#!, una confederazione richiede ai membri di unirsi alle [wars|E] difensive degli altri. Le confederazioni sono visibili nella scheda Diplomazia.\n\nI [confederates|E] non possono attaccarsi né [raid|E]arsi a vicenda. Sono limitati nei livelli alti di [tribal_authority|E] e [nomadic_authority|E] e non possono creare nuovi [titles|E].\n\nI [confederates|E] possono usare la [decision|E] #high $leave_confederation_decision$#! o [migrate|E] per divenire [independent|E]. Se resta un solo membro, la confederazione è sciolta."
+
+ game_concept_confederate: "Confederato"  # Confederato(a)
+ game_concept_confederates: "Confederati" # Confederati(e)"
+ game_concept_confederate_desc: "Un [ruler|E] che fa parte di una [confederation|E]. Si unirà automaticamente alle [wars|E] difensive degli altri membri confederati che non possono né attaccarsi né [Concept('raid', 'saccheggiarsi')|E] tra di loro."
+
+ game_concept_county_fertility: "Fertilità della Contea"
+ game_concept_county_fertility_desc: "La $game_concept_county_fertility$ esiste nelle [counties|E] all'interno delle [the_great_steppe|E], e può essere utilizzata dai [rulers|E] di tipo [GetGovernment( 'nomad_government' ).GetName] per aumentare la loro [herd|E].\n\nLa fertilità di una contea rappresenta la qualità dei suoi pascoli.\n\nLa fertilità si stabilizza intorno all'[fertility_equilibrium|E], permettendo ai governanti nomadi che possiedono un grande [domain_limit|E] di sostenere la crescita della loro mandria. La fertilità è influenzata dalle [steppe_seasons|E] e i [herders|E] la ripristinano lentamente.\n\nQuando la fertilità di un [realm|E] è bassa, è il momento di [migrate|E].\n\nIl [county_control|E] rallenta la velocità di crescita della Fertilità di una percentuale pari al controllo attuale."
+ game_concept_county_fertility_i: "@county_fertility_icon!"
+
+ game_concept_fertility_equilibrium: "Equilibrio della fertilità"
+ game_concept_fertility_equilibrium_desc: "L’Equilibrio della Fertilità è una previsione di quanto fertile diventerà la [county|E] nel lungo periodo. È un valore verso il quale la [county_fertility|E] tenderà col passare del tempo.\n\nSe l’attuale [county_fertility|E] è inferiore all’Equilibrio, crescerà, e diminuirà se è superiore.\n\nL’Equilibrio della Fertilità e la velocità del cambiamento dipendono soprattutto dal rapporto tra i modificatori di Crescita e Consumo per la [county|E]. Se sia Crescita che Consumo sono relativamente bassi, qualsiasi variazione avrà un effetto molto maggiore sull’Equilibrio."
+ game_concept_equilibrium: "Equilibrio"
+
+ game_concept_domain_fertility: "Fertilità del Dominio"
+ game_concept_domain_fertility_desc: "La Fertilità del Dominio è la [county_fertility|E] totale di tutte le [counties|E] che possiedi."
+ 
+ game_concept_seasonal_prediction: "Previsione Stagionale"
+ game_concept_seasonal_prediction_desc: "Un abile $court_position_court_astrologer$ può prevedere la prossima [steppe_season|E] in una regione, offrendo informazioni utili al proprio signore per pianificare le prossime mosse."
+ 
+ game_concept_kurultai: "Kurultai"
+ game_concept_kurultais: "Kurultai"
+ game_concept_kurultai_member: "Membro del Kurultai"
+ game_concept_kurultai_members: "Membri del Kurultai"
+ game_concept_kurultai_desc: "Il Kurultai sostituisce il [council|E] per il [nomadic_government|E]. I membri del Kurultai appartengono all’élite del reame e devono essere o compiaciuti o costretti all’[obedience|E] per garantire una [succession|E] senza problemi.\n\nDopo una successione caotica, possono rubare parte della [herd|E], abbandonare il nuovo [liege|E] o ottenere un [claim|E] sul [title|E] del [realm|E]."
+ game_concept_kurultai_1_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_2_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_3_desc: "$game_concept_kurultai_desc$"
+ game_concept_kurultai_4_desc: "$game_concept_kurultai_desc$"
+
+ game_concept_herd: "Mandria"
+ game_concept_herd_desc: "La $game_concept_herd$ rappresenta il popolo e il gregge di animali — come cavalli, pecore e capre — di un [ruler|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName].\n\nPuò essere ottenuta possedendo [counties|E] con alta [county_fertility|E], [vassals|E] o [tributaries|E]. Alcune [traditions|E] culturali, i [dynasty_perks|E], la [legitimacy|E] e certi [yurt|E] [yurt_buildings|E] possono fornire bonus all’acquisizione di $game_concept_herd$.\n\nUna parte della Mandria viene convertita in [horde|E] quando un sovrano leva i propri [armies|E], che possono poi essere trasformate in [men_at_arms|E] a costo ridotto. Una volta che questi eserciti vengono congedati, l’orda rimanente si riconverte in mandria.\n\nLa Mandria fornisce un piccolo afflusso di [gold|E] e può essere usata anche come valuta per intraprendere alcune [decisions|E] o per aumentare l’accettazione della [migration|E]."
+ game_concept_herd_i: "@herd_icon!"
+
+ game_concept_horde: "Orda Nomade"
+ game_concept_horde_desc: "L’$game_concept_horde$ rappresenta la forza militare di un [ruler|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName]. È ottenuta come frazione della [herd|E] e compare solo quando il [ruler|E] raduna i propri [armies|E].\n\nViene convertita in [GetMaA('nomadic_riders').GetName], che possono essere potenziati in altri [men_at_arms|E] pagando un costo in [gold|E].\n\nAlcune [traditions|E] culturali, i lasciti della [dynasty|E] e gli [yurt_buildings|E] possono aumentare il tasso di conversione."
+ 
+ game_concept_herder: "Pastore"
+ game_concept_herder_desc: "I reami dei Pastori sono esclusi da tutti gli aspetti del governo. Non comandano [armies|E], non possiedono [buildings|E], non creano [alliances|E] né dichiarano [wars|E]. Quando i [nomads|E] [Concept( 'migrate', 'migrano' )|E] in un [holding|E], i pastori ripristinano lentamente la [county_fertility|E] locale grazie alle loro mandrie più ridotte.\n\nSono intimoriti dai veri [rulers|E] [Concept( 'nomad', 'nomadi' )|E] e cederanno immediatamente le loro terre se sfidati."
+ game_concept_herder_i: "@government_type_herder!"
+ game_concept_herders: "Pastori"
+ game_concept_herders_desc: "$game_concept_herder_desc$"
+
+ game_concept_nomadic_holding: "Insediamento Nomade"
+ game_concept_nomadic_holding_desc: "Gli $game_concept_nomadic_holdings$ rappresentano l’esistenza di una [yurt|E] sulla mappa. Sono un [holding_type|E] utilizzato dai [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] e forniscono piccole quantità di [county_control|E] e [county_opinion|E]."
+ game_concept_nomadic_holdings: "Insediamenti Nomadi"
+ game_concept_nomadic_holdings_desc: "$game_concept_nomadic_holding_desc$"
+
+ game_concept_herder_holding: "Insediamento di Pastori"
+ game_concept_herder_holding_desc: "Un $game_concept_herder_holding$ è il più piccolo tra i [holding_types|E]. Rappresenta la presenza di [herders|E] nell’area e fornisce bonus alla [county_fertility|E]."
+
+ game_concept_nomadic_authority: "Dominanza"
+ game_concept_nomadic_authority_desc: "La $game_concept_nomadic_authority$ rappresenta il potere proiettato di un [ruler|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName]. Può essere aumentata in base alla dimensione della [herd|E] e sbloccherà ulteriori opzioni di [migration|E].\n\nEsistono cinque livelli di $game_concept_nomadic_authority$: [unruly_nomadic|E], [limited_nomadic|E], [high_nomadic|E], [absolute_nomadic|E] e [unrestricted_nomadic|E].\n\n#weak L’ultimo livello può essere ottenuto solo da un sovrano per partita.#!"
+ game_concept_dominance: "$game_concept_nomadic_authority$"
+
+ game_concept_unruly_nomadic: "Nomadi Indisciplinati"
+ game_concept_unruly_nomadic_desc: "Gli $game_concept_unruly_nomadic$ rappresentano il livello più basso di [nomadic_authority|E]. A questo livello la [migration|E] può bersagliare solo i [county|E] [titles|E] [de_jure|E] all’interno della [the_great_steppe|E] e i [characters|E] non possono essere [imprisoned|E]."
+
+ game_concept_limited_nomadic: "Limitata"
+ game_concept_limited_nomadic_desc: "$game_concept_limited_nomadic$ è il secondo livello più basso di [nomadic_authority|E]. La [migration|E] può bersagliare i [duchy|E] [titles|E] [de_jure|E] all’interno della [the_great_steppe|E], i [titles|E] possono essere revocati e il signore può ora [imprison|E] i [characters|E] nel proprio [realm|E].\n\nPuò usare la [decision|E] #V $step_away_from_the_steppe_decision$#!"
+
+ game_concept_high_nomadic: "Alta"
+ game_concept_high_nomadic_desc: "$game_concept_high_nomadic$ è il livello intermedio di [nomadic_authority|E]. A questo livello la [migration|E] può bersagliare i [kingdom|E] [titles|E] [de_jure|E] all’interno della [the_great_steppe|E] e il signore può [retract|E] i vassalli di un [vassal|E]."
+
+ game_concept_absolute_nomadic: "Assoluta"
+ game_concept_absolute_nomadic_desc: "$game_concept_absolute_nomadic$ è il secondo livello più alto di [nomadic_authority|E]. A questo livello la [migration|E] può bersagliare gli [empire|E] [titles|E] [de_jure|E] all’interno della [the_great_steppe|E].\n\nGli [rulers|E] [independent|E] possono insediarsi fuori dalla steppa usando la [decision|E] #high $settle_the_steppe_decision$#!"
+
+ game_concept_unrestricted_nomadic: "Illimitata"
+ game_concept_unrestricted_nomadic_desc: "$game_concept_unrestricted_nomadic$ è il livello più alto di [nomadic_authority|E]. Può essere ottenuta solo da un [character|E] in tutta la partita, che diventerà il [GetTrait('greatest_of_khans').GetName( GetNullCharacter )].\n\nGli [rulers|E] [independent|E] possono usare le [decisions|E] #high $mpo_become_greatest_of_khans_decision$#! e #high $mpo_gok_world_conquest_decision$#!"
+
+ game_concept_the_great_steppe: "La Grande Steppa"
+ game_concept_the_great_steppe_desc: "La $game_concept_the_great_steppe$ rappresenta l’infinito mare d’erba della Steppa Eurasiatica, con le condizioni climatiche che la plasmano, ed è divisa in tre regioni: Occidentale, Centrale e Orientale.\n\nLe diverse [steppe_seasons|E] rappresentano eventi sia positivi che avversi, offrendo opportunità di azioni speciali disponibili solo in quel periodo e modificando la [county_fertility|E] di ciascuna regione.\n\nSolo i [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] e i [Concept( 'herder', 'mandriani' )|E] prendono parte a questa [situation|E], e il [gurkhan|E] rappresenta il sovrano più potente di tutta la regione."
+
+ game_concept_suzerain: "Suzerain"
+ game_concept_suzerain_desc: "Un $game_concept_suzerain$ è un [ruler|E] con almeno un [tributary|E]. I Suzerain possono a loro volta essere Tributari di un altro [ruler|E], ma non devono mai essere [vassals|E]."
+ game_concept_suzerains: "Suzerain"
+ game_concept_suzerains_desc: "$game_concept_suzerain_desc$"
+ game_concept_suzerain_possessive: "del Suzerain"
+
+ game_concept_tributary: "Tributario"
+game_concept_tributary_desc: "Un $game_concept_tributary$ è un [ruler|E] che ha raggiunto un accordo con un altro sovrano, il suo [suzerain|E].\n\nIl $game_concept_tributary$ fornisce un tributo periodico in forma di [herd|E], [taxes|E], [prestige|E] o persino [piety|E] (a seconda del tipo) e, in cambio, ottiene una [truce|E] con il $game_concept_suzerain$.\n\nI tributari sono una forma di soggezione più blanda: non possono unirsi alle [factions|E], ma possono liberarsi se i requisiti non sono rispettati.\n\nSe il suzerain non è più [landed|E] né [migrating|E], i tributari si libereranno dopo poco."
+ game_concept_tributaries: "Tributari"
+game_concept_tributary_possessive: "del tributario"
+ game_concept_tributaries_desc: "$game_concept_tributary_desc$"
+
+ game_concept_subject: "Suddito"
+ game_concept_subject_desc: "Un $game_concept_subject$ è qualsiasi [ruler|E] che abbia giurato lealtà a un altro sovrano. Possono essere di vari tipi, come [vassals|E] o [tributaries|E], ciascuno con le proprie specifiche."
+ game_concept_subjects: "Sudditi"
+ game_concept_subjects_desc: "$game_concept_subject_desc$"
+
+ game_concept_steppe_season: "Stagione della Steppa"
+ game_concept_steppe_season_desc: "Una $game_concept_steppe_season$ rappresenta il clima attuale della [the_great_steppe|E], gli effetti che questo ha sulla [county_fertility|E] e le azioni disponibili ai [rulers|E] coinvolti nella [situation|E].\n\nLe $game_concept_steppe_seasons$ sono indipendenti per ciascuna regione, e i sovrani con la forma di governo [GetGovernment( 'nomad_government' ).GetName] potrebbero voler spostarsi verso quelle con Stagioni attive positive.\n\nA volte la stessa Stagione può verificarsi in più di una [situation_sub_region|E] contemporaneamente."
+ game_concept_steppe_seasons: "Stagioni della Steppa"
+ game_concept_steppe_seasons_desc: "$game_concept_steppe_season_desc$"
+
+ game_concept_situation: "Situazione"
+ game_concept_situation_situations: "Situazioni"
+ game_concept_situation_desc: "Le $game_concept_situation_situations$ sono questioni di medio-lungo termine che coinvolgono personaggi all’interno di una [situation_sub_region|E] geografica, alternandosi tra diverse [situation_phases|E]."
+ game_concept_situation_phase: "Fase della Situazione"
+ game_concept_situation_phase_desc: "Ogni $game_concept_situation_phase$ ha modificatori e condizioni proprie che influenzano i personaggi coinvolti.\n\nAlcune $game_concept_situation_phases$ sono attivate da condizioni specifiche, mentre altre seguono semplicemente il passare del tempo."
+ game_concept_situation_phases: "Fasi della Situazione"
+ game_concept_situation_phases_desc: "$game_concept_situation_phase_desc$"
+ game_concept_situation_sub_region: "Regione della Situazione"
+ game_concept_situation_sub_regions: "Regioni della Situazione"
+ game_concept_situation_sub_region_desc: "Le [situation_situations|E] possono avere più di una regione, ciascuna con [situation_phases|E] indipendenti."
+ game_concept_situation_sub_regions_desc: "$game_concept_situation_sub_region_desc$"
+ game_concept_situation_participant_group: "Gruppo di Partecipanti"
+game_concept_situation_participant_groups: "Gruppi di partecipanti"
+ game_concept_situation_participant_group_desc: "I Gruppi di Partecipanti all’interno di una [situation|E] sono un insieme di personaggi che condividono gli stessi effetti durante ogni [situation_phase|E]."
+game_concept_situation_catalyst: "Catalizzatore della situazione"
+game_concept_situation_catalyst_catalyst: "Catalizzatore"
+game_concept_situation_catalyst_catalysts: "Catalizzatori"
+game_concept_situation_catalyst_desc: "Alcune [situation_situations|E] passano tra diverse [situation_phases|E] quando si verifica un $game_concept_situation_catalyst$.\n\nNella finestra di $game_concept_situation$ si trova l'elenco dei $game_concept_situation_catalyst$ rilevanti in ciascuna $game_concept_situation_phase$."
+
+ game_concept_migration: "Migrazione"
+ game_concept_migration_desc: "La $game_concept_migration$ è essenziale per i [nomads|E]. Quando la [county_fertility|E] nei loro [realms|E] è bassa, spesso si sposteranno in cerca di pascoli più verdi.\n\nLa Migrazione può bersagliare solo [titles|E] [de_jure|E] e i [title_tiers|E] accessibili sono limitati dalla [nomadic_authority|E] del [ruler|E].\n\nUna proposta sarà inviata al Nomade con la [herd|E] più grande nell’area desiderata; questi potrà decidere se lasciare volontariamente le proprie terre o muovere guerra per difenderle.\n\nGli [herders|E] lasceranno sempre le proprie terre, poiché non hanno i mezzi per difendersi."
+ game_concept_migrate: "Migra"
+ game_concept_migrate_desc: "$game_concept_migration_desc$"
+ game_concept_migrates: "Migra"
+ game_concept_migrated: "Migrato"
+ game_concept_migrating: "In migrazione"
+ 
+ game_concept_raid_intent: "Intento della Razzia"
+game_concept_raid_intent_desc: "Un $game_concept_raid_intent$ può modificare i tipi di ricompense ottenute da un [raid|E], la velocità di movimento di un esercito o la capacità di [loot|E]. Oltre al consueto razziare per [gold|E] e [prestige|E], esistono alternative come tentare di distruggere [buildings|E] o aumentare la probabilità di [imprisoning|E] [characters|E]."
+ game_concept_raid_intents: "Intenti delle Razzie"
+ game_concept_raid_intents_desc: "$game_concept_raid_intent_desc$"
+ 
+ game_concept_gurkhan: "Gurkhan"
+ game_concept_gurkhan_desc: "La più grande minaccia della [the_great_steppe|E]. Il $game_concept_gurkhan$ è quel [ruler|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] che possiede la [herd|E] più grande dell’intera regione, rendendolo un potente alleato o un temibile nemico.\n\nSolo il $game_concept_gurkhan$ può raggiungere il livello più alto di [nomadic_authority|E], che consente di diventare il [GetTrait('greatest_of_khans').GetName( GetNullCharacter )] e lo designa come bersaglio."
+ 
+ game_concept_yurt: "Capitale Nomade"
+ game_concept_yurt_desc: "Le $game_concept_yurts$ sono insiemi mobili di tende, bestiame, persone e cavalli. Possono andare da poche pecore a un’orda fragorosa.\n\nI [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] hanno una $game_concept_yurt$ che accrescono tramite gli [yurt_buildings|E] e che portano con sé quando [Concept( 'migrate', 'migrano' )|E]. Non possono costruire [buildings|E] regolari nei [holdings|E].\n\nLa $game_concept_yurt$ ha una [faith|E] e una [culture|E] che rappresentano la maggioranza del popolo migrante, e possono differire da quelle del [ruler|E].\n\nL’intera [court|E] viaggia con loro, così come la [family|E], il [kurultai|E] e i [knights|E]."
+ game_concept_yurts: "Capitali Nomadi"
+ game_concept_yurts_desc: "$game_concept_yurt_desc$"
+ 
+ game_concept_yurt_buildings: "Edifici della Yurta"
+ game_concept_yurt_buildings_desc: "Gli $game_concept_yurt_buildings$ sono miglioramenti unici alla $game_concept_yurt$.\n\nMeccanicamente, sono [domicile_buildings|E] — benché molti rappresentino usi sociali o semplici aree di interesse per la tribù del $game_concept_nomad$, più che strutture letterali.\n\nI bonus che possono conferire includono:\n$EFFECT_LIST_BULLET$ Sblocco di [court_positions|E] e di [decisions|E] e [character_interaction|E] Nomadi\n$EFFECT_LIST_BULLET$ Vari bonus alla [herd|E] e alla [county_fertility|E], incluse specializzazioni di [terrain|E]\n$EFFECT_LIST_BULLET$ Sblocco e miglioramento dei [men_at_arms|E] Nomadi e potenziamento della forza della [horde|E]\n$EFFECT_LIST_BULLET$ Bonus unici delle [culture_tradition|E] nomadi\n$EFFECT_LIST_BULLET$ Modi per gestire i tuoi [vassals|E] e [tributaries|E], nonché per influenzare i [characters|E] alla tua corte.\n$EFFECT_LIST_BULLET$ Bonus di [kurultai|E] e [obedience|E]."
+ game_concept_yurt_building: "Edificio della Yurta"
+ game_concept_yurt_building_desc: "$game_concept_yurt_buildings_desc$"
+ 
+ game_concept_obedience: "Obbedienza"
+ game_concept_obedience_desc: "Nei [realms|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName], l’obbedienza determina la lealtà di un [character|E] verso il proprio [liege|E], [suzerain|E] o il proprietario della propria [court|E]. I personaggi possono essere obbedienti solo a un [ruler|E] alla volta.\n\nI personaggi obbedienti hanno meno probabilità di partecipare a [hostile_schemes|E], unirsi a [wars|E] o aderire a [factions|E] contro il loro signore. Sosterranno sempre le preferenze del loro signore durante la [succession|E] e non faranno valere le proprie [claims|E] contro di lui. I [tributaries|E] non obbedienti potrebbero tentare di liberarsi.\n\nQuando il punteggio di un personaggio supera la [obedience_threshold|E], diventa obbediente."
+ game_concept_obedient: "Obbediente"
+ game_concept_obedience_i: "@obedience_icon!"
+ game_concept_obedient_desc: "$game_concept_obedience_desc$"
+ obedience_value: "[obedience|E]:"
+ obedience_threshold_value: "[obedience_threshold|E]:"
+
+ game_concept_disobedient: "Disobbediente"
+ game_concept_disobedience_i: "@disobedience_icon!"
+ game_concept_disobedient_desc: "$game_concept_obedience_desc$"
+
+ game_concept_obedience_threshold: "Soglia di Obbedienza"
+ game_concept_obedience_threshold_desc: "La $game_concept_obedience_threshold$ è il punteggio che i [characters|E] devono raggiungere per essere considerati [obedient|E].\n\nLa soglia è influenzata da una serie di fattori: se sono [close_family|E] dell’[overlord|E], se sono il [primary_heir|E], la loro [friendship|E] o [rivalry|E], i loro [traits|E] e se li impieghi o meno nel tuo [kurultai|E] o nella tua [court|E]. I [children|E] hanno maggiori probabilità di essere obbedienti rispetto agli adulti.\n\nI [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] possono usare la [decision|E] #EMP $mpo_desperate_stance_decision$#! per rendere tutti obbedienti, l’#EMP $impose_obedience_intent$#! [intent|E] durante una [GetActivityType( 'activity_hunt').GetName] per prendere di mira un personaggio e l’[character_interaction|E] #EMP $mpo_demand_obedience_interaction$#! se hanno una [dread|E] sufficientemente alta."
+
+ game_concept_overlord: "Signore Supremo"
+ game_concept_overlord_desc: "Un $game_concept_overlord$ è un [ruler|E] al quale un altro sovrano ha giurato obbedienza, in qualità di [vassal|E] o di [tributary|E]. Sia i [suzerains|E] sia i [lieges|E] sono overlord."
+game_concept_overlord_possessive: "del signore supremo"
+
+ game_concept_settlement_issue: "Problema dell’Insediamento"
+ game_concept_settlement_issue_desc: "I Problemi dell’Insediamento sono compiti assegnati a un [ruler|E] [nomad|E] dopo aver concluso una [migration|E] verso nuove terre. Offrono l’opportunità di gestire conflitti e aumentare l'[county_control|E] locale nel nuovo [domain|E].\n\nQuesti problemi continueranno a presentarsi per i primi anni dopo che un sovrano ha migrato, finché la contea ha un basso controllo della contea."
+
+ game_concept_settlement_issue_tier: "Grado del Problema dell’Insediamento"
+ game_concept_settlement_issue_tier_desc: "Ogni [settlement_issue|E] ha un Grado del Problema dell'Insediamento, che riflette le ricompense complessive di un Problema quando viene risolto con successo. Risolvere un Problema di grado più alto in genere porta a più ricompense oltre alla [county_control|E]."
+
+ game_concept_unmanaged_holdings: "Insediamenti non gestiti"
+ game_concept_unmanaged_holding: "Insediamento non gestito"
+ game_concept_unmanaged_holdings_desc: "Si tratta di [holdings|E] disattivati che non contano ai fini del tuo [domain_limit|E]."
+
+ game_concept_nerge: "Nerge"
+ game_concept_nerge_outcome: "Esito del Nerge"
+ game_concept_nerge_desc: "Il Nerge è un tipo speciale di [GetActivityType('activity_hunt').GetName] che può essere intrapreso dai [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName]. Invece di cacciare un singolo animale, è una caccia su larga scala in cui vengono abbattuti centinaia, se non migliaia, di animali.\n\nInvece di usare la normale [hunt_success_chance|E], tiene traccia di un punteggio di Esito del Nerge basato su quanti animali vengono uccisi, che determina il tipo di ricompense che otterranno l’[activity_host_short|E] e gli [activity_guests_short|E].\n\nUn Nerge di successo in genere ricompensa:\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[dread_i][dread|E]\n$BULLET_WITH_TAB$[gold_i][gold|E]\nE in alcuni casi può ricompensare:\n$BULLET_WITH_TAB$[martial_i][martial|E]\n$BULLET_WITH_TAB$[command_modifier_i][commander_trait|E] o [trait_level_track_xp|E]"
+
+ game_concept_dominate_title: "Domina Titolo"
+ game_concept_domination_war: "Guerra di Dominazione"
+ game_concept_dominate_title_desc: "I [nomads|E] che vogliono ottenere un [title|E] di [title_tier|E] superiore senza [migrating|E] hanno l’alternativa di combattere gli abitanti locali di un’area per quel titolo, purché abbiano il giusto livello di [dominance|E].\n\nSe qualcuno detiene il titolo in questione, inizieranno una guerra contro quel bersaglio per usurparglielo. Se invece nessuno detiene il titolo in questione, combatteranno ogni singolo non-[tributary|E] e non-[ally|E] nell’area [de_jure|E] del titolo.\n\nIn caso di vittoria, l’aggressore otterrà il titolo in questione e tutti i difensori diventeranno suoi Tributari. In caso di sconfitta, l’aggressore pagherà [gold_i][gold|E] al difensore e perderà una quantità significativa di [dread_i][dread|E].\n\nSe chi prende la [decision|E] detiene l’intera area De Jure, otterrà semplicemente il titolo immediatamente, poiché non ci sono difensori da affrontare."
+
+ game_concept_expand_dominance: "Espandi Dominanza"
+ game_concept_dominance_expansion: "Espansione della Dominanza"
+ game_concept_expand_dominance_desc: "Una guerra speciale per i [rulers|E] con la forma di governo [GetGovernment( 'nomad_government' ).GetName] per un’area all’interno delle proprie terre [de_jure|E], oppure per espandere la propria area [de_jure|E] verso nuove frontiere.\n\nTutti i Sovrani Nomadi con un [title_tier|E] di [duchy|E] o superiore possono iniziare la guerra all’interno del proprio De Jure. In caso di vittoria tenteranno di [vassalize|E] il difensore o costringerlo a diventare un [tributary|E], oppure di conquistare del tutto le sue terre se possiede terre al di fuori dell’area bersaglio della guerra.\n\nPer espandere il proprio dominio in terre straniere, un Sovrano Nomade deve essere di grado [kingdom|E] o superiore. In caso di vittoria tenterà comunque di Vassallizzare, Tributarizzare o conquistare le terre, ma queste passeranno anche immediatamente De Jure al titolo primario del sovrano Nomade."
+
+ game_concept_paiza: "Paiza"
+ game_concept_paiza_desc: "La Paiza, o gerege, è una piccola tavoletta metallica emessa da potenti [characters|E] nella [the_great_steppe|E], che estende il potere dei Khan al portatore.\n\nMeccanicamente, sono [artifacts|E] che un potente sovrano con la forma di governo [GetGovernment( 'nomad_government' ).GetName] concede ai propri favoriti tramite la [character_interaction|E] #V$mpo_interaction_grant_paiza$#!.\nDopo aver preso la [decision|E] #V $mpo_establish_paiza_system_decision$#!, ottieni accesso alla [decision|E] #V $mpo_call_for_merchants_decision$#! che ti permette di commerciare con i popoli stanziali, migliorata dai vari [internal_upgrades|E] alla [yurt_buildings|E] [GetDomicileBuilding('trade_yurt_01').GetName]\n\nTuttavia, i [characters|E] che portano [artifacts|E] Paiza recanti il nome di un [gurkhan|E] vivente hanno accesso alla [decision|E] #V $mpo_abuse_authority_paiza_decision$#! e alla [character_interaction|E] #V $mpo_interaction_leverage_khan_authority$#!\n\n#weak Per il potere del Cielo Eterno. Per la protezione della Fortuna Imperiale. Un editto del Khan; chiunque non lo rispetti sarà punito, morirà.#!"

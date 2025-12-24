@@ -1,0 +1,162 @@
+﻿l_spanish:
+
+
+
+  lesson_china_introduction: "$lesson_basics_welcome$"
+  lesson_china_introduction_desc: "@tutorial_screenshot_1_china!\nSei un giovane letterato in Cina; la tua condizione è umile, ma ricca di promesse. Con studio, astuzia e condotta meritoria potrai salire nei ranghi imperiali.\n\nBenché la tua vita sia effimera, i tuoi eredi possono condurre il nome della tua casata a una gloria duratura.\n\nSotto il saldo dominio della dinastia Song, gli esami imperiali offrono una via al governatorato e forse al trono imperiale."
+
+  lesson_china_camera: "$lesson_basics_quick_camera$"
+  lesson_china_camera_desc: "$lesson_basics_quick_camera_desc$"
+
+  lesson_china_zoom: "$lesson_basics_quick_zoom$"
+  lesson_china_zoom_desc: "$lesson_basics_quick_zoom_desc$"
+
+  lesson_china_nested_tooltips: "Suggerimenti annidati"
+  lesson_china_nested_tooltips_desc: "$lesson_basics_tooltips_in_tooltips_desc$"
+  lesson_china_nested_tooltips_hover_word: "$lesson_basics_tooltips_in_tooltips_hover_word$"
+  lesson_china_nested_tooltips_hover_word_deeper: "$lesson_basics_tooltips_in_tooltips_hover_word_deeper$"
+
+  lesson_china_nested_tooltips_complete: "$lesson_china_nested_tooltips$"
+  lesson_china_nested_tooltips_complete_desc: "$lesson_china_nested_tooltips_desc$"
+
+
+  lesson_china_characters: "Personaggi"
+  lesson_china_characters_desc: "Giochi nei panni di [GetPlayer.GetShortUINameNotMeNoTooltip], uno dei molti [characters|E] di questo mondo, rappresentati da ritratti dei personaggi.\n\nSei un aspirante burocrate in [GetTitleByKey('h_china').GetDefinitiveName]!"
+
+  lesson_china_this_is_you_1: "$lesson_basics_quick_this_is_you_1$"
+  lesson_china_this_is_you_1_desc: "Qui vedrai te stessə e i tuoi [family|e] più vicini.\n\nA destra puoi vedere il tuo [player_heir|e], con cui giocherai quando il tuo attuale [character|E] morirà.\n\n#TUT Se ti perdi sulla mappa, puoi fare clic sul tuo personaggio per ricentrare la telecamera sul tuo [realm|e].#!"
+
+  lesson_china_this_is_you_2: "$lesson_basics_quick_this_is_you_2$"
+  lesson_china_this_is_you_2_desc: "È spesso una buona idea avere un [spouse|E]. Ti aiuterà a governare il tuo [realm|e] e a garantire il futuro della tua [dynasty|e].\n\nAl momento non hai un [spouse|E]. Perché non rimediare?"
+  lesson_china_find_spouse_tt: "$lesson_basics_quick_find_spouse_tt$"
+
+  lesson_china_marriage_window: "$lesson_basics_quick_this_is_you_2$"
+  lesson_china_marriage_window_desc: "Trovare il [spouse|E] giusto non è facile, ma tieni a mente alcune cose:\n\n$EFFECT_LIST_BULLET$Capacità: le loro [skills|E] si aggiungeranno alle tue\n$EFFECT_LIST_BULLET$Genetica: i [congenital_traits|E], come [GetTrait('lisping').GetName( GetNullCharacter )], possono essere ereditati dai tuoi [children|E]\n$EFFECT_LIST_BULLET$Nobiltà: sposare un [lowborn|E] ti farà perdere [prestige|E]"
+
+  lesson_china_married_great_job: "$lesson_basics_quick_married_great_job$"
+  lesson_china_married_great_job_desc: "Congratulazioni per il matrimonio!\n\nSe, quando il tuo personaggio muore, non restano altri membri viventi della tua [dynasty|e], perdi la partita. Avere un $game_concept_spouse$ può aiutarti a evitarlo."
+
+  lesson_china_this_is_you_3: "$lesson_basics_quick_this_is_you_3$"
+  lesson_china_this_is_you_3_desc: "Questi sono i [traits|e] del tuo personaggio! Come puoi vedere, è  @ambitious_icon_tutorial![Nbsp][GetTrait('ambitious').GetName( GetNullCharacter )], @compassionate_icon_tutorial![Nbsp][GetTrait('compassionate').GetName( GetNullCharacter )] e @gregarious_icon_tutorial![Nbsp][GetTrait('gregarious').GetName( GetNullCharacter )].\n\n#TUT I $game_concept_traits$ influenzano come il tuo personaggio reagisce agli eventi del mondo di gioco. Puoi anche acquisire nuovi tratti mentre giochi.#!"
+
+  lesson_china_skills: "$lesson_basics_quick_skills$"
+  lesson_china_skills_desc: "$lesson_basics_quick_skills_desc$"
+
+  lesson_china_house: "$game_concept_house$"
+  lesson_china_house_desc: "Questa è la tua [house|E], #V Casa [GetPlayer.GetHouse.GetNameNoTooltip]#!; una famiglia di [nobles|E] cinesi.\n\nIn qualità di [house_head_head|E] del tuo $game_concept_house$, ci si aspetta che tu conduca i membri della tua $game_concept_house$ al successo all'interno del governo cinese.\n\nLa tua $game_concept_house$ è piccola, ma crescerà col tempo man mano che [children|E] vi nasceranno.\n\n#TUT Ogni [house|E] appartiene a una [dynasty|E]. Tuttavia Casa [GetPlayer.GetHouse.GetNameNoTooltip] è così piccola che $game_concept_house$ e $game_concept_dynasty$ coincidono.#!"
+
+  lesson_china_realm: "$game_concept_realm$"
+  lesson_china_realm_desc: "Quest'area mostra il tuo [realm|E], in breve, le terre e le risorse che controlli.\n\nPoiché sei soltanto un umile gentiluomo, non possiedi [land|e], e il tuo $game_concept_realm$ è limitato. Per ottenere terre puoi cercare di diventare [governor|e]. Ne parleremo più avanti."
+
+  lesson_china_titles: "$game_concept_titles$"
+  lesson_china_titles_desc: "Detieni un solo [title|E]. I $game_concept_titles$ rappresentano la proprietà della terra.\n\nIl tuo unico $game_concept_title$, [GetPlayer.GetPrimaryTitle.GetName], ti concede la proprietà della [estate|E] privata della tua famiglia. Torneremo su questo $game_concept_estate$ a breve.\n\n#TUT Quando governi una [province|E] come [governor|E], comparirà anch'essa come $game_concept_title$ in quest'area.#!"
+
+  lesson_china_relationships: "$lesson_basics_quick_relationships$"
+  lesson_china_relationships_desc: "In questa sezione puoi vedere vari altri [characters|e] con cui hai un legame. Includono la tua [family|e], chiunque abbia una [relationship|e] con te, i tuoi [courtiers|e] e i tuoi [subjects|E]."
+
+  lesson_china_liege_introduction: "$game_concept_liege$"
+  lesson_china_liege_introduction_desc: "Il tuo [liege|e] è il [son_of_heaven|e], l'Imperatore della Cina. Un modo per interagire con lui è facendo clic destro su di lui.\n\nSi aprirà il Menu Interazioni, che ti consente, per esempio, di #high Trovare un Anziano#! o #high Richiedere una Mentoria#!."
+  lesson_china_find_elder_tt: "Fai clic destro sul tuo $game_concept_liege$"
+
+  lesson_china_liege_introduction_good_job: "Altri personaggi"
+  lesson_china_liege_introduction_good_job_desc: "Ben fatto! Puoi interagire con la maggior parte dei [characters|e] facendo clic destro su di loro.\n\nForse vorresti [GetScheme('seduce').GetTypeName] il tuo [spouse|e] oppure #high Istruire#! i tuoi fratelli minori?"
+
+  lesson_china_resources_1: "$lesson_basics_quick_resources_1$"
+  lesson_china_resources_1_desc: "Ora osserviamo la barra in alto a destra dello schermo.\n\nQui troverai diverse risorse che puoi usare per interagire con il mondo in vari modi."
+
+  lesson_china_resources_gold: "$lesson_basics_quick_resources_gold$"
+  lesson_china_resources_gold_desc: "$lesson_basics_quick_resources_gold_desc$"
+
+  lesson_china_resources_prestige: "$lesson_basics_quick_resources_prestige$"
+  lesson_china_resources_prestige_desc: "$lesson_basics_quick_resources_prestige_desc$"
+
+  lesson_china_resources_piety: "$lesson_basics_quick_resources_piety$"
+  lesson_china_resources_piety_desc: "[piety_i|e] La [piety|e] è una risorsa che riflette quanto il tuo personaggio sia virtuoso.\n\nIl tuo [piety_level|e] aumenta anche con la $game_concept_piety$ accumulata. Concentrarti su [learning_i|e][learning|e] può essere una buona idea per un personaggio particolarmente devoto."
+
+  lesson_china_resources_influence: "@influence_icon! $game_concept_influence$"
+  lesson_china_resources_influence_desc: "[influence_i] L'[influence|e] è la tua capacità di farti ascoltare dagli altri. Quando ottieni $game_concept_influence$, aumenta anche il tuo [influence_level|e].\n\nCome risorsa, il $game_concept_influence$ viene speso principalmente per promuovere il candidato che desideri a [governor|E] di una [province|E]."
+ 
+  lesson_china_resources_renown: "$lesson_basics_quick_resources_renown$"
+  lesson_china_resources_renown_desc: "$lesson_basics_quick_resources_renown_desc$"
+ 
+  lesson_china_estate_heading: "La tua tenuta di famiglia"
+ 
+  lesson_china_open_estate: "$lesson_china_estate_heading$"
+  lesson_china_open_estate_desc: "In quanto [house_head_head|E] della tua [house|E], possiedi una [estate|E].\n\nÈ la tua sede di potere privata e qualsiasi investimento vi compirai resterà con te per l'intera partita.\n\nSi trova a [GetPlayer.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip] e resterà qui anche se diventi [governor|E] altrove."
+  lesson_china_open_estate_prompt: "Apri la tua Tenuta (evidenziata)"
+
+  lesson_china_estate_intro: "$lesson_china_estate_heading$"
+  lesson_china_estate_intro_desc: "I benefici che ricevi dalla tua [estate|E] provengono dagli [estate_buildings|E], quindi costruiamone uno ora!"
+  lesson_china_estate_intro_prompt: "Seleziona lo slot edificio vuoto (evidenziato)"
+
+  lesson_china_estate_build_list: "$lesson_china_estate_heading$"
+  lesson_china_estate_build_list_desc: "Un [estate_building|E] che aumenti le tue entrate in [gold|E], come $rice_field_01_domicile_building|V$, sarebbe un buon inizio.\n\nTuttavia, puoi scegliere qualsiasi edificio tu preferisca."
+  lesson_china_estate_build_list_prompt: "Costruisci un qualsiasi $game_concept_estate_building$"
+
+  lesson_china_estate_manor: "$lesson_china_estate_heading$"
+  lesson_china_estate_manor_desc: "La costruzione è avviata, bene!\n\nAvrai notato che sei limitato nel numero di slot in cui puoi costruire [estate_buildings|E]. Per fare spazio a più edifici, dovrai in seguito migliorare il tuo edificio centrale #V Maniero#!."
+  lesson_china_estate_manor_prompt: "Seleziona il tuo Maniero (evidenziato)"
+
+  lesson_china_estate_manor_selected: "$lesson_china_estate_heading$"
+  lesson_china_estate_manor_selected_desc: "Tutti gli [estate_buildings|E] possono essere migliorati e il tuo Maniero non fa eccezione.\n\nImportante: migliorare il tuo Maniero ti fornisce slot per ulteriori $game_concept_estate_buildings$.\n\nMigliorare il Maniero è piuttosto costoso, quindi non farlo ora."
+ 
+  lesson_china_estate_close: "$lesson_china_estate_heading$"
+  lesson_china_estate_close_desc: "Lasciamo per ora la tua Tenuta.\n\nDevi prima chiudere il Maniero, poi chiudere la finestra della Tenuta."
+  lesson_china_estate_close_prompt: "Chiudi la finestra della Tenuta"
+ 
+  lesson_china_estate_summary: "$lesson_china_estate_heading$"
+  lesson_china_estate_summary_desc: "Come già detto, la tua [estate|E] è la tua proprietà privata.\n\nTi seguirà quando, in seguito, giocherai nei panni del tuo [player_heir|E].\n\nAnche se potresti diventare [governor|E] di una ricca [province|E], gli investimenti fatti lì appartengono allo stato.\n\nPerciò spendere l'[gold|E] che guadagni per migliorare la tua [estate|E] è una buona idea!"
+
+  lesson_china_admin_intro: "Carriera di governo"
+  lesson_china_admin_intro_desc: "Per quanto sarebbe piacevole, non dovresti passare tutta la vita nella tua [estate|E].\n\nCome funzionario, ci si aspetta che tu dimostri il tuo [merit|E] e scali i ranghi, diventando [governor|E] e forse persino [minister|E]."
+
+  lesson_china_admin_merit: "$lesson_china_admin_intro$"
+  lesson_china_admin_merit_desc: "Questo è il tuo [merit_level|E] attuale.\n\nIl tuo $game_concept_merit_level$ misura il tuo valore e rango nella burocrazia imperiale. Il grado più basso è il #V 9°#!, e il più meritorio è il #V 1°#!.\n\nAl momento non ti sei affatto dimostrato, quindi non hai alcun $game_concept_merit_level$ e non sei idoneo a diventare [governor|E]."
+
+  lesson_china_admin_open: "$lesson_china_admin_intro$"
+  lesson_china_admin_open_desc: "Aumentiamo il tuo [merit_level|E]!"
+  lesson_china_admin_open_prompt: "Apri il pannello '$ADMINISTRATIVE_GOVERNMENT_HEADER$' (evidenziato)"
+
+  lesson_china_exam: "$lesson_china_admin_intro$"
+  lesson_china_exam_desc: "L'impero è una meritocrazia e le [imperial_examinations|E] garantiscono che solo i più abili e virtuosi amministreranno le [provinces|E] come [governors|E].\n\nPuoi aumentare il tuo [merit_level|E] partecipando alle [activities|E] $activity_local_examination|V$ e $activity_imperial_examination|V$.\n\nLe $game_concept_examinations$ sono ospitate sia dai [governors|E] sia dallo stesso [son_of_heaven|E].\n\nRiceverai un invito quando saranno indette."
+
+  lesson_china_STUDY_SCHEME_SEGMENT: "Studio"
+
+  TUTORIAL_OPEN_DECISION_PANEL_PROMPT: "Apri il pannello '$DECISIONS_VIEW_TITLE$'"
+
+  lesson_china_decisions_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+lesson_china_decisions_open_desc: "Quando decidi di partecipare a un [imperial_examination|E], è utile essere ben preparati.\n\nPuoi prepararti agli $game_concept_examinations$ studiando i Classici confuciani."
+  lesson_china_decisions_open_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
+
+  lesson_china_decisions: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+  lesson_china_decisions_desc: "Queste sono Decisioni, varie azioni personali che puoi intraprendere.\n\nPer ora, scegli $tgp_china_study_confucian_classics_decision|V$."
+  lesson_china_decisions_prompt: "Avvia la Decisione '$tgp_china_study_confucian_classics_decision$'"
+
+  lesson_china_stress: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+  lesson_china_stress_desc: "Bene, hai iniziato gli studi!\n\nStudiare aumenterà il tuo [stress_i][stress|E]. Inoltre, il $game_concept_stress$ si guadagna o si perde in base a quanto agisci secondo i tuoi [personality_traits|E].\n\nSe ottieni [GetDefine('NCharacter', 'STRESS_PER_LEVEL')|0V] $game_concept_stress$, il tuo [stress_level|E] aumenterà e la tua salute mentale ne risentirà.\n\n#I Tieni d'occhio l'indicatore di $game_concept_stress$ evidenziato per evitare crolli mentali#!"
+
+  lesson_china_schemes_open: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+  lesson_china_schemes_open_desc: "Lo studio è un [scheme|E]: un progetto personale di lungo termine. Diamo un'occhiata rapida allo stato del tuo $game_concept_scheme$."
+  lesson_china_schemes_open_prompt: "Apri il pannello 'Intrigo'"
+
+  lesson_china_schemes_list: "$lesson_china_STUDY_SCHEME_SEGMENT$"
+  lesson_china_schemes_list_desc: "Questo è il tuo [scheme|E] $study_confucian_classics$.\n\nSi tratta di un $game_concept_scheme$ ricorrente. Al completamento, si risolverà in base alla sua [scheme_success_chance|E], quindi ricomincerà.\n\nPoiché questo $game_concept_scheme$ aumenta il tuo [stress|E], alla fine dovrai abbandonarlo.\n\n#I Per abbandonare un $game_concept_scheme$, usa il pulsante nell'angolo in alto a destra dello stesso $game_concept_scheme$."
+ 
+  lesson_china_unpause: "$lesson_basics_quick_resources_time$"
+lesson_china_unpause_desc: "Al momento la partita è in pausa. Puoi controllare la velocità del tempo nell’angolo in basso a destra.\n\n#TUT Crusader Kings III è un gioco che si svolge nell’arco di centinaia d’anni, quindi prenditi pure il tempo che ti serve.#!\n\nQuando il gioco è in pausa, nessuno terrà un [imperial_examination|E] a cui tu possa partecipare, né il tuo [scheme|E] $study_confucian_classics$ farà progressi, quindi togli la pausa e attendi un invito!"
+  lesson_china_unpause_tt: "$lesson_basics_quick_unpause_tt$"
+ 
+  lesson_china_done: "$lesson_basics_quick_done$"
+  lesson_china_done_desc: "Il gioco ora non è in pausa e il tempo scorre. D'ora in avanti sei libero di plasmare il futuro della casata [GetPlayer.GetHouse.GetName].\n\n#TUT Tieni d'occhio @reactive_advice_icon! I Suggerimenti Reattivi compariranno in cima allo schermo con ulteriori indicazioni#!\n\nPer ora, il tuo obiettivo principale è attendere la prossima [imperial_examination|E] e parteciparvi."
+
+ # special reactive advice for china
+
+  action_reactive_advice_china_council: "Suggerimento: $ra_china_council_1$"
+  action_reactive_advice_china_council_desc: "In quanto $game_concept_governor$, puoi contare sul tuo $game_concept_council$ per assisterti nella gestione della tua $game_concept_province$. Apri per un'introduzione al funzionamento del Consiglio."
+  action_reactive_advice_china_council_click: "$click_to_open_lesson$"
+
+  ra_china_council_1: "Consiglio del Governatore"
+  ra_china_council_1_desc: "In qualità di [governor|E], non devi gestire la tua [province|E] da solo. Diamo un'occhiata al tuo [council|e], che si è ampliato rispetto a prima che tu fossi un $game_concept_governor$."
+  ra_china_council_1_prompt: "$lesson_basics_council_view_tt$"
+  ra_china_council_2: "$ra_china_council_1$"
+  ra_china_council_2_desc: "Questo è il tuo [council|e], composto da sei [councillors|e], incluso il/la tua/o [spouse|e].\n\nPossono, per esempio, $task_collect_taxes|V$ o $task_find_secrets|V$ tramite le [councillor_tasks|e].\n\nOra che sei un [governor|E], possono anche $task_develop_county|V$ o $task_conversion|V$, tra le altre cose."

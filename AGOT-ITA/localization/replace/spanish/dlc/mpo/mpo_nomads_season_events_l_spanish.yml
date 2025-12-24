@@ -1,0 +1,37 @@
+﻿l_spanish:
+
+ mpo_nomads_season_events.0001.t: "Cavalcando la Tempesta"
+ mpo_nomads_season_events.0001.desc: ""Vedi la forma delle nuvole? Sembrano segnate dagli artigli di un falco," dice [Select_CString(storm_chaser.IsFemale, 'la mia', 'il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('storm_chaser'))], [storm_chaser.Custom('IT_NAM_COL3')][storm_chaser.GetTitledFirstName], indicando il cielo. \n\n"Preannuncia una tempesta temibile. Dico che dovremmo usarla a nostro vantaggio. Prendiamo cavalli e archi, entriamo nella furia del vento, cogliamo [raid_target.Custom('IT_NAM_COL3')][raid_target.GetTitledFirstName] di sorpresa e rubiamo il suo gregge.""
+ mpo_nomads_season_events.0001.a: "Domani, si cavalca!"
+ mpo_nomads_season_events.0001.b: "Dobbiamo pensare al nostro riparo."
+ mpo_storm_shelter_modifier: "Protetti dalla Tempesta"
+ mpo_storm_shelter_modifier_desc: "Questo campo ha le sue yurte ben ancorate al suolo, gli animali tenuti vicini, per proteggersi dalle tempeste in arrivo."
+ 
+ mpo_nomads_season_events.0005.t: "Stomaci Vuoti"
+ mpo_nomads_season_events.0005.desc: "Il vento ululante batte contro le pareti della mia yurta. \n\nSono sorpres[ROOT.Char.Custom('DE_END_PRO_S_N')] dall’arrivo [Select_CString(hungry_neighbour.IsFemale, 'della mia', 'del mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hungry_neighbour'))], [hungry_neighbour.Custom('IT_NAM_COL3')][hungry_neighbour.GetTitledFirstName], che ha sfidato i pericoli della tempesta per prostrarsi davanti a me, posando una bottiglia di [Glossary( 'kumis', 'KUMIS_GLOSS')] ai miei piedi come offerta. \n\n"Sono tempi disperati, e il mio popolo sta morendo di fame. Non mi resta altra scelta che chiedere aiuto.""
+ mpo_nomads_season_events.0005.a: "Il tuo popolo non soffrirà più la fame."
+ mpo_nomads_season_events.0005.b: "Cosa sei dispost[hungry_neighbour.Custom('DE_END_PRO_S_N')] a dare in cambio?"
+ mpo_nomads_season_events.0005.c: "Qui non c’è nulla per te."
+
+ mpo_nomads_season_events.0010.t: "Stagione di Abbondanza"
+ mpo_nomads_season_events.0010.desc: "Il belare delle pecore disturba la mia pace mattutina. Poi arriva il loro odore, pungente sotto il sole battente. E infine, arriva [rich_neighbour.Custom('DE_ART_DEF_P_A')] loro proprietari[rich_neighbour.Custom('DE_END_PRO_S_N')]. [Select_CString(rich_neighbour.IsFemale, 'La mia', 'Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rich_neighbour'))], [rich_neighbour.Custom('IT_NAM_COL3')][rich_neighbour.GetTitledFirstName], "
+ mpo_nomads_season_events.0010.desc_offered_herd: "si toglie con cura le scarpe, per non portare lo sterco calpestato dentro la mia yurta. \n\n"Non ho dimenticato la generosità che hai mostrato quando il mio popolo era affamato. Sono venut[rich_neighbour.Custom('DE_END_PRO_S_N')] a ripagare il mio debito.""
+ mpo_nomads_season_events.0010.desc_fallback: "macchia l’ingresso della mia yurta con dello sterco mentre entra. \n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] #EMP car[ROOT.Char.Custom('DE_END_PRO_S_N')]#! [ROOT.Char.GetTitleTierName]!" dichiara. "Devo ai cieli un gregge abbondante. Ce n’è abbastanza da condividere, se hai monete.""
+ mpo_nomads_season_events.0010.a: "Dimmi il tuo prezzo."
+ mpo_nomads_season_events.0010.b: "Accetto la tua offerta."
+ mpo_nomads_season_events.0010.c: "Non c’è debito tra [rich_neighbour.Custom('SisterBrother')]."
+ mpo_nomads_season_events.0010.d: "Dammi il tuo gregge, o dammi la tua testa!"
+ mpo_nomads_season_events.0010.e: "Non ho bisogno di commerciare."
+ mpo_nomads_season_events.0010.d.tt.success: "Sconfiggi [rich_neighbour.Custom('IT_NAM_COL3')][rich_neighbour.GetTitledFirstName] e le sue guardie del corpo"
+ mpo_nomads_season_events.0010.d.tt.failure: "[rich_neighbour.Custom('IT_NAM_COL3')][rich_neighbour.GetTitledFirstName] e le sue guardie del corpo riescono a fuggire"
+ given_herd: "Ottieni questa opzione perché hai precedentemente donato [herd|E] a questo personaggio."
+
+ mpo_nomads_season_events.0015.t: "Tempeste di Rabbia"
+ mpo_nomads_season_events.0015.desc: "Ovunque guardi, vedo i miei sudditi raschiare il fondo di ciotole vuote, cercando di salvare ogni briciola delle nostre scorte in diminuzione. \n\nIl silenzio si rompe con un forte tonfo. La ciotola [kurultai_2.Custom('IT_NAM_COL2')][kurultai_2.GetTitledFirstName] piena di [Glossary( 'kumis', 'KUMIS_GLOSS')] si è rovesciata a terra, e il suo contenuto si infiltra nella terra secca. [kurultai_1.Custom('IT_NAM_COL3')][kurultai_1.GetTitledFirstName] è in piedi sopra la scena e dice, ridendo: "Non ti avevo proprio visto." \n\n[kurultai_2.Custom('IT_NAM_COL3')][kurultai_2.GetTitledFirstName] balza in piedi, le spalle tese. Sembra che i miei due membri del Kurultai stiano per venire alle mani."
+ mpo_nomads_season_events.0015.a: "Non piangere sul #EMP kumis#! versato, [kurultai_2.GetTitledFirstNameNoTooltip]."
+ mpo_nomads_season_events.0015.b: "Avanti, combattete! Intrattenete il resto di noi."
+ mpo_nomads_season_events.0015.c: "Lasciate perdere, entrambi."
+ mpo_nomads_season_events.0015.b.tt.success: "[kurultai_1.Custom('IT_NAM_COL3')][kurultai_1.GetTitledFirstName] viene ferito nella rissa"
+ mpo_nomads_season_events.0015.b.tt.failure: "[kurultai_2.Custom('IT_NAM_COL3')][kurultai_2.GetTitledFirstName] viene ferito nella rissa"
+
+

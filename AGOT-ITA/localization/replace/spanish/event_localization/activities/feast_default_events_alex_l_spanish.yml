@@ -1,0 +1,15 @@
+﻿l_spanish:
+
+ feast_default_alex.100.t: "Ricordi Condivisi"
+feast_default_alex.100.desc: "[Select_CString(guest.IsFemale,'La mia','Il mio')] [root_scope.Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName], [guest.Custom('quirk_pos_present')] mentre [Select_CString(guest.IsFemale,'lei','lui')] si accosta a me.\n\n"«[Select_CString(root_scope.IsFemale,'Mia','Mio')] [root_scope.Custom('ComplimentAdjective')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))]! Quante ore abbiamo condiviso! Quanti ricordi!» [Select_CString(guest.IsFemale,'Lei','Lui')] ride. «Come sempre, è un giorno lieto quando sono benedett[Select_CString(guest.IsFemale,'a','o')] dalla tua compagnia.»\n\n«Ah, sì!» interviene con entusiasmo il vicino [other_guest.Custom('IT_NAM_COL3')][other_guest.GetTitledFirstName], «Si racconta ancora del tuo passato: quando [guest_memory.GetThirdPerspectiveDescription]!»"
+feast_default_alex.100.aa: ""Non ricordo nulla di significativo.""
+feast_default_alex.100.a: ""Che il futuro ci porti ricordi ancor più lieti, [guest.GetFirstNameNoTooltip].""
+feast_default_alex.100.b: ""Ah, davvero un #EMP giorno meraviglioso#!!""
+ feast_default_alex.200.t: "Un'Epidemia di Voci"
+ feast_default_alex.200.desc: "«([Select_CString(guest.IsFemale,'La','Il')]) mi[guest'.Custom('DE_END_PRO_S_N')] [guest.Custom2('RelationToMeShort', SCOPE.sC('root_scope'))], ho sentito voci di una piaga chiamata [epidemic.GetName]...» dice [guest.GetTitledFirstName] preoccupat[Select_CString(guest.IsFemale,'a','o')].\n\n«Si dice che dilaghi nel [afflicted_top_liege.GetPrimaryTitle.GetBaseName], con le vittime che sono [sick_peasant.Custom('disease_desc_short')]... nemmeno il [root_scope.Custom('GetExpensiveMeal')] riesce a distrarmi da questo pensiero.»"
+ feast_default_alex.200.a: "Hm, dovremmo prepararci a [root_scope.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]..."
+ feast_default_alex.200.b: "Vieni qui, calmati."
+ feast_default_alex.200.c: "Preghiamo per il [afflicted_top_liege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]."
+ feast_default_alex.200.d: "Non preoccuparti, non arriverà mai qui!"
+ plague_preparations_modifier: "Preparativi Contro l'Epidemia"
+ plague_preparations_modifier_desc: "Questa località è ben preparata per qualsiasi epidemia in arrivo."

@@ -1,0 +1,42 @@
+﻿l_spanish:
+
+  tgp_east_asia_interaction_events.0010.opening: "[leaving_tributary.Custom2('AppropriateGreeting', ROOT.Char)]"
+  tgp_east_asia_interaction_events.0010.desc: "Ora servo un altro Devaraja. Uno che ci mostrerà la vera via.\n\nSia lode a [leaving_tributary.GetSuzerain.GetName]!"
+  tgp_east_asia_interaction_events.0010.a: "Com'è possibile!"
+  tgp_east_asia_interaction_events.0010.tt: "[leaving_tributary.GetShortUIName|U] non è più il tuo [tributary|E]"
+
+
+  tgp_east_asia_interaction_events.0020.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
+  tgp_east_asia_interaction_events.0020.desc: "Il mio Devaraja presenta argomenti convincenti.\n\nPermettici di servirti, anche solo per un po' più a lungo."
+  tgp_east_asia_interaction_events.0020.a: "È ciò che pensavo."
+
+  tgp_east_asia_interaction_events.0025.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
+  tgp_east_asia_interaction_events.0025.desc: "Vedo le tue meschine menzogne e non mi lascerò coercire così facilmente!\n\nMi aspetto di più da un vero Devaraja!"
+  tgp_east_asia_interaction_events.0025.a: "Bene, allora..."
+
+  tgp_east_asia_interaction_events.0030.t: "Accolto: si avvicina uno sfidante"
+  tgp_east_asia_interaction_events.0030.desc: "Parrebbe che quel [actor.Custom2('InsultNoun', ROOT.Char)] [actor.Custom('IT_NAM_COL3')][actor.GetTitledFirstName] stia cercando di sviare il mio [tributary|E], [recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName].\n\nSi è tentato di convincere [recipient.GetFirstNameNoTooltip] della pretestuosa divinità di [actor.GetFirstNamePossessiveNoTooltip], mettendo la mia in ombra."
+  tgp_east_asia_interaction_events.0030.a: "Libererò la sua mente da simili sciocchezze."
+  tgp_east_asia_interaction_events.0030.b: "Me ne occuperò con la forza!"
+  tgp_east_asia_interaction_events.0030.c: "Ho questioni più importanti di cui occuparmi."
+
+  tgp_east_asia_interaction_events.0035.opening: "[sending_character.Custom2('AppropriateGreeting', ROOT.Char)]"
+  tgp_east_asia_interaction_events.0035.desc.warring: "Mi duole informarti, [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('sending_character'))] infido, che ho scelto di riaffermare con la forza il [tributary|E] [recipient.GetTitledFirstNamePossessive].\n\nConsideralo un avvertimento."
+  tgp_east_asia_interaction_events.0035.desc: "Mi duole informarti che la mia fede rimane con il mio vero Devaraja, [recipient.GetSuzerain.Custom('IT_NAM_COL3')][recipient.GetSuzerain.GetTitledFirstName].\n\nNon importunarci oltre."
+  tgp_east_asia_interaction_events.0035.a: "Capisco."
+
+  embraced_my_tributary_opinion: "Ha accolto il mio tributario"
+  attempted_to_embrace_my_tributary_opinion: "Ha tentato di accogliere il mio tributario"
+
+tgp_east_asia_interaction_events.2000.t: "Radice, fusto e ramo"
+tgp_east_asia_interaction_events.2000.desc: "È mio dovere celeste promuovere il bene ed eliminare il male; e, tra questi ultimi, poche sono le fonti di malvagità alla mia portata più grandi di [recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName]! I suoi crimini #EMP insozzano#! la sua stirpe, e per il colpevole non può esservi perdono; l’eradicazione di questo male deve giungere fino alle sue radici.\n\nColoro che si oppongono alla nostra volontà tremeranno dinanzi al suo annientamento; che la testa sia recisa dal corpo e lasciata marcire nel mercato, le ossa restino insepolte e lo spirito inquieto, e chiunque condivida quel sangue velenoso sia messo a morte o bandito ai quattro angoli del mondo."
+tgp_east_asia_interaction_events.2000.a: "Per mia volontà e per mio diritto, #EMP porrò #bold fine#! al suo nome#!."
+tgp_east_asia_interaction_events.2000.a.title: "Punizione collettiva"
+tgp_east_asia_interaction_events.2000.a.tt: "[recipient.GetShortUIName] e la sua famiglia sono stati epurati da [purger.GetShortUIName]"
+auto_accept_interaction_huangdi: "Il potere dello Stato è assoluto"
+celestial_extinguish_noble_family_interaction_death_explanation: "Tutti i genitori e i figli adulti — di età inferiore alla [retirement_age|E] e del genere dominante della tua [faithpossessive|E] — saranno messi a morte"
+celestial_extinguish_noble_family_interaction_banish_explanation: "Qualsiasi [spouses|E] o [concubines|E], e la [close_family|E] e la [extended_family|E] della stessa [house|E], saranno [banished|E] dal [realm|E]"
+celestial_extinguish_noble_family_interaction_exemption_explanation: "Qualsiasi [spouse|E] o [concubines|E], [close_family|E] o [extended_family|E] sposati con, o figli di, un membro della [house|E] regnante di [actor.GetHouse.GetName] saranno risparmiati"
+is_currently_being_purged_tt: "[recipient.GetShortUIName] è attualmente oggetto di epurazione"
+purged_banishment_opinion: "Criminale bandito"
+purged_execution_opinion: "Condannato a morte"

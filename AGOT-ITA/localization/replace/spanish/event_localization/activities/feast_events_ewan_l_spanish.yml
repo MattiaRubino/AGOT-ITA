@@ -1,0 +1,152 @@
+﻿l_spanish:
+
+ ##################################################
+ # #Misc
+ feasts_mischievous_t1_modifier:0 "Sorriso Malevolo"
+ feasts_mischievous_t1_modifier_desc:0 "Questo perosnaggio sembra stranamente calmo quando alle persone attorno a lui capitano indicendi inattesi e imbarazzanti."
+
+ feasts_mischievous_t2_modifier:0 "Artefice di Inganni"
+ feasts_mischievous_t2_modifier_desc:0 "Piccoli incidenti e scoperte imbarazzanti affliggono regolarmente coloro che sono vicini a questo personaggio."
+
+ feasts_mischievous_t3_modifier:0 "Combinaguai"
+ feasts_mischievous_t3_modifier_desc:0 "Non si può provare, ma è un segreto noto a tutti che questo personaggio sta costantemente pianificando il suo prossimo scherzo crudele."
+
+ feast_learnt_habits_modifier:0 "Abitudini Scoperte"
+ feast_learnt_habits_modifier_desc:0 "Le abitudini personali del bersaglio, quando è da solo, sono note ai complottisti"
+ feast_learnt_habits_modifier.tt:0 "$feast_learnt_habits_modifier$: $VALUE|+0=-+$"
+didnt_knock_hat_off_modifier: "Accecato dalla luce"
+didnt_knock_hat_off_modifier_desc: "Lo charme del bersaglio sarà la sua rovina!\n[GetScheme('slander').GetTypeName] [scheme|E] [success_chance|E] #P +20#!"
+didnt_knock_hat_off_modifier.tt: "$didnt_knock_hat_off_modifier$: $VALUE|+0=-+$"
+
+ ##################################################
+ # #Murder
+ feast_events_ewan.0001.t:0 "Schiarisciti La Mente"
+ feast_events_ewan.0001.desc.intro:0 "È raro che una persona riesca a passare un intero banchetto senza aver bisogno di un po' di tempo all'aria aperta, lontano dal frastuono, anche solo per rinfrescarsi.\n\nPer mia fortuna, [intent_target.GetTitledFirstName] non fa eccezione. Da un'alcova vicina [intent_target.Custom('DE_PRO_POS_P_3P')] guardo mentre"
+ feast_events_ewan.0001.desc.high_place:0 "fissa fuori dalla finestra di questa torre alta e solitaria. Chiaramente sta ammirando un panorama da urlo — una semplice, robusta spallata e tutti i miei problemi saranno finiti. Sembrerà persino un incidente."
+ feast_events_ewan.0001.desc.water:0 "passeggia sulle rive di [activity.GetHost.Custom('IndefiniteBodyOfWater')] vicino alle mura. Col manganello stretto nella mano, devo solo colpir[intent_target.Custom('DE_PRO_POS_P_3P')] forte abbastanza da stordir[intent_target.Custom('DE_PRO_POS_P_3P')] — l'acqua farà il resto, e sembrerà addirittura un incidente."
+ feast_events_ewan.0001.desc.critter:1 "percorre i sentieri del giardino. Ben stretto nella mia mano (si spera ben chiuso) c'è un velenoso esemplare di [SCOPE.Custom('VenomousCreature')]. Feroce, mortale, mi basta lanciarlo su un tratto di pelle nuda per fargli fare il suo sporco lavoro."
+ feast_events_ewan.0001.desc.rock:0 "si aggira tra le decorazioni in cortile. Il masso che ho in mano ha una buona consistenza e una punta terribilmente affilata: un bel colpo netto al cranio dovrebbe essere sufficiente per compiere l'atto oscuro."
+ feast_events_ewan.0001.desc.outro:0 "\n\nHo l'elemento sorpresa, quindi se il piano va storto, scappare in tempo non dovrebbe essere un problema. Purtroppo a [intent_target.GetFirstNameNoTooltip] probabilmente non [intent_target.Custom('DE_PRO_DEM')] ci vorrà molto per notare la mia assenza sospetta."
+ feast_events_ewan.0001.a:0 "Ve bene, una spinta decisa e..."
+ feast_events_ewan.0001.a.tt.success:0 "Ecco che cade!"
+ feast_events_ewan.0001.a.tt.failure:0 "[intent_target.GetFirstNameNoTooltip] si getta di lato"
+ feast_events_ewan.0001.b:0 "Un colpo robusto, una spinta decisa e..."
+ feast_events_ewan.0001.b.tt.success:0 "Stordit[intent_target.Custom('DE_END_PRO_S_N')], [intent_target.GetFirstNameNoTooltip] si affloscia in acqua."
+ feast_events_ewan.0001.b.tt.failure:0 "[intent_target.GetSheHe|U] cade ma è ancora cosciente"
+ feast_events_ewan.0001.c:0 "Il lancio deve avere #EMP appena#! abbastanza energia..."
+ feast_events_ewan.0001.c.tt.success:1 "L'esemplare di [SCOPE.Custom('VenomousCreature')] attacca"
+ feast_events_ewan.0001.c.tt.failure:0 "La creatura rimbalza e fugge"
+ feast_events_ewan.0001.d:0 "Va bene, devo colpirl[intent_target.Custom('DE_END_PRO_S_N')] direttamente in testa..."
+ feast_events_ewan.0001.d.tt.success:0 "L[intent_target.Custom('DE_END_PRO_S_N')] predi sulla tempia"
+ feast_events_ewan.0001.d.tt.failure:0 "Hai mancato"
+ feast_events_ewan.0001.e:0 "Forse è meglio se osservo?"
+ feast_events_ewan.0001.e.tt.bonus_to_murder_scheme.overwrite:0 "Questo sostituirà il tuo bonus potenziale per il complotto di [GetScheme('murder').GetTypeName] verso [ROOT.Char.Var('feast_events_ewan_0001_bonus_value').GetTitledFirstName]"
+ feast_events_ewan.0001.e.tt.bonus_to_murder_scheme:0 "Riceverai #P [EmptyScope.ScriptValue('feast_events_ewan_0001_murder_scheme_bonus_added_base_success_value')|=+0]%#! probabilità di successo in qualsiasi [scheme|E] di [GetScheme('murder').GetTypeName] attentato ai danni di [intent_target.GetTitledFirstName] entro i prossimi [EmptyScope.ScriptValue('feast_events_ewan_0001_murder_scheme_bonus_time_to_use_value')|0] anni"
+ feast_events_ewan.0001.f:0 "E' stata un'idea stupida."
+
+
+ ##################################################
+ # #Seduce
+ feast_events_ewan.0201.t:0 "Cena e Spettacolo"
+ feast_events_ewan.0201.desc.intro:0 "Sedere frontalmente a [intent_target.Custom2('MyCharacterIntroduction', ROOT.Char)] mi fornisce un vero e proprio tesoro di modi di stuzzicar[intent_target.Custom('DE_PRO_POS_P_3P')] senza infrangere le regole della proprietà.\n\n"
+ feast_events_ewan.0201.desc.meat.dramatic_snap:0 ""... naturalmente, l'importante è essere", spezzo il piccolo osso di [activity.GetHost.Custom('RegionalEdibleAnimal')] tenendolo abilmente con due mani, "#EMP saldi#!. Non siete d'accordo?""
+ feast_events_ewan.0201.desc.meat.sink_teeth:0 "Lentamente, deliberatamente, lascio che i miei denti affondino nella carne di un #EMP delizioso#! boccone di [activity.GetHost.Custom('RegionalEdibleMeat')] strappandone delicatamente, ma con fermezza, la carne."
+ feast_events_ewan.0201.desc.meat.lick:0 "Con un'abbondante, ma languida, leccata, raccolgo un'abbondante quantità della salsa che ricopre la mia porzione di [activity.GetHost.Custom('RegionalEdibleAnimal')]. Tengo lo sguardo nei suoi occhi per tutto il tempo."
+ # Weird phrasing to write around a/an because I'm not making a damned Article_RegionalRootVegetablePlural custom loc.
+ feast_events_ewan.0201.desc.veggie.suggestive_gesture:0 "Lentamente, stuzzicando, faccio scorrere il mio dito intorno alla curva di un paio di [activity.GetHost.Custom('RegionalRootVegetablePlural')], stuzzicando delicatamente le verdure con una morbida carezza. Alla fine, trascino il minimo accenno di unghia sulla loro superficie, lasciando un leggerissimo graffio."
+ feast_events_ewan.0201.desc.veggie.sink_teeth:0 "Con gusto, addento con decisione un enorme, succoso, #EMP sodo#! pezzo di [activity.GetHost.Custom('RegionalRootVegetable')], lasciando che un po' di liquido fuoriesca e coli lungo il mento. Soddisfatta, la mia lingua fuoriesce, ripulendomi le labbra."
+ feast_events_ewan.0201.desc.veggie.deep_bite:0 "Con un gesto plateale, la mia mano alzata lascia cadere un piccolo pezzo di [activity.GetHost.Custom('RegionalRootVegetable')] in bocca, e lo inghiotto con soddisfazione #EMP udibile#!. Gli occhi mi si girano anche un po' all'indietro, per quell'elemento di piccantezza in più."
+ feast_events_ewan.0201.desc.outro:0 "\n\nCapisco dallo sguardo sul suo volto che [intent_target.GetFirstNameNoTooltip] ha inteso il mio messaggio. Quello che non riesco a comprendere è la sua espressione — è interesse lascivo o un voltastomaco? E' spaventosamente difficile da capire."
+ feast_events_ewan.0201.a:0 "Forse solo un altro morso, per ribadire il concetto."
+ feast_events_ewan.0201.a.tt.success:0 "Perché, [ROOT.Char.GetFirstNameNoTooltip]..."
+ feast_events_ewan.0201.a.tt.failure:0 "Cosa #EMP state#! facendo?"
+ feast_events_ewan.0201.b:0 "Non sta funzionando. Forse [intent_target.GetSheHe] preferisce una onesta chiacchierata?"
+ feast_events_ewan.0201.b.tt.success:0 "La vostra conversazione si conferma più interessante"
+ feast_events_ewan.0201.b.tt.failure:0 "Per [intent_target.GetFaith.KnowledgeGodName], siete squallid[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+ feast_events_ewan.0201.c:0 "E' meno... bollente di quanto sperassi..."
+
+
+ ##################################################
+ # #Befriend
+ feast_events_ewan.0401.t:0 "Brontolii di Stomaco"
+ feast_events_ewan.0401.desc.intro:0 "Ho impiegato gran parte della serata per avvicinarmi a [intent_target.GetTitledFirstName] senza che sembrasse una forzatura. Dopotutto, le migliori amicizie nascono con naturalezza, e voglio che [intent_target.GetSheHe] pensi che questa sia spontanea.\n\n"
+feast_events_ewan.0401.desc.target_personality.flamboyant: "«Per [intent_target.GetFaith.WealthGodName]», esalta il mio forse-amico, a stento celando un rutto, «quello è stato un piatto #EMP pesantissimo#!. E così presto dopo l’ultimo, altrettanto gravoso! Mi resta sullo stomaco. Non posso credere che i servitori pensino di continuare a servire il/la loro [activity.GetHost.Custom('MistressMaster')] lavorando così male.»"
+ feast_events_ewan.0401.desc.target_personality.sedate:0 "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] prende in mano il suo cibo, spingendo alcuni piccoli bocconi su un piatto di legno unto.\n\n"E' tutto un po'... pesante, vero? Questa portata, la portata prima di questa, e la portata prima di #EMP quella#!, e", osserva nervosamente un servitore che porta il prossimo giro di piatti, "anche la prossima. Così tanto cibo sostanzioso, tutto di seguito, quando ciò di cui abbiamo davvero bisogno è un'innovativo preparato digestivo.""
+ feast_events_ewan.0401.desc.target_personality.fallback:0 "L[intent_target.Custom('DE_PRO_PER_S_3P_N')][intent_target.GetWomanMan] si tampona delicatamente gli angoli della bocca con un lembo di tovaglia sporca, spazzolando via briciole di pasta sfoglia.\n\n"sper solo che la prossima portata sia un po' più leggera", [intent_target.GetSheHe] commenta, "Il vero scopo di un banchetto è quello di offrire un'esperienza culinaria ricca e variegata, ma finora questo è sembrato più un tentativo di rimpinzarci che di entusiasmarci.""
+ feast_events_ewan.0401.a:0 "Sì, purtroppo è stata una scelta sbagliata, penso."
+ feast_events_ewan.0401.a.tt.success:0 "L[intent_target.Custom('DE_END_PRO_S_N')] affascini del tutto"
+ feast_events_ewan.0401.a.tt.partial_success:0 "[intent_target.GetSheHe|U] vorrebbe conversare ancora"
+ feast_events_ewan.0401.a.tt.failure:0 "Siete divertente, ma non così divertente"
+ feast_events_ewan.0401.b:0 ""Vi... #EMP rendete#! conto che questo è il mio banchetto, sì?""
+ feast_events_ewan.0401.c:0 ""Canti ad alta voce le lodi del pasto.""
+ feast_events_ewan.0401.d:0 "Cambi argomento con qualcosa di meno controverso."
+
+
+ ##################################################
+ # #Mischief
+ feast_events_ewan.0601.t:0 "Un Semplice Scherzo"
+ feast_events_ewan.0601.desc.intro:0 "La cucina è, penso, sempre il posto migliore per combinare qualche #EMP dispetto#!. Almeno, a patto che il personale non ti becchi.\n\nTanti potenziali bersagli e così poco tempo: interferisco con il vassoio di [activity.GetHost.Custom('GetExpensiveDrink')], con l'elaborata portata centrale, o con il tavolino di piccoli piatti pronti per riempire l'intervallo tra una portata e l'altra?\n\nQualunque sia la mia scelta, ho l'oggetto giusto per rovinare la serata di qualcuno —"
+ # This next one's for you, dear James.
+ feast_events_ewan.0601.desc.dead_rat:0 "un topo morto particolarmente puzzolente, pronto a esplodere."
+ feast_events_ewan.0601.desc.humongous_beetle:0 "un coleottero enorme, attualmente esausto. Dovrebbe però saltare in piedi e dimenarsi alla fine del suo riposo."
+ feast_events_ewan.0601.desc.raw_eyeball:0 "un singolo, massiccio bulbo oculare crudo."
+ feast_events_ewan.0601.desc.used_sponge:0 "una spugna che è stata decisamente molto... #EMP usata#!."
+ feast_events_ewan.0601.desc.rotten_vegetable:0 "un puzzolente esemplare di [activity.GetHost.Custom('RegionalRootVegetable')] così intensamente ammuffito che sono francamente stupit[ROOT.Char.Custom('DE_END_PRO_S_N')] di essere riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')] a nasconderlo."
+ feast_events_ewan.0601.desc.dodgy_mushroom:0 "un fungo che sono estremamente sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] farà correre chiunque verso la latrina. Dove probabilmente resterà per il resto della serata."
+ feast_events_ewan.0601.desc.hank_of_hair:0 "un piccolo ciuffo di peli di uno degli animali del cortile. Non proviene dalla testa."
+ feast_events_ewan.0601.a:0 "Insudicia le bevande."
+ feast_events_ewan.0601.a.tt.success:0 "Entri ed esci nel tempo di un respiro"
+ feast_events_ewan.0601.a.tt.failure:0 "Ti manca la grazia della furtività"
+ feast_events_ewan.0601.b:0 "Rovini il piatto di lusso."
+ feast_events_ewan.0601.b.tt.success:0 "$feast_events_ewan.0601.a.tt.success$"
+ feast_events_ewan.0601.b.tt.failure:0 "$feast_events_ewan.0601.a.tt.failure$"
+ feast_events_ewan.0601.c:0 "Prepari il contorno."
+ feast_events_ewan.0601.c.tt.success:0 "$feast_events_ewan.0601.a.tt.success$"
+ feast_events_ewan.0601.c.tt.failure:0 "$feast_events_ewan.0601.a.tt.failure$"
+ feast_events_ewan.0601.d:0 "Questa cosa non è da me."
+
+
+ ##################################################
+ # #Relax
+ feast_events_ewan.0801.t:0 "Un'Atmosfera Piacevole"
+ feast_events_ewan.0801.desc.intro:0 "Ahhh, esiste qualcosa di più gioviale di un buon banchetto?\n\nGli ospiti s’affollano, mangiano e chiacchierano mentre il tremolio delle torce scorre sulle pareti e rimbalza, insieme alle risate, in ogni angolo della sala."
+ feast_events_ewan.0801.desc.lustful:0 "Tanti deliziosi… #EMP piatti#! da [ROOT.Char.Custom('SenseObserve_EyeTaste')], e così tante occasioni per rubare uno sguardo, magari perfino per rischiare un incontro illecito.\n\nForse due."
+ feast_events_ewan.0801.desc.chaste:0 "È bello vedere così tante persone gioire senza indulgere nei piaceri della carne."
+ feast_events_ewan.0801.desc.gluttonous:0 "E il cibo! Oh, il cibo… per [ROOT.Char.GetFaith.HealthGodName], lo #EMP amo#!: un bel pasto abbondante. O cinque."
+ feast_events_ewan.0801.desc.temperate:0 "\n\nCerto, non vado matto per i piatti elaborati, ma posso godermi la compagnia e il buon umore mentre sgranocchio il mio pezzo di pane."
+ feast_events_ewan.0801.desc.greedy:0 "\n\nA un banchetto tutti sono un po’ avidi di qualcosa — ed è quasi rassicurante vedere il mondo così #EMP onesto#!, per una volta."
+ feast_events_ewan.0801.desc.generous:0 "\n\nC’è una semplice, luminosa gioia nel dare da mangiare agli altri: spezzare il pane insieme e alzare i calici nella stessa stanza."
+ feast_events_ewan.0801.desc.lazy:0 "Ed io? Non devo muovere un muscolo. Persone, cibo, bevande, cuscini, servitù: tutto viene a me senza che alzi un dito. #EMP Perfezione#!."
+ feast_events_ewan.0801.desc.diligent:0 "Coordinare così tante persone e servitori è un’arte poco celebrata, piena d’insidie: che soddisfazione vederla riuscire a dovere."
+ feast_events_ewan.0801.desc.wrathful:0 "#EMP Posso#! essere… incline all’apoplessia, a volte. Ma qui, ora, sono calmo — quasi sedato.\n\nQuesto cambio di ritmo è un balsamo."
+ feast_events_ewan.0801.desc.calm:0 "\n\nPer qualcuno un banchetto è frenesia; per me è un bastione di calma e armonia sociale. Con la pancia piena e il bicchiere colmo, tutti respirano più piano."
+ feast_events_ewan.0801.desc.patient:0 "\n\nMi piacciono perfino le attese tra le portate: occasioni per ridere e conversare, ma anche per riflettere su ciò che si è gustato e sul pensiero che lo ha creato."
+ feast_events_ewan.0801.desc.impatient:0 "\n\nUn banchetto ben fatto è uno dei pochi luoghi dove non si aspetta quasi nulla. Volete il cibo? È lì. Una bevanda? Ve la verseranno. Due chiacchiere? La buona compagnia abbonda. Beatitudine."
+ feast_events_ewan.0801.desc.arrogant:0 "\n\nChe salutare sollievo intrattenermi con i miei pari, in piedi sul mio sgabello, mentre la mia benevolenza scende a cascata sulle masse dei nobili minori."
+ feast_events_ewan.0801.desc.humble:0 "Quante persone da ogni dove sono giunte soltanto per essere qui: dà davvero il senso della vastità del mondo."
+ feast_events_ewan.0801.desc.deceitful:0 "\n\nHo già lasciato scivolare qualche voce tra la folla, per puro diletto. È istruttivo vedere quanto in fretta corre una menzogna, anche quando serve solo a seminare un po’ di caos."
+ feast_events_ewan.0801.desc.honest:0 "Poche cose sono più autentiche di questo: puro, schietto stare insieme — persone che si godono la compagnia di altre persone."
+ feast_events_ewan.0801.desc.craven:0 "C’è qualcosa di rassicurante nell’essere circondati da così tante persone, come se nulla potesse andare storto.\n\nForse."
+ feast_events_ewan.0801.desc.brave:0 "Siamo un gruppo eterogeneo, sì, ma qui e ora mi pare potremmo affrontare il mondo — e vincere."
+ feast_events_ewan.0801.desc.shy:0 "Mi sono felicemente sistemat[ROOT.Char.Custom('DE_END_PRO_S_N')] in un angolo e chiacchiero con poche, interessanti persone.\n\nÈ bello poter essere socievoli senza sentirsi travolti, per una volta."
+ feast_events_ewan.0801.desc.gregarious:0 "\n\nPeccato non aver potuto invitare più ospiti — solo un altro tavolo, poco più. Non tutti hanno lo spirito della festa. Non tutti, forse, ma #EMP io#! sì, e valgo da solo un tavolo o due!"
+ feast_events_ewan.0801.desc.ambitious:0 "Quante occasioni per parlare, incontrare, discutere, pianificare. Ogni conversazione è un seme d’obiettivo, ogni piatto una scusa per coltivare un nuovo contatto."
+ feast_events_ewan.0801.desc.content:0 "Non mi viene in mente una sola cosa che cambierei. È tutto semplicemente… perfetto."
+ feast_events_ewan.0801.desc.arbitrary:0 "\n\nCerto, non tutto è come lo vorrei, ma così vanno questi raduni. La prossima volta sarà diverso — e il sapore del cambiamento è un piacere da attendere."
+ feast_events_ewan.0801.desc.just:0 "\n\nTrovo meraviglioso l’ordine naturale di un banchetto: tavoli ben disposti, ranghi sociali rispettati senza clamore, tutti sereni, ridenti e al proprio posto. Esattamente dove dovrebbero essere."
+ feast_events_ewan.0801.desc.cynical:0 "Sì, molti sono qui solo per mangiare e bere a spese altrui — e chi sono io per giudicare? Non posso biasimarli, e il cibo è #EMP delizioso#!."
+ feast_events_ewan.0801.desc.zealous:0 "\n\nMormoro una breve preghiera a [ROOT.Char.GetFaith.HealthGodName], rendendo grazie per la prossima, meravigliosa portata. In verità, questa Creazione di [ROOT.Char.GetFaith.CreatorName] trabocca di prodigi, e la buona tavola non è certo il più piccolo dei miracoli che ci sia stato offerto."
+ feast_events_ewan.0801.desc.paranoid:0 "\n\nResto vigile a ogni cenno di pericolo, volontario o accidentale, premeditato o improvviso. C’è quanto basta per saziare le mie attese — né tanto da parere un complotto lampante, né così poco da sembrare maldestramente occultato. Proprio come piace a me."
+ feast_events_ewan.0801.desc.trusting:0 "\n\nCon tutti così allegri e una miriade di piatti magnifici da assaggiare, chi mai porterebbe malumore in un simile consesso? No: questo è un evento gioioso, e io ne gioisco."
+ feast_events_ewan.0801.desc.compassionate:0 "È bello vedere l’essenza della gentilezza umana condivisa con tanta liberalità."
+ feast_events_ewan.0801.desc.callous:0 "\n\nNon che mi darebbe #EMP troppo#! fastidio se gli altri si annoiassero, ma anch’io so apprezzare un’atmosfera gradevole. Con moderazione."
+ feast_events_ewan.0801.desc.sadistic:0 "Amo urla e singhiozzi quanto l’essere un [ROOT.Char.GetTitleAsNameNoTooltip] ben inserito; ma anche le grida di gioia possono essere una gradevole deviazione."
+ feast_events_ewan.0801.desc.stubborn:0 "Ho pensato di alzarmi e gironzolare come tanti altri, ma significherebbe cedere il mio posto — e che sia maledetto se lo cedo."
+ feast_events_ewan.0801.desc.fickle:0 "Credo che la cosa che preferisco dei banchetti #EMP debba essere il cibo#!. No, le persone. Anzi, forse il vino? O l’intrattenimento, o…"
+ feast_events_ewan.0801.desc.vengeful:0 "\n\nDevo ammettere che una parte non trascurabile della mia esultanza è rivolta al cameriere su cui sono appena inciampato, ora ricoperto di antipasti vischiosi. Ben gli sta: s’era scordato di rabboccarmi il calice all’ultima portata."
+feast_events_ewan.0801.desc.forgiving: "\n\nMi preoccupa un poco che i servitori si siano persi la mia coppa all’ultimo giro, ma c’è sempre il piatto seguente. In fondo, una delle cose belle di un banchetto è che c’è #EMP sempre#! un’altra portata."
+ feast_events_ewan.0801.desc.outro:0 "\n\nA volte basta sedersi e godersi le piccole cose della vita."
+ feast_events_ewan.0801.a:0 "È qui che voglio essere."
+ feast_events_ewan.0801.b:0 "Qui c’è brava gente con cui socializzare."
+ feast_events_ewan.0801.c:0 "Un’occasione per farsi vedere con le persone che contano!"
+

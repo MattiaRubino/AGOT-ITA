@@ -1,0 +1,626 @@
+﻿l_spanish:
+
+
+  jail_inspection: "Ispezione della prigione"
+  jail_inspection_contract: "$jail_inspection$"
+  jail_inspection_request: "Questa situazione ti permette di scegliere un esito"
+  jail_inspection_desc: "Duri rapporti arrivano dal carcere distrettuale: le condizioni sono pessime e i prigionieri sono sull’orlo di una rivolta aperta."
+  jail_inspection_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0010.t: "Ispezione della prigione"
+  tgp_governor_contract_event.0010.desc: "Pare che i prigionieri del fatiscente carcere distrettuale di [jail_inspection_destination.GetName] siano irrequieti, protestino per le condizioni e intralcino i migliori sforzi dei carcerieri nel tenerli sotto controllo. I rapporti avvertono che occorre trovare presto una soluzione, altrimenti i prigionieri potrebbero sopraffare le guardie."
+  tgp_governor_contract_event.0010.a: "Me ne occuperò personalmente."
+  tgp_governor_contract_event.0010.a_tt: "Viaggia verso [jail_inspection_destination.GetName] e ispeziona personalmente la prigione."
+  tgp_governor_contract_event.0010.b: "Le suppliche dei condannati mi interessano poco."
+
+  tgp_governor_contract_event.0001.t: "Ispezione della prigione"
+  tgp_governor_contract_event.0001.desc: "Sono appena entrato nella prigione quando i sensi vengono assaliti dal fetore di sudore e sporcizia e dai lugubri lamenti dei detenuti. Qualcosa di piccolo mi sfiora il piede per poi sgattaiolare nell’ombra, troppo in fretta per identificarlo.\n\nVolgo lo sguardo alla cella più vicina e incrocio gli occhi del prigioniero all’interno, lo sguardo di [sick_prisoner.GetHerHis] è una brace ardente di rabbia in mezzo alla miseria del suo volto."
+  tgp_governor_contract_event.0001.a: "Rinnovate la prigione, ma saranno i prigionieri a fornire la manodopera." # (Special governor option)
+  tgp_governor_contract_event.0001.b: "Dobbiamo migliorare le loro condizioni subito!"
+  tgp_governor_contract_event.0001.c: "Perdonate i meno colpevoli."
+  tgp_governor_contract_event.0001.d: "Fate bastonare i più rumorosi finché tacciono."
+  tgp_governor_contract_event.0001.e: "Li rilasceremo... come manodopera per fattorie e cantieri."
+
+  task_contract_reward_effect_renovate_jail_desc: "$label_success_standard$"
+  task_contract_reward_effect_improve_their_conditions_desc: "$label_success_standard$"
+  task_contract_reward_effect_pardon_some_of_them_desc: "$label_success_standard$"
+  task_contract_reward_effect_beat_the_complainers_desc: "$label_success_standard$"
+  task_contract_reward_effect_convict_labor_desc: "$label_success_standard$"
+
+  potent_physick: "Rimedio potente"
+  potent_physick_contract: "$potent_physick$"
+  potent_physick_request: "Questa situazione ti permette di scegliere un esito"
+  potent_physick_desc: "Nel mercato si vende un nuovo potente curativo e la folla di acquirenti minaccia l’ordine pubblico."
+  potent_physick_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0011.t: "Rimedio potente"
+  tgp_governor_contract_event.0011.desc: "Raramente un venditore ambulante al mercato attira l’interesse del governo, ma pare che uno di questi a [potent_physick_destination.GetName] promuova un elisir così efficace che le turbolente folle che raduna stanno rapidamente diventando un problema di ordine pubblico."
+  tgp_governor_contract_event.0011.a: "Qualunque curativo che susciti tale domanda merita indagine."
+  tgp_governor_contract_event.0011.a_tt: "Viaggia verso [potent_physick_destination.GetName] e ristabilisci l’ordine nel mercato."
+  tgp_governor_contract_event.0011.b: "Non mi interessano gli affari del mercato."
+
+  tgp_governor_contract_event.0002.t: "Rimedio potente"
+  tgp_governor_contract_event.0002.desc: "Dopo che i miei attendenti hanno disperso la cocciuta calca, mi trovo davanti al venditore di medicine e alle sue pozioni. L’occhio di questo scaltro imbonitore valuta la qualità delle mie vesti e si fissa su un nuovo lucroso bersaglio.\n\n\"Una sola fiala, [ROOT.Char.Custom('FormOfAddressForLiege')],\" [snake_oil_peddler.GetSheHe] alza un dito, facendolo ondeggiare con enfasi. \"Garantita per ristorare la vostra essenza interiore e raddrizzare ciò che non va!\"\n\n\"Al mio [ROOT.Char.GetLadyLord] interesserebbe acquistarne una, o forse diverse?\" Il venditore sorride con ossequiosa cupidigia."
+  tgp_governor_contract_event.0002.a: "Requisiremo questi filtri per scorte d’emergenza." # (Special governor option)
+  tgp_governor_contract_event.0002.b: "Avete una #EMP licenza#! per questa bancarella?"
+  tgp_governor_contract_event.0002.c: "Impacchettate e portate altrove questa ciarlataneria."
+  tgp_governor_contract_event.0002.d: "Guarda caso, ho bisogno di un medico..."
+  tgp_governor_contract_event.0002.e: "Credo proprio di sì: giù tutto d’un fiato!"
+
+  task_contract_reward_effect_emergency_appropriation_desc: "$label_success_standard$"
+  task_contract_reward_effect_licensing_issue_desc: "$label_success_standard$"
+  task_contract_reward_effect_begone_quack_desc: "$label_success_standard$"
+  task_contract_reward_effect_hire_the_quack_desc: "$label_success_standard$"
+  task_contract_reward_effect_down_the_hatch_desc: "$label_success_standard$"
+
+  irregular_accounting: "Contabilità irregolare"
+  irregular_accounting_contract: "$irregular_accounting$"
+  irregular_accounting_request: "Questa situazione ti permette di scegliere un esito"
+  irregular_accounting_desc: "Le imposte dovute da questa regione arrivano sempre più tardi a ogni riscossione, e i costi di trasporto crescono a ogni consegna."
+  irregular_accounting_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0012.t: "Contabilità irregolare"
+  tgp_governor_contract_event.0012.desc: "Una certa variabilità nei tempi di consegna è prevedibile nel trasporto dei tributi, sia per le condizioni delle strade, sia per il meteo o altri fattori difficili da prevedere o controllare.\n\nTuttavia, la riscossione da [irregular_accounting_destination.GetName] arriva insolitamente tardi, e i costi di trasporto imputati al mio ufficio paiono sempre più eccessivi."
+  tgp_governor_contract_event.0012.a: "Serve un esame più approfondito."
+  tgp_governor_contract_event.0012.a_tt: "Viaggia verso [irregular_accounting_destination.GetName] e vai a fondo della questione."
+  tgp_governor_contract_event.0012.b: "Sono certo che si sistemerà da sé col tempo."
+
+  tgp_governor_contract_event.0003.t: "Contabilità irregolare"
+  tgp_governor_contract_event.0003.desc: "Quasi ammirerei l’elaborata operazione del malversatore, se non fosse che erano i miei fondi quelli che [dubious_tax_agent.GetSheHe] convogliava nelle proprie tasche.\n\nGli scribi stanno ancora districando l’ampiezza delle irregolarità, ma quanto scoperto finora basta e avanza per condannare [dubious_tax_agent.GetHerHim], senza contare i libri contabili dati alle fiamme al nostro arrivo.\n\nIl trasgressore è al mio fianco in attesa della sentenza, con lo sguardo basso e un portamento cupo quanto le sue prospettive future."
+  tgp_governor_contract_event.0003.a: "Confisca dei proventi illeciti e meditazione del crimine in prigione." # (Special governor option)
+  tgp_governor_contract_event.0003.b: "Incarcerare una mente così #EMP intraprendente#! sarebbe uno spreco."
+  tgp_governor_contract_event.0003.c: "Questo potrebbe gettare cattiva luce su di me: la verità non deve emergere."
+  tgp_governor_contract_event.0003.d: "Restituisci il maltolto e sarai perdonato. Questa volta."
+  tgp_governor_contract_event.0003.e: "Credo che ciò di cui hai #EMP davvero#! bisogno sia un socio..."
+
+  task_contract_reward_effect_confiscation_and_incarceration_desc: "$label_success_standard$"
+  task_contract_reward_effect_recruit_embezzler_desc: "$label_success_standard$"
+  task_contract_reward_effect_cover_up_desc: "$label_success_standard$"
+  task_contract_reward_effect_into_your_pocket_desc: "$label_success_standard$"
+  task_contract_reward_effect_continue_the_charade_desc: "$label_success_standard$"
+
+  salt_smugglers: "Contrabbandieri di sale"
+  salt_smugglers_contract: "$salt_smugglers$"
+  salt_smugglers_request: "Questa situazione ti permette di scegliere un esito"
+  salt_smugglers_desc: "Il capo di una banda locale di contrabbandieri di sale è stato arrestato e offre l’ubicazione del resto della banda in cambio della libertà."
+  salt_smugglers_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0013.t: "Contrabbandieri di sale"
+  tgp_governor_contract_event.0013.desc: "Il contrabbando di sale è una grave offesa all’autorità del governo, e il capo di una tale banda di fuorilegge è stato da poco catturato a [salt_smugglers_destination.GetName]. Pare che questo capo abbia preteso di parlarmi di persona, offrendo di sacrificare il resto della banda in cambio della propria libertà."
+  tgp_governor_contract_event.0013.a: "Dovrei almeno ascoltare la proposta."
+  tgp_governor_contract_event.0013.a_tt: "Viaggia verso [salt_smugglers_destination.GetName] e tratta con il fuorilegge, in un modo o nell’altro."
+  tgp_governor_contract_event.0013.b: "Rispondere alla convocazione di un fuorilegge è sotto la mia dignità."
+
+  tgp_governor_contract_event.0004.t: "Contrabbandieri di sale"
+  tgp_governor_contract_event.0004.desc: "Le manette stringono saldamente le mani di [salt_smuggler.GetNamePossessive], ma hanno fatto ben poco per reprimere la natura menzognera del contrabbandiere. Il suo contegno è sfacciatamente temerario, come se fossimo due mercanti che contrattano al mercato e non un magistrato e un fuorilegge con la vita di quest’ultimo appesa a un filo.\n\n\"Sì, vi dirò dove si trovano gli altri miei uomini, non appena allenterete queste,\" [salt_smuggler.GetSheHe] solleva i polsi legati con un eloquente cenno delle sopracciglia, \"e mi garantirete un passaggio sicuro verso un luogo dove non dovremo mai più incontrarci.\""
+  tgp_governor_contract_event.0004.a: "Metti a morte [salt_smuggler.GetHerHim]. Che #EMP questo#! sia un monito per la sua banda." # (Special governor option)
+  tgp_governor_contract_event.0004.b: "Affare fatto, ma non farti più rivedere."
+  tgp_governor_contract_event.0004.c: "Interrogherò [salt_smuggler.GetHerHim]: avremo i suoi uomini alle nostre condizioni."
+  tgp_governor_contract_event.0004.d: "L’ubicazione dei tuoi proventi illeciti potrebbe comprarti clemenza..."
+  tgp_governor_contract_event.0004.e: "Potrei avere bisogno di un[Select_CString(salt_smuggler.IsFemale,'a','')] [salt_smuggler.GetWomanMan] con le tue particolari abilità."
+
+  task_contract_reward_effect_execute_smuggler_desc: "$label_success_standard$"
+  task_contract_reward_effect_cut_a_deal_desc: "$label_success_standard$"
+  task_contract_reward_effect_interrogate_smuggler_desc: "$label_success_standard$"
+  task_contract_reward_effect_a_cut_of_the_take_desc: "$label_success_standard$"
+  task_contract_reward_effect_recruit_smuggler_desc: "$label_success_standard$"
+
+  hoarding_grain: "Accaparramento di grano"
+  hoarding_grain_contract: "$hoarding_grain$"
+  hoarding_grain_request: "Questa situazione ti permette di scegliere un esito"
+  hoarding_grain_desc: "Una famiglia locale di spicco ha accumulato scorte di grano e si rifiuta di venderle, facendo salire i prezzi, mentre i funzionari sono stati intimiditi fino a una passività remissiva."
+  hoarding_grain_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0014.t: "Accaparramento di grano"
+  tgp_governor_contract_event.0014.desc: "È pratica sfortunata, ma non rara, che famiglie facoltose acquistino grano ben oltre il loro fabbisogno nei tempi di abbondanza in vista di futuri profitti; ma ho ricevuto notizia che una famiglia di [hoarding_grain_destination.GetName] è andata ben oltre la norma.\n\nPare abbiano accumulato tanto grano che il prezzo è salito al punto che la gente comune può a malapena permetterselo."
+  tgp_governor_contract_event.0014.a: "La mia presenza sarà necessaria per risolvere la questione."
+  tgp_governor_contract_event.0014.a_tt: "Viaggia verso [hoarding_grain_destination.GetName] e risolvi la carenza di grano."
+  tgp_governor_contract_event.0014.b: "Questioni ben più importanti richiedono la mia attenzione."
+
+  tgp_governor_contract_event.0005.t: "Accaparramento di grano"
+  tgp_governor_contract_event.0005.desc: "Il lusso degli arredi della dimora di [grain_hoarding_local_notable.GetNamePossessive] stona in netto contrasto con le squallide catapecchie che abbiamo oltrepassato lungo la via. Il nostro anfitrione non finge minimamente di nascondere o sminuire le sue acquisizioni, anzi quasi se ne compiace.\n\n\"Perdonate la mia ignoranza negli affari di Stato, ma non comprendo l’interesse del mio [ROOT.Char.GetLadyLord] in questa faccenda,\" dice insolente. \"Si tratta semplicemente di transazioni lecite, e di certo il mio [ROOT.Char.GetLadyLord] avrà questioni più pressanti a cui badare...?\" La sua ultima frase è più un’affermazione che una domanda."
+  tgp_governor_contract_event.0005.a: "Rilasciate le riserve governative e inondate il mercato." # (Special governor option)
+  tgp_governor_contract_event.0005.b: "Questa meschina avarizia non è forse indegna di un[Select_CString(grain_hoarding_local_notable.IsFemale,'a','')] [grain_hoarding_local_notable.GetWomanMan] della vostra evidente dignità?"
+  tgp_governor_contract_event.0005.c: "Potrà anche essere lecito, ma sono certo che si possa trovare #EMP qualcosa#! di sconveniente."
+  tgp_governor_contract_event.0005.d: "E se mi offrissi di rilevare il vostro grano?"
+  tgp_governor_contract_event.0005.e: "Potrei avere un incarico per voi, se mostraste un atteggiamento più collaborativo."
+
+  task_contract_reward_effect_release_the_grain_desc: "$label_success_standard$"
+  task_contract_reward_effect_shame_them_desc: "$label_success_standard$"
+  task_contract_reward_effect_intimidate_them_desc: "$label_success_standard$"
+  task_contract_reward_effect_purchase_grain_yourself_desc: "$label_success_standard$"
+  task_contract_reward_effect_bribe_with_offices_desc: "$label_success_standard$"
+
+  doddering_magistrate: "Magistrato decrepito"
+  doddering_magistrate_contract: "$doddering_magistrate$"
+  doddering_magistrate_request: "Questa situazione ti permette di scegliere un esito"
+  doddering_magistrate_desc: "Gli scribi del distretto hanno inviato missive disperate: il loro anziano supervisore non è più all’altezza del compito."
+  doddering_magistrate_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0015.t: "Magistrato decrepito"
+  tgp_governor_contract_event.0015.desc: "L’assioma secondo cui con l’età vengano saggezza ed esperienza non sembra valere per gli scribi di [doddering_magistrate_destination.GetName], che hanno inviato ripetute suppliche alla mia cancelleria perché il loro superiore — di età particolarmente veneranda — sia riassegnato o rimosso dall’incarico."
+  tgp_governor_contract_event.0015.a: "È una questione delicata. La gestirò personalmente."
+  tgp_governor_contract_event.0015.a_tt: "Viaggia verso [doddering_magistrate_destination.GetName] e valuta il rendimento del funzionario."
+  tgp_governor_contract_event.0015.b: "Non spetta a loro mettere in dubbio il superiore."
+
+  tgp_governor_contract_event.0006.t: "Magistrato decrepito"
+  tgp_governor_contract_event.0006.desc: "Mi pare di poter vivere un’intera seconda vita nel tempo che impiega l’antico funzionario ad alzarsi dal seggio e a porgere i saluti di rito.\n\nIl suo lento inchino sembra procurargli grande fatica, e lo mantiene così a lungo che finisco per chiedermi se non sia giunta la sua fine, prima che due scribi accorrano ad aiutarlo a raddrizzarsi.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U] mi onora troppo,\" raschia con voce che scricchiola come la ruota logora d’un carro. \"Come posso servire, [ROOT.Char.Custom('FormOfAddressForLiege')]?\""
+  tgp_governor_contract_event.0006.a: "Affida le sue mansioni a qualcun altro, ma lascia che mantenga la carica." # (Special governor option)
+  tgp_governor_contract_event.0006.b: "La sua età ne ha compromesso le capacità: costringilo alle dimissioni."
+  tgp_governor_contract_event.0006.c: "Questo [elderly_magistrate.GetWomanMan] è in ritardo per una promozione! In un luogo #EMP poco vistoso#!..."
+  tgp_governor_contract_event.0006.d: "Lascia che continui. Lo Stato gli sopravviverà."
+  tgp_governor_contract_event.0006.e: "Potrà continuare a lavorare, ma come umile scrivano."
+
+  task_contract_reward_effect_appoint_substitute_desc: "$label_success_standard$"
+  task_contract_reward_effect_force_him_out_desc: "$label_success_standard$"
+  task_contract_reward_effect_promote_somewhere_harmless_desc: "$label_success_standard$"
+  task_contract_reward_effect_let_him_continue_desc: "$label_success_standard$"
+  task_contract_reward_effect_demote_him_desc: "$label_success_standard$"
+
+  burdensome_taxes: "Tasse gravose"
+  burdensome_taxes_contract: "$burdensome_taxes$"
+  burdensome_taxes_request: "Questa situazione ti permette di scegliere un esito"
+  burdensome_taxes_desc: "Un richiedente giunge da un villaggio remoto, implorando sollievo da tributi che la popolazione non può permettersi."
+  burdensome_taxes_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0007.t: "Tasse gravose"
+  tgp_governor_contract_event.0007.desc: "Dopo una lunga e stancante giornata di suppliche e lamentele — spesso entrambe dalla stessa bocca — avanza l’ultimo richiedente, un[Select_CString(village_elder.IsFemale,'’anziana','o')] [village_elder.GetWomanMan] dal vestire semplice e sobrio, umile ma non servile. Uno scriba mi porge un appunto che indica che questo [village_elder.GetWomanMan] è il cap[o/a] del suo villaggio.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U],\" comincia [village_elder.GetSheHe], \"il nostro villaggio è umile e poco conosce di ricchezze e prosperità. I raccolti sono stati scarsi, le imposte richieste superano i nostri esigui mezzi. Vi supplico, alleggerite il nostro carico, altrimenti moriremo di fame.\""
+  tgp_governor_contract_event.0007.a: "Spostiamo il grosso dell’onere su un’area più prospera." # (Special governor option)
+  tgp_governor_contract_event.0007.b: "Rivalutateli a un’aliquota ridotta: mi assumo ogni responsabilità."
+  tgp_governor_contract_event.0007.c: "Pagherò io la differenza, ma l’anno prossimo toccherà a voi."
+  tgp_governor_contract_event.0007.d: "Non dovrete pagare ora, ma i dovuti resteranno in sospeso finché non li salderete."
+  tgp_governor_contract_event.0007.e: "Chi non può pagare sarà incarcerato e i suoi beni confiscati."
+
+  task_contract_reward_effect_revise_tax_assessment_desc: "$label_success_standard$"
+  task_contract_reward_effect_waive_their_taxes_desc: "$label_success_standard$"
+  task_contract_reward_effect_pay_it_yourself_desc: "$label_success_standard$"
+  task_contract_reward_effect_delayed_taxes_desc: "$label_success_standard$"
+  task_contract_reward_effect_imprison_debtors_desc: "$label_success_standard$"
+
+  unsafe_highways: "Commercio pericoloso"
+  unsafe_highways_contract: "$unsafe_highways$"
+  unsafe_highways_request: "Questa situazione ti permette di scegliere un esito"
+  unsafe_highways_desc: "I mercanti sollevano clamore: proclamano che le strade maestre non sono sicure e minacciano di cercare nuovi mercati se il problema non sarà affrontato."
+  unsafe_highways_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0008.t: "Commercio pericoloso"
+  tgp_governor_contract_event.0008.desc: "Una delegazione di mercanti guidata da [fearful_merchant.GetName] affolla la mia sala; voci in un coro di costernazione chiedono protezione per i loro convogli dopo l’ennesimo assalto brigantesco. \"Questa situazione è insostenibile, [ROOT.Char.Custom('FormOfAddressForLiege')],\" proclama il capodelegazione.\n\n\"Se non si farà presto qualcosa per proteggere merci e vite da questi selvaggi, non avremo scelta se non abbandonare i nostri interessi in [unsafe_highways_destination.GetName] e portare altrove il nostro commercio — e i pedaggi che paghiamo.\" [fearful_merchant.GetSheHe|U] resta in attesa, ultimatum pronunciato con audacia."
+  tgp_governor_contract_event.0008.a: "Forniremo scorte, ma pagherete il privilegio." # (Special governor option)
+  tgp_governor_contract_event.0008.b: "Capisco. Invieremo pattuglie a presidiare le strade."
+  tgp_governor_contract_event.0008.c: "Il vostro mestiere è rischioso: non avete protezione?"
+  tgp_governor_contract_event.0008.d: "Sarebbe #EMP un peccato#! se le vostre imposte richiedessero una revisione..."
+  tgp_governor_contract_event.0008.e: "Ai pericoli seguono ricompense: restate e ve lo farò valere."
+
+  task_contract_reward_effect_merchant_funded_government_escort_desc: "$label_success_standard$"
+  task_contract_reward_effect_send_out_the_patrols_desc: "$label_success_standard$"
+  task_contract_reward_effect_talk_them_into_bodyguards_desc: "$label_success_standard$"
+  task_contract_reward_effect_threaten_with_sanctions_desc: "$label_success_standard$"
+  task_contract_reward_effect_entice_with_promises_desc: "$label_success_standard$"
+
+  dam_in_disrepair: "Diga in rovina"
+  dam_in_disrepair_contract: "$dam_in_disrepair$"
+  dam_in_disrepair_request: "Questa situazione ti consente di scegliere un esito"
+  dam_in_disrepair_desc: "Una diga in degrado sta rendendo i residenti — e i funzionari — del distretto più che un po' nervosi."
+  dam_in_disrepair_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0009.t: "Diga in rovina"
+  tgp_governor_contract_event.0009.desc: "Una diga vitale in [dam_in_disrepair_destination.GetName] versa in uno stato di grave incuria e le conseguenze potrebbero essere catastrofiche se la situazione non venisse affrontata con sollecitudine.\n\nNon sarebbe però un intervento di poco conto e la gran parte del nostro bilancio è già destinata altrove. Per ottenere qualcosa di più di una soluzione temporanea, dovremmo trovare un modo per ridurre i costi."
+  tgp_governor_contract_event.0009.a: "Mobilita la popolazione locale, esentando poveri e malati." # (Special governor option)
+  tgp_governor_contract_event.0009.b: "Metti al lavoro chi sarebbe più colpito da un eventuale crollo."
+  tgp_governor_contract_event.0009.c: "I residenti più abbienti devono contribuire secondo le loro possibilità."
+  tgp_governor_contract_event.0009.d: "La ricchezza pesa poco rispetto alle vite: pagherò io."
+  tgp_governor_contract_event.0009.e: "Requisiremo le risorse necessarie dai mercanti locali."
+
+  task_contract_reward_effect_conscientious_mobilization_desc: "$label_success_standard$"
+  task_contract_reward_effect_forced_labor_desc: "$label_success_standard$"
+  task_contract_reward_effect_compel_the_wealthy_desc: "$label_success_standard$"
+  task_contract_reward_effect_personal_contribution_desc: "$label_success_standard$"
+  task_contract_reward_effect_requisition_state_resources_desc: "$label_success_standard$"
+
+  tgp_governor_contract_event.0002.b.success: "Spremi il venditore di una parte dei suoi profitti"
+  tgp_governor_contract_event.0002.b.failure: "[snake_oil_peddler.GetSheHe|U] resta indifferente al tuo tentativo di estorsione"
+  tgp_governor_contract_event.0003.e.success: "«Ritocchi» i registri contabili a tuo favore"
+  tgp_governor_contract_event.0003.e.failure: "L’operazione si rivela al di là delle tue capacità"
+  tgp_governor_contract_event.0004.c.success: "Estorci le informazioni al contrabbandiere"
+  tgp_governor_contract_event.0004.c.failure: "Il contrabbandiere spira sotto le tue attenzioni"
+  tgp_governor_contract_event.0004.d.success: "Convinci il contrabbandiere a consegnare il bottino"
+  tgp_governor_contract_event.0004.d.failure: "La tua sincerità non è abbastanza convincente"
+  tgp_governor_contract_event.0005.b.success: "Fai leva sul senso di virtù di [grain_hoarding_local_notable.GetHerHis]"
+  tgp_governor_contract_event.0005.b.failure: "[grain_hoarding_local_notable.GetSheHe|U] è immune alla tua palese adulazione"
+  tgp_governor_contract_event.0005.c.success: "Una minaccia velata è una delle armi migliori di un burocrate"
+  tgp_governor_contract_event.0005.c.failure: "Il magnate è immune alla tua meschina intimidazione"
+  tgp_governor_contract_event.0007.a.success: "Riesci a riequilibrare il carico fiscale"
+  tgp_governor_contract_event.0007.a.failure: "Nonostante gli sforzi, nessuna redistribuzione appare praticabile"
+  tgp_governor_contract_event.0008.c.success: "Persuadi i mercanti ad assumere più guardie"
+  tgp_governor_contract_event.0008.c.failure: "I mercanti si offendono per la tua insinuazione"
+  tgp_governor_contract_event.0008.d.success: "Li minacci con una revisione delle imposte"
+  tgp_governor_contract_event.0008.d.failure: "I mercanti non apprezzano la tua intimidazione"
+  tgp_governor_contract_event.0008.e.success: "Corrompi i mercanti perché restino dov’erano"
+  tgp_governor_contract_event.0008.e.failure: "Il pericolo supera le ricompense promesse"
+  tgp_governor_contract_event.0009.c.success: "Convinc i notabili locali a contribuire"
+  tgp_governor_contract_event.0009.c.failure: "Rifiutano di separarsi dalle loro ricchezze"
+  tgp_governor_contract_event.0009.e.success: "La loro «contribuzione» sarà ricordata"
+  tgp_governor_contract_event.0009.e.failure: "I mercanti fuggono con le loro merci"
+
+  tgp_governor_contract_event.0002.b.toast_success: "Hai staccato il venditore dai suoi profitti"
+  tgp_governor_contract_event.0002.b.toast_failure: "Il venditore è rimasto indifferente al tuo tentativo di estorsione"
+  tgp_governor_contract_event.0003.e.toast_success: "Hai «ritoccato» i registri contabili a tuo favore"
+  tgp_governor_contract_event.0003.e.toast_failure: "L’operazione si è rivelata al di là delle tue capacità"
+  tgp_governor_contract_event.0004.c.toast_success: "Hai estorto le informazioni al contrabbandiere"
+  tgp_governor_contract_event.0004.c.toast_failure: "Il contrabbandiere è spirato, insieme ai tuoi piani"
+  tgp_governor_contract_event.0004.d.toast_success: "Il contrabbandiere rivela il nascondiglio del bottino della banda"
+  tgp_governor_contract_event.0004.d.toast_failure: "La tua sincerità non è stata abbastanza convincente"
+  tgp_governor_contract_event.0005.b.toast_success: "Il richiamo a dignità e status colpisce nel segno"
+  tgp_governor_contract_event.0005.b.toast_failure: "Il tuo tentativo di adulazione si affloscia"
+  tgp_governor_contract_event.0005.c.toast_success: "La minaccia velata ha fatto il suo dovere"
+  tgp_governor_contract_event.0005.c.toast_failure: "Il magnate ha respinto il tuo tentativo di intimidazione"
+  tgp_governor_contract_event.0007.a.toast_success: "Sei riuscito a riequilibrare il carico fiscale"
+  tgp_governor_contract_event.0007.a.toast_failure: "Nonostante gli sforzi, nessuna redistribuzione è parsa praticabile"
+  tgp_governor_contract_event.0008.c.toast_success: "I mercanti sono convinti ad assumere più guardie"
+  tgp_governor_contract_event.0008.c.toast_failure: "Hai offeso i mercanti con la tua insinuazione"
+  tgp_governor_contract_event.0008.d.toast_success: "I mercanti sono ridotti all’obbedienza"
+  tgp_governor_contract_event.0008.d.toast_failure: "I mercanti non si lasciano intimidire"
+  tgp_governor_contract_event.0008.e.toast_success: "La paura dei mercanti è minore della loro avidità"
+  tgp_governor_contract_event.0008.e.toast_failure: "I pericoli superano le tue promesse"
+  tgp_governor_contract_event.0009.c.toast_success: "I notabili locali sono convinti a contribuire"
+  tgp_governor_contract_event.0009.c.toast_failure: "I notabili locali rifiutano di contribuire"
+  tgp_governor_contract_event.0009.e.toast_success: "I materiali necessari vengono confiscati"
+  tgp_governor_contract_event.0009.e.toast_failure: "I mercanti sono fuggiti con le loro merci"
+
+  task_contract_reward_effect_failure_entice_with_promises_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_threaten_with_sanctions_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_talk_them_into_bodyguards_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_compel_the_wealthy_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_requisition_state_resources_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_licensing_issue_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_continue_the_charade_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_interrogate_smuggler_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_a_cut_of_the_take_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_intimidate_them_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_shame_them_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_revise_tax_assessment_desc: "$label_failure_standard$"
+ 
+  missing_equipment: "Equipaggiamento mancante"
+  missing_equipment_contract: "$missing_equipment$"
+  missing_equipment_request: "Questa situazione ti consente di scegliere un esito, usa la tua [diplomacy|E] o [intrigue|E]"
+  missing_equipment_desc: "Diverse spedizioni di nuovo equipaggiamento sono scomparse, lasciando i nostri soldati senza armi e armature funzionali."
+  missing_equipment_desc_title: "$task_contract_governance_desc_title$"
+  task_contract_reward_effect_secure_future_deliveries_desc: "$label_success_standard$"
+  task_contract_reward_effect_demand_extra_shipment_desc: "$label_success_standard$"
+  task_contract_reward_effect_demand_gold_desc: "$label_success_standard$"
+  task_contract_reward_effect_demand_best_equipment_desc: "$label_success_standard$"
+  task_contract_reward_effect_offered_replacements_desc: "$label_success_standard$"
+  task_contract_reward_effect_buy_replacements_desc: "$label_success_standard$"
+ 
+  tgp_governor_contract_event.2000.t: "$missing_equipment$"
+  tgp_governor_contract_event.2000.desc: "Sono passate #EMP settimane#! da quando era attesa l’ultima spedizione di nuovo equipaggiamento. Non mi è ancora giunta notizia di dove possa essere.\n\nLa maggior parte di spade, balestre, frecce e armature è prodotta nelle officine di [capital_location.GetNameNoTooltip], che impiegano migliaia di persone. Solo loro possono consegnare le quantità di cui abbiamo bisogno.\n\nSenza queste spedizioni non possiamo equipaggiare le nuove reclute né sostituire armi e corazze usurate."
+  tgp_governor_contract_event.2000.a: "Facciamo visita alle officine."
+  tgp_governor_contract_event.2000.a_tt: "Recati nelle officine e risolvi il problema di persona"
+  tgp_governor_contract_event.2000.b: "Potrei sempre comprare io l’equipaggiamento."
+  tgp_governor_contract_event.2000.c: "Invia una missiva a [capital_location.GetNameNoTooltip]. Prima o poi si sistemerà."
+ 
+  tgp_governor_contract_event.2001.t: "$missing_equipment$: l’officina"
+  tgp_governor_contract_event.2001.desc: "Il caposquadra dell’officina arriva #EMP finalmente#! e mi saluta con un profondo inchino formale.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], che visita inaspettata. Ho controllato i registri, come richiesto, e pare che un errore di segreteria possa essere la causa della mancanza di spedizioni verso [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]. Un errore sfortunato. Ovviamente dirotteremo a voi la prossima consegna.\""
+  tgp_governor_contract_event.2001.a: "Un errore #EMP di segreteria#!?! [court_relation.GetFirstNameNoTooltip] lo verrà a sapere…"
+  tgp_governor_contract_event.2001.a.tt: "Convince con successo il caposquadra minacciando di riferire la cosa a [court_relation.GetShortUIName] alla corte imperiale"
+  tgp_governor_contract_event.2001.b: "Sicuramente è dovuto anche qualche risarcimento."
+  tgp_governor_contract_event.2001.c: "Sarebbe spiacevole se l’incidente divenisse pubblico, no?"
+  tgp_governor_contract_event.2001.d: "Benissimo. Assicuratevi solo che accada."
+  tgp_governor_contract_event.2001.tt_success_desc: "Il caposquadra è convinto"
+  tgp_governor_contract_event.2001.tt_success: "Riesci a convincere il caposquadra a fornirti di più"
+  tgp_governor_contract_event.2001.tt_failure_desc: "Il caposquadra #bold non#! è convinto"
+  tgp_governor_contract_event.2001.tt_failure: "Non riesci a convincere il caposquadra a fare oltre quanto già promesso"
+ 
+  tgp_governor_contract_event.2002.t: "$missing_equipment$: successo"
+  tgp_governor_contract_event.2002.desc: "Le mie minacce poco sottili sono ricompensate con un inchino ancora più profondo. Il caposquadra, visibilmente sudato, si rialza lentamente.\n\n\"Certo, mio [ROOT.Char.GetLadyLord]. La vostra valutazione è del tutto corretta. Sono certo che possiamo trovare un accordo. Avete già una proposta?\""
+  tgp_governor_contract_event.2002.a: "Mettiamo al sicuro anche le consegne future."
+  tgp_governor_contract_event.2002.b: "Fornitemi le prossime #EMP due#! spedizioni."
+  tgp_governor_contract_event.2002.c: "Serve un risarcimento monetario."
+  tgp_governor_contract_event.2002.d: "Inviatemi il miglior equipaggiamento disponibile."
+ 
+  tgp_governor_contract_event.2003.t: "$missing_equipment$: fallimento"
+  tgp_governor_contract_event.2003.desc: "Il caposquadra esita un istante e aggrotta la fronte.\n\n\"#EMP Voi#! non siete l’unic[Select_CString(ROOT.Char.IsFemale,'a','o')] comandante bisognos[Select_CString(ROOT.Char.IsFemale,'a','o')] di equipaggiamento. Ho già fatto abbastanza assegnandovi la nostra prossima spedizione. Una spedizione attesa altrove, sia chiaro. Non tirate troppo la corda, #EMP mio [ROOT.Char.GetLadyLord]#!.\" \n\nIl [foreman.GetWomanMan] si volta e se ne va."
+  tgp_governor_contract_event.2003.a: "#EMP Va bene.#!"
+
+  lines_in_the_soil: "Linee nella terra"
+  lines_in_the_soil_contract: "$lines_in_the_soil$"
+  lines_in_the_soil_request: "Questa situazione ti consente di scegliere un esito"
+  lines_in_the_soil_desc: "Una coppia di importanti proprietari terrieri subissa senza tregua la magistratura di reclami su una disputa di confine."
+  lines_in_the_soil_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0020.t: "Linee nella terra"
+  tgp_governor_contract_event.0020.desc: "La vita quotidiana di un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName] comporta una quantità significativa di scartoffie, ma qualcosa non quadra quando quasi tutte le missive di oggi provengono da [lines_in_the_soil_destination.GetName].\n\nEsaminando i rapporti, pare che due proprietari terrieri locali si siano incornati, metaforicamente, per una striscia di terreno incastrata tra le loro proprietà e, di conseguenza, abbiano trasformato l’ufficio della magistratura locale in un campo di battaglia legale."
+  tgp_governor_contract_event.0020.a: "Suppongo che mi #EMP farebbe#! bene una pausa dall’ufficio."
+  tgp_governor_contract_event.0020.a_tt: "Viaggia a [lines_in_the_soil_destination.GetName] e media la disputa."
+  tgp_governor_contract_event.0020.b: "Lasciate che le loro petizioni prendano polvere e si stancheranno presto."
+
+  tgp_governor_contract_event.0021.t: "Linee nella terra"
+  tgp_governor_contract_event.0021.desc: "Dopo ore interminabili di argomentazioni, dibattiti e livore appena velato, posso solo concludere che i distinti individui al centro di questa disputa sono dei #EMP babbei#! testardi e confusi.\n\nÈ ovvio che questo sia solo l’ultimo capitolo di una lunga storia di recriminazioni, e nessuno dei due è disposto a cedere neppure un pugno di terra all’altro.\n\nSe voglio avere speranza di porre fine alla loro contesa implacabile, ho ben poca scelta: devo chiuderla da giudice, non da arbitro."
+  tgp_governor_contract_event.0021.a: "Far riperimetrare il terreno e il risultato sarà definitivo." # (Special governor option)
+  tgp_governor_contract_event.0021.b: "Consultare gli archivi per trovare chi ha il diritto migliore."
+  tgp_governor_contract_event.0021.c: "Dividere equamente la proprietà e chiuderla qui."
+  tgp_governor_contract_event.0021.d: "E se proponessi di acquistare io stesso il terreno?"
+  tgp_governor_contract_event.0021.e: "In assenza di un accordo, il terreno diventa proprietà dello Stato."
+
+  task_contract_reward_effect_land_resurvey_desc: "$label_success_standard$"
+  task_contract_reward_effect_consult_archives_desc: "$label_success_standard$"
+  task_contract_reward_effect_split_the_land_desc: "$label_success_standard$"
+  task_contract_reward_effect_purchase_claims_desc: "$label_success_standard$"
+  task_contract_reward_effect_declare_state_property_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_consult_archives_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_purchase_claims_desc: "$label_failure_standard$"
+
+  fraud_in_broad_daylight: "Frode in pieno giorno"
+  fraud_in_broad_daylight_contract: "$fraud_in_broad_daylight$"
+  fraud_in_broad_daylight_request: "Questa situazione ti consente di scegliere un esito"
+  fraud_in_broad_daylight_desc: "Il mercato locale pullula di merci contraffatte e gli acquirenti raggirati sono furiosi."
+  fraud_in_broad_daylight_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0022.t: "Frode in pieno giorno"
+  tgp_governor_contract_event.0022.desc: "Il tonfo di una cassa posata senza complimenti sul pavimento spezza la mia concentrazione e mi desta dal lavoro. [reporting_councillor.GetTitledFirstName] le sta accanto.\n\n\"Sono arrivate altre prove, mio [ROOT.Char.GetLadyLord]. Stavolta bottiglie di profumo riempite di terra.\"\n\nI mercati di [fraud_in_broad_daylight_destination.GetName] sono stati recentemente infestati da merci contraffatte."
+  tgp_governor_contract_event.0022.a: "Questo merita un’indagine."
+  tgp_governor_contract_event.0022.a_tt: "Viaggia a [fraud_in_broad_daylight_destination.GetName] e restituisci rettitudine al mercato."
+  tgp_governor_contract_event.0022.b: "Quei clienti sono solo sciocchi."
+
+  tgp_governor_contract_event.0023.t: "Frode in pieno giorno"
+  tgp_governor_contract_event.0023.desc: "Nonostante gli sforzi energici, identificare i falsari si sta rivelando molto più difficile del previsto.\n\nI mercanti legittimi, una volta esaurite le scorte, affittano i loro posti agli estranei per il resto della giornata, permettendo ai truffatori di smerciare la loro merce fasulla ed evaporare senza lasciare traccia."
+  tgp_governor_contract_event.0023.a: "Controllare chiunque al mercato e trattenere i sospetti." # (Special governor option)
+  tgp_governor_contract_event.0023.b: "Offrire una ricompensa per informazioni."
+  tgp_governor_contract_event.0023.c: "Mandare i nostri scrivani in borghese come acquirenti."
+  tgp_governor_contract_event.0023.d: "Lasciare che se ne occupino i mercanti."
+  tgp_governor_contract_event.0023.e: "Perquisire il mercato a mezzogiorno!"
+ 
+  task_contract_reward_effect_goods_inspection_desc: "$label_success_standard$"
+  task_contract_reward_effect_reward_for_information_desc: "$label_success_standard$"
+  task_contract_reward_effect_undercover_clerks_desc: "$label_success_standard$"
+  task_contract_reward_effect_merchant_association_desc: "$label_success_standard$"
+  task_contract_reward_effect_surprise_raid_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_undercover_clerks_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_surprise_raid_desc: "$label_failure_standard$"
+
+  crumbling_bridge: "Ponte in rovina"
+  crumbling_bridge_contract: "$crumbling_bridge$"
+  crumbling_bridge_request: "Questa situazione ti consente di scegliere un esito"
+  crumbling_bridge_desc: "Un ponte chiave è crollato, paralizzando gravemente il traffico locale."
+  crumbling_bridge_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0024.t: "Ponte in rovina"
+  tgp_governor_contract_event.0024.desc: "Una delle pietre angolari delle responsabilità di un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName] è la manutenzione delle infrastrutture essenziali, il che rende ancor più allarmanti le notizie del recente crollo di un ponte a [crumbling_bridge_destination.GetName].\n\nQuesto potrebbe non solo impattare su commerci e traffico, ma persino minare la fiducia nella mia amministrazione."
+  tgp_governor_contract_event.0024.a: "Dite loro di prepararsi al mio arrivo. Sono in cammino."
+  tgp_governor_contract_event.0024.a_tt: "Viaggia a [crumbling_bridge_destination.GetName] e gestisci le conseguenze."
+  tgp_governor_contract_event.0024.b: "C’è sempre un altro ponte: basta spingersi più in là."
+
+  tgp_governor_contract_event.0025.t: "Ponte in rovina"
+  tgp_governor_contract_event.0025.desc: "Osservando i resti del ponte distrutto, la situazione è cupa. Mentre i manovali faticano a sgomberare le macerie, la folla di mercanti e viaggiatori continua a crescere con l’arrivo di altri ignari dell’interruzione inattesa dei loro piani.\n\nCon le merci che si guastano e gli animi che si accendono tra i bloccati, le conseguenze potrebbero essere di vasta portata se non gestite con perizia."
+  tgp_governor_contract_event.0025.a: "Le strade sono le arterie della nazione: che l’esercito aiuti a ricostruire." # (Special governor option)
+  tgp_governor_contract_event.0025.b: "Usare ogni risorsa per costruire un nuovo ponte il più rapidamente possibile."
+  tgp_governor_contract_event.0025.c: "Istituire un traghetto provvisorio finché il ponte non sarà ricostruito."
+  tgp_governor_contract_event.0025.d: "La fretta porterà solo a un altro incidente. Costruire un sostituto solido."
+  tgp_governor_contract_event.0025.e: "Sfruttare l’occasione per convincere i mercanti bloccati ad aprire bottega."
+
+  task_contract_reward_effect_army_assistance_desc: "$label_success_standard$"
+  task_contract_reward_effect_temporary_substitute_desc: "$label_success_standard$"
+  task_contract_reward_effect_ferry_crossing_desc: "$label_success_standard$"
+  task_contract_reward_effect_slower_replacement_desc: "$label_success_standard$"
+  task_contract_reward_effect_settle_caravans_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_settle_caravans_desc: "$label_failure_standard$"
+
+  confusion_of_tongues: "Una confusione di lingue"
+  confusion_of_tongues_contract: "$confusion_of_tongues$"
+  confusion_of_tongues_request: "Questa situazione ti consente di scegliere un esito"
+  confusion_of_tongues_desc: "Una nave mercantile straniera si è arenata sulle nostre coste e nessuno tra i superstiti parla la nostra lingua."
+  confusion_of_tongues_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0026.t: "Una confusione di lingue"
+  tgp_governor_contract_event.0026.desc: "È comprensibile che mercanti di terre lontane siano attirati dalla prosperità del nostro grande [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], affrontando distanze immense e innumerevoli pericoli in cerca di ricchezza materiale.\n\nI pericoli, tuttavia, si rivelano eccessivi per alcuni sfortunati, come appena accaduto a [confusion_of_tongues_destination.GetName]. Mi dicono che una nave straniera giace in frantumi sulle nostre coste e che il traduttore dell’equipaggio non figura tra i sopravvissuti.\n\nLa magistratura locale è del tutto incapace di gestire gli stranieri fradici e smarriti."
+  tgp_governor_contract_event.0026.a: "Il lavoro di un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleTierName] non finisce mai."
+  tgp_governor_contract_event.0026.a_tt: "Viaggia a [confusion_of_tongues_destination.GetName] e incontra i mercanti stranieri."
+  tgp_governor_contract_event.0026.b: "Sembra un bel grattacapo: lasciateli dove sono."
+
+  tgp_governor_contract_event.0027.t: "Una confusione di lingue"
+  tgp_governor_contract_event.0027.desc: "Quando arrivo, il magistrato è chiaramente allo stremo, esausto ed esasperato in egual misura. \"Non uno solo capisce una parola di ciò che dico!\" si lamenta. \"E ogni volta che proviamo a spostarli, reagiscono come se fossimo banditi!\"\n\nPoco distante, vedo i mercanti naufraghi raccolti in difesa attorno a ciò che resta delle loro merci; le guardie stringono nervosamente gli elsi delle armi."
+  tgp_governor_contract_event.0027.a: "Pianta alcune tende e informa la capitale: troveranno un interprete." # (Special governor option)
+  tgp_governor_contract_event.0027.b: "Torna indietro e vedi se al mercato c’è qualcuno che li capisca."
+  tgp_governor_contract_event.0027.c: "La loro nave si è schiantata sulle #EMP nostre#! coste, quindi le merci sono confiscate."
+  tgp_governor_contract_event.0027.d: "Le parole hanno fallito, ma posso tentare con i gesti."
+  tgp_governor_contract_event.0027.e: "Portateli via di qui, con la forza se necessario."
+tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
+
+  task_contract_reward_effect_temporary_housing_desc: "$label_success_standard$"
+  task_contract_reward_effect_search_for_translator_desc: "$label_success_standard$"
+  task_contract_reward_effect_confiscate_their_goods_desc: "$label_success_standard$"
+  task_contract_reward_effect_communicate_through_gestures_desc: "$label_success_standard$"
+  task_contract_reward_effect_put_them_under_guard_desc: "$label_success_standard$"
+  task_contract_reward_effect_i_know_this_one_desc: "$label_success_standard$"
+ 
+  task_contract_reward_effect_failure_communicate_through_gestures_desc: "$label_failure_standard$"
+
+  seditious_storytelling: "Racconti sediziosi"
+  seditious_storytelling_contract: "$seditious_storytelling$"
+  seditious_storytelling_request: "Questa situazione ti consente di scegliere un esito"
+  seditious_storytelling_desc: "Un cantastorie popolare ha iniziato a narrare storie intrise di dissenso e malcontento."
+  seditious_storytelling_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0028.t: "Racconti sediziosi"
+  tgp_governor_contract_event.0028.desc: "L’ultimo dei petizionanti del giorno lascia la mia presenza con gratitudine, ma il suono che svanisce del loro composto congedo viene presto sostituito da passi affrettati portatori di cattive notizie.\n\nÈ [concerned_councillor.GetFirstName], il cui volto è grave. \"Ho appena ricevuto un rapporto #EMP scandaloso#!, [ROOT.Char.Custom('FormOfAddressForLiege')]! Uno di quei cantastorie itineranti sta infiammando la gente di [seditious_storytelling_destination.GetName] con storie di magistrati corrotti e malaffare del governo!\""
+  tgp_governor_contract_event.0028.a: "Lasciate che giudichi con le mie orecchie."
+  tgp_governor_contract_event.0028.a_tt: "Viaggia a [seditious_storytelling_destination.GetName] e ascolta i racconti del cantastorie."
+  tgp_governor_contract_event.0028.b: "Devo occuparmi anche di meri #EMP istrioni#!?"
+
+  tgp_governor_contract_event.0029.t: "Racconti sediziosi"
+  tgp_governor_contract_event.0029.desc: "Seduto inosservato in fondo al pubblico, devo ammettere che i rapporti, se possibile, sottovalutavano la situazione.\n\nSolo i più ingenui potrebbero non cogliere il senso della storia decisamente pungente di eroi vagabondi e oppressi che combattono magistrati villani e sfacciatamente corrotti e soldati simili a banditi; il cattivo principale suona #EMP sospettosamente#! familiare.\n\nAncor più delle parole del cantastorie, preoccupa l’evidente entusiasmo crescente della folla."
+  tgp_governor_contract_event.0029.a: "Emettere una pubblica proclamazione che censi [seditious_storyteller.GetHerHim] per turbativa dell’ordine pubblico." # (Special governor option)
+  tgp_governor_contract_event.0029.b: "Fate arrestare subito quell’ardito sciocco!"
+  tgp_governor_contract_event.0029.c: "Ingaggeremo nostri cantastorie per tessere una contro-narrazione."
+  tgp_governor_contract_event.0029.d: "Schierare guardie a tutti i suoi eventi per ricordare al pubblico il proprio posto."
+  tgp_governor_contract_event.0029.e: "Organizzare un incontro discreto, forse posso farlo ragionare."
+
+  task_contract_reward_effect_censor_storyteller_desc: "$label_success_standard$"
+  task_contract_reward_effect_arrest_storyteller_desc: "$label_success_standard$"
+  task_contract_reward_effect_encourage_rival_storytellers_desc: "$label_success_standard$"
+  task_contract_reward_effect_intimidate_audience_desc: "$label_success_standard$"
+  task_contract_reward_effect_persuade_storyteller_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_persuade_storyteller_desc: "$label_failure_standard$"
+
+  quaking_in_panic: "Scossi dal panico"
+  quaking_in_panic_contract: "$quaking_in_panic$"
+  quaking_in_panic_request: "Questa situazione ti consente di scegliere un esito"
+  quaking_in_panic_desc: "Diverse villaggi sono stati colpiti da un terremoto e l’agitazione risultante minaccia l’ordine pubblico."
+  quaking_in_panic_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0030.t: "Scossi dal panico"
+  tgp_governor_contract_event.0030.desc: "Sono profondamente assorto in conversazione con [my_councillor.GetFirstName] quando [alarmed_councillor.GetFirstName] irrompe nella stanza con insolita urgenza, visibilmente scosso.\n\n\"Un messaggero da [quaking_in_panic_destination.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')]! C’è stato un terremoto e i contadini l’hanno preso come un presagio funesto, dicendo che è un segno di disgrazia divina!\""
+  tgp_governor_contract_event.0030.a: "Il panico, come un incendio, è difficile da estinguere se lasciato propagare."
+  tgp_governor_contract_event.0030.a_tt: "Viaggia a [quaking_in_panic_destination.GetName] e placa le loro preoccupazioni."
+  tgp_governor_contract_event.0030.b: "Do poca attenzione al clamore dei villani."
+
+  tgp_governor_contract_event.0031.t: "Scossi dal panico"
+  tgp_governor_contract_event.0031.desc: "Il villaggio è chiaramente in agitazione quando arrivo; i contadini si affollano attorno alla mia scorta implorando che placchiamo l’ira del Cielo prima che cada un altro disastro.\n\nGettando lo sguardo oltre loro, le pareti screpolate e le porte storte delle case testimoniano l’origine delle loro paure."
+  tgp_governor_contract_event.0031.a: "Convocare un’assemblea pubblica per rassicurare la gente." # (Special governor option)
+  tgp_governor_contract_event.0031.b: "Stazionare un piccolo distaccamento di truppe per reprimere i disordini."
+  tgp_governor_contract_event.0031.c: "Far dichiarare agli anziani del villaggio che il pericolo è passato."
+  tgp_governor_contract_event.0031.d: "Effettuare un’attenta ricognizione dei danni e promettere ulteriori aiuti."
+  tgp_governor_contract_event.0031.e: "Trasferire i più colpiti e consolidare la popolazione della regione."
+
+  task_contract_reward_effect_convene_public_meeting_desc: "$label_success_standard$"
+  task_contract_reward_effect_deploy_guards_desc: "$label_success_standard$"
+  task_contract_reward_effect_appeal_to_local_leadership_desc: "$label_success_standard$"
+  task_contract_reward_effect_architectural_inspection_desc: "$label_success_standard$"
+  task_contract_reward_effect_population_transfer_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_convene_public_meeting_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_architectural_inspection_desc: "$label_failure_standard$"
+
+  monopoly_in_the_marketplace: "Monopolio nel mercato"
+  monopoly_in_the_marketplace_contract: "$monopoly_in_the_marketplace$"
+  monopoly_in_the_marketplace_request: "Questa situazione ti consente di scegliere un esito"
+  monopoly_in_the_marketplace_desc: "Un potente mercante sta dominando il mercato e l’associazione dei mercanti locali chiede l’intervento dello Stato."
+  monopoly_in_the_marketplace_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0032.t: "Monopolio nel mercato"
+  tgp_governor_contract_event.0032.desc: "«… e se si permette che questo continui, le conseguenze saranno #EMP rovinose#! per i nostri mezzi di sussistenza», conclude il capo della delegazione.\n\nSecondo quanto esposto, uno dei loro rivali in [monopoly_in_the_marketplace_destination.GetName] è riuscito subdolamente a prendere il controllo del mercato principale e nega l’accesso a qualsiasi membro della loro associazione, relegandoli in luoghi meno frequentati e profondamente antieconomici."
+  tgp_governor_contract_event.0032.a: "Me ne occuperò personalmente."
+  tgp_governor_contract_event.0032.a_tt: "Viaggia a [monopoly_in_the_marketplace_destination.GetName] e sistema gli affari del mercato a tuo giudizio."
+  tgp_governor_contract_event.0032.b: "Non sento nulla di inusuale: solo un mercante di successo."
+
+  tgp_governor_contract_event.0033.t: "Monopolio nel mercato"
+tgp_governor_contract_event.0033.desc: "Benché raramente siano esempi d’onestà, stavolta le parole dei mercanti paiono veritiere.\n\nMentre bighelloniamo con discrezione da una bancarella all’altra, finora tutte recano in bella vista lo stesso marchio, che le identifica come proprietà collettiva di un unico proprietario.\n\nL’ultima bancarella cui ci avviciniamo è la più grande e la più elaborata, e la statuaria figura che la presiede — [merchant_magnate.GetWomanMan] di gran contegno — sorride con orgoglio. Chiaramente, questo è il rivale di cui parlavano."
+  tgp_governor_contract_event.0033.a: "Nessun mercante possieda più di una bancarella." # (Special governor option)
+  tgp_governor_contract_event.0033.b: "Ampliare il mercato e mettere all’asta nuove bancarelle solo ai membri dell’associazione."
+  tgp_governor_contract_event.0033.c: "[merchant_magnate.GetSheHe|U] può restare, purché sia disposto a #EMP pagare#! per il privilegio."
+  tgp_governor_contract_event.0033.d: "Sosterremo i suoi concorrenti e lasceremo che la natura faccia il suo corso."
+  tgp_governor_contract_event.0033.e: "Chi è così prospero dev’essere colpevole di #EMP qualcosa#!. Requisite le sue merci!"
+
+  task_contract_reward_effect_strict_regulations_desc: "$label_success_standard$"
+  task_contract_reward_effect_association_stalls_only_desc: "$label_success_standard$"
+  task_contract_reward_effect_levy_special_tax_desc: "$label_success_standard$"
+  task_contract_reward_effect_back_competitors_desc: "$label_success_standard$"
+  task_contract_reward_effect_seize_merchant_goods_desc: "$label_success_standard$"
+
+  task_contract_reward_effect_failure_back_competitors_desc: "$label_failure_standard$"
+
+  contested_inheritance: "Eredità contestata"
+  contested_inheritance_contract: "$contested_inheritance$"
+  contested_inheritance_request: "Questa situazione ti consente di scegliere un esito"
+  contested_inheritance_desc: "Un notabile locale è deceduto e gli eredi, coinvolti in una lite aspra sull’eredità, hanno chiesto la mediazione del governo."
+  contested_inheritance_desc_title: "$task_contract_governance_desc_title$"
+
+  tgp_governor_contract_event.0034.t: "Eredità contestata"
+  tgp_governor_contract_event.0034.desc: "Essere un [ROOT.Char.GetTitleTierName] significa più che essere un semplice amministratore, e molti guardano a me come a una figura equa nelle controversie.\n\nIn tale veste una famiglia di spicco a [contested_inheritance_destination.GetName] ha richiesto la mia presenza per risolvere una disputa ereditaria particolarmente feroce che ha lasciato la famiglia amaramente divisa."
+  tgp_governor_contract_event.0034.a: "La discordia in una famiglia di tale rango getta discredito sulla nostra società."
+  tgp_governor_contract_event.0034.a_tt: "Viaggia a [contested_inheritance_destination.GetName] e metti fine alla disputa."
+  tgp_governor_contract_event.0034.b: "È una questione familiare, non affare dello Stato."
+
+  tgp_governor_contract_event.0035.t: "Eredità contestata"
+  tgp_governor_contract_event.0035.desc: "La tensione è palpabile mentre riesaminiamo per l’ennesima volta le pretese contrapposte, e ogni giro di dibattito non fa che complicare la questione.\n\nMalgrado gli evidenti sforzi di fingere cortesia alla mia presenza, sospetto che, potendo imbottigliare il livore velato degli aspiranti eredi, rivaleggerebbe con qualsiasi veleno in potenza."
+  tgp_governor_contract_event.0035.a: "Il patrimonio sarà responsabilità di #EMP tutta#! la famiglia." # (Special governor option)
+  tgp_governor_contract_event.0035.b: "Sia il membro più anziano della famiglia a farsene custode."
+  tgp_governor_contract_event.0035.c: "Per una somma simbolica, potrei lasciarmi #EMP persuadere#!…"
+  tgp_governor_contract_event.0035.d: "Dobbiamo rispettare le volontà del defunto."
+  tgp_governor_contract_event.0035.e: "Dovrei persuaderli a chiudere la questione in modo più dignitoso."
+
+  task_contract_reward_effect_declare_communal_property_desc: "$label_success_standard$"
+  task_contract_reward_effect_award_according_to_seniority_desc: "$label_success_standard$"
+  task_contract_reward_effect_award_to_highest_bidder_desc: "$label_success_standard$"
+  task_contract_reward_effect_adhere_to_testament_desc: "$label_success_standard$"
+  task_contract_reward_effect_persuade_private_settlement_desc: "$label_success_standard$"
+ 
+  task_contract_reward_effect_failure_award_to_highest_bidder_desc: "$label_failure_standard$"
+  task_contract_reward_effect_failure_persuade_private_settlement_desc: "$label_failure_standard$"
+
+  tgp_governor_contract_event.0021.b.success: "Trovi prove affidabili a sostegno della pretesa di una delle parti"
+  tgp_governor_contract_event.0021.b.failure: "Altro combustibile per la loro faida potrebbe solo peggiorare la situazione"
+
+  tgp_governor_contract_event.0021.b.toast_success: "Hai trovato prove decisive a favore della pretesa di una parte"
+  tgp_governor_contract_event.0021.b.toast_failure: "I registri frammentari non fanno che approfondire la spaccatura tra loro"
+ 
+  tgp_governor_contract_event.0021.d.success: "I proprietari trovano allettante la tua offerta"
+  tgp_governor_contract_event.0021.d.failure: "La tua offerta viene respinta senza mezzi termini"
+
+  tgp_governor_contract_event.0021.d.toast_success: "Il tuo appello al loro interesse materiale si è risolto a reciproco beneficio"
+  tgp_governor_contract_event.0021.d.toast_failure: "La loro ossessione per la proprietà non è stata scalfita dalla tua offerta"
+
+  tgp_governor_contract_event.0023.c.success: "Le tue tattiche investigative innovative danno frutto"
+  tgp_governor_contract_event.0023.c.failure: "Gli scrivani sotto copertura non sono all’altezza del ruolo"
+
+  tgp_governor_contract_event.0023.c.toast_success: "I venditori fraudolenti sono stati colti sul fatto e arrestati"
+  tgp_governor_contract_event.0023.c.toast_failure: "I tuoi scrivani si sono rivelati pessimi investigatori e sono stati facilmente raggirati"
+
+  tgp_governor_contract_event.0023.e.success: "Cogli i malfattori di sorpresa"
+  tgp_governor_contract_event.0023.e.failure: "I falsari fiutano il pericolo e fuggono"
+
+  tgp_governor_contract_event.0023.e.toast_success: "La retata è filata liscia e i falsari sono stati catturati"
+  tgp_governor_contract_event.0023.e.toast_failure: "I venditori hanno fiutato i tuoi piani e sono fuggiti"
+
+  tgp_governor_contract_event.0025.e.success: "I mercanti sono convinti a rimanere qui"
+  tgp_governor_contract_event.0025.e.failure: "I tuoi argomenti cadono nel vuoto"
+
+  tgp_governor_contract_event.0025.e.toast_success: "Convinti dalla tua persuasione, i mercanti hanno scelto di restare"
+  tgp_governor_contract_event.0025.e.toast_failure: "I caravanieri sono rimasti immuni ai tuoi argomenti e sono partiti in cerca di nuove rotte"
+
+  tgp_governor_contract_event.0027.d.success: "I tuoi gesti arrivano agli stranieri"
+  tgp_governor_contract_event.0027.d.failure: "I mercanti d’oltremare si confondono ancora di più"
+
+  tgp_governor_contract_event.0027.d.toast_success: "Con qualche difficoltà riesci a farti capire dai mercanti"
+  tgp_governor_contract_event.0027.d.toast_failure: "I tuoi tentativi di comunicare non fanno che confondere ulteriormente gli stranieri"
+
+  tgp_governor_contract_event.0029.e.success: "Il cantastorie si dimostra sensibile ai tuoi argomenti"
+  tgp_governor_contract_event.0029.e.failure: "I tuoi sforzi incontrano ostinata intransigenza"
+
+  tgp_governor_contract_event.0029.e.toast_success: "Toccato dalla tua eloquenza, il cantastorie ha acconsentito a moderare i suoi racconti"
+  tgp_governor_contract_event.0029.e.toast_failure: "Il cantastorie ha respinto i tuoi appelli e continua a infiammare le passioni popolari"
+
+  tgp_governor_contract_event.0031.a.success: "Il tuo misurato discorso calma le preoccupazioni della folla"
+  tgp_governor_contract_event.0031.a.failure: "Le paure dei contadini si rivelano troppo grandi per essere placate"
+
+  tgp_governor_contract_event.0031.a.toast_success: "Il popolo è stato rassicurato dal tuo discorso equanime"
+  tgp_governor_contract_event.0031.a.toast_failure: "Colpiti dal timore di una ritorsione divina, nessuno si è presentato all’assemblea"
+
+  tgp_governor_contract_event.0031.d.success: "I tuoi sforzi composti e autorevoli aiutano a calmare la gente"
+  tgp_governor_contract_event.0031.d.failure: "La gente è ancora più terrorizzata quando i danni vengono rivelati"
+
+  tgp_governor_contract_event.0031.d.toast_success: "Hai valutato i danni e avviato riparazioni e ricostruzione"
+  tgp_governor_contract_event.0031.d.toast_failure: "Mostrare l’entità dei danni non ha fatto che accrescere la paura"
+
+  tgp_governor_contract_event.0033.d.success: "Il consorzio riacquista il suo legittimo posto"
+  tgp_governor_contract_event.0033.d.failure: "Tanto inetti quanto quando persero il mercato, non riescono a riconquistarlo"
+
+  tgp_governor_contract_event.0033.d.toast_success: "Con il tuo aiuto, il consorzio ha ripreso il controllo del mercato"
+  tgp_governor_contract_event.0033.d.toast_failure: "Qualunque cosa abbia tentato l’associazione, non le ha restituito il suo posto"
+
+  tgp_governor_contract_event.0035.c.success: "Gli eredi rilanciano, letteralmente, per ottenere il tuo favore"
+  tgp_governor_contract_event.0035.c.failure: "Nessuno è incline a solleticare la tua avidità"
+
+  tgp_governor_contract_event.0035.c.toast_success: "Le offerte sono arrivate rapide e furiose e, senza dubbio, a tuo vantaggio"
+  tgp_governor_contract_event.0035.c.toast_failure: "Nessuno dei potenziali eredi è stato ricettivo alla tua proposta"
+
+  tgp_governor_contract_event.0035.e.success: "La famiglia è persuasa a proseguire in modo ragionevole e misurato"
+  tgp_governor_contract_event.0035.e.failure: "Le tue raccomandazioni vengono ascoltate e ignorate"
+
+  tgp_governor_contract_event.0035.e.toast_success: "La pressione del tuo contegno composto li ha portati a patti"
+  tgp_governor_contract_event.0035.e.toast_failure: "Il tuo saggio consiglio è stato accolto con gratitudine e subito accantonato"
+

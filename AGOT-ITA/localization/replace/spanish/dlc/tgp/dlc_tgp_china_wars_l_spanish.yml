@@ -1,0 +1,47 @@
+﻿l_spanish:
+
+ ##################################################
+ # CHINA CB'S
+ ##################################################
+ ### Internal county conquest during corruption
+  china_seize_county_cb: "$CHINA_SEIZE_COUNTY_CB_NAME$"
+  CHINA_SEIZE_COUNTY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquista della [TITLE.GetBaseName]"
+  CHINA_SEIZE_COUNTY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+CHINA_SEIZE_COUNTY_CB_NAME: "Presa della contea egemonica"
+## duchy conquest variant
+  china_seize_duchy_cb: "$CHINA_SEIZE_DUCHY_CB_NAME$"
+  CHINA_SEIZE_DUCHY_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Conquista della [TITLE.GetBaseName]"
+  CHINA_SEIZE_DUCHY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+CHINA_SEIZE_DUCHY_CB_NAME: "Presa del ducato egemonico"
+ ## Great Project Conquest
+  grand_campaign_kingdom_invasion_cb: "[GetTitleByKey('h_china').Custom('OrdinalChineseConquest')] Grande Campagna di [GetTitleByKey('h_china').GetNameNoTierPossessiveNoTooltip]"
+  GP_KINGDOM_INVASION_WAR_NAME: "$grand_campaign_kingdom_invasion_cb$"
+  GP_KINGDOM_INVASION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+GP_KINGDOM_INVASION_CB_NAME: "$grand_campaign_kingdom_invasion_cb$ ([great_project|E])"
+
+  grand_campaign_kingdom_invasion_cb_victory_desc_attacker:2 "[attacker.GetTopLiege.GetShortUIName|U] ottiene i [titles|E] contesi."
+  grand_campaign_kingdom_invasion_cb_victory_desc:1 "[attacker.GetTopLiege.GetShortUIName|U] ottiene il [title|E] conteso."
+ 
+ ### CB for neighbors to attempt to seize the mandate of heaven and become hegemon of China
+  claim_the_mandate_cb: "$CLAIM_THE_MANDATE_CB_NAME$"
+  CLAIM_THE_MANDATE_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Presa del Mandato del Cielo"
+  CLAIM_THE_MANDATE_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  CLAIM_THE_MANDATE_CB_NAME: "Prendere il Mandato del Cielo"
+  dynastic_cycle_hegemon_legitimacy_level_cost_desc: "[legitimacy_level|E] di [defender.GetShortUIName]"
+
+ # CONSOLIDATION WAR
+  chinese_consolidation_cb: "$CHINESE_CONSOLIDATION_WAR_NAME$"
+  CHINESE_CONSOLIDATION_WAR_NAME: "Guerra di consolidamento egemonico"
+  CHINESE_CONSOLIDATION_WAR_NAME_BASE: "$CHINESE_CONSOLIDATION_WAR_NAME$"
+  CHINESE_CONSOLIDATION_CB_NAME: "Consolidare la Terra sotto il Cielo ([dynastic_cycle|E])"
+  chinese_consolidation_cb_victory_desc_attacker: "Prendi tutti i [titles|E] di [defender.GetShortUIName] con [title_tier|E] pari o superiore al tuo [primary_title|E] e vassallizzi tutti i suoi vassalli che fanno parte [de_jure|E] di [GetTitleByKey('h_china').GetDefinitiveName]."
+  chinese_consolidation_cb_victory_desc: "[attacker.GetShortUIName|U] vassallizza [defender.GetShortUIName|U] oppure prende tutti i [titles|E] di [defender.GetShortUIName|U] che fanno parte di [GetTitleByKey('h_china').GetDefinitiveName] con [title_tier|E] pari o superiore al [primary_title|E] di [attacker.GetShortUINamePossessive|U]."
+
+  silk_road_vassalization_cb: "$SILK_ROAD_VASSALIZATION_WAR_NAME$"
+  SILK_ROAD_VASSALIZATION_WAR_NAME: "$VASSALIZATION_WAR_NAME$ ([dynastic_cycle|E])"
+  SILK_ROAD_VASSALIZATION_WAR_NAME_BASE: "$VASSALIZATION_WAR_NAME_BASE$ ([dynastic_cycle|E])"
+  SILK_ROAD_VASSALIZATION_CB_NAME: "$VASSALIZATION_CB_NAME$ ([dynastic_cycle|E])"
+
+  gok_ending_warning_offer_sub_or_ruin: "#X @warning_icon! Perderai l’accesso all’[interaction|E] #high $mpo_offer_submission_or_ruin$#!#!"
+  gok_ending_warning_onslaught: "#X @warning_icon! Perderai l’accesso al [casus_belli|E] #high $mpo_gok_onslaught_cb$#!#!"
+  gok_ending_warning_end_decision: "#X @warning_icon! Perderai l’accesso alla [decision|E] #high $mpo_gok_world_conquest_decision$#!#!"

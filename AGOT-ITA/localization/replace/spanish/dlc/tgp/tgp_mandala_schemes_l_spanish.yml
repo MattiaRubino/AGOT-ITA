@@ -1,0 +1,82 @@
+﻿l_spanish:
+
+
+ #Disbelieve Mandala Scheme
+  disbelieve_mandala: "Screditare il Mandala"
+  disbelieve_mandala_desc: "È tempo che [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] scenda di un gradino nella corsa del [mandala|E]. O due."
+  disbelieve_mandala_desc_general: "La [scheme|E] $disbelieve_mandala$ è una [hostile_scheme|E] che mira a danneggiare la reputazione del [scheme_target|E] come Mandala divino.\n\nPuò reclutare [agents|E], è una [secret_scheme|E] basata su [intrigue|E] e, se scoperta, alimenterà una rivalità tra l’istigatore e il Bersaglio."
+  DISBELIEVE_MANDALA_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] potrebbe diventare un [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]"
+  disbelieve_mandala_invalidated_title: "@scheme_icon! Fine della congiura Screditare il Mandala"
+
+  scheme_target_not_mandala: "[SCHEME.GetTargetCharacter.GetShortUIName|U] non ha un [mandala|E] [government|E]"
+  scheme_owner_not_mandala: "Non hai un [mandala|E] [government|E]"
+  scheme_owner_not_house_head: "Non sei più il [house_head|E]"
+  scheme_target_not_independent: "[SCHEME.GetTargetCharacter.GetShortUIName|U] non è [independent|E]"
+  scheme_target_tributary_of_owner: "[SCHEME.GetTargetCharacter.GetShortUIName|U] è un tuo [subject|E]"
+
+ #Disbelieve Mandala Interaction
+  start_disbelieve_mandala_interaction: "$disbelieve_mandala$ #weak (Congiura)#!"
+  disbelieve_mandala_action: "Scredita"
+  scheme_interaction_tt_disbelieve_mandala: "Tenta di screditare [recipient.GetShortUINameNoTooltip], danneggiando potenzialmente [Select_CString(recipient.IsFemale,'la sua','il suo')] [legitimacy|E], [Select_CString(recipient.IsFemale,'la sua','il suo')] [piety|E] e seminando il caos tra i suoi [subjects|E]"
+  disbelieve_mandala_interaction_notification: "Screditare il Mandala"
+  unlock_disbelieve_mandala_scheme_tt: "Richiede livello #V 3#! di [aspect_of_trickery|E]"
+
+ #Coerce Tributary Scheme
+  coerce_tributary: "Costringere il tributario"
+  coerce_tributary_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] presto saprà chi è il [Select_CString(SCHEME.GetTargetCharacter.IsFemale,'suo','suo')] #EMP vero#! leader..."
+  coerce_tributary_desc_general: "La [scheme|E] $coerce_tributary$ è una [political_scheme|E] che mira a convincere il [scheme_target|E] a diventare un [tributary|E] del [scheme_owner|E].\n\nSe il Bersaglio ha già un [suzerain|E], quel suzerano potrà scegliere come rispondere alla questione, seminando [rivalry|E] tra il Proprietario e il Suzerano."
+  COERCE_TRIBUTARY_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] potrebbe diventare un tuo [tributary|E]"
+  coerce_tributary_invalidated_title: "@scheme_icon! Fine della congiura Costringere il tributario"
+
+ #Coerce Tributary Interaction
+  start_coerce_tributary_interaction: "$coerce_tributary$ #weak (Congiura)#!"
+  coerce_tributary_action: "Costringi"
+  scheme_interaction_tt_coerce_tributary: "Tenta di costringere [recipient.GetShortUINameNoTooltip] a diventare il tuo [tributary|E]"
+  coerce_tributary_interaction_notification: "Costringere il tributario"
+
+  target_is_your_subject.tt: "[target.GetShortUIName] è [owner.GetShortUINamePossessive] [subject|E]"
+  recipient_is_your_suzerain.tt: "[recipient.GetShortUIName] è [actor.GetShortUINamePossessive] [suzerain|E]"
+  you_share_suzerain.tt: "Condividete un [suzerain|E]"
+  was_betrayed_after_being_coerced.tt: "Hai già tradito [recipient.GetShortUIName] dopo aver[Select_CString(recipient.IsFemale,'la','lo')] costretto"
+
+
+ #Coerce Contribution Scheme
+  coerce_contribution: "Coercizione al contributo"
+  coerce_contribution_desc: "Gli abitanti di [SCHEME.GetTargetTitle.GetBaseNameNoTier] potranno certamente essere convinti a contribuire a un progetto tanto grandioso..."
+  coerce_contribution_desc_general: "La [scheme|E] $coerce_contribution$ è una [political_scheme|E] che mira a convincere gli abitanti della Baronia [scheme_target|E] ad aprire il cuore e la borsa per [great_project_contribute|E] al [great_project|E] del [scheme_owner|E]."
+  COERCE_CONTRIBUTION_SUCCESS_DESC: "Gli abitanti di [TARGET_TITLE.GetBaseName|U] finanziano una delle tue [great_project_contributions|E]"
+  coerce_contribution_invalidated_title: "@scheme_icon! Fine della congiura Coercizione al contributo"
+
+ #Coerce Contribution Interaction
+  start_coerce_contribution_interaction: "$coerce_contribution$ #weak (Congiura)#!"
+  coerce_contribution_action: "Coercizione al contributo nelle terre di"
+  scheme_interaction_tt_coerce_contribution: "Tenta di costringere gli abitanti del tuo reame a [great_project_contribute|E] al tuo [great_project|E]"
+  coerce_contribution_interaction_notification: "Coercizione al contributo"
+  coerce_contribution_scheme_success_outcome_tt: "Se ha successo, una delle tue #high [GetBuilding('mandala_capital_01').GetTypeName]#! [great_project_contributions|E] è finanziata dagli abitanti di [target.GetBaseName]"
+  start_coerce_contribution_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+  start_coerce_contribution_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+
+  no_available_target_titles.tt: "Non ci sono contee non sfruttate nel tuo [realm|E]"
+  no_contributions_to_fund.tt: "Non hai [great_project|E] [great_project_contributions|E] da finanziare"
+
+  scheme_title_changed_holder: "Il [target.GetBaseName] ha cambiato detentore"
+  scheme_great_project_is_funded: "Il tuo [great_project|E] non ha più [great_project_contributions|E] non finanziate"
+  attempted_to_coerce_contribution_from_my_realm_opinion: "Ha tentato di coercire contributi dal mio reame"
+ 
+ #Leverage Contribution Scheme
+  leverage_contribution: "Persuadere al contributo"
+  leverage_contribution_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] potrà certamente essere convint[Select_CString(SCHEME.GetTargetCharacter.IsFemale,'a','o')] a contribuire a un progetto così grandioso..."
+  leverage_contribution_desc_general: "La [scheme|E] $leverage_contribution$ è una [political_scheme|E] che mira a convincere il [scheme_target|E] ad aprire il cuore e la borsa per [great_project_contribute|E] al [great_project|E] del [scheme_owner|E]."
+  LEVERAGE_CONTRIBUTION_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName|U] finanzia una delle tue [great_project_contributions|E]"
+  leverage_contribution_invalidated_title: "@scheme_icon! Fine della congiura Persuadere al contributo"
+
+  recipient_is_unable_to_afford_contributions.tt: "[recipient.GetShortUIName|U] non è in grado di permettersi alcuna delle tue [great_project_contributions|E]"
+
+ #Leverage Contribution Interaction
+  start_leverage_contribution_interaction: "$leverage_contribution$ #weak (Congiura)#!"
+  leverage_contribution_action: "Persuadere al contributo da parte di"
+  scheme_interaction_tt_leverage_contribution: "Tenta di ottenere una [great_project_contribution|E] da [recipient.GetShortUINameNoTooltip]"
+  leverage_contribution_interaction_notification: "Persuadere al contributo"
+  leverage_contribution_scheme_success_outcome_tt: "Se ha successo, una delle tue #high [GetBuilding('mandala_capital_01').GetTypeName]#! [great_project_contributions|E] è finanziata da [recipient.GetShortUIName]"
+  start_leverage_contribution_interaction.tt.agent_focus_success: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"
+  start_leverage_contribution_interaction.tt.agent_focus_speed: "$schemes.tt.agent_packages.list_boilerplate$\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_thug' ).GetName]\n$EFFECT_LIST_BULLET$[success_chance_max_i] [GetAgentSlotType( 'agent_devotee' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_cleric' ).GetName]\n$EFFECT_LIST_BULLET$[scheme_speed_i] [GetAgentSlotType( 'agent_herald' ).GetName]"

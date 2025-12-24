@@ -1,0 +1,107 @@
+﻿l_spanish:
+
+ ### SETUP
+  activity_debate: "Dibattito"
+  activity_debate_plural: "Dibattiti"
+  activity_debate_destination_selection: "Puoi ospitare un $activity_debate$ solo in una [capital|E] che appartenga a te, al tuo [movement_leader|E], al tuo [liege|E] o a [GetTitleByKey('h_china').GetName]."
+  activity_debate_selection_tooltip: "Ospita il [GetActivityType('activity_debate').GetName] per competere per il potere politico — impadronisciti del controllo per te o per il tuo movimento $activity_debate_host_rewards$"
+  activity_debate_desc: "Merito, influenza, #EMP potere#! — Contano poco se non sei in grado di presentare argomentazioni valide per te e per la tua causa.\n\nConvoca un dibattito per convincere gli altri che sei degno di maggiore potere, oppure sfida un altro movimento per porre il tuo in una posizione più favorevole."
+  activity_debate_host_desc: "$activity_debate_host_rewards$$activity_debate_guest_rewards$"
+  activity_debate_host_rewards: "\n$BULLET_WITH_TAB$[movement_power_i] [movement_power|E]\n$BULLET_WITH_TAB$[influence_i|E] [influence|E]\n$BULLET_WITH_TAB$[merit_i|E] [merit|E]"
+  activity_debate_guest_desc: "\n$BULLET_WITH_TAB$Potresti ottenere [disciples|E]\n$BULLET_WITH_TAB$Potrebbe aumentare il [trait_level_track_xp|E] del tuo [GetTrait('confucian_education').GetName( GetNullCharacter )]"
+  activity_debate_guest_rewards: "\n$BULLET_WITH_TAB$I partecipanti potrebbero ottenere [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\n$BULLET_WITH_TAB$I partecipanti potrebbero ottenere un [elder|E]"
+  debate_base_cost: "Costo base"
+  activity_debate_predicted_cost: "Costo previsto"
+
+  activity_debate_host_an_a: "a"
+
+ # Province Selection
+  activity_debate_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
+  activity_debate_province_desc_leader_capital_desc: "#P + [capital|E] di [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] (il tuo [movement_leader|E])#!"
+  activity_debate_province_desc_liege_capital_desc: "#P + [capital|E] del tuo [liege|E]#!"
+  debate_location_validity_desc: "Non è una [capital|E] che appartenga a te, al tuo [movement_leader|E], al tuo [liege|E] o a [GetTitleByKey('h_china').GetName]"
+
+ ### TOOLTIPS
+  activity_debate_guest_help_text: "Qualsiasi [activity_guests|E] invitato osserverà o parteciperà al dibattito. Argomentazioni efficaci conferiscono [movement_power|E], o sottraggono potere a un altro movimento. Partecipare ai dibattiti è una buona occasione per ottenere [merit|E], progredire nel [trait_level_track_xp|E] di [GetTrait('confucian_education').GetName( GetNullCharacter )] e, potenzialmente, assicurarsi un [elder|E]"
+  reached_disciple_limit: "Hai raggiunto il numero massimo di discepoli"
+  is_already_the_favored_movement: "Il [GetPlayer.Custom('GetMyMovementNoTooltip')] è già il [favored_movement|E]"
+  is_already_leader_and_favored_movement: "Il [GetPlayer.Custom('GetMyMovementNoTooltip')] è già il [favored_movement|E] e [GetPlayer.GetShortUIName] ne è [movement_leader|E]"
+  gained_many_disciples: "Hai ottenuto [disciple_3.GetShortUIName|U], [disciple_2.GetShortUIName] e [disciple_1.GetShortUIName|U] come [disciples|E]"
+  gained_few_disciples: "Hai ottenuto [disciple_2.GetShortUIName|U] e [disciple_1.GetShortUIName] come [disciples|E]"
+  gained_one_disciple: "Hai ottenuto [disciple_1.GetShortUIName|U] come [disciple|E]"
+gained_new_elder_tt: "Ottenuto [guest.MakeScope.Var('new_elder').Char.GetFirstName] come anziano"
+  activity_window_character_honorary_guest_leader: "[Concept('movement_leader','Leader sfidato')|E]\n[Character.GetShortUINameNoTooltip|U]"
+
+ ### GUEST INVITE RULES
+  activity_invite_rule_debate_movement_members: "Membri di [GetPlayer.Custom('GetMyMovement')]"
+  activity_invite_rule_debate_movement_other_members: "Altri membri del movimento"
+  movement_leader_for_host: "Leader del movimento"
+  movement_leader_desc_for_host: "Leader del [GetPlayer.Custom('GetMyMovement')] sfidato"
+  movement_leader: "Leader del movimento sfidato"
+  ACTIVITY_GUEST_IS_IMPERIAL_REASON: "L'attività è un $debate_type_favor$"
+ ### PHASES
+  debate_phase_discussion: "Preparazione"
+  debate_phase_discussion_desc: "Le sale di studio brulicano di cortesi discussioni, mentre gli oratori cercano di dedurre quali posizioni siano le più strategiche."
+  debate_phase_debate: "Dibattito"
+  debate_phase_debate_desc: "È giunta l'ora del dibattito ordinato. Solo la mente più acuta prevarrà."
+
+ ### OPTIONS
+  debate_type_leadership: "Dibattito per il $Movement$"
+  debate_type_leadership_desc: "$EFFECT_LIST_BULLET$ Dibatti con i membri del tuo movimento per diventare [movement_leader|E]\n\n#weak Con ingegno o astuzia, sarò io al comando.#!"
+  debate_type_favor: "Dibattito imperiale"
+  debate_type_favor_desc: "$EFFECT_LIST_BULLET$ Dibatti contro un altro movimento al cospetto del [son_of_heaven|E] per fare del [GetPlayer.Custom('GetMyMovementNoTooltip')] il [favored_movement|E]\n\n#weak Una nave va governata dall'equipaggio giusto.#!"
+
+  debate_option_books: "$adult_education_option_books$"
+  debate_books_bad: "$adult_education_books_bad$"
+  debate_books_bad_desc: "$EFFECT_LIST_BULLET$Costo in [gold|E] ridotto\n\n#weak Porto i miei saperi ovunque vada. Solo chi è incerto delle proprie affermazioni deve celarsi dietro gli argomenti di altri studiosi.#!"
+  debate_books_normal: "Rotoli e appunti"
+  debate_books_normal_desc: "$EFFECT_LIST_BULLET$Successo dell'Attività leggermente aumentato\n\n#weak Mi bastano i testi e i commentari essenziali per sostenere le mie argomentazioni.#!"
+  debate_books_good: "$adult_education_books_good$"
+debate_books_good_desc: "$EFFECT_LIST_BULLET$Maggiore riuscita dell’Attività\n\n#weak Porterò una vera fonte di sapere per impressionare gli ospiti e sostenere i miei argomenti.#!"
+
+  debate_argument_major_decrease_desc: "#N #bold Diminuzione significativa#!#! della tua #V probabilità di successo#!"
+  debate_argument_moderate_decrease_desc: "#N Diminuzione moderata#! della tua #V probabilità di successo#!"
+  debate_argument_moderate_increase_desc: "#P Aumento moderato#! della tua #V probabilità di successo#!"
+  debate_argument_major_increase_desc: "#P #bold Aumento significativo#!#! della tua #V probabilità di successo#!"
+
+  tgp_dynastic_cycle_decision_event.crowd_approval_desc: "\n\nGli spettatori annuiscono."
+  tgp_dynastic_cycle_decision_event.crowd_disapproval_desc: "\n\nGli spettatori scuotono la testa in disapprovazione."
+
+ ### CONCLUSION
+  activity_debate_conclusion_desc_leadership_winner: "Il dibattito per la leadership di [GetPlayer.Custom('GetMyMovement')] è concluso, con la mia vittoria proclamata!"
+  activity_debate_conclusion_desc_leadership_loser: "I miei piani sono stati sventati e [Activity.MakeScope.Var('challenged_movement_leader').Char.GetFirstNameNoTooltip] resta leader del [GetPlayer.Custom('GetMyMovement')]."
+activity_debate_conclusion_desc_leadership_challenged_loser: "[Activity.MakeScope.Var('debate_winner').Char.GetFirstNameNoTooltip] viene dichiarat[Select_CString(Activity.MakeScope.Var('debate_winner').Char.IsFemale,'a','o')] leader del [GetPlayer.Custom('GetMyMovement')] malgrado i miei sforzi."
+  activity_debate_conclusion_desc_favor_winner: "Il dibattito per il favore [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] è concluso, con il [GetPlayer.Custom('GetMyMovement')] proclamato vincitore!"
+  activity_debate_conclusion_desc_favor_loser: "Non ho ottenuto il favore [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip] per il [GetPlayer.Custom('GetMyMovement')]. Dovrò impegnarmi di più la prossima volta."
+  debate_conclusion_fallback: "Il [GetActivityType( 'activity_debate' ).GetName] è giunto al termine."
+
+ # Rewards
+  debate_become_movement_leader_reward_title: "Leadership conquistata"
+  debate_become_movement_leader_reward: "[debate_winner.GetShortUIName] ha vinto il dibattito e diventa il nuovo [movement_leader|E] del [debate_winner.Custom('GetMyMovement')]"
+  debate_remain_movement_leader_reward_title: "Leadership difesa"
+  debate_remain_movement_leader_reward: "[debate_winner.GetShortUIName] ha vinto il dibattito e resta [movement_leader|E] del [debate_winner.Custom('GetMyMovement')]"
+  debate_increase_movement_power_reward_title: "Movimento rafforzato"
+  debate_increase_movement_power_reward: "[movement_power|E] ottenuto"
+  debate_loss_cost_title: "Dibattito perso"
+  debate_loss_cost: "Perdite"
+  debate_host_rewards_title: "Dibattito ospitato"
+  debate_guest_rewards_title: "Ha partecipato a un dibattito"
+
+ # Pulse Actions
+  apa_movement_ridiculed_title: "[second.GetShortUIName|U] ha ridicolizzato il movimento di [first.GetShortUINamePossessive|U]."
+  apa_debate_brought_huangdi_gift_title: "$apa_brought_huangdi_gift_title$"
+  apa_debate_entrant_disagreement_title: "$apa_entrant_disagreement_title$"
+  apa_debate_found_disciple_title: "$apa_found_disciple_title$"
+  apa_debate_fruitful_debate_title: "$apa_impressed_teacher_title$"
+
+  DEBATE_PROGRESS_TITLE_TT: "#T Sentimento del dibattito#!"
+  DEBATE_PROGRESS_GENERAL_TT: "$DEBATE_PROGRESS_TITLE_TT$\nUn dibattito è valutato in base alla prestazione di ciascun partecipante. Chi saprà influenzare con maggiore efficacia gli spettatori avrà più probabilità di essere proclamato vincitore."
+  DEBATE_PROGRESS_YOU_TT: "$DEBATE_PROGRESS_TITLE_TT$\nQuanto è probabile che [Activity.MakeScope.Var('debate_contender').Char.GetShortUIName] [CharAreIs(Character)] vinca il dibattito"
+  DEBATE_PROGRESS_OPPONENT_TT: "$DEBATE_PROGRESS_TITLE_TT$\nQuanto è probabile che [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] vinca il dibattito e resti al potere"
+  DEBATE_PROGRESS_MARKER_1_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] vincerà"
+  DEBATE_PROGRESS_MARKER_2_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] fortemente favorit[CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] per vincere"
+  DEBATE_PROGRESS_MARKER_3_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] leggermente favorit[CharAreIs(Activity.MakeScope.Var('debate_contender').Char )] per vincere"
+  DEBATE_PROGRESS_MARKER_4_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] e [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] hanno pari probabilità di vincere"
+  DEBATE_PROGRESS_MARKER_5_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] leggermente favorit[CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] per vincere"
+  DEBATE_PROGRESS_MARKER_6_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] fortemente favorit[CharAreIs( Activity.MakeScope.Var('challenged_movement_leader').Char )] per vincere"
+  DEBATE_PROGRESS_MARKER_7_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] vincerà"

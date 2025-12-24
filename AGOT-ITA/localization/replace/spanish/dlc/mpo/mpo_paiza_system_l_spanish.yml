@@ -1,0 +1,207 @@
+﻿l_spanish:
+
+
+ mpo_establish_paiza_system_decision: "Istituisci il Sistema Paiza"
+ mpo_establish_paiza_system_decision_desc: "Un sistema di tavolette speciali sarà istituito per attrarre ricchi forestieri e rafforzare i fedeli sudditi di [ROOT.Char.GetTitleAsNameNoTooltip]. Chiunque porti un [paiza|E] recante il nome [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitledFirstNameNoTooltip] porterà la mia autorità e avrà passaggio sicuro nelle mie terre. Chi osa disprezzare il mio nome sarà giustiziato come un cane."
+ mpo_establish_paiza_system_decision_tooltip: "Rafforza i tuoi sudditi fedeli"
+ mpo_establish_paiza_system_decision_confirm: "Per volontà del Cielo Eterno"
+ mpo_establish_paiza_system_decision_is_gurkhan: "Sei [ROOT.Char.Custom('DE_ART_DEF_P_A')] [gurkhan|E]"
+
+ mpo_establish_paiza_system_decision.grant_paiza_interaction_unlocked: "Sblocca l’[character_interaction|E] #V $mpo_interaction_grant_paiza$#! utilizzabile su [courtiers|E], [vassals|E] e [tributaries|E]"
+ mpo_establish_paiza_system_decision.request_paiza_interaction_unlocked: "Sblocca l’[character_interaction|E] #V $mpo_interaction_ask_for_paiza$#!  per [vassals|E], [tributaries|E] e [adventurers|E] in visita alla tua [court|E]"
+ mpo_establish_paiza_system_decision.paiza_obedient: "I personaggi che ricevono [artifacts|E] Paiza diventano [obedient|E] verso di te."
+ mpo_establish_paiza_system_decision.paiza_abuse_authority_unlocked: "@alert_icon! I personaggi con un Paiza ottengono accesso alla decisione #V $mpo_abuse_authority_paiza_decision$#!"
+ mpo_establish_paiza_system_decision.leverage_khan_authority_unlocked: "@alert_icon! I personaggi con un Paiza ottengono accesso all’interazione #V $mpo_interaction_leverage_khan_authority$#!"
+ mpo_establish_paiza_system_decision.call_for_merchants_decision_unlocked: "Sblocca la decisione [GetDecisionWithKey('mpo_call_for_merchants_decision').GetName]"
+ mpo_establish_paiza_system_decision.paiza_recently_established: "Il Sistema Paiza è già stato istituito da [THIS.Char.GetName]. Il suo essere ancora in vita ti impedisce di istituirne uno nuovo. Ogni suo respiro miserabile è un insulto alla tua autorità."
+
+ mpo_decisions_events.0099.t: "Sistema Paiza Istituito"
+ mpo_decisions_events.0099.desc: "Il mio potere è come la steppa: si estende all’infinito oltre l’orizzonte. Eppure io sono come una singola goccia di pioggia, legata ad un singolo luogo.\n\nOltre la steppa, la gente delle città usa registri per portare conoscenza oltre il proprio sguardo limitato. Userò la loro idea e distribuirò Paiza. I miei sudditi fedeli porteranno le parole più importanti di tutte: #EMP il mio nome.#!\n\n[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]: quelle rune incise sull’artefatto porteranno timore e obbedienza assoluta."
+ mpo_decisions_events.0099.a: "La mia volontà resa manifesta."
+
+ paiza_artifact_title: "Paiza [patron.Custom('IT_NAM_COL2')][patron.GetTitledFirstNameNoTooltip]"
+ paiza_artifact_desc: "[paiza|E], una tavoletta metallica semplice ma minacciosa che può portare potere e rovina. Sul retro sono incise le seguenti parole:\n\nPer volontà del Cielo Eterno. Sotto la protezione della Fortuna Imperiale. Un editto [patron.Custom('IT_NAM_COL2')][patron.GetTitledFirstName]; chiunque non lo rispetti sarà punito, sarà giustiziato."
+
+ mpo_call_for_merchants: "Convoca Visitatori Facoltosi"
+
+ mpo_call_for_merchants_decision: "$mpo_call_for_merchants$: Paiza"
+ mpo_call_for_merchants_decision_desc: "La Grande Steppa è molto più magnifica di quelle città straniere grasse e viziate. Eppure possiedono beni, congegni e idee che potrebbero rivelarsi utili per noi. Forse uno dei loro ricchi sciocchi si spingerà fin qui."
+ mpo_call_for_merchants_decision_tooltip: "$mpo_call_for_merchants_decision.merchant_will_arrive$"
+ mpo_call_for_merchants_decision_confirm: "Invia gli emissari"
+ mpo_call_for_merchants_dead_merchant_toast: "Il Visitatore Facoltoso Muore Durante il Viaggio"
+ mpo_call_for_merchants_dead_merchant_desc: "[merchant.GetShortUIName|U], il visitatore facoltoso, è morto durante il suo viaggio"
+
+ mpo_call_for_merchants_small_decision: "$mpo_call_for_merchants$: Offerte Locali"
+ mpo_call_for_merchants_small_decision_desc: "$mpo_call_for_merchants_decision_desc$"
+ mpo_call_for_merchants_small_decision_tooltip: "Migliora i tuoi soldati o abilita la creazione di [artifact|E]."
+ mpo_call_for_merchants_small_decision_confirm: "Invia l’emissario"
+ mpo_call_for_merchants_decision.merchant_will_arrive_smol: "$mpo_call_for_merchants_decision.merchant_will_arrive_generic$\n$BULLET_WITH_TAB$Circa #P 20%#! del tuo investimento in [gold|E]"
+ mpo_call_for_merchants_decision.merchant_will_arrive_generic: "Un ricco forestiero viaggerà verso la tua corte, guidando una carovana diretta alle città stanziali ben sviluppate. Al suo ritorno, potresti ricevere i seguenti benefici:\n$BULLET_WITH_TAB$Circa #P 40%#! del tuo investimento in [gold|E]\n$BULLET_WITH_TAB$Materiali per la creazione di [artifact|E] che sbloccano la decisione #V $commission_artifact_decision$#!\n$BULLET_WITH_TAB$Armamenti per la tua [horde|E] e [archer_cavalry|E]"
+ mpo_call_for_merchants_decision.gold_needed_smol: "Offerte più redditizie richiedono un investimento maggiore in [gold|e], fino a 800 [gold_i|E]"
+
+
+ mpo_call_for_merchants_decision.robbed_merchants: "Lo straniero precedente che ha risposto alla tua convocazione è scomparso in modo violento, e la voce si è diffusa. Ci vorrà del tempo prima che un’altra anima temeraria osi presentarsi."
+ mpo_call_for_merchants_decision.merchant_will_arrive: "$mpo_call_for_merchants_decision.merchant_will_arrive_generic$\n$BULLET_WITH_TAB$Progresso casuale di [innovation|E]"
+ mpo_call_for_merchants_decision.buildings: "Vari [internal_upgrades|E] agli [yurt_building|E] [GetDomicileBuilding('trade_yurt_01').GetName] offrono benefici aggiuntivi."
+ mpo_call_for_merchants_decision.gold_needed: "Offerte più redditizie richiedono un investimento maggiore in [gold|E], fino a 2400 [gold_i|E]"
+
+ mpo_decisions_events.0100.t: "$mpo_call_for_merchants_decision$"
+ mpo_decisions_events.0100.desc: "$mpo_decisions_events.2141.desc$"
+ mpo_decisions_events.0100.a: "Portatemi nuove idee."
+ mpo_decisions_events.0100.a_not_unlocked: "Non possiedi l'[yurt_building|E] [GetDomicileBuilding('trade_yurt_01').GetName]"
+ mpo_decisions_events.0100.b: "L’acciaio sarà ben utilizzato."
+ mpo_decisions_events.0100.c: "Armature per la mia Orda."
+ mpo_decisions_events.0100.d: "Scambiamo prima il gregge per oro."
+ mpo_decisions_events.0100.d.unlocked: "Potrai selezionare i beni richiesti dopo lo scambio della [herd|E].\n#weak Hai accesso a questa opzione perché possiedi l'[yurt_building|E] [GetDomicileBuilding('herd_trade_yurt_01').GetName].#!"
+ mpo_decisions_events.0100.e: "La tua ricchezza. E la tua vita. Ora."
+ mpo_decisions_events.0100.e.warning: "@alert_icon! #alert_trial Nessun altro visitatore facoltoso oserà presentarsi alla tua corte per due decenni. Non potrai prendere la decisione #V $mpo_call_for_merchants_decision$#! durante questo periodo.#!"
+
+ mpo_decisions_events.2141.t: "$mpo_call_for_merchants_small_decision$"
+ mpo_decisions_events.2141.desc: "[paiza_merchant.GetName] è arrivat[paiza_merchant.Custom('DE_END_PRO_S_N')] prima del previsto, con polvere sugli stivali e uno scintillio negli occhi.\n\n"Grazie per avermi accolto, saggi[ROOT.Char.Custom('DE_END_PRO_S_N')] e potente [ROOT.Char.GetTitleAsNameNoTooltip]. Ho sentito che siete interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] a beni da [merchant_origin.GetNameNoTier], beni che posso portare alla vostra yurta. Guiderò la carovana là e ritornerò.\n\nVi porterò umilmente ciò che desiderate. È acciaio grezzo dalle migliori fornaci? Armature che possono respingere qualsiasi colpo? O qualcos’altro?""
+ mpo_decisions_events.2141.b: "$mpo_decisions_events.0100.b$"
+ mpo_decisions_events.2141.c: "$mpo_decisions_events.0100.c$"
+ mpo_decisions_events.2141.d: "$mpo_decisions_events.0100.d$"
+ mpo_decisions_events.2141.d.unlocked: "$mpo_decisions_events.0100.d.unlocked$"
+ mpo_decisions_events.2141.e: "$mpo_decisions_events.0100.e$"
+ mpo_decisions_events.2141.e.warning: "$mpo_decisions_events.0100.e.warning$"
+ mpo_decisions_events.2141.upon_merchant_return: "$mpo_decisions_events.0100.upon_merchant_return$"
+
+
+ mpo_decisions_events.0100.upon_merchant_return: "Quando [paiza_merchant.GetNameNoTooltip] ritorna dal suo viaggio a [merchant_origin.GetName]:"
+
+ mpo_decisions_events.0101.t: "Ritorno dello Straniero"
+ mpo_decisions_events.0101.desc: "[paiza_merchant.GetName] è arrivat[paiza_merchant.Custom('DE_END_PRO_S_N')] e ora sorseggia del [Glossary( 'kumis', 'KUMIS_GLOSS')] nella mia yurta, dopo un lungo e arduo viaggio verso [merchant_origin.GetName] e ritorno.\n\nI beni preziosi richiesti vengono scaricati. Il lupo della steppa e l’agnello della città hanno trovato un modo per coesistere, anche se solo per un po’."
+ mpo_decisions_events.0101.a: "Meraviglioso!"
+ mpo_decisions_events.0101.b: "Raccontami storie di terre lontane"
+ mpo_decisions_events.0101.b.desc: "[paiza_merchant.GetName] ti intratterrà con racconti sulle terre che ha attraversato."
+
+ mpo_decisions_events.2137.t: "I Viaggi di [paiza_merchant.GetFirstNameNoTooltip]"
+ mpo_decisions_events.2137.desc_intro: "[paiza_merchant.GetName] prende fiato, guarda in lontananza e intreccia un racconto:\n#weak"
+ mpo_decisions_events.2137.desc_interludium: "\n\n#![paiza_merchant.GetSheHe|U] ansima, poi divaga su un altro regno:\n#weak"
+ mpo_decisions_events.2137.a: "Capisco"
+ mpo_decisions_events.2137.b: "Raccontami di più!"
+ mpo_decisions_events.2137.c: "Resta nella mia yurta."
+
+ mpo_decisions_events.2138.t: "Gregge in Cambio di Oro"
+ mpo_decisions_events.2138.desc: "Tu e [paiza_merchant.GetName] vi recate nella tua dimora [GetDomicileBuilding('trade_yurt_01').GetName] per discutere i dettagli. [paiza_merchant.GetSheHe|U] spiega:\n\n"Posso acquistare da voi una quantità considerevole di gregge. Ho stretto contatti durante il viaggio fin qui. Non c’è un acquirente all’ingrosso, ma dovrei riuscire a visitare abbastanza piccoli mandriani sulla via del ritorno per trarne profitto. O almeno non perderci troppo.\n\nVi faccio questa offerta per rispetto verso voi e la vostra maestà, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip].""
+ mpo_decisions_events.2138.desc_rate_1: "[GetDomicileBuilding('herd_trade_yurt_01').GetName] 6 [herd_i] per 1 [gold_i]"
+ mpo_decisions_events.2138.desc_rate_2: "[GetDomicileBuilding('herd_trade_yurt_03').GetName] 4 [herd_i] per 1 [gold_i]"
+ mpo_decisions_events.2138.desc_rate_3: "[GetDomicileBuilding('herd_trade_yurt_06').GetName] 2 [herd_i] per 1 [gold_i]"
+ mpo_decisions_events.2138.a: "Affare fatto."
+ mpo_decisions_events.2138.b: "Dai di più, guadagna di più."
+ mpo_decisions_events.2138.c: "Torniamo indietro."
+ mpo_decisions_events.2138.c.desc: "Non effettuerai lo scambio di [Concept('herd' , 'gregge')|E] e tornerai a discutere l’obiettivo di viaggio di [paiza_merchant.GetNamePossessive]."
+ mpo_decisions_events.2141.already_traded: "Hai già scambiato [herd|E] per [gold|E]"
+
+ mpo_abuse_authority_paiza_decision: "Abusa dell’Autorità del Gurkhan"
+ mpo_abuse_authority_paiza_decision_tooltip: "Il [gurkhan|E] parla attraverso me!"
+ mpo_abuse_authority_paiza_decision_desc: "Porto con me il nome del Gurkhan. Le rune incise nel mio paiza incutono timore nei cuori della gente. La terra attorno a me è fertile, ma chi vi abita è debole. Prenderò ciò che posso, non con la mia forza indomabile, ma attraverso il nome del Gurkhan."
+ mpo_abuse_authority_paiza_decision_confirm: "Nel nome del [gurkhan|E]!"
+ mpo_abuse_authority_paiza_decision.paiza_patron_not_topdog: "Il patrono del [paiza|E] non è più il [gurkhan|E]"
+ mpo_abuse_authority_paiza_decision.not_topdog_realm_or_steppe: "L’autorità del [gurkhan|E] non è riconosciuta qui"
+ mpo_abuse_authority_paiza_decision.no_more_paiza_abuse: "Il [gurkhan|E] ha reagito alle tue azioni"
+ mpo_abuse_authority_paiza_decision.region_already_abused: "Queste terre hanno già subito l’abuso dell’autorità del [gurkhan|E]"
+ mpo_abuse_authority_paiza_decision.nothing_to_abuse: "Non c’è terra pronta per essere sfruttata in questa [location|E]"
+
+ mpo_decisions_events.0110.t: "Nel Nome [paiza_patron.Custom('IT_NAM_COL2')][paiza_patron.GetTitleAsNameNoTooltip]"
+ mpo_decisions_events.0110.desc: "Sono [ROOT.Char.Custom('DE_ART_DEF_P_A')] #EMP fedele#! suddit[ROOT.Char.Custom('DE_END_PRO_S_N')] [paiza_patron.Custom('IT_NAM_COL2')][paiza_patron.GetTitledFirstName]. Porto il suo nome inciso nel metallo e la sua volontà nelle mie parole e azioni. La mia forza è la sua.\n\n[local_boi.Custom('DE_ART_DEF_P_D')] debole [local_boi.GetName] può supplicare quanto vuole. Non cambierà il decreto del Gurkhan che esce dalla mia bocca.\n\nTutte le ricchezze, tutti gli animali adatti di queste terre devono essere raccolti immediatamente e portati a me. Perché la vostra debolezza è un insulto all’autorità [paiza_patron.Custom('IT_NAM_COL2')][paiza_patron.GetTitleAsNameNoTooltip] e io ne farò... un #EMP uso migliore#!."
+ mpo_decisions_events.0110.a: "Raccogliete tutto ciò che si muove!"
+ mpo_decisions_events.0110.b: ""Non fiatate, cani!""
+ mpo_decisions_events.0110.c: "Ho cambiato idea."
+ mpo_decisions_events.0110.d: "Questo è #EMP sbagliato.#! Andiamocene!"
+ mpo_decisions_events.0110.b.success: "Successo"
+ mpo_decisions_events.0110.b.success_desc: "Nessuno parla [paiza_patron.Custom('IT_NAM_COL4')][paiza_patron.GetTitledFirstName] di ciò che è accaduto qui "
+ mpo_decisions_events.0110.b.failure: "[paiza_patron.Custom('IT_NAM_COL3')][paiza_patron.GetTitledFirstName] viene a sapere dell’abuso"
+ custom.mpo_resources_gained_abuse: "Bottino dalle [counties|E] vicine"
+
+ mpo_decisions_events.0111.t: "L’Ira del Gurkhan"
+ mpo_decisions_events.0111.desc: "Il Gurkhan è come la steppa stessa. La forza e la volontà di [paiza_patron.GetName] si estendono ovunque. Il suo nome è sussurrato dal vento.\n\nHo portato con me il suo nome, inciso nel metallo del Paiza. L’ho usato per incutere timore e ottenere obbedienza. Una volta di troppo, a quanto pare.\n\nOra è il mio turno di temere. Il Gurkhan ha saputo delle mie azioni e le considera un abuso della sua parola, del suo nome. E per questo, diventerò un esempio raccapricciante per tutta la steppa."
+ mpo_decisions_events.0111.a: "Accolgo il giudizio."
+ mpo_decisions_events.0111.b: ""Ah, ma le mie azioni erano giuste, vedete...""
+
+ mpo_decisions_events.0112.t: "$mpo_decisions_events.0111.t$"
+ mpo_decisions_events.0112.desc: "Sono come la steppa stessa. La mia forza e volontà si estendono ovunque. Il mio nome è sussurrato dal vento.\n\nI cavalieri portano il mio nome inciso nel metallo dei loro Paiza. Eppure alcuni lo distorcono come serpenti, sciocchi avidi come [paiza_abuser.GetName] e [paiza_abuser_1.GetName]. Non molto tempo fa [paiza_abuser.GetName] si prostrava davanti a me come un[paiza_abuser.Custom('DE_PRO_POS_P_2P')] verme, ora invece abusa dei miei sudditi fedeli, che cercano in me risposte, giustizia. Che il vento porti ora la mia vera volontà!\n\n"La notizia mi è appena giunta. Che si sappia che [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip] affronta qualsiasi cane castrato, [paiza_abuser.GetFirstNameNoTooltip], [paiza_abuser_1.GetFirstNameNoTooltip], chiunque. Il mio nome è il mio nome!""
+ mpo_decisions_events.0112.a: "Portatemi le loro teste!"
+ mpo_decisions_events.0112.a.desc: "Altri [characters|E] con i tuoi [paiza|E] saranno meno inclini ad abusare della tua autorità se sia [paiza_abuser.GetFirstName] che [paiza_abuser_1.GetFirstName] sono morti."
+ mpo_decisions_events.0112.b: "Lascerò correre... per ora."
+ mpo_decisions_events.0112.c: "Non disturbatemi mai più."
+ mpo_decisions_events.0112.c.flavor: "Ulteriori abusi della tua autorità avverranno, ma non ne verrai più informat[ROOT.Char.Custom('DE_END_PRO_S_N')]."
+
+
+ mpo_paiza_abuse_counter_effect.random: "Le azioni del [gurkhan|E] sono casuali come solo gli esseri umani sanno essere"
+ mpo_paiza_abuse_counter_effect.angry: "@warning_icon! Il [gurkhan|E] è su tutte le furie per il tuo abuso di autorità e reagirà quasi sicuramente"
+ mpo_paiza_abuse_counter_effect.annoyed: "@alert_icon! Il [gurkhan|E] ha provato fastidio per il tuo abuso di autorità e probabilmente reagirà"
+ mpo_paiza_abuse_counter_effect.indifferent: "Il [gurkhan|E] è indifferente al tuo abuso di autorità e non prenderà alcuna misura questa volta"
+ mpo_paiza_abuse_counter_effect.khan_reaction_action: "@alert_icon! Il [gurkhan|E] reagirà in modo #EMP violento#!"
+ mpo_paiza_abuse_counter_effect.khan_reaction_angry: "Il [gurkhan|E] sarà #EMP su tutte le furie#! ma non prenderà alcuna misura"
+ mpo_paiza_abuse_counter_effect.khan_reaction_annoyed: "Il [gurkhan|E] proverà #EMP fastidio#! ma non prenderà alcuna misura"
+
+ mpo_decisions_events.0111.a.effects: "[paiza_patron.GetName] ottiene una [imprisonment_reason|E] e una [execute_reason|E] contro di te."
+ mpo_decisions_events.0111.a.severe_effects: "[paiza_patron.GetName] ottiene una [imprisonment_reason|E] e una [execute_reason|E] contro di te e i tuoi [close_family_members|E]."
+ mpo_decisions_events.0111.a.survived_khans_wrath: "Pur sopravvivendo all’ira del Gurkhan, non potrai più abusare della sua autorità."
+
+ mpo_call_for_merchants_decision_is_gurkhan: "Sei il [gurkhan|E]"
+
+ mpo_paiza_abused_county_modifier: "Autorità del Gurkhan Abusata"
+ mpo_paiza_abused_county_modifier_desc: "[paiza|E]: La terra è stata saccheggiata dalla sua stessa popolazione per timore del nome del Gurkhan"
+
+ mpo_fascination_leap_modifier: "Balzo di Fascinazione"
+ mpo_fascination_leap_modifier_desc: "Un #weak Jegun#! di artigiani esperti e studiosi provenienti da terre lontane assiste nella burocrazia e nell’innovazione"
+
+ mpo_artifact_material_modifier: "Materiali per Artefatti"
+ mpo_artifact_material_modifier_desc: "Questo personaggio possiede un’ampia scorta di materiali grezzi per forgiare i più illustri artefatti.\n\nSblocca la [decision|E] #V $commission_artifact_decision$#! "
+
+ mpo_paiza_robbed_merchants: "Forestieri Derubati"
+ mpo_paiza_robbed_merchants_desc: "Questo personaggio ha ucciso un ricco forestiero che ha osato fare affari nella steppa."
+
+ abused_paiza_authority: "Autorità Abusata"
+ gravely_abused_paiza_authority: "Autorità Gravemente Abusata"
+ abused_paiza_authority_family: "La Famiglia ha Abusato dell’Autorità"
+
+ paiza_merchant_skill_gold_percent: "Recupererai circa #P 40%#! del tuo investimento in [gold|E]. Le alte [skills|E] di [paiza_merchant.GetName] aumenteranno questa percentuale"
+ paiza_merchant_skill_gold_percent_smol: "Recupererai circa #P 20%#! del tuo investimento in [gold|E]. Le alte [skills|E] di [paiza_merchant.GetName] aumenteranno questa percentuale"
+ paiza_yurt_gold_percent_1: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]: aumento del profitto #P +5%#!"
+ paiza_yurt_gold_percent_2: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]: aumento del profitto #P +10%#!"
+ paiza_yurt_gold_percent_3: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]: aumento del profitto #P +20%#!"
+
+ paiza_troops: "Gli Indomiti [paiza_merchant.GetCulture.GetCollectiveNoun]"
+
+ paiza_fertility_modifier_1: "Il Commercio Fertile"
+ paiza_fertility_modifier_1_desc: "L’arrivo della carovana di mercanti stranieri ha portato nuovi beni e animali nella regione, aumentando notevolmente la diversità delle specie e quindi la fertilità di questa contea"
+ paiza_fertility_modifier_2: "$paiza_fertility_modifier_1$"
+ paiza_fertility_modifier_2_desc: "$paiza_fertility_modifier_1_desc$"
+ paiza_fertility_modifier_3: "$paiza_fertility_modifier_1$"
+ paiza_fertility_modifier_3_desc: "$paiza_fertility_modifier_1_desc$"
+
+ mpo_paiza_improve_maa_modifier: "Armatura Straniera"
+ mpo_paiza_improve_maa_modifier_desc: "Il Tumen di questo personaggio è completamente rivestito di armature complete."
+
+ paiza_merchant_on_route_tt: "Visitatore Facoltoso in Viaggio verso la Tua Corte"
+ paiza_merchant_on_route_tt_desc: "[merchant.GetName], un[merchant.Custom('DE_PRO_POS_P_2P')] audace [merchant.GetCulture.GetName], è partit[merchant.Custom('DE_END_PRO_S_N')] da [merchant_origin.GetName]"
+
+ yurt_paiza_bonuses_generic: "Effetti commerciali aggiuntivi dai tuoi [yurt_buildings|E]:"
+ paiza_received_obedience_value: "Valore di [obedience|E]: #P +60#!"
+
+ will_abuse_paiza_reason: "Intende abusare del Paiza: $VALUE|=+0$"
+
+ nomad_yurt_paiza_fertility_gain_lvl_1_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_1$"
+ nomad_yurt_paiza_fertility_gain_lvl_2_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_2$"
+ nomad_yurt_paiza_fertility_gain_lvl_3_tooltip: "[GetDomicileBuilding('fertility_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_fertility_gain_lvl_3$"
+ 
+ nomad_yurt_paiza_herd_gain_lvl_1_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_1$"
+ nomad_yurt_paiza_herd_gain_lvl_2_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_2$"
+ nomad_yurt_paiza_herd_gain_lvl_3_tooltip: "[GetDomicileBuilding('herd_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_herd_gain_lvl_3$"
+
+ nomad_yurt_paiza_more_gold_lvl_1_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_1$"
+ nomad_yurt_paiza_more_gold_lvl_2_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_2$"
+ nomad_yurt_paiza_more_gold_lvl_3_tooltip: "[GetDomicileBuilding('merchant_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_more_gold_lvl_3$"
+
+ nomad_yurt_paiza_char_gain_lvl_1_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_1$"
+ nomad_yurt_paiza_char_gain_lvl_2_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_2$"
+ nomad_yurt_paiza_char_gain_lvl_3_tooltip: "[GetDomicileBuilding('char_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_char_gain_lvl_3$"
+
+ nomad_yurt_paiza_maa_gain_lvl_1_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_1$"
+ nomad_yurt_paiza_maa_gain_lvl_2_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_2$"
+ nomad_yurt_paiza_maa_gain_lvl_3_tooltip: "[GetDomicileBuilding('knight_trade_yurt_01').GetName]: $domicile_building_parameter_nomad_yurt_paiza_maa_gain_lvl_3$"
+
+ already_received_a_paiza: "[paiza|E] già ricevuto"

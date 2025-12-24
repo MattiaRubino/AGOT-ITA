@@ -1,0 +1,158 @@
+﻿l_spanish:
+
+ ##################################################
+ # INSTALL REGENT FACTION WAR
+ ##################################################
+  JAPANESE_REGENT_FACTION_WAR: "Guerra per insediare [CLAIMANT.GetTitledFirstName] come reggente"
+replace_ceremonial_regent_faction_war_name: "Insedia $game_concept_ceremonial_regent$"
+replace_ceremonial_regent_faction_war: "$replace_ceremonial_regent_faction_war_name$"
+  replace_ceremonial_regent_faction_war_victory_defender_desc: "Verrai [imprisoned|E] e tutte le terre saranno confiscate da [attacker.GetShortUIName]."
+  replace_ceremonial_regent_faction_war_victory_desc: "[defender.GetShortUIName|U] sarà [imprisoned|E] e tutte le terre saranno confiscate da [attacker.GetShortUIName]."
+  replace_ceremonial_regent_faction_war_white_peace_defender_desc: "Tieni i tuoi [titles|E] e ottieni una [truce|E] con ogni [vassal|E] ribelle."
+  replace_ceremonial_regent_faction_war_white_peace_desc: "[defender.GetShortUIName|U] mantiene i [defender.GetHerHis] [titles|E]. Si ottiene un [revoke_title_reason|E] contro ogni [vassal|E] ribelle."
+  replace_ceremonial_regent_faction_war_defeat_defender_desc: "Tieni i tuoi [titles|E] e imprigioni tutti i [vassals|E] ribelli."
+  replace_ceremonial_regent_faction_war_defeat_desc: "[defender.GetShortUIName|U] mantiene i [defender.GetHerHis] [titles|E] e imprigiona tutti i [vassals|E] ribelli."
+ ##################################################
+ # RESTORE EMPEROR FACTION WAR
+ ##################################################
+  JAPANESE_RESTORE_EMPEROR_FACTION_WAR: "Guerra per restaurare [CLAIMANT.GetTitledFirstName]"
+  restore_ceremonial_liege_faction_war_name: "Restaurare il $game_concept_ceremonial_liege$"
+  restore_ceremonial_liege_faction_war: "$restore_ceremonial_liege_faction_war_name$"
+  restore_ceremonial_liege_faction_war_white_peace_desc: "[defender.GetShortUIName|U] terrà tutti i [titles|E]. Si ottiene un [revoke_title_reason|E] contro ogni [vassal|E] ribelle."
+  restore_ceremonial_liege_faction_war_defeat_desc: "La [faction|E] è sciolta, [attacker.GetShortUIName] e gli altri ribelli sono [imprisoned|E]. [claimant.GetTitledFirstName] è deposto."
+  restore_ceremonial_liege_faction_war_defeat_end_desc: "[claimant.GetTitledFirstName] è deposto."
+  restore_ceremonial_liege_faction_war_victory_desc: "[defender.GetShortUIName|U] perderà tutti i [titles|E], sarà [imprisoned|E] e deposto."
+ ##################################################
+ # INSTALL BLOC MEMBER WAR
+ ##################################################
+  japan_install_bloc_member_cb: "Espansione del Blocco"
+  JAPAN_INSTALL_BLOC_MEMBER_CB_NAME: "[ATTACKER.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip] [bloc_expansion|E]"
+  JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Guerra di espansione di [ATTACKER.GetConfederation.GetName]"
+  JAPAN_INSTALL_BLOC_MEMBER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_install_bloc_member_cb_victory_desc: "[attacker.GetShortUIName|U] sequestrerà i [titles|E] contesi per [attacker.GetConfederation.GetName] e deciderà come distribuirli."
+  japan_install_bloc_member_cb_white_peace_desc: "[defender.GetShortUIName|U] difenderà le [defender.GetHerHis] terre."
+  japan_install_bloc_member_cb_defeat_desc: "[attacker.GetShortUIName|U] [CharAreIs(attacker)] umiliat[attacker.Custom('ES_OA')]."
+  japan_install_bloc_member_cb_ended_invalid.desc: "$japan_install_bloc_member_cb$ è stato invalidato"
+ ##################################################
+ # SORYO CONQUEST WAR
+ ##################################################
+  japan_soryo_conquest_cb: "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$"
+  JAPAN_SORYO_CONQUEST_DUCHY_CB_NAME: "Conquista [duchy|E] $japan_feudal_government$ di [TITLE.GetBaseNameNoTier]"
+  JAPAN_SORYO_CONQUEST_COUNTY_CB_NAME: "Conquista [county|E] $japan_feudal_government$ di [TITLE.GetBaseNameNoTier]"
+  JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC: "Conquista $japan_feudal_government$"
+  JAPAN_SORYO_CONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Conquista [ATTACKER.GetPrimaryTitle.GetAdjective] di [TITLE.GetBaseNameNoTier]"
+  JAPAN_SORYO_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME: "$ORDER$ Conquista della casa [ATTACKER.GetHouse.GetName] di [TITLE.GetBaseNameNoTier]"
+  JAPAN_SORYO_CONQUEST_LANDLESS_WAR_NAME_BASE: "[ATTACKER.GetHouse.GetBaseName][DEFENDER.GetPrimaryTitle.GetName]"
+  JAPAN_SORYO_CONQUEST_LANDLESS_COUNTY_CB_NAME: "Conquista [county|E] $japan_feudal_government$ di [TITLE.GetBaseNameNoTier]"
+  japan_soryo_conquest_county_landless_cb: "$japan_soryo_conquest_cb$"
+  japan_soryo_conquest_county_cb: "$japan_soryo_conquest_cb$"
+  japan_soryo_conquest_duchy_cb: "$japan_soryo_conquest_cb$"
+  japan_soryo_conquest_cb_ended_invalid.desc: "$JAPAN_SORYO_CONQUEST_CB_NAME_GENERIC$ è stato invalidato"
+  japan_soryo_conquest_cb_admin_warning: "\n@warning_icon!#X Poiché [defender.GetShortUIName|U] è un [vassal|E] [ritsuryo|E], il [attacker.GetTopLiege.GetTitleAsName|V] considererà ciò un [crime_i|E][crime|E]."
+  tgp_japan_soryo_war_is_crime_title: "Crimine annotato"
+  tgp_japan_soryo_war_is_crime_kampaku_title: "Governatorato attaccato"
+  admin_soryo_conquest_crime: "Governatorato attaccato"
+  enforced_pacification_opinion: "Pacificazione imperiale"
+ ##################################################
+ # DEMAND RITSURYO WAR
+ ##################################################
+  japan_demand_administrative_cb: "$JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME$"
+  JAPAN_DEMAND_ADMINISTRATIVE_CB_NAME: "Imporre integrazione amministrativa"
+  JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Integrazione amministrativa imposta di [DEFENDER.GetPrimaryTitle.GetBaseNameNoTier] da [ATTACKER.GetPrimaryTitle.GetAdjective]"
+  JAPAN_DEMAND_ADMINISTRATIVE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_demand_administrative_cb_victory_desc: "Tutte le terre di [defender.GetShortUINamePossessive|U] saranno confiscate e restituite al [attacker.GetTopLiege.GetTitleAsNameNoTooltip]."
+  japan_demand_administrative_cb_victory_vassal_desc: "Il tuo servizio verso [attacker.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] sarà riconosciuto."
+  japan_demand_administrative_cb_white_peace_desc: "[defender.GetShortUIName|U] resterà un [soryo|E] [vassal|E]."
+  japan_demand_administrative_cb_defeat_desc: "Poiché [attacker.GetShortUIName] [CharAreIs(attacker)] non il [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] resterà un [soryo|E] [vassal|E]."
+  japan_demand_administrative_cb_defeat_desc_independence: "Poiché [attacker.GetShortUIName|U] è il [attacker.GetTopLiege.GetTitleAsNameNoTooltip], [defender.GetShortUIName] e ogni [allies|E] diventeranno [independent|E] [soryo|E] [realms|E]."
+  japan_demand_administrative_cb_ended_invalid.desc.attacker: "La [war.GetName] è finita: [attacker.GetShortUIName] non è [ritsuryo|E]"
+  japan_demand_administrative_cb_ended_invalid.desc: "La [war.GetName] è finita: [defender.GetShortUIName] non è [soryo|E] o ha lasciato il [realm|E]"
+  japan_demand_administrative_cb_warning_japan_tt: "@warning_icon! #X Se perdi la [war|E], [recipient.GetShortUIName] e i [recipient.GetHerHis] [allies|E] diventeranno [independent|E] [soryo|E] [realms|E]"
+  enforced_administrative_opinion: "Integrazione amministrativa imposta"
+ ##################################################
+ # IMPERIAL PACIFICATION WAR
+ ##################################################
+  japan_imperial_expansion_cb: "$JAPAN_IMPERIAL_EXPANSION_CB_NAME$"
+  JAPAN_IMPERIAL_EXPANSION_CB_NAME: "Pacificazione imperiale del [county|E]"
+  JAPAN_IMPERIAL_EXPANSION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Pacificazione di [TITLE.GetBaseName]"
+  JAPAN_IMPERIAL_EXPANSION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_imperial_expansion_cb_victory_desc_attacker: "Il [title|E] conteso sarà sequestrato da te."
+  japan_imperial_expansion_cb_victory_desc: "Il [title|E] conteso sarà sequestrato dal [attacker.GetTopLiege.GetTitleAsNameNoTooltip]."
+  japan_imperial_expansion_cb_ended_invalid.desc.attacker: "La [war.GetName] è finita: [attacker.GetShortUIName] [CharAreIs(attacker)] non [ritsuryo|E] o [soryo|E], oppure non esiste un [ceremonial_liege|E]"
+  japan_imperial_expansion_cb_ended_invalid.desc: "La [war.GetName] è finita: [defender.GetShortUIName] è entrato nel [realm|E], o non detiene [county|E] validi come bersaglio"
+  japan_imperial_expansion_cb_warning_japan_tt: "@warning_icon! #X Se perdi la [war|E], [recipient.GetShortUIName] e i [recipient.GetHerHis] [allies|E] diventeranno [independent|E] [soryo|E] [realms|E]"
+  japan_imperial_expansion_cb_neighbour_tt: "[defender.GetShortUIName|U] non detiene un [county|E] confinante con [attacker.GetTopLiege.GetPrimaryTitle.GetName]"
+  CB_JAPANESE_GOVERNMENT: "[government|E] giapponese"
+  tgp_japan_pacification_war_valid_empire_tt: "Il [target.GetBaseName] non è parte [de_jure|E] di [GetTitleByKey('e_japan').GetBaseName]"
+  tgp_japan_pacification_war_valid_region_tt: "Il [target.GetBaseName] non è in [GetGeographicalRegion('world_asia_japan').GetName] o [GetGeographicalRegion('world_asia_sakhalin_hokkaido').GetName]"
+ ##################################################
+ # IMPERIAL RECONQUEST WAR
+ ##################################################
+  japan_imperial_reconquest_cb: "$JAPAN_IMPERIAL_RECONQUEST_CB_NAME$"
+  JAPAN_IMPERIAL_RECONQUEST_CB_NAME: "Riconquista imperiale del Giappone #weak ([de_jure|E])#!"
+  JAPAN_IMPERIAL_RECONQUEST_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Riconquista imperiale del Giappone"
+  JAPAN_IMPERIAL_RECONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_imperial_reconquest_cb_victory_desc: "[attacker.GetTopLiege.GetShortUIName] sequestra i [titles|E] contesi."
+  japan_imperial_reconquest_cb_ended_invalid.desc.attacker: "La [war.GetName] è finita: [attacker.GetShortUIName] [CharAreIs(attacker)] non [ritsuryo|E] o [soryo|E], oppure non esiste un [ceremonial_liege|E]"
+  japan_imperial_reconquest_cb_ended_invalid.desc: "La [war.GetName] è finita: [defender.GetShortUIName] è entrato nel [realm|E], o non detiene alcun [county|E] valido come bersaglio"
+  japan_imperial_reconquest_cb_warning_japan_tt: "@warning_icon! #X Se perdi la [war|E], [recipient.GetShortUIName] e i [recipient.GetHerHis] [allies|E] diventeranno [independent|E] [soryo|E] [realms|E]"
+  japan_imperial_reconquest_cb_neighbour_tt: "[defender.GetShortUIName|U] non detiene un [county|E] confinante"
+  tgp_japan_reconquest_war_valid_de_jure_tt: "L’obiettivo deve essere una parte [de_jure|E] di [GetTitleByKey('e_japan').GetDefinitiveName]"
+  japan_imperial_reconquest_cb_cost_tt: "[counties|E]"
+ ##################################################
+ # MAINTAIN SORYO WAR
+ ##################################################
+  JAPAN_REFUSED_RITSURYO_WAR_NAME: "Guerra per mantenere il governo $japan_feudal_government$"
+  japan_refused_ritsuryo_cb_victory_desc_defender: "[attacker.GetShortUIName|U] diventa [ceremonial_regent|E]."
+  japan_refused_ritsuryo_cb_victory_desc: "[attacker.GetShortUIName|U] diventa [ceremonial_regent|E]."
+  japan_refused_ritsuryo_cb_white_peace_desc_defender: "Stabilisci una tregua con [attacker.GetShortUIName] e ottieni un [revoke_title_reason|E] contro di [attacker.GetSheHe]."
+  japan_refused_ritsuryo_cb_white_peace_desc: "[attacker.GetShortUIName|U] e [defender.GetShortUIName] stabiliscono una tregua. [defender.GetShortUIName|U] ottiene un [revoke_title_reason|E] contro [attacker.GetShortUIName]."
+  japan_refused_ritsuryo_cb_defeat_desc_defender: "Tu [imprison|E] [attacker.GetShortUIName]."
+  japan_refused_ritsuryo_cb_defeat_desc: "[defender.GetShortUIName|U] [imprisons|E] [attacker.GetShortUIName]."
+##################################################
+ # SORYO ERADICATE HOUSE WAR
+ ##################################################
+  eradicate_house_cb: "Eradicare la casa rivale"
+  ERADICATE_HOUSE_CB_NAME: "Eradicare la casa [DEFENDER.GetHouse.GetBaseName]"
+  ERADICATE_HOUSE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetHouse.GetBaseName] tenta di eradicare i [DEFENDER.GetHouse.GetBaseName]"
+  ERADICATE_HOUSE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+eradicate_house_cb_victory_desc: "#X @warning_icon! [defender.GetShortUINamePossessive|U] [house|E] sarà annientata per mano di [attacker.GetShortUINamePossessive]!#!"
+  eradicate_house_cb_white_peace_desc: "[defender.GetShortUIName|U] preserverà il [defender.GetHerHis] onore."
+  eradicate_house_cb_defeat_desc: "La [house|E] di [attacker.GetShortUINamePossessive|U] sarà eradicata da [defender.GetShortUIName]."
+  eradicate_house_cb_ended_invalid.desc: "$ERADICATE_HOUSE_CB_NAME$ è stato invalidato"
+  every_close_family_house_member_in_court_cb_win_desc: "Ogni [spouse|E] e membro della [house|E] nella [court|E] di [defender.GetShortUINamePossessive]"
+  every_close_family_house_member_in_court_cb_lose_desc: "Ogni [spouse|E] e membro della [house|E] nella [court|E] di [attacker.GetShortUINamePossessive]"
+##################################################
+ # ESTABLISH SORYO ADMINISTRATION WAR
+ ##################################################
+  japan_establish_soryo_administration_cb: "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$"
+  JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME: "Istituire amministrazione Sōryō"
+  JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Guerra dei [DEFENDER.GetHouse.GetBaseNameNoTooltip] per istituire l’amministrazione Sōryō"
+  JAPAN_ESTABLISH_SORYO_ADMINISTRATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_establish_soryo_administration_cb_victory_desc: "[attacker.GetShortUIName|U] sostituirà [defender.GetShortUIName] come sovrano di [defender.GetPrimaryTitle.GetBaseNameNoTier] e imprigionerà tutti i difensori."
+  japan_establish_soryo_administration_cb_white_peace_desc: "[defender.GetShortUIName|U] rimarrà [ritsuryo|E]."
+  japan_establish_soryo_administration_cb_defeat_desc: "[defender.GetShortUIName|U], e tutti i membri del [bloc|E], adotteranno il [government] [GetGovernment( 'japan_feudal_government' ).GetName] e imprigioneranno tutti gli attaccanti."
+  japan_establish_soryo_administration_cb_ended_invalid.desc: "$JAPAN_ESTABLISH_SORYO_ADMINISTRATION_CB_NAME$ è stato invalidato"
+##################################################
+ # CEREMONIAL CLAIMANT FACTION WAR
+ ##################################################
+  ceremonial_claimant_faction_war: "Fazione pretendente cerimoniale"
+  CEREMONIAL_CLAIMANT_WAR_NAME: "Guerra per la pretesa di [CLAIMANT.GetTitledFirstNamePossessive] su [TITLE.GetDefinitiveName|l]"
+  ceremonial_claimant_faction_war_victory_desc: "Il [claimant|E] diventa il [ceremonial_liege|E]."
+  ceremonial_claimant_faction_war_white_peace_desc: "Il [ceremonial_liege|E] resta invariato. Si ottiene un [revoke_title_reason|E] contro ogni vassallo ribelle."
+  ceremonial_claimant_faction_war_defeat_desc: "Il [ceremonial_liege|E] resta invariato. Tutti i [vassals|E] ribelli sono [imprisoned|E]."
+ ##################################################
+ # BLOC WAR
+ ##################################################
+  japan_bloc_war_cb: "$JAPAN_BLOC_WAR_CB_NAME$"
+  JAPAN_BLOC_WAR_CB_NAME: "[ATTACKER.GetConfederation.GetLeadingHouse.GetNameNoTooltip]-[DEFENDER.GetConfederation.GetLeadingHouse.GetNameNoTooltip] [bloc_supremacy_war|E]"
+  JAPAN_BLOC_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Guerra di supremazia tra blocchi [ATTACKER.GetConfederation.GetLeadingHouse.GetName]-[DEFENDER.GetConfederation.GetLeadingHouse.GetName]"
+  JAPAN_BLOC_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  japan_bloc_war_cb_victory_desc: "[defender.GetShortUIName|U] [CharAreIs(defender)] costrett[defender.Custom('ES_OA')] a riconoscere la superiorità della [attacker.GetConfederation.GetName]."
+  japan_bloc_war_cb_white_peace_desc: "[defender.GetShortUIName|U] preserverà l’onore della [defender.GetConfederation.GetName]."
+  japan_bloc_war_cb_defeat_desc: "[attacker.GetShortUIName|U] [CharAreIs(attacker)] costrett[attacker.Custom('ES_OA')] a riconoscere la superiorità della [defender.GetConfederation.GetName]."
+  japan_bloc_war_cb_ended_invalid.desc: "$JAPAN_BLOC_WAR_CB_NAME$ è stato invalidato"
+  tgp_bloc_war_defeat_member_description: "[member_houses|E] del [bloc|E] sconfitto che riconosceranno la [supremacy|E] del vincitore:"
+  tgp_bloc_war_defeat_member_house_description: "$BULLET_WITH_TAB$[CHARACTER.GetHouse.GetBaseName]"
+  japan_bloc_war_cb_cohesion_requirement_tt: "È richiesta almeno #V 25#! di [cohesion|E] per iniziare questa [war|E] #weak (Attuale: [attacker.GetConfederation.GetCohesion|V0])#!"

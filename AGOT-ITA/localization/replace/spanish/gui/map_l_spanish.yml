@@ -4,7 +4,9 @@
  CHARACTER_TRAVELING_OWNER:0 "In [PROVINCE.GetName|V] [Character.Custom('agot_character_traveling_loc')]"
  IMPASSIBLE_PROVINCE_TOOLTIP:0 "#T Terreno impraticabile#!"
  IMPASSPABLE_SEA_PROVINCE_TOOLTIP:0 "#T Mare Incognitum#!"
- #End AGOT modifiche
+  MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTierNoTooltip|U]#!"
+
+  #End AGOT modifiche
 
  ONMAP_ARMY_UNIT_TOOLTIP:0 "$NAME$ ($CONTROLLER$)\n($MORALE|V$%)(morale)\nRinforzi/mese: $REINFORCEMENTS|V$\nLeve: $LEVIES$ / $MAX_LEVIES|V$\nUomini d'Arme: $MEN_AT_ARMS$ / $MAX_MEN_AT_ARMS|V$\nReggimenti: $REGIMENTS|V$\nMantenimento: $MAINTENANCE$\nRifornimenti: $SUPPLY|V$ / $MAX_SUPPLY|V$\nLimite rifornimenti: $SUPPLY_LIMIT|V$"
  UNIT_WILL_ARRIVE:0 "$NAME$, arrivo in [DATE.GetTimeToDate] ([DATE.GetStringShort|V])"
@@ -33,7 +35,6 @@ UNIT_TOOLTIP_HEADER: "$IDENTIFIER|U$ [Army.GetTypeName]"
  CHARACTER_TRAVELING_ENTOURAGE:0 "Nell'[entourage|E] di [TRAVEL_PLAN.GetData.GetOwner.GetShortUIName|V] a [PROVINCE.GetName|V]" 
  FORD_TOOLTIP:1 "Guado tra $FROM$ e $TO$"
  STRAIT_TOOLTIP:1 "Stretto tra $FROM$ e $TO$"
- MAP_REALM_TT_HEADER:0 "#T [TITLE.GetNameNoTooltip|U]#!"
  MAP_REALM_TT_BOTTOM:0 "Governante: [CHARACTER.LocalPlayerString( 'Tu', '' )][CHARACTER.LocalPlayerString( '', 'Loc_FR_du_GetShortUINameNoTooltip' )]"
  MAP_REALM_LOBBY_TT_HEADER:0 "#T [CHARACTER.GetShortUINameNotMeNoTooltip]#!\n[TITLE.GetNameNoTooltip]"
  MAP_REALM_LOBBY_TT_BOTTOM:0 "\n#I Clicca per selezionare#!"

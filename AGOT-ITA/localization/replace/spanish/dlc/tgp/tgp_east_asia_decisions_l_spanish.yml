@@ -1,0 +1,113 @@
+﻿l_spanish:
+
+  restore_mandala_capital_decision: "Restaurare la capitale mandala"
+  restore_mandala_capital_decision_desc: "Rovine, macerie, resti... Risorgeremo dalle ceneri per ricostruire e restaurare ciò che è andato perduto. Il nostro splendore tornerà a brillare, proiettando un'ombra su chi cerca di distruggerlo."
+  restore_mandala_capital_decision_tooltip: "Ripristinerai l’antico splendore della tua capitale"
+  restore_mandala_capital_decision_confirm: "Restaurare la capitale"
+
+  convert_to_mandala_government_decision: "Adottare il governo mandala"
+  convert_to_mandala_government_decision_desc: "È scritto nelle stelle, un faro lucente e seducente di divinità. Tra noi è nato un Devaraja, che regnerà su tutti i piani dell’esistenza."
+  convert_to_mandala_government_decision_tooltip: "Abbandona il tuo [government|E] attuale e diventa un [mandala|E] [ruler|E]"
+  convert_to_mandala_government_decision_confirm: "Che il Mandala governi"
+
+  CHOOSE_DECREE_DECISION_NEXT_STEP_BUTTON: "Scegli il decreto del Devaraja"
+  CONVERT_TO_MANDALA_DECISION_SELECT_DECREE_TITLE: "Scegli un [decree|E]"
+
+  set_devaraja_decree_prosperity: "$game_concept_mandala_decree_prosperity$"
+  set_devaraja_decree_prosperity_desc: "Decreta che il $game_concept_mandala_decree_prosperity$ sia il fulcro del reame"
+  set_devaraja_decree_prosperity_tooltip: "Imposta il [prosperity_decree|E] come tuo primo [mandala_decree|E]"
+  set_devaraja_decree_option_prosperity: "$game_concept_prosperity_decree$\n#low Abbraccia la [GetLaw('mandala_decree_prosperity').GetName]#!"
+
+  set_devaraja_decree_expansion: "$game_concept_mandala_decree_expansion$"
+  set_devaraja_decree_expansion_desc: "Decreta che il $game_concept_mandala_decree_expansion$ sia il fulcro del reame"
+  set_devaraja_decree_expansion_tooltip: "Imposta l’[expansion_decree|E] come tuo primo [mandala_decree|E]"
+  set_devaraja_decree_option_expansion: "$game_concept_expansion_decree$\n#low Abbraccia la [GetLaw('mandala_decree_expansion').GetName]#!"
+
+  set_devaraja_decree_reverence: "$game_concept_mandala_decree_reverence$"
+  set_devaraja_decree_reverence_desc: "Decreta che il $game_concept_mandala_decree_reverence$ sia il fulcro del reame"
+  set_devaraja_decree_reverence_tooltip: "Imposta il [reverence_decree|E] come tuo primo [mandala_decree|E]"
+  set_devaraja_decree_option_reverence: "$game_concept_reverence_decree$\n#low Abbraccia la [GetLaw('mandala_decree_reverence').GetName]#!"
+
+  faith_must_be_dharmic_family_tt: "La [faith|E] deve far parte della [religious_family|E] [GetReligionFamily('rf_eastern').GetName]"
+  faith_must_be_pagan_family_tt: "La [faith|E] deve far parte della [religious_family|E] [GetReligionFamily('rf_pagan').GetName]"
+  not_changed_government_recently_tt: "Hai cambiato [government|E] di recente e devi attendere fino a [GetCurrentDateWithDiff( GetVarTimeRemaining( THIS.Char.MakeScope, 'changed_government_recently') )] per cambiare di nuovo [government|E]"
+
+
+  assimilate_to_mandala_decision: "Assimilarsi al dominio mandala"
+  assimilate_to_mandala_decision_government_desc: "Una divinità che cammina sulla terra. L’assetto di un simile governo non può che giovare alla nostra esistenza. Vediamo cosa possiamo apprendere man mano che ci assimiliamo a questo modo di regnare."
+  assimilate_to_mandala_decision_faith_desc: "Dovremmo osservare questo esempio e assimilarci. Come veri devoti di questa esistenza del Devaraja, vivremo di certo vite più piene e, chissà, potremmo persino aspirare a unirci al novero dei favoriti..."
+  assimilate_to_mandala_decision_desc: "Siamo meri esseri umani, guidati da un essere più grande di noi. Dovremmo mutare le nostre usanze e trasformarci davvero in devoti di questa divina esistenza del Devaraja, per il bene del nostro popolo, s’intende."
+  assimilate_to_mandala_decision_tooltip: "[AddLocalizationIf( And( Not( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), Not( ObjectsEqual( GetPlayer.GetFaith, GetPlayer.GetOverlord.GetFaith ) ) ), 'assimilate_to_mandala_decision_tooltip_both' )][AddLocalizationIf( And( Not( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), ObjectsEqual( GetPlayer.GetFaith, GetPlayer.GetOverlord.GetFaith ) ), 'assimilate_to_mandala_decision_tooltip_government' )][AddLocalizationIf( And(  GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), Not( ObjectsEqual( GetPlayer.GetFaith, GetPlayer.GetOverlord.GetFaith ) ) ), 'assimilate_to_mandala_decision_tooltip_faith' )]" #It is not cursed if it works :colbert:
+  assimilate_to_mandala_decision_tooltip_both: "Abbandona il tuo [government|E] e la tua [faith|E] attuali per convertirti al governo e alla fede del tuo [overlord|E]"
+  assimilate_to_mandala_decision_tooltip_government: "Abbandona il tuo [government|E] attuale per convertirti al [mandala_government|E]"
+  assimilate_to_mandala_decision_tooltip_faith: "Abbandona la tua [faith|E] attuale per convertirti a [GetPlayer.GetOverlord.GetFaith.GetTextIcon][GetPlayer.GetOverlord.GetFaith.GetName]"
+  assimilate_to_mandala_decision_confirm: "Onore al Devaraja!"
+  assimilation_payout_tt_requirements: "Se [THIS.Char.GetSuzerain.GetShortUIName] è ancora in vita, ha il governo [mandala|E] e #BOLD non#! ha perso alcun [piety_levels|E] in #V [EmptyScope.ScriptValue('assimilation_payout_years')]#! anni, [THIS.Char.GetShortUIName] ottiene:"
+  assimilation_payout_t1_tt: "$assimilation_payout_tt_requirements$\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_legitimacy_payout_t1')]#![legitimacy_i][legitimacy|E]\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_piety_payout_t1')]#![piety_i][piety|E]"
+  assimilation_payout_t2_tt: "$assimilation_payout_tt_requirements$\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_legitimacy_payout_t2')]#![legitimacy_i][legitimacy|E]\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_piety_payout_t2')]#![piety_i][piety|E]"
+  assimilation_payout_t3_tt: "$assimilation_payout_tt_requirements$\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_legitimacy_payout_t3')]#![legitimacy_i][legitimacy|E]\n$TAB$$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('assimilation_piety_payout_t3')]#![piety_i][piety|E]"
+ 
+  subject_assimilated_under_your_rule_msg: "[ROOT.Char.GetShortUIName] si è assimilato sotto il tuo dominio"
+
+  assimilated_to_devaraja_rule_opinion: "Assimilazione al dominio mandala"
+
+  mandala_adopt_clan_government_decision: "Adottare gli usi del clan"
+  mandala_adopt_clan_government_decision_desc: "$convert_whole_realm_to_feudalism_decision_desc$"
+  mandala_adopt_clan_government_decision_tooltip: "Abbandona il tuo [government|E] attuale per adottare il [government|E] di [GetGovernment( 'clan_government' ).GetName]"
+  mandala_adopt_clan_government_decision_confirm: "$mandala_adopt_clan_government_decision$"
+
+  all_muslim_vassals_change_to_clan: "Tutti i [vassals|E] [de_jure|E] della [faith|E] [GetReligionByKey('islam_religion').GetAdjective] adottano il [government|E] di [GetGovernment( 'clan_government' ).GetName]"
+
+  visit_local_shrine_decision: "Compiere un sacrificio rituale"
+  visit_local_shrine_decision_desc: "Non occorre viaggiare lontano per dimostrare vera devozione. Un breve cammino fino a un santuario vicino e un’offerta sacrificale ci basteranno per conservare il favore del divino per il prossimo futuro."
+  visit_local_shrine_decision_confirm: "Che il viaggio abbia inizio"
+  sacrifice_to_heaven: "Compi un pellegrinaggio religioso a un santuario regionale per fare un’offerta di [gold_i][gold|E] o [prestige_i][prestige|E] in cambio di [piety|E]"
+
+  local_rites.1.t: "Un viaggio sacro"
+  local_rites.1.desc: "Benché si possa fare un’offerta sacra in qualunque tempio, persino nel mio santuario locale a [capital_location.GetNameNoTooltip], è chiaro che non tutti i luoghi sacri sono uguali.\n\nVisitare una comunità templare dedicata potrebbe richiedere molto tempo, ma sarebbe con ogni probabilità più impressionante."
+  local_rites.1.home: "Basterà il nostro santuario"
+  local_rites.1.home.tt: "Un’offerta in un santuario locale a [tooltip_loc.GetNameNoTooltip] ci risparmierà il viaggio.\nUn’offerta qui costerà [gold_i][THIS.ScriptValue('miniscule_gold_value')|-0] in cambio di [piety_i][THIS.ScriptValue('minor_piety_gain')|+0]"
+  local_rites.1.mount_tai: "Devo recarmi sul Monte Tai per compiere il sacrificio rituale"
+  local_rites.1.fengshan.tt: "Un’offerta una volta per dinastia con effetto profondo\nQuesta offerta costerà [treasury_i][THIS.ScriptValue('major_treasury_value')|-0] e [prestige_i][THIS.ScriptValue('massive_prestige_value')|-0] in cambio di [piety_i][THIS.ScriptValue('major_piety_gain')|+0] e [legitimacy_i][THIS.ScriptValue('massive_legitimacy_gain')|+0]"
+  local_rites.1.major_shrine: "I santuari di [point_of_interest_location.GetNameNoTooltip]"
+  local_rites.1.major_shrine.tt: "Un’offerta qui costerà [gold_i][THIS.ScriptValue('medium_gold_value')|-0] o [prestige_i][THIS.ScriptValue('medium_prestige_value')|-0] in cambio di [piety_i][THIS.ScriptValue('major_piety_gain')|+0]"
+  local_rites.1.normal.tt: "Un’offerta qui costerà [gold_i][THIS.ScriptValue('minor_gold_value')|-0] o [prestige_i][THIS.ScriptValue('minor_prestige_value')|-0] in cambio di [piety_i][THIS.ScriptValue('medium_piety_gain')|+0]"
+  local_rites.1.hills: "Il santuario tra le colline ondulate di [hills_location.GetNameNoTooltip]"
+  local_rites.1.forest: "I templi nelle foreste di [forest_location.GetNameNoTooltip]"
+  local_rites.1.mountains: "I santuari di montagna a [mountains_location.GetNameNoTooltip]"
+  local_rites.1.temple_holding: "Il tempio di [temple_holding_location.GetNameNoTooltip]"
+  local_rites.2.toast: "Sei giunto al santuario"
+
+
+  local_rites.3.t: "Sacrificio al Cielo"
+  local_rites.3.t.fengshan: "Feng e Shan"
+  local_rites.3.fallback.t: "Sacrificio agli dèi"
+  local_rites.3.desc_mt_tai_huangdi: "Non molti hanno assistito a un rituale Fengshan sul Monte Tai, eppure pochi ignorano che cosa significhi. Sulla vetta del Monte Tai è stato eretto un nuovo altare tratto dalla terra, e più in basso il suolo è stato sgomberato in onore della terra.\n\nLa maggior parte dei miei predecessori non ha mai tentato di mediare tra Cielo e Terra; è raro avere l’occasione di mettere in salvo il futuro della dinastia [GetTitleByKey('h_china').GetBaseNameNoTierNoTooltip]."
+  local_rites.3.desc_important_shrine: "I santuari di [shrine_location.GetName] sono tanto impressionanti quanto antichi, e i loro custodi paiono avvezzi a visitatori importanti. Osservando il luogo santo dove innumerevoli devoti hanno reso omaggio prima di me, vengo colto da una sorta di riverenza.\n\n\"Il patronato è un aspetto importante della cura dei luoghi sacri come questo. I visitatori spesso fanno una donazione per sostenere la comunità monastica.\" [companion.GetName] mi guarda con fare cortese, ma lievemente inquisitivo."
+  local_rites.3.desc_at_home: "Un’offerta nel santuario di famiglia a [shrine_location.GetName] forse non è tanto impressionante quanto una compiuta in un grande tempio, ma può essere altrettanto importante come atto di devozione.\n\nMentre compio l’offerta rituale, mi pervade una pace interiore che non provavo da molto."
+  local_rites.3.desc_mountain_shrine: "Salire i molti gradini verso il santuario in vetta a [shrine_location.GetName] è faticoso, ma si presta alla riflessione. Questo atto di pellegrinaggio sarà qualcosa cui ripenserò a lungo anche dopo la conclusione dell’offerta rituale.\n\nQuando raggiungiamo la cima, [companion.GetName] si rivolge a me. \"Mantenere un luogo come questo in simile condizione è ammirevole. Forse potremmo sostenere i monaci qui? È consuetudine.\""
+  local_rites.3.desc_hills_shrine: "Il paesaggio ondulato di [shrine_location.GetName] è magnifico e, quando raggiungiamo il santuario per la mia offerta, ho già trovato una pace interiore che talvolta ho creduto fuori dalla mia portata.\n\nGiunto all’ultimo gradino della scalinata del tempio, [companion.GetNameNo] mi guarda. \"Qui vive una piccola comunità che sostiene questo santuario. Potremmo mostrare loro il nostro appoggio?\""
+  local_rites.3.desc_forest_shrine: "Raggiungere il piccolo santuario di [shrine_location.GetName] ha significato procedere a lungo sotto una volta di alberi. È difficile immaginare un ambiente più quieto e rasserenante, e mi sorprendo a pensare che ricorderò questo momento molto tempo dopo la fine del pellegrinaggio.\n\n\"Dovremmo valutare se aiutare la comunità qui, per assicurare la prosperità di questo santuario.\" Mi volto e vedo [companion.GetName] che mi osserva con espressione inquisitiva."
+  local_rites.3.desc_holding_shrine: "Giunto al santuario a [shrine_location.GetName], mi ritrovo a ponderarne il ruolo e il significato. Esistono santuari ben più importanti, ma ciò non toglie che questa non sia una comunità monastica esemplare. Vedere la reverenza di tutti coloro che vi dimorano è ispirante.\nMentre mi preparo a partire, [companion.GetName] si rivolge a me. \"Questo è un luogo sacro, e dunque i miei pensieri devono volgersi al divino, ma anche coloro che se ne prendono cura meritano la nostra riverenza.\""
+  local_rites.3.desc_cynical: "\n\nPosso a stento trattenere il disgusto, ma forse devo fare ciò che ci si attende da me."
+  fengshan_option: "Per comando del Cielo"
+  local_rites.3.pay_gold: "Facciamo una donazione"
+  local_rites.3.pay_prestige: "Non ho nulla da offrire se non la mia devozione"
+  local_rites.3.pay_at_home: "\"Così sia\""
+  local_shrine.optout: "Questioni mondane richiedono la mia attenzione"
+  local_shrine.optout.flavor: "Si potrà organizzare più avanti una visita a un santuario"
+  visit_local_shrine_modifier: "Rito presso un santuario locale"
+  visit_local_shrine_modifier_desc: "Questo personaggio si sta dedicando a un’offerta rituale in un santuario."
+
+  seize_mandala_capital_decision: "Requisire il complesso templare mandala"
+  seize_mandala_capital_decision_desc: "Un complesso templare degno di un vero Devaraja a portata di mano? Dovremmo trasferirci e ampliare da lì la nostra base di potere. Sarà nell’interesse di tutti i sudditi fedeli."
+  seize_mandala_capital_decision_tooltip: "Requisisci un #V $building_type_mandala_capital_01$#! situato nella tua [de_jure_capital|E] da un [subject|E]"
+  seize_mandala_capital_decision_confirm: "Tutto è come deve essere."
+ 
+create_bunga_mas_decision: "Crea un Bunga Mas"
+create_bunga_mas_decision_tooltip: "Assumi un artigian[Select_CString(ROOT.Char.IsFemale,'a','o')] locale per creare per te un [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] [artifact|E]"
+create_bunga_mas_decision_desc: "Alberi del miglior argento e oro — un tesoro d’eccellenza da offrire in tributo. Lo porterò alla corte del mio suzerain e mi crogiolerò nella sua gloria!"
+create_bunga_mas_decision_confirm: "Requisisci un Bunga Mas"
+create_bunga_mas_decision_effect: "Crea un [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] [artifact|E]\n$BULLET_WITH_TAB$Alla consegna al Suzeraine:\n$TAB$$BULLET_WITH_TAB$Ottieni accumul[Select_CString(ROOT.Char.IsFemale,'i','i')] di [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip] #WEAK (max 3)#!"
+create_bunga_mas_decision_effect_message: ""
+BUNGA_MAS_GLOSS: "Il Bunga Mas, ovvero Fiori d’Oro e d’Argento, era una forma di tributo utilizzata nella Penisola Malese. Consisteva in due piccoli alberi del miglior oro e argento."

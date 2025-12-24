@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+ ##################################################
+ # MANDALA PLUNDER WAR
+ ##################################################
+  mandala_plunder_cb: "$MANDALA_PLUNDER_CB_NAME$"
+  MANDALA_PLUNDER_CB_NAME: "Saccheggio per il contributo"
+  MANDALA_PLUNDER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Guerra di saccheggio"
+  MANDALA_PLUNDER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  mandala_plunder_cb_victory_desc: "[defender.GetShortUIName|U] [Select_CString(defender.IsFemale,'viene costretta','viene costretto')] a [great_project_contribute|E] al tuo [great_project|E]."
+  mandala_plunder_cb_white_peace_desc: "[defender.GetShortUIName|U] non [great_project_contribute|E] al tuo [great_project|E]."
+  mandala_plunder_cb_defeat_desc: "La reputazione divina [attacker.GetShortUINamePossessive|U] è offuscata."
+  mandala_plunder_cb_ended_invalid.desc: "La [war.GetName] è terminata: o [attacker.GetShortUIName] [CharAreIs( attacker )] non è più [aspect_of_destruction|E] [mandala|E] [ruler|E] con un [great_project|E] pianificato, oppure [defender.GetShortUIName] [CharAreIs( defender )] non è più un sovrano mandala."
+  not_planning_mandala_capital_tt: "Non stai pianificando un [GetBuilding('mandala_capital_01').GetTypeName] [great_project|E]"
+ ##################################################
+ # MANDALA RAZE CAPITAL WAR
+ ##################################################
+  mandala_raze_capital_structure_cb: "$MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME$"
+  MANDALA_RAZE_CAPITAL_STRUCTURE_CB_NAME: "Radere al suolo [GetBuilding('mandala_capital_01').GetTypeName]"
+  MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][ATTACKER.GetPrimaryTitle.GetAdjective] Guerra di devastazione"
+  MANDALA_RAZE_CAPITAL_STRUCTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  mandala_raze_capital_structure_cb_victory_desc: "[GetBuilding('mandala_capital_01').GetTypeName] [defender.GetShortUINamePossessive|U] diventa [ruined|E]."
+  mandala_raze_capital_structure_cb_white_peace_desc: "[GetBuilding('mandala_capital_01').GetTypeName] [defender.GetShortUINamePossessive|U] rimane immacolato."
+  mandala_raze_capital_structure_cb_defeat_desc: "[GetBuilding('mandala_capital_01').GetTypeName] [attacker.GetShortUINamePossessive|U] diventa [ruined|E]."
+  mandala_raze_capital_structure_cb_ended_invalid.desc: "La [war.GetName] è terminata: o [attacker.GetShortUIName] [CharAreIs( attacker )] non è più [mandala|E] [ruler|E] con una Capitale non [ruined|E], oppure [defender.GetShortUIName] [CharAreIs( defender )] non è più un sovrano mandala con una Capitale non [ruined|E]."

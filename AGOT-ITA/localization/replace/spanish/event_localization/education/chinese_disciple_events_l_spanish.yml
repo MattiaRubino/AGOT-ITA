@@ -1,0 +1,359 @@
+﻿l_spanish:
+
+
+  # Event 0002 - Rivalry During Teaching
+  chinese_students.0002.t:0 "Mancanza di disciplina"
+  chinese_students.0002.desc:0 "«[ROOT.Char.Custom('TeachingsAccordingToMovement')]».\n\nMi fermo per lasciare che le mie parole attecchiscano, ma [second_student.GetName] coglie l'attimo. Con una teatrale occhiata di traverso a [first_student.GetName], si schiarisce la gola. «[ROOT.Char.Custom('TeachingResponsesAccordingToMovement')]», risponde.\n\nSono stati ai ferri corti per tutta la settimana."
+
+  # Options for Event 0002
+  chinese_students.0002.a:0 "Una sana competizione non ha nulla di male!"
+  chinese_students.0002.a.tooltip:0 "Entrambi i discepoli otterranno Merito, diventeranno più competitivi e apprezzeranno la tua guida. Potresti guadagnare stress a seconda del tuo temperamento."
+
+  chinese_students.0002.b:0 "Avere il favore della Casa [most_renowned_student.GetHouse.GetNameNoTooltip] potrebbe rivelarsi utile."
+  chinese_students.0002.b.tooltip:0 "Lo studente della dinastia più prestigiosa otterrà Merito e gratitudine (così come il capo della sua dinastia), mentre l'altro risentirà del tuo favoritismo."
+
+  chinese_students.0002.c:0 "[underdog.GetShortUINameNoTooltip] deve imparare qual è il suo posto."
+  chinese_students.0002.c.tooltip:0 "Lo sfavorito perderà Merito e guadagnerà stress, mentre il favorito otterrà Merito. Lo sfavorito risentirà della tua severità."
+
+  chinese_students.0002.d:0 "[overdog.GetShortUINameNoTooltip] dovrebbe saper fare di meglio!"
+  chinese_students.0002.d.tooltip:0 "Il favorito perderà Merito e guadagnerà stress, mentre lo sfavorito otterrà Merito. Il favorito risentirà della tua severità."
+
+  chinese_students.0002.e:0 "Entrambi meritano una lezione di umiltà."
+  chinese_students.0002.e.tooltip:0 "Rimprovererai entrambi i discepoli, causando loro stress e risentimento. Tu guadagnerai un po' di stress per il trambusto, ma anche Merito per aver imposto disciplina."
+
+  # Event 0003 - After the Rivalry Lesson
+  chinese_students.0003.t: "$chinese_students.0002.t$"
+
+  # Dynamic descriptions
+  chinese_students.0003.desc.intro: "«[mentor.Custom('TeachingsAccordingToMovement')]».\n\nMentre [Select_CString(mentor.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] [mentor.Custom('IT_NAM_COL3')][mentor.GetTitledFirstName] dispensa saggezza, [Select_CString(second_student.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('second_student'))] [second_student.Custom('IT_NAM_COL3')][second_student.GetTitledFirstName] si schiarisce la gola e, con un'occhiata di traverso verso di me, risponde: «[ROOT.Char.Custom('TeachingResponsesAccordingToMovement')]».\n\n"
+
+  chinese_students.0003.desc.encourage_both: "[Select_CString(mentor.IsFemale,'La nostra','Il nostro')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] alimenta la rivalità. La competizione ora si affilerà a ogni lezione."
+  chinese_students.0003.desc.punish_both: "[Select_CString(mentor.IsFemale,'La nostra','Il nostro')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] infligge a entrambi un severo rimprovero."
+  chinese_students.0003.desc.favor: "[Select_CString(mentor.IsFemale,'La nostra','Il nostro')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] [Select_CString(second_student.IsFemale,'La','Lo')] interrompe e prosegue con un tagliente sguardo in direzione di [Select_CString(second_student.IsFemale,'lei','lui')]."
+  chinese_students.0003.desc.disfavor: "[Select_CString(mentor.IsFemale,'La nostra','Il nostro')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] riconosce con gentilezza [Select_CString(second_student.IsFemale,'lei','lui')] e per un istante aggrotta la fronte verso di me. Le orecchie mi bruciano di vergogna."
+
+  # Options for Event 0003
+  chinese_students.0003.a: "Dimostrerò che [second_student.Custom('IT_NAM_COL3')][second_student.GetTitledFirstNameNoTooltip] si sbaglia!"
+  chinese_students.0003.b: "Conta poco; la serenità è la mia forza."
+  chinese_students.0003.c: "Che tutti sappiano che ho prevalso!"
+  chinese_students.0003.d: "Il trionfo esige umiltà."
+  chinese_students.0003.e: "Avrò la mia vendetta!"
+  chinese_students.0003.f: "Imparerò da questa battuta d'arresto."
+
+  # Opinion Modifiers
+  opinion_mentor_appreciation:0 "Apprezza la guida del mentore"
+  opinion_mentor_favoritism_positive:0 "Apprezza il favoritismo"
+  opinion_mentor_favoritism_negative:0 "Detesta il favoritismo"
+  opinion_mentor_strict_negative:0 "Detesta la severità del mentore"
+
+  TeachingsAccordingToMovementProHegemon_Teaching: "Il perno del Cielo, benché invisibile, mette in moto tutto ciò che sta sotto il cielo. Quando la virtù rimane salda al centro del reame, segue l'armonia"
+  TeachingsAccordingToMovementExpansion_Teaching: "Quando gli argini del fiume tracimano, qualcuno può perire, eppure l'acqua nutre nuovi campi per sfamare i molti. Così la grandezza si rivela nel coraggio di abbracciare terre oltre le nostre"
+  TeachingsAccordingToMovementAdvancement_Teaching: "Curare il giardino entro le mura riempie l'aria di un profumo che attira gli altri. La vera forza e la gloria crescono solo da radici affondate in un suolo ben coltivato"
+  TeachingsAccordingToMovementConservative_Teaching: "Nonostante il silenzio nelle sale degli antenati, ascolta con attenzione e udirai echi duraturi a guidare ogni passo. Onora il sentiero battuto che ci ha condotti a questo momento"
+  TeachingsAccordingToMovementUndecided_Teaching: "Quando il vento gira, il saggio orienta le vele per coglierne la forza. La danza fra misura e ambizione, tradizione e cambiamento, sempre in cerca di equilibrio, deve guidarti nel governo e nella vita"
+  TeachingsAccordingToMovementFallback_Teaching: "Anche una sola lanterna dirada la notte; la saggezza non ha bisogno di stendardi per indicare la via"
+
+  TeachingsAccordingToMovementProHegemon_Response: "C'è chi loda l'asse così forte da dimenticare il proprio compito di raggio che tiene unita la ruota"
+  TeachingsAccordingToMovementExpansion_Response: "Ho visto taluni così presi da nuovi campi da trascurare la pace del loro stesso giardino"
+  TeachingsAccordingToMovementAdvancement_Response: "Alcuni inseguono fiori lontani e lo chiamano gloria, ma dimenticano i frutti che sostengono la propria casa"
+  TeachingsAccordingToMovementConservative_Response: "Temo che chi si aggrappa troppo al passato non sappia dissodare nuova terra, anche quando i vecchi campi giacciono a maggese"
+  TeachingsAccordingToMovementUndecided_Response: "Ho visto molti esaltare l'equilibrio come scusa per l'inazione, mentre il mondo li sorpassa"
+  TeachingsAccordingToMovementFallback_Response: "Alcuni svolazzano da una lanterna all'altra, come falene attratte da ogni fiamma"
+
+  # A Test of Wisdom: The Blank Scroll
+  chinese_students.0010.t: "La pergamena bianca"
+  chinese_students.0010.desc: "[Select_CString(mentor.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] [mentor.Custom('IT_NAM_COL3')][mentor.GetTitledFirstName] si avvicina, stringendo tra le mani una pergamena ornata. Candidissima e intatta dall'inchiostro, offre un bianco campo di possibilità.\n\n«La pergamena bianca è una prova della tua saggezza e del tuo carattere», intona solennemente. «Ciò che scriverai riflette la tua anima. Scegli le parole con cura, giovane discepol[Select_CString(ROOT.Char.IsFemale,'a','o')]».\n\nSe ne va lasciandomi soltanto pennelli, inchiostro e i miei pensieri."
+
+  # Strong areas - Safe choices
+  chinese_students.0010.a.strength: "Un'opportunità per riformare le leggi antiquate del reame!"
+  chinese_students.0010.b.strength: "Una poesia per [Select_CString(beloved.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('beloved'))], carica di allusioni e giochi di parole!"
+  chinese_students.0010.c.strength.china: "Solo il Figlio del Cielo [Select_CString(ROOT.Char.GetTopLiege.IsFemale,'lei stessa','lui stesso')] merita i miei tratti di pennello!"
+  chinese_students.0010.c.strength.other: "Solo [ROOT.Char.GetTopLiege.GetShortUINameNoTooltip] merita i miei tratti di pennello!"
+  chinese_students.0010.d.strength: "La filosofia scorre naturale dalla mia mente a questa pergamena!"
+  chinese_students.0010.e.strength: "È nella strategia militare che i miei talenti brillano più forte!"
+  
+  # Weak areas - Growth opportunities
+  chinese_students.0010.a.weakness: "Sebbene la legislazione mi metta alla prova, devo cimentarmi..."
+  chinese_students.0010.b.weakness: "Nonostante le mie parole impacciate, esprimerò i miei sentimenti per [Select_CString(beloved.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('beloved'))]..."
+  chinese_students.0010.c.weakness.china: "Tenterò di comporre un'ode al Figlio del Cielo..."
+  chinese_students.0010.c.weakness.other: "Tenterò di comporre un'ode a [ROOT.Char.GetTopLiege.GetShortUINameNoTooltip]..."
+  chinese_students.0010.d.weakness: "La filosofia mette alla prova i miei limiti, eppure questo trattato potrà ampliare la mia mente..."
+  chinese_students.0010.e.weakness: "La guerra mi confonde, ma l'esercito [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] ha bisogno di idee nuove..."
+
+  chinese_students.0010.f: "La verità più profonda risiede nella parola non detta."
+  chinese_students.0010.tt: "#weak Gli sforzi saranno giudicati...#!"
+
+  chinese_students.0010.law.success.tt: "Potrei ottenere [GetModifier('wrote_law_modifier').GetNameWithTooltip]"
+  chinese_students.0010.poem.success.tt: "Potrei ottenere [GetModifier('wrote_poem_loved_one_modifier').GetNameWithTooltip]"
+  chinese_students.0010.ode.success.tt: "Potrei ottenere [GetModifier('wrote_ode_to_liege_modifier').GetNameWithTooltip]"
+  chinese_students.0010.treatise.success.tt: "Potrei ottenere [GetModifier('wrote_philosophical_treatise_modifier').GetNameWithTooltip]"
+  chinese_students.0010.stratagem.success.tt: "Potrei ottenere [GetModifier('wrote_strategy_scroll_modifier').GetNameWithTooltip]"
+  chinese_students.0010.blank.success.tt: "Potrei ottenere [GetModifier('left_scroll_blank_modifier').GetNameWithTooltip]"
+
+  chinese_students.0010.failure.tt: "Potrei ottenere un'esperienza preziosa"
+
+  chinese_students.0010.success: "Scrittura di alta qualità"
+  chinese_students.0010.failure: "Scrittura sotto la media"
+  chinese_students.0010.success_blank: "Il mentore comprende la tua visione"
+  chinese_students.0010.failure_blank: "La tua visione è troppo oscura"
+
+  # Mentor evaluates the student's scroll
+  chinese_students.0011.t: "Un momento formativo"
+  chinese_students.0011.desc.intro: "Il mio studente [scroll_student.GetShortUIName] compare alla mia porta, recando con reverenza una pergamena finemente calligrafata. [Select_CString(scroll_student.IsFemale,'Lei','Lui')] la porge con le mani tremanti, ansios[Select_CString(scroll_student.IsFemale,'a','o')] del mio verdetto.\n\nLa srotolo con cura per esaminare ciò che [Select_CString(scroll_student.IsFemale,'ha','ha')] scelto di scrivere. Si rivela essere "
+
+  chinese_students.0011.desc.law: "una proposta di una nuova legge, inerente ai dettagli più fini del buon governo."
+  chinese_students.0011.desc.love_letter: "una lettera d'amore per [beloved.GetShortUIName], colma di teneri sentimenti."
+  chinese_students.0011.desc.emperor_ode: "un'ode alla gloria di [ROOT.Char.GetTopLiege.GetShortUIName], che ne loda le molte virtù."
+  chinese_students.0011.desc.treatise: "un trattato di filosofia che esplora le relazioni tra i cinque elementi e i quattro pilastri."
+  chinese_students.0011.desc.strategy: "un trattato di strategia militare, che propone una serie di manovre non ortodosse impiegabili nelle campagne dell'esercito [scroll_student.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]."
+  chinese_students.0011.desc.blank: "completamente vuoto!"
+  chinese_students.0011.desc.conclusion: "\n\nSi rivela una finestra rivelatrice sulla mente e sul carattere [Select_CString(scroll_student.IsFemale,'di lei','di lui')]."
+
+  chinese_students.0011.desc.quality_success: "La qualità del lavoro è degna di essere esposta nella biblioteca di [scroll_student.GetTopLiege.GetCapitalLocation.GetNameNoTooltip]!"
+  chinese_students.0011.desc.quality_failure: "Purtroppo, nonostante l'impegno profuso, non è... granché."
+  chinese_students.0011.desc.quality_success.blank: "Che scelta interessante e profonda!"
+  chinese_students.0011.desc.quality_failure.blank: "Ma cosa pensava [Select_CString(scroll_student.IsFemale,'lei','lui')]?!"
+  chinese_students.0011.self_improvement: "Accettabile, ma credo che [Select_CString(scroll_student.IsFemale,'lei','lui')] possa fare di meglio."
+  
+  # Dynamic positive evaluation descriptions by scroll type
+  chinese_students.0011.positive_law: "Questa legge denota notevole intuito e saggezza."
+  chinese_students.0011.positive_love: "Parole così tenere! L'emozione è genuina e commovente."
+  chinese_students.0011.positive_emperor: "Un tributo eloquente, degno del Figlio del Cielo."
+  chinese_students.0011.positive_philosophy: "Queste intuizioni filosofiche rivelano un intelletto profondo."
+  chinese_students.0011.positive_strategy: "Queste manovre mostrano una mente tattica promettente."
+  chinese_students.0011.positive_blank: "Straordinario! La verità più certa non si trova nella parola scritta."
+  
+  chinese_students.0011.positive_law.worst: "La sua comprensione delle questioni legali migliora di giorno in giorno!"
+  chinese_students.0011.positive_love.worst: "Sta padroneggiando la fine arte dei giochi di parole seduttivi!"
+  chinese_students.0011.positive_emperor.worst: "Mostra un talento inatteso nell'arte dell'omaggio!"
+  chinese_students.0011.positive_philosophy.worst: "La sua padronanza dei concetti filosofici avanza con sorprendente rapidità!"
+  chinese_students.0011.positive_strategy.worst: "Mostra una chiarezza nuova nelle questioni militari!"
+
+  # Dynamic negative evaluation descriptions by scroll type
+  chinese_students.0011.negative_law: "Un tentativo grossolano di governo. Ha ancora molto da imparare."
+  chinese_students.0011.negative_love: "Sentimenti triti avvolti in un linguaggio fiorito. Che delusione."
+  chinese_students.0011.negative_emperor: "Lusinghe vuote rivelano una mente superficiale."
+  chinese_students.0011.negative_philosophy: "Si è limitat[Select_CString(scroll_student.IsFemale,'a','o')] a pappagallare pensieri altrui senza capirli."
+  chinese_students.0011.negative_strategy: "Mette a rischio [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] solo per farsi avanti."
+  chinese_students.0011.negative_blank: "Tanta sostanza quanta nella [Select_CString(scroll_student.IsFemale,'sua','sua')] mente."
+
+  wrote_law_modifier: "Architetto dell'Ordine"
+  wrote_poem_loved_one_modifier: "Poeta del Cuore"
+  wrote_ode_to_liege_modifier: "Ode al Trono Esaltato"
+  wrote_philosophical_treatise_modifier: "Saggio della Via"
+  wrote_strategy_scroll_modifier: "Stratega Venerato"
+  left_scroll_blank_modifier: "Maestro del Wu Wei"
+  mentor_encouragement_modifier: "Spronato a migliorare"
+
+  opinion_mentor_respect: "Rispetta lo studio assiduo"
+  opinion_mentor_disrespect: "Delusione per gli studi"
+  opinion_student_gratitude: "Grato per la guida"
+  opinion_student_scolded: "Redarguito dal mentore"
+  opinion_student_highroad: "Colpit[Select_CString(scroll_student.IsFemale,'a','o')] dall'umiltà"
+  opinion_student_humility: "Gratitudine per la risposta umile"
+
+  chinese_students.0011.positive.toast: "Il mentore applaude la mia pergamena"
+  chinese_students.0011.negative.toast: "Il mentore giudica severamente la mia pergamena"
+  chinese_students.0011.self_improvement.toast: "Il mentore incoraggia a migliorare"
+
+  # I Ching Divination Events (0020/0021)
+  chinese_students.0020.t: "Consultare la Via"
+  chinese_students.0020.desc: "[Select_CString(mentor.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))] [mentor.Custom('IT_NAM_COL3')][mentor.GetTitledFirstName] dispone i vetusti steli d'achillea davanti a noi, le loro superfici consunte catturano la luce tremolante delle candele. «L'oracolo racchiude conoscenza infinita, giovane discepol[Select_CString(ROOT.Char.IsFemale,'a','o')]», afferma con reverenza. «Ma parla solo a chi vi si accosta con perizia e sincerità. Che cosa vi leggi?»\n\nGli esagrammi dell'I Ching di "
+
+  chinese_students.0020.desc.heaven: "[Glossary('Cielo','I_CHING_HEAVEN_GLOSS')]"
+  chinese_students.0020.desc.thunder: "[Glossary('Tuono','I_CHING_THUNDER_GLOSS')]"
+  chinese_students.0020.desc.water: "[Glossary('Acqua','I_CHING_WATER_GLOSS')]"
+  chinese_students.0020.desc.mountain: "[Glossary('Montagna','I_CHING_MOUNTAIN_GLOSS')]"
+  chinese_students.0020.desc.wind: "[Glossary('Vento','I_CHING_WIND_GLOSS')]"
+
+  comma_space: "-"
+  comma_space_and: "-"
+
+  chinese_students.0020.desc.conclusion: "emergono chiaramente di fronte a me mentre [Select_CString(mentor.IsFemale,'lei','lui')] parla. Le sento attendere pazienti che io riveli i disegni cosmici che guidano il mondo."
+
+  chinese_students.0020.a.strength: "Il Cielo mi mostra sempre la via!"
+  chinese_students.0020.a.weakness: "Forse i misteri del Cielo oggi non mi sfuggiranno..."
+  chinese_students.0020.b.strength: "Il Tuono è il mio dominio!"
+  chinese_students.0020.b.weakness: "Potrebbe essere il momento in cui colgo la forza del Tuono..."
+  chinese_students.0020.c.strength: "L'Acqua rispecchia perfettamente la mia comprensione!"
+  chinese_students.0020.c.weakness: "La saggezza dell'Acqua è sfuggente quanto la sua natura..."
+  chinese_students.0020.d.strength: "Ho scalato la Montagna molte volte!"
+  chinese_students.0020.d.weakness: "La Montagna incombe pesante nella mia mente..."
+  chinese_students.0020.e.strength: "Conosco il Vento!"
+  chinese_students.0020.e.weakness: "La sottigliezza del Vento mi confonde..."
+
+  I_CHING_HEAVEN_GLOSS: "L'esagramma del Cielo rappresenta l'ordine divino, il governo e la leadership. Incarna i principi di autorità e struttura, guidando coloro che cercano di governare con saggezza e virtù."
+  I_CHING_THUNDER_GLOSS: "L'esagramma del Tuono simboleggia potere, autorità e la capacità di imporre la propria volontà. Insegna l'importanza della forza e della decisione di fronte all'avversità."
+  I_CHING_WATER_GLOSS: "L'esagramma dell'Acqua simboleggia adattabilità, flusso e la capacità di affrontare le sfide della vita. Insegna l'importanza della flessibilità e della resilienza di fronte all'avversità."
+  I_CHING_MOUNTAIN_GLOSS: "L'esagramma della Montagna simboleggia stabilità, forza e la capacità di sopportare le difficoltà. Insegna l'importanza della perseveranza e della fortezza di fronte all'avversità."
+  I_CHING_WIND_GLOSS: "L'esagramma del Vento simboleggia cambiamento, flessibilità e la capacità di adattarsi a nuove circostanze. Insegna l'importanza dell'adattabilità e della resilienza di fronte all'avversità."
+
+  chinese_students.0020.tt: "#weak La divinazione sarà valutata...#!"
+  
+  chinese_students.0020.heaven.success.tt: "Potrei ottenere [GetModifier('heaven_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.thunder.success.tt: "Potrei ottenere [GetModifier('thunder_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.water.success.tt: "Potrei ottenere [GetModifier('water_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.mountain.success.tt: "Potrei ottenere [GetModifier('mountain_divination_insight_modifier').GetNameWithTooltip]"
+  chinese_students.0020.wind.success.tt: "Potrei ottenere [GetModifier('wind_divination_insight_modifier').GetNameWithTooltip]"
+
+  chinese_students.0020.failure.tt: "Potrei ottenere un'esperienza preziosa"
+
+  chinese_students.0020.success: "Intuizione divinatoria profonda"
+  chinese_students.0020.failure: "Interpretazione fallace"
+
+  # Event 0021 - Mentor's Evaluation
+  chinese_students.0021.t: "Il giudizio dell'Oracolo"
+  chinese_students.0021.desc: "[Select_CString(divination_student.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('divination_student'))] [divination_student.GetShortUIName] emerge dalla camera della divinazione, la mente sconvolta dall'impatto delle rivelazioni dell'I Ching.\n\n«[divination_student.Custom2('RelationToMe',ROOT.Char)|U], mi è stato mostrato che"
+
+  chinese_students.0021.desc.heaven.success: "le sei linee ininterrotte rivelano la pura forza creativa di Qian. Come il Cielo abbraccia tutto ciò che sta sotto di esso, così il sovrano deve incarnare una forza temperata dalla saggezza.»"
+  chinese_students.0021.desc.heaven.failure: "le sei linee ininterrotte significano potere illimitato! L'Imperatore dovrebbe governare con pugno di ferro, schiacciando ogni opposizione come il Cielo schiaccia chi lo sfida!»"
+  chinese_students.0021.desc.thunder.success: "l'azione decisiva al momento giusto porta il successo, in accordo con l'esagramma Zhen. Come il tuono che desta la vita dormiente in primavera, la vera guida ispira gli altri ad agire.»"
+  chinese_students.0021.desc.thunder.failure: "così come il tuono colpisce rapido e fragoroso, così dobbiamo far tremare tutti! L'esitazione è debolezza e l'oracolo esige forza immediata!»"
+  chinese_students.0021.desc.water.success: "come l'acqua che scorre attorno agli ostacoli, Kan ci insegna che la vera saggezza sta nel riconoscere il pericolo e trovare il cammino di minor resistenza.»"
+  chinese_students.0021.desc.water.failure: "come l'acqua che devasta ogni cosa sul proprio cammino, dovremmo travolgere i nemici come una piena, affogando ogni resistenza!»"
+  chinese_students.0021.desc.mountain.success: "la quiete porta chiarezza. Mantenendo la mente calma e il corpo a riposo, Gen rivela senza distrazioni il vero sentiero avanti.»"
+  chinese_students.0021.desc.mountain.failure: "le montagne schiacciano chi sta sotto! Così dobbiamo essere inamovibili e cocciuti, rifiutando di cedere a qualunque costo!»"
+  chinese_students.0021.desc.wind.success: "la dolce perseveranza supera la forza rigida. Come il vento che nel tempo modella il paesaggio, l'influenza sottile di Xun ottiene ciò che la forza bruta non può.»"
+  chinese_students.0021.desc.wind.failure: "come la tempesta, possiamo sommergere l'opposizione parlando di più e più forte! Per vincere i dibattiti sul futuro [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip], dobbiamo essere noi a parlare con maggiore veemenza!»"
+
+  chinese_students.0021.positive_heaven.best: "La comprensione dell'ordine del Cielo mostra autentica saggezza di governo!"
+  chinese_students.0021.positive_heaven.worst: "Nonostante le difficoltà, la sua dedizione alla leadership impressiona."
+  chinese_students.0021.positive_thunder.best: "Comprende perfettamente la natura dell'azione decisiva!"
+  chinese_students.0021.positive_thunder.worst: "Il coraggio nel fronteggiare la sfida del Tuono è ammirevole."
+  chinese_students.0021.positive_water.best: "La lettura scorre con naturale adattabilità!"
+  chinese_students.0021.positive_water.worst: "La sua perseveranza davanti ai misteri dell'Acqua è encomiabile."
+  chinese_students.0021.positive_mountain.best: "La quiete rivela un'intuizione profonda!"
+  chinese_students.0021.positive_mountain.worst: "Lo studio diligente della Montagna merita riconoscimento."
+  chinese_students.0021.positive_wind.best: "Coglie perfettamente l'influsso sottile del Vento!"
+  chinese_students.0021.positive_wind.worst: "La saggezza si mostra nella comprensione dell'influenza."
+
+  chinese_students.0021.negative_heaven: "Manca profondità nei principi di governo del Cielo."
+  chinese_students.0021.negative_thunder: "La forza decisiva del Tuono [Select_CString(divination_student.IsFemale,'le','gli')] sfugge. Serve agire con proposito."
+  chinese_students.0021.negative_water: "La flessibilità [Select_CString(divination_student.IsFemale,'le','gli')] sfugge. È essenziale per la saggezza."
+  chinese_students.0021.negative_mountain: "Al suo spirito manca quiete. Serve contemplazione."
+  chinese_students.0021.negative_wind: "Non coglie la sottile potenza del Vento. Occorre apprendere la mitezza."
+
+  chinese_students.0021.balanced_evaluation: "Mostra potenziale, ma necessita di affinamento."
+  chinese_students.0021.positive.toast: "Approvazione del mentore"
+  chinese_students.0021.negative.toast: "Correzione del mentore"
+  chinese_students.0021.balanced.toast: "Guida del mentore"
+
+  heaven_divination_insight_modifier: "Ordine del Cielo"
+  thunder_divination_insight_modifier: "Forza del Tuono"
+  water_divination_insight_modifier: "Flusso dell'Acqua"
+  mountain_divination_insight_modifier: "Silenzio della Montagna"
+  wind_divination_insight_modifier: "Influenza del Vento"
+
+  # Event 0030 - Showcase or Train Skill
+  chinese_students.0030.t: "Forza o umiltà"
+  chinese_students.0030.desc: "Nel mezzo della pratica quotidiana, sento su di me gli occhi [Select_CString(mentor.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))]. Lavoro in silenzio mentre [Select_CString(mentor.IsFemale,'lei','lui')] mi valuta senza parlare. Dopo quella che pare un'eternità, [Select_CString(mentor.IsFemale,'lei','lui')] prende la parola.\n\n«Non basta conoscere i nostri punti di forza maggiori. È ancor più importante conoscere i nostri limiti più profondi. Mostrami ciò che hai imparato di te, discepol[Select_CString(ROOT.Char.IsFemale,'a','o')].»"
+  chinese_students.0030.a.diplomacy: "Terrò un'eloquente supplica per l'armonia del reame."
+  chinese_students.0030.a.martial: "Mostrerò [Select_CString(mentor.IsFemale,'a lei','a lui')] la mia impeccabile forma di lancia."
+  chinese_students.0030.a.stewardship: "Saprei indicare [Select_CString(mentor.IsFemale,'a lei','a lui')] esattamente dove i fondi del reame sono mal allocati."
+  chinese_students.0030.a.intrigue: "Potrebbe interessarsi al mio abile cifrario."
+  chinese_students.0030.a.learning: "So recitare a memoria gli Analecta."
+  chinese_students.0030.b.diplomacy: "Affronterò [Select_CString(mentor.IsFemale,'direttamente lei','direttamente lui')] in un dibattito acceso!"
+  chinese_students.0030.b.martial: "[Select_CString(mentor.IsFemale,'Lei','Lui')] non può nemmeno #emp eguagliare#! la mia impeccabile forma di lancia!"
+  chinese_students.0030.b.stewardship: "Mostrerò [Select_CString(mentor.IsFemale,'a lei','a lui')] cosa penso delle #emp sue#! finanze!"
+  chinese_students.0030.b.intrigue: "So un paio di cose sui #emp suoi#! segreti che posso condividere!"
+  chinese_students.0030.b.learning: "#emp Nessuno#! può eguagliare la mia comprensione dei Classici!"
+  chinese_students.0030.c.diplomacy: "Ho una petizione su cui sto lavorando..."
+  chinese_students.0030.c.martial: "Sebbene imperfetta, potrei dimostrare la mia forma di lancia..."
+  chinese_students.0030.c.stewardship: "Ci sono alcuni conteggi nei registri con cui ho faticato..."
+  chinese_students.0030.c.intrigue: "Ho una comprensione limitata delle trame di palazzo..."
+  chinese_students.0030.c.learning: "Potrei raccontare ciò che so degli insegnamenti di Confucio..."
+  chinese_students.0030.talent.success: "Mi esibisco in modo ammirevole"
+  chinese_students.0030.talent.success.tt: "Potrei guadagnarmi il suo rispetto"
+  chinese_students.0030.talent.failure: "Mi esibisco male"
+  chinese_students.0030.talent.failure.tt: "Potrei essere rimproverat[Select_CString(ROOT.Char.IsFemale,'a','o')]"
+  chinese_students.0030.show_off.success: "Supero i suoi insegnamenti"
+  chinese_students.0030.show_off.success.tt: "Potrei guadagnarmi il suo rispetto e [merit|E]"
+  chinese_students.0030.show_off.failure: "Mi metto in imbarazzo"
+  chinese_students.0030.show_off.failure.tt: "Potrei essere punit[Select_CString(ROOT.Char.IsFemale,'a','o')] per la mia arroganza"
+  chinese_students.0030.improve.success: "Mi esibisco in modo ammirevole"
+  chinese_students.0030.improve.success.tt: "Potrei guadagnarmi il suo rispetto e preziosa esperienza"
+  chinese_students.0030.improve.failure: "Il mentore mi insegna"
+  chinese_students.0030.improve.failure.tt: "Potrei essere rimproverat[Select_CString(ROOT.Char.IsFemale,'a','o')], ma guadagnerò preziosa esperienza"
+
+  # Event 0031 - Mentor's Response
+
+  chinese_students.0031.a.success.talent: "[Select_CString(mentee.IsFemale,'Lei','Lui')] si esibisce in modo ammirevole."
+  chinese_students.0031.a.success.show_off: "Non mi resta nulla da insegnar[Select_CString(mentee.IsFemale,'le','gli')]!"
+  chinese_students.0031.a.success.improve: "Mi rallegra vedere i suoi progressi!"
+  chinese_students.0031.a.failure.talent: "[Select_CString(mentee.IsFemale,'Lei','Lui')] ha troppa stima di [Select_CString(mentee.IsFemale,'se stessa','se stesso')], ma tutti iniziamo da qualche parte."
+  chinese_students.0031.a.failure.show_off: "Dove ho sbagliato con [Select_CString(mentee.IsFemale,'costei','costui')]?!"
+  chinese_students.0031.a.failure.improve: "[Select_CString(mentee.IsFemale,'Lei','Lui')] resta impantanat[Select_CString(mentee.IsFemale,'a','o')] nelle sue difficoltà."
+  chinese_students.0031.b.success.talent: "Dalle lodi non si trae miglioramento!"
+  chinese_students.0031.b.success.show_off: "Arrogante e audace, ma c'è ben poco da criticare."
+  chinese_students.0031.b.success.improve: "$chinese_students.0031.b.success.talent$"
+  chinese_students.0031.b.failure.talent: "[Select_CString(mentee.IsFemale,'Lei','Lui')] ha soprattutto bisogno di imparare l'umiltà."
+  chinese_students.0031.b.failure.show_off: "Né talento né umiltà. È ora di alleggerire il fardello."
+  chinese_students.0031.b.failure.improve: "Ha una lunga strada davanti a [Select_CString(mentee.IsFemale,'lei','lui')]."
+
+  # Action description (what the student attempts)
+  chinese_students.0031.desc.action.talent.diplomacy: "[Select_CString(mentee.IsFemale,'Lei','Lui')] avanza per esporre un'eloquente supplica per l'armonia del reame."
+  chinese_students.0031.desc.action.talent.martial: "Con respiro misurato, [Select_CString(mentee.IsFemale,'lei','lui')] esegue una forma di lancia impeccabile."
+  chinese_students.0031.desc.action.talent.stewardship: "Con il registro in mano, [Select_CString(mentee.IsFemale,'lei','lui')] indica dove i fondi del reame si dissanguano."
+  chinese_students.0031.desc.action.talent.intrigue: "[Select_CString(mentee.IsFemale,'Lei','Lui')] srotola un cifrario ingegnoso, invitandomi a esaminarlo."
+  chinese_students.0031.desc.action.talent.learning: "Con calma, [Select_CString(mentee.IsFemale,'lei','lui')] inizia a recitare a memoria gli Analecta."
+
+  chinese_students.0031.desc.action.show_off.diplomacy: "Con audace guizzo, [Select_CString(mentee.IsFemale,'lei','lui')] si lancia in un acceso dibattito, mettendo alla prova persino la mia saggezza."
+  chinese_students.0031.desc.action.show_off.martial: "[Select_CString(mentee.IsFemale,'Lei','Lui')] brandisce una lancia, sfidandomi a eguagliare la sua forma impeccabile."
+  chinese_students.0031.desc.action.show_off.stewardship: "Sogghignando, [Select_CString(mentee.IsFemale,'lei','lui')] critica i miei conti con teatrale disprezzo."
+  chinese_students.0031.desc.action.show_off.intrigue: "[Select_CString(mentee.IsFemale,'Lei','Lui')] inizia a raccontare oscuri segreti del reame, alludendo con sottigliezza a macchinazioni che appartengono solo a me."
+  chinese_students.0031.desc.action.show_off.learning: "Proclamando un dominio ineguagliato, [Select_CString(mentee.IsFemale,'lei','lui')] snocciola passaggi oscuri dei Classici."
+
+  chinese_students.0031.desc.action.improve.diplomacy: "Titubante, [Select_CString(mentee.IsFemale,'lei','lui')] presenta un'umile petizione, cercando di affinare la propria retorica."
+  chinese_students.0031.desc.action.improve.martial: "Ammettendo i propri difetti, [Select_CString(mentee.IsFemale,'lei','lui')] mostra una forma di lancia incerta in cerca di correzioni."
+  chinese_students.0031.desc.action.improve.stewardship: "[Select_CString(mentee.IsFemale,'Lei','Lui')] espone conteggi confusi, chiedendo guida per metterli in ordine."
+  chinese_students.0031.desc.action.improve.intrigue: "[Select_CString(mentee.IsFemale,'Lei','Lui')] condivide pensieri abbozzati sulle trame di palazzo, desideros[Select_CString(mentee.IsFemale,'a','o')] di affinamento."
+  chinese_students.0031.desc.action.improve.learning: "Con qualche esitazione, [Select_CString(mentee.IsFemale,'lei','lui')] riporta frammenti degli insegnamenti di Confucio, sperando in chiarezza."
+
+  chinese_students.0031.t: "Giada o pietra"
+  chinese_students.0031.desc.intro: "Durante la pratica quotidiana con [Select_CString(mentee.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentee'))] [mentee.GetShortUIName], osservo il suo tentativo di mostrare le proprie capacità.\n\n"
+
+  # Talent showcase (best skill)
+  chinese_students.0031.desc.talent.diplomacy.success: "Le parole misurate e il tono rispettoso rivelano un cuore da [Select_CString(mentee.IsFemale,'diplomatica','diplomatico')], intrecciando con perizia armonia da voci discordanti."
+  chinese_students.0031.desc.talent.diplomacy.failure: "Lingua inceppata e tono incerto, [Select_CString(mentee.IsFemale,'lei','lui')] semina confusione dove si cercava armonia."
+  chinese_students.0031.desc.talent.martial.success: "La sua guardia resta salda e i colpi precisi, disciplina forgiata in innumerevoli ore sul campo d'addestramento."
+  chinese_students.0031.desc.talent.martial.failure: "Il gioco di gambe vacilla e i colpi suonano vuoti, rivelando lacune nella sua tecnica."
+  chinese_students.0031.desc.talent.stewardship.success: "Il registro che presenta è equilibrato come le bilance del Cielo, ogni moneta collocata con ponderata lungimiranza."
+  chinese_students.0031.desc.talent.stewardship.failure: "Le colonne sono sommate male e macchie d'inchiostro rovinano le pagine, rivelando negligenza sotto la perizia proclamata."
+  chinese_students.0031.desc.talent.intrigue.success: "Sottile come un'ombra al chiaro di luna, l'arguto enigma di [Select_CString(mentee.IsFemale,'lei','lui')] dipana le motivazioni nascoste di chi ascolta."
+  chinese_students.0031.desc.talent.intrigue.failure: "Trame d'inganno annodate nel nonsenso, ogni segreto svelato da un suo stesso passo falso."
+  chinese_students.0031.desc.talent.learning.success: "Senza esitazione [Select_CString(mentee.IsFemale,'lei','lui')] recita i Classici, ogni verso una pennellata di devozione erudita."
+  chinese_students.0031.desc.talent.learning.failure: "Versi dimenticati e significati confusi, [Select_CString(mentee.IsFemale,'lei','lui')] rivela uno studio superficiale sotto audaci proclami."
+
+  # Show-off attempt (best skill)
+  chinese_students.0031.desc.show_off.diplomacy.success: "Lo stile si unisce alla sostanza: l'eloquenza abbaglia e tuttavia guida i cuori verso l'accordo."
+  chinese_students.0031.desc.show_off.diplomacy.failure: "Eppure [Select_CString(mentee.IsFemale,'lei','lui')] cerca l'applauso più che la concordia, trasformando l'eloquenza in abbagliante vanità."
+  chinese_students.0031.desc.show_off.martial.success: "Spettacolari fioriture non nascondono difetti; ogni affondo fende l'aria con autentica maestria."
+  chinese_students.0031.desc.show_off.martial.failure: "La lama scintilla solo per lo spettacolo, inseguendo i clamori invece di affinare la forma perfetta."
+  chinese_students.0031.desc.show_off.stewardship.success: "A dispetto della spacconeria, [Select_CString(mentee.IsFemale,'lei','lui')] presenta conti tanto esatti che neppure la vanteria ne diminuisce il valore."
+  chinese_students.0031.desc.show_off.stewardship.failure: "[Select_CString(mentee.IsFemale,'Lei','Lui')] esibisce colonne di monete come fossero quinte teatrali, dimenticando che la vera saggezza risiede nel silenzioso equilibrio."
+  chinese_students.0031.desc.show_off.intrigue.success: "Spavalderia avvolta attorno a strategie impeccabili; ogni cenno sussurrato spinge gli ascoltatori senza farsi vedere."
+  chinese_students.0031.desc.show_off.intrigue.failure: "Il labirinto di segreti di [Select_CString(mentee.IsFemale,'lei','lui')] pare tessuto per effetto, non per necessità; arguzia offuscata dall'orgoglio."
+  chinese_students.0031.desc.show_off.learning.success: "Recital rapido che insieme abbaglia e illumina, prova di comprensione sotto le fioriture."
+  chinese_students.0031.desc.show_off.learning.failure: "Snocciola brani più veloce del respiro, ignorandone il significato più profondo."
+
+  # Improvement request (worst skill)
+  chinese_students.0031.desc.improve.diplomacy.success: "Voce salda e argomenti solidi, [Select_CString(mentee.IsFemale,'lei','lui')] supera le aspettative pur su terreno a [Select_CString(mentee.IsFemale,'lei','lui')] estraneo."
+  chinese_students.0031.desc.improve.diplomacy.failure: "Il suo parlare esitante tradisce incertezza, ma l'umiltà è il primo passo sulla via della diplomazia."
+  chinese_students.0031.desc.improve.martial.success: "Una forma un tempo incerta ora è saldamente impostata, prova di diligente pratica."
+  chinese_students.0031.desc.improve.martial.failure: "La sua lancia trema e vacilla, ma anche il più grande generale un tempo impugnò con goffaggine una spada di legno."
+  chinese_students.0031.desc.improve.stewardship.success: "Le somme tornano e l'inchiostro è pulito; la perseveranza ha tratto ordine dalla confusione."
+  chinese_students.0031.desc.improve.stewardship.failure: "Le sue somme vacillano e l'inchiostro sbava, eppure l'umile sforzo verso la maestria merita guida."
+  chinese_students.0031.desc.improve.intrigue.success: "L'astuzia si dispiega con sorprendente finezza, segno di acuto intuito per le correnti nascoste."
+  chinese_students.0031.desc.improve.intrigue.failure: "Il suo goffo inganno è trasparente, ma l'onestà sulle proprie mancanze è moneta rarissima."
+  chinese_students.0031.desc.improve.learning.success: "I versi scorrono a tratti ma corretti, i semi della sapienza mettono radici salde."
+  chinese_students.0031.desc.improve.learning.failure: "[Select_CString(mentee.IsFemale,'Lei','Lui')] inciampa nelle Analecta, eppure la fame di conoscenza brucia ancora vivida nei suoi occhi."
+
+  chinese_students.0031.desc.conclusion: "\n\nMi schiarisco la gola e il cortile si fa silenzioso. Il mio giudizio è pronto per essere ascoltato."
+
+  chinese_students.0031.kind_evaluation.toast: "Valutazione benevola"
+  chinese_students.0031.harsh_evaluation.toast: "Valutazione severa"
+
+  # Event 0032 - Mentorship Ends
+  chinese_students.0032.t: "Le strade si separano"
+  chinese_students.0032.desc: "[mentor.GetShortUIName] si avvicina con le mani congiunte dietro la schiena. «Qui le nostre strade divergono, discepol[Select_CString(ROOT.Char.IsFemale,'a','o')]», dice con voce misurata. «Cerca ora la saggezza da sol[Select_CString(ROOT.Char.IsFemale,'a','o')]. Le mie lezioni sono terminate.»"
+  chinese_students.0032.a: "Dovrò cavarmela senza guida."

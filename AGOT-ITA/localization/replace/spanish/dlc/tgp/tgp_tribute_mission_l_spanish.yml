@@ -1,0 +1,187 @@
+﻿l_spanish:
+
+ #The Decision
+
+tribute_mission_decision: "Paga il tributo"
+tribute_mission_decision_mandala: "$tribute_mission_decision$ a [ROOT.Char.GetSuzerain.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  tribute_mission_decision_china: "Prostrati davanti a [GetTitleByKey('h_china').GetNameNoTierNoTooltip]"
+tribute_mission_decision_roman_empire: "$tribute_mission_decision$ a [GetTitleByKey('h_roman_empire').GetNameNoTierNoTooltip]"
+tribute_mission_decision_eastern_roman_empire: "$tribute_mission_decision$ a [GetTitleByKey('h_eastern_roman_empire').GetNameNoTierNoTooltip]"
+tribute_mission_decision_dar_al_islam: "$tribute_mission_decision$ a [GetTitleByKey('h_dar_al_islam').GetNameNoTierNoTooltip]"
+tribute_mission_decision_india: "$tribute_mission_decision$ a [GetTitleByKey('h_india').GetNameNoTierNoTooltip]"
+
+tribute_mission_decision_desc_mandala: "È tempo di rendere i nostri omaggi — e il tributo — al nostro[Select_CString(ROOT.Char.GetOverlord.IsFemale,'a stimata','o stimato')] [ROOT.Char.Custom2('RelationToMe', ROOT.Char.GetOverlord )] [ROOT.Char.GetOverlord.Custom('IT_NAM_COL4')][ROOT.Char.GetOverlord.GetTitledFirstName]. Mostrare la nostra stretta prossimità con [ROOT.Char.GetOverlord.Custom('IT_NAM_COL3')][ROOT.Char.GetOverlord.GetTitleAsNameNoTooltip] accrescerà, tra le altre cose, la nostra legittimità e potrebbe portarci altri benefici..."
+tribute_mission_decision_hegemony_common: "si staglia cupamente all’orizzonte, esigendo in silenzio che dimostriamo deferenza. Inviare tributo accrescerà, tra le altre cose, la nostra legittimità e potrebbe portarci altri benefici..."
+tribute_mission_decision_desc_china: "[GetTitleByKey('h_china').GetHolder.Custom('IT_NAM_COL3')][GetTitleByKey('h_china').GetHolder.GetTitleAsName] di [GetTitleByKey('h_china').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+tribute_mission_decision_desc_roman_empire: "[GetTitleByKey('h_roman_empire').GetHolder.Custom('IT_NAM_COL3')][GetTitleByKey('h_roman_empire').GetHolder.GetTitleAsName] di [GetTitleByKey('h_roman_empire').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+tribute_mission_decision_desc_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetHolder.Custom('IT_NAM_COL3')][GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitleAsName] di [GetTitleByKey('h_eastern_roman_empire').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+tribute_mission_decision_desc_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetHolder.Custom('IT_NAM_COL3')][GetTitleByKey('h_dar_al_islam').GetHolder.GetTitleAsName] di [GetTitleByKey('h_dar_al_islam').GetDefinitiveName] $tribute_mission_decision_hegemony_common$"
+tribute_mission_decision_desc_india: "[GetTitleByKey('h_india').GetHolder.Custom('IT_NAM_COL3')][GetTitleByKey('h_india').GetHolder.GetTitleAsName] di [GetTitleByKey('h_india').GetDefinitiveName]  $tribute_mission_decision_hegemony_common$"
+
+  tribute_mission_decision_tooltip: "Intraprendi una [tribute_mission|E]"
+tribute_mission_decision_mandala_tooltip: "$tribute_mission_decision_tooltip$"
+tribute_mission_decision_china_tooltip: "$tribute_mission_decision_tooltip$"
+tribute_mission_decision_roman_empire_tooltip: "$tribute_mission_decision_tooltip$"
+tribute_mission_decision_eastern_roman_empire_tooltip: "$tribute_mission_decision_tooltip$"
+tribute_mission_decision_dar_al_islam_tooltip: "$tribute_mission_decision_tooltip$"
+tribute_mission_decision_india_tooltip: "$tribute_mission_decision_tooltip$"
+
+  tribute_mission_decision_confirm: "Specifica il tributo"
+tribute_mission_decision_mandala_confirm: "$tribute_mission_decision_confirm$"
+tribute_mission_decision_china_confirm: "$tribute_mission_decision_confirm$"
+tribute_mission_decision_roman_empire_confirm: "$tribute_mission_decision_confirm$"
+tribute_mission_decision_eastern_roman_empire_confirm: "$tribute_mission_decision_confirm$"
+tribute_mission_decision_dar_al_islam_confirm: "$tribute_mission_decision_confirm$"
+tribute_mission_decision_india_confirm: "$tribute_mission_decision_confirm$"
+
+tribute_mission_decision_effects_mandala_tt: "Viaggi alla [court|E] di [THIS.Char.GetSuzerain.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+tribute_mission_decision_effects_china_tt: "Viaggi alla [court|E] di [GetTitleByKey('h_china').GetHolder.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+tribute_mission_decision_effects_roman_empire_tt: "Viaggi alla [court|E] di [GetTitleByKey('h_roman_empire').GetHolder.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+tribute_mission_decision_effects_eastern_roman_empire_tt: "Viaggi alla [court|E] di [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+tribute_mission_decision_effects_dar_al_islam_tt: "Viaggi alla [court|E] di [GetTitleByKey('h_dar_al_islam').GetHolder.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+tribute_mission_decision_effects_india_tt: "Viaggi alla [court|E] di [GetTitleByKey('h_india').GetHolder.GetTitledFirstNamePossessive] per consegnare il tuo [tribute|E]"
+
+tribute_mission_interaction_anticipated_rewards_tt_subject_standing: "Ricompense previste:\n$BULLET_WITH_TAB$ Ulteriore [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.Custom('SubjectStanding')]"
+tribute_mission_interaction_anticipated_rewards_tt_generic_hegemon: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$"
+tribute_mission_interaction_anticipated_rewards_tt_imperial_grace: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$\n$tribute_mission_interaction_anticipated_rewards_tt_seal_of_investiture$"
+tribute_mission_interaction_anticipated_rewards_tt_seal_of_investiture: "$BULLET_WITH_TAB$[GetPlayer.Custom('SealOfInvestitureChance')]"
+tribute_mission_interaction_anticipated_rewards_tt: "Ricompense previste:\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$tribute_mission_interaction_anticipated_rewards_tt_suzerain$"
+tribute_mission_interaction_anticipated_rewards_tt_common: "$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$Potresti scoprire nuove @innovation_icon![innovations|E] da sbloccare\n$BULLET_WITH_TAB$Potresti ottenere progresso di @fascination_icon! [fascination|E]"
+tribute_mission_interaction_anticipated_rewards_tt_suzerain: "$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [THIS.Char.GetOverlord.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [THIS.Char.GetOverlord.GetFaith.GetNameNoTooltip]"
+tribute_mission_interaction_anticipated_rewards_tt_china: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [GetTitleByKey('h_china').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [GetTitleByKey('h_china').GetHolder.GetFaith.GetNameNoTooltip]"
+tribute_mission_interaction_anticipated_rewards_tt_roman_empire: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [GetTitleByKey('h_roman_empire').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [GetTitleByKey('h_roman_empire').GetHolder.GetFaith.GetNameNoTooltip]"
+tribute_mission_interaction_anticipated_rewards_tt_eastern_roman_empire: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [GetTitleByKey('h_eastern_roman_empire').GetHolder.GetFaith.GetNameNoTooltip]"
+tribute_mission_interaction_anticipated_rewards_tt_dar_al_islam: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [GetTitleByKey('h_dar_al_islam').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [GetTitleByKey('h_dar_al_islam').GetHolder.GetFaith.GetNameNoTooltip]"
+tribute_mission_interaction_anticipated_rewards_tt_india: "$tribute_mission_interaction_anticipated_rewards_tt_subject_standing$\n$tribute_mission_interaction_anticipated_rewards_tt_common$\n$BULLET_WITH_TAB$Potresti ottenere un [artifact_i][artifact|E] [GetTitleByKey('h_india').GetHolder.GetCulture.GetNameNoTooltip]\n$BULLET_WITH_TAB$Potresti ottenere un monaco @skill_learning_icon! [GetTitleByKey('h_india').GetHolder.GetFaith.GetNameNoTooltip]"
+  tribute_mission_grace_tt: "#weak La [tributary_mission|E] non sarà disponibile per #V [SCOPE.ScriptValue('tribute_mission_cooldown_years')]#! anni#!"
+ 
+neighboring_hegemon_title_china: "[GetTitleByKey('h_china').GetHolder.GetTitleAsNameNoTooltip]"
+neighboring_hegemon_title_roman_empire: "[GetTitleByKey('h_roman_empire').GetHolder.GetTitleAsNameNoTooltip]"
+neighboring_hegemon_title_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetHolder.GetTitleAsNameNoTooltip]"
+neighboring_hegemon_title_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetHolder.GetTitleAsNameNoTooltip]"
+neighboring_hegemon_title_india: "[GetTitleByKey('h_india').GetHolder.GetTitleAsNameNoTooltip]"
+neighboring_hegemon_definitive_name_china: "[GetTitleByKey('h_china').GetDefinitiveNameNoTooltip]"
+neighboring_hegemon_definitive_name_roman_empire: "[GetTitleByKey('h_roman_empire').GetDefinitiveNameNoTooltip]"
+neighboring_hegemon_definitive_name_eastern_roman_empire: "[GetTitleByKey('h_eastern_roman_empire').GetDefinitiveNameNoTooltip]"
+neighboring_hegemon_definitive_name_dar_al_islam: "[GetTitleByKey('h_dar_al_islam').GetDefinitiveNameNoTooltip]"
+neighboring_hegemon_definitive_name_india: "[GetTitleByKey('h_india').GetDefinitiveNameNoTooltip]"
+
+  IMPERIAL_GRACE_PLAYER_CHOICE_SEAL_OF_INVESTITURE: "[GetPlayer.GetOverlord.GetShortUIName] potrebbe concederti un [seal_of_investiture|E]"
+  IMPERIAL_GRACE_NO_CHANCE_SEAL_OF_INVESTITURE: "#tooltip:NO_CHANCE_SEAL_OF_INVESTITURE_TT #E Non#!#! verrà concesso un [seal_of_investiture|E]"
+  IMPERIAL_GRACE_SMALL_CHANCE_SEAL_OF_INVESTITURE: "#tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E Potrebbe#!#! essere concesso un [seal_of_investiture|E]"
+  IMPERIAL_GRACE_MEDIUM_CHANCE_SEAL_OF_INVESTITURE: "#tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E Può#!#! essere concesso un [seal_of_investiture|E]"
+  IMPERIAL_GRACE_HIGH_CHANCE_SEAL_OF_INVESTITURE: "È #tooltip:CHANCE_SEAL_OF_INVESTITURE_TT #E probabile#!#! che venga concesso un [seal_of_investiture|E]"
+  IMPERIAL_GRACE_WILL_GET_SEAL_OF_INVESTITURE: "#tooltip:WILL_GET_SEAL_OF_INVESTITURE_TT #E Verrà#!#! concesso un [seal_of_investiture|E]"
+
+NO_CHANCE_SEAL_OF_INVESTITURE_TT: "Il tuo [title|E] di [GetPlayer.GetTitleAsName] richiede che la tua [imperial_grace|E] sia almeno [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.MakeScope.ScriptValue('seal_of_investiture_minimum_subject_standing')|v0] (attualmente [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0]) per qualificarti a un [seal_of_investiture|E] in questa missione"
+CHANCE_SEAL_OF_INVESTITURE_TT: "La tua [imperial_grace|E] di [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0] offre una probabilità del [GetPlayer.MakeScope.ScriptValue('tribute_mission_chance_to_receive_seal_of_investiture')|v%0] di ottenere un [seal_of_investiture|E] in questa missione"
+WILL_GET_SEAL_OF_INVESTITURE_TT: "La tua [imperial_grace|E] di [ConcatIfNeitherEmpty(GetPlayer.Custom('SubjectStandingIcon'),' ')][GetPlayer.GetSubjectContract.GetSubjectStanding|v0] garantisce che otterrai un [seal_of_investiture|E] in questa missione"
+
+  tribute_mission_invalidated: "Missione di tributo annullata"
+  tribute_mission_invalidated_desc: "La missione di tributo è stata annullata"
+  tribute_mission_costs_refunded: "Costi del tributo rimborsati"
+
+tribute_mission_notification.title: "Tributo pagato da [tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+  tribute_mission_notification.desc: "[tributary_scope.GetShortUIName|U] è partito per una [tribute_mission|E] e ha pagato un tributo alla tua [court|E]"
+
+tribute_mission.new_tributary.title: "[tributary_scope.GetPrimaryTitle.GetNameNoTierNoTooltip] promette tributo"
+tribute_mission.new_tributary.desc: "[tributary_scope.GetShortUIName|U] si è impegnato a diventare tuo [tributary|E] e a versarti [tribute|E]"
+ 
+  qualifies_for_tribute_mission_trigger: "Non hai alcun [tribute|E] valido"
+  qualifies_for_tribute_mission_gold_trigger: "Non hai @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0]"
+  qualifies_for_tribute_mission_gold_or_herd_trigger: "Non hai [tribute|E] previsto a sufficienza. Ti occorrono @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|0] oppure @herd_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|0]."
+  tribute_mission_decision.already_on_mission: "Sei già impegnato in una [tribute_mission|E]"
+suzerain_is_china: "[GetTitleByKey('h_china').GetHolder.GetShortUIName|U] è il [suzerain|E] [ROOT.Char.GetShortUINamePossessive]"
+neighbor_is_china: "[ROOT.Char.GetShortUIName|U] [CharAreIs(ROOT.Char)] un [independent|E] [ruler|E] confinante con [GetTitleByKey('h_china').GetDefinitiveName]"
+null: ""
+neighbor_is_hegemony: "[ROOT.Char.GetShortUIName|U] [Select_CString( ROOT.Char.IsLocalPlayer, 'sei', 'è' )] un [ruler|E] [independent|E] confinante con una [hegemony|E]"
+ #tribute_mission_decision.tribute_mission_grace: "You have paid [tribute|E] recently, [GetPlayer.Custom('TributeMissionDecision')] will be available again on [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'tribute_mission_grace') )]"
+ 
+  tribute_mission_gold: "$petition_liege_gold$"
+  tribute_mission_gold_tooltip: "Seleziona una quantità di [gold|E] da offrire come tributo"
+  tribute_mission_decision_option_gold: "$petition_liege_gold$\n#low Offri @gold_icon![gold|E]#!"
+ 
+  tribute_mission_herd: "Mandria"
+  tribute_mission_herd_tooltip: "Seleziona una quantità di [herd|E] da offrire come tributo"
+  tribute_mission_decision_option_herd: "$game_concept_herd$\n#low Offri @herd_icon![herd|E]#!"
+ 
+  tribute_mission_artifact: "Manufatto"
+  tribute_mission_artifact_tooltip: "Seleziona un [artifact|E] da offrire come tributo"
+  tribute_mission_decision_option_artifact: "$game_concept_artifact$\n#low Offri un @artifact_icon![artifact|E]#!"
+ 
+  tribute_mission_concubine: "Concubina"
+  tribute_mission_concubine_tooltip: "Seleziona un [courtier|E] da inviare come [concubine|E] in tributo"
+  tribute_mission_decision_option_concubine: "$game_concept_concubine$\n#low Offri @concubine_icon![concubine|E]#!"
+ 
+  tribute_mission_eunuch: "Eunuco"
+  tribute_mission_eunuch_tooltip: "Seleziona un [courtier|E] da inviare come tributo in qualità di [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+  tribute_mission_decision_option_eunuch: "$trait_eunuch$\n#low Offri un @eunuch_icon![GetTrait('eunuch_1').GetName( GetNullCharacter )]#!"
+ 
+tribute_mission_bunga_mas: "Bunga Mas"
+tribute_mission_bunga_mas_tooltip: "Seleziona un[Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] da offrire come tributo"
+tribute_mission_decision_option_bunga_mas: "$tribute_mission_bunga_mas$\n#low Offri un @bunga_mas_icon![Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )]#!"
+ 
+ 
+  CHOOSE_TRIBUTE_DECISION_NEXT_STEP_BUTTON: "Scegli il tipo di tributo"
+  PAY_TRIBUTE_DECISION_SELECT_TRIBUTE_TITLE: "Scegli un [tribute|E]"
+ 
+  imperial_grace_tribute_gold_tooltip: "Porta il [tribute] previsto di @gold_icon! [gold|E]\n\n$imperial_grace_tribute_common_tooltip$"
+  imperial_grace_tribute_herd_tooltip: "Porta il [tribute] previsto di @herd_icon! [herd|E]\n\n$imperial_grace_tribute_common_tooltip$"
+  tribute_mission_expected_gold: "[tribute] previsto di @gold_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_value')|v0] [gold|E]"
+  tribute_mission_expected_herd: "[tribute] previsto di @herd_icon! [GetPlayer.MakeScope.ScriptValue('imperial_grace_expected_tribute_herd_value')|v0] [herd|E]"
+
+  imperial_grace_tribute_common_tooltip: "#weak La quantità di $game_concept_tribute$ che ci si aspetta da te aumenta con la tua [GetPlayer.Custom('SubjectStanding')], attualmente [GetPlayer.GetSubjectContract.GetSubjectStanding|v0].\n\nPer migliorare l'accoglienza puoi scegliere di inviare un $game_concept_tribute$ superiore al minimo richiesto.#!"
+
+
+
+ #The (hidden) Character Interactions
+  tribute_mission_hegemonic_extras_interaction: "Seleziona il tributo"
+  no_extra_tribute: "Porta solo il [tribute|E] previsto"
+  extra_gold_tribute: "Offri @gold_icon! [gold|E] aggiuntivi"
+  extra_herd_tribute: "Offri @herd_icon! [herd|E] aggiuntivi"
+  extra_concubine_tribute: "Offri [concubine|E]"
+  extra_eunuch_tribute: "Offri un [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+
+  tribute_mission.travel_to.tt: "Inizia il viaggio verso la [capital|E] di [recipient.GetShortUINamePossessive] in [recipient.GetCapitalLocation.GetName]"
+  tribute_mission_gold_interaction: "Seleziona il tributo in oro"
+ 
+  small_gold_tribute: "Piccolo tributo @gold_icon!"
+  tribute_mission_gold_interaction.small_reserved_gold: "#weak Riserva @gold_icon!#V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('small_gold_tribute_value'))|v0]#! per il [tribute|E]#!"
+  adequate_gold_tribute: "Tributo adeguato @gold_icon!"
+  tribute_mission_gold_interaction.adequate_reserved_gold: "#weak Riserva #V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('adequate_gold_tribute_value'))|v0]#! @gold_icon! per il [tribute|E]#!"
+  excessive_gold_tribute: "Tributo eccessivo @gold_icon!"
+  tribute_mission_gold_interaction.excessive_reserved_gold: "#weak Riserva #V [Add_CFixedPoint(actor.MakeScope.Var('offered_gold_value').GetValue,actor.MakeScope.ScriptValue('excessive_gold_tribute_value'))|v0]#! @gold_icon! per il [tribute|E]#!"
+ 
+  tribute_mission_herd_interaction: "Seleziona il tributo in mandrie"
+
+  small_herd_tribute: "Piccolo tributo @herd_icon!"
+  tribute_mission_herd_interaction.small_reserved_herd: "#weak Riserva #V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('small_herd_tribute_value'))|v0]#! @herd_icon! per il [tribute|E]#!"
+  adequate_herd_tribute: "Tributo adeguato @herd_icon!"
+  tribute_mission_herd_interaction.adequate_reserved_herd: "#weak Riserva #V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('adequate_herd_tribute_value'))|v0]#! @herd_icon! per il [tribute|E]#!"
+  excessive_herd_tribute: "Tributo eccessivo @herd_icon!"
+  tribute_mission_herd_interaction.excessive_reserved_herd: "#weak Riserva #V [Add_CFixedPoint(actor.MakeScope.Var('offered_herd_value').GetValue,actor.MakeScope.ScriptValue('excessive_herd_tribute_value'))|v0]#! @herd_icon! per il [tribute|E]#!"
+
+  tribute_mission_artifact_interaction: "Seleziona il tributo in manufatto"
+  tribute_mission_artifact_interaction.tooltip: "#weak [target.GetName] sarà selezionato per il [tribute|E]#!"
+  tribute_mission_concubine_interaction.no_valid_artifacts: "Non hai [artifacts|E] idonei da offrire"
+
+  tribute_mission_concubine_interaction: "Seleziona il tributo di concubinato"
+  recipient_secondary_tribute_mission_concubine_interaction: "$recipient_secondary_offer_concubine$"
+  tribute_mission_concubine_interaction.tooltip: "[secondary_recipient.GetShortUIName] si unirà alla [court|E] di [recipient.GetShortUINamePossessive] con la possibilità di diventare [concubine|E]"
+  tribute_mission_concubine_interaction.no_valid_concubines: "Non hai [courtiers|E] che si possano offrire come [concubine|E]"
+  tribute_mission_concubine_interaction.overlord_no_use_concubines: "A [GetPlayer.GetOverlord.GetShortUIName] non interessano i $game_concept_concubines$"
+
+  tribute_mission_eunuch_interaction: "Seleziona il tributo di eunuco"
+  recipient_secondary_tribute_mission_eunuch_interaction: "$recipient_secondary_offer_eunuch_interaction$"
+  tribute_mission_eunuch_interaction.tooltip: "[secondary_recipient.GetShortUIName] si unirà alla [court|E] di [recipient.GetShortUINamePossessive] come [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+  tribute_mission_eunuch_interaction.no_valid_eunuchs: "Non hai [courtiers|E] che si possano offrire come [GetTrait('eunuch_1').GetName( GetNullCharacter )]"
+  tribute_mission_concubine_interaction.overlord_no_use_eunuchs: "A [GetPlayer.GetOverlord.GetShortUIName] non interessano gli eunuchi"
+  tribute_mission_eunuch_interaction.slated_for_castration: "#weak [secondary_recipient.GetShortUIName] potrebbe tentare di sfuggire al proprio destino#!"
+
+tribute_mission_bunga_mas_interaction: "Seleziona tributo [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )]"
+tribute_mission_bunga_mas_interaction.tooltip: "$tribute_mission_artifact_interaction.tooltip$\n$EFFECT_LIST_BULLET$Alla consegna, ottieni [GetModifier('bunga_mas_tribute_modifier').GetNameWithTooltip]"
+tribute_mission_bunga_mas_interaction.no_valid_bunga_mas: "Non possiedi alcun [Glossary( 'Bunga Mas', 'BUNGA_MAS_GLOSS' )] da te commissionato da offrire"
+
+bunga_mas_tribute_modifier: "Tributo Bunga Mas"
+bunga_mas_tribute_modifier_desc: "Questo personaggio ha recentemente fornito al suo Sire un tributo Bunga Mas."
+modifier_definition_value_per_bunga_mas_streak: "\t#weak Aumento per Bunga Mas consecutivi donati (max [EmptyScope.ScriptValue('bunga_mas_tribute_modifier_cap')])#!"

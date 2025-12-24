@@ -3,6 +3,7 @@
  BETROTHAL_BOTH_CHARACTERS:3 "Proponi un [Concept( 'betrothed', 'fidanzamento' )|E] tra[CHARACTER.LocalPlayerString( ' me', 'Loc_FR_du3UI_GetName' )] e[TARGET_CHARACTER.LocalPlayerString( ' me', 'Loc_FR_du3UI_GetName' )], dato che sono entrambi [children|E]."
  MARRIAGE_INBREEDING_RISK_WE: "Siamo imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i nostri figli siano [Concept( 'inbred', 'Endogamici' )|E]"
  MARRIAGE_INBREEDING_THEY: "Sono imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i loro figli siano [Concept( 'inbred', 'Endogamici' )|E]"
+ MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'sei', 'è' )] disperat[Select_CString(secondary_recipient.IsFemale,'a','o')] a sposarsi: $VALUE|+=0$"
  #End AGOT modifiche
 
  INHERITABLE_TRAITS:1 "[congenital_traits|E]"
@@ -46,7 +47,6 @@ MARRIAGE_IMPACT_ON_HOUSE_RELATION: "La [house_relation|E] [MarriageInfo.GetSecon
  ACTOR_RIVAL_TO_ME_REASON:0 "[recipient.GetShortUIName|U] è un rivale di [actor.GetShortUINamePossessive]: $VALUE|+0$"
  NEMESIS_TO_ME_REASON:0 "[secondary_recipient.GetShortUIName|U] è la Nemesi di [recipient.GetShortUINamePossessive]: $VALUE|+0$"
  ACTOR_NEMESIS_TO_ME_REASON:0 "[recipient.GetShortUIName|U] è la Nemesi di [actor.GetShortUINamePossessive] : $VALUE|+0$"
- MARRIAGE_DESPERATION:1 "L'età di [secondary_recipient.GetShortUINamePossessive]: $VALUE|+=0$"
  MARRY_CONSANGUINITY_REASON:0 "Il matrimonio sarebbe [incestuous|E]: $VALUE|+=0$"
 MATRILINEAL_WARNING: 0 "@warning_icon! #X I figli nati da questo matrimonio apparterranno alla [dynasty|E] di [CHARACTER.GetShortUINamePossessive]!#! #weak ([CHARACTER.GetDynastyName|V])#!"
  MATRILINEAL_REASON:0 "Matrimonio Matrilineare: $VALUE|=+0$"

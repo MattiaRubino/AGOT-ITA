@@ -1,0 +1,511 @@
+﻿l_spanish:
+
+
+  festival.001.t: "Smarrito nella folla"
+  festival.001.desc: "Osservando la folla accorsa a festeggiare, mi compiaccio di trovarla colma delle risate dei bambini e dei sorrisi soddisfatti dei loro genitori. Eppure, un movimento improvviso e irregolare attira il mio sguardo, troppo piccolo per essere un bambino e troppo… #EMP peloso#!?\n\nSembra un cucciolo, che zoppica tra i passi dei giganti, perduto e solo."
+  festival.001.a.tt: "#weak Troviamo a questo cucciolo una nuova casa #!"
+  festival.001.a: "Vieni qui, piccolino, e sarai ben accudito."
+  festival.001.b: "Il suo destino non mi riguarda."
+  festival.001.b.tt: "Di certo il cucciolo saprà trovare una nuova casa...?"
+  festival.001.b.custom.tooltip: "Lascia il cucciolo al suo destino"
+
+  festival.002.t: "Una mente curiosa"
+  festival.002.desc: "Un lieve strattonare alla manica distoglie la mia attenzione dagli spettacoli del festival: abbassando lo sguardo, i miei occhi incontrano quelli di un piccolo, tondi di meraviglia.\n\n«Perché c’è così tanta gente?» chiede con candida curiosità. «Che cosa succede?»"
+  festival.002.a: "Ebbene, lascia che ti racconti una storia..."
+  festival.002.a.inspired_child: "[Select_CString(curious_child.IsFemale,'Lei','Lui')] sembra desideros[Select_CString(curious_child.IsFemale,'a','o')] di ascoltare"
+  festival.002.a.bored_child: "Al bambino non piacciono i racconti"
+  festival.002.b: "I tuoi genitori non ti hanno insegnato a non parlare con gli sconosciuti?"
+  festival.002.b.flavor: "#weak Questo moccioso insolente merita una «ricompensa» per la sua impertinenza.#!"
+  festival.002.c: "Qualcuno riporti [Select_CString(curious_child.IsFemale,'lei','lui')] dai suoi genitori. #EMP In fretta#!."
+
+  child_is_excited: "Le tue storie esaltano [Select_CString(curious_child.IsFemale,'la bambina','il bambino')]"
+  child_is_bored: "[Select_CString(curious_child.IsFemale,'La bambina','Il bambino')] sbadiglia e se ne va mentre parli"
+  child_is_kicked: "Uno scappellotto rapido e [Select_CString(curious_child.IsFemale,'la bambina','il bambino')] fugge nella folla"
+
+  festival.003.t: "Squisite leccornie"
+  festival.003.desc: "Il profumo di [ROOT.Char.Custom('GetLocalStreetFoodPlural')], che si leva dalle bancarelle, sussurra dolci e saporite promesse al mio stomaco brontolante.\n\nUna lunga fila testimonia l’enorme richiesta di queste delizie, ma il padrone di casa avrà pur diritto a #EMP qualche#! privilegio?!"
+  festival.003.a: "Fate largo [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip]!"
+  festival.003.b: "Che il popolo goda dei suoi piccoli piaceri."
+
+  festival.004.t: "Desideri sussurrati"
+  festival.004.desc: "Gli ospiti si raccolgono attorno al bambù, i cui rami reggono strisce di carta con i desideri dei loro proprietari.\n\nSotto il mite brillare delle stelle, il mio popolo affida i sogni agli amanti del cielo, e mi viene in mente che anch’io potrei esprimere un desiderio."
+  festival.004.a: "Che gli dei donino ricchezze e abbondanza a tutti."
+  festival.004.b: "Desidero un amore eterno come le stelle stesse."
+  festival.004.c: "Concedimi il vigore per realizzare le mie ambizioni."
+  festival.004.d: "Desidero trovare presto l’amore."
+  prosperity_festival_in_province_modifier: "Un desiderio di prosperità"
+  prosperity_festival_in_province_modifier_desc: "Le stelle paiono propizie a questa contea e il sovrano ha desiderato prosperità per tutti"
+  prosperity_festival_find_love_modifier: "Un desiderio d’amore"
+  prosperity_festival_find_love_modifier_desc: "Questo personaggio ha desiderato trovare l’amore"
+  prosperity_festival_health_modifier: "Un desiderio di salute"
+  prosperity_festival_health_modifier_desc: "Questo personaggio ha desiderato la salute"
+
+  festival.005.t: "Un pubblico catturato"
+  festival.005.desc: "Quando il festival tocca il culmine, il/la [target.chaplain.Custom('MyPriestTitle')] sale sul palco e la voce tuona al di sopra della folla. [Select_CString(target_chaplain.IsFemale,'Lei','Lui')] inizia a esaltare la riforma morale e la disciplina spirituale, tentando di incanalare la gioiosa energia del mio festival in un sermone. Alcuni trovano ispiranti le sue parole, altri brontolano che un festival non è luogo per tale solennità."
+  festival.005.a: "[Select_CString(target_chaplain.IsFemale,'Lei','Lui')] parla in nome del divino."
+  festival.005.b: "Parlerò io stesso con [Select_CString(target_chaplain.IsFemale,'lei','lui')]."
+  festival.005.c: "Mi sono stancat[Select_CString(ROOT.Char.IsFemale,'a','o')] di questa tirata; fate scendere [Select_CString(target_chaplain.IsFemale,'lei','lui')] di lì!"
+  festival.005.b.success: "Riesci a far scendere [Select_CString(target_chaplain.IsFemale,'lei','lui')] dal palco"
+  festival.005.b.tt.success: "Hai convinto [Select_CString(target_chaplain.IsFemale,'lei','lui')]"
+  festival.005.b.failure: "Il fervore alimentato dal divino non si placa"
+  festival.005.b.tt.failure: "Non riesci a convincere [Select_CString(target_chaplain.IsFemale,'lei','lui')]"
+
+  festival.006.t: "Rito di purificazione"
+  festival.006.desc: "Terminate le loro solenni preghiere, i/le [ROOT.Char.GetFaith.PriestNeuterPlural] danno inizio al rito di purificazione, che laverà ogni impurità spirituale e assicurerà un anno armonioso. Come parte della cerimonia, sarà mia sacra responsabilità attingere acqua pura dal pozzo santo."
+  festival.006.a: "Oggi l’umiltà giova più dell’orgoglio."
+  festival.006.b: "Uno sfarzoso apparato ora potrebbe accrescere il mio prestigio."
+  festival.006.c: "Se ne occupi una figura minore; si addice al mio rango."
+
+  festival.007.t: "Gara al chiaro di luna"
+  festival.007.desc: "Il colmo della luna segna l’arrivo della mezzanotte, e con essa l’inizio di una gara di forza sempre amata dal popolo. Il [ROOT.Char.GetFaith.PriestMale] getterà bastoni nel mezzo della folla, e la tradizione vuole che chi ne uscirà con uno in mano riceverà grande fortuna nel prossimo anno."
+  festival.007.a: "Questa fortuna sarà mia!"
+  festival.007.b: "Lascerò che gli altri si stanchino, poi reclamerò vittoria in silenzio."
+  festival.007.c: "Alcune gare si gustano meglio dal pubblico."
+  festival.007.a.success: "Sopraffai gli avversari"
+  festival.007.a.failure: "Gli avversari sopraffanno te"
+  festival.007.b.success: "Raggiri gli avversari"
+  festival.007.b.failure: "Gli avversari non si lasciano ingannare"
+  festival.007.a.tt.success: "Hai vinto"
+  festival.007.a.tt.failure: "Hai perso"
+
+  festival.008.t: "Danza dell’abbondanza"
+  festival.008.desc: "L’aria stessa vibra al fischio dei flauti e al rullare dei tamburi, mentre [Select_CString(dancer.IsFemale,'le giovani donne','i giovani uomini')] danzano con grazia nelle loro vesti variopinte e fluttuanti.\n\nÈ la loro elegante esibizione, gradita tanto ai mortali quanto al divino, a benedire la terra sotto i nostri piedi con un raccolto abbondante."
+  festival.008.a: "Che danza splendida."
+  festival.008.b: "A vederli, percepisco una vera pace."
+  respected_tradition_modifier: "Tradizione rispettata"
+
+  festival.009.t: "Un desiderio sull’albero"
+  festival.009.desc: "A [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitlyNoTooltip] vi è una tradizione locale per cui la gente affida i desideri più sentiti a strisce di carta e li appende a un albero.\n\nOsservandoli da vicino, vedo che la maggior parte dei desideri è quella che ci si aspetterebbe: ricchezza, amore, prosperità; eppure, tra questi, alcuni recano istanze più fosche."
+  festival.009.a: "Conoscere i pensieri più intimi altrui non è un vantaggio da poco."
+  festival.009.b: "La malizia non ha posto tra questi rami."
+
+  festival.010.t: "Benedizioni di carta"
+  festival.010.desc: "La strada è un’esplosione di vivacità e colore, innumerevoli addobbi svolazzano brillanti nella brezza. Evviva e risate riempiono l’aria mentre la gente ammira le opere degli artigiani. Forse potrei procurarmi anch’io uno di questi manufatti?"
+  festival.010.a: "Un set di colorate gru di carta, a memoria dell’importanza della famiglia."
+  festival.010.b: "Un kimono di carta piegato con squisita perizia, simbolo di salute."
+  festival.010.c: "Che siano gli altri ad adornarsi; la semplicità mi si addice."
+  good_health_modifier: "Vita salubre"
+  good_health_modifier_desc: "Questo personaggio ha acquistato un kimono di carta come addobbo."
+  strong_family_modifier: "Vincoli di famiglia"
+  strong_family_modifier_desc: "Questo personaggio ha acquistato un addobbo di gru di carta."
+
+  festival.012.t: "Celebrazione fragorosa"
+  festival.012.desc: "Le lanterne illuminano i festeggiamenti serali mentre l’aria pulsa di musica e scoppi di risa. Non posso fare a meno di commuovermi dinanzi allo spettacolo."
+  festival.012.a: "La loro semplice gioia lenisce l’animo."
+  festival.012.b: "Questa vivacità è davvero rinvigorente."
+  festival.012.c: "Il frastuono è travolgente, bramo la quiete."
+  festival_spirit_modifier: "Spirito del festival"
+  festival_spirit_modifier_desc: "Lo spirito di questo personaggio è stato rinvigorito dall’atmosfera del festival."
+
+  festival.014.t: "Questi giorni di maniche danzanti"
+  festival.014.desc: "Oggi è un’occasione di festa, ma anche per assicurarsi le benedizioni degli dèi. Sguardi mortali e divini scruteranno la nostra condotta e le nostre offerte, e dobbiamo fare in modo che tutto sia in ordine."
+  festival.014.a: "Che gli dèi ci guardino con favore."
+
+  festival.016.t: "Onore macchiato"
+  festival.016.desc: "[Select_CString(clumsy_oaf.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('clumsy_oaf'))] [clumsy_oaf.GetFirstName] resta pietrificat[Select_CString(clumsy_oaf.IsFemale,'a','o')] dall’orrore mentre fissiamo entrambi il sakè che cola dalle mie vesti, il lussuoso abito che già si scurisce per l’allargarsi della macchia.\n\nColoro che ci circondano restano immobili per la curiosità, celano le reazioni dietro ventagli dipinti, in attesa — anzi, pregustando — un’imminente esplosione."
+  festival.016.a: "Sciocc[Select_CString(clumsy_oaf.IsFemale,'a','o')] sconsiderat[Select_CString(clumsy_oaf.IsFemale,'a','o')]! [Select_CString(clumsy_oaf.IsFemale,'Lei','Lui')] la pagherà!"
+  festival.016.b: "Le vesti si possono sostituire."
+
+  festival.017.t: "Marionette ammutinate"
+  festival.017.desc: "Un burattinaio errante ha deciso di farne il palco [Select_CString(puppeteer.IsFemale,'di lei','di lui')], circondat[Select_CString(puppeteer.IsFemale,'a','o')] da dozzine di astanti che sogghignano.\n\nOsservando la danza dei pupi, lo spettacolo prende un aspetto spiacevole: la figura del governante esattore mi è fin troppo familiare e la folla si diverte fin troppo della goffaggine [Select_CString(ROOT.Char.IsFemale,'di lei','di lui')]."
+  festival.017.a: "Riderò più forte di chiunque."
+  festival.017.b: "Bruciate queste bambole insolenti."
+  festival.017.c: "I miei agenti osservino le reazioni del pubblico."
+
+  festival.018.t: "Trance e tributo"
+  festival.018.desc: "La sacerdotessa del santuario trema furiosamente, come posseduta, e la sua voce ultraterrena scandisce comandi divini.\n\nPare che questa divinità abbia particolare affinità per il sakè, e in quantità notevoli. Rifiutare significherebbe offendere una potente entità, ma non posso fare a meno di chiedermi se non sia più empia messinscena che invocazione."
+  festival.018.a: "Fate portare il sakè e beviamo insieme!"
+  festival.018.b: "Che ne dici di una coppa modesta e di un invito..."
+  festival.018.c: "Questo spettacolo è finito."
+  friend_invited_priestess: "[CHARACTER.GetShortUIName|U] ha invitato [TARGET_CHARACTER.GetShortUIName] a unirsi alla corte di [Select_CString(CHARACTER.IsFemale,'lei','lui')] dopo aver visto l’impressionante esibizione di [Select_CString(TARGET_CHARACTER.IsFemale,'lei','lui')] a un festival."
+  friend_invited_priestess_corresponding: "[CHARACTER.GetShortUIName|U] è stat[Select_CString(CHARACTER.IsFemale,'a','o')] invitat[Select_CString(CHARACTER.IsFemale,'a','o')] alla corte di [TARGET_CHARACTER.GetShortUIName] dopo che [Select_CString(CHARACTER.IsFemale,'lei','lui')] ha offerto un’impressionante esibizione a un festival."
+
+  festival.019.t: "Dramma per decreto"
+  festival.019.desc: "Il mio amministratore [play_planner.GetFirstName] si inchina con rispetto. «Ci sarà una rappresentazione, [ROOT.Char.Custom('FormOfAddressForLiege')]», dice [Select_CString(play_planner.IsFemale,'lei','lui')]. «Ma la scelta del racconto è un tuo privilegio.» Dovrà divertire il popolo o ricordargli il proprio posto?"
+  festival.019.a: "Sia una saga sulla gloria della mia famiglia."
+  festival.019.b: "Una moralità insegnerà la virtù dell’obbedienza."
+  festival.019.c: "Dedicatela agli dèi e guadagneremo le loro benedizioni."
+
+  festival.020.t: "Gloria al galoppo"
+  festival.020.desc: "Il fiume scintilla sotto il sole di mezzogiorno mentre gli arcieri montano a cavallo, e dall’altra parte del ruscello gli attendenti innalzano il bersaglio: un ventaglio di carta.\n\nDa qualche parte un tamburo rimbomba, coprendo per un attimo il brusio delle scommesse su quale arciere trionferà."
+  festival.020.a: "Preparate il mio destriero: il premio sarà mio!"
+  festival.020.b: "Punterò anch’io!"
+  festival.020.c: "Lasciateli tirare, ma portatemi un frammento del ventaglio come portafortuna."
+
+  festival.021.t: "Sfarzo infernale"
+  festival.021.desc: "Il ritmo prevedibile dei festeggiamenti si spezza all’improvviso con l’arrivo di «ogre» mascherati che brandiscono torce fiammeggianti, cospargendo la folla in fuga di scintille. Poco distante, i sacerdoti si preparano alla loro controcarica, il rituale e inevitabile trionfo sugli spiriti maligni."
+  festival.021.a: "Guiderò personalmente questo «contrattacco»!"
+  festival.021.b: "Assicuratevi che ogni casa abbia un secchio d’acqua pronto."
+  festival.021.c: "Tradizione o no, il rischio d’incendio è troppo alto."
+
+  festival.022.t: "Rissa al festival"
+  festival.022.desc: "Due [rumbler_one.GetWomenMen] di villaggi confinanti si sono radunati nel campo del festival per risolvere le loro divergenze come vuole la tradizione: sollevando i palanchini e schiantandoli l’uno contro l’altro per rovesciare a terra quello avversario.\n\nSchegge volano a ogni impatto. I clamori della folla spingono i contendenti a collisioni via via più esplosive."
+  festival.022.a: "Non permetterò violenza, tradizione o no."
+  festival.022.b: "I vincitori saranno ricompensati a dovere."
+festival.022.c: "Se la folla vuole uno spettacolo, paghi per vederlo."
+
+  festival.023.t: "Processione in pericolo"
+  festival.023.desc: "Tamburi di pelle di cervo tuonano, annunciando l’inizio della processione cerimoniale. I portastendardi aprono la marcia, splendidi nelle loro vesti festive, seguiti dal palanchino maestoso, portato a spalla dai valletti.\n\n«Attenzione!» La pittoresca processione si spezza quando un portatore grida e molla la presa, facendo inclinare pericolosamente il palanchino."
+  festival.023.a: "Tenete saldo, arrivo!"
+  festival.023.b: "Fate frustare lo sciocco e il suo villaggio paghi una multa."
+
+  festival.024.t: "Danza di guerra di legno"
+  festival.024.desc: "#EMP CRACK!#! #EMP CRACK!#! Questi fragori metteranno in fuga tutti gli spiriti maligni! I giovani del villaggio davanti a me continuano a martellare i piedi e a far schioccare con entusiasmo i loro bastoni di legno come fieri guerrieri.\n\nQuesta tradizione esaltante potrebbe tornare utile su altri fronti, se ai bastoni si sostituissero le lance."
+  festival.024.a: "Segnate i più forti, uomini così ci sarebbero utili."
+  festival.024.b: "La loro precisione è ammirevole."
+  festival.024.c: "Che dimostrazione di forza."
+
+  adopted_a_puppy_title: "$festival.001.t$"
+  adopted_a_puppy: "[CHARACTER.GetShortUIName|U] ha adottato un cucciolo randagio."
+
+  edified_a_child_title: "$festival.002.t$"
+  edified_a_child: "[CHARACTER.GetShortUIName|U] ha impartito saggezza a una giovane mente."
+
+  kicked_a_child_title: "$festival.002.t$"
+  kicked_a_child: "[CHARACTER.GetShortUIName|U] ha insegnato a un bambino l’asprezza degli estranei."
+
+  restored_a_lost_child_title: "$festival.002.t$"
+  restored_a_lost_child: "[CHARACTER.GetShortUIName|U] ha ricondotto un bambino smarrito al posto che gli spettava."
+
+  ate_well_title: "$festival.003.t$"
+  ate_well: "[CHARACTER.GetShortUIName|U] si è rimpinzat[Select_CString(CHARACTER.IsFemale,'a','o')] di prelibatezze saporite."
+
+  practiced_temperance_title: "$festival.003.t$"
+  practiced_temperance: "[CHARACTER.GetShortUIName|U] ha resistito alle tentazioni di prelibatezze saporite."
+
+  wished_for_love_eternal_title: "$festival.004.t$"
+  wished_for_love_eternal: "[CHARACTER.GetShortUIName|U] ha desiderato un amore eterno."
+
+  wished_for_prosperity_title: "$festival.004.t$"
+  wished_for_prosperity: "[CHARACTER.GetShortUIName|U] ha espresso un desiderio di prosperità per tutti."
+
+  wished_for_vigor_title: "$festival.004.t$"
+  wished_for_vigor: "[CHARACTER.GetShortUIName|U] ha desiderato vigore e fortezza."
+
+  wished_to_find_love_title: "$festival.004.t$"
+  wished_to_find_love: "[CHARACTER.GetShortUIName|U] ha desiderato trovare un amore imperituro."
+
+  listened_to_chaplain_title: "$festival.005.t$"
+  listened_to_chaplain: "[CHARACTER.GetShortUIName|U] ha ascoltato una lezione sul divino."
+
+  rousted_chaplain_title: "$festival.005.t$"
+  rousted_chaplain: "[CHARACTER.GetShortUIName|U] ha scacciato dal palco la voce del divino."
+
+  talked_down_chaplain_title: "$festival.005.t$"
+  talked_down_chaplain: "[CHARACTER.GetShortUIName|U] ha posto fine diplomaticamente a una diatriba."
+
+  delegated_ritual_title: "$festival.006.t$"
+  delegated_ritual: "[CHARACTER.GetShortUIName|U] ha presieduto un rito con dignità."
+
+  displayed_magnificence_title: "$festival.006.t$"
+  displayed_magnificence: "[CHARACTER.GetShortUIName|U] ha offerto un’esibizione impressionante."
+
+  served_with_humility_title: "$festival.006.t$"
+  served_with_humility: "[CHARACTER.GetShortUIName|U] ha assolto il suo ruolo con umiltà."
+
+  fought_for_fortune_title: "$festival.007.t$"
+  fought_for_fortune: "[CHARACTER.GetShortUIName|U] ha partecipato a una gara per conquistare il favore della fortuna."
+
+  observed_dance_title: "$festival.008.t$"
+  observed_dance: "[CHARACTER.GetShortUIName|U] ha ammirato una danza di eleganza e grazia."
+
+  spied_on_wishes_title: "$festival.009.t$"
+  spied_on_wishes: "[CHARACTER.GetShortUIName|U] ha scorto l’oscurità nascosta nei cuori altrui."
+
+  purchased_trinkets_title: "$festival.010.t$"
+  purchased_trinkets: "[CHARACTER.GetShortUIName|U] ha acquistato cianfrusaglie festive per sé e per la sua famiglia."
+
+  contemplated_crowd_title: "$festival.012.t$"
+  contemplated_crowd: "[CHARACTER.GetShortUIName|U] ha camminato tra il popolo e ne ha condiviso la gioia festiva."
+
+  demanded_compensation_for_mishap_title: "$festival.016.t$"
+  demanded_compensation_for_mishap: "[CHARACTER.GetShortUIName|U] ha ottenuto un risarcimento da un maldestro sconsiderato."
+
+  forgave_mishap_title: "$festival.016.t$"
+  forgave_mishap: "[CHARACTER.GetShortUIName|U] ha generosamente perdonato la goffaggine altrui."
+
+  burned_puppets_title: "$festival.017.t$"
+  burned_puppets: "[CHARACTER.GetShortUIName|U] ha mostrato le conseguenze dello schernire i superiori."
+
+  enjoyed_puppetry_title: "$festival.017.t$"
+  enjoyed_puppetry: "[CHARACTER.GetShortUIName|U] ha mostrato la magnanimità dei grandi e potenti."
+
+  observed_crowd_title: "$festival.017.t$"
+  observed_crowd: "[CHARACTER.GetShortUIName|U] ha colto i moti del cuore del suo popolo."
+
+  ejected_priestess_title: "$festival.018.t$"
+  ejected_priestess: "[CHARACTER.GetShortUIName|U] ha dubitato dell’autenticità di una richiesta divina."
+
+  made_offering_title: "$festival.018.t$"
+  made_offering: "[CHARACTER.GetShortUIName|U] ha fatto un’offerta agli spiriti."
+
+  planned_play_title: "$festival.019.t$"
+  planned_play: "[CHARACTER.GetShortUIName|U] ha orchestrato una rappresentazione a proprio vantaggio."
+
+  competed_in_archery_title: "$festival.020.t$"
+  competed_in_archery: "[CHARACTER.GetShortUIName|U] ha partecipato con audacia a una gara di tiro con l’arco."
+
+  gained_lucky_fan_fragment_title: "$festival.020.t$"
+  gained_lucky_fan_fragment: "[CHARACTER.GetShortUIName|U] ha ottenuto un frammento di buona sorte."
+
+  gambled_on_archers_title: "$festival.020.t$"
+  gambled_on_archers: "[CHARACTER.GetShortUIName|U] ha scommesso e vinto una somma modesta."
+
+  banished_demons_title: "$festival.021.t$"
+  banished_demons: "[CHARACTER.GetShortUIName|U] ha scacciato personalmente «demoni» armati di torce."
+
+  banned_demons_title: "$festival.021.t$"
+  banned_demons: "[CHARACTER.GetShortUIName|U] ha posto fine a baldorie pericolose."
+
+  fire_drilled_people_title: "$festival.021.t$"
+  fire_drilled_people: "[CHARACTER.GetShortUIName|U] ha ricordato al popolo i pericoli del fuoco."
+
+  banned_brawling_title: "$festival.022.t$"
+  banned_brawling: "[CHARACTER.GetShortUIName|U] ha proibito una prova di forza e rafforzato la propria autorità."
+
+  keen_eye_for_business_title: "$festival.022.t$"
+  keen_eye_for_business: "[CHARACTER.GetShortUIName|U] ha sfruttato un’opportunità redditizia."
+
+  rewarded_brawlers_title: "$festival.022.t$"
+  rewarded_brawlers: "[CHARACTER.GetShortUIName|U] ha offerto una ricompensa materiale ai più forti."
+
+  saved_festival_float_title: "$festival.023.t$"
+  saved_festival_float: "[CHARACTER.GetShortUIName|U] si è caricat[Select_CString(CHARACTER.IsFemale,'a','o')] un fardello sulle spalle e ha scongiurato un disastro."
+
+  tenderized_villager_title: "$festival.023.t$"
+  tenderized_villager: "[CHARACTER.GetShortUIName|U] ha conciato per le feste un idiota per la sua inettitudine."
+
+  paraded_troops_title: "$festival.024.t$"
+  paraded_troops: "[CHARACTER.GetShortUIName|U] ha organizzato una dimostrazione di forza."
+
+  studied_martial_motions_title: "$festival.024.t$"
+  studied_martial_motions: "[CHARACTER.GetShortUIName|U] ha ottenuto un’intuizione marziale."
+
+  village_draft_title: "$festival.024.t$"
+  village_draft: "[CHARACTER.GetShortUIName|U] ha arruolato i più forti al servizio."
+
+  forgiven_blunder: "[CHARACTER.GetShortUIName|U] ha apprezzato la magnanimità di [TARGET_CHARACTER.GetShortUINamePossessive] in una questione d’onore."
+
+  hosted_successful_festival_opinion: "Ha organizzato un festival"
+
+  festival_blackout_drunk: "Sbronza fino allo svenimento"
+
+  festival_opinion_defamed_me: "Mi ha diffamato"
+  festival_drank_in_my_honor: "Ha bevuto in mio onore"
+  festival_put_an_end_to_slander: "Ha posto fine alle calunnie"
+  all_festival_participants: "Tutti i partecipanti a [activity.GetName]"
+  all_members_of_confederation_in_attendance: "Ogni membro di [bloc.GetName] presente"
+  all_members_of_root_confederation_in_attendance: "Ogni membro di [root_bloc.GetName] presente"
+  all_members_of_second_confederation_in_attendance: "Ogni membro di [second_bloc.GetName] presente"
+  festival_house_cohesion_gain_opinion: "Impegno per la coesione del blocco"
+
+  every_temperate_or_shy_attendee: "Ogni partecipante [GetTrait('temperate').GetName( GetNullCharacter )] o [GetTrait('shy').GetName( GetNullCharacter )]"
+  every_drunkard_or_lifestyle_reveler_attendee: "Ogni partecipante [GetTrait('drunkard').GetName( GetNullCharacter )] o [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]"
+  every_poet_attendee: "Ogni [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] presente"
+
+  festival.100.t: "In una notte al chiaro di luna"
+  festival.100.desc: "Il messo che mi invita alla festa per ammirare la luna di [target_character.GetTitledFirstNamePossessive] ha appena terminato quando ne arriva un altro, recando una lettera che mi invita a unirmi [target_character2.Custom('IT_NAM_COL4')][target_character2.GetTitledFirstName] invece!\n\nUna tale tempistica #EMP difficilmente#! è casuale. Entrambi vogliono mettermi alla prova; accettare una delle due sarà preso come segno della mia simpatia per l’autore e, allo stesso modo, come disprezzo per il rivale di [Select_CString(target_character.IsFemale,'lei','lui')]."
+  festival.100.a: "Onorerò [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstNameNoTooltip] con la mia presenza."
+  festival.100.b: "Credo di preferire la compagnia di [target_character2.GetTitledFirstNamePossessiveNoTooltip]."
+  festival.100.c: "Manda a ciascuno le mie scuse insieme a segni della mia stima."
+  festival.100.d: "Ospitiamo un raduno tutto nostro e offusciamoli entrambi!"
+
+  accepted_my_invitation: "Ha accettato il mio invito"
+  refused_my_invitation: "Ha rifiutato il mio invito"
+  declined_with_decorum: "Ha declinato con decoro"
+  festival_gazed_at_moon_together: "Contemplazione della luna condivisa"
+  festival_moon_gazed_house_log_title: "Alla luce della luna"
+  festival_moon_gazed_house_log: "[CHARACTER.GetName] ha contemplato la luna insieme a [TARGET_CHARACTER.GetName]"
+
+  festival.101.t: "Maniche profumate"
+  festival.101.desc: "Ben prima di vedere [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName], si può di certo #EMP sentire#! [Select_CString(target_character.IsFemale,'lei','lui')]. Sebbene #EMP sia#! consuetudine impregnare le vesti di incenso aromatico, di rado si intende che l’effetto si percepisca a cento passi dal portatore.\n\nForse è opportuno un appunto discreto, benché un sussurro in altro orecchio potrebbe far sì che questa bizzarria persista ben oltre lo svanire del profumo."
+  festival.101.a: "Manda qualcuno con tatto... e poco olfatto."
+  festival.101.b: "Tutti #EMP devono#! saperlo."
+
+  appreciated_discretion: "Discrezione apprezzata"
+  harmed_my_reputation: "Reputazione danneggiata"
+  festival_odious_odor: "Odore ripugnante"
+
+  festival.102.t: "Coppe levate"
+  festival.102.desc: "Dopo un giorno di festeggiamenti, cala il crepuscolo e la #EMP vera#! celebrazione finalmente inizia, col vino del nostro ospite che scorre come un fiume incessante.\n\nOgni bevuta invita alla successiva, e poi a un’altra. [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] fa una facezia di cui colgo solo la coda, ma [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] pare trovarla inesauribilmente spassosa. Forse un altro po’ di vino mi aiuterà a coglierne il divertimento..."
+  festival.102.a: "Il vino smuove qualcosa in me; sento un’ode in arrivo!"
+  festival.102.b: "Alzo questa coppa al nobile [target_character.Custom('IT_NAM_COL4')][target_character.GetTitledFirstNameNoTooltip]!"
+  festival.102.c: "Credo di aver bevuto abbastanza per questa sera."
+
+  festival_impressive_poetry: "Poesia impressionante"
+  festival_bad_poetry: "Poesia scadente"
+  festival_mild_drinker: "Bevitore moderato"
+  festival_mild_drinker_negative: "Bevitore inadeguato"
+
+  festival_toasted_head_house_log_title: "Una coppa alzata"
+  festival_toasted_head_house_log: "[CHARACTER.GetHouse.GetName] ha brindato a [TARGET_CHARACTER.GetHouse.GetName]"
+
+  festival.103.t: "Lingue millantatrici"
+  festival.103.desc: "Mentre io e i miei compagni ci muoviamo tra la folla, odo una voce tonante.\n\n«Il mio $language_chinese_name$ è #EMP squisito#!! Solo una quindicina di giorni fa [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] mise alla prova la mia perizia poetica, e fu umiliat[Select_CString(target_character2.IsFemale,'a','o')] dalla mia arte!» si vanta [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName].\n\nNon ricordo voci che attribuiscano doti poetiche a [Select_CString(target_character.IsFemale,'lei','lui')]; ma suffragare la sua affermazione potrebbe tornarmi utile. Tuttavia è difficile resistere alla tentazione di rimettere al suo posto un fanfarone."
+  festival.103.a: "«[Select_CString(target_character.IsFemale,'Lei','Lui')] dice il vero.»"
+  festival.103.b: "«[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstNameNoTooltip], fateci sentire i vostri talenti.»"
+  festival.103.c: "I talenti dei #EMP miei#! amici sono ben maggiori."
+  friend_defended_talents: "[CHARACTER.GetShortUIName|U] ha sostenuto le arroganti affermazioni di [TARGET_CHARACTER.GetShortUINamePossessive|U] a un festival."
+friend_defended_talents_corresponding: "Le arroganti pretese di [TARGET_CHARACTER.GetShortUINamePossessive|U] sono state sostenute da [CHARACTER.GetShortUIName|U] durante un festival."
+
+  festival.103.b.success: "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] è ridott[Select_CString(target_character.IsFemale,'a','o')] alla sottomissione"
+  festival.103.b.failure: "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] resta indifferente alla tua sfida"
+  festival.103.b.success.toast: "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] batte in ritirata"
+  festival.103.b.failure.toast: "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] ignora la tua sfida"
+
+  praised_my_wit: "Acume lodato"
+  festival_boasting_exposed: "Millanterie smascherate"
+  festival_praised_poetic_talents: "Talento poetico elogiato"
+
+  festival.104.t: "Alla deriva nella folla"
+  festival.104.desc: "Ogni raduno ha le sue maree; occorre guardarsi dalle correnti per non ritrovarsi isolati.\n\nQuando [target_character3.Custom('IT_NAM_COL3')][target_character3.GetTitledFirstName] si volta per salutare [target_character4.Custom('IT_NAM_COL3')][target_character4.GetTitledFirstName], mi ritrovo all’improvviso alla deriva nella folla, privo di conversazione.\n\nPoco più in là vedo [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] e [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] fissarmi con intenzione e scambiarsi parole dietro i ventagli."
+  festival.104.a: "Mi unirò a loro con audacia."
+  festival.104.b: "Qualche sussurro ben piazzato seminerà idee #EMP intriganti#!."
+  festival.104.c: "Mi ritirerò tra i miei compagni."
+
+  festival.104.a.success: "Li impressioni con il tuo approccio ardito"
+  festival.104.a.success.toast: "Il tuo approccio ardito ha avuto successo"
+  festival.104.a.failure: "La tua intrusione impacciata non è apprezzata"
+  festival.104.a.failure.toast: "Il tuo approccio impacciato non è ben accolto"
+
+  festival.104.b.success: "Insinui dubbi sulla loro integrità"
+  festival.104.b.success.toast: "Voci dubbie si addensano su di loro"
+  festival.104.b.failure: "La tua campagna di sussurri viene del tutto ignorata"
+  festival.104.b.failure.toast: "Il tuo tentativo di minarne la reputazione fallisce completamente"
+
+  appreciated_independence_of_spirit: "Audacia apprezzata"
+  awkward_intrusion: "Intrusione goffa"
+  festival_questionable_rumors: "Voci dubbie"
+  festival_hostile_to_rivals: "Ostilità verso i rivali"
+
+  festival.105.t: "Una prova d’ingegno"
+  festival.105.desc: "Un biglietto, vergato con mano elegante, pende delicatamente da un ramo. «[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] ci ha presentato un indovinello!» esclama [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName].\n\n«Una sfida» ribatte [target_character3.Custom('IT_NAM_COL3')][target_character3.GetTitledFirstName]. «[Select_CString(target_character.IsFemale,'Lei','Lui')] si crede il più arguto tra noi. Ha offerto al primo che lo risolverà qualunque favore desideri da [Select_CString(target_character.IsFemale,'lei','lui')]; #EMP chiaramente#! non si aspetta che nessuno di noi abbia la meglio.»"
+  festival.105.a: "Scioglierò questo indovinello, e con esso l’arroganza di [target_character.GetTitledFirstNamePossessiveNoTooltip]!"
+  festival.105.b: "Che costruzione sconcertante. La sua arguzia è davvero senza rivali."
+  festival.105.c: "L’inizio di una gara d’ingegno!"
+
+  festival.105.a.success: "Risolvi l’indovinello con impressionante facilità"
+  festival.105.a.success.toast: "Sciogli l’indovinello con destrezza"
+  festival.105.a.failure: "L’indovinello ti mette in scacco"
+  festival.105.a.failure.toast: "Non riesci a risolvere l’indovinello"
+
+  festival.105.c.success: "Risolvi indovinelli e confondi i tuoi rivali in egual misura"
+  festival.105.c.success.toast: "La festa degli indovinelli è stata un successo clamoroso"
+  festival.105.c.failure: "La tua prova è poco impressionante"
+  festival.105.c.failure.toast: "La festa degli indovinelli è degenerata in una lite meschina"
+
+  impressed_by_wit: "Colpito dall’ingegno"
+  impressed_by_witlessness: "Colpito dalla mancanza d’ingegno"
+  festival_composed_riddles_together: "Maestro di indovinelli"
+  festival_composed_riddles_together_badly: "Scarso negli indovinelli"
+
+  festival.106.t: "Le nozze della volpe"
+  festival.106.desc: "Ero abbastanza fortunat[Select_CString(ROOT.Char.IsFemale,'a','o')] da godere dell’ombra del padiglione quando un diluvio ha squarciato il cielo assolato; le nozze della volpe, come si suol dire.\n\nAhimè, il povero [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] ne ha subito tutta la furia, arrancando al riparo con l’eleganza di un gatto inzuppato.\n\n«Vi prego, una veste di ricambio!» implora. «[target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] è in arrivo, e mi rovinerebbe essere vist[Select_CString(target_character.IsFemale,'a','o')] in tale disordine.»"
+  festival.106.a: "I miei attendenti vi procureranno qualcosa."
+  festival.106.b: "Distrarrò [Select_CString(target_character2.IsFemale,'lei','lui')], ora correte!"
+  festival.106.c: "[target_character2.GetFirstNameNoTooltip] troverà la cosa #EMP molto#! divertente."
+
+  festival.106.b.success: "Riesci a distrarre [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName]"
+  festival.106.b.success.toast: "Ti intrattieni in una piacevole conversazione con [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName]"
+  festival.106.b.failure: "[target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] si accorge che c’è qualcosa che non va"
+  festival.106.b.failure.toast: "[target_character2.GetTitledFirstNameNoTooltip] nutre sospetti su di te"
+
+  festival_enjoyed_talk: "Conversazione gradevole"
+  festival_suspicious: "Sospettoso"
+  festival_offered_shelter: "Riparo offerto"
+  festival_shamed_another: "Divertimento condiviso"
+  festival_shamed_me: "Mi ha umiliato"
+
+  festival.107.t: "Avventure amorose"
+  festival.107.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip]!» mi chiama [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] mentre passo, facendomi cenno di avvicinarmi al suo gruppo.\n\n«Avete sentito cosa è accaduto tra [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] e la [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('character_of_rumor'))] di [target_character3.Custom('IT_NAM_COL2')][courtier_host.GetTitledFirstName], [character_of_rumor.Custom('IT_NAM_COL3')][character_of_rumor.GetTitledFirstName]?» sussurra. «Ho motivo di credere che [Select_CString(target_character.IsFemale,'sia arrivata','sia arrivato')] fin dentro le sue stanze private, ma il servitore che ho corrotto non sapeva dirmi altro.»\n\nI servitori sono, naturalmente, fonti di pettegolezzi #EMP notoriamente#! affidabili, ma a prescindere dalla veridicità di tali affermazioni, questa è un’ottima occasione per influire sulla reputazione [target_character.GetTitledFirstNamePossessiveNoTooltip]."
+  festival.107.a: "Ebbene, #EMP io#! ho sentito che [Select_CString(character_of_rumor.IsFemale,'lei','lui')] [Select_CString(target_character.IsFemale,'la','lo')] ha tenut[Select_CString(target_character.IsFemale,'a','o')] fuori dalla porta tutta la notte!"
+  festival.107.b: "Hanno visto poco, ma di certo hanno #EMP udito#! parecchio!"
+  festival.107.c: "Se ammirate le prodezze amorose, i miei compagni hanno molto di più da offrire."
+
+  festival_embarrassed_me: "Mi ha messo in imbarazzo"
+  festival_reinforced_group_cohesion: "Vincoli rafforzati"
+  festival_enhanced_amorous_reputation: "Reputazione amorosa accresciuta"
+
+  festival.108.t: "Leggendo tra le pieghe"
+  festival.108.desc: "Vedo [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName] avvicinarsi con gli occhi lucenti di malizia. «Ho trovato questo all’ombra del padiglione» comincia. «Ricordo bene che era nelle mani [target_character.GetTitledFirstNamePossessive] poche ore fa, e vi è inciso un messaggio alquanto... #EMP allusivo#!.»\n\n«#EMP Potremmo#! restituirglielo... #EMP oppure#! potrei fare in modo che venga “recapitato” vistosamente a un altro a nome [Select_CString(target_character.IsFemale,'di lei','di lui')]. Per esempio [target_character4.Custom('IT_NAM_COL3')][target_character4.GetTitledFirstName], [target_character3.Custom2('RelationToMeShort', SCOPE.sC('target_character4'))] del [target_character3.Custom('MistressMaster')], [target_character3.Custom('IT_NAM_COL2')][target_character3.GetTitledFirstName]?»"
+  festival.108.a: "Eccellente proposta. Così sia."
+  festival.108.b: "Dallo a me e lo restituirò #EMP personalmente#!."
+  festival.108.c: "Per ora teniamolo tra noi due."
+
+  festival.109.t: "Poesia sotto pressione"
+  festival.109.desc: "Un mormorio divertito mi attira dove una piccola folla si è radunata attorno a due dei nostri pari. «Dónaci un poema, [target_character2.Custom('IT_NAM_COL3')][target_character2.GetTitledFirstName]!», incalza [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName], con la voce intrisa di scherno a stento celato. «Di certo riuscirai a comporne almeno #EMP uno#!?»\n\n[target_character2.GetFirstNameNoTooltip], not[Select_CString(target_character2.IsFemale,'a','o')] per avere la sensibilità poetica di una pietra, mi guarda con gli occhi supplichevoli di un animale in trappola."
+  festival.109.a: "Scambiamoci versi. Comincio io e #EMP tu#! segui, [target_character.GetFirstNameNoTooltip]."
+  festival.109.b: "Stupiscici con il tuo ingegno, [target_character2.GetFirstNameNoTooltip]."
+  festival.109.c: "Se cercate la vera arte, trovatela fra #EMP noi#!."
+
+  opposed_me: "Si è opposto a me"
+  helped_me: "Mi ha aiutato"
+  compelled_poetry: "Composizione forzata"
+  festival_praised_poetic_prowess: "Perizia poetica elogiata"
+
+  festival.114.t: "Lasciat[Select_CString(target_character.IsFemale,'a','o')] a riva"
+  festival.114.desc: "Prendendo aria notturna, i miei compagni e io incrociamo [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] che fissa l’acqua con bramosia.\n\nAll’inizio suppongo che [Select_CString(target_character.IsFemale,'sia rapita','sia rapito')] dalla bellezza del riflesso lunare, ma il baccano di un gruppo di festaioli attira la mia attenzione. Pare che siano saliti su una barca e il pover[Select_CString(target_character.IsFemale,'a','o')] [target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstName] sia stato lasciat[Select_CString(target_character.IsFemale,'a','o')] a terra!"
+  festival.114.a: "«Dimenticali e unisciti a noi!»"
+  festival.114.b: "«Che pietà! Com’è essere scartat[Select_CString(target_character.IsFemale,'a','o')] come un giocattolo rotto?»"
+  festival.114.c: "#EMP Noi#! non abbandoneremmo mai uno dei nostri."
+
+  festival.delivered_ode: "Hai recitato un’ode toccante"
+  festival.poem_fell_flat: "Il tuo poema è caduto nel silenzio"
+
+  every_attendee_with_lower_learning: "Ogni partecipante con [learning|E] inferiore al tuo"
+  every_attendee_with_greater_learning: "Ogni partecipante con [learning|E] superiore al tuo"
+
+  festival_returned_my_possession: "Ha restituito un mio bene"
+  festival_advanced_upon_my_spouse: "Ha fatto avances al mio coniuge"
+  festival_shared_a_secret: "Ha condiviso un segreto"
+  festival_extended_an_invitation: "Ha rivolto un caloroso invito"
+  festival_cast_me_aside: "Mi ha messo da parte"
+
+  house_relation_reason_shared_mockery_desc: "[char.GetShortUIName|U] ha condiviso un momento di scherno con [target_char.GetShortUIName]"
+  house_relation_reason_appreciated_assistance_desc: "[char.GetShortUIName|U] ha prestato assistenza a [target_char.GetShortUIName]"
+  house_relation_reason_appreciated_discreet_note_desc: "[char.GetShortUIName|U] ha inviato una nota discreta a [target_char.GetShortUIName]"
+  house_relation_reason_malicious_slander_desc: "[char.GetShortUIName|U] ha diffamato [target_char.GetShortUIName]"
+  house_relation_reason_bolstered_reputation_desc: "[char.GetShortUIName|U] ha rafforzato la reputazione di [target_char.GetShortUIName]"
+  house_relation_reason_moon_gazed_desc: "[char.GetShortUIName|U] ha ammirato la luna con [target_char.GetShortUIName]"
+  house_relation_reason_sake_forgiven_desc: "[char.GetShortUIName|U] ha perdonato [target_char.GetShortUIName] per aver[Select_CString(char.IsFemale,'la','lo')] cosparso di sakè"
+  house_relation_reason_sake_insult_desc: "[target_char.GetShortUIName] ha cosparso di sakè [char.GetShortUIName|U]"
+  house_relation_reason_wit_praised_desc: "[char.GetShortUIName|U] ha lodato l’acume di [target_char.GetShortUIName]"
+  house_relation_reason_toasted_head_desc: "[char.GetShortUIName|U] ha brindato a [target_char.GetShortUIName]"
+  house_relation_reason_exposed_my_state_desc: "[char.GetShortUIName|U] ha messo in piazza lo stato imbarazzante di [target_char.GetShortUIName]"
+  house_relation_reason_shared_secret_desc: "[char.GetShortUIName|U] e [target_char.GetShortUIName] hanno condiviso un segreto"
+  house_relation_reason_extended_a_kind_invitation_desc: "[char.GetShortUIName|U] ha rivolto un caloroso invito a [target_char.GetShortUIName]"
+  house_relation_reason_forced_to_back_off_desc: "[char.GetShortUIName|U] ha costretto [target_char.GetShortUIName] a fare marcia indietro"
+  house_relation_reason_came_to_my_aid_desc: "[char.GetShortUIName|U] è accors[Select_CString(char.IsFemale,'a','o')] in aiuto di [target_char.GetShortUIName]"
+  house_relation_reason_gifted_a_fan_desc: "[char.GetShortUINamePossessive|U] ventaglio decorativo fu «regalato» al coniuge di [target_char.GetShortUINamePossessive]"
+  house_relation_reason_compelled_poetry_desc: "[char.GetShortUIName|U] ha costretto [target_char.GetShortUIName] a recitare un poema"
+
+  festival.1000.t: "Compagnia stimata"
+  festival.1000.desc: "Godendo in silenzio del languido scorrere dei festeggiamenti, [bloc_member_head_1.Custom('IT_NAM_COL3')][bloc_member_head_1.GetTitledFirstName] dei [bloc_member_head_1.GetHouse.GetBaseName], [bloc_member_head_2.Custom('IT_NAM_COL3')][bloc_member_head_2.GetTitledFirstName] dei [bloc_member_head_2.GetHouse.GetBaseName] e io ci ritroviamo a scambiarci convenevoli e dolci all’ombra."
+  festival.1000.outro: "\n\nPossiamo annoverarci tra i massimi nobili del reame, e simili occasioni di mescolarci con tanta naturalezza sono rare."
+  festival.1000.a: "«Ritengo la mia famiglia fortunata ad avere compagnia di tale qualità.»"
+  festival.1000.b: "«Annovero i [bloc_member_head_1.GetHouse.GetBaseNameNoTooltip] tra i miei amici d’onore.»"
+  festival.1000.c: "[bloc_member_head_1.GetFirstNameNoTooltip], vi piace prostrarvi dinanzi ai [bloc_member_head_1.GetHouse.GetConfederation.GetLeadingHouse.GetBaseNameNoTooltip]?"
+  festival.1000.e: "«Il maniero dei [bloc_member_head_1.GetHouse.GetBaseNameNoTooltip] è uno spettacolo da ammirare.»"
+  festival.1000.f: "«Grande prova dei [bloc_member_head_2.GetHouse.GetBaseNameNoTooltip] quest’anno.»"
+  festival.1000.g: "Momenti così vanno semplicemente apprezzati."
+
+  festival.2000.t: "Strade che si separano"
+  festival.2000.intro_desc: "Quando le baldorie notturne svaniscono e cedono il passo ai primi raggi dorati dell’alba, gli astanti assaporano questi ultimi momenti prima di tornare alla monotonia delle incombenze quotidiane.\n\n"
+  festival.2000.intro_part_two: "[Select_CString(friendly_attendee.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2( 'RelationToMeShort', friendly_attendee )] [friendly_attendee.Custom('IT_NAM_COL3')][friendly_attendee.GetTitledFirstName] si avvicina. «La vostra compagnia è stata assai gradita in questi giorni», dice, poi si ferma e accenna un sorriso caldo.\n\n"
+  festival.2000.bloc_invitation: "«Tanto che i miei compagni ed io vorremmo porgervi un invito: che possiate annoverarvi tra le nostre fila, e che noi, a nostra volta, rimarremo sempre al vostro fianco.»"
+  festival.2000.befriending: "«Sarebbe per me un immenso onore se in futuro mi annoveraste tra i vostri confidenti.»"
+  festival.2000.nobody_likes_you: "Il flusso costante di assopiti e sazi dagli alloggi alla strada si assottiglia fino a cessare, e ben presto il mio seguito e io siamo tutto ciò che rimane."
+
+  festival.2000.a_accept: "Potrete contare sul mio sostegno, come io conterò sul vostro."
+  festival.2000.a_decline: "Vi ringrazio, ma sono soddisfatt[Select_CString(ROOT.Char.IsFemale,'a','o')] così come sono."
+  festival.2000.b_accept: "Legami simili sono rari, e vanno custoditi."
+  festival.2000.b_decline: "Apprezzo la vostra considerazione, ma devo rifiutare."
+  festival.2000.c: "Custodiremo questi fugaci piaceri nella memoria."
+
+  friend_festival_bonding: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] hanno legato durante il tempo trascorso insieme a un festival."
+
+  festival_intent_target_joined_bloc_title: "Legami stabiliti"
+  festival_intent_target_left_bloc_title: "Legami recisi"
+
+  festival_joined_a_bloc_log_title: "$festival_intent_target_joined_bloc_title$"
+  festival_joined_a_bloc_log: "[ROOT.Char.GetName] si è unito a [bloc_name.GetName]"

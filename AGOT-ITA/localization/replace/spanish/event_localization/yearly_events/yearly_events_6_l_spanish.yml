@@ -1,0 +1,25 @@
+﻿l_spanish:
+
+ yearly.9100.t:0 "Problemi in giardino"
+yearly.9100.desc: 0 "Appena entro nei giardini, non faccio in tempo a muovere un passo che odo qualcuno urlare oscenità. «#EMP [gardener.Custom('CulturalCurse')|U]!#!»\n\nGiro attorno a una siepe in cerca della fonte e scorgo il mio giardiniere/la mia giardiniera, [gardener.Custom('IT_NAM_COL3')][gardener.GetTitledFirstName], che zappa la terra con cipiglio. [Select_CString(gardener.IsFemale,'Si','Si')] accorge del mio arrivo e [Select_CString(gardener.IsFemale,'si','si')] raddrizza in piedi.\n\n«Oh! Perdonatemi, [ROOT.Char.Custom('FormOfAddressForLiege')]. Non mi aspettavo nessun altro qui fuori... Qualche bestia sciocca, senza dubbio un[Select_CString(gardener.IsFemale,'’',' ')][gardener.Custom('GetAnimalType')], ha rovinato #EMP tutto#! il mio recente lavoro! Ho piantato queste erbe solo ieri l’altro!»"
+ yearly.9100.a:0 "Permettimi di aiutarti!"
+ yearly.9100.b:0 "Eccoti qualcosina per il tuo duro lavoro!"
+ yearly.9100.c:0 "Questa #EMP è#! una vera sfortuna... ma non fermarti a causa mia!"
+ yearly.9100.a.tooltip_a:0 "Apprendi molto sul giardinaggio"
+ yearly.9100.a.tooltip_b:0 "Peggiori ulteriormente la situazione"
+ yearly.9100.a.success:0 "Ho appreso qualcosa sul giardinaggio!"
+ yearly.9100.a.failure:0 "Il giardinaggio è una perdita di tempo!"
+ 
+ yearly.9110.t:0 "Il ladro di fiori"
+ yearly.9110.desc:1 "[gardener.Custom('DE_ART_IND_D')] mi[gardener.Custom('DE_END_PRO_S_N')] giardinier[gardener.Custom('DE_PRO_PER_S_3P_G')] [gardener.GetTitledFirstName] irrompe nella sala del consiglio e si avvicina furiosamente al mio [romantic_councillor.GetCouncilTitle], [romantic_councillor.GetTitledFirstName].\n\n"Come avete #EMP osato#! rovinare il giardino di [ROOT.Char.GetTitleTierNamePossessive]?! Per di più #EMP rubando#! dei fiori rari e preziosi!"\n\n[romantic_councillor.GetFirstNameNoTooltip] è chiaramente indolente al temperamento [gardener.Custom('DE_PRO_PER_P_3P_A')] giardinier[gardener.Custom('DE_PRO_PER_S_3P_G')]. "Ho pensato che sarebbero stati un regalo perfetto per mia/mio [councillor_spouse.GetWifeHusband]. Essere romantici difficilmente è un crimine, vero?""
+ yearly.9110.a:0 "Ma rovinare il mio giardino lo è. Pagherai per i danni. Adesso."
+ yearly.9110.b:0 "Hai esagerato [gardener.GetFirstNameNoTooltip]!"
+ yearly.9110.c:0 "Quei fiori sono un ottimo regalo... per #EMP mi[spouse.Custom('DE_END_PRO_S_N')]#! [spouse.GetWifeHusband]."
+ yearly.9110.d:0 "Non mi farò coinvolgere! Risolvetevela da soli."
+ 
+ yearly.9120.t:0 "Il Mercante di Semi"
+yearly.9120.desc: 0 "Il mercato di [barony_market.GetName] è piuttosto affollato, e un mercante in particolare cattura la mia attenzione. [Select_CString(seed_merchant.IsFemale,'Sembra','Sembra')] vendere nient’altro che piccole scatole. Notata la mia curiosità, [Select_CString(seed_merchant.IsFemale,'mi fa cenno','mi fa cenno')] di avvicinarmi.\n\n«Interessat[Select_CString(ROOT.Char.IsFemale,'a','o')] a qualcosa di speciale, [ROOT.Char.Custom('FormOfAddressForLiege')]? Vedi, tutte queste minuscole scatole sono piene di semi di vario tipo. Alcuni daranno fiori variopinti, altri erbe medicinali. Ho persino una rara varietà velenosa, se dovesse interessarti.»"
+ yearly.9120.a:0 "Quello velenoso per favore... Per la ricerca, ecco."
+ yearly.9120.b:0 "I fiori esotici di certo renderanno i miei gardini spettacolari!"
+ yearly.9120.c:0 "Le erbe sono sempre utili. Prenderò quelle."
+ yearly.9120.d:0 "Per #EMP questi#! prezzi oltraggiosi?! Mai nella vita!"

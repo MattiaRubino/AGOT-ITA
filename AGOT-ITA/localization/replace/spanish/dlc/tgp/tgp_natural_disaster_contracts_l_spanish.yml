@@ -1,0 +1,165 @@
+﻿l_spanish:
+
+  tgp_admin_contract_natural_disaster_tt_rewards: "Puoi scegliere tra un assortimento di ricompense, tra cui:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[experience|E] in [lifestyles|E]\n$EFFECT_LIST_BULLET$[influence_i|E][influence|E]\n$EFFECT_LIST_BULLET$[prestige_i|E][prestige|E]\n$EFFECT_LIST_BULLET$[piety_i|E][piety|E]\n$EFFECT_LIST_BULLET$[county_opinion|E]\n$EFFECT_LIST_BULLET$Miglioramenti alle tue [counties|E]#!"
+  tgp_admin_contract_natural_disaster_failure_tt: "Potresti subire penalità, come perdere [prestige_i|E][prestige|E] o [influence_i|E][influence|E]"
+  tgp_natural_disaster_travel_to_contract_destination: "Viaggia a [natural_disaster_contract_destination.GetName] e indaga sulla questione"
+ 
+ #Food
+ #CONTRACT
+  tgp_food_shortage: "Penuria di cibo"
+  tgp_food_shortage_contract: "$tgp_food_shortage$"
+  tgp_food_shortage_desc_title: "$task_contract_governance_desc_title$"
+  tgp_food_shortage_request: "$admin_request_choose_opportunity$"
+  tgp_food_shortage_desc: "Un disastro ha colpito questa contea, rendendo scarso il cibo tra la popolazione."
+ #FIRST EVENT OPT IN OR OUT
+  tgp_natural_disaster_contract_event.0001.t: "$tgp_food_shortage$"
+  tgp_natural_disaster_contract_event.0001.desc: "Il cibo è diventato scarso in [natural_disaster_contract_destination.GetName], lasciando i cittadini senza altra scelta che cercare disperatamente fonti di sostentamento alternative – e talvolta #EMP non ortodosse#!. Chi ne ha i mezzi fa il possibile per prestare aiuto, ma è stato richiesto il nostro intervento."
+  tgp_natural_disaster_contract_event.0001.a: "Il popolo grida per la fame, e non resterà senza risposta."
+  tgp_natural_disaster_contract_event.0001.b: "Le nostre riserve sono preziose e non abbiamo nulla da destinare."
+ #EVENT
+  tgp_natural_disaster_contract_event.0002.t: "$tgp_food_shortage$"
+  tgp_natural_disaster_contract_event.0002.desc: "I lamenti dei famelici riecheggiano per la strada quando il mio seguito viene assediato da smunti affamati non appena giungiamo, gli occhi vuoti di questi mendicanti privi di speranza quanto i loro stomaci lo sono di sostentamento. Il grano che abbiamo portato basta a sfamare alcuni, ma non tutti – e la privazione si tramuta rapidamente in pericolosa disperazione."
+  tgp_natural_disaster_contract_event.0002.a: "Rivolgiti a tutti i sudditi!"
+  tgp_natural_disaster_contract_event.0002.b: "Procurate ciò che serve, a qualunque costo: pagherò di tasca mia."
+  tgp_natural_disaster_contract_event.0002.c: "Convinco i mercanti ad aprire i loro magazzini."
+  tgp_natural_disaster_contract_event.0002.c.tt.success: "I mercanti hanno acconsentito ad aiutare i soccorsi"
+  tgp_natural_disaster_contract_event.0002.c.tt.failure: "I mercanti hanno scelto con cinismo il profitto al posto della benevolenza"
+  tgp_natural_disaster_contract_event.0002.d: "Costringi i privilegiati a contribuire ai soccorsi."
+ #MODIFIERS
+  tgp_distribution_of_food_character_modifier: "Sostentamento ai bisognosi"
+  tgp_distribution_of_food_character_modifier_desc: "Questo personaggio ha convinto i propri sudditi a distribuire cibo ai bisognosi della zona."
+  tgp_distribution_of_food_modifier: "Distribuzione di cibo"
+  tgp_distribution_of_food_modifier_desc: "Questa contea ha ottenuto scorte aggiuntive sotto forma di cibo."
+  tgp_pay_from_own_pocket_character_modifier: "Ha pagato di tasca propria"
+  tgp_pay_from_own_pocket_character_modifier_desc: "Questo personaggio ha usato altruisticamente il proprio denaro per sfamare gli affamati."
+  tgp_pay_from_own_pocket_modifier: "Fondi personali"
+  tgp_pay_from_own_pocket_modifier_desc: "Questa contea ha ricevuto aiuti direttamente di tasca del suo governatore."
+  tgp_haggle_with_merchants_modifier: "Mercanti benevoli"
+  tgp_haggle_with_merchants_modifier_desc: "Questa contea riceve aiuti aggiuntivi dai mercanti itineranti."
+  tgp_demand_food_from_nobles_modifier: "Cibo dai nobili"
+  tgp_demand_food_from_nobles_modifier_desc: "Le riserve di grano di questa contea sono state accresciute costringendo i notabili locali a contribuire."
+ #CONTRACT REWARD
+  task_contract_reward_effect_distribution_of_food_desc: "$label_success_standard$"
+  task_contract_reward_effect_pay_from_own_pocket_desc: "$label_success_standard$"
+  task_contract_reward_effect_haggle_with_merchants_desc: "$label_success_standard$"
+  task_contract_reward_effect_demand_food_from_nobles_desc: "$label_success_standard$"
+  task_contract_reward_effect_haggle_with_merchants_failure_desc: "$label_failure_standard$"
+
+ #Reconstruction
+ #CONTRACT
+  tgp_ravaged_buildings: "Distrutto dalla natura"
+  tgp_ravaged_buildings_contract: "$tgp_ravaged_buildings$"
+  tgp_ravaged_buildings_desc_title: "$task_contract_governance_desc_title$"
+  tgp_ravaged_buildings_request: "$admin_request_choose_opportunity$"
+  tgp_ravaged_buildings_desc: "Queste terre sono state colpite da una calamità, le infrastrutture sono in rovina e necessitano urgentemente di riparazioni."
+ #FIRST EVENT OPT IN OR OUT
+  tgp_natural_disaster_contract_event.0005.t: "$tgp_ravaged_buildings$"
+  tgp_natural_disaster_contract_event.0005.desc: "All'indomani di un recente disastro, i cittadini di [natural_disaster_contract_destination.GetName] sommergono i miei uffici con suppliche e richieste di aiuto per ricostruire le loro case."
+  tgp_natural_disaster_contract_event.0005.a: "Mi occuperò personalmente dei soccorsi."
+  tgp_natural_disaster_contract_event.0005.b: "La loro sorte è tragica, ma le loro sventure sono solo alcune fra molte."
+ #EVENT
+  tgp_natural_disaster_contract_event.0006.t: "$tgp_ravaged_buildings$"
+  tgp_natural_disaster_contract_event.0006.desc: "Le macerie che mi si parano davanti attestano la gravità del disastro che ha colpito [natural_disaster_contract_destination.GetName].\n\nPrivati delle case, i feriti e i disperati guardano a me perché trovi loro riparo, mentre i deboli lamenti dei sepolti vivi risuonano tra le rovine. E con le nubi di tempesta all'orizzonte, il bisogno è ancor più pressante."
+  tgp_natural_disaster_contract_event.0006.a: "Metti in salvo quanti più possibile, resteremo a estrarre il resto."
+  tgp_natural_disaster_contract_event.0006.b: "I sepolti non possono essere salvati, dobbiamo mettere al riparo i superstiti."
+  tgp_natural_disaster_contract_event.0006.c: "La priorità è liberare chi è intrappolato sotto le macerie."
+  tgp_natural_disaster_contract_event.0006.c.tt.desc.success: "Le vittime intrappolate vengono liberate con successo"
+  tgp_natural_disaster_contract_event.0006.c.tt.success: "Le vittime intrappolate sono state liberate con successo"
+  tgp_natural_disaster_contract_event.0006.c.tt.desc.failure: "Le rovine crollano prima che tu riesca a liberare chi è sotto"
+  tgp_natural_disaster_contract_event.0006.c.tt.failure: "Le rovine sono crollate nella tempesta, schiacciando chi era sotto"
+  tgp_natural_disaster_contract_event.0006.d: "Un alloggio in cambio della loro forza è uno scambio equo."
+ #MODIFIERS
+  tgp_rebuild_settlement_character_modifier: "Maestro della ricostruzione"
+  tgp_rebuild_settlement_character_modifier_desc: "Questo personaggio è avvezzo a gestire le conseguenze dei disastri ed è ben versato nelle complessità della ricostruzione."
+  tgp_rebuild_settlement_modifier: "Insediamento in ricostruzione"
+  tgp_rebuild_settlement_modifier_desc: "Sono state intraprese misure estese per ricostruire quanto questa contea ha perduto in un recente disastro."
+  tgp_temporary_shelters_modifier: "Al riparo dalla tempesta"
+  tgp_temporary_shelters_modifier_desc: "Pur privati delle loro case da un recente disastro, qui le persone hanno ricevuto alloggi temporanei."
+  tgp_remove_debris_modifier: "Fuori dalle macerie"
+  tgp_remove_debris_modifier_desc: "Nel liberare gli intrappolati tra le rovine delle loro case, i siti sono stati anche comodamente sgombrati per la ricostruzione."
+  tgp_labor_exchange_character_modifier: "Forza lavoro riluttante"
+  tgp_labor_exchange_character_modifier_desc: "In cambio di un riparo dalla tempesta, questo personaggio ha ottenuto manodopera aggiuntiva nel proprio dominio."
+ #CONTRACT REWARD
+  task_contract_reward_effect_rebuild_settlement_desc: "$label_success_standard$"
+  task_contract_reward_effect_temporary_shelters_desc: "$label_success_standard$"
+  task_contract_reward_effect_remove_debris_desc: "$label_success_standard$"
+  task_contract_reward_effect_labor_exchange_desc: "$label_success_standard$"
+  task_contract_reward_effect_remove_debris_failure_desc: "$label_failure_standard$"
+
+ #Health Care
+ #CONTRACT
+  tgp_medieval_medicine: "Curare gli sventurati"
+  tgp_medieval_medicine_contract: "$tgp_medieval_medicine$"
+  tgp_medieval_medicine_desc_title: "$task_contract_governance_desc_title$"
+  tgp_medieval_medicine_request: "$admin_request_choose_opportunity$"
+  tgp_medieval_medicine_desc: "Un disastro ha colpito questa contea! Il tributo di vite è notevole, superato solo dal numero di sfollati e feriti che necessitano di assistenza."
+ #FIRST EVENT OPT IN OR OUT
+  tgp_natural_disaster_contract_event.0010.t: "$tgp_medieval_medicine$"
+  tgp_natural_disaster_contract_event.0010.desc: "È giunto un messaggero a cavallo con terribili notizie: una calamità è abbattuta su [natural_disaster_contract_destination.GetName] — i morti sono innumerevoli e i sopravvissuti sono feriti e hanno disperato bisogno di cure."
+  tgp_natural_disaster_contract_event.0010.a: "Manda un nuovo messaggero ad annunciare che sono in arrivo."
+  tgp_natural_disaster_contract_event.0010.b: "I loro morti sono oltre ogni aiuto; il mio dovere è verso chi è ancora in pericolo."
+ #EVENT
+  tgp_natural_disaster_contract_event.0011.t: "$tgp_medieval_medicine$"
+  tgp_natural_disaster_contract_event.0011.desc: "Il messaggio del messo rendeva appena giustizia alla situazione: i morti superano di gran lunga i vivi, il fetore di morte e putrefazione è ineludibile.\n\nI sopravvissuti stanno meglio dei loro congiunti defunti, ma quasi nessuno è uscito indenne dal disastro.\n\nDi fronte a tanto dolore e sofferenza, a fatica so da dove iniziare a dirigere i nostri sforzi."
+  tgp_natural_disaster_contract_event.0011.a: "Che i nostri medici curino prima i feriti."
+  tgp_natural_disaster_contract_event.0011.b: "Portatemi i bambini e gli anziani, me ne occuperò [Select_CString(ROOT.Char.IsFemale,'io stessa','io stesso')]."
+ #rephrase this
+  tgp_natural_disaster_contract_event.0011.b.tt.success: "Assistenza prestata con successo ai bisognosi"
+ #rephrase this
+  tgp_natural_disaster_contract_event.0011.b.tt.failure: "Tentativo vano di assistere i bisognosi"
+  tgp_natural_disaster_contract_event.0011.c: "Onora i morti e assicurati che ricevano sepolture adeguate."
+  tgp_natural_disaster_contract_event.0011.d: "Le cure andranno a chi può permettersele."
+ #MODIFIERS
+  tgp_assisting_physician_modifier: "Sostegno medico"
+  tgp_assisting_physician_modifier_desc: "Una schiera di medici è giunta in questa contea per alleviare le sofferenze dei feriti."
+  tgp_medical_assistance_character_modifier: "Maniche rimboccate"
+  tgp_medical_assistance_character_modifier_desc: "Questo personaggio ha prestato assistenza in prima persona a mutilati e sfregiati."
+  tgp_medical_assistance_modifier: "Medicina maldestra"
+  tgp_medical_assistance_modifier_desc: "Le buone intenzioni non sempre portano a buoni esiti. Gli abitanti di questa contea hanno sperimentato in prima persona le mani benintenzionate ma inesperte del loro governatore."
+  tgp_prayers_to_the_people_character_modifier: "Rispetto per i morti"
+  tgp_prayers_to_the_people_character_modifier_desc: "Questo personaggio ha dimostrato chiaramente il rispetto che nutre per i defunti."
+ #CONTRACT REWARD
+  task_contract_reward_effect_assisting_physician_desc: "$label_success_standard$"
+  task_contract_reward_effect_medical_assistance_desc: "$label_success_standard$"
+  task_contract_reward_effect_prayers_to_the_people_desc: "$label_success_standard$"
+  task_contract_reward_effect_better_pay_up_desc: "$label_success_standard$"
+  task_contract_reward_effect_medical_assistance_failure_desc: "$label_failure_standard$"
+
+ #Relocation
+ #CONTRACT
+  tgp_disaster_displacement: "Mietitori di rovina"
+  tgp_disaster_displacement_contract: "$tgp_disaster_displacement$"
+  tgp_disaster_displacement_desc_title: "$task_contract_governance_desc_title$"
+  tgp_disaster_displacement_request: "$admin_request_choose_opportunity$"
+  tgp_disaster_displacement_desc: "Saccheggiatori e sciacalli hanno travolto questa contea all'indomani della recente devastazione."
+ #FIRST EVENT OPT IN OR OUT
+  tgp_natural_disaster_contract_event.0015.t: "$tgp_disaster_displacement$"
+  tgp_natural_disaster_contract_event.0015.desc: "Il peggio del recente disastro in [natural_disaster_contract_destination.GetName] potrebbe essere passato, ma chi ha l'avidità nel cuore ha colto l'occasione per arricchirsi a spese degli sfollati."
+  tgp_natural_disaster_contract_event.0015.a: "Pare serva una mano ferma per ristabilire l'ordine."
+  tgp_natural_disaster_contract_event.0015.b: "I mali compiuti dagli uomini sono irredimibili."
+ #EVENT
+  tgp_natural_disaster_contract_event.0016.t: "$tgp_disaster_displacement$"
+  tgp_natural_disaster_contract_event.0016.desc: "La bassezza della natura umana è in piena mostra a [natural_disaster_contract_destination.GetName], dove la gente pare più interessata a spogliare i vicini dei loro averi che a porgere una mano d'aiuto.\n\nQui bisogna ristabilire un minimo d'ordine prima di intraprendere qualsiasi tentativo di ricostruzione."
+  tgp_natural_disaster_contract_event.0016.a: "Schiera le nostre truppe e falli arrestare i saccheggiatori."
+  tgp_natural_disaster_contract_event.0016.a.tt.desc.success: "Le tue truppe riescono a catturare i saccheggiatori"
+  tgp_natural_disaster_contract_event.0016.a.tt.success: "Le tue truppe hanno catturato i saccheggiatori"
+  tgp_natural_disaster_contract_event.0016.a.tt.desc.failure: "Gli elusivi saccheggiatori sfuggono ai tuoi sforzi per catturarli"
+  tgp_natural_disaster_contract_event.0016.a.tt.failure: "Le tue truppe non sono riuscite a catturare i saccheggiatori"
+  tgp_natural_disaster_contract_event.0016.b: "Passane alcuni per le armi, sarà d'esempio agli altri."
+  tgp_natural_disaster_contract_event.0016.c: "Confisca quanto è stato recuperato per la mia ispezione #EMP personale#!."
+  tgp_natural_disaster_contract_event.0016.d: "Paga i saccheggiatori perché se ne vadano per sempre."
+ #MODIFIERS
+  tgp_deployed_troops_character_modifier: "Custode dell'ordine"
+  tgp_deployed_troops_character_modifier_desc: "Questo personaggio sostiene con entusiasmo l'applicazione vigorosa della legge, se necessario con la forza delle armi."
+  tgp_setting_an_example_character_modifier: "Ordine alla punta della spada"
+  tgp_setting_an_example_character_modifier_desc: "Questo personaggio ha dimostrato la propria volontà di riportare l'ordine con rapidità, efficacia e senza esitazioni."
+  tgp_deployed_troops_modifier: "Saccheggi dilaganti"
+  tgp_deployed_troops_modifier_desc: "Persino la vista imponente delle nostre truppe non è bastata a frenare l'avidità sfrenata dei saccheggiatori e degli sciacalli in questa contea."
+  tgp_paying_off_the_looters_modifier: "Sciacalli comprati"
+  tgp_paying_off_the_looters_modifier_desc: "In cambio di un po' d'oro, i saccheggi dilaganti sono scomparsi dall'area, lasciando spazio alla ripresa."
+ #CONTRACT REWARD
+  task_contract_reward_effect_deployed_troops_desc: "$label_success_standard$"
+  task_contract_reward_effect_setting_an_example_desc: "$label_success_standard$"
+  task_contract_reward_effect_confiscate_for_personal_inspection_desc: "$label_success_standard$"
+  task_contract_reward_effect_paying_off_the_looters_desc: "$label_success_standard$"
+  task_contract_reward_effect_deployed_troops_failure_desc: "$label_failure_standard$"

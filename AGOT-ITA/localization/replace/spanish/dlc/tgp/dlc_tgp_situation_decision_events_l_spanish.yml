@@ -1,0 +1,153 @@
+﻿l_spanish:
+
+ ##################################################
+ # STRUGGLE EVENTS 
+ ##################################################
+  tgp_dynastic_cycle.0051.t: "Il $dynastic_cycle$ — [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip]"
+  tgp_dynastic_cycle.0051.desc.intro: "[GetSituation('dynastic_cycle').GetTopSubRegion.GetName] è una terra immensa e prospera. Investito dal Cielo stesso del mandato di regnare, il suo sovrano deve governare con giustizia per conservare il favore divino, mentre atti di tirannia rischiano l’ira del Cielo.\n\nIn questa epoca di"
+  tgp_dynastic_cycle.0051.desc.advancement: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], grandi progressi tecnologici e accumulo di ricchezze sono attesi per tutti nel dominio."
+  tgp_dynastic_cycle.0051.desc.expansion: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], nel dominio tutti si attendono grandi conquiste e prove di forza."
+  tgp_dynastic_cycle.0051.desc.conquest: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], il destino di tutti nel dominio è incerto."
+  tgp_dynastic_cycle.0051.desc.corruption: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'lei','lui')] non è riuscit[Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'a','o')] a ereditare le virtù degli antenati [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'di lei','di lui')]. Lo Stato è caduto preda di un’immoralità degenerata e di ministri malvagi di ignobile carattere."
+  tgp_dynastic_cycle.0051.desc.consolidation: "$tgp_dynastic_cycle.0051.desc.intro$ [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetType.GetNameNoTooltip|l], [GetSituation('dynastic_cycle').GetTopSubRegion.GetNameNoTooltip] giace lacerata mentre signori della guerra in conflitto contendono il Mandato del Cielo. La ricerca del perfezionamento morale è stata abbandonata in questi tempi caotici."
+  tgp_dynastic_cycle.0051.desc.emperor: "\n\nIn quanto sovrano, è mia responsabilità mantenere il Mandato e governare virtuosamente, come la Stella Polare attorno a cui ruotano tutti i corpi celesti."
+  tgp_dynastic_cycle.0051.desc.advancement_movement: "Si dice che in pace si debba servire come ministri capaci, ma non si può negare che i tempi di caos spesso ricompensino l’astuzia e l’inganno più della virtù..."
+  tgp_dynastic_cycle.0051.desc.expansion_movement: "\n\nGente come me, al servizio come potenti generali, assicurerà la stabilità del dominio."
+  tgp_dynastic_cycle.0051.desc.pro_hegemon_movement: "\n\nSolo il sovrano può mantenere le promesse e io offrirò [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'a lei','a lui')] il mio incrollabile sostegno!"
+  tgp_dynastic_cycle.0051.desc.conservative_movement: "\n\nLa mia famiglia seguirà sempre la guida del Cielo."
+  tgp_dynastic_cycle.0051.desc.unaligned_movement: "\n\nIl mio ruolo nel ciclo senza fine è incerto. Il Cielo mi guiderà quando sarò pronto a prendere posizione."
+  tgp_dynastic_cycle.0051.desc.interloper: "\n\nPotrebbe non essere la terra dei nostri antenati, ma questo luogo è ricco di opportunità difficili da respingere, purché si proceda con cautela."
+  tgp_dynastic_cycle.0051.a.emperor: "Che il nostro regno duri diecimila anni!"
+  tgp_dynastic_cycle.0051.a.involved: "Ricchezza e onore dipendono dal Cielo!"
+  tgp_dynastic_cycle.0051.a.interloper: "La fortuna è incerta come venti e nubi."
+  intro_event_joined_movement: "Entrato nel [my_movement.GetName]"
+  tgp_dynastic_cycle.0052.t: "Entrato in [ROOT.Char.Custom('GetMyMovementNoTooltip')]"
+  tgp_dynastic_cycle.0052.desc.intro_common: "[GetTitleByKey('h_china').GetHolder.GetName] è stato consacrato dal Cielo per realizzare le promesse di un’era [GetSituation('dynastic_cycle').GetTopCurrentPhase.GetName]. Nel frattempo, io ho scelto il cammino di [ROOT.Char.Custom('GetMyMovement')]."
+  tgp_dynastic_cycle.0052.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nVi sono molte tentazioni e persone influenti là fuori. Per ora dovrei tenermi lontano da ogni intrigo politico e concentrarmi sulla mia tenuta e sul mio incarico locale.\n\n"
+  tgp_dynastic_cycle.0052.desc.advancement: "Spero nella prosperità del dominio e che la gente possa coltivare le proprie vite. Forse un giorno guarderò con maggior favore all’idea di unirmi a [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('advancement_movement').GetName]."
+  tgp_dynastic_cycle.0052.desc.expansion: "Terrò d’occhio le notizie dai fronti e tiferò per tutte le conquiste. Forse allora prenderò in considerazione di unirmi a [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('expansion_movement').GetName]."
+  tgp_dynastic_cycle.0052.desc.conquest: "Tuttavia, osserverò il governo dei [ROOT.Char.GetTopLiege.GetDynastyName] e agirò di conseguenza se dovessero perdere o guadagnare il favore del Cielo."
+  tgp_dynastic_cycle.0052.desc.instability: "Ciononostante, temo la direzione verso cui si avvia il dominio e temo che la dinastia regnante [ROOT.Char.GetTopLiege.GetDynastyName] possa perdere il [ROOT.Char.GetTopLiege.GetLegitimacyType.GetFlavorName(ROOT.Char.GetTopLiege.GetLegitimacyLevel.Self)]."
+  tgp_dynastic_cycle.0052.a: "Rimarrò imparziale."
+  tgp_dynastic_cycle.0053.t: "$tgp_dynastic_cycle.0052.t$"
+  tgp_dynastic_cycle.0053.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nCi saranno molte occasioni per apprendere nuove tattiche e strategie militari dai miei compagni. In cima alla scala brilla la scrivania del [ROOT.Char.GetTopLiege.GetCouncillor('councillor_marshal').GetCouncilTitle], il culmine di una carriera militare a cui qui tutti ambiscono."
+  tgp_dynastic_cycle.0053.desc.advancement: "Tuttavia, la posizione attuale di [ROOT.Char.GetTopLiege.GetName] non ci sostiene appieno. Occorre agire per spingere il [GetSituation('dynastic_cycle').GetName] verso [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName] così da realizzare il nostro potenziale."
+  tgp_dynastic_cycle.0053.desc.expansion: "La volontà del Cielo è conquistare e noi siamo pronti!"
+  tgp_dynastic_cycle.0053.desc.conquest: "La volontà del Cielo è conquistare e i [ROOT.Char.GetTopLiege.GetDynastyName] guidano con l’esempio."
+  tgp_dynastic_cycle.0053.desc.instability: "Eppure i tempi sono incerti e le visioni offuscate. Solo l’esercito può mantenere l’ordine. Speriamo che i [ROOT.Char.GetTopLiege.GetDynastyName] lo capiscano prima che sia troppo tardi."
+  tgp_dynastic_cycle.0053.a: "Solo i più potenti prevarranno!"
+  tgp_dynastic_cycle.0054.t: "$tgp_dynastic_cycle.0052.t$"
+  tgp_dynastic_cycle.0054.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nIl nostro obiettivo è condividere la bellezza dell’arte e del sapere. Coltivare mente e spirito è via sicura per essere graziati dal Cielo."
+  tgp_dynastic_cycle.0054.desc.advancement: "La dinastia [ROOT.Char.GetTopLiege.GetDynastyName] è attualmente sul medesimo cammino, che porterà prosperità e illuminazione a tutti sotto il Cielo! Manteniamolo tale."
+  tgp_dynastic_cycle.0054.desc.expansion: "I [ROOT.Char.GetTopLiege.GetDynastyName] sono su un sentiero distruttivo. Gli eserciti costano e i generali sono volubili e pericolosi. Dobbiamo allontanare il potere da loro."
+  tgp_dynastic_cycle.0054.desc.conquest: "I [ROOT.Char.GetTopLiege.GetDynastyName] sono nuovi e dunque plasmabili, per riconoscere che la volontà del Cielo si afferma con gli esami e funzionari giusti!"
+  tgp_dynastic_cycle.0054.desc.instability: "I [ROOT.Char.GetTopLiege.GetDynastyName] si sono smarriti. Possiamo però ricondurli sulla giusta via garantendo esami frequenti e ministri meritevoli."
+  tgp_dynastic_cycle.0054.a: "Il merito vince su tutto."
+  tgp_dynastic_cycle.0055.t: "$tgp_dynastic_cycle.0052.t$"
+  tgp_dynastic_cycle.0055.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nIo e i miei compagni del movimento abbiamo affidato le nostre vite [Select_CString(GetTitleByKey('h_china').GetHolder.IsFemale,'a lei','a lui')]. Grazie alla sua saggezza e alla sua guida, porteremo "
+  tgp_dynastic_cycle.0055.desc.advancement: "prosperità, ricchezze e avanzamenti tecnologici a tutti sotto il Cielo."
+  tgp_dynastic_cycle.0055.desc.expansion: "nuove terre e genti a riconoscere il suo destino di governare rettamente su di loro."
+  tgp_dynastic_cycle.0055.desc.conquest: "tutti sotto il Cielo a riconoscere i [GetTitleByKey('h_china').GetHolder.GetDynastyName] come degni del Mandato del Cielo."
+  tgp_dynastic_cycle.0055.desc.instability: "di nuovo il sole in questi tempi offuscati."
+  tgp_dynastic_cycle.0055.a: "Sia lode al Cielo e ai [ROOT.Char.GetTopLiege.GetDynastyNameNoTooltip]!"
+  tgp_dynastic_cycle.0056.t: "$tgp_dynastic_cycle.0052.t$"
+  tgp_dynastic_cycle.0056.desc.intro: "$tgp_dynastic_cycle.0052.desc.intro_common$\n\nLa tradizione edificata dalle generazioni precedenti dovrebbe essere la pietra angolare della burocrazia dei [ROOT.Char.GetTopLiege.GetDynastyName].\n\n"
+  tgp_dynastic_cycle.0056.desc.advancement: "Eppure [ROOT.Char.GetTopLiege.GetName] è accecato dagli esami, lasciando che contadini provinciali entrino negli uffici. Ben presto denigreranno la nostra storia."
+  tgp_dynastic_cycle.0056.desc.expansion: "Eppure [ROOT.Char.GetTopLiege.GetName] è occupato a sprecare le vite di fratelli e sorelle in guerre insensate, mentre i generali corrono senza freni, strappando potere e cariche alle nostre famiglie."
+  tgp_dynastic_cycle.0056.desc.conquest: "[ROOT.Char.GetTopLiege.GetName] deve capire che questo è l’unico modo per mantenere l’ordine nel dominio. Tutti sotto il Cielo riconosceranno il governo del [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip], se sostenuto dalle nostre amate famiglie."
+  tgp_dynastic_cycle.0056.desc.instability: "[ROOT.Char.GetTopLiege.GetName] ha perso molta credibilità. L’unico modo di restaurare la sua grazia è assicurarsi che [Select_CString(ROOT.Char.GetTopLiege.IsFemale,'lei','lui')] segua le nostre famiglie."
+  tgp_dynastic_cycle.0056.a: "La forza si trova nei vincoli familiari."
+
+ ### ENTER STABILITY - NEW DYNASTY ### 0061 - 0070 ###
+
+  tgp_dynastic_cycle.0061.t: "Il [GetTitleByKey('h_china').GetHolder.Custom('GetDaughterSon')|U] prediletto dal Cielo"
+  tgp_dynastic_cycle.0061.desc: "Si dice che il Cielo sia imparziale e che stia sempre dalla parte dei virtuosi. Si dice pure che chi vince diventa re e chi perde un bandito. Il trono di [GetTitleByKey('h_china').GetNameNoTierNoTooltip] ora è #EMP mio#! e con esso la sanzione celeste a governare tutta [GetTitleByKey('h_china').GetNameNoTierNoTooltip].\n\nDevo ora decidere una direzione in cui i miei nuovi ministri e legioni di funzionari incanalino i loro sforzi."
+  tgp_dynastic_cycle.0061.a: "È nostro dovere promuovere la virtù ed eliminare il vizio."
+  tgp_dynastic_cycle.0061.b: "Sotto l’immenso cielo, #EMP tutti#! sono sudditi d[ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]."
+  tgp_dynastic_cycle.0061.c: "Dalla vetta del mondo, tutto il resto appare piccolo."
+
+ # Notification for relevant people
+
+  tgp_dynastic_cycle.0062.desc.involved: "I favori elargiti dal Cielo sono sempre cresciuti e calati secondo la virtù, o la sua mancanza, dei sovrani prescelti.\n\nOra la stella dei [GetTitleByKey('h_china').GetHolder.GetDynastyName] è in ascesa e [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] possiede chiaramente la sanzione divina del Cielo."
+  tgp_dynastic_cycle.0062.desc.interloper: "Mentre la fortuna assegnata a un sovrano diminuisce, quella di un altro cresce, poiché neppure re ed imperatori sono immuni ai capricci del fato.\n\n[GetTitleByKey('h_china').GetHolder.GetTitledFirstName] ha reclamato il Mandato del Cielo e ci si attende che tutti si prostrino ai piedi di questo nuovo sovrano."
+  tgp_dynastic_cycle.0062.desc.uninvolved: "Gli imperi sorgono e cadono, e il vecchio cede al nuovo. Il trono di [GetTitleByKey('h_china').GetNameNoTierNoTooltip] è stato ottenuto da [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] e tutti devono tener conto di questo nuovo sovrano, che sia dentro o fuori dal suo dominio.\n\nSimili mutamenti nei venti del destino non vanno presi alla leggera."
+  tgp_dynastic_cycle.0062.a: "Dovremmo valutare con cura le sue capacità."
+
+ ### ENTER STABILITY - EXISTING DYNASTY ### 0071 - 0080 ###
+
+  tgp_dynastic_cycle.0071.t: "Dopo la pioggia torna il sole"
+  tgp_dynastic_cycle.0071.desc: "Le persistenti nubi di tempesta si sono diradate e un cielo limpido sorge di nuovo su [GetTitleByKey('h_china').GetNameNoTierNoTooltip]. Ho superato le prove che mi si sono parate innanzi, e ora nessuno può dubitare che io sia davvero il [ROOT.Char.Custom('GetDaughterSon')] prescelto dal Cielo.\n\nCon le difficoltà alle spalle, devo tracciare una nuova rotta verso il futuro, così che tutti si uniscano dietro un unico scopo."
+  tgp_dynastic_cycle.0071.a: "$tgp_dynastic_cycle.0061.a$"
+  tgp_dynastic_cycle.0071.b: "$tgp_dynastic_cycle.0061.b$"
+ 
+ # Notification for relevant people
+
+  tgp_dynastic_cycle.0072.desc.advancement: "Dopo un periodo di grande difficoltà e tumulto, [GetTitleByKey('h_china').GetNameNoTierNoTooltip] è di nuovo in pace. Le tribolazioni mandate dal Cielo sono state superate e tutti possono essere certi che [GetTitleByKey('h_china').GetHolder.GetTitledFirstName] mantiene il favore del Cielo."
+  tgp_dynastic_cycle.0072.desc.expansion: "$tgp_dynastic_cycle.0051.desc.advancement$"
+  tgp_dynastic_cycle.0072.desc.conquest: "$tgp_dynastic_cycle.0051.desc.advancement$"
+  tgp_dynastic_cycle.0072.desc.involved: "Per alcuni ciò segna la morte delle loro ambizioni, per molti porta un sospiro di dolce sollievo."
+  tgp_dynastic_cycle.0072.desc.interloper: "I tempi di pace offrono ai valorosi poche occasioni per distinguersi, ma ora potrebbero aprirsi altre vie di avanzamento."
+  tgp_dynastic_cycle.0072.desc.uninvolved: "Pare che alla dinastia [GetTitleByKey('h_china').GetHolder.GetDynastyName] resti ancora vigore."
+  tgp_dynastic_cycle.0072.a: "Soffia la brezza di primavera e l’erba torna a crescere."
+
+ ### ENTER CONSOLIDATION ###
+
+  tgp_dynastic_cycle.0081.t: "L’Impero, a lungo unito, deve dividersi"
+  tgp_dynastic_cycle.0081.desc: "In un istante, il Cielo trema e il mondo si rovescia.\n\nI ministri leali fuggono in cerca di nuovi padroni, i soldati abbandonano i loro doveri e ora perfino i contadini lasciano le mie terre per timore dei tumulti imminenti.\n\nOgni male è attribuito al mio regno #EMP iniquo#! e si proclama ovunque che ho perso il Mandato del Cielo!"
+  tgp_dynastic_cycle.0081.a: "Quando l’albero cade, le scimmie si disperdono."
+ 
+ # Notification for relevant people
+
+  tgp_dynastic_cycle.0082.desc.involved: "La volontà del popolo e quella del Cielo coincidono, e in questo caso il detto si è dimostrato vero: #EMP il Mandato del Cielo è stato perduto#!.\n\nLa nazione si è infranta. Draghi e tigri si contendono avidamente il trono.\n\nTempi tumultuosi ci attendono."
+  tgp_dynastic_cycle.0082.desc.interloper: "Dove un tempo vi era uno, ora ve ne sono molti.\n\nCon la perdita del Mandato del Cielo, non c’è sovrano legittimo da obbedire, ogni finzione è caduta e tutte le ambizioni celate sono state svelate.\n\nI temerari devono cogliere le opportunità quando si presentano."
+  tgp_dynastic_cycle.0082.desc.uninvolved: "Una grande nazione brucia e i suoi sudditi si armano per lottare sulle sue ceneri.\n\n[GetTitleByKey('h_china').GetNameNoTierNoTooltip] si è frantumata, lo sconvolgimento è l’unica certezza nel suo futuro prossimo e chi vorrà immischiarsi nel tumulto in arrivo entrerà volontariamente nella tana della tigre."
+  tgp_dynastic_cycle.0082.a: "La crisi è opportunità."
+
+ ### ENTER CORRUPTION ###
+
+  tgp_dynastic_cycle.0091.t: "Il presagio della miseria"
+  tgp_dynastic_cycle.0091.desc: "Malgrado i miei assidui sforzi per governare rettamente, odo sempre più sussurri di malcontento.\n\nDevo affrontare la scomoda prospettiva che la fiducia nel favore del Cielo per il mio regno abbia iniziato a vacillare, poiché tali sentimenti possono scuotere anche le fondamenta più solide di un trono."
+  tgp_dynastic_cycle.0091.a: "L’acqua che tiene a galla una nave può anche rovesciarla."
+ 
+ # Notification for relevant people
+
+  tgp_dynastic_cycle.0092.desc.involved: "Il mondo soffre di una malattia, un male dello spirito.\n\nMalevolenza e cattiva condotta si diffondono senza freni dove un tempo stavano saldi pilastri di virtù. Funzionari immorali si arricchiscono a spese delle masse che governano, e i soldati si chiedono se sia meglio depredare che proteggere."
+  tgp_dynastic_cycle.0092.desc.interloper: "Pare che non tutto vada bene in [GetTitleByKey('h_china').GetNameNoTierNoTooltip].\n\nOgni giorno un’altra carovana o un altro convoglio fugge dalle proprie terre in cerca dei proverbiali pascoli più verdi. Persino i nostri mercanti più avari preferiscono sempre più spesso le nostre terre alle loro, intessendo tristi storie di estorsioni, imposte tanto dalla spada quanto dalla penna."
+  tgp_dynastic_cycle.0092.desc.uninvolved: "$tgp_dynastic_cycle.0092.desc.interloper$"
+  tgp_dynastic_cycle.0092.a: "La malvagità è un morbo che nessuna medicina può curare."
+
+  tgp_dynastic_cycle.9001.t: "Le fondamenta di uno Stato"
+  tgp_dynastic_cycle.9001.desc: "Come tutti i fiumi scorrono a oriente verso il mare, così le masse che vivono sotto il Cielo ora guardano a me come loro sovrano.\n\nIl primo passo per inaugurare il mio regno deve essere pronunciare il nome del nostro dominio, così che tutti sappiano come chiamare ciò a cui appartengono.\n\nCon quale nome risuoneranno nella storia le nostre gesta?"
+  tgp_dynastic_cycle.9001.a: "Che si oda e si sappia!"
+
+  tgp_dynastic_cycle.9002.t: "Gli elementi della virtù"
+  tgp_dynastic_cycle.9002.desc: "Il Cielo ha cinque elementi che devono essere debitamente regolati e armoniosamente curati.\n\nLegno, fuoco, terra, metallo e acqua.\n\nDall’antichità, ogni dinastia appena ascesa ha abbracciato uno di questi agenti elementali del cambiamento e ne ha colorato gli stendardi di conseguenza, e così devo fare anch’io ora."
+  tgp_dynastic_cycle.9002.yellow: "Scelgo il #color:{0.82,0.77,0.5};bold giallo#!, simbolo della terra, immutabile come le nostre fondamenta."
+  tgp_dynastic_cycle.9002.red: "Sia #color:{0.80,0.3,0.3};bold rosso#!, come il fuoco che arde fiero nel mio cuore."
+  tgp_dynastic_cycle.9002.white: "Un #color:{1.0,1.0,1.0};bold bianco#! puro e immacolato, per il metallo saldo e inflessibile."
+  tgp_dynastic_cycle.9002.black: "I nostri vessilli siano #color:{0.4,0.39,0.37};bold neri#! come acque senza confini e insondabili."
+  tgp_dynastic_cycle.9002.green: "Sia il #color:{0.4,0.61,0.3};bold verde#! delle foglie di primavera e della crescita rigogliosa."
+
+  tgp_dynastic_cycle_decision_event.0101.t: "$renounce_noble_family_title_decision$"
+  tgp_dynastic_cycle_decision_event.0101.desc: "Fatico a scorgere oltre una pila di documenti che continua a crescere. Quando chiudo gli occhi sento solo i bambini che giocano, gli anziani che chiacchierano e gli adulti che banchettano. Oh, il profumo del [ROOT.Char.Custom('RegionalEdibleMeat')] che arrostisce!\n\nHo lavorato duramente per arrivare fin qui e ne ho assaporato molto, ma ora sento la stanchezza. Sono certo che il mio [new_player.Custom2('MyCharacterIntroduction', ROOT.Char)] sia impaziente di prendere il mio posto.\n\nMerito di godermi il tempo che mi resta."
+  tgp_dynastic_cycle_decision_event.0101.a: "Confido che [new_player.GetFirstNameNoTooltip] saprà occuparsi di tutto."
+
+  dynastic_cycle_entered_conquest_tt: "[GetSituation('dynastic_cycle').GetName] è entrato in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability_conquest').GetName]"
+  dynastic_cycle_entered_chaos_tt: "[GetSituation('dynastic_cycle').GetName] è entrato in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]"
+dynastic_cycle_entered_chaos_changed_top_liege_tt: "[new_top_liege.GetShortUIName] è diventat[Select_CString(new_top_liege.IsFemale,'a','o')] il tuo nuovo [top_liege|E]"
+dynastic_cycle_entered_chaos_became_independent_tt: "[relevant_character.GetShortUIName|U] è diventat[Select_CString(relevant_character.IsFemale,'a','o')] [independent|E]"
+chaos_new_vassals_tt: "Sono diventati i tuoi [vassals|E] #weak ([chaos_new_vassals_count])#!"
+custom.chaos_new_vassals: "$BULLET$Tutti i membri del [movement|E] [independent|E] e i [disciples|E] di [title_tier|E] inferiore a #V Te#! adiacenti al tuo [realm|E]"
+custom.chaos_new_vassals_disciples: "$BULLET$Tutti i [disciples|E] [independent|E] di [title_tier|E] inferiore a #V Te#! adiacenti al tuo [realm|E]"
+chaos_new_tributaries_tt: "Sono diventati i tuoi [tributaries|E] #weak ([chaos_new_tributaries_count])#!"
+custom.chaos_new_tributaries: "$BULLET$Tutti i membri del [movement|E] [independent|E] e i [disciples|E] di [title_tier|E] pari o superiore a #V Te#! o non adiacenti al tuo [realm|E]"
+custom.chaos_new_tributaries_disciples: "$BULLET$Tutti i [disciples|E] di [title_tier|E] pari o superiore a #V Te#! e tutti i non adiacenti al tuo [realm|E]"
+dynastic_cycle_entered_chaos_hunagdi_tt: "[son_of_heaven|E] abdica e perde tutti i [titles|E] [landed|E] e il [mandate_of_heaven|E]"
+  dynastic_cycle_entered_stability_advancement_past_tt: "[GetSituation('dynastic_cycle').GetName] è entrato in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]"
+  dynastic_cycle_entered_stability_advancement_tt: "[GetSituation('dynastic_cycle').GetName] entra in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_advancement').GetName]"
+  dynastic_cycle_entered_stability_expansion_past_tt: "[GetSituation('dynastic_cycle').GetName] è entrato in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
+  dynastic_cycle_entered_stability_expansion_tt: "[GetSituation('dynastic_cycle').GetName] entra in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_stability_expansion').GetName]"
+  dynastic_cycle_entered_instability_tt: "[GetSituation('dynastic_cycle').GetName] è entrato in [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]"
+tgp_hegemon_picked_different_era_opinion: "Scelta una [dynastic_cycle_era_type_stable|E] diversa dal previsto"
+tgp_hegemon_picked_different_era_opinion_expansion_tt: "Ogni membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName] e [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]"
+tgp_hegemon_picked_different_era_opinion_advancement_tt: "Ogni membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'expansion_movement' ).GetName] e [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'conservative_movement' ).GetName]"

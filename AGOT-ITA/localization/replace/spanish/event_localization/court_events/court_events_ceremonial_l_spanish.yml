@@ -1,0 +1,21 @@
+﻿l_spanish:
+
+  ceremonial_petition_prefix: "Petizione cerimoniale:"
+  court_ceremonial.1000.t: "$ceremonial_petition_prefix$ Sostegno alla reggenza"
+  court_ceremonial.1000.opening: "[petition_vassal.Custom('IT_NAM_COL3')][petition_vassal.GetTitledFirstName] avanza, inchinandosi profondamente dinanzi alla corte riunita, mentre i miei attendenti mi porgono [Select_CString(petition_vassal.IsFemale,'la sua','il suo')] petizione scritta a mano.\n\n[Select_CString(petition_vassal.IsFemale,'Lei','Lui')] parla con chiarezza e semplicità: «Maestoso [petition_liege.GetTitleAsName], oggi vengo a chiedere umilmente la tua intercessione in una questione importante».\n\n"
+  court_ceremonial.1000.desc: "«In qualità di capofamiglia, orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] di servire da vicino [petition_vassal.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTooltip] con umiltà e lealtà, [Select_CString(petition_vassal.IsFemale,'una','un')] orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] [petition_vassal.GetDynasty.GetName], chiedo il tuo avallo quale reggente del reame»."
+  court_ceremonial.1000.a: "Accolgo con grazia la tua accorata richiesta."
+  court_ceremonial.1000.b: "Forse, se offrissi il tuo sostegno alla [ROOT.Char.GetConfederation.GetName]?"
+  court_ceremonial.1000.c: "Un favore reale non va dimenticato."
+  court_ceremonial.1000.d: "Avrai senz'altro doni generosi da offrire in cambio."
+  court_ceremonial.1000.e: "Non sarà possibile."
+  court_ceremonial.1000.f: "Sì, in cambio del servizio di [knight.GetFirstNamePossessiveNoTooltip]."
+  court_ceremonial.1000.g: "[monk.GetFirstNameNoTooltip] sarebbe [Select_CString(monk.IsFemale,'perfetta','perfetto')] come [GetTrait('devoted').GetName( monk )]."
+  court_ceremonial.1000.h: "Regoliamo i nostri vecchi accordi."
+  court_ceremonial.1100.t: "$ceremonial_petition_prefix$ Sostegno al governatorato"
+  court_ceremonial.1100.desc: "«In qualità di capofamiglia, orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] di servire da vicino [petition_vassal.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTooltip] con umiltà e lealtà, [Select_CString(petition_vassal.IsFemale,'una','un')] orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] [petition_vassal.GetDynasty.GetName], chiedo l'avallo reale a servire come governatori»."
+  court_ceremonial.1200.t: "$ceremonial_petition_prefix$ Matrimonio reale"
+  court_ceremonial.1200.desc: "«In qualità di capofamiglia di una delle casate più eminenti del reame, [Select_CString(petition_vassal.IsFemale,'una','un')] orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] [petition_vassal.GetDynasty.GetName], chiedo il tuo assenso formale a un matrimonio con la tua casata più illustre e santificata»."
+  court_ceremonial.1300.t: "$ceremonial_petition_prefix$ Dignità di [petition_vassal.GetHouse.GetBaseNameNoTooltip]"
+  court_ceremonial.1300.desc: "«In qualità di capofamiglia di una delle casate più eminenti del reame, [Select_CString(petition_vassal.IsFemale,'una','un')] orgoglios[Select_CString(petition_vassal.IsFemale,'a','o')] [petition_vassal.GetDynasty.GetName], chiedo il tuo riconoscimento formale della stirpe e del lignaggio della mia casata tra la nobiltà [petition_vassal.GetTopLiege.GetPrimaryTitle.GetAdjectiveNoTooltip]»."
+ 

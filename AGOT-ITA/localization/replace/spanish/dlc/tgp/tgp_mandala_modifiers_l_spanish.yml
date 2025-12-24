@@ -1,0 +1,87 @@
+﻿l_spanish:
+
+
+ #Character/County Modifiers
+  mandala_capital_sacked_modifier: "Capitale Mandala saccheggiata"
+  mandala_capital_sacked_modifier_desc: "Questa Capitale [mandala|E] è stata di recente vandalizzata da un altro Sovrano Mandala."
+  mandala_capital_restored_modifier: "Capitale Mandala restaurata"
+  mandala_capital_restored_modifier_desc: "Questa Capitale [mandala|E] è stata di recente riportata all’antico splendore in modo straordinario."
+
+  budding_divinity_modifier: "Divinità nascente"
+  budding_divinity_modifier_desc: "Questo personaggio fa parte di una [GetModifier( 'piety_level_6' ).GetNameWithTooltip|L] [house|E] nascente."
+  budding_deity_modifier: "Aspirante divinità"
+  budding_deity_modifier_desc: "Questo personaggio sta accumulando modeste gesta mitiche che attestano che è un [GetModifier( 'piety_level_7' ).GetNameWithTooltip|L]."
+  budding_godhood_modifier: "Devozione esaltata"
+  budding_godhood_modifier_desc: "Si mormora che questo personaggio sia davvero [GetModifier( 'piety_level_8' ).GetNameWithTooltip|L]"
+
+  disbelieved_mandala_modifier: "Mandala screditato"
+  disbelieved_mandala_modifier_desc: "Questo personaggio è stato screditato, e sudditi e seguaci dubitano della sua divinità."
+
+  betrayed_tributary_modifier: "Tributario tradito"
+  betrayed_tributary_modifier_desc: "Questo personaggio è rimasto a guardare mentre il suo futuro tributario veniva attaccato dal precedente suzerano del tributario."
+
+  recently_tarnished_mandala_modifier: "Mandala offuscato"
+  recently_tarnished_mandala_modifier_desc: "Questo personaggio ha perso di recente una guerra di tirannia, offuscando la sua Radiosità."
+
+  mandala_broke_truce_modifier: "Mandala sleale"
+  mandala_broke_truce_modifier_desc: "Questo personaggio ha infranto di recente una tregua con un tributario liberato."
+
+  tgp_sea_legacy_heir_modifier: "Erede benedetto"
+  tgp_sea_legacy_heir_modifier_desc: "Questo personaggio discende da una lunga stirpe di sovrani divini e suscita più rispetto e venerazione dei governanti terreni."
+  mandala_rise_from_the_ashes_modifier: "Risorto dalle ceneri"
+  mandala_rise_from_the_ashes_modifier_desc: "Questo sovrano ha di recente accresciuto la propria Radiosità restaurando il tempio della Capitale raso al suolo."
+
+ #Interaction Modifiers
+  devaraja_recipient_piety_level: "[recipient.GetShortUINamePossessive|U] [piety_level|E] è [GetPietyLevelName(recipient.GetPietyLevel)|L]: $VALUE|0+=$"
+  tributary_actor_realm_size: "[actor.GetShortUINamePossessive|U] dimensione del [realm|E]: $VALUE|0+=$"
+  devaraja_actor_piety_level: "[actor.GetShortUINamePossessive|U] [piety_level|E] è [GetPietyLevelName(actor.GetPietyLevel)|L]: $VALUE|0+=$"
+  tributary_recipient_realm_size: "[recipient.GetShortUINamePossessive|U] dimensione del [realm|E]: $VALUE|0+=$"
+
+  devaraja_capital_01: "Edificio [GetBuilding('mandala_capital_01').GetName]: $VALUE|0+=$"
+  devaraja_capital_02: "Edificio [GetBuilding('mandala_capital_02').GetName]: $VALUE|0+=$"
+  devaraja_capital_03: "Edificio [GetBuilding('mandala_capital_03').GetName]: $VALUE|0+=$"
+  devaraja_capital_04: "Edificio [GetBuilding('mandala_capital_04').GetName]: $VALUE|0+=$"
+  devaraja_capital_05: "Edificio [GetBuilding('mandala_capital_05').GetName]: $VALUE|0+=$"
+ 
+  devaraja_recipient_amount_of_subjects: "[recipient.GetShortUINamePossessive|U] numero di [subjects|E]: $VALUE|0+=$"
+  devaraja_actor_amount_of_subjects: "[actor.GetShortUINamePossessive|U] numero di [subjects|E]: $VALUE|0+=$"
+
+  devaraja_actor_amount_of_vassals: "[actor.GetShortUINamePossessive|U] numero di [vassals|E]: $VALUE|0+=$"
+ 
+  proposed_obligation_level_low: "[obligations|E] proposte basse: $VALUE|0+=$"
+  proposed_obligation_level_normal: "[obligations|E] proposte normali: $VALUE|0+=$"
+  proposed_obligation_level_high: "[obligations|E] proposte alte: $VALUE|0+=$"
+
+  already_tributary_threshold_duchy_suzerain: "[recipient.GetShortUIName|U] è già un [tributary|E]: $VALUE|0+=$"
+  already_tributary_threshold_king_suzerain: "[recipient.GetShortUIName|U] è già un [tributary|E]: $VALUE|0+=$"
+  already_tributary_threshold_empire_suzerain: "[recipient.GetShortUIName|U] è già un [tributary|E]: $VALUE|0+=$"
+ 
+  actor_is_a_tribal_government: "[actor.GetShortUIName|U] è [tribal|E]: $VALUE|0+=$"
+  recipient_is_a_tribal_government: "[recipient.GetShortUIName|U] è [tribal|E]: $VALUE|0+=$"
+  recipient_is_in_a_confederation: "[recipient.GetShortUIName|U] è in una [confederation|E]: $VALUE|0+=$"
+  actor_positive_mandala_radiance: "[mandala|E] [radiance|E] di [actor.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (massimo +200)#!"
+  recipient_positive_mandala_radiance: "[mandala|E] [radiance|E] di [actor.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (massimo +200)#!"
+  recipient_negative_mandala_radiance: "[mandala|E] [radiance|E] di [recipient.GetShortUINamePossessive|U]: $VALUE|0+=$ #weak (massimo -200)#!"
+  devaraja_overlord_radiance: "[mandala|E] [overlord|E] [radiance|E]: $VALUE|0+=$"
+  other_devaraja_radiance: "[mandala|E] [ruler|E] confinante [radiance|E]: $VALUE|0+=$"
+  recipient_overlord_has_greater_radiance: "L’[overlord|E] [recipient.GetOverlord.GetShortUIName] ha [radiance|E] superiore: $VALUE|0+=$"
+actor_has_radiance: "[actor.GetShortUIName|U] è [radiant|E]: $VALUE|0+=$"
+ 
+  ASK_FOR_CONVERSION_ACTOR_IS_MANDALA: "Seguiamo il Devaraja: $VALUE|=+0$"
+  ASK_FOR_CONVERSION_ACTOR_HAS_REVERENCE_DECREE: "La [GetLaw('mandala_decree_reverence').GetName] è attiva: $VALUE|=+0$"
+
+  is_mandala_tributary: "È un [tributary|E] [mandala|E]: $VALUE|=+0$"
+  is_prosperity_mandala_tributary: "Il [mandala|E] suzerano ha $mandala_decree_prosperity$: $VALUE|=+0$"
+ 
+  SPIRITUAL_ETHOS_REASON: "[recipient.GetCulture.GetName] è una [culture|E] $ethos_spiritual_name$: $VALUE|+0=$"
+
+  is_tributary_of_me_mandala: "È già un [tributary|E]: $VALUE|=+0$"
+
+  is_mandala_government: "I [mandalas|E] preferiscono essere [tributaries|E]: $VALUE|=+0$"
+
+  is_disbelieved_mandala: "Sei un [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|L]: $VALUE|=+0$"
+
+  base_with_value: "Base: $VALUE|=+0$"
+  has_aspect_of_serenity: "$aspect_of_serenity_house_power$: $VALUE|=+0$"
+
+  mandala_ai_godking_modifier: "È un Devaraja aspirante: $VALUE|=+0$"

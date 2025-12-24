@@ -1,0 +1,143 @@
+﻿l_spanish:
+
+
+  # everybody's intro to Japan
+
+  action_reactive_advice_welcome_to_japan: "Consiglio: Giappone"
+  action_reactive_advice_welcome_to_japan_desc: "Nel periodo Heian, il Giappone è in equilibrio tra funzionari imperiali e signori della guerra locali. Apri per un'introduzione a questa struttura politica unica."
+  action_reactive_advice_welcome_to_japan_click: "$click_to_open_lesson$"
+
+  reactive_advice_welcome_to_japan_step_intro: "Giappone"
+  reactive_advice_welcome_to_japan_step_intro_desc: "Benvenuto nel periodo Heian!\n\nIn quest'epoca, il Giappone oscilla tra tradizione e violenza. Ambiziose [houses|E] competono per il potere e il controllo del trono imperiale.\n\n#TUT Supponiamo che tu abbia già una certa esperienza con Crusader Kings 3.#!"
+
+  reactive_advice_welcome_to_japan_step_government: "Governo"
+  reactive_advice_welcome_to_japan_step_government_desc: "Il Giappone è un [realm|E] diviso tra due tipi di signori.\n\nI [rulers|E] hanno una di queste forme di [government|E]:\n$EFFECT_LIST_BULLET$[ritsuryo_i][ritsuryo|E] #weak (funzionari imperiali)#!\n$EFFECT_LIST_BULLET$[soryo_i][soryo|E] #weak (signori della guerra feudali)#!\n\nStoricamente, i signori $game_concept_soryo$ crebbero in potere, portando infine al dominio degli [shogun|E] in Giappone."
+
+  reactive_advice_welcome_to_japan_step_open_families_tab: "$reactive_advice_welcome_to_japan_step_emperor_and_regent$"
+  reactive_advice_welcome_to_japan_step_open_families_tab_desc: "In Giappone, chi si dice governi e chi #EMP davvero#! governa non coincidono. Vediamolo ora."
+  reactive_advice_welcome_to_japan_step_open_families_tab_prompt: "Apri la scheda '$administraction_tab_families|V$' nel pannello '$ADMINISTRATIVE_GOVERNMENT_HEADER|V$' (evidenziato)"
+
+  reactive_advice_welcome_to_japan_step_emperor_and_regent: "L'Imperatore e il suo Reggente"
+  reactive_advice_welcome_to_japan_step_emperor_and_regent_desc: "Questo è il [japanese_emperor|E], noto anche come $king_tenno_male_japanese$.\n\nSebbene il suo titolo implichi che governi il Giappone, è considerato un [ceremonial_liege|E] e non ha potere reale.\n\nTuttavia, sposarsi nella sua famiglia conferisce comunque molto [prestige|E], e un ambizioso $king_tenno_male_japanese$ potrebbe tentare di prendere il potere."
+
+  reactive_advice_welcome_to_japan_step_emperor_and_regent_2: "L'Imperatore e il suo Reggente"
+  reactive_advice_welcome_to_japan_step_emperor_and_regent_2_desc: "Il vero potere in Giappone è invece il [ceremonial_regent|E], mostrato qui.\n\nÈ il [independent|E] [ruler|E] effettivo del Giappone. Oltre ai poteri standard di un $game_concept_ruler$ $game_concept_independent$, stabilisce anche la [imperial_policy|E] [law|E] che riguarda l'intero [realm|E]."
+
+  reactive_advice_welcome_to_japan_step_manor: "$japanese_manor_domicile_type$"
+  reactive_advice_welcome_to_japan_step_manor_desc: "Ogni [house_head|E] in Giappone ha un $japanese_manor_domicile_type$, che puoi ampliare e sviluppare con l'[gold|E] che ottieni.\n\nA differenza delle [holdings|E] nel tuo [domain|E], il tuo $japanese_manor_domicile_type$ resta con l'[house_head|E] e non si perde se il tuo [domain|E] viene conquistato.\n\n#I Se sei il $game_concept_house_head$, puoi visualizzare e sviluppare il tuo $japanese_manor_domicile_type$ usando il pulsante evidenziato#!."
+
+  reactive_advice_welcome_to_japan_step_house_aspirations: "Aspirazioni di casata"
+  reactive_advice_welcome_to_japan_step_house_aspirations_desc: "Tutte le [houses|E] giapponesi hanno una [house_aspiration|E].\n\nQuesto attributo influisce su tutti i membri del $game_concept_house$ e può essere migliorato nel tempo dal [house_head|E] spendendo [prestige_i|E][prestige|E].\n\n#I In qualità di $game_concept_house_head$, puoi vedere e migliorare la tua $game_concept_house_aspiration$ tramite il pulsante evidenziato.#!"
+
+  reactive_advice_welcome_to_japan_step_blocs: "Blocchi di casata"
+  reactive_advice_welcome_to_japan_step_blocs_desc: "La maggior parte dei [vassals|E] in Giappone governa una sola [county|E].\n\nPer consolidare il potere, molte [houses|E] appartengono a un [house_bloc|E], un'alleanza difensiva di [houses|E].\n\nI membri di un $game_concept_house_bloc$ in genere condividono la stessa [house_aspiration|E] e hanno buone [house_relations|E] fra loro. In caso contrario, la [bloc_cohesion|E] si riduce e la [leading_house|E] può scegliere di espellere le $game_concept_houses$ controverse dal $game_concept_bloc$.\n\n#I Se fai parte di un $game_concept_bloc$, puoi visualizzarne lo stato facendo clic sul pulsante evidenziato.#!"
+
+  reactive_advice_welcome_to_japan_step_end: "Giappone"
+  reactive_advice_welcome_to_japan_step_end_desc: "In Giappone, la politica è sempre una lotta tra due poli. Guida saggiamente la tua [house|E] e plasmerai il futuro del Giappone."
+
+
+ # Soryo in japan, your goal to become Shogun
+
+  action_reactive_advice_soryo_intro: "Consiglio: Sovrano $japan_feudal_government$"
+  action_reactive_advice_soryo_intro_desc: "Sei un Sovrano Soryo, un signore locale. Apri per un'introduzione a questo tipo di governo."
+  action_reactive_advice_soryo_intro_click: "$click_to_open_lesson$"
+
+# lets assume you are in a bloc, but be a bit vague about it. Most on game start are anyway
+
+  reactive_advice_soryo_intro_NAME: "Governo $japan_feudal_government$"
+
+  ra_soryo_intro: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_intro_desc: "Sei un [GetGovernment('japan_feudal_government').GetName] [ruler|E]: un signore della guerra che governa con la forza delle armi più che con la legittimità della burocrazia imperiale."
+
+  ra_soryo_basics: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_basics_desc: "Il [GetGovernment('japan_feudal_government').GetName] [government|E] è molto simile al $game_concept_government$ [GetGovernment('feudal_government').GetName] al di fuori del Giappone.\n\nTuttavia, nel Giappone Heian, espandere il tuo [realm|E] tramite la [war|E] è considerato un [crime|E]. Di conseguenza, il tuo [top_liege|E] può revocare liberamente i tuoi [titles|E].\n\nPer evitare che il tuo $game_concept_top_liege$ si prenda ciò che hai guadagnato, assicurati di far parte di un [house_bloc|E]. Se il tuo $game_concept_top_liege$ ti dichiara $game_concept_war$, le [houses|E] del tuo $game_concept_bloc$ si uniranno a te come [allies|E].\n\n#I Se fai già parte di un $game_concept_bloc$, puoi selezionarlo con il pulsante evidenziato#!."
+
+  ra_soryo_open_decisions: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_open_decisions_desc: "L'aspirazione ultima di ogni [GetGovernment('japan_feudal_government').GetName] [ruler|E] è diventare [shogun|E], un $game_concept_ruler$ militare ed ereditario del Giappone.\n\nPer riuscirci, ci sono due [decisions|E] chiave che puoi intraprendere. Vediamole ora."
+  ra_soryo_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
+
+  ra_soryo_regional_dominion: "$reactive_advice_soryo_intro_NAME$"
+ra_soryo_regional_dominion_desc: "La prima [decision|E] a cui puntare è “$tgp_japan_assert_regional_dominion_government_decision|V$”.\n\nTi consente di conquistare il [duchy|E] della tua regione. Sebbene non sia richiesto per diventare [shogun|E], è un utile trampolino."
+
+  ra_soryo_shogunate: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_shogunate_desc: "La [decision|E] effettiva per diventare [shogun|E] è '$tgp_japan_become_shogun_decision_TUTORIAL|V$'.\n\nTuttavia, per anche solo considerarla, devi prima essere il [ceremonial_regent|E]."
+
+  ra_soryo_intro_open_factions: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_intro_open_factions_desc: "Per insediarti come [ceremonial_regent|E], devi avviare una [faction|E]."
+  ra_soryo_intro_open_factions_prompt: "Apri la scheda '$factions_tab_my_factions|V$' nel pannello '$FACTIONS_WINDOW|V$'"
+
+  ra_soryo_intro_install_regent_faction: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_intro_install_regent_faction_desc: "Per diventare [ceremonial_regent|E], devi formare una [faction|E] $replace_ceremonial_regent_faction_name|V$ e far accettare con successo le tue richieste.\n\nIn quanto [leading_house|E], tutte le [houses|E] del tuo $game_concept_bloc$ si uniranno a te nella $game_concept_faction$. Più forte è la forza militare del tuo $game_concept_bloc$, più probabile che la $game_concept_faction$ abbia successo.\n\nDevi anche assicurarti che la [cohesion|E] sia sufficientemente alta, altrimenti non potrai nemmeno formare la $game_concept_faction$."
+
+  ra_soryo_end: "$reactive_advice_soryo_intro_NAME$"
+  ra_soryo_end_desc: "Come [GetGovernment('japan_feudal_government').GetName] [ruler|E], la tua via verso [shogun|E] è sgombrata dalla spada.\n\nConsolida il potere locale, forma una [faction|E] con il tuo [house_bloc|E] e un giorno potresti governare come $game_concept_shogun$."
+
+
+# reactive_advice_lead_your_soryo_bloc
+
+  action_reactive_advice_lead_your_soryo_bloc_NAME: "Guidare il tuo $game_concept_house_bloc$"
+
+  action_reactive_advice_lead_your_soryo_bloc: "Consiglio: $action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  action_reactive_advice_lead_your_soryo_bloc_desc: "Sei il $game_concept_house_head$ del $game_concept_leading_house$ nel tuo $game_concept_bloc$. Apri per imparare a gestire il tuo $game_concept_bloc$."
+  action_reactive_advice_lead_your_soryo_bloc_click: "$click_to_open_lesson$"
+
+  ra_soryo_bloc_leader_intro: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_intro_desc: "Sei l'[house_head|E] della [leading_house|E] nel tuo [house_bloc|E], eccellente!\n\nIn qualità di guida del tuo $game_concept_bloc$, non è più solo uno scudo, ma anche un modo per formare una potente [faction|E] e insediarti come [ceremonial_regent|E]!"
+
+  ra_soryo_bloc_leader_open_bloc: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_open_bloc_desc: "Diamo uno sguardo al tuo [house_bloc|E]."
+  ra_soryo_bloc_leader_open_bloc_prompt: "Seleziona il tuo $game_concept_bloc$ (evidenziato)"
+
+  ra_soryo_bloc_leader_strength_intro: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_strength_intro_desc: "Le [houses|E] nel tuo [bloc|E] si uniranno alla [leading_house|E] quando avviano [factions|E].\n\nSe desideri diventare [ceremonial_regent|E] ed eventualmente [shogun|E], si uniranno alla tua $replace_ceremonial_regent_faction_name|V$ $game_concept_faction$!"
+ 
+  ra_soryo_bloc_leader_strength_details: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_strength_details_desc: "La forza di tutti i membri del [bloc|E] è mostrata qui.\n\nPiù forte è il tuo $game_concept_bloc$, più probabile che la tua [faction|E] riesca a imporre le proprie richieste e insediarti come [ceremonial_regent|E]."
+
+ ra_soryo_bloc_leader_expanding: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+ra_soryo_bloc_leader_expanding_desc: "Un [bloc|E] forte è composto da molte [houses|E] potenti.\n\nSulla mappa puoi vedere l’estensione di tutti i $game_concept_blocs$ e trovare i [house_heads|E] senza un $game_concept_bloc$. Puoi provare a convincerli a unirsi al tuo $game_concept_bloc$ usando la [character_interaction|E] $invite_to_house_bloc_interaction|V$.\n\nTuttavia, potrebbero non accettare… In alternativa, come [ruler|E] [GetGovernment('japan_feudal_government').GetName] puoi espandere il tuo $game_concept_bloc$ con la [war|E].\n\nHai due opzioni:\n$EFFECT_LIST_BULLET$[bloc_expansion|E] ti permette di conquistare terre che passano sotto il controllo del tuo $game_concept_bloc$.\n$EFFECT_LIST_BULLET$[bloc_supremacy|E] è una guerra totale fra due $game_concept_blocs$, in cui i membri del $game_concept_bloc$ perdente possono unirsi al vincitore."
+
+  ra_soryo_bloc_leader_cohesion: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_cohesion_desc: "Cercare di unire [houses|E] disparate in un grande [bloc|E] comporta delle sfide, poiché ogni $game_concept_house$ contribuisce alla [cohesion|E] complessiva del $game_concept_bloc$.\n\nOltre ai bonus concessi da un'alta $game_concept_cohesion$, è necessario un certo livello di $game_concept_cohesion$ anche solo per formare una [faction|E]."
+
+  ra_soryo_bloc_leader_cohesion_2: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_leader_cohesion_2_desc: "Per migliorare la [cohesion|E] di una certa [house|E], innanzitutto assicurati di condividere la stessa [house_aspiration|E], usando l'[character_interaction|E] $demand_aspiration_change_interaction|V$ sul suo [house_head|E].\n\nCiononostante, il $game_concept_cohesion$ deriva soprattutto da buone [house_relations|E] tra tutte le $game_concept_houses$ del [bloc|E]. Le $game_concept_house_relations$ possono essere migliorate, per esempio, organizzando matrimoni con membri della $game_concept_house$.\n\nSe tutto il resto fallisce, potresti dover usare il $kick_from_house_bloc_interaction|V$ $game_concept_character_interaction$."
+ 
+  ra_soryo_bloc_end: "$action_reactive_advice_lead_your_soryo_bloc_NAME$"
+  ra_soryo_bloc_end_desc: "In qualità di guida del tuo [bloc|E], assicurati che cresca nel tempo conquistando altre terre tramite la [war|E].\n\nCon un $game_concept_bloc$ forte e con alta [cohesion|E], sarai pronto a formare la tua [faction|E] $replace_ceremonial_regent_faction_name|V$!"
+
+# You are soryo regent, but not yet shogun
+
+
+  reactive_advice_soryo_regent_become_shogun_NAME: "Formare $empire_shogunate_japanese$"
+
+  action_reactive_advice_soryo_regent_become_shogun: "Consiglio: $reactive_advice_soryo_regent_become_shogun_NAME$"
+  action_reactive_advice_soryo_regent_become_shogun_desc: "Sei il $game_concept_ceremonial_regent$. Apri per scoprire come consolidare ulteriormente il tuo potere e diventare $game_concept_shogun$."
+  action_reactive_advice_soryo_regent_become_shogun_click: "$click_to_open_lesson$"
+
+  ra_become_shogun_intro: "Consiglio: $reactive_advice_soryo_regent_become_shogun_NAME$"
+  ra_become_shogun_intro_desc: "Sei il [ceremonial_regent|E] del Giappone e il suo [ruler|E] de facto. Tuttavia, come [shogun|E] avresti ancora più potere e controllo!"
+
+  ra_become_shogun_open_decisions: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+  ra_become_shogun_open_decisions_desc: "Per diventare [shogun|E], devi soddisfare alcuni requisiti. Vediamoli ora."
+  ra_become_shogun_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
+
+  ra_become_shogun_decision: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+ra_become_shogun_decision_desc: "“$tgp_japan_become_shogun_decision_TUTORIAL|V$” è la [decision|E] da promulgare per diventare [shogun|E].\n\nTuttavia, per riuscirci, ci sono tre grandi ostacoli da superare:\n$EFFECT_LIST_BULLET$Promulgare la [law|E] [GetLaw('japanese_bureaucracy_2').GetName]\n$EFFECT_LIST_BULLET$Avere un [prestige_level|E] pari o superiore a [prestige_i][GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$Avere un [legitimacy_level|E] maggiore o uguale a #V 4#!"
+
+  ra_become_shogun_open_laws: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+  ra_become_shogun_open_laws_desc: "Qui puoi gradualmente adottare un'amministrazione più restrittiva. Per diventare [shogun|E], ti serve almeno la [law|E] [GetLaw('japanese_bureaucracy_2').GetName].\n\nTieni presente che ciò costa [prestige|E] e riduce l'[opinion|E] che i [vassals|E] hanno di te."
+  ra_become_shogun_open_laws_prompt: "Apri la scheda '$MY_REALM_WINDOW_BODY_TITLE_LAWS|V$' nel pannello '#V Realm#!' (evidenziato)"
+
+ ra_become_shogun_laws: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+ ra_become_shogun_laws_desc: "In here, you can gradually enact a more restrictive administration. To become [shogun|E], you need at least the [GetLaw('japanese_bureaucracy_2').GetName] [law|E].\n\nBe aware that this costs [prestige|E] and lowers the [opinion|E] [vassals|E] have of you."
+
+  ra_become_shogun_open_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+  ra_become_shogun_open_subjects_desc: "Ora diamo un'occhiata ai tuoi [vassals|E] [GetGovernment('japan_administrative_government').GetNameWithIcon]"
+  ra_become_shogun_open_subjects_prompt: "Apri la scheda '$MY_REALM_WINDOW_BODY_TITLE_SUBJECTS|V$' nel pannello '#V Realm#!' (evidenziato)"
+
+  ra_become_shogun_subjects: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+  ra_become_shogun_subjects_desc: "Non puoi diventare [shogun|E] senza rimuovere i residui antiquati del [government|E] [GetGovernment('japan_administrative_government').GetNameWithIcon].\n\nSe uno dei tuoi [vassals|E] è $japan_administrative_government$, puoi trovarlo qui e togliergli i [titles|E] usando l'[character_interaction|E] $revoke_title_interaction|V$."
+
+  ra_become_shogun_end: "$reactive_advice_soryo_regent_become_shogun_NAME$"
+ra_become_shogun_end_desc: "Le redini del potere sono già nelle tue mani: devi solo stringerle con forza per diventare [shogun|E].\n\nPromulga [GetLaw('japanese_bureaucracy_2').GetName] e il paese sarà tuo!"

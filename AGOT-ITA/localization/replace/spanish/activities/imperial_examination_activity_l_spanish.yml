@@ -1,0 +1,153 @@
+﻿l_spanish:
+
+ ### SETUP
+  activity_imperial_examination: "Esame della capitale"
+  activity_imperial_examination_plural: "Esami della capitale"
+  activity_imperial_examination_destination_selection: "Puoi ospitare un $activity_imperial_examination$ solo nella tua [capital|E]."
+  activity_imperial_examination_not_hegemon: "Non #bold detieni#! un [title|E] di rango [hegemony|E]"
+  activity_imperial_examination_selection_tooltip: "Ospita il [GetActivityType('activity_imperial_examination').GetName] per valutare l'abilità e il [merit|E] dei tuoi sudditi $activity_imperial_examination_host_rewards$"
+  activity_imperial_examination_desc: "È nostro onore e dovere mantenere l'ordine e organizzare questi esami. Ci consentono di valutare, determinare e assegnare il [merit|E] agli individui più adatti, per assicurare la futura prosperità del reame."
+  activity_imperial_examination_host_desc: "$activity_imperial_examination_host_rewards$$activity_imperial_examination_guest_rewards$"
+  activity_imperial_examination_host_rewards: "\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]"
+activity_imperial_examination_guest_desc: "\n$BULLET_WITH_TAB$Un’opportunità di completare l’@metropolitan_exam_icon! #V Esame Metropolitano#!\n$BULLET_WITH_TAB$Un’opportunità di completare l’@palace_exam_icon! #V Esame di Palazzo#!\n$BULLET_WITH_TAB$Può aumentare i [trait_level_track_xp|E] del tratto [GetTrait('confucian_education').GetName( GetNullCharacter )]\n$BULLET_WITH_TAB$Può aumentare la tua [merit|E]\n$BULLET_WITH_TAB$ @alert_icon! #alert_trial Se non conosci la [language|E] [host.GetCulture.GetLanguage.GetName], le tue probabilità di successo si riducono enormemente!#![SelectLocalization( Scope.HasFlag('passed_provincial_exam'), 'blank_line', 'activity_imperial_examination_warning' )]"
+  activity_imperial_examination_warning: "\n#indent_newline:8 $BULLET_WITH_TAB$ @warning_icon! #color_red Poiché non hai superato il @provincial_exam_icon! [provincial_examination|E], è probabile che fallirai!#!"
+  activity_imperial_examination_guest_rewards: "\n$BULLET_WITH_TAB$Potresti reclutare un personaggio di grande abilità\n$BULLET_WITH_TAB$I partecipanti potrebbero ottenere [GetTrait('confucian_education').GetName( GetNullCharacter )] [trait_level_track_xp|E]\n$BULLET_WITH_TAB$I partecipanti potrebbero ottenere [merit|E]"
+  imperial_examination_base_cost: "Costo base"
+
+  activity_imperial_examination_with_icon: "$activity_imperial_examination$ @metropolitan_exam_icon! @palace_exam_icon!"
+  activity_imperial_examination_can_complete_tt: "$activity_imperial_examination_not_available_tt$"
+  activity_imperial_examination_expected_frequency: "Previsto ogni #V 5#! anni"
+  activity_imperial_examination_not_available_tt: "#T [GetActivityType( 'activity_imperial_examination' ).GetNameNoTooltip]#!\nIn questa [activity|E], i candidati possono completare:\n@metropolitan_exam_icon! Esame metropolitano\n@palace_exam_icon! Esame di palazzo\n\n$activity_imperial_examination_expected_frequency$"
+
+ # Province Selection
+activity_imperial_examination_province_kaifeng_palace_desc: "\n#P ++ $building_type_kaifeng_palace_01$#!"
+activity_imperial_examination_province_examination_hall_desc: "\n#P ++ $building_type_examination_hall_01$#!"
+
+ #Activity Window Characters
+  activity_window_character_player_entrant_traveling: "$activity_window_character_player_entrant$"
+  activity_window_character_player_entrant: "$activity_window_character_entrant$"
+  activity_window_character_entrant: "[entrant|E]\n[Character.GetShortUINameNoTooltip|U]"
+  activity_window_character_examiner: "Esaminatore\n[Character.GetShortUINameNoTooltip|U]"
+  activity_window_character_minister_of_rites: "[minister_of_rites|E]\n[Character.GetShortUINameNoTooltip|U]"
+
+  activity_imperial_examination_guest_help_text: "Qualsiasi [activity_guests|E] idoneo all'esame può tentare la prova. Un esito positivo significa più [merit|E] per il candidato e più [prestige|E] per l'[activity_host|E]. Sebbene gli invitati non possano entrare nella sala d'esame, possono usare la propria influenza per sostenere i candidati in vari modi.\n\nGli esami sono l'occasione perfetta per stringere legami e impressionare gli esaminatori, forse assicurandoti un anziano."
+
+ ### GUEST INVITE RULES
+  activity_invite_rule_imperial_exam_entrants: "Nominati regionali"
+ # Children, Grandchildren, Parents, Grandparents
+  activity_invite_rule_imperial_exam_close_family: "Candidati di famiglia"
+  activity_invite_rule_local_exam_entrants: "Candidati locali"
+  activity_invite_rule_landless_family_heads_entrants: "Capi di famiglie nobili"
+  activity_invite_rule_local_exam_close_family: "$activity_invite_rule_imperial_exam_close_family$"
+  activity_invite_rule_imperial_exam_guests: "Invitati"
+  activity_invite_rule_local_exam_guests: "$activity_invite_rule_imperial_exam_guests$"
+  activity_invite_rule_bloc_house_heads: "Capi delle Case del blocco"
+  activity_invite_rule_bloc_members: "Altri membri del blocco"
+
+ ### GUEST JOIN CHANCE REASONS
+  ACTIVITY_GUEST_FAILED_EXAMINATION_REASON: "[Select_CString(ROOT.Char.IsFemale,'Lei','Lui')] ha già sostenuto un esame precedente: $VALUE|=+0$"
+  ACTIVITY_GUEST_IS_HEGEMON_REASON: "[Select_CString(ROOT.Char.IsFemale,'Lei','Lui')] non dovrebbe essere direttamente coinvolt[Select_CString(ROOT.Char.IsFemale,'a','o')] negli esami locali: $VALUE|=+0$"
+  ACTIVITY_GUEST_FORCED_BACK_REASON: "[Select_CString(ROOT.Char.IsFemale,'Lei','Lui')] è stat[Select_CString(ROOT.Char.IsFemale,'a','o')] spint[Select_CString(ROOT.Char.IsFemale,'a','o')] a ripetere l'esame: $VALUE|=+0$"
+  ACTIVITY_GUEST_IS_MINISTER_OF_RITES_REASON: "$game_concept_minister_of_rites$: $VALUE|=+0$"
+
+ ### PHASES
+  imperial_examination_phase_assembly: "Adunanza"
+  imperial_examination_phase_assembly_desc: "Da ogni dove, tutti i candidati idonei si stanno recando alle sale d'esame."
+  imperial_examination_phase_preparation: "Preparazione"
+  imperial_examination_phase_preparation_desc: "I candidati, così come l'ospitante, attendono il momento, affaccendandosi nelle preparazioni disponibili per gli esami."
+  imperial_examination_phase_examination: "Esame metropolitano"
+  imperial_examination_phase_examination_desc: "L'esame metropolitano ha inizio. Che accada quel che deve."
+  imperial_examination_phase_palace_examination: "Esame di palazzo"
+  imperial_examination_phase_palace_examination_desc: "L'esame di palazzo ha inizio. È qui che gli studiosi più meritevoli si dimostrano dinanzi all'Imperatore."
+
+ ### OPTIONS
+ #Examination Focus [Special Type] Option
+  imperial_examination_focus: "Focus dell'esame"
+  imperial_examination_focus_martial: "Strategi militari"
+  imperial_examination_focus_martial_desc: "Gli esami saranno più meritori per i candidati che eccellono in [martial|E]\n\n#weak \"La strategia militare è una virtù come qualsiasi altro sapere.\"#!"
+  imperial_examination_focus_stewardship: "Governo efficiente"
+  imperial_examination_focus_stewardship_desc: "Gli esami saranno più meritori per i candidati che eccellono in [stewardship|E]\n\n#weak \"C'è una netta differenza tra chi si guadagna da vivere parlando e le persone davvero utili.\"#!"
+  imperial_examination_focus_learning: "Eruditi perspicaci"
+  imperial_examination_focus_learning_desc: "Gli esami saranno più meritori per i candidati che eccellono in [learning|E]\n\n#weak \"È un piacere apprendere e mettere a frutto quel sapere.\"#!"
+
+ #Examination Breadth Option
+  imperial_examination_breadth: "Ampiezza dell'esame"
+  imperial_examination_breadth_exclusive: "Convocazione esclusiva"
+  imperial_examination_breadth_exclusive_desc: "$EFFECT_LIST_BULLET$ L'attività è aperta a pochi selezionati, escludendo il pubblico generale\n$EFFECT_LIST_BULLET$Otterrai #EMP meno#! [merit|E] al completamento\n\n#weak Lascerò che i figli più distinti dei miei sudditi servano nel #EMP mio#! reame.#!"
+  imperial_examination_breadth_restricted: "Convocazione ristretta"
+  imperial_examination_breadth_restricted_desc: "$EFFECT_LIST_BULLET$Gli esaminandi sono limitati a un gruppo contenuto, ammettendo alcuni membri del pubblico.\n\n#weak Potenziali governatori possono emergere dalle radici più umili.#!"
+  imperial_examination_breadth_open: "Convocazione aperta"
+  imperial_examination_breadth_open_desc: "$EFFECT_LIST_BULLET$ L'attività è organizzata su larga scala, con molti candidati desiderosi di partecipare\n$EFFECT_LIST_BULLET$ Otterrai #EMP più#! [legitimacy|E] al completamento\n\n#weak La saggezza può venire da ogni dove. Gettiamo una rete ampia e vediamo chi saprà elevarsi alla prova."
+
+ #Passing Grade Option
+  imperial_examination_passing_grade: "Soglia di superamento dell'esame"
+  imperial_examination_passing_grade_extreme: "Soglia estrema"
+  imperial_examination_passing_grade_extreme_desc: "$EFFECT_LIST_BULLET$ La soglia di superamento degli esami è molto alta, eliminando #EMP molti#! candidati\n$EFFECT_LIST_BULLET$ Otterrai #EMP molta più#! [legitimacy|E] al completamento\n\n#weak Solo i migliori tra i migliori otterranno il superamento e diventeranno i #EMP miei#! prossimi funzionari del governo.#!"
+  imperial_examination_passing_grade_high: "Soglia alta"
+  imperial_examination_passing_grade_high_desc: "$EFFECT_LIST_BULLET$ La soglia di superamento degli esami è ordinaria, eliminando un numero atteso di candidati\n$EFFECT_LIST_BULLET$ Le ricompense di [legitimacy|E] al completamento non sono influenzate\n\n#weak I miei standard sono elevati, ma non irragionevoli. Se vogliamo funzionari basati sul merito, devono raggiungere un certo grado di eccellenza.#!"
+  imperial_examination_passing_grade_mediocre: "Soglia mediocre"
+  imperial_examination_passing_grade_mediocre_desc: "$EFFECT_LIST_BULLET$ La soglia di superamento degli esami è un po' rilassata, eliminando una quantità #EMP minore#! di candidati\n$EFFECT_LIST_BULLET$ Otterrai #EMP meno#! [legitimacy|E] al completamento\n\n#weak Chi dice che questi candidati di umili origini non impareranno sul campo? Purché abbiano basi solide, dico di lasciarli passare.#!"
+  imperial_examination_passing_grade_low: "Soglia bassa"
+  imperial_examination_passing_grade_low_desc: "$EFFECT_LIST_BULLET$ La soglia di superamento degli esami è molto blanda, eliminando una quantità #EMP minima#! di candidati\n$EFFECT_LIST_BULLET$ Otterrai #EMP molto meno#! [legitimacy|E] al completamento\n\n#weak Abbiamo bisogno di questi funzionari meritevoli #EMP ora#!. Io faccio le regole e stabilisco gli standard; loro seguono. Tale è il mio mandato.#!"
+
+ #Conclusion
+  activity_imperial_examination_conclusion_desc: "Il [GetActivityType( 'activity_imperial_examination' ).GetName] si è concluso."
+  imperial_examination_conclusion.intro: "Gli esami si sono finalmente conclusi."
+  imperial_examination_conclusion.intro.passing_grade.extreme: "\n\nLe restrizioni di #BOL $imperial_examination_passing_grade_extreme$#! hanno assegnato una quantità #BOL straordinaria#! di [merit|E] a un numero #BOL piccolo#! di [entrants|E]."
+  imperial_examination_conclusion.intro.passing_grade.high: "\n\nLe restrizioni di #BOL $imperial_examination_passing_grade_high$#! hanno assegnato una quantità #BOL alta#! di [merit|E] a un numero #BOL medio#! di [entrants|E]."
+  imperial_examination_conclusion.intro.passing_grade.mediocre: "\n\nLe restrizioni di #BOL $imperial_examination_passing_grade_mediocre$#! hanno assegnato una quantità #BOL media#! di [merit|E] a un numero #BOL grande#! di [entrants|E]."
+  imperial_examination_conclusion.intro.passing_grade.low: "\n\nLe restrizioni di #BOL $imperial_examination_passing_grade_low$#! hanno assegnato una quantità #BOL bassa#! di [merit|E] a un numero #BOL molto alto#! di [entrants|E]."
+  imperial_examination_conclusion.intro.breadth.imperial: "\n\nLa #BOL $imperial_examination_breadth_open$#! dell'invito ha comportato un #BOL grande#! numero totale di [entrants|E]."
+  imperial_examination_conclusion.intro.breadth.grand: "\n\nLa #BOL $imperial_examination_breadth_restricted$#! dell'invito ha comportato un numero totale #BOL discreto#! di [entrants|E]."
+  imperial_examination_conclusion.intro.breadth.palace: "\n\nLa #BOL $imperial_examination_breadth_exclusive$#! dell'invito ha comportato un #BOL piccolo#! numero totale di [entrants|E]."
+  imperial_examination_conclusion.general: "\n\nDa un gruppo iniziale di #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! [entrants|E], #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#! hanno #EMP fallito#! l'Esame.\n\n[activity.MakeScope.Var('first_place_entrant').Char.GetShortUIName] è risultat[Select_CString(activity.MakeScope.Var('first_place_entrant').Char.IsFemale,'a','o')] [Select_CString(activity.MakeScope.Var('first_place_entrant').Char.IsFemale,'la più brillante','il più brillante')] tra gli [entrants|E], con un punteggio [activity.Custom('ActivityGetExamScoreAdjective')] di #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#!, seguit[Select_CString(activity.MakeScope.Var('first_place_entrant').Char.IsFemale,'a','o')] da [activity.MakeScope.Var('second_place_entrant').Char.GetShortUIName] e [activity.MakeScope.Var('third_place_entrant').Char.GetShortUIName]."
+  imperial_examination_conclusion.entrant_failee: "\n\nL'esame si è concluso in una grave delusione. Dovrò impegnarmi di più la prossima volta."
+  imperial_examination_conclusion.entrant_passed: "\n\nHo superato l'Esame metropolitano e la mia famiglia può essere orgogliosa dei miei risultati."
+  imperial_examination_conclusion.entrant_passed_palace: "\n\nL'impero ormai mi conosce come [Select_CString(ROOT.Char.IsFemale,'una delle sue migliori studiose','uno dei suoi migliori studiosi')] e le opportunità che mi attendono sono immense."
+  local_examination_conclusion.entrant_passed: "\n\nOggi ho superato l'Esame provinciale e la mia famiglia può essere orgogliosa dei miei risultati."
+ #Activity Log
+ #Aced an exam
+  imperial_examination_ace_essay_log_title: "Saggio magnifico"
+  imperial_examination_ace_essay_log: "[CHARACTER.GetShortUIName|U] ha eclissato tutti nella scrittura del saggio a [PROVINCE.GetBaronyNameExplicitly]"
+  imperial_examination_ace_classics_log_title: "Classici splendidi"
+  imperial_examination_ace_classics_log: "[CHARACTER.GetShortUIName|U] ha eclissato tutti all'esame sui classici a [PROVINCE.GetBaronyNameExplicitly]"
+  imperial_examination_ace_poetry_log_title: "Poesia strepitosa"
+  imperial_examination_ace_poetry_log: "[CHARACTER.GetShortUIName|U] ha eclissato tutti nella composizione poetica a [PROVINCE.GetBaronyNameExplicitly]"
+  imperial_examination_ace_archery_log_title: "Tiro impressionante"
+  imperial_examination_ace_archery_log: "[CHARACTER.GetShortUIName|U] ha primeggiato nella gara di tiro con l'arco a [PROVINCE.GetBaronyNameExplicitly]"
+  imperial_examination_ace_polearm_log_title: "Maestro di arma in asta"
+  imperial_examination_ace_polearm_log: "[CHARACTER.GetShortUIName|U] ha mostrato notevole abilità nella dimostrazione di arma in asta a [PROVINCE.GetBaronyNameExplicitly]"
+  imperial_examination_ace_riding_log_title: "Prodigio del tiro a cavallo"
+  imperial_examination_ace_riding_log: "[CHARACTER.GetShortUIName|U] ha dimostrato ottime abilità nel tiro con l'arco a cavallo all'esame"
+
+ #Rewards
+  imperial_examination_host_rewards_title: "$activity_imperial_examination$ tenuto"
+  imperial_examination_host_rewards: "Ricompense dell'ospitante"
+  imperial_examination_entrant_rewards_title: "Esame sostenuto"
+  imperial_examination_entrant_rewards: "Ricompense interessanti per il candidato"
+
+ #APAs
+  apa_boasting_calligraphy_title: "La calligrafia di [first.GetShortUINamePossessive|U] è stata lodata dagli esaminatori"
+  apa_overcome_with_stress_title: "[first.GetShortUINamePossessive|U] è svenut[Select_CString(first.IsFemale,'a','o')] per mancanza di respiro; i nervi hanno avuto la meglio su [Select_CString(first.IsFemale,'di lei','di lui')]"
+  apa_brought_huangdi_gift_title: "[first.GetShortUIName|U] ha inviato un dono squisito a [second.GetShortUIName|U]"
+  apa_impressive_shot_title: "[first.GetShortUIName|U] ha mostrato tecniche d'arco magistrali"
+  apa_friendly_discussions_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U] hanno dato vita a un dibattito amichevole"
+  apa_high_tempers_title: "[first.GetShortUIName|U] è arrivat[Select_CString(first.IsFemale,'a','o')] alle mani con i pari al campo prove"
+  apa_impressed_examiner_title: "[first.GetShortUIName|U] ha fatto un'ottima impressione sull'esaminatore [second.GetShortUIName|U]"
+  apa_entrant_disagreement_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U] hanno discusso di sfumature semantiche"
+  apa_burning_midnight_oil_title: "[first.GetShortUIName|U] è rimast[Select_CString(first.IsFemale,'a','o')] svegli[Select_CString(first.IsFemale,'a','o')] tutta la notte a preparare la prova"
+  apa_found_disciple_title: "[second.GetShortUIName|U] è [Select_CString(second.IsFemale,'diventata','diventato')] l[second.Custom('DE_PRO_PER_S_3P_N')]Anzian[Select_CString(second.IsFemale,'a','o')] di [first.GetShortUINamePossessive|U]"
+  apa_fruitful_debate_title: "[first.GetShortUIName|U] e [second.GetShortUIName|U] hanno condiviso appunti prima della prova"
+  apa_confucian_fervor_title: "[first.GetShortUIName|U] ha pianto di gioia alle lodi dell'esaminatore"
+  apa_floating_poetry_title: "[first.GetShortUIName|U] ha fatto circolare le sue poesie tra gli esaminatori"
+
+ #GUI Setup
+  ENTRANTS_WINDOW_LABEL: "Classifica"
+  ENTRANTS_SORT_METHOD_PREDICTION: "Eccellenza prevista"
+  ENTRANTS_SORT_METHOD_SCORE: "Ordinato per [exam_score|E]"
+
+ #Intent Custom Tooltip
+  no_available_family_candidates: "Nessun candidato familiare o discepolo disponibile"
+  already_taken_exam_tooltip: "Esame già superato"
+  take_exam_tooltip: "#alert_trial Per smettere di essere governatore, seleziona la [decision|E] [GetDecision('renounce_governorship_decision').GetName]#!"
+  already_landed_tooltip: "Sei [governor|E]"

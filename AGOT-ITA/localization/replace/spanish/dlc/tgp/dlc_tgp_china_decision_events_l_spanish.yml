@@ -1,0 +1,58 @@
+﻿l_spanish:
+
+ ##################################################
+ # CHINA CHILD EXAMINATION DECISION EVENTS 
+ ##################################################
+ # SUCCESS CHANCE VALUES
+  exam_success_chance.tgp_local_exam_initial_success: "Buon avvio all’esame"
+  exam_success_chance.tgp_local_exam_impressed_examiner: "Esaminatore impressionato"
+  exam_success_chance.tgp_local_exam_strong_finish: "Buona chiusura d’esame"
+
+  examiner_takes_bribes_tt: "Hai questa opzione per i tratti dell’esaminatore"
+
+  tgp_china_decision.1000.t: "Esame dei fanciulli: inizio"
+  tgp_china_decision.1000.desc_new: "Sono giunto al mio primo esame. La reputazione della mia famiglia dipende dai risultati che otterrò oggi. In queste sale, vere fonti di sapere, sento i miei antenati che osservano, in attesa di vedere che ne sarà di me."
+  tgp_china_decision.1000.desc_returning: "Sono di nuovo nella sala di studio locale, in attesa del giudizio degli acuti eruditi del reame. In questa imponente sala, il peso di ogni pergamena, e di ogni briciolo di conoscenza in esse, grava sui miei omberi."
+  tgp_china_decision.1000.desc_outro: "\n\nL’esaminatore [examiner.GetTitledFirstName] mi chiederà di recitare passi dei classici. Ho ripetuto questi testi finché non ne vedo i segni a occhi chiusi.\n\nInfine, giunge il mio turno di avvicinarmi al pulpito."
+  tgp_china_decision.1000.a: "Darò tutto me stesso."
+  tgp_china_decision.1000.b: "Non farò più del necessario."
+
+  tgp_china_decision.1001.t_success: "Esame dei fanciulli: successo!"
+  tgp_china_decision.1001.t_fail: "Esame dei fanciulli: fallimento!"
+  tgp_china_decision.1001.desc_success: "Una calma mi avvolge mentre recito ogni parola, pronunciandola con perfetta chiarezza. Quasi mi pare facile."
+  tgp_china_decision.1001.desc_safe: "Abbasso lo sguardo, senza rischiare neppure di guardare l’esaminatore per timore di contrari[Select_CString(examiner.IsFemale,'arla','arlo')]. La mia recitazione è breve, perché accelero per celare eventuali errori."
+  tgp_china_decision.1001.desc_fail: "Arrossisco quando mi accorgo di aver perso il filo del passo. Alzo gli occhi verso l’esaminatore e il [Select_CString(examiner.IsFemale,'suo','suo')] sguardo tagliente mi strozza in silenzio."
+  tgp_china_decision.1001.desc_outro: "\n\nL’esaminatore incalza subito con un altro brano, senza darmi il tempo di riprendermi."
+  tgp_china_decision.1001.a: "Devo farlo #EMP bene#!."
+  tgp_china_decision.1001.b: "Non mi sfinirò."
+
+  tgp_china_decision.1002.t_success: "Esame dei fanciulli: successo!"
+  tgp_china_decision.1002.t_fail: "Esame dei fanciulli: fallimento!"
+  tgp_china_decision.1002.desc_success: "Le parole fluiscono libere dalle labbra e, per un istante, mi pare che gli angoli della bocca dell’esaminatore si muovano. Ha sorriso? Impossibile."
+  tgp_china_decision.1002.desc_safe: "Recito il minimo per evitare errori superflui. Rischio un’occhiata all’esaminatore e pare annoiat[Select_CString(examiner.IsFemale,'a','o')] dalla mia resa legnosa."
+  tgp_china_decision.1002.desc_fail: "I palmi mi sudano mentre inizio a inciampare nelle parole. Non ricordo neppure una frase. Se solo la terra potesse inghiottirmi."
+  tgp_china_decision.1002.desc_outro: "\n\nDi nuovo, non mi è offerta tregua. L’esaminatore mi fissa con il [Select_CString(examiner.IsFemale,'suo','suo')] sguardo e chiede la sezione successiva."
+  tgp_china_decision.1002.a: "Tutto dipende da questo."
+  tgp_china_decision.1002.b: "Resta calmo…"
+
+  tgp_china_decision.1005.t: "Affissione dei risultati"
+  tgp_china_decision.1005.desc: "Concludo l’esame con "
+  tgp_china_decision.1005.desc.success: "alto morale."
+  tgp_china_decision.1005.desc.safe: "un sospiro di sollievo."
+  tgp_china_decision.1005.desc.failure: "basso morale."
+  tgp_china_decision.1005.desc.segway: "\n\nMentre torno in fila, noto che gli altri fanciulli attorno a me sono tutti sconosciuti. Sarebbe stato bello vedere almeno un volto noto nell’attesa del verdetto, per rendere l’attesa più sopportabile.\n\nMolto più tardi, l’elenco viene affisso e corro al pannello per vedere che ho "
+  tgp_china_decision.1005.desc.high_score: "ottenuto un punteggio eccellente all’esame. La mia famiglia sarà fiera."
+  tgp_china_decision.1005.desc.good_score: "ottenuto un buon punteggio all’esame."
+  tgp_china_decision.1005.desc.passing_score: "superato l’esame."
+  tgp_china_decision.1005.desc.failing: "fallito l’esame."
+  tgp_china_decision.1005.a_success: "La prossima volta spingerò più a fondo."
+  tgp_china_decision.1005.a: "Voglio solo onorare i miei genitori."
+  tgp_china_decision.1005.b: "Il merito è tutto dei miei valenti maestri."
+  tgp_china_decision.1005.a_failure: "Tornerò."
+  tgp_china_decision.1005.b_passing: "Sono soddisfatto di questo esito."
+  tgp_china_decision.1005.b_failed: "Che umiliazione."
+
+  provincial_exam_close_family_passed: "[GetPlayer.Custom2('RelationToMeShort', ROOT.Char)|U] ha superato l’Esame Provinciale"
+  msg_provincial_exam_close_family_passed_desc: "[ROOT.Char.GetShortUIName|U] ha completato con successo l’esame di livello inferiore a [ROOT.Char.GetCurrentLocation.GetName]"
+  provincial_exam_close_family_failed: "[GetPlayer.Custom2('RelationToMeShort', ROOT.Char)|U] non ha superato l’Esame Provinciale"
+  msg_provincial_exam_close_family_failed_desc: "[ROOT.Char.GetShortUIName|U] ha tentato, senza riuscirvi, di mettersi alla prova nell’esame di livello inferiore a [ROOT.Char.GetCurrentLocation.GetName]"

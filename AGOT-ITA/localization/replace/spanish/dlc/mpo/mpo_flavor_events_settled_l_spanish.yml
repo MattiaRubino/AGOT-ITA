@@ -1,0 +1,21 @@
+﻿l_spanish:
+
+ mpo_flavor_events_settled.0001.t: "La tempesta in arrivo"
+ mpo_flavor_events_settled.0001.desc: "Il vento gelido mi taglia le guance come schegge di vetro. Il tempo è stato insolitamente freddo ultimamente.\n\nUn nitrito attira la mia attenzione proprio quando mi volto per rientrare. La sua cavallerizza riesce a malapena a tenere le redini.\n\n«Aiuto...» mormora, sul punto di crollare. «Il grande inverno è arrivato. Il mio popolo muore, cercando di fuggire dalla steppa»"
+ mpo_flavor_events_settled.0001.aa: "«Via di qui!»"
+ mpo_flavor_events_settled.0001.a: "«Lasciateli venire!»"
+ mpo_flavor_events_settled.0001.b: "«Dobbiamo prepararci a questi nomadi.»"
+ mpo_flavor_events_settled.0001.c: "«Ora puoi riposare.»"
+ mpo_settled_preparations_war_county_modifier: "Preparativi di guerra"
+ mpo_settled_preparations_war_county_modifier_desc: "Questo personaggio si prepara a un’imminente invasione nomade rinforzando i propri eserciti."
+ mpo_settled_preparations_building_county_modifier: "Preparativi territoriali"
+ mpo_settled_preparations_building_county_modifier_desc: "Questo personaggio si prepara a un’imminente invasione nomade assicurandosi che le sue contee siano pronte."
+ mpo_flavor_events_settled.0001.tt: "@alert_icon! #alert_trial I [nomads|E] potrebbero tentare di impadronirsi delle nostre terre#!"
+ 
+ mpo_flavor_events_settled.0010.t: "Il Signore dei Cavalli"
+ mpo_flavor_events_settled.0010.desc: "#Emp «Ksk! Ksk!»#! [Select_CString(nomad.IsFemale,'Una strana','Uno strano')] [nomad.GetWomanMan] batte sul fianco del suo cavallo per calmarlo, poi avanza verso di me.\n\n«Saluti, onorevole [ROOT.Char.GetTitleAsNameNoTooltip], sono un emissario del grande [nomad_lord.GetTitledFirstName]. Il mio [Select_CString(nomad_lord.IsFemale,'Signora','Signore')] mi ha inviato per proporre una tregua tra i nostri popoli.»"
+ mpo_flavor_events_settled.0010.a: "«Vi prego, accettate il mio tributo.»"
+ mpo_flavor_events_settled.0010.b: "«Sono certo che possiamo raggiungere un’intesa.»"
+ mpo_flavor_events_settled.0010.b_perk_tt: "Il tuo [perk|E] [GetPerk('defensive_measures_perk').GetName( GetNullCharacter )] ti permette di negoziare un prezzo migliore"
+ mpo_flavor_events_settled.0010.c: "#EMP Sputa per terra.#!"
+ mpo_flavor_events_settled.0010.d: "«Porgi i miei omaggi al tuo [nomad_lord.GetLadyLord].»"

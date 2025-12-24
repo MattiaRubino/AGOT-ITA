@@ -1,0 +1,42 @@
+﻿l_spanish:
+
+ jamukha_choose_blood_brother_tt: "[jamukha.GetShortUIName] deciderà se diventare [blood_brothers|E]"
+ jamukha_warhorse_tt: "#high Tu#! darai a [jamukha.GetShortUIName] un [GetModifier('horse_story_modifier').GetNameWithTooltip]"
+ temujin_warhorse_tt: "[jamukha.GetShortUIName] ti darà un [GetModifier('horse_story_modifier').GetNameWithTooltip]"
+ temujin_warhorse_jamukha_tt: "#high Tu#! dai a [temujin.GetShortUIName] un [GetModifier('horse_story_modifier').GetNameWithTooltip]"
+ jamukha_warhorse_jamukha_tt: "[temujin.GetShortUIName] ti dà un [GetModifier('horse_story_modifier').GetNameWithTooltip]"
+ blood_brother_gains_hook_tt: "Ottiene un [strong_hook|E] #EMP (Fratello di Sangue)#! su #high te#!"
+ blood_brother_gains_hook_other_tt: "#high Tu#! ottieni un [strong_hook|E] #EMP (Fratello di Sangue)#! su [blood_bro.GetShortUIName]"
+
+ mpo_jamukha_flavor.0001.t: "Anni di Fratellanza"
+ mpo_jamukha_flavor.0001.desc: "[temujin.Custom('IT_NAM_COL3')][temujin.GetTitledFirstName] e io siamo seduti accanto al fuoco. I nostri popoli sono uniti attorno a noi in un grande accampamento.\n\nSono passati anni da quando gli offrii per la prima volta la mia amicizia, giovane guerriero abbandonato dal clan di suo padre. Giocammo con ossa di caviglia sul ghiaccio del fiume Onon. Giurammo di essere sempre amici.\n\nEravamo bambini allora. Da allora abbiamo combattuto insieme, e la nostra amicizia è cresciuta. Ora, da uomini, conosciamo le parole per diventare [Glossary( 'anda', 'ANDA_GLOSS' )] per la vita."
+ mpo_jamukha_flavor.0001.a: "Darò a [temujin.GetFirstNameNoTooltip] il mio giuramento di fratellanza."
+ mpo_jamukha_flavor.0001.a.tt: "E ci scambieremo doni degni."
+ mpo_jamukha_flavor.0001.b: "Sono qui per discutere di potere. Non d’amore."
+
+ mpo_nerge_promised_feast_failed: "False Promesse di Carne"
+ mpo_nerge_promised_feast_failed_desc: "A nobili cacciatori, questo personaggio promise una montagna di buona carne. E non mantenne la parola."
+ jamukha_temujin_response_warning_tt: "@warning_icon! #X [temujin.GetShortUIName] potrebbe danneggiare il tuo @prestige_icon![prestige|E] e @dread_icon![dread|E]#!"
+ negotiate_togrul_alliance_effect_tooltip: "[jamukha.GetShortUIName] e [togrul.GetShortUIName] stringono una [alleanza|E] reciproca"
+ mpo_jamukha_flavor.0010.t: "Insulti che Nessun Mongolo Può Sopportare"
+ mpo_jamukha_flavor.0010.desc: "Ho guidato il mio popolo, da tempo ormai, accanto [temujin.Custom('IT_NAM_COL4')][temujin.GetTitledFirstName], fedele ai suoi capricci, costante nonostante i miei pensieri inquieti.\n\nLe donne sussurrano veleno all’orecchio di [temujin.GetFirstNameNoTooltip]. Le sue guardie notturne mi scrutano con occhi cupi mentre mi avvicino alla sua yurta. Quanto a lungo potrò sopportare questi affronti?\n\n"
+ mpo_jamukha_flavor.0010.desc_togrul: "E il potente [togrul.GetName] ha promesso la sua protezione, se dovessi abbandonare [temujin.GetFirstNameNoTooltip]..."
+
+ mpo_jamukha_flavor.0020.t: "Uomini dai Sogni Sanguinari"
+ mpo_jamukha_flavor.0020.desc: "Ho cavalcato di notte verso l’accampamento [temujin.Custom('IT_NAM_COL2')][temujin.GetTitledFirstName], bruciando di rabbia e vergogna. Il destino — pensieri oscuri oltre la luce del fuoco nella mia mente — mi ha spinto.\n\nQuando [temujin.GetFirstNameNoTooltip] e io eravamo piccoli, smembrammo il cadavere di una marmotta. La sua carne è rimasta nel mio stomaco, come veleno, per tutti questi anni. Le nostre parole di amicizia bruciano la mia mente, mi scorticano il volto, quando le ricordo. #EMP Come#! ho potuto giurare fedeltà [Select_CString(temujin.IsFemale, 'alla donna', 'all’uomo')] destinat[temujin.Custom('DE_END_PRO_S_N')] a governare tutti i Mongoli — #EMP il mio#! destino? Con le promesse di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')], mi sono condannat[ROOT.Char.Custom('DE_END_PRO_S_N')] a una vita da tradi[ROOT.Char.Custom('DE_END_NOU_S_GS_N')].\n\n#EMP "Ti distruggerò!"#! urlo, mentre [temujin.GetFirstNameNoTooltip] sogghigna. #EMP "Io, [ROOT.Char.GetFirstName], sono Khan dei [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNoun]!"#!"
+ mpo_jamukha_flavor.0010.a: "Devo cercare il mio destino. Senza [temujin.GetFirstNameNoTooltip]."
+ mpo_jamukha_flavor.0010.b: "La mia parola mi vincola, come una spada alla cintura di [temujin.GetFirstNameNoTooltip]."
+ jamukha_chose_loyalty_modifier: "Scelse la Lealtà a Temujin"
+ jamukha_chose_loyalty_modifier_desc: "Jamukha ha dimostrato di essere un amico nobile e sincero, anche a costo del proprio orgoglio."
+
+ jamukha_temujin_no_more_positive_tt: "@alert_icon! #X Tutte le [relations|E] positive tra #high te#! e [temujin.GetShortUIName] sono state distrutte"
+ jamukha_temujin_rivals_tt: "[temujin.GetShortUIName] è diventato il tuo [rival|E]"
+ jamukha_gain_from_defectors_tt: "#weak @herd_icon![herd|E] e @prestige_icon![prestige|E] guadagnati grazie ai Mongoli che si radunano per la guerra"
+ temujin_gain_from_defectors_tt: "$jamukha_gain_from_defectors_tt$"
+ mpo_jamukha_flavor.0020.a: "#EMP "[Select_CString(temujin.IsFemale, 'Sporca cagna', 'Sporco cane')], che un tempo era [Select_CString(temujin.IsFemale, 'mia sorella', 'mio fratello')]!"#!"
+ mpo_jamukha_flavor.0020.b: ""La tua morte sarà pietosa, [temujin.GetFirstNameNoTooltip]...""
+ mpo_jamukha_flavor.0020.c: ""Sul campo di battaglia, #EMP il tuo destino sarà mio!#!"" 
+
+
+ mpo_jamukha_flavor.0020.b_murder: "Ottieni un #P #EMP enorme#!#! bonus ai [schemes|E] di tipo [GetScheme('murder').GetTypeName] contro [temujin.GetShortUIName]"
+ mpo_jamukha_flavor.0020.a_war_win: "Vincere una [war|E] #high offensiva#! contro [temujin.GetShortUIName] garantisce ulteriore @legitimacy_icon![legittimità|E] e @prestige_icon![prestigio|E]"

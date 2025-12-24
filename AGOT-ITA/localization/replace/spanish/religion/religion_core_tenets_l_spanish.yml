@@ -1,6 +1,8 @@
 ﻿l_spanish:
  #start AGOT modifiche
  doctrine_parameter_unlock_jizya_contract:1 "Sblocca il Irūdir [vassal_contract|E] Irūdir e il [tax_decree|E]"
+ tenet_harmonious_society_desc: "Tutto deve essere in equilibrio: individui, natura, società. I cieli dettano il ritmo e noi seguiamo il loro canto."
+
  #End AGOT modifiche
 
  doctrine_core_tenets_name:0 "Dottrine"
@@ -439,7 +441,6 @@ tenet_benevolent_governance_desc: "Coloro che governano le masse hanno il dovere
 tenet_filial_piety_name: "Pietà filiale"
 tenet_filial_piety_desc: "La pietà filiale e l'obbedienza agli anziani sono fondamentali per l'attuazione della bontà umana. Quando i nostri genitori sono vivi li serviamo con proprietà; quando muoiono li seppelliamo con proprietà e poi li veneriamo con proprietà."
 tenet_harmonious_society_name: "Società armoniosa"
-tenet_harmonious_society_desc: "Tutto deve essere in equilibrio: individui, natura, società. Il Figlio del Cielo dà il tempo e noi seguiamo il suo canto."
 doctrine_parameter_sway_scheme_better: "[GetScheme('sway').GetTypeName] [scheme_success_chance|E]: [success_chance_i]#P +15%#!"
 doctrine_parameter_sway_scheme_piety: "[schemes|E] di [GetScheme('sway').GetTypeName] riuscite contro il tuo [liege|E] o i tuoi [vassals|E] forniscono [piety_i][piety|E]"
 doctrine_parameter_more_often_zealots: "È più probabile che i [vassals|E] abbiano la [GetVassalStance( 'zealot' ).GetTextIcon][GetVassalStance( 'zealot' ).GetName] [vassal_stance|E]"

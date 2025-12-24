@@ -2,19 +2,9 @@
  #start AGOT modifiche
  death_management.1001.tt:1 "Tu[dead_character.Custom('DE_END_PRO_S_N')] [THIS.Char.Custom2('RelationToMeShort', SCOPE.sC('dead_character'))], [dead_character.GetTitledFirstNameNicknamed], [THIS.Char.Custom('DiedHouse_arrest')]."
  death_management.liege_councillor.desc:2 "[dead_character.GetTitledFirstNameNicknamedNoTooltip] [dead_character.GetDeathReason]."
- death_management.killer.witnessed.enemy_dragon:0 "Nessuno poteva resistere alla forza di [battle_death_killer.GetFirstName]. Cavalcato da [battle_death_killer_rider.GetTitledFirstName], ha fatto strage tra le linee nemiche, con [dead_character.GetFirstNameNoTooltip] come una delle sue numerose vittime."
  death_management.killer.witnessed.friendly:0 "Il luccichio di un'arma improvvisamente cattura il mio sguardo, ed io osservo mentre [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] di [battle_death_killer.GetLiege.GetTitledFirstName], sferra il violento colpo di grazia."
- death_management.killer.witnessed.friendly_dragon:0 "Nessuno poteva resistere al terrore di [battle_death_killer.GetFirstName]. Cavalcato da [battle_death_killer_rider.GetTitledFirstName], ha fatto strage tra le nostre linee, con [dead_character.GetFirstNameNoTooltip] tra i tanti caduti sotto il fuoco e le fiamme."
  death_management.killer:0 "\n[dead_character.Custom('DE_ART_IND_A')|U] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')] da [battle_death_killer.GetTitledFirstName], [battle_death_killer.GetLiege.Custom2('RelationToMe', SCOPE.sC('battle_death_killer'))] di [battle_death_killer.GetLiege.GetTitledFirstName], durante un feroce scontro.'#!"
- death_management.killer_dragon:0 "[dead_character.GetSheHe|U] è stat[dead_character.Custom('DE_END_PRO_S_N')] un[dead_character.Custom('DE_END_PRO_S_N')] dei tanti che sono caduti davanti a [battle_death_killer.GetFirstName], il drago di [battle_death_killer_rider.GetTitledFirstName]."
- death_management.1200.a:0 "[battle_death_killer.GetFirstNameNoTooltip] è un[dead_character.Custom('DE_PRO_POS_P_2P')] [dead_character.GetWomanMan] mort[dead_character.Custom('DE_END_PRO_S_N')]! Mort[dead_character.Custom('DE_END_PRO_S_N')]!"
- death_management.1200.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] è un[battle_death_killer_rider.Custom('DE_PRO_POS_P_2P')] [battle_death_killer_rider.GetWomanMan] mort[dead_character.Custom('DE_END_PRO_S_N')]! Mort[dead_character.Custom('DE_END_PRO_S_N')]!"
- death_management.1201.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] non la passerà liscia!"
- death_management.1202.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] la pagherà."
- death_management.1205.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] la pagherà per questo!"
- death_management.1206.c_dragon:2 "Mi[dead_character.Custom('DE_END_PRO_S_N')] #EMP eroe!#! Manderò a [battle_death_killer_rider.GetFirstNameNoTooltip] un [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]!"
- death_management.1207.b_dragon:0 "...ma neanche [battle_death_killer_rider.GetFirstNameNoTooltip] l[battle_death_killer_rider.Custom('DE_END_PRO_S_N')] è!"
- 
+
  #End AGOT modifiche
 
  death_management.1000.killed.tt:1 "[dead_character.GetTitledFirstName] è stat[dead_character.Custom('DE_END_PRO_S_N')] uccis[dead_character.Custom('DE_END_PRO_S_N')] da [killer.GetTitledFirstName]."

@@ -1,0 +1,939 @@
+﻿l_spanish:
+
+ # Base details
+ activity_coronation: "Incoronazione"
+ activity_coronation_host_desc: "$BULLET_WITH_TAB$[Concept('law', 'Leggi')|E] @law_icon! del [GetLaw('crowned_king').GetName] o [GetLaw('crowned_emperor').GetName]\n$BULLET_WITH_TAB$Finché l’incoronazione è in corso, le [factions|E] @faction_icon! non possono avanzare pretese\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]\n$BULLET_WITH_TAB$[prestige|E] [prestige_i]\n$BULLET_WITH_TAB$[legitimacy|E] [legitimacy_i]\n$BULLET_WITH_TAB$[decision|E] per un [oath|E] solenne\n\n@warning_icon! #X @faction_icon!Le [factions|E] e altri avversari ridurranno la [coronation_magnificence|E] dell’incoronazione#!"
+ activity_coronation_guest_desc: "$BULLET_WITH_TAB$ Gli invitati possono guadagnare [opinion|E] [opinion_i] verso altri partecipanti\n$BULLET_WITH_TAB$Gli invitati possono ottenere opportunità uniche in base al loro [intent|lE]"
+ activity_coronation_desc: "Invita i grandi e i potenti del tuo dominio ad assistere alla tua ascesa al trono. Con questo gesto si pongono le basi di un regno lungo e saldo."
+ activity_coronation_conclusion_desc: "La [GetActivityType( 'activity_coronation' ).GetName|l] è terminata."
+ activity_coronation_selection_tooltip: "Invita i grandi e i potenti del tuo dominio ad assistere alla tua ascesa al trono. Con questo gesto si pongono le basi di un regno lungo e saldo.\n\nRicompense previste:\n$activity_coronation_host_desc$"
+ activity_coronation_destination_selection: "\nUn’[coronation|E] si tiene di norma nel [realm|E] dell’[host|lE], salvo le [anointments|lE], che possono svolgersi nelle terre del [head_of_faith|E] se questi possiede un [holy_site|E] adatto."
+ activity_coronation_guest_help_text: "Un’incoronazione è un’occasione ideale per stringere legami e colpire l’animo di [vassals|E] e altri [rulers|lE].\n\nOgni invitato può accrescere l’[opinion|E] di altri presenti e ottenere opportunità speciali per interagire con l’[host|E] dell’[activity|lE]."
+ invite_to_activity_flavor_coronation: "Siete cordialmente invitati a unirvi a me e al resto del dominio presso il palazzo in [ROOT.Char.GetCurrentLocation.Custom('GetCoronationSite')] in occasione della mia prossima incoronazione."
+ activity_coronation_underage_tt: "#bold Non#! hai almeno #V 12#! anni\n#flavor La corona ti scivola dalla testa#!"
+ activity_coronation_not_approved_anointment: "[GetPlayer.GetFaith.GetReligiousHead.Custom('IT_NAM_COL3')|U][GetPlayer.GetFaith.GetReligiousHead.GetTitledFirstName|l] non ha approvato questa [anointment|lE]; cerca l’approvazione tramite l’[interaction|E] [request_anointment|E]"
+
+ # Province Desc
+ activity_coronation_province_desc: "L’incoronazione si terrà a [ROOT.Province.GetName]"
+ activity_coronation_capital_province: "\n#p + Capitale#!"
+ activity_coronation_holy_site_province: "\n#p + Luogo sacro#!"
+ activity_coronation_tradition_province: "\n#p + Luogo tradizionale d’incoronazione#!"
+ activity_coronation_long_tradition_province: "\n#p ++ Luogo tradizionale d’incoronazione#!"
+ activity_coronation_ancient_tradition_province: "\n#p +++ Luogo tradizionale d’incoronazione#!"
+
+ # Location Triggers
+ coronation_location_owned: "Non è nel tuo [realm|lE]"
+ coronation_location_hof_owned: "[THIS.Province.GetName] #bol non#! è un [holy_site|E] nel [realm|E] del [Concept('head_of_faith', 'capo della tua fede')|E]"
+ coronation_location_holy_site_host: "[THIS.Province.GetName] #bol non#! è un [holy_site|E] nel tuo [realm|E] (il [Concept('head_of_faith', 'capo della tua fede')|E] non possiede alcun [holy_site|lE])"
+ coronation_location_neither_capital_nor_holy_site: "[THIS.Province.GetName] #bol non#! è né una [county_capital|E] né un [holy_site|lE]"
+
+ # Phases
+ coronation_phase_preparations: "Preludio"
+ coronation_phase_preparations_desc: ""
+ coronation_phase_coronation: "Cerimonia"
+ coronation_phase_coronation_desc: ""
+ coronation_phase_feast: "Banchetto"
+ coronation_phase_feast_desc: ""
+
+ # Types
+ coronation_type_normal: "Incoronazione"
+coronation_type_normal_desc: "$BULLET_WITH_TAB$Dimostra la tua [legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$Pronuncia un [oath|E] e traccia il corso del tuo regno\n$BULLET_WITH_TAB$Puoi ottenere [opinion_i][opinion|E] presso i [vassals|E] [AddLocalizationIf( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'coronation_type_tributaries' )]\n$BULLET_WITH_TAB$I [vassals|E] possono lasciare @faction_icon![factions|E]\n$BULLET_WITH_TAB$Puoi incoronarti per ulteriore [prestige_i][prestige|E]\n\n#weak $coronation_type_normal_flavor$#!"
+ coronation_type_normal_flavor: "Una cerimonia solenne mostrerà la legittimità del tuo regno e la dignità del dominio sarà il tuo manto regale."
+coronation_type_tributaries: "e [tributaries|E]"
+ coronation_type_anointment: "Unzione"
+ coronation_type_anointment_desc: "$BULLET_WITH_TAB$Mostra senza dubbi la tua [legitimacy|E] [legitimacy_i]\n$BULLET_WITH_TAB$Ottieni [piety|E] [piety_i], [fervor|E] @fervor_icon! e il favore dei [vassals|E] inclini allo [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon]\n$BULLET_WITH_TAB$Pronuncia un [oath|E] e indica la rotta del tuo regno\n$BULLET_WITH_TAB$Guadagna [opinion|E] [opinion_i] presso i [vassals|lE]\n$BULLET_WITH_TAB$Guadagna [opinion|E] [opinion_i] presso altri [rulers|lE]\n$BULLET_WITH_TAB$I [vassals|E] possono abbandonare le [factions|E] @faction_icon!\n$BULLET_WITH_TAB$@alert_icon! #alert_trial Deve tenersi in un [holy_site|E] della tua [faith|lE]#!\n\n#weak $coronation_type_anointment_flavor$#!"
+ coronation_type_anointment_flavor: "Un vero sovrano è consacrato da un disegno divino e innalzato dal favore celeste. La sola forza terrena non basta."
+
+ # Options
+ anointment_minimum: "[activity_option|E] non disponibile per un’[anointment|lE]"
+ ceremony_size: "Cerimonia"
+ coronation_small_ceremony: "Riti Semplici"
+ coronation_small_ceremony_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] ridotta\n$EFFECT_LIST_BULLET$Gli [rulers|E] stranieri non parteciperanno all’[activity|lE]\n$EFFECT_LIST_BULLET$Se la [coronation_magnificence|E] scende sotto #high 50#! alla conclusione, otterrai [GetModifier('ach_coronation_low_ceremony_modifier').GetNameWithTooltip] per #high 10 anni#!\n\n#weak Non sono forse già [Select_CString( ROOT.Char.IsFemale, 'la sovrana', 'il sovrano' )]? Perché radunare l’intero dominio per una mera formalità…?#!"
+ coronation_medium_ceremony: "Gala di Lunga Tradizione"
+coronation_medium_ceremony_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] aumentata\n$EFFECT_LIST_BULLET$I [activity_guests|E] saranno un po’ più propensi a partecipare\n\n#weak I sacri giuramenti di governo devono essere accompagnati da un contesto regale e da un vasto, riverente consesso.#!"
+ coronation_large_ceremony: "Gloria e Splendore"
+coronation_large_ceremony_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] notevolmente aumentata\n$EFFECT_LIST_BULLET$I [activity_guests|E] saranno molto più propensi a partecipare\n\n#weak Tra reliquie consacrate e gemme scintillanti, avvolti da soavi musiche, vi saranno tutta la mia stirpe, i miei vassalli e illustri invitati da terre lontane.#!"
+ ceremony_feast_type: "Festeggiamenti"
+ ceremony_feast_type_austere: "Osservanza austera"
+ceremony_feast_type_austere_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] ridotta\n$EFFECT_LIST_BULLET$Se la [coronation_magnificence|E] è inferiore a #high 50#! alla conclusione, otterrai [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'mandala_coronation_low_feast', 'generic_coronation_low_feast' )] per #high 10 anni#!\n\n#weak L’invito a questa storica occasione non è forse piacere sufficiente…?#!"
+generic_coronation_low_feast: "[GetModifier('ach_coronation_low_feast_modifier').GetNameWithTooltip]"
+mandala_coronation_low_feast: "[GetModifier('mandala_coronation_low_feast_modifier').GetNameWithTooltip]"
+ ceremony_feast_type_regular: "Gaudio Appropriato"
+ceremony_feast_type_regular_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] aumentata\n\n#weak Non si baderà a spese per la grande adunanza della nobiltà e per le ottime vivande del banchetto dopo la cerimonia.#!"
+ ceremony_feast_type_lavish: "Banchetti Sfarzosi"
+ceremony_feast_type_lavish_desc: "$EFFECT_LIST_BULLET$[coronation_magnificence|E] notevolmente aumentata\n$EFFECT_LIST_BULLET$Rischio ridotto di eventi negativi\n\n#weak Ti attendono portate senza fine di prelibatezze dal profumo sontuoso; delizie magnifiche a sostegno della mensa del monarca.#!"
+
+ ach_coronation_low_ceremony_modifier: "Incoronazione modesta"
+ ach_coronation_low_ceremony_modifier_desc: "Il popolo a malapena riconosce questo sovrano come suo legittimo signore, e la nobiltà ricorda con poco entusiasmo cerimonie tanto esigue."
+ ach_coronation_low_feast_modifier: "Nobiltà delusa"
+ ach_coronation_low_feast_modifier_desc: "I festeggiamenti modesti che hanno accompagnato questa incoronazione hanno lasciato gli astanti insoddisfatti e restii a mostrare deferenza."
+mandala_coronation_low_feast_modifier: "Sudditi disprezzati"
+mandala_coronation_low_feast_modifier_desc: "$ach_coronation_low_feast_modifier_desc$"
+
+ # Special Guests
+ coronation_hof_guest: "Capo della Fede"
+ coronation_hof_guest_desc: "$coronation_hof_guest_desc_for_host$"
+ coronation_hof_guest_for_host: "Capo della Fede"
+ coronation_hof_guest_desc_for_host: "Perché un’[anointment|E] sia considerata [Concept('legitimate', 'legittima')|E], il [head_of_faith|E] deve essere un [activity_guest|lE].\n\nOttieni il favore del capo della fede con l’[interaction|E] [anointment_request|E]."
+
+ # Doctrines related to Coronations
+ doctrine_coronation_name: "Tradizione d’incoronazione"
+ doctrine_no_anointment_name: "Senza Unzione"
+ doctrine_no_anointment_desc: "In questa fede nessun olio sacro tocca la fronte dei governanti: il loro è un cammino verso il potere privo di unzioni e riti divini."
+ doctrine_anointment_permitted_name: "Unzione Permessa"
+ doctrine_anointment_permitted_desc: "Neppure gli imperatori si inchinano a un solo rituale; benché il capo della fede possa presiedere l’occasione, la scelta dell’incoronazione risiede sul trono stesso."
+ doctrine_imperial_anointment_name: "Unzione Imperiale"
+ doctrine_imperial_anointment_desc: "Per regnare come imperatore al di là di ogni dubbio, occorre prostrarsi: solo il capo della fede può conferire l’autorità ultima e incrollabile."
+ doctrine_parameter_no_anointment: "I [characters|E] non hanno accesso all’[activity_option|E] [coronation_anointment|lE]"
+ doctrine_parameter_theocratic_coronation: "I [characters|E] hanno accesso all’[activity_option|E] [coronation_anointment|lE]"
+ doctrine_parameter_imperial_anointment: "I [characters|E] di [title_tier|E] [empire|E] o superiore devono usare l’[activity_option|E] [coronation_anointment|E] per ricevere la [law|E] [GetLaw('crowned_emperor').GetName]"
+
+ # Costs
+ CORONATION_BASE_COST: "Costo base della [GetActivityType( 'activity_coronation' ).GetName|l]"
+
+ # Guest Join Chance Values
+ coronation_small_ceremony_value: "$coronation_small_ceremony$: $VALUE|=+0$"
+ coronation_medium_ceremony_value: "$coronation_medium_ceremony$: $VALUE|=+0$"
+ coronation_large_ceremony_value: "$coronation_large_ceremony$: $VALUE|=+0$"
+
+ coronation_special_vassal_value: "[coronation|E] [coronation_i] del [liege|lE]: $VALUE|=+0$"
+ coronation_pope_not_anointment: "Il [head_of_faith|El] parteciperà solo a una [coronation|E] di [coronation_anointment|lE]: $VALUE|=+0$"
+ coronation_liege_value: "Incoronazione di un [vassal|lE]: $VALUE|=+0$"
+ coronation_suzerain_value: "Incoronazione di un [tributary|lE]: $VALUE|=+0$"
+ coronation_tributary_value: "Incoronazione di un [suzerain|lE]: $VALUE|=+0$"
+ coronation_hof_supported_anointment: "Il [head_of_faith|E] sostiene l’[anointment|lE]: $VALUE|=+0$"
+
+ # Laws for Coronation
+ crowned_laws: "Leggi d’incoronazione"
+ uncrowned: "Non Incoronato"
+ crowned_king: "Sovrano Incoronato"
+ crowned_emperor: "Sovrano Unto"
+ can_only_be_passed_through_coronation: "Si può ottenere solo celebrando una [GetActivityType( 'activity_coronation' ).GetName|l]"
+ can_only_be_lost_through_losing_titles: "Già Incoronato"
+ already_better_coronation: "Già Unto"
+ already_coronated_trigger: "Già Incoronato"
+ coronation_no_crown_trigger: "Serve un [artifact|E] di tipo Corona"
+ coronation_no_regalia_trigger: "Serve un [artifact|E] di tipo Vesti Regali"
+ coronation_no_crown_or_regalia_trigger: "Serve un [artifact|E] di tipo Corona o di Vesti Regali"
+
+ ## Intents
+ # Host Intents
+ coronation_impress_attendees: "Impressionare gli Astanti"
+ coronation_impress_attendees_desc: "Sarai l’immagine stessa del sovrano, guadagnando [legitimacy|lE], [cultural_acceptance|E] e [coronation_magnificence|E] [coronation_i].\n#EMP #low Questo [intent|E] piace ai [vassals|E] di tipo [GetVassalStance( 'courtly' ).GetName|l] [GetVassalStance( 'courtly' ).GetTextIcon] e [GetVassalStance( 'minority' ).GetName|l] [GetVassalStance( 'minority' ).GetTextIcon].#!#!"
+ coronation_embrace_supporters: "Accogliere i Sostenitori"
+ coronation_embrace_supporters_desc: "I lealisti fonderanno il tuo governo, aiutandoti a ottenere [prestige|lE], stringere [relations|E] e arricchire i vostri [realms|lE].\n#EMP #low Questo [intent|E] piace ai [coronation_supporters|lE], in particolare ai [vassals|E] di tipo [GetVassalStance( 'glory_hound' ).GetName|l] [GetVassalStance( 'glory_hound' ).GetTextIcon] e [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon].#!#!"
+ coronation_weaken_detractors: "Indebolire i Detrattori"
+ coronation_weaken_detractors_desc: "Con la tua incoronazione inizia il declino dei [claimants|E] e la rottura di [factions|E] e [confederations|lE].\n#EMP #low Questo [intent|E] danneggia i [coronation_detractors|E] e piace ai [vassals|E] non [Concept('coronation_detractor', 'detrattori')|E] di tipo [GetVassalStance( 'belligerent' ).GetName|l] [GetVassalStance( 'belligerent' ).GetTextIcon].#!#!"
+ coronation_exalt_crown: "Esaltare la Corona"
+ coronation_exalt_crown_desc: "La venerazione per il tuo mandato infonde benefici duraturi ai luoghi, ai [artifacts|E] ai [oaths|E] dell’[coronation|lE], come la [dynasty_prestige|lE|U].\n#EMP #low Questo [intent|E] piace ai [vassals|E] di tipo [GetVassalStance( 'parochial' ).GetName|l] [GetVassalStance( 'parochial' ).GetTextIcon].#!#!"
+ # Guest Intents
+ coronation_bear_witness: "Rendere Testimonianza"
+ coronation_bear_witness_desc: "Partecipando a questa occasione storica, potresti ottenere [piety|lE], [legitimacy|E] e [cultural_acceptance|lE]."
+ coronation_seize_advantages: "Cogliere i Vantaggi"
+ coronation_seize_advantages_desc: "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_administrative' ), 'seize_advantages_admin', 'seize_advantages_non_admin' )]"
+ seize_advantages_admin: "Tiene d’occhio le opportunità per ottenere [gold|lE], [influence|E] o [claims|lE]."
+ seize_advantages_non_admin: "Tieni d’occhio le opportunità per ottenere [gold|lE], [prestige|E] o [claims|lE]."
+ coronation_offer_support: "Offrire Sostegno"
+ coronation_offer_support_desc: "Sostenendo senza riserve la corona, spera di guadagnare [opinion|lE], una [relation|E] o un’[alliance|E] con chi la indossa."
+ coronation_advocate_domain: "Promuovere il Dominio"
+ coronation_advocate_domain_desc: "Fa pressione sul sovrano per politiche che favoriscano [development|lE], [control|E] e [county_opinion|E] nel suo sotto-[realm|lE]."
+ coronation_profess_rights: "Rivendicare Diritti"
+ coronation_profess_rights_desc: "Si presenta con ferma determinazione, esigendo dal suo signore un [hook|E] di favore o un miglioramento del suo [vassal_contract|lE]."
+ coronation_disrupt_loyalists: "Scompaginare i Lealisti"
+ coronation_disrupt_loyalists_desc: "Mira a ridurre la [coronation_magnificence|E] dell’incoronazione [coronation_i], ad aizzare le [factions|E] e il loro [discontent|lE], e a creare problemi all’[activity_host|E] e ad i suoi [coronation_supporters|lE]."
+
+ ## Widget
+ # Right-hand Side
+SUPPORTER_WINDOW_OTHER_LABEL: "Altri sostenitori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
+SUPPORTER_WINDOW_OTHER_LABEL_HOVER: "#T Sostenitori#!\n$game_concept_coronation_supporter_desc$\n\n"
+ SUPPORTER_WINDOW_LABEL: "Grandi Sostenitori"
+ SUPPORTER_WINDOW_LABEL_HOVER: "#T $SUPPORTER_WINDOW_LABEL$#!\nSono i [coronation_supporters|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_supporter_desc$"
+DETRACTOR_WINDOW_OTHER_LABEL: "Altri detrattori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
+DETRACTOR_WINDOW_OTHER_LABEL_HOVER: "#T Detrattori#!\n$game_concept_coronation_detractor_desc$"
+ DETRACTOR_WINDOW_LABEL: "Grandi detrattori"
+ DETRACTOR_WINDOW_LABEL_HOVER: "#T $DETRACTOR_WINDOW_LABEL$#!\nSono i [coronation_detractors|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_detractor_desc$"
+ OPINION_OF_HOST: "Opinione di [host|lE]: [Character.GetOpinionOf( GetPlayer )|+=0]"
+ PERSONAL_INTERACTIONS_CORONATION_BUTTON_TOOLTIP: "#T Mostra le interazioni di [coronation|lE]#!"
+ coronation_interaction_filter_tag_desc: "#S Interazioni d’incoronazione#!"
+ CORONATION_ACTIVITY_INTENT_TOOLTIP: "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]"
+ CORONATION_ACTIVITY_INTENT_NAME: "#UND [ActivityIntent.GetName]#!"
+ 
+ # Special Type Progression
+ activity_coronation_special_type_title: "#UND Magnificenza#!"
+ activity_coronation_special_type_desc: "#T Magnificenza#!\n$game_concept_coronation_magnificence_desc$"
+ CORONATION_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "[coronation_magnificence|E]: [ActivityWindow.GetSpecialProgressValue|0^V]"
+ activity_coronation_special_type_bar_segment_tt_0: "#T Incoronazione esigua#!\n$activity_coronation_special_type_bar_segment_tt_0_effects$\n$activity_coronation_special_type_bar_segment_tt_0_flavor$"
+ activity_coronation_special_type_bar_segment_tt_0_effects: ""
+ activity_coronation_special_type_bar_segment_tt_0_flavor: "#weak Un’incoronazione esigua, un tentativo maldestro d’impressionare… pochi credono abbia sostenuto davvero il nuovo monarca.#!"
+ activity_coronation_special_type_bar_segment_tt_1: "#T Incoronazione modesta#!\n$activity_coronation_special_type_bar_segment_tt_1_effects$\n$activity_coronation_special_type_bar_segment_tt_1_flavor$"
+ activity_coronation_special_type_bar_segment_tt_1_effects: "[CoronationRewardProgress('(CFixedPoint)25', 'activity_coronation_special_type_bar_segment_tt_1_progress')]$BULLET$Ricompensa dell’[oath|E] in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +25 %#!\n$BULLET$Aumento di [opinion|E] dei [vassal|E] [guest|E] per intento: #P +5#!\n"
+ activity_coronation_special_type_bar_segment_tt_1_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/25#!\n"
+ activity_coronation_special_type_bar_segment_tt_1_flavor: "#weak Della cerimonia modesta si parla poco al calar del giorno: non offese, ma neppure scaldò i cuori.#!"
+ activity_coronation_special_type_bar_segment_tt_2: "#T Incoronazione rispettabile#!\n$activity_coronation_special_type_bar_segment_tt_2_effects$\n$activity_coronation_special_type_bar_segment_tt_2_flavor$"
+ activity_coronation_special_type_bar_segment_tt_2_effects: "[CoronationRewardProgress('(CFixedPoint)50', 'activity_coronation_special_type_bar_segment_tt_2_progress')]$BULLET$Ricompensa dell’attività in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +50 %#!\n$BULLET$Ricompensa dell’[oath|E] in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +50 %#!\n$BULLET$Aumento di [opinion|E] dei [vassal|E] [guest|E] per intento: #P +10#!\n"
+ activity_coronation_special_type_bar_segment_tt_2_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/50#!\n"
+ activity_coronation_special_type_bar_segment_tt_2_flavor: "#weak L’incoronazione fu raccontata con lodi misurate: degna di un regnante, anche se non ispirò canti.#!"
+ activity_coronation_special_type_bar_segment_tt_3: "#T Grande incoronazione#!\n$activity_coronation_special_type_bar_segment_tt_3_effects$\n$activity_coronation_special_type_bar_segment_tt_3_flavor$"
+ activity_coronation_special_type_bar_segment_tt_3_effects: "[CoronationRewardProgress('(CFixedPoint)75', 'activity_coronation_special_type_bar_segment_tt_3_progress')]$BULLET$Ricompensa dell’attività in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +75 %#!\n$BULLET$Ricompensa dell’[oath|E] in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +75 %#!\n$BULLET$Aumento di [opinion|E] dei [vassal|E] [guest|E] per intento: #P +15#!\n"
+ activity_coronation_special_type_bar_segment_tt_3_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/75#!\n"
+ activity_coronation_special_type_bar_segment_tt_3_flavor: "#weak L’incoronazione rimane nella memoria: cerimoniale e riti si citano spesso nei saloni nobili e alle adunanze di corte.#!"
+ activity_coronation_special_type_bar_segment_tt_4: "#T Incoronazione sfolgorante#!\n$activity_coronation_special_type_bar_segment_tt_4_effects$\n$activity_coronation_special_type_bar_segment_tt_4_flavor$"
+ activity_coronation_special_type_bar_segment_tt_4_effects: "[CoronationRewardProgress('(CFixedPoint)100', 'activity_coronation_special_type_bar_segment_tt_4_progress')]$BULLET$Ricompensa dell’attività in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +150 %#!\n$BULLET$Ricompensa dell’[oath|E] in [legitimacy|E] [legitimacy_i] e [prestige|E] [prestige_i]: #P +100 %#!\n$BULLET$Aumento di [opinion|E] dei [vassal|E] [guest|E] per intento: #P +20#!\n"
+ activity_coronation_special_type_bar_segment_tt_4_progress: "[coronation_magnificence|E]: #V [ActivityWindow.GetSpecialProgressValue|0]/100#!\n"
+ activity_coronation_special_type_bar_segment_tt_4_flavor: "#weak I resoconti della cerimonia corrono ovunque: la sua magnificenza resta in canti, cronache e nel cuore di chi vi assistette.#!"
+
+ # Debug Interaction
+ debug_coronation_add_to_guest_subset_interaction: "Aggiungi invitato al sottogruppo (incoronazione)"
+ debug_interaction_add_to_supporter: "Sostenitore"
+ debug_interaction_add_to_detractor: "Detrattore"
+
+ # Custom Loc
+ GetReconquerOathText: "Consolidare il/la [ROOT.Char.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip]"
+ GetConquestOathText: "Espandere il Dominio"
+ GetUniversityOathText: "Promuovere l’istruzione"
+ GetPeaceOathText: "Assicurare la Pace"
+ GetAllianceOathText: "Stringere Alleanze"
+ GetBuildingOathText: "Dare Forma al Dominio"
+ GetChildrenOathText: "Rafforzare la Casata"
+ GetPurgePretendersOathText: "Eliminare i Pretendenti"
+ GetEndTheStruggleOathText: "Porre Fine alla Contesa"
+ GetGreatestHunterOathText: "[ROOT.Char.Custom('DE_ART_DEF_P_D')] Più Grande [Select_CString(ROOT.Char.IsFemale,'delle Cacciatrici','dei Cacciatori')]"
+ GetHeirPreparationOathText: "Preparare l’Erede"
+ GetInstallClaimantsOathText: "Sostenere i Pretendenti"
+ GetMendTheFractureOathText: "Risanare la Frattura"
+ GetProvideForTheWarriorsOathText: "Provvedere ai [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l||U]"
+ GetProvideForTheFaithfulOathText: "Provvedere ai Fedeli"
+ GetProvideForThePoorOathText: "Provvedere ai Poveri"
+ GetRepentOathText: "Pentimento"
+ GetNoOathText: "Nessun giuramento"
+
+ # Modifiers
+ coronation_tradition_modifier: "Luogo Tradizionale d'Incoronazione"
+ coronation_tradition_modifier_desc: "[coronation_magnificence|E] dell’[coronation|E] aumentata: #p +5#!"
+ coronation_long_tradition_modifier: "Luogo tradizionale di incoronazione"
+ coronation_long_tradition_modifier_desc: "[coronation_magnificence|E] aumentata nell’[coronation|lE]: #p +10#!"
+ coronation_ancient_tradition_modifier: "Luogo tradizionale di incoronazione"
+ coronation_ancient_tradition_modifier_desc: "[coronation_magnificence|E] aumentata nell’[coronation|lE]: #p +15#!"
+ oath_of_reconquest: "Dominio Consolidato"
+ oath_of_reconquest_county: "Giuramento Mantenuto"
+ oath_of_conquest: "Dominio Ampliato"
+ oath_of_conquest_county: "$oath_of_reconquest_county$"
+ oath_university_county: "Circolo di Studiosi"
+ oath_of_peace: "Pace Garantita"
+ oath_of_alliances: "Alleanze Concluse"
+ oath_of_alliances_desc: "Accettazione di [marriage|E] con [Concept('allied', 'alleati')|E]: #P +10#!"
+ oath_of_alliances_marriage_acceptance_value: "[GetModifier('oath_of_alliances').GetNameWithTooltip]: $VALUE|=+0$"
+ oath_of_buildings: "Dominio Strutturato"
+ oath_of_buildings_desc: "Le nuove [holdings|E] del [domain|E] iniziano già con [buildings|E] edificati"
+ oath_of_children: "Casata Rafforzata"
+ oath_of_purge_pretenders: "PretendentiEeliminati"
+ oath_of_purge_pretenders_house: "Pretendenti eliminati: giuramento d’incoronazione"
+ oath_of_purge_pretenders_house_desc: "I membri di questa [house|E] hanno una [candidate_score|E] di #P +50#!. Questo [modifier|E] svanisce con la morte del [house_head|lE]"
+ oath_of_end_the_struggle: "Contesa Conclusa"
+ oath_greatest_hunter: "[ROOT.Char.Custom('DE_ART_DEF_P_D')] Più Grande [Select_CString(ROOT.Char.IsFemale,'delle Cacciatrici','dei Cacciatori')]"
+ oath_greatest_hunter_desc: "Ricompense di [prestige|E] dalla #V caccia#!: #P +10 %#!"
+ oath_heir_preparation: "Erede Preparato"
+oath_heir_preparation_heir: "Un erede preparato"
+ oath_heir_preparation_desc: "Valore di successione della [legitimacy|lE]: #P +20 %#!"
+ oath_install_claimants: "Pretendenti Sostenuti"
+ oath_mend_the_fracture: "Frattura Risanata"
+ oath_mend_the_fracture_county: "Una frattura sanata dal sovrano giurato"
+ oath_provide_for_the_warriors: "Guerrieri Sostenuti"
+ oath_provide_for_the_warriors_province: "Un giuramento guerriero mantenuto"
+ oath_provide_for_the_warriors_province_desc: "Sblocca la costruzione del [building|E] [GetBuilding('oath_warriors_building_04').GetName] in questa [barony|lE]"
+ oath_provide_for_the_faithful: "Fedeli Sostenuti"
+ oath_provide_for_the_faithful_province: "Un giuramento ai fedeli mantenuto"
+ oath_provide_for_the_faithful_province_desc: "Sblocca la costruzione del [building|E] [GetBuilding('oath_faithful_building_04').GetName] in questa [barony|lE]"
+ oath_provide_for_the_poor: "Poveri Sostenuti"
+ oath_provide_for_the_poor_province: "Un giuramento ai poveri mantenuto"
+ oath_provide_for_the_poor_province_desc: "Sblocca la costruzione del [building|E] [GetBuilding('oath_poor_building_04').GetName] in questa [barony|lE]"
+ oath_repent: "Pentimento"
+ oath_peaceful_ai_modifier: "$motto_peaceful$"
+ oath_warlike_ai_modifier: "$game_concept_ai_warlike_personality$"
+
+ ### Events
+ # Oaths
+ coronation_events.0100.t: "Un giuramento per la posterità"
+ # Intro
+coronation_events.0100.desc.opening: "L’assemblea mi osserva. Alcuni con speranza, altri con dubbio, tutti in attesa che parli del mio regno e giuri sul futuro. Sento le domande che non osano pronunciare. Sarò giusto? Sarò equo?"
+ # Mid section
+ coronation_events.0100.desc.previous_ruler_close_family: "Sarò all’altezza di mi[previous_ruler.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMeShort', previous_ruler )]?"
+ coronation_events.0100.desc.previous_ruler_not_family_no_house: "Supererò il mio predecessore, [previous_ruler.GetFirstNameNicknamed]?"
+coronation_events.0100.desc.previous_ruler_not_family: "Supererò il mio predecessore, [previous_ruler.GetFullNameNoTooltip]?"
+ coronation_events.0100.desc.first_ruler: "Come governerò da prim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] di queste terre?"
+ # Outro
+coronation_events.0100.desc.outro: "\n\nNon sono qui, in quanto [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip|l], per rispecchiare le loro aspettative. Sono venuto per scegliere la mia strada e la via da seguire per il [ROOT.Char.GetPrimaryTitle.GetNameNoTier].\n\nQualunque cosa diventi [ROOT.Char.GetPrimaryTitle.GetNameNoTier] — qualunque cosa diventi io — comincia in questo preciso istante."
+ # Options
+ diplomacy_oath_reason: "È un [oath|E] [Concept('diplomacy', 'diplomatico')|E]"
+ martial_oath_reason: "È un [oath|E] [martial|lE]"
+ stewardship_oath_reason: "È un [oath|E] [Concept('stewardship', 'amministrativo')|E]"
+ intrigue_oath_reason: "È un [oath|E] di [intrigue|lE]"
+ learning_oath_reason: "È un [oath|E] di [learning|lE]"
+ prowess_oath_reason: "È un [oath|E] di [prowess|lE]"
+
+ ## Diplomacy
+ coronation_events.0100.alliances: "$GetAllianceOathText$"
+ coronation_events.0100.alliances_flavor: "Giuro di tessere alleanze ovunque."
+ coronation_events.0100.children: "$GetChildrenOathText$"
+ coronation_events.0100.children_flavor: "Giuro di rafforzare la mia casata con nuovi membri della famiglia."
+
+ ## Martial
+ coronation_events.0100.reconquest: "Consolidare il/la [host.GetPrimaryTitle.GetTierAsNameNoTooltip]"
+ coronation_events.0100.reconquest_flavor: "Giuro di concentrare i miei sforzi nel restaurare le terre di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
+ coronation_events.0100.reconquest_opinion: "$BULLET$Ogni [ruler|E] straniero [activity_attending|E] che possieda una [county|E] in [root_scope.GetPrimaryTitle.GetNameNoTier]"
+
+ coronation_events.0100.conquest: "$GetConquestOathText$"
+ coronation_events.0100.conquest_flavor: "Giuro di conquistare nuove terre per il popolo di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
+ coronation_events.0100.conquest_opinion: "$BULLET$Ogni [ruler|E] confinante [activity_attending|E]"
+ warlike_character_opinion: "$BULLET$Ogni [vassal|E] [activity_attending|E] [GetVassalStance( 'glory_hound' ).GetName|l] [GetVassalStance( 'glory_hound' ).GetTextIcon] o [GetVassalStance( 'belligerent' ).GetName|l] [GetVassalStance( 'belligerent' ).GetTextIcon]"
+
+ ## Stewardship
+ coronation_events.0100.peace: "$GetPeaceOathText$"
+ coronation_events.0100.peace_flavor: "Giuro di assicurare la pace nel mio/la mia [ROOT.Char.GetPrimaryTitle.GetTierAsName]."
+ coronation_events.0100.buildings: "$GetBuildingOathText$"
+ coronation_events.0100.buildings_flavor: "Giuro di ricostruire il dominio."
+
+ ## Intrigue
+
+ ## Learning
+ coronation_events.0100.university: "$GetUniversityOathText$"
+ coronation_events.0100.university_flavor: "Giuro di sostenere un circolo di dotti nel dominio."
+
+ # De Jure Right
+ coronation_events.0100.purge_pretenders: "$GetPurgePretendersOathText$"
+ coronation_events.0100.purge_pretenders_flavor: "Giuro di epurare i falsi aspiranti al trono."
+
+ # End the Struggle
+ coronation_events.0100.end_the_struggle: "$GetEndTheStruggleOathText$"
+ coronation_events.0100.end_the_struggle_flavor: "Giuro di porre fine alla contesa."
+
+ # Greatest Hunter
+ coronation_events.0100.greatest_hunter: "$GetGreatestHunterOathText$"
+ coronation_events.0100.greatest_hunter_flavor: "Giuro di diventare [Select_CString(ROOT.Char.IsFemale,'la migliore','il migliore')] fra i cacciatori."
+
+ # Heir Preparation
+ coronation_events.0100.heir_preparation: "$GetHeirPreparationOathText$"
+ coronation_events.0100.heir_preparation_flavor: "Giuro di preparare il mio erede al futuro."
+
+ # Install Claimants
+ coronation_events.0100.install_claimants: "Sostenere i pretendenti"
+ coronation_events.0100.install_claimants_flavor: "Giuro di insediare i legittimi pretendenti sui loro troni e rovesciare gli usurpatori."
+ # Mend the Fracture
+ coronation_events.0100.mend_the_fracture: "Risanare la frattura"
+ coronation_events.0100.mend_the_fracture_flavor: "Giuro di sanare la frattura culturale del dominio e riportare la pace in questa terra."
+ # Provide for the Warriors
+ coronation_events.0100.provide_for_the_warriors: "Provvedere ai [ROOT.Char.Custom('KnightCulturePluralNoTooltip')|l]"
+ coronation_events.0100.provide_for_the_warriors_flavor: "Giuro di mostrare generosità verso i/le [ROOT.Char.Custom('FighterTermPlural')] di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
+ # Provide for the Faithful
+ coronation_events.0100.provide_for_the_faithful: "Provvedere ai fedeli"
+ coronation_events.0100.provide_for_the_faithful_flavor: "Giuro di patrocinare i fedeli [ROOT.Char.GetPrimaryTitle.GetAdherentNamePlural]."
+ # Provide for the Poor
+ coronation_events.0100.provide_for_the_poor: "Provvedere ai poveri"
+ coronation_events.0100.provide_for_the_poor_flavor: "Giuro di praticare carità per i bisognosi di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]."
+ # Repent
+ coronation_events.0100.repent: "$GetRepentOathText$"
+ coronation_events.0100.repent_flavor: "Giuro di pentirmi dei miei peccati."
+
+ coronation_events.0100.opt_out: "Non presterò alcun giuramento."
+
+ coronation_events.0110.t: "Il giuramento"
+ coronation_events.0110.desc.intro: "[activity.GetHost.GetFirstName] si presenta davanti alla moltitudine riunita, ed ora tutti attendono il suo giuramento.\n\n"
+ ## Diplomacy
+ coronation_events.0110.desc.diplomacy_oath_1: "#emp «Nessun dominio prospera da solo. Il potere non risiede soltanto negli eserciti, ma nei vincoli di fiducia, nei patti forgiati con parola e volontà.\n\nDa [activity.GetHost.GetCapitalLocation.GetName] stenderò la mano dell’amicizia per tessere alleanze che proteggano [activity.GetHost.GetPrimaryTitle.GetNameNoTier] per generazioni».#!"
+coronation_events.0110.desc.diplomacy_oath_2: "#emp «La forza di un reame non risiede solo nelle alleanze conseguite, ma anche nella silenziosa promessa di continuità. Assicurando che la casa [activity.GetHost.GetHouse.GetName] perduri, darò al reame fondamenta salde come la roccia.\n\nAttraverso i nostri figli, la stirpe dei [activity.GetHost.GetHouse.GetName] rimarrà ininterrotta, preservando la stabilità e guidando il nostro reame in ogni evenienza».#!"
+ ## Martial
+ coronation_events.0110.desc.martial_oath_1: "#emp «Oggi mi presento non solo per governare, ma per edificare. Non solo per conservare ciò che esiste, ma per creare ciò che può essere. [activity.GetHost.GetPrimaryTitle.GetNameNoTier] non può restare confinat[activity.GetHost.Custom('DE_END_PRO_S_N')] alla memoria o alle mappe: deve crescere.\n\nPer il nostro futuro e per il nostro popolo».#!"
+ coronation_events.0110.desc.martial_oath_2: "#emp «Da troppo tempo terre appartenenti a [activity.GetHost.GetPrimaryTitle.GetNameNoTier] languono sotto mani indegne, di chi ha scambiato il possesso per la legittimità.\n\nÈ finita. Da [activity.GetHost.GetCapitalLocation.GetName] conosceranno la vera signoria. La mia».#!"
+ ## Stewardship
+ coronation_events.0110.desc.stewardship_oath_1: "#emp «Un sovrano deve fare più che difendere i confini: deve rendere degno vivere entro di essi. Preserverò la pace, servirò il dominio e non progetterò guerre, ma crescita.\n\nDa [activity.GetHost.GetCapitalLocation.GetName] guiderò [activity.GetHost.GetPrimaryTitle.GetNameNoTier] verso una nuova età dell’oro».#!"
+ coronation_events.0110.desc.stewardship_oath_2: "#emp «Non tutti i lasciti nascono in guerra. Alcuni si scolpiscono nella pietra, con sudore e intento. Darò nuova forma a [activity.GetHost.GetPrimaryTitle.GetNameNoTier] con opere degne del futuro.\n\nDa [activity.GetHost.GetCapitalLocation.GetName] innalzerò un dominio che non solo perduri, ma fiorisca con cura e visione».#!"
+ ## Intrigue
+
+ ## Learning
+ coronation_events.0110.desc.learning_oath_1: "#emp «Che nessun sovrano scambi l’ignoranza per forza. Un reame guidato dal sapere sopravvive a quelli fondati soltanto sulla paura.\n\nDa [activity.GetHost.GetCapitalLocation.GetName] raccoglierò le menti migliori e, col loro consiglio, darò forma al futuro di [activity.GetHost.GetPrimaryTitle.GetNameNoTier]».#!"
+ ## Purge Pretenders
+ coronation_events.0110.desc.purge_pretenders_oath: "#emp «I falsi aspiranti a [activity.GetHost.GetPrimaryTitle.GetName] si sono moltiplicati come ratti nelle cloache. E, come le pesti, vanno estirpati».#!"
+ ## End the Struggle
+coronation_events.0110.desc.end_the_struggle_oath: "#emp «La [activity.GetHost.MakeScope.Var('end_the_struggle_oath_type_var').Struggle.GetName] ha lentamente dissanguato generazioni di buoni [activity.GetHost.GetCulture.GetCollectiveNoun]. Non più. Metterò fine una volta per tutte a questo insensato sperpero di risorse e inaugurerò una nuova era di prosperità condivisa nella regione, con l’aiuto di [activity.GetHost.GetFaith.HighGodName].»#!"
+ ## Greatest Hunter
+ coronation_events.0110.desc.greatest_hunter_oath: "#emp «La caccia non è solo prova d’abilità, ma celebrazione di vita e natura. Diventerò [Select_CString(activity.GetHost.IsFemale,'la migliore','il migliore')] tra [Select_CString(activity.GetHost.IsFemale, 'le cacciatrici', 'i cacciatori' )], [Select_CString(activity.GetHost.IsFemale, 'signora', 'signore' )] delle selve e [Select_CString(activity.GetHost.IsFemale, 'autentica sovrana', 'autentico sovrano' )] del cuore indomito di [activity.GetHost.GetPrimaryTitle.GetNameNoTier]».#!"
+ ## Heir Preparation
+ coronation_events.0110.desc.heir_preparation_oath: "#emp «Senza un erede formato, i [activity.GetHost.GetDynasty.GetName] siamo destinati all’oblio. Guiderò l’educazione del mio erede, gli instillerò valori e saggezza per elevare la dinastia [activity.GetHost.GetDynasty.GetName] a nuove vette».#!"
+ ## Install Claimants
+ coronation_events.0110.desc.install_claimants_oath: "#emp «Il diritto legittimo al trono non è solo sangue, ma giustizia. Insedierò i pretendenti legittimi, rovescerò gli usurpatori e ristabilirò l’ordine».#!"
+ ## Mend the Fracture
+ coronation_events.0110.desc.mend_the_fracture_oath: "#emp «La frattura culturale del dominio da troppo semina discordia. Unirò i popoli sotto il vessillo dei [activity.GetHost.GetHouse.GetName], preservandone le identità».#!"
+ ## Provide for the Warriors
+ coronation_events.0110.desc.provide_for_the_warriors_oath: "#emp «I guerrieri di [activity.GetHost.GetPrimaryTitle.GetNameNoTier] sono la mia spada e il mio scudo. Mi assicurerò che siano ben equipaggiati e pronti a difendere le nostre terre».#!"
+ ## Provide for the Faithful
+ coronation_events.0110.desc.provide_for_the_faithful_oath: "#emp «I fedeli di [activity.GetHost.GetPrimaryTitle.GetNameNoTier] sono la base del mio dominio. Mi prenderò cura dei loro bisogni terreni affinché possano dedicarsi a [activity.GetHost.GetFaith.HighGodName] e alla salvezza del mi[ROOT.Char.GetPrimaryTitle.GetTierAsName]».#!"
+ ## Provide for the Poor
+ coronation_events.0110.desc.provide_for_the_poor_oath: "#emp «I poveri di [activity.GetHost.GetPrimaryTitle.GetNameNoTier] sono il sale della terra, la luce del mondo. Lavorano in silenzio per il bene di tutti. Mi impegnerò affinché anche i più umili vivano con dignità e speranza».#!"
+ ## Repent
+ coronation_events.0110.desc.repent_oath: "#emp «Può la natura del[activity.GetHost.Custom('DE_PRO_PER_S_3P_N')][activity.GetHost.GetWomanMan] cambiare? Basterà la mia volontà? Posso convincere gli altri [activity.GetHost.GetFaith.GetAdherentNamePlural], posso convincere [activity.GetHost.GetFaith.HighGodName] che il mio pentimento è sincero? Tentarci può parere stoltezza, ma non farlo sarebbe il peccato maggiore».#!"
+
+ ## Other
+ coronation_events.0110.desc.fallback: "#emp «Il mio governo sarà ricordato da chi verrà dopo di noi come l’inizio di un’età dell’oro per [activity.GetHost.GetPrimaryTitle.GetNameNoTier]».#!"
+ coronation_events.0110.desc.outro: ""
+ coronation_events.0110.regular: "Vedremo se [activity.GetHost.GetSheHe] sarà all’altezza delle aspettative…"
+ coronation_events.0110.no_oath: "Che delusione…"
+
+
+ coronation_events.0150.t: "Giuramento infranto: [SCOPE.Custom('GetOathSpecific')|V]"
+ coronation_events.0150.desc: "Sento i sussurri dietro porte chiuse. Leggo la delusione nei loro occhi. E il peso della vergogna mi schiaccia.\n\nTutti sanno che ho fallito. Ho mancato al giuramento che avevo promesso di mantenere, una promessa fatta a tutti i miei sudditi.\n\nCome potrò guardarli in volto, ora? Come sopporterò questo disonore?"
+ coronation_events.0150.desc_honest: "Il potere venne con una promessa. Mi presentai davanti al dominio e pronunciai un giuramento in cui credettero; un giuramento in cui #emp io#! credevo.\n\nOra il trono mi pare più una tomba che un seggio: una gabbia dorata e fredda che si fa beffe di me a ogni respiro. E il peggio è sapere che la colpa è mia."
+ coronation_events.0150.desc_deceitful: "Che mormorino pure. Che mi fissino con orgoglio ferito e delusione vuota. Lo vedo. Sento il loro giudizio come una lama sulla schiena.\n\nVergogna? No, quella è per chi finge di mantenere le promesse.\n\nUn giuramento è sacro solo per gli stolti."
+ coronation_events.0150.a: "Che imbarazzo…"
+ coronation_events.0150.a_honest: "Come vivrò con questa infamia?"
+ coronation_events.0150.a_deceitful: "Le cose stanno così."
+ coronation_events.150.custom_list_tooltip: "Ogni [vassal|lE], [courtier|E] o [guest|lE]"
+
+ coronation_events.0175.t: "Giuramento compiuto: [SCOPE.Custom('GetOathSpecific')|V]"
+ coronation_events.0175.desc: "Ho compiuto l’opera, come promesso. Ho ascoltato le beffe dei miei detrattori, convinti che sarei crollato dopo il giuramento.\n\nMa ho dimostrato il contrario. Le voci dei dubbiosi si sono trasformate, e ora mi tributano l’onore che credevano irraggiungibile per me.\n\nSorge un nuovo giorno…"
+ coronation_events.0175.a: "E il mio [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], più forte che mai, è pronto ad accoglierlo!"
+
+ ## Diplomacy
+ diplomacy_oath_1_tooltip: "Pronuncio un [oath|E] per #V ottenere alleanze#!:\n\t$EFFECT_LIST_BULLET$Occorre avere almeno #V 5#! [alliances|E] con [rulers|E] che:\n\t\t$EFFECT_LIST_BULLET$Abbiano almeno #V 50#! di [opinion|E] su #V di te#!\n\t\t$EFFECT_LIST_BULLET$Una tra queste condizioni:\n\t\t\t$EFFECT_LIST_BULLET$Un [title_tier|E] inferiore\n\t\t\t$EFFECT_LIST_BULLET$Lo stesso [title_tier|lE]\n\t\t\t$EFFECT_LIST_BULLET$Un [title_tier|E] superiore\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [opinion|E] [opinion_i], [cultural_acceptance|E] [cultural_acceptance_i] e [GetModifier('oath_of_alliances').GetNameWithTooltip|l]"
+ diplomacy_oath_2_tooltip: "Pronuncio un [oath|E] per #V rafforzare la casata#!:\n\t$EFFECT_LIST_BULLET$Occorre avere almeno #V 7#! [children|E] [legitimate|E] #weak (al momento [host.MakeScope.ScriptValue('children_oath_value')|V0]/#V 7#!)#!\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 30 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [dynasty_prestige|E] [dynasty_prestige_i] e [GetModifier('oath_of_children').GetNameWithTooltip|l]"
+ ## Martial
+ martial_oath_1_tooltip: "Pronuncio un [oath|E] per #V consolidare [host.GetPrimaryTitle.GetNameNoTierNoTooltip]#!:\n\t$EFFECT_LIST_BULLET$[host.GetPrimaryTitle.GetName] deve [Concept('completely_control', 'controllare interamente')|E] i propri confini [de_jure|E] #low (attualmente [host.MakeScope.ScriptValue('oath_reconquest_value_1')|V0]/[host.MakeScope.ScriptValue('oath_reconquest_value_2')|V0])#!\n$EFFECT_LIST_BULLET$Deve essere completato entro #V 20 anni#!\n$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i] e [GetModifier('oath_of_reconquest').GetNameWithTooltip|l]"
+ oath_reconquest_tooltip: "[Concept('completely_control', 'controllo totale')|E] di [THIS.Var('oath_reconquest_title').Title.GetName] [de_jure|E] #low ([root_scope.MakeScope.ScriptValue('oath_reconquest_value_1')]/[root_scope.MakeScope.ScriptValue('oath_reconquest_value_2')])#!"
+martial_oath_2_tooltip: "Giuro un [oath|E] per #V Espandere il reame#!:\n\t$EFFECT_LIST_BULLET$Il [realm|E] deve avere almeno una dimensione di [host.MakeScope.ScriptValue('oath_conquest_value_1')|V0] #low (Attualmente [host.MakeScope.ScriptValue('oath_conquest_value_2')|V0])#!\n$EFFECT_LIST_BULLET$Deve essere completato entro #V 20 anni#!\n$EFFECT_LIST_BULLET$Scegli tra un beneficio alla [capital|E] e lo spostamento [de_jure|E] dei [titles|E]\n$EFFECT_LIST_BULLET$Ricompense: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E] e [GetModifier('oath_of_conquest').GetNameWithTooltip]"
+ ## Stewardship
+ stewardship_oath_1_tooltip: "Pronuncio un [oath|E] per #V assicurare la pace#!:\n\t$EFFECT_LIST_BULLET$Occorre avere almeno #V 5 anni#! di pace ininterrotta\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 50 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [development|E] [development_i] e [GetModifier('oath_of_peace').GetNameWithTooltip|l]"
+ stewardship_oath_2_tooltip: "Pronuncio un [oath|E] per #V dare forma al dominio#!:\n\t$EFFECT_LIST_BULLET$Occorre costruire o migliorare almeno #V 8#! [buildings|lE]\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 15 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [development|E] [development_i] e [GetModifier('oath_of_buildings').GetNameWithTooltip]"
+ ## Intrigue
+
+ ## Learning
+ learning_oath_1_tooltip: "Pronuncio un [oath|E] per #V promuovere l’illuminazione#!:[SelectLocalization( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('learning_oath_1_university_exists').GetValue, '(CFixedPoint)0' ), 'learning_oath_1_tooltip_need_university', 'learning_oath_1_tooltip_need_development' )]\n\t$EFFECT_LIST_BULLET$Occorre disporre di almeno #V [learning_oath_temp_cost]#! di [gold|E] [gold_i]\n\t$EFFECT_LIST_BULLET$Deve essere soddisfatto #V 1#! di questi requisiti:\n\t\t\t$EFFECT_LIST_BULLET$Avere un [education_trait|E] di quinto livello\n\t\t\t$EFFECT_LIST_BULLET$Ogni [councillor|E] possiede #V 20#! o più nella propria abilità d’ufficio\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 50 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i] e [SelectLocalization( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('learning_oath_1_university_exists').GetValue, '(CFixedPoint)0' ), 'learning_oath_1_tooltip_university', 'learning_oath_1_tooltip_no_university' )]"
+ learning_oath_1_tooltip_university: "[GetModifier('oath_university_county').GetNameWithTooltip|l]"
+ learning_oath_1_tooltip_no_university: "una [GetBuilding('generic_university').GetName|l]"
+ learning_oath_1_tooltip_need_university: "\n\t$EFFECT_LIST_BULLET$Devi avere una [county|E] con una [GetBuilding('generic_university').GetName|l] e un [development|E] [development_i] di #V 30#! o superiore"
+ learning_oath_1_tooltip_need_development: "\n\t$EFFECT_LIST_BULLET$Devi avere una [county|E] con un [development|E] [development_i] di #V 30#! o superiore"
+
+ #Purge Pretenders
+ purge_pretenders_oath_tooltip: "Pronuncio un [oath|E] per #V epurare gli aspiranti#!:\n\t$EFFECT_LIST_BULLET$Non deve esistere alcun [claimant|E] al tuo [primary_title|E] tranne i tuoi [children|lE]\n\t$EFFECT_LIST_BULLET$Deve essere completato entro #V 50 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i] e [GetModifier('oath_of_purge_pretenders').GetNameWithTooltip].\t$EFFECT_LIST_BULLET$[SelectLocalization(GetPlayer.GetGovernment.IsType('nomad_government'), 'purge_pretenders_oath_nomad', '')][SelectLocalization(GetPlayer.GetGovernment.IsType('administrative_government'), 'purge_pretenders_oath_admin', '')|l][SelectLocalization(Not(Or(GetPlayer.GetGovernment.IsType('nomad_government'), GetPlayer.GetGovernment.IsType('administrative_government'))), 'purge_pretenders_oath_default', '')]"
+ purge_pretenders_oath_admin: "La tua [house|E] ottiene il [modifier|E] [GetModifier('oath_of_purge_pretenders_house').GetNameWithTooltip]"
+ purge_pretenders_oath_nomad: "Il tuo punteggio di [obedience|E] per [kurultai|E] e [children|lE]: #P +100#!"
+ purge_pretenders_oath_default: "Ottieni [GetLaw('single_heir_succession_law').GetName]. Al momento della morte, la [law|E] tornerà a quella attuale."
+
+ # End the Struggle
+end_the_struggle_oath_tooltip: "Giuro un [oath|E] per #V Porre fine alla Contesa#!:\n\t$EFFECT_LIST_BULLET$È necessario prendere una qualsiasi delle [struggle|E] [decisions|E] conclusive\n\t$EFFECT_LIST_BULLET$Deve essere completato entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E] e [GetModifier('oath_of_end_the_struggle').GetNameWithTooltip]."
+
+ # Greatest Hunter
+ greatest_hunter_oath_tooltip: "Pronuncio un [oath|E] per #V diventare [Select_CString(personaggio.IsFemale,'la migliore','il migliore')] tra [Select_CString(ROOT.Char.IsFemale, 'le cacciatrici', 'i cacciatori' )]#!:\n\t$EFFECT_LIST_BULLET$Occorre tenere e completare con successo almeno #V 3#! [Concept( 'activity', 'cacce' )|E] #V leggendarie#! oppure #V 10#! [Concept( 'activity', 'cacce' )|E] normali. Aumenta la probabilità di #V avvistamenti leggendari#! mentre questo [oath|E] è attivo.\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [modifiers|E] unici per un [artifact|E] di tipo #V arco#! e [GetModifier('oath_greatest_hunter').GetNameWithTooltip]."
+ # Heir Preparation
+ heir_preparation_oath_tooltip: "Pronuncio un [oath|E] per #V preparare l’erede#!:\n\t$EFFECT_LIST_BULLET$Occorre avere un [primary_heir|E] con #V +10#! in tutte le [skills|E] e almeno due [skills|E] a #V +14#! o più.\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 40 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i] e [GetModifier('oath_heir_preparation').GetNameWithTooltip]. Il [primary_heir|E] otterrà [GetModifier('oath_heir_preparation_heir').GetNameWithTooltip]"
+
+ # Install Claimants
+ install_claimants_oath_tooltip: "Pronuncio un [oath|E] per #V insediare i pretendenti#!:\n\t$EFFECT_LIST_BULLET$Occorre vincere almeno #V 3#! [wars|E] di [claimant|lE]\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_install_claimants').GetNameWithTooltip] e un [perpetual_hook|E] su ogni [claimant|E] insediato, oltre a un [weak_hook|E] sui loro [primary_heirs|lE]."
+ # Mend the Fracture
+ mend_the_fracture_oath_tooltip: "Pronuncio un [oath|E] per #V risanare la frattura#!:\n\t$EFFECT_LIST_BULLET$Occorre avere almeno #V 70#! di [cultural_acceptance|E] con una [culture|E] che occupi oltre il #V 40 %#! del mio [realm|lE].\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_mend_the_fracture').GetNameWithTooltip] e entrambe le culture ottengono la [culture_tradition|E] [GetCultureTradition('oath_mend_the_fracture_tradition').GetName]."
+ # Provide for the Warriors
+ provide_for_the_warriors_oath_tooltip: "Faccio un [oath|E] per #V provvedere ai guerrieri#!:\n\t$EFFECT_LIST_BULLET$Bisogna costruire almeno #V 3#! edifici di [GetBuilding('oath_warriors_building_02').GetName|l]. Sblocca l’accesso a questa linea di [buildings|E] finché il [oath|E] rimane attivo.\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 10 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_provide_for_the_warriors').GetNameWithTooltip] e sblocca il miglioramento finale: [GetBuilding('oath_warriors_building_04').GetName]."
+ # Provide for the Faithful
+ provide_for_the_faithful_oath_tooltip: "Faccio un [oath|E] per #V provvedere ai fedeli#!:\n\t$EFFECT_LIST_BULLET$Bisogna costruire almeno #V 3#! edifici di [GetBuilding('oath_faithful_building_02').GetName|l]. Sblocca l’accesso a questa linea di [buildings|E] finché il [oath|E] rimane attivo.\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 10 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_provide_for_the_faithful').GetNameWithTooltip] e sblocca il miglioramento finale: [GetBuilding('oath_faithful_building_04').GetName]."
+ # Provide for the Poor
+ provide_for_the_poor_oath_tooltip: "Faccio un [oath|E] per #V provvedere ai poveri#!:\n\t$EFFECT_LIST_BULLET$Bisogna costruire almeno #V 3#! edifici di [GetBuilding('oath_poor_building_02').GetName|l]. Sblocca l’accesso a questa linea di [buildings|E] finché il [oath|E] rimane attivo.\n\t$EFFECT_LIST_BULLET$Deve essere compiuto entro #V 10 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy|E] [legitimacy_i], [prestige|E] [prestige_i], [GetModifier('oath_provide_for_the_poor').GetNameWithTooltip] e sblocca il miglioramento finale: [GetBuilding('oath_poor_building_04').GetName]."
+ # Repent
+repent_oath_tooltip: "Giuro un [oath|E] di #V Pentimento#!:\n\t$EFFECT_LIST_BULLET$Devi completare almeno #V 4#! [pilgrimages|E] e avere [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L]\n\t$EFFECT_LIST_BULLET$Deve essere completato entro #V 20 anni#!\n\t$EFFECT_LIST_BULLET$Ricompense: [legitimacy_i][legitimacy|E], [prestige_i][prestige|E], [GetModifier('oath_repent').GetNameWithTooltip], e rimuove qualsiasi [traits|E] [sinful|E] sostituendoli con [traits|E] [virtuous|E]."
+
+ coronation_events.0200.t: "Il preludio"
+ coronation_events.0200.desc.host: "Gli invitati sono giunti — da ogni contrada, per lealtà o per mera curiosità. La folla s’infittisce: volti tesi d’aspettativa, sguardi che calcolano, e qua e là un barlume di calore.\n\nAlzo appena la voce, quel tanto che basta a farmi sentire dagli astanti, e do loro il benvenuto alla mia incoronazione."
+ coronation_events.0200.desc.guest: "Il raduno è vasto quanto immaginavo. Volti familiari e forestieri si mescolano; mi raggiungono saluti tanto cordiali da restare mera cortesia. Quando l’ospite prende parola, la sala sprofonda nel silenzio, d’istinto.\n\n«Amici miei, vassalli miei, famiglia mia; la vostra presenza mi onora più di qualunque corona. Mangiate, bevete, conversate liberamente fino all’inizio della cerimonia… e sappiate che vi vedo tutti, e non dimenticherò chi oggi era qui al mio fianco».\n\nParole che suonano come promessa gentile — o come un monito velato: dipende da come le si ascolta."
+ coronation_events.0200.a: "Benvenuti a tutti!"
+ coronation_events.0200.b: "Vediamo un po’, chi altri è qui?"
+
+ coronation_events.0205.t: "La cerimonia"
+ coronation_events.0205.meager: "I preparativi sono terminati. La scarna assemblea cerimoniale attende"
+ coronation_events.0205.great: "I preparativi sono terminati. La grande assemblea cerimoniale attende"
+ coronation_events.0205.hagia_sophia: "Santa Sofia, il luogo della sapienza divina di Dio."
+ coronation_events.0205.st_peters: "la basilica di San Pietro, dimora del principale vicario di Cristo."
+ coronation_events.0205.saint_denis: "la basilica di Saint-Denis, tomba del patrono del popolo francese."
+ coronation_events.0205.westminster: "la graziosa abbazia di Westminster."
+ coronation_events.0205.reims: "Nostra Signora di Reims, la cattedrale dei re."
+coronation_events.0205.aachen: "lo storico palazzo di Aquisgrana di Carlo Magno."
+ coronation_events.0205.wawel: "la cattedrale di Wawel, splendida e duratura."
+coronation_events.0205.east_admin_location: "la serena quiete del complesso palaziale di [location.GetTitle.GetNameNoTierPossessive]."
+ coronation_events.0205.temple: "nel/la grande [host.GetFaith.HouseOfWorship] di [location.GetTitle.GetNameNoTier]."
+coronation_events.0205.east_admin_description: "\n\nAl battere di grandi tamburi,"
+ coronation_events.0205.silence: "\n\nIn un freddo silenzio,"
+ coronation_events.0205.cheers: "\n\nTra applausi ed esultanza,"
+coronation_events.0205.desc.host_east_asian: "il mio corteo [ROOT.Char.Custom('GetTitleTierAdjective')] attraversa schiera dopo schiera dei miei [host.Custom('GetFighterTermPlural')] e dei funzionari. Dietro di noi lasciamo il santuario ancestrale della mia famiglia, dove si sono svolti i primi riti del giorno."
+coronation_events.0205.desc.guest_east_asian: "il corteo [ROOT.Char.Custom('GetTitleTierAdjective')] di [host.GetTitledFirstNamePossessive] attraversa schiera dopo schiera dei suoi [host.Custom('GetFighterTermPlural')] e dei funzionari. Dietro di noi lasciamo il santuario ancestrale di [host.Custom('IT_NAM_COL2')][host.GetTitleAsNameNoTooltip], dove si sono svolti i primi riti del giorno."
+ coronation_events.0205.desc.host: "la mia processione fende la calca che gremisce la [ROOT.Char.Custom('SettlementCity')|l]; i miei migliori [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] cavalcano al mio fianco, mentre la mia famiglia, dal cuore [ROOT.Char.Custom('GetTitleTierAdjective')], segue alle mie spalle."
+ coronation_events.0205.desc.guest: "la processione [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l] fende la folla, e il mio seguito mi conduce al nostro posto d’onore."
+coronation_events.0205.desc.low_magnificence_east_asian: "\n\nUn cattivo presagio ha gravato sui rituali. Come potrebbero gli antenati dei [host.GetDynastyHouseName] non vergognarsi di questa ascesa incerta...?"
+coronation_events.0205.desc.medium_magnificence_east_asian: "\n\nNell’aria aleggia una speranza. La lunga venerazione rituale del mattino ha compiuto il suo fausto ufficio e ha legato questa cerimonia all’antico passato."
+coronation_events.0205.desc.high_magnificence_east_asian: "\n\nUna meravigliosa reverenza ha elevato i riti del mattino, portata in alto da profumati incensi e nata dall’orgoglio certo degli antenati dei [host.GetDynastyHouseName]."
+ coronation_events.0205.desc.low_magnificence: "Alcuni [host.Custom('GetLocalCommonerTermPlural')] ci osservano perplessi, altri mormorano con disprezzo. Qualcuno grida #EMP «[Select_CString( host.IsFemale, 'La falsa', 'Il falso' )] [host.GetTitleAsName|l]!»#! e la folla ribolle, a stento trattenuta dai pochi [host.Custom('GetFighterTermPlural')] schierati lungo il cammino."
+ coronation_events.0205.desc.medium_magnificence: "[host.Custom('GetLocalCommonerTermPlural')|U] si accalcano per intravedere chi presto sarà [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip]. Sulle spalle dei genitori, tra la folla, i bambini di cultura [location.GetCulture.GetName] sorridono."
+ coronation_events.0205.desc.high_magnificence: "Risuonano i corni! Gli stendardi avanzano, con i vividi colori dello stemma della casata imperiale [host.GetPrimaryTitle.GetAdjective]! I [host.Custom('GetLocalCommonerTermPlural')] inneggiano [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip], e le donne piangono estasiate davanti a questo corteo glorioso."
+
+coronation_events.0205.a_low_magnificence_east_admin: "Né il favore dei vivi, né quello dei morti..."
+ coronation_events.0205.a_low_magnificence: "[ROOT.Char.GetFaith.HighGodName], guidami tra questa plebaglia…"
+ coronation_events.0205.a_high_magnificence: "E la mia incoronazione #EMP è appena cominciata!#!"
+ coronation_events.0205.a: "Si avvicina il più grande di tutti i momenti."
+ coronation_events.0205.b: "Quest[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip] deve sembrare uno spettacolo atroce…"
+ coronation_events.0205.b_flavor_infirm: "… con la poca vitalità mostrata cavalcando verso la sua incoronazione."
+ coronation_events.0205.b_improved: "Ma, per fortuna, pochi lo noteranno in tanto splendore!"
+coronation_events.0205.c_low_magnificence_east_admin: "Chi ha occhi vivi lo sa meglio!"
+ coronation_events.0205.c_low_magnificence: "Guardatemi bene, zotici! Sono sempre più vicino a diventare un[activity.GetHost.Custom('DE_PRO_POS_P_2P')] [activity.GetHost.GetTitleAsNameNoTooltip]."
+ coronation_events.0205.c: "Sono la viva immagine di un[activity.GetHost.Custom('DE_PRO_POS_P_2P')] grande [activity.GetHost.GetTitleAsNameNoTooltip]!"
+ coronation_events.0205.d: "Ora vedremo come si comporterà quest[activity.GetHost.Custom('DE_END_PRO_S_N')] [activity.GetHost.GetTitleAsNameNoTooltip]."
+coronation_events.0205.e_east_admin: "Lo scintillio della moneta ristabilirà gli auspici del giorno!"
+coronation_events.0205.e: "Lo scintillio della moneta restaurerà lo sfarzo di oggi."
+ coronation_events.0205.e.tt: "Mi viene portato un esemplare di [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')], avvolto in un drappo d’oro; scorre [ROOT.Char.CustomFixedRandom('GetExpensiveDrink_Singular')] da ogni fonte; i musicisti, seduti sotto il padiglione, cantano la tua gloria."
+ coronation_events.0205.e.toast: "[host.GetShortUIName] non [Select_CString( host.IsLocalPlayer, 'hai badato', 'ha badato' )] a spese per la cerimonia"
+coronation_events.0205.f_east_admin: "Devo #EMP assolutamente#! rivolgermi a questa assemblea."
+ coronation_events.0205.f: "Un popolo che sa chi è il suo [ROOT.Char.GetTitleAsNameNoTooltip]."
+ coronation_events.0205.f.tt: "Pronunci un discorso che accende il popolo."
+ coronation_events.0205.f.success: "Il pubblico è ammirato"
+ coronation_events.0205.f.failure: "I tuoi sforzi sono vani"
+coronation_events.0205.f.toast: "[host.GetShortUIName] ha tenuto un discorso appassionato"
+ 
+ coronation_events.0210.t: "Il banchetto"
+coronation_events.0210.desc.host: "La cerimonia è compiuta: ciascun onore [ROOT.Char.Custom('GetTitleTierAdjective')] mi è stato conferito. Mi rialzo, non per promettere e comandare, bensì per offrire sontuosi piaceri.\n\n«Che queste tavole si riempiano. Che le coppe si alzino, e che questa sala ricordi la gioia oltre al dovere.»\n\nL’assemblea, stremata dalla lunga veglia sui complessi riti, mormora approvazione. Per ora, almeno, tutti hanno qualcosa davanti a sé che non sono io."
+coronation_events.0210.desc.guest: "Le formalità sono terminate e con esse la quiete che teneva la compagnia composta. Qualche mormorio s’alza quando l’anfitrione si leva di nuovo, stavolta a segnare la fine della cerimonia e l’inizio di qualcosa di più disteso.\n\n[host.Custom('IT_NAM_COL3')][host.GetTitleAsName] alza la voce quel tanto che basta: «Amici miei, i riti sono compiuti. Che le tavole si riempiano, che le coppe si alzino e che questa sala ricordi la gioia oltre al dovere».\n\nLe parole sono ben accolte e, con il passare dei momenti, la riunione [ROOT.Char.Custom('GetTitleTierAdjective')] diventa sempre più una vivace celebrazione."
+coronation_events.0210.a: "Finalmente, un po’ di cibo!"
+ coronation_events.0210.b: "Finalmente, la cerimonia è finita."
+
+ coronation_events.0300.t: "Un posto d’onore"
+ coronation_events.0300.desc: "Prima che l’incoronazione abbia inizio, devo decidere chi presiederà i riti sacri. Se voglio guadagnarmi il favore dei [ROOT.Char.GetFaith.AltPriestTermPlural], sarebbe saggio lasciare che uno di loro sovrintenda alla cerimonia, conferendole la santità e la benedizione che solo loro possono dare.\n\nMa una parte di me si chiede: non sarebbe forse una storia ancor più grande se prendessi la corona con le mie mani, proclamando il mio diritto a governare senza alcuna intercessione?"
+ coronation_events.0300.a: "Solo [chaplain.GetFirstNameNoTooltip] può farlo."
+ coronation_events_0300_a_tooltip: "[chaplain.GetFirstName] sarà l'officiante della cerimonia"
+ coronation_events.0300.b: "E forse [alternative_1.GetFirstNameNoTooltip]?"
+ coronation_events_0300_b_tooltip: "[alternative_1.GetFirstName] sarà l'officiante della cerimonia"
+ coronation_events.0300.c: "Ripongo fiducia in [alternative_2.GetFirstNameNoTooltip]."
+ coronation_events_0300_c_tooltip: "[alternative_2GetFirstName] sarà l'officiante della cerimonia"
+ coronation_events.0300.d: "È un onore che può spettare solo a me."
+ coronation_events_0300_d_tooltip: "#high Tu#! officerai la cerimonia"
+ coronation_events_0300_d_tooltip_effect: "#high Guadagnerai#! [prestige|E] @prestige_icon!, ma perderai [opinion|E] @opinion_icon! del [court_chaplain|E] e dei [vassals|E] di tipo [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] a seconda della [coronation_magnificence|E] della tua [coronation|lE]"
+ coronation_events_0300_d_tooltip_effect_hof: "#high Guadagnerai#! [prestige|E] @prestige_icon!, ma perderai [opinion|E] @opinion_icon! della [Concept('head_of_faith', 'guida della tua fede' )|E] e dei [vassals|E] di tipo [GetVassalStance( 'zealot' ).GetName|l] [GetVassalStance( 'zealot' ).GetTextIcon] a seconda della [coronation_magnificence|E] della tua [coronation|lE]"
+
+ coronation_events.0301.t: "Morte dell’officiante"
+ coronation_events.0301.desc: "L'officiante della mia incoronazione, ([dead_officiator.Custom('DE_ART_DEF_P_A')]) mi[dead_officiator.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('dead_officiator'))] [dead_officiator.GetFirstName], [dead_officiator.GetDeathReason]. Il suo posto rimane vuoto e il rituale sacro, incompleto.\n\n[first_candidate.GetFirstName], un[first_candidate.Custom('DE_PRO_POS_P_2P')] [first_candidate.GetFaith.PriestNeuter] fedele al credo [first_candidate.GetFaith.GetAdherentName], avanza di un passo. «[first_candidate.GetFaith.HighGodName] non vacilla per la morte di una sola anima», dice solenne. «Se lo desiderate, io terminerò il rito»."
+ coronation_events.0301.a: "San/Santa [ROOT.Char.Custom('GetCatholicSaint')], guidate la sua anima a [ROOT.Char.GetFaith.PositiveAfterLife]."
+ coronation_events.0301.a.tooltip: "[first_candidate.GetFirstNameNoTooltip] sarà [Select_CString(first_candidate.IsFemale,'la nuova','il nuovo')] officiante della cerimonia"
+ coronation_events.0301.a.c: "Non permetterò che la sua morte interrompa la cerimonia."
+ coronation_events.0301.b: "[second_candidate.Custom('IT_NAM_COL3')|U][second_candidate.GetTitledFirstNameNoTooltip|l] è più vicino a [first_candidate.GetFaith.HighGodName]."
+ coronation_events.0301.b.tooltip: "[second_candidate.GetsecondNameNoTooltip] sarà [Select_CString(second_candidate.IsFemale,'la nuova','il nuovo')] officiante della cerimonia"
+ coronation_events.0301.c: "[dead_officiator.GetSheHe|U] merita il mio massimo rispetto. Annullate la cerimonia."
+ coronation_events.0301.c.tooltip: "#N @warning_icon! La tua [activity|E] di [coronation|E] sarà annullata.#!"
+ coronation_events.0301.c.tooltip_second: "Potrai celebrare un [funeral|E] per [dead_officiator.GetFirstName]."
+ coronation_events.0301.c.tooltip_third: "Potrai celebrare la [coronation|E] immediatamente dopo il suo [funeral|E]."
+ coronation_events.0301.d: "Non lascerò che una morte fermi #EMP la mia#! incoronazione."
+ coronation_events.0301.d.tooltip: "[first_candidate.GetFirstNameNoTooltip] sarà [Select_CString(personaggio.IsFemale,'la nuova','il nuovo')] officiante della cerimonia. La morte [dead_officiator.Custom('IT_NAM_COL2')][dead_officiator.GetTitledFirstNamePossessive] durante la tua incoronazione è ampiamente considerata un pessimo presagio per il tuo regno."
+ coronation_events.0301.e: "[first_candidate.GetFaith.HighGodName] dà e [first_candidate.GetFaith.HighGodName] toglie."
+ coronation_events.0301.e.tooltip: "#N @warning_icon! La tua [activity|E] di [coronation|E] verrà annullata.#!"
+ coronation_events.0301.e.tooltip_second: "Non potrai celebrare un’altra incoronazione per i prossimi 12 mesi."
+
+ coronation_cancelled_dead_officiator_desc: "L'officiante della precedente cerimonia di [coronation|E] è morto nell'arco di un anno."
+ coronation_cancelled_wrong_primary_title_desc: "[primary_title|E] diverso"
+
+ ### Decisions
+ # General Decision stuff
+ busy_in_coronation_tooltip: "Si [Concept('activity_host_short', 'celebra')|E] ancora la [coronation|lE]"
+ coronation_value_still_undecided: "\n\n@alert_icon!#alert_trial L’incoronazione per il [oath|E] non è ancora terminata, quindi il suo valore è da decidere#!"
+ CORONATION_ACTIVITY_UNLOCK: "Sbloccato dall’[activity|E] di [coronation|lE]"
+ oath_decision_confirm: "Ho mantenuto il mio giuramento"
+
+ ## Diplomacy
+ # Alliances
+ diplomacy_oath_1_decision: "$GetAllianceOathText$ [CoronationTimer('diplomacy_oath_1_decision','diplomacy_oath_1_decision_timer')]"
+ diplomacy_oath_1_decision_timer: "\t#weak ([RemainingTime('diplomacy_oath_1_timer')])#!"
+ diplomacy_oath_1_decision_desc: "Il dominio reclama amici e alleati. Garantirò buone relazioni con terre straniere e compagni pronti a stare al nostro fianco in guerra. $diplomacy_oath_1_decision_desc_extra$"
+ diplomacy_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('diplomacy_oath_1_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('diplomacy_oath_1')]"
+ diplomacy_oath_1_decision_tooltip: "Ovunque, [ROOT.Char.GetPrimaryTitle.GetNameNoTier] sarà conosciuto per i suoi diplomatici, poiché costruiremo legami oltre i confini del nostro dominio."
+ diplomacy_oath_1_decision_confirm: "Non sono sol[ROOT.Char.Custom('DE_END_PRO_S_N')]"
+ custom_every_allied_ruler: "Ogni [ruler|E] [allied|lE]"
+ culture_acceptance_gain_oath: "Per [oaths|lE]"
+ custom_alliance_oath_decision_trigger: "Almeno #V 3#! [allies|lE]:\n\t$EFFECT_LIST_BULLET$Ora, [SCOPE.ScriptValue('alliance_oath_value')|V0] soddisfa(no) questi requisiti\n\t$EFFECT_LIST_BULLET$L’opinione di [root_temp_scope.GetShortUIName] è #V 50#! o superiore\n\t$EFFECT_LIST_BULLET$Una di queste opzioni:\n\t\t\t$EFFECT_LIST_BULLET$È di [title_tier|E] inferiore\n\t\t\t$EFFECT_LIST_BULLET$È dello stesso [title_tier|lE]\n\t\t\t$EFFECT_LIST_BULLET$È di [title_tier|E] superiore"
+ # Children
+ diplomacy_oath_2_decision: "$GetChildrenOathText$ [CoronationTimer('diplomacy_oath_2_decision','diplomacy_oath_2_decision_timer')]"
+ diplomacy_oath_2_decision_timer: "\t#weak ([RemainingTime('diplomacy_oath_2_timer')])#!"
+ diplomacy_oath_2_decision_desc: "I molti discendenti della [house|E] [ROOT.Char.GetHouse.GetName] guideranno il nostro dominio verso un futuro prospero e garantiranno il retaggio della nostra dinastia. $diplomacy_oath_2_decision_desc_extra$"
+ diplomacy_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('diplomacy_oath_2_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('diplomacy_oath_2')]"
+ diplomacy_oath_2_decision_tooltip: "La casa [ROOT.Char.GetHouse.GetName] sarà conosciuta per i suoi numerosi discendenti"
+ diplomacy_oath_2_decision_confirm: "[ROOT.Char.GetHouse.GetBaseNameNoTooltip|U] si rafforza"
+ custom_children_oath_decision_trigger: "Almeno #V 7#! [children|lE]:\n\t$EFFECT_LIST_BULLET$Al momento, [SCOPE.ScriptValue('children_oath_value')|V0] soddisfa(no) questi requisiti\n\t$EFFECT_LIST_BULLET$#BOL NON #! possiede il [trait|E] [GetTrait('bastard').GetName( GetNullCharacter )]"
+ custom_children_renown_effect: "Per ogni [child|E] [legitimate|lE]"
+ MODIFIER_DEFINITION_VALUE_CHILDREN_OATH_SCALE: " \t#weak Aumenta per [child|E] [legitimate|lE]#!"
+
+ ## Martial
+ martial_oath_1_decision: "$GetReconquerOathText$ [CoronationTimer('martial_oath_1_decision','martial_oath_1_decision_timer')]"
+ martial_oath_1_decision_timer: "\t#weak ([RemainingTime('martial_oath_1_timer')])#!"
+martial_oath_1_decision_desc: "I confini di [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTierNoTooltip] sono immutabili e punirò chiunque osi sconfinare nelle terre che sono legittimamente mie.$martial_oath_1_decision_desc_extra$"
+ martial_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('martial_oath_1_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('martial_oath_1')]"
+ martial_oath_1_decision_tooltip: "Riconquistare le terre perdute di [ROOT.Char.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTierNoTooltip] e far sì che il mio [ROOT.Char.MakeScope.Var('oath_reconquest_title').Title.GetTierAsNameNoTooltip|l] torni a essere ciò che dovrebbe"
+ oath_reconquest_custom_de_jure_county: "Ogni [county|E] [de_jure|E] di [GetPlayer.MakeScope.Var('oath_reconquest_title').Title.GetNameNoTier|l]"
+ martial_oath_1_decision_confirm: "$oath_decision_confirm$"
+ # Conquest
+ martial_oath_2_decision: "$GetConquestOathText$ [CoronationTimer('martial_oath_2_decision','martial_oath_2_decision_timer')]"
+ martial_oath_2_decision_timer: "\t#weak ([RemainingTime('martial_oath_2_timer')])#!"
+ martial_oath_2_decision_desc: "Le terre di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] sono destinate a crescere. Non con le parole, ma con la guerra. Ho giurato al mio popolo che ci sarebbero state conquiste, e così sarà. $martial_oath_2_decision_desc_extra$"
+ martial_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('martial_oath_2_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('martial_oath_2')]"
+ martial_oath_2_decision_tooltip: "Mantieni il giuramento ai tuoi sudditi ed espandi le terre di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ martial_oath_2_decision_confirm: "$oath_decision_confirm$"
+
+ ## Stewardship
+ # Peace
+ stewardship_oath_1_decision: "$GetPeaceOathText$ [CoronationTimer('stewardship_oath_1_decision','stewardship_oath_1_decision_timer')]"
+ stewardship_oath_1_decision_timer: "\t#weak ([RemainingTime('stewardship_oath_1_timer')])#!"
+ stewardship_oath_1_decision_desc: "È tempo di deporre le armi e assaporare un’era di pace. La popolazione [ROOT.Char.GetPrimaryTitle.GetAdjective] ha assistito a troppi anni di guerra. $stewardship_oath_1_decision_desc_extra$"
+ stewardship_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('stewardship_oath_1_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('stewardship_oath_1')]"
+ stewardship_oath_1_decision_tooltip: "Ho giurato di donare al mio popolo un’era di pace."
+ stewardship_oath_1_decision_confirm: "Un’età dell’oro per [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ custom_every_realm_county: "Ogni [county|E] del [realm|lE]"
+ days_at_peace_text: "Più di #V 5 anni#! di pace"
+ days_at_peace_text_alt: "$days_at_peace_text$ #weak (restano #V [SCOPE.ScriptValue('peace_oath_value')]#! giorni)#!"
+ # Building Oath
+ stewardship_oath_2_decision: "$GetBuildingOathText$ [CoronationTimer('stewardship_oath_2_decision','stewardship_oath_2_decision_timer')]"
+ stewardship_oath_2_decision_timer: "\t#weak ([RemainingTime('stewardship_oath_2_timer')])#!"
+ stewardship_oath_2_decision_desc: "Riformerò completamente [ROOT.Char.GetPrimaryTitle.GetNameNoTier] a mia immagine, lasciando un lascito imperituro in pietra e malta per generazioni. $stewardship_oath_2_decision_desc_extra$"
+ stewardship_oath_2_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('stewardship_oath_2_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('stewardship_oath_2')]"
+ building_oath_trigger: "Costruisci o migliora almeno #V 8#! [buildings|E] #weak (al momento [SCOPE.ScriptValue('building_oath_value')|V0])#!"
+ stewardship_oath_2_decision_tooltip: "Ho giurato di riforgiare il dominio a mia immagine e lasciare un segno imperituro negli insediamenti del [realm|lE]."
+ stewardship_oath_2_decision_confirm: "Il mio retaggio si erge fiero"
+ every_build_oath_place: "Ogni [county|E] in cui sia stato costruito un [building|lE]"
+
+ ## Intrigue
+
+ ## Learning
+ # Reconquest
+ # University
+ learning_oath_1_decision: "$GetUniversityOathText$ [CoronationTimer('learning_oath_1_decision','learning_oath_1_decision_timer')]"
+ learning_oath_1_decision_timer: "\t#weak ([RemainingTime('learning_oath_1_timer')])#!"
+ learning_oath_1_decision_desc: "Ho giurato di creare un nuovo e grandioso centro del sapere per il popolo [ROOT.Char.GetPrimaryTitle.GetAdjective] e manterrò la parola.$learning_oath_1_decision_desc_extra$"
+ learning_oath_1_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('stewardship_oath_1_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('learning_oath_1')]"
+ learning_oath_1_decision_tooltip: "Costruire un centro del sapere per tutti a [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
+ learning_oath_1_decision_confirm: "È l’ora del sapere illuminato"
+ learning_oath_1_diplomacy_councillor: "I [councillors|E] focalizzati sulla [diplomacy|E] hanno [diplomacy|E] [diplomacy_i] di #V 20#! o più"
+ learning_oath_1_martial_councillor: "I [councillors|E] focalizzati sulla [Concept('martial', 'marzialità' )|E] hanno [martial|E] [martial_i] di #V 20#! o più"
+ learning_oath_1_stewardship_councillor: "I [councillors|E] focalizzati sulla [stewardship|E] hanno [stewardship|E] [stewardship_i] di #V 20#! o più"
+ learning_oath_1_intrigue_councillor: "I [councillors|E] focalizzati sull’[intrigue|E] hanno [intrigue|E] [intrigue_i] di #V 20#! o più"
+ learning_oath_1_learning_councillor: "I [councillors|E] focalizzati sul [learning|E] hanno [learning|E] [learning_i] di #V 20#! o più"
+
+
+ # Purge Pretenders
+ purge_pretenders_oath_decision: "$GetPurgePretendersText$ [CoronationTimer('purge_pretenders_oath_decision','purge_pretenders_oath_decision_timer')]"
+ purge_pretenders_oath_decision_timer: "\t#weak ([RemainingTime('purge_pretenders_oath_timer')])#!"
+ purge_pretenders_oath_decision_desc: "Ho giurato di eliminare tutti i falsi pretendenti a [ROOT.Char.MakeScope.Var('purge_pretenders_target_title').Title.GetName]. Dovranno rinunciare alle loro rivendicazioni scriteriate o morire. $purge_pretenders_oath_decision_desc_extra$"
+ purge_pretenders_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('purge_pretenders_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('purge_pretenders')]"
+ purge_pretenders_oath_decision_tooltip: "Elimina i falsi [claimants|lE]"
+ purge_pretenders_oath_decision_confirm: "La purga è terminata"
+ purge_pretenders_oath_decision_default: "Al momento della morte del tuo [character|E] verrà ripristinata l’attuale [law|E] di successione."
+ purge_pretenders_oath_decision_murderer_tyranny: "Devi avere almeno #V 80#! di [tyranny|E] #weak (attualmente: [ROOT.Char.MakeScope.ScriptValue('oath_purge_pretenders_tyranny')])#!"
+ purge_pretenders_oath_decision_claimants: "Che non vi siano più [claimants|E] a [ROOT.Char.MakeScope.Var('purge_pretenders_target_title').Title.GetName] oltre ai tuoi [children|E] #weak (attualmente: [ROOT.Char.MakeScope.ScriptValue('oath_purge_pretenders_claimants')])#!"
+ purge_pretenders_oath_decision_children: "Meno di #V 3#! dei tuoi [children|E] hanno [claim|E] su [ROOT.Char.MakeScope.Var('purge_pretenders_target_title').Title.GetName] #weak (attualmente: [ROOT.Char.MakeScope.ScriptValue('oath_purge_pretenders_children')])#!"
+
+ # End the Struggle
+ end_the_struggle_oath_decision: "$GetEndTheStruggleOathText$ [CoronationTimer('end_the_struggle_oath_decision','end_the_struggle_oath_decision_timer')]"
+ 
+end_the_struggle_oath_decision_desc_persian: "Ho giurato di porre fine alla [GetStruggle('persian_struggle').GetName].$end_the_struggle_oath_decision_desc_extra$"
+end_the_struggle_oath_decision_desc_persian_ended: "Ho giurato di porre fine all’#V Intermezzo iraniano#!.$end_the_struggle_oath_decision_desc_extra$"
+end_the_struggle_oath_decision_desc_iberian: "Ho giurato di porre fine alla [GetStruggle('iberian_struggle').GetName].$end_the_struggle_oath_decision_desc_extra$"
+end_the_struggle_oath_decision_desc_iberian_ended: "Ho giurato di porre fine alla #V Contesa iberica#!.$end_the_struggle_oath_decision_desc_extra$"
+ end_the_struggle_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('end_the_struggle_oath_timer')] per compiere il [oath|E]#![IsOngoingCoronationOath('end_the_struggle_oath')]"
+ end_the_struggle_oath_decision_tooltip: "Porre fine alla Contesa"
+ end_the_struggle_oath_decision_confirm: "I tempi incerti sono finiti"
+ end_the_struggle_oath_decision_flag: "Hai posto fine alla [struggle|E] tramite una qualsiasi [decision|E] conclusiva."
+ end_the_struggle_oath_decision_trigger_persian: "Hai concluso la [GetStruggle('persian_struggle').GetName] tramite una qualsiasi [decision|E] finale."
+ end_the_struggle_oath_decision_trigger_persian_ended: "Hai concluso l’#V Intermezzo iraniano#! tramite una qualsiasi [decision|E] finale."
+ end_the_struggle_oath_decision_trigger_iberian: "Hai concluso la [GetStruggle('iberian_struggle').GetName] tramite una qualsiasi [decision|E] finale."
+ end_the_struggle_oath_decision_trigger_iberian_ended: "Hai concluso la #V Contesa iberica#! tramite una qualsiasi [decision|E] finale."
+
+ end_the_struggle_oath_decision_title_persian: "Porre fine a [GetStruggle('persian_struggle').GetNameNoTooltip] [CoronationTimer('end_the_struggle_oath_decision_persian','end_the_struggle_oath_decision_timer')]"
+end_the_struggle_oath_decision_title_persian_ended: "Poni fine all’#V Intermezzo iraniano#! [CoronationTimer('end_the_struggle_oath_decision_persian','end_the_struggle_oath_decision_timer')]"
+ end_the_struggle_oath_decision_title_iberian: "Porre fine a [GetStruggle('iberian_struggle').GetNameNoTooltip] [CoronationTimer('end_the_struggle_oath_decision_iberian','end_the_struggle_oath_decision_timer')]"
+end_the_struggle_oath_decision_title_iberian_ended: "Poni fine alla #V Contesa iberica#! [CoronationTimer('end_the_struggle_oath_decision_iberian','end_the_struggle_oath_decision_timer')]"
+ end_the_struggle_oath_decision_timer: "\t#weak ([RemainingTime('end_the_struggle_oath_timer')])#!"
+
+ # Greatest Hunter
+ greatest_hunter_oath_decision: "$GetGreatestHunterOathText$ [CoronationTimer('greatest_hunter_oath_decision','greatest_hunter_oath_decision_timer')]"
+ greatest_hunter_oath_decision_timer: "\t#weak ([RemainingTime('greatest_hunter_oath_timer')])#!"
+ greatest_hunter_oath_decision_desc: "Ho giurato di diventare [Select_CString(ROOT.Char.IsFemale,'la migliore','il migliore')] tra [Select_CString(ROOT.Char.IsFemale, 'le cacciatrici', 'i cacciatori' )] che questa terra abbia mai conosciuto; le storie delle mie battute riecheggeranno sino alla fine dei tempi. $greatest_hunter_oath_decision_desc_extra$"
+ greatest_hunter_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('greatest_hunter_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('greatest_hunter_oath')]"
+ greatest_hunter_oath_decision_tooltip: "Conduci con successo una caccia leggendarie"
+ greatest_hunter_oath_decision_confirm: "Sono [Select_CString(ROOT.Char.IsFemale, 'una cacciatrice', 'un cacciatore' )] senza pari"
+ greatest_hunter_decision_l3_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l|U] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V 3#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/3)"
+ greatest_hunter_decision_l1_trigger: "Conduci una [GetActivityType('activity_hunt').GetName|l|U] [GetActivityType('activity_hunt').GetTextIcon] #V leggendaria#! con successo #V una#! volta ([THIS.Char.MakeScope.Var('greatest_hunter_oath_l_counter').GetValue|0]/1)"
+greatest_hunter_decision_r10_trigger: "Organizza una [GetActivityType('activity_hunt').GetTextIcon][GetActivityType('activity_hunt').GetName] riuscita #V 10#! volte ([THIS.Char.MakeScope.Var('greatest_hunter_oath_r_counter').GetValue|0]/10)"
+ greatest_hunter_decision_trigger_2: "Possiedi un [artifact|E] di tipo #V arco#!"
+ greatest_hunter_decision_no_artifact_xp_effect: "Il tuo [artifact|E] di tipo #V Arco#! ottiene #V #P +20%#! $trait_track_hunter_xp_gain_mult$#!"
+ greatest_hunter_decision_no_artifact_stress_effect: "Il tuo [artifact|E] di tipo #V Arco#! ottiene #V #P -15%#! di aumento dello [stress|E]#!"
+ greatest_hunter_decision_no_artifact_tribal_effect: "Il tuo [artifact|E] di tipo #V Arco#! ottiene #V #P +6#! di [opinion|E] [tribal|E]#!"
+
+ # Heir Preparation
+ heir_preparation_oath_decision: "$GetHeirPreparationOathText$ [CoronationTimer('heir_preparation_oath_decision','heir_preparation_oath_decision_timer')]"
+ heir_preparation_oath_decision_timer: "\t#weak ([RemainingTime('heir_preparation_oath_timer')])#!"
+heir_preparation_oath_decision_desc: "Ho giurato di preparare [Select_CString(GetPlayer.Heir.IsFemale,'la mia erede','il mio erede')] alle prove che verranno. Il mio regno non ha scopo più grande di ciò che lo succederà. $heir_preparation_oath_decision_desc_extra$"
+ heir_preparation_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('heir_preparation_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('heir_preparation_oath')]"
+ heir_preparation_oath_decision_tooltip: "Prepara il tuo [primary_heir|E] al futuro"
+ heir_preparation_oath_decision_confirm: "La successione è al sicuro"
+ heir_preparation_oath_decision_no_heir: "Il tuo [primary_heir|E] è #V il tuo#! [child|E]"
+ heir_preparation_oath_decision_heir_under_12: "Il tuo [primary_heir|E] ha almeno #V 12#! anni"
+ heir_preparation_oath_decision_heir_stats_10: "Il tuo [primary_heir|E] ha almeno #V 10#! in tutte le [skills|E]"
+ heir_preparation_oath_decision_heir_stats_14: "Il tuo [primary_heir|E] ha almeno #V 14#! in una qualsiasi [skill|E]"
+ heir_preparation_oath_decision_heir_stats_intellect: "Il tuo [primary_heir|E] possiede un [trait|E] del gruppo Menti Brillanti"
+ heir_preparation_oath_decision_heir_stats_beauty: "Il tuo [primary_heir|E] possiede un [trait|E] del gruppo Personaggi Bellissimi"
+ heir_preparation_oath_decision_heir_stats_physique: "Il tuo [primary_heir|E] possiede un [trait|E] del gruppo Fisici Esemplari "
+
+ # Install Claimants
+ install_claimants_oath_decision: "$GetInstallClaimantsOathText$ [CoronationTimer('install_claimants_oath_decision','install_claimants_oath_decision_timer')]"
+ install_claimants_oath_decision_timer: "\t#weak ([RemainingTime('install_claimants_oath_timer')])#!"
+ install_claimants_oath_decision_desc: "Ho giurato di insediare i [claimants|E] sui loro troni legittimi e ristabilire l’ordine lecito nei domini di questo mondo… e i nuovi sovrani saranno colmi di gratitudine verso di me. $install_claimants_oath_decision_desc_extra$"
+ install_claimants_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('install_claimants_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('install_claimants_oath')]"
+ install_claimants_oath_decision_tooltip: "Insedia i [claimants|lE]"
+ install_claimants_oath_decision_confirm: "Addio, falsi governanti!"
+ install_claimants_oath_decision_trigger: "#V [ROOT.Char.MakeScope.Var('install_claimants_oath_counter').GetValue|0]/3#! [claimants|E] insediati tramite [wars|lE]"
+
+ # Mend The Fracture
+ mend_the_fracture_oath_decision: "$GetMendTheFractureOathText$ [CoronationTimer('mend_the_fracture_oath_decision','mend_the_fracture_oath_decision_timer')]"
+ mend_the_fracture_oath_decision_timer: "\t#weak ([RemainingTime('mend_the_fracture_oath_timer')])#!"
+ mend_the_fracture_oath_decision_desc: "Ho giurato di favorire la comprensione tra le culture [ROOT.Char.GetCulture.GetName] e [ROOT.Char.MakeScope.Var('mend_the_fracture_oath_target_culture').Culture.GetName] per portare armonia alle terre che condividono. $mend_the_fracture_oath_decision_desc_extra$"
+ mend_the_fracture_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('mend_the_fracture_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('mend_the_fracture_oath')]"
+ mend_the_fracture_oath_decision_tooltip: "Aumenta la [cultural_acceptance|E] della [culture|E] [ROOT.Char.MakeScope.Var('mend_the_fracture_oath_target_culture').Culture.GetName]"
+ mend_the_fracture_oath_decision_confirm: "Da molti, unità"
+
+ # Provide for the Warriors
+ provide_for_the_warriors_oath_decision: "$GetProvideForTheWarriorsOathText$ [CoronationTimer('provide_for_the_warriors_oath_decision','provide_for_the_warriors_oath_decision_timer')]"
+ provide_for_the_warriors_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_warriors_oath_timer')])#!"
+ provide_for_the_warriors_oath_decision_desc: "Ho giurato di provvedere ai [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] e ai [ROOT.Char.Custom('FighterTermPlural')] di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] e di colmarli di ricompense, affinché siano ben armati per le guerre a venire. $provide_for_the_warriors_oath_decision_desc_extra$"
+ provide_for_the_warriors_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('provide_for_the_warriors_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('provide_for_the_warriors_oath')]"
+ provide_for_the_warriors_oath_decision_tooltip: "Costruisci #V 3#! [buildings|E] di [GetBuilding('oath_warriors_building_02').GetName|l]."
+ provide_for_the_warriors_oath_decision_confirm: "La loro forza è il mio diritto a regnare"
+
+ # Provide for the Faithful
+ provide_for_the_faithful_oath_decision: "$GetProvideForTheFaithfulOathText$ [CoronationTimer('provide_for_the_faithful_oath_decision','provide_for_the_faithful_oath_decision_timer')]"
+ provide_for_the_faithful_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_faithful_oath_timer')])#!"
+ provide_for_the_faithful_oath_decision_desc: "Ho giurato di patrocinare la fede [ROOT.Char.GetPrimaryTitle.GetAdjective] e costruire nuove istituzioni pie nella regione. $provide_for_the_faithful_oath_decision_desc_extra$"
+ provide_for_the_faithful_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('provide_for_the_faithful_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('provide_for_the_faithful_oath')]"
+ provide_for_the_faithful_oath_decision_tooltip: "Costruisci #V 3#! [buildings|E] di [GetBuilding('oath_faithful_building_02').GetName|l]."
+ provide_for_the_faithful_oath_decision_confirm: "La fede è la nostra forza"
+
+ # Provide for the Poor
+ provide_for_the_poor_oath_decision: "$GetProvideForThePoorOathText$ [CoronationTimer('provide_for_the_poor_oath_decision','provide_for_the_poor_oath_decision_timer')]"
+ provide_for_the_poor_oath_decision_timer: "\t#weak ([RemainingTime('provide_for_the_poor_oath_timer')])#!"
+ provide_for_the_poor_oath_decision_desc: "Ho giurato di provvedere ai poveri di [ROOT.Char.GetPrimaryTitle.GetNameNoTier] come loro sovran[ROOT.Char.Custom('DE_END_PRO_S_N')] benevol[ROOT.Char.Custom('DE_END_PRO_S_N')] e caritatevole. $provide_for_the_poor_oath_decision_desc_extra$"
+ provide_for_the_poor_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('provide_for_the_poor_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('provide_for_the_poor_oath')]"
+ provide_for_the_poor_oath_decision_tooltip: "Costruisci #V 3#! [buildings|E] di [GetBuilding('oath_poor_building_02').GetName|l]."
+ provide_for_the_poor_oath_decision_confirm: "I bisognosi non soffrono più"
+
+  # Repent
+ repent_oath_decision: "$GetRepentOathText$ [CoronationTimer('repent_oath_decision','repent_oath_decision_timer')]"
+ repent_oath_decision_timer: "\t#weak ([RemainingTime('repent_oath_timer')])#!"
+ repent_oath_decision_desc: "Ho giurato di pentirmi dei miei peccati e di togliermi il peso delle mie colpe: un fardello per il mio cuore e per il dominio. $repent_oath_decision_desc_extra$"
+ repent_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('repent_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('repent_oath')]"
+ repent_oath_decision_tooltip: "Completa #V 4#! [pilgrimages|lE]."
+ repent_oath_decision_confirm: "La mia anima è nuda davanti a [ROOT.Char.GetFaith.HighGodName]"
+ repent_oath_remove_traits_tooltip: "Tutti i tuoi [traits|E] [Concept('sinful', 'peccaminosi')|E] saranno sostituiti con [Concept('traits', 'altri')|E] [Concept('virtuous', 'virtuosi')|E]."
+ repent_oath_pilgrimage: "#V Completate [ROOT.Char.MakeScope.Var('repent_oath_pilgrimage_counter').GetValue|0]/4#! [pilgrimages|lE]"
+
+ # Activity Log
+ coronation_vassal_support_log_title: "Sostegno dei vassalli"
+ coronation_vassal_support_log: "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetTitledFirstName|U] ha usato la sua influenza personale per rafforzare la [legitimacy|E] [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetTitledFirstName|l]"
+
+# Coronation Splendor Progression
+ coronation_tt_positive_massive: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta enormemente#!"
+ coronation_tt_positive_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta in grande misura#!"
+ coronation_tt_positive_medium: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta notevolmente#!"
+ coronation_tt_positive_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta leggermente#!"
+ coronation_tt_positive_miniscule: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] #P aumenta di poco#!"
+ coronation_tt_negative_tiny: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce leggermente#!"
+ coronation_tt_negative: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce#!"
+ coronation_tt_negative_major: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce notevolmente#!"
+ coronation_tt_negative_huge: "La [coronation_magnificence|E] dell'[GetActivityType('activity_coronation').GetName|l|U] si #N riduce enormemente#!"
+
+ coronation_tt_positive_massive_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l|U] hanno aumentato la magnificenza"
+ coronation_tt_positive_major_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_medium_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_tiny_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_positive_miniscule_log_title: "$coronation_tt_positive_massive_log_title$"
+ coronation_tt_negative_tiny_log_title: "Le azioni [char.Custom('IT_NAM_COL2')][char.GetTitledFirstNameNoTooltip|l|U] hanno ridotto la magnificenza"
+ coronation_tt_negative_log_title: "$coronation_tt_negative_tiny_log_title$"
+ coronation_tt_negative_major_log_title: "$coronation_tt_negative_tiny_log_title$"
+
+ magnificence_badly_reduced_by_factions_tt: "@warning_icon! #X La [coronation_magnificence|E] ha subito gravi danni a causa delle [factions|E] che ti si oppongono#!"
+ magnificence_badly_reduced_by_faction_tt: "@warning_icon! #X La [coronation_magnificence|E] ha subito gravi danni a causa di una [faction|E] che ti si oppone#!"
+ magnificence_reduced_by_factions_tt: "La [coronation_magnificence|E] è stata #N danneggiata#! dalle [factions|E] che ti si oppongono"
+ magnificence_reduced_by_faction_tt: "La [coronation_magnificence|E] è stata #N danneggiata#! da una [faction|E] che ti si oppone"
+
+
+ # Rewards
+ coronation_oath_upgrade_100: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] al completare il [oath|E] #P +160 %#!"
+ coronation_oath_upgrade_75: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] al completare il [oath|E] #P +120 %#!"
+ coronation_oath_upgrade_50: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] al completare il [oath|E] #P +80 %#!"
+ coronation_oath_upgrade_25: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] al completare il [oath|E] #P +40 %#!"
+ coronation_reward_100: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] per i ([THIS.ScriptValue('number_of_vassal_supporters')|V0]) [vassals|E] #V sostenitori#! presenti all’[coronation|lE]: #P 150 %#!"
+ coronation_reward_75: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] per i ([THIS.ScriptValue('number_of_vassal_supporters')|V0]) [vassals|E] #V sostenitori#! presenti all’[coronation|lE]: #P 75 %#!"
+ coronation_reward_50: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] per i ([THIS.ScriptValue('number_of_vassal_supporters')|V0]) [vassals|E] #V sostenitori#! presenti all’[coronation|lE]: #P 50 %#!"
+ coronation_reward_25: "Guadagno di [prestige|E] [prestige_i] e [legitimacy|E] [legitimacy_i] per i ([THIS.ScriptValue('number_of_vassal_supporters')|V0]) [vassals|E] #V sostenitori#! presenti all’[coronation|lE]: #P 25 %#!"
+ intent_coronation_opinion_gain: "Per la tua intenzione #V [THIS.Char.GetInvolvedActivityIntent.GetName]#!"
+ coronation_completed_log_entry_effect_title: "[GetActivityType('activity_coronation').GetName] completata."
+ coronation_completed_log_entry_effect: "La [GetActivityType('activity_coronation').GetName|l|U] è terminata."
+ coronation_completed_log_oath_tt: "Giuramento fatto: [THIS.Char.Custom('GetOath')|V]"
+
+
+# Artifacts
+
+ ach_spawned_crown_name: "Corona di [crown_title.GetDefinitiveNameNoTooltip]"
+ ach_spawned_crown_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di corona di fattura [SCOPE.Custom('ArtifactQuality')]. La corona è stata forgiata in [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l|U] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarla come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] l’ha indossata da allora."
+ ach_spawned_regalia_name: "Vesti regali di [crown_title.GetDefinitiveNameNoTooltip]"
+ ach_spawned_regalia_desc: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] esempio di vesti regali di fattura [SCOPE.Custom('ArtifactQuality')]. [CHARACTER.Custom('IT_NAM_COL3')|U][title_founder.GetTitledFirstName|l|U] fu [Select_CString( title_founder.IsFemale, 'la prima', 'il primo' )] a indossarle come simbolo del suo regno [title_founder.Custom('trait_greedy_adjective')]. Ogni [title_founder.GetTitleAsNameNoTooltip] di [crown_title.GetNameNoTier] le ha indossate da allora."
+
+
+# Host activity rewards
+
+ coronation_events.0310.t: "L’intenzione [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]"
+ coronation_events.0310.desc.high_magnificence: "Ho lavorato senza sosta per promuovere la gloria, per alimentare la grandezza della mia incoronazione. Gli invitati arrossiscono, ispirati da ciò che hanno visto qui, e irradiano ammirazione. È stato un inizio degno del mio regno come [ROOT.Char.GetTitleAsNameNoTooltip].\n\n"
+ coronation_events.0310.desc.mid_magnificence: "Ora sono un[ROOT.Char.Custom('DE_END_PRO_S_N')] ver[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip]. La mia incoronazione si è rivelata all’altezza del mio rango, un grande spettacolo per gli invitati, molti dei quali indugiano ancora qui sperando di sentire un discorso finale [ROOT.Char.Custom('GetTitleTierAdjective')].\n\n"
+ coronation_events.0310.desc.low_magnificence: "I festeggiamenti volgono al termine. Si è molto mormorato di caos, tensione, comodità raffazzonate. Forse ora mi ritroverò con calunnie risuonanti nelle orecchie e cibo stantio e acido nello stomaco… ma l’unica cosa che conta è che finalmente sono un ver[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip].\n\n"
+ coronation_events.0310.desc.impress_attendees: "Dall’inizio alla fine non ho lesinato sforzi per impressionare tutti i miei partecipanti, amici e nemici allo stesso modo! Ma la mia presenza equanime, il dedicarmi totalmente al successo di questo grande raduno…\n\nA che cosa è servito?"
+ coronation_events.0310.desc.weaken_detractors: "I Detrattori impertinenti dal cuore [first_char.Custom('InsultAdjective')], tra i quali spiccano [first_char.GetName] e [second_char.GetName], hanno avuto l’ardire di partecipare alla mia incoronazione… e [Select_CString(And(first_char.IsFemale, second_char.IsFemale), 'le', 'li')] ho accolti con quel malumore [ROOT.Char.Custom('GetTitleTierAdjective')] che essi, senza dubbio, meritano! Sono venut[Select_CString(And(first_char.IsFemale, second_char.IsFemale), 'e', 'i')] per mostrare la mia debolezza, ma hanno trovato solo freddo disprezzo e una ferrea risolutezza.\n\nForse dovrei sferrare un ultimo, tagliente affondo…"
+ coronation_events.0310.desc.embrace_supporters: "A ogni occasione ho favorito i più leali a me, alla mia corona. Insieme, io e i miei sostenitori abbiamo tramato, pianificato e ci siamo vantati della fiducia reciproca. [first_char.GetName], [second_char.GetName] e gli altri sono entrati a far parte del mio circolo più intimo.\n\nLa loro fiducia potrebbe tradursi in qualcosa di più sostanziale."
+ coronation_events.0310.desc.exalt_crown: "Rimango fedele alla mia convinzione che la gloria della corona sia tutto. Le prove affrontate qui, le meschine lotte interne… problemi passeggeri, ma [ROOT.Char.GetPrimaryTitle.GetNameNoTier] perdurerà! Ho infuso questa grande certezza nei miei invitati e la loro fede nel dominio è cresciuta.\n\nMa a quale fine è tutta questa esaltazione?"
+ coronation_events.0310.low_magnificence: "#EMP #low A causa della tua [coronation_magnificence|E] #N scarsa#!:#!#!"
+ coronation_events.0310.mid_magnificence: "#EMP #low A causa della tua [coronation_magnificence|E] #V discreta#!:#!#!"
+ coronation_events.0310.high_magnificence: "#EMP #low Grazie alla tua #P grande#! [coronation_magnificence|lE]:#!#!"
+ coronation_events.0310.a: "La fiducia di altre culture."
+ coronation_events.0310.a.reward.tooltip: "La tua [culture|E] otterrà [cultural_acceptance|E] tra le [cultures|El] dei tuoi invitati."
+ coronation_events.0310.a.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! [cultures|E] diverse"
+ coronation_events.0310.a.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! [cultures|E] diverse"
+ coronation_events.0310.a.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! [cultures|E] diverse"
+ coronation_events.0310.b: "La fede dei miei sostenitori."
+ coronation_events.0310.b.reward.tooltip: "Otterrai [opinion|E] #P positiva#! extra con i tuoi invitati."
+ coronation_events.0310.b.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! invitati"
+ coronation_events.0310.b.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! invitati"
+ coronation_events.0310.b.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! invitati"
+ coronation_events.0310.c: "La mia legittimità e il mio prestigio."
+ coronation_events.0310.c.reward.tooltip: "Ottieni [GetModifier('ach_intent_prestige_modifier').GetNameWithTooltip], mentre i tuoi invitati avranno il [modifier|E] [GetModifier('ach_intent_prestige_guest_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.c.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! invitati e il tuo [modifier|E] durerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue] decenni#!"
+ coronation_events.0310.c.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! invitati e il tuo [modifier|E] durerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue] decenni#!"
+ coronation_events.0310.c.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! invitati e il tuo [modifier|E] durerà #P [host.MakeScope.Var('reward_tier').GetValue] decenni#!"
+ coronation_events.0310.d: "Condannare tutte le fazioni."
+ coronation_events.0310.d.reward.tooltip: "I #V detrattori dell’incoronazione#! riceveranno il [modifier|E] [GetModifier('ach_intent_faction_joining_prevention_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.d.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! #V detrattori dell’incoronazione#!"
+ coronation_events.0310.d.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! #V detrattori dell’incoronazione#!"
+ coronation_events.0310.d.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! #V detrattori dell’incoronazione#!"
+ coronation_events.0310.e: "Avvisarli… che le mie segrete attendono."
+ coronation_events.0310.e.reward.tooltip: "I #V detrattori dell’incoronazione#! riceveranno il [modifier|E] [GetModifier('ach_intent_imprisonment_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.e.crit_success: "$coronation_events.0310.d.crit_success$"
+ coronation_events.0310.e.success: "$coronation_events.0310.d.success$"
+ coronation_events.0310.e.no_improvement: "$coronation_events.0310.d.no_improvement$"
+ coronation_events.0310.f: "Una diatriba visceralmente devastante."
+ coronation_events.0310.f.reward.tooltip: "I #V detrattori dell’incoronazione#! subiranno una quantità #P enorme#! di [stress|lE]."
+ coronation_events.0310.f.crit_success: "$coronation_events.0310.d.crit_success$"
+ coronation_events.0310.f.success: "$coronation_events.0310.d.success$"
+ coronation_events.0310.f.no_improvement: "$coronation_events.0310.d.no_improvement$"
+ coronation_events.0310.g: "Coloro di cui ho più bisogno sono i miei consiglieri leali."
+ coronation_events.0310.g.reward.tooltip: "I #V sostenitori dell’incoronazione#! riceveranno il [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.g.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! #V sostenitori dell’incoronazione#!"
+ coronation_events.0310.g.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! #V sostenitori dell’incoronazione#!"
+ coronation_events.0310.g.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! #V sostenitori dell’incoronazione#!"
+ coronation_events.0310.h: "Le terre leali alla corona fioriranno!"
+ coronation_events.0310.h.reward.tooltip: "I #V sostenitori dell’incoronazione#! riceveranno il [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.h.crit_success: "$coronation_events.0310.g.crit_success$"
+ coronation_events.0310.h.success: "$coronation_events.0310.g.success$"
+ coronation_events.0310.h.no_improvement: "$coronation_events.0310.g.no_improvement$"
+ coronation_events.0310.i: "Il loro [host.GetTitleAsNameNoTooltip] offre protezione."
+ coronation_events.0310.i.reward.tooltip: "I #V sostenitori dell’incoronazione#! riceveranno il [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.i.crit_success: "$coronation_events.0310.g.crit_success$"
+ coronation_events.0310.i.success: "$coronation_events.0310.g.success$"
+ coronation_events.0310.i.no_improvement: "$coronation_events.0310.g.no_improvement$"
+ coronation_events.0310.j: "La massima venerazione per le mie vesti in stile [ROOT.Char.Custom('GetTitleTierAdjective')]."
+ coronation_events.0310.j.reward.tooltip: "#V I tuoi [artifacts|E] ottengono un [modifier|E] #P positivo#!"
+ coronation_events.0310.j.crit_success: "Migliorerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! #V dei tuoi [artifacts|lE]#!"
+ coronation_events.0310.j.success: "Migliorerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! #V dei tuoi [artifacts|lE]#!"
+ coronation_events.0310.j.no_improvement: "Migliorerà #P [host.MakeScope.Var('reward_tier').GetValue]#! #V dei tuoi [artifacts|lE]#!"
+ coronation_events.0310.k.reward.tooltip: "I [counties|E] del tuo [domain|E] riceveranno il [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.k.crit_success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_two').GetValue]#! #V dei tuoi [counties|lE]#!"
+ coronation_events.0310.k.success: "Influenzerà #P [host.MakeScope.Var('reward_tier_plus_one').GetValue]#! #V dei tuoi [counties|lE]#!"
+ coronation_events.0310.k.no_improvement: "Influenzerà #P [host.MakeScope.Var('reward_tier').GetValue]#! #V dei tuoi [counties|lE]#!"
+ coronation_events.0310.k: "Anche il popolo minuto deve sentirsi ispirato."
+ coronation_events.0310.l: "La difesa di [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]!"
+ coronation_events.0310.l.reward.tooltip: "I [counties|E] del tuo [domain|E] riceveranno il [modifier|E] [GetModifier('ach_intent_defense_boost_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0310.l.crit_success: "$coronation_events.0310.k.crit_success$"
+ coronation_events.0310.l.success: "$coronation_events.0310.k.success$"
+ coronation_events.0310.l.no_improvement: "$coronation_events.0310.k.no_improvement$"
+ coronation_events.0310.intent_toast: "La tua intenzione è stata impostata"
+
+ coronation_events.0311.t: "Fine del festeggiamento"
+ coronation_events.0311.desc.high_magnificence: "La mia magnifica incoronazione è terminata. Gli invitati se ne vanno, tutti profondamente colpiti dalle cerimonie."
+ coronation_events.0311.desc.mid_magnificence: "La mia incoronazione è terminata. Gli invitati se ne vanno, leggermente colpiti dalle cerimonie."
+ coronation_events.0311.desc.low_magnificence: "La mia esigua incoronazione è terminata. Forse sono [Select_CString( ROOT.Char.IsFemale, 'una cattiva padrona di casa', 'un cattivo padrone di casa' )], ma resto pur sempre un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]."
+ coronation_events.0311.a: "Il mio regno ha inizio."
+
+ coronation_nomadic_herd_reward: "Ricevi [TopScope.GetValue('coronation_herd_value')|+0] di [herd_i] dai [coronation_supporters|lE]"
+
+ coronation_events.0312.t: "Fine del festeggiamento"
+ coronation_events.0312.desc.high_magnificence: "La magnifica incoronazione è terminata. Gli invitati se ne vanno, tutti profondamente colpiti dalle splendide cerimonie."
+ coronation_events.0312.desc.mid_magnificence: "L’incoronazione è terminata. Gli invitati se ne vanno, leggermente colpiti dalle cerimonie."
+ coronation_events.0312.desc.low_magnificence: "L’esigua incoronazione è terminata. Forse [host.GetName] [Select_CString( host.IsFemale, 'è stata una cattiva padrona di casa', 'è stato un cattivo padrone di casa' )], ma resta pur sempre un[host.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip]."
+ coronation_events.0312.a: "È iniziato il regno [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l]."
+ coronation_events.0312.cultural_acceptance: "Grazie all’[intent|E] #V Impressionare i partecipanti#! [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l], è aumentata la [cultural_acceptance|E] tra le culture [ROOT.Char.GetCulture.GetName] e [host.GetCulture.GetName]."
+coronation_events.0312.better_councillors: "Grazie all’[intent|E] #V Accogli i sostenitori#! [host.GetTitledFirstNamePossessiveNoTooltip], hai ottenuto il [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip] per 20 anni."
+ coronation_events.0312.vassal_development_boost: "Grazie all’[intent|E] #V Accogliere i sostenitori#! [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l], hai ottenuto il [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier')] per 20 anni."
+ coronation_events.0312.vassal_defensive_boost: "Grazie all’[intent|E] #V Accogliere i sostenitori#! [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNameNoTooltip|l], hai ottenuto il [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier')] per 20 anni."
+
+ coronation_events.0400.desc: "Ho riflettuto sulla vostra richiesta e ho deciso che meritate la mia benedizione, il più sacro segno del favore [ROOT.Char.GetFaith.HighGodNamePossessive] tra i fedeli."
+ coronation_events.0400.a: "Attendo il mio giusto ascesa trattenendo il respiro."
+
+ coronation_cultural_acceptance_reward_tt: "La [culture|E] di [host.GetName] guadagna [cultural_acceptance|E] presso queste culture:"
+ coronation_opinion_gain_reward_tt: "[host.GetName] guadagna [opinion|E] presso questi personaggi:"
+ coronation_legitimacy_and_prestige_gain_reward_tt: "Questi personaggi ottengono il [modifier|E] [GetModifier('ach_intent_prestige_guest_modifier').GetNameWithTooltip]:"
+ coronation_prevent_faction_joining_reward_tt: "Questi #V detrattori#! ottengono il [modifier|E] [GetModifier('ach_intent_faction_joining_prevention_modifier').GetNameWithTooltip]:"
+ coronation_easier_imprisonment_reward_tt: "Questi #V detrattori#! ottengono il [modifier|E] [GetModifier('ach_intent_imprisonment_modifier').GetNameWithTooltip]:"
+ coronation_stress_reward_tt: "Questi #V detrattori#! ricevono una quantità #V enorme#! di [stress|lE]:"
+ coronation_better_councillors_reward_tt: "Questi #V sostenitori#! ottengono il [modifier|E] [GetModifier('ach_intent_better_councillors_modifier').GetNameWithTooltip]:"
+ coronation_vassal_development_boost_reward_tt: "Questi #V sostenitori#! ottengono il [modifier|E] [GetModifier('ach_intent_vassal_development_boost_modifier').GetNameWithTooltip]:"
+ coronation_vassal_defensive_boost_reward_tt: "Questi #V sostenitori#! ottengono il [modifier|E] [GetModifier('ach_intent_vassal_defensive_boost_modifier').GetNameWithTooltip]:"
+ coronation_artifact_boost_reward_tt: "Questi [artifacts|E] ottengono un [modifier|E] #P positivo#!:"
+ coronation_host_development_boost_reward_tt: "Questi [counties|E] ottengono il [modifier|E] [GetModifier('ach_intent_development_boost_modifier').GetNameWithTooltip]:"
+ coronation_host_defense_boost_reward_tt: "Questi [counties|E] ottengono il [modifier|E] [GetModifier('ach_intent_defense_boost_modifier').GetNameWithTooltip]:"
+ coronation_host_reward_tier_one_tt: "Interessato: [first_reward_target.GetName]"
+ coronation_host_reward_tier_two_tt: "Interessati: [first_reward_target.GetName] e [second_reward_target.GetName]"
+ coronation_host_reward_tier_three_tt: "Interessati: [first_reward_target.GetName], [second_reward_target.GetName] e [third_reward_target.GetName]"
+ coronation_host_reward_tier_four_tt: "Interessati: [first_reward_target.GetName], [second_reward_target.GetName], [third_reward_target.GetName] e [fourth_reward_target.GetName]"
+ coronation_host_reward_tier_five_tt: "Interessati: [first_reward_target.GetName], [second_reward_target.GetName], [third_reward_target.GetName], [fourth_reward_target.GetName] e [fifth_reward_target.GetName]"
+
+ cultural_acceptance_gain_coronation_host_reward: "Intenzione di incoronazione: impressionare i partecipanti"
+ ach_intent_opinion: "Un partecipante molto impressionato"
+ ach_intent_prestige_guest_modifier: "Partecipante impressionato"
+ ach_intent_prestige_guest_modifier_desc: "Questo personaggio è stato sostenitore e invitato d’onore all’incoronazione del sovrano appena insediato."
+ ach_intent_prestige_modifier: "Ospite impressionante"
+ ach_intent_prestige_modifier_desc: "Questo personaggio ha celebrato un’incoronazione magnifica."
+ ach_intent_faction_joining_prevention_modifier: "Detrattore indebolito: fazioni"
+ ach_intent_faction_joining_prevention_modifier_desc: "#weak Questo personaggio non può iniziare né unirsi a fazioni.#!\nUn notevole detrattore durante l’incoronazione del sovrano appena insediato, messo a tacere dalla magnificenza della cerimonia."
+ ach_intent_imprisonment_modifier: "Detrattore intimidito: incarceramento"
+ ach_intent_imprisonment_modifier_desc: "#weak È più facile imprigionare questo personaggio.#!\nSebbene fosse un notevole detrattore durante l’incoronazione del sovrano appena insediato, la magnificenza della cerimonia l’ha intimidito fino alla sottomissione."
+ ach_intent_better_councillors_modifier: "Accogliere i sostenitori: consiglieri"
+ ach_intent_better_councillors_modifier_desc: "Questo personaggio era un sostenitore incrollabile del sovrano appena insediato ed era particolarmente desideroso di dimostrare il proprio valore come consigliere."
+ ach_intent_vassal_development_boost_modifier: "Accogliere i sostenitori: sviluppo"
+ ach_intent_vassal_development_boost_modifier_desc: "Raccolti rigogliosi, legna appena tagliata e pietra da costruzione: le terre di questo personaggio godono di un impulso economico grazie al suo sovrano appena incoronato."
+ ach_intent_vassal_defensive_boost_modifier: "Accogliere i sostenitori: difesa"
+ ach_intent_vassal_defensive_boost_modifier_desc: "$ach_intent_defense_boost_modifier_desc$"
+ ach_intent_development_boost_modifier: "Esaltare la corona: sviluppo"
+ ach_intent_development_boost_modifier_desc: "Raccolti rigogliosi, legna appena tagliata e pietra da costruzione: le terre di questo personaggio sperimentano un miglioramento economico grazie al suo sovrano appena incoronato."
+ ach_intent_defense_boost_modifier: "Esaltare la corona: difese"
+ ach_intent_defense_boost_modifier_desc: "Da porte rinforzate partono pattuglie di guardie. Questa contea è stata fortificata dal desiderio del suo sovrano appena incoronato."
+
+ ach_maintenance_events.0002.title: "$oath_mend_the_fracture_tradition_name$"
+ ach_maintenance_events.0002.army_reward: "[soldiers|E] $ach_culture_synergy_troops$ guadagnati"
+ ach_maintenance_events.0002.opinion_reward: "[opinion|E] guadagnata con il [culture_head|lE]"
+### Character Interaction
+ coronation_anointment_request: "$game_concept_anointment_request$"
+ coronation_anointment_request_desc: "Ottieni il sostegno [recipient.Custom('IT_NAM_COL2')][recipient.GetTitledFirstName|l|U] per svolgere un’[anointment|lE]"
+ coronation_anointment_request_extra_icon: "$hook_extra_icon$"
+ anoinment_request_accepted_tt: "[recipient.GetShortUIName] accetterà un invito alla tua [anointment|E] [coronation_i] se disponibile"
+ already_using_hook: "È già in uso un [hook|E] [hook_i]"
+ coronation_request_return_land_trigger: "Non possiedi alcuna [land|E] [de_jure|E] [recipient.Custom('IT_NAM_COL2')][recipient.GetTitledFirstName|l]"
+ TRADE_LAND_FOR_BETTER_AI_ACCEPTANCE: "Restituire [land|E] [de_jure|E] [title_i]"
+ TRADE_LAND_ACCEPTANCE_SEND_OPTION: "Restituire [land|E] [de_jure|lE]: $VALUE|=+0$"
+ CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION: "Con la massima venerazione, cerco la vostra benedizione e il vostro appoggio per la mia giusta e propizia ascesa al trono."
+ anointment_request_already_supported: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName|l|U] ha già accettato di sostenere la tua [anointment|lE]"
+ coronation_realm_size_desc: "$CB_REALM_SIZE_COST$"
+ coronation_empire_req: "[empire|E] [title_tier|E]"
+ coronation_tribal_reg: "[GetGovernment('tribal_government').GetName]"
+ coronation_nomadic_reg: "[GetGovernment('nomadic_government').GetName]"
+ HOF_is_ai_tt: "[head_of_faith|E] $IS_LOCAL_PLAYER_TRIGGER|l$"

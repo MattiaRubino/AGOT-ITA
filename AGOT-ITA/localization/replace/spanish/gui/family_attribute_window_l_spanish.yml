@@ -1,0 +1,32 @@
+﻿l_spanish:
+
+FAMILY_ATTRIBUTE_WINDOW_TITLE_EDIT: "Cambia [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip]"
+FAMILY_ATTRIBUTE_WINDOW_SELECTED: "[HouseAspiration.GetName]"
+FAMILY_ATTRIBUTE_WINDOW_CHANGE_ATTRIBUTE: "Cambia [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip]"
+FAMILY_ATTRIBUTE_WINDOW_CHANGE_ASPIRATION: "Cambia [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip]"
+FAMILY_ATTRIBUTE_WINDOW_UPGRADE_HOUSE_POWER: "Potenzia [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip]"
+FAMILY_ATTRIBUTE_WINDOW_HOUSE_POWER_AT_MAX_LEVEL: "[DynastyHouse.GetHouseAspirationFlavorNameNoTooltip] è già al livello massimo"
+FAMILY_ATTRIBUTE_WINDOW_HOUSE_POWER_COST: "Costo: [HouseAspirationWindow.GetSelectedHouseAspirationCostDesc]"
+FAMILY_ATTRIBUTE_WINDOW_ALERT: "@warning_icon! #warning Il [powerful_family_attribute|E] è inattivo perché la [house|e] #bold non#! è una [powerful_family|E]#!"
+FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT: "@warning_icon! #warning Il bonus da [powerful_family|e] è inattivo perché la tua [house|e] #bold non#! è $game_concept_powerful$#!"
+FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_ALERT: "@alert_icon! #alert_trial Non puoi cambiare [DynastyHouse.GetHouseAspirationFlavorName] per i prossimi [HouseAspirationWindow.GetSelectedHouseAspirationCooldown|0V]#!"
+FAMILY_ATTRIBUTE_WINDOW_COOLDOWN_DESC: "@warning_icon! #X Non puoi cambiare la tua [DynastyHouse.GetHouseAspirationFlavorName] per altri $TIME|V$#!"
+FAMILY_ATTRIBUTE_WINDOW_CURRENT_LEVEL: "Livello attuale"
+FAMILY_ATTRIBUTE_WINDOW_SAME_ASPIRATION_DESC: "@warning_icon! #X La tua [DynastyHouse.GetHouseAspirationFlavorName] è già impostata su [HouseAspiration.GetName|V]#!"
+ # Set house power command
+SET_HOUSE_ASPIRATION_COMMAND_TITLE: "Seleziona [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip] [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ), 'blank_line', 'house_aspiration_get_name' )]"
+house_aspiration_get_name: "[HouseAspiration.GetName]"
+SET_HOUSE_ASPIRATION_COMMAND_TEXT: "Imposta la [DynastyHouse.GetHouseAspirationFlavorName] di [DynastyHouse.GetName] su «[HouseAspiration.GetName|V]»:\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, '(int32)0' )]$COST$"
+SET_HOUSE_ASPIRATION_COMMAND_COST: "\n\nCosto: $COST$"
+SET_HOUSE_ASPIRATION_COMMAND_ACCEPT: "Seleziona"
+
+ # Upgrade house power command
+UPGRADE_HOUSE_ASPIRATION_COMMAND_TITLE: "Migliora [DynastyHouse.GetHouseAspirationFlavorNameNoTooltip] [HouseAspiration.GetName]"
+UPGRADE_HOUSE_ASPIRATION_COMMAND_TEXT: "Potenzia la «[HouseAspiration.GetName|V]» [DynastyHouse.GetHouseAspirationFlavorName] della [house|E] [DynastyHouse.GetName] a «[HouseAspiration.GetLevelName( '(int32)$LEVEL|q$' )|V]»:\n\n[HouseAspiration.GetLevelDesc( DynastyHouse.Self, '(int32)$LEVEL|q$' )]$COST$"
+UPGRADE_HOUSE_ASPIRATION_COMMAND_COST: "\n\nCosto: $COST$"
+UPGRADE_HOUSE_ASPIRATION_COMMAND_ACCEPT: "Migliora"
+
+
+OPEN_HOUSE_ASPIRATION_TT_SELECT: "[SelectLocalization(DynastyHouse.IsHouseAttributeInactive, 'OPEN_HOUSE_ASPIRATION_WARNING_TT', 'OPEN_HOUSE_ASPIRATION_TT')]"
+OPEN_HOUSE_ASPIRATION_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!\n[GetPlayer.GetUINamePossessive|U] [house_attribute|e]\n\n$CLICK_TO_VIEW$"
+OPEN_HOUSE_ASPIRATION_WARNING_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!\n$FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT$\n\n[GetPlayer.GetUINamePossessive|U] [house_attribute|e]\n\n$CLICK_TO_VIEW$"

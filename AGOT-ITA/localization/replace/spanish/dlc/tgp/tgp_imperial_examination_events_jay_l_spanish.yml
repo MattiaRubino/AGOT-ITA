@@ -1,0 +1,66 @@
+﻿l_spanish:
+
+  imperial_examination_jay.0010.t: "Menti affini"
+  imperial_examination_jay.0010.desc: "«Avresti dovuto vedere [friends_child.Custom('IT_NAM_COL3')][friends_child.GetTitledFirstName]!» ride [friend.Custom('IT_NAM_COL3')][friend.GetTitledFirstName] — [Select_CString(friend.IsFemale,'un'altra madre','un altro padre')] che negli ultimi giorni mi ha tenuto la più piacevole compagnia — «[Select_CString(friends_child.IsFemale,'Mia','Mio')] [friends_child.Custom('GetDaughterSon')] ha passato giorni a supplicare per un [ROOT.Char.Custom('SmallAnimal')] da compagnia. E indovina un po’, che cosa trovo a squittire sotto il suo cuscino?»\n\nScoppiamo a ridere a quella immagine. Peccato che presto dovremo separarci!"
+  imperial_examination_jay.0010.a: "Ma la nostra amicizia continuerà!"
+  imperial_examination_jay.0010.b: "Dobbiamo presentare i figli!"
+  imperial_examination_jay.0010.c: "Purtroppo non siamo qui per diletto."
+
+  imperial_examination_jay.0040.t: "Volpi nel giardino"
+  imperial_examination_jay.0040.desc: "I passeri trillano al sole, le carpe koi guizzano nello stagno, finché due figure arrancano incuranti lungo il sentiero del giardino, mettendo in fuga uccelli e pesci. La prima è [parent.GetWomanMan]: la riconosco come [Select_CString(parent.IsFemale,'una','uno')] degli esaminatori. L’altra è [parent.Custom('IT_NAM_COL3')][parent.GetTitledFirstName], [cheater_child.Custom2('RelationToMe', parent )] [cheater_child.Custom('IT_NAM_COL2')][cheater_child.GetTitledFirstName].\n\n[parent.GetFirstNameNoTooltip] infila una borsa tintinnante nelle vesti dell’esaminatore [examiner.GetFirstNamePossessive], che a sua volta mostra un foglio di risposte e parla di quanto #EMP 'ben preparat[Select_CString(cheater_child.IsFemale,'a','o')]'#! sia di certo [cheater_child.Custom('IT_NAM_COL3')][cheater_child.GetTitledFirstNameNoTooltip]."
+  imperial_examination_jay.0040.a: "Farò sapere che sono al corrente di questo intrigo."
+  imperial_examination_jay.0040.b: "Questa informazione potrebbe tornare utile."
+  imperial_examination_jay.0040.c: "Voglio solo un po’ di pace."
+
+  imperial_examination_jay.0080.t: "La caduta"
+  imperial_examination_jay.0080.desc: "[examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName] avrebbe dovuto sapere che non si corre con così tanta roba addosso. Un attimo prima si lanciava giù per i corridoi con una pila precaria di fogli e pennelli, poi con un grido acuto finisce a terra in una tempesta di detriti eruditi.\n\nUna pagina caduta attira il mio sguardo: una prova recante il nome di [child.Custom2('MyCharacterIntroduction', ROOT.Char)], gli errori evidenti già a un primo colpo d’occhio..."
+  imperial_examination_jay.0080.a: "«Oh no! Hai rovesciato inchiostro su questi fogli!»"
+  imperial_examination_jay.0080.a.success: "Si prende la colpa"
+  imperial_examination_jay.0080.a.failure: "Si accorge di ciò che hai fatto"
+  imperial_examination_jay.0080.b: "«[examiner.GetFirstNameNoTooltip]! Stai bene?!»"
+  imperial_examination_jay.0080.c: "«Ah ah ah, che goffo imbranato!»"
+
+  imperial_examination_jay.0110.t: "Un esaminatore ingioiellato"
+  imperial_examination_jay.0110.desc: "[examiner.GetFirstName] mi parla davanti a un [ROOT.Char.Custom('RegionalDrink')]; l’odore persistente del suo profumo sovrasta quello della bevanda. Un gioiello al collo tintinna ogni volta che sorseggia.\n\n«Questo pezzo» sogghigna «fu un #EMP 'dono'#! di un ex allievo.»"
+  imperial_examination_jay.0110.a: "Be’, io ho un dono [child.Custom('IT_NAM_COL5')][child.GetTitledFirstNameNoTooltip], [Select_CString(child.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))]."
+  imperial_examination_jay.0110.b: "Questo manufatto è inutile. Lascia che me ne #EMP sbarazzi#!."
+  imperial_examination_jay.0110.b.tt: "Diventi il proprietario di una collana [artifact|E] di [prestige|E]"
+  imperial_examination_jay.0110.b.equipped_tt: "Ottenuta [bribed_necklace.GetName] [examiner.Custom('IT_NAM_COL5')][examiner.GetTitledFirstName]."
+  imperial_examination_jay.0110.c: "Non frequento simili [examiner.GetWomenMen]."
+  bribed_necklace_name: "Collana pregiata"
+  bribed_necklace_desc: "Questa collana è un gioiello semplice, eppure elegante."
+
+  imperial_examination_jay.0120.t: "Il prodigio"
+  imperial_examination_jay.0120.desc: "[examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName], [Select_CString(examiner.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', examiner )], si inchina profondamente mentre si avvicina. «[child.Custom('IT_NAM_COL3')][child.GetTitledFirstName] è [Select_CString(child.IsFemale,'tua figlia','tuo figlio')], sì?»\n\nIl suo inchino si fa ancora più profondo alla mia risposta. «Le prestazioni di [child.GetFirstNamePossessiveNoTooltip] finora mi hanno molto impressionato. È un onore per la casata [ROOT.Char.GetHouse.GetName]. [Select_CString(child.IsFemale,'La','Lo')] hai chiaramente istruit[Select_CString(child.IsFemale,'a','o')] bene!»"
+  imperial_examination_jay.0120.a: "L’erudizione dei [ROOT.Char.GetHouse.GetNameNoTooltip] è nota a tutti!"
+  imperial_examination_jay.0120.b: "Perché non aiuti ad affinare i suoi talenti?"
+  imperial_examination_jay.0120.c: "«Dite[Select_CString(child.IsFemale,'le','gli')] quanto ne sono fiero, esaminatore.»"
+  imperial_examination_jay.0120.d: "Le doti di [child.GetTitledFirstNamePossessiveNoTooltip] saranno note a tutti!"
+
+  imperial_examination_jay.0170.t: "Lodi mielate"
+  imperial_examination_jay.0170.desc: "«La casata [ROOT.Char.GetHouse.GetName] è davvero un focolare di fede virtuosa» dice l’esaminatore [examiner.GetFirstName], avvicinandosi a me con le mani irrequiete e lo sguardo che guizza attorno. «Sono certo che [Select_CString(child.IsFemale,'la tua','il tuo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('child'))] supererebbe il suo esame con un po’ di guida. Potrei essere io quella guida, se in cambio facessi qualcosa per me?»\n\nNonostante la cautela di [examiner.GetFirstNamePossessiveNoTooltip], gli altri genitori e anziani hanno già iniziato a lanciare sguardi curiosi nella nostra direzione."
+  imperial_examination_jay.0170.a: "Serve un’ammonizione pubblica."
+  imperial_examination_jay.0170.b: "[child.GetFirstNameNoTooltip] non ha bisogno di aiuto per superarlo!"
+  imperial_examination_jay.0170.b.tt: "A seconda dei risultati del suo Esame, [child.GetShortUIName] guadagnerà o perderà ulteriore [prestige|E] e [merit|E]."
+  imperial_examination_jay.0170.c: "[child.GetFirstNameNoTooltip] ne trarrà vantaggio, che spettegolino pure."
+
+  imperial_examination.advantage.child.tt: "[child.GetShortUIName] ottiene [exam_advantage|E]"
+  imperial_examination.advantage.no_character.tt: "Ottieni [exam_advantage|E]"
+  imperial_examination.cheat.child.tt: "[child.Custom('IT_NAM_COL3')][child.GetTitledFirstName] ottiene un [exam_cheat|E]"
+  imperial_examination.cheat.cheater_child.tt: "[cheater_child.Custom('IT_NAM_COL3')][cheater_child.GetTitledFirstName] ottiene un [exam_cheat|E]"
+  imperial_examination.lose_advantage.child.tt: "[child.GetShortUIName] perde [exam_advantage|E]"
+  imperial_examination.lose_advantage.no_character.tt: "Perdi [exam_advantage|E]"
+  all_non_arbitrary_participants: "Tutti i partecipanti non [GetTrait('arbitrary').GetName( GetNullCharacter )]"
+  every_attending_chaperone: "Ogni accompagnatore presente di un candidato"
+  every_examiner: "Ogni esaminatore"
+
+### OPINIONS ###
+  nosy_opinion: "Ficcanaso"
+
+  tgp_slapback_modifier: "Onore protetto"
+  tgp_slapback_modifier_desc: "Questo personaggio è più che disposto a battersi per l’onore della sua famiglia."
+
+  tgp_studious_house_modifier: "Casata studiosa"
+  tgp_studious_house_modifier_desc: "I membri di questa Casata sono rispettati per la loro reputazione erudita.\nI [characters|E] riceveranno un [exam_advantage|E] gratuito all’inizio dell’[imperial_examination|E]."
+
+  tgp_known_prodigy_modifier: "Prodigio noto"

@@ -1,0 +1,12 @@
+﻿l_spanish:
+
+
+ BUILDING_REQUIREMENT_TRIBAL_HOLDING_IN_COUNTY:0 "[PROVINCE.GetCounty.GetTitle.GetName] ha un insediamento [tribal|E]"
+ BUILDING_REQUIREMENT_NOMAD_HOLDING_IN_COUNTY: "[PROVINCE.GetCounty.GetTitle.GetName] ha un insediamento [GetGovernment( 'nomad_government' ).GetName]"
+ BUILDING_REQUIREMENT_HERDER_HOLDING_IN_COUNTY: "[PROVINCE.GetCounty.GetTitle.GetName] ha un insediamento [herder|E]"
+
+BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] deve essere un[PROVINCE.Custom('DE_PRO_PER_S_3P_N')] [castle|E], [city|E], [temple|E] o [temple_citadel|E]"
+BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_TRIBE_FAILED: "[PROVINCE.GetName] deve essere un [castle|E], una [city|E], un [temple|E], una [tribal_holding|E] o una [temple_citadel|E]"
+NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_TRIBE_FAILED: "[PROVINCE.GetName] non è un [castle|E], una [city|E], un [temple|E], una [tribal_holding|E] o una [temple_citadel|E]"
+NOT_BUILDING_REQUIREMENT_CASTLE_CITY_CHURCH_FAILED: "[PROVINCE.GetName] non è un[PROVINCE.Custom('DE_PRO_PER_S_3P_N')] [castle|E], [city|E], [temple|E] o [temple_citadel|E]"
+ NOT_BUILDING_REQUIREMENT_HALL_OF_HEROES_FAILED:0 "La Sala degli Eroi può essere utilizzata solo da Pagani Baltici, Slavi e Finlandesi"

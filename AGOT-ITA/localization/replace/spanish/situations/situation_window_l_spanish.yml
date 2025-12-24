@@ -1,0 +1,81 @@
+﻿l_spanish:
+
+ SITUATION_WINDOW_SUB_GROUP_SUBTITLE: "Participanti nella Regione: [GetDataModelSize( SituationSubRegion.GetParticipatingCharacters )]"
+SITUATION_CURRENT_PHASE_NAME: "[SituationPhase.GetName]"
+SITUATION_CURRENT_PHASE_ENDS: "Termina: [SituationPhase.GetEndDate.GetStringLong]"
+ SITUATION_WINDOW_LEADING_PHASE: "[situation_phase|E] Guida"
+ SITUATION_WINDOW_NOT_LEADING_PHASE: "[situation_phase|E] Possibile"
+ SITUATION_WINDOW_CURRENT_HEADER: "Attuale"
+SITUATION_WINDOW_CURRENT_PHASE: "Fase attuale: "
+SITUATION_WINDOW_CURRENT_PHASE_FATALITIES: "[fatalities|E]: [Situation.MakeScope.Var( 'fatalities' ).GetValue|V0]"
+ SITUATION_WINDOW_FUTURE_HEADER: "Futuro"
+ SITUATION_WINDOW_SELECTED_HEADER: "Scelto"
+ SITUATION_WINDOW_PHASE_EFFECTS: "Effetti della Fase"
+ SITUATION_WINDOW_YOUR_PARTICIPANT_GROUP: "Il tuo [situation_participant_group|E]"
+ SITUATION_WINDOW_YOUR_PARTICIPANT_GROUP_MULTI_SUBREGION: "Il tuo [situation_participant_group|E] in questa [situation_sub_region|E]"
+ SITUATION_WINDOW_VIEW_PARTICIPANT_GROUPS: "Tutti i Gruppi"
+ SITUATION_WINDOW_NO_REGION_PARTICIPANT_GROUP: "#italic Non sei in un [situation_participant_group|E] in questa [situation_sub_region|E].#!"
+ SITUATION_WINDOW_VIEW_ALL_FUTURE_PHASES: "Tutte le Fasi"
+ SITUATION_WINDOW_FUTURE_PHASES_HEADER: "Tutte le possibili [situation_phases|E] successive"
+ SITUATION_PHASE_POINT_TAKEOVER_VALUE: "[FutureSituationPhase.GetProgress] / [FutureSituationPhase.GetTakeoverPoints]"
+ SITUATION_WINDOW_PHASE_TAKEOVER_POINTS: "Punti di Acquisizione: "
+ SITUATION_WINDOW_PHASE_TAKEOVER_DURATION: "Acquisizione in [FutureSituationPhase.GetProgress] / [FutureSituationPhase.GetTakeoverDurationDays] Giorni"
+ SITUATION_WINDOW_VIEW_PHASE: "Vista"
+ SITUATION_WINDOW_FUTURE_CATALYSTS_HEADER: "Catalizzatori per [SituationPhaseType.GetNameNoTooltip]"
+
+SITUATION_PARTICIPANT_WINDOW_HEADER: "[SelectLocalization( Situation.HasMultipleSubRegions, 'SITUATION_PARTICIPANT_WINDOW_HEADER_MULTI_SUBREGION', 'SITUATION_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION' )]"
+SITUATION_PARTICIPANT_WINDOW_HEADER_SINGLE_SUBREGION: "Partecipanti in [Situation.GetNameNoTooltip]"
+SITUATION_PARTICIPANT_WINDOW_HEADER_MULTI_SUBREGION: "Partecipanti in [SituationSubRegion.GetNameNoTooltip]"
+
+SITUATION_PARTICIPANTS_TITLE: "Partecipanti"
+SITUATION_PARTICIPANT_GROUPS_TITLE: "Gruppi di partecipanti"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE: "[GetDataModelSize( SituationParticipantGroup.GetCharacters )|V] [SelectLocalization( ObjectsEqual( SituationParticipantGroup.GetSituation.Self, GetSituation('dynastic_cycle') ), 'SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_HEGEMON','')]Membri"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_HEGEMON: "[SelectLocalization( Or( Or( ObjectsEqual( SituationParticipantGroup.Self, GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler') ), ObjectsEqual( SituationParticipantGroup.Self, GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('undecided_movement') ) ), ObjectsEqual( SituationParticipantGroup.Self, GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('other_rulers') ) ), '','SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_LEADER')] [SelectLocalization( Or( ObjectsEqual( SituationParticipantGroup.Self, GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('hegemon_ruler') ), ObjectsEqual( SituationParticipantGroup.Self, GetSituation('dynastic_cycle').GetTopParticipantGroupByKey('other_rulers') ) ), '','SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_POWER')]"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_LEADER: "| [movement_leader|E]: [SelectLocalization( SituationParticipantGroup.IsCharacterParticipant(SituationParticipantGroup.MakeScope.Var('movement_leader').Char), 'SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_LEADER_NAME','SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_NO_LEADER')]"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_POWER: "| [movement_power|E]: [movement_power_i][SituationParticipantGroup.MakeScope.Var('movement_power').GetValue]"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_LEADER_NAME: "[SituationParticipantGroup.MakeScope.Var('movement_leader').Char.GetShortUIName]"
+SITUATION_PARTICIPANT_GROUP_SUBTITLE_DC_NO_LEADER: "Nessuno"
+SITUATION_PARTICIPANT_YOUR_GROUP_SUBTITLE: "Il tuo gruppo partecipante"
+SITUATION_PARTICIPANT_NOT_YOUR_GROUP_SUBTITLE: "Gruppo di partecipanti"
+ 
+ SITUATION_PARTICIPANT_WINDOW_PARTICIPANT_EMPTY: "Nessun Personaggio Trovato"
+ SITUATION_PARTICIPANT_GROUP_FILTER: "Filtra"
+SITUATION_PARTICIPANT_GROUP_VIEW_ALL: "Mostra tutti i gruppi"
+
+ SITUATION_TYPE_CONCEPT_LINK: "[situation|E]"
+ SITUATION_SUB_REGION_CONCEPT_LINK: "[situation_sub_region|E]"
+
+SITUATION_PHASE_TYPE_MODIFIERS_LABEL: "Effetti per [situation_participant_group|E]"
+ SITUATION_PHASE_TYPE_CONCEPT_LINK: "[situation_phase|E]"
+ SITUATION_PARTICIPANT_GROUP_TYPE_CONCEPT_LINK: "[situation_participant_group|E] nella [situation|E]"
+VIEW_PARTICIPANTS_TEXT: "Mostra partecipanti"
+CAN_SELECT_FASCINATION: "[SelectLocalization( ObjectsEqual(GetPlayer.GetCulture.GetFascinationType.Self, CultureInnovation.GetCulture.GetFascinationType.Self),'INNOVATION_IS_FASCINATION','INNOVATION_CLICK_TO_SELECT_FASCINATION')]"
+
+SITUATION_PARTICIPANT_GROUP_IN_PHASE_TYPE_SUBHEADER: "In [situation_phase] [SituationPhaseType.GetName]"
+
+SITUATION_PARTICIPANT_LAND: "@land_held! [SituationParticipantCharacterList.GetLandHeldPercentage( CharacterListItem.Self )|V0%]"
+SITUATION_PARTICIPANT_MILITARY: "@soldier_icon! [CharacterListItem.GetMilitaryStrength|V0]"
+SITUATION_PARTICIPANT_LAND_TT: "#T Terre detenute: $LAND_HELD_PERCENTAGE|V%$ #!\n[Character.GetShortUINameNoTooltip|U] e [Character.GetHerHisYour] [tributaries|E] detengono $OWNED_COUNTIES|V0$ delle $TOTAL_COUNTIES|V0$ [counties|E] nell'area di [Situation.GetNameNoTooltip]"
+SITUATION_PARTICIPANT_MILITARY_TT: "#T Forza militare: #!\n$MILITARY_DATA_BREAKDOWN$"
+
+NATURAL_DISASTER_PARTICIPANT_HEADER: "[characters|E] interessati"
+SITUATION_RECOMMENDATIONS_HEADER: "Raccomandazioni"
+
+natural_disaster_flood_severity_type: "Gravità dell'inondazione:"
+natural_disaster_earthquake_severity_type: "Gravità del terremoto:"
+
+situation_disaster_china_desc_before: " In [GetTitleByKey('h_china').GetDefinitiveName], i sudditi considereranno ciò il risultato della corruzione della dinastia regnante."
+situation_disaster_china_desc_after: " In [GetTitleByKey('h_china').GetDefinitiveName], i sudditi considereranno la restaurazione un segno che la dinastia regnante sta recuperando il [mandate_of_heaven|E]."
+situation_disaster_warning_description: "Una [natural_disaster|E] colpirà presto quest'area![AddLocalizationIf(ObjectsEqual(GetPlayer.GetTopLiege.Self,GetTitleByKey('h_china').GetHolder), 'situation_disaster_china_desc_before')]"
+situation_disaster_impact_description: "Una [natural_disaster|E] sta devastando quest'area![AddLocalizationIf(ObjectsEqual(GetPlayer.GetTopLiege.Self,GetTitleByKey('h_china').GetHolder), 'situation_disaster_china_desc_before')]"
+situation_disaster_recovery_description: "Ora che il peggio è passato, puoi destinare risorse agli sforzi di soccorso.[AddLocalizationIf(ObjectsEqual(GetPlayer.GetTopLiege.Self,GetTitleByKey('h_china').GetHolder), 'situation_disaster_china_desc_after')]"
+
+situation_disaster_warning_recommendations: "$EFFECT_LIST_BULLET$ Allontana [armies|E] e [characters|E] a cui tieni (te compreso!)\n$EFFECT_LIST_BULLET$ Evita per ora investimenti consistenti in quest'area\n$EFFECT_LIST_BULLET$ Metti da parte il tuo [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_has_treasury' ), 'situation_disaster_warning_recommendations_treasury', 'situation_disaster_warning_recommendations_gold' )] per contribuire allo sforzo di soccorso [great_project|e]"
+situation_disaster_warning_recommendations_treasury: "[treasury|E]"
+situation_disaster_warning_recommendations_gold: "[gold|E]"
+situation_disaster_impact_recommendations: "$EFFECT_LIST_BULLET$ Se ti trovi nell'area, allontanati il prima possibile!\n$EFFECT_LIST_BULLET$ Attendi che finisca\n$EFFECT_LIST_BULLET$ Accumula risorse per prepararti agli sforzi di soccorso"
+until_the_disaster_is_over: "la durata della ricostruzione"
+
+SITUATION_SUBREGION_CATALYSTS_BUTTON_TOOLIP: "#T $SILK_ROAD_CATALYSTS_WINDOW_HEADER$#!\n$CLICK_TO_VIEW$"
+
+SILK_ROAD_CATALYSTS_WINDOW_HEADER: "Catalizzatori nella regione di [SituationSubRegion.GetNameNoTooltip]"
