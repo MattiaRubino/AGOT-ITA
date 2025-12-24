@@ -1,4 +1,8 @@
 ﻿l_spanish:
+  #start AGOT modofiche
+
+  favor_movement_decision_tooltip: "Il [son_of_heaven|E] può impostare qualunque [movement|E] come [favored_movement|E]. [GetActivityType('activity_debate').GetName] può essere convocata da altri [characters|E] per contendere che il loro [movement|E] sia favorito al suo posto."
+  #End AGOT modifiche
 
  # Claim Mandate
   situation_dynastic_cycle_claim_mandate_decision: "Rivendica il Mandato del Cielo"
@@ -94,7 +98,6 @@ renounce_noble_family_title_decision_toast_desc: "[new_player.GetName] è il nuo
 
   favor_movement_decision: "Favorisci un movimento"
   favor_movement_decision_desc: "Sebbene tutti i [movements|E] possano influenzare il [dynastic_cycle|E], alcuni hanno un impatto maggiore di altri. In qualità di [ROOT.Char.GetTitleAsNameNoTooltip] posso elargire la mia grazia celeste a uno dei [movements|E] e dichiararlo [favored_movement|E] dei Cieli."
-  favor_movement_decision_tooltip: "Il [son_of_heaven|E] può impostare qualunque [movement|E] come [favored_movement|E]. [GetActivityType('activity_debate').GetName] può essere convocata da altri [characters|E] per contendere che il loro [movement|E] sia favorito al suo posto."
   SELECT_FAVOR_MOVEMENT: "Scegli movimento"
   favor_advancement_movement_desc: ""
   favor_advancement_movement_name: "[GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetNameNoTooltip]"

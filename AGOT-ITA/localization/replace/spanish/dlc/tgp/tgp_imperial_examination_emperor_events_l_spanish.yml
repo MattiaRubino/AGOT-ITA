@@ -1,5 +1,13 @@
 ﻿l_spanish:
-
+  #start AGOT modofiche
+ emperor_imperial_examination.700.t: ""
+ emperor_imperial_examination.700.desc: ""
+ emperor_imperial_examination.700.a: ""
+ emperor_imperial_examination.700.b: ""
+ emperor_imperial_examination.700.c: ""
+ situation_type_silk_road_situation: ""
+ situation_type_silk_road_situation_desc: ""
+  #End AGOT modifiche
 
   emperor_imperial_examination.100.t: "In soggezione"
 emperor_imperial_examination.100.desc: "«[Select_CString(ROOT.Char.IsFemale,'Somma e saggia','Sommo e saggio')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], è il massimo onore stare alla tua presenza.» [Select_CString(examination_character_2.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], parla con reverenza. «Possa questo esame dimostrare che sono [Select_CString(examination_character_2.IsFemale,'la vostra leale servitrice','il vostro leale servitore')].»\n\n«Possano la potenza e lo splendore di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], e [ROOT.Char.Custom('GetDaughterSon')|U] del Cielo, durare diecimila anni!»"
@@ -39,13 +47,6 @@ emperor_imperial_examination.100.desc: "«[Select_CString(ROOT.Char.IsFemale,'So
   emperor_imperial_examination.600.b: "Basta, concentrati sull'esame."
   emperor_imperial_examination.600.c: "Un affronto; vattene subito."
 
-  emperor_imperial_examination.700.t: "Dono d'argento"
-  emperor_imperial_examination.700.desc: "«[Select_CString(ROOT.Char.IsFemale,'Somma','Sommo')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip],» [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], si prostra profondamente. «La mia famiglia, i [examination_character_2.GetHouse.GetName], ha legami con i mercanti della [GetSituationType('silk_road_situation').GetName|l] e del $sea_yellow_sea$ — legami che ho sfruttato per offrirti un umile dono.»\n\n«È uno scrigno di monete d'argento da [silver_county.GetNameNoTier], recanti il sigillo [silver_county_top_liege.Custom('IT_NAM_COL2')][silver_county_top_liege.GetTitleAsNameNoTooltip] di [silver_county_top_liege.GetPrimaryTitle.GetDefinitiveName|l].»"
-  emperor_imperial_examination.700.a: "Accetto con magnanimità."
-  emperor_imperial_examination.700.b: "Parlami di [silver_county_top_liege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|l]."
-  emperor_imperial_examination.700.c: "Dividetelo tra voi; usatelo per gli studi."
-  situation_type_silk_road_situation: "La Via della Seta"
-  situation_type_silk_road_situation_desc: "$game_concept_silk_road_situation_desc$"
 
   emperor_imperial_examination.800.t: "Un eunuco in tributo"
   emperor_imperial_examination.800.desc: "«[Select_CString(ROOT.Char.IsFemale,'Magnanima','Magnanimo')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], [Select_CString(examination_character_2.IsFemale,'la tua umile servitrice','il tuo umile servitore')] chiede perdono per l'interruzione,» dice [Select_CString(examination_character_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', examination_character_2)], [examination_character_2.Custom('IT_NAM_COL3')][examination_character_2.GetTitledFirstName], inchinandosi con un gongshou. «Questo è [examination_character_1.GetFirstName] — un [GetTrait('eunuch_1').GetName( GetNullCharacter )] ricco di risorse, da lungo tempo leale alla casata [examination_character_2.GetHouse.GetName].»\n\n«Offriamo il suo servizio al palazzo, perché [ROOT.Char.GetPrimaryTitle.GetNameNoTier] fiorisca sotto la tua grazia.»"

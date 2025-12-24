@@ -8,7 +8,8 @@
  culture_parameter_permafrost_modifier_removal_condition: "#V $mpo_siberian_permafrost_modifier$#! [modifier|E] può essere rimosso tramite l'#V $feudalize_holding_interaction$#! [interaction|E]"
  mpo_siberian_permafrost_modifier: "Ghiaccio Perpetuo di Iperborea"
  mpo_siberian_permafrost_modifier_desc: "Suolo gelato da millenni, privo d'acqua e con vegetazione rada. La terra muta ogni anno per il continuo sciogliersi e ricongelarsi. Perché queste lande divengano davvero parte del loro dominio, gli uomini devono adattarsi nel corso dei secoli. Ogni altro essere, ogni altra cosa, perirà e raggiungerà gli antichi morti sotto il ghiaccio.\n\n#weak Questo modificatore può essere rimosso tramite l'#V $feudalize_holding_interaction$#! [interaction|E]\n\n"
- 
+ culture_in_non_sedentary_geographical_region_trigger_desc:0 "La [culture|E] non è presente nella regione [GetGeographicalRegion('world_essos_great_grass_sea').GetName]"
+
  #End AGOT modifiche
 
  # Ethoses
@@ -871,7 +872,6 @@ must_be_feudal_clan_or_admin_auh: "Devi avere il [government|E] [feudal|E], [cla
   no_philosopher_culture:0 "$tradition_fp3_beacon_of_learning_name$ è incompatibile con $tradition_philosopher_culture_name$"
  
   culture_in_winter_geographical_region_trigger_desc:0 "La [culture|E] non è presente in una [region|E] con l'inverno"
-  culture_in_non_sedentary_geographical_region_trigger_desc:0 "La [culture|E] non è presente in [GetGeographicalRegion('world_steppe').GetName]"
  #culture_in_britannia_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_west_britannia').GetName]"
  #culture_in_world_europe_north_region_trigger_desc: "The [culture|E] is not present in [GetGeographicalRegion('world_europe_north').GetName]"
   culture_in_india_region_trigger_desc:0 "La [culture|E] non è presente in [GetGeographicalRegion('world_india').GetName]"
@@ -1106,7 +1106,7 @@ rulers_lacks_storytelling_traits_desc: 0 "La [culture|E] non ha almeno #V 5#! [r
   culture_emergence_events.0003.desc:0 "[culture_check_2.GetName]\n[duchy_title.GetName]\n[diverge_dummy.GetFullName]"
 
   culture_emergence_events.0005.t: "Il fascino del romancio"
-  culture_emergence_events.0005.desc: "Mentre [county_scope.GetNameNoTierNoTooltip] celebra l’emergere di [new_culture_scope.GetName], ho notato che alcuni tra i più #italic rustici#! del paese parlano ancora un dialetto che non è proprio ciò che pensavo fosse [new_culture_scope.GetNameNoTooltip].\n\n[Select_CString(rustic_peasant.IsFemale,'Una contadina','Un contadino')] si trova vicino alla strada mentre passo, e chiacchiera con qualcuno nei campi. \"Ehi, tu!\" tuono. \"Che lingua è mai quella che parli?\"\n\nl[rustic_peasant.Custom('DE_PRO_PER_S_3P_N')][rustic_peasant.GetWomanMan] si ferma. \"Suppongo,\" [Select_CString(rustic_peasant.IsFemale,'lei','lui')] risponde lentamente in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip], \"la chiamiamo semplicemente #italic romancio#!.\"\n\n\"Romancio\", eh? È questo ciò che il mio popolo è davvero?"
+  culture_emergence_events.0005.desc: "Mentre [county_scope.GetNameNoTierNoTooltip] celebra l’emergere di [new_culture_scope.GetName], ho notato che alcuni tra i più #italic rustici#! del paese parlano ancora un dialetto che non è proprio ciò che pensavo fosse [new_culture_scope.GetNameNoTooltip].\n\n[Select_CString(rustic_peasant.IsFemale,'Una contadina','Un contadino')] si trova vicino alla strada mentre passo, e chiacchiera con qualcuno nei campi. "Ehi, tu!" tuono. "Che lingua è mai quella che parli?"\n\nl[rustic_peasant.Custom('DE_PRO_PER_S_3P_N')][rustic_peasant.GetWomanMan] si ferma. "Suppongo," [Select_CString(rustic_peasant.IsFemale,'lei','lui')] risponde lentamente in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip], "la chiamiamo semplicemente #italic romancio#!."\n\n"Romancio", eh? È questo ciò che il mio popolo è davvero?"
   culture_emergence_events.0005.a: "Le nostre lingue siano romancie quanto i nostri cuori."
   culture_emergence_events.0005.a.tt: "[new_culture_scope.GetNameNoTooltip] userà #bold solo#! nomi romanci"
   culture_emergence_events.0005.b: "Il romancio entrerà a far parte del mosaico di [new_culture_scope.GetName]."

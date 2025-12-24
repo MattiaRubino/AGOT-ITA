@@ -24,7 +24,7 @@
  councillor_spouse_stewardship.2001.d:0 "Risparmiamoli per il momento"
 
  councillor_spouse_stewardship.2002.t:1 "Coniuge: Una Brillante Opportunità"
-councillor_spouse_stewardship.2002.desc: 0 "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U].\" [courtier_lender.Custom('IT_NAM_COL3')][courtier_lender.GetTitledFirstName] si avvicina a me e sorride [courtier_lender.Custom('quirk_pos_adverb')]. \"[councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], nella [Select_CString(councillor.IsFemale,'sua','sua')] saggezza, ha suggerito un accordo fra noi due. A te servirebbe un aiuto finanziario e a me un po' di assistenza sociale...\""
+councillor_spouse_stewardship.2002.desc: 0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]." [courtier_lender.Custom('IT_NAM_COL3')][courtier_lender.GetTitledFirstName] si avvicina a me e sorride [courtier_lender.Custom('quirk_pos_adverb')]. "[councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], nella [Select_CString(councillor.IsFemale,'sua','sua')] saggezza, ha suggerito un accordo fra noi due. A te servirebbe un aiuto finanziario e a me un po' di assistenza sociale...""
  councillor_spouse_stewardship.2002.a:0 "Ti ripagherò, te lo prometto."
  councillor_spouse_stewardship.2002.money_loan_tooltip:0 "Prendo in prestito [gold_i] #bold [THIS.Var('amount_to_loan').GetValue]#! oro da [courtier_lender.GetFirstNameNoTooltip]."
  councillor_spouse_stewardship.2002.b:0 "Perché non li doni alla [ROOT.Char.GetFaith.HouseOfWorship] invece?"
@@ -32,7 +32,7 @@ councillor_spouse_stewardship.2002.desc: 0 "\"[ROOT.Char.Custom('FormOfAddressFo
  councillor_spouse_stewardship.2002.d:0 "Accetto volentieri questo omaggio!"
 
  councillor_spouse_stewardship.2003.t:1 "Coniuge: Opportunità di Commercio"
-councillor_spouse_stewardship.2003.desc: 0 "[councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName] si avvicina con tre rotoli di pergamena tra le braccia.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho redatto proposte commerciali per i sovrani vicini. Sono cert[Select_CString(councillor.IsFemale,'a','o')] che si possa concludere un accordo utile a entrambe le parti!\""
+councillor_spouse_stewardship.2003.desc: 0 "[councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName] si avvicina con tre rotoli di pergamena tra le braccia.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho redatto proposte commerciali per i sovrani vicini. Sono cert[Select_CString(councillor.IsFemale,'a','o')] che si possa concludere un accordo utile a entrambe le parti!""
  councillor_spouse_stewardship.2003.a:0 "[ruler_1.GetTitledFirstNameNoTooltip] sembra ragionevole."
  councillor_spouse_stewardship.2003.b:0 "Concludi un'intesa con [ruler_2.GetTitledFirstNameNoTooltip]."
  councillor_spouse_stewardship.2003.c:0 "Fai un accordo con [ruler_3.GetTitledFirstNameNoTooltip]."

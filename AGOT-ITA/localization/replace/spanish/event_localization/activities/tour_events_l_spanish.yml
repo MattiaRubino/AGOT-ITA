@@ -1,6 +1,6 @@
 ﻿l_spanish:
  #start AGOT modifiche
-host_dinner_events.1008.desc.mid.dead_positive_relation_memory:0 "[stop_host_scope.GetNameNoTooltip] si presenta vestit[Select_CString(stop_host_scope.IsFemale,'a','o')] come il mio amat[Select_CString(dead_relation.IsFemale,'a','o')] [dead_relation.GetName].\n\n\"Ahimè, passo a [dead_relation.GetFaith.PositiveAfterLife|U]. Penso solo a [visiting_liege.GetNameNoTooltip] e a tutti i meravigliosi momenti che abbiamo condiviso.\"\n\nUna tragica esibizione colma di sentimento che rievoca il momento in cui [memory_performance_scope.GetDescription]."
+host_dinner_events.1008.desc.mid.dead_positive_relation_memory:0 "[stop_host_scope.GetNameNoTooltip] si presenta vestit[Select_CString(stop_host_scope.IsFemale,'a','o')] come il mio amat[Select_CString(dead_relation.IsFemale,'a','o')] [dead_relation.GetName].\n\n"Ahimè, passo a [dead_relation.GetFaith.PositiveAfterLife|U]. Penso solo a [visiting_liege.GetNameNoTooltip] e a tutti i meravigliosi momenti che abbiamo condiviso."\n\nUna tragica esibizione colma di sentimento che rievoca il momento in cui [memory_performance_scope.GetDescription]."
 
 
   #End AGOT modifiche
@@ -827,7 +827,7 @@ host_dinner_events.1031.desc: 0 "\n\n[stop_host_scope.GetName] si è offert[Sele
  host_dinner_events.3010.a:0 "Lo chiederò e basta."
  host_dinner_events.3010.b:0 "Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che il cibo locale andrà bene."
  host_dinner_events.3011.title:0 "$host_dinner_events.3010.title$"
- host_dinner_events.3011.desc:1 "Con questa cena mi sono davvero superat[ROOT.Char.Custom('DE_END_PRO_S_N')]! I miei cuochi hanno sfornato una serie di piatti così succulenti da far venire l'acquolina, eppure [visiting_liege.Custom('IT_NAM_COL3')][visiting_liege.GetTitledFirstName] sembra non voler toccare nulla.\n\n\"Questo cibo non è di mio gradimento. Potete portarmi un po' di [ROOT.Char.Custom('GetExpensiveDessert')]? Ah, come mi manca quel dolce sapore in bocca.\"\n\nÈ un po' offensivo, ma un gesto del genere non può esser dimenticato tanto facilmente..."
+ host_dinner_events.3011.desc:1 "Con questa cena mi sono davvero superat[ROOT.Char.Custom('DE_END_PRO_S_N')]! I miei cuochi hanno sfornato una serie di piatti così succulenti da far venire l'acquolina, eppure [visiting_liege.Custom('IT_NAM_COL3')][visiting_liege.GetTitledFirstName] sembra non voler toccare nulla.\n\n"Questo cibo non è di mio gradimento. Potete portarmi un po' di [ROOT.Char.Custom('GetExpensiveDessert')]? Ah, come mi manca quel dolce sapore in bocca."\n\nÈ un po' offensivo, ma un gesto del genere non può esser dimenticato tanto facilmente..."
  host_dinner_events.3011.a:0 "Certamente!"
  host_dinner_events.3011.gave_local_food:0 "[stop_host_scope.GetName] concorda"
  host_dinner_events.3011.b:0 "Questo è un insulto!"
@@ -894,7 +894,7 @@ host_dinner_events.3041.d: 0 "Ah! Sei smascherat[Select_CString(pie_eater_scope.
  host_dinner_events.3080.failed_to_save_them:0 "Non riesci a salvare [choking_character_scope.GetFirstName]"
  host_dinner_events.3080.b:0 "Non è un mio problema."
  host_dinner_events.3081.title:0 "Una vita salvata"
- host_dinner_events.3081.desc:0 "Mi alzo e assesto a [choking_character_scope.GetName] forti colpi sulla schiena, più e più volte, finché, ormai blu in viso, non espelle un grottesco grumo di ciò che poco prima era cibo prelibato: atterra schizzando in una costosa salsa alle erbe.\n\n\"Oh, grazie! Oggi avete salvato una vita, mi[visiting_liege.Custom('DE_END_PRO_S_N')] [visiting_liege.GetTitleAsNameNoTooltip|U]! Sarò per sempre in debito con voi.""
+ host_dinner_events.3081.desc:0 "Mi alzo e assesto a [choking_character_scope.GetName] forti colpi sulla schiena, più e più volte, finché, ormai blu in viso, non espelle un grottesco grumo di ciò che poco prima era cibo prelibato: atterra schizzando in una costosa salsa alle erbe.\n\n"Oh, grazie! Oggi avete salvato una vita, mi[visiting_liege.Custom('DE_END_PRO_S_N')] [visiting_liege.GetTitleAsNameNoTooltip|U]! Sarò per sempre in debito con voi.""
  host_dinner_events.3081.a:0 ""Non mi dovete nulla se non la vostra compagnia.""
  host_dinner_events.3081.b:0 ""Sì, mi dovete la vostra vita.""
  host_dinner_events.1040.title:0 "Giochi Noiosi"
@@ -902,7 +902,7 @@ host_dinner_events.3041.d: 0 "Ah! Sei smascherat[Select_CString(pie_eater_scope.
  host_dinner_events.1040.a:0 "Giochiamo!"
  host_dinner_events.1040.b:0 "Lasciamo perdere."
  host_dinner_events.1041.title:0 "La Sfida"
- host_dinner_events.1041.desc:0 "Mentre finisco il mio pasto, un’altra tavola viene posta di fronte a me; stavolta, al posto del cibo, c’è una piccola pedina.\n\n\"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], sicuramente sapete che sono famos[stop_host_scope.Custom('DE_END_PRO_S_N')] per essere [Select_CString(stop_host_scope.IsFemale,'una giocatrice','un giocatore')] di scacchi fra [Select_CString(stop_host_scope.IsFemale,'le migliori','i migliori')] di [stop_host_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]. Ma non voglio giocare solo per divertimento: forse potremmo rendere le cose interessanti con una scommessa...\"\n\n[stop_host_scope.Custom('IT_NAM_COL3')|U][stop_host_scope.GetTitledFirstName] mi sorride, roteando pigramente un pezzo tra le dita, in attesa di una risposta."
+ host_dinner_events.1041.desc:0 "Mentre finisco il mio pasto, un’altra tavola viene posta di fronte a me; stavolta, al posto del cibo, c’è una piccola pedina.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], sicuramente sapete che sono famos[stop_host_scope.Custom('DE_END_PRO_S_N')] per essere [Select_CString(stop_host_scope.IsFemale,'una giocatrice','un giocatore')] di scacchi fra [Select_CString(stop_host_scope.IsFemale,'le migliori','i migliori')] di [stop_host_scope.GetPrimaryTitle.GetNameNoTierNoTooltip]. Ma non voglio giocare solo per divertimento: forse potremmo rendere le cose interessanti con una scommessa..."\n\n[stop_host_scope.Custom('IT_NAM_COL3')|U][stop_host_scope.GetTitledFirstName] mi sorride, roteando pigramente un pezzo tra le dita, in attesa di una risposta."
  host_dinner_events.1041.a:0 "È il mio turno, [stop_host_scope.GetFirstNameNoTooltip]."
  host_dinner_events.1041.b:0 "Non rovinerò la mia serata con questo gioco."
  host_dinner_events.1042.title:0 "Il Favore"

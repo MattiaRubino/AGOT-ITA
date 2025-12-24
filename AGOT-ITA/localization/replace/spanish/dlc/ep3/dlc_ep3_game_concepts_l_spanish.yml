@@ -1,5 +1,8 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ game_concept_appointment_succession_law_desc: "Con la $game_concept_appointment_succession_law$, il [title|E] e i [holdings|E] ad esso associati saranno ereditati dal Candidato con il [candidate_score|E] più alto.\n\nLe tipologie sono:\n$EFFECT_LIST_BULLET$[GetLaw('appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('acclamation_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('japanese_appointment_succession_law').GetName]"
 
+ #End AGOT modifiche
  game_concept_administrative_government: "Governo Amministrativo"
  game_concept_administrative_governments: "Governi Amministrativi"
  game_concept_administrative: "Amministrativo"
@@ -310,8 +313,7 @@ game_concept_appointment_succession_laws: "Leggi di successione per nomina"
 game_concept_appointment: "Nomina"
 game_concept_appointments: "Nomine"
 game_concept_appointment_succession: "Successione per nomina"
-game_concept_appointment_succession_law_desc: "In base alla $game_concept_appointment_succession_law$, il [title|E] e i [holdings|E] associati saranno ereditati dal candidato con il [candidate_score|E] più alto.\n\nI tipi sono:\n$EFFECT_LIST_BULLET$[GetLaw('appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('acclamation_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_ministry_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('celestial_grand_marshal_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('meritocratic_military_appointment_succession_law').GetName]\n$EFFECT_LIST_BULLET$[GetLaw('japanese_appointment_succession_law').GetName]"
- 
+
 game_concept_appointment_level: "Livello di nomina"
 game_concept_appointment_levels: "Livelli di nomina"
 game_concept_appointment_level_desc: "Un $game_concept_appointment_level$ è impiegato da alcune [appointment_succession_laws|E] come requisito perché i [characters|E] diventino candidati idonei.\n\nI livelli si basano sul grado di una valuta specifica e ogni legge può usare una valuta diversa come requisito. Un [title|E] di rango superiore in genere richiede un livello più alto.\n\n#weak Per esempio: [GetLaw('celestial_appointment_succession_law').GetName] richiede [merit|E] - Un [duchy|E] richiede un [merit_level|E] di [GetModifier( 'merit_level_3' ).GetNameWithTooltip|L] o superiore, mentre un [kingdom|E] richiede [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] o superiore.#!"

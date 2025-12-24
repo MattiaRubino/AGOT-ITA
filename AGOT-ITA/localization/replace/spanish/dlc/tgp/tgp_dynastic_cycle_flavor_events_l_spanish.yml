@@ -1,4 +1,8 @@
 ﻿l_spanish:
+  #start AGOT modofiche
+  tgp_debate_discount_var_tt: "Puoi organizzare un Dibattito nei prossimi #V 5 anni#! con uno sconto del #P 25%#!"
+
+  #End AGOT modifiche
 
   tgp_dynastic_cycle_events.0001.t: "La via da seguire"
   tgp_dynastic_cycle_events.0001.desc: "Il giardino è immobile, salvo il fruscio delle foglie nella brezza. Nel silenzio, i miei pensieri si volgono al reame in questi tempi di [my_situation.GetTopCurrentPhase.GetName|l].\n\nBasterà resistere? Può il reame perseverare quando è immobile come questo giardino?\n\nIl tè sul vassoio del mio servo si è già raffreddato."
@@ -33,18 +37,10 @@
   tgp_dynastic_cycle_events.0030.b: "«Desidero imparare, ma non cambiare.»"
   tgp_dynastic_cycle_events.0030.c: "Non c'è onore più alto del governo civile."
  
-  tgp_dynastic_cycle_events.0040.t: "Una via d'opportunità"
-  tgp_dynastic_cycle_events.0040.desc: "[Select_CString(steward.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('steward'))] [steward.GetTitledFirstName] entra nello studio con un sorriso sul volto e monete in mano.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], le carovane da occidente si fanno più frequenti, seguendo [silk_road_situation.GetName]. Con un modesto investimento in collegamenti migliori potremmo attirare nel nostro la ricchezza di molti regni.»"
-  tgp_dynastic_cycle_events.0040.a: "«Questa fase di [my_situation.GetTopCurrentPhase.GetType.GetNameNoTooltip|l] è l'occasione perfetta!»"
-  tgp_dynastic_cycle_events.0040.b: "«Non perdere tempo!»"
-  tgp_dynastic_cycle_events.0040.c: "La Via della Seta continuerà. Con o senza di noi."
-  tgp_silk_road_advancement_modifier: "Via della Seta potenziata"
-  tgp_silk_road_advancement_modifier_desc: "Questo personaggio ha investito nella Via della Seta #EMP proprio al momento giusto#!."
- 
+
   tgp_dynastic_cycle_events.0050.t: "Un cambiamento di favore"
   tgp_dynastic_cycle_events.0050.desc: "La presa che il [favored_movement.GetName] esercita sul trono si fa più stretta, i loro consigli plasmano la politica a proprio piacimento.\n\nSe la mia causa vuole risalire, devo indebolirne la reputazione. Un dibattito pubblico potrebbe orientare il giudizio della corte, forse persino quello di [top_liege.Custom('IT_NAM_COL2')][top_liege.GetTitleAsNameNoTooltip].\n\nMa sfidarli significa rischiare l'umiliazione, se le parole dovessero venir meno."
   tgp_dynastic_cycle_events.0050.a: "Non posso permettermi di dubitare."
   tgp_dynastic_cycle_events.0050.b: "Il [my_movement.GetNameNoTooltip] avrà meriti propri."
   tgp_dynastic_cycle_events.0050.c: "Perché rischiare la mia dignità per il movimento?"
-  tgp_debate_discount_var_tt: "Puoi organizzare un [GetActivityType('activity_debate').GetName] nei prossimi #V 5 anni#! con uno sconto del #P 25%#!"
   tgp_debate_discount_var_desc: "Da evento"

@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
   tgp_ceremonial_liege_events.0001.t: "Sigillo di confusione"
-  tgp_ceremonial_liege_events.0001.desc: "[councillor.GetName] ha inviato per errore istruzioni recanti il mio sigillo e quello [opposing_power.GetNamePossessive]. \"È stato un errore onesto,\" implora [Select_CString(councillor.IsFemale,'lei','lui')]. \"Ma sai quanto in fretta menzogne e pettegolezzi si diffondono a corte...\"\n\nRichiamarle potrebbe essere piuttosto costoso, ma ripudiarle pubblicamente come errore sarebbe assai imbarazzante."
+  tgp_ceremonial_liege_events.0001.desc: "[councillor.GetName] ha inviato per errore istruzioni recanti il mio sigillo e quello [opposing_power.GetNamePossessive]. "È stato un errore onesto," implora [Select_CString(councillor.IsFemale,'lei','lui')]. "Ma sai quanto in fretta menzogne e pettegolezzi si diffondono a corte..."\n\nRichiamarle potrebbe essere piuttosto costoso, ma ripudiarle pubblicamente come errore sarebbe assai imbarazzante."
   tgp_ceremonial_liege_events.0001.a_liege: "Ricorda loro chi comanda davvero."
   tgp_ceremonial_liege_events.0001.a_regent: "Questo va sistemato prima che [opposing_power.GetFirstNameNoTooltip] lo veda."
   tgp_ceremonial_liege_events.0001.b: "Lascia tutto com'è. Che male fanno le apparenze?"
@@ -10,7 +10,7 @@
   tgp_ceremonial_liege_events.0001.b_c: "[opposing_power.GetNameNoTooltip] guadagna più potere"
 
   tgp_ceremonial_liege_events.0010.t: "Il vero peso"
-  tgp_ceremonial_liege_events.0010.desc: "\"Mio caro!\" esclama [spouse.GetName] entrando nei nostri appartamenti. \"Hai la pelle molto pallida, mi preoccupi.\"\n\nLa sua preoccupazione è ben riposta. Le ore di ogni giorno si allungano, e il peso della corona grava sempre più su di me.\n\n\"Se sei così gravato, forse [opposing_power.GetName] potrebbe governare al tuo posto, temporaneamente\", propone [spouse.GetFirstNameNoTooltip]."
+  tgp_ceremonial_liege_events.0010.desc: ""Mio caro!" esclama [spouse.GetName] entrando nei nostri appartamenti. "Hai la pelle molto pallida, mi preoccupi."\n\nLa sua preoccupazione è ben riposta. Le ore di ogni giorno si allungano, e il peso della corona grava sempre più su di me.\n\n"Se sei così gravato, forse [opposing_power.GetName] potrebbe governare al tuo posto, temporaneamente", propone [spouse.GetFirstNameNoTooltip]."
   tgp_ceremonial_liege_events.0010.a: "Hai ragione, non posso farcela da solə."
   tgp_ceremonial_liege_events.0010.b: "No, no, mi farò vedere meno a corte."
   tgp_ceremonial_liege_events.0010.b_a: "L'isolamento aiuta molto"
@@ -52,7 +52,7 @@
   tgp_ceremonial_liege_events.0030.c_tt: "Redarguisci il lavoro di [scholar.GetFirstNameNoTooltip]"
  
   tgp_ceremonial_liege_events.0040.t: "Facciata... per ora"
-  tgp_ceremonial_liege_events.0040.desc: "\"Perdonami, [Select_CString(inquirer.IsFemale,'mia','mio')] [inquirer.Custom2('RelationToMeShort', ROOT.Char).]\" sussurra piano [inquirer.GetName] avvicinandosi.\n\n\"Ci ho rimuginato a lungo e perdonami se è inappropriato,\" dice [Select_CString(inquirer.IsFemale,'lei','lui')]. \"Ma perché non ti sbarazzi di [opposing_power.GetFirstName]? Non si addice [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip] fare il burattinaio [opposing_power.Custom('IT_NAM_COL2')][opposing_power.GetTitleAsNameNoTooltip]!\""
+  tgp_ceremonial_liege_events.0040.desc: ""Perdonami, [Select_CString(inquirer.IsFemale,'mia','mio')] [inquirer.Custom2('RelationToMeShort', ROOT.Char).]" sussurra piano [inquirer.GetName] avvicinandosi.\n\n"Ci ho rimuginato a lungo e perdonami se è inappropriato," dice [Select_CString(inquirer.IsFemale,'lei','lui')]. "Ma perché non ti sbarazzi di [opposing_power.GetFirstName]? Non si addice [ROOT.Char.Custom('IT_NAM_COL4')][ROOT.Char.GetTitleAsNameNoTooltip] fare il burattinaio [opposing_power.Custom('IT_NAM_COL2')][opposing_power.GetTitleAsNameNoTooltip]!""
   tgp_ceremonial_liege_events.0040.a: "È tutto per le apparenze, [Select_CString(inquirer.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', inquirer)]..."
   tgp_ceremonial_liege_events.0040.a_desc: "Cerchi di dir[Select_CString(inquirer.IsFemale,'le','gli')] che è una facciata"
   tgp_ceremonial_liege_events.0040.tt.success: "Convinci [Select_CString(inquirer.IsFemale,'lei','lui')]"

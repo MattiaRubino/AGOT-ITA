@@ -18,7 +18,7 @@
  steward_task.0003.a:0 "Che tu sia maledett[previous_owner.Custom('DE_END_PRO_S_N')], [previous_owner.GetFirstNameNoTooltip]!"
 
  steward_task.1101.t:0 "Tassazione Migliorata"
-steward_task.1101.desc: 0 "Mentre [Select_CString(councillor.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] sciorina feudo dopo feudo, il loro valore e i tributi pagati, [Select_CString(councillor.IsFemale,'la','lo')] fermo quando all'improvviso sento una somma che #EMP deve#! essere un errore.\n\"Quanti denari hai portato dalla [county.GetName]?!\"\n\n[councillor.GetFirstName] sorride. \"Pensavo ti avrebbe fatto piacere saperlo, [ROOT.Char.Custom('FormOfAddressForLiege')].\""
+steward_task.1101.desc: 0 "Mentre [Select_CString(councillor.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] sciorina feudo dopo feudo, il loro valore e i tributi pagati, [Select_CString(councillor.IsFemale,'la','lo')] fermo quando all'improvviso sento una somma che #EMP deve#! essere un errore.\n"Quanti denari hai portato dalla [county.GetName]?!"\n\n[councillor.GetFirstName] sorride. "Pensavo ti avrebbe fatto piacere saperlo, [ROOT.Char.Custom('FormOfAddressForLiege')].""
  steward_task.1101.a:2 "In nome di [ROOT.Char.GetFaith.WealthGodName], certo che ne sono lieto!"
  steward_task.1101.b:0 "Ahaha! Giorno di paga!"
  steward_task.1101.notification:0 "Tasse Aggiuntive" 

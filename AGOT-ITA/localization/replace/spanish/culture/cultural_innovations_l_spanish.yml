@@ -10,8 +10,12 @@
  innovation_cranes_desc:0 "Meraviglia dimenticata dell'ingegneria, i Valyriani usavano le gru a ruota mobile per costruire il loro impero, e così faremo anche noi."
  innovation_development_04:0 "Espansione Urbana"
  innovation_development_04_desc:0 "Questa cultura ha riconosciuto l'importanza di centri economici forti per la prosperità del regno e del popolo.."
- 
- #End AGOT modifiche
+ innovation_champa_rice: "Riso Dorato"
+ innovation_champa_rice_desc: "Il riso richiede abbondanza di tempo e acqua — fatta eccezione per il riso dorato. Questa varietà cresce più rapidamente, resiste meglio alla siccità e offre un raccolto più abbondante rispetto a quasi ogni altro tipo di riso conosciuto. In alcuni casi può persino essere raccolto due volte l'anno. Se gestito correttamente, questo riso può potenziare le fattorie e alimentare un boom demografico."
+ innovation_dragon_kiln: "Forni per Porcellana"
+ innovation_pharmacopoeia: "Guaritori Addestrati"
+
+  #End AGOT modifiche
 
   cb_discount_prestige_10:1 "Costo in [prestige|E] per il [casus_belli|E]: #P -10%#![prestige_i]"
   cb_discount_piety_10:1 "Costo in [piety|E] per il [casus_belli|E]: #P -10%#![piety_i]"
@@ -383,13 +387,9 @@ innovation_ermine_cloaks_desc: "Chiunque può rivendicare un titolo, ma per esse
  # The Silk Road #
  #################
 
-  culture_parameter_silk_road_innovation_parameter: "Può essere acquisita come potenziale [cultural_fascination|E] solo tramite [GetCulturePillar('heritage_chinese').GetName] [heritage|E], la [GetCultureTradition('tradition_sinophilic').GetName] [tradition|E] o la [silk_road|E]"
 
   innovation_fire_medicine: "Medicina di fuoco"
   innovation_fire_medicine_desc: "Indagare i misteri della vita può talvolta portare a scoperte che generano solo morte. La medicina di fuoco, una potente combinazione di zolfo, salnitro e materiale combustibile, crea una fiamma letale che brucia con furia, quasi esplosiva."
-
-  innovation_champa_rice: "Riso di Champa"
-  innovation_champa_rice_desc: "Il riso richiede molto tempo e acqua, tranne il riso di Champa. Questa varietà cresce più in fretta, resiste meglio alla siccità e offre rese più abbondanti di quasi ogni altro tipo noto. In alcuni casi può perfino essere raccolto due volte in un anno. Se gestito correttamente, questo riso può potenziare le fattorie e alimentare un boom demografico."
 
 culture_parameter_champa_rice_wet_land_paddies: "Le serie di [buildings|E] [GetBuilding('paddy_fields_01').GetTypeName|V] e [GetBuilding('farm_estates_01').GetTypeName|V] possono essere costruite nelle [GetTerrain( 'wetlands' ).GetName]"
   culture_parameter_champa_rice_building_bonuses: "La linea di [buildings|E] [GetBuilding('paddy_fields_01').GetTypeName|V] concede bonus aggiuntivi"
@@ -399,7 +399,6 @@ building_paddy_fields_requirement_terrain_tt: "Una delle seguenti:\n$EFFECT_LIST
   innovation_sericulture_desc: "L'arte della produzione della seta è un processo complesso ma assai redditizio, la cui conoscenza è gelosamente custodita da chi trae profitto dalla padronanza di questa industria."
   culture_parameter_unlocks_silk_buildings_parameter: "Sblocca la linea di [domicile_buildings|E] [GetDomicileBuilding('silk_01').GetNameNoTooltip|V]"
 
-  innovation_dragon_kiln: "Fornaci del Drago"
   innovation_dragon_kiln_desc: "La migliore porcellana può essere prodotta solo in fornaci altamente specializzate, situate vicino a preziosi giacimenti minerari. Queste fornaci sono costruite su ripidi pendii che aiutano a creare un vortice di calore per cuocere le ceramiche più dure possibili. Sebbene difficili da edificare, i manufatti che producono sono tra le ceramiche più alla moda e redditizie conosciute in qualsiasi corte."
 
   innovation_rocket_cart: "Carri a razzi"
@@ -452,7 +451,6 @@ building_paddy_fields_requirement_terrain_tt: "Una delle seguenti:\n$EFFECT_LIST
   innovation_composite_crossbow: "Balestre composite"
   innovation_composite_crossbow_desc: "Come per gli archi semplici, la resistenza del braccio dell'arco determina la potenza potenziale del tiro. Rinforzando l'arco con corno o persino acciaio, la potenza di trazione, e dunque gittata e forza, di una balestra possono superare di gran lunga qualsiasi controparte in legno, oltre a renderla più resistente e durevole."
 
-  innovation_pharmacopoeia: "Farmacopea"
   innovation_pharmacopoeia_desc: "Ogni buon medico deve saper produrre i rimedi giusti al momento giusto, usando gli ingredienti adeguati preparati nel modo corretto e nelle giuste quantità. Benché questa conoscenza sia spesso tramandata dal maestro all'apprendista su base individuale, #italic mettere per iscritto#! come preparare specifici medicinali può aiutare enormemente a standardizzare e diffondere la preparazione dei diversi trattamenti."
   culture_parameter_physician_pharmacopoeia_bonus: "[GetCourtPositionType('court_physician_court_position').GetName()] [court_position|E] Efficacia dei trattamenti: #P +20%#!"
 

@@ -40,7 +40,7 @@
   tgp_governor_contract_event.0011.b: "Non mi interessano gli affari del mercato."
 
   tgp_governor_contract_event.0002.t: "Rimedio potente"
-  tgp_governor_contract_event.0002.desc: "Dopo che i miei attendenti hanno disperso la cocciuta calca, mi trovo davanti al venditore di medicine e alle sue pozioni. L’occhio di questo scaltro imbonitore valuta la qualità delle mie vesti e si fissa su un nuovo lucroso bersaglio.\n\n\"Una sola fiala, [ROOT.Char.Custom('FormOfAddressForLiege')],\" [snake_oil_peddler.GetSheHe] alza un dito, facendolo ondeggiare con enfasi. \"Garantita per ristorare la vostra essenza interiore e raddrizzare ciò che non va!\"\n\n\"Al mio [ROOT.Char.GetLadyLord] interesserebbe acquistarne una, o forse diverse?\" Il venditore sorride con ossequiosa cupidigia."
+  tgp_governor_contract_event.0002.desc: "Dopo che i miei attendenti hanno disperso la cocciuta calca, mi trovo davanti al venditore di medicine e alle sue pozioni. L’occhio di questo scaltro imbonitore valuta la qualità delle mie vesti e si fissa su un nuovo lucroso bersaglio.\n\n"Una sola fiala, [ROOT.Char.Custom('FormOfAddressForLiege')]," [snake_oil_peddler.GetSheHe] alza un dito, facendolo ondeggiare con enfasi. "Garantita per ristorare la vostra essenza interiore e raddrizzare ciò che non va!"\n\n"Al mio [ROOT.Char.GetLadyLord] interesserebbe acquistarne una, o forse diverse?" Il venditore sorride con ossequiosa cupidigia."
   tgp_governor_contract_event.0002.a: "Requisiremo questi filtri per scorte d’emergenza." # (Special governor option)
   tgp_governor_contract_event.0002.b: "Avete una #EMP licenza#! per questa bancarella?"
   tgp_governor_contract_event.0002.c: "Impacchettate e portate altrove questa ciarlataneria."
@@ -92,7 +92,7 @@
   tgp_governor_contract_event.0013.b: "Rispondere alla convocazione di un fuorilegge è sotto la mia dignità."
 
   tgp_governor_contract_event.0004.t: "Contrabbandieri di sale"
-  tgp_governor_contract_event.0004.desc: "Le manette stringono saldamente le mani di [salt_smuggler.GetNamePossessive], ma hanno fatto ben poco per reprimere la natura menzognera del contrabbandiere. Il suo contegno è sfacciatamente temerario, come se fossimo due mercanti che contrattano al mercato e non un magistrato e un fuorilegge con la vita di quest’ultimo appesa a un filo.\n\n\"Sì, vi dirò dove si trovano gli altri miei uomini, non appena allenterete queste,\" [salt_smuggler.GetSheHe] solleva i polsi legati con un eloquente cenno delle sopracciglia, \"e mi garantirete un passaggio sicuro verso un luogo dove non dovremo mai più incontrarci.\""
+  tgp_governor_contract_event.0004.desc: "Le manette stringono saldamente le mani di [salt_smuggler.GetNamePossessive], ma hanno fatto ben poco per reprimere la natura menzognera del contrabbandiere. Il suo contegno è sfacciatamente temerario, come se fossimo due mercanti che contrattano al mercato e non un magistrato e un fuorilegge con la vita di quest’ultimo appesa a un filo.\n\n"Sì, vi dirò dove si trovano gli altri miei uomini, non appena allenterete queste," [salt_smuggler.GetSheHe] solleva i polsi legati con un eloquente cenno delle sopracciglia, "e mi garantirete un passaggio sicuro verso un luogo dove non dovremo mai più incontrarci.""
   tgp_governor_contract_event.0004.a: "Metti a morte [salt_smuggler.GetHerHim]. Che #EMP questo#! sia un monito per la sua banda." # (Special governor option)
   tgp_governor_contract_event.0004.b: "Affare fatto, ma non farti più rivedere."
   tgp_governor_contract_event.0004.c: "Interrogherò [salt_smuggler.GetHerHim]: avremo i suoi uomini alle nostre condizioni."
@@ -118,7 +118,7 @@
   tgp_governor_contract_event.0014.b: "Questioni ben più importanti richiedono la mia attenzione."
 
   tgp_governor_contract_event.0005.t: "Accaparramento di grano"
-  tgp_governor_contract_event.0005.desc: "Il lusso degli arredi della dimora di [grain_hoarding_local_notable.GetNamePossessive] stona in netto contrasto con le squallide catapecchie che abbiamo oltrepassato lungo la via. Il nostro anfitrione non finge minimamente di nascondere o sminuire le sue acquisizioni, anzi quasi se ne compiace.\n\n\"Perdonate la mia ignoranza negli affari di Stato, ma non comprendo l’interesse del mio [ROOT.Char.GetLadyLord] in questa faccenda,\" dice insolente. \"Si tratta semplicemente di transazioni lecite, e di certo il mio [ROOT.Char.GetLadyLord] avrà questioni più pressanti a cui badare...?\" La sua ultima frase è più un’affermazione che una domanda."
+  tgp_governor_contract_event.0005.desc: "Il lusso degli arredi della dimora di [grain_hoarding_local_notable.GetNamePossessive] stona in netto contrasto con le squallide catapecchie che abbiamo oltrepassato lungo la via. Il nostro anfitrione non finge minimamente di nascondere o sminuire le sue acquisizioni, anzi quasi se ne compiace.\n\n"Perdonate la mia ignoranza negli affari di Stato, ma non comprendo l’interesse del mio [ROOT.Char.GetLadyLord] in questa faccenda," dice insolente. "Si tratta semplicemente di transazioni lecite, e di certo il mio [ROOT.Char.GetLadyLord] avrà questioni più pressanti a cui badare...?" La sua ultima frase è più un’affermazione che una domanda."
   tgp_governor_contract_event.0005.a: "Rilasciate le riserve governative e inondate il mercato." # (Special governor option)
   tgp_governor_contract_event.0005.b: "Questa meschina avarizia non è forse indegna di un[Select_CString(grain_hoarding_local_notable.IsFemale,'a','')] [grain_hoarding_local_notable.GetWomanMan] della vostra evidente dignità?"
   tgp_governor_contract_event.0005.c: "Potrà anche essere lecito, ma sono certo che si possa trovare #EMP qualcosa#! di sconveniente."
@@ -144,7 +144,7 @@
   tgp_governor_contract_event.0015.b: "Non spetta a loro mettere in dubbio il superiore."
 
   tgp_governor_contract_event.0006.t: "Magistrato decrepito"
-  tgp_governor_contract_event.0006.desc: "Mi pare di poter vivere un’intera seconda vita nel tempo che impiega l’antico funzionario ad alzarsi dal seggio e a porgere i saluti di rito.\n\nIl suo lento inchino sembra procurargli grande fatica, e lo mantiene così a lungo che finisco per chiedermi se non sia giunta la sua fine, prima che due scribi accorrano ad aiutarlo a raddrizzarsi.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U] mi onora troppo,\" raschia con voce che scricchiola come la ruota logora d’un carro. \"Come posso servire, [ROOT.Char.Custom('FormOfAddressForLiege')]?\""
+  tgp_governor_contract_event.0006.desc: "Mi pare di poter vivere un’intera seconda vita nel tempo che impiega l’antico funzionario ad alzarsi dal seggio e a porgere i saluti di rito.\n\nIl suo lento inchino sembra procurargli grande fatica, e lo mantiene così a lungo che finisco per chiedermi se non sia giunta la sua fine, prima che due scribi accorrano ad aiutarlo a raddrizzarsi.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U] mi onora troppo," raschia con voce che scricchiola come la ruota logora d’un carro. "Come posso servire, [ROOT.Char.Custom('FormOfAddressForLiege')]?""
   tgp_governor_contract_event.0006.a: "Affida le sue mansioni a qualcun altro, ma lascia che mantenga la carica." # (Special governor option)
   tgp_governor_contract_event.0006.b: "La sua età ne ha compromesso le capacità: costringilo alle dimissioni."
   tgp_governor_contract_event.0006.c: "Questo [elderly_magistrate.GetWomanMan] è in ritardo per una promozione! In un luogo #EMP poco vistoso#!..."
@@ -164,7 +164,7 @@
   burdensome_taxes_desc_title: "$task_contract_governance_desc_title$"
 
   tgp_governor_contract_event.0007.t: "Tasse gravose"
-  tgp_governor_contract_event.0007.desc: "Dopo una lunga e stancante giornata di suppliche e lamentele — spesso entrambe dalla stessa bocca — avanza l’ultimo richiedente, un[Select_CString(village_elder.IsFemale,'’anziana','o')] [village_elder.GetWomanMan] dal vestire semplice e sobrio, umile ma non servile. Uno scriba mi porge un appunto che indica che questo [village_elder.GetWomanMan] è il cap[o/a] del suo villaggio.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U],\" comincia [village_elder.GetSheHe], \"il nostro villaggio è umile e poco conosce di ricchezze e prosperità. I raccolti sono stati scarsi, le imposte richieste superano i nostri esigui mezzi. Vi supplico, alleggerite il nostro carico, altrimenti moriremo di fame.\""
+  tgp_governor_contract_event.0007.desc: "Dopo una lunga e stancante giornata di suppliche e lamentele — spesso entrambe dalla stessa bocca — avanza l’ultimo richiedente, un[Select_CString(village_elder.IsFemale,'’anziana','o')] [village_elder.GetWomanMan] dal vestire semplice e sobrio, umile ma non servile. Uno scriba mi porge un appunto che indica che questo [village_elder.GetWomanMan] è il cap[o/a] del suo villaggio.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]," comincia [village_elder.GetSheHe], "il nostro villaggio è umile e poco conosce di ricchezze e prosperità. I raccolti sono stati scarsi, le imposte richieste superano i nostri esigui mezzi. Vi supplico, alleggerite il nostro carico, altrimenti moriremo di fame.""
   tgp_governor_contract_event.0007.a: "Spostiamo il grosso dell’onere su un’area più prospera." # (Special governor option)
   tgp_governor_contract_event.0007.b: "Rivalutateli a un’aliquota ridotta: mi assumo ogni responsabilità."
   tgp_governor_contract_event.0007.c: "Pagherò io la differenza, ma l’anno prossimo toccherà a voi."
@@ -184,7 +184,7 @@
   unsafe_highways_desc_title: "$task_contract_governance_desc_title$"
 
   tgp_governor_contract_event.0008.t: "Commercio pericoloso"
-  tgp_governor_contract_event.0008.desc: "Una delegazione di mercanti guidata da [fearful_merchant.GetName] affolla la mia sala; voci in un coro di costernazione chiedono protezione per i loro convogli dopo l’ennesimo assalto brigantesco. \"Questa situazione è insostenibile, [ROOT.Char.Custom('FormOfAddressForLiege')],\" proclama il capodelegazione.\n\n\"Se non si farà presto qualcosa per proteggere merci e vite da questi selvaggi, non avremo scelta se non abbandonare i nostri interessi in [unsafe_highways_destination.GetName] e portare altrove il nostro commercio — e i pedaggi che paghiamo.\" [fearful_merchant.GetSheHe|U] resta in attesa, ultimatum pronunciato con audacia."
+  tgp_governor_contract_event.0008.desc: "Una delegazione di mercanti guidata da [fearful_merchant.GetName] affolla la mia sala; voci in un coro di costernazione chiedono protezione per i loro convogli dopo l’ennesimo assalto brigantesco. "Questa situazione è insostenibile, [ROOT.Char.Custom('FormOfAddressForLiege')]," proclama il capodelegazione.\n\n"Se non si farà presto qualcosa per proteggere merci e vite da questi selvaggi, non avremo scelta se non abbandonare i nostri interessi in [unsafe_highways_destination.GetName] e portare altrove il nostro commercio — e i pedaggi che paghiamo." [fearful_merchant.GetSheHe|U] resta in attesa, ultimatum pronunciato con audacia."
   tgp_governor_contract_event.0008.a: "Forniremo scorte, ma pagherete il privilegio." # (Special governor option)
   tgp_governor_contract_event.0008.b: "Capisco. Invieremo pattuglie a presidiare le strade."
   tgp_governor_contract_event.0008.c: "Il vostro mestiere è rischioso: non avete protezione?"
@@ -300,7 +300,7 @@
   tgp_governor_contract_event.2000.c: "Invia una missiva a [capital_location.GetNameNoTooltip]. Prima o poi si sistemerà."
  
   tgp_governor_contract_event.2001.t: "$missing_equipment$: l’officina"
-  tgp_governor_contract_event.2001.desc: "Il caposquadra dell’officina arriva #EMP finalmente#! e mi saluta con un profondo inchino formale.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], che visita inaspettata. Ho controllato i registri, come richiesto, e pare che un errore di segreteria possa essere la causa della mancanza di spedizioni verso [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]. Un errore sfortunato. Ovviamente dirotteremo a voi la prossima consegna.\""
+  tgp_governor_contract_event.2001.desc: "Il caposquadra dell’officina arriva #EMP finalmente#! e mi saluta con un profondo inchino formale.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], che visita inaspettata. Ho controllato i registri, come richiesto, e pare che un errore di segreteria possa essere la causa della mancanza di spedizioni verso [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]. Un errore sfortunato. Ovviamente dirotteremo a voi la prossima consegna.""
   tgp_governor_contract_event.2001.a: "Un errore #EMP di segreteria#!?! [court_relation.GetFirstNameNoTooltip] lo verrà a sapere…"
   tgp_governor_contract_event.2001.a.tt: "Convince con successo il caposquadra minacciando di riferire la cosa a [court_relation.GetShortUIName] alla corte imperiale"
   tgp_governor_contract_event.2001.b: "Sicuramente è dovuto anche qualche risarcimento."
@@ -312,14 +312,14 @@
   tgp_governor_contract_event.2001.tt_failure: "Non riesci a convincere il caposquadra a fare oltre quanto già promesso"
  
   tgp_governor_contract_event.2002.t: "$missing_equipment$: successo"
-  tgp_governor_contract_event.2002.desc: "Le mie minacce poco sottili sono ricompensate con un inchino ancora più profondo. Il caposquadra, visibilmente sudato, si rialza lentamente.\n\n\"Certo, mio [ROOT.Char.GetLadyLord]. La vostra valutazione è del tutto corretta. Sono certo che possiamo trovare un accordo. Avete già una proposta?\""
+  tgp_governor_contract_event.2002.desc: "Le mie minacce poco sottili sono ricompensate con un inchino ancora più profondo. Il caposquadra, visibilmente sudato, si rialza lentamente.\n\n"Certo, mio [ROOT.Char.GetLadyLord]. La vostra valutazione è del tutto corretta. Sono certo che possiamo trovare un accordo. Avete già una proposta?""
   tgp_governor_contract_event.2002.a: "Mettiamo al sicuro anche le consegne future."
   tgp_governor_contract_event.2002.b: "Fornitemi le prossime #EMP due#! spedizioni."
   tgp_governor_contract_event.2002.c: "Serve un risarcimento monetario."
   tgp_governor_contract_event.2002.d: "Inviatemi il miglior equipaggiamento disponibile."
  
   tgp_governor_contract_event.2003.t: "$missing_equipment$: fallimento"
-  tgp_governor_contract_event.2003.desc: "Il caposquadra esita un istante e aggrotta la fronte.\n\n\"#EMP Voi#! non siete l’unic[Select_CString(ROOT.Char.IsFemale,'a','o')] comandante bisognos[Select_CString(ROOT.Char.IsFemale,'a','o')] di equipaggiamento. Ho già fatto abbastanza assegnandovi la nostra prossima spedizione. Una spedizione attesa altrove, sia chiaro. Non tirate troppo la corda, #EMP mio [ROOT.Char.GetLadyLord]#!.\" \n\nIl [foreman.GetWomanMan] si volta e se ne va."
+  tgp_governor_contract_event.2003.desc: "Il caposquadra esita un istante e aggrotta la fronte.\n\n"#EMP Voi#! non siete l’unic[Select_CString(ROOT.Char.IsFemale,'a','o')] comandante bisognos[Select_CString(ROOT.Char.IsFemale,'a','o')] di equipaggiamento. Ho già fatto abbastanza assegnandovi la nostra prossima spedizione. Una spedizione attesa altrove, sia chiaro. Non tirate troppo la corda, #EMP mio [ROOT.Char.GetLadyLord]#!." \n\nIl [foreman.GetWomanMan] si volta e se ne va."
   tgp_governor_contract_event.2003.a: "#EMP Va bene.#!"
 
   lines_in_the_soil: "Linee nella terra"
@@ -358,7 +358,7 @@
   fraud_in_broad_daylight_desc_title: "$task_contract_governance_desc_title$"
 
   tgp_governor_contract_event.0022.t: "Frode in pieno giorno"
-  tgp_governor_contract_event.0022.desc: "Il tonfo di una cassa posata senza complimenti sul pavimento spezza la mia concentrazione e mi desta dal lavoro. [reporting_councillor.GetTitledFirstName] le sta accanto.\n\n\"Sono arrivate altre prove, mio [ROOT.Char.GetLadyLord]. Stavolta bottiglie di profumo riempite di terra.\"\n\nI mercati di [fraud_in_broad_daylight_destination.GetName] sono stati recentemente infestati da merci contraffatte."
+  tgp_governor_contract_event.0022.desc: "Il tonfo di una cassa posata senza complimenti sul pavimento spezza la mia concentrazione e mi desta dal lavoro. [reporting_councillor.GetTitledFirstName] le sta accanto.\n\n"Sono arrivate altre prove, mio [ROOT.Char.GetLadyLord]. Stavolta bottiglie di profumo riempite di terra."\n\nI mercati di [fraud_in_broad_daylight_destination.GetName] sono stati recentemente infestati da merci contraffatte."
   tgp_governor_contract_event.0022.a: "Questo merita un’indagine."
   tgp_governor_contract_event.0022.a_tt: "Viaggia a [fraud_in_broad_daylight_destination.GetName] e restituisci rettitudine al mercato."
   tgp_governor_contract_event.0022.b: "Quei clienti sono solo sciocchi."
@@ -421,7 +421,7 @@
   tgp_governor_contract_event.0026.b: "Sembra un bel grattacapo: lasciateli dove sono."
 
   tgp_governor_contract_event.0027.t: "Una confusione di lingue"
-  tgp_governor_contract_event.0027.desc: "Quando arrivo, il magistrato è chiaramente allo stremo, esausto ed esasperato in egual misura. \"Non uno solo capisce una parola di ciò che dico!\" si lamenta. \"E ogni volta che proviamo a spostarli, reagiscono come se fossimo banditi!\"\n\nPoco distante, vedo i mercanti naufraghi raccolti in difesa attorno a ciò che resta delle loro merci; le guardie stringono nervosamente gli elsi delle armi."
+  tgp_governor_contract_event.0027.desc: "Quando arrivo, il magistrato è chiaramente allo stremo, esausto ed esasperato in egual misura. "Non uno solo capisce una parola di ciò che dico!" si lamenta. "E ogni volta che proviamo a spostarli, reagiscono come se fossimo banditi!"\n\nPoco distante, vedo i mercanti naufraghi raccolti in difesa attorno a ciò che resta delle loro merci; le guardie stringono nervosamente gli elsi delle armi."
   tgp_governor_contract_event.0027.a: "Pianta alcune tende e informa la capitale: troveranno un interprete." # (Special governor option)
   tgp_governor_contract_event.0027.b: "Torna indietro e vedi se al mercato c’è qualcuno che li capisca."
   tgp_governor_contract_event.0027.c: "La loro nave si è schiantata sulle #EMP nostre#! coste, quindi le merci sono confiscate."
@@ -445,7 +445,7 @@ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
   seditious_storytelling_desc_title: "$task_contract_governance_desc_title$"
 
   tgp_governor_contract_event.0028.t: "Racconti sediziosi"
-  tgp_governor_contract_event.0028.desc: "L’ultimo dei petizionanti del giorno lascia la mia presenza con gratitudine, ma il suono che svanisce del loro composto congedo viene presto sostituito da passi affrettati portatori di cattive notizie.\n\nÈ [concerned_councillor.GetFirstName], il cui volto è grave. \"Ho appena ricevuto un rapporto #EMP scandaloso#!, [ROOT.Char.Custom('FormOfAddressForLiege')]! Uno di quei cantastorie itineranti sta infiammando la gente di [seditious_storytelling_destination.GetName] con storie di magistrati corrotti e malaffare del governo!\""
+  tgp_governor_contract_event.0028.desc: "L’ultimo dei petizionanti del giorno lascia la mia presenza con gratitudine, ma il suono che svanisce del loro composto congedo viene presto sostituito da passi affrettati portatori di cattive notizie.\n\nÈ [concerned_councillor.GetFirstName], il cui volto è grave. "Ho appena ricevuto un rapporto #EMP scandaloso#!, [ROOT.Char.Custom('FormOfAddressForLiege')]! Uno di quei cantastorie itineranti sta infiammando la gente di [seditious_storytelling_destination.GetName] con storie di magistrati corrotti e malaffare del governo!""
   tgp_governor_contract_event.0028.a: "Lasciate che giudichi con le mie orecchie."
   tgp_governor_contract_event.0028.a_tt: "Viaggia a [seditious_storytelling_destination.GetName] e ascolta i racconti del cantastorie."
   tgp_governor_contract_event.0028.b: "Devo occuparmi anche di meri #EMP istrioni#!?"
@@ -473,7 +473,7 @@ tgp_governor_contract_event.0027.f: "$epidemic_events.5902.a$"
   quaking_in_panic_desc_title: "$task_contract_governance_desc_title$"
 
   tgp_governor_contract_event.0030.t: "Scossi dal panico"
-  tgp_governor_contract_event.0030.desc: "Sono profondamente assorto in conversazione con [my_councillor.GetFirstName] quando [alarmed_councillor.GetFirstName] irrompe nella stanza con insolita urgenza, visibilmente scosso.\n\n\"Un messaggero da [quaking_in_panic_destination.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')]! C’è stato un terremoto e i contadini l’hanno preso come un presagio funesto, dicendo che è un segno di disgrazia divina!\""
+  tgp_governor_contract_event.0030.desc: "Sono profondamente assorto in conversazione con [my_councillor.GetFirstName] quando [alarmed_councillor.GetFirstName] irrompe nella stanza con insolita urgenza, visibilmente scosso.\n\n"Un messaggero da [quaking_in_panic_destination.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')]! C’è stato un terremoto e i contadini l’hanno preso come un presagio funesto, dicendo che è un segno di disgrazia divina!""
   tgp_governor_contract_event.0030.a: "Il panico, come un incendio, è difficile da estinguere se lasciato propagare."
   tgp_governor_contract_event.0030.a_tt: "Viaggia a [quaking_in_panic_destination.GetName] e placa le loro preoccupazioni."
   tgp_governor_contract_event.0030.b: "Do poca attenzione al clamore dei villani."

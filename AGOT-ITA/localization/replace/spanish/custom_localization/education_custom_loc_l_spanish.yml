@@ -1,5 +1,13 @@
 ﻿l_spanish:
+  #start AGOT modofiche
+ ChildhoodPersonalityTrait_charming:0 "[GetTrait('charming').GetNameNoTooltip( ROOT.Char )]"
+ ChildhoodPersonalityTrait_rowdy:0 "[GetTrait('rowdy').GetNameNoTooltip( ROOT.Char )]"
+ ChildhoodPersonalityTrait_bossy:0 "[GetTrait('bossy').GetNameNoTooltip( ROOT.Char )]"
+ ChildhoodPersonalityTrait_curious:0 "[GetTrait('curious').GetNameNoTooltip( ROOT.Char )]"
+ ChildhoodPersonalityTrait_pensive:0 "[GetTrait('pensive').GetNameNoTooltip( ROOT.Char )]"
 
+  #End AGOT modifiche
+ 
  martial_good_trait_match_good_outcome:0 "Essendo un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] attiv[ROOT.Char.Custom('DE_END_PRO_S_N')] ed entusiasta, non è una sorpresa che [ROOT.Char.GetFirstName] sia andat[ROOT.Char.Custom('DE_END_PRO_S_N')] bene nei suoi studi di guerra e combattimento."
  martial_bad_trait_match_good_outcome:0 "Dire che l'indisciplinat[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetFirstName] non fosse tagliat[ROOT.Char.Custom('DE_END_PRO_S_N')] per una vita di guerra è un eufemismo. Tuttavia, [ROOT.Char.GetSheHe] ha superato ogni aspettativa."
  martial_neutral_trait_match_good_outcome:0 "Grazie alla supervisione di un insegnante adeguato, persino un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] bambin[ROOT.Char.Custom('DE_END_PRO_S_N')] come [ROOT.Char.GetFirstName], con una scarsa inclinazione naturale per la guerra, è stat[ROOT.Char.Custom('DE_END_PRO_S_N')] in grado di arrivare a comprenderla appieno."
@@ -69,11 +77,6 @@
  education_learning_4_outcome_description:0 "La sua comprensione dei lavori filosofici e teorici è impressionante, e spesso si impegna in dibattiti con i suoi ex insegnanti. Persino in così giovane età [ROOT.Char.Custom('DE_PRO_POS_P_3P')] si può sentire citare ignoti passaggi per supportare nuove idee e teorie."
 
 
- ChildhoodPersonalityTrait_charming:0 "[GetTrait('charming').GetName( ROOT.Char )]"
- ChildhoodPersonalityTrait_rowdy:0 "[GetTrait('rowdy').GetName( ROOT.Char )]"
- ChildhoodPersonalityTrait_bossy:0 "[GetTrait('bossy').GetName( ROOT.Char )]"
- ChildhoodPersonalityTrait_curious:0 "[GetTrait('curious').GetName( ROOT.Char )]"
- ChildhoodPersonalityTrait_pensive:0 "[GetTrait('pensive').GetName( ROOT.Char )]"
 
  diplomatic_education: "$education_diplomacy_loc$"
  martial_education: "$education_martial_loc$"
