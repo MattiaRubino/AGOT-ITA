@@ -20,7 +20,6 @@
   councillor_ranger_4_desc:0 "Sempre all’erta, il custode della notte, vigile sull’accampamento, capace di scorgere il pericolo prima che colpisca, proteggendo il gruppo mentre riposa."
   senior_ranger_modifier:0 "Ranger Veterano"
   game_concept_senior_ranger_desc:0 "Il compito principale dell’ordine dei ranger è difendere e proteggere la Barriera e i castelli dei Guardiani della Notte."
-
   ranger_default_1_desc:0 "[councillor.GetModifierDescForTask('ranger_default_1')]"
   ranger_other_1_desc:0 "[councillor.GetModifierDescForTask('ranger_other_1')]"
   ranger_default_2_desc:0 "[councillor.GetModifierDescForTask('ranger_default_2')]"
@@ -41,7 +40,6 @@
   first_ranger_landless_male:0 "Primo Ranger"
   first_ranger_landless_male_dead:0 "Comandante"
   councillor_ranger_1_flavor:0 "Ranger"
-
   councillor_ranger_2_flavor:0 "$councillor_ranger_1_flavor$"
   councillor_ranger_3_flavor:0 "$councillor_ranger_1_flavor$"
   councillor_ranger_4_flavor:0 "$councillor_ranger_1_flavor$"
@@ -56,7 +54,7 @@
   AGOT_COUNCIL_TITLE_CUSLOC:0 "[GetPlayer.Custom('AGOTCouncilWindowTitle')]"
   NW_COUNCILWINDOW_TITLE:0 "Ufficiali"
 
-  #Government
+ #Government
   game_concept_nwfr_govt:0 "Ranger"
   game_concept_nwfr_govt_desc:0 "Sotto la [government_form|E] del $game_concept_nwfr_govt$, il $first_ranger_landless_male$ può avventurarsi oltre la Barriera con un piccolo gruppo di Ranger. Solo i confratelli giurati dei [GetGovernment( 'nights_watch_government' ).GetName] possono diventare Ranger, e solo il $first_ranger_landless_male$ può guidare un [agot_ranger_camp|E]."
   game_concept_nwfr_govt_i:0 "@nights_watch_government!"
@@ -68,15 +66,14 @@
   first_ranger_government_filter_option_desc:0 "Mostra solo i personaggi con il [government|E] $game_concept_nwfr_govt$"
   first_ranger_government_desc:1 "\n$game_concept_nwfr_govt_desc$"
 
-
-  ### Interactions
+ ### Interactions
   call_first_ranger_to_war_interaction:0 "Primo Ranger: Chiamata alle Armi"
   call_first_ranger_to_war_interaction_desc:0 "Chiama [recipient.GetName] a unirsi a tutte le [wars|E] in cui sei il [war_leader|E]"
   call_first_ranger_to_war_interaction_notification:0 "Sarebbe un onore se ti unissi a me nelle mie guerre!"
   ambush_the_first_ranger_interaction:0 "Tendi un'imboscata al Primo Ranger"
   ambush_the_first_ranger_interaction_desc:0 "Manda un guerriero a uccidere [recipient.GetName]"
 
-  ### Varie
+ ### Misc
   agot_nw_fr_new_ranger_arrives.t:0 "Un Ranger si è Unito"
   agot_nw_fr_new_ranger_arrives.tt:0 "[ranger_candidate.GetTitledFirstNameNoTooltip] si è unito al tuo Accampamento dei Ranger"
   agot_nw_fr_new_ranger_left.t:0 "Un Ranger se n'è Andato"
@@ -84,16 +81,14 @@
   agot_nw_fr_provisions_refilled.t:0 "Ritorno alla Barriera"
   agot_nw_fr_provisions_refilled.tt:0 "Le tue provviste sono state rifornite"
 
-  # Abilità Stile di Vita
+ #Lifestyle Perk
   nw_cutting_corners_perk_adventurer_name:0 "Fama Consacrata"
 
+ ### Buildings
 
-  ### Buildings
-
-  ### Main
+ ### Main
   ranger_camp_main_01_domicile_building:0 "Rifugio del Ranger"
   ranger_camp_main_01_domicile_building_desc:0 "Il cuore dell'accampamento dei ranger, un insieme di tende serrate attorno alla dimora del Primo Ranger."
-
   ranger_camp_main_02_domicile_building:0 "$ranger_camp_main_01_domicile_building$"
   ranger_camp_main_02_domicile_building_desc:0 "$ranger_camp_main_01_domicile_building_desc$"
   ranger_camp_main_03_domicile_building:0 "$ranger_camp_main_01_domicile_building$"
@@ -102,10 +97,9 @@
   ranger_camp_main_04_domicile_building_desc:0 "$ranger_camp_main_01_domicile_building_desc$"
   ranger_camp_main_05_domicile_building:0 "$ranger_camp_main_01_domicile_building$"
   ranger_camp_main_05_domicile_building_desc:0 "$ranger_camp_main_01_domicile_building_desc$"
-  # Supply Tent
+ # Supply Tent
   ranger_vault_01_domicile_building:0 "Deposito del Ranger"
   ranger_vault_01_domicile_building_desc:0 "Disporre di una tenda centrale per l’approvvigionamento è essenziale per la sopravvivenza oltre la Barriera, ancor più quando si è costantemente in marcia."
-
   ranger_vault_02_domicile_building:0 "$ranger_vault_01_domicile_building$"
   ranger_vault_02_domicile_building_desc:0 "$ranger_vault_01_domicile_building_desc$"
   ranger_vault_03_domicile_building:0 "$ranger_vault_01_domicile_building$"
@@ -118,15 +112,11 @@
   ranger_vault_06_domicile_building_desc:0 "$ranger_vault_01_domicile_building_desc$"
   ranger_vault_highridge_domicile_building:0 "Tenda di Altocresta"
   ranger_vault_highridge_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_vault_01').GetName])#! Non è sfarzosa, ma mette monete nel forziere e frecce nel bersaglio."
-
   ranger_vault_frosthold_domicile_building:0 "Tenda di Gelorocca"
   ranger_vault_frosthold_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_vault_01').GetName])#! È fredda e angusta, ma le scorte sono abbondanti, e i guerrieri più temprati per questo."
   ranger_vault_greenwatch_domicile_building:0 "Tenda di Vedeverde"
   ranger_vault_greenwatch_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_vault_01').GetName])#! Gli alberi la celano bene, e questo basta a tenere al sicuro monete e provviste da occhi indiscreti."
-
-  # Barber's Tent
-  ranger_rest_01_domicile_building:0 "Tenda del Riposo"
-  ranger_rest_01_domicile_building_desc:0 "Un luogo dove rilassarsi e riprendersi. Nulla di lussuoso, ma mantiene sani e tranquilli."
+ # Barber's Tent
   ranger_rest_01_domicile_building:0 "Tenda del Riposo"
   ranger_rest_01_domicile_building_desc:0 "Un luogo dove rilassarsi e rigenerarsi. Niente di speciale, ma ti mantiene sano e calmo."
   ranger_rest_02_domicile_building:0 "$ranger_rest_01_domicile_building$"
@@ -145,8 +135,7 @@
   ranger_rest_trade_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_rest_01').GetName])#!\nUna tenda animata dove si stringono accordi e il lavoro scorre rapido. Mani più svelte, forzieri più colmi."
   ranger_rest_dread_domicile_building:0 "Presidio del Terrore"
   ranger_rest_dread_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_rest_01').GetName])#!\nUn angolo cupo dove regna la paura. Più ti temono, più restano in silenzio."
-
-  # Baggage Train
+ # Baggage Train
   ranger_march_01_domicile_building:0 "Padiglione della Marcia"
   ranger_march_01_domicile_building_desc:0 "Un luogo dove piedi rapidi e menti affilate si preparano alla strada che li attende. Ogni passo è una lezione appresa."
   ranger_march_02_domicile_building:0 "$ranger_march_01_domicile_building$"
@@ -165,8 +154,7 @@
   ranger_march_taiga_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_march_01').GetName])#!\nNel gelo, l’efficienza genera forza."
   ranger_march_war_domicile_building:0 "Alloggi di Guerra"
   ranger_march_war_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_march_01').GetName])#!\nQui, la preparazione conduce sia alla forza che al movimento fulmineo."
-
-  # Mess Tent
+ # Mess Tent
   ranger_glory_01_domicile_building:0 "Presidio della Gloria"
   ranger_glory_01_domicile_building_desc:0 "Dove le ambizioni crescono e i segreti si intrecciano nel prestigio."
   ranger_glory_02_domicile_building:0 "$ranger_glory_01_domicile_building$"
@@ -185,10 +173,9 @@
   ranger_glory_faith_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_glory_01').GetName])#!\nUn luogo dove le preghiere si uniscono alla protezione nei tempi di bisogno."
   ranger_glory_favor_domicile_building:0 "Accampamento del Favore"
   ranger_glory_favor_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_glory_01').GetName])#!\nUn punto d’incontro dove le provviste crescono e le alleanze si rafforzano."
-  # Campfire
+ # Campfire
   ranger_camp_fire_01_domicile_building:0 "Rifugio del Soldato"
   ranger_camp_fire_01_domicile_building_desc:0 "Un luogo di ritrovo dove si guadagna lealtà e si moltiplica la forza."
-
   ranger_camp_fire_02_domicile_building:0 "$ranger_camp_fire_01_domicile_building$"
   ranger_camp_fire_02_domicile_building_desc:0 "$ranger_camp_fire_01_domicile_building_desc$"
   ranger_camp_fire_03_domicile_building:0 "$ranger_camp_fire_01_domicile_building$"
@@ -199,20 +186,15 @@
   ranger_camp_fire_05_domicile_building_desc:0 "$ranger_camp_fire_01_domicile_building_desc$"
   ranger_camp_fire_06_domicile_building:0 "$ranger_camp_fire_01_domicile_building$"
   ranger_camp_fire_06_domicile_building_desc:0 "$ranger_camp_fire_01_domicile_building_desc$"
-
   ranger_camp_fire_parley_domicile_building:0 "Accampamento della Tregua"
   ranger_camp_fire_parley_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_camp_fire_01').GetName])#!\nDove diplomazia e arte della guerra si intrecciano per affinare menti e lame."
-
   ranger_camp_fire_battlepost_domicile_building:0 "Avamposto di Battaglia"
   ranger_camp_fire_battlepost_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_camp_fire_01').GetName])#!\nUna roccaforte per guerrieri, pronti ad affrontare ogni sfida con abilità e numero."
-
   ranger_camp_fire_peace_domicile_building:0 "Rifugio della Pace"
   ranger_camp_fire_peace_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_camp_fire_01').GetName])#!\nUn tranquillo rifugio dove menti e cavalieri ritrovano vigore."
-
-  # Campi d’Addestramento
+ # Proving Grounds
   ranger_proving_grounds_01_domicile_building:0 "Presidio del Guerriero"
   ranger_proving_grounds_01_domicile_building_desc:0 "Un luogo dove i guerrieri affilano la propria lama mortale."
-
   ranger_proving_grounds_02_domicile_building:0 "$ranger_proving_grounds_01_domicile_building$"
   ranger_proving_grounds_02_domicile_building_desc:0 "$ranger_proving_grounds_01_domicile_building_desc$"
   ranger_proving_grounds_03_domicile_building:0 "$ranger_proving_grounds_01_domicile_building$"
@@ -223,18 +205,16 @@
   ranger_proving_grounds_05_domicile_building_desc:0 "$ranger_proving_grounds_01_domicile_building_desc$"
   ranger_proving_grounds_06_domicile_building:0 "$ranger_proving_grounds_01_domicile_building$"
   ranger_proving_grounds_06_domicile_building_desc:0 "$ranger_proving_grounds_01_domicile_building_desc$"
-
   ranger_proving_grounds_fighter_domicile_building:0 "Accampamento del Combattente"
   ranger_proving_grounds_fighter_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_proving_grounds_01').GetName])#!\nDove i soldati si addestrano a colpire con più forza e incutere maggior timore in battaglia."
-
   ranger_proving_grounds_archer_domicile_building:0 "Postazione dell’Arciere"
   ranger_proving_grounds_archer_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_proving_grounds_01').GetName])#!\nUn luogo dove le frecce volano più dritte e gli eserciti marciano con precisione letale."
-
   ranger_proving_grounds_iron_domicile_building:0 "Accampamento di Ferro"
   ranger_proving_grounds_iron_domicile_building_desc:0 "#weak (Richiede [GetDomicileBuilding('ranger_proving_grounds_01').GetName])#!\nDove i guerrieri più forti e la fanteria pesante vengono temprati in una forza inarrestabile."
 
-  ### EVENTS
+ ### EVENTS
 
+ #First Ranger Died (POV: LC)
   agot_nw_ranger_events.0001.t:0 "L'Eredità del Ranger"
   agot_nw_ranger_events.0001.t.deserted:0 "Un Mantello Macchiato di Neve"
   agot_nw_ranger_events.0001.t.fr_to_lc:0 "Il Nuovo Lord Comandante"
@@ -245,23 +225,28 @@
   agot_nw_ranger_events.0001.a:0 "Un nuovo ranger deve sorgere."
   agot_nw_ranger_events.0001.a.tt:0 "[fr_candidate.GetTitledFirstName] diventa il tuo Primo Ranger"
 
+ #New First Ranger Selected (POV: LC)
   agot_nw_ranger_events.0002.t:0 "Sorge un Nuovo Ranger"
   agot_nw_ranger_events.0002.desc:0 "La decisione è stata presa. Un nuovo Primo Ranger, [new_first_ranger.GetTitledFirstName], ora si erge dinanzi a me, pronto a portare il peso della responsabilità oltre la Barriera. È capace, scelto per il suo valore e il suo coraggio.\n\nI Guardiani della Notte devono avere occhi e orecchie tra le terre selvagge, e lui sarà la nostra avanguardia. Ora arde in lui il fuoco del dovere, e presto affronterà il gelo e l'ombra del Nord. Solo il tempo dirà come si svolgerà la sua storia."
   agot_nw_ranger_events.0002.a:0 "La Confraternita marcia avanti, come sempre."
   agot_nw_ranger_events.0002.b:0 "Mi chiedo quali pericoli e avventure lo attendano."
 
+ #New First Ranger (POV: First Ranger)
   agot_nw_ranger_events.0003.t:0 "Un Nuovo Fardello da Portare"
   agot_nw_ranger_events.0003.desc:0 "Il peso del mio nuovo titolo si posa sulle mie spalle: Primo Ranger dei Guardiani della Notte. È un onore, ma porta con sé un fardello che devo sostenere oltre la Barriera. Non c'è tempo da perdere. Dovrò allestire il mio nuovo accampamento, raccogliere provviste e scegliere gli uomini che mi accompagneranno nella terra gelata.\n\nI pericoli che ci attendono sono molti, ma ora questo è il mio dovere. La difesa della Barriera dipende dalla nostra vigilanza, e io non fallirò.\n\nLe terre selvagge chiamano, ed è tempo di rispondere."
   agot_nw_ranger_events.0003.a:0 "È giunto il momento di prepararsi al viaggio."
 
+ #Dark Sister (POV: First Ranger)
   agot_nw_ranger_events.0004.t:0 "Lama del Corvo"
   agot_nw_ranger_events.0004.desc:0 "Una bufera ci ha colti di sorpresa, costringendo me e i miei uomini a rifugiarci in una grotta vicina. Il vento ulula là fuori, feroce e instancabile, ma tra queste pareti di ghiaccio regna un silenzio inquietante. Infastidito dalla noia e dall'inattività, decido di esplorare più a fondo la grotta. Le pareti di ghiaccio brillano debolmente nella luce fioca, e qualcosa di nascosto cattura il mio sguardo.\n\nAll'inizio credevo fosse solo un altro frammento di pietra ghiacciata, ma rimuovendo la brina, la verità mi colpì.\n\nTra le mani tenevo la lama perduta in acciaio valyriano, [newly_created_artifact.GetName]. La spada, un tempo brandita da [bloodraven.GetTitledFirstName], detto Sangueraven, giaceva lì dimenticata, sepolta nel ghiaccio. Il cuore mi batte forte mentre passo la mano sul filo gelido e affilato. La spada della leggenda, perduta da generazioni, è stata ritrovata."
   agot_nw_ranger_events.0004.a:0 "Sorella Oscura... quali segreti hai visto?"
 
+ #First Ranger deserted (POV: LC)
   agot_nw_ranger_events.0005.t:0 "Il Ranger Traditore"
   agot_nw_ranger_events.0005.desc:0 "La notizia è giunta, anche se avrei voluto non crederci: il mio Primo Ranger ha disertato il suo incarico. Un uomo incaricato di proteggere i regni degli uomini, di difendere la Confraternita, ha voltato le spalle al suo giuramento e si è dileguato nelle terre selvagge oltre la Barriera. Il suo tradimento ferisce più del gelo del Nord. Conosceva i giuramenti, il dovere che ci lega tutti, eppure ha scelto di romperli.\n\nLa Confraternita non perdona i disertori. Ora comincia una nuova caccia. Lo troveremo, ovunque si nasconda, poiché esiste un solo destino per chi tradisce i propri fratelli."
   agot_nw_ranger_events.0005.a:0 "Il disertore affronterà la giustizia dei Guardiani."
 
+ #First Ranger is back on the Wall I (POV: First Ranger)
   agot_nw_ranger_events.0006.t:0 "Il Tributo del Ranger"
   agot_nw_ranger_events.0006.desc:0 "Come da consuetudine, al mio ritorno da oltre la Barriera, spetta a me offrire l’oro raccolto al Lord Comandante."
   agot_nw_ranger_events.0006.desc.gold:0 "La Confraternita ha bisogno di ogni moneta per sopravvivere agli inverni duri e alle minacce incessanti. È mio dovere contribuire con ciò che posso. L’oro è pesante nella mia sacca, una piccola fortuna guadagnata con il rischio e il sangue.\n\nIl Lord Comandante attende, aspettandosi il tributo per sostenere la Confraternita. È la via delle cose, il dovere prima di tutto."
@@ -271,6 +256,7 @@
   agot_nw_ranger_events.0006.b.tt:0 "Se il Lord Comandante lo scopre, le conseguenze potrebbero essere gravi"
   agot_nw_ranger_events.0006.c:0 "Non ho nulla da offrire questa volta."
 
+ #First Ranger is back on the Wall II (POV: LC)
   agot_nw_ranger_events.0007.t:0 "Il Tributo del Ranger"
   agot_nw_ranger_events.0007.desc:0 "Il mio Primo Ranger è tornato, segnato dal viaggio oltre la Barriera. Mentre si presenta dinanzi a me, attendo di vedere cosa ha riportato. Oltre la Barriera, le risorse scarseggiano, e qualsiasi bottino raccolto è vitale per la sopravvivenza della Confraternita.\n\nLà fuori, sopravvivere è già una ricompensa, ma qui a Castel Nero, è il tributo che ci mantiene in piedi."
   agot_nw_ranger_events.0007.a:0 "La Confraternita dipende da questo. Ogni moneta conta."
@@ -278,32 +264,38 @@
   agot_nw_ranger_events.0007.a.insult:0 "Credi che non me ne accorga? Stai nascondendo qualcosa."
   agot_nw_ranger_events.0007.a.suspicion:0 "Spero che sia tutto... e che nulla si sia #italic 'perso'#! sulla via del ritorno."
 
-
+ #My ranger deserted
   agot_nw_ranger_events.0008.t:0 "Il Tradimento di un Fratello"
   agot_nw_ranger_events.0008.desc:0 "L’alba si leva fredda e silenziosa, e il campo giace ancora sepolto dalla neve. Mentre ci raduniamo attorno al fuoco, mi accorgo: manca un uomo. Osservo i volti dei miei fratelli, e la verità si fa luce. [turncloak.GetTitledFirstName] è scomparso. Uno dei miei uomini si fa avanti, e la notizia cade su di noi come un'ombra: [turncloak.GetTitledFirstNameNoTooltip] ha disertato il suo giuramento, ha abbandonato la Confraternita e si è rifugiato presso un capo dei bruti.\n\nUn mantello traditore. Solo il pensiero mi brucia dentro, un tradimento freddo quanto i venti che attraversano il campo. Era uno di noi, legato dallo stesso giuramento... e ora ha gettato tutto via.\n\nLe terre selvagge sono già abbastanza pericolose senza nemici tra le nostre fila."
   agot_nw_ranger_events.0008.a:0 "[turncloak.GetTitledFirstNameNoTooltip] affronterà la giustizia, in un modo o nell’altro."
 
+ #Positive Relation in the Camp
   agot_nw_ranger_events.0009.t:0 "Un Momento di Calore"
   agot_nw_ranger_events.0009.desc:0 "Il fuoco crepita dolcemente, il suo calore taglia il gelo della notte. Per un breve istante, vedo [ranger_camper_one.GetTitledFirstName] e [ranger_camper_two.GetTitledFirstName] ridere insieme, con lo spirito sollevato nonostante le dure condizioni oltre la Barriera. Il vento può ululare, il freddo può mordere, ma per ora, c’è un senso di fratellanza attorno al fuoco.\n\nSono questi i momenti, rari com’è vero, che ci ricordano perché resistiamo all’oscurità e al ghiaccio.\n\nAnche qui, nelle terre gelide, il legame tra fratelli ci tiene uniti."
   agot_nw_ranger_events.0009.a:0 "Questi momenti rendono sopportabile la sofferenza."
 
+ #Negative Relation in the Camp
   agot_nw_ranger_events.0010.t:0 "Tensione nel Gelo"
   agot_nw_ranger_events.0010.desc:0 "Il fuoco arde piano, il suo calore fa poco per alleviare la tensione nel campo. [ranger_camper_one.GetTitledFirstName] e [ranger_camper_two.GetTitledFirstName] sono di nuovo in disaccordo, le loro voci si alzano sopra il crepitio delle fiamme. Quella che era una discussione banale è degenerata in un aspro scontro.\n\nI venti oltre la Barriera sono implacabili, ma il freddo tra fratelli può essere ancor più tagliente. Sopravvivere qui è già abbastanza difficile, senza crepe nei nostri legami. Questa terra mette alla prova più dei nostri corpi: mette alla prova ciò che ci unisce. E ora, quei legami sembrano fragili.\n\nLa natura selvaggia non perdona, e comincia a logorarci."
   agot_nw_ranger_events.0010.a:0 "Il freddo può spezzare più delle ossa."
 
+ #Cannot continue
   agot_nw_ranger_events.0011.t:0 "La Fine del Cammino"
   agot_nw_ranger_events.0011.desc:0 "Sento il peso di ogni passo, ciascuno più doloroso del precedente. Il gelo è entrato nelle mie ossa, e la forza che un tempo avevo è svanita.\n\nSono stato Primo Ranger, ho guidato uomini oltre la Barriera, ho affrontato pericoli che avrebbero spezzato altri... ma ora, sono io quello spezzato. Non posso più continuare in questo ruolo.\n\nÈ giunto il momento di farmi da parte, di informare il Lord Comandante che deve trovare un altro che porti il peso del Primo Ranger. La Confraternita ha bisogno di qualcuno forte, capace e pronto a guidare.\n\nIo non sono più quell’uomo."
   agot_nw_ranger_events.0011.a:0 "Devo informare il Lord Comandante di scegliere un nuovo Primo Ranger."
 
+ #Wildling Ambush I
   agot_nw_ranger_events.0012.t:0 "Morte al Corvo"
   agot_nw_ranger_events.0012.desc:0 "Il corvo, il cosiddetto Primo Ranger, minaccia la libertà del mio popolo. [recipient.GetSheHe|U] si oppone a noi, al Popolo Libero, e non permetterò che [recipient.GetSheHe] guidi un'altra spedizione. È tempo di agire.\n\nManderò uno dei miei guerrieri a cacciar[recipient.Custom('DE_PRO_POS_P_3P')] , per porre fine a questa minaccia una volta per tutte. Il corvo deve morire, e solo il guerriero più forte e astuto sarà all’altezza."
   agot_nw_ranger_events.0012.a:0 "Vai, e assicurati che [recipient.GetSheHe] non faccia ritorno."
   agot_nw_ranger_events.0012.b:0 "Lo farò io stesso."
 
+ #Wildling Ambush II
   agot_nw_ranger_events.0013.t:0 "Assalito nella Natura Selvaggia"
   agot_nw_ranger_events.0013.desc:0 "Mentre svolgo i miei compiti oltre la Barriera, un movimento improvviso attira il mio sguardo. Prima che possa reagire, un bruto sbuca dagli alberi, lancia alla mano, furia negli occhi. È chiaro che [wildling_ambusher.GetSheHe] è qui per il mio sangue. Non c’è tempo per pensare, solo per combattere.\n\nIl vento gelido ulula mentre mi preparo ad affrontar[wildling_ambusher.Custom('DE_PRO_POS_P_3P')], il bruto deciso a uccidermi sul posto."
   agot_nw_ranger_events.0013.a:0 "Farò sì che [wildling_ambusher.GetSheHe] se ne penta."
 
+ #Wildling Ambush III
   agot_nw_ranger_events.0014.t.win:0 "La Fine del Corvo"
   agot_nw_ranger_events.0014.t.lose:0 "Il Corvo Sfugge"
   agot_nw_ranger_events.0014.desc.win:0 "Il mio guerriero è tornato, e un sorriso si apre sul mio volto. Il corvo è morto. [wildling_ambusher.GetFirstNameNicknamed] ritorna con il sangue del Primo Ranger sulle mani, una vittoria per il Popolo Libero.\n\nLa minaccia che si aggirava oltre la Barriera è stata messa a tacere, e i corvi tremeranno per la perdita del loro capo."
@@ -311,6 +303,7 @@
   agot_nw_ranger_events.0014.a.win:0 "Ora i corvi ci temeranno."
   agot_nw_ranger_events.0014.a.lose:0 "[recipient.GetSheHe|U] non sfuggirà la prossima volta."
 
+ #New Ranger Invited
   agot_nw_ranger_events.0016.t:0 "Una Spada per l’Ombra"
   agot_nw_ranger_events.0016.desc:0 "Tornato alla Barriera, mi trovo davanti alla corte del Lord Comandante. Le file sono piene di uomini desiderosi di gloria e di provare il proprio valore oltre la Barriera.\n\nOra posso sceglierne uno da portare con me, a condividere la vita nel campo e affrontare le terre selvagge. Mi serve qualcuno forte, affidabile, e pronto ad affrontare i pericoli che ci attendono."
   agot_nw_ranger_events.0016.desc.first:0 "Mi trovo davanti alla corte del Lord Comandante. Le file sono piene di uomini desiderosi di gloria e di provare il proprio valore oltre la Barriera.\n\nOra posso sceglierne uno da portare con me, a condividere la vita nel campo e affrontare le terre selvagge. Mi serve qualcuno forte, affidabile, e pronto ad affrontare i pericoli che ci attendono."
@@ -318,6 +311,7 @@
   agot_nw_ranger_events.0016.a:0 "Spero che tu sia pronto."
   agot_nw_ranger_events.0016.a.tt:0 "[ranger_candidate.GetTitledFirstName] si unisce al tuo Accampamento dei Ranger"
 
+ #First Ranger is back on the Wall III
   agot_nw_ranger_events.0017.t:0 "Un Nuovo Giorno"
   agot_nw_ranger_events.0017.desc.fr:0 "La Barriera si erge come sempre, sentinella contro l’ignoto. Svolgo i miei doveri, pattugliando il terreno e mantenendo la disciplina tra gli uomini. In lontananza vedo il Lord Comandante che sovrintende i lavori del giorno, la sua voce che fende l’aria gelida. Ogni sua decisione porta il peso della Confraternita e delle vite a essa giurate.\n\nUna parte di me si chiede come sia portare un tale fardello."
   agot_nw_ranger_events.0017.desc.lc:0 "La Barriera incombe, incrollabile sull’orizzonte, mentre svolgo i miei compiti come Lord Comandante. Tra gli uomini, noto il Primo Ranger. Si muove con la calma di chi conosce i pericoli oltre la Barriera.\n\nOsservandolo, mi chiedo cosa significhi calzare i suoi stivali, affrontare direttamente le terre selvagge e l’ignoto."
@@ -326,11 +320,13 @@
   agot_nw_ranger_events.0017.c:0 "Sono occupato ora."
   agot_nw_ranger_events.0017.c.tt:0 "Non ti verrà chiesto di nuovo finché non vi sarà un nuovo Lord Comandante."
 
+ #First Ranger is back on the Wall IV
   agot_nw_ranger_events.0018.t:0 "Un Nuovo Giorno"
   agot_nw_ranger_events.0018.desc.lc:0 "Come Lord Comandante, il peso della leadership grava sulle mie spalle. I confratelli guardano a me per guida, e ogni decisione modellerà il futuro della Confraternita. L’aria gelida porta con sé il peso non detto del comando, ma il dovere chiama — e la Barriera deve resistere."
   agot_nw_ranger_events.0018.desc.fr:0 "Oltre la Barriera giace l’ignoto, ed è mio compito assicurarci che siamo pronti ad affrontarlo. Ogni impronta nella neve, ogni sussurro del vento — è mio dovere ascoltare e agire. La Barriera resiste, e così dovrò fare anch’io."
   agot_nw_ranger_events.0018.a:0 "C’è lavoro da fare."
 
+ #The Night's Watch is no more
   agot_nw_ranger_events.0019.t:0 "La Caduta dei Guardiani della Notte"
   agot_nw_ranger_events.0019.desc:0 "La Barriera è ancora in piedi, ma non ci appartiene più. Gli stendardi della Confraternita sono stati abbattuti, le sue roccaforti conquistate da altri. Coloro che un tempo chiamavo fratelli ora giacciono morti nella neve o si sono inginocchiati. I giuramenti che prestammo non significano nulla per chi ora regna qui.\n\nNon sono più Primo Ranger. Il mio dovere mi è stato strappato, e il cammino che mi attende è incerto."
   agot_nw_ranger_events.0019.desc.republic:0 "La Barriera è ancora in piedi, ma la Confraternita che conoscevo è scomparsa. I giuramenti, le tradizioni, lo scopo che dovevamo difendere — tutto è stato abbandonato. Ora comanda un nuovo ordine, che non segue più le vecchie vie. I Guardiani della Notte sono diventati altro, qualcosa che non riconosco più.\n\nNon sono più Primo Ranger, non in alcun modo che conti. Il mio posto qui è perduto, e davanti a me vi è una scelta."
@@ -339,9 +335,9 @@
   agot_nw_ranger_events.0019.b:0 "Non è rimasto più nulla per me."
   agot_nw_ranger_events.0019.b.tt:0 "Fine del Gioco."
 
-  ### First Ranger Council Events
+ ### First Ranger Council Events
 
-  #Scout - Envoy - Wildling's Opinion bonus
+ #Scout - Envoy - Wildling's Opinion bonus
   agot_nw_ranger_events.0021.t.success:0 "Esploratore: I Bruti Conoscono il Mio Nome"
   agot_nw_ranger_events.0021.t.failed:0 "Esploratore: Le Mie Parole Si Perdono nel Gelo"
   agot_nw_ranger_events.0021.desc.intro_a:0 "[my_ranger.GetTitledFirstName] entra nell'accampamento, il respiro che si fa nebbia nell'aria gelida. Cammina con decisione, il peso del suo viaggio evidente."
@@ -367,6 +363,7 @@
   agot_nw_ranger_events.0021.a.success:0 "È un buon segno."
   agot_nw_ranger_events.0021.a.failure:0 "Tentativo fallito, ma ci sarà un'altra occasione."
 
+ #Scout - Wayfinder - Travel Safety Bonus
   agot_nw_ranger_events.0022.t.success:0 "Esploratore: Strade Spianate al Passaggio"
   agot_nw_ranger_events.0022.t.failed:0 "Esploratore: Pericoli Lungo la Via"
   agot_nw_ranger_events.0022.desc.intro_a:0 "[my_ranger.GetTitledFirstName] torna dalla sua esplorazione, il gelo aggrappato ai suoi abiti, ma il passo saldo mentre si avvicina per riferire."
@@ -392,8 +389,7 @@
   agot_nw_ranger_events.0022.a.success:0 "Ora il nostro cammino è più sicuro."
   agot_nw_ranger_events.0022.a.failure:0 "Le vie selvagge sono spietate, ma dobbiamo andare avanti."
 
-
-  #Tracker - Provisioner - Finds Gold in Abandoned Wildling Camp
+ #Tracker - Provisioner - Finds Gold in Abandoned Wildling Camp
   agot_nw_ranger_events.0023.t.success:0 "Tracciatore: Oro tra le Rovine"
   agot_nw_ranger_events.0023.t.failed:0 "Tracciatore: Accampamento Vuoto, Tasche Vuote"
   agot_nw_ranger_events.0023.desc.intro_a:0 "[my_ranger.GetTitledFirstName] entra nell'accampamento, il mantello coperto di brina. Mi fa un cenno, segnalando che ha qualcosa da riferire."
@@ -419,6 +415,7 @@
   agot_nw_ranger_events.0023.a.success:0 "Questo oro ci sarà utile."
   agot_nw_ranger_events.0023.a.failure:0 "Una ricerca vana."
 
+ #Tracker - Forager - Gain Provisions
   agot_nw_ranger_events.0024.t.success:0 "Tracciatore: Doni dalle Terre Selvagge"
   agot_nw_ranger_events.0024.t.failed:0 "Tracciatore: La Caccia È Andata a Vuoto"
   agot_nw_ranger_events.0024.desc.intro_a:0 "[my_ranger.GetTitledFirstName] torna dalle terre selvagge, il respiro affannoso, ma lo sguardo determinato."
@@ -444,8 +441,7 @@
   agot_nw_ranger_events.0024.a.success:0 "Questo ci sfamerà."
   agot_nw_ranger_events.0024.a.failure:0 "Caccia infruttuosa... dovremo fare attenzione a ciò che ci resta."
 
-
-  #Blademaster - Warbrand - Gathers Wood
+ #Blademaster - Warbrand - Gathers Wood
   agot_nw_ranger_events.0025.t.success:0 "Maestro di Spada: Legna per il Freddo"
   agot_nw_ranger_events.0025.t.failed:0 "Maestro di Spada: Il Gelo Rimane"
   agot_nw_ranger_events.0025.desc.intro_a:0 "[my_ranger.GetTitledFirstName] ritorna, il respiro visibile nell'aria gelida mentre si avvicina. L'espressione è salda mentre si prepara a riferire."
@@ -471,6 +467,7 @@
   agot_nw_ranger_events.0025.a.success:0 "Stanotte l’accampamento sarà caldo."
   agot_nw_ranger_events.0025.a.failure:0 "Il freddo resta... per ora."
 
+ #Blademaster - Ambusher - Pracitces with You
   agot_nw_ranger_events.0026.t.success:0 "Maestro di Spada: Affilando Acciaio e Abilità"
   agot_nw_ranger_events.0026.t.failed:0 "Maestro di Spada: La Lama Si Ottunde"
   agot_nw_ranger_events.0026.desc.intro_a:0 "[my_ranger.GetTitledFirstName] si avvicina con uno sguardo tagliente, la mano poggiata leggera sull'elsa della spada, pronto per un altro duello d’allenamento."
@@ -496,7 +493,7 @@
   agot_nw_ranger_events.0026.a.success:0 "Dovremmo farlo più spesso."
   agot_nw_ranger_events.0026.a.failure:0 "Credo di essermi stirato qualcosa."
 
-  #Nightguard - Shadow - Spreads Dreadful/Silly Stories About You
+ #Nightguard - Shadow - Spreads Dreadful/Silly Stories About You
   agot_nw_ranger_events.0027.t.success:0 "Guardiano della Notte: Il Timore Si Diffonde nel Campo"
   agot_nw_ranger_events.0027.t.failed:0 "Guardiano della Notte: I Sussurri Cadono nel Vuoto"
   agot_nw_ranger_events.0027.desc.intro_a:0 "[my_ranger.GetTitledFirstName] si fa avanti tra le ombre del fuoco da campo, la sua presenza quasi impercettibile finché non sceglie di parlare. Lo sguardo è fermo, pronto a riferire."
@@ -522,6 +519,7 @@
   agot_nw_ranger_events.0027.a.success:0 "Ora il campo sa chi detiene il vero potere."
   agot_nw_ranger_events.0027.a.failure:0 "Lo capiranno col tempo."
 
+ #Nightguard - Watcher - Wildling Caught
   agot_nw_ranger_events.0028.t.success:0 "Guardiano della Notte: Il Bruto Respinto"
   agot_nw_ranger_events.0028.t.failed:0 "Guardiano della Notte: Il Campo È Stato Violato"
   agot_nw_ranger_events.0028.desc.intro_a:0 "Il campo era silenzioso sotto il cielo notturno, quando d’un tratto la quiete si ruppe. Un Bruto sbucò dalle ombre, attaccando con furia selvaggia."
@@ -547,21 +545,27 @@
   agot_nw_ranger_events.0028.a.success:0 "Il campo è salvo, ancora una volta."
   agot_nw_ranger_events.0028.a.failure:0 "Dovremo riprenderci da questo colpo."
 
-
-  ### CONTRACTS
+ ### CONTRACTS
   game_concept_agot_ranger_mission:0 "Missione del Ranger"
   game_concept_agot_ranger_mission_plural:0 "Missioni dei Ranger"
   game_concept_agot_ranger_mission_desc:0 "Le $game_concept_agot_ranger_mission_plural$ sono il principale mezzo con cui il [agot_ranger_camp|E] ottiene [gold|E] o [prestige|E]. Possono anche fornire [provisions|E], [piety|E] e perfino [artifacts|E].\n\nOgnuna è un compito che il Primo Ranger apprende tramite una voce.\n\nNuove $game_concept_agot_ranger_mission_plural$ si generano viaggiando verso una nuova località oltre la Barriera.\n\n#alert_trial La maggior parte delle missioni è pericolosa, e ciascuna potrebbe reclamare la vita del Primo Ranger.#!"
 
+ ##BEFRIEND WILDLING AFTER GETTING INJURED
+ #Contract Texts
   ranger_laamp_contract_1101_contract:0 "Terreni di Caccia"
   ranger_laamp_contract_1101_request:0 "Questa [agot_ranger_mission|E] richiede di raggiungere un sito di caccia"
   ranger_laamp_contract_1101_desc_title:0 "Primo Ranger [TaskContract.GetTaker.GetFirstNameNoTooltip]!"
   ranger_laamp_contract_1101_desc:0 "Ho trovato un luogo promettente non lontano da qui.\n\nLe tracce sono fresche e i segni di selvaggina ovunque. Se ci muoviamo in fretta, potremo raccogliere abbastanza cibo per riempire le scorte del campo. È un’occasione per cacciare prima che il gelo morda più a fondo."
 
+ ##CAST
+ # main_figure - The main character of the event - Helper chief
+ # my_ranger - Ranger Scout
+
+ #Event Outcomes
   agot_nw_ranger_event_success:0 "Il mio tentativo ha successo"
   agot_nw_ranger_event_failure:0 "Fallisco nel mio tentativo"
   agot_nw_ranger_events_duel_begins:0 "#X @warning_icon! Affronti subito [opponent.GetFirstName] in un duello fino alla [character_death_death|E]#!"
-
+ #Start Event
   agot_nw_ranger_events.1101.t:0 "Nelle Terre Selvagge"
   agot_nw_ranger_events.1101.desc.intro_a:0 "L’aria è frizzante, e il cielo sopra di noi è limpido mentre ci prepariamo a partire. Il rapporto di [my_ranger.GetTitledFirstNamePossessive] era promettente: c'è selvaggina da cacciare, e il campo ha bisogno di provviste fresche."
   agot_nw_ranger_events.1101.desc.intro_b:0 "Ci prepariamo, sapendo che il sentiero potrebbe condurci a una ricca preda. Le terre selvagge non perdonano, ma dove c’è selvaggina, vi è speranza per le scorte del campo."
@@ -572,38 +576,33 @@
   agot_nw_ranger_events.1101.a:0 "Andiamo a caccia."
   agot_nw_ranger_events.1101.b:0 "Spostiamo il campo vicino al terreno di caccia."
   agot_nw_ranger_events.1101.tt.destination:0 "Inizi subito il viaggio verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1102.t:0 "La Bestia e lo Sconosciuto"
   agot_nw_ranger_events.1102.desc.intro_a:0 "Mi ritrovo separato dagli altri. Il suono dell’inseguimento svanisce mentre il bosco attorno a me si fa silenzioso."
   agot_nw_ranger_events.1102.desc.intro_b:0 "Il gruppo sta inseguendo la preda tra gli alberi, ma io sono rimasto indietro. Il silenzio mi avvolge, il gelo penetra tra i rami."
   agot_nw_ranger_events.1102.desc.intro_c:0 "Mentre gli altri inseguono la preda, io resto solo nella selva. La neve ovatta i miei passi, e una strana quiete avvolge la terra."
   agot_nw_ranger_events.1102.desc.intro_d:0 "Mentre gli altri tracciano la preda, io mi inoltro in un tratto silenzioso della foresta. I rumori della caccia si sono spenti, lasciandomi solo."
   agot_nw_ranger_events.1102.desc.intro_e:0 "Il vento sussurra tra gli alberi mentre mi allontano dal gruppo. Da solo, la selva sembra chiudersi attorno, fredda e silente."
-
   agot_nw_ranger_events.1102.desc.mid_a:0 "Un ringhio improvviso dalle ombre mi avvisa appena prima che un lupo si lanci, zanne scoperte e occhi bramosi. Alzo l’arma appena in tempo."
   agot_nw_ranger_events.1102.desc.mid_b:0 "Un enorme orso irrompe tra i cespugli, il fiato che si condensa nell’aria mentre ruggisce. Ho un attimo per reagire prima che carichi con furia."
   agot_nw_ranger_events.1102.desc.mid_c:0 "La neve cede sotto di me, e prima che possa muovermi, un lupo enorme balza fuori ringhiando, le fauci a un soffio dalla mia gola."
   agot_nw_ranger_events.1102.desc.mid_d:0 "Dal fitto del bosco, un orso si lancia su di me, le zampe pesanti che schiacciano il terreno. Alzo la lama, pronto a ricevere la sua furia."
   agot_nw_ranger_events.1102.desc.mid_e:0 "\n\nUn lupo, emaciato e folle nello sguardo, sbuca dalle ombre. Riesco a malapena a deviare il colpo, il suo ringhio riecheggia nell’aria immobile."
-
   agot_nw_ranger_events.1102.desc.outro_a:0 "\n\nPrima che la bestia colpisca ancora, un Bruto irrompe tra gli alberi, una lancia in pugno. Per un istante, restiamo tutti immobili: la bestia, il Bruto e io, sospesi in un triangolo mortale."
   agot_nw_ranger_events.1102.desc.outro_b:0 "\n\nMentre fatico a contenere l’assalto, un Bruto appare con la lancia pronta. La bestia si volta verso il nuovo arrivato, e ora siamo in tre, tutti fermi, nessuno osa muoversi."
   agot_nw_ranger_events.1102.desc.outro_c:0 "\n\nLa bestia attacca di nuovo, ma si arresta quando nota un nuovo arrivato: un Bruto è emerso dal bosco, lancia alzata. Ora siamo in tre, diffidenti, pronti a colpire."
   agot_nw_ranger_events.1102.desc.outro_d:0 "\n\nMi preparo a un altro assalto quando un Bruto appare dalle ombre. Siamo in tre: io, la bestia e il Bruto, bloccati in un equilibrio precario."
   agot_nw_ranger_events.1102.desc.outro_e:0 "\n\nLa bestia gira su sé stessa, pronta a balzare ancora, ma un Bruto si fa avanti con la lancia. Ora siamo in stallo, ognuno osserva l’altro, incerti su chi colpirà per primo."
-
   agot_nw_ranger_events.1102.a:0 "Cerco di proporre un’alleanza per abbatterla insieme."
   agot_nw_ranger_events.1102.b:0 "Alzo l’arma, pronto a uccidere entrambi."
   agot_nw_ranger_events.1102.c:0 "Li inganno affinché si attacchino a vicenda, mentre fuggo."
-
   agot_nw_ranger_events_1102.a.tt.win:0 "Sconfiggiamo insieme la bestia"
   agot_nw_ranger_events_1102.a.tt.lose:0 "Il Bruto fraintende le mie intenzioni"
   agot_nw_ranger_events_1102.b.tt.win:0 "Sopraffo sia il Bruto che la bestia"
   agot_nw_ranger_events_1102.b.tt.lose:0 "Il Bruto è troppo forte, e cado"
   agot_nw_ranger_events_1102.c.tt.win:0 "Il Bruto e la bestia si azzannano, e io sguscio via"
   agot_nw_ranger_events_1102.c.tt.lose:0 "Il mio inganno fallisce, e si voltano entrambi contro di me"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.1104.t:0 "La Caccia Giunge al Termine"
   agot_nw_ranger_events.1104.desc.one.a:0 "Insieme, io e il Bruto abbiamo abbattuto la bestia, la nostra forza unita si è dimostrata superiore alla sua ferocia. Quando il mostro crollò al suolo, avvertii una fitta acuta alla mia ferita.\n\nIl Bruto, in un raro momento di tregua, si inginocchiò accanto a me e curò la ferita, mormorando qualcosa nella sua lingua. Non era una guarigione definitiva, ma abbastanza per farmi arrivare a fine giornata."
   agot_nw_ranger_events.1104.desc.one.b:0 "Fianco a fianco, abbiamo affrontato la bestia. La lancia del Bruto e la mia lama hanno stroncato la creatura, il suo corpo pesante si abbatté davanti a noi. Esausto, mi accorsi che del sangue scendeva da una ferita che non avevo notato.\n\nIl Bruto lo vide prima di me e bendò la ferita con uno strappo di stoffa. [main_figure.GetSheHe|U] annuì una sola volta, e senza dire altro, svanì nella foresta."
@@ -621,7 +620,7 @@
   agot_nw_ranger_events.1104.desc.three.d:0 "Mentre Bruto e bestia si scontravano, svanì tra le ombre. Quando si accorsero di me, ero già lontano. La ferita mi rallentava, ma raggiunsi il campo.\n\nMi aiutarono a curarmi, ma quell’incontro non mi avrebbe abbandonato presto."
   agot_nw_ranger_events.1104.desc.three.e:0 "Con il Bruto distratto dalla bestia, colsi l'occasione per fuggire. Poco dopo raggiunsi i compagni, il sangue scorrendo dalla mia ferita.\n\nLavorarono rapidamente per curarmi. Ero salvo, ma la sorte degli altri due restava un mistero."
   agot_nw_ranger_events.1104.a:0 "La caccia è finita, dobbiamo tornare al campo."
-
+ #You Lose
   agot_nw_ranger_events.1105.t:0 "La Caccia Va Storta"
   agot_nw_ranger_events.1105.desc.one.a:0 "Tentai di parlare al Bruto, ma le mie parole furono fraintese. [main_figure.GetSheHe] reagì con ostilità. La bestia ci assalì, e nella confusione riuscii a fuggire, ma non senza ferite."
   agot_nw_ranger_events.1105.desc.one.b:0 "Cercai di ringraziare il Bruto, ma [main_figure.GetSheHe|U] pensò a un inganno. Invece di aiutarmi, [main_figure.GetSheHe] si scagliò contro di me. Fuggii, ferito, lasciando entrambi alle spalle."
@@ -640,13 +639,18 @@
   agot_nw_ranger_events.1105.desc.three.e:0 "Tentai di fuggire mentre si combattevano, ma fallii. Il Bruto se ne accorse, e la bestia mi rincorse. Sopravvissi a stento, la ferita mi faceva tremare."
   agot_nw_ranger_events.1105.a:0 "La caccia è finita, devo tornare al campo a curarmi."
 
-  ##DEFEAT THE CHIEF
-  #Contract Texts
+ ##DEFEAT THE CHIEF
+ #Contract Texts
   ranger_laamp_contract_1201_contract:0 "Nemico in Vista"
   ranger_laamp_contract_1201_request:0 "Questa [agot_ranger_mission|E] richiede di combattere e sconfiggere [TaskContract.GetEmployer.GetName]"
   ranger_laamp_contract_1201_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1201_desc:0 "Ho scorto un capo bruto non lontano dal nostro accampamento.\n\n[TaskContract.GetEmployer.GetName|U] è noto per essere nostro nemico, e pare sia vulnerabile ora, con pochi uomini al suo fianco. Se agiamo in fretta, potremmo tendergli un’imboscata e spezzare la sua influenza. Questa potrebbe essere l’occasione giusta per eliminarlo prima che porti ulteriore rovina."
 
+ ##CAST
+ # main_figure - The main character of the event - Enemy chief
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.1201.t:0 "Nell’Agguato"
   agot_nw_ranger_events.1201.desc.intro_a:0 "Ci prepariamo a muoverci sotto il velo della notte. Il rapporto di [my_ranger.GetTitledFirstNamePossessive] è chiaro: [main_figure.GetTitledFirstNamePossessive] ci ha recato abbastanza danni, ed è giunta l’ora di colpire."
   agot_nw_ranger_events.1201.desc.intro_b:0 "Il vento è gelido mentre ci prepariamo alla partenza. Il capo dei Bruti è vicino, e questa è la nostra occasione migliore per coglierlo di sorpresa. L’accampamento si risveglia, impaziente per la caccia."
@@ -657,7 +661,7 @@
   agot_nw_ranger_events.1201.a:0 "Avanziamo e tendiamo l’agguato a [main_figure.GetSheHe]."
   agot_nw_ranger_events.1201.b:0 "Avviciniamo il campo al luogo dell’imboscata."
   agot_nw_ranger_events.1201.tt.destination:0 "Inizi immediatamente il viaggio verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1202.t:0 "La Trappola È Pronta"
   agot_nw_ranger_events.1202.desc.intro_a:0 "Ci avviciniamo al campo dei Bruti sotto l’ombra della notte. La tenda di [main_figure.GetTitledFirstNamePossessive] è ben visibile, le guardie poche e sparse."
   agot_nw_ranger_events.1202.desc.intro_b:0 "Il vento ulula lieve mentre ci accovacciamo poco fuori dal loro campo. [main_figure.GetTitledFirstName] siede al centro, ignaro della nostra presenza."
@@ -681,7 +685,7 @@
   agot_nw_ranger_events_1202.b.tt.lose:0 "Veniamo scoperti prima di agire, scoppia il caos"
   agot_nw_ranger_events_1202.c.tt.win:0 "La strategia funziona, accerchiamo il campo e catturiamo il capo"
   agot_nw_ranger_events_1202.c.tt.lose:0 "Il piano fallisce e i Bruti fuggono prima dell’assalto"
-
+ #You Win
   agot_nw_ranger_events.1204.t:0 "Il Capo È Caduto"
   agot_nw_ranger_events.1204.desc.one.a:0 "Appena caricai, gli occhi del capo dei Bruti si spalancarono per la sorpresa. Le lame si incrociarono, ma la mia forza ebbe la meglio. Le sue guardie fuggirono, e con un colpo finale, il capo cadde."
   agot_nw_ranger_events.1204.desc.one.b:0 "Mi avvicinai rapido, il capo non fece in tempo a reagire. I suoi uomini tentarono di opporsi, ma non poterono nulla. Con un fendente, pose fine al suo regno."
@@ -699,8 +703,7 @@
   agot_nw_ranger_events.1204.desc.three.d:0 "Il piano andò meglio del previsto. I Bruti si trovarono accerchiati, e il capo dovette combattere. Cadde poco dopo."
   agot_nw_ranger_events.1204.desc.three.e:0 "La nostra tattica ci diede il vantaggio. Circondammo il campo, tagliando ogni via di fuga. Il capo cadde sotto il nostro assalto."
   agot_nw_ranger_events.1204.a:0 "Il capo è sconfitto, torniamo all’accampamento."
-
-  #You Lose
+ #You Lose
   agot_nw_ranger_events.1205.t:0 "L’imboscata Fallisce"
   agot_nw_ranger_events.1205.desc.one.a:0 "Tentai di negoziare con il capo bruto, ma le mie parole non fecero che accendere la sua ira. [main_figure.GetSheHe|U] diede un segnale, e i suoi uomini ci circondarono. Prima che potessimo reagire, fummo sopraffatti e costretti alla ritirata."
   agot_nw_ranger_events.1205.desc.one.b:0 "Il mio tentativo di ragionare fu accolto con scherno. I suoi uomini agirono in fretta, cogliendoci di sorpresa. Sopraffatti e disorientati, non ci restò che fuggire."
@@ -719,11 +722,18 @@
   agot_nw_ranger_events.1205.desc.three.e:0 "\n\nIl capo era più vigile del previsto. [main_figure.GetSheHe|U] ci riconobbe subito, e i suoi ci assalirono. Fuggimmo, ma solo per poco."
   agot_nw_ranger_events.1205.a:0 "Non può finire così."
 
+ ##KILL THE UPCOMING CHIEF
+ #Contract Texts
   ranger_laamp_contract_1301_contract:0 "Minaccia Emergente"
   ranger_laamp_contract_1301_request:0 "Questa [agot_ranger_mission|E] richiede di combattere e sconfiggere [TaskContract.GetEmployer.GetName]"
   ranger_laamp_contract_1301_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1301_desc:0 "Il capo bruto che stiamo osservando sta crescendo in forza.\n\nLa sua influenza si diffonde, e sempre più clan si uniscono a lui. Se non agiamo subito, [TaskContract.GetEmployer.GetSheHe] potrebbe diventare inarrestabile. Dobbiamo colpire ora, mentre è ancora vulnerabile, prima che la sua potenza ci superi."
 
+ ##CAST
+ # main_figure - The main character of the event - Ambitious chief
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.1301.t:0 "La Tempesta Cresce"
   agot_nw_ranger_events.1301.desc.intro_a:0 "Abbiamo atteso fin troppo. Il potere del capo bruto cresce, e se non agiamo ora, [main_figure.GetSheHe] sarà troppo forte per essere fermato. È tempo di intervenire, prima che sia troppo tardi."
   agot_nw_ranger_events.1301.desc.intro_b:0 "Il capo dei Bruti si rafforza ogni giorno. Dobbiamo agire prima che la sua influenza si estenda. Il campo è pronto: è il momento di colpire."
@@ -734,7 +744,7 @@
   agot_nw_ranger_events.1301.a:0 "Andiamo ad affrontare questa minaccia."
   agot_nw_ranger_events.1301.b:0 "Spostiamo il campo vicino al suo territorio."
   agot_nw_ranger_events.1301.tt.destination:0 "Inizi subito il viaggio verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1302.t:0 "La Trappola Si Rovescia"
   agot_nw_ranger_events.1302.desc.intro_a:0 "Ci muoviamo silenziosi nella neve, il campo dei Bruti è davanti a noi. Le guardie sono poche, e [main_figure.GetTitledFirstName] sembra a portata. Siamo pronti."
   agot_nw_ranger_events.1302.desc.intro_b:0 "Il piano è chiaro: abbattere le guardie rapidamente e colpire [main_figure.GetTitledFirstName] prima che reagisca. Siamo in posizione, pronti a cominciare."
@@ -758,8 +768,7 @@
   agot_nw_ranger_events_1302.b.tt.lose:0 "I Bruti superano le nostre difese e dobbiamo fuggire"
   agot_nw_ranger_events_1302.c.tt.win:0 "Il fuoco crea il caos e ci permette di fuggire"
   agot_nw_ranger_events_1302.c.tt.lose:0 "Il trucco fallisce, e il fuoco ci intrappola"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.1304.t:0 "Il Capo È Caduto"
   agot_nw_ranger_events.1304.desc.one.a:0 "Carichiamo con furia sui Bruti. Il loro capo tenta di radunare gli uomini, ma la nostra forza è travolgente. Con un colpo potente, lo abbatto, e i suoi fuggono nella notte."
   agot_nw_ranger_events.1304.desc.one.b:0 "La nostra carica squarcia le linee dei Bruti come lama nella neve. Il capo mi affronta, ma [main_figure.GetSheHe] non regge il confronto. Quando cade, i suoi si disperdono. Abbiamo vinto."
@@ -777,7 +786,7 @@
   agot_nw_ranger_events.1304.desc.three.d:0 "Nel tumulto delle fiamme, raggiungo il capo e lo abbatto. I suoi, vedendo la sua fine, fuggono nella notte."
   agot_nw_ranger_events.1304.desc.three.e:0 "Il fuoco getta i Bruti nel disordine. Sfruttando il caos, uccido il capo, e i suoi, terrorizzati, si perdono nel selvaggio."
   agot_nw_ranger_events.1304.a:0 "Il capo è morto. Torniamo vittoriosi."
-
+ #You Lose
   agot_nw_ranger_events.1305.t:0 "L’Imboscata Crolla"
   agot_nw_ranger_events.1305.desc.one.a:0 "Carichiamo, ma i Bruti sono troppi. Il loro capo raduna gli uomini, e siamo sopraffatti. La sua lama colpisce nel segno: siamo costretti a ritirarci."
   agot_nw_ranger_events.1305.desc.one.b:0 "Il nostro assalto vacilla. Il capo si erge saldo, i suoi ci circondano. Lottiamo con valore, ma non possiamo avanzare. Fuggiamo sopraffatti."
@@ -798,16 +807,18 @@
   agot_nw_ranger_events.1305.a.tt.super_dead:0 "Ho lottato, ho perso, ora riposo..."
   agot_nw_ranger_events.1305.a.tt.im_wounded:0 "Ma me la sono cavata con un graffio..."
 
+ ##TRADE WITH A WILDLING
+ #Contract Texts
   ranger_laamp_contract_1401_contract:0 "Convocato dal Capo"
   ranger_laamp_contract_1401_request:0 "Questa [agot_ranger_mission|E] richiede di visitare [TaskContract.GetEmployer.GetName] per scoprirne le intenzioni"
   ranger_laamp_contract_1401_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1401_desc:0 "Sono entrato in contatto con un capo bruto che sembra interessato a incontrarti.\n\n[TaskContract.GetEmployer.GetSheHe|U] ha sentito parlare di te e desidera un colloquio. Non vi è garanzia che sia sicuro, ma [TaskContract.GetEmployer.GetSheHe] non sembrava ostile. Potrebbe valere la pena ascoltare cosa [TaskContract.GetEmployer.GetSheHe] ha da dire."
 
-  ##CAST
-  # main_figure - The main character of the event - Curious chief
-  # my_ranger - Ranger Scout
+ ##CAST
+ # main_figure - The main character of the event - Curious chief
+ # my_ranger - Ranger Scout
 
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.1401.t:0 "In Terre Sconosciute"
   agot_nw_ranger_events.1401.desc.intro_a:0 "Abbiamo affrontato capi bruti in passato, ma questo è diverso. [main_figure.GetSheHe|U] ha chiesto d'incontrarmi di persona. Il campo è in fermento mentre ci prepariamo a questo strano incontro."
   agot_nw_ranger_events.1401.desc.intro_b:0 "Un capo dei Bruti mi ha convocato, e l'aria nel campo è carica di tensione. Non conosciamo le sue intenzioni, ma siamo pronti a scoprire cosa vuole [main_figure.GetSheHe]."
@@ -818,7 +829,7 @@
   agot_nw_ranger_events.1401.a:0 "Andiamo a incontrare il capo."
   agot_nw_ranger_events.1401.b:0 "Spostiamo il campo più vicino alla sua posizione."
   agot_nw_ranger_events.1401.tt.destination:0 "Parti subito per [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1402.t:0 "Racconti al Fuoco"
   agot_nw_ranger_events.1402.desc.intro_a:0 "Siamo seduti intorno al fuoco, [main_figure.GetTitledFirstName] mi osserva attentamente mentre ci scambiamo racconti. I suoi uomini tacciono, ma sento i loro occhi su di me mentre il capo parla."
   agot_nw_ranger_events.1402.desc.intro_b:0 "[main_figure.GetTitledFirstName] non è come mi aspettavo. [main_figure.GetSheHe|U] ascolta con attenzione mentre narro storie del nostro campo, i suoi occhi brillano di curiosità mentre scambiamo parole."
@@ -844,7 +855,7 @@
   agot_nw_ranger_events_1402.b.tt.lose:0 "Il capo vede attraverso le mie parole e ci nega ogni aiuto"
   agot_nw_ranger_events_1402.c.tt.win:0 "Il capo crede alla mia storia e ci offre delle provviste"
   agot_nw_ranger_events_1402.c.tt.lose:0 "Il capo scopre la mia menzogna e rifiuta di aiutarci"
-
+ #You Win
   agot_nw_ranger_events.1404.t:0 "Un Bottino Inatteso"
   agot_nw_ranger_events.1404.desc.one.a:0 "I miei consigli hanno colpito nel segno. Il capo bruto non solo ha accettato le mie idee, ma mi ha ricompensato ben oltre le aspettative. I suoi uomini hanno portato sacchi di cibo, abbastanza da sfamare il nostro campo per settimane."
   agot_nw_ranger_events.1404.desc.one.b:0 "Il capo ha ascoltato con attenzione, annuendo con approvazione. In segno di gratitudine, [main_figure.GetSheHe] ci ha offerto molte più provviste di quanto sperassimo. È più che sufficiente per il viaggio."
@@ -862,8 +873,7 @@
   agot_nw_ranger_events.1404.desc.three.d:0 "Il capo ha bevuto ogni mia parola, e la sua generosità ha superato ogni mia aspettativa. I suoi uomini ci hanno dato molto più di quanto servisse, una vera fortuna."
   agot_nw_ranger_events.1404.desc.three.e:0 "Il mio racconto inventato ha toccato il cuore del capo. Non solo [main_figure.GetSheHe] ci ha creduto, ma ci ha dato ben più provviste di quanto sperassimo, riempiendo le nostre sacche fino all'orlo."
   agot_nw_ranger_events.1404.a:0 "Che strano [Select_CString(main_figure.IsFemale,'donna','uomo')]."
-
-  #You Lose
+ #You Lose
   agot_nw_ranger_events.1405.t:0 "A Mani Vuote"
   agot_nw_ranger_events.1405.desc.one.a:0 "I miei consigli per migliorare il suo accampamento non hanno avuto l'effetto sperato. Il capo bruto ha aggrottato la fronte, chiaramente poco impressionato, e ci ha offerto solo sguardi gelidi. Ce ne andiamo a mani vuote."
   agot_nw_ranger_events.1405.desc.one.b:0 "Il capo ha ascoltato i miei suggerimenti, ma ho capito subito che [main_figure.GetSheHe] non era interessato. Alla fine, [main_figure.GetSheHe] ha respinto i miei consigli e non ci ha dato provviste da portare al campo."
@@ -882,11 +892,18 @@
   agot_nw_ranger_events.1405.desc.three.e:0 "Il mio tentativo di ingannare il capo bruto è fallito miseramente. [main_figure.GetSheHe|U] ha smascherato le mie falsità e ha rifiutato di offrirci alcunché, lasciandoci a mani vuote."
   agot_nw_ranger_events.1405.a:0 "Meglio tornare al campo."
 
+ ##A WILDLING CHILD
+ #Contract Texts
   ranger_laamp_contract_1501_contract:0 "Bambino in Pericolo"
   ranger_laamp_contract_1501_request:0 "Questa [agot_ranger_mission|E] ti richiede di salvare la vita di un bambino bruto"
   ranger_laamp_contract_1501_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1501_desc:0 "Durante una ricognizione, ho trovato qualcosa d'inaspettato: un bambino bloccato su un ramo sottile sopra un burrone profondo.\n\nIl ramo sembra pronto a spezzarsi da un momento all’altro, e la caduta sarebbe letale. È una situazione pericolosa, e dobbiamo agire in fretta se vogliamo salvarlo."
 
+ ##CAST
+ # main_figure - The main character of the event - Wildling child
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.1501.t:0 "Il Salvataggio"
   agot_nw_ranger_events.1501.desc.intro_a:0 "Il rapporto di [my_ranger.GetTitledFirstNamePossessive] è urgente, e non abbiamo tempo da perdere. Un bambino è in pericolo, sospeso sopra un burrone. Se non agiamo subito, non sopravvivrà."
   agot_nw_ranger_events.1501.desc.intro_b:0 "Abbiamo affrontato molti pericoli oltre la Barriera, ma questo è diverso. È in gioco la vita di un bambino, appeso a un filo sopra una caduta mortale. Non c'è tempo da perdere."
@@ -897,8 +914,7 @@
   agot_nw_ranger_events.1501.a:0 "Muoviamoci subito a salvare il bambino."
   agot_nw_ranger_events.1501.b:0 "Avviciniamo il campo al burrone per aiutare."
   agot_nw_ranger_events.1501.tt.destination:0 "Parti subito per [destination_1.GetBaseNameNoTier]"
-
-  #Action Event
+ #Action Event
   agot_nw_ranger_events.1502.t:0 "Il Salvataggio del Timoroso"
   agot_nw_ranger_events.1502.desc.intro_a:0 "Arriviamo al bordo del burrone, e lì, aggrappato a un ramo fragile, c’è il fanciullo. I suoi occhi spalancati sono pieni di terrore, ed è chiaro che [main_figure.GetSheHe] non si fida di noi."
   agot_nw_ranger_events.1502.desc.intro_b:0 "Mentre ci avviciniamo, vediamo il giovane bruto penzolare dal ramo, il vuoto sotto di lui fa paura. [main_figure.GetSheHe|U] ci guarda con terrore, riconoscendoci come ranger, e resta paralizzato."
@@ -924,6 +940,7 @@
   agot_nw_ranger_events_1502.b.tt.lose:0 "Il bambino non ascolta e resta paralizzato dalla paura"
   agot_nw_ranger_events_1502.c.tt.win:0 "Le mie parole [main_figure.Custom('DE_PRO_POS_P_3P')] ingannano, e [main_figure.GetSheHe] si avvicina"
   agot_nw_ranger_events_1502.c.tt.lose:0 "Il bambino non cade nel mio inganno e resta dov’è"
+ #You Win
   agot_nw_ranger_events.1504.t:0 "Il Salvataggio Riuscito"
   agot_nw_ranger_events.1504.desc.one.a:0 "Mi muovo rapido, afferrando il bambino proprio mentre il ramo si spezza sotto di lui. Il suo terrore è ancora visibile, ma [main_figure.GetSheHe] si aggrappa a me mentre lo porto in salvo."
   agot_nw_ranger_events.1504.desc.one.b:0 "Con uno scatto di forza, raggiungo il bambino e lo tiro via dal ramo prima che si spezzi. I suoi occhi sono pieni di paura, ma [main_figure.GetSheHe] è salvo nelle mie braccia."
@@ -941,8 +958,7 @@
   agot_nw_ranger_events.1504.desc.three.d:0 "Le mie parole ingannano il bambino per un momento, e quel momento è tutto ciò che serve. Lo afferro dal ramo prima che si spezzi."
   agot_nw_ranger_events.1504.desc.three.e:0 "Il mio inganno funziona, la paura lascia spazio alla fiducia, e il bambino si avvicina quanto basta perché io lo possa mettere in salvo. Il ramo si spezza, ma lui è fuori pericolo."
   agot_nw_ranger_events.1504.a:0 "Il bambino è salvo, e il pericolo è scampato."
-
-  #You Lose
+ #You Lose
   agot_nw_ranger_events.1505.t:0 "Il Bambino È Perduto"
   agot_nw_ranger_events.1505.desc.one.a:0 "Mi muovo in fretta, ma non abbastanza. Il ramo si spezza proprio mentre tento di afferrare il bambino, e guardo impotente mentre [main_figure.GetSheHe] precipita nel burrone."
   agot_nw_ranger_events.1505.desc.one.b:0 "Provo ad afferrarlo, ma il ramo trema e cede prima che riesca a raggiunger[main_figure.Custom('DE_PRO_POS_P_3P')]. In un istante il bambino sparisce, urlando mentre [main_figure.GetSheHe] cade."
@@ -961,18 +977,18 @@
   agot_nw_ranger_events.1505.desc.three.e:0 "Il mio tentativo di ingannarlo fallisce. [main_figure.GetSheHe|U] resta immobile, e il ramo si spezza sotto il suo peso. Il suo urlo svanisce mentre [main_figure.GetSheHe] sparisce nel burrone."
   agot_nw_ranger_events.1505.a:0 "Non possiamo più fare nulla, ormai."
 
-  ## LOOT ARTIFACT
-  #Contract Texts
+ ##LOOT ARTIFACT
+ #Contract Texts
   ranger_laamp_contract_1601_contract:0 "Il Tesoro del Capo"
   ranger_laamp_contract_1601_request:0 "Questa [agot_ranger_mission|E] ti chiede di prendere l’artefatto di [TaskContract.GetEmployer.GetNamePossessive]"
   ranger_laamp_contract_1601_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1601_desc:0 "Ho sentito da uno degli accampamenti dei bruti che un capo lì vicino custodisce qualcosa di prezioso, una reliquia.\n\nSi dice sia ben protetta, ma se agiamo in fretta potremmo riuscire a impadronircene prima che [TaskContract.GetEmployer.GetSheHe] sappia del nostro arrivo. Potrebbe essere una vera occasione per noi."
 
-  ##CAST
-  # main_figure - The main character of the event - Artifact owner chief
-  # my_ranger - Ranger Scout
+ ##CAST
+ # main_figure - The main character of the event - Artifact owner chief
+ # my_ranger - Ranger Scout
 
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.1601.t:0 "Alla Caccia della Reliquia"
   agot_nw_ranger_events.1601.desc.intro_a:0 "Le informazioni di [my_ranger.GetTitledFirstNamePossessive] potrebbero essere la chiave per qualcosa di prezioso. Impadronirsi dell’artefatto di un capo bruto potrebbe darci vantaggio, o potere. Raduniamo le provviste e ci prepariamo alla missione."
   agot_nw_ranger_events.1601.desc.intro_b:0 "C’è la possibilità che il capo bruto non sappia davvero cosa possiede, ma noi sì. Questo artefatto potrebbe essere importante. Non abbiamo tempo da perdere, dobbiamo prenderlo prima che il capo ne comprenda il valore."
@@ -983,7 +999,7 @@
   agot_nw_ranger_events.1601.a:0 "Andiamo a prendere l’artefatto."
   agot_nw_ranger_events.1601.b:0 "Spostiamo il campo più vicino al territorio del capo bruto."
   agot_nw_ranger_events.1601.tt.destination:0 "Parti immediatamente verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1602.t:0 "Avvicinandoci alla Reliquia"
   agot_nw_ranger_events.1602.desc.intro_a:0 "Giungiamo ai confini del campo di [main_figure.GetTitledFirstNamePossessive], con la reliquia nascosta da qualche parte all’interno. Gli uomini del capo sono di guardia, e il campo è all’erta. Dobbiamo muoverci con cautela."
   agot_nw_ranger_events.1602.desc.intro_b:0 "Con il campo in vista, scorgiamo gli uomini di [main_figure.GetTitledFirstNamePossessive] vigilare. La reliquia è dentro, ma non sarà facile raggiungerla. Sono pronti a respingere intrusi; non possiamo permetterci leggerezze."
@@ -1007,8 +1023,7 @@
   agot_nw_ranger_events_1602.b.tt.lose:0 "Il capo si riprende in fretta e mi ferma prima che possa afferrare la reliquia"
   agot_nw_ranger_events_1602.c.tt.win:0 "Il capo cade nel tranello e finisce dritto nella nostra imboscata, lasciando indietro la reliquia"
   agot_nw_ranger_events_1602.c.tt.lose:0 "Il capo smaschera la manovra e reagisce, fuggendo con la reliquia"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.1604.t:0 "Il Tesoro"
   agot_nw_ranger_events.1604.desc.one.a:0 "Lo scontro è feroce, ma la mia forza ha la meglio. Il capo bruto cade davanti a me, sconfitto, e la reliquia è nostra. I suoi uomini si disperdono, lasciandoci vittoriosi."
   agot_nw_ranger_events.1604.desc.one.b:0 "Colpisco con precisione, sopraffacendo il capo. La sua forza si affievolisce, e [main_figure.GetSheHe] crolla a terra. Con [main_figure.GetSheHe] sconfitto, la reliquia è a portata di mano."
@@ -1026,7 +1041,7 @@
   agot_nw_ranger_events.1604.desc.three.d:0 "Il nostro piano si realizza alla perfezione. Il capo cade nella nostra trappola, e la sua sconfitta è rapida. La reliquia è nostra, e i bruti sono dispersi."
   agot_nw_ranger_events.1604.desc.three.e:0 "L’imboscata ha successo. Il capo, rendendosene conto troppo tardi, cade sotto la nostra forza. I suoi uomini si ritirano, e la reliquia è nelle nostre mani."
   agot_nw_ranger_events.1604.a:0 "Il capo è sconfitto, e la reliquia è nostra."
-
+ #You Lose
   agot_nw_ranger_events.1605.t:0 "Il Capo Fugge"
   agot_nw_ranger_events.1605.desc.one.a:0 "Lo scontro va male. La forza del capo bruto mi sorprende, e sono costretto a indietreggiare. Alla fine, veniamo sopraffatti, e il capo fugge con la reliquia in mano."
   agot_nw_ranger_events.1605.desc.one.b:0 "Avanzo all’attacco, ma il capo risponde con un colpo brutale. I suoi uomini ci attaccano con forza, e nonostante i miei sforzi, siamo costretti a ritirarci senza la reliquia."
@@ -1045,14 +1060,18 @@
   agot_nw_ranger_events.1605.desc.three.e:0 "La nostra imboscata fallisce quando il capo ci supera in astuzia. I suoi uomini ci respingono, e la reliquia resta nelle sue mani mentre fuggiamo dal campo."
   agot_nw_ranger_events.1605.a:0 "Non possiamo più fare nulla, ormai."
 
-
-  ##TURNCLOAK
-  #Contract Texts
+ ##TURNCLOAK
+ #Contract Texts
   ranger_laamp_contract_1701_contract:0 "Il Corvo Liberato"
   ranger_laamp_contract_1701_request:0 "Questa [agot_ranger_mission|E] ti chiede di visitare [TaskContract.GetEmployer.GetName] per scoprire quali siano le sue vere intenzioni"
   ranger_laamp_contract_1701_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1701_desc:0 "Il capo bruto ha inviato un messaggio curioso, [TaskContract.GetEmployer.GetSheHe] vuole incontrarti, dicendo che intende 'liberare il corvo.'\n\nCosa intenda dire è un mistero, e non possiamo sapere quali siano le sue vere intenzioni. Potrebbe essere una trappola… o qualcosa di ben più inaspettato. Dobbiamo procedere con cautela e scoprire cosa voglia davvero."
 
+ ##CAST
+ # main_figure - The main character of the event - Rivalling chief
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.1701.t:0 "Verso l'Ignoto"
   agot_nw_ranger_events.1701.desc.intro_a:0 "Il messaggio di [main_figure.GetTitledFirstNamePossessive] è tanto criptico quanto inquietante. #italic 'Liberare il corvo.'#! Le parole risuonano nella mia mente mentre ci prepariamo per il viaggio. Qualunque sia il suo significato, dobbiamo essere pronti a tutto."
   agot_nw_ranger_events.1701.desc.intro_b:0 "Non riesco a togliermi dalla mente l’idea che ci sia di più dietro le parole di [main_figure.GetTitledFirstNamePossessive]. #italic 'Liberare il corvo.'#! Cosa vuole davvero? L’incertezza mi rode mentre ci prepariamo."
@@ -1063,7 +1082,7 @@
   agot_nw_ranger_events.1701.a:0 "Andiamo a incontrare il capo."
   agot_nw_ranger_events.1701.b:0 "Avviciniamo il campo al luogo dell’incontro."
   agot_nw_ranger_events.1701.tt.destination:0 "Parti immediatamente verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1702.t:0 "L’Offerta del Capo"
   agot_nw_ranger_events.1702.desc.intro_a:0 "Arriviamo al campo dei bruti, accolti dal capo. Il suo volto è calmo, ma nei suoi occhi c’è qualcosa di più. È chiaro che [main_figure.GetSheHe] ha pianificato questo momento con attenzione."
   agot_nw_ranger_events.1702.desc.intro_b:0 "Il capo bruto ci accoglie con un sorriso che non raggiunge mai gli occhi. L’aria è carica di parole non dette mentre ci raccogliamo attorno al suo fuoco, in attesa che [main_figure.GetSheHe] sveli le sue intenzioni."
@@ -1083,16 +1102,18 @@
   agot_nw_ranger_events.1702.a:0 "Combatterò al tuo fianco. Conquisteremo queste terre."
   desert_and_war:0 "Diserti i Guardiani della Notte e dichiari guerra a [an_enemy.GetTitledFirstNameNoTooltip]."
   agot_nw_ranger_events.1702.b:0 "Come osi chiedermi di tradire i Guardiani della Notte?"
-
+ #You Win
   agot_nw_ranger_events.1704.t:0 "Tradimento alla Barriera"
   agot_nw_ranger_events.1704.desc:0 "La decisione è presa. Ho lasciato indietro i Guardiani della Notte e rinnegato i miei voti. Ora io e il capo bruto siamo uniti, pronti a lanciare la guerra contro il suo rivale. Gli uomini che una volta mi chiamavano fratello, presto mi conosceranno come nemico. Il vento freddo ulula mentre marciamo, e a ogni passo sento il peso della mia scelta. Non si torna più indietro.\n\nLa guerra ha inizio, e queste terre presto saranno nostre."
   agot_nw_ranger_events.1704.a:0 "Alla guerra! Queste terre saranno nostre!"
-
+ #You Lose
   agot_nw_ranger_events.1705.t:0 "L’Ultima Tentazione"
   agot_nw_ranger_events.1705.desc:0 "Il capo insiste, le sue parole si fanno più accorate, il tono più disperato. [main_figure.GetSheHe|U] mi promette tutto: potere, libertà, terre. Ma la mia decisione è già presa. Non rinnegherò il mio giuramento ai Guardiani della Notte. Eppure, la tentazione rimane, e sento tutto il peso di questo momento.\n\nMentre mi trovo davanti a [main_figure.GetSheHe], rifletto sulle mie opzioni."
   agot_nw_ranger_events.1705.a:0 "Pagherai per questo."
   agot_nw_ranger_events.1705.b:0 "Me ne vado. Il suo destino non mi riguarda."
 
+ #BECAME LANDED
+ #Turncloak:0 Becoming Landed - Post-War Event
   agot_nw_ranger_events.1706.t:0 "Da Corvo a Capo"
   agot_nw_ranger_events.1706.desc:0 "Un tempo indossavo il nero, servivo come Primo Ranger dei Guardiani della Notte. Ma quei giorni sono finiti. Ora, oltre la Barriera, sono un disertore agli occhi dei miei ex fratelli, ma qualcosa di più per il Popolo Libero.\n\nLe terre selvagge mi chiamano, così come il sentiero del Popolo Libero. È tempo di decidere se abbracciare davvero questa nuova vita o restarne ai margini."
   agot_nw_ranger_events.1706.desc_wildling:0 "Un tempo indossavo il nero, Primo Ranger dei Guardiani della Notte, ma il mio sangue ha sempre appartenuto alle terre selvagge. Ho camminato tra i corvi, ma il Popolo Libero è da dove provengo. Ora la Barriera è alle spalle, e mi trovo oltre di essa, non come disertore, ma come figlio ritornato.\n\nLe terre selvagge mi richiamano come una vecchia amica. È tempo di scegliere se essere davvero ciò che sono sempre stato, o aggrapparmi alla vita che ho lasciato."
@@ -1101,16 +1122,18 @@
   agot_nw_ranger_events.1706.c:0 "Questa è casa mia, ormai."
   agot_nw_ranger_events.1706.d:0 "Nulla cambia davvero."
 
+ ##WILDLING SEDUCTION
+ #Contract Texts
   ranger_laamp_contract_1801_contract:0 "Fuochi Abbandonati"
   ranger_laamp_contract_1801_request:0 "Questa [agot_ranger_mission|E] ti chiede di investigare un campo dei bruti abbandonato"
   ranger_laamp_contract_1801_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1801_desc:0 "Durante l’esplorazione, mi sono imbattuto in un campo dei bruti abbandonato.\n\nSembra che siano fuggiti in fretta, i fuochi ancora fumanti, le provviste sparse ovunque. Dovremmo indagare. Potrebbe esserci qualcosa di utile... o almeno capire perché se ne siano andati così in fretta."
 
-  ##CAST
-  # main_figure - The main character of the event - Seducer chief
-  # my_ranger - Ranger Scout
+ ##CAST
+ # main_figure - The main character of the event - Seducer chief
+ # my_ranger - Ranger Scout
 
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.1801.t:0 "Prepararsi all’Ignoto"
   agot_nw_ranger_events.1801.desc.intro_a:0 "Il rapporto di [my_ranger.GetTitledFirstNamePossessive] continua a ronzarmi nella testa mentre ci prepariamo a partire. Un campo dei bruti abbandonato in fretta. Osservando la neve smossa, so che c’è dell’altro. Dobbiamo essere pronti a tutto."
   agot_nw_ranger_events.1801.desc.intro_b:0 "Mentre raccogliamo le provviste, non riesco a smettere di chiedermi perché i bruti abbiano lasciato il campo così all’improvviso. Non possiamo sapere cosa troveremo, ma qualunque cosa sia, saremo pronti."
@@ -1121,7 +1144,7 @@
   agot_nw_ranger_events.1801.a:0 "Andiamo a investigare il campo."
   agot_nw_ranger_events.1801.b:0 "Avviciniamo l’intero campo dei ranger per essere pronti."
   agot_nw_ranger_events.1801.tt.destination:0 "Parti immediatamente verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1802.t:0 "Catturato tra i Ghiacci"
   agot_nw_ranger_events.1802.desc.intro_a:0 "Giungiamo al campo abbandonato e iniziamo l’indagine. I ranger si sparpagliano in cerca di indizi. Io mi allontano dal gruppo, e poco dopo mi ritrovo da solo."
   agot_nw_ranger_events.1802.desc.intro_b:0 "Il campo è inquietantemente silenzioso mentre iniziamo a perlustrare. Mi allontano dagli altri, intento a esaminare le provviste sparse, quando mi rendo conto di essere solo."
@@ -1147,8 +1170,7 @@
   agot_nw_ranger_events_1802.b.tt.lose:0 "[main_figure.GetSheHe|U] resta impassibile, e rimango legato"
   agot_nw_ranger_events_1802.c.tt.win:0 "[main_figure.GetSheHe|U] è convinto dalla mia logica e mi lascia andare"
   agot_nw_ranger_events_1802.c.tt.lose:0 "[main_figure.GetSheHe|U] rifiuta la mia richiesta e mi tiene prigioniero"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.1804.t:0 "Il Legame Fornito"
   agot_nw_ranger_events.1804.desc.one.a:0 "Le mie parole fanno effetto, e la tensione tra noi cambia. [main_figure.GetTitledFirstName], il suo sguardo si addolcisce. Ora condividiamo più delle parole. [main_figure.GetSheHe|U] non è più un nemico, ma un amante."
   agot_nw_ranger_events.1804.desc.one.b:0 "Il suo sorriso si fa malizioso, e capisco di aver vinto. Ciò che era una sfida è divenuto qualcosa di più profondo. [main_figure.GetTitledFirstName] è caduto sotto il mio incanto, e il nostro legame è suggellato."
@@ -1166,7 +1188,7 @@
   agot_nw_ranger_events.1804.desc.three.d:0 "La mia ragione abbatte le sue difese. [main_figure.GetTitledFirstName] inizia a vedere le cose come me, e presto [main_figure.GetSheHe] non è più una minaccia ma un alleato. Ho vinto."
   agot_nw_ranger_events.1804.desc.three.e:0 "[main_figure.GetSheHe|U] riflette sulle mie parole, e vedo che il suo atteggiamento cambia. [main_figure.GetTitledFirstName] non è più ostile, ma riflessivo. L’ho convinto a vedere con i miei occhi."
   agot_nw_ranger_events.1804.a:0 "Potrebbe essere l’inizio di qualcosa."
-
+ #You Lose
   agot_nw_ranger_events.1805.t:0 "Sotto lo Sguardo del Capo"
   agot_nw_ranger_events.1805.desc.one.a:0 "Il mio tentativo di seduzione fallisce. Il capo bruto vede attraverso le mie parole, e il suo sorriso svanisce. Ho giocato male le mie carte, e ora [main_figure.GetSheHe] mi osserva con fredda diffidenza. Resto legato."
   agot_nw_ranger_events.1805.desc.one.b:0 "Provo a persuader[main_figure.Custom('DE_PRO_POS_P_3P')] , ma il capo bruto non si lascia ingannare. Il suo volto si irrigidisce: ho fallito. Invece di conquistarlo, ho solo rafforzato la sua presa su di me."
@@ -1185,16 +1207,18 @@
   agot_nw_ranger_events.1805.desc.three.e:0 "Sebbene provi a ragionare, il capo bruto non vuole ascoltare. Il mio discorso si sgretola, e resto sotto la sua custodia, la libertà più lontana che mai."
   agot_nw_ranger_events.1805.a:0 "Pare che resterò qui ancora un po'."
 
+ ##CATCH DESERTER
+ #Contract Texts
   ranger_laamp_contract_1901_contract:0 "Il Traditore"
   ranger_laamp_contract_1901_request:0 "Questa [agot_ranger_mission|E] richiede che tu combatta e vinca contro il traditore"
   ranger_laamp_contract_1901_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_1901_desc:0 "Ho ricevuto notizie su un disertore dei Guardiani della Notte.\n\nSi nasconde nei pressi, tra i boschi selvaggi. Non possiamo lasciare impunito questo tradimento. Se ci muoviamo in fretta, dovremmo riuscire a trovarlo e a fargli giustizia prima che riesca a fuggire oltre."
 
-  ##CAST
-  # main_figure - The main character of the event - Turncloak
-  # my_ranger - Ranger Scout
+ ##CAST
+ # main_figure - The main character of the event - Turncloak
+ # my_ranger - Ranger Scout
 
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.1901.t:0 "A Caccia del Traditore"
   agot_nw_ranger_events.1901.desc.intro_a:0 "Il rapporto di [my_ranger.GetTitledFirstName] mi ossessiona. Un disertore, un traditore dei Guardiani della Notte, si nasconde non lontano. Non abbiamo tempo da perdere. I venti ululano nel campo mentre ci prepariamo alla caccia."
   agot_nw_ranger_events.1901.desc.intro_b:0 "Un disertore dei Guardiani della Notte… non c'è tradimento peggiore. Le informazioni di [my_ranger.GetTitledFirstNamePossessive] sono fresche, e se ci muoviamo in fretta, possiamo catturar[main_figure.Custom('DE_PRO_POS_P_3P')] prima che [main_figure.GetSheHe] sparisca nei boschi."
@@ -1205,7 +1229,7 @@
   agot_nw_ranger_events.1901.a:0 "Andiamo. Lo prenderemo."
   agot_nw_ranger_events.1901.b:0 "Avviciniamo il campo. Potremmo aver bisogno di rinforzi."
   agot_nw_ranger_events.1901.tt.destination:0 "Parti immediatamente verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.1902.t:0 "Il Disertore Trovato"
   agot_nw_ranger_events.1902.desc.intro_a:0 "Siamo giunti al margine della foresta, e non passa molto prima di scorgere [main_figure.GetTitledFirstName], il disertore. [main_figure.GetSheHe|U] si muove in fretta, ma non sa che siamo qui. Questa è la nostra occasione."
   agot_nw_ranger_events.1902.desc.intro_b:0 "I boschi sono fitti, ma [main_figure.GetTitledFirstName], il disertore, non è lontano. Lo vedo tra gli alberi, ignaro del fatto che ci siamo avvicinati. Il tempo stringe per lui."
@@ -1229,8 +1253,7 @@
   agot_nw_ranger_events_1902.b.tt.lose:0 "[main_figure.GetSheHe|U] capisce l’inganno e fugge"
   agot_nw_ranger_events_1902.c.tt.win:0 "Chiudiamo il cerchio, intrappolandolo senza via di scampo"
   agot_nw_ranger_events_1902.c.tt.lose:0 "[main_figure.GetSheHe|U] trova una via di fuga e ci sfugge"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.1904.t:0 "La Fine del Traditore"
   agot_nw_ranger_events.1904.desc.one.a:0 "Carico in avanti e il disertore non ha tempo di reagire. La mia lama colpisce nel segno, e con un solo fendente, [main_figure.GetSheHe] cade al suolo. Il cammino del traditore finisce qui."
   agot_nw_ranger_events.1904.desc.one.b:0 "Lo colpisco con forza, il colpo è rapido e mortale. Il traditore ha a malapena il tempo di capire il suo destino prima di crollare sotto la mia lama. La giustizia dei Guardiani della Notte è rapida."
@@ -1248,7 +1271,7 @@
   agot_nw_ranger_events.1904.desc.three.d:0 "La nostra formazione è perfetta. Il disertore è intrappolato. Con un solo colpo, tutto finisce. Il traditore giace morto, punito per il suo crimine."
   agot_nw_ranger_events.1904.desc.three.e:0 "I miei uomini circondano il disertore, senza lasciargli scampo. L’esecuzione è rapida: il traditore cade al suolo, la sua vita presa dalla spada della Notte."
   agot_nw_ranger_events.1904.a:0 "La giustizia è fatta."
-
+ #You Lose
   agot_nw_ranger_events.1905.t:0 "Quello Che è Fuggito"
   agot_nw_ranger_events.1905.desc.one.a:0 "Mi lancio su di [main_figure.GetSheHe], ma il disertore è più rapido del previsto. [main_figure.GetSheHe|U] schiva il colpo e scompare tra gli alberi prima che possa reagire. La caccia è persa, il traditore svanito."
   agot_nw_ranger_events.1905.desc.one.b:0 "Balzo in avanti, ma il colpo fallisce. Il disertore è più veloce di quanto sembri, e in un attimo è già scomparso, inghiottito dalla foresta. L’ho perso."
@@ -1256,7 +1279,7 @@
   agot_nw_ranger_events.1905.desc.one.d:0 "Attacco, ma il traditore anticipa la mia mossa. [main_figure.GetSheHe|U] si abbassa sotto la lama e sparisce tra le ombre degli alberi. Il bosco lo reclama, e io resto con il nulla."
   agot_nw_ranger_events.1905.desc.one.e:0 "Colpisco, ma il disertore evita il fendente, svanendo tra gli alberi prima che possa fermarlo. [main_figure.GetSheHe|U] è fuggito, e con lui l’occasione di giustizia."
   agot_nw_ranger_events.1905.desc.two.a:0 "Cerco di ingannarlo, ma il disertore scopre il trucco. [main_figure.GetSheHe|U] sorride e fugge tra i boschi, lasciandomi solo nel silenzio della sua fuga."
-  agot_nw_ranger_events.1905.desc.two.b:0 "Il mio trucco fallisce. Gli occhi del disertore si stringono nel capirlo. Non aspetta il mio prossimo gesto: corre via tra le ombre del bosco, fuori dalla mia portata."
+agot_nw_ranger_events.1905.desc.two.b_hash: 0 "I miei inganni falliscono, e gli occhi del disertore si stringono nella consapevolezza. [Select_CString(main_figure.IsFemale,'lei','lui')|U] non attende che io ci riprovi: [Select_CString(main_figure.IsFemale,'lei','lui')] è già sparit[Select_CString(main_figure.IsFemale,'a','o')], scattando nelle ombre del bosco, ben oltre la mia portata."
   agot_nw_ranger_events.1905.desc.two.c:0 "Il disertore non cade nella mia trappola. Il suo volto cambia, da confuso a determinato, e prima che possa fermarlo, [main_figure.GetSheHe] corre tra gli alberi, svanendo nel nulla."
   agot_nw_ranger_events.1905.desc.two.d:0 "Il mio inganno si sgretola. [main_figure.GetSheHe|U] se ne accorge e fugge senza esitazione. L’oscurità del bosco lo avvolge, e io rimango a mani vuote."
   agot_nw_ranger_events.1905.desc.two.e:0 "Provo a ingannarlo, ma il disertore non si lascia ingannare. [main_figure.GetSheHe|U] capisce tutto e scappa prima che possa agire. Il bosco lo inghiotte, mentre lo osservo svanire."
@@ -1267,17 +1290,19 @@
   agot_nw_ranger_events.1905.desc.three.e:0 "Ci muoviamo, ma il disertore è troppo veloce. [main_figure.GetSheHe|U] sfrutta un nostro errore e scompare tra gli alberi. Non ci resta che guardarlo sparire."
   agot_nw_ranger_events.1905.a:0 "No!"
 
+ ##RESCUE BLACKBROTHER
+ #Contract Texts
   ranger_laamp_contract_2001_contract:0 "Braccato dai Bruti"
   ranger_laamp_contract_2001_request:0 "Questa [agot_ranger_mission|E] richiede che tu salvi un confratello dalla furia di [TaskContract.GetEmployer.GetNamePossessive]"
   ranger_laamp_contract_2001_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_2001_desc:0 "Ho appena ricevuto notizia che un nostro confratello è in fuga, braccato da un capo dei bruti.\n\nÈ in pericolo, e la sua vita pende da un filo. Dobbiamo muoverci in fretta se vogliamo aiutarlo. I bruti non gli concederanno molto tempo prima di chiudere il cerchio."
 
-  ##CAST
-  # main_figure - The main character of the event - Aggressor chief
-  # my_ranger - Ranger Scout
-  # rescued_bb - The blackbrother
+ ##CAST
+ # main_figure - The main character of the event - Aggressor chief
+ # my_ranger - Ranger Scout
+ # rescued_bb - The blackbrother
 
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.2001.t:0 "Corsa Contro il Tempo"
   agot_nw_ranger_events.2001.desc.intro_a:0 "La notizia del confratello in fuga mi pesa sulla coscienza. I bruti non si fermeranno, e noi non possiamo perdere tempo. Dobbiamo raggiunger[main_figure.Custom('DE_PRO_POS_P_3P') prima che lo faccia [main_figure.GetTitledFirstName]."
   agot_nw_ranger_events.2001.desc.intro_b:0 "Un confratello è braccato, e noi siamo la sua unica speranza. I bruti stringono il cerchio, e ogni momento conta. Raduno i ranger per quella che potrebbe essere una caccia mortale."
@@ -1288,7 +1313,7 @@
   agot_nw_ranger_events.2001.a:0 "Non c’è tempo da perdere."
   agot_nw_ranger_events.2001.b:0 "Avviciniamo il campo."
   agot_nw_ranger_events.2001.tt.destination:0 "Parti immediatamente verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.2002.t:0 "La Corsa si Stringe"
   agot_nw_ranger_events.2002.desc.intro_a:0 "Raggiungiamo il margine della radura, e lì c’è [rescued_bb.GetSheHe], il nostro confratello, che fugge disperato, con il capo bruto alle calcagna. Abbiamo pochissimo tempo, ma siamo giunti in tempo."
   agot_nw_ranger_events.2002.desc.intro_b:0 "Scorgiamo il confratello davanti a noi, barcollante tra gli alberi, mentre il capo bruto lo incalza. Il divario tra loro si chiude: la finestra per salvarlo è quasi chiusa."
@@ -1312,7 +1337,7 @@
   agot_nw_ranger_events_2002.b.tt.lose:0 "Le mie parole non bastano e colpisce"
   agot_nw_ranger_events_2002.c.tt.win:0 "Il bruto cade nel mio tranello e libera il confratello"
   agot_nw_ranger_events_2002.c.tt.lose:0 "Il bruto vede oltre l’inganno e attacca"
-
+ #You Win
   agot_nw_ranger_events.2004.t:0 "Vittoria nei Ghiacci"
   agot_nw_ranger_events.2004.desc.one.a:0 "La mia carica è rapida, il bruto non riesce a reagire. Con un solo, potente colpo, lo abbatto. Il confratello è salvo, la sua vita risparmiata dal nostro intervento."
   agot_nw_ranger_events.2004.desc.one.b:0 "Mi muovo prima che il bruto completi il colpo. La mia lama fende l’aria e lo abbatte in un lampo. Il confratello crolla in ginocchio, salvo."
@@ -1330,8 +1355,7 @@
   agot_nw_ranger_events.2004.desc.three.d:0 "Il mio piano funziona. Il bruto esita quanto basta, e il confratello fugge. Sconfitto, il bruto si ritira, sapendo d’essere stato ingannato."
   agot_nw_ranger_events.2004.desc.three.e:0 "Ingannato dalle mie parole, il bruto indugia. Il confratello coglie l’attimo e fugge. Il bruto, ormai conscio dell’inganno, svanisce nei ghiacci."
   agot_nw_ranger_events.2004.a:0 "Ora siamo salvi."
-
-  #You Lose
+ #You Lose
   agot_nw_ranger_events.2005.t:0 "Il Prezzo del Fallimento"
   agot_nw_ranger_events.2005.desc.one.a:0 "Carico in avanti, ma arrivo troppo tardi. La lama del capo bruto colpisce con precisione, e il confratello in nero cade prima che io possa raggiungerlo. Quando arrivo sulla scena, il danno è fatto, [rescued_bb.GetSheHe] è scomparso."
   agot_nw_ranger_events.2005.desc.one.b:0 "Il mio colpo manca il bersaglio, e quello del capo bruto è fulmineo. Il confratello crolla a terra, la vita spezzata sotto i nostri occhi. Il nostro fallimento è completo."
@@ -1351,19 +1375,18 @@
   agot_nw_ranger_events.2005.a:0 "È finita... lo abbiamo perso."
   agot_nw_ranger_events.2005.a.tt:0 "Il bruto fugge"
 
-  # INVESTIGAZIONE
-  # Testi dei Contratti
+ ##INVESTIGATION
+ #Contract Texts
   ranger_laamp_contract_2101_contract:0 "Segni nella Neve"
   ranger_laamp_contract_2101_request:0 "Questa [agot_ranger_mission|E] richiede un'attenta indagine su strane tracce e indizi nascosti nella zona"
   ranger_laamp_contract_2101_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_2101_desc:0 "Ho trovato qualcosa di strano là fuori: una traccia, segni nella neve.\n\nNon riesco a capire cosa li abbia lasciati, ma c'è qualcosa, Primo Ranger. Se indaghiamo più a fondo, potremmo scoprire cosa si cela dietro tutto questo."
   ranger_laamp_contract_2101_reward_win:0 "Potresti ottenere una ricompensa casuale, inclusi [gold_i|E][gold|E], [prestige_i|E][prestige|E] o [piety_i|E][piety|E]"
   ranger_laamp_contract_2101_reward_lose:0 "Potresti subire lievi penalità, come la perdita di [prestige_i|E][prestige|E] o [piety_i|E][piety|E]"
+ ##CAST
+ # my_ranger - Ranger Scout
 
-  ##CAST
-  # my_ranger - Ranger Scout
-
-  #Start Event
+ #Start Event
   agot_nw_ranger_events.2101.t:0 "Nel Regno dell'Ignoto"
   agot_nw_ranger_events.2101.desc.intro_a:0 "Ci prepariamo a seguire le tracce trovate dal mio esploratore. L’aria è gelida e tagliente, carica del peso dell’ignoto. Qualunque cosa ci attenda là fuori potrebbe rivelarsi preziosa… o letale. Le orme ci attendono."
   agot_nw_ranger_events.2101.desc.intro_b:0 "Gli uomini sono pronti a muoversi, gli occhi scrutano il paesaggio ghiacciato. Il rapporto di [my_ranger.GetTitledFirstName] riecheggia nella mia mente, segni insoliti sparsi in tutta l’area. È tempo di vedere con i nostri occhi."
@@ -1374,7 +1397,7 @@
   agot_nw_ranger_events.2101.a:0 "Non c’è tempo da perdere."
   agot_nw_ranger_events.2101.b:0 "Avviciniamo l'accampamento."
   agot_nw_ranger_events.2101.tt.destination:0 "Parti subito verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event I
   agot_nw_ranger_events.2102.t:0 "Prima del Calar del Sole"
   agot_nw_ranger_events.2102.desc.intro_a:0 "Siamo giunti sul posto proprio mentre il sole inizia a calare. L’aria si fa più fredda, le ombre si allungano sul terreno. Il tempo stringe, e dobbiamo scegliere: c’è luce sufficiente per perlustrare solo una zona con attenzione."
   agot_nw_ranger_events.2102.desc.intro_b:0 "Il paesaggio si stende davanti a noi, le tracce svaniscono nella distanza. Ogni sentiero racconta una storia, e conduce verso la caverna, i boschi o le colline. Dobbiamo scegliere con cura, non ci sarà una seconda occasione prima che cali la notte."
@@ -1385,7 +1408,8 @@
   agot_nw_ranger_events.2102.a:0 "Dovremmo indagare nella caverna vicina."
   agot_nw_ranger_events.2102.b:0 "Cercheremo nei boschi vicini."
   agot_nw_ranger_events.2102.c:0 "Dobbiamo salire sulle colline rocciose."
-
+ #Action Event II
+ ##cave scenario
   agot_nw_ranger_events.2103.t.cave:0 "Nelle Ombre"
   agot_nw_ranger_events.2103.desc.intro_a.cave:0 "Ci avviciniamo alla bocca della caverna, un vuoto oscuro scavato nel fianco della collina. L’aria qui è più pesante, come se trattenesse il respiro."
   agot_nw_ranger_events.2103.desc.intro_b.cave:0 "L’entrata della caverna incombe, incorniciata da pietra frastagliata. Ombre si riversano fuori, celando i segreti che si nascondono all’interno."
@@ -1396,12 +1420,12 @@
   agot_nw_ranger_events.2103.desc.mid_b.cave:0 "Procediamo con cautela, attenti a ogni suono. Il silenzio è inquietante, rotto solo dal debole gocciolio d’acqua che riecheggia."
   agot_nw_ranger_events.2103.desc.mid_c.cave:0 "I nostri passi rimbombano contro le pareti di pietra, e l’aria si fa più gelida. Siamo ormai in profondità, dove la luce dell’ingresso non arriva più."
   agot_nw_ranger_events.2103.desc.mid_d.cave:0 "La caverna si restringe mentre ci inoltriamo, le pareti si chiudono intorno a noi. Ogni suono è amplificato, facendo crescere la tensione."
-  agot_nw_ranger_events.2103.desc.mid_e.cave:0 "Ogni passo nella tenebra rivela soltanto nuove ombre. L’aria è densa, e qualcosa… non va, come se fossimo osservati."
+agot_nw_ranger_events.2103.desc.mid_e.cave: 0 "Ogni passo nell'oscurità rivela soltanto altre ombre. L'aria è densa, e qualcosa non va, come se qualcuno ci stesse osservando."
   agot_nw_ranger_events.2103.desc.outro_a.cave:0 "\n\nPiù avanti, un debole bagliore cattura la nostra attenzione, semi-sepolto tra le macerie. La caverna nasconde più delle ombre… nasconde qualcosa."
   agot_nw_ranger_events.2103.desc.outro_b.cave:0 "\n\nI nostri occhi si abituano, e là, tra le rocce, giace qualcosa di insolito. Questa caverna potrebbe contenere le risposte che cerchiamo."
   agot_nw_ranger_events.2103.desc.outro_c.cave:0 "\n\nCi fermiamo, scorgendo qualcosa in lontananza: un flebile luccichio di metallo o ossa, appena visibile nell’oscurità."
   agot_nw_ranger_events.2103.desc.outro_d.cave:0 "\n\nProprio quando stavamo per tornare indietro, intravediamo qualcosa parzialmente nascosto — una scoperta che potrebbe spiegare le strane tracce."
-  agot_nw_ranger_events.2103.desc.outro_e.cave:0 "\n\nLe ombre rivelano un luccichio, una forma fuori posto nell’oscurità della caverna. Abbiamo trovato qualcosa… ma cosa?"
+agot_nw_ranger_events.2103.desc.outro_e.cave: 0 "\n\nLe ombre rivelano un bagliore, una forma fuori posto nell'oscurità della grotta. Abbiamo trovato qualcosa... ma che cosa?"
   agot_nw_ranger_events.2103.a.cave:0 "Ci inoltriamo ancor più nell’oscurità."
   agot_nw_ranger_events.2103.b.cave:0 "Esaminiamo da vicino il bagliore."
   agot_nw_ranger_events.2103.c.cave:0 "Cerchiamo segni di attività recente."
@@ -1411,8 +1435,7 @@
   agot_nw_ranger_events_2103.b.tt.lose.cave:0 "L’oggetto è una trappola, si frantuma sotto l’ispezione."
   agot_nw_ranger_events_2103.c.tt.win.cave:0 "Individuo tracce fresche."
   agot_nw_ranger_events_2103.c.tt.lose.cave:0 "Le tracce non portano da nessuna parte."
-
-  ##woods scenario
+ ##woods scenario
   agot_nw_ranger_events.2103.t.woods:0 "I Boschi Sussurranti"
   agot_nw_ranger_events.2103.desc.intro_a.woods:0 "Gli alberi si stringono intorno a noi, i rami appesantiti dalla brina. I boschi sono silenziosi, quasi troppo immobili."
   agot_nw_ranger_events.2103.desc.intro_b.woods:0 "Alberi fitti si ergono come colonne, i rami intrecciati a formare un tetto oscuro. I boschi sembrano infiniti, un labirinto d’ombra e corteccia."
@@ -1438,7 +1461,7 @@
   agot_nw_ranger_events_2103.b.tt.lose.woods:0 "Le tracce non portano da nessuna parte."
   agot_nw_ranger_events_2103.c.tt.win.woods:0 "Scopro una scorta nascosta."
   agot_nw_ranger_events_2103.c.tt.lose.woods:0 "Non c’è altro che ombra qui."
-
+ ##hill scenario
   agot_nw_ranger_events.2103.t.hill:0 "Tra le Altezze Rocciose"
   agot_nw_ranger_events.2103.desc.intro_a.hill:0 "Le colline rocciose si ergono davanti a noi, un paesaggio aspro di creste e massi. Scalando, godiamo di una vista che abbraccia l’intera regione."
   agot_nw_ranger_events.2103.desc.intro_b.hill:0 "Ci arrampichiamo su pietre instabili, il vento si alza mentre saliamo. Le colline sono silenziose, ma la vista è immensa."
@@ -1464,7 +1487,7 @@
   agot_nw_ranger_events_2103.b.tt.lose.hill:0 "I segni non significano nulla."
   agot_nw_ranger_events_2103.c.tt.win.hill:0 "Scopro un falò recente."
   agot_nw_ranger_events_2103.c.tt.lose.hill:0 "Il posto pare intatto."
-
+ #You Win
   agot_nw_ranger_events.2104.t:0 "Scoperta"
   agot_nw_ranger_events.2104.desc.a:0 "Dopo ulteriori indagini, scopriamo qualcosa di prezioso, un indizio che approfondisce la nostra comprensione del luogo e dei suoi segreti."
   agot_nw_ranger_events.2104.desc.b:0 "La nostra ricerca ha successo, rivelando tracce nascoste. Qualunque cosa fosse qui ha lasciato dietro di sé qualcosa di valore."
@@ -1473,8 +1496,7 @@
   agot_nw_ranger_events.2104.desc.e:0 "Seguendo le tracce giungiamo a qualcosa di prezioso, sepolto nell’ombra. È un ritrovamento che dà valore alla nostra missione."
   agot_nw_ranger_events.2104.desc.artifact:0 "\n\nProprio prima di andarcene, inciampo su qualcosa sepolto: un’arma, nascosta sotto terra. La raccolgo e decido di portarla all’accampamento."
   agot_nw_ranger_events.2104.a:0 "Torniamo all’accampamento."
-
-  #You Lose
+ #You Lose
   agot_nw_ranger_events.2105.t:0 "Ombre Vuote"
   agot_nw_ranger_events.2105.desc.a:0 "Nonostante le nostre indagini, non troviamo nulla. Qualunque cosa fosse qui, non ha lasciato traccia da seguire."
   agot_nw_ranger_events.2105.desc.b:0 "La nostra ricerca non produce nulla di valore, solo ombre e silenzio dove speravamo di trovare di più."
@@ -1483,11 +1505,18 @@
   agot_nw_ranger_events.2105.desc.e:0 "La nostra indagine non porta a nulla di utile, solo tempo perso e un crescente senso di inutilità."
   agot_nw_ranger_events.2105.a:0 "Una ricerca vana."
 
+ ##ASSESS DANGER
+ #Contract Texts
   ranger_laamp_contract_2201_contract:0 "Valutare il Capo dei Bruti"
   ranger_laamp_contract_2201_request:0 "Questa [agot_ranger_mission|E] richiede che tu visiti [TaskContract.GetEmployer.GetName] per valutarlo"
   ranger_laamp_contract_2201_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_2201_desc:0 "Il Lord Comandante ci ha ordinato di investigare su [TaskContract.GetEmployer.GetName], che sta attirando l'attenzione oltre la Barriera. La sua gente cresce in numero, e le voci parlano della sua natura imprevedibile. Alcuni dicono che [TaskContract.GetEmployer.GetSheHe] sia un pericolo per noi, altri sostengono che non sia che un altro gruppo in lotta per sopravvivere. Ho localizzato il suo accampamento. Se ci muoviamo in fretta, potremo valutare la minaccia prima che diventi ingestibile."
 
+ ##CAST
+ # main_figure - The main character of the event - target chief
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.2201.t:0 "Uno Sguardo Vigile"
   agot_nw_ranger_events.2201.desc.intro_a:0 "Gli ordini del Lord Comandante sono chiari: [main_figure.GetTitledFirstName] va osservato attentamente. Se [main_figure.GetSheHe] rappresenta una minaccia per la Barriera, dobbiamo saperlo prima che sia troppo tardi."
   agot_nw_ranger_events.2201.desc.intro_b:0 "Oltre la Barriera si mormora di un capo bruto che si fa sempre più audace. Alcuni dicono che [main_figure.GetSheHe] stia radunando altri, altri che non sia che uno sciocco rumoroso. Dobbiamo scoprire la verità."
@@ -1498,7 +1527,7 @@
   agot_nw_ranger_events.2201.a:0 "Muoviamoci."
   agot_nw_ranger_events.2201.b:0 "Dovremmo spostare l’intero accampamento più vicino."
   agot_nw_ranger_events.2201.tt.destination:0 "Parti subito verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.2202.t:0 "Ai Confini del Loro Mondo"
   agot_nw_ranger_events.2202.desc.intro_a:0 "Giungiamo nei pressi dell’accampamento bruto sotto il velo della brina e dell’ombra. Fuochi tremolano più avanti, i loro guerrieri si muovono come spettri tra gli alberi."
   agot_nw_ranger_events.2202.desc.intro_b:0 "Oltre il crinale, l’accampamento bruto si stende sul terreno gelato. I loro numeri sono incerti, la minaccia sconosciuta."
@@ -1509,7 +1538,7 @@
   agot_nw_ranger_events.2202.desc.mid_b:0 "\n\nDonne e bambini si muovono tra le capanne grezze, ma al centro del campo, il loro capo si erge con fierezza."
   agot_nw_ranger_events.2202.desc.mid_c:0 "\n\nUna figura alta siede davanti a un grande fuoco, i suoi guerrieri raccolti attorno. La loro lealtà è evidente, meritata o meno."
   agot_nw_ranger_events.2202.desc.mid_d:0 "\n\nA prima vista sembrano comuni. Poi il capo parla, e c’è qualcosa nella sua voce che mi rode l’anima."
-  agot_nw_ranger_events.2202.desc.mid_e:0 "\n\nOsservo [main_figure.GetTitledFirstName] sollevare il corno del vino, i suoi uomini urlano in risposta. Una dimostrazione di forza… o disperazione?"
+agot_nw_ranger_events.2202.desc.mid_e: 0 "\n\nOsservo [main_figure.Custom('IT_NAM_COL3')][main_figure.GetTitledFirstName] alzare un corno da bere, mentre i suoi uomini ruggiscono in risposta. Una dimostrazione di potere... o di disperazione?"
   agot_nw_ranger_events.2202.desc.outro_a:0 "\n\nÈ giunto il momento di decidere — questa [Select_CString(main_figure.IsFemale,'donna','uomo')] è un pericolo, o solo un bruto in cerca di sopravvivenza?"
   agot_nw_ranger_events.2202.desc.outro_b:0 "\n\nUn capo può fare degli uomini guerrieri… o mostri. Questo cammina sul filo tra i due."
   agot_nw_ranger_events.2202.desc.outro_c:0 "\n\nChe [main_figure.GetSheHe] voglia sfidare la Guardia o no, la sua gente lo seguirebbe in battaglia se lo chiamasse."
@@ -1518,24 +1547,28 @@
   agot_nw_ranger_events.2202.a:0 "Questo capo è pericoloso. [main_figure.GetSheHe|U] va affrontato."
   agot_nw_ranger_events.2202.b:0 "[main_figure.GetSheHe|U] non è un alleato, ma non rappresenta una vera minaccia."
   ranger_report_danger:0 "Il Lord Comandante potrebbe dichiarare guerra a [main_figure.GetTitledFirstNameNoTooltip]"
-
+ #Report Danger
   agot_nw_ranger_events.2204.t:0 "Una Minaccia Oltre la Barriera"
   agot_nw_ranger_events.2204.desc:0 "Un messaggero giunge da [first_ranger.GetTitledFirstName], con notizie inquietanti. Il Primo Ranger ha investigato su [main_figure.GetTitledFirstName] e lo ha giudicato un vero pericolo. La sua forza cresce, e le sue ambizioni potrebbero presto volgersi verso la Barriera. Se non agiamo, potremmo pentircene quando i suoi predoni caleranno in massa.\n\nLa decisione è mia — marciamo oltre la Barriera, o restiamo in attesa?"
   agot_nw_ranger_events.2204.a:0 "La Barriera non resterà a guardare. Marciamo!"
   agot_nw_ranger_events.2204.b:0 "Attenderemo e osserveremo. Non è ancora il momento."
-
+ #Report it's fine
   agot_nw_ranger_events.2205.t:0 "Uno Sguardo Vigile"
   agot_nw_ranger_events.2205.desc:0 "Un messaggero giunge da [first_ranger.GetTitledFirstName], portando il suo resoconto su [main_figure.GetTitledFirstName]. Sebbene il [Select_CString(main_figure.IsFemale,'donna','uomo')] non sia un amico per noi, [main_figure.GetSheHe] non appare come una minaccia immediata. La sua gente è occupata a sopravvivere, non a radunarsi per colpire la Barriera.\n\nPer ora, non c’è bisogno di guerra. Ma è saggio lasciarli liberi di agire?"
   agot_nw_ranger_events.2205.a:0 "Allora li lasceremo stare."
   agot_nw_ranger_events.2205.b:0 "Colpiamo per primi, prima di pentircene."
 
-  ##FALLEN RANGER
-  #Contract Texts
+ ##FALLEN RANGER
+ #Contract Texts
   ranger_laamp_contract_2301_contract:0 "Il Ranger Caduto"
   ranger_laamp_contract_2301_request:0 "Questa [agot_ranger_mission|E] richiede che tu indaghi sulla morte di un ranger caduto"
   ranger_laamp_contract_2301_desc_title:0 "$ranger_laamp_contract_1101_desc_title$"
   ranger_laamp_contract_2301_desc:0 "Il Lord Comandante ci ha ordinato di indagare sulla morte di uno dei nostri. Un ranger è stato ritrovato oltre la Barriera, senza vita e solo, il corpo segnato da ferite che non raccontano una storia chiara. Sono stati i Bruti, bestie… o qualcosa di peggio? Dobbiamo scoprire la verità prima che altre vite vadano perdute."
 
+ ##CAST
+ # my_ranger - Ranger Scout
+
+ #Start Event
   agot_nw_ranger_events.2301.t:0 "Una Morte Senza Risposte"
   agot_nw_ranger_events.2301.desc.intro_a:0 "Uno dei nostri è caduto oltre la Barriera, il corpo lasciato al gelo. Il Lord Comandante esige risposte, e tocca a me trovarle."
   agot_nw_ranger_events.2301.desc.intro_b:0 "La Guardia ha sempre conosciuto la morte, ma quando un confratello muore da solo, senza una causa chiara, non possiamo voltare lo sguardo."
@@ -1546,14 +1579,14 @@
   agot_nw_ranger_events.2301.a:0 "Mettiamoci in marcia."
   agot_nw_ranger_events.2301.b:0 "Spostiamo l'intero accampamento più vicino."
   agot_nw_ranger_events.2301.tt.destination:0 "Parti subito verso [destination_1.GetBaseNameNoTier]"
-
+ #Action Event
   agot_nw_ranger_events.2302.t:0 "Segni nel Gelo"
   agot_nw_ranger_events.2302.desc.intro_a:0 "Raggiungiamo il luogo dove è stato trovato il ranger. Il suo corpo giace immobile dove è caduto, toccato solo dal vento gelido che gli scivola sopra."
   agot_nw_ranger_events.2302.desc.intro_b:0 "La scena è inquietantemente silenziosa, salvo il crocchiare della neve sotto i miei stivali. Il ranger è lì davanti a me, e i suoi ultimi istanti restano un mistero."
   agot_nw_ranger_events.2302.desc.intro_c:0 "Il suo corpo è rigido per il gelo, ma le ferite sono fresche. Qualunque cosa l'abbia ucciso, non dev’essere lontana."
   agot_nw_ranger_events.2302.desc.intro_d:0 "Tracce circondano il cadavere — alcune umane, altre no. I segni non raccontano una storia chiara, ma qualcosa aleggia ancora qui."
   agot_nw_ranger_events.2302.desc.intro_e:0 "La spada giace al suo fianco, ancora stretta nella mano gelata. Qualunque cosa abbia affrontato, ha combattuto fino alla fine."
-  agot_nw_ranger_events.2302.desc.mid_a:0 "Nessuna arma, nessun bottino. Se sono stati Bruti, non hanno preso nulla. Ma se non erano loro… allora chi?"
+agot_nw_ranger_events.2302.desc.mid_a: 0 "Niente armi, nessun equipaggiamento depredato. Se erano Bruti, non hanno preso nulla. Ma se non erano loro... allora chi?"
   agot_nw_ranger_events.2302.desc.mid_b:0 "Le ferite sono profonde, irregolari — non da lama, ma da qualcos’altro. Una bestia? Artigli? Denti?"
   agot_nw_ranger_events.2302.desc.mid_c:0 "La neve ha coperto gran parte delle tracce, ma qualche segno resta — una lotta, forse una fuga. Non è morto facilmente."
   agot_nw_ranger_events.2302.desc.mid_d:0 "Il freddo ha conservato il corpo. Le ferite ancora sanguinano, il volto bloccato in un'espressione finale di dolore."
@@ -1572,21 +1605,20 @@
   agot_nw_ranger_events_2302.b.tt.lose:0 "Nulla di nuovo, solo ciò che già si sapeva"
   agot_nw_ranger_events_2302.c.tt.win:0 "Un occhio attento scorge qualcosa in agguato"
   agot_nw_ranger_events_2302.c.tt.lose:0 "Non vedo nulla, ma ciò non vuol dire che nulla mi veda"
-
-  #You Win
+ #You Win
   agot_nw_ranger_events.2304.t:0 "La Verità Svelata"
   agot_nw_ranger_events.2304.desc.a:0 "Le tracce raccontano la storia. Non era solo quando è morto, e il sentiero del suo assassino si perde più a fondo nei territori selvaggi."
   agot_nw_ranger_events.2304.desc.b:0 "Una ferita nascosta, un segno strano — questa non è stata una lotta ordinaria. Qualcosa di più sinistro è all’opera."
   agot_nw_ranger_events.2304.desc.c:0 "I segni ora sono chiari — il ranger è stato braccato, e il suo predatore potrebbe ancora essere vicino."
   agot_nw_ranger_events.2304.a:0 "Questa conoscenza deve giungere al Lord Comandante."
   agot_nw_ranger_events.2304.b:0 "Devo approfondire le indagini."
-
+ #You Lose
   agot_nw_ranger_events.2305.t:0 "Nessuna Risposta Chiara"
   agot_nw_ranger_events.2305.desc.a:0 "Le tracce sono confuse, perdute nel tempo. Ogni risposta qui è sepolta sotto la neve."
   agot_nw_ranger_events.2305.desc.b:0 "Nessun indizio nascosto si rivela. La morte del ranger resta misteriosa come prima."
   agot_nw_ranger_events.2305.desc.c:0 "Nonostante le mie ricerche, la verità mi sfugge. Se qui c'è un pericolo, rimane invisibile."
   agot_nw_ranger_events.2305.a:0 "Devo riferire quel poco che ho scoperto."
-
+ #Further Investigation
   agot_nw_ranger_events.2306.t:0 "Ciò che Resta nella Neve"
   agot_nw_ranger_events.2306.artifact.desc:0 "La verità sulla morte del ranger resta sfuggente. Nessuna traccia conduce all’assassino, nessun segno ne rivela l’identità.\n\nMentre ispeziono l’area un’ultima volta, la mia mano sfiora qualcosa sotto la neve — un’arma, vecchia ma ancora utile. Non risponde alle mie domande, ma potrà servirci."
   agot_nw_ranger_events.2306.gold.desc:0 "Il vento ulula tra gli alberi, come a beffarsi del mio fallimento. Chiunque — o qualunque cosa — abbia ucciso il ranger, non ha lasciato tracce evidenti.\n\nMentre mi volto per andarmene, qualcosa brilla nel gelo. Oro. Non molto, ma abbastanza per far nascere il dubbio — era la borsa del ranger? O qualcuno l’ha lasciata fuggendo?"
@@ -1594,6 +1626,7 @@
   agot_nw_ranger_events.2306.nothing.desc:0 "Ho setacciato ogni angolo della zona, ma nessuna risposta si rivela. Nessuna traccia, nessun indizio — solo il freddo bianco senza fine.\n\nChi ha ucciso il ranger è ormai lontano, e io me ne vado con nient’altro che domande."
   agot_nw_ranger_events.2306.a:0 "Dovrei riferire al Lord Comandante ciò che ho trovato."
 
+ #Reward Artifacts
   ranger_reward_sword:0 "Spada d'Inverno"
   ranger_reward_sword_desc:0 "Una spada affilata, trovata oltre la Barriera. La sua efficacia è tanto indiscutibile quanto la sua rozzezza."
   ranger_reward_spear:0 "Lancia d'Inverno"

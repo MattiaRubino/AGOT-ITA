@@ -1,15 +1,15 @@
 ﻿l_spanish:
 
-  ##########################
-  #   North Filler Events  #
-  ##########################
+ ##########################
+ #   North Filler Events  #
+ ##########################
 
-  ###########################
-  #   A Bruti Encounter  #
-  ###########################
+ ###########################
+ #   A Wildling Encounter  #
+ ###########################
 
   agot_filler_north.0001.t:0 "Un Incontro con un Bruto"
-  agot_filler_north.0001.desc:0 "Mentre girovago per i boschi, scorgo un uomo trasandato nelle vicinanze e presto scopro che è un Bruto!"
+agot_filler_north.0001.desc: 0 "Un altro giorno insulso trascorre a contare monete e a sopportare i muggiti bovini dei miei sudditi a corte. Mi stanco delle sale soffocanti di [ROOT.Char.GetCurrentLocation.GetName]. Il mio maestro ha suggerito che un po' d'aria fresca potrebbe rinvigorire il mio ingegno ottuso. Così, stamane, preparo il cavallo per una rapida sortita nella natura. Non passa un'ora e già mi sento meglio. L'aria fresca del bosco fa meraviglie per il mio spirito. M'inoltro, lasciando che il silenzio mi lavi dentro.\n\nPoi lo sento — il forte scricchiolio di foglie sotto stivali, poco più avanti. Mi immobilizzo scorgendo, tra gli alberi, un[agot_filler_wildling.Custom('DE_PRO_PER_S_3P_N')] [agot_filler_wildling.GetWomanMan] in disordine. Avanzo con cautela, i sensi acuiti alla ricerca di compagni invisibili. Il [agot_filler_wildling.GetWomanMan] indossa vecchi stracci rattoppati e sporchi ed è armato di ferro arrugginito. Per gli dèi, questo [agot_filler_wildling.GetWomanMan] è un bruto! Posso una mano prudente sull'acciaio al mio fianco. [Select_CString(agot_filler_wildling.IsFemale,'Lei','Lui')|U] pare essere sol[Select_CString(agot_filler_wildling.IsFemale,'a','o')]. Che dovrei fare?"
   agot_filler_north.0001.a:0 "Muori, bruto!"
   agot_filler_north.0001.a.tt:0 "Con i Bruti, è uccidere o essere uccisi."
   agot_filler_north.0001.b:0 "Mi servirebbe un altro servitore..."
@@ -17,65 +17,65 @@
   agot_filler_north.0001.c:0 "Mi nasconderò tra i cespugli, non mi vedranno mai!"
   agot_filler_north.0001.c.tt:0 "Alcuni potrebbero chiamarti vile, ma almeno sei un vigliacco che continua a respirare!"
 
-  agot_filler_north.0002.t:0 "Un Incontro con un Bruto"
-  agot_filler_north.0002.desc:0 "I Bruti non possono essere del tutto cattivi, e ho bisogno nella mia corte di servitori più leali. Piega il ginocchio e sorgi come un uomo del Nord."
+  agot_filler_north.0002.t:0 "Un Incontro con un Bruto" #controllare_modifica
+agot_filler_north.0002.desc: 0 "Il bruto balza in piedi quando mi avvicino, sguainando il suo ferro arrugginito. «Fermo lì! Chi sei? Che affari hai qui?» urla nella mia direzione.\n\nAlzo le mani per mostrare a [Select_CString(agot_filler_wildling.IsFemale,'lei','lui')] che non sono una minaccia. Da vicino, il [agot_filler_wildling.GetWomanMan] appare scoss[Select_CString(agot_filler_wildling.IsFemale,'a','o')] e denutrit[Select_CString(agot_filler_wildling.IsFemale,'a','o')]. «Non intendo farti del male, buon[agot_filler_wildling.Custom('DE_PRO_PER_S_3P_N')] [agot_filler_wildling.GetWomanMan]. Io sono [ROOT.Char.GetFullName]. Vedo che stai morendo di fame e sei sol[Select_CString(agot_filler_wildling.IsFemale,'a','o')]. Forse ti piacerebbe unirti a me al castello? L'inverno si avvicina e ho bisogno, alla mia corte, di più servitori leali. Ma prima, voglio il tuo nome.»\n\nIl [agot_filler_wildling.GetWomanMan] mi squadra con sospetto. Passa un lungo istante, e mi chiedo se abbia fatto bene a rivelarmi. Alla fine, il [agot_filler_wildling.GetWomanMan] crolla in ginocchio, debole per lo sfinimento. «I-io mi chiamo [agot_filler_wildling.GetFullName], m'[ROOT.Char.GetLadyLord]. Non dormo da molte notti e non mangio da molte di più.»\n\n«Allora piega il ginocchio e sorgi, [agot_filler_wildling.GetFullNameNoTooltip], un[agot_filler_wildling.Custom('DE_PRO_PER_S_3P_N')] [agot_filler_wildling.GetWomanMan] del nord.»"
   agot_filler_north.0002.a:0 "Da questo giorno fino alla fine dei tuoi giorni."
 
+ ##############################
+ #   A Black Brother Deserts  #
+ ##############################
 
-  ##############################
-  #   A Black Brother Deserts  #
-  ##############################
   agot_filler_north.0003.t:0 "Un Fratello Nero Diserta"
-  agot_filler_north.0003.desc:0 "Gli uomini dei Guardiani della Notte fanno un voto sacro: Vivere e morire al proprio posto. Un disertore deve trovare giustizia per mano del signore che lo cattura."
+agot_filler_north.0003.desc: 0 "Gli uomini dei Guardiani della Notte pronunciano un sacro giuramento: vivere e morire al proprio posto. Così è stato per migliaia d'anni, dalla fine della Lunga Notte. Eppure, la diserzione sembra un crimine sempre più comune tra gli uomini della Guardia.\n\nÈ vero che, ormai, i ranghi dei fratelli neri sono il più delle volte composti da individui tutt'altro che rispettabili: ladri, stupratori, assassini e traditori che hanno scelto una vita di fredda servitù anziché mutilazione, castrazione o il cappio. Eppure molti di loro si stancano spesso della vita dura sulla Barriera. Il freddo che gela le ossa, l'isolamento e la dieta frugale sono compagni difficili. Se ne vanno nella notte, rinnegando ogni voto, correndo per la più misera possibilità di libertà.\n\nÈ proprio un simile vagabondo che mi viene detto sia stato catturato da uno dei miei uomini. Un disertore deve ricevere giustizia per mano del [ROOT.Char.GetLadyLord] che lo cattura. E così ora spetta a me infliggere la giustizia [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip|U]."
   agot_filler_north.0003.a:0 "Portate qui il furfante."
 
-  agot_filler_north.0004.t:0 "Un Fratello Nero Diserta"
-  agot_filler_north.0004.desc:0 "Il disertore, un uomo di nome [agot_filler_black_brother_deserter.GetFirstNameNoTooltip], è portato davanti a me. Piagnucola delle cose che ha visto a nord della Barriera. Orrori indicibili nella desolazione ghiacciata..."
-  agot_filler_north.0004.a:0 "Dovrà ricevere la giustizia del Re."
+  agot_filler_north.0004.t:0 "Un Fratello Nero Diserta" #controllare_modifica
+agot_filler_north.0004.desc: 0 "Il disertore, un uomo di nome [agot_filler_black_brother_deserter.GetFirstName], viene condotto davanti a me. Piagnucola e mi supplica d'ascoltarlo. Quando gli ordino di parlare in sua difesa, mi racconta gli orrori che ha visto a nord della Barriera. Mali indicibili nel deserto gelato. Morti che si levano dalle tombe. Demoni, con pelle pallida come neve, in groppa a bestie marce dagli occhi azzurri e brandendo acciaio che sibila di gelo al posto del calore.\n\n«Grumkins e snarks,» borbotta uno dei miei uomini tra sé.\n\nÈ chiaro che il guardiano ha perso il senno. Eppure le sue descrizioni paiono sincere e ricche di dettagli. Può questo disertore dire il vero?"
+agot_filler_north.0004.a: 0 "Riceverà la giustizia [ROOT.Char.GetTopLiege.GetTitleAsNamePossessiveNoTooltip|U]."
   agot_filler_north.0004.b:0 "Ha chiaramente visto molto."
   agot_filler_north.0004.b.tt:0 "Forse dovrebbe tornare al suo posto..."
 
   agot_filler_north.0005.t:0 "Un Fratello Nero Riceve Giustizia"
-  agot_filler_north.0005.desc:0 "Si dice nel Nord: L'uomo che pronuncia la sentenza dovrebbe brandire la spada. Guardo negli occhi di [agot_filler_black_brother_deserter.GetFirstNamePossessiveNoTooltip] per l'ultima volta."
-  agot_filler_north.0005.a:0 "Al diavolo quello che dicono. Perché ho un boia nel mio seguito?"
+agot_filler_north.0005.desc: 0 "Si dice nel Nord: il [ROOT.Char.GetWomanMan] che pronuncia la sentenza deve calare la spada. Così è stato per mille anni. Così sarà per mille altri.\n\nGuardo negli occhi [agot_filler_black_brother_deserter.GetFirstNamePossessive] mentre attende il suo ultimo istante. Abbassa il capo per vergogna — o forse per paura. «Fa' pace con i tuoi dèi,» dico, mentre preparo la mia spada."
+agot_filler_north.0005.a: 0 "Perché dovrei sporcare la mia lama col sangue di questo codardo?"
   agot_filler_north.0005.b:0 "Io brandirò la spada."
-  agot_filler_north.0005.b.tt:0 "Eseguite la sentenza."
+agot_filler_north.0005.b.tt: 0 "Lo giustizi"
 
   agot_filler_north.0006.t:0 "Un Disertore Torna alla Barriera"
-  agot_filler_north.0006.desc:0 "Pensavo di aver visto l'ultimo di [agot_filler_black_brother_deserter.GetFirstNameNoTooltip] quando fuggì dal Castello Nero, affermando di aver visto orrori indicibili nella desolazione ghiacciata.\n\nOra, davanti a me, vedo solo un disertore che merita giustizia — una morte veloce."
+agot_filler_north.0006.desc: 0 "Credevo di aver visto l'ultima volta [agot_filler_black_brother_deserter.GetFirstName] quando fuggì da Castle Black, sostenendo d'aver visto orrori indicibili nel deserto gelato.\n\nOra, davanti a me, vedo soltanto un disertore che merita giustizia — una morte rapida."
   agot_filler_north.0006.a:0 "Vivi e muori al tuo posto, fratello."
 
-
-  #######################################
-  #   MetaLupo CLOAKS SOLD BY MERCHANT  #
-  #######################################
+ #######################################
+ #   DIREWOLF CLOAKS SOLD BY MERCHANT  #
+ #######################################
 
   agot_filler_north.0020.t:0 "Mantelli di MetaLupo in vendita!"
-  agot_filler_north.0020.desc:0 ""Mantelli di MetaLupo! Mantelli di MetaLupo in vendita", grida il mercante. Mi giro e vedo che il mercante ha tre grandi mantelli pelosi appesi dietro di sé. Cattura il mio sguardo e mi invita a ispezionare i mantelli..."
+agot_filler_north.0020.desc: 0 "Un giorno luminoso e caldo è un evento raro nel Nord. In giorni come questo spesso prendo tempo per camminare tra i miei sudditi. Oggi ho scelto di cercare affari al mercato locale. Talvolta si possono trovare vini rari e vesti esotiche, persino da Qarth o dalle Isole dell'Estate. Una rara delizia per addolcire le mie lunghe ore di governo. Cammino tra le bancarelle e osservo la varietà di merci in mostra.\n\n«Mantelli di metalupo! Mantelli di metalupo in vendita!» grida un mercante. Mi volto e vedo che ha tre grandi mantelli pelosi appesi dietro di sé. Incrocia il mio sguardo e mi invita a ispezionarli."
   agot_filler_north.0020.a:0 "Ispezionare i mantelli."
   agot_filler_north.0020.b:0 "MetaLupi? Quelli sono estinti! Spiegati meglio, mercante."
   agot_filler_north.0020.c:0 "Non ho bisogno di mantelli."
   agot_filler_north.0020.a_tt:0 "Osservate più da vicino i mantelli."
 
+ #genuine coat
   agot_filler_north.0021.t:0 "A ben guardare"
-  agot_filler_north.0021.desc:0 "Tiro giù un grande mantello bianco. Sentendo il mantello tra le mani, posso dire che l'artigianato è notevole; anche le cuciture sono da maestro! Chiudo gli occhi e annuso il mantello: sa di neve e di pino. Riapro gli occhi, mi tolgo il cappotto e lo infilo tra le braccia del mercante mentre provo il mantello di MetaLupo. Il mantello è fresco e caldo. Posso dire che c'è una netta differenza rispetto al mio mantello di pelliccia di lupo.\n\nIl mercante si schiarisce la gola, borbottando qualcosa sul fatto che è ora di pagare o di restituire il mantello..."
+agot_filler_north.0021.desc: 0 "Tiro giù un grande mantello bianco. Sentendolo tra le mani, capisco che la fattura è rimarchevole; perfino le cuciture sono da maestro! Chiudo gli occhi e lo premo sul viso per annusarlo: odora di neve e di pino. Apro gli occhi, mi tolgo il mantello e lo spingo tra le braccia del mercante mentre lo provo. È piacevolmente caldo. Capisco che vi è una netta differenza rispetto al mio mantello di pelliccia di lupo.\n\nIl mercante si schiarisce la gola, borbottando qualche insolenza sul pagare o restituire il mantello."
   agot_filler_north.0021.a:0 "Devo comprarlo!"
   agot_filler_north.0021.b:0 "Sembra autentico, ma non mi serve..."
   agot_filler_north.0021.c:0 "Sono un nobile, non ho bisogno di pagare per questo!"
 
-  #dubious coat
+ #dubious coat
   agot_filler_north.0022.t:0 "A ben guardare"
-  agot_filler_north.0022.desc:0 "Tiro giù un grande mantello bianco. Sentendo il mantello tra le mani, non mi sorprende scoprire che l'artigianato non è niente di straordinario. Chiudo gli occhi e annuso il mantello: sa di carne vecchia e di cane bagnato. Eugh. Il mercante mi implora di provarlo. Lo infilo e sento la brezza fredda che lo attraversa.\n\nIl mercante si schiarisce la gola, borbottando qualcosa sul fatto che è ora di pagare o di restituire il mantello..."
+agot_filler_north.0022.desc: 0 "Tiro giù un grande mantello bianco. Sentendolo tra le mani, non mi sorprende scoprire che la fattura non è nulla di straordinario. Chiudo gli occhi e lo premo sul viso per annusarlo: odora di carne vecchia e cane bagnato. Ugh. Il mercante mi implora di provarlo. Me lo infilo e sento la brezza gelida che lo attraversa come lame.\n\nIl mercante si schiarisce la gola, borbottando qualche insolenza sul pagare o restituire il mantello."
   agot_filler_north.0022.a: "Dovrei farti arrestare per questo..."
 
   agot_filler_north.0023.t:0 "Mantelli 'Metalupo', eh?"
-  agot_filler_north.0023.desc:0 "'Il Metalupo? Estinto? No, no, no', borbotta il mercante. A sud della Barriera, sì. Ma questi mantelli sono stati fatti con Metalupi cacciati dai Bruti, olte la Barriera! Ho affrontato grandi sforzi per far arrivare questa merce fresca a sud della Barriera, per compratori come voi. Avanti, ispezionateli! Guardate voi stessi."
+agot_filler_north.0023.desc: 0 "«Il metalupo? Estinto? No, no, no,» protesta il mercante. «A sud della Barriera, sì. Ma questi mantelli sono stati fatti con metalupi cacciati dai Bruti, oltre la Barriera! Ho patito grandi stenti per far arrivare queste merci fresche a sud della Barriera, per acquirenti come te, m'[ROOT.Char.GetLadyLord]. Su, ispezionali! Guarda tu stesso.»"
   agot_filler_north.0023.a:0 "Ispezionare i mantelli."
   agot_filler_north.0023.b:0 "Non mi interessa."
 
-  ##################################
-  #   SUMMER SNOW CHILDHOOD EVENT  #
-  ##################################
+ ##################################
+ #   SUMMER SNOW CHILDHOOD EVENT  #
+ ##################################
 
   agot_filler_north.0030.t:0 "Neve d'Estate!"
   agot_filler_north.0030.desc:0 "BRRRR! Stavo giocando fuori quando improvvisamente è iniziato a scendere giù un improvviso scroscio di neve, dal nulla! I maestri mi dicono che queste nevicate estive possono diventare pericolose se rimango troppo a lungo, ma mi sto già divertendo così tanto..."
@@ -83,10 +83,9 @@
   agot_filler_north.0030.b:0 "Io sono un UOMO DEL NORD! Questa è neve estiva. Non significa niente."
   agot_filler_north.0030.c:0 "Ma la fortezza è così #italic lontana#... "
 
-
-  #######################################
-  #   SUMMER SNOW DESTROYS CROPS EVENT  #
-  #######################################
+ #######################################
+ #   SUMMER SNOW DESTROYS CROPS EVENT  #
+ #######################################
 
   agot_filler_north.0031.t:0 "L'Inverno è Giunto Presto"
   agot_filler_north.0031.desc:0 ""Mio signore, mio signore," dice il contadino dal volto acido che si trova davanti a me, "Queste tempeste di neve estive hanno decimato il mio raccolto! Non c'è alcuna possibilità che io possa mai riprendermi, specialmente con la stagione dei raccolti imminente. Non so cosa farò se non riesco a provvedere per la mia famiglia in questa stagione, specialmente con l'inverno alle porte... Ci deve essere qualcosa che puoi fare!"\n\nIl contadino è audace a chiedermi un risarcimento per la sua fattoria... ma queste tempeste di neve estive #italic sono#! state dannose per le fattorie in tutto il paese..."
@@ -94,10 +93,9 @@
   agot_filler_north.0031.b:0 "Questa è una punizione dei vecchi Dei per i tuoi peccati."
   agot_filler_north.0031.c:0 "Sei un UOMO DEL NORD! Dovresti conoscere il pericolo delle tempeste di neve estive."
 
-
-  ####################################################
-  #   FIRSTMEN RUNES UNCOVERED - CONSTRUCTION CREW   #
-  ####################################################
+ ####################################################
+ #   FIRSTMEN RUNES UNCOVERED - CONSTRUCTION CREW   #
+ ####################################################
 
   agot_filler_north.0032.t:0 "Runes of the First Men"
   agot_filler_north.0032.desc:0 "Un progetto di costruzione nella zona ha fatto una scoperta affascinante. Apparentemente, un costruttore locale ha scoperto una cache di pietre incise con le rune dei Primi Uomini. Il costruttore offre di vendermi le pietre a un prezzo molto equo.\n\nI maestri ci hanno insegnato che i Primi Uomini incidevano le loro rune su pietre e altri oggetti quando giunsero per la prima volta a Westeros. Alcuni dicono che queste incisioni hanno proprietà magiche. Queste pietre potrebbero essere molto preziose e aumenterebbero sicuramente la mia considerazione in tutto il Nord..."
@@ -106,10 +104,9 @@
   agot_filler_north.0032.c:0 "L'eredità dei Primi Uomini è #italic la mia#! eredità. Prendi le pietre."
   agot_filler_north.0032.d:0 "L'eredità dei Primi Uomini è #italic la mia#! eredità. Prendi le pietre."
 
-
-  ########################################
-  #   APPRECIATING A TRUE WEIRWOOD TREE  #
-  ########################################
+ ########################################
+ #   APPRECIATING A TRUE WEIRWOOD TREE  #
+ ########################################
 
   agot_filler_north.0033.t:0 "Una Passeggiata nel Bosco"
   agot_filler_north.0033.desc:0 "Viaggiare attraverso alcune delle parti più remote del mio dominio può essere molto gratificante. Trovo che fare lunghe passeggiate attraverso i boschi, o le colline, o anche solo un campo, possa alleviare profondamente lo stress di essere un nobile.\n\nOggi sto vagando attraverso una piccola foresta dimenticata. Gli alberi sono molto vecchi, i loro tronchi spessi si intersecano e si intrecciano in modi che non ho mai visto prima. Mentre procedo più a fondo nel bosco, vedo un bellissimo albero bianco e rosso - un albero cuore! Questi alberi antichi sono tutti ancora vivi qui nel Nord, ma vederne uno nella profonda wilderness come questo è... umiliante. Mi avvicino al tronco e guardo nel volto piangente che i Figli della Foresta hanno intagliato migliaia di anni fa. Assaporo la sua strana bellezza e non posso fare a meno di sentirmi rilassato mentre mi volto per andarmene."
@@ -117,10 +114,9 @@
   agot_filler_north.0033.b:0 "Sono contento che un albero sacro come questo rimanga al sicuro qui."
   agot_filler_north.0033.c:0 "Dovrei tornare indietro e fare una preghiera ai Vecchi Dei..."
 
-
-  #######################################
-  #   WOLF ATTACKS ON SHEEP/WOOL TRADE  #
-  #######################################
+ #######################################
+ #   WOLF ATTACKS ON SHEEP/WOOL TRADE  #
+ #######################################
 
   agot_filler_north.0034.t:0 "Gli Attacchi dei Lupi Minacciano i Togai"
   agot_filler_north.0034.desc:0 "È un'altra lunga notte nel mio studio. Il sole è tramontato e la luna è salita alta nel cielo. Difficilmente ho bisogno della mia candela con la luna che brilla così luminosa. Mentre trascorro ore a esaminare rapporti, leggere resoconti e timbrare documenti, trovo un recente rapporto firmato sia dal mio amministratore che dal mio maresciallo.\n\nIl rapporto nota che i tosatori in tutto il mio dominio hanno trovato un numero crescente di togaie morenti o ferite - animali che producono lana, come indicato dal mio amministratore nel rapporto. Capre, pecore e persino luposeta sono stati ferocemente attaccati di notte da quello che molti sostengono siano grandi branco di lupi affamati. Se questi attacchi dovessero continuare nel loro numero attuale, il commercio della lana potrebbe subire gravi contrattempi.\n\nTrovare una soluzione a questo problema sembra improvvisamente prudente; sarebbe bello presentare una risoluzione al mio consiglio domani mattina."
@@ -128,10 +124,9 @@
   agot_filler_north.0034.b:0 "Emetti una citazione ai tosatori per non aver preso cura delle loro togaie."
   agot_filler_north.0034.c:0 "Eroga un risarcimento ai tosatori più colpiti."
 
-
-  ######################################
-  #   HEART TREE GARDENER MAINTENANCE  #
-  ######################################
+ ######################################
+ #   HEART TREE GARDENER MAINTENANCE  #
+ ######################################
 
   agot_filler_north.0035.t:0 "Cura dell'Albero Cuore"
   agot_filler_north.0035.desc:0 "Il mio personale di giardinaggio ha recentemente lavorato nel Bosco Sacro del mio feudo. Hanno pacciamato i giardini, piantato nuovi fiori, potato le siepi e hanno generalmente migliorato il Bosco Sacro, rendendolo simile a una piccola radura.\n\nMa il personale di giardinaggio è venuto da me con la richiesta di abbellire l'albero cuore che si erge orgoglioso su tutto il Bosco Sacro. I giardinieri mi dicono che lo renderanno solo più bello, potando i rami e le radici, ma sono diffidente riguardo a eventuali danni potenziali. Dopo tutto, che razza di uomo del Nord lascia che il suo albero del cuore vada in rovina?"
@@ -140,9 +135,9 @@
   agot_filler_north.0035.c:0 "Non voglio rischiare... L'albero cuore è troppo sacro."
   agot_filler_north.0035.d:0 "No, lo farò da solo!"
 
-  ##################################
-  #  ICE SKATING - GENERIC LEISURE #
-  ##################################
+ ##################################
+ #  ICE SKATING - GENERIC LEISURE #
+ ##################################
 
   agot_filler_north.0036.t:0 "Pattinatori sul Ghiaccio!"
   agot_filler_north.0036.desc:0 "Oggi è una giornata fredda ma altrimenti piacevole. Mi sono preso qualche ora per camminare da solo attraverso alcuni dei piccoli insediamenti vicino al mio feudo, godendomi la natura e semplicemente apprezzando la bella giornata.\n\nMentre cammino, trovo uno stagno ghiacciato e vedo alcuni piccoli patinare meravigliosamente sul ghiaccio! I loro movimenti sono ovunque; molti cadono sul ghiaccio, ma alcuni stanno scivolando magnificamente. Ah, che spettacolo!"
@@ -150,9 +145,9 @@
   agot_filler_north.0036.b:0 "Penso che mi unirò a loro!"
   agot_filler_north.0036.c:0 "No, no. Non è sicuro, devo fermarli!"
 
-  #########################
-  #  ICE SKATING - TRAVEL #
-  #########################
+ #########################
+ #  ICE SKATING - TRAVEL #
+ #########################
 
   agot_filler_north.0037.t:0 "Pattinare Attraverso il Nord"
   agot_filler_north.0037.desc:0 "Il mio interesse è stato suscitato da resoconti accademici sui Nordici che usano pattini fatti dalle ossa di pecore e cavalli per scivolare attraverso le vaste distese di deserto ghiacciato. Apparentemente, questo è un antico metodo di viaggio di cui alcune parti del Nord si sono affidate durante l'inverno per commerciare e raggiungere altri villaggi. Un particolare resoconto afferma addirittura che è stato praticato fin dai tempi in cui i Primi Uomini si stabilirono nel Nord!"
@@ -160,10 +155,9 @@
   agot_filler_north.0037.b:0 "Affascinante; ma resterò al buon vecchio slittino."
   agot_filler_north.0037.c:0 "Possiamo adottare questo per aiutare i nostri eserciti nelle campagne del Nord?"
 
-
-  ##################################
-  #   TALES OF UNICORNS ON SKAGOS  #
-  ##################################
+ ##################################
+ #   TALES OF UNICORNS ON SKAGOS  #
+ ##################################
 
   agot_filler_north.0038.t:0 "Unicorni a Skagos"
   agot_filler_north.0038.desc:0 "Secondo miti e maestri, sull'isola di Skagos si trova una bestia unica e intrigante ora estinta dal continente. È una bestia folta e potente che ha sostituito il cavallo in questa parte del mondo. Sulla sua testa c'è un unico corno lungo che è molto apprezzato dai mercanti di tutto il mondo conosciuto. Gli abitanti di Skagos cavalcano questa bestia in battaglia ogni volta che chiama il conflitto, e insieme Skagosi e bestia si abbandonano alla carne dei loro nemici uccisi.\n\nQuesta bestia non è nient'altro che l' #bold unicorno#!. Una bestia feroce capace di difendersi anche contro creature come Metalupo, l'unicorno non è una bestia da tentare. Ed è per questo che gli Skagosi li hanno addomesticati."
@@ -172,9 +166,9 @@
   agot_filler_north.0038.c:0 "Che racconto affascinante."
   agot_filler_north.0038.d:0 "Ovviamente un racconto esagerato."
 
-  ##################################################
-  #   ICE FISHING EXPERIENCE - SMALL FOLK FISHING  #
-  ##################################################
+ ##################################################
+ #   ICE FISHING EXPERIENCE - SMALL FOLK FISHING  #
+ ##################################################
 
   agot_filler_north.0039.t:0 "Pesca sul Ghiaccio"
   agot_filler_north.0039.desc:0 "Durante una passeggiata nel mio dominio, trovo alcuni stagni ghiacciati. Quando la temperatura è più calda, solitamente sono un ottimo posto per pescare. Ma sembra che nemmeno il clima più freddo abbia dissuaso alcuni piccoli dal tentare la fortuna con la pesca sul ghiaccio. Sembra che abbiano bucato alcuni buchi per raggiungere l'acqua sotto il denso ghiaccio...\n\nMi avvicino e guardo le loro catture e attrezzature. Mi notano immediatamente e subito iniziano una conversazione su quanto siano ben forniti gli stagni e quanto sia buona la pesca. Un uomo mi dice persino che è qui con suo figlio piccolo che non ha mai pescato prima!"
@@ -182,9 +176,9 @@
   agot_filler_north.0039.b:0 "Posso unirmi a voi?"
   agot_filler_north.0039.c:0 "Non avete il diritto di pescare sulle mie terre, nei miei stagni!"
 
-  ############################################
-  #   NORTHERN CAMPING STORIES - THE OTHERS  #
-  ############################################
+ ############################################
+ #   NORTHERN CAMPING STORIES - THE OTHERS  #
+ ############################################
 
   agot_filler_north.0040.t:0 "Leggende del Nord"
   agot_filler_north.0040.desc:0 "Il fuoco scoppietta con vita mentre prendo posto accanto agli altri. Passare una settimana nei boschi completamente lontano dalla corte e dal governo—e dai piccoli problemi della vita — è qualcosa che molti nella mia posizione possono solo sognare. Ma nel Nord, questa è la nostra tradizione. La nostra eredità.\n\nLa luna è alta sopra le nostre teste, e il nostro ospite, un uomo chiamato Beron, si alza dal fuoco con una smorfia spettrale.\n\n"Amici miei", dice, il fuoco danzante nel nero dei suoi occhi, "si dice che ci sia una leggenda su questi boschi. Una leggenda spaventosa e antica. La conoscete tutti?" Gli uomini fanno un grugnito collettivo di no e lo esortano a condividerla.\n\n"Tempo fa, cacciatori e cercatori evitavano questi boschi come se fosse pieno di draghi. Il signore di questi boschi era perplesso; aveva buona selvaggina da cacciare e belle bacche da raccogliere. Così, si avventurò nei boschi per scoprire perché fosse velenoso per il suo popolo."\n\n"In questi boschi, cercò per molti giorni e notti qualsiasi segno. Ma non trovò nulla ad ogni svolta. Fino a una notte, proprio come questa, quando la luna era alta nel cielo, sentì un vento gelido e minaccioso. Improvvisamente, alle sue spalle, vide nientemeno che un #italic Altro#!, venuto per ucciderlo-"\n\nDa nessuna parte, tu e i tuoi compagni sentite dei rumori tra i cespugli... Beron ansima mentre qualcuno salta fuori dai cespugli, urlando selvaggiamente verso tutti voi! Puoi sentire Beron ridere selvaggiamente sopra le urla dell'uomo!"
@@ -192,9 +186,9 @@
   agot_filler_north.0040.b:0 "SCAPPATE! TUTTI A CASA!"
   agot_filler_north.0040.c:0 "AHAH, grande scherzo, Beron!"
 
-  ############################################
-  #   ICE FISHING EXPERIENCE - SOLO FISHING  #
-  ############################################
+ ############################################
+ #   ICE FISHING EXPERIENCE - SOLO FISHING  #
+ ############################################
 
   agot_filler_north.0041.t:0 "Pesca sul Ghiaccio"
   agot_filler_north.0041.desc:0 "Ho preso il giorno libero per andare a pescare sul ghiaccio! Alcuni stagni vicini si sono ghiacciati, e ho deciso che sarà un bel modo per liberarmi dello stress, da solo nella natura.\n\nMentre getto la mia lenza nell'acqua, sento scricchiolii e crepitii... mi rendo immediatamente conto... #bold il ghiaccio sotto di me si sta crepando!#!\n\nSalto dalla mia sedia e cerco di tornare a terra solida, ma sento l'acqua fredda ai miei piedi e improvvisamente — #bold SPLOOSH#! Sto affondando sul fondo!"
@@ -203,14 +197,14 @@
   agot_filler_north.0041.drowning.toast.title:0 "Nessuno può sentirti urlare."
   agot_filler_north.0041.drowning.toast.alternate.title:0 "Uno sconosciuto misterioso ti salva."
 
-  ##########################
-  #   WOLF ATTACK - NORTH  #
-  ##########################
+ ##########################
+ #   WOLF ATTACK - NORTH  #
+ ##########################
 
-  #############################################
-  #   Peasant and the Wight #Zombieschrodcat  #
-  #   0043-0050                               #
-  #############################################
+ #############################################
+ #   Peasant and the Wight #Zombieschrodcat  #
+ #   0043-0050                               #
+ #############################################
 
   agot_filler_north.0043.t:0 "Il Contadino e il Non Morto"
   agot_filler_north.0043.desc:0 "Un uomo entra nella tua corte conducendo una donna insolitamente pallida legata dalle mani. Afferma che dei cacciatori hanno trovato la donna, che lui chiama il non morto, nei boschi coperta del sangue di un cacciatore morto. La donna cerca di difendersi, affermando che stava raccogliendo erbe quando ha trovato il cacciatore ferito e ha cercato di salvarlo dopo che è stato attaccato da un lupo.\n\nL'uomo ti avverte di ignorare le sue suppliche — è un non morto; ricorda la leggenda del Re della Notte e il pericolo che potrebbe rappresentare."
@@ -219,10 +213,8 @@
   agot_filler_north.0043.c:0 "I non morti della leggenda hanno gli occhi blu, idiota!"
   agot_filler_north.0043.d:0 "Questa povera ragazza ha già sofferto abbastanza!"
 
-
   agot_filler_north.0044.t:0 "Leggenda: Il Re della Notte"
   agot_filler_north.0044.desc:0 "Secondo le leggende, il Re della Notte era il tredicesimo Lord Comandante dei Guardiani della Notte. Alcuni sostengono che sia stato sedotto da una donna pallida - un'Altra o una strega - che lo ha portato a dichiararsi Re e a governare la Barriera con crudeltà e magia nera. Il regno del Re della Notte finì quando il Re d'Inverno e il Re Oltre la Barriera fecero causa comune e combatterono una guerra per rimuoverlo dal potere."
-
   agot_filler_north.0044.a:0 "Ah! Sì, il Re della Notte."
 
   agot_filler_north.0045.t:0 "Il Suo Abbraccio: Notte"
@@ -251,11 +243,10 @@
   agot_filler_north.0050.desc:0 "[palebride.GetFirstNameNoTooltip] ed io siamo stati diligenti nel giardino. Non solo [palebride.GetFirstNameNoTooltip] mi ha mostrato come coltivare, ma mi ha anche istruito s'uso delle varie piante."
   agot_filler_north.0050.a:0 "Ho imparato molto, grazie!"
 
-
-  #############################################
-  #   Confessor             #Zombieschrodcat  #
-  #   0052-0053                               #
-  #############################################
+ #############################################
+ #   Confessor             #Zombieschrodcat  #
+ #   0052-0053                               #
+ #############################################
 
   agot_filler_north.0052.t:0 "Il Confessore"
   agot_filler_north.0052.desc:0 "[confessor.GetFirstNameNoTooltip] ha confessato alle mie guardie di aver assassinato e derubato un viaggiatore che alloggiava a casa sua. Il viaggiatore aveva condiviso il pane e il sale con [confessor.GetFirstNameNoTooltip] ed era protetto dal diritto degli ospiti.\n\n[confessor.GetFirstNameNoTooltip] ammette di essere stato irreligioso fino dopo l'omicidio, quando ha cominciato a vedere un grosso ratto bianco nella sua casa. Ora vuole fare ammenda con gli dei e ricevere la giustizia che gli spetta per i suoi crimini."
@@ -282,10 +273,10 @@
   agot_filler_north.0054.c:0 "Guardie, arrestatelo!"
   agot_filler_north.0054.c.tt:0 "Deciderai il suo destino in seguito, o lo lascerai passare i suoi ultimi giorni in cella."
 
-  #####################################
-  # North:Library - by Zombieschrodcat#
-  #           0055 - 0061             #
-  #####################################
+ #####################################
+ # North:Library - by Zombieschrodcat#
+ #           0055 - 0061             #
+ #####################################
 
   agot_filler_north.0055.t:0 "La Biblioteca: Il Nord"
   agot_filler_north.0055.desc:0 "Le mie notti sono inquiete, in parte a causa degli stress con cui ho avuto a che fare ultimamente. La mia mente sembra incapace di ignorare lo stress del governo, nemmeno per il breve momento di riposo.\n\nQuesta notte, mentre vagavo per il castello, mi sono trovato nella biblioteca. Forse un tomo potrebbe distrarre la mia mente?"
@@ -318,10 +309,10 @@
   agot_filler_north.0061.desc:0 "Mentre fisso le linee d'inchiostro, la mia testa pulsante. Qualunque cosa questo maestro stesse cercando di comunicare nei suoi scritti mi sfugge! Dopo aver riletto la stessa frase cinque volte, decido di abbandonare l'impresa; lasciamo che il tomo tenga i suoi segreti!"
   agot_filler_north.0061.a:0 "Maledizione questo libro!"
 
-  #####################################
-  # Shadowcat - by Zombieschrodcat#
-  #           0062 - 0067             #
-  #####################################
+ #####################################
+ # Shadowcat - by Zombieschrodcat#
+ #           0062 - 0067             #
+ #####################################
 
   agot_filler_north.0062.t:0 "Il GattoOmbra"
   agot_filler_north.0062.desc:0 "Mentre sono fuori a cavallo, mi allontano dal mio gruppo per darmi sollievo. Le mie guardie si trattengono indietro per garantirmi un po' di privacy. Mentre finisco e mi preparo a tornare al gruppo, noto un GattoOmbra che mi fissa a pochi metri di distanza."
@@ -343,7 +334,6 @@
   agot_filler_north.0063.a:0 "Una lezione che spero ricordi!"
   agot_filler_north.0063.a.tt:0 "Questo farà una storia impressionante!"
 
-
   agot_filler_north.0064.t:0 "Il GattoOmbra"
   agot_filler_north.0064.desc:0 "Prendendo le estremità del mio mantello, le sollevo più in alto che posso. Uno sguardo di confusione attraversa il GattoOmbra, poiché sembro raddoppiare di dimensioni. La bestia non è più così sicura che sarò una preda facile. Dopo un breve momento, il GattoOmbra decide di fuggire piuttosto che rischiare."
   agot_filler_north.0064.a:0 "Questa sarà una storia davvero notevole!"
@@ -364,12 +354,11 @@
   agot_filler_north.0067.a:0 "Cattivo micio!"
   agot_filler_north.0067.a.tt:0 "Pensavi che le sarebbe piaciuto un grattino sulla pancia..."
 
-
-  #####################################
-  #       Mushrooms by Parco degli Dei       #
-  #        by Zombieschrodcat         #
-  #           0068 - 0072             #
-  #####################################
+ #####################################
+ #       Mushrooms by Godswood       #
+ #        by Zombieschrodcat         #
+ #           0068 - 0072             #
+ #####################################
 
   agot_filler_north.0068.t:0 "Un fungo nel Parco degli Dei"
   agot_filler_north.0068.desc:0 "Le nevicate estive si sono finalmente sciolte nel Parco degli Dei, anche se come qualsiasi vero uomo del Nord, il suolo della foresta coperto di neve non mi ha impedito di pregare i miei dei. Tuttavia, con la neve andata, il Parco degli Dei è vivo con molte delle piante un tempo coperte dalla neve che prosperano. Mentre ammiro la nuova crescita delil Parco degli Dei, noto un fungo piuttosto colorato che cresce vicino alle radici dell'albero-cuore..."
@@ -404,12 +393,11 @@
   agot_filler_north.0072.a:0 "Una scoperta redditizia!"
   agot_filler_north.0072.a.tt:0 "Più oro nelle tue mani e forse, con un po' di fortuna, il fungo verrà utilizzato per aiutare qualcuno!"
 
-
-  #####################################
-  #         tavern new owner         #
-  #        by Zombieschrodcat         #
-  #           0073 - 0078             #
-  #####################################
+ #####################################
+ #         tavern new owner         #
+ #        by Zombieschrodcat         #
+ #           0073 - 0078             #
+ #####################################
 
   agot_filler_north.0073.t:0 "Il nuovo proprietario della Taverna"
   agot_filler_north.0073.desc:0 "Mentre percorro la Strada Reale, io e i miei uomini ci fermiamo in una piccola taverna che abbiamo occasionalmente visitato in tali viaggi. Entrando, siamo accolti dal nuovo proprietario della taverna, apparentemente un fratello dell'ex proprietario. Ci informa che aveva una taverna nelle Terre dei Fiumi, e suo fratello anziano non poteva più tollerare il freddo del Nord, così i due hanno scambiato le taverne.\n\nIl nuovo proprietario ha fatto molto per pulire la taverna; la polvere non poteva essere individuata da nessuna parte. Anche se ho notato un po' di sangue secco su un tavolo, che lui ha detto provenire dalla macellazione di una pecora poco prima ma aveva purtroppo macchiato il tavolo."
@@ -432,7 +420,6 @@
   agot_filler_north.0075.b:0 "Forse dovremmo fermarci per la notte."
   agot_filler_north.0075.b.tt:0 "Perché dormire per terra quando si può avere un letto decente!"
 
-
   agot_filler_north.0076.t:0 "Il nuovo proprietario della Taverna"
   agot_filler_north.0076.desc:0 "Tardi quella notte, Il nuovo proprietario della Taverna entra nella mia stanza brandendo un grande coltello. Chiamo i miei guardiani, ma il nuovo proprietario ride soltanto. Afferma che i miei uomini erano già nella cantina, dove presto mi ritroverò.\n\nInizia a delirare sul fatto che i miei guardiani erano solo muscoli e farebbero delle pietre da carne pessime, ma un nobile ben grasso farebbe delle meravigliose pietanze. Ride mentre si lancia verso di me con il coltello..."
   agot_filler_north.0076.a:0 "Non sarò fatto a pezzi per diventare una pietanza!"
@@ -442,7 +429,6 @@
 
   agot_filler_north.0077.t:0 "Il nuovo proprietario della Taverna"
   agot_filler_north.0077.desc:0 "Un coltello da cucina è un'arma scarsa contro l'acciaio forgiato nel castello. L'assassino lo impara a sue spese quando la mia arma si insinua attraverso la sua clavicola. Una ferita spalancata gli toglie ogni desiderio di combattere, così cerca di fuggire, ma non avrei lasciato che una bestia del genere scappasse. Una volta morto il "nuovo proprietario", inizio a cercare nella taverna.\n\nTrovo i miei uomini nella cantina insieme al proprietario precedente, appesi come animali da macello. Lo stomaco mi si ribalta mentre mi rendo conto esattamente di #italic cosa#! c'era nelle pietanze che avevo mangiato."
-
   agot_filler_north.0077.a:0 "Una follia così..."
   agot_filler_north.0077.a.tt:0 "La vista ti disgusta. Spero che nessuno scopra cosa hai mangiato in questa maledetta taverna."
 
@@ -451,11 +437,11 @@
   agot_filler_north.0078.a:0 "Le pietanze... erano fatte con #bold persone#!."
   agot_filler_north.0078.a.tt:0 "Speri che nessuno scopra che hai mangiato qualcosa di quel genere."
 
-  #####################################
-  #        Dragon in the North        #
-  #        by Zombieschrodcat         #
-  #           0079 - 0081             #
-  #####################################
+ #####################################
+ #        Dragon in the North        #
+ #        by Zombieschrodcat         #
+ #           0079 - 0081             #
+ #####################################
 
   agot_filler_north.0079.t:0 "Un Drago nel Nord"
   agot_filler_north.0079.desc:0 "[dragon_finder.GetFirstNameNoTooltip] arriva alla mia corte in preda al panico. Il giovane comincia a delirare su un drago addormentato nel mio dominio, un'accusa che fa scoppiare la sala del trono in risate. Il giovane non è divertito — ti prega di agire, sostenendo che siamo tutti condannati se la bestia dovesse svegliarsi!"
@@ -478,11 +464,11 @@
   agot_filler_north.0081.a:0 "Speriamo che diventi meno sciocco."
   agot_filler_north.0081.a.tt:0 "Speriamo che informi chiunque altro contadino abbia paure simili."
 
-  #####################################
-  #          Heroic Poacher           #
-  #        by Zombieschrodcat         #
-  #           0082 - 0083             #
-  #####################################
+ #####################################
+ #          Heroic Poacher           #
+ #        by Zombieschrodcat         #
+ #           0082 - 0083             #
+ #####################################
 
   agot_filler_north.0082.t:0 "Il Bracconiere Eroico"
   agot_filler_north.0082.desc:0 "[heroic_poacher.GetFirstNameNoTooltip] è un bracconiere ben noto alle mie guardie, poiché le ha eluse per anni. Sebbene normalmente non avrei alcun problema a infliggere giustizia a chi è stato una spina nel fianco delle mie guardie per così tanto tempo, il modo in cui [heroic_poacher.GetFirstNameNoTooltip] è finito in custodia delle mie guardie ha anche i miei guardiani più severi che chiedono pietà. Un mercante itinerante è stato assalito da briganti, ma lui e la sua famiglia sono sopravvissuti solo grazie a [heroic_poacher.GetFirstNameNoTooltip] che ha respinto i banditi ed ha scortato la famiglia in salvo. Lì è stato catturato dalle mie guardie. Anche il mercante sta offrendo una grossa somma per la sicurezza dell'uomo."
@@ -500,11 +486,11 @@
   agot_filler_north.0083.a:0 "Occhio per occhio."
   agot_filler_north.0083.a.tt:0 "Il fatto è compiuto. Ora che si è unito alla tua corte, non dovrà più ricorrere al crimine. Il bracconiere sembra non nutrire rancore nei tuoi confronti nonostante gli abbia tolto un occhio."
 
-  #####################################
-  #          The Crevasse             #
-  #        by Zombieschrodcat         #
-  #           0084 - 0091             #
-  #####################################
+ #####################################
+ #          The Crevasse             #
+ #        by Zombieschrodcat         #
+ #           0084 - 0091             #
+ #####################################
 
   agot_filler_north.0084.t:0 "Il Crepaccio"
   agot_filler_north.0084.desc:0 "Mentre viaggiavo dopo una forte nevicata, il terreno cede improvvisamente sotto i miei cavalli. Momenti dopo, mi trovo in un profondo crepaccio che la neve aveva nascosto. Con il freddo della notte in avvicinamento, so che non sopravviverò fino all'arrivo del soccorso..."
@@ -533,6 +519,7 @@
   agot_filler_north.0087.a.tt:0 "C'è il rischio di cadere, ma sembra fattibile."
   agot_filler_north.0087.b:0 "Forse in questo modo..."
   agot_filler_north.0087.b.tt:0 "Forse c'è un'altra apertura..."
+
   agot_filler_north.0088.t:0 "Il Crepaccio"
   agot_filler_north.0088.desc:0 "Sapendo che stasera sarebbe stato o l'orso o io a morire, sguaino la mia spada. Brandisco la spada - al massimo otterrò uno o due buoni colpi prima che l'orso mi dilani. Per fortuna, gli dei sono dalla mia parte, e il mio colpo iniziale è fatale per la bestia. Mentre esco dalla grotta, tornando tra gli alberi e la luce del sole, faccio un respiro profondo e pronuncio una preghiera agli dei."
   agot_filler_north.0088.a:0 "Che gli dei siano buoni, sono fortunato ad essere vivo."
@@ -559,11 +546,11 @@
   agot_filler_north.0091.d:0 "Non il segno che cercavo."
   agot_filler_north.0091.d.tt:0 "Sarà questa la tua tomba?"
 
-  #####################################
-  #          The Blizzard             #
-  #        by Zombieschrodcat         #
-  #           0092 - 0092             #
-  #####################################
+ #####################################
+ #          The Blizzard             #
+ #        by Zombieschrodcat         #
+ #           0092 - 0092             #
+ #####################################
 
   agot_filler_north.0092.t:0 "La Bufera di Neve"
   agot_filler_north.0092.desc:0 "La neve è caduta incessantemente dall'ora del lupo! Quando vedo il mio amministratore entrare nella mia sala del trono, so che la discussione dettaglierà gli effetti della bufera sulla mia tenuta. Potremmo offrire riparo e cibo a coloro che sono bloccati in questo clima, ma farlo disturberà il lavoro in corso nella tenuta."
@@ -571,11 +558,11 @@
   agot_filler_north.0092.b:0 "Non permetterò al mio popolo di soffrire."
   agot_filler_north.0092.c:0 "Non ho controllo sul tempo."
 
-  #####################################
-  # Dangerous Game: The Moose         #
-  #        by Zombieschrodcat         #
-  #           0093 - 0099             #
-  #####################################
+ #####################################
+ # Dangerous Game: The Moose         #
+ #        by Zombieschrodcat         #
+ #           0093 - 0099             #
+ #####################################
 
   agot_filler_north.0093.t:0 "Un gioco pericoloso: L'Alce"
   agot_filler_north.0093.desc:0 "Un messaggero è arrivato oggi alla mia corte con una richiesta di aiuto da un villaggio locale. Il messaggero afferma che un alce maschio piuttosto grande sta terrorizzando il villaggio, e diversi uomini sono stati feriti dalla bestia.\n\nUn alce maschio può essere un problema serio, specialmente se la bestia è in calore. C'è una ragione, dopotutto, per cui la creatura è il sigillo della Casa Hornwood."
@@ -610,12 +597,11 @@
   agot_filler_north.0099.desc:0 "Quando il sole tramonta, sentiamo il bramito dell'alce maschio mentre si avvicina al villaggio. Io e i miei uomini prendiamo posizione a monte da dove si avvicina. Le frecce sarebbero inutili alla luce delle torce, quindi ci equipaggiamo con lance da cinghiale.\n\nQuando la luce delle torce colpisce l'alce maschio, mi scende un brivido lungo la schiena. La bestia è massiccia, ma la luce gioca scherzi e proietta ombre, creando una visione che fa concorrenza alle leggende della Lunga Notte. Carichiamo con le nostre lance, pugnalando l'alce. Sento la mia lancia strappata dalle mie mani mentre la bestia si volta per fuggire.\n\nAspettiamo fino alle prime luci dell'alba per seguire l'alce. Ma non troviamo segni di sangue; la bestia ci è sfuggita."
   agot_filler_north.0099.a:0 "Una caccia povera..."
 
-
-  #####################################
-  # Dangerous Game: The Aurochs       #
-  #        by Zombieschrodcat         #
-  #           0100 - 0106             #
-  #####################################
+ #####################################
+ # Dangerous Game: The Aurochs       #
+ #        by Zombieschrodcat         #
+ #           0100 - 0106             #
+ #####################################
 
   agot_filler_north.0100.t:0 "Un gioco pericoloso: L'Uro"
   agot_filler_north.0100.desc:0 "Oggi è arrivato un messaggero alla mia corte con una richiesta di aiuto per affrontare un branco piuttosto problematico di uro. Le massicce bestie sono ben diverse dai bovini addomesticati che alleviamo per la loro carne. Gli uro sono tutta muscolatura e aggressività."
@@ -652,11 +638,11 @@
   agot_filler_north.0106.desc:0 "Il toro mostra la sua aggressività nel momento in cui catturiamo il suo sguardo, caricando i miei uomini. Con qualche difficoltà riusciamo a separarlo dal branco. Le nostre frecce volano alla bestia mentre lotta per difendersi.\n\nDevo ammirare la bestia, stava solo cercando di proteggere il branco da ciò che vedeva come una minaccia. Tuttavia, la bestia doveva essere uccisa — ma sfortunatamente, il toro uro è riuscito a batterci. La bestia è riuscita a rovesciare diversi dei miei uomini a cavallo, prima di scappare con il branco al seguito."
   agot_filler_north.0106.a:0 "Un tentativo povero..."
 
-  #####################################
-  #     Dangerous Game: The Warg      #
-  #        by Zombieschrodcat         #
-  #           0107 - 0113             #
-  #####################################
+ #####################################
+ #     Dangerous Game: The Warg      #
+ #        by Zombieschrodcat         #
+ #           0107 - 0113             #
+ #####################################
 
   agot_filler_north.0107.t:0 "Un Gioco Pericoloso: Il Metamorfo"
   agot_filler_north.0107.desc:0 "La mia corte a malapena riesce a contenere le risate mentre il povero uomo racconta la sua storia. Diventa rosso mentre cercano di mascherare i loro risolini, ma continua. Apparentemente, le mandrie del suo villaggio sono state predate da una bestia grande e pelosa che cammina sulle zampe posteriori. Gli abitanti del luogo credono che la bestia sia in realtà un metamorfo!"
@@ -695,12 +681,11 @@
   agot_filler_north.0113.a.win.title:0 "La Battaglia è stata Vinta!"
   agot_filler_north.0113.a.lose.title:0 "La Battaglia è stata persa..."
 
-
-  #####################################
-  #    The Bruti in the Tower     #
-  #        by Zombieschrodcat         #
-  #           0114 - 0117             #
-  #####################################
+ #####################################
+ #    The Wildlings in the Tower     #
+ #        by Zombieschrodcat         #
+ #           0114 - 0117             #
+ #####################################
 
   agot_filler_north.0114.t:0 "I Bruti nella Torre"
   agot_filler_north.0114.desc:0 "Una banda di razziatori Bruti che io e i miei uomini stavamo seguendo si è rifugiata in una torre di guardia abbandonata. La torre è a malapena in piedi, le mura tenute insieme più dalle radici rampicanti che salgono sulla pietra che dal mastice originale.\n\nTuttavia, i Bruti sono riusciti a fortificare gli ingressi e a posizionare alcuni arcieri ai piani superiori. Ero fiducioso che avremmo potuto prenderli, ma non senza spargere del nostro sangue."
@@ -732,12 +717,11 @@
   agot_filler_north.0117.a:0 "Avevo sperato di evitare lo spargimento di sangue."
   agot_filler_north.0117.a.tt:0 "Anche se degli uomini sono morti, almeno non per mano tua..."
 
-
-  #####################################
-  #             Snowy Day             #
-  #        by Zombieschrodcat         #
-  #           0118 - 0127             #
-  #####################################
+ #####################################
+ #             Snowy Day             #
+ #        by Zombieschrodcat         #
+ #           0118 - 0127             #
+ #####################################
 
   agot_filler_north.0118.t:0 "Giornata Nevosa"
   agot_filler_north.0118.desc:0 "La giornata è stata caratterizzata da una costante caduta di neve e, di conseguenza, la mia corte è piuttosto silenziosa. Mentre comincia a insinuarsi la noia, decido che ho bisogno di un compito per aiutare a passare questa giornata nevosa!"
@@ -803,13 +787,11 @@
   agot_filler_north.0130.a:0 "Sicuramente il suo scopo è rimanere in questo luogo."
   agot_filler_north.0130.b:0 "Dopotutto, perché no? Perché non dovrei prenderlo?"
 
-
-
-  #####################################
-  #          WILDLING RAIDS           #
-  #           by Defined              #
-  #           0131 - 0136             #
-  #####################################
+ #####################################
+ #          WILDLING RAIDS           #
+ #           by Defined              #
+ #           0131 - 0136             #
+ #####################################
   agot_filler_north.0131.t:0 "Incursioni dei Bruti"
   agot_filler_north.0131.desc:0 "Per diversi giorni, il popolo comune ha fuggito dalle terre circostanti il mio castello per cercare rifugio all'interno della mia fortezza - e portano cattive notizie: #N Bruti#! sono stati avvistati all'interno delle mie terre. Sotto il comando del temibile [wildling_raider.GetFullNameNicknamed], stanno indiscriminatamente assassinando i miei sudditi e devastando le mie terre!\n\nDevo elaborare un piano d'azione per fermare questi Bruti al più presto per salvare i miei sudditi, ristabilire la pace nelle mie terre e portare questi scellerati Bruti davanti alla giustizia."
   agot_filler_north.0131.a:0 "Io stesso darò la caccia a questa feccia dei Bruti!"
@@ -840,7 +822,7 @@
   agot_filler_north.0134.t:0 "$agot_filler_north.0131.t$: Sconfitta" #(Morte, maresciallo)
   agot_filler_north.0134.desc:0 "Un messaggero mi informa che dopo una battaglia contro i Bruti, il mio [marshal.GetCouncilTitle] [marshal.GetTitledFirstName] è stato sconfitto ed giustiziato. I Bruti sono emersi vittoriosi e sono liberi di continuare a saccheggiare le mie terre, e per ora sono impotente nel fermarli.\n\n#italic Cosa ho fatto per meritare un simile risultato?!#!"
   agot_filler_north.0134.a:0 "Un esito disastroso!"
-  
+
   agot_filler_north.0135.t:0 "$agot_filler_north.0131.t$: Sconfitta" #(Fuga, ferito)
   agot_filler_north.0135.desc:0 "Dopo una ferocissima battaglia contro i Bruti, il mio esercito è stato sconfitto. Sono riuscito a fuggire prima che la battaglia fosse completamente persa, grazie agli sforzi della mia guardia personale, che è intervenuta dopo che sono stato ferito in battaglia.\n\nHo mandato i miei soldati a morire per niente, e i Bruti senza dubbio continueranno a saccheggiare le mie terre, e sono ora impotente nel fermarli.\n\n#italic Maledetti, [wildling_raider.GetFirstNameNoTooltip]!#"
   agot_filler_north.0135.a:0 "Sono fortunato a essere sopravvissuto."
@@ -851,16 +833,16 @@
   agot_filler_north.0136.a:0 "[marshal.GetFirstNameNoTooltip|U] è fortunat[marshal.Custom('DE_END_PRO_S_N')] ad essere sopravvissut[marshal.Custom('DE_END_PRO_S_N')]."
   agot_filler_north.0136.a_tt:0 "[marshal.GetFirstNameNoTooltip|U] è stat[marshal.Custom('DE_END_PRO_S_N')] sconfitt[marshal.Custom('DE_END_PRO_S_N')], ma è riuscit[marshal.Custom('DE_END_PRO_S_N')] a fuggire."
 
+
   agot_filler_north.0150.t:0 "Un Drago a Grande Inverno"
-  agot_filler_north.0150.desc:0 "[jon_snow.GetFirstName] si avvicina, il mantello impolverato di terra, qualcosa strettamente avvolto tra le braccia. «Stavamo giocando nelle cripte, padre,» dice [jon_snow.GetSheHe], con voce colma di timida scusa. «Mi dispiace, so che non dovremmo. Ho sbagliato strada, mi sono perso. E poi ho trovato…»\n\n[jon_snow.GetSheHe|U] scarta il panno. All’inizio penso sia solo una pietra levigata, ma poi le scaglie riflettono la luce del fuoco, cambiando in vortici di blu e rosso. Un uovo di drago. #italic (Per un drago [jon_snow.Custom('GetPrincessPrince')|l], sussurra Lyanna nella mia mente.)#!\n\n[jon_snow.GetFirstNameNoTooltip] lo fissa incantato, sfiorandolo con le dita. «È strano,» mormora, «per un momento mi è sembrato… caldo.»"
+agot_filler_north.0150.desc: 0 "[jon_snow.GetFirstName] si avvicina, il mantello impolverato di terra, qualcosa stretto in un fagotto tra le braccia. «Stavamo giocando nelle cripte, padre,» dice, con la voce colma di nervosa scusa. «Mi dispiace, lo so che non dovremmo. Ho sbagliato strada e mi sono perso. E poi ho trovato.»\n\n[Select_CString(jon_snow.IsFemale,'Lei','Lui')|U] scioglie il panno. Dapprima penso sia soltanto pietra lucidata, ma poi le scaglie catturano la luce del fuoco, mutando in gorghi di blu e rosso. Un uovo di drago. #italic (Per un[jon_snow.Custom('GetPrincessPrince')|l] dei draghi, Lyanna mi sussurra nella mente.)#!\n\n[jon_snow.GetFirstNameNoTooltip] lo fissa in soggezione, le dita che lo sfiorano con delicatezza. «È strano,» dice piano, «per un momento, mi è parso che fosse... caldo.»"
   agot_filler_north.0150.a:0 "Un uovo di drago non è un giocattolo."
   agot_filler_north.0150.b:0 "L'hai trovato tu; puoi tenerlo."
 
+ #####################################
+ #   FUR TRADERS OVER HUNTING WOODS  #
+ #####################################
 
-  #####################################
-  #   FUR TRADERS OVER HUNTING WOODS  #
-  #####################################
-
-  ################################################
-  #   FIRST MEN CAVE RUNES/PAINTINGS DISCOVERED  #
-  #################################################
+ ################################################
+ #   FIRST MEN CAVE RUNES/PAINTINGS DISCOVERED  #
+ #################################################

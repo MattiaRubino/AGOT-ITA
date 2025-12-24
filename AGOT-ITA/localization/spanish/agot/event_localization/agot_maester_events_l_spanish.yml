@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
   maester_title_localization:0 "$trait_maester$"
   maester_title_holder:0 "[CHARACTER.Custom('MaesterCheck')]"
   ArchaesterTitle:0 "$archmaester$"
@@ -7,10 +6,10 @@
   AcolyteTitle:0 "$trait_acolyte$"
   NoviceTitle:0 "$trait_novice$"
 
-  ### Maester Decisions/Events ###
+ ### Maester Decisions/Events ###
   decision_employ_maester:0 "Manda a chiamare un Maestro"
   decision_employ_maester_tooltip:0 "Manderai a chiamare un [maester|E]"
-  decision_employ_maester_desc:0 "Rinomata in tutto il mondo conosciuto come centro del sapere di Westeros, la Cittadella di Vecchia Città provvede ogni castello con un uomo istruito. Forse dovrei mandare a chiamarne uno."
+decision_employ_maester_desc: "Rinomata in tutto il mondo conosciuto come centro del sapere westerosi, la Cittadella di [GetTitleByKey('c_oldtown').GetNameNoTier] fornisce a ogni rocca di Westeros un uomo istruito. Forse dovrei mandare a chiamarne uno."
   decision_employ_maester_effect:0 "Un maestro capace sarà scelto per servirti e giungerà presto alla tua corte."
   decision_employ_maester_confirm:0 "Manda un corvo a Vecchia Città."
   tooltip_employ_maester:0 "Non devi avere maestri capaci già presenti alla tua corte."
@@ -22,7 +21,6 @@
   essos_decision_employ_maester_effect:0 "Avrà inizio la ricerca di un maestro."
   essos_decision_employ_maester_confirm:0 "Inizia la ricerca."
 
-
   agot_maester.0001.t:0 "Il Nuovo Maestro di [capital.GetNameNoTooltip]"
   agot_maester.0001.desc:0 "Il maestro che ho inviato dalla Cittadella è arrivato a [capital.GetNameNoTooltip], un [new_maester.GetCulture.GetName] di nome [new_maester.GetFirstName]. Speriamo che [new_maester.GetSheHe] sia leale e saggio."
   agot_maester.0001.a:0 "Bene."
@@ -30,7 +28,7 @@
   agot_maester.0001.b:0 "Temo che non abbiamo più spazio nei conti per il tuo servizio."
 
   agot_maester.0002.t:0 "Gran Maestro di [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
-  agot_maester.0002.desc:0 "Nel tuo ruolo di [ROOT.Char.GetTitleTierName] di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], sarai ora assistito dal Gran Maestro."
+agot_maester.0002.desc: "In qualità di [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] di [ROOT.Char.GetPrimaryTitle.GetNameNoTier], d’ora in avanti sarai assistit[Select_CString(ROOT.Char.IsFemale,'a','o')] dal Gran Maestro."
   agot_maester.0002.a:0 "Bene."
   agot_maester.0002.a.tt:0 "Il maestro servirà sia come consigliere che come medico di corte."
 
@@ -46,9 +44,7 @@
   agot_maester.0007.a:0 "Che delusione."
 
   agot_maester.0008.t:0 "L'Accolito Errante"
-
   agot_maester.0008.desc:0 "[acolyte.GetFirstName] afferma di aver trascorso del tempo studiando alla Cittadella, ma senza la catena da maestro, è impossibile esserne certi. Apparentemente [acolyte.GetSheHe] non ha progredito molto nei suoi studi. Anche se [acolyte.GetFirstNameNoTooltip] non è esattamente quello che avevo in mente, [acolyte.GetSheHe] è meglio di niente."
-
   agot_maester.0008.a:0 "[acolyte.GetSheHe|U] farà al caso nostro."
   agot_maester.0008.b:0 "Esigo di meglio."
 

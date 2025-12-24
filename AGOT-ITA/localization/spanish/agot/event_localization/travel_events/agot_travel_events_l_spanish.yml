@@ -1,8 +1,8 @@
 ﻿l_spanish:
 
-  #####################
-  # At the Crossroads #
-  #####################
+ #####################
+ # At the Crossroads #
+ #####################
   agot_travel_events.0001.t:0 "Viaggio: Al Crocevia"
   agot_travel_events.0001.desc:0 "Mentre attraversiamo le Terre dei Fiumi, emerge all'orizzonte una locanda alta tre piani, proprio al crocevia.\n\nPresto, voci rumorose riempiono l'aria e anche l'odore di torte appena sfornate... un profumo così dolce che quasi posso assaporarle. \n\nSenza dubbio, i miei compagni di viaggio non disdegnerebbero un buon riposo."
   agot_travel_events.0001.a:0 "Un posto eccellente per riposare stasera."
@@ -27,6 +27,7 @@
   agot_travel_events.0003.a:0 "Non disperare, ho proprio il lavoro per te."
   agot_travel_events.0003.b:0 "Assumerò i tuoi uomini, va' e sii libero."
   agot_travel_events.0003.c:0 "I mercenari non possono essere fidati."
+
   agot_travel_events.0004.t:0 "Al Crocevia: Cavaliere Ubriaco"
   agot_travel_events.0004.desc:0 "Mentre mi avvicino al tavolo, il viso del cavaliere più grande diventa tutto rosso, improvvisamente [drunk_knight.GetSheHe] si alza dalla sua sedia e urla: "Beh, beh! Guarda chi c'è! [ROOT.Char.GetName]!"\n\nSebbene [drunk_knight.GetSheHe] sembri conoscermi, io non riesco a riconoscerl[drunk_knight.Custom('DE_END_PRO_S_N')]. Prima che possa sperare di rispondere, il cavaliere sguaina la spada e mi sfida: "Mi chiedo, è vero che sei bravo come dicono? O forse sei solo un codardo in un'armatura di lusso?"\n\nLa locanda si fa lentamente silenziosa e posso sentire lo sguardo di tutti su di me."
   agot_travel_events.0004.a:0 "Se stai cercando una lotta, ne avrai una!"
@@ -65,7 +66,6 @@
   agot_travel_events.0006.b.failure:0 "Irriti il locandiere e [innkeeper.GetSheHe] rifiuta il tuo soggiorno."
   agot_travel_events.0006.c:0 "In realtà... stiamo solo passando."
 
-
   agot_travel_events.0007.t:0 "Al Bivio: L'Imboscata"
   agot_travel_events.0007.desc:0 "Mentre facciamo i preparativi, [fellow_knight.GetName] si avvicina a me e suggerisce: "Mio [ROOT.Char.GetTitleAsNameNoTooltip], sedersi qui e aspettare mentre potremmo colpire per primi sarebbe un errore. Ho radunato alcuni uomini dalla locanda che conoscono quei luoghi meglio di chiunque altro, lascia che io vada con loro e flancco i banditi prima che ci raggiungano."
   agot_travel_events.0007.a:0 "Non rischierò le vostre vite, affronteremo il nemico insieme."
@@ -86,7 +86,7 @@
   agot_travel_events.0008.c.escape:0 "Riesci a scappare, a malapena..."
   agot_travel_events.0008.c.wounded:0 "Viene colpito da una freccia!"
 
-  # agot_travel_events.0009 - Evento di manutenzione
+ #agot_travel_events.0009 - Maintenance event
 
   agot_travel_events.0010.t:0 "Al Bivio: La Partenza"
   agot_travel_events.0010.desc:0 "Mentre ci prepariamo a partire, [innkeeper.GetFirstName] si avvicina a me con una piccola scatola di legno tra le mani.\n\n"So che non è molto, ma è tutto ciò che ci è rimasto dopo l'ultimo attacco. Per favore, prendilo come un segno della nostra gratitudine. Senza il tuo aiuto, chissà cosa sarebbe potuto succedere qui..."
@@ -109,7 +109,6 @@
   agot_travel_events.1000.glass_gardens:0 "Camminerò attraverso i celebri #bold giardini di vetro#!, il cuore pulsante del castello."
   agot_travel_events.1000.wintertown:0 "In realtà preferirei percorrere il Wintertown e le sue attrazioni più... #italic carnali#!."
   agot_travel_events.1000.opt_out:0 "Non ho tempo da perdere ad esplorare."
-
 
   agot_travel_events.1001.t:0 "Grande Inverno: Parco degli Dei"
   agot_travel_events.1001.intro_old_gods:0 "Camminando attraverso Parco degli Dei, non posso fare a meno di sentirmi come se fossi tornato a casa, la bellezza oscura e primordiale dell'Parco degli Dei che mi chiama in un modo misterioso.\n\n"
@@ -161,7 +160,7 @@
   agot_travel_events.1009.a:0 "È ora di spendere un po' di monete..."
   agot_travel_events.1009.b:0 "Forse solo un drink alla taverna invece..."
 
-  # A Dragon, I saw a dragon!
+ # A Dragon, I saw a dragon!
   agot_travel_events.0012.t:0 "Un Drago, Ho Visto un Drago!"
   agot_travel_events.0012.desc:0 "Mentre mi faccio strada attraverso [location.GetName], sento una conversazione tra una donna anziana e un giovane uomo.\n\n"Un drago, ho visto un drago!" esclama la donna anziana. "Cosa? Cosa c'è adesso, madre?" "Era grande come una montagna e nero come la notte. Volava dritto attraverso il cielo!" continua con voce impaurita.\n\n"Draghi adesso, eh?" risponde suo figlio, facendo ruotare gli occhi. "Per favore, madre. Se continui così, tutti in città penseranno che sei pazza, e ho cose migliori da fare che ascoltare altre delle tue fantasie." dice con un ghigno, voltandosi per andarsene.\n\n"Lo vedrai! Era un drago!" grida alla sua schiena. "Ci ucciderà tutti e poi mi crederai!""
   agot_travel_events.0012.a:0 "Un drago?! Dobbiamo cercarlo subito!"
@@ -175,7 +174,7 @@
   agot_travel_events.0012.d:0 "No, lei ha ragione! L'ho visto anch'io!"
   agot_travel_events.0012.d.f:0 "Aggiungi la tua voce alle lamentele della donna anziana."
 
-  # Viaggio alle Gilda Scholastiche di Myr
+ # Travel to the Myr Scholastic Guilds
   agot_travel_events.0013.t:0 "Myr: Gilda Scholastiche"
   agot_travel_events.0013.desc:0 "Mentre mi faccio strada attraverso la città, incontro un gruppo di studiosi e studenti, tutti intenti in una discussione approfondita. Sono membri delle Gilde Scholastiche, e stanno dibattendo i punti più fini di una scoperta recente. Mentre ascolto, mi rendo conto di avere un'opportunità unica per imparare da questi studiosi."
   agot_travel_events.0013.a:0 "Potrei invitare alcuni studiosi nella mia città."
@@ -183,7 +182,7 @@
   agot_travel_events.0013.b:0 "Fermati e discuti con loro."
   agot_travel_events.0013.c:0 "Continuerò per la mia strada."
 
-  # Opzione Posizione nella Corte del Maestro
+ # Maester Court Position Option
   maester_option_tt:0 "Devi assumere un [GetCourtPositionType('maester_court_position').GetName] idoneo per il viaggio"
 
   agot_travel_events.2000.t:0 "La Minaccia [wild_dragon.GetNameNoTooltip]: Agguato"
@@ -192,9 +191,7 @@
   agot_travel_events.2000.fight.tt:0 "Inizierai il combattimento con [wild_dragon.GetNameNoTooltip]"
   agot_travel_events.2000.run:0 "CORRI!"
 
-
-  # Warband Tryouts
-
+ # Warband Tryouts
   agot_travel_events.3000.t:0 "Le Prove per la Banda di Guerra"
   agot_travel_events.3000.desc:0 "Mentre il mio seguito viaggia attraverso le terre di [3000_county_liege.GetTitledFirstName], sentiamo in lontananza i tonfi e il clangore di rozze armi echeggiare dietro una curva. Girando l'angolo, vedo [3000_county_liege.GetTitledFirstNameNoTooltip], in piedi stoicamente su una piccola collina, osservare un gruppo di Bruti impegnati in sfide fisiche di ogni tipo. Ognuno di loro si sforza contro la prova, con volti arrossati e fronti sudate che spiccano tra la folla di aspiranti guerrieri non lavati. Sembra che ci siamo imbattuti nel campo di addestramento di [3000_county_liege.GetTitledFirstNameNoTooltip] per una nuova banda di guerra."
   agot_travel_events.3000.kneeler.desc:0 "Attraversando le inospitali terre dei Bruti, ogni passo più insidioso per me e il mio seguito, sentiamo tonfi, clangori e i gemiti di sforzo provenire da dietro una curva. Sguainando le spade, ci precipitiamo attorno all'angolo, pronti al combattimento. Invece di una battaglia, però, troviamo un Bruto dall'aspetto più regale in piedi sopra una folla di selvaggi. [3000_county_liege.GetSheHe|U] sembra osservare una prova di abilità, guardando attentamente mentre i Bruti si arrossano in volto nel tentativo di dimostrare la loro forza."
@@ -254,15 +251,13 @@
   agot_travel_events.3014.a:0 "Andiamo via allora."
   agot_travel_events.3014.a.tt:0 "Il tuo viaggio continua."
 
-  # Risate tra gli Alberi
-
+ # Laughter in the Trees
   agot_travel_events.4000.t:0 "Risate tra gli Alberi"
   agot_travel_events.4000.desc:0 "Mentre ci facciamo strada attraverso la fitta foresta, mi assale la sensazione di essere osservato. Con ogni momento che passa, il fruscio degli alberi sembra sempre più simile a sussurri — e le espressioni ansiose sui volti dei miei compagni indicano che anche loro percepiscono lo stesso. Proprio allora, un suono inconfondibile di risate, acute come se appartenessero a un bambino, ci raggiunge da più in profondità nella foresta. Presto altre voci, simili e infantili, si uniscono al coro di risate apparentemente divertite che echeggiano, disturbando tutt'intorno a noi."
   agot_travel_events.4000.unknownchildren.desc:0 "Cerco di distinguere delle sagome tra gli alberi, ma la foresta è troppo fitta. La fonte delle risate rimane tanto misteriosa quanto inquietante."
   agot_travel_events.4000.knownchildren.desc:0 "Data la nostra posizione, c'è solo una conclusione possibile: siamo osservati dai nostri elusivi vicini, i Figli della Foresta."
   agot_travel_events.4000.a:0 "Osate ridere di un [ROOT.Char.GetTitleAsNameNoTooltip|U]? Ve lo faccio vedere io!"
   agot_travel_events.4000.a.first_ranger:0 "Hai l'ardire di ridere del $first_ranger_landless_male$? Te la farò pagare!"
-
   agot_travel_events.4000.a.tt:0 "Corri dietro alle voci per punire l'insolenza."
   agot_travel_events.4000.b:0 "I Figli non sono una minaccia, possiamo accamparci qui."
   agot_travel_events.4000.b.tt:0 "Allestisci il campo per la notte e lasci che i curiosi osservatori siano soddisfatti."
@@ -297,5 +292,5 @@
   agot_travel_events.4004.a.gotreward:0 "Che generosità da parte loro."
   agot_travel_events.4004.a.noreward:0 "È stato bello."
   agot_travel_events.4004.a.tt:0 "Il tuo viaggio continua."
-  
+
   travel_events.4012.desc_alt:0 "Mentre attraversiamo le terre selvagge di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], avverto una strana sensazione… come se fossimo osservati. Nascosto — anche se malamente — scorgo un [feral_child_scope.Custom('GirlBoy')] esile e sporco, che scruta il nostro seguito.\n\nUno dei membri della carovana mi racconta che la gente del posto dice che queste terre siano infestate da una creatura che chiamano [feral_child_scope.GetFirstNameNoTooltip], che si dice sia cresciuta lontano dagli uomini, allevata da un [feral_child_scope.Custom('GetAnimalType')].\n\nPare che la povera creatura abbia preso interesse per noi e abbia perfino iniziato a parlare qualche parola del linguaggio comune… seppur in modo rozzo e stentato."

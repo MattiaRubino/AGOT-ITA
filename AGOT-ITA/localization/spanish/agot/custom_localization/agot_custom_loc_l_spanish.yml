@@ -1,32 +1,30 @@
 ﻿l_spanish:
-  #  capitalbaronycl:0 "[Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
-  #  capitalbaronycl_spouse:0 "[Character.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ #capitalbaronycl:0 "[Character.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ #capitalbaronycl_spouse:0 "[Character.GetPrimarySpouse.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
   SECOND_TITLE_LINE_1:0 ""
 
-  # Mega Wars
+ # Mega Wars
   mw_punishment:0 "Punire\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
   mw_show_mercy:0 "Mostrare misericordia a\n[GetPlayer.MakeScope.Var('selected_traitor').Char.GetTitledFirstNameNoTooltip]"
-
   mw_rebels:0 "Ribelli"
   mw_loyalists:0 "Lealisti"
 
-  # Draghi
+ # Dragons
   set_relation_agot_dragon:0 "Diventa il tuo drago"
 
-  # Cast Number To String
+ # Cast Number To String
   number_to_string:0 "[SCOPE.GetValue('number')|0]"
 
-  # Banish to Essos
+ # Banish to Essos
   agot_banish_to_essos:0 "[banish|E] a Essos"
 
-   # A new LC is elected
+ # A new LC is elected
   agot_a_new_lord_commander_is_elected_tt:0 "Un nuovo #E [Concept('nw_govt', 'Lord Comandante')]#! è eletto"
 
-
-  #MyCharacterIntroduction
+ #MyCharacterIntroduction
   AGOT_MyCharacterIntroductionNoComma_firstname:0 "Il mio [ROOT.Char.GetCouncilTitle][ROOT.Char.GetFirstNameNicknamedNoTooltip]"
 
-  #AGOT Screams
+ #AGOT Screams
   agot_scream_wets_self:0 "#flatulence *piss myself*#!"
   agot_scream_whimper:0 "*whimper*"
   agot_scream_aaargh:0 "AAARGH!"
@@ -44,7 +42,8 @@
   agot_scream_fuuu:0 "Fuuuu-"
   agot_scream_oh:0 "Oh."
 
-  #Attività Inattive AGOT
+ #AGOT Idle Activities
+ # all are gerund form, e.g., reading a book
   agot_idle_activity_journal:0 "scrivendo sul mio diario"
   agot_idle_activity_ledgers:0 "sfogliando registri contabili"
   agot_idle_activity_letters:0 "buttando giù l’ennesima lettera"
@@ -57,8 +56,7 @@
   agot_idle_activity_whores:0 "fantasticando su prosperose cortigiane"
   agot_idle_activity_doing_nothing:0 "senza fare nulla in particolare"
 
-
-  #AGOT Name UI Replacement
+ #AGOT Name UI Replacement
   agot_landed_name_short:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal][ROOT.Char.Custom('WordSpace')][ROOT.Char.Custom('SurnameSwitch')]"
   agot_unlanded_name_short:0 "[ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal]"
   agot_knight_name_short:0 "Ser [ROOT.Char.GetTitledFirstNameNicknamedNoTooltip][ROOT.Char.Custom('WordSpace')][ROOT.Char.GetHouse.GetNameNoTooltip]"
@@ -99,7 +97,6 @@
   agot_silent_sister_titled_full_name:0 "Sorella Silenziosa [ROOT.Char.GetTitledFirstNameNoTooltip]"
   agot_high_septon_titled_full_name:0 "[ROOT.Char.GetNickname]"
   agot_regular_titled_full_name:0 "[ROOT.Char.GetShortUINameNoTooltip]"
-
 
   agot_landed_titled_first_name_possessive:0 "[ROOT.Char.GetCharacterViewNamePossessiveNoTooltipRegnal]"
   agot_unlanded_titled_first_name_possessive:0 "[ROOT.Char.GetCharacterViewNamePossessiveNoTooltipRegnal]"

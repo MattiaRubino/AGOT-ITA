@@ -1,8 +1,9 @@
 ﻿l_spanish:
  # Debug
- agot_debug_religion_set_special_incest_flag_interaction:0 "Set special incest flags for house or dynasty"
+agot_debug_religion_set_special_incest_flag_interaction: 0 "Imposta contrassegni speciali d’incesto"
  agot_debug_religion_set_special_incest_flag_interaction_desc:0 ""
  agot_unrestricted_incest_for_dynasty:0 "Allow unrestricted incest for dynasty."
+agot_debug_incest_variable.tt: 0 "Variabile già impostata."
  agot_unrestricted_incest_for_house:0 "Allow unrestricted incest for house."
  agot_adelphogamous_incest_for_dynasty:0 "Allow adelphogamous incest for dynasty."
  agot_adelphogamous_incest_for_house:0 "Allow adelphogamous incest for house."
@@ -54,6 +55,10 @@
  AGOT_DEBUG_MW_NO_VALID_TARGET:0 "Mega War can not be triggered with this ruler as target"
  AGOT_DEBUG_MW_REBELLION_WAR_OPTION:0 "Rebellion War"
  AGOT_DEBUG_MW_INDEPENDENCE_WAR_OPTION:0 "Independence War"
+AGOT_DEBUG_MW_CLAIM_WAR_OPTION: 0 "Guerra di Rivendicazione"
+AGOT_DEBUG_MW_NO_WAR_VALID: 0 "Non esiste alcuna megaguerra valida da dichiarare."
+AGOT_DEBUG_MW_TRIGGER_MW_REGULAR: 0 "Questo innescherà una megaguerra regolare."
+AGOT_DEBUG_MW_TRIGGER_MW_LITE: 0 "Questo innescherà una megaguerra leggera."
 
  # KNIGHTING!
  agot_debug_fetch_ptk:0 "Display ProgressToKnighthood"
@@ -78,7 +83,7 @@
 
  # DRAGONS
  debug_tame_dragon_interaction:0 "Debug Manage Dragon"
- agot_debug_spawn_egg:0 "Spawn Dragon Egg On"
+agot_debug_spawn_egg: 0 "Genera uovo di drago"
  agot_debug_spawn_dragon:0 "Spawn Dragon"
  agot_debug_give_dragon_tt:0 "[recipient.GetNameOrMeRegnal] will be given a [tamed_dragon|E]"
  debug_bond_dragon:0 "Instantly Bond"
@@ -101,6 +106,9 @@
  agot_debug_spawn_owned_dragon_tt:0 "An [owned_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
  agot_debug_spawn_tamed_dragon_tt:0 "A [tamed_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
  agot_debug_spawn_wild_dragon_tt:0 "A [wild_dragon|E] will appear at [recipient.GetNamePossessiveRegnal] court"
+
+agot_show_all_dragonbloods: 0 "Mostra tutti i personaggi dal sangue di drago"
+agot_show_all_dragonbloods_desc: 0 "Mostra un elenco di tutti i personaggi dal sangue di drago"
 
  agot_show_dragonblood_debug:0 "Display Dragonblood %"
  agot_show_dragonblood_debug_desc:0 "Display the amount of dragonblood [recipient.GetName] has"
@@ -129,3 +137,12 @@
  dragon_ugly.tt:0 "[GetTrait('dragon_ugly').GetName( GetNullCharacter )]"
  dragon_spindly.tt:0 "[GetTrait('dragon_spindly').GetName( GetNullCharacter )]"
  dragon_none.tt:0 "Has no inactive traits"
+
+agot_set_disfigurement: 0 "Imposta sfiguramento"
+agot_set_disfigurement_desc: 0 "Imposta il tipo di sfiguramento di questo personaggio"
+debug_visible_disfigurement_1: 0 "Lato destro del volto devastato"
+debug_visible_disfigurement_2: 0 "Senza naso, con bocca deformata"
+debug_visible_disfigurement_3: 0 "Bocca deformata"
+debug_visible_disfigurement_4: 0 "Lato sinistro del volto danneggiato"
+debug_visible_disfigurement_5: 0 "Senza naso"
+debug_remove_visible_disfigurement: 0 "Rimuovi tipo di sfiguramento nascosto"

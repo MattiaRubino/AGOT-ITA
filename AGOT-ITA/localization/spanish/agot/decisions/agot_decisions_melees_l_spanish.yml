@@ -57,7 +57,7 @@
   agot_melee.15.desc:0 "Il mio corpo fa male, la mia armatura è ammaccata e il respiro mi viene a fatica dal petto, ma sto trionfando, avendo sconfitto tutti i sfidanti nel campo di lotta. È difficile dire cosa sia più soddisfacente — gli applausi della folla o lo sguardo sconfitto negli occhi dei miei avversari mentre si allontanano sconfitti. La mia euforia aumenta solo quando [host.GetTitledFirstName] mi presenta le mie vincite ben guadagnate."
   agot_melee.15.a:0 "Questo giorno rimarrà a lungo nella mia memoria."
   agot_melee.16.t:0 "Torneo di Lotta di [host_location.GetName]"
-  agot_melee.16.desc:0 "La lama colpisce lo scudo mentre si combatte la battaglia finale, e che battaglia! Gli spalti esplodono in applausi quando [winner.GetTitledFirstName] sferra il colpo finale, sigillando la sua vittoria.\n\nQuesto Torneo di Lotta è stato un evento glorioso, e mentre il nome di [winner.GetTitledFirstName] riecheggerà senza dubbio nella mente di popolani e nobili, anche il mio nome, forse, rimarrà nei loro ricordi."
+agot_melee.16.desc: 0 "La lama colpisce lo scudo mentre si combatte l'ultima battaglia, e che battaglia si rivela! Le tribune esplodono in un boato quando [winner.Custom('IT_NAM_COL3')][winner.GetTitledFirstName] sferra il colpo finale, suggellando [Select_CString(winner.IsFemale,'la sua','il suo')] vittoria.\n\nQuesta Grande Mischia è stata un affare glorioso e, se il nome [winner.Custom('IT_NAM_COL2')][winner.GetTitledFirstName] riecheggerà senza dubbio nella mente del popolino e dei nobili, anche il mio, forse, resterà nei loro ricordi."
   agot_melee.16.a:0 "È stata una battaglia per le epoche!"
   agot_melee.11.t:0 "Torneo di Lotta di [host_location.GetName]"
   agot_melee.11.desc:0 "L'araldo chiama due nomi — [fighter1.GetTitledFirstName] e [fighter2.GetTitledFirstName] — e due guerrieri entrano nel campo di battaglia. L'aria è densa di tensione, ma si scioglie quando viene sferrato il primo colpo, sostituita dalla pura eccitazione. Il duello è iniziato."
@@ -69,4 +69,3 @@
   agot_melee.13.desc:0 "[victor.GetTitledFirstName] sta trionfando su [loser.GetTitledFirstName]. Le grida del popolo sono come tuoni, e persino la nobiltà non può fare a meno di applaudire."
   agot_melee.13.a:0 "Che lotta!"
   agot_melee.2.t:0 "Torneo di Lotta di [host_location.GetName]"
-

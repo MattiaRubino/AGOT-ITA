@@ -1,7 +1,7 @@
 ﻿l_spanish:
   bright_text:0 "#high "
 
-  # Richiesta di campagna di terrore
+ # Conduct terror campaign request
   agot_dragon.0008.t:0 "Uno Strumento di Terrore"
   agot_dragon.0008.desc_intro:0 "Ho ricevuto un avviso da parte di [actor.GetTitledFirstName]. Considerando il mio status come cavaliere di [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], questo non è forse sorprendente, ma ciò che sorprende è il suo contenuto. [actor.GetSheHe|U] mi chiede di fare di più che semplicemente combattere nelle sue guerre, ma di condurre attivamente una campagna di terrore ovunque io vada — bruciando non solo gli eserciti nemici, ma anche le loro terre, campi e popolazioni.\n\n"
   agot_dragon.0008.desc_keen:0 "Sebbene una tale strategia indubbiamente costringerà i nostri nemici a ritirarsi e segnerà le loro terre per una generazione, il popolo #X mi giudicherà#! per questo, sia il regno che all'interno della mia stessa casa.\n\n"
@@ -16,7 +16,7 @@
   agot_dragon.0008.refuse.t:0 "Campagna di Terrore Rifiutata!"
   agot_dragon.0008.refuse.desc:0 "[recipient.GetFirstName] ha rifiutato di essere il tuo strumento di terrore."
 
-  # Terminare la campagna di terrore
+ # End terror campaign request
   agot_dragon.0009.t:0 "Cessare il Fuoco"
   agot_dragon.0009.desc_intro:0 "È arrivato un avviso da [actor.GetTitledFirstName], chiedendomi di cessare la campagna di terrore che attualmente sto scatenando contro i nostri nemici con il mio drago [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName] ogni volta che ne ho l'opportunità.\n\n"
   agot_dragon.0009.desc_keen:0 "Ho eseguito gli ordini di [ROOT.Char.MakeScope.Var('terror_campaign_instructor').GetCharacter.GetTitledFirstName] con entusiasmo e fervore da quando li ho ricevuti, e ora mi viene chiesto di cessare questa missione?\n\n"
@@ -30,7 +30,7 @@
   agot_dragon.0009.refuse.t:0 "Campagna di Terrore Continua!"
   agot_dragon.0009.refuse.desc:0 "[recipient.GetFirstName] ha rifiutato di cessare la distruzione. Puoi imprigionarlo, ma tentare una cosa del genere su un cavaliere dei draghi comporta dei rischi intrinseci..."
 
-  # Volo Normale sul Drago
+ # Ride Your Dragon Normal Ride
   agot_dragon.0010.t:0 "Libertà nei Cieli Aperti"
   agot_dragon.0010.night:0 "La luna pende bassa nel cielo di ossidiana, proiettando il suo bagliore argenteo sul mondo sottostante. [ridden_dragon.GetName] mi osserva sonnolento, le narici che si dilatano con entusiasmo mentre [ridden_dragon.Custom('GetDragonSheHe')] comprende che il mio arrivo significa un volo serale.\n\nLe sue ali battono ritmicamente contro le stelle scintillanti, una sinfonia di potenza e grazia, spingendoci sempre più in alto. Man mano che saliamo, il mondo sotto di noi si trasforma. Le foreste diventano un mosaico di ombre e argento, i fiumi che le attraversano sembrano vene luccicanti di minerali.\n\nIl vento ci circonda, un rombo fluente sotto il pulsare percussivo delle ali di [ridden_dragon.GetName]. Nell'abbraccio della luce lunare, sento la canzone del mondo dentro di me — sono un compositore, e il volo di [ridden_dragon.GetNamePossessiveNoTooltip] è la mia melodia."
   agot_dragon.0010.sili:0 "Mi avvicino alla sella di [ridden_dragon.GetName], facendo scorrere le gambe e sentendo i suoi potenti muscoli che si contraono sotto di me mentre stringo le cinghie della sella. Con un comando e una spinta, lo sento lanciarsi verso l'alto, e in pochi secondi siamo a volare nei cieli aperti.\n\nQuando superiamo le nuvole, sento il peso del mondo cadere dalle spalle... So che devo tornare, ma non prima di godere la vera euforia del volo su un drago. Lascio le redini, e [ridden_dragon.GetNameNoTooltip] urla di gioia per la sua nuova libertà, roteando verso l'alto, con le ali spiegate. Rimaniamo sospesi senza peso nel vasto cielo, sebbene solo per un momento, mentre il mondo attende sotto di noi."
@@ -59,20 +59,17 @@
   agot_dragon.0010.c:0 "Tempo di esercitare le nostre manovre aeree."
   agot_dragon.0010.c.f:0 "Eserciterai le tue mosse di combattimento con [ridden_dragon.GetNameNoTooltip]."
 
-  # Incidente di Volo Ubriaco
   agot_dragon.0011.t:0 "Cieli Fuori Portata"
   agot_dragon.0011.desc:0 "Mi avvicino alla sella di [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], facendo scorrere le gambe e sentendo i suoi potenti muscoli che si contraggono sotto di me mentre stringo le cinghie della sella. Dannazione... le cinghie, non... vogliono... legarsi... #S Aghhh! #!\n\nCon uno slam mi sento cadere accanto a [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetFirstNameNoTooltip], la visione offuscata che registra lo sguardo interrogativo che mi sta dando. Le risate soffocate dei miei uomini risuonano in concerto con il battito nella mia testa mentre mi rialzo. Forse cavalcare un drago non è la scelta migliore per oggi."
   agot_dragon.0011.a:0 "Ah, beh, magari la prossima volta!"
   agot_dragon.0011.a.f:0 "La tua natura ubriaca ha significato che non puoi volare oggi."
 
-  # Incidente di Volo Ubriaco
   agot_dragon.0012.t:0 "Incidente di Volo Ubriaco"
   agot_dragon.0012.desc:0 "Mi avvicino alla sella di [ROOT.Char.MakeScope.Var('current_dragon').GetCharacter.GetName], quasi mancandola prima di riuscire a far scorrere le gambe sopra la sua schiena. Con un comando sgranato e un balzo, lo sento lurchare verso l'alto, e in pochi secondi sono tra i cieli aperti.\n\nSento il vento passare sul mio viso, chiudendo gli occhi mentre la sensazione si riversa sulla mia pelle intorpidita. Improvvisamente sento il mio equilibrio spostarsi — cerco di afferrare la sella, ma le mie dita fluttuanti non riescono a prenderla! Va bene, sono sicuro che le cinghie mi fermeranno...\n\nNon lo fanno, ho dimenticato di allacciarle."
   agot_dragon.0012.a:0 "#S Oh fuuuuuuuuuuuu—#!"
   agot_dragon.0012.a.f:0 "La tua natura ubriaca ha segnato la tua fine oggi."
 
-
-  # Dragon terror regret event
+ # Dragon terror regret event
   agot_dragon.0013.t:0 "Incubi Terrificanti di Pelle che si Stacca"
   agot_dragon.0013.desc:0 "Volti. Volti che urlano mentre volo sopra di loro, la pelle si stacca al passaggio delle ali del mio drago mentre bruciano sotto di noi. Cerchiamo di volare più velocemente, bruciando mentre avanziamo, ma le ossa continuano a spingersi in avanti. Uomini, donne, bambini. Urlano verso di noi. Ci raggiungono. Mi graffiano. Mi supplicano di fermarmi. Mi afferrano. Mi trascinano giù.\n\nMi sveglio in un bagno di sudore freddo, il cuore che batte forte nel petto. Non riesco a togliermi quei volti dalla testa. Non riesco a togliermi le urla dalle orecchie. Non riesco a togliermi l'odore della carne bruciata dal naso. Non riesco a togliermi il calore delle fiamme dalla pelle.\n\n#S Non riesco a togliermi il senso di colpa dal cuore.#!"
   agot_dragon.0013.a:0 "Perché mai ho commesso tali orrori!?"
@@ -90,8 +87,7 @@
   agot_dragon.0013.l:0 "Donerò ai poveri, forse questo allevierà il mio senso di colpa."
   agot_dragon.0013.m:0 "INCUBO TERRIBILE! INCUBO BRUTTO!"
 
-
-  # Evento di resa durante la conquista del drago
+ # Dragon conquest surrender event
   agot_dragon.0014.t:0 "Il [ROOT.Char.GetTitleAsNameNoTooltip] che Si Inginocchiò?"
   agot_dragon.0014.desc:0 ""Notizie terribili, vostra Grazia!" grida il mio servitore, correndo verso di me. "Giunge voce che [attacker.GetTitledFirstName] ha richiesto la vostra sottomissione! [attacker.GetSheHe|U] pretende che voi gli consegniate la vostra corona e lo riconosciate come il vostro legittimo signore!"\n\nLa corte rimane sgomenta — affrontare un drago sul campo di battaglia? È questo un destino a cui voglio condannare le mie forze? Naturalmente, rinunciare alla mia indipendenza è altrettanto impensabile.\n\nCosa devo fare?"
   agot_dragon.0014.a:0 "Non posso affrontare [attacker.GetTitledFirstNameNoTooltip] — mi inginocchierò."
@@ -100,13 +96,12 @@
   agot_dragon.0014.b.dragon:0 "Abbiamo draghi anche noi, non ci arrenderemo!"
   agot_dragon.0014.b.tt:0 "Non vi arrenderete a [attacker.GetTitledFirstNameNoTooltip]."
 
-  # Evento di resa formale
   agot_dragon.0015.opening:0 "[defender.Custom2('AppropriateGreeting', ROOT.Char)]"
   agot_dragon.0015.desc:0 "Non posso oppormi a voi. Io, [defender.GetTitledFirstName], giuro fedeltà a voi, e vi riconosco come mio legittimo signore. Vi servirò fedelmente, e difenderò le pretese dei vostri legittimi eredi."
   agot_dragon.0015.a:0 "Bene, sono contento che [defender.GetSheHe] abbia visto la ragione."
   agot_dragon.0015.a.sadistic:0 "Ah beh, c'è sempre un altro regno da conquistare."
 
-  # Rivelazione del genere del drago
+ # Generic dragon gender reveal event
   agot_dragon.0016.t:0 "Questioni di Genere, Risolte"
   agot_dragon.0016.desc.start:0 "Fino ad ora io, e il resto del mondo, abbiamo sempre pensato che [dragon.GetFirstName] fosse un drago maschio"
   agot_dragon.0016.desc.my_dragon:0 "Ora #emp sento#! attraverso il nostro legame che "
@@ -119,23 +114,23 @@
   agot_dragon.0016.a:0 "Capisco! Allora è un [dragon.Custom('DragonGirlBoy')]."
   agot_dragon.0016.b:0 "Un [dragon.Custom('DragonFemaleMale')] allora? Bene a sapersi."
 
-  # Il bambino rivela il genere del drago
+ # Child reveals dragon's gender event
   agot_dragon.0030.t:0 "$agot_dragon.0016.t$"
   agot_dragon.0030.desc:0 "La questione del genere di [dragon.GetNamePossessive] è stata oggetto di molte discussioni ultimamente. Mentre io e [revealing.GetName] stiamo conversando sulla questione, [child.GetName] interviene piuttosto con forza. '[dragon.GetNameNoTooltip] è un[dragon.Custom('DE_PRO_POS_P_2P')] #italic [dragon.Custom('DragonGirlBoy')]#!' esclama [child.GetSheHe]. Sebbene non sia chiaro come [child.GetNameNoTooltip] lo sappia, sembra essere molto sicuro della sua affermazione."
   agot_dragon.0030.a:0 "Capisco! Un [dragon.Custom('DragonGirlBoy')] allora."
 
-  # Il bambino rivela il colore delle fiamme del drago
+ # Child reveals dragon's flame color
   agot_dragon.0040.t:0 "Le prime fiamme del drago"
   agot_dragon.0040.desc.intro:0 "Di passaggio, sento la risata gioiosa di [child.GetName]; [child.GetSheHe] deve stare giocando con [dragon.GetName]. Abbandonando quello che stavo facendo, mi avvicino al duo e la scena è travolgente. Ignaro della mia presenza, [child.GetNameNoTooltip] dice tra le risate "
-  # Opzione per il bambino che mostra il drago al genitore
+ # Option for child finding and showing off dragon to parent
   agot_dragon.0040.desc.fire_common:0 "'ancora, [dragon.GetNameNoTooltip], fiamma [dragon.GetNameNoTooltip]!'"
   agot_dragon.0040.desc.fire_valyrian:0 "'ancora, [dragon.GetNameNoTooltip], dracarys [dragon.GetNameNoTooltip]!'"
-  agor_dragon.0040.desc.fire_breath:0 "Fiamme sprizzano dalla bocca del drago, scatenando nuovamente le risate gioiose di [child.GetNameNoTooltip]."
-  agor_dragon.0040.desc.fire_breath_craven:0 "Fiamme sprizzano dalla bocca del drago e io mi ritrovo a fuggire verso l'uscita. Un bambino non dovrebbe avere un tale potere."
+agot_dragon.0040.desc.fire_breath: 0 "Fiamme schizzano dalle fauci del drago, suscitando di nuovo le risa gioiose di [child.GetNameNoTooltip]."
+agot_dragon.0040.desc.fire_breath_craven: 0 "Fiamme schizzano dalle fauci del drago e mi ritrovo a fuggire verso l’uscita. Un bambino non dovrebbe avere un simile potere."
   agot_dragon.0040.a:0 "Straordinario."
   agot_dragon.0040.b:0 "Il drago deve essere contenuto prima che uccida qualcuno."
 
-  # Le città conquistate
+ # The conquered cities
   agot_dragon.0017.t:0 "Le Città Conquistate"
   agot_dragon.0017.desc:0 "Vittoria! Il mio nuovo impero è forgiato dalla caduta del governo della Triarchia stessa.\n\nOra che questo corpo è caduto sotto la mia ala di ferro, c'è l'opportunità di forgiare un vero stato unitario dalle ceneri della vecchia oligarchia.\n\nUna domanda naturale è però, dove sarà la sede del mio nuovo impero?"
   agot_dragon.0017.a:0 "[target_title_1.GetNameNoTier] sarà la sede del mio impero!"
@@ -151,13 +146,13 @@
   agot_dragon.0017.d.f:0 "Rimarrete e governerete dalla vostra attuale capitale."
   agot_dragon.0017.d.tt:0 "[current_capital.GetName] sarà la [de_jure_capital|E] del [GetTitleByKey('e_three_daughters').GetNameNoTier]."
 
-  # Morte del drago
+ # Dragon Death
   agot_dragon.0018.t:0 "Morte di un Drago"
   agot_dragon.0018.desc:0 "[dead_dragon.GetNameNicknamed] è morto, come è possibile? Il legame che abbiamo condiviso per così tanto tempo non esiste più.\n\nNon mi aspettavo che [dead_dragon.Custom('GetDragonSheHe')] fosse il primo a morire. Essere quello che è rimasto è straziante, e posso sentire lo spazio vuoto dove il nostro legame una volta esisteva — come se qualcuno l'avesse scavato fuori dal mio petto."
   agot_dragon.0018.a:0 "Mi mancherai, [dead_dragon.GetNameNoTooltip]..."
   agot_dragon.0018.b:0 "Come dovrei andare avanti?"
 
-  # Notifica di accoppiamento di draghi
+ # Dragon mate notification
   agot_dragon.0019.t:0 "Una Nuova Coppia per l'Accoppiamento"
   agot_dragon.0019.desc:0 "Mi è stato riferito che [dragon_female.GetFirstName] e [dragon_male.GetFirstName] stanno passando sempre più tempo insieme. Sembra che si siano presi una simpatia l'uno per l'altra e ora si ritiene che siano una coppia di accoppiamento.\n\nSi spera che questo porti presto a una covata di uova."
   agot_dragon.0019.a.compassionate:0 "#bold Ah!#! Che meraviglia!"
@@ -167,7 +162,7 @@
   agot_dragon.0019.a:0 "Beh... buon per loro, suppongo."
   agot_dragon.0019.tt:0 "[dragon_female.GetName] e [dragon_male.GetName] sono ora una coppia di accoppiamento."
 
-  # Drago impazzito
+ # Dragon went wild notification
   agot_dragon.0020.t:0 "Un Drago Impazzito"
   agot_dragon.0020.desc:0 "Notizie tragiche per la nostra casa: sembra che [now_wild_dragon.GetName] sia volato via dopo la morte di [dead_rider.GetName]. Che sia stato il dolore o il desiderio di libertà a spingere [now_wild_dragon.GetFirstNameNoTooltip] a fuggire, potremmo non saperlo mai.\n\nÈ un giorno triste per tutti noi, poiché ora dobbiamo affrontare la perdita sia del drago che del cavaliere."
   agot_dragon.0020.wild_fire_desc:0 "Notizie strane per la nostra casata, poiché [now_wild_dragon.GetName] sembra essere volato via dopo l'incidente causato dal fuoco di valyria di [human_who_became_dragon.GetName]. Non so quale sarà l'impatto di questi eventi, ma posso dire che è stata una giornata davvero strana."
@@ -175,7 +170,7 @@
   agot_dragon.0020.a.f:0 "Ti preoccupi di come affrontare la perdita di [now_wild_dragon.GetNameNoTooltip]."
   agot_dragon.0020.a.tt:0 "[now_wild_dragon.GetName] è ora un [wild_dragon|E]"
 
-  # Suicidio del drago
+ # Dragon suicide
   agot_dragon.0021.desc:0 "Mi avvicino a [helping_dragon.GetName], i miei stivali echeggiando sulla pietra mentre [helping_dragon.Custom('GetDragonSheHe')] rivolge la sua grande forma verso di me. Guardo nei suoi occhi, e mi viene restituito uno sguardo dubbioso. Sento la sua tristezza, le sue domande, ma alla fine [helping_dragon.Custom('GetDragonSheHe')] obbedirà.\n\nC'è l'immagine terrificante della bocca del drago aperta, il fuoco che si accumula nella sua gola. Sento un'ondata di calore, e il mio mondo diventa bianco."
   agot_dragon.0021.a.valyrian:0 "#italic Kirimvose, [helping_dragon.GetNameNoTooltip].#!"
   agot_dragon.0021.a:0 "Grazie, [helping_dragon.GetNameNoTooltip]..."
@@ -185,7 +180,7 @@
   agot_dragon.0022.a:0 "No! Doveva essere io! #italic Lasciami morire!#!"
   agot_dragon.0022.a.f:0 "Vieni trascinato via dai tuoi altri guardiani mentre ti salvano da te stesso."
 
-  # Inseguito da un Cannibale!
+ # Chased By Cannibal!
   agot_dragon.0023.t:0 "Inseguito da un Cannibale!"
   agot_dragon.0023.sili:0 "Mi avvicino alla sella di [ridden_dragon.GetName], passando le gambe sopra e sentendo i suoi potenti muscoli contrarsi sotto di me mentre stringo le cinghie della sella. Con un comando e una spinta, lo sento sollevarsi, e in pochi secondi siamo a volare nei cieli aperti.\n\n"
   agot_dragon.0023.lord:0 "[ridden_dragon.GetName] prende il volo, e in pochi battiti d'ali siamo vicini alle nuvole. Lascio dietro di me il pesante fardello del mio titolo. Per un momento lascio andare tutte le responsabilità per elevarmi al di sopra di tutto — per sentire la carezza del vento e il bacio del sole.\n\n"
@@ -199,7 +194,7 @@
   agot_dragon.0023.escape_t:0 "Scappato!"
   agot_dragon.0023.escape_tt:0 "Tu e [ridden_dragon.GetNameNoTooltip] riuscite a scappare da [cannibal_dragon.GetNameNoTooltip]"
 
-  # Cavalca il tuo drago (Concentrato sullo stile di vita)
+ # Ride Your Dragon (Lifestyle Focused)
   agot_dragon.0024.t:0 "Il Cielo è il Limite!"
   agot_dragon.0024.martial:0 "Il clangore delle spade, delle lance e degli scudi è a volte confortante, ma spesso è #bold pesante#!. Mi sento libero mentre volo via sulla schiena di [ridden_dragon.GetName] — i rumori fragorosi del cortile d'addestramento diventano sempre più deboli.\n\nSarebbe ingenuo credere che un giorno le tensioni della guerra scompariranno definitivamente da questo mondo. Il mondo è troppo grande e la natura umana troppo bellicosa perché un tale sogno possa realizzarsi. Ma volare con [ridden_dragon.GetNameNoTooltip] mi concede una tregua personale.\n\nQui, l'unico scudo di cui ho bisogno è lui, e non c'è bisogno di portare il mio affilatoio perché il nostro legame, a differenza delle spade, non si affievolisce. Un momento di benessere con il mio alleato più valoroso in guerra: Questo è ciò che chiamo una #bold vera vittoria#!."
   agot_dragon.0024.learning:0 "Nei giorni normali, non ho fretta di lasciare i miei libri e tutte le ricchezze che contengono, ma una cavalcata con [ridden_dragon.GetName] non è mai ordinaria. È un momento speciale in cui posso essere solo con lui — un momento in cui non devo più #bold pensare#!. Posso quindi dimenticare tutte queste formule ed equazioni, tutti questi scritti e racconti.\n\nLa mia testa diventa leggera come una nuvola, posso elevarmi così in alto che non c'è più nulla a stimolare la mia curiosità. Tutto ciò che conta qui è [ridden_dragon.GetNameNoTooltip]. Nei cieli ci sono caratteri d'inchiostro scritti su stracci di carta; non ci sono più storie contorte la cui verità deve essere determinata; non ci sono riflessioni futili su concetti astratti. Qui tutto è concreto e perfettamente chiaro.\n\nCi sono io, [ridden_dragon.GetNameNoTooltip] e il nostro legame. E questa #bold semplicità#! mi entusiasma."
@@ -215,15 +210,13 @@
   agot_dragon.0024.oops:0 "$agot_dragon.0010.a$"
   agot_dragon.0024.flavor:0 "Acquisisci una lezione preziosa volando col tuo drago."
 
-
-  # Brinda con l'altofuoco
+ # Drink wildfire
   agot_dragon.0101.t:0 "Brama di Fuoco"
   agot_dragon.0101.aerion.desc:0 "Mentre osservo la mia coppa, già macchiata di verde, [worried_physician.GetFirstName] irrompe nelle mie stanze, la fronte coperta di sudore e increspata di preoccupazione.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]!" grida [worried_physician.GetSheHe], lanciandosi verso la coppa. "Cosa stai facendo?"\n\nNon gli presto quasi attenzione mentre mi allontano dalla sua presa.\n\n"Bere quella coppa non ti trasformerà in un drago." continua [worried_physician.GetSheHe], ancora ansimante. "Ti trasformerà solo in un cadavere.""
   agot_dragon.0101.desc:0 "Mentre osservo la mia coppa, già macchiata di verde, [worried_physician.GetFirstName] irrompe nelle mie stanze, la fronte coperta di sudore e increspata di preoccupazione.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]!" grida [worried_physician.GetSheHe], lanciandosi verso la coppa. "Cosa stai facendo?"\n\nNon gli presto quasi attenzione mentre mi allontano dalla sua presa.\n\n"Bere quella coppa non ti trasformerà in un drago." continua [worried_physician.GetSheHe], ancora ansimante. "Ti trasformerà solo in un cadavere.""
   agot_dragon.0101.a:0 "Trasformerò tutti i miei nemici in cenere!"
   agot_dragon.0101.b:0 "Ripensandoci, [worried_physician.GetFirstNameNoTooltip] ha ragione..."
 
-  # La Minaccia [wild_dragon.GetNameNoTooltip]
   agot_dragon.0200.t:0 "La Minaccia [wild_dragon.GetNameNoTooltip]"
   agot_dragon.0200.desc:0 "[chancellor.GetTitledFirstName] è venuto a discutere della minaccia che affligge [wild_dragon_location.GetName]. "Dobbiamo fare qualcosa riguardo al drago, [wild_dragon.GetNameNicknamed]. Il regno è terrorizzato, non possiamo restare inerti mentre la bestia distrugge il paesaggio. Ci sono rapporti credibili che il suo rifugio è stato scoperto in [wild_dragon_location.GetNameNoTooltip], forse è il momento di inviare qualcuno per risolvere la questione una volta per tutte.""
   agot_dragon.0200.a:0 "La gloria sarà mia."
@@ -232,7 +225,6 @@
   agot_dragon.0200.d:0 "Va bene, lo farò io."
   agot_dragon.0200.e:0 "È meglio non infastidire una bestia rabbiosa."
 
-  # Assassini assoldati
   agot_dragon.0201.t:0 "$agot_dragon.0200.t$: Assassini Assoldati"
   agot_dragon.0201.desc:0 "Come richiesto, [chancellor.GetTitledFirstName] ha trovato alcuni candidati audaci disposti ad affrontare il compito di uccidere il drago [wild_dragon.GetNameNicknamed]... #italic per un prezzo.#!"
   agot_dragon.0201.desc_child:0 "\n\nNaturalmente, [candidate_son.GetFirstNameNicknamed], mio figlio, sembra più che ansioso di assumere questo compito."
@@ -243,19 +235,16 @@
   agot_dragon.0201.d:0 "Questi sciocchi non sono all'altezza; proveremo qualcosa di diverso."
   agot_dragon.0201.e:0 "Ripensandoci, la bestia può vivere."
 
-  # Il drago è stato abbattuto
   agot_dragon.0202.t:0 "$agot_dragon.0200.t$ È Stata Abbattuta"
   agot_dragon.0202.desc:0 "Dopo aver atteso con amara anticipazione per giorni, vengo svegliato dai suoni di festeggiamenti nelle strade. Correndo verso il mio balcone, sono sollevato dalla vista benedetta.\n\n[dragon_fighter.GetTitledFirstNameNicknamed] e il suo gruppo sono tornati! Dietro di loro, un carro con trofei della bestia abbattuta, [wild_dragon.GetNameNicknamed]. Il mio sguardo cattura un artiglio mozzato e un barile riempito con le scaglie [wild_dragon.Custom('GetDragonColor')] raschiate dal collo del drago.\n\nVado ansiosamente a incontrare [dragon_fighter.GetNameNoTooltip] nelle strade, un terrore sulla terra è stato sconfitto e gli eroi saranno lodati per le loro gesta!"
   agot_dragon.0202.a:0 "Tutti i miei sudditi celebreranno questo giorno!"
   agot_dragon.0202.a.tt:0 "[dragon_fighter.GetFirstNameNoTooltip] ha ucciso il terrore selvaggio [wild_dragon.GetNameNoTooltip]!"
 
-  # Il drago reclama un'altra vittima
   agot_dragon.0203.t:0 "$agot_dragon.0200.t$ Reclama un'Altra Vittima"
   agot_dragon.0203.desc_run:0 "[dragon_fighter.GetTitledFirstNameNicknamed] ha dimostrato di essere un codardo! Invece di affrontare il drago selvaggio che terrorizza la terra, [dragon_fighter.GetFirstNameNoTooltip] è fuggito alla vista delle ali [wild_dragon.GetNamePossessive] [wild_dragon.Custom('GetDragonColor')].\n\nPer tutta la sua vanità e i suoi strepiti, [dragon_fighter.GetFirstNameNoTooltip] ha umiliato [dragon_fighter.GetHerselfHimself] per il resto dei suoi giorni.\n\n[wild_dragon.GetNameNicknamedNoTooltip] continua a volare nei cieli aperti terrorizzando il popolo; bisogna fare qualcos'altro..."
   agot_dragon.0203.desc_dead:0 "Dopo troppo tempo senza notizie dalla partenza di [dragon_fighter.GetTitledFirstNamePossessive], un soldato errante è finalmente tornato dalla sua compagnia. Le notizie che porta non potrebbero essere peggiori...\n\n[dragon_fighter.GetFirstNameNoTooltip] è stato [dragon_fighter.GetDeathReason], e la maggior parte del suo gruppo è stata divorata viva da [wild_dragon.GetNameNicknamed]! Il resto si è disperso tra le colline, tornando lentamente alle loro famiglie o in luoghi sconosciuti.\n\n[wild_dragon.GetNameNoTooltip] continua a volare nei cieli aperti terrorizzando il popolo; bisogna fare qualcos'altro... Ma chi avrà il coraggio di sfidare il drago ora?"
   agot_dragon.0203.a:0 "#bold Maledizioni!#!"
 
-  # La Semina
   agot_dragon.1001.t:0 "La Semina"
   agot_dragon.1001.targ:0 "I #italic presunti#! semi di drago sono arrivati. Alcuni di questi aspiranti cavalcatori di draghi portano i tratti della mia casa, altri sembrano di un'eredità completamente diversa. Alcuni mostrano una sicurezza disinvolta, mentre altri sudano e tremano di paura.\n\nLa casa del drago assume molte forme, e non posso fare a meno di sperare che tra queste masse accalcate ci sia qualcuno con il vero sangue del drago.\n\nOgnuno di loro ha risposto alla mia chiamata, e ognuno conosce i rischi che comporta. Ora devo prendere un ultimo momento per riflettere.\n\n#italic Ne vale la pena?#!"
   agot_dragon.1001.desc:0 "I #italic presunti#! semi di drago sono arrivati. Alcuni di questi aspiranti cavalcatori di draghi portano i tratti delle grandi case valyriane di un tempo, mentre altri sembrano di un'eredità completamente diversa. Alcuni mostrano una sicurezza disinvolta, mentre altri sudano e tremano di paura.\n\nOgnuno di loro ha risposto alla mia chiamata, e ognuno conosce i rischi che comporta. Ora devo prendere un ultimo momento per riflettere.\n\n#italic Ne vale la pena?#!"
@@ -263,8 +252,6 @@
   agot_dragon.1001.b:0 "I rischi sono #italic troppo#! grandi."
   agot_dragon.1001.b_tt:0 "La Semina sarà annullata."
 
-
-  # Fuga del seme del drago durante il domamento
   dragonseed_flees_during_taming_tt:0 "[tamer.GetFirstName] è fuggito da [dragon.GetFirstName]"
   dragon_wounds_during_taming_tt:0 "[dragon.GetFirstName] ha ferito [tamer.GetFirstName]"
   dragon_burns_during_taming_tt:0 "[dragon.GetFirstName] ha bruciato [tamer.GetFirstName]"
@@ -293,9 +280,6 @@
   agot_dragon.1004.desc.outro:0 "Non c'è modo di fermarlo... La stanza è in caos."
   agot_dragon.1004.a:0 "Non può essere vero."
 
-
-
-  # Una Raccolta Abbondante
   agot_dragon.1005.t:0 "Una Raccolta Abbondante"
   agot_dragon.1005.desc.intro:0 "Il piano #bold ha funzionato#!!\n\n[false_seed.GetFirstName] ha svolto i suoi compiti magnificamente! Se solo avessi potuto vedere l’espressione sul volto di [dragon_keeper.GetTitledFirstNamePossessive] quando è successo. È un peccato aver perso il corno del drago nel processo, devo fare di tutto per riaverlo.\n\n"
   agot_dragon.1005.desc.multiple_dragons:0 "In ogni caso, [dragon_one.GetName], [dragon_two.GetName] e gli altri draghi sono venuti davanti a me — e la mia eccitazione è palpabile. Ne rivendicherò uno come mio padrone."
@@ -312,7 +296,6 @@
   agot_dragon.1005.f:0 "Questi draghi non mi si addicono."
   agot_dragon.1005.g:0 "[dragon_one.GetNameNoTooltip] non mi si addice."
 
-  # Una Raccolta Inaspettata
   agot_dragon.1006.t:0 "Una Raccolta Inaspettata"
   agot_dragon.1006.desc:0 "La storia più strana è venuta fuori da [keeper_location.GetName]...\n\nA quanto pare, mentre [dragon_keeper.GetName] ospitava i #italic presunti#! sangue di drago per un'opportunità di domare un drago, un candidato ha rivelato che era un #bold falso seme#!. [false_seed.GetFirstName], davanti agli occhi di uomini e draghi, ha suonato un corno del drago durante la Semina — e non uno qualsiasi, ma #italic il#! corno del drago a cui #italic io#! sono legato.\n\n"
   agot_dragon.1006.desc.multiple_dragons:0 "Non avrei creduto a questo se [dragon_one.GetNameNicknamed], [dragon_two.GetNameNicknamed] e altri non fossero venuti davanti a me ora! Sembra che io sia molto fortunato."
@@ -329,29 +312,23 @@
   agot_dragon.1006.f:0 "$agot_dragon.1005.f$"
   agot_dragon.1006.g:0 "$agot_dragon.1005.g$"
 
-  # Una Raccolta Rovinata
   agot_dragon.1007.t:0 "Una Raccolta Rovinata"
   agot_dragon.1007.desc:0 "A quanto pare, il piano ha funzionato, eppure rimango #bold senza drago#!.\n\nGirano voci che il bestione [dragon_one.Custom('GetDragonColorFull')] [dragon_one.GetNameNicknamed] sia andato a [true_binder.GetTitledFirstName], sfidando tutto il potere che avevo conferito al corno del drago! A meno che...\n\nE, per rendere le cose ancora peggiori, [dragon_keeper.GetTitledFirstName] ha #bold il mio#! corno!"
   agot_dragon.1007.a:0 "Era #bold mio#! drago!"
 
-  # L'Erbaccia Strappata
   agot_dragon.1008.t:0 "L'Erbaccia Strappata"
   agot_dragon.1008.desc:0 "I candidati si presentano, pronti a tentare la sorte. Mentre conto le teste, è troppo tardi per notare che uno è scomparso. Ho solo un momento per speculare su quale terribile o banale destino possa aver incontrato prima che il suono bruciante dell’anima risuoni nella cavità. I lamenti di mille anime bruciano le mie ossa in cenere — o almeno così sembra.\n\nNel silenzio che segue, c'è molta confusione, confusione che si trasforma in shock quando [candidate_one.GetFirstName] grida, indicando la vista raccapricciante di [false_seed.GetFirstName]. Sanguinante dagli occhi e respirando quasi impercettibilmente, [false_seed.GetFirstNameNoTooltip] lotta per respirare con i polmoni che sono stati bruciati e vescicati.\n\nSolo un momento passa prima che il corno del drago a cui [false_seed.GetSheHe] si aggrappa aggiunga un’altra voce al suo coro. Passa un momento di silenzio, poi un altro. Nessun drago grida, né ali battono in lontananza. I candidati mi guardano in cerca di indicazioni su se continuare la Semina."
   agot_dragon.1008.a:0 "Questo non cambia nulla... Procediamo!"
   agot_dragon.1008.b:0 "Devo indagare su questo #italic falso seme#!."
   agot_dragon.1008.b_tt:0 "$agot_dragon.1001.b_tt$"
 
-  # La Drought
   agot_dragon.1009.t:0 "La Siccità"
   agot_dragon.1009.desc:0 "Sebbene avessi ricevuto notizie incoraggianti dell’infiltrazione di [false_seed.GetFirstNamePossessive] alla corte di [dragon_keeper.GetTitledFirstName], ora sento rapporti di fallimento. Dopo aver suonato il corno, [false_seed.GetFirstNameNoTooltip] sarebbe stato bruciato dall’interno.\n\nUna scena orribile a quanto pare, eppure se fosse vero pone una domanda importante..."
   agot_dragon.1009.a:0 "Dove è #bold il mio#! drago?"
 
-  # L'Ascesa di un Dragonseed
   agot_dragon.1010.t:0 "L'Ascesa di un Dragonseed"
   agot_dragon.1010.desc:0 "[recipient.GetName], un sangue di drago che è recentemente entrato nella mia corte, deve essere premiato per il suo valore nell’arena dei draghi.\n\nTuttavia, la sua posizione di bastardo ha complicato le cose. Perciò devo ora esaminare più da vicino come dovrei premiarlo esattamente."
   agot_dragon.1010.a:0 "Lo legittimerò."
   agot_dragon.1010.b:0 "Gli concederò il permesso di fondare una nuova casata."
   agot_dragon.1010.b_tt:0 "[recipient.GetName] formerà una nuova [bastard_branch|E]"
   agot_dragon.1010.c:0 "La sua bastardìa è troppo controversa, offri qualcos'altro."
-
- 

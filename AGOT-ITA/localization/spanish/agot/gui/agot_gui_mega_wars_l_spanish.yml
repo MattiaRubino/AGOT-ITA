@@ -2,7 +2,7 @@
   MW_GUI_JOIN_SIDE:0 "Unisciti a [Character.Custom('MWGetRebelsLoyalists')]"
   MW_GUI_DEAL_WITH_TRAITORS:0 "Affronta i Traditori"
   MW_GUI_LET_LP_DECIDE:0 "Lascia che il Lord Protettore decida"
-  #MW_GUI_LEAVE_HIM_BE:0 "Lascia perdere"
+ #MW_GUI_LEAVE_HIM_BE:0 "Leave [GetPlayer.Var('selected_traitor').Char.GetHerHis] be"
   MW_GUI_SKIP:0 "Salta per ora"
   MW_GUI_SELECT_TRAITOR:0 "Seleziona traditore"
   MW_GUI_PUNISH:0 "[GetPlayer.Custom('MWGetPunishmentMercy')]"
@@ -10,7 +10,7 @@
   MW_GUI_SELECTED_HOSTAGE:0 "Il tuo ostaggio"
   MW_GUI_SELECT_HOSTAGE:0 "Seleziona ostaggio"
   MW_GUI_TAKE_SPECIFIC_TITLE:0 "Prendi titolo specifico"
-   MW_GUI_TAKE_MAIN_TITLES:0 "Prendi [Concept('agot_mw_take_main_titles', 'i titoli principali')|E]"
+MW_GUI_TAKE_MAIN_TITLES: 0 "Prendi i [Concept('agot_take_main_titles', 'titoli principali')|E]"
   MW_GUI_TAKE_SECONDARY_TITLES:0 "Prendi i titoli secondari"
   MW_GUI_TAKE_ENTIRE_DEMESNE:0 "Prendi l'intero demanio"
   MW_GUI_TAKE_HALF_DEMESNE:0 "Prendi metà demanio"
@@ -23,15 +23,9 @@
   MW_GUI_EXECUTE_TRAITORS_HOUSE:0 "Giustizia la casa del traditore"
   MW_GUI_SEND_TO_WALL:0 "Mandare il traditore alla Barriera"
   MW_GUI_SEND_TO_ESSOS:0 "Mandare il traditore a Essos"
-  MW_GUI_EXPEL_TRAITOR:0 "Espelli traditore"
-  MW_GUI_EXPEL_TRAITORS_FAMILY:0 "Espelli la famiglia del traditore"
-  MW_GUI_EXPEL_TRAITORS_HOUSE:0 "Espelli la casa del traditore"
-
-  MW_GUI_EXPEL_TRAITOR:0 "[Concept('agot_mw_expel_character', 'Espelli')|E] traditore"
-  MW_GUI_EXPEL_TRAITORS_FAMILY:0 "[Concept('agot_mw_expel_character', 'Espelli')|E] la famiglia del traditore"
-  MW_GUI_EXPEL_TRAITORS_HOUSE:0 "[Concept('agot_mw_expel_character', 'Espelli')|E] la casata del traditore"
-
-
+MW_GUI_EXPEL_TRAITOR: 0 "[Concept('agot_expel_character', 'Esilia')|E] il traditore"
+MW_GUI_EXPEL_TRAITORS_FAMILY: 0 "[Concept('agot_expel_character', 'Esilia')|E] la famiglia del traditore"
+MW_GUI_EXPEL_TRAITORS_HOUSE: 0 "[Concept('agot_expel_character', 'Esilia')|E] la casata del traditore"
 
   MW_GUI_TAKE_TITLES:0 "Prendi Titoli"
   MW_GUI_MISC:0 "Varie"
@@ -40,16 +34,3 @@
 
   MW_EXECUTION_FAMILY_OPINION:0 "Giustizierai la famiglia del traditore"
   MW_EXECUTION_HOUSE_OPINION:0 "Giustizierai la casata del traditore"
-
-  game_concept_agot_mw_mega_wars:0 "Mega Guerra"
-  game_concept_agot_mw_mega_wars_desc:0 "In una mega guerra il reame si divide in tre tipi di partecipanti: [Concept('agot_mw_royalists', 'Realisti')|E], [Concept('agot_mw_neutrals', 'Neutrali')|E], [Concept('agot_mw_rebels', 'Ribelli')|E].\nL'impatto della guerra è considerato così grave che ogni partecipante deve scegliere una parte o rimanere neutrale. Durante la guerra i neutrali possono ancora scegliere una parte e non sono vincolati alla loro decisione iniziale. Alla fine della guerra, la parte vincente ha opzioni estese riguardo la punizione della parte perdente."
-  game_concept_agot_mw_royalists:0 "Realisti"
-  game_concept_agot_mw_royalists_desc:0 "Questo è il nome della fazione in una [Concept('agot_mw_mega_wars', 'Mega Guerra')|E] che è leale alla corona. La corona può essere presa di mira da più [Concept('agot_mw_rebels', 'leader ribelli')|E]."
-  game_concept_agot_mw_neutrals:0 "Neutrali"
-  game_concept_agot_mw_neutrals_desc:0 "Neutrali in una [Concept('agot_mw_mega_wars', 'Mega Guerra')|E] sono considerati i vassalli che non hanno ancora dichiarato da che parte stanno. Alcuni non vogliono avere nulla a che fare con la guerra, altri aspettano che le maree della guerra portino nuove opportunità..."
-  game_concept_agot_mw_rebels:0 "Ribelli"
-  game_concept_agot_mw_rebels_desc:0 "Questo è il nome della fazione in una [Concept('agot_mw_mega_wars', 'Mega Guerra')|E] che si oppone alla [Concept('agot_mw_royalists', 'corona')|E]. I ribelli hanno un leader ribelle che guida la guerra. Ci possono essere più leader ribelli che prendono di mira la stessa [Concept('agot_mw_royalists', 'corona')|E] in guerre diverse."
-  game_concept_agot_mw_expel_character:0 "Espellere"
-  game_concept_agot_mw_expel_character_desc:0 "Il personaggio in questione sarà costretto a lasciare il tuo regno e non potrà mai più tornare. Il loro destino è l'esilio."
-  game_concept_agot_mw_take_main_titles:0 "Confisca dei titoli principali"
-  game_concept_agot_mw_take_main_titles_desc:0 "Questo confisca tutti i titoli di livello più alto da un traditore."

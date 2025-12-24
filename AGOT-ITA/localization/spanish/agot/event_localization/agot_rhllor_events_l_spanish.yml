@@ -1,28 +1,26 @@
 ﻿l_spanish:
-  ##############################################################################
-  ###                              HEALING FLAMES                            ###
-  ##############################################################################
+ ##############################################################################
+ ###                              HEALING FLAMES                            ###
+ ##############################################################################
 
-  # Seek healing from Red Priest character interaction event
+ # Seek healing from Red Priest character interaction event
   agot_rhllor.0001.t:0 "L’Ultima Speranza"
   agot_rhllor.0001.multiple.desc:0 "Il dolore mi consuma. Il mio corpo cede, lacerato e indebolito da ferite che non guariscono e da un male che marcisce dentro. Ho tentato ogni rimedio, ogni speranza disperata, ma la mia forza non fa che svanire.\n\nResta un solo cammino, un’ultima possibilità prima che tutto sia perduto. Il sacerdote rosso parla di fuoco, della luce purificatrice capace di bruciare la sofferenza. Le sue parole sono ardite, la sua fede incrollabile. [red_priest.GetSheHe|U] giura che le fiamme guariranno ciò che nessuna mano mortale può sanare.\n\nNon so se credo nel suo dio, ma so che non posso sopportare ancora a lungo."
-
   agot_rhllor.0001.wound.desc:0 "La ferita infetta, rossa e gonfia, si rifiuta di rimarginarsi, nonostante ogni cura. Ogni movimento porta nuova agonia al mio corpo, un costante richiamo alla mia fragilità.\n\nRestano poche scelte. Il sacerdote rosso dice che il fuoco può ciò che né lama né unguento hanno potuto. [red_priest.GetSheHe|U] afferma che la fiamma purifica la debolezza, che può chiudere la carne e bruciare la corruzione.\n\nForse ha ragione. Forse è folle. Ma se nulla viene fatto, non vivrò abbastanza da poterlo sapere."
-
   agot_rhllor.0001.disease.desc:0 "Sento la mia forza svanire, come rubata da mani invisibili. Ogni respiro è una fatica, ogni giorno più pesante del precedente. La malattia persiste, indifferente a ogni rimedio, sorda alla mia volontà di resistere.\n\nIl sacerdote rosso parla del fuoco, del potere purificatore che può bruciare ogni male. [red_priest.GetSheHe|U] giura che le fiamme non mentono, che non vacillano. Se [red_priest.GetSheHe] ha ragione, questa è la mia unica speranza.\n\nSe [red_priest.GetSheHe] ha torto, non avrò tempo per rimpiangerlo."
-
   agot_rhllor.0001.deadly_curse.desc:0 "Sento la vita sfuggirmi di giorno in giorno. Non è una ferita che può guarire, né un male che farà il suo corso. È qualcosa di più profondo, crudele e implacabile.\n\nAlcuni dicono che tali afflizioni non possono essere sciolte, che sono destino, un fardello che non si può rimuovere. Ma il sacerdote rosso non crede nel destino. [red_priest.GetSheHe|U] crede nel fuoco. [red_priest.GetSheHe|U] afferma che anche la peggiore delle maledizioni può essere bruciata via.\n\nForse è follia. Forse è la mia unica speranza."
-
   agot_rhllor.0001.a:0 "Se il fuoco può salvarmi, allora che bruci."
   agot_rhllor.0001.b:0 "Ho cambiato idea."
 
+ # Red Priest considers
   agot_rhllor.0002.t:0 "Fiamme del Giudizio"
-  agot_rhllor.0002.desc:0 "[patient.GetTitledFirstName] si avvicina, i suoi passi gravati dalla sofferenza. Vedo ciò che il suo corpo ha sopportato — ferite che non guariscono, malattie che divorano la forza, l’ombra della morte che si fa sempre più vicina. [patient.GetSheHe|U] non viene a me come credente, ma come un disperato [Select_CString(patient.IsFemale,'donna','uomo')] che si aggrappa a una salvezza ormai rara.\n\nIl fuoco può purificare. Il fuoco può guarire. Ma il fuoco non è clemente. Il Signore della Luce non concede i suoi doni a cuor leggero — c’è sempre un prezzo. La vera domanda è se [patient.GetTitledFirstNameNoTooltip] sia degno della sua misericordia… o se [red_priest.GetSheHe] finirà per bruciare nel tentativo."
+agot_rhllor.0002.desc: "[patient.Custom('IT_NAM_COL3')][patient.GetTitledFirstName] si avvicina, il passo di [patient.GetHerHis] greve di sofferenza. Vedo il tributo sul corpo di [patient.GetHerHis] — ferite che rifiutano di rimarginarsi, malattie che rodono la sua forza, un’ombra di morte che striscia sempre più vicina. [patient.GetSheHe|U] non viene da me come credente, ma come un[Select_CString(patient.IsFemale,'a','o')] disperat[Select_CString(patient.IsFemale,'a','o')] [Select_CString(patient.IsFemale,'donna','uomo')] che si aggrappa alla salvezza dove non resta altro.\n\nIl fuoco può purificare. Il fuoco può guarire. Ma il fuoco non è gentile. Il Signore della Luce non concede i suoi doni gratuitamente — vi è sempre un prezzo. La domanda è se [patient.Custom('IT_NAM_COL3')][patient.GetTitledFirstNameNoTooltip] sia degn[Select_CString(patient.IsFemale,'a','o')] della sua misericordia, oppure se [red_priest.GetSheHe] brucerà nel tentativo."
   agot_rhllor.0002.a:0 "La luce di R'hllor ti purificherà."
   agot_rhllor.0002.b:0 "Se vuoi camminare nel fuoco, devi prima accettarne la verità."
   agot_rhllor.0002.b.tt:0 "Chiedi a [patient.GetTitledFirstName] di convertirsi alla tua fede"
   agot_rhllor.0002.c:0 "Le fiamme non sono per te."
 
+ # Red Priest helps me
   agot_rhllor.0003.title:0 "Una Preghiera di Fuoco"
   agot_rhllor.0003.desc:0 "Il sacerdote rosso inizia il suo rituale, mormorando parole sacre mentre le fiamme si alzano, gettando ombre tremolanti nella stanza. Il calore cresce, preme sulla mia pelle — non solo calore, ma qualcosa di vivo.\n\n[red_priest.GetSheHe|U] parla della luce di R'hllor, del potere del fuoco di purificare e guarire. Ma il fuoco non guarisce ogni cosa in un sol colpo. Devo scegliere quale afflizione affidare alla misericordia del suo dio."
   agot_rhllor.0003.a:0 "Ti prego, guarisci le mie ferite!"
@@ -47,22 +45,25 @@
   agot_rhllor.0003.t:0 "Ferma i miei brividi, donami calore!"
   agot_rhllor.0003.u:0 "Voglio camminare di nuovo!"
 
-  # Red Priest helps me if I convert
+ # Red Priest helps me if I convert
   agot_rhllor.0004.t:0 "Il Prezzo della Salvezza"
   agot_rhllor.0004.desc:0 "Il sacerdote rosso non si muove per iniziare il suo rituale. Invece, [red_priest.GetSheHe] mi fissa con incrollabile convinzione, la voce ferma mentre parla.\n\n#EMP "Il fuoco può purificare. Il fuoco può guarire. Ma perché R'hllor dovrebbe concedere i suoi doni a chi non cammina nella sua luce?" #!\n\n[red_priest.GetSheHe|U] non mi aiuterà — non ancora. Non a meno che io non rinneghi i miei vecchi dèi, le mie vecchie vie, e non giuri fedeltà al Signore della Luce. La mia sofferenza può finire, ma solo se m’inginocchio davanti alla sua fiamma."
   agot_rhllor.0004.a:0 "Lo giuro! Guariscimi!"
   agot_rhllor.0004.b:0 "No, non ne vale la pena."
 
+ # Red Priest won't help me
   agot_rhllor.0005.t:0 "Abbandonato dalla Fiamma"
   agot_rhllor.0005.desc:0 "Il sacerdote rosso mi osserva, l’espressione indecifrabile. Attendo che inizi il rituale, che mormori le preghiere, che il calore delle fiamme si alzi — ma non accade nulla.\n\n#EMP "Il Signore della Luce concede le sue benedizioni a chi desidera. Tu non sei stato scelto." #!\n\nLe sue parole sono definitive, il tono inflessibile. [red_priest.GetSheHe|U] non mi guarirà. Che sia per dubbio, disprezzo o qualcosa che va oltre la mia comprensione, non lo so. Ma [red_priest.GetSheHe] mi ha voltato le spalle, lasciandomi a soffrire come prima."
   agot_rhllor.0005.a:0 "Così sia."
   agot_rhllor.0005.b:0 "Gettate questo eretico nelle segrete!"
 
+ # Liege refused to convert
   agot_rhllor.0006.t:0 "La Follia di uno Stolto"
   agot_rhllor.0006.desc:0 "Lo stolto si allontana dalla luce, aggrappandosi ai suoi falsi dèi, alla sua fede vuota. [patient.GetSheHe|U] preferisce soffrire piuttosto che inginocchiarsi davanti alla verità del fuoco.\n\nNe ho visti [Select_CString(patient.IsFemale,'donne','uomini')] come lui prima — fieri, testardi, ciechi alla volontà di R'hllor. Alcuni restano nella loro miseria, consumandosi come braci morenti. Altri vengono del tutto annientati, i loro corpi spezzati dal peso della propria sfida.\n\nLa misericordia di R'hllor era stata offerta, ed è stata rifiutata. Ora, solo le fiamme sanno quale destino lo attende."
   agot_rhllor.0006.a:0 "Così sia. [patient.GetSheHe|U] ha fatto la sua scelta."
   agot_rhllor.0006.b:0 "[patient.GetSheHe|U] se ne pentirà."
 
+ # Full Success/Partial Success/Failure Outcomes
   agot_rhllor.0007.t.success:0 "La Misericordia del Fuoco"
   agot_rhllor.0007.t.failure:0 "Il Giudizio del Fuoco"
 
@@ -83,7 +84,6 @@
   agot_rhllor.0007.red_priest.crit_fail.outro_desc:0 "\n\nLe fiamme non hanno purificato. Hanno divorato. Osservo il corpo contorcersi, il marchio del fuoco inciso nella carne. R'hllor li ha abbandonati — o peggio, condannati."
   agot_rhllor.0007.red_priest.succ.outro_desc:0 "\n\nIl Signore della Luce ha risposto. L'afflizione è sparita, la misericordia del fuoco è stata concessa. Oggi, la fiamma ha guarito."
   agot_rhllor.0007.red_priest.crit_succ.outro_desc:0 "\n\nQuesta non è stata una semplice guarigione. La mano di R'hllor li ha toccati, riforgiandoli nel suo fuoco. Non sono solo tornati interi — sono diventati qualcosa di più grande."
-
 
   agot_rhllor.0007.patient.succ_wounds.outro_desc:0 "\n\nIl dolore è svanito. La mia carne, un tempo lacerata e viva, ora è salda, lasciando solo il ricordo della ferita. Il fuoco ha riparato ciò che l'acciaio non poteva."
   agot_rhllor.0007.patient.succ_disease.outro_desc:0 "\n\nRespiro a fondo, e per la prima volta da settimane, il mio corpo non oppone resistenza. La malattia è sparita, la sua stretta spezzata. Sono di nuovo intero."
@@ -110,6 +110,7 @@
   agot_rhllor.0007.red_priest.crit_fail_wounds.outro_desc:0 "\n\nLe fiamme non hanno guarito. Hanno divorato. Vedo la carne arsa, il dolore inciso sul volto. Oggi, il fuoco non ha risposto con misericordia."
   agot_rhllor.0007.red_priest.crit_fail_disease.outro_desc:0 "\n\nSi contorcono, il corpo straziato dal dolore. Il fuoco non ha purgato la malattia — l’ha peggiorata."
   agot_rhllor.0007.red_priest.crit_fail_curse.outro_desc:0 "\n\nUn giudizio crudele. L’afflizione non svanisce — si approfondisce, come se il fuoco stesso li avesse maledetti ulteriormente."
+
   agot_rhllor.0007.a.patient.success:0 "Il fuoco mi ha guarito. Ti devo la mia gratitudine."
   agot_rhllor.0007.a.patient.crit_success:0 "Mi sento più forte che mai. Questa non era una guarigione qualunque."
   agot_rhllor.0007.a.patient.failure:0 "Le fiamme non hanno fatto nulla. Forse era solo una speranza da stolti."
@@ -117,15 +118,17 @@
   agot_rhllor.0007.a.red_priest.success:0 "Il Signore della Luce oggi ti ha concesso la sua misericordia. Fanne buon uso."
   agot_rhllor.0007.a.red_priest.crit_success:0 "Il fuoco non ti ha solo guarito — ti ha riforgiato. Ora sei più forte di prima."
   agot_rhllor.0007.a.red_priest.failure:0 "Non tutti coloro che cercano la luce la troveranno. Forse è una prova, non una condanna."
-  agot_rhllor.0007.a.red_priest.crit_failure:0 "Le fiamme non hanno concesso misericordia… Hanno parlato, e la loro volontà è definitiva."
-  agot_rhllor.0007.b:0 "Il fuoco mi ha salvato… Ora vedo la verità. Camminerò nella luce di R'hllor."
+agot_rhllor.0007.a.red_priest.crit_failure: "Le fiamme non hanno concesso la loro misericordia. Hanno parlato, e la loro volontà è definitiva."
+agot_rhllor.0007.b: "Il fuoco mi ha salvato. Ora ne vedo la verità. Camminerò nella luce di R'hllor."
   agot_rhllor.0007.c:0 "Questa non è stata una guarigione — è stata una tortura! Guardie, arrestate questo falso sacerdote!"
 
+ # Red Priest offers their help
   agot_rhllor.0008.t:0 "Un Sussurro di Fuoco"
   agot_rhllor.0008.desc:0 "[red_priest.GetTitledFirstName], un sacerdote rosso, si fa avanti, le sue vesti che si muovono come braci danzanti. Il suo sguardo si posa su di me — non con paura, né con reverenza, ma con certezza.\n\n#EMP "Sei afflitto," #! dice [red_priest.GetSheHe], la voce calma ma inflessibile.#EMP "Forse non lo senti ancora. Forse hai ignorato i segni. Ma il fuoco vede ciò che l’occhio non coglie. Il Signore della Luce mi ha condotto da te per una ragione." #!\n\nNon l’avevo cercato, eppure [red_priest.GetSheHe] è qui, offrendo ciò che altri non potevano."
   agot_rhllor.0008.a:0 "Se puoi aiutarmi, fallo."
   agot_rhllor.0008.b:0 "Non ho bisogno del tuo fuoco."
 
+ # Red Priest offers their help if I convert
   agot_rhllor.0009.t:0 "Un Patto nel Fuoco"
   agot_rhllor.0009.desc:0 "[red_priest.GetTitledFirstName], un sacerdote rosso, si avvicina, le sue vesti che si muovono come braci nel vento. I suoi occhi ardono di convinzione mentre parla.\n\n#EMP "Sei malato, che tu lo ammetta o no. Il fuoco rivela ciò che la carne nasconde. Ma R'hllor non concede i suoi doni a cuor leggero. Se desideri essere guarito, devi prima camminare nella sua luce." #!\n\n[red_priest.GetSheHe|U] offre la salvezza — ma a un prezzo. Per accettare la sua guarigione, devo rinnegare i miei vecchi dèi e abbracciare il Signore della Luce."
   agot_rhllor.0009.a:0 "Camminerò nel fuoco, se questo vuol dire salvezza."

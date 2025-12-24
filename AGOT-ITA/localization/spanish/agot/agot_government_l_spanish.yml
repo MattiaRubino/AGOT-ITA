@@ -1,8 +1,7 @@
 ﻿l_spanish:
   government_is_free_city:0 "Il tipo di [government|E] è [GetGovernment( 'administrative_government' ).GetName]"
 
-
-  # LP Feudale
+ # LP Feudal
   lp_feudal_government_with_icon:0 "@government_type_feudal! $lp_feudal_government$"
   lp_feudal_government:0 "Protettorato Feudale"
   lp_feudal_government_adjective:0 "Protettorato Feudale"
@@ -15,10 +14,10 @@
   lp_feudal_vassal:0 "$lp_feudal_government$"
   lp_feudal_vassal_desc:0 "$game_concept_feudal_desc$"
 
-  # Città Libere
+ # Free Cities
   free_city_election_succession_law:0 "Elezione della Città Libera"
   free_city_election_succession_law_subname:0 "Eletto, a Termine o a Vita"
-  free_city_election_succession_law_effects:0 "\n#V Con la legge $free_city_election_succession_law$, il governante della Città Libera viene scelto dai cittadini più ricchi e influenti. A seconda delle leggi del dominio, gruppi diversi possono avere più voce in capitolo, e la durata del mandato può variare—alcune città potrebbero persino nominare un governante a vita.#!"
+free_city_election_succession_law_effects: 0 "\n#V Con $free_city_election_succession_law$, il sovrano della Città Libera verrà scelto dai cittadini più ricchi e influenti. A seconda delle leggi del reame, diversi gruppi potranno esercitare maggiore influenza e la durata del mandato potrà variare — alcune città potrebbero perfino nominare un sovrano a vita.#!"
 
   free_city_single_heir_succession_law:0 "Primogenitura"
   free_city_single_heir_succession_law_subname:0 "Primogenitura"
@@ -48,13 +47,14 @@
 
   election_history:0 "Eletto"
 
-  # Timer Elezioni Città Libere
+ # Free City Election Timer
   agot_election_progress_loc_succession_window: "Tempo fino all'elezione: [SuccessionAppointmentWindow.GetTitle.Custom('AgotElectionProgress_Succession')]"
   agot_election_progress_loc_life_succession_window: "#Bold #V A Vita#!#!"
   agot_election_progress_loc_delayed_until_war_ends_succession_window: "#Bold #V Rinviata fino alla fine della guerra#!#!"
   agot_election_progress_loc_election_suspended_succession_window: "#Bold #V @warning_icon!#X Elezione Sospesa#!#!#!"
   agot_election_progress_loc_term_succession_window: "#Bold #V [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Anni#!#!"
   agot_election_progress_loc_this_year_succession_window: "#Bold #V Quest'Anno#!#!"
+ # "#Bold [SuccessionAppointmentWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#"
 
   agot_election_progress_loc_admin_window: "Tempo fino all'elezione: [GovernmentAdministrationWindow.GetTitle.Custom('AgotElectionProgress_Admin')]"
   agot_election_progress_loc_life_admin_window: "#Bold #V A Vita#!#!"
@@ -62,8 +62,9 @@
   agot_election_progress_loc_election_suspended_admin_window: "#Bold #V @warning_icon!#X Elezione Sospesa#!#!#!"
   agot_election_progress_loc_term_admin_window: "#Bold #V [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Anni#!#!"
   agot_election_progress_loc_this_year_admin_window: "#Bold #V Quest'Anno#!#!"
+ # "#Bold [GovernmentAdministrationWindow.GetTitle.MakeScope.ScriptValue('free_city_election_progress_loc')] Years Until Next Election!#"
 
-  # Pirati
+ # Pirates
   pirate_government_with_icon:0 "@naval_administration! $pirate_government$"
   pirate_government:0 "Capitaneria Pirata"
   pirate_government_desc:0 "Una forma di governo per lo più irregolare, dove fuorilegge, esiliati, mercenari e cercatori di gloria si uniscono sotto il comando di un Capitano. Meno organizzati e più imprevedibili di altri, i Pirati si nominano tra loro – o da soli – per il ruolo di Capitano. Tuttavia, non è raro che pirati insoddisfatti del risultato si separino per cercare gloria da soli."
@@ -74,12 +75,12 @@
   pirate_govt_concept:0 "[pirate_govt_i|E]"
   government_is_pirate:0 "Il tipo di [government|E] è [GetGovernment( 'pirate_government' ).GetName]"
 
-
   pirate_government_vassals_label:0 ""
+ #agot_pirate_gov_succ_block:0 "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]\n$EFFECT_LIST_BULLET$ If [heir|E] is too weak the [realm|E] will collapse upon [ruler|E] [character_death_death|E]"
   agot_pirate_gov_succ_block:0 "Sblocca una successione pirata speciale [succession_law|E]. Blocca le altre [succession_laws|E]"
   agot_unlocks_conquest_cb:0 "Sblocca il [casus_belli|E] di Conquista"
 
-  # Sorelle Silenziose
+ # Silent Sister
   silent_sisterhood_holder:0 "Madre Silenziosa"
   silent_sisterhood_government_with_icon:0 "@silent_sisters_government! $silent_sisterhood_government$"
   silent_sisterhood_government:0 "Sorellanza del Silenzio"
@@ -90,7 +91,7 @@
   silent_sisterhood_govt_concept:0 "[silent_sisters_govt_i|E]"
   government_is_silent_sisters:0 "Il tipo di [government|E] è [GetGovernment( 'silent_sisterhood_government' ).GetName]"
 
-  # Ospiti
+ # Host
   host_government:0 "Ospitata"
   host_government_adjective:0 "Ospitata"
   host_government_with_icon:0 "@host_government! $host_government$"
@@ -101,7 +102,7 @@
   host_govt_concept:0 "[host_govt_i|E]"
   government_is_host:0 "Il tipo di [government|E] è [GetGovernment( 'host_government' ).GetName]"
 
-  # Governo segnaposto avventurieri
+ # Dummy adv govt for bookmark purposes
   dummy_adventurer_govt_for_bms:0 "$landless_adventurer_government$"
   dummy_adventurer_govt_for_bms_with_icon: "$landless_adventurer_government_with_icon$"
   dummy_adventurer_govt_for_bms_adjective:0 "$landless_adventurer_government_adjective$"
@@ -110,7 +111,7 @@
   dummy_adventurer_govt_for_bms_filter_option:0 "Sviluppatore"
   dummy_adventurer_govt_for_bms_filter_option_desc:0 "Mostra solo i personaggi con [government|E] di tipo Sviluppatore"
 
-  # Governo segnaposto amministrativo
+ # Dummy admin govt for bookmark purposes
   dummy_admin_govt_for_bms:0 "$administrative_government$"
   dummy_admin_govt_for_bms_with_icon:0 "$administrative_government_with_icon$"
   dummy_admin_govt_for_bms_adjective:0 "$administrative_government_adjective$"
@@ -120,7 +121,7 @@
   dummy_admin_govt_for_bms_filter_option:0 "Sviluppatore"
   dummy_admin_govt_for_bms_filter_option_desc:0 "Mostra solo i personaggi con il [government|E] da Sviluppatore"
 
-  # Guardiani della Notte
+ # Night's Watch
   nights_watch_government_with_icon:0 "@nights_watch_government! $nights_watch_government$"
   nights_watch_government:0 "Guardiani della Notte"
   nights_watch_government_adjective:0 "Guardiani della Notte"
@@ -147,7 +148,7 @@
   dc_nights_watch:0 "Comandante"
   commander_post:0 "Comandante"
 
-  # Cittadella
+ # Citadel
   seneschal_the_citadel_male:0 "$seneschal_court_position$"
   the_citadel_government:0 "Conclave"
   the_citadel_government_with_icon:0 "@the_citadel_government! $the_citadel_government$"
@@ -159,19 +160,19 @@
   citadel_govt_concept:0 "[citadel_govt_i|E]"
   government_is_the_citadel:0 "Il tipo di [government|E] è [GetGovernment( 'the_citadel_government' ).GetName]"
 
-  # Guardia Reale
+ # Kingsguard
   kingsguard_government:0 "Guardia Reale"
   kingsguard_government_with_icon:0 "@kingsguard_government! $kingsguard_government$"
   kingsguard_government_adjective:0 "Guardia Reale"
   kingsguard_government_desc:0 "Guardia Reale"
   kingsguard_government_filter_option:0 "$game_concept_kg_govt$"
   kingsguard_government_filter_option_desc:0 "Mostra solo i personaggi con [government|E] della Guardia Reale"
-
   kingsguard_succession_law:0 "Successione della Guardia Reale"
   kingsguard_succession_law_effects:0 "\n#V Con la legge $kingsguard_succession_law$, sarà il signore a scegliere quale membro dell’ordine erediterà i [titles].#!"
   kg_govt_concept:0 "[kg_govt_i|E]"
   government_is_kg:0 "Il tipo di [government|E] è [GetGovernment( 'kingsguard_government' ).GetName]"
 
+ # Command
   command_government_with_icon:0 "@command_government! $command_government$"
   command_government:0 "Comando"
   command_government_adjective:0 "di Comando"
@@ -184,8 +185,7 @@
   command_vassal:0 "$command_government$"
   command_vassal_desc:0 "$game_concept_command_govt_desc$"
 
-
-  # Teocrazie
+ # Theocracies
   baron_theocracy_male_the_seven_religion:0 "Septon"
   baron_theocracy_female_the_seven_religion:0 "Septa"
   barony_theocracy_the_seven_religion:0 "Septerio"
@@ -202,9 +202,9 @@
   emperor_theocracy_female_the_seven_religion:0 "Alta Septa"
   empire_theocracy_the_seven_religion:0 "Septerio"
 
+magnar_hof: "Magnar"
 
-  # Unknown
-
+ # Unknown
   unknown_government:0 "Sconosciuto"
   unknown_government_with_icon:0 "@unknown_government! $unknown_government$"
   unknown_government_adjective:0 "Sconosciuto"
@@ -215,7 +215,18 @@
   unknown_govt_concept:0 "[unknown_govt_i|E]"
   government_is_unknown:0 "[government|E] di tipo [GetGovernment('unknown_government').GetName]"
 
-  # Rovine
+ # Wilderness
+wilderness_government: "Terre Selvagge"
+wilderness_government_with_icon: "@wilderness_government! $wilderness_government$"
+wilderness_government_adjective: "Selvaggio"
+wilderness_government_realm: "Terre Selvagge"
+ wilderness_government_filter_option:0 "$game_concept_wilderness_govt$"
+wilderness_government_filter_option_desc: 0 "Mostra solo personaggi con [wilderness|E] [government|E]"
+wilderness_government_desc: 0 "Il governo di questo reame non esiste, poiché è disabitato o troppo scarsamente popolato per mantenerne uno."
+wilderness_govt_concept: 0 "[wilderness_govt_i|E]"
+government_is_wilderness: 0 "Il tipo di [government|E] è [GetGovernment( 'wilderness_government' ).GetName]"
+
+ # Ruins
   ruins_government:0 "Rovina"
   ruins_government_with_icon:0 "@ruins_government! $ruins_government$"
   ruins_government_adjective:0 "Rovina"
@@ -258,15 +269,28 @@
   emperor_unknown_female:0 "Sconosciuta"
   empire_unknown:0 "Reame"
 
+baron_wilderness_male: 0 "Custode"
+baron_wilderness_female: 0 "Custode"
+barony_wilderness: 0 "Selvaggia"
+count_wilderness_male: 0 "Custode"
+count_wilderness_female: 0 "Custode"
+county_wilderness: 0 "Selvaggia"
+duke_wilderness_male: 0 "Custode"
+duke_wilderness_female: 0 "Custode"
+duchy_wilderness: 0 "Selvaggia"
+king_wilderness_male: 0 "Custode"
+king_wilderness_female: 0 "Custode"
+kingdom_wilderness: 0 "Selvaggia"
+emperor_wilderness_male: 0 "Custode"
+emperor_wilderness_female: 0 "Custode"
+empire_wilderness: 0 "Selvaggia"
 
-  # Titoli Watch
   baron_watch_male:0 ""
   count_watch_male:0 "Comandante"
   duke_watch_male:0 "Lord"
   king_watch_male:0 "Lord Comandante"
   emperor_watch_male:0 "Sommo Lord Comandante"
 
-  # Restrizioni guerre Guardia della Notte
   cant_fight_the_wall:0 "Non puoi dichiarare guerra ai Guardiani della Notte"
   cant_fight_the_seven_k_as_wall:0 "Come $nights_watch_government$, non puoi dichiarare guerra ai Sette Regni"
   NOT_cant_fight_the_wall:0 "Non puoi dichiarare guerra ai Guardiani della Notte"

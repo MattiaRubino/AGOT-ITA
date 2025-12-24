@@ -1,8 +1,7 @@
 ﻿l_spanish:
-  #Vanilla Add-ons/changes
+ #Vanilla Add-ons/changes
   building_castle_05:1 "Grande Castello"
   building_castle_05_desc:1 "Un grande castello con impressionanti fortificazioni in grado di respingere praticamente qualsiasi nemico e proteggere qualsiasi signore o re."
-
   building_type_scorpion_emplacement_01:0 "Postazioni degli Scorpioni"
   building_type_scorpion_emplacement_01_desc:0 "Un arbalete lento da ricaricare e troppo grande perché un uomo possa usarlo senza montarlo, gli scorpioni sono stati a lungo considerati armi difensive obsolete. Il loro vero valore, tuttavia, è la loro capacità unica di minacciare ciò che poche altre armi possono: [dragons_plural|E]."
   building_scorpion_emplacement_01:0 "Postazioni degli Scorpioni"
@@ -13,7 +12,7 @@
   building_city_05:1 "Città"
   building_city_05_desc:0 "Questa struttura è veramente una città, un importante centro di scambio e commercio, un porto per viaggiatori provenienti da tutto il regno e oltre. La città ospita gilde di ogni genere, gente comune, mercanti, cavalieri possidenti e altro ancora; è il cuore economico del dominio di qualsiasi signore o re."
 
-  # AGOT New
+ #AGOT New
   building_type_monastery_01:0 "Monastero"
   building_type_monastery_01_desc:1 "Un complesso di edifici che ospita coloro che perseguono lo studio spirituale e l'illuminazione."
   building_monastery_01:1 "Chiostro"
@@ -36,11 +35,11 @@
   building_godswood_02:0 "Piccolo Parco degli Dei"
   building_godswood_02_desc:0 "Un piccolo Parco degli Dei con diversi alberi e un albero centrale al centro; questo Parco degli Dei offre un luogo piacevole per il signore di questa struttura per fare una passeggiata e riflettere."
   building_godswood_03:0 "Parco degli Dei Moderato"
-  building_godswood_03_desc:0 "Un Parco degli Dei di dimensioni moderate con alberi di quercia, olmo e betulla e un albero centrale al centro."
+building_godswood_03_desc: 0 "Un bosco sacro di dimensioni moderate, con querce, olmi e betulle — e un albero del cuore al centro. Dimensioni e cura sono una chiara dichiarazione dello status e del prestigio del lord, pur mantenendo le antiche tradizioni."
   building_godswood_04:0 "Parco degli Dei Fiorito"
   building_godswood_04_desc:0 "Un Parco degli Dei fiorito con alberi di quercia, olmo e betulla; alcuni giovani alberi di ferro sono iniziati a crescere. Ancora al centro giace il tradizionale legno centrale."
   building_godswood_05:0 "Grande Parco degli Dei"
-  building_godswood_05_desc:0 "Un grande Parco degli Dei con alberi di centinaria, quercia, olmo, betulla e giovani alberi di ferro, e al centro un imponente albero centrale. La sua dimensione e manutenzione sono una chiara dichiarazione dello status e del prestigio del signore, mantenendo le antiche tradizioni."
+building_godswood_05_desc: 0 "Un grande bosco sacro con alberi sentinella, querce, olmi, betulle e giovani pini ferrei, e al centro un imponente albero del cuore. Dimensioni e cura sono una chiara dichiarazione dello status e del prestigio del lord, pur mantenendo le antiche tradizioni."
   building_godswood_06:0 "Gran Parco degli Dei"
   building_godswood_06_desc:0 "Un gran Parco degli Dei che si estende per un acro e pieno di alberi di centinaria, quercia, olmo, betulla e alcuni alberi di ferro, con al centro l'albero centrale. Solo i signori più ricchi potevano permettersi di costruire e mantenere questo boschetto privato all'interno del loro castello."
   building_godswood_07:0 "Parco degli Dei Magnifico"
@@ -105,8 +104,7 @@
   building_generic_dragon_pit_01:0 "Recinto del drago"
   building_generic_dragon_pit_01_desc:0 "$building_type_generic_dragon_pit_01_desc$"
 
-
-  #AGOT Duchy Buildings
+ # AGOT Duchy Buildings
   building_type_agot_vineyard_01:0 "Vigneti"
   building_type_agot_vineyard_01_desc:0 "Il vino; dove saremmo senza di esso? Usato per purificare l'acqua, bollito per disinfettare le ferite e, naturalmente, da bere. Il vino è la fonte di ricchezza di molte casate e della grandezza di altre."
   building_agot_vineyard_01:0 "Piccolo Vigneto"
@@ -153,7 +151,7 @@
   building_agot_scholastic_guilds_03_desc:0 "Con l'acquisizione di alcuni Occhi di Myr, la gilda accademica ha completato un osservatorio, portando i loro studi del cielo e delle stelle a nuove vette."
   TOOLTIP_SCHOLASTIC_GUILDS_03:0 "Ti mancano abbastanza studiosi per viaggiare a [GetTitleByKey('b_myr').GetNameNoTier] per invitarne alcuni"
 
-  # AGOT Slave Duchy Buildings
+ #AGOT Slave Duchy Buildings
   building_type_agot_slave_diplomacy_01:0 "Case del Piacere"
   building_type_agot_slave_diplomacy_01_desc:0 "Gli schiavi possono addestrarsi a molti mestieri, ma quelli istruiti nelle arti dell’amore e del desiderio sono rinomati in tutto il mondo."
   building_agot_slave_diplomacy_01:0 "Schiavi da Letto"
@@ -199,8 +197,99 @@
   building_agot_slave_intrigue_03:0 "Uccelli Spie"
   building_agot_slave_intrigue_03_desc:0 "Non solo i muri hanno orecchie, ma sembra che gli uccelli abbiano occhi: i segreti dei tuoi sudditi ti arrivano prima ancora di esser pensati."
 
-  #AGOT Special Buildings
+ #Wilderness Buildings
+building_type_wilderness_01: 0 "Selvagge Terre"
+building_type_wilderness_01_desc: 0 "Terre con nemici pericolosi, che non possono sostenere la vita umana se non colonizzate."
+building_wilderness_01: 0 "Selvagge Terre"
+building_wilderness_01_desc: 0 "Terre con nemici pericolosi, che non sostengono la vita umana se non colonizzate."
 
+building_wolf_den: 0 "Lupi Selvaggi"
+building_wolf_den_desc: 0 "Branconi di lupi selvaggi vagano per queste terre, tendendo agguati e predando chiunque sia abbastanza coraggioso o abbastanza stolto da addentrarsi nel loro territorio."
+building_type_wolf_den: 0 "Lupi"
+building_wolf_den_cleared: 0 "Lupi Sottomessi"
+building_wolf_den_cleared_desc: 0 "I lupi che un tempo terrorizzavano queste terre sono stati sottomessi e scacciati, rendendo più sicura l’area per i nuovi insediamenti che vi stanno sorgendo.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+building_bear_den: 0 "Tane d’Orso"
+building_bear_den_desc: 0 "Grandi orsi reclamano questa terra come dimora, difendendo ferocemente il proprio territorio e i propri terreni di caccia da ogni intruso."
+building_type_bear_den: 0 "Orsi"
+building_bear_den_cleared: 0 "Orsi Sottomessi"
+building_bear_den_cleared_desc: 0 "La popolazione di orsi selvatici che un tempo percorreva queste terre è stata cacciata o scacciata; ne restano solo pochi negli angoli più remoti della provincia.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+building_flooded_lands: 0 "Inondazioni Devastanti"
+building_flooded_lands_desc: 0 "Questa terra è soggetta a inondazioni, che portano distruzione a qualunque cosa si trovi sul loro cammino, naturale o costruita che sia."
+building_type_flooded_lands: 0 "Inondazione"
+building_flooded_lands_cleared: 0 "Inondazioni Scongiurate"
+building_flooded_lands_cleared_desc: 0 "Che sia grazie alla costruzione di argini, di aree di sfogo nelle zone più basse, o di sistemi di drenaggio dedicati, gli effetti delle inondazioni su queste terre sono stati notevolmente ridotti.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+building_bandits: 0 "Terra di Briganti"
+building_bandits_desc: 0 "Briganti senza scrupoli vagano per queste terre, vessando viandanti innocenti e aspiranti coloni."
+building_type_bandits: 0 "Briganti"
+building_bandits_cleared: 0 "Ordine Ripristinato"
+building_bandits_cleared_desc: 0 "La maggior parte dei briganti locali è stata consegnata alla giustizia o è fuggita, rendendo più sicura l’area per i nuovi insediamenti che vi stanno sorgendo.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+building_dense_growth: 0 "Sottobosco Fitto"
+building_dense_growth_desc: 0 "Una barriera impenetrabile di vegetazione copre ampie porzioni di quest’area, rendendo difficile e pericoloso attraversarla."
+ building_type_dense_growth:0 "$building_dense_growth$"
+building_dense_growth_cleared: 0 "Radure nel Intrico"
+building_dense_growth_cleared_desc: 0 "Il folto intrico è stato diradato, e diverse radure ci permettono di viaggiare tra i nostri siti d’insediamento con relativa sicurezza.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+building_pirate_remnants: 0 "Rimasugli di Pirati"
+building_pirate_remnants_desc: 0 "Sebbene la principale roccaforte dei pirati sia stata smantellata, alcuni rimasugli della vecchia ciurma indugiano ancora nella zona. Sbandati e piccoli razziatori predano gli incauti, minacciando commercio e sforzi di colonizzazione."
+building_type_pirate_remnants: 0 "Pirati"
+building_pirate_remnants_cleared: 0 "Pirati Scacciati"
+building_pirate_remnants_cleared_desc: 0 "Gli ultimi sbandati pirati sono stati braccati o cacciati via. Con acque e strade ormai sicure, coloni e mercanti possono finalmente tirare un sospiro di sollievo.\n\n#V Eliminare [colonization_blockers|E] permette al tuo insediamento di migliorare.#!"
+
+ #Settlement Buildings
+building_type_settlement_01: 0 "Insediamento"
+building_type_settlement_01_desc: 0 "Permette di sfruttare le terre selvagge, riducendo parzialmente gli effetti dei nemici circostanti."
+building_settlement_01: 0 "Villaggi Silenziosi"
+building_settlement_01_desc: 0 "Umili borgate e villaggi punteggiano il paesaggio, dimora di coloni temprati che sfidano gli elementi e stabiliscono un punto d’appoggio in questa terra selvaggia."
+building_settlement_02: 0 "Cittadine Solitarie"
+building_settlement_02_desc: 0 "Piccole cittadine hanno iniziato a crescere in tutta la regione, attirando sempre più gente man mano che i loro abitanti cominciano a conquistare le terre selvagge."
+building_settlement_03: 0 "Colonia Brulicante"
+building_settlement_03_desc: 0 "Insediamenti ben consolidati fremono di attività ed entusiasmo, mentre gli ultimi rimasugli delle Selvagge Terre vengono domati."
+
+building_stockades_01: 0 "Palizzate"
+building_stockades_01_desc: 0 "Semplici palizzate creano una barriera essenziale tra l’insediamento e le terre selvagge oltre, ma offrono scarsa protezione contro attacchi e razzie organizzati."
+building_type_stockades_01: 0 "Palizzate"
+building_type_stockades_01_desc: 0 "Semplici palizzate creano una barriera essenziale tra l’insediamento e le terre selvagge oltre, ma offrono scarsa protezione contro attacchi e razzie organizzati."
+
+building_trading_outposts_01: 0 "Avamposti Commerciali"
+building_trading_outposts_01_desc: 0 "Gli avamposti commerciali offrono a coloni e mercanti l’opportunità di incontrarsi e barattare beni prodotti e richiesti dalla [colony|E]."
+building_type_trading_outposts_01: 0 "Avamposti Commerciali"
+building_type_trading_outposts_01_desc: 0 "Gli avamposti commerciali offrono a coloni e mercanti l’opportunità di incontrarsi e barattare beni prodotti e richiesti dalla [colony|E]."
+
+building_local_militia_01: 0 "Milizia Locale"
+building_local_militia_01_desc: 0 "Frontieristi temprati: la milizia locale si addestra e custodisce qui le proprie armi. Non sempre numerosi, ma feroci, e con cuori saldi."
+building_type_local_militia_01: 0 "Milizia Locale"
+building_type_local_militia_01_desc: 0 "Frontieristi temprati: la milizia locale si addestra e custodisce qui le proprie armi. Non sempre numerosi, ma feroci, e con cuori saldi."
+
+building_construction_guilds_01: 0 "Gilde di Costruzione"
+building_construction_guilds_01_desc: 0 "Costruttori e artigiani esperti aprono bottega nella [colony|E], portando la loro perizia e contribuendo a sviluppare gli insediamenti dalle fondamenta."
+building_type_construction_guilds_01: 0 "Gilde di Costruzione"
+building_type_construction_guilds_01_desc: 0 "Costruttori e artigiani esperti aprono bottega nella [colony|E], portando la loro perizia e contribuendo a sviluppare gli insediamenti dalle fondamenta."
+
+ building_tribal_stockades_01:0 "$building_stockades_01$"
+ building_tribal_stockades_01_desc:0 "$building_stockades_01_desc$"
+ building_type_tribal_stockades_01:0 "$building_type_stockades_01$"
+ building_type_tribal_stockades_01_desc:0 "$building_type_stockades_01_desc$"
+
+ building_tribal_trading_outposts_01:0 "$building_trading_outposts_01$"
+ building_tribal_trading_outposts_01_desc:0 "$building_trading_outposts_01_desc$"
+ building_type_tribal_trading_outposts_01:0 "$building_type_trading_outposts_01$"
+ building_type_tribal_trading_outposts_01_desc:0 "$building_type_trading_outposts_01_desc$"
+
+ building_tribal_local_militia_01:0 "$building_local_militia_01$"
+ building_tribal_local_militia_01_desc:0 "$building_local_militia_01_desc$"
+ building_type_tribal_local_militia_01:0 "$building_type_local_militia_01$"
+ building_type_tribal_local_militia_01_desc:0 "$building_type_local_militia_01_desc$"
+
+ building_tribal_construction_guilds_01:0 "$building_construction_guilds_01$"
+ building_tribal_construction_guilds_01_desc:0 "$building_construction_guilds_01_desc$"
+ building_type_tribal_construction_guilds_01:0 "$building_type_construction_guilds_01$"
+ building_type_tribal_construction_guilds_01_desc:0 "$building_type_construction_guilds_01_desc$"
+
+ #AGOT Special Buildings
   building_type_ironwood_01:0 "Foresta di Ironwood"
   building_type_ironwood_01_desc:0 "Nella Foresta del Lupo, crescono alberi di Ironwood il cui legno è più resistente e più scuro di qualsiasi altro in Westeros. Usato per attrezzi, armi, equipaggiamento e persino per le costruzioni, sfruttare il potenziale degli Ironwoods può essere redditizio."
   building_ironwood_01:0 "$building_type_ironwood_01$"
@@ -310,7 +399,6 @@
   building_hardstone_hills_mines_04:0 "Complesso Minerario delle Colline Pietrose"
   building_hardstone_hills_mines_04_desc:0 "$building_castamere_mines_04_desc$"
 
-
   building_special_kings_landing_hoodmarket_destroyed:0 "Approdo del Re"
   building_special_kings_landing_hoodmarket_destroyed_desc:0 "Le Moltissime Strade in Rovina di Approdo del Re."
   building_special_kings_landing_hoodmarket:0 "Approdo del Re"
@@ -318,7 +406,7 @@
 
   building_type_holy_site_sept_01:0 "Gran Tempio di Baelor"
 
-  # The Wall Special Buildings
+ # The Wall Special Buildings
   building_type_agot_the_wall_01:0 "La Barriera"
   building_type_agot_the_wall_01_desc:0 "Uno dei più grandi progetti eretti dall'uomo, la Barriera si erge per 700 piedi di altezza e si estende per 300 miglia attraverso Westeros. Eretto da Bran il Costruttore e presidiato dalla Fratellanza Giurata della Guardia della Notte, si erge come una bastione contro le minacce provenienti oltre il Nord."
   building_agot_the_wall_01:0 "$building_type_agot_the_wall_01$"
@@ -339,12 +427,17 @@
   building_agot_shadow_tower_01:0 "Torre delle Ombre"
   building_agot_shadow_tower_01_desc:0 "Il secondo castello più occidentale della Guardia, la Torre delle Ombre serve a sorvegliare il Ponte delle Teschio."
 
+building_type_agot_nightfort_01: 0 "Forte della Notte"
+building_type_agot_nightfort_01_desc: 0 "Sede originaria dei Guardiani della Notte, il Forte della Notte fu un tempo dimora dei membri più grandi e più infami dell’ordine. Qui respinsero innumerevoli Re-oltre-la-Barriera, e da qui regnò il Re della Notte."
+building_agot_nightfort_01: 0 "Il Cancello Nero"
+building_agot_nightfort_01_desc: 0 "Nel profondo del Forte della Notte si trova il Cancello Nero, un antico passaggio risalente a ben prima che si conservassero registri scritti."
+
   building_type_agot_bridge_of_skulls_01:0 "$building_agot_bridge_of_skulls_01$"
   building_type_agot_bridge_of_skulls_01_desc:0 "$building_agot_bridge_of_skulls_01_desc$"
   building_agot_bridge_of_skulls_01:0 "Ponte delle Teschi"
   building_agot_bridge_of_skulls_01_desc:0 "Il Ponte delle Teschi attraversa il Burrone ed è l'unico modo per aggirare la Barriera via terra. È tuttavia sorvegliato da due castelli della Guardia della Notte: la Torre dell'Ombra e il ponte della Westwatch."
 
-  # Crownlands Special Buildings
+ # Crownlands Special Buildings
   building_type_the_red_keep_01:0 "La Fortezza Rossa"
   building_type_the_red_keep_01_desc:0 "La Fortezza Rossa è nel cuore dei Sette Regni. In cima alla Collina di Aegon, le sue mura e torri rosse vegliano su Approdo del Re. Da qui, il Signore dei Sette Regni governa dall'alto del Trono di Spade, forgiato dalle mille lame dei nemici caduti di Aegon."
   building_the_red_keep_01:0 "Il Forte di Aegon"
@@ -353,7 +446,6 @@
   building_the_red_keep_02_desc:0 "Per mostrare il potere e la maestosità della Casa Targaryen, il Forte di Aegon è stato rimosso per fare spazio a un imponente castello di pietra. Nel cuore di questo castello si trova il Forte di Maegor, un castello a sé stante, protetto da un fossato e un ponte, solide mura e torri, e attraversato da sale e tunnel segreti."
   building_the_red_keep_03:0 "$building_type_the_red_keep_01$"
   building_the_red_keep_03_desc:0 "$building_type_the_red_keep_01_desc$"
-
 
   building_type_seven_gates_01:0 "Le Sette Porte di Approdo del Re"
   building_type_seven_gates_01_desc:0 "Costruite per ordine del Re Aegon I da Ser Osmund Strong e il Gran Maestro Gawen, le mura di Approdo del Re sono dominate da sette imponenti porte: la Porta degli Dei, la Porta del Leone, la Porta del Fiume, la Porta Vecchia, la Porta di Ferro, la Porta del Re e la Porta del Drago."
@@ -416,7 +508,6 @@
   building_agot_duskendale_01:0 "Sala delle Spade Bianche"
   building_agot_duskendale_01_desc:0 "La Casa Darklyn ha fornito membri della Guardia Reale fin dall'inizio dell'ordine, il che è stato una grande fonte di orgoglio per la casa."
 
-
   building_type_agot_dragonmont_01:0 "Monte del Drago"
   building_type_agot_dragonmont_01_desc:0 "Il Monte del Drago è il grande vulcano che domina l'isola di Roccia del Drago. Nei giorni antichi molti draghi si affollavano per nidificare nelle caverne riscaldate o nelle formazioni rocciose appena raffreddate."
   building_agot_dragonmont_01:0 "Monte del Drago"
@@ -426,7 +517,6 @@
   building_type_agot_spicetown_01_desc:0 "Una volta il cuore di Driftmark, Spicetown era seconda solo ad Approdo del Re come principale porto della Baia delle Acque Nere."
   building_agot_spicetown_01:0 "Porto del Serpente del Mare"
   building_agot_spicetown_01_desc:0 "Sotto Corlys Velaryon il porto di Spicetown superò Duskendale e tutti gli altri porti della Baia delle Acque Nere, escluso Approdo del Re. Navi provenienti da tutta Westeros, dalle Città Libere e persino dalle Porte di Giada possono essere trovate lì."
-
   building_type_agot_ruins_spicetown_01:0 "Spicetown"
   building_type_agot_ruins_spicetown_01_desc:0 "Una volta il cuore di Driftmark, Spicetown era seconda solo ad Approdo del Re come principale porto della Baia delle Acque Nere."
   building_agot_ruins_spicetown_01:0 "Rovine di Spicetown"
@@ -438,7 +528,6 @@
   building_type_agot_hightide_01_desc:0 "La nuova sede della Casa Velaryon, da qui il Signore delle Maree porterà prosperità a Driftmark."
   building_agot_hightide_01:0 "Sala delle Maree"
   building_agot_hightide_01_desc:0 "Quando la Casa Velaryon trasferì la propria sede, non badò a spese. Tetti di argento battuto, alte torri e una sala grandiosa quanto qualsiasi altra nel regno. Nessuno può dubitare della prosperità di Driftmark e dei suoi padroni dopo averla vista."
-
   building_type_agot_ruins_hightide_01:0 "Alta Marea"
   building_type_agot_ruins_hightide_01_desc:0 "L'altra sede della Casa Velaryon su Driftmark, costruita da Corlys Velaryon, fu distrutta dalla Triarchia durante la Danza."
   building_agot_ruins_hightide_01:0 "Rovine di Alta Marea"
@@ -456,8 +545,7 @@
   building_agot_rooks_rest_01:0 "Resti Carbonizzati"
   building_agot_rooks_rest_01_desc:0 "La Danza dei Draghi fu forse la guerra più crudele nella storia del Trono di Spade: vide la morte di draghi, sangue di famiglia e re. La Battaglia di Rook's Rest fu una delle più feroci. Alla fine, Aegon II e Sunfyre rimasero sfigurati e menomati, mentre Rhaenys “la Regina che non fu mai” e Meleys la Regina Rossa caddero carbonizzate. La testa di Meleys fu riportata alla Fortezza Rossa, ma il suo corpo giace ancora oggi oltre le mura del castello."
 
-
-  # Reach Special Buildings
+ # Reach Special Buildings
   building_type_highgarden_01:0 "Alto Giardino"
   building_type_highgarden_01_desc:0 "Il pittoresco castello di Alto Giardino ha servito prima come sede della Casa Gardener e poi della Casa Tyrell. È da lungo tempo famoso per la bellezza del suo Tempio e dei suoi giardini e come dimora di artisti e musicisti."
   building_highgarden_01:0 "$building_type_highgarden_01$"
@@ -467,7 +555,6 @@
   building_type_the_hightower_01_desc:0 "L'Alta Torre di Vecchia Città si erge su un'antica fortezza di pietra nera sull'Isola della Battaglia, conferendole già un'ampia protezione. La torre stessa è alta di diverse centinaia di piedi, con ogni livello dotato di mura e torrette proprie, e sulla cima c'è un grande faro che dà il benvenuto a tutti nel suo porto."
   building_the_hightower_01:0 "$building_type_the_hightower_01$"
   building_the_hightower_01_desc:0 "$building_type_the_hightower_01_desc$"
-
 
   building_type_holy_site_starry_sept_01:0 "Tempio Stellato"
   building_type_holy_site_starry_sept_01_desc:0 "Il Tempio Stellato è uno dei più grandi templi di tutta Westeros. Una volta casa dell'Alto Septon, è ancora uno dei luoghi più sacri per i fedeli."
@@ -481,10 +568,20 @@
   building_the_citadel_02:0 "$building_type_the_citadel_01$"
   building_the_citadel_02_desc:0 "$building_type_the_citadel_01_desc$"
 
+building_type_agot_port_of_oldtown_01: 0 "VecchiaCitta"
+building_type_agot_port_of_oldtown_01_desc: 0 "La più grande città di Westeros, e la più antica, VecchiaCitta è un faro sotto ogni aspetto. Dimora della Fede, della Cittadella e dell’Alta Torre, è un gioiello per qualunque regno."
+building_agot_port_of_oldtown_01: 0 "Porto di Lymond"
+building_agot_port_of_oldtown_01_desc: 0 "Se VecchiaCitta è sempre stata un porto d’importanza, moli e banchine furono rivoluzionati da Lymond Hightower, detto il Leone Marino, che portò la forza di VecchiaCitta sulle onde."
+
+building_type_agot_chequered_square_01: 0 "VecchiaCitta"
+building_type_agot_chequered_square_01_desc: 0 "La più grande città di Westeros, e la più antica, VecchiaCitta è un faro sotto ogni aspetto. Dimora della Fede, della Cittadella e dell’Alta Torre, è un gioiello per qualunque regno."
+building_agot_chequered_square_01: 0 "Piazza a Scacchi"
+building_agot_chequered_square_01_desc: 0 "VecchiaCitta conta molti mercati e botteghe, ma la Piazza a Scacchi è la più celebre. Qui si trovano merci provenienti dai Mari del Tramonto, dell’Estate, Stretto e persino di Giada, poiché VecchiaCitta attira mercanti da ogni acqua del mondo."
+
   building_type_agot_oldtown_walls_01:0 "Mura di Vecchia Città"
   building_type_agot_oldtown_walls_01_desc:0 "Le grandi mura di pietra di Vecchia Città si ergono alte e hanno protetto la città fin dai tempi prima che gli Hightower giurassero fedeltà ai Gardeners."
   building_agot_oldtown_walls_01:0 "Mura di Otho II"
-  building_agot_oldtown_walls_01_desc:0 "Eretto da Otho II, le massicce mura di pietra furono costruite dopo che la città fu saccheggiata tre volte in un secolo; prima da Samwell Starfire Dayne, poi da Qhored il Crudele degli Uomini di Ferro, e infine da Gykes il Malinconico Giardiniere."
+building_agot_oldtown_walls_01_desc: 0 "Innalzate da Otho II, le imponenti mura di pietra furono costruite dopo che la città venne saccheggiata tre volte in un secolo: prima da Samwell Starfire Dayne, poi da Qhored il Crudele degli Uomini di Ferro, e infine da Gyles il Dolore Gardener."
 
   building_type_agot_seven_shrines_01:0 "I Sette Santuari"
   building_type_agot_seven_shrines_01_desc:0 "Famosi per i giardini che li circondano, i Sette Santuari sono dedicati a ciascun aspetto dell'Uno e accolgono tutti."
@@ -519,8 +616,8 @@
   building_agot_cider_hall_01_desc:0 "Famoso in tutto il Westeros per l'abilità dei suoi progenitori con l'arco, è soprattutto per la produzione di sidro di mele che ha arricchito Sala del Sidro."
 
   building_type_agot_starpike_01:0 "Starpike"
-  building_type_agot_starpike_01_desc:0 "Il primo e il più grande dei tre castelli della Casa Peake, Starpike si trova nelle Marche Dorate come testimonianza della longevità e della resistenza della casa."
-  building_agot_starpike_01:0 "Il Solar di Lorimar"
+building_type_agot_starpike_01_desc: 0 "La prima, e più grande, delle tre fortezze di Casa Peake, Starpike sorge nelle Terre Basse di Dorne come testimonianza della longevità e della tenacia della casata."
+building_agot_starpike_01: 0 "Solar di Lorimar"
   building_agot_starpike_01_desc:0 "La Casa Peake ha numerosi antenati famosi, ma fu Lorimar Peake a portare la casa al suo massimo splendore. Fu lui a scacciare i loro antichi rivali della Casa Manderly dalla Reach e, così facendo, ottenne non solo il loro terzo castello, Dunstonbury, ma avvicinò la casa alla Casa Gardener, i loro signori feudali."
 
   building_type_agot_redwyne_port_01:0 "Arbor"
@@ -548,8 +645,7 @@
   building_agot_mermaids_palace_01:0 "$building_type_agot_mermaids_palace_01$"
   building_agot_mermaids_palace_01_desc:0 "$building_type_agot_mermaids_palace_01_desc$"
 
-  # Riverlands Special Buildings
-
+ # Riverlands Special Buildings
   building_type_riverrun_01:0 "Delta delle Acque"
   building_type_riverrun_01_desc:0 "Il castello di Delta delle Acque non è particolarmente grande, ma ha una posizione strategica alla confluenza del fiume Tumblestone e del Red Fork. I fiumi circondano due dei tre lati del castello, e il terzo è protetto da un ampio fossato che può essere allagato per lasciare il castello un'isola."
   building_riverrun_01:0 "$building_type_riverrun_01$"
@@ -564,7 +660,6 @@
   building_type_generic_harrenhal_01_desc:0 "Per dimostrare la potenza e l’unità delle Terre dei Fiumi, è stato innalzato un nuovo castello — una maestosa roccaforte — capace di rivaleggiare con l’Eyrie, Casterly Rock e Storm’s End. Le sue mura si stagliano più alte di ogni altra, il suo bosco sacro è più vasto di quello di molti castelli, e le sue imponenti torri nere incutono terrore in chiunque osi assediarlo."
   building_generic_harrenhal_01:0 "$building_type_generic_harrenhal_01$"
   building_generic_harrenhal_01_desc:0 "$building_type_generic_harrenhal_01_desc$"
-
 
   building_type_harrenhal_01:0 "Harrenhal"
   building_type_harrenhal_01_desc:0 "Il castello della Casa Hoare, Harrenhal si erge come una testimonianza della dinastia di Harren il Nero e dei suoi Uomini di Ferro sui Fiumi. Considerato il più grande castello di Westeros, sebbene ciò sia contestato da coloro che si trovano nei Westerlands, è una chiara dichiarazione del controllo e della prominenza degli Hoare non solo sul loro dominio, ma anche sulle terre circostanti."
@@ -584,12 +679,12 @@
   building_ruins_harrenhal_05:0 "Torre della Gioia Ricostruita"
   building_ruins_harrenhal_05_desc:0 "La seconda torre più grande, la Torre della Gioia, era un tempo la casa della Regina Rhaena Targaryen. Ora è stata ricostruita in uno stato adatto a una regina."
   building_ruins_harrenhal_06:0 "Torre dei Re del Fuoco Ricostruita"
-  building_ruins_harrenhal_06_desc:0 "La più grande delle torri di Harrenhal, l'enorme Torre dei Re del Fuoco, contiene la camera del signore e la Sala dei Mille Fuochi. Ora che è stata ricostruita, la ricostruzione di Harrenhal è quasi completata."
+building_ruins_harrenhal_06_desc: 0 "La più grande delle torri di Harrenhal, l’enorme Torre della Guglia del Re contiene la camera del lord e la Sala dei Mille Focolari. Ora che è stata ricostruita, la ricostruzione di Harrenhal è quasi giunta al termine."
   building_ruins_harrenhal_07:0 "Harrenhal Restaurata"
   building_ruins_harrenhal_07_desc:0 "Ricostruita alla grandezza che fu brevemente, Harrenhal è nuovamente il castello più splendido di Westeros. Le sue cinque grandi torri dietro le sue massicce mura si protendono sfiduciosamente verso il cielo con il suo signore che teme solo il ritorno dei draghi."
 
   building_type_agot_raventree_hall_01:0 "Raventree Hall"
-  building_type_agot_raventree_hall_01_desc:0 "Al centro di Raventree Hall si trova un grande albero cuoriforme, ormai morto, si dice avvelenato dai Bracken in epoche passate. È la dimora di un gran numero di corvi, che dà il nome al castello."
+building_type_agot_raventree_hall_01_desc: 0 "Nel cuore di Sala dell'Albero dei Corvi si erge un grande albero-diga, morto da lungo tempo, che si dice sia stato avvelenato dai Bracken in epoche remote. È dimora di una grande congiura di corvi, che dona al castello il suo nome."
   building_agot_raventree_hall_01:0 "Grande Albero Morto"
   building_agot_raventree_hall_01_desc:0 "$building_type_agot_raventree_hall_01_desc$"
 
@@ -608,13 +703,12 @@
   building_agot_ruin_high_heart_01:0 "Selva di High Heart"
   building_agot_ruin_high_heart_01_desc:0 "Su High Heart si ergeva un'ampia selva di alberi sacri, la più vasta raccolta di tali alberi a sud de L'Incollatura, al di fuori dell'Isola dei Volti."
   building_agot_ruin_high_heart_02:0 "Selva Abbattuta"
-  building_agot_ruin_high_heart_02_desc:0 "Quando gli Andali giunsero a High Heart, abbatterono tutti gli alberi demonici, ponendo fine all'influsso degli Antichi Dei nelle Terre dei Fiumi."
+building_agot_ruin_high_heart_02_desc: 0 "Quando gli Andali giunsero ad Alto Cuore, abbatterono tutti gli alberi demone, ponendo fine all’influenza degli Antichi Dei nelle Terre dei Fiumi."
 
   building_type_agot_seagard_01:0 "Seagard"
   building_type_agot_seagard_01_desc:0 "Seagard ha resistito agli Uomini di Ferro e ai loro assalti per innumerevoli millenni. Per questo è stata costruita la Torre Risonante. Il suo suono si può sentire per miglia e miglia."
   building_agot_seagard_01:0 "La Torre Risonante"
   building_agot_seagard_01_desc:0 "$building_type_agot_seagard_01_desc$"
-
 
   building_type_agot_maidenpool_01:0 "Maidenpool"
   building_type_agot_maidenpool_01_desc:0 "Maidenpool è stata la casa della famosa Jonquil e del suo eroe Florian il Folle. A causa di ciò, ha visto pellegrini provenienti da tutto Westeros."
@@ -658,9 +752,7 @@
   building_agot_atranta_01:0 "$building_type_agot_atranta_01$"
   building_agot_atranta_01_desc:0 "$building_type_agot_atranta_01_desc$"
 
-
-  # Westerlands Special Buildings
-
+ # Westerlands Special Buildings
   building_type_casterly_rock_01:0 "Castel Granito"
   building_type_casterly_rock_01_desc:0 "Si dice che sia alto tre volte la Barriera, il massiccio Castel Granito è la fonte di ricchezza e potere della Casa Lannister. La montagna è ricca di oro, e migliaia di anni di estrazione hanno riempito la Roccia di tunnel che ora formano i corridoi, le stanze e i cortili in uno dei castelli più grandi di Westeros."
   building_casterly_rock_01:0 "$building_type_casterly_rock_01$"
@@ -728,8 +820,7 @@
   building_agot_feastfires_01:0 "Torre di Guardia di Lann"
   building_agot_feastfires_01_desc:0 "Feastfires funge da vedetta avanzata per Lannisport e le Terre Occidentali meridionali contro le incursioni degli Uomini di Ferro: la torre incendia segnali all’avvistamento delle loro navi."
 
-  # Stormlands Special Buildings
-
+ # Stormlands Special Buildings
   building_type_storms_end_01:0 "Capo Tempesta"
   building_type_storms_end_01_desc:0 "Capo Tempesta è il settimo e ultimo castello costruito da Durran Godsgrief per resistere all'ira del dio del mare e della dea del vento. È una grande fortezza composta dal Pugno, una grande torre che funge da fortezza, granaio, caserma e sala, e da una cortina muraria fatta di pietra liscia alta cento piedi e spessa almeno quaranta piedi."
   building_storms_end_01:0 "$building_type_storms_end_01$"
@@ -738,7 +829,7 @@
   building_type_agot_griffins_roost_01:0 "Nido del Grifone"
   building_type_agot_griffins_roost_01_desc:0 "Casa Connington, il Nido del Grifone è stata una roccaforte per millenni."
   building_agot_griffins_roost_01:0 "Gola del Grifone"
-  building_agot_griffins_roost_01_desc:0 "Il Nido del Grifone si trova sul bordo occidentale della Baia degli Spaccabarche. Circondato sui lati sud, est e nord dall'acqua, solo il lato occidentale è accessibile, sebbene protetto da un portale che conduce a una stretta cresta chiamata Gola del Grifone, l'unico modo per raggiungere il castello."
+building_agot_griffins_roost_01_desc: 0 "Il Nido del Grifone sorge sul margine occidentale della Baia Spezzanavi. Circondato dall’acqua a sud, a est e a nord, è avvicinabile solo dal lato occidentale, protetto però da un corpo di guardia che conduce a una stretta cresta chiamata la Gola del Grifone, unica via d’accesso al castello."
 
   building_type_agot_blackhaven_01:0 "Blackhaven"
   building_type_agot_blackhaven_01_desc:0 "Una delle antiche fortezze dei Signori delle Terre Basse di Dorne, Blackhaven ha a lungo respinto gli attacchi dei Dorniani e dei loro razziatori."
@@ -773,7 +864,6 @@
   building_type_agot_summerhall_01_desc:0 "Il Palazzo Estivo dei Targaryen, Sala dell'Estate ha occasionalmente servito come sede per i figli minori o i fratelli del re regnante."
   building_agot_summerhall_01:0 "Palazzo Reale"
   building_agot_summerhall_01_desc:0 "$building_type_agot_summerhall_01_desc$"
-
   building_type_agot_summerhall_ruins_01:0 "Sala dell'Estate"
   building_type_agot_summerhall_ruins_01_desc:0 "Il Palazzo Estivo dei Targaryen, Sala dell'Estate ha occasionalmente servito come residenza dei figli minori o dei fratelli del Re regnante."
   building_agot_summerhall_ruins_01:0 "Rovine di Sala dell'Estate"
@@ -783,20 +873,20 @@
 
   building_type_agot_paintwood_01:0 "Paintwood"
   building_type_agot_paintwood_01_desc:0 "Nel profondo del Rainwood vicino al centro del Capo della Rabbia, si può trovare un boschetto chiamato Paintwood dai locali, dove si erge ancora oggi una torre antica."
-  building_agot_paintwood_01:0 "Torre della Regina Verde"
-  building_agot_paintwood_01_desc:0 "Quando il Regno delle Terre delle Tempeste era al suo punto più debole sotto Durwald I, la Regina Verde emerse per rivendicare il Rainwood e il Capo della Rabbia per sé. Tenne a bada i Durrandon per quasi un'intera generazione, ma quando qualcuno capace si sedette a Storm's End, il giovane regno crollò sotto la furia dei Durrandon."
+building_agot_paintwood_01: 0 "Torre della Regina Verde"
+building_agot_paintwood_01_desc: 0 "Quando il regno delle Terre della Tempesta era al suo punto più debole sotto Durwald I, la Regina Verde si levò per reclamare per sé il Bosco della Pioggia e Capo Ira. Ten­ne a bada i Durrandon per quasi un’intera generazione, ma quando qualcuno di valore sedette a Capo Tempesta, il giovane reame crollò sotto la furia dei Durrandon."
 
   building_type_agot_bronzegate_01:0 "Bronzegate"
   building_type_agot_bronzegate_01_desc:0 "L'antica dimora della Casa Buckler, Bronzegate è da tempo la fine di qualsiasi conquistatore delle Terre delle Tempeste in erba."
   building_agot_bronzegate_01:0 "Muro delle Sette Teschio"
-  building_agot_bronzegate_01_desc:0 "Durante le Invasioni Andali, un'alleanza tra sette signori della guerra, che si faceva chiamare la Sacra Fratellanza degli Andali, puntò alle Terre delle Tempeste. Fu alla Battaglia di Bronzegate che Monfryd V li sconfisse, uccidendo tutti e sette al costo della propria vita. Oggi sette teschi adornano le mura di Bronzegate in memoria della vittoria, anche se la Casa Buckler e le Terre delle Tempeste si sono convertite."
+building_agot_bronzegate_01_desc: 0 "Durante le invasioni andale, un’alleanza di sette signori della guerra, che si faceva chiamare la Santa Fratellanza degli Andali, puntò alle Terre della Tempesta. Fu alla Battaglia di Bronzegate che Monfryd V li sconfisse, abbattendo tutti e sette al prezzo della propria vita. Oggi sette teschi adornano le mura di Bronzegate in memoria della vittoria, sebbene Casa Buckler e le Terre della Tempesta si siano convertite."
 
   building_type_agot_weeping_tower_01:0 "Torre della Testa Bianca"
   building_type_agot_weeping_tower_01_desc:0 "La casa tradizionale della Casa Whitehead, è da qui che governano la città circostante."
   building_agot_weeping_tower_01:0 "$building_type_agot_weeping_tower_01$"
   building_agot_weeping_tower_01_desc:0 "$building_type_agot_weeping_tower_01_desc$"
   building_agot_weeping_tower_02:0 "La Torre del Pianto"
-  building_agot_weeping_tower_02_desc:0 "Quando il corpo del Giovane Drago fu restituito dai Dorniani, la città tenne il suo corpo per tre giorni, durante i quali molti vennero a piangere il Re Daeron. Da ciò, la città e la torre del signore ricevettero anche nuovi nomi."
+building_agot_weeping_tower_02_desc: 0 "Quando il corpo del Giovane Drago fu restituito dagli uomini di Dorne, la città lo custodì per tre giorni, durante i quali molti giunsero a piangere Re Daeron. Da ciò, la città e la torre del lord ricevettero anche nuovi nomi."
 
   building_type_agot_kingswood_brotherhood_01:0 "Fratellanza del Kingswood"
   building_type_agot_kingswood_brotherhood_01_desc:0 "La Fratellanza del Kingswood era un'infame banda di banditi."
@@ -810,7 +900,7 @@
   building_agot_ruins_kingswood_brotherhood_02:0 "Campo della Fratellanza Rinasciuta"
   building_agot_ruins_kingswood_brotherhood_02_desc:0 "La Fratellanza del Kingswood è rinata e tormenta ancora una volta il Kingswood e i lord della zona."
 
-  # North Special Buildings
+ # North Special Buildings
   building_type_winterfell_01:0 "Grande Inverno"
   building_type_winterfell_01_desc:0 "La sede della Casa Stark, Grande Inverno è da lungo tempo il cuore del Nord. Famosa per le grandi cripte sottostanti che ospitano i signori e i re del passato e per le sorgenti termali che riscaldano il castello anche durante l'apice dell'inverno."
   building_winterfell_01:0 "La Prima Torre"
@@ -828,7 +918,7 @@
   building_moat_cailin_02_desc:0 "Riconquistata dalle paludi che un tempo minacciavano di inghiottirla completamente, Moat Cailin vanta ancora la grande muraglia di basalto e le torri alte che la rendevano una roccaforte temibile nei secoli passati."
   building_moat_cailin_03:0 "Bastione Restaurato dell'Incollatura"
   building_moat_cailin_03_desc:0 "Ricostruita come un tempo, con venti torri possenti e una grande muraglia di basalto, Moat Cailin è di nuovo il bastione del Nord, capace di essere difesa da qualsiasi minaccia."
-  moat_cailin_fortification_rights_desc:0 "[GetTitleByKey('k_the_north').GetNameNoTier] ha il $game_concept_vassal_contract$: [GetVassalContractType('fortification_rights').GetObligationName('fortification_rights_granted')]"
+moat_cailin_fortification_rights_desc: 0 "[GetTitleByKey('k_the_north').GetNameNoTier] has $game_concept_vassal_contract$: [GetSubjectContractType('fortification_rights').GetObligationName('fortification_rights_granted')]"
   moat_cailin_top_liege_desc:0 "[GetTitleByKey('e_the_north').GetName] è detenuto dal tuo $game_concept_top_liege$"
 
   building_type_agot_barrow_keep_01:0 "La Grande Barrow"
@@ -841,11 +931,6 @@
   building_agot_white_harbor_01:0 "$building_type_agot_white_harbor_01$"
   building_agot_white_harbor_01_desc:0 "$building_type_agot_white_harbor_01_desc$"
   agot_wh_mint_loc:0 "Quando Torrhen si inginocchiò ai Draghi, una delle cose concordate fu la chiusura della zecca a Porto Bianco, anche se l'edificio è stato mantenuto, nel caso in cui il Nord indipendente ne avesse nuovamente bisogno."
-
-  building_agot_white_harbor_02:0 "La Vecchia Zecca"
-  building_agot_white_harbor_02_desc:0 "Quando Torrhen si inginocchiò davanti ai Draghi, una delle cose concordate fu che la zecca di Porto Bianco sarebbe stata chiusa, anche se l'edificio è stato mantenuto, nel caso in cui un Nord indipendente ne avesse bisogno di nuovo."
-  building_agot_white_harbor_03:0 "La Zecca del Nord"
-  building_agot_white_harbor_03_desc:0 "Ora che il Nord è libero, la Zecca del Nord è di nuovo in funzione, fornendo la moneta per l'antico regno."
 
   building_type_agot_sept_of_the_snows_01:0 "Tempio delle Nevi"
   building_type_agot_sept_of_the_snows_01_desc:0 "Quando i Manderly si sono stabiliti a nord, è stata loro garantita la protezione della loro fede, e per adorare i Sette hanno costruito il Tempio delle Nevi."
@@ -897,7 +982,6 @@
   building_type_agot_widows_watch_01_desc:0 "Quando gli Andali giunsero al Nord, incontrarono Theon il Lupo Affamato. Non solo sconfisse il Sette Stelle e il suo esercito, ma rese giustizia compiendo incursioni fin dentro Andalos, portando con sé le teste dei caduti lungo le coste settentrionali come monito per i futuri invasori."
   building_agot_widows_watch_01:0 "$building_type_agot_widows_watch_01$"
   building_agot_widows_watch_01_desc:0 "$building_type_agot_widows_watch_01_desc$"
-
   building_agot_widows_watch_02:0 "La Torre della Vedova"
   building_agot_widows_watch_02_desc:0 "Dall'arrivo dei Manderly, le coste orientali del Nord non sono più così inospitali come un tempo. Eppure la zona conserva il nome di Torre della Vedova, che appartiene al baluardo principale della regione."
   building_agot_widows_watch_03:0 "Il Rinnovato Avviso del Lupo"
@@ -914,7 +998,12 @@
   building_agot_grey_cliffs_01:0 "$building_type_agot_grey_cliffs_01$"
   building_agot_grey_cliffs_01_desc:0 "$building_type_agot_grey_cliffs_01_desc$"
 
-  # Dorne Special Buildings
+building_type_agot_unicorn_glen_01: 0 "Kaldusk"
+building_type_agot_unicorn_glen_01_desc: 0 "Nelle montagne di Skagos, nelle terre di Casa Magnar, sorge Kaldusk, celebre per le sue mandrie di unicorni."
+building_agot_unicorn_glen_01: 0 "La Grande Valle"
+building_agot_unicorn_glen_01_desc: 0 "Tra le montagne di Skagos si apre una grande valle dove gli unicorni sono numerosi e vigorosi. Il lord che controlla questa terra ha accesso ai migliori di questi destrieri cornuti"
+
+ # Dorne Special Buildings
   building_type_sunspear_01:0 "Lancia del Sole"
   building_type_sunspear_01_desc:0 "Lancia del Sole è la sede della Casa Nymeros-Martell. Come i Dorniani stessi, il castello è un mix di elementi Roinari e Andali. Accanto alla vecchia fortezza Andala chiamata la Nave di Sabbia, sorgono le Torri del Sole e della Lancia, entrambe costruite nello stile Roinaro. La Torre del Sole è dove il Principe o la Principessa di Dorne regna dai loro troni gemelli, uno recante un sole e l'altro una lancia."
   building_sunspear_01:0 "$building_type_sunspear_01$"
@@ -967,7 +1056,7 @@
 
   building_type_agot_ruins_hellgate_hall_01:0 "$building_type_agot_hellgate_hall_01$"
   building_type_agot_ruins_hellgate_hall_01_desc:0 "$building_type_agot_hellgate_hall_01_desc$"
-  building_agot_ruins_hellgate_hall_01:0 "Rovine di Lucifer"
+building_agot_ruins_hellgate_hall_01: 0 "Rovine di Lucifero"
   building_agot_ruins_hellgate_hall_01_desc:0 "Un tempo il più potente dei castelli che abitavano le profonde dune di Dorne, Hellgate Hall e la Casa Dryland furono distrutti nelle Guerre di Unificazione Dorniche sotto Nymeria e la Casa Martell. Oggi le rovine sono una testimonianza di coloro che sfidano il Sole e la Lancia come fece l'ultimo Re del Brimstone."
   building_agot_ruins_hellgate_hall_02:0 "Hellgate Hall Ricostruito"
   building_agot_ruins_hellgate_hall_02_desc:0 "Ricostruito al suo stato originale, Hellgate Hall serve ancora una volta come dimora del Re del Brimstone, e le dune non si piegano più davanti a Sunspear."
@@ -987,10 +1076,10 @@
   building_agot_plankytown_01:0 "Città di Planky"
   building_agot_plankytown_01_desc:0 "Il più grande insediamento di Dorne, costruito sulle acque della foce del Greenblood, dove le barche a palo collegano i numerosi edifici galleggianti."
 
-  building_type_agot_sandstone_01:0 "Arenaria"
-  building_type_agot_sandstone_01_desc:0 "La sede ancestrale della Casa Qorgyle, Arenaria ha resistito sia ai pericoli del deserto e delle dune, sia alle minacce provenienti oltre Dorne."
-  building_agot_sandstone_01:0 "Resti di Meraxes"
-  building_agot_sandstone_01_desc:0 "Sebbene i Qorgyle abbiano restituito il cranio di Meraxes nel trattato di pace con il Trono di Spade, le altre parti del drago furono inghiottite dalle sabbie e dagli scarabei. Tuttavia, quando le dune si spostano, le ossa nere possono talvolta riemergere, prima di essere di nuovo sommerse."
+building_type_agot_hellholt_01: 0 "Hellholt"
+building_type_agot_hellholt_01_desc: 0 "Sede ancestrale di Casa Uller, Hellholt è stata a lungo una potente vassalla — prima delle Terre Aride, poi dei Martell."
+building_agot_hellholt_01: 0 "Resti di Meraxes"
+building_agot_hellholt_01_desc: 0 "Sebbene gli Uller restituissero il teschio di Meraxes nel trattato di pace con il Trono di Spade, il resto del corpo del drago fu reclamato dalle sabbie e dagli scarabei. Eppure, quando le dune si spostano, le ossa nere talvolta riaffiorano, prima di essere inghiottite di nuovo."
 
   building_type_agot_broken_tower_01:0 "Porto Martello"
   building_type_agot_broken_tower_01_desc:0 "Sulla costa del Braccio Spezzato di Dorne si erge una torre di basalto nero, una pietra non comune in zona. Si dice che la torre esistesse già prima dell’arrivo degli Andali e sia stata sempre chiamata Torre Spezzata: chi sale in cima giura di udire le onde infrangersi con fragore, come martellate su un’incudine."
@@ -1006,14 +1095,17 @@
   building_type_agot_pit_of_snakes_01_desc:0 "Quando Baelor l’Beato salì sul Trono di Spade, cercò di sanare le ferite della guerra del Giovane Drago. Andò in Dorne, concluse la pace e chiese il rilascio del cugino Aemon il Cavaliere di Drago. Ma Lord Wyl si rifiutò, così il re attraversò a piedi una fossa di vipere che, si dice, gli inchinarono il capo, liberando il prigioniero."
   building_agot_pit_of_snakes_01:0 "$building_type_agot_pit_of_snakes_01$"
   building_agot_pit_of_snakes_01_desc:0 "$building_type_agot_pit_of_snakes_01_desc$"
-
   building_type_agot_pit_of_snakes_02:0 "$building_type_agot_pit_of_snakes_01$"
   building_type_agot_pit_of_snakes_02_desc:0 "I Wyl sono famigerati nelle Marche di Dorne e oltre per la loro crudeltà, specialmente verso i prigionieri. Si narra che uno dei loro metodi preferiti sia appendere gli alti nascosti in gabbie sopra una fossa di vipere."
   building_agot_pit_of_snakes_02:0 "$building_type_agot_pit_of_snakes_01$"
   building_agot_pit_of_snakes_02_desc:0 "$building_type_agot_pit_of_snakes_02_desc$"
 
-  # Vale Special Buildings
+  building_type_agot_sandstone_01:0 "Arenaria"
+building_type_agot_sandstone_01_desc: 0 "Sede ancestrale di Casa Qorgyle, Pietrasabbia ha resistito ai pericoli delle dune del deserto e alle minacce provenienti anche da oltre Dorne."
+building_agot_sandstone_01: 0 "Collina dello Scorpione"
+building_agot_sandstone_01_desc: 0 "Un’antica tomba risalente alla conquista andala di Dorne; da allora è stata infestata dagli scorpioni, guadagnandosi il suo nome locale."
 
+ # Vale Special Buildings
   building_type_the_eyrie_01:0 "Nido dell'Aquila"
   building_type_the_eyrie_01_desc:0 "Nido dell'Aquila è il castello estivo della Casa Arryn, costruito come un palazzo per i Re della Montagna e della Valle. È uno dei castelli più piccoli dei Sette Regni. Tuttavia, la sua posizione in cima alla Lancia del Gigante lo rende pressoché inespugnabile."
   building_the_eyrie_01:0 "$building_type_the_eyrie_01$"
@@ -1074,10 +1166,9 @@
   building_type_agot_upcliffs_haven_01:0 "Rifugio di Upcliff"
   building_type_agot_upcliffs_haven_01_desc:0 "Antica dimora della Casa Upcliff, i discendenti di Ursula governano ancora l’isola in questo luogo."
   building_agot_upcliffs_haven_01:0 "Corte della Sposa dei Metamorfi"
-  building_agot_upcliffs_haven_01_desc:0 "Gli Andali la chiamavano strega, ma gli Upcliff e i Primi Uomini della Valle conoscono Ursula Upcliff come la Sposa della Regina Metamorfa, colei che difese la sua isola non solo con spada e scudo, ma anche con le onde e i flutti del suo consorte."
+building_agot_upcliffs_haven_01_desc: 0 "Gli Andali la chiamavano una strega, ma per Casa Upcliff e per i Primi Uomini della Valle, Ursula Upcliff è la Sposa del Re Tritone, che protesse la sua isola non solo con spada e scudo, ma anche con le onde e i flutti del suo sposo."
 
-  # Iron Islands Special Buildings
-
+ # Iron Islands Special Buildings
   building_type_pyke_01:0 "Pyke"
   building_type_pyke_01_desc:0 "Pyke è un antico castello. Le scogliere su cui è stato costruito Pyke sono da tempo erose dal mare, e ora le torri del castello si ergono su tre isole e dozzine di formazioni rocciose marine. Il Grande Forte è la sede della Sedia di Pietra, il trono dei governanti delle Isole di Ferro, una posizione attualmente detenuta dalla Casa Greyjoy."
   building_pyke_01:0 "$building_type_pyke_01$"
@@ -1087,6 +1178,11 @@
   building_type_holy_site_naggas_hill_01_desc:0 "Sormontata dalle ossa del grande drago marino Nagga, la Collina di Nagga era dove il leggendario Re Grigio aveva la sua sala e dove gli Uomini di Ferro si sono incontrati per secoli per tenere i kingsmoot e scegliere i loro governanti."
   building_holy_site_naggas_hill_01:0 "$building_type_holy_site_naggas_hill_01$"
   building_holy_site_naggas_hill_01_desc:0 "$building_type_holy_site_naggas_hill_01_desc$"
+
+building_type_agot_ten_towers_01: 0 "Dieci Torri"
+building_type_agot_ten_towers_01_desc: 0 "La nuova sede di Casa Harlaw, Dieci Torri è uno dei castelli più formidabili delle Isole di Ferro."
+building_agot_ten_towers_01: 0 "Dieci Torri"
+building_agot_ten_towers_01_desc: 0 "Il castello più grandioso tanto dell’isola quanto di Casa Harlaw, Dieci Torri è celebre per le sue numerose torri, dalla Torre dei Libri alla Torre della Vedova. Negli ultimi anni è divenuta un baluardo di studio e conoscenza — purtroppo, una torcia solitaria nell’oscurità delle Isole di Ferro."
 
   building_type_agot_hoare_castle_01:0 "Castello Hoare"
   building_type_agot_hoare_castle_01_desc:0 "L'antico castello appartenente a Casa Hoare situato su Great Wyk, non era la loro sala ancestrale, ma piuttosto la loro seconda casa sulle isole."
@@ -1098,16 +1194,98 @@
   building_agot_lonely_light_01:0 "$building_type_agot_lonely_light_01$"
   building_agot_lonely_light_01_desc:0 "$building_type_agot_lonely_light_01_desc$"
 
-  # Beyond the Wall Special Buildings
+building_type_agot_hammerhorn_01: 0 "Hammerhorn"
+building_type_agot_hammerhorn_01_desc: 0 "L’antica sede di Casa Goodbrother e la più grande fortezza di Grande Wyk."
+building_agot_hammerhorn_01: 0 "La Rocca del Fratello"
+building_agot_hammerhorn_01_desc: 0 "L’antica fortezza del fratello del Re Grigio, la Rocca del Fratello è il cuore di Hammerhorn e di Grande Wyk. Da qui, Casa Goodbrother si è diffusa nelle Isole di Ferro, divenendo una delle casate più grandi, se non la più grande, degli Uomini di Ferro."
 
+building_type_agot_lordsport_01: 0 "Lordsport"
+building_type_agot_lordsport_01_desc: 0 "La sede di Casa Botley e la più grande cittadina delle Isole di Ferro."
+building_agot_lordsport_01: 0 "Lordsport"
+building_agot_lordsport_01_desc: 0 "La più grande città delle Isole di Ferro, Lordsport è il principale porto di Pyke. Da qui, le lunghe navi degli Uomini di Ferro hanno da sempre trovato un sicuro approdo, e la città li arma anche di tutto ciò che occorre per le loro razzie nelle terre verdi."
+
+building_type_agot_grey_garden_01: 0 "Giardino Grigio"
+building_type_agot_grey_garden_01_desc: 0 "Sede di un ramo cadetto di Casa Harlaw, Giardino Grigio è da lungo tempo un baluardo di forza tanto per Casa Harlaw quanto per l'isola di Harlaw stessa."
+building_agot_grey_garden_01: 0 "Il Giardino Grigio"
+building_agot_grey_garden_01_desc: 0 "Giardino Grigio è famoso in tutte le Isole di Ferro per l'abilità nelle armi di chi lo chiama casa, una reputazione che continua ad attirare altri fra le sue mura."
+
+building_type_agot_volmark_01: 0 "Volmark"
+building_type_agot_volmark_01_desc: 0 "Il castello di Casa Volmark, Volmark è verosimilmente il secondo più grande castello dell'isola, dopo la sede di Casa Harlaw."
+building_agot_volmark_01: 0 "Il Porto del Leviatano"
+building_agot_volmark_01_desc: 0 "Casa Volmark ha edificato la propria eredità sulla caccia ai grandi leviatani che infestano i mari. È tanto stretta l'associazione con queste bestie che il loro sigillo ne reca uno. Il loro porto è noto come Porto del Leviatano, poiché non è raro assistere allo scarnimento dei leviatani sulle sue rive."
+
+ # Beyond the Wall Special Buildings
   building_type_agot_hardhome_01:0 "Aspra Dimora"
   building_type_agot_hardhome_01_desc:0 "L'unico luogo che potrebbe essere considerato una città Oltre la Barriera è Aspra Dimora."
-  building_agot_hardhome_01:0 "Città dei Tre Capi"
-  building_agot_hardhome_01_desc:0 "Aspra Dimora  è una realtà difficile da gestire, essendo la patria dei Freefolk, qualsiasi tipo di governo organizzato è forte solo quanto chi lo fa funzionare, e al momento si tratta di tre capi che governano diverse parti della città."
-  building_agot_hardhome_02:0 "Rovine di Aspra Dimora"
-  building_agot_hardhome_02_desc:0 "Aspra Dimora è stata abbandonata per un po', e si dice che sia il rifugio di spettri, demoni e cose più oscure."
-  building_agot_hardhome_03:0 "Città del Vero Nord"
-  building_agot_hardhome_03_desc:0 "Rinsediata e restaurata, Aspra Dimora ù è ora una città fiorente e il cuore del Vero Nord."
+building_type_agot_ruins_hardhome_01_desc: 0 "L'unico luogo che un tempo avrebbe potuto essere considerato una città oltre la Barriera è Brumacasa, sebbene giaccia in rovina da secoli."
+
+ building_type_agot_gorms_port_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_gorms_port_01_desc:0 "$building_type_agot_hardhome_01_desc$"
+building_agot_gorms_port_01: 0 "Porto di Gorm"
+building_agot_gorms_port_01_desc: 0 "Gorm, uno dei molti capi che rivendicarono una parte di Brumacasa come proprio dominio, era celebre per i suoi contatti oltre il mare e per la costruzione di un porto nella città. Si racconta che abbia persino accolto un maestro della Cittadella."
+building_agot_gorms_port_02: 0 "Grande Porto del Vero Nord"
+building_agot_gorms_port_02_desc: 0 "Brumacasa è il cuore del Vero Nord. Da qui, il Popolo Libero commercia e accoglie stranieri giunti da oltre il mare."
+ building_type_agot_ruins_gorms_port_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_ruins_gorms_port_01_desc:0 "$building_type_agot_ruins_hardhome_01_desc$"
+ building_agot_ruins_gorms_port_01:0 "$building_agot_gorms_port_01$"
+ building_agot_ruins_gorms_port_01_desc:0 "$building_agot_gorms_port_01_desc$"
+building_agot_ruins_gorms_port_02: 0 "Rovine del Porto"
+building_agot_ruins_gorms_port_02_desc: 0 "Un tempo unica città Oltre la Barriera, Brumacasa ora giace in rovina, insieme al suo porto."
+building_agot_ruins_gorms_port_03: 0 "Porto di Gorm Ricostruito"
+building_agot_ruins_gorms_port_03_desc: 0 "Il porto costruito da Gorm il Lupo è stato restaurato e ancora una volta serve Brumacasa e il suo capo."
+ building_agot_ruins_gorms_port_04:0 "$building_agot_gorms_port_02$"
+ building_agot_ruins_gorms_port_04_desc:0 "$building_agot_gorms_port_02_desc$"
+
+ building_type_agot_raymons_hall_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_raymons_hall_01_desc:0 "$building_type_agot_hardhome_01_desc$"
+building_agot_raymons_hall_01: 0 "Sala di Raymon"
+building_agot_raymons_hall_01_desc: 0 "Uno dei capi che si contesero il controllo della città di Brumacasa fu Raymon, detto l'Ammaliatore. Era celebre per la sala che fece erigere, dove ospitava i suoi futuri rivali e li trasformava in amici."
+building_agot_raymons_hall_02: 0 "Grande Sala del Popolo Libero"
+building_agot_raymons_hall_02_desc: 0 "Questa sala si erge come faro per tutto il Popolo Libero, un luogo dove riunirsi e discutere con il proprio re questioni grandi e piccole."
+ building_type_agot_ruins_raymons_hall_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_ruins_raymons_hall_01_desc:0 "$building_type_agot_ruins_hardhome_01_desc$"
+ building_agot_ruins_raymons_hall_01:0 "$building_agot_raymons_hall_01$"
+ building_agot_ruins_raymons_hall_01_desc:0 "$building_agot_raymons_hall_01_desc$"
+building_agot_ruins_raymons_hall_02: 0 "Sala in Rovina"
+building_agot_ruins_raymons_hall_02_desc: 0 "Un tempo unica città Oltre la Barriera, Brumacasa ora giace in rovina, insieme alla sua sala."
+building_agot_ruins_raymons_hall_03: 0 "Sala di Raymon Ricostruita"
+building_agot_ruins_raymons_hall_03_desc: 0 "La Sala di Raymon l'Ammaliatore è ricostruita e ancora una volta accoglie fra le sue pareti molti del Popolo Libero."
+ building_agot_ruins_raymons_hall_04:0 "$building_agot_raymons_hall_02$"
+ building_agot_ruins_raymons_hall_04_desc:0 "$building_agot_raymons_hall_02_desc$"
+
+ building_type_agot_halgars_keep_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_halgars_keep_01_desc:0 "$building_type_agot_hardhome_01_desc$"
+building_agot_halgars_keep_01: 0 "Fortezza di Halgar"
+building_agot_halgars_keep_01_desc: 0 "Halgar Pugno-di-Pietra costruì e presidiò la più grande fortezza di Brumacasa. Sempre vigile contro gli attacchi dei rivali, Halgar la innalzò solida, sicura e priva di ogni comodità."
+building_agot_halgars_keep_02: 0 "Grande Fortezza di Pietra"
+building_agot_halgars_keep_02_desc: 0 "Brumacasa è ora sorvegliata da una terribile Grande Fortezza, costruita in pietra. È abbastanza robusta da respingere qualunque aspirante aggressore."
+ building_type_agot_ruins_halgars_keep_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_ruins_halgars_keep_01_desc:0 "$building_type_agot_ruins_hardhome_01_desc$"
+ building_agot_ruins_halgars_keep_01:0 "$building_agot_halgars_keep_01$"
+ building_agot_ruins_halgars_keep_01_desc:0 "$building_agot_halgars_keep_01_desc$"
+building_agot_ruins_halgars_keep_02: 0 "Fortezza Spezzata"
+building_agot_ruins_halgars_keep_02_desc: 0 "Un tempo unica città Oltre la Barriera, Brumacasa ora giace in rovina, insieme alla sua fortezza."
+building_agot_ruins_halgars_keep_03: 0 "Fortezza di Halgar Ricostruita"
+building_agot_ruins_halgars_keep_03_desc: 0 "Ricostruita, la Fortezza di Halgar Pugno-di-Pietra torna a svettare su Brumacasa, donando alla città un cuore di pietra."
+ building_agot_ruins_halgars_keep_04:0 "$building_agot_halgars_keep_02$"
+ building_agot_ruins_halgars_keep_04_desc:0 "$building_agot_halgars_keep_02_desc$"
+
+ building_type_agot_drekis_tunnels_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_drekis_tunnels_01_desc:0 "$building_type_agot_hardhome_01_desc$"
+building_agot_drekis_tunnels_01: 0 "Gallerie di Dreki"
+building_agot_drekis_tunnels_01_desc: 0 "Nel suo tentativo di controllare Brumacasa, Dreki il Congelato fece scavare vaste gallerie sotto la città. Gli permisero di muoversi di nascosto, spiare i rivali e accogliere coloro che ebbero la sventura di essere suoi ospiti."
+building_agot_drekis_tunnels_02: 0 "Grandi Gallerie di Brumacasa"
+building_agot_drekis_tunnels_02_desc: 0 "Le gallerie e i passaggi avviati da Dreki si sono espansi in ogni angolo di Brumacasa. Chi li conosce ottiene una capacità senza pari di colpire qualunque nemico."
+ building_type_agot_ruins_drekis_tunnels_01:0 "$building_type_agot_hardhome_01$"
+ building_type_agot_ruins_drekis_tunnels_01_desc:0 "$building_type_agot_ruins_hardhome_01_desc$"
+ building_agot_ruins_drekis_tunnels_01:0 "$building_agot_drekis_tunnels_01$"
+ building_agot_ruins_drekis_tunnels_01_desc:0 "$building_agot_drekis_tunnels_01_desc$"
+building_agot_ruins_drekis_tunnels_02: 0 "Gallerie Crollate"
+building_agot_ruins_drekis_tunnels_02_desc: 0 "Un tempo unica città Oltre la Barriera, Brumacasa ora giace in rovina, insieme alle sue gallerie crollate."
+building_agot_ruins_drekis_tunnels_03: 0 "Gallerie di Dreki Risanate"
+building_agot_ruins_drekis_tunnels_03_desc: 0 "Ripulite ancora una volta, le gallerie di Dreki il Congelato ora servono un nuovo padrone, instillando un senso di paranoia in chiunque si trovi entro Brumacasa."
+ building_agot_ruins_drekis_tunnels_04:0 "$building_agot_drekis_tunnels_02$"
+ building_agot_ruins_drekis_tunnels_04_desc:0 "$building_agot_drekis_tunnels_02_desc$"
 
   building_type_agot_ruins_fist_of_the_first_men_01:0 "Pugno dei Primi Uomini"
   building_type_agot_ruins_fist_of_the_first_men_01_desc:0 "Sulla collina consumata dal vento e dal tempo, si ergono i resti di un antico forte circolare distrutto, che fa sembrare la collina un pugno con le pietre che sporgono come le nocche."
@@ -1180,12 +1358,11 @@
   building_agot_great_ice_dome_01:0 "$building_type_agot_great_ice_dome_01$"
   building_agot_great_ice_dome_01_desc:0 "$building_type_agot_great_ice_dome_01_desc$"
 
-
   building_type_agot_thenn_great_kilns_01:0 "Tun Vunag"
   building_type_agot_thenn_great_kilns_01_desc:0 "Il principale insediamento dei Thenn, è da qui che i Magnar hanno governato il loro popolo sin dall'Età dell'Alba."
   building_agot_thenn_great_kilns_01:0 "Le Grandi Fornaci di Tun Vunag"
   building_agot_thenn_great_kilns_01_desc:0 "I Thenn sono famosi tra tutte le tribù Oltre la Barriera per essere l'unico gruppo a lavorare il metallo, estraendo stagno e rame e fondendo bronzo. Questo ha dato loro un vantaggio sui loro vicini, sia militarmente che economicamente."
-  
+
   building_type_agot_thenn_valley_01:0 "Valle dei Thenn"
   building_type_agot_thenn_valley_01_desc:0 "La Valle dei Thenn ha da tempo offerto rifugio al Magnar e al suo popolo, essendo molto più calda e fertile delle terre circostanti, permettendo ai Thenn un grado di stabilità non concesso agli altri Bruti."
   building_agot_thenn_valley_01:0 "$building_type_agot_thenn_valley_01$"
@@ -1223,13 +1400,12 @@
   building_agot_krih_tin_mines_04:0 "Grandi Miniere di Stagno di Krih"
   building_agot_krih_tin_mines_04_desc:0 "$building_type_agot_krih_tin_mines_01_desc$"
 
-  # The Disputed Lands Special Buildings
-
+ # The Disputed Lands Special Buildings
   building_type_agot_tree_of_crowns_01:0 "Albero delle Corone"
   building_type_agot_tree_of_crowns_01_desc:0 "Un gigantesco quercia morta che porta le corone di innumerevoli aspiranti re e regine che tutti cercavano di stabilire un regno nelle Terre Contese. Molti credono che i giuramenti pronunciati sotto di esso saranno sempre mantenuti, purché venga lasciata un'offerta."
   building_agot_tree_of_crowns_01:0 "$building_type_agot_tree_of_crowns_01$"
   building_agot_tree_of_crowns_01_desc:0 "$building_type_agot_tree_of_crowns_01_desc$"
-  
+
   building_type_agot_triarchy_council_01:0 "Alta Curia della Triarchia"
   building_type_agot_triarchy_council_01_desc:0 "La Triarchia di Lys, Tyrosh e Myr non è un regno come lo intendono i gli abbitanti di Westeros. Invece di un re, un signore del mare, o anche triarchi, le Tre Figlie sono governate dall'Alta Curia, composta da Tre e Trenta membri, con ogni città che invia un numero uguale. Il consiglio si riunisce in nessuna delle tre città, ma piuttosto si riunisce nel profondo delle Terre Contese, così nessuna città è sopra le sue sorelle."
   building_agot_triarchy_council_01:0 "$building_type_agot_triarchy_council_01$"
@@ -1247,7 +1423,7 @@
   building_agot_monument_of_borderland_01:0 "$building_type_agot_monument_of_borderland_01$"
   building_agot_monument_of_borderland_01_desc:0 "$building_type_agot_monument_of_borderland_01_desc$"
 
-  # Stepstones Special Buildings
+ # Stepstones Special Buildings
   building_type_agot_racallios_fort_01:0 "Sede di Bloodstone"
   building_type_agot_racallios_fort_01_desc:0 "Bloodstone, la più grande delle Stepstones, è sempre stata un rifugio per i pirati e i corsari che solcano queste acque."
   building_agot_racallios_fort_01:0 "Fortino di Racallio"
@@ -1258,9 +1434,7 @@
   building_agot_crab_fields_01:0 "Campi dei Granchi"
   building_agot_crab_fields_01_desc:0 "Quando Craghar Drahar fece l'impossibile e liberò le Stepstones dalla piaga dei pirati, fu brutale verso chiunque sollevasse le bandiere nere. I pirati condannati venivano conficcati su pali e lasciati sulla spiaggia per essere divorati dai granchi mentre morivano."
 
-
-
-  # Edifici Speciali di Tyrosh
+ # Tyrosh Special Buildings
   building_type_agot_tyrosh_01:0 "Mura Nere di Tyrosh"
   building_type_agot_tyrosh_01_desc:0 "Come Volantis prima di essa, Tyrosh iniziò come un avamposto militare e per sostenerlo il Dominio creò una grande muraglia nera fusa, non così grande come Volantis o così formidabile come Roccia del Drago, ha difeso la parte più antica della città per millenni."
   building_agot_tyrosh_01:0 "$building_type_agot_tyrosh_01$"
@@ -1286,8 +1460,7 @@
   building_agot_red_temple_tyrosh_01:0 "$building_type_agot_red_temple_tyrosh_01$"
   building_agot_red_temple_tyrosh_01_desc:0 "$building_type_agot_red_temple_tyrosh_01_desc$"
 
-  # Edifici Speciali di Lys
-
+ # Lys Special Buildings
   building_type_agot_temple_of_trade_01:0 "Tempio del Commercio"
   building_type_agot_temple_of_trade_01_desc:0 "Centro del governo di Lys, il Tempio del Commercio è dove i Magistri si riuniscono quando convocati dal Primo Magistro. Il tempio è celebre per le esecuzioni pubbliche celebrate ai suoi piedi ogni volta che un Magistro supera i propri limiti."
   building_agot_temple_of_trade_01:0 "$building_type_agot_temple_of_trade_01$"
@@ -1302,7 +1475,6 @@
   building_type_agot_temple_of_yndros_01_desc:0 "Il grande tempio dedicato a Yndros del Crepuscolo, una delle divinità più venerate a Lys. Si narra che chi vi entra da uomo o da donna ne esca trasformato nell’altro sesso."
   building_agot_temple_of_yndros_01:0 "$building_type_agot_temple_of_yndros_01$"
   building_agot_temple_of_yndros_01_desc:0 "$building_type_agot_temple_of_yndros_01_desc$"
-
 
   building_type_agot_red_temple_lys_01:0 "Tempio del Signore della Luce di Lys"
   building_type_agot_red_temple_lys_01_desc:0 "Il Tempio del Signore della Luce di Lys è stato un faro per i R'hlloristi sin dai tempi sotto il dominio Volanteno. Nonostante le sue radici straniere, ha sempre sostenuto Lys e i suoi interessi all'estero, assicurandosi un posto nelle complesse intrighe della città."
@@ -1324,8 +1496,7 @@
   building_agot_perfumed_garden_01:0 "$building_type_agot_perfumed_garden_01$"
   building_agot_perfumed_garden_01_desc:0 "$building_type_agot_perfumed_garden_01_desc$"
 
-
-  # Edifici Speciali di Myr
+ # Myr Special Buildings
   building_type_agot_great_wheel_01:0 "Grande Ruota di Myr"
   building_type_agot_great_wheel_01_desc:0 "Famosa per le sue grandi opere industriali, Myr usa la sua ingegnosità nel sfruttare il potere dei fiumi con la Grande Ruota, consentendo loro di continuare nei loro molteplici progetti."
   building_agot_great_wheel_01:0 "$building_type_agot_great_wheel_01$"
@@ -1361,7 +1532,7 @@
   building_agot_myr_walls_01:0 "Le mura Scanalate"
   building_agot_myr_walls_01_desc:0 "Le Mura di Myr sono ben conosciute per le sue sei grandi torri, che si ergono alte sopra la città, e le grandi fiasche che appaiono lungo le mura, rendendo più difficile per qualsiasi attaccante saccheggiare la città scolastica."
 
-  # Edifici Speciali di Pentos
+ # Pentos Special Buildings
   building_type_agot_pentos_01:0 "Palazzo del Principe"
   building_type_agot_pentos_01_desc:0 "Il Principe di Pentos è visto come il conduttore divino da molti nella città, è lui che è scelto dagli dei, lui che giace sia con la Fanciulla del Mare che con la Fanciulla dei Campi, e lui che viene sacrificato per placare gli dei. In questo senso, il palazzo non è solo un luogo di governo ma anche un tempio."
   building_agot_pentos_01:0 "$building_type_agot_pentos_01$"
@@ -1371,7 +1542,6 @@
   building_type_agot_pentos_walls_01_desc:0 "La Città Libera di Pentos è difesa dalle sue grandi mura di pietra e torri. Da tempo è motivo di orgoglio per la città."
   building_agot_pentos_walls_01:0 "Le Mura Magisteriali"
   building_agot_pentos_walls_01_desc:0 "Le Mura di Pentos si ergono alte e sono visibili per centinaia di miglia attraverso le Pianure. Le mura blu e grigie sono un faro per i mercanti provenienti sia dall'est che dall'ovest."
-
 
   building_type_agot_red_temple_pentos_01:0 "Tempio del Signore della Luce di Pentos"
   building_type_agot_red_temple_pentos_01_desc:0 "Il Tempio del Signore della Luce è una crescente potenza a Pentos, dove prima il controllo del Principe sulle questioni spirituali era incontestato, ora anche il Dio Rosso esige obbedienza."
@@ -1398,7 +1568,7 @@
   building_agot_nontelos_bazaar_01:0 "Bazar di Nontelos"
   building_agot_nontelos_bazaar_01_desc:0 "Il Bazar di Nontelos è celebre in tutto l’ovest di Essos. Rappresenta un ponte commerciale fondamentale tra Pentos e Myr: tappeti, vetri e formaggi abbondano nelle sue bancarelle."
 
-  # Edifici Speciali di Andalos
+ # Andalos Special Buildings
   building_type_agot_hugor_hill_01:0 "Collina sotto le Stelle"
   building_type_agot_hugor_hill_01_desc:0 "Quando i Sette che Sono Uno si rivelarono al loro popolo scelto, fu su questa collina che ciò avvenne. Da qui Hugor fu scelto come re, unto con i doni dei Sette e incoronato con le stelle."
   building_agot_hugor_hill_01:0 "$building_type_agot_hugor_hill_01$"
@@ -1409,7 +1579,7 @@
   building_agot_godworf_01:0 "Porto degli Dei"
   building_agot_godworf_01_desc:0 "$building_type_agot_godworf_01_desc$"
 
-  # Braavos Special Buildings
+ # Braavos Special Buildings
   building_type_agot_sealords_palace_01:0 "Palazzo del Signore del Mare"
   building_type_agot_sealords_palace_01_desc:0 "Il Palazzo del Signore del Mare è uno dei grandi siti della città segreta. Con la Moon Pool davanti, le sue grandi colonne e il famoso menagerie, il Palazzo del Signore del Mare può competere in grandezza con qualsiasi palazzo del vecchio Freehold e con i castelli di Westeros."
   building_agot_sealords_palace_01:0 "$building_type_agot_sealords_palace_01$"
@@ -1465,7 +1635,7 @@
   building_agot_moonbowl_01:0 "La Conca della Luna"
   building_agot_moonbowl_01_desc:0 "$building_type_agot_moonbowl_01_desc$"
 
-  # Yi Ti Special Buildings
+ # Yi Ti Special Buildings
   building_type_agot_azure_palace_01:0 "Palazzo Imperiale della Dinastia Azzurra"
   building_type_agot_azure_palace_01_desc:0 "Il Palazzo Imperiale della Dinastia Azure. Il palazzo è stato costruito dagli Imperatori Azure per mostrare il loro prestigio e patrocinio delle arti."
   building_agot_azure_palace_01:0 "Palazzo delle Pietre Celesti"
@@ -1474,7 +1644,7 @@
   building_agot_azure_palace_02_desc:0 "Il Palazzo Imperiale del dodicesimo Imperatore Azure, più grande e più grandioso del vecchio Palazzo delle Pietre Celesti."
 
   building_type_agot_grey_palace_01:0 "Complesso del Palazzo Imperiale della Dinastia Grey"
-  building_type_agot_grey_palace_01_desc:0 "Il Palazzo Imperiale degli Imperatori Grey, iniziato durante il regno di Har Loi, ma completato dai suoi successori. Il palazzo è uno dei palazzi più marziali costruiti nella storia dell'impero."
+building_type_agot_grey_palace_01_desc: 0 "Il Palazzo Imperiale degli Imperatori Grigi iniziò a essere costruito durante il regno di Har Loi, ma fu completato dai suoi successori. È uno dei palazzi più marziali edificati nella storia dell’impero."
   building_agot_grey_palace_01:0 "Palazzo della Spada Penzolante"
   building_agot_grey_palace_01_desc:0 "Costruito dal terzo Imperatore Grey, il Palazzo della Spada Penzolante è più una fortezza che un palazzo, con una presenza imponente."
   building_agot_grey_palace_02:0 "Palazzo della Giustizia Ombrosa"
@@ -1514,9 +1684,7 @@
   building_agot_five_forts_01:0 "$building_type_agot_five_forts_01$"
   building_agot_five_forts_01_desc:0 "$building_type_agot_five_forts_01_desc$"
 
-
-
-  # Edifici dei Pirati
+ # Pirate Holdings and Buildings
   building_type_pirate_den_01:0 "Rifugio dei Pirati"
   building_type_pirate_den_01_desc:0 "I rifugi dei pirati si trovano in tutto il mondo — sui mari aperti, lungo ampi fiumi e nascosti sulle coste. Ovunque la legge e l'ordine siano deboli, qualche aspirante signore dei pirati o corsaro si stabilirà per infastidire chiunque passi di lì."
   building_pirate_den_01:0 "Antro degli Fuorilegge"
@@ -1540,7 +1708,6 @@
   building_agot_pirate_control_05_desc:0 "Questo saloon è rinomato per servire predoni e pirati — e solo predoni e pirati. I marinai onesti non sono i benvenuti qui."
   building_agot_pirate_control_06:0 "Clientela Infame"
   building_agot_pirate_control_06_desc:0 "Casa dei più infami e famigerati clienti, questo locale non è per i deboli di cuore — o di borsa."
-
 
   building_type_agot_pirate_economic_01:0 "Mercato Nero"
   building_type_agot_pirate_economic_01_desc:0 "La chiave per fare soldi per qualsiasi pirata è il mercato nero, perché dopo aver saccheggiato il bottino, spesso devono vendere quel bottino per ottenere i loro oro. La ricchezza delle navi raramente si presenta sotto forma di moneta, ma piuttosto dei beni che trasportano."
@@ -1617,8 +1784,7 @@
   building_agot_pirate_fortification_06:0 "Relitti Marciti"
   building_agot_pirate_fortification_06_desc:0 "Per proteggere meglio il rifugio, sono stati trascinati relitti marciti intorno ad esso per proteggere da qualsiasi minaccia in arrivo."
 
-  # Farm Buildings 
-
+ # Farm Buildings
   building_type_agot_urban_farms_01:0 "Panetterie"
   building_type_agot_urban_farms_01_desc:0 "Il cuore pulsante della città non è il castello, né la fucina, ma la panetteria."
   building_agot_urban_farms_01:0 "Panettiere del Villaggio"
@@ -1656,9 +1822,8 @@
   building_agot_steppe_farms_07_desc:0 "Fidarsi solo di una coltura può portare alla sfortuna, solo attraverso una grande varietà possiamo garantire che il nostro popolo sia nutrito e prosperi."
   building_agot_steppe_farms_08:0 "Fattorie del Grano d'Inverno"
   building_agot_steppe_farms_08_desc:0 "Per sopravvivere all'inverno, e persino alle nevi estive, il grano d'inverno è fondamentale per l'agricoltura nel Nord."
-  
-  #City Walls
 
+ # City Walls
   building_type_city_walls_01:0 "Mura della Città"
   building_type_city_walls_01_desc:0 "Non sono imponenti come le mura di un castello, ma queste mura semplici offrono una protezione di base a questo centro economico fino all'arrivo dei rinforzi."
   building_city_walls_01:0 "Palizzata Improvvisata"
@@ -1689,15 +1854,14 @@
   building_agot_slave_camps_08:0 "Quartiere degli Schiavi"
   building_agot_slave_camps_08_desc:0 "Man mano che il numero degli schiavi cresce fino a comprendere le dimensioni di una città a sé stante, potrebbe essere necessario un quartiere segregato degli schiavi per mantenere una forza lavoro compiacente. #V Questo edificio supporta fino a un [GetModifier('slave_pop_8').GetNameWithTooltip].#!"
 
-
-  #AGOT Effects
+ #AGOT Effects
   red_keep_effect_desc:0 "$feast_cost_discount_max_desc$"
   winterfell_effect_desc:0 "[holding|E] questo $funeral_cost_discount_max_desc$in questo [holding|E]: [EmptyScope.ScriptValue('tournament_activity_cost_max_discount_value')|P0%]"
   funeral_cost_discount_max_desc:0 "Costi ridotti per l'ospitalità [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
   agot_weeping_tower_02_effect_desc:0 "$funeral_cost_discount_max_desc$in questo [holding|E]: [EmptyScope.ScriptValue('tournament_activity_cost_max_discount_value')|P0%]"
   ironoaks_effect_desc:0 "$feast_cost_discount_max_desc$"
 
-  #AGOT Building Requirements
+ #AGOT Building Requirements
   REQUIRES_PIRATE_GOVT:0 "Devi avere il [government|e] #V Pirata#!"
   REQUIRES_COASTAL:0 "Deve essere costruito in contee costiere"
   BE_ONE_OF_THE_THREE_DAUGHTERS:0 "Devi essere di Lys, Myr o Tyrosh"

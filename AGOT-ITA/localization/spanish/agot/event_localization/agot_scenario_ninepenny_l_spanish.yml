@@ -1,23 +1,25 @@
 ﻿l_spanish:
-  # Intialisation
+ # Intialisation
 
-  ################################
-  # Ninepenny Kings
-  # 0001 - 0099
-  # by Badger
-  ################################
+ ################################
+ # Ninepenny Kings
+ # 0001 - 0099
+ # by Badger
+ ################################
   agot_ninepenny.0001.t:0 "La Banda dei Nove"
   agot_ninepenny.0001.desc:0 ""Ciascuno di noi intaglierà un regno per sé," proclama [adarys.GetName], sotto il grande Albero delle Corone nelle Terre Contese. Il mio diritto di nascita sarà conquistato a fatica — persino strappare il controllo della Compagnia Dorata non è stato facile. Ora, davanti a me si inginocchiano nove dei più efferati fuorilegge di Essos... Il tipo di supporto che solo uno conosciuto come [ROOT.Char.GetNickname] potrebbe assicurare.\n\nCon [saan.GetNickname], [old_mother.GetFirstNameNicknamed], [butcher.GetNickname], [bad_apple.GetNickname], [nine_eyes.GetNickname], [ebon_prince.GetNickname] e [lashare.GetNickname] alle mie spalle... Il Trono di Spade sarà mio. Ma [ROOT.Char.Custom('BlackfyreRebellions')|l] richiederà misura attenta, poiché i miei prossimi passi sicuramente invieranno onde che raggiungeranno il piccolo consiglio dei Sette Regni. #bold Devo affrettarmi, prima che i miei nemici portino la guerra da me.#!"
   agot_ninepenny.0001.a:0 "Installeremo la Lingua d'Argento a Tyrosh."
   agot_ninepenny.0001.b:0 "Non ho tempo per questo. Prenderemo le Isole dello Stretto, poi su verso Westeros!"
+agot_ninepenny.0001.b.colonize: "Non ho tempo per questo. Prenderemo le Isole dei Gradini, poi verso Westeros!"
   agot_ninepenny.0001.b.alt:0 "La Vecchia Madre prenderà le Isole dello Stretto."
+agot_ninepenny.0001.b.alt.colonize: "La Vecchia Madre prenderà le Isole dei Gradini."
   agot_ninepenny.0001.c:0 "Il pirata vuole Lys? Allora la avrà!"
   agot_ninepenny.0001.d:0 "Lashare reclamerà Myr."
   agot_ninepenny.0001.e:0 "Nine Eyes avrà Pentos."
   agot_ninepenny.0001.f:0 "È tempo di reclamare il mio diritto di nascita!"
   agot_ninepenny.0001.g:0 "Sono stufo di tutto ciò."
 
-  #Recursive Event
+ #Recursive Event
   agot_ninepenny.0002.t:0 "$agot_ninepenny.0001.t$"
   agot_ninepenny.0002.desc.tyrosh:0 "Con Tyrosh nelle mani capaci del mio alleato [adarys.GetNameNicknamed], la Banda dei Nove diventa sempre più forte. Un premio degno ai miei occhi: [daemon.GetFirstNameNicknamed] una volta chiamò Tyrosh casa, e il sostegno dei Blackfyre non sarà difficile da ottenere con un nuovo tiranno — erm, arconte.\n\nLa fortuna favorisce gli audaci, e devo fare il mio prossimo passo con fretta. I signori di Westeros hanno senza dubbio sentito voci sulla mia minaccia."
   agot_ninepenny.0002.desc.lys:0 "Le terre di un pirata per un re pirata: Nessuno è più adatto a governare Lys la Bella di [saan.GetNameNicknamed]. La ricchezza della città supporterà notevolmente la mia causa, inoltre — e chi può resistere a una visita al Giardino Profumato per alleviare lo stress della guerra.\n\nMa il tempo è essenziale, e devo fare il mio prossimo passo con fretta. Le notizie sulle gesta della Banda dei Nove avranno sicuramente raggiunto Westeros ormai."
@@ -25,7 +27,7 @@
   agot_ninepenny.0002.desc.myr:0 "Myr è un premio esaltato per [lashare.GetNameNicknamed], e il suo dominio incoraggerà la Banda dei Nove: Anche se questioni di arte e apprendimento non mi interessano molto, il Mare di Myrth fornisce un punto d'appoggio strategico lungo la strada per Westeros.\n\nIl nostro potere cresce, ma anche il nostro pericolo. I Sette Regni potrebbero unire le loro forze contro la mia alleanza variegata in qualsiasi momento."
   agot_ninepenny.0002.desc.stepstones:0 "Con la Banda dei Nove che ora tiene le Stepstones, sono ora a portata di mano dal Trono di Spade — una posizione potente da mantenere, ma vulnerabile. I miei nemici senza dubbio noteranno l'incremento dell'Ostaggio Blackfyre, quindi devo essere pronto per un attacco in qualsiasi momento se non mi muovo sui Sette Regni io stesso.\n\nIl mio diritto di nascita è così vicino, posso quasi assaporarlo... Il sapore metallico del sangue e del ferro... Il mio destino, il sogno del Drago Nero, mi attende."
   agot_ninepenny.0002.desc:0 "Con la morte prematura di [claimant.GetName], non c'è più motivo per continuare una guerra per un [claimant.GetWomanMan] morto. Dovremmo rivolgere la nostra attenzione a questioni più urgenti.\n\nCome siamo arrivati qui, esattamente? Ci guardiamo tutti intorno, ognuno della Banda dei Nove come perplesso quanto l'altro. Beh, perché non facciamo un po' di guerra?"
-  
+
   agot_ninepenny.0003.t:0 "$agot_ninepenny.0001.t$"
   agot_ninepenny.0003.desc:0 "#bold Il Trono di Spade è ora mio!#!\n\nAnni dopo che mio nonno fu respinto dal re pretendente, Daeron il Falsanato, un Blackfyre siede finalmente legittimamente sul trono dei Sette Regni. Tuttavia, ci sono coloro nel mio regno che dubiteranno della mia legittimità; mi conviene fare tutto il possibile per stringere la presa attorno al collo di Westeros.\n\nSe prendessi una sposa Targaryen, nessuno dubiterebbe della discendenza dei nostri figli. L'esistenza di un marito è un problema... ma non uno insormontabile."
   agot_ninepenny.0003.a:0 "Prenderò la mia nuova sposa."
@@ -174,11 +176,11 @@
   agot_ninepenny.shatter_band_oathbreaker_tooltip:0 "Violare il tuo giuramento farà sì che le alleanze della Band of Nine si frantumino"
   agot_ninepenny.shatter_band_loss_tooltip:0 "Questa sconfitta farà sì che le alleanze della Band of Nine si frantumino"
 
-  ################################
-  # Summerhall
-  # 1000 - 1999
-  # by Badger
-  ################################
+ ################################
+ # Summerhall
+ # 1000 - 1999
+ # by Badger
+ ################################
 
   agot_ninepenny.1000.t:0 "Eredità del Drago"
   agot_ninepenny.1000.desc:0 "Mio ribelle primogenito [duncan.GetFirstNameNicknamed], che i bardi giustamente chiamano il 'Principe delle Libellule', mi ha portato notizia di un corvo molto auspicato da Roccia del Drago: Mia nipote [rhaella.GetFirstName] è incinta del mio primo pronipote!\n\nAnche se lei e suo fratello [aerys.GetFirstName] si sono sposati l'uno con l'altra secondo le usanze di Casa [ROOT.Char.GetHouse.GetName] — su richiesta dei loro genitori, che hanno sfidato i miei desideri allo stesso modo — almeno il sangue del drago rimane forte, e la nostra linea sarà sicura fino alla quarta generazione!\n\nCredo che una gloriosa celebrazione sia d'obbligo. Una che riunisca ogni membro della mia testarda e ostinata casa in un comune scopo. Forse un grande banchetto presso il vecchio seggio di mio padre, Sala dell'Estate?"
@@ -212,10 +214,9 @@
   agot_ninepenny.1005.duncan:0 "Mi[duncan_alive.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', duncan_alive)]... mi dispiace tanto"
   agot_ninepenny.1005.a:0 "I draghi si risveglieranno dalla pietra!"
 
-
-  #reuse for sacrifice event? \n\nA lone voice, my [ROOT.Char.Custom2('RelationToMeShort', protester)] [protester.GetName], cries out, "[protester.Custom2('RelationToMeShort', ROOT.Char)|U], this is madness!" I look about the hall to see my family's faces and witness their horrified expressions. They #S still#! do not understand! But now is not a time for understanding. Now is the time for obedience — and sacrifice."
-  # agot_ninepenny.1005.egg:0 "I have waited my entire life to meet my cradlemate and together we #bold will#! change the Seven Kingdoms for the better. My great-grandchild is coming — but so too is my brother..."
-  # agot_ninepenny.1005.fallback:0 "I have hoped my entire life to see a return of the #bold dragons#! and how we might change the Seven Kingdoms for the better. A [ROOT.Char.GetHouse.GetName] babe is coming — but so too are our dragons..."
+ #reuse for sacrifice event? \n\nA lone voice, my [ROOT.Char.Custom2('RelationToMeShort', protester)] [protester.GetName], cries out, "[protester.Custom2('RelationToMeShort', ROOT.Char)|U], this is madness!" I look about the hall to see my family's faces and witness their horrified expressions. They #S still#! do not understand! But now is not a time for understanding. Now is the time for obedience — and sacrifice."
+ # agot_ninepenny.1005.egg:0 "I have waited my entire life to meet my cradlemate and together we #bold will#! change the Seven Kingdoms for the better. My great-grandchild is coming — but so too is my brother..."
+ # agot_ninepenny.1005.fallback:0 "I have hoped my entire life to see a return of the #bold dragons#! and how we might change the Seven Kingdoms for the better. A [ROOT.Char.GetHouse.GetName] babe is coming — but so too are our dragons..."
 
   agot_ninepenny.1006.t:0 "$agot_ninepenny.1003.t$: Fiamme della Follia"
   agot_ninepenny.1006.egg_main:0 "#bold La mia famiglia sta bruciando!#! Travi si incrinano e pietre si deformano dal calore inimmaginabile del fuoco rituale che divampa fuori controllo! Intorno a me il palazzo è avvolto nella mia #italic arroganza#! — inghiottendo la mia famiglia uno per uno mentre urlano sotto travi frantumate e pietra fusa. Il fumo non mi permette di smettere di soffocare nelle mie lacrime...\n\n"
@@ -308,19 +309,19 @@
 
   agot_ninepenny.1100.t:0 "$agot_ninepenny.1003.t$"
   agot_ninepenny.1100.desc:0 "La casa del drago si sta riunendo! [summerhall_leader.GetName] ha invitato molti di noi al palazzo di Sala dell'Estate per un grande banchetto in onore di [rhaella.GetFirstName] in attesa di un figlio e della gloria della dinastia [summerhall_leader.GetHouse.GetName].\n\nLa corona sicuramente non lesinerà sulle spese, e tutti di grande importanza saranno presenti. Questo potrebbe rivelarsi un raduno che nessun ospite dimenticherà mai!"
-  agot_ninepenny.1100.a:0 "Mi piace molto un buon banchetto!"
   agot_ninepenny.1100.desc_no_rhae:0 "La casa del Drago si sta radunando! [summerhall_leader.GetName] ha invitato molti di noi al palazzo di Sala dell'Estate per un grande banchetto in onore della gloria della dinastia [summerhall_leader.GetHouse.GetName].\n\nLa corona non farà certo economia, e saranno presenti tutti i più importanti. Questo potrebbe rivelarsi un raduno che nessun ospite dimenticherà mai!"
- 
+  agot_ninepenny.1100.a:0 "Mi piace molto un buon banchetto!"
+
   agot_ninepenny.1101.t:0 "Uh Oh"
   agot_ninepenny.1101.desc:0 "#S Questa è follia!#! [summerhall_leader.GetName] sta tentando un qualche rituale profano su un uovo di drago con #bold Altofuoco e sacrificio di sangue#!! La maggior parte dei partecipanti è paralizzata dall'incertezza — e anche i pochi che riescono a protestare non riescono a fermare la depravazione.\n\nMa i piromanti hanno perso il controllo del fuoco rituale, e le fiamme si stanno riversando nella grande sala! La conflagrazione si diffonde senza pietà sul pavimento, sui muri e sul tetto... divorando tutto ciò che trova sul suo cammino e intrappolando tutti noi in questa mascella del drago..."
   agot_ninepenny.1101.a:0 "Non in questo modo!"
 
 
-  ################################
-  # Reyne Rebellion
-  # 2000 - 2999
-  # by Badger
-  ################################
+ ################################
+ # Reyne Rebellion
+ # 2000 - 2999
+ # by Badger
+ ################################
 
   agot_ninepenny.2000.t:0 "Il Leone di Carta"
   agot_ninepenny.2000.desc:0 "[tytos.GetTitledFirstName], il debole inetto, ha permesso ai suoi vassalli di prendere in prestito senza timore di conseguenze o ritorsioni per anni. I miei stessi debiti nei suoi confronti sono molti, ma sarei un pazzo a pagarli... E io non sono un pazzo; sono #bold un leone#!.\n\nSuoi figlio [tywin.GetFirstName], però, è una figura più temibile. È un uomo astuto e spietato, al contrario dello spreco di spazio che chiama suo padre.\n\nSe solo [tion.GetName] non si fosse fatto uccidere... Allora mia [ROOT.Char.Custom2('RelationToMe', ellyn)] [ellyn.GetFirstName] sarebbe Lady della Roccia, e mio nipote sarebbe l'erede. E questo debito sarebbe stato privo di significato.\n\nAlcuni dicono che un Lannister ripaga sempre i suoi debiti, con il sangue se non con l'oro. Forse dovrei placare [tytos.GetNickname], per evitare l'ira di suo figlio..."

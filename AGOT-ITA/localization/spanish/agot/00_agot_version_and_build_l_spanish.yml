@@ -1,9 +1,9 @@
 ﻿l_spanish:
  AGOT_VERSION_BUILD:0 "\nAGOT Build(MTA): #color_yellow;bold $AGOT_BUILD$#!\nAGOT Version: #color_yellow;bold $AGOT_VERSION$#!"
  AGOT_BUILD:0 "Release Build(MTA)"
- AGOT_VERSION:0 "Open Beta 0.4.7(MTA)"
- AGOT_REQUIRED_VERSION:0 "Chamfron (1.16.2.3)"
- VERSION_MISMATCH_DESCRIPTION:0 "Dear #clickable [POPStatusGetUserName]#!,\n\nYour version of CK3 is #negative_value [GetGameVersionInfoShort]#! while CK3AGOT requires #positive_value $AGOT_REQUIRED_VERSION$#!. If you choose to continue from here, this can result in your previous saves breaking or new saves behaving unexpectedly.\n\nClicking #high Confirm#! means that you understand this warning and won't attempt to report any bugs that result from this.\n\nOtherwise, we suggest exiting the game in order to get back to version #positive_value $AGOT_REQUIRED_VERSION$#!."
+AGOT_VERSION: 0 "Beta Aperta 0.4.19"
+AGOT_REQUIRED_VERSION: 0 "Crane (1.18.2)"
+VERSION_MISMATCH_DESCRIPTION: 0 "Caro #clickable [SelectLocalization(Or(Not(POPSStatusIsLoggedIn), POPStatusIsUserNameEmpty), 'NULL_USERNAME', 'FULL_USERNAME')]#!,\n\nla tua versione di CK3 è #negative_value [GetGameVersionInfoShort]#! mentre CK3AGOT richiede #positive_value $AGOT_REQUIRED_VERSION$#!. Se scegli di proseguire da qui, questo può causare la rottura dei tuoi salvataggi precedenti o far sì che i nuovi salvataggi si comportino in modo inatteso.\n\nCliccare #high Conferma#! significa che comprendi questo avviso e non tenterai di segnalare bug che ne derivino.\n\nIn caso contrario, ti suggeriamo di uscire dal gioco per tornare alla versione #positive_value $AGOT_REQUIRED_VERSION$#!."
  VERSION_MISMATCH_CONFIRM:0 "Confirm"
  VERSION_MISMATCH_CONFIRM_TOOLTIP:0 "#high;bold You are confirming that you understand the risk associated with using an unsupported game version#!"
  VERSION_MISMATCH_EXIT_TOOLTIP:0 "@warning_icon! #warning You will exit the game#!"

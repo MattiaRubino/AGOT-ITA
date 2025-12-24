@@ -43,7 +43,6 @@
   agot_banking.0005.c_tt:0 "Paghi 50 d’oro. Il resto potrà essere saldato alla scadenza."
   agot_banking.0005.d:0 "Ho cambiato idea, pagherò più avanti."
 
-
   agot_banking.0006.t:0 "Un Debito Ereditato"
   agot_banking.0006.desc:0 "[parent_debtor.GetTitledFirstName], che possa [parent_debtor.GetSheHe] riposare in pace, era indebitato con la [agot_bank|E].\n\nPoiché anch’io ho un prestito attivo, la banca mi ha inviato un messaggio per informarmi che i due debiti saranno unificati, poiché sono l’erede legittimo e quindi tenuto a soddisfare gli obblighi di [parent_debtor.GetFirstNamePossessiveNoTooltip].\n\nLa somma che ora devo ammonta a @gold_icon! [ROOT.Var('total_repayment').GetValue|2|N]."
   agot_banking.0006.a:0 "Grazie per l’eredità..."
@@ -65,7 +64,7 @@
   agot_banking.0103.a:0 "Maledetti siano quei librai avidi!"
 
   agot_banking.0104.t:0 "Valar Ademmis"
-  agot_banking.0104.desc:0 "Che ironia crudele, che un uomo senza volto mandato dalla banca si riveli davanti ai miei occhi proprio mentre ero assorto nei pensieri sul problema del mio inadempimento. Dopo aver assunto l’identità di un servitore, non ha avuto difficoltà ad avvicinarsi e puntarmi una lama alla gola.\n\nIl sangue scorre copioso, e il colpo è stato sferrato con tale precisione che non riesco nemmeno a gridare aiuto.\n\nNel mio dolore fugace, capisco che i miei creditori hanno perso la pazienza e sperano che il mio erede, [ROOT.Char.GetHeir.GetFirstName], sia più accomodante. Tutto ciò che posso fare è sperare che [ROOT.Char.GetHeir.GetSheHe] sia più saggio di me..."
+agot_banking.0104.desc: 0 "Che crudele ironia: un uomo senza volto inviato dalla banca si rivela ai miei occhi proprio mentre ero perso nei miei pensieri, intento a rimuginare sul problema spinoso che la mia insolvenza era divenuta. Avendo assunto l'identità di un servitore, l'individuo non ha avuto difficoltà ad avvicinarsi di soppiatto e a posarmi una lama alla gola.\n\nIl sangue scorre copioso, e il gesto è stato compiuto con tale precisione che non riesco neppure a forzare un grido d'aiuto dalle labbra.\n\nNella mia agonia fugace, capisco che i miei creditori hanno perso la pazienza e sperano che il mio erede sia più collaborativo."
   agot_banking.0104.a:0 "[ROOT.Char.Custom('Scream')]"
 
   agot_banking.0105.t:0 "Un Colpo di Stato Sventato"
@@ -80,7 +79,6 @@
   agot_banking.0116.desc:0 "Oggi un uomo è giunto alla mia corte, affermando di essere un rappresentante della [agot_bank|E]. Dopo averne verificato l’identità, mi ha comunicato che la banca è disposta a sostenere la mia conquista delle terre di [FinalDefaulter.GetFirstNamePossessive]! Tutto ciò che devo fare è saldare il prestito non pagato da [FinalDefaulter.GetTitledFirstNameNoTooltip]. Il prezzo è alto, ma l’offerta è decisamente allettante..."
   agot_banking.0116.a:0 "Sarà un’alleanza proficua!"
   agot_banking.0116.b:0 "Non desidero quelle terre."
-
 
   agot_banking.0107.t:0 "Le Richieste di un Creditore"
   agot_banking.0107.desc:0 "La [agot_bank|E] ha inviato una missiva al mio sovrano, informandolo del mio mancato pagamento e chiedendo il suo sostegno per ricevere l’oro dovuto. Potrei tentare di convincere [debtors_liege.GetTitledFirstName] che le pretese della banca sono infondate e ingiuste, sperando che non mi costringa a risarcire... o forse potrei prendere misure ancor più drastiche..."
@@ -125,26 +123,19 @@
   agot_banking.0115.desc:0 "[DeadDefaulter.GetFirstName] è morto prima che potessimo avviare il recupero del suo prestito, e dunque i suoi debiti passano al suo erede. Per ora non è richiesta alcuna altra azione."
   agot_banking.0115.a:0 "Alcuni problemi si risolvono da soli."
 
-
   agot_banking.0202.t:0 "Contabilità della [ROOT.Char.Custom('agot_bank_name')]"
   agot_banking.0202.IB.desc:0 "Ogni cinque anni, la Banca di Ferro di Braavos aggiorna i suoi azionisti sulle prestazioni dell’ultimo periodo e distribuisce dividendi agli investitori.\n\n#T I numeri attuali, presentati da [agot_bank_director|E] [director.GetTitledFirstName], sono:#!\n\nCapitale disponibile:                            #bold [ROOT.Var('IB_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold [ROOT.Var('IB_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold [ROOT.Var('IB_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold [ROOT.Var('IB_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('IB_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold [ROOT.Var('IB_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold [ROOT.Var('IB_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold [ROOT.Var('IB_LostLoans').GetValue|2|N] #!\nUtile netto:                                               #bold [ROOT.Var('IB_Profit').GetValue|2] #!\nUtile per azione:                                      #bold [ROOT.Var('IB_ProfitPerShare').GetValue|2] #!\nDividendo per azione:                             #bold [ROOT.Var('IB_DividendPerShare').GetValue|2] #!"
-
   agot_banking.0202.bank1.desc:0 "Ogni cinque anni, la [ROOT.Char.Custom('agot_bank_name')] aggiorna i suoi azionisti sulle prestazioni del periodo e distribuisce dividendi agli investitori.\n\n#T I numeri attuali, presentati da [agot_bank_director|E] [director.GetTitledFirstName], sono:#!\n\nCapitale disponibile:                            #bold [ROOT.Var('bank1_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold [ROOT.Var('bank1_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold [ROOT.Var('bank1_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold [ROOT.Var('bank1_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank1_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold [ROOT.Var('bank1_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold [ROOT.Var('bank1_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold [ROOT.Var('bank1_LostLoans').GetValue|2|N] #!\nUtile netto:                                               #bold [ROOT.Var('bank1_Profit').GetValue|2] #!\nUtile per azione:                                      #bold [ROOT.Var('bank1_ProfitPerShare').GetValue|2] #!\nDividendo per azione:                             #bold [ROOT.Var('bank1_DividendPerShare').GetValue|2] #!"
-
   agot_banking.0202.bank2.desc:0 "Ogni cinque anni, la [ROOT.Char.Custom('agot_bank_name')] aggiorna i suoi azionisti sulle prestazioni del periodo e distribuisce dividendi agli investitori.\n\n#T I numeri attuali, presentati da [agot_bank_director|E] [director.GetTitledFirstName], sono:#!\n\nCapitale disponibile:                            #bold [ROOT.Var('bank2_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold [ROOT.Var('bank2_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold [ROOT.Var('bank2_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold [ROOT.Var('bank2_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank2_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold [ROOT.Var('bank2_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold [ROOT.Var('bank2_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold [ROOT.Var('bank2_LostLoans').GetValue|2|N] #!\nUtile netto:                                               #bold [ROOT.Var('bank2_Profit').GetValue|2] #!\nUtile per azione:                                      #bold [ROOT.Var('bank2_ProfitPerShare').GetValue|2] #!\nDividendo per azione:                             #bold [ROOT.Var('bank2_DividendPerShare').GetValue|2] #!"
-
   agot_banking.0202.bank3.desc:0 "Ogni cinque anni, la [ROOT.Char.Custom('agot_bank_name')] aggiorna i suoi azionisti sulle prestazioni del periodo e distribuisce dividendi agli investitori.\n\n#T I numeri attuali, presentati da [agot_bank_director|E] [director.GetTitledFirstName], sono:#!\n\nCapitale disponibile:                            #bold [ROOT.Var('bank3_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold [ROOT.Var('bank3_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold [ROOT.Var('bank3_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold [ROOT.Var('bank3_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank3_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold [ROOT.Var('bank3_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold [ROOT.Var('bank3_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold [ROOT.Var('bank3_LostLoans').GetValue|2|N] #!\nUtile netto:                                               #bold [ROOT.Var('bank3_Profit').GetValue|2] #!\nUtile per azione:                                      #bold [ROOT.Var('bank3_ProfitPerShare').GetValue|2] #!\nDividendo per azione:                             #bold [ROOT.Var('bank3_DividendPerShare').GetValue|2] #!"
-
   agot_banking.0202.a:0 "Una valutazione accurata!"
 
-
   agot_banking.0203.t:0 "L’Offerta della Banca"
-  agot_banking.0203.desc:0 "La [ROOT.Char.Custom('agot_bank_name')] ha inviato un emissario per chiedermi se sono disposto a investire nella banca acquistando una quota delle sue attività. Ogni cinque anni riceverei [agot_bank_dividends|E] su quella quota, oppure potrei venderla in anticipo per ottenere oro.\n\nIl prezzo attuale di una quota è @gold_icon! [ROOT.Var('ShareBuyingPrice').GetValue|2|N]."
+agot_banking.0203.desc: 0 "La [ROOT.Char.Custom('agot_bank_name')] ha inviato un emissario in risposta alla mia richiesta d'acquistare azioni. Per ogni azione che possiedo, riceverò [Concept('agot_bank_dividend_level','dividends')|E] ogni cinque anni. E se mai dovessi trovarmi in gravi difficoltà finanziarie, potrei sempre venderla in cambio di una somma immediata.\n\nIl prezzo attuale di un'azione è @gold_icon! [ROOT.Var('ShareBuyingPrice').GetValue|2|N]."
   agot_banking.0203.a:0 "Non posso permettermelo!"
   agot_banking.0203.b:0 "Affare fatto!"
   agot_banking.0203.c:0 "Acquisterò 5 azioni."
   agot_banking.0203.d:0 "Non ora, ho cambiato idea."
-
 
   agot_banking.0204.t:0 "Vendita di una Quota della Banca"
   agot_banking.0204.desc:0 "Non sono soddisfatto dell’oro che ho vincolato nella [ROOT.Char.Custom('agot_bank_name')] per qualche misera moneta ogni lustro! È meglio vendere una quota e recuperare l’oro, prima che il suo valore crolli.\n\nPosso vendere una quota della [ROOT.Char.Custom('agot_bank_name')] e ricevere il suo valore attuale: @gold_icon! [ROOT.Var('ShareSellingPrice').GetValue|2|N]."
@@ -181,7 +172,6 @@
   agot_banking.0210.c_tt:0 "Da ora in poi saranno gli altri azionisti a gestire ogni insolvenza."
   agot_banking.0210.d:0 "Questo è il prezzo degli affari."
   agot_banking.0210.d_tt:0 "Non potrai più recuperare questo prestito in futuro!"
-
 
   agot_banking.0211.t:0 "Un Debitore Insolvente"
   agot_banking.0211.raid_failed_desc:0 "Disastro! Le guardie di [FinalDefaulter.GetTitledFirstNamePossessive] erano ben preparate e hanno respinto i pirati che avevamo assoldato prima che potessero saccheggiare una quantità significativa d’oro dalle sue terre.\n\nDovremo tentare altro..."
@@ -226,26 +216,17 @@
   agot_banking.0212.economy_success_desc:0 "Ha funzionato!\nGrazie ai nostri investimenti aggressivi, abbiamo drenato abbastanza oro dall’economia locale di [FinalDefaulter.GetTitledFirstNamePossessive] per compensare la perdita del prestito disatteso."
   agot_banking.0212.a:0 "La banca ha avuto il suo dovuto."
 
-
   agot_banking.0213.t:0 "Divisione delle Quote"
   agot_banking.0213.desc:0 "La [ROOT.Char.Custom('agot_bank_name')] ha prosperato negli ultimi anni, portando a un aumento del valore di ogni singola quota. Poiché ciò rende difficile l’acquisto di nuove quote, la banca ha deciso di procedere con una divisione delle azioni:\n\nOgni quota attualmente posseduta dagli azionisti sarà divisa in due. Il valore complessivo resta invariato, ma il prezzo per le nuove quote sarà dimezzato."
   agot_banking.0213.a:0 "Una mossa saggia."
   agot_banking.0213.a_tt:0 "Ora possiedi il doppio delle quote rispetto a prima."
 
-
-
   agot_banking.0301.t:0 "Contabilità della [ROOT.Char.Custom('agot_bank_name')]"
-
   agot_banking.0301.IB.desc:0 "In quanto azionista, puoi esaminare i registri attuali della [ROOT.Char.Custom('agot_bank_name')].\n\n#T Questi sono i numeri attuali presentati dagli scrivani della banca:#!\n\nCapitale disponibile:                            #bold @gold_icon! [ROOT.Var('IB_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold @gold_icon! [ROOT.Var('IB_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold @gold_icon! [ROOT.Var('IB_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold @gold_icon! [ROOT.Var('IB_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('IB_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold @gold_icon! [ROOT.Var('IB_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold @gold_icon! [ROOT.Var('IB_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold @gold_icon! [ROOT.Var('IB_LostLoans').GetValue|2|N] #!"
-
   agot_banking.0301.bank1.desc:0 "In quanto azionista, puoi esaminare i registri attuali della [ROOT.Char.Custom('agot_bank_name')].\n\n#T Questi sono i numeri attuali presentati dagli scrivani della banca:#!\n\nCapitale disponibile:                            #bold @gold_icon! [ROOT.Var('bank1_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold @gold_icon! [ROOT.Var('bank1_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold @gold_icon! [ROOT.Var('bank1_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold @gold_icon! [ROOT.Var('bank1_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank1_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold @gold_icon! [ROOT.Var('bank1_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold @gold_icon! [ROOT.Var('bank1_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold @gold_icon! [ROOT.Var('bank1_LostLoans').GetValue|2|N] #!"
-
   agot_banking.0301.bank2.desc:0 "In quanto azionista, puoi esaminare i registri attuali della [ROOT.Char.Custom('agot_bank_name')].\n\n#T Questi sono i numeri attuali presentati dagli scrivani della banca:#!\n\nCapitale disponibile:                            #bold @gold_icon! [ROOT.Var('bank2_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold @gold_icon! [ROOT.Var('bank2_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold @gold_icon! [ROOT.Var('bank2_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold @gold_icon! [ROOT.Var('bank2_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank2_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold @gold_icon! [ROOT.Var('bank2_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold @gold_icon! [ROOT.Var('bank2_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold @gold_icon! [ROOT.Var('bank2_LostLoans').GetValue|2|N] #!"
-
   agot_banking.0301.bank3.desc:0 "In quanto azionista, puoi esaminare i registri attuali della [ROOT.Char.Custom('agot_bank_name')].\n\n#T Questi sono i numeri attuali presentati dagli scrivani della banca:#!\n\nCapitale disponibile:                            #bold @gold_icon! [ROOT.Var('bank3_FreeCapital').GetValue|2] #!\nCapitale prestato ai clienti:                 #bold @gold_icon! [ROOT.Var('bank3_LoanedCapital').GetValue|2] #!\nVolume del fondo investimenti:         #bold @gold_icon! [ROOT.Var('bank3_InvestmentFund').GetValue|2] #!\nValore totale della banca:                   #bold @gold_icon! [ROOT.Var('bank3_BankValue').GetValue|2] #!\nNumero di azioni emesse:                    #bold [ROOT.Var('bank3_NofShares').GetValue|0] #!\nIntroiti:                                                  #bold @gold_icon! [ROOT.Var('bank3_Earnings').GetValue|2|P] #!\nSpese:                                                    #bold @gold_icon! [ROOT.Var('bank3_Expenses').GetValue|2|N] #!\nPrestiti perduti per insolvenza:         #bold @gold_icon! [ROOT.Var('bank3_LostLoans').GetValue|2|N] #!"
-
   agot_banking.0301.a:0 "Basta numeri per ora."
-
 
   agot_banking.0401.t:0 "Rimpinguare il Fondo Investimenti"
   agot_banking.0401.desc:0 "Riversando oro nel fondo investimenti della [agot_bank|E], esso non sarà più disponibile per essere prestato ai debitori.\n\nIn cambio, il fondo può generare profitti ogni anno se gli investimenti sono saggi. Tuttavia, investire in affari rischiosi potrebbe causare perdite, specialmente se il [agot_bank_director|E] non è all’altezza."
@@ -259,7 +240,7 @@
   agot_banking.0403.negative_desc:0 "Come ogni anno, gli impiegati della banca mi presentano i numeri aggiornati del fondo investimenti.\n\nÈ stato un anno difficile: alcune attività in cui abbiamo investito hanno lottato o addirittura chiuso. Il fondo non solo non ha generato profitti, ma si è ridotto di @gold_icon! [ROOT.Var('ShownInvestProfit').GetValue|0|N]"
   agot_banking.0403.a:0 "Basta numeri per oggi."
 
-  # Decisioni
+ # Decision loc
   decision_group_type_banking: "Decisioni Finanziarie"
   take_loan_decision:0 "Richiedi Prestito alla Banca"
   take_loan_decision_desc:0 "Le istituzioni finanziarie più ricche e rispettabili del mondo sono pronte a prestare oro a chi ritengono degno. Ma attento: non si dice a caso che la [agot_bank|E] avrà ciò che le spetta."
@@ -275,14 +256,15 @@
   agot_repay_loan_decision_effect:0 "Potrai saldare il tuo prestito, totalmente o in parte, prima della scadenza."
 
   buy_shares_decision:0 "Investi nella Banca"
-  buy_shares_decision_shareholder_IB_desc:0 "La Banca di Ferro di Braavos accetta ora nuovi investimenti. Puoi offrire dell’oro per ottenere un’ulteriore quota. Più quote possiedi, maggiore sarà il [Concept('agot_bank_dividend_level','dividendo') |E] che riceverai, secondo i [agot_bank_profits|E] della banca.\n\nAttualmente possiedi [ROOT.Var('IB_Shares').GetValue] quote nella Banca di Ferro di Braavos."
-  buy_shares_decision_shareholder_bank1_desc:0 "La [ROOT.Char.Custom('agot_bank_name')] accetta ora nuovi investimenti. Puoi offrire dell’oro per ottenere un’ulteriore quota. Più quote possiedi, maggiore sarà il [Concept('agot_bank_dividend_level','dividendo') |E] che riceverai, secondo i [agot_bank_profits|E] della banca.\n\nAttualmente possiedi [ROOT.Var('bank1_Shares').GetValue] quote nella [ROOT.Char.Custom('agot_bank_name')]."
-  buy_shares_decision_shareholder_bank2_desc:0 "La [ROOT.Char.Custom('agot_bank_name')] accetta ora nuovi investimenti. Puoi offrire dell’oro per ottenere un’ulteriore quota. Più quote possiedi, maggiore sarà il [Concept('agot_bank_dividend_level','dividendo') |E] che riceverai, secondo i [agot_bank_profits|E] della banca.\n\nAttualmente possiedi [ROOT.Var('bank2_Shares').GetValue] quote nella [ROOT.Char.Custom('agot_bank_name')]."
-  buy_shares_decision_shareholder_bank3_desc:0 "La [ROOT.Char.Custom('agot_bank_name')] accetta ora nuovi investimenti. Puoi offrire dell’oro per ottenere un’ulteriore quota. Più quote possiedi, maggiore sarà il [Concept('agot_bank_dividend_level','dividendo') |E] che riceverai, secondo i [agot_bank_profits|E] della banca.\n\nAttualmente possiedi [ROOT.Var('bank3_Shares').GetValue] quote nella [ROOT.Char.Custom('agot_bank_name')]."
-  buy_shares_decision_desc:0 "La tua [agot_bank|E] locale accetta nuovi investitori. Puoi acquistare una quota, che ti garantirà voce nelle decisioni della banca e un [Concept('agot_bank_dividend_level','dividendo') |E] legato ai [agot_bank_profit|E] della stessa."
-  buy_shares_decision_tooltip:0 "Ti verrà offerta una quota. Il prezzo dipenderà dal valore attuale della banca."
+buy_shares_decision_shareholder_IB_desc: 0 "La [ROOT.Char.Custom('agot_bank_name')] accetta nuovi investimenti.\n\nAttualmente possiedo [ROOT.Var('IB_Shares').GetValue] azioni, ma farei bene ad acquisirne una quota maggiore finché posso. Una quota più grande significa un [Concept('agot_bank_dividend_level','dividend')|E] più cospicuo dai [Concept('agot_bank_profits','profits')|E] della banca."
+buy_shares_decision_shareholder_bank1_desc: 0 "La [ROOT.Char.Custom('agot_bank_name')] accetta nuovi investimenti.\n\nAttualmente possiedo [ROOT.Var('bank1_Shares').GetValue] azioni, ma farei bene ad acquisirne una quota maggiore finché posso. Una quota più grande significa un [Concept('agot_bank_dividend_level','dividend')|E] più cospicuo dai [Concept('agot_bank_profits','profits')|E] della banca."
+buy_shares_decision_shareholder_bank2_desc: 0 "La [ROOT.Char.Custom('agot_bank_name')] accetta nuovi investimenti.\n\nAttualmente possiedo [ROOT.Var('bank2_Shares').GetValue] azioni, ma farei bene ad acquisirne una quota maggiore finché posso. Una quota più grande significa un [Concept('agot_bank_dividend_level','dividend')|E] più cospicuo dai [Concept('agot_bank_profits','profits')|E] della banca."
+buy_shares_decision_shareholder_bank3_desc: 0 "La [ROOT.Char.Custom('agot_bank_name')] accetta nuovi investimenti.\n\nAttualmente possiedo [ROOT.Var('bank3_Shares').GetValue] azioni, ma farei bene ad acquisirne una quota maggiore finché posso. Una quota più grande significa un [Concept('agot_bank_dividend_level','dividend')|E] più cospicuo dai [Concept('agot_bank_profits','profits')|E] della banca."
+buy_shares_decision_desc: 0 "L'oro che giace inerte non serve a nulla. Se la mia banca locale è aperta agli investitori, potrei acquistare un'azione — e con essa, una voce nei suoi affari e una parte dei suoi [agot_bank_profit|E]."
+buy_shares_decision_tooltip: 0 "Acquista azioni della tua banca locale"
   buy_shares_decision_tooltip_confirm_text_desc:0 "Qual è il prezzo corrente di una quota?"
-  buy_shares_decision_effect:0 "Ti verrà offerta una quota. Il prezzo dipenderà dal valore attuale della banca."
+buy_shares_decision_effect: 0 "Ti sarà offerta la possibilità di acquistare azioni della banca a un prezzo determinato dalla sua valutazione attuale."
+bank_needs_no_cash: 0 "La banca dispone di riserve di contante sufficienti e al momento non accetta nuovi investimenti"
 
   sell_shares_decision:0 "Vendi Quota"
   sell_shares_decision_IB_desc:0 "La [ROOT.Char.Custom('agot_bank_name')] possiede attualmente abbastanza oro per ricompensarti per una delle tue quote.\n\nAttualmente possiedi [ROOT.Var('IB_Shares').GetValue] quote nella Banca di Ferro."
@@ -311,18 +293,17 @@
   show_bank_numbers_decision_tooltip:0 "Diamo un’occhiata ai registri"
   show_bank_numbers_decision_effect:0 "Ti verrà mostrata una panoramica delle principali cifre della banca al momento."
 
+ # delegate_defaulter_handling_decision:0 "Delegate Management of Defaults"
+ # delegate_defaulter_handling_decision_desc:0 "I no longer wish to manage debtors who are defaulting on their debts. Instead, a shareholder will be tasked with overseeing, handling, and resolving these cases."
+ # delegate_defaulter_handling_decision_tooltip:0 "You will no longer receive messages about debtors defaulting."
+ # delegate_defaulter_handling_decision_confirm:0 "Do not bother me with this."
+ # delegate_defaulter_handling_decision_effect:0 "You will no longer receive messages about debtors defaulting. A shareholder will automatically be tasked with handling defaults."
 
-  # delegate_defaulter_handling_decision:0 "Delegate Management of Defaults"
-  # delegate_defaulter_handling_decision_desc:0 "I no longer wish to manage debtors who are defaulting on their debts. Instead, a shareholder will be tasked with overseeing, handling, and resolving these cases."
-  # delegate_defaulter_handling_decision_tooltip:0 "You will no longer receive messages about debtors defaulting."
-  # delegate_defaulter_handling_decision_confirm:0 "Do not bother me with this."
-  # delegate_defaulter_handling_decision_effect:0 "You will no longer receive messages about debtors defaulting. A shareholder will automatically be tasked with handling defaults."
-
-  # handle_defaulters_again_decision:0 "Manage Defaults"
-  # handle_defaulters_again_decision_desc:0 "I am willing to resume managing defaulting debtors personally."
-  # handle_defaulters_again_decision_tooltip:0 "You will receive a message each time a default occurs."
-  # handle_defaulters_again_decision_confirm:0 "It is my duty to handle such cases."
-  # handle_defaulters_again_decision_effect:0 "You will receive reports of loan defaults again."
+ # handle_defaulters_again_decision:0 "Manage Defaults"
+ # handle_defaulters_again_decision_desc:0 "I am willing to resume managing defaulting debtors personally."
+ # handle_defaulters_again_decision_tooltip:0 "You will receive a message each time a default occurs."
+ # handle_defaulters_again_decision_confirm:0 "It is my duty to handle such cases."
+ # handle_defaulters_again_decision_effect:0 "You will receive reports of loan defaults again."
 
   fill_investment_fund_decision:0 "Rimpingua il Fondo Investimenti"
   fill_investment_fund_decision_desc:0 "In quanto [agot_bank_director|E] della [ROOT.Char.Custom('agot_bank_name')], hai la possibilità di accrescere il fondo destinato agli investimenti della banca. Le somme in questo fondo vengono impiegate in botteghe, mestieri e imprese, offrendo possibilità di guadagni futuri. Tuttavia, ogni investimento comporta un rischio: l'oro potrebbe andare perso, minando la liquidità della banca. Un buon giudizio sui progetti affidabili è essenziale per assicurare prosperità nel lungo corso."
@@ -367,6 +348,14 @@
   found_bank_decision_desc:0 "Hai accumulato abbastanza ricchezze e saggezza da poter fondare una nuova [agot_bank|E], espandendo la tua prosperità."
   found_bank_decision_tooltip:0 "Una nuova banca sarà fondata nella tua capitale. Tu ne sarai il primo [agot_bank_director|E], e ogni personaggio del tuo dominio potrà investirvi per divenire azionista."
   found_bank_decision_tooltip_confirm_text_desc:0 "Alla prosperità!"
+not_in_a_megawar_realm: 0 "Il tuo reame non può essere diviso dalla guerra"
+  agot_found_bank_decision_effect_tooltip:0 "Una nuova [agot_bank|E] sarà fondata nella tua capitale. Tu ne sarai il primo [agot_bank_director|E], e ogni personaggio del tuo reame potrà investirvi per divenire azionista."
+
+rename_bank_decision: 0 "Rinomina la Banca"
+rename_bank_decision_desc: 0 "I nomi hanno potere. Ultimamente ho iniziato a temere che la [ROOT.Char.Custom('agot_bank_name')] non ispiri la fiducia che dovrebbe. Un nome nuovo potrebbe ridare vigore alla sua immagine e assicurare maggiore credito e più investimenti."
+rename_bank_decision_tooltip: 0 "Scegli un nuovo nome per la tua banca"
+rename_bank_decision_tooltip_confirm_text_desc: 0 "Diamole un nome degno d'essere ricordato."
+agot_rename_bank_decision_effect_tooltip: 0 "Potrai selezionare un nuovo nome per la banca."
 
   agot_banking.0601.t:0 "Una Nuova Banca"
   agot_banking.0601.desc:0 "Oggi una nuova banca ha aperto i battenti, e io sarò il suo primo [agot_bank_director|E]. I prestiti inizieranno subito, e nuovi investitori saranno trovati per rafforzare la prosperità dell’istituto.\n\nCome dovrà chiamarsi la nuova banca?"
@@ -375,6 +364,10 @@
   agot_banking.0602.t:0 "Un Nuovo Grande Debitore"
   agot_banking.0602.desc:0 "Oggi la [messaged_director.Custom('agot_bank_name')] ha prestato una somma enorme di [NewDebtor.MakeScope.Var('loaned_amount').GetValue|2|P] d’oro a [NewDebtor.GetTitledFirstName]. Ora è uno dei nostri maggiori debitori."
   agot_banking.0602.a:0 "È stato un piacere fare affari con te."
+
+agot_banking.0607.t: 0 "Il Peso di un Nome"
+agot_banking.0607.desc: 0 "Un nome può plasmare la percezione, definire l'eredità e gravare ben oltre la moneta. In quanto direttore della banca, il privilegio — e il potere — di rinominarla ricade ora su di me. Il nome attuale ha compiuto il suo corso, ma credo che non basti più. Se questa istituzione deve riflettere le mie ambizioni, allora deve portare un nome degno di esse."
+agot_banking.0607.a: 0 "Un nome appropriato."
 
   show_shareholders_decision:0 "Mostra gli Azionisti"
   show_shareholders_decision_desc:0 "Gli scrivani della [ROOT.Char.Custom('agot_bank_name')] ti forniranno un elenco degli attuali azionisti della banca."
@@ -400,10 +393,7 @@
 
   agot_shareholder_list:0 "[Character.GetTitledFirstName] possiede [Character.MakeScope.Var('ShownShares').GetValue] quote"
 
-  agot_found_bank_decision_effect_tooltip:0 "Una nuova [agot_bank|E] sarà fondata nella tua capitale. Tu ne sarai il primo [agot_bank_director|E], e ogni personaggio del tuo reame potrà investirvi per divenire azionista."
-
-
-  # Prestiti con i vassalli
+ # vassal loan stuff
   take_vassal_loan_interaction:0 "Chiedi un Prestito a un Vassallo"
   take_vassal_loan_interaction_desc:0 "Chiedi al tuo vassallo un prestito personale. Il prestito avrà un interesse del 25% e dovrà essere restituito entro 5 anni."
 
@@ -424,12 +414,11 @@
   agot_banking.0503.b:0 "Posso coprire solo gli interessi, per ora."
   agot_banking.0503.b_tt:0 "Il prestito sarà esteso per altri cinque anni."
   agot_banking.0503.c:0 "Non posso pagare nulla al momento. Ma ti sarò debitore di un favore!"
-  agot_banking.0503.c_tt:0 "Non paghi nulla. Il prestito sarà esteso per altri cinque anni, e il tuo vassallo otterrà un ricatto debole su di te."
+agot_banking.0503.c_tt: 0 "Vai in insolvenza sul tuo prestito e non paghi nulla. Il prestito sarà esteso di altri cinque anni, e [vassal_loan_creditor.Custom('IT_NAM_COL3')][vassal_loan_creditor.GetTitledFirstName] otterrà un aggancio debole su di te."
   agot_banking.0503.d:0 "Non posso pagare. Ma ti compenserò come meglio vorrai!"
-  agot_banking.0503.d_tt:0 "Non paghi nulla. Il prestito termina, ma il tuo vassallo ottiene un ricatto forte su di te."
+agot_banking.0503.d_tt: 0 "Vai in insolvenza sul tuo prestito una seconda volta. Il prestito sarà concluso, e [vassal_loan_creditor.Custom('IT_NAM_COL3')][vassal_loan_creditor.GetTitledFirstName] otterrà un aggancio forte su di te in cambio."
   agot_banking.0503.e:0 "Non vedrai una sola moneta da me!"
-  agot_banking.0503.e_tt:0 "Rifiuti di ripagare il debito. Il prestito viene annullato, ma il tuo vassallo ottiene una rivendicazione sul tuo titolo primario."
-
+agot_banking.0503.e_tt: 0 "Rifiuti di ripagare. Ciò annulla il prestito, ma [vassal_loan_creditor.Custom('IT_NAM_COL3')][vassal_loan_creditor.GetTitledFirstName] otterrà una rivendicazione sul tuo titolo principale in cambio."
 
   agot_banking.0504.t:0 "Caro vassallo,"
   agot_banking.0504.repay_full_desc:0 "È giunto infine il momento di restituire il prestito che mi concedesti con tanta generosità cinque anni fa. Ti sono grato per il tuo aiuto nel momento del bisogno; la tua bontà non sarà dimenticata."
@@ -448,6 +437,8 @@
   repay_vassal_loan_decision_tooltip:0 "Pagherai l’intero prestito, inclusi gli interessi maturati."
   repay_vassal_loan_decision_tooltip_confirm_text_desc:0 "Una preoccupazione in meno."
   repay_vassal_loan_decision_effect:0 "Potrai rimborsare il prestito al tuo vassallo prima della scadenza."
+
+
 
   agot_bank_list_name:0 "#high;SIZE:24 [Character.Custom('agot_bank_name')]#!"
   agot_bank_list_value:0 "$EFFECT_LIST_BULLET$Valore della banca: #clickable [Character.MakeScope.Var('BankValue').GetValue|0]#!"
@@ -480,6 +471,7 @@
   bank_name_default_IB:0 "Banca di Ferro di Braavos"
   bank_name_default_Rogare:0 "Banca Rogare"
   bank_name_default_blank:0 ""
+bank_name_fallback: 0 "Banca [ROOT.Char.GetCulture.GetNameNoTooltip]"
 
   bank_name_normal:0 "[ROOT.Var('BankName').Char.GetLocalizedText( 'bank_name' )]"
   bank_name_normal_list:0 "[Character.GetLocalizedText( 'bank_name' )]"
@@ -489,8 +481,7 @@
   agot_banking.0700.a:0 "E così finisce questa impresa."
 
   event_window_widget_enter_bank_name_prompt:0 "Scegli il Nome della Banca:"
-  
-  # new stuff
+
   agot_banking.0701.t:0 "Assaltare una Banca?"
   agot_banking.0701.desc:0 "L’odore di cenere e il frastuono di guerrieri festanti si mescolano nell’aria attorno a me. La mia compagnia ha posto con successo sotto assedio [barony.GetNameNoTierNoTooltip], sede della rinomata [bank_shareholder.Custom('agot_bank_name')].\n\nDavanti a noi si apre un’occasione allettante: le volte della banca nasconderanno senz’altro tesori abbondanti e ricchezze inimmaginabili... E il nostro controllo sulla tenuta significa che la banca è ora indifesa contro le mie truppe.\n\nMa un simile atto non passerebbe inosservato. La banca non lascerà impunita tale aggressione..."
   agot_banking.0701.a:0 "Non posso lasciarmi sfuggire quest’occasione!"

@@ -1,8 +1,8 @@
 ﻿l_spanish:
 
-  ###########
-  #KNIGHTING#
-  ###########
+ ###########
+ #KNIGHTING#
+ ###########
 
   GET_AGOT_SQUIRE:0 "Ottiene [TARGET_CHARACTER.GetShortUIName] come  #V [squire|e]#!"
   I_GET_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] diventa il tuo #V [squire|e]#!"
@@ -23,7 +23,7 @@
   I_LOSE_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] non è più il  tuo #V [agot_knight|e]#!"
   THEY_LOSE_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] non è più il #V [agot_knight|e]#! di [CHARACTER.GetShortUIName]"
 
-  #Paramours
+ # Paramours
   GET_PARAMOUR:0 "Ottiene [TARGET_CHARACTER.GetShortUIName] come Protettore"
   I_GET_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] diventa il tuo Protettore"
   I_GOT_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] è diventato il tuo Protettore"
@@ -32,9 +32,9 @@
   LOSE_PARAMOUR:0 "Perde [TARGET_CHARACTER.GetShortUIName] come tuo Protettore"
   I_LOSE_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] non è più il  tuo Protettore"
   THEY_LOSE_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] non è più il Protettore di [CHARACTER.GetShortUIName]"
-  
-  
-  #Lifestyle perks 
+
+
+ # Lifestyle perks
   SPYNETWORK_MASSES_DESCRIPTION:1 "Raddoppia la quantità di spie che possono essere reclutate senza penalità"
   I_SPYNETWORK_MASSES_DESCRIPTION:2 "Puoi reclutare il doppio delle spie senza penalità"
   THEY_SPYNETWORK_MASSES_DESCRIPTION:1 "[CHARACTER.GetShortUIName|U] può reclutare il doppio delle spie senza penalità"
@@ -81,6 +81,7 @@
   THEY_ENTER_DREAD_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n@dread_icon!Sfida terrificante contro [TARGET_CHARACTER.GetShortUIName]"
   ENTERS_DREAD_CHALLENGE_EFFECT:2 "@dread_icon!Sfida terrificante contro [TARGET_CHARACTER.GetShortUIName]"
 
+ # Legitimate House
   agot_set_legitimate_house_effect:0 "[HOUSE.GetName] è ora la [agot_legitimate_house|E] di [TITLE_REF.GetName]"
   agot_add_new_house_progress_positive_effect:0 "[CURRENT_HOUSE.GetName] guadagna progressi verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName]"
   agot_add_new_house_progress_negative_effect:0 "[CURRENT_HOUSE.GetName] perde progressi verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName]"

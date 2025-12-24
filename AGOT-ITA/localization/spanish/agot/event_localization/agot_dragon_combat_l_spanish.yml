@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  # Precurser events
+ # Precurser events
   agot_dragon_combat.will_engage:0 "Affronterai [enemy_dragonrider.GetTitledFirstName] e [enemy_dragon.GetName] in un duello di draghi!"
   agot_dragon_combat.will_engage_enemy:0 "Affronterai [dragonrider_in_battle.GetTitledFirstName] e [dragon_in_battle.GetName] in un duello di draghi!"
   agot_dragon_combat.will_attempt_engage:0 "Cercherai di affrontare [enemy_dragonrider.GetTitledFirstName] e [enemy_dragon.GetName] in un duello di draghi!"
@@ -60,21 +60,18 @@
   agot_dragon_combat.0003.escape.t:0 "[dragonrider_in_battle.GetShortUIName] vola troppo veloce!"
   agot_dragon_combat.0003.escape.desc:0 "[dragonrider_in_battle.GetShortUIName] riesce a superare la tua caccia su [dragon_in_battle.GetName]!"
 
- 
-  #############
-  # Dragon fight!
-  #############
-  # Finestra
+ #############
+ # Dragon fight!
+ #############
+ # Window
   CHANCE_OF_WINNING:0 "Chance di Vittoria"
-
-  # Turni di combattimento
+ # Combat rounds
   agot_dragon_combat.1001.t:0 "Una Danza di Draghi"
   agot_dragon_combat.1001.defender_first_round_battle:0 "[dsc_defender_dragon.GetName] e io scendiamo più in basso, la battaglia di [battle_location.GetName] infuriando a pochi metri sotto di noi prima di girare verso il cielo, immergendo un altro gruppo di truppe nemiche in fiamme mentre lo facciamo.\n\nAttraverso il campo ormai fumante vedo [dsc_attacker.GetFirstName] in sella a [dsc_attacker_dragon.GetName], ruggendo fortemente mentre si caricano direttamente verso di noi. Un colpo di calcagno sprona le ali di [dsc_defender_dragon.GetNameNoTooltip], e la danza ha inizio.\n\n"
   agot_dragon_combat.1001.defender_first_round_siege:0 "[dsc_defender_dragon.GetName] e io corriamo verso l’alto, evitando [dsc_attacker.GetFirstName] in sella a [dsc_attacker_dragon.GetName] mentre cercano di tuffarsi su di noi dall’alto. Il loro slancio li porta troppo lontano, e la distanza extra tra noi mi permette di girare e prepararmi per il prossimo passaggio.\n\nVedo [dsc_attacker.GetTitledFirstNameNoTooltip] e [dsc_attacker_dragon.GetFirstNameNoTooltip] fare lo stesso, e so che la danza è cominciata.\n\n"
   agot_dragon_combat.1001.attacker_first_round_battle:0 "Vedo [dsc_defender_dragon.GetName] tuffarsi appena sotto il mio colpo, costringendo [dsc_attacker_dragon.GetName] e me a girare bruscamente. I suoni della battaglia di [battle_location.GetName] vengono soffocati dal vento mentre ci dirigiamo di nuovo verso il nostro nemico. Giro giusto in tempo per vedere [dsc_defender_dragon.GetNameNoTooltip] immergere un altro gruppo delle nostre truppe in fiamme, e con un colpo di calcagno ordino a [dsc_attacker_dragon.GetNameNoTooltip] di accorciare la distanza.\n\nLa danza ha inizio.\n\n"
   agot_dragon_combat.1001.attacker_first_round_siege:0 "Vedo [dsc_defender_dragon.GetName] sollevarsi appena dal [sieging_location.GetName] mentre mi tuffo verso di loro, sfuggendo a [dsc_attacker_dragon.GetFirstName] di appena un artiglio. La nostra possibilità di una vittoria rapida è svanita, [dsc_defender_dragon.GetNameNoTooltip] e [dsc_defender.GetNameNoTooltip] girano e si preparano per il prossimo passaggio.\n\nLa danza ha inizio.\n\n"
-
-  # Mosse
+ # Moves
   agot_dragon_combat.1001.wait_and_hope:0 "Vediamo, uhhhh, speriamo che [my_foe.GetSheHe] faccia un errore..."
   agot_dragon_combat.1001.tt.wait_and_hope:0 "Non fai nulla, sperando che [my_foe.GetTitledFirstName] faccia un errore per primo"
   agot_dragon_combat.1001.desc.my_feedback.wait_and_hope:0 "La mia attesa non ha fatto altro che dare a [my_foe.GetTitledFirstName] e [my_foe_dragon.GetName] ampio tempo per elaborare il loro piano."
@@ -223,8 +220,7 @@
   agot_dragon_combat.1001.desc.my_feedback.special_fallback:0 "Ci siamo ritirati giusto in tempo, evitando di poco un morso in corsa che avrebbe strappato le ali di [my_dragon.GetNamePossessive]."
   agot_dragon_combat.1001.desc.opponent_response.special_fallback:0 "Poi abbiamo seguito con un morso in corsa che quasi catturava le loro ali! Vedendo la nostra ferocia, [my_foe.GetName] e [my_foe_dragon.GetName] sono arretrati — un chiaro segno di debolezza!"
 
-
-  # Ferite
+ # Injuries
   agot_dragon_combat.1001.desc.my_injury.none:0 "\n\n[my_dragon.GetNameNoTooltip] e io non siamo feriti, "
   agot_dragon_combat.1001.desc.my_injury.light:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo solo leggermente feriti, "
   agot_dragon_combat.1001.desc.my_injury.heavy:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo feriti, con sangue che gocciola a terra, "
@@ -237,7 +233,7 @@
   agot_dragon_combat.1001.desc.foe_injury.severe:0 "mentre [my_foe_dragon.GetNameNoTooltip] e [my_foe.GetTitledFirstNameNoTooltip] sono gravemente feriti."
   agot_dragon_combat.1001.desc.foe_injury.mortal:0 "mentre [my_foe_dragon.GetNameNoTooltip] e [my_foe.GetTitledFirstNameNoTooltip] sono chiaramente condannati."
 
-  # Possibilità di vittoria
+ # Chance of winning
   agot_dragon_combat.1001.desc.chance_of_winning.near_zero:0 "\n\nDato come sono andate le cose finora, sono certo che stiamo affrontando la nostra rovina."
   agot_dragon_combat.1001.desc.chance_of_winning.minimal:0 "\n\nSono estremamente pessimista riguardo alle nostre possibilità al momento."
   agot_dragon_combat.1001.desc.chance_of_winning.low:0 "\n\n[my_foe.GetTitledFirstNameNoTooltip] sembra sicuro di sé, e temo che siamo lontani dalla vittoria."
@@ -249,7 +245,7 @@
   agot_dragon_combat.1001.desc.chance_of_winning.excellent:0 "\n\n[my_dragon.GetNameNoTooltip] e io ci sentiamo in sintonia, con questa battaglia quasi certamente destinata a finire con la nostra vittoria."
   agot_dragon_combat.1001.desc.chance_of_winning.near_certain:0 "\n\nQuesto è sicuramente quasi finito, con [my_foe.GetTitledFirstName] che è quasi caduto dal cielo."
 
-  # Ferite al drago
+ # Wounding
   agot_dragon_combat.wound_dragon.limit:0 "[wounded_dragon.GetName] non può essere ferito ulteriormente."
   agot_dragon_combat.wound_dragon.1:0 "[wounded_dragon.GetName] è $trait_dragon_wounded_1$."
   agot_dragon_combat.wound_dragon.2:0 "[wounded_dragon.GetName] è $trait_dragon_wounded_2$."
@@ -257,7 +253,7 @@
   agot_dragon_combat.wound_dragon.4:0 "[wounded_dragon.GetName] è $trait_dragon_wounded_4$."
   agot_dragon_combat.wound_dragon.5:0 "[wounded_dragon.GetName] è $trait_dragon_wounded_5$."
 
-  # Ho perso!
+ # I lost!
   agot_dragon_combat.1003.t:0 "Una Danza della Condanna!"
   agot_dragon_combat.1003.desc.sudden_strike:0 "I nostri destini sono cambiati tanto improvvisamente quanto il vento. In un momento, [my_foe.GetTitledFirstName] sembra vulnerabile, a pochi passi dalla sconfitta. Il momento dopo vedo [my_foe_dragon.GetName] girare il collo, una grande bocca che si apre davanti ai miei occhi.\n\nRiesco a guardare dentro le fauci spalancate, sentire l'aria calda della morte che mi accoglie prima che si chiudano, e penso..."
   agot_dragon_combat.1003.a.sudden_strike:0 "Così finisce."
@@ -283,10 +279,8 @@
   agot_dragon_combat.1003.a.chomp:0 "Non hai nemmeno il tempo di urlare."
   agot_dragon_combat.1003.f.chomp:0 "Tu e [my_dragon.GetName] siete entrambi inghiottiti da [my_foe_dragon.GetName]"
 
- 
 
-
-  # I won!
+ # I won!
   agot_dragon_combat.1004.t:0 "Vittoria!"
   agot_dragon_combat.1004.desc.sudden_strike:0 "Il mio piano ha funzionato! [my_foe.GetName] non ha visto nulla arrivare. Un attimo, [my_dragon.GetName] e io sembriamo vulnerabili, e [my_foe_dragon.GetName] si avvicina per il colpo finale. Il momento dopo, [my_dragon.GetNameNoTooltip] ha sorvolato la spalla di [my_foe_dragon.GetNamePossessiveNoTooltip] e attorno al suo collo verso il cavaliere esposto dietro.\n\nLa grande bocca di [my_dragon.GetNamePossessiveNoTooltip] si apre e inghiotte [my_foe.GetNameNoTooltip]!"
   agot_dragon_combat.1004.a.sudden_strike:0 "Il drago ora dovrebbe essere facile!"
@@ -319,8 +313,31 @@
   agot_dragon_combat.1004.f.chomp:0 "[my_foe.GetName] e [my_foe_dragon.GetName] sono entrambi divorati da [my_dragon.GetName]"
   agot_dragon_combat.1004.chomp.t:0 "[my_dragon.GetNameNoTooltip] Apprezza il Gusto"
 
-  # Tooltips
-  ## Aumento del Successo nel Duello
+
+ # More Dragon Duel Event
+agot_dragon_combat.1010.t: 0 "Ali di Vendetta"
+
+agot_dragon_combat.1010.desc.commander: 0 "Gli esploratori giungono senza fiato, con notizie affilate come una punta di lancia. [enemy_dragonrider.GetTitledFirstName], flagello dei cieli, è stat[Select_CString(enemy_dragonrider.IsFemale,'a','o')] avvistat[Select_CString(enemy_dragonrider.IsFemale,'a','o')] sopra [battle_location.GetName]. Un'occasione così capita di rado: colpisci ora e il mio nemico potrebbe essere scacciat[Select_CString(enemy_dragonrider.IsFemale,'a','o')] dalle nubi, la [Select_CString(enemy_dragonrider.IsFemale,'sua','sua')] bestia spezzata, i [Select_CString(enemy_dragonrider.IsFemale,'suoi','suoi')] uomini disfatti.\n\nEppure ogni duello tra draghi è una danza con la morte. Se mi alzo in volo, il cielo divamperà di fuoco e furia, e solo uno di noi ridiscenderà vivo."
+agot_dragon_combat.1010.a.commander: 0 "Mi leverò in volo — che finisca qui."
+
+agot_dragon_combat.1010.desc.knight: 0 "Le notizie degli esploratori sono fosche: [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstName] è stat[Select_CString(enemy_dragonrider.IsFemale,'a','o')] avvistat[Select_CString(enemy_dragonrider.IsFemale,'a','o')] sopra [battle_location.GetName], il drago [Select_CString(enemy_dragonrider.IsFemale,'di lei','di lui')] accovacciato tra le colline come una tempesta che si addensa all’orizzonte. Un simile nemico non può essere affrontato con le sole spade. Ogni sguardo si volge a [dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstName] e a [dragon_in_battle.Custom('IT_NAM_COL3')][dragon_in_battle.GetTitledFirstName], il cavaliere di drago del nostro esercito — solo il loro fuoco può incontrare il fuoco, solo le loro ali possono ricacciare l’orrore dei cieli.\n\nSe si leveranno in volo, i cieli stessi bruceranno."
+agot_dragon_combat.1010.a.knight: 0 "[dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstNameNoTooltip] deve volare — solo [Select_CString(dragonrider_in_battle.IsFemale,'lei','lui')] può affrontare questa minaccia."
+
+agot_dragon_combat.1010.desc.lord: 0 "Un grido si leva dalle mura di [home_location.GetNameNoTooltip]: [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstName] piomba sulle mie terre, l’ombra di [enemy_dragon_in_battle.GetTitledFirstNamePossessive] che si distende lunga e nera su focolari e sale. La mia gente si disperde in preda al terrore, sapendo che né lancia né freccia possono schermarla dall’ira delle fiamme di drago.\n\nSolo io posso levarmi a incontrare [Select_CString(enemy_dragonrider.IsFemale,'lei','lui')]. Se spicco il volo, il cielo sopra [home_location.GetNameNoTooltip] ruggirà di fuoco, e soltanto uno di noi vivrà per rivederlo."
+agot_dragon_combat.1010.a.lord: 0 "Difenderò la mia casa — nei cieli!"
+agot_dragon_combat.1010.b.lord: 0 "No… meglio che brucino le mura, che io."
+
+agot_dragon_combat.1010.desc.courtier: 0 "Il panico serpeggia nelle sale quando l’ombra di [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstName] cala su di noi. Il drago [Select_CString(enemy_dragonrider.IsFemale,'di lei','di lui')], [enemy_dragon_in_battle.GetTitledFirstName], volteggia sopra [home_location.GetNameNoTooltip], il fuoco che lambisce i tetti, le urla che echeggiano nei cortili. Nessun cavaliere, nessun esercito, nessuna muraglia può reggere contro un simile nemico.\n\nEppure non ogni speranza è perduta. Uno fra i miei cortigiani, [dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstName], comanda un drago tutto [Select_CString(dragonrider_in_battle.IsFemale,'suo','suo')]. Se [Select_CString(dragonrider_in_battle.IsFemale,'lei','lui')] si leverà, il cielo sarà lacerato da tuono e fiamma, e soltanto uno di loro sopravvivrà allo scontro."
+agot_dragon_combat.1010.a.courtier: 0 "Convoca [dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstNameNoTooltip] — che affronti questo fuoco col fuoco."
+agot_dragon_combat.1010.b.courtier: 0 "Dobbiamo resistere — oggi i cieli sono [Select_CString(enemy_dragonrider.IsFemale,'di lei','di lui')]."
+
+agot_dragon_combat.1010.a.tt: 0 "Ti impegnerai in un duello tra draghi contro [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstNameNoTooltip]."
+agot_dragon_combat.1010.a.tt.not_me: 0 "[dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstNameNoTooltip] si impegnerà in un duello tra draghi contro [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstNameNoTooltip]."
+
+agot_dragon_combat.1010.b: 0 "Un’altra volta, forse."
+
+ # Tooltips
+ ## Own Duel Success Increase Tooltips
   agot_dragon_combat.duel_success.none:0 "#difficulty_hard NO#! aumento della tua possibilità di successo"
   agot_dragon_combat.duel_success.low:0 "#difficulty_hard BASSO#! aumento della tua possibilità di successo"
   agot_dragon_combat.duel_success.medium:0 "#difficulty_medium MEDIO#! aumento della tua possibilità di successo"
@@ -328,11 +345,10 @@
   agot_dragon_combat.duel_success.very_high:0 "#difficulty_easy MOLTO ALTO#! aumento della tua possibilità di successo"
   agot_dragon_combat.duel_success.guaranteed:0 "Sei #difficulty_easy GARANTITO#! a vincere!"
 
-  ## Aumento del Successo nel Duello dell'Avversario
+ ## Opponent Duel Success Increase Tooltips
   agot_dragon_combat.duel_success.none.has_happened:0 "#difficulty_hard NO#! aumento della sua possibilità di successo"
   agot_dragon_combat.duel_success.low.has_happened:0 "#difficulty_hard BASSO#! aumento della sua possibilità di successo"
   agot_dragon_combat.duel_success.medium.has_happened:0 "#difficulty_medium MEDIO#! aumento della sua possibilità di successo"
   agot_dragon_combat.duel_success.high.has_happened:0 "#difficulty_easy ALTO#! aumento della sua possibilità di successo"
   agot_dragon_combat.duel_success.very_high.has_happened:0 "#difficulty_easy MOLTO ALTO#! aumento della sua possibilità di successo"
   agot_dragon_combat.duel_success.guaranteed.has_happened:0 "[my_foe.GetSheHe] è #difficulty_hard GARANTITO#! a vincere!"
-

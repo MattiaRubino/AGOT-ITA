@@ -3,7 +3,6 @@
   agot_dragon_pits.0001.t:0 "La Fossa del Drago Ricostruita" #(Uovo di Drago)
   agot_dragon_pits.0001.desc:0 "La Fossa del Drago di Approdo del Re è stata restaurata nella sua antica gloria!\n\nDopo la Danza dei Draghi e l'assalto da parte del popolino, la grande fossa era diventata un'ombra di se stessa; una rovina inadeguata per lo scopo.\n\nMa le macerie di quella notte sono state spazzate via. E anche se la gloria della struttura è stata restaurata, la fossa stessa è ancora priva di scopo. Forse destinata solo a servire come il più grandioso dei luoghi espositivi per le poche uova rimaste al trono.\n\nTuttavia, signori e dame di Westeros hanno cominciato a chiedersi se la restaurazione sia stata motivata dal desiderio di onorare il passato o da una ambizione distorta per il futuro..."
   agot_dragon_pits.0001.a:0 "Cosa stanno progettando?"
-
   agot_dragon_pits.0002.desc:0 "La Fossa del Drago di Approdo del Re è stata restaurata nella sua antica gloria!\n\nDopo la Danza dei Draghi e l'assalto da parte del popolino, la grande fossa era diventata un'ombra di se stessa; una rovina inadeguata per lo scopo.\n\nMa le macerie di quella notte sono state spazzate via. Il ritorno dei draghi ha segnato un rinnovato bisogno che la fossa torni a servire come la casa delle bestie, lontana dalla plebe della città.\n\nPer quanto ansiosi siano i signori e il popolino riguardo al ritorno dei draghi, pochi si oppongono alla restaurazione della Fossa del Drago, che ora si erge come un glorioso monumento al rinnovato potere del trono."
   agot_dragon_pits.0002.a:0 "Almeno non saranno liberi!"
 
@@ -24,14 +23,12 @@
   agot_dragon_pits.1000.desc:0 "I seguenti sono i draghi in questa fossa del drago:"
   agot_dragon_pits.1000.empty_desc:0 "Non ci sono draghi in questa fossa del drago."
   agot_dragon_pits.1000.a:0 "Ok"
-
   agot_dragon_pits.1001.t:0 "Visualizzazione dei Domatori Autorizzati"
   agot_dragon_pits.1001.desc:0 "I seguenti sono i domatori autorizzati in questa fossa del drago:"
   agot_dragon_pits.1001.a:0 "Basta così, grazie."
   agot_dragon_pits.1001.b:0 "Questo personaggio dovrebbe essere rimosso da questa fossa del drago."
   agot_dragon_pits.1001.b_tt:0 "Lo status di [authorized_tamer.GetFirstNamePossessive] come [authorized_tamer|e] sarà #N revocato#!."
   agot_dragon_pits.1001.b_tt_dp_access_lost:0 "[authorized_tamer.GetName] #N non avrà più#! accesso a questa fossa del drago."
-  
   agot_dragon_pits.1002.t:0 "Visualizzazione delle Uova di Drago"
   agot_dragon_pits.1002.desc:0 "I seguenti sono le uova di drago in questa fossa del drago:"
   agot_dragon_pits.1002.a:0 "Basta così, grazie."
@@ -48,7 +45,10 @@
   agot_dragon_pits.1200.d:0 "In realtà, è troppo pericoloso."
   agot_dragon_pits.1200.a.success:0 "[wild_dragon.GetName] #P è forzato a entrare nella fossa del drago#!"
   agot_dragon_pits.1200.a.failure:0 "[wild_dragon.GetName] #N resiste all'ingresso nella fossa del drago#!"
-
+reason_death_dragon_ate_keeper: 0 "@death_icon! [head_dragonkeeper.GetShortUINameNoTooltip] è stat[Select_CString(head_dragonkeeper.IsFemale,'a','o')] divorat[Select_CString(head_dragonkeeper.IsFemale,'a','o')] da [wild_dragon.GetShortUIName]"
+reason_death_dragon_burned_keeper: 0 "@death_icon! [head_dragonkeeper.GetShortUINameNoTooltip] è stat[Select_CString(head_dragonkeeper.IsFemale,'a','o')] incenerit[Select_CString(head_dragonkeeper.IsFemale,'a','o')] da [wild_dragon.GetShortUIName]"
+reason_death_dragon_ate: 0 "@death_icon! Sei stat[Select_CString(ROOT.Char.IsFemale,'a','o')] divorat[Select_CString(ROOT.Char.IsFemale,'a','o')] da [wild_dragon.GetShortUIName]"
+reason_death_dragon_burned: 0 "@death_icon! Sei stat[Select_CString(ROOT.Char.IsFemale,'a','o')] incenerit[Select_CString(ROOT.Char.IsFemale,'a','o')] da [wild_dragon.GetShortUIName]"
   agot_dragon_pits.1201.t:0 "Catturare un Drago Selvaggio"
   agot_dragon_pits.1201.desc:0 "Chi tra i miei capitani guiderà lo sforzo per catturare [wild_dragon.GetName]?"
   agot_dragon_pits.1201.a:0 "Scelgo te..."
@@ -56,7 +56,6 @@
   agot_dragon_pits.1201.refusal.desc:0 "[knight.GetName] #N rifiuta#! di catturare [wild_dragon.GetName]"
   agot_capture_dragon_cd_tt:0 "@warning_icon! #warning Non sarai in grado di catturare altri draghi per 1 anno#!"
   agot_capture_dragon_cd_gui_tt:0 "Non puoi catturare un drago per altri [GetVarTimeRemaining(owner.MakeScope, 'capture_cd')] giorni"
-
   agot_dragon_pits.1301.t:0 "[baby_dragon.GetNameNoTooltip] Diventa Irrequieto"
   agot_dragon_pits.1301.desc:0 "Per tre anni ho osservato [baby_dragon.GetName] crescere, da quando [baby_dragon.Custom('GetDragonSheHe')] è uscito dal suo uovo. Ma ora [baby_dragon.Custom('GetDragonSheHe')] è giunto all'età in cui la sua natura caotica e infuocata ha preso piede veramente.\n\nI maestri scrivono che all'età di tre anni, la propensione dei draghi a rubare e incendiare bestiame, proprietà e persino persone aumenta notevolmente.\n\nPosso fidarmi di [baby_dragon.GetNameNoTooltip]? O dovrei isolare [baby_dragon.Custom('GetDragonSheHe')] nella mia fossa del drago prima che faccia del male a qualcuno?"
   agot_dragon_pits.1301.a:0 "Fallamente, non possiamo rischiare!"
@@ -67,16 +66,14 @@
 
   agot_dragon_pits.2000.t:0 "Una Nuova Casa"
   agot_dragon_pits.2000.desc:0 ""A quale delle tue fosse del drago desideri mandare quest’uovo, mio [ROOT.Char.GetLadyLord]?" chiede [recipient.GetFirstName]. "Tieni a mente che, se dovesse schiudersi, sarà difficile spostare il cucciolo in un’altra fossa senza un legame che lo plachi.""
-
   agot_dragon_pits.2000.desc_mult:0 ""A quali delle tue fosse del drago desideri mandare queste uova, mio [ROOT.Char.GetLadyLord]?" chiede [recipient.GetFirstName]. "Tieni a mente che, se qualcuna dovesse schiudersi, sarà difficile spostare i cuccioli in altre fosse senza un legame che li plachi.""
-
-
   agot_dragon_pits.2000.a:0 "[option_1.GetNameNoTier]"
   agot_dragon_pits.2000.b:0 "[option_2.GetNameNoTier]"
   agot_dragon_pits.2000.c:0 "[option_3.GetNameNoTier]"
   agot_dragon_pits.2000.d:0 "[option_4.GetNameNoTier]"
   agot_dragon_pits.2000.e:0 "[option_5.GetNameNoTier]"
   agot_dragon_pits.2000.f:0 "[option_6.GetNameNoTier]"
+
   agot_dragon_pits.2002.t:0 "Uova in Abbondanza"
   agot_dragon_pits.2002.desc_dead:0 "Con la morte di [head_dragonkeeper.GetFirstName], l'ordine non sarà in grado di sorvegliare le uova nella fossa del drago fino a quando non verrà nominato un nuovo Capo dei Custodi dei draghi."
   agot_dragon_pits.2002.desc_alive:0 "Ora che [head_dragonkeeper.GetFirstName] non può più servire come Capo dei Custodi dei draghi, l'ordine non sarà in grado di sorvegliare le uova nella fossa del drago fino a quando non verrà nominato un nuovo capo."
@@ -101,11 +98,11 @@
   agot_dragon_pits.3000.b:0 "[dp_county_option.GetNameNoTierNoTooltip]"
 
   agot_dragon_pits.3002.t:0 "Visita alla Fossa dei Draghi: Disastro!"
-  agot_dragon_pits.3002.desc:0 "Le pesanti e antiche porte della fossa dei draghi scricchiolano mentre entriamo. Guardo verso il basso [recipient.GetName], che cammina accanto a me, cercando di sembrare coraggios[recipient.Custom('DE_END_PRO_S_N')], ma percepisco il tremore nervoso nei suoi passi. Mentre ci avviciniamo, [dragon.GetName] solleva la testa, le narici si dilatano, e in un istante tutto va terribilmente storto. La bestia ruggisce con una furia terrificante, facendo cadere [recipient.GetNameNoTooltip] indietro, con il terrore dipinto sul volto. Il legame che speravo di creare si frantuma davanti ai miei occhi, sostituito dalla paura cieca. Che cosa ho fatto? ... ho rovinato tutto."
+agot_dragon_pits.3002.desc: 0 "Le pesanti, antiche porte della Fossa del Drago gemono quando vi entriamo. Abbasso lo sguardo su [recipient.GetName], che cammina al mio fianco cercando di parere coraggios[Select_CString(recipient.IsFemale,'a','o')], ma avverto il tremito nervoso nei passi [Select_CString(recipient.IsFemale,'di lei','di lui')]. Avvicinandoci, [dragon.GetName] solleva [dragon.Custom('GetDragonHerHis')] testa, le narici dilatate, e in un istante tutto va orrendamente storto. La bestia ruggisce con terrificante furia, facendo indietreggiare barcollando [recipient.GetNameNoTooltip], il terrore impresso sul volto [Select_CString(recipient.IsFemale,'di lei','di lui')]. Il legame che speravo di vedere nascere si spezza sotto i miei occhi, sostituito da cieco spavento. Che cosa ho fatto? L’ho rovina[Select_CString(recipient.IsFemale,'ta','to')]. Ho rovinato noi."
   agot_dragon_pits.3002.a:0 "Sicuramente [recipient.GetSheHe] se ne dimenticherà col tempo..."
 
   agot_dragon_pits.3003.t:0 "Visita alla Fossa dei Draghi: Deludente"
-  agot_dragon_pits.3003.desc:0 "Sento la tensione nell'aria mentre scendiamo nella fossa dei draghi con [recipient.GetName], i pesanti gradini di pietra che echeggiano sotto i nostri piedi. Guardo [recipient.GetSheHe], chiedendomi se oggi sarà il giorno in cui [recipient.GetSheHe] forgerà la sua eredità. [dragon.GetName] si muove nella sua tana mentre ci avviciniamo, le sue scaglie riflettono la luce fioca come oro fuso. Ma qualcosa non va. [recipient.GetSheHe|U] si ferma, gli occhi che si spostano velocemente per la fossa, ma non c'è alcuna scintilla di meraviglia o stupore.\n\nIncito [recipient.GetNameNoTooltip] ad avanzare, ma i suoi passi esitano, e [recipient.GetSheHe] si gira verso di me con un cipiglio. "Mi dispiace, ma se c'è un drago destinato a me, non credo sia qui."
+agot_dragon_pits.3003.desc: 0 "Sento la tensione nell’aria mentre discendo nella Fossa del Drago con [recipient.GetName], i pesanti gradini di pietra che echeggiano sotto i nostri piedi. Guardo [recipient.GetHerHim], chiedendomi se oggi sarà il giorno in cui [Select_CString(recipient.IsFemale,'lei','lui')] forgerà il retaggio [Select_CString(recipient.IsFemale,'di lei','di lui')]. [dragon.GetName] si muove nel covo [dragon.Custom('GetDragonHerHis')] mentre ci avviciniamo, [dragon.Custom('GetDragonHerHis')] scaglie che guizzano nella luce fioca. Eppure c’è qualcosa che non va. [recipient.GetNameNoTooltip] si arresta di colpo, lo sguardo che guizza per la fossa, ma non vi è scintilla di meraviglia né di timore reverente.\n\nLo esorto ad avanzare, ma i passi [Select_CString(recipient.IsFemale,'di lei','di lui')] vacillano, e [Select_CString(recipient.IsFemale,'lei','lui')] si volta verso di me con un cipiglio. \"Mi dispiace, ma se c’è un drago destinato a me, non credo che sia qui.\""
   agot_dragon_pits.3003.a:0 "Sfortunato."
 
   agot_dragon_pits.3004.t:0 "Visita alla Fossa dei Draghi: Successo!"
@@ -114,12 +111,12 @@
   child_is_bonding_dragon_tt:0 "[recipient.GetNameNoTooltip] ha iniziato a legarsi con [dragon.GetNameNoTooltip]"
 
   agot_dragon_pits.3005.t:0 "Visita alla Fossa dei Draghi: Disastro!"
-  agot_dragon_pits.3005.desc:0 "La fossa sembra più oscura oggi, più inquietante. Deglutisco, sperando che [recipient.GetName] non noti il disagio che si sta insinuando in me. [recipient.GetSheHe|U] avanza con determinazione negli occhi, ma vedo la tensione nelle sue spalle. [recipient.GetSheHe|U] allunga la mano verso [dragon.GetName], ma qualcosa va terribilmente storto. Gli occhi del drago si stringono, e in un lampo [dragon.Custom('GetDragonSheHe')] reagisce con rabbia, respingendo [recipient.GetNameNoTooltip]. Il suo volto impallidisce. Il legame non si realizzerà, e vedo il dolore del fallimento inciso nella sua anima."
+agot_dragon_pits.3005.desc: 0 "La fossa sembra più oscura oggi, più infausta. Deglutisco a fatica, sperando che [recipient.GetName] non scorga l’inquietudine che mi striscia addosso. [Select_CString(recipient.IsFemale,'Lei','Lui')] fa un passo avanti, la determinazione negli occhi [Select_CString(recipient.IsFemale,'di lei','di lui')], ma vedo la tensione nelle spalle [Select_CString(recipient.IsFemale,'di lei','di lui')]. [Select_CString(recipient.IsFemale,'Lei','Lui')] tende una mano verso [dragon.GetName], ma qualcosa va terribilmente storto. Il drago sibila, gli occhi che si stringono, e in un lampo [dragon.Custom('GetDragonSheHe')] colpisce in segno di rifiuto. [recipient.GetNameNoTooltip] barcolla all’indietro, il volto [Select_CString(recipient.IsFemale,'di lei','di lui')] livido. Il legame non sarà, e vedo il dolore del fallimento inciso nell’anima [Select_CString(recipient.IsFemale,'di lei','di lui')]."
   agot_dragon_pits.3005.a:0 "Cosa ho fatto..."
   child_failed_to_tame_tt:0 "[recipient.GetNameNoTooltip] ha fallito nel domare [dragon.GetNameNoTooltip]"
 
   agot_dragon_pits.3006.t:0 "Visita alla Fossa dei Draghi: Successo!"
-  agot_dragon_pits.3006.desc:0 "L'aria è densa di tensione mentre ci avviciniamo alla fossa dei draghi, ma è una tensione che alimenta la grandezza. [recipient.GetName] cammina accanto a me, i suoi passi sicuri, gli occhi brillano di eccitazione. Sento un'ondata di speranza mentre entriamo nello spazio cavernoso, e [dragon.GetName] gira la testa per guardarci.\n\n[recipient.GetNameNoTooltip] prende un respiro profondo e si avvicina a [dragon.GetNameNoTooltip], che l[recipient.Custom('DE_END_PRO_S_N')] osserva con curiosità. Lentamente, metodicamente, [recipient.GetSheHe] allunga una mano, e con mio stupore, il drago abbassa la testa. Non c'è esitazione, né paura — solo rispetto. Un grido di gioia si gonfia nel mio petto. [recipient.GetNameNoTooltip] ce l'ha fatta. Ha domato la bestia."
+agot_dragon_pits.3006.desc: 0 "L’aria è densa di tensione mentre ci avviciniamo alla Fossa del Drago, ma è la tensione che alimenta la grandezza. [recipient.GetName] cammina al mio fianco, i passi [Select_CString(recipient.IsFemale,'di lei','di lui')] sicuri, gli occhi che brillano d’entusiasmo. Un’ondata di speranza mi attraversa quando entriamo nello spazio cavernoso, e [dragon.GetName] volge [dragon.Custom('GetDragonHerHis')] testa a osservarci.\n\n[recipient.GetNameNoTooltip] inspira a fondo e si avvicina a [dragon.GetNameNoTooltip], che lo guarda farsi vicino con una lieve curiosità. Lentamente, con metodo, [Select_CString(recipient.IsFemale,'lei','lui')] porge una mano, e con mio stupore il drago china [dragon.Custom('GetDragonHerHis')] testa. Nessuna esitazione, nessuna paura — solo rispetto. Un tripudio mi gonfia il petto. [recipient.GetNameNoTooltip] ce l’ha fatta. [Select_CString(recipient.IsFemale,'Lei','Lui')] ha domato la bestia."
   agot_dragon_pits.3006.a:0 "Meraviglioso!"
   child_succeeded_taming_tt:0 "[recipient.GetNameNoTooltip] è riuscito a domare [dragon.GetNameNoTooltip]"
 

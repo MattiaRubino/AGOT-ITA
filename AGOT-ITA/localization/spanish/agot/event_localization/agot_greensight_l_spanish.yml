@@ -1,34 +1,34 @@
 ﻿l_spanish:
-  ####################
-  # SCHEME DISCOVERY #
-  ####################
+ ####################
+ # SCHEME DISCOVERY #
+ ####################
 
-  # Intro
+ # Intro
   agot_greensight.0001.intro_own_foresight:0 "Mi sveglio di soprassalto dal mio sonno, aggrappandomi alle tempie mentre cerco freneticamente di ricordare i dettagli del mio sogno.\n"
   agot_greensight.0001.intro_visit:0 "[greenseer.GetFirstNameNoTooltip] entra nella mia camera mentre mi sveglio dal sonno, la sua voce è sommessa e le sue azioni furtive.\n\n#italic "[ROOT.Char.GetFirstNameNoTooltip], ho previsto qualcosa di sinistro..."#!"
   agot_greensight.0001.intro_letter:0 "Al mattino presto, proprio mentre mi preparo per iniziare la giornata, un servo mi richiama in un angolo tranquillo. 'Scusate, è arrivato un corvo da [greenseer.GetTitledFirstName]. Aveva una lettera per te, e c'era un biglietto allegato che diceva che era urgente che lo vedessi appena arrivato.\n\n#italic "[ROOT.Char.GetFirstNameNoTooltip], ho avuto un sogno... #!""
-  # Scheme Type
+ # Scheme Type
   agot_greensight.0001.murder:0 "\n#italic    Una cerva beve dall'acqua di un lago...#!\n#italic       l'ombra nascosta di un lupo si cela dietro a un albero, le sue zanne scintillanti di fame...#!\n#italic          la cerva guaisce e cade a terra mentre il suo collo viene trafitto e la sua vita si dissolve via.#!\n\nQualcuno sta complottando per uccidere"
   agot_greensight.0001.abduction:0 "\n#italic    Le mele pendono lucenti sui rami di un albero...#!\n#italic       una folata di vento soffia, portando con sé una sola mela...#!\n#italic          un'altra, poi un'altra se ne va. Fino a quando nessuna mela è risparmiata, e l'albero resta spoglio.#!\n\nQualcuno sta tramando di rapire"
   agot_greensight.0001.fallback:0 "\n#italic    Una montagna si erge alta e fiera sulla terra...#!\n#italic       il terreno trema, il cielo trema, e la montagna teme per la sua fondazione...#!\n#italic          e proprio quando la terra inizia a sgretolarsi, così io mi sveglio di soprassalto.#!\n\nQualcuno sta complottando contro"
   agot_greensight.0001.elope:0 "\n#italic    Due alberi crescono fianco a fianco mentre intorno a loro infuria una tempesta...#!\n#italic       i rami si intrecciano anno dopo anno mentre il vento cerca di separarli...#!\n#italic          due uniti come uno, attraverso le avversità e le lotte.#!\n\nQualcuno sta tramando di fuggire con"
   agot_greensight.0001.steal_back_artifact:0 "\n#italic    Una tempesta di neve copre la terra per i mesi invernali...#!\n#italic      coprendo tutte le cose al di sotto in una gabbia di ghiaccio e gettandole nel limbo del mistero...#!\n#italic          quando la neve si scioglie, non resta nulla di ciò che c'era.#!\n\nQualcuno sta cercando di rubare a"
-  # Relation to Seer
+ # Relation to Seer
   agot_greensight.0001.target_seer:0 " [target.GetHerHim]!"
   agot_greensight.0001.target_other:0 " il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!"
   agot_greensight.0001.target_me:0 " me!"
-  # Reflection of Relation to Seer
+ # Reflection of Relation to Seer
   agot_greensight.0001.child_new_seer:0 "\n\nSembra che [greenseer.GetFirstNameNoTooltip] abbia acquisito la vista. Il mio cuore si addolora per il bambino, sarà un peso difficile da sopportare negli anni a venire..."
   agot_greensight.0001.self_new_seer:0 "\n\nSembra che io sia un greenseer. Mentre rifletto sulle profezie a venire, spero che questi sogni si rivelino più utili che gravosi..."
   agot_greensight.0001.relative_new_seer:0 "\n\nSembra che [greenseer.GetFirstNameNoTooltip] abbia acquisito la vista e sia diventato un greenseer. Per il suo bene, spero che si riveli più una benedizione che una maledizione..."
   agot_greensight.0001.known_seer:0 "\n\nPer quanto io sia grato per le informazioni, spero che i sogni che tormentano [greenseer.GetFirstNameNoTooltip] non la stiano influenzando troppo gravemente..."
   agot_greensight.0001.known_seer_self:0 "\n\nFinché non sarò in grado di fermare questo complotto, queste visioni mi perseguitaranno sicuramente..."
-  # Option
+ # Option
   agot_greensight.0001.a:0 "Dobbiamo fermare il criminale dietro a questo!"
 
-  ###################
-  # HARM PREVENTION #
-  ###################
+ ###################
+ # HARM PREVENTION #
+ ###################
 
   agot_greensight.0100.t:0 "Problemi Previsti"
   agot_greensight.0100.desc.1:0 "Mi sono svegliato nel cuore della notte "

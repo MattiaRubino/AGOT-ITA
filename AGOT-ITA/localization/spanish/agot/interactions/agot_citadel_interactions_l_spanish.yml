@@ -1,6 +1,5 @@
 ﻿l_spanish:
-  #send to citadel interaction
-  ## Interazione "Invia a Cittadella"
+ #send to citadel interaction
   agot_send_to_citadel_interaction:0 "Invia alla Cittadella"
   agot_send_to_citadel_interaction_desc:0 "Invia [recipient.GetFirstNameNoTooltip] alla Cittadella"
   agot_send_to_citadel_interaction_extra_icon:0 "$hook_extra_icon$"
@@ -18,7 +17,6 @@
   CITADEL_CURIOUS:1 "[GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$"
   CITADEL_WRATHFUL:1 "[GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$"
   CITADEL_LAZY:1 "[GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$"
-  ## Personalità del Personaggio in Relazione alla Cittadella
   CITADEL_INTELLECT_BAD:1 "[personality|E] — #italic Ha una mente debole:#! $VALUE|=+0$"
   CITADEL_SQUIRE:1 "[GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$"
   CITADEL_KNIGHT:1 "[GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$"
@@ -29,8 +27,6 @@
   CITADEL_ZEALOUS:1 "[personality|E] — #italic Preferirebbe servire la fede:#! $VALUE|=+0$"
   CITADEL_GREED:1 "[personality|E] — #italic Non ha il desiderio di rinunciare ai piaceri terreni:#! $VALUE|=+0$"
   CITADEL_WEAK:1 "[personality|E] — #italic La sua debolezza renderebbe difficile guadagnare gloria in battaglia:#! $VALUE|=+0$"
-
-  ## Descrizioni Evento "Andare alla Cittadella"
   agot_the_citadel.1000.desc:0 "Non posso pensare a una gioia più grande che dedicare la mia vita alla ricerca accademica. Inizierò immediatamente il viaggio verso la Cittadella."
   agot_the_citadel.1000.positive:0 "Sono contento che [recipient.GetFirstNameNoTooltip] abbia visto la saggezza in questa decisione."
   agot_the_citadel.1001.desc:0 "La tua proposta di stravolgere completamente la mia vita e correre alla Cittadella è assurda. Sono felice dove sono, e non ho intenzione di cambiarlo."

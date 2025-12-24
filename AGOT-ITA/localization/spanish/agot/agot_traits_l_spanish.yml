@@ -1,15 +1,15 @@
 ﻿l_spanish:
-  #Vanilla Add-ons
+ #Vanilla Add-ons
   agot_trait_adventurer_former_Golden_Company_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nella [GetTitleByKey('d_laamp_merc_golden_company').GetNameNoTier] come mercenario."
   agot_trait_adventurer_former_Second_Sons_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nei [GetTitleByKey('d_laamp_merc_second_sons').GetNameNoTier] come mercenario."
   agot_trait_adventurer_former_Windblown_desc:0 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha trascorso del tempo nei [GetTitleByKey('d_laamp_merc_windblown').GetNameNoTier] come mercenario."
   trait_triplet:0 "Trigemino"
   trait_triplet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nacque come trigemino."
 
-  #Trait Groups
+ #Trait Groups
   trait_citadel:0 "Membri della Cittadella"
 
-  #Health traits
+ #Health traits
   trait_aged: "Invecchiato"
   trait_aged_desc: "La vecchiaia ha lasciato il personaggio cieco."
   trait_aged_character_desc: "La vecchiaia ha lasciato [ROOT.GetCharacter.GetFirstNameNoTooltip] cieco."
@@ -18,7 +18,7 @@
   trait_mute_desc: "Questo personaggio non è in grado di esprimere il proprio pensiero, o di parlare affatto."
   trait_mute_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] non è in grado di esprimere il suo pensiero, o di parlare affatto."
 
-  # Tratti della Fede dei Sette
+ #Faith of the Seven traits
   trait_devoted_faith_of_the_seven_male: "Fratello Santo"
   trait_devoted_faith_of_the_seven_female: "Sorella Santa"
   trait_devoted_faith_of_the_seven_male_desc: "Questo uomo ha fatto un voto di povertà e ha dedicato la sua vita al servizio dei Sette."
@@ -57,7 +57,7 @@
   trait_most_devout_member_desc: "Questo personaggio è stato ammesso tra i più devoti, il più alto organo religioso della Fede dei Sette, ed è quindi un elettore dell'Alto Septon."
   trait_most_devout_member_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato ammesso tra i più devoti, il più alto organo religioso della Fede dei Sette, ed è quindi un elettore dell'Alto Septon."
 
-  #Nightswatch traits
+ #Nightswatch traits
   trait_nightswatch: "Guardiani della Notte"
   trait_track_nightswatch:0 "Formazione dei Guardiani della Notte"
   trait_track_nightswatch_desc:0 "Formazione dei Guardiani della Notte"
@@ -65,6 +65,10 @@
   trait_flappers:0 "Reclutamento"
   trait_flappers_desc:0 "Questo personaggio serve come recluta per i Guardiani della Notte.."
   trait_flappers_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve come recluta per i Guardiani della Notte."
+
+  trait_nightswatch_sworn:0 "Fratello in Nero"
+  trait_nightswatch_desc: "Questo personaggio ha preso il Nero e si è unito ai Guardiani della Notte."
+  trait_nightswatch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha preso il Nero e si è unito ai Guardiani della Notte."
 
   trait_nw_builder:0 "Costruttore"
   trait_nw_builder_1:0 "Costruttore Novizio"
@@ -99,15 +103,11 @@
   trait_nw_steward_3:0 "Maestro Attendente"
   trait_nw_steward_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un maestro dell'organizzazione ed è ben noto per le sue abilità nel rifornire i Guardiani della Notte."
 
-  trait_nightswatch_sworn:0 "Fratello in Nero"
-  trait_nightswatch_desc: "Questo personaggio ha preso il Nero e si è unito ai Guardiani della Notte."
-  trait_nightswatch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha preso il Nero e si è unito ai Guardiani della Notte."
-
   trait_deserter: "Disertore"
   trait_deserter_desc: "Questo personaggio ha abbandonato i Guardiani della Notte e disertato."
   trait_deserter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha abbandonato i Guardiani della Notte e disertato."
 
-  # Marriage traits
+ #Marriage traits
   trait_widowed: "Vedovo/a"
   trait_widowed_desc: "Il coniuge di questo personaggio è morto, lasciandolo/a vedovo/a."
   trait_widowed_character_desc: "La luce nella vita di [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] è stata spenta, lasciandolo/a a continuare da solo/a."
@@ -116,7 +116,7 @@
   trait_refusing_marriage_desc: "Questo personaggio rifiuta di prendere uno/a sposo/a."
   trait_refusing_marriage_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] rifiuta di prendere uno/a sposo/a."
 
-  # KG traits
+ #KG traits
   trait_kingsguard: "Guardia Reale"
   trait_kingsguard_desc: "Questo personaggio ha indossato il manto bianco e serve nella Guardia Reale."
   trait_kingsguard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha indossato il manto bianco e serve nella Guardia Reale."
@@ -125,7 +125,7 @@
   trait_rainbow_guard_desc: "Questo personaggio ha indossato il manto arcobaleno e serve nella Guardia dell'Arcobaleno."
   trait_rainbow_guard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha indossato il manto arcobaleno e serve nella Guardia dell'Arcobaleno."
 
-  #Citadel/Maester traits
+ #Citadel/Maester traits
   trait_novice:0 "Novizio"
   trait_novice_desc:0 "Questo personaggio ha recentemente iniziato i suoi studi alla Cittadella."
   trait_novice_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recentemente iniziato i suoi studi alla Cittadella."
@@ -133,7 +133,7 @@
   trait_acolyte:0 "Acolito"
   trait_acolyte_desc:0 "Questo personaggio ha guadagnato il suo primo anello alla Cittadella ed è diventato un acolito."
   trait_acolyte_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha guadagnato il suo primo anello alla Cittadella ed è diventato un acolito."
-    
+
   trait_maester: "Maestro"
   trait_maester_desc: "Questo personaggio ha completato la sua formazione al Ciambellano ed è diventato un maestro."
   trait_maester_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha completato la sua formazione al Ciambellano ed è diventato un maestro."
@@ -155,14 +155,12 @@
 
   trait_citadel_desc:0 "Questo personaggio ha studiato per diventare un maestro alla Cittadella."
 
-  #Knighthood traits
-
+ #Knighthood traits
   trait_knighthood: "Cavalleria" # Chiave di localizzazione del gruppo di tratti
   trait_knight: "Cavaliere"
   trait_knight_questionable: "Cavaliere?"
 
   trait_knight_desc: "Questo personaggio è stato nominato cavaliere e ha giurato davanti agli occhi degli dèi e degli uomini di difendere coloro che non possono difendersi, proteggere tutte le donne e i bambini, obbedire ai loro capitani, signori feudali, re, combattere coraggiosamente e svolgere ogni altra mansione loro assegnata, per quanto difficile, modesta o pericolosa possa essere."
-
   trait_knight_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato nominato cavaliere e ha giurato davanti agli occhi degli dèi e degli uomini di difendere coloro che non possono difendersi, proteggere tutte le donne e i bambini, obbedire ai loro capitani, signori feudali, re, combattere coraggiosamente e svolgere ogni altra mansione loro assegnata, per quanto difficile, modesta o pericolosa possa essere."
 
   trait_squire: "Scudiero"
@@ -179,8 +177,11 @@
   trait_stripped_knight_desc:0 "Questo personaggio è stato privato della dignità cavalleresca."
   trait_stripped_knight_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato privato di [ROOT.GetCharacter.GetHerHis] dignità cavalleresca."
 
-  # Tratti della personalità
+trait_robber_knight: "Cavaliere Brigante"
+trait_robber_knight_desc: "Sebbene questo personaggio sia un cavaliere, si è dato al brigantaggio."
+trait_robber_knight_character_desc: "Sebbene [ROOT.GetCharac... a knight, si è dat[Select_CString(ROOT.GetCharacter.IsFemale,'a','o')] al brigantaggio."
 
+ #Personality Traits
   trait_fool: "Buffone"
   trait_fool_desc: "Questo personaggio serve come buffone di un signore."
   trait_fool_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve come buffone di un signore."
@@ -192,8 +193,9 @@
   trait_inquisitive:0 "Corios[ROOT.Char.Custom('DE_END_PRO_S_N')]"
   trait_inquisitive_desc:0 "Questo personaggio è affascinato dai misteri del mondo."
   trait_inquisitive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è affascinato dai misteri del mondo."
+
   TRAIT_FLAG_DESC_more_xp_from_points_of_interest:0 "Guadagna il 50% in più di esperienza di stile di vita visitando un [point_of_interest|E]."
-  
+
   trait_rude: "Scortese"
   trait_rude_desc: "Questo personaggio è diretto con le sue parole, ignorando i sentimenti degli altri in favore di dire ciò che gli pare."
   trait_rude_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è diretto con le sue parole, ignorando i sentimenti degli altri in favore di dire ciò che [ROOT.GetCharacter.GetSheHe] vuole."
@@ -218,21 +220,7 @@
   trait_two_headed_desc:0 "Questo personaggio è nato con la testa morta del gemello non nato attaccata alla spalla, lasciandolo dall'aspetto piuttosto grottesco."
   trait_two_headed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è nato con la testa morta del gemello non nato attaccata alla spalla, lasciandolo dall'aspetto piuttosto grottesco."
 
-  # Drago
-  trait_dragon: "Drago"
-  trait_dragon_desc: "Descrizione provvisoria del Drago"
-  trait_dragon_character_desc: "Descrizione provvisoria del personaggio Drago"
-
-  # Cavaliere del Drago
-  trait_dragon_rider: "Cavaliere del Drago"
-  trait_dragon_rider_desc: "Avendo legato un patto con un drago, questo personaggio è ora in grado di cavalcarlo."
-  trait_dragon_rider_character_desc: "Avendo legato un patto con un drago, [ROOT.GetCharacter.GetFirstNameNoTooltip] è ora in grado di cavalcarlo."
-
-  trait_dragon_slayer: "Cacciatore di Draghi"
-  trait_dragon_slayer_desc: "Questo personaggio ha compiuto l'impresa straordinaria di uccidere un drago."
-  trait_dragon_slayer_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha compiuto l'impresa straordinaria di uccidere un drago."
-
-  # Altri
+ #Others
   trait_white_walker: "Estraneo "
   trait_white_walker_desc: "Questo personaggio è un intrepido Estraneo leggendario."
   trait_white_walker_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un intrepido Estraneo leggendario."
@@ -241,7 +229,7 @@
   trait_undead_desc: "Riportato in vita, questo personaggio cammina di nuovo tra i vivi."
   trait_undead_character_desc: "Riportato in vita, [ROOT.GetCharacter.GetFirstNameNoTooltip] cammina di nuovo tra i vivi."
 
-  #In hiding
+ #In hiding
   trait_in_hiding: "Nascondersi"
   trait_in_hiding_desc: "Questo personaggio si è nascosto, proteggendosi da possibili trame o assedi."
   trait_in_hiding_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] si è nascosto, proteggendo [ROOT.GetCharacter.GetHerselfHimself] da possibili trame o assedi."
@@ -250,12 +238,12 @@
   trait_is_missing_desc: "Questo personaggio è scomparso, con la sua posizione ora un mistero."
   trait_is_missing_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è scomparso, con la sua posizione ora un mistero."
 
-  # Tratti genetici
+ #Genetic traits
   trait_the_mark: "Il Marchio"
   trait_the_mark_desc: "Questo personaggio porta il Marchio, le sue mani sono palmate come quelle di una rana."
   trait_the_mark_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] porta il Marchio, le sue mani sono palmate come quelle di una rana."
 
-  # Tratti degli schiavi
+ #Slave traits
   trait_slave: "Schiavo"
   trait_slave_desc: "Questo personaggio è stato ridotto in schiavitù ed è ora di proprietà di un altro."
   trait_slave_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato ridotto in schiavitù ed è ora di proprietà di un altro."
@@ -264,9 +252,9 @@
   trait_slave_trader_desc: "Questo personaggio si occupa del commercio degli schiavi, comprando e vendendo persone come merce."
   trait_slave_trader_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] si occupa del commercio degli schiavi, comprando e vendendo persone come merce."
 
-  trait_slave_owner: "Proprietario di Schiavi"
-  trait_slave_owner_desc: "Questo personaggio possiede schiavi, che siano stati comprati al mercato, ereditati o regalati."
-  trait_slave_owner_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] possiede schiavi, che siano stati comprati al mercato, ereditati o regalati a [ROOT.GetCharacter.GetHerHim]."
+trait_slaver: "Schiavista"
+trait_slaver_desc: "Questo personaggio pratica il commercio di schiavi — compra, vende e perfino possiede persone come fossero merci."
+trait_slaver_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] pratica il commercio di schiavi — compra, vende e perfino possiede persone come fossero merci."
 
   trait_liberator: "Liberatore"
   trait_liberator_desc: "Questo personaggio si è dedicato all'eradicazione della schiavitù, opponendosi fermamente a questa pratica."
@@ -276,8 +264,7 @@
   trait_freedman_desc:0 "Questo personaggio era una volta uno schiavo ma è stato liberato."
   trait_freedman_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] era una volta uno schiavo ma è stato liberato."
 
-  #Supernatural dream traits
-
+ #Supernatural dream traits
   trait_greensight: "Vista Verde"
   trait_greensight_desc: "Questo personaggio ha 'sogni verdi' profetici, permettendogli di avere fugaci visioni del futuro, che siano positive o negative."
   trait_greensight_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha 'sogni verdi' profetici, permettendogli di avere fugaci visioni del futuro, che siano positive o negative."
@@ -286,7 +273,7 @@
   trait_dragon_dreams_desc: "Questo personaggio è tormentato da premonizioni e visioni di possibili futuri."
   trait_dragon_dreams_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è tormentato da premonizioni e visioni di possibili futuri."
 
-  #Negative physical condition traits
+ #Negative physical condition traits
   trait_one_handed: "Monomano"
   trait_one_handed_desc: "Questo personaggio ha perso una mano."
   trait_one_handed_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha perso una mano."
@@ -295,17 +282,17 @@
   trait_crippled_desc: "Questo personaggio è stato paralizzato e non può più muovere gran parte del suo corpo."
   trait_crippled_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato paralizzato."
 
-  #Plague and diseases and maladies
+ #Plague, diseases, and maladies
   trait_dancing_plague: "Peste Danzante"
   trait_dancing_plague_desc:0 "Questo personaggio è preda di convulsioni violente e incontrollabili, come se fosse intrappolato in una danza maledetta."
   trait_dancing_plague_character_desc:0 "Il corpo di [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] si contorce in modo violento e incontrollabile, mosso da un ritmo invisibile."
 
   trait_greyscale_1:0 "Pelle che Ingrigisce"
-  trait_greyscale_1_desc:0 "Chiazze di pelle rigida e priva di vita hanno iniziato ad apparire sul corpo di questo personaggio, ruvide e fredde al tatto."
+trait_greyscale_1_desc: "Chiazze di pelle rigida e senza vita hanno iniziato a comparire sul corpo di questo personaggio, ruvide e fredde al tatto."
   trait_greyscale_1_character_desc:0 "La pelle di [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] è segnata da chiazze grigie e ruvide, simili alla pietra."
 
   trait_greyscale:0 "Scaglia Grigia"
-  trait_greyscale_desc:0 "Pelle screpolata e sfaldante si è diffusa sul corpo di questo personaggio, segno evidente della scaglia grigia."
+trait_greyscale_desc: "Pelle screpolata e squamosa si è diffusa su gran parte del corpo di questo personaggio, chiaro segno della grigiopelle."
   trait_greyscale_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è afflitto dalla scaglia grigia, con la pelle che si indurisce e si sfalda come pietra fragile."
 
   trait_greyscale_2:0 "Scaglia Grigia Avanzata"
@@ -313,7 +300,7 @@
   trait_greyscale_2_character.desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è sfigurato dalla scaglia grigia che avanza, con la pelle arida e lacerata."
 
   trait_greyscale_3:0 "Follia da Scaglia Grigia"
-  trait_greyscale_3_desc:0 "La malattia ha sopraffatto la mente di questo personaggio. Non è più la persona che era un tempo."
+trait_greyscale_3_desc: "La malattia ha sopraffatto la mente di questo personaggio. Non è più la persona che era un tempo."
   trait_greyscale_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stato consumato dalla follia. La scaglia grigia l'ha reso pericoloso e spezzato."
 
   trait_greyscale_scarred:0 "Cicatrici da Scaglia Grigia"
@@ -348,6 +335,10 @@
   trait_winter_fever_desc:0 "Questo personaggio arde di febbre e trema senza controllo, perso in una nebbia di sudore e delirio."
   trait_winter_fever_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è in preda alla febbre, scosso da brividi e scivola dentro e fuori dal delirio."
 
+  trait_scurvy: "Scorbuto"
+  trait_scurvy_desc: "Questo personaggio ha lo scorbuto, portando affaticamento, sanguinamenti frequenti e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la morte."
+  trait_scurvy_character_desc: "Hai lo scorbuto. Lo scorbuto porta affaticamento, casi di sanguinamento frequente e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la tua morte."
+
   trait_burned: "Bruciato"
   trait_burned_2:0 "Gravemente Ustionato"
   trait_burned_3:0 "Ustionato Gravemente"
@@ -356,11 +347,7 @@
   trait_track_burned:0 "Ustionato"
   trait_track_burned_desc:0 "Un'ustione è una cosa orribile da guardare. Certo, ciò non deve necessariamente essere sempre a tuo svantaggio..."
 
-  trait_scurvy: "Scorbuto"
-  trait_scurvy_desc: "Questo personaggio ha lo scorbuto, portando affaticamento, sanguinamenti frequenti e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la morte."
-  trait_scurvy_character_desc: "Hai lo scorbuto. Lo scorbuto porta affaticamento, casi di sanguinamento frequente e macchie sulla pelle, e se non trattato può causare la perdita dei denti, portare la febbre e probabilmente la tua morte."
-
-  #Player customizer traits
+ #Player customizer traits
   trait_house_customizer: "Personalizzatore di Casa"
   trait_house_customizer_desc: "Puoi usare questa caratteristica per consentire al tuo personaggio progettato di assumere il nome e le armi di qualsiasi casa esistente o da una selezione di case estinte."
   trait_house_customizer_character_desc: "Puoi usare questa caratteristica per consentire al tuo personaggio progettato di assumere il nome e le armi di qualsiasi casa esistente o da una selezione di case estinte."
@@ -373,51 +360,58 @@
   trait_heterochromia_customizer_desc:0 "Puoi usare questo tratto per permettere al tuo personaggio di avere un colore degli occhi eterocromatico a tua scelta."
   trait_heterochromia_customizer_character_desc:0 "Puoi usare questo tratto per permettere al tuo personaggio di avere un colore degli occhi eterocromatico a tua scelta."
 
+ #Easter Egg traits
+trait_blademaster_swordsman: "Spadaccino"
+
+ #"Line of/Occluded" Character Trait
   trait_line_of_char: "Linea di..."
   trait_line_of_char_desc: "Questo personaggio rappresenta i numerosi antenati persi nei registri nel corso del tempo."
   trait_line_of_char_character_desc: "Questo personaggio rappresenta i numerosi antenati persi nei registri nel corso del tempo."
 
-  #Ruin Character Trait
+ #Ruin Character Trait
   trait_ruin:0 ""
   trait_ruin_desc:0 ""
   trait_ruin_character_desc:0 ""
 
-  #Unknown Character Trait
+ #Unknown Character Trait
   trait_unknown:0 ""
   trait_unknown_desc:0 ""
   trait_unknown_character_desc:0 ""
 
-  # Dummy Trait
+ #Wilderness Character Trait
+trait_wilderness: ""
+trait_wilderness_desc: ""
+trait_wilderness_character_desc: ""
+
+ #Dummy Trait
   trait_agot_dummy_trait:0 ""
   trait_agot_dummy_trait_desc:0 ""
   trait_agot_dummy_trait_character_desc:0 ""
 
-  #Misc
+ #Misc
   trait_shade_of_the_evening:0 "Ombra della Sera"
   trait_shade_of_the_evening_desc:0 "Questo personaggio beve regolarmente l'ombra della sera, colorando le labbra di blu."
   trait_shade_of_the_evening_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] beve regolarmente l'ombra della sera, colorando le labbra di blu."
-  
-  #Iron born priests
+
+ #Ironborn priests
   trait_drowned_man:0 "Uomo Annegato"
   trait_drowned_man_desc:0 "Gli Uomini Annegati sono accoliti dei sacerdoti del Dio Annegato. Gli uomini annegati indossano abiti di lana grezza verde, grigia e blu, i colori del Dio Annegato. Portano bastoni di legno alla deriva per mostrare la loro devozione in battaglia, e pelli d'acqua salata per eseguire l'unzione rituale e per placare la loro sete."
   trait_drowned_man_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un accolito di un sacerdote del Dio Annegato."
- 
-  #Rahloo priests
+
+ #Rahloo priests
   trait_red_priest:0 "Sacerdote Rosso"
   trait_red_priest_desc:0 "Questo personaggio è un sacerdote della religione di R'hllor."
   trait_red_priest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un sacerdote della religione di R'hllor."
 
   trait_red_priest_female:0 "Sacerdotessa Rossa"
   trait_red_priest_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è una sacerdotessa della religione di R'hllor."
-  
-  #Bearded priests
 
+ #Bearded priests
   trait_bearded_priest:0 "Sacerdote Barbuto"
   trait_bearded_priest_desc:0 "Questo personaggio è un sacerdote del Dio Barbuto"
   trait_bearded_priest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un sacerdote del Dio Barbuto."
 
-
-  #Heterochromia Eye
+ #Heterochromia Eye
   trait_heterochromia_eyes:0 "Occhi Diversi"
   trait_heterochromia_desc:0 "Questo personaggio è nato con un occhio di un colore visibilmente diverso dall'altro."
   trait_heterochromia_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è nat[ROOT.GetCharacter.Custom('DE_END_PRO_S_N')] con un occhio di un colore visibilmente diverso dall'altro."
@@ -427,7 +421,7 @@
   trait_half_blind_desc:0 "Questo personaggio è cieco da un occhio."
   trait_half_blind_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è cieco da un occhio."
 
-  #Replaced Eyes
+ #Replaced Eyes
   trait_one_eyed_sapphire: "Occhio di Zaffiro"
   trait_one_eyed_sapphire_desc: "Questo personaggio ha sostituito il suo occhio mancante con un pezzo di zaffiro lucente."
   trait_one_eyed_sapphire_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sostituito il suo occhio mancante con un zaffiro lucente."
@@ -473,61 +467,12 @@
   agot_pregnancy_months_scripted_rhaella: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è incinta da [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] mesi."
   agot_pregnancy_months_vanilla: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è incinta da [SCOPE.ScriptValue('pregnancy_month')] mesi."
 
+ #Perk traits
   trait_spider: "Ragno"
   trait_spider_desc: "Questo personaggio è un maestro nell'orchestrare spie."
   trait_spider_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] è un maestro nell'orchestrare spie."
 
-  #Strong Seed
-  trait_scripted_appearance:0 ""
-  trait_smol_tol:0 ""
-  trait_tol:0 ""
-  trait_dumbo_ears:0 ""
-  trait_cool_silver_hair:0 ""
-  trait_cool_neutral_silver_hair:0 ""
-  trait_neutral_silver_hair:0 ""
-  trait_silver_blonde_hair:0 ""
-  trait_silver_gold_hair:0 ""
-  trait_black_hair:0 ""
-  trait_light_blonde_hair:0 ""
-  trait_gold_hair:0 ""
-  trait_bronze_hair:0 ""
-  trait_light_red_hair:0 ""
-  trait_red_hair:0 ""
-  trait_auburn_hair:0 ""
-  trait_kissed_by_fire_hair:0 ""
-  trait_brown_hair:0 ""
-  trait_dark_brown_hair:0 ""
-  trait_no_hair:0 ""
-  trait_light_blue_eyes:0 ""
-  trait_blue_eyes:0 ""
-  trait_midnight_eyes:0 ""
-  trait_seaglass_eyes:0 ""
-  trait_seafoam_eyes:0 ""
-  trait_emerald_eyes:0 ""
-  trait_grey_eyes:0 ""
-  trait_gold_eyes:0 ""
-  trait_light_brown_eyes:0 ""
-  trait_brown_eyes:0 ""
-  trait_black_eyes:0 ""
-  trait_purple_eyes_1:0 ""
-  trait_purple_eyes_2:0 ""
-  trait_purple_eyes_3:0 ""
-  trait_purple_eyes_4:0 ""
-  trait_purple_eyes_5:0 ""
-  trait_purple_eyes_6:0 ""
-  trait_purple_eyes_7:0 ""
-  trait_purple_eyes_8:0 ""
-  trait_purple_eyes_9:0 ""
-  trait_purple_eyes_10:0 ""
-  trait_purple_eyes_11:0 ""
-  trait_purple_eyes_12:0 ""
-  trait_purple_eyes_13:0 ""
-  trait_purple_eyes_14:0 ""
-  trait_purple_eyes_15:0 ""
-  trait_purple_eyes_16:0 ""
-  strong_seed_desc:0 ""
-
-  #History
+ #History
   trait_history:0 "Storico"
 
   trait_hidden:0 ""

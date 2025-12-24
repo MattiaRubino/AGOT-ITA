@@ -3,13 +3,12 @@
 
   AGOT_VASSALIZATION_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Guerra di Vassallaggio per il Trono di Spade"
   AGOT_VASSALIZATION_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
-  
-  # AGOT CLAIMANT WAR
 
+ #AGOT CLAIMANT WAR
   agot_duskendale_claimant_war:0 "Guerra del Pretendente"
   agot_duskendale_iron_throne_war:0 "Guerra del Pretendente"
 
-  # AGOT REBELLION
+ #AGOT REBELLION
   agot_independence_war:0 "Guerra d'Indipendenza"
   agot_independence_war_name:0 "Guerra d'Indipendenza"
 
@@ -18,7 +17,6 @@
   agot_rebellion_war_victory_desc:0 "Con il successo della sua ribellione, [attacker.GetTitledFirstName] deciderà chi governerà il [defender.GetPrimaryTitle.GetName]."
   agot_rebuild_realm_effect_loc:0 "\nCon la fine della guerra, il vecchio ordine sarà ripristinato, ma continuerà a reggere?" 
   agot_rebuild_realm_effect_loc_past:0 "\nCon la fine della guerra, il vecchio ordine è stato ripristinato, ma continuerà a reggere?"
-  agot_rebellion_war_white_peace_desc_defender:0 "Pace bianca difensore - Boss non valido. Diglielo se vedi questo."
   agot_rebellion_war_white_peace_desc_defender:0 "Pace bianca difensore - Bersaglio non valido. Informare Gaytriarch se si vede questo."
   agot_rebellion_war_white_peace_desc:0 "Pace bianca attaccante - Bersaglio non valido. Informare Gaytriarch se si vede questo."
   agot_rebellion_war_defeat_desc_defender:0 "La ribellione di [attacker.GetNamePossessive] per il [defender.GetPrimaryTitle.GetName] è fallita. [defender.GetName] deciderà il destino dei ribelli."
@@ -27,30 +25,38 @@
   agot_reconquest_war:0 "Riconquista"
   agot_reconquest_war_name:0 "Riconquista"
 
-  # AGOT REVOLT
+ #AGOT REVOLT
   agot_revolt_war:0 "Rivolta"
   agot_revolt_war_name:0 "Rivolta contro [DEFENDER.GetShortUINameNotMe]"
   agot_revolt_war_victory_desc:0 "[attacker.GetName] e i ribelli riescono ad evitare la punizione e minare l'autorità di [defender.GetNamePossessive]."
   agot_revolt_war_white_peace_desc:0 "Questa è una guerra di rivolta, ma non è una pace bianca. Se lo vedi, dillo a Gaytriarch."
   agot_revolt_war_defeat_desc_defender:0 "La rivolta di [attacker.GetNamePossessive] è fallita, e la punizione che hanno cercato di evitare ora si abbatterà su di loro."
   agot_revolt_war_defeat_desc:0 "La rivolta di [attacker.GetNamePossessive] fallisce, e la pena originale dei ribelli si concretizza."
- 
-  # AGOT FACTION
+
+ #AGOT FACTION
   agot_claimant_faction_war:0 "Guerra per la Rivendicazione"
   agot_liberty_faction_war:0 "Guerra per la Libertà"
 
-  wildling_raid_wars_victory_desc:0 "I Bruti hanno sopraffatto la Guardia e prenderanno tutto ciò che possono portare!"
-  wildling_raid_wars_defeat_desc:0 "I Bruti sono stati sconfitti dalla Guardia, come è accaduto per migliaia di anni."
-
-  #AGOT TODO
-  wildling_raid_wars_white_peace_desc:0 "Placeholder White Peace Text"
-  wildling_raid_wars_invalidated_desc:0 "Placeholder Invalidated Text"
-
+ #Wildling Raid
   WILDLING_RAID_WAR_NAME:0 "Raid dei Bruti"
   WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
   wildling_raid_cb:0 "Raid dei Bruti"
   WILDLINGS:0 "Bruti"
+  wildling_raid_wars_victory_desc:0 "I Bruti hanno sopraffatto la Guardia e prenderanno tutto ciò che possono portare!"
+  wildling_raid_wars_defeat_desc:0 "I Bruti sono stati sconfitti dalla Guardia, come è accaduto per migliaia di anni."
+ #AGOT TODO
+  wildling_raid_wars_white_peace_desc:0 "Placeholder White Peace Text"
+  wildling_raid_wars_invalidated_desc:0 "Placeholder Invalidated Text"
 
+ #Wildling Diminish
+wildling_diminish_cb: "Guerra di Riduzione"
+WILDLING_DIMINISH_CB_NAME: "Guerra di Riduzione"
+ WILDLING_DIMINISH_WAR_NAME:0 "$WILDLING_DIMINISH_CB_NAME$"
+ WILDLING_DIMINISH_WAR_NAME_BASE:0 "$WILDLING_DIMINISH_CB_NAME$"
+wildling_diminish_defeat_desc: "Il reame bersaglio si frantuma."
+wildling_diminish_victory_desc: "Il reame bersaglio resta intatto."
+ wildling_diminish_white_peace_desc:0 "$wildling_diminish_victory_desc$"
+ wildling_diminish_invalidated_desc:0 "$wildling_diminish_victory_desc$"
 
   RECLAIM_CB_NAME:0 "Recupera le Terre dei Guardiani della Notte [de_jure|E]"
   RECLAIM_CB_WAR_NAME:1 "$ORDER$ Guerra di Riconquista dei Guardiani della Notte [ATTACKER.GetPrimaryTitle.GetAdjective]"
@@ -58,15 +64,15 @@
   de_reclaim_wall_victory_desc:0 "I Bruti sono sconfitti e la terra è stata restituita ai Guardiani della Notte."
   de_reclaim_wall_defeat_desc:0 "I Bruti hanno respinto con successo l'offensiva, mantenendo il territorio reclamato dai Guardiani della Notte."
 
-  STEPSTONES_CONQUEST_CB_NAME:0 "Conquista delle Terre Contese per [county|E]"
+DISPUTED_LANDS_CONQUEST_CB_NAME: "Conquista delle Terre Contese per [county|E]"
   disputed_lands_conquest_cb:0 "Conquista delle Terre Contese"
 
   iron_throne_decision_troops:0 "La Guardia Del Conquistatore"
 
-  stepstones_adventurer_conquest:0 "Conquista delle Stepstones"
-  stepstones_adventurer_event_troops:0 "Avventurieri Pirati"
-  STEPSTONES_ARMY_NEUTRAL_NAME:0 "Equipaggio Pirata"
- 
+pirate_adventurer_conquest: "Conquista Pirata"
+pirate_adventurer_event_troops: "Avventurieri Pirati"
+PIRATE_ARMY_NEUTRAL_NAME: "Ciurma Pirata"
+
   reclaim_captives_war_victory_desc:0 "Liberi tutti i prigionieri detenuti da [defender.GetShortUIName|U] e dai loro [vassals|e]."
   reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] libera tutti i prigionieri detenuti da te e dai tuoi [vassals|e]."
   reclaim_captives_war_white_peace_desc:0 "Nessun prigioniero viene liberato."
@@ -76,7 +82,6 @@
   RECLAIM_CAPTIVES_NAME:0 "Liberazione dei Prigionieri"
   RECLAIM_CAPTIVES_WAR_NAME:1 "Liberazione dei Prigionieri [DEFENDER.Custom('IT_NAM_COL2')][DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 
-  
   agot_blackfyre_claim:0 "Ribellione dei Blackfyre"
   BLACKFYRE_WAR_NAME:0 "[ATTACKER.Custom('BlackfyreRebellions')]"
   agot_blackfyre_claim_first:0 "La Ribellione dei Blackfyre"
@@ -91,7 +96,6 @@
   agot_blackfyre_claim_tenth:0 "La Decima Ribellione dei Blackfyre"
   agot_blackfyre_claim_more:0 "Un'Altra Maledetta Ribellione dei Blackfyre"
 
-
   ninepenny_conquest_cb:0 "Conquista dei Nove Soldi"
   NINEPENNY_WAR_NAME:2 "$ORDER$ Guerra della Band of Nine per la Rivendicazione di [CLAIMANT.GetShortUINamePossessive] su [TITLE.GetBaseName]"
   ninepenny_conquest_cb_victory_desc_defender:0 "[claimant.GetShortUIName|U] si impadronisce del titolo [title|E] obiettivo."
@@ -105,7 +109,6 @@
   reyne_rebellion:0 "Ribellione dei Reyne"
   REYNE_REBELLION_NAME:0 "La Ribellione dei Reyne"
 
-
   agot_faegon_landing_war_invalidated: "L'invasione [attacker.Custom('IT_NAM_COL2')][attacker.GetFullNameRegnal|U] è stata annullata a causa della morte [attacker.Custom('IT_NAM_COL2')][attacker.GetFullNameRegnal|U]"
   agot_faegon_landing_defeat_desc_defender: "Sconfiggo [attacker.GetFullNameRegnal|U] e mantengo il controllo su [defender.GetPrimaryTitle.GetName]"
   agot_faegon_landing_defeat_defeat_desc: "[attacker.GetFullNameRegnal|U] viene imprigionat[attacker.Custom('DE_END_PRO_S_N')]"
@@ -115,7 +118,7 @@
   agot_duskendale_independence_war:0 "Guerra per l'Indipendenza di Duskendale"
   AGOT_DUSKENDALE_INDEPENDENCE_WAR_NAME:0 "Guerra per l'Indipendenza di [ATTACKER.GetPrimaryTitle.GetNameNoTier] di [ATTACKER.GetTitledFirstNamePossessive]"
 
-  # Eventi Bastardi AGOT
+ #AGOT Bastard Events
   agot_bastard_claimant_war:0 "Guerra del Pretendente Bastardo Reale"
   agot_bastard_claimant_war_no_nickname:0 "$agot_bastard_claimant_war$"
   agot_bastard_claimant_war_name_nicked:0 "La Guerra [CLAIMANT.Custom('IT_NAM_COL2')][CLAIMANT.GetNicknameNoTooltip]"
@@ -125,9 +128,7 @@
   agot_bastard_claimant_war_white_peace:0 "[attacker.GetName] e [defender.GetName] concordano di cessare gli scontri. [claimant.GetName] tornerà a casa e la questione sarà archiviata."
   agot_bastard_claimant_war_defeat:0 "[defender.GetName] vincerà e i ribelli saranno sottoposti al suo giudizio."
 
-
-  #Disrupt Piracy
-
+ #Disrupt Piracy
   DISRUPT_PIRACY_WAR_NAME:0 "Distruggere la Pirateria"
   DISRUPT_PIRACY_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective] contro [DEFENDER.GetPrimaryTitle.GetName]"
   DISRUPT_PIRACY_CB:0 "Distruggere la Pirateria"
@@ -138,19 +139,18 @@
   DISRUPT_PIRACY_COASTAL_GOOD:0 "Con i pirati di [defender.GetPrimaryTitle.GetNameNoTier|U] sconfitti, le tue [counties|E] costiere sono più sicure dalla pirateria, aumentando il [county_control|E] per #V 2 anni."
   DISRUPT_PIRACY_COASTAL_BAD:0 "Con [attacker.Custom('DE_ART_DEF_P_A')] [attacker.GetLadyLord|U] incapace di controllare la minaccia dei pirati, i moli una volta affollati delle tue [counties|E] costiere rimangono vuoti, abbassando [county_control|E], [county_opinion|E], e [development|E] per #V 2 anni."
 
-  #Shattered World Conquest
+ #Shattered World Conquest
   SHATTERED_CONQUEST_DUCHY_CB_NAME:1 "Conquistare  [duchy|E]"
   SHATTERED_CONQUEST_WAR_NAME:2 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquista del [TITLE.GetBaseName]"
   SHATTERED_CONQUEST_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 
-  #Crannogman Ambush
+ #Crannogman Ambush
   CRANNOGMAN_AMBUSH_CB_NAME:0 "Agguato nella palude"
   CRANNOGMAN_AMBUSH_CB_NAME_BASE:0 "Agguato nella palude"
   CRANNOGMAN_AMBUSH_CB:0 "Agguato nella palude"
   crannogman_ambush_cb:0 "Agguato nella palude"
 
-  #Dragon Conquests
-
+ #Dragon Conquests
   dragon_county_conquest_cb:1 "Conquista Draconica della [county|E]"
   dragon_duchy_conquest_cb:1 "Conquista Draconica del [duchy|E]"
   dragon_ducal_conquest_cb:1 "Unisci Draconicamente del [duchy|E]"
@@ -171,7 +171,7 @@
   declared_draconic_subjugation_war_flag_tt:0 "\n\n#X Puoi tentare solo una Sottomissione Draconica [war|e] per vita#!"
   empire_destroyed_effect_tt:0 "@warning_icon! #X [de_jure_target_empire.GetName] sarà distrutto e [de_jure_target.GetName] sarà creato per essere conquistato in guerra.#!"
 
-  #Scenario Dragon Wars
+ #Scenario Dragon Wars
   truce_stepstones_holders_trp:0 "Gli eventi nelle Stepstones devono ancora essere risolti."
   daemon_stepstones_first_war:0 "Sbarco nelle Stepstones"
   DAEMON_FIRST_STEPSTONE_WAR_NAME:0 "[ATTACKER.GetFirstNamePossessive] Sbarco nelle Stepstones"
@@ -184,10 +184,10 @@
   DAEMON_TRIARCHY_CONQUEST_WAR_NAME_BASE: "Guerra di [ATTACKER.GetFirstNamePossessive] per le Tre Figlie"
   DAEMON_SECOND_STEPSTONE_WAR_CB_NAME:0 "Guerra per le Stepstones" # Non dovrebbe mai essere visto
   daemon_invades_triarchy_war:0 "Guerra per le Tre Figlie"
-
   admiral_subjugation_cb:0 "Sottomissione dell'ammiraglio"
-  
-    # Braavos-Pentos Event Treaty
+triarchy_anti_daemon_war: "Guerra di Rivendicazione"
+
+ # Braavos-Pentos Event Treaty
   reinstate_braavos_pentos_treaty:0 "Riaffermare il Trattato Braavos‑Pentos"
   reinstate_braavos_pentos_treaty_war_name:0 "Guerra per riaffermare il Trattato Braavos‑Pentos"
   reinstate_braavos_pentos_treaty_victory_desc:0 "[attacker.GetName] riafferma con successo il Trattato Braavos‑Pentos."
@@ -195,7 +195,7 @@
   reinstate_braavos_pentos_treaty_defeat_desc:0 "La guerra di [attacker.GetNamePossessive] fallisce e il Trattato Braavos‑Pentos non viene riaffermato."
   reinstate_braavos_pentos_treaty_on_defeat_tt:0 "I leader Braavosi non potranno più riaffermare il Trattato Braavos‑Pentos."
 
-  # Fourth Braavosi-Pentoshi War
+ # Fourth Braavosi-Pentoshi War
   fourth_braavosi_pentoshi_war:0 "Guerra Braavosi‑Pentoshi"
   fourth_braavosi_pentoshi_war_desc:0 "La scommessa di Braavos di colpire mentre Pentos sembrava debole dà i suoi frutti, stabilendo una maggiore egemonia su Andalos."
   fourth_braavosi_pentoshi_war_victory_desc:0 "Braavos si impadronirà della maggior parte dei territori rimasti a Pentos su Andalos."
@@ -203,10 +203,9 @@
   fourth_braavosi_pentoshi_war_on_defeat_desc:0 "L'invasione di [attacker.GetNamePossessive] fallisce e Pentos respinge Braavos da Andalos."
   fourth_braavosi_pentoshi_war_on_defeat_tt:0 "Tutte le terre possedute da Braavos in Andalos saranno trasferite a Pentos."
 
-
-  #Succession War
+ #Succession War
   agot_succession_war: "Guerra di Successione"
-  #agot_succession_war_name: "Guerra di Successione"
+ #agot_succession_war_name: "War of Succession"
   agot_succession_war_name:0 "[ATTACKER.Custom('WarOfSuccessionNumbers')] [ATTACKER.Custom('WarOfSuccessionNames')]"
   agot_war_of_succession_number_one:0 "La"
   agot_war_of_succession_number_two:0 "La Seconda"
@@ -230,91 +229,81 @@
   agot_war_of_succession_number_twenty:0 "La Ventesima"
   agot_war_of_succession_number_billion:0 "La Miliardesima"
 
-  # Crownlands
+ #Crownlands
   agot_war_of_succession_name_Targaryen:0 "Danze dei Draghi"
   agot_war_of_succession_name_Valeryon:0 "Cambio delle Maree"
   agot_war_of_succession_name_Celtigar:0 "Colpi dei Granchi"
-  agot_war_of_succession_name_Darklyn:0 "Danze per il Crepuscolo"
-  agot_war_of_succession_name_Massey:0 "Danze di Pietra"
-
-  # North
+agot_war_of_succession_name_Darklyn: "Danza per il Crepuscolo"
+agot_war_of_succession_name_Massey: "Danza della Pietra"
+ #North
   agot_war_of_succession_name_Stark:0 "Guerra dei Lupi"
   agot_war_of_succession_name_Mormont:0 "Ira degli Orsi"
   agot_war_of_succession_name_Bolton:0 "Sangue Versato"
   agot_war_of_succession_name_Manderly:0 "Guerra dei Tritoni"
-  agot_war_of_succession_name_Forrester:0 "Ira del Ferro"
-  agot_war_of_succession_name_Umber:0 "Ira dei Giganti"
-  agot_war_of_succession_name_Glover:0 "Guanto di Sfida"
-  agot_war_of_succession_name_Dustin:0 "Profanazione"
-  agot_war_of_succession_name_Ryswell:0 "Ira dei Cavalieri"
-
-  # Riverlands
+agot_war_of_succession_name_Forrester: "Taglio Raso"
+agot_war_of_succession_name_Umber: "Ira dei Giganti"
+agot_war_of_succession_name_Glover: "Il Guanto di Sfida"
+agot_war_of_succession_name_Dustin: "Profanazione"
+agot_war_of_succession_name_Ryswell: "Battere di Zoccoli"
+ #Riverlands
   agot_war_of_succession_name_Tully:0 "Guerra della Famiglia e dell'Onore"
   agot_war_of_succession_name_Blackwood:0 "Ira dei Corvi"
   agot_war_of_succession_name_Bracken:0 "Tuono degli Zoccoli"
   agot_war_of_succession_name_Frey:0 "Scontro dei Passaggi"
-  agot_war_of_succession_name_Darry:0 "Vendemmia del Caos"
-  agot_war_of_succession_name_Strong:0 "Rissa"
-
-  # Vale
+agot_war_of_succession_name_Darry: "Aratura Sanguinosa"
+agot_war_of_succession_name_Strong: "Rissa"
+ #Vale
   agot_war_of_succession_name_Arryn:0 "Guerra dell'Alto Onore"
   agot_war_of_succession_name_Royce:0 "Offuscamento"
   agot_war_of_succession_name_Baelish:0 "Ballata degli Uccellini"
-  agot_war_of_succession_name_Corbray:0 "Guerra dei Desolati"
-  agot_war_of_succession_name_Sunderland:0 "Sventramento"
-
-
-  # Iron Islands
+agot_war_of_succession_name_Corbray: "Guerra Desolata"
+agot_war_of_succession_name_Sunderland: "Dissolvimento"
+ #Iron Islands
   agot_war_of_succession_name_Greyjoy:0 "Scontro di Kraken"
   agot_war_of_succession_name_Harlaw:0 "Grande Mietitura"
   agot_war_of_succession_name_Goodbrother:0 "Guerra dei Fratelli"
-  agot_war_of_succession_name_Hoare:0 "La Semina Nera"
-  agot_war_of_succession_name_Codd:0 "Scontro tra Codd"
-
-  # Stormlands
+agot_war_of_succession_name_Hoare: "Semina Nera"
+agot_war_of_succession_name_Codd: "Scontro dei Codd"
+ #Stormlands
   agot_war_of_succession_name_Baratheon:0 "Scontro delle Corna"
   agot_war_of_succession_name_Estermont:0 "Guerra delle Tartarughe"
   agot_war_of_succession_name_Dondarrion:0 "Guerra della Luce della Tempesta"
   agot_war_of_succession_name_Tarth:0 "Guerra del Sole e della Luna"
   agot_war_of_succession_name_Seaworth:0 "Assalto delle Cipolle"
-  agot_war_of_succession_name_Connington:0 "Rancore del Grifone"
-  agot_war_of_succession_name_Swann:0 "Semina dei Cigni"
-  agot_war_of_succession_name_Selmy:0 "Vendemmia Insanguinata"
-
-  # Westerlands
+agot_war_of_succession_name_Connington: "Rancore del Grifone"
+agot_war_of_succession_name_Swann: "Ballata dei Cigni"
+agot_war_of_succession_name_Selmy: "Raccolto Crudele"
+ #Westerlands
   agot_war_of_succession_name_Lannister:0 "Ruggito dei Leoni"
   agot_war_of_succession_name_Reyne:0 "Ruggito del Leone Rosso"
   agot_war_of_succession_name_Clegane:0 "Mischia di Bastardi"
-  agot_war_of_succession_name_Lydden:0 "Rissa delle Donnole"
-  agot_war_of_succession_name_Brax:0 "Corna Rotte"
-  agot_war_of_succession_name_Crakehall:0 "Incornare"
-  agot_war_of_succession_name_Banefort:0 "Guerra Incappucciata"
-
-  # Reach
+agot_war_of_succession_name_Lydden: "Rissa dei Tassi"
+agot_war_of_succession_name_Brax: "Corni Spezzati"
+agot_war_of_succession_name_Crakehall: "Infilzamento"
+agot_war_of_succession_name_Banefort: "Guerra Incappucciata"
+ #Reach
   agot_war_of_succession_name_Tyrell:0 "Guerra delle Rose"
   agot_war_of_succession_name_Hightower:0 "Guerra del Faro"
   agot_war_of_succession_name_Florent:0 "Guerra della Volpe"
   agot_war_of_succession_name_Redwyne:0 "Vendemmia Insanguinata"
   agot_war_of_succession_name_Tarly:0 "Guerra dei Cacciatori"
-  agot_war_of_succession_name_Gardener:0 "Avvizzimento"
-
-  # Dorne
+agot_war_of_succession_name_Gardener: "Appassimento"
+ #Dorne
   agot_war_of_succession_name_Martell:0 "Guerra del Sole e della Lancia"
   agot_war_of_succession_name_Dayne:0 "Guerra del Mattino"
   agot_war_of_succession_name_Yronwood:0 "Guerra del Sangue Reale"
-  agot_war_of_succession_name_Qorgyle:0 "Guerra del pozzo avvelenato"
-  agot_war_of_succession_name_Uller:0 "Fuoco Infernale"
-  agot_war_of_succession_name_Jordayne:0 "Guerra del Potere"
-  agot_war_of_succession_name_Toland:0 "Luce dei Fantasmi"
-  agot_war_of_succession_name_Dalt:0 "Raccolto Acido"
-  agot_war_of_succession_name_Fowler:0 "Guerra del Falco"
-  agot_war_of_succession_name_Manwoody:0 "Spezzacranio"
-
-  # Fallback
+agot_war_of_succession_name_Qorgyle: "Guerra del Pozzo Avvelenato"
+agot_war_of_succession_name_Uller: "Fuoco Infernale"
+agot_war_of_succession_name_Jordayne: "Guerra di Potere"
+agot_war_of_succession_name_Toland: "Scavo di Tombe"
+agot_war_of_succession_name_Dalt: "Raccolto Aspro"
+agot_war_of_succession_name_Fowler: "Lotta del Falco"
+agot_war_of_succession_name_Manwoody: "Spaccateste"
+ #Fallback
   agot_war_of_succession_name_fallback:0 "Guerra di Successione"
   AGOT_CB_RECLAIMING_DYNASTY_TITLES:0 "Riconquistare i Titoli della Tua Dinastia"
 
-  #Usurper Cusloc
+ #Usurper Cusloc
   agot_usurper_standard:0 "Usurpatore"
   agot_usurper_pretender:0 "Pretendente"
   agot_usurper_mummer_king:0 "Re Bugiardo"

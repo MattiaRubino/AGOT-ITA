@@ -1,25 +1,23 @@
 ﻿l_spanish:
 
-  #AGOT COURT POSITIONS
+ #AGOT COURT POSITIONS
 
-  #King's Justice - Executioner re-flavour
-  #King's Counter/Sclaes?
-  #Keeper of Keys?
-  #Wardens of Mint?
-  #Lord Confessor/Keeper of the Cells
-  #Gold Cloaks
-  #Head Dragonkeeper
+ #King's Justice - Executioner re-flavour
+ #King's Counter/Sclaes?
+ #Keeper of Keys?
+ #Wardens of Mint?
+ #Lord Confessor/Keeper of the Cells
+ #Gold Cloaks
+ #Head Dragonkeeper
 
 
-  ## TRAITS ##
-
+ ## TRAITS ##
   court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
   court_position_education_martial_2_trait:0 "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
   court_position_education_martial_3_trait:0 "[GetTrait('education_martial_3').GetName( ROOT.Char )]"
   court_position_education_martial_4_trait:0 "[GetTrait('education_martial_4').GetName( ROOT.Char )]"
 
   court_position_disloyal_trait:0 "[GetTrait('disloyal').GetName( ROOT.Char )]"
-
   court_position_authoritative_trait:0 "[GetTrait('authoritative').GetName( ROOT.Char )]"
   court_position_inquisitve_trait:0 "[GetTrait('inquisitive').GetName( ROOT.Char )]"
   court_position_rude_trait:0 "[GetTrait('rude').GetName( ROOT.Char )]"
@@ -27,8 +25,7 @@
   court_position_historic_title_holder:0 "Detentore Storico del Titolo"
 
 
-  #Positions 
-
+ # Positions
   maester_court_position:0 "Maestro" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')]
   maester_tradition_bonus:0 "Da [culture_tradition|E]"
   maester_court_position_desc:1 "Il $maester_court_position$ è responsabile della salute e del benessere della [court|E] nella quale si trova. Curerà le malattie e suturerà le ferite al meglio delle proprie capacità."
@@ -38,7 +35,6 @@
   grandmaester_tradition_bonus:0 "Da [culture_tradition|E]"
   grandmaester_court_position_desc:1 "Il $grandmaester_court_position$ è responsabile della salute e del benessere della famiglia reale. Curano le malattie e suturano le ferite nel miglior modo possibile."
   grandmaester_employer_custom_effect_description:1 "Effettua [medical_treatments|E]#!\nMigliora gli esiti dell'[education|E]\nSblocca l'interazione #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X [agent|E] Potente nei [hostile_schemes|E] contro di te#!"
-
 
   household_guard_court_position:0 "Capitano della Guardia della Casata"
   household_guard_tradition_bonus:0 "Da [culture_tradition|E]"
@@ -68,7 +64,7 @@
   warden_of_the_west_court_position_desc:1 "Il Protettore dell'Ovest è incaricato di difendere l'Ovest in caso di minacce o invasioni straniere."
   warden_of_the_south_court_position:0 "Protettore del Sud"
   warden_of_the_south_court_position_desc:1 "Il Protettore del Sud è incaricato di difendere il Sud in caso di minacce o invasioni straniere."
-  
+
   goldcloaks_court_position:0 "Comandante della Guardia Cittadina"
   goldcloaks_tradition_bonus:0 "Da [culture_tradition|E]"
   goldcloaks_court_position_desc:0 "Il $goldcloaks_court_position$ è il comandante della Guardia Cittadina di Approdo del Re, una posizione di notevole prestigio e importanza."
@@ -80,7 +76,7 @@
   court_smith_court_position:0 "Fabbro di Corte"
   court_smith_court_position_desc:2 "Il $court_smith_court_position$ è responsabile della manutenzione e cura delle opere metalliche."
 
-  # Cavaliere di Sangue
+ # Bloodrider
   bloodrider_court_position:0 "Cavaliere di Sangue"
   bloodrider_court_position_desc:0 "Un $bloodrider_court_position$ è un guardiano — legato da un giuramento di sangue come fratello e compagno — giurato a proteggere il proprio leader. Non è soltanto un vincolo di servizio: è un legame infrangibile tra le loro anime, che dura finché il loro capo vive. Se dovessero fallire nel loro compito, il giuramento si trasforma in vendetta... e infine in morte, quando raggiungeranno il loro leader nell'aldilà."
   bloodrider_employer_custom_effect_description: "$BULLET$Ha una possibilità di sventare complotti di [GetScheme('murder').GetTypeName] [schemes|E]#!\n$BULLET$Riduce il rischio che tu muoia o venga catturato in [battles|E] in cui combattete insieme#!\n$BULLET$Otterrà il tratto [GetTrait('loyal').GetName( GetNullCharacter )] [trait|E] e diventerà tuo [friend|E], se non lo è già\n$BULLET$Si toglierà la vita alla tua morte per onorare il giuramento di sangue"
@@ -88,9 +84,7 @@
   first_sword_court_position:0 "Primo Spada di Braavos"
   first_sword_court_position_desc:0 "Il $first_sword_court_position$ è il principale protettore del Signore del Sigillo di Braavos."
 
-
-  #NIGHTS WATCH
-
+ # NIGHTS WATCH
   nw_septon:0 "Septon"
   nw_septon_desc:0 "Il septon residente che serve i fratelli della Guardiani della Notte che seguono i Sette."
 
@@ -167,9 +161,9 @@
   b_greenguard_keeper_employer_custom_effect_description:0 "Cura e protegge Greenguard"
   b_greenguard_keeper_desc:0 "Cura e protegge Greenguard"
 
-  ################
-  # DRAGONKEEPER #
-  ################
+ ################
+ # DRAGONKEEPER #
+ ################
 
   head_dragonkeeper_court_position:0 "Capo guardiano dei draghi"
   head_dragonkeeper_court_position_desc:1 "Il $head_dragonkeeper_court_position$ è il capo dell'ordine dei [dragonkeeper|E] cui serve. Proteggeranno e allevano [dragons_plural|e] nel [dragonpit|e] al meglio delle loro capacità."
@@ -182,11 +176,10 @@
   court_position_professional_dragonkeeper_training:0 "Formazione Professionale per Custodi di Draghi"
   court_position_standarized_dragonkeeper_training:0 "Formazione Standardizzata per Custodi di Draghi"
 
-
-  #cost descs
+ # cost descs
   agot_laamp_cost_reduction:0 "Sei senza terre"
 
-  # Maestro VS Medico per localizzazione evento
+ # Maester VS Physician for event loc
   agot_physician_essos:0 "medico"
   agot_physician_maester:0 "maestro"
 

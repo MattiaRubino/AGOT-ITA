@@ -1,30 +1,21 @@
 ﻿l_spanish:
   agot_silly_mode.0002.t:0 "Uovo-stra Prigioniero"
-
   agot_silly_mode.0002.desc:0 ""Mi[ROOT.Char.GetLadyLord|l], Aegon è stato rinchiuso in una delle celle più oscure della Fossa del Drago," annuncia il Custode dei Draghi, chinandosi leggermente. "Non so perché tu abbia ordinato di rinchiuderlo lì anziché nelle Celle Nere, ma se un luogo è adatto a contenere un drago, dovrebbe reggere anche un uomo."\n\nLo fisso, sbalordito. Qualcuno potrebbe chiamare Aegon “Egg”, ma come ha potuto il mio ordine di spostare tutte le uova di drago non ancora assicurate nella Fossa per la schiusa essere frainteso in modo così clamoroso?"
-
   agot_silly_mode.0002.desc_mult:0 ""Mi[ROOT.Char.GetLadyLord|l], gli Aegon sono stati rinchiusi in una delle celle più oscure della Fossa del Drago," annuncia il Custode dei Draghi, chinandosi leggermente. "Non so perché tu abbia ordinato di rinchiuderli lì anziché nelle Celle Nere, ma se un luogo è adatto a contenere un drago, dovrebbe reggere anche un gruppo di uomini."\n\nLo fisso, sbalordito. Qualcuno potrebbe chiamare gli Aegon “Eggs”, ma come ha potuto il mio ordine di trasferire tutte le uova di drago non ancora assicurate nella Fossa per la schiusa essere frainteso in modo così clamoroso?"
-
   agot_silly_mode.0002.a:0 "Non era quello che intendevo!"
   agot_silly_mode.0002.b:0 "Io... certo, grazie."
 
   agot_silly_mode.0100.t:0 "Una Strana Delizia"
-
   agot_silly_mode.0100.desc:0 "Un altro giorno, un’altra mansione umile. Governare può essere terribilmente banale a volte, l’unica sorpresa è la competenza occasionale di chi mi circonda.\n\nOggi, con mio sgomento, irrompe un tipo squamoso — una creatura tanto nefasta quanto meschina — con un #italic dono bizzarro!#! “Torta fresca #bold!#, mi[ROOT.Char.GetLadyLord|l],” dichiara in tono allegro la figura ombrosa. “Una strana fanciulla ci ha fornito la carne più delicata per il ripieno.”\n\nNon ho l’abitudine di fidarmi di vivande offerte da sconosciuti, eppure l’aroma è così invitante…"
-
   agot_silly_mode.0100.a:0 "Solo un morso..."
   agot_silly_mode.0100.b:0 "Meglio di no."
 
   agot_silly_mode.0200.t:0 "Un’Uovo-ccellente Idea"
-
   agot_silly_mode.0200.desc:0 "Il cuoco entra, i passi incerti, gli occhi sbarrati dall’apprensione. “Mi hai inviato a chiamare, mi[ROOT.Char.GetLadyLord|l]?”\n\n“Sì, vorrei un’omelette. Una molto speciale,” rispondo, girandomi di lato per prendere la mia... scelta.\n\nLe sue sopracciglia si aggrottano per la confusione, ma presto lasciano il posto allo stupore mentre poso nelle sue mani tremanti l’uovo di drago. “Io... non sono sicuro di... se è quello che desideri,” balbetta, guardando l’uovo come se dovesse esplodere da un momento all’altro.\n\nGli rivolgo un cenno, il sorriso che si allarga. “Ho un certo languorino. Non metterci troppo tempo.”"
-
   agot_silly_mode.0200.a:0 "Non vedo l’ora!"
 
   agot_silly_mode.0201.t:0 "Un’Uovo-ccellente Idea"
-
   agot_silly_mode.0201.desc:0 "Il cuoco ritorna, provato e leggermente disfatto. Posa il piatto davanti a me con un gesto nervoso, l’omelette dall’aspetto perfettamente ordinario. Non c’è nulla che tradisca il leggendario uovo di drago da cui è stata fatta. È dorata, leggermente soffice, e profuma vagamente di erbe.\n\n“Spero sia di tuo gradimento, mi[ROOT.Char.GetLadyLord|l],” dice con voce tremante.\n\nMi chino sul piatto, deluso. Niente bagliori, nessuna aura magica, solo una buona colazione. Assaggio."
-
   agot_silly_mode.0201.a:0 "È... meravigliosa!"
   agot_silly_mode.0201.b:0 "È uovo-eccezionale!"
   agot_silly_mode.0201.c:0 "È uovo-straordinaria!"
@@ -38,8 +29,18 @@
   agot_silly_mode.0202.a:0 "Tu sei ciò che mangi."
 
   agot_silly_mode.0302.t:0 "L’Assalto Tentacolare"
-
   agot_silly_mode.0302.desc:0 "I predoni travolgono Oldtown in un’onda di sale e acciaio. Quando raggiungono l’ombra della Hightower, il mare ruggisce in segno di sfida — o forse di benvenuto. Un’enorme massa si solleva dal porto, sommergendo decine di uomini, mentre un colossale kraken emerge dagli abissi. I suoi tentacoli, spessi come le mura di un castello, si avvolgono attorno all’antica torre. Con un gemito di pietra che cede, la Hightower si stacca dalle fondamenta e sprofonda nelle profondità."
-
   agot_silly_mode.0302.a:0 "Il mare ricorda."
   agot_silly_mode.0302.b:0 "C-cosa?"```
+
+agot_silly_mode.0501.t: "Adorano... una Candela Gigante...?"
+agot_silly_mode.0501.westeros_desc: "Mentre percorro i corridoi gelidi del castello, vengo avvicinat[Select_CString(ROOT.Char.IsFemale,'a','o')] da un cortigiano che porta una pergamena sigillata, consegnata da un corvo. Prendendo il rotolo, riconosco il sigillo di cera della Cittadella. Un senso d’urgenza cala su di me mentre rompo in fretta il sigillo, aspettandomi il peggio.\n\nUna volta aperto, comincio a leggere, solo per rendermi conto che è soltanto un messaggio inoltrato da [messenger.GetName] di [GetTitleByKey('k_the_wall').GetName]. È un rapporto su un comportamento bizzarro da parte di un gruppo di Bruti nel profondo nord, i quali ora adorano ciò che chiamano la Grande Candela — una presunta candela gigantesca che sarebbe rimasta appesa nei cieli sopra le loro terre per generazioni, e che ora è misteriosamente scomparsa. Rileggo la lettera più volte prima di gettarla da parte. Resto sbalordit[Select_CString(ROOT.Char.IsFemale,'a','o')] da ciò che ho appena letto."
+agot_silly_mode.0501.not_westeros_desc: "Scorrendo la mia corrispondenza non letta, una lettera recante il sigillo di cera della Cittadella di Westeros attira il mio sguardo. La curiosità verso una simile comunicazione prende il sopravvento; decido di dedicarle attenzione per prima.\n\nApro la lettera, comincio a leggere e capisco che è soltanto un messaggio inoltrato da [messenger.GetName] di [GetTitleByKey('k_the_wall').GetName]. È un rapporto su un comportamento strano da parte di un gruppo di Bruti nel profondo nord, i quali ora adorano ciò che chiamano la Grande Candela — una presunta candela gigantesca che sarebbe rimasta appesa nei cieli sopra le loro terre per generazioni, e che ora è misteriosamente scomparsa. Rileggo la lettera più volte prima di portarmi la testa tra le mani. Che cosa ho appena letto?"
+agot_silly_mode.0501.nw_westeros_desc: "Fa sempre un freddo maledetto a [GetTitleByKey('k_the_wall').GetName]. Si dice che ci si abitui, ma è chiaramente una favola che la gente si racconta nel tentativo di renderla vera. Cercando di distrarmi, ripenso all’interrogatorio avvenuto prima nella giornata, con un bruto catturato da una pattuglia in perlustrazione. Il folle vaneggiava d’ogni sorta di assurdità su un’altra tribù di Bruti nel profondo nord che avrebbe preso ad adorare una Grande Candela nel cielo. L’affermazione era folle, persino per gli standard selvaggi dei Bruti. Fa sorgere il dubbio su che genere di mondo si estenda così a nord da spingere la gente a una tale pazzia."
+agot_silly_mode.0501.btw_westeros_desc: "Le tribù del Lago di Ghiaccio sono sempre state strane. Le voci su di loro, tra gli altri Bruti, parlano di pratiche di culto sconcertanti che coinvolgono una candela gigantesca nel cielo. Di recente, i sussurri su tali pratiche sono divenuti più forti e più frequenti, sostenendo che la Grande Candela, come la chiamano, si sia spostata dalla sua posizione nei loro cieli. L’hanno dichiarato un cattivo presagio e, di conseguenza, sono diventati ancora più zelanti. Le voci dicono che stiano sacrificando altre tribù per ricondurre la loro candela nel cielo, ancora una volta. È pura follia — quasi spaventoso soffermarcisi troppo a lungo."
+agot_silly_mode.0501.a: "Che cosa sta succedendo lassù?"
+
+agot_silly_mode.0502.t: "CAN-DE-LA, CAN-DE-LA, CAN-DE-LA."
+agot_silly_mode.0502.desc: "È passato del tempo da quando la Grande Candela si è spostata dal suo posto sopra le nostre terre dei Laghi di Ghiaccio. Non credo vi sia mai stato un tempo in cui la Grande Candela non fosse sopra di noi, bloccando la luce del sole, vegliando sul nostro popolo. Da quel giorno fatale in cui la Grande Candela si è mossa, non siamo più sotto la sua ombra divina. Il mio popolo è smarrito senza la Grande Candela a guidarlo. Barcolliamo senza meta sotto questa nuova luce abbacinante.\n\nSo che cosa devo fare. Devo unire il mio popolo sotto un glorioso nuovo cammino verso l’illuminazione, con la Grande Candela come guida! Forse, se dedichiamo le nostre vite a vivere nel nome della Grande Candela, potremo guidarla di nuovo sopra le nostre terre e ricondurci alla gloria di un tempo.\n\nDevo viaggiare e far conoscere questa nuova via — per trasmettere la saggezza e la guida della Grande Candela.\" #CANDLE!!!!!"
+agot_silly_mode.0502.a: "La Candela è saggia, la Candela è vita."
+agot_silly_mode.0502.a.tt: "L’intera tua cultura si converte ai Candelanti"

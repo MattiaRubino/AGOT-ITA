@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  # Portraits / GUI
+ # Portraits / GUI
   MATES_LABEL:0 "Compagno"
   CURRENT_HOST_LABEL:0 "Ospite"
   CURRENT_RIDER_LABEL:0 "Cavaliere"
@@ -18,16 +18,15 @@
   dragon_owner_unlanded:0 "[ROOT.Char.GetFullNamePossessive]"
   dragon_owner_landed:0 "[ROOT.Char.GetTitledFirstNamePossessive]"
 
-  # Notifications
-  # Healing
+ # Notifications
+ # Healing
   agot_dragon_healed.t:0 "[dragon.GetName] Guarito"
   agot_dragon_healed.tt:0 "[dragon.GetName] si è ripreso dalla sua ferita."
-
-  # Dragon must be in the same location alert
+ # Dragon must be in the same location alert
   agot_dragon_same_location.t:0 "Tornato al Drago"
   agot_dragon_same_location.tt:0 "Hai lasciato l'esercito a [current_location.GetName] e sei tornato al tuo drago a [dragon_location.GetName]."
 
-  # Wild dragon notifications
+ # Wild dragon notifications
   wild_dragon_returned_home.t:0 "[dragon.GetName] Tornato"
   wild_dragon_returned_home.desc:0 "[dragon.GetName] è stato avvistato mentre tornava al suo nido a [lair.GetName]."
   wild_dragon_returned_home_from.t:0 "[dragon.GetName] Volato a Casa"
@@ -39,7 +38,7 @@
   wild_dragon_left_lair.t:0 "[dragon.GetName] Errante"
   wild_dragon_left_lair.desc:0 "[dragon.GetName] è stato avvistato mentre lasciava il suo nido a [lair.GetName], diretto verso la provincia di [destination.GetName]."
 
-  # Effects
+ # Effects
   agot_spawn_dragon_effect.interface.t:0 "Il Drago Si Unisce alla Corte"
   agot_spawn_dragon_effect.interface.desc:0 "[dragon.GetName] è entrato a far parte della corte."
   agot_spawn_wild_dragon_effect.interface.t:0 "Apparizione di un Drago Selvaggio"
@@ -50,14 +49,13 @@
   free_dragon_tt:0 "[free_dragon_for_effect.GetFirstName] diventerà un [wild_dragon|E]."
   agot_dragon_hatched_from_egg_effect_tt:0 "Un [dragon|E] è nato da [egg.GetName]!"
 
-  # Dragon Mil Tooltip Stuff
+ # Dragon Mil Tooltip Stuff
   realm_dragons_faux_tt:0 "Draghi del Regno:"
   realm_dragons_faux_armies_tt:0 "Armate"
   dragons_military_war_participant_text:0 "Draghi:"
   dragons_military_war_overview_text:0 "Totale Draghi:"
   dragons_versus_war_overview_attacker_text:0 "Draghi degli Attaccanti:"
   dragons_versus_war_overview_defender_text:0 "Draghi dei Difensori:"
-
 
   building_dragonpit_effect:0 "Questo edificio funge da [dragonpit|e], permettendo al [county|e] detentore di immagazzinare [dragons_plural|e]. Tuttavia, i draghi rinchiusi al suo interno subiranno penalità alla salute e alla crescita."
   building_dragonmont_dragonpit_effect:0 "Questo edificio funge da [natural_dragonpit|e], permettendo al [county|e] detentore di immagazzinare [dragons_plural|e]. I draghi rinchiusi al suo interno subiranno penalità considerevolmente minori rispetto a quelli in una Fossa del Drago artificiale."
@@ -69,7 +67,7 @@
   I_GOT_DRAGON:1 "Sei diventato il cavaliere di drago di [TARGET_CHARACTER.GetShortUINamePossessive]"
   THEY_GOT_DRAGON:1 "[CHARACTER.GetShortUIName] è diventato il cavaliere di drago di [TARGET_CHARACTER.GetShortUINamePossessive]"
 
-  # Size checks
+ # Size checks
   dragon_size_at_least_10:0 "[dragon_size|E] è almeno 10"
   dragon_size_at_least_20:0 "[dragon_size|E] è almeno 20"
   dragon_size_at_least_30:0 "[dragon_size|E] è almeno 30"
@@ -79,7 +77,7 @@
   recipient_dragon_size_at_least_30:0 "[recipient.GetFirstName] ha almeno 30 [dragon_size|E]"
   recipient_dragon_size_at_least_40:0 "[recipient.GetFirstName] ha almeno 40 [dragon_size|E]"
 
-  # Color CusLoc Keys
+ # Color CusLoc Keys
   dragon_black_key:0 "nero"
   dragon_grey_key:0 "grigio"
   dragon_white_key:0 "bianco"
@@ -99,7 +97,7 @@
   dragon_darkest_key:0 "profondo"
   dragon_color_full:0 "[ROOT.Char.Custom('GetDragonColor')] [ROOT.Char.Custom('GetDragonColorGrade')]"
 
-  # Used in French Localisation, DO NOT REMOVE
+ # Used in French Localisation, DO NOT REMOVE
   dragon_black_key_F:0 "nero"
   dragon_grey_key_F:0 "grigio"
   dragon_white_key_F:0 "bianco"
@@ -118,6 +116,7 @@
   dragon_darker_key_F:0 "scuro"
   dragon_darkest_key_F:0 "profondo"
 
+
   tame_unbonded_dragon_scheme_scheme_power_mult:1 "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
 
   title_is_dragonpit_warning:0 "@warning_icon! #warning [target.GetNameNoTier] possiede un [dragonpit|e], cederlo comporterebbe la perdita del controllo su di esso a favore di un altro sovrano!#!"
@@ -125,4 +124,5 @@
 
   has_a_relation_dragon_trigger_tooltip:0 "Ha un [tamed_dragon|E]"
   has_a_dragon_egg_artifact_tooltip:0 "Ha un [artifact|e] uovo di [dragon|E]"
+dragon_rider_is_in_sieging_army_tooltip: "Sta cavalcando un [dragon|E] in un esercito d'assedio"
   dragons_are_extant_desc_tooltip:0 "I [dragons_plural|E] esistono nel Mondo"

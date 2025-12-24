@@ -2,14 +2,14 @@
   agot_dragonkeepers.0001.t:0 "Istituzione dell'Ordine dei Custodi dei Draghi"
   agot_dragonkeepers.0001.desc:0 "Con il completamento di una [dragonpit|E], è giunto il momento di istituire un ordine di fedeli custodi giurati a proteggere i draghi che un giorno verranno ospitati all'interno. Questi custodi, #bold i custodi dei draghi#!, non solo proteggeranno i miei draghi, ma garantiranno anche che le antiche tradizioni e la saggezza del mantenimento dei draghi vengano preservate.\n\nComandare i miei [dragonkeepers|E] non sarà un compito semplice. Fortunatamente, ho già un candidato in mente per guidare questo ordine: [head_dragonkeeper.GetName]."
   agot_dragonkeepers.0001.a:0 "Eccellente!"
+
   agot_dragonkeepers.0002.t:0 "Nominato il nuovo Capo dei Guardiani dei Draghi"
   agot_dragonkeepers.0002.desc:0 "L'Ordine dei Custodi dei Draghi ha nominato un nuovo capo per il loro illustre ordine a servizio mio.\n\nDopo aver osservato le antiche tradizioni della vecchia Valyria, [head_dragonkeeper.GetName] è stato selezionato per guidare i [dragonkeepers|E]. Che [head_dragonkeeper.GetSheHe] possa servirmi bene."
   agot_dragonkeepers.0002.a:0 "Eccellente!"
 
-
-  ####################
-  ### MISC EVENTS ####
-  ####################
+ ####################
+ ### MISC EVENTS ####
+ ####################
 
   agot_dragonkeepers.0100.t:0 "I Custodi dei Draghi"
   agot_dragonkeepers.0100.desc:0 "Con il completamento della restaurazione della [dragonpit|E], è fondamentale che ora reinstauriamo #bold l'Ordine dei Custodi dei Draghi#! per occuparne. Questi onorati custodi proteggeranno e si prenderanno cura dei draghi che un giorno saranno ospitati all'interno, oltre a garantire che le antiche tradizioni e la saggezza del mantenimento dei draghi vengano preservate.\n\nFortunatamente, si sono presentate alcune opzioni su chi dovrà guidare i [dragonkeepers|E]."
@@ -21,10 +21,9 @@
   agot_dragonkeepers.0101.desc:0 "Per la prima volta dopo molti anni, il Monte del Drago è di nuovo protetto da un ordine di custodi dei draghi. [head_dragonkeeper.GetName] è stato nominato come loro leader."
   agot_dragonkeepers.0101.a:0 "Speriamo che [head_dragonkeeper.GetSheHe] ci serva bene."
 
-
-  #####################
-  ### FLAVOR EVENTS ###
-  #####################
+ #####################
+ ### FLAVOR EVENTS ###
+ #####################
 
   agot_dragonkeepers.0300.t:0 "I Custodi dei Draghi Richiedono Maggiori Fondi"
   agot_dragonkeepers.0300.desc:0 "[head_dragonkeeper.GetName] riporta che il loro attuale budget mensile ha portato all'incapacità dei custodi dei draghi di acquistare attrezzature adeguate per l'addestramento dei nuovi recluti.\n\n"Per favore, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord], le casse dell'ordine non possono sostenere le nostre esigenze per nuovi recluti. Senza l'attrezzatura e l'addestramento adeguati, non possiamo occuparci adeguatamente delle esigenze dei tuoi draghi. Ho già inviato tre membri dell'ordine dai maestri con ferite questa settimana."\n\n"Magari un aumento dei fondi, o se gradisce mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]..." [head_dragonkeeper.GetSheHe] tira fuori un rotolo dalle sue vesti, "Ho anche una lista di attrezzature se preferisce fornirle tramite mezzi propri.""
@@ -55,7 +54,6 @@
   agot_dragonkeepers.0305.a.tt:0 "[dragon.GetName|V] ha ottenuto il [nickname|E] '[dragon.GetNickname|V]'"
   agot_dragonkeepers.0305.b:0 "Questo è #emp il mio#! drago, e lo chiamerete con il suo nome corretto."
   agot_dragonkeepers.0305.b.tt:0 "[dragon.GetName|V] non avrà il [nickname|E] '[dragon.GetNickname|V]'"
-
 
   agot_dragonkeepers.0306.t:0 "Giovane Visitatore Scoperto nella Fossa del Drago"
   agot_dragonkeepers.0306.desc:0 "[head_dragonkeeper.GetName] riporta che [child.GetName] si è intrufolat[child.Custom('DE_END_PRO_S_N')] nella fossa del drago!\n\n[child.GetSheHe|U] è stat[child.Custom('DE_END_PRO_S_N')]  trovat[child.Custom('DE_END_PRO_S_N')] san[child.Custom('DE_END_PRO_S_N')] e salv[child.Custom('DE_END_PRO_S_N')] senza incidenti, ma ha dimostrato una #italic curiosità più che sana#! nei confronti dei draghi. Molti dei Custodi dei draghi hanno coccolato il bambino, rispondendo alle sue domande.\n\nL'ordine ha già effettuato le modifiche necessarie alla sicurezza per prevenire a ulteriori #italic giovani draghi ambiziosi#! dall'accedere, ma il giovane [child.GetNameNoTooltip] sembra solo più affascinato dall'esperienza."

@@ -1,9 +1,10 @@
 ﻿l_spanish:
-  ##############################
-  ### Activity Localizations ###
-  ##############################
-  # Base
+ ##############################
+ ### Activity Localizations ###
+ ##############################
+ # Base
   activity_dragon_hatching:0 "Schiusura dell'Uovo di Drago"
+ activity_dragon_hatching_host_an_a:0 "$host_activity_a$"
   activity_dragon_hatching_desc:0 "È giunto il momento di tentare di schiudere il tuo uovo di drago. Si terrà una cerimonia per assistere a questo grande momento."
   activity_dragon_hatching_selection_tooltip:0 "Tenta di schiudere il tuo uovo di drago e inaugura una nuova era.\n\nRicompense previste:\n$agot_host_hatching_potential_reward$"
   agot_host_hatching_potential_reward:0 "$BULLET_WITH_TAB$Potrebbe schiudersi il tuo [artifact|E] Uovo di Drago , distruggendolo\n$BULLET_WITH_TAB$Se avrai successo, un [dragon|E] neonato si unirà alla tua corte\n\n#n @warning_icon! Un fallimento potrebbe portare a conseguenze inaspettate#!"
@@ -20,7 +21,7 @@
   hatching_outcome:0 "Esito della Schiusura"
   hatching_outcome_desc:0 "L'esito del tuo tentativo di schiusura sarà rivelato."
 
-  # Base - no DLC
+ # Base - no DLC
   activity_dragon_hatching_no_dlc:0 "$activity_dragon_hatching$"
   activity_dragon_hatching_no_dlc_desc:0 "$activity_dragon_hatching_desc$"
   activity_dragon_hatching_no_dlc_selection_tooltip:0 "$activity_dragon_hatching_selection_tooltip$"
@@ -31,7 +32,7 @@
   activity_dragon_hatching_no_dlc_guest_help_text:0 "$activity_dragon_hatching_guest_help_text$"
   TRAVEL_NAME_FOR_activity_dragon_hatching_no_dlc:0 "$TRAVEL_NAME_FOR_activity_dragon_hatching$"
 
-  # Options
+ # Options
   hatching_type:0 "Tipo di Schiusura"
   hatching_type_knowledge:0 "Schiusura per Conoscenza"
   hatching_type_knowledge_desc:0 "Inviterai maestri, custodi dei draghi e altri studiosi conosciuti della lore dei draghi disposti ad assisterti nella schiusura del tuo uovo di drago."
@@ -55,19 +56,20 @@
   hatching_catalyst_massive:0 "Massiccio"
   hatching_catalyst_massive_desc:0 "Con la grande quantità di conoscenze sui draghi che hai raccolto, sarai in grado di assicurarti che tutte le strade del successo siano coperte nel riscaldamento dell'uovo."
 
-  # Intent
+ # Intent
   hatch_dragon_intent:0 "Schiaffare un Drago"
   hatch_dragon_intent_desc:0 "Hai solo un interesse in questo evento: la schiusura di un [dragon|El]."
   witness_hatch_dragon_intent:0 "Assistere alla Schiusura di un Drago"
   witness_hatch_dragon_intent_desc:0 "Sei qui per assistere a un evento che si verifica una volta in una generazione: il ritorno dei [dragons_plural|El] nel mondo."
 
-  # Modifiers
+ # Modifiers
   agot_hatching_prov_has_KL_dragonpit:0 "#P +++ Has $building_type_dragonpit_01$#! ([building|E])\n"
   agot_hatching_prov_has_dragonpit:0 "#P ++ Has generic $building_type_dragonpit_01$#! ([building|E])\n"
   agot_hatching_prov_has_dragonmont:0 "#P +++ Is $building_type_dragonstone_01$#!\n"
   agot_hatching_prov_is_realm_capital:0 "#P + Is your realm capital#!\n"
   agot_hatching_prov_is_summerhall:0 "#N -- Has $building_type_agot_summerhall_01$#! ([building|E])\n"
 
+ # Extras
   agot_hatching_something_broke:0 "Qualcosa ha impedito alla cerimonia di procedere come previsto."
   agot_hatching_host_folded:0 "Hai deciso di non schiudere l'uovo."
   agot_hatching_host_folded_guest:0 "[host.GetName] ha deciso di non schiudere l'uovo."
@@ -77,7 +79,7 @@
   agot_hatching_fail_guest:0 "[host.GetName] non è riuscito a schiudere il suo uovo di drago."
   hatching_cannot_be_held:0 "A causa degli eventi attuali, un'attività di schiusura non può essere tenuta fino al 1° del Dodicesimo Mese, 268 A.C."
 
-  # Events
+ # Events
   agot_dragon_hatching.0001.t:0 "Preparativi"
   agot_dragon_hatching.0001.desc:0 "Ho inviato missive alle più grandi menti accademiche del regno per convocarle a [province.GetName] al fine di aiutarmi nella schiusura del mio uovo di drago. Già sto ricevendo risposte da maestri e studiosi della lore dei draghi.\n\nMolti sono scettici ma sinceramente curiosi di vedere schiudere un uovo di drago, mentre altri sono ansiosi di mettere alla prova le loro conoscenze per far nascere un drago nel mondo. Coloro che sono onorati di aiutare in un'impresa così grandiosa sono già in viaggio verso [province.GetNameNoTooltip]."
   agot_dragon_hatching.0001.opt.a:0 "Con molta conoscenza e un po' di fortuna, potremmo riuscire."
@@ -297,7 +299,6 @@
   agot_dragon_hatching.0016.desc_life_everyone_me:0 "Guardo i miei ospiti, uno per uno, e poi i miei guardiani. Con un cenno, iniziano a portare ciascuno in avanti. Le grida di protesta, rabbia e paura riempiono la stanza mentre ciascuno viene portato davanti all'uovo, la lama premuta contro le loro gole, e le loro vite date per la schiusa. Mi trovo davanti all'uovo, il sangue di tutti i presenti che si raccoglie intorno a me, prima che alla fine sia il mio turno. Le istruzioni sono chiare; con questo, dobbiamo sicuramente avere successo.\n\nChiudo gli occhi, sento la lama che scivola lungo la mia gola, e poi non c'è nulla..."
   agot_dragon_hatching.0016.desc_life_everyone_oh_no:0 "Ancora nessuna parola su cosa sarà sacrificato, sono scioccato mentre i soldati estraggono le loro lame e iniziano a portare ciascuno in avanti. Le grida di protesta, rabbia e paura riempiono la stanza, la mia voce tra esse. Eppure, davanti ai miei occhi, ciascuno viene portato davanti all'uovo, la lama premuta contro le loro gole, e le loro vite date per la schiusa. Obietto, ma le mie urla sono ignorate. Combatto, ma le mie lotte sono vane. Con un ultimo sguardo di odio e disprezzo, vengo portato davanti all'uovo, la lama premuta contro la mia gola, e la mia vita data per la schiusa..."
   agot_dragon_hatching.0016.desc_newline:0 "\n\n"
-
   agot_dragon_hatching.0016.desc_minor_wood:0 "Il legno è assemblato in un mucchio, e l'uovo è posto sopra di esso. Le fiamme vengono accese e il calore inizia a salire."
   agot_dragon_hatching.0016.desc_minor_coal:0 "Le braci calde sono poste sotto l'uovo, riscaldandolo da sotto."
   agot_dragon_hatching.0016.desc_minor_oil:0 "L'uovo è posto in una ciotola di olio, il liquido acceso da una torcia per iniziare il riscaldamento."
@@ -339,7 +340,6 @@
   agot_dragon_hatching.0016.desc_esoteric_lava:0 "e gettato nella vasca di lava"
   agot_dragon_hatching.0016.desc_esoteric_magnifying_glass:0 "e posto sopra l'uovo"
   agot_dragon_hatching.0016.desc_esoteric_end:0 "mentre il canto raggiunge un picco febbrile."
-
   agot_dragon_hatching.0016.desc_very_low:0 "Tutti gli occhi sono fissi sull'uovo, preparati a testimoniare di nuovo la magia dei draghi."
   agot_dragon_hatching.0016.desc_low:0 "Tutti gli occhi sono fissi sull'uovo, che sembra brillare nel calore che lo circonda."
   agot_dragon_hatching.0016.desc_medium:0 "Tutti gli occhi sono fissi sull'uovo, ogni respiro trattenuto in attesa del miracolo che deve venire."
@@ -371,7 +371,6 @@
   agot_dragon_hatching.0017.opt.b:0 "Darò ciò che è consueto."
   agot_dragon_hatching.0017.opt.b_tt:0 "Selezionerai un sacrificio di sangue"
 
-
   agot_dragon_hatching.0018.t:0 "$agot_dragon_hatching.0011.t$"
   agot_dragon_hatching.0018.desc_knowledge:0 "La scelta di chi sacrificare forzatamente è una decisione che devo considerare attentamente, poiché molti tra i presenti sono già a disagio al pensiero di una vita tolta per la schiusa. Chi scelgo sarà osservato da tutti, e devo fare attenzione a scegliere saggiamente."
   agot_dragon_hatching.0018.desc_esoteric:0 "La scelta di chi sacrificare forzatamente è una decisione che devo considerare attentamente, poiché si teorizza che il potere del sangue sia più forte quando la vita è quella di un individuo di maggiore importanza. Sangue di re, signore o comune cittadino — tutti potrebbero non essere valutati allo stesso modo..."
@@ -396,7 +395,7 @@
   agot_dragon_hatching.0019.opt.c.f:0 "Accetti il tuo destino"
   agot_dragon_hatching.0019.opt.c_tt:0 "#bold;V La tua vita#! sarà la fonte di potere per questa schiusa"
 
-  # Risultati di catastrofe
+ # Catastrophe results
   agot_dragon_hatching.0101.t:0 "Catastrofe di Ambizione!"
   agot_dragon_hatching.0101.desc:0 "Catastrofe!\n\nDavanti ai miei occhi, l'uovo si frantuma, il potere del drago al suo interno e i riti eseguiti scatenano un'ondata di distruzione. Il calore è insopportabile, le fiamme consumano tutto ciò che trovano sul loro cammino. La mia follia ha portato rovina su tutti noi, e il sogno di un nuovo drago è morto nel fuoco e nel sangue."
   agot_dragon_hatching.0101.opt.a:0 "Dio, no!"
@@ -404,50 +403,43 @@
   agot_dragon_hatching.0102.desc:0 "Catastrofe!\n\nDavanti ai miei occhi, l'uovo si frantuma, il potere del drago al suo interno e i riti eseguiti scatenano un'ondata di distruzione. Il calore è insopportabile, le fiamme consumano tutto ciò che trovano sul loro cammino. La follia di [host.GetTitledFirstName] ha portato rovina su tutti noi, e il sogno di un nuovo drago è morto nel fuoco e nel sangue."
   agot_dragon_hatching.0102.opt.a:0 "$agot_dragon_hatching.0101.opt.a$"
 
-  # Disaster results
+ # Disaster results
   agot_dragon_hatching.0201.t:0 "Catastrofe di Ambizione!"
   agot_dragon_hatching.0201.desc:0 "Catastrofe!\n\nL'uovo si frantuma nel calore, il potere al suo interno lo spacca e manda in volo schegge di guscio e viscere infuocate. I detriti volanti colpiscono i presenti e incendiano persone e luoghi. Il mio sogno di un nuovo drago è morto nel fuoco e nel sangue."
   agot_dragon_hatching.0201.opt.a:0 "Accovacciati e copriti!"
-
   agot_dragon_hatching.0202.t:0 "$agot_dragon_hatching.0201$"
   agot_dragon_hatching.0202.desc:0 "Catastrofe!\n\nL'uovo si frantuma nel calore, il potere al suo interno lo spacca e manda in volo schegge di guscio e viscere infuocate. I detriti volanti colpiscono i presenti e incendiano persone e luoghi. Il sogno di [host.GetTitledFirstNamePossessive] di un nuovo drago è morto nel fuoco e nel sangue."
   agot_dragon_hatching.0202.opt.a:0 "$agot_dragon_hatching.0201.opt.a$"
 
-  # Nothing results
+ # Nothing results
   agot_dragon_hatching.0303.t:0 "Frantumato sull'incudine dell'Ambizione"
   agot_dragon_hatching.0303.desc:0 "#bold;italic *CRACK*#!\n\nIl suono è assordante. In un grande coro di grida e sospiri delusi, l'uovo si è frantumato sotto il calore. I miei sogni — e il mio uovo — sono frantumati come il guscio davanti a me."
   agot_dragon_hatching.0303.opt.a:0 "Dannazione!"
-
   agot_dragon_hatching.0304.t:0 "Sforzi Vanificati"
   agot_dragon_hatching.0304.desc:0 "La folla osserva con il fiato sospeso, aspettandosi che l'uovo si schiuda, si muova, faccia #emp qualcosa#!. Ma nulla accade. Rimane com'era, intatto e inflessibile.\n\nMentre i colpi di tosse di delusione e i sussurri di fallimento riempiono l'aria, devo accettare che i miei sforzi sono stati vani. Con un cuore pesante, ordino ai servitori di rimuovere l'uovo e iniziare le pulizie."
   agot_dragon_hatching.0304.opt.a:0 "$agot_dragon_hatching.0303.opt.a$"
-
   agot_dragon_hatching.0305.t:0 "$agot_dragon_hatching.0303.t$"
   agot_dragon_hatching.0305.desc:0 "#bold;italic *CRACK*#!\n\nIl suono è assordante. In un grande coro di grida e sospiri delusi, i miei tra essi, l'uovo si è frantumato sotto il calore. I sogni di [host.GetTitledFirstNamePossessive] — e il suo uovo — sono frantumati come il guscio davanti a noi."
   agot_dragon_hatching.0305.opt.a:0 "E sembrava così promettente..."
-
   agot_dragon_hatching.0306.t:0 "$agot_dragon_hatching.0304.t$"
   agot_dragon_hatching.0306.desc:0 "La folla osserva con il fiato sospeso, aspettandosi che l'uovo si schiuda, si muova, faccia #emp qualcosa#!. Ma nulla accade. Rimane com'era, intatto e inflessibile.\n\nMentre i colpi di tosse di delusione e i sussurri di fallimento riempiono l'aria, [host.GetTitledFirstName] deve accettare che i suoi sforzi sono stati vani. Vedo [host.GetHerHim] dirigere i servitori a rimuovere l'uovo e iniziare le pulizie, e non posso fare a meno di scuotere la testa in simpatia."
   agot_dragon_hatching.0306.opt.a:0 "$agot_dragon_hatching.0305.opt.a$"
 
-  # Risultati di successo
+ # Success results
   agot_dragon_hatching.0401.t:0 "Una Nuova Alba"
   agot_dragon_hatching.0401.desc:0 "Per un momento tutto è silenzioso. La folla trattiene il respiro. Sembra che nulla accadrà... Poi, l'uovo si scuote e si crepa. Una piccola testa squamosa emerge, seguita da un lungo e sinuoso collo. Il drago al suo interno è nato! È iniziata una nuova era di draghi, e io sono colui che l'ha portata!"
   agot_dragon_hatching.0401.opt.a:0 "Evviva!"
   agot_dragon_hatching.0401.opt.a_tt:0 "Hai schiuso con successo un drago!"
-
   agot_dragon_hatching.0402.t:0 "$agot_dragon_hatching.0401.t$"
   agot_dragon_hatching.0402.desc:0 "Per un momento tutto è silenzioso. La folla trattiene il respiro. Sembra che nulla accadrà... Poi, l'uovo si scuote e si crepa. Una piccola testa squamosa emerge, seguita da un lungo e sinuoso collo. Il drago al suo interno è nato! È iniziata una nuova era di draghi, e io sono stato qui a testimoniarlo!"
   agot_dragon_hatching.0402.opt.a:0 "$agot_dragon_hatching.0401.opt.a$"
   agot_dragon_hatching.0402.opt.a_tt:0 "Hai assistito alla schiusa di un drago da parte di [host.GetTitledFirstName]!"
 
-  # Avviso di schiusa del drago tramite culla
   hatched_dragon_via_cradling_notification:0 "[ROOT.Char.GetName] ha schiuso [dragon.GetName] tramite Cullamento"
 
-  # Tentativo di schiusa del drago
   agot_dragon_hatching_you_try_hatching:0 "Provi a schiudere [egg.GetName]"
 
-  # Dragonlore
+ # Hatching Dragonlore #
   agot_dragon_hatching_dragonlore.0001.t:0 "Storia dei draghi: La Collina di Rhaenys"
   agot_dragon_hatching_dragonlore.0001.desc:0 "Quello che una volta era casa ad alcuni dei draghi più feroci, questo colosso è ridotto a una rovina. Mentre cammino nei suoi tunnel, sono in estasi per la sua magnitudine e catturato dal peso del suo significato.\n\nPreso come sono, quasi non noto i documenti impolverati tra le macerie. Sembrano suggerire le tecniche di schiusa utilizzate dai custodi dei draghi!"
   agot_dragon_hatching_dragonlore.0001.opt:0 "Questo sarà utile!"
@@ -542,7 +534,6 @@
 
   agot_dragon_egg_cradling.child_cradle_title:0 "[child.GetName] Inizia a Crescere con un Uovo"
   agot_dragon_egg_cradling.child_cradle_desc:0 "[child.GetNameNoTooltip] ha iniziato a crescere con un uovo di [spouse.GetTitledFirstName]."
-
 
   agot_dragon_egg_cradling_birth.0002.t:0 "Il Mio Uovo Si Schiude!"
   agot_dragon_egg_cradling_birth.0002.desc:0 "Mai nella mia vita ho provato tanta gioia! Il mio uovo si è schiuso e un drago è emerso dalle rovine del suo guscio.\n\nPosso già sentire il legame travolgente che condividiamo, e come saranno con me fino alla fine dei miei giorni. Anche se non posso ancora dire quale sia il loro sesso, hanno comunque bisogno di un nome che la storia non dimenticherà mai.\n\nCome dovrei chiamarli?"

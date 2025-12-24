@@ -10,9 +10,13 @@
   agot_proclamation_events.0003.a:0 "Sì, deve essere fatto."
   agot_proclamation_events.0003.b:0 "Che si faccia."
 
+agot_proclamation_events.1000.t: "Una Nuova Grande Casa"
+agot_proclamation_events.1000.desc_intro: "Mi inginocchio davanti a [Select_CString(king.IsFemale,'la mia Regina','il mio Re')] [king.GetFirstName], giurando la mia fedeltà mentre [king.GetSheHe] mi conferisce un nuovo titolo, [kingdom_title_to_grant.GetName], e il dominio sulle terre che vi rientrano.\n\n"
+agot_proclamation_events.1000.desc.not_legitimate_house: "Sotto gli occhi dei miei vassalli, vecchi e nuovi, vengo innalzat[Select_CString(ROOT.Char.IsFemale,'a','o')] a una condizione mai detenuta prima dalla mia stirpe. Nel mio reame nasce una nuova Grande Casa, e il suo nome echeggia per la terra. Eppure permangono sussurri di dubbio, e alcuni mettono in discussione il mio diritto a reclamarla, poiché non sono membro di Casa [legitimate_house.GetBaseName]."
+agot_proclamation_events.1000.desc.legitimate_house: "Sotto gli occhi dei miei vassalli, vecchi e nuovi, riprendo l’antico dominio della mia famiglia: la restaurazione di una Grande Casa al suo giusto posto. Giuro di onorare i miei antenati e di assicurare che questo titolo non ci venga mai più sottratto."
+agot_proclamation_events.1000.a: "Il futuro è luminoso per Casa [new_holder.GetHouse.GetBaseNameNoTooltip]."
 
-
-  #New Iron Throne ruler global event
+ #New Iron Throne ruler global event
   agot_proclamation_events.9901.t:0 "Successione del Trono di Spade"
   agot_proclamation_events.9901.intro:0 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U], una lettera sigillata con il blasone della Casa [new_holder.GetHouse.GetBaseName] è arrivata da [new_holder.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]; i corvi portano notizie funeste in tutto il regno." Il messaggero fa un rapido inchino e mi porge la lettera da esaminare."
   agot_proclamation_events.9901.inheritance:0 "\n\n[previous_holder.GetTitledFirstName|U] [previous_holder.GetDeathReason] — possa [previous_holder.GetSheHe] riposare in pace. Secondo le leggi dell'ereditarietà, [new_holder.GetFirstName] [new_holder.GetHouse.GetBaseName] è stat[new_holder.Custom('DE_END_PRO_S_N')]  proclamat[new_holder.Custom('DE_END_PRO_S_N')] legittim[new_holder.Custom('DE_END_PRO_S_N')] successore di [new_holder.GetPrimaryTitle.GetNameNoTooltip].\n\nMentre alcuni piangono la scomparsa di Sua Grazia, si dice che alcuni abbiano iniziato a manifestare il loro malcontento lontano dagli occhi del pubblico..."

@@ -1,26 +1,31 @@
 ﻿l_spanish:
 
-  ######################
-  # ROBERT'S REBELLION #
-  ######################
+ ######################
+ # County #
+ ######################
 
   agot_weakened_walls:0 "Mura Indebolite"
 
-  ######################
-  # Character #
-  ######################
+ ######################
+ # Character #
+ ######################
 
   reluctant_bride_modifier:0 "Sposa Riluttante"
   reluctant_bride_modifier_desc:0 "Questo personaggio è riluttante a mantenere il proprio impegno matrimoniale in questo momento."
   agot_precarious_reputation:0 "Reputazione Precarica"
   agot_precarious_reputation_desc:0 "A causa delle sue circostanze attuali, gli altri sono diffidenti nel farsi coinvolgere negli affari di questo personaggio."
 
+agot_craft_focused_major: 0 "Concentrat[Select_CString(ROOT.Char.IsFemale,'a','o')] sull’artigianato"
+agot_craft_focused_major_desc: 0 "L’attenzione di questo personaggio è al momento distolta dalla corte."
+agot_craft_focused_minor: 0 "Attenzione divisa"
+agot_craft_focused_minor_desc: 0 "L’attenzione di questo personaggio è divisa fra la corte e un passatempo."
+
   agot_incest_aversion_modifier:0 "Avversione all’Incesto"
   agot_incest_aversion_modifier_desc:0 "Questo personaggio non brama nozze con un fratello o con una sorella."
 
-  #################
-  # Filler Events #
-  #################
+ #################
+ # Filler Events #
+ #################
 
   agot_modifiers_invited_wildling_modifier:0 "Invitato un Bruto a Corte"
   agot_modifiers_invited_wildling_modifier_desc:0 "Questo personaggio ha permesso a un Bruto di unirsi alla sua corte."
@@ -81,13 +86,13 @@
   agot_filler_hurricane_wrecked_stepstones:0 "Danni Massicci da Tempesta"
   agot_filler_hurricane_wrecked_stepstones_desc:0 "Questo territorio ha subito danni massicci da una serie di tempeste."
 
-  # agot_filler_event_ironislands
+ # agot_filler_event_ironislands
   agot_filler_killed_challenger_at_sea:0 "Ucciso Sfidante"
   agot_filler_bribed_challenger_at_sea:0 "Corrotto Sfidante"
 
-  # Modificatori
-  # Per gli eventi dell'Altura
-  # Modificatori di Resa
+ # Modifiers
+ # For UShawBruh Reach Events
+ # Yield Modifiers
   agot_filler_reach_lots_of_cake:0 "Un Raccolto Abbondante"
   agot_filler_reach_lots_of_cake_desc:0 "Il raccolto è stato più abbondante del solito."
 
@@ -97,93 +102,82 @@
   agot_filler_reach_let_them_eat_cake:0 "Un Raccolto Povero"
   agot_filler_reach_let_them_eat_cake_desc:0 "Purtroppo, il raccolto è stato misero."
 
-  # Modificatori dei Commercianti
+ # Traders Modifiers
   agot_filler_reach_trade_route:0 "Rotte Commerciali Stabilite"
   agot_filler_reach_trade_route_desc:0 "È stata stabilita una rotta commerciale a vantaggio di questa contea."
 
   agot_filler_reach_traders_hated:0 "Commercianti Evitati"
   agot_filler_reach_traders_hated_desc:0 "La voce si è diffusa tra i commercianti di evitare questa contea, forse qualcuno ha avuto un'esperienza negativa durante il commercio qui?"
 
-  # Modificatori della Moneta del Regno dell'Altopiano
+ # Hand Coin found modifiers
   agot_filler_reach_hand_coin:0 "Moneta del Regno dell'Altopiano"
   agot_filler_reach_hand_coin_desc:0 "Una moneta risalente prima della conquista. Sebbene ora valga solo il valore dell'oro con cui è stata fatta, potrebbe essere un interessante pezzo da conversazione."
 
-  # Modificatore dell'Ordine del Greenhand
+ # Greenhand Modifier
   agot_filler_reach_greenhand:0 "Ordine del Greenhand"
   agot_filler_reach_greenhand_desc:0 "Questo personaggio ha deciso di vivere secondo gli standard dell'antico Ordine del Greenhand."
 
-  # Party Modifiers
+ # Party Modifiers
   agot_filler_reach_garden_party:0 "PLACEHOLDER"
   agot_filler_reach_quiet_garden:0 "PLACEHOLDER"
   agot_filler_reach_great_gp:0 "PLACEHOLDER"
   agot_filler_reach_bad_gp:0 "PLACEHOLDER"
-  
-  # Possible farmland Modifiers
+
+ # Possible farmland Modifiers
   agot_filler_reach_farm_building:0 "PLACEHOLDER"
-  # Modificatori per l'Altura
   agot_filler_reach_protected_land:0 "Terra Protetta"
   agot_filler_reach_protected_land_desc:0 "Questa terra è stata lasciata intatta per preservare la sua bellezza naturale."
+
 
   agot_mw_let_traitors_go_modifier:0 "Signore Indulgente"
   agot_mw_let_traitors_go_modifier_desc:0 "Questo personaggio ha lasciato liberi i traditori dopo una grande guerra civile anziché punirli."
 
-  # Eventi di Maestro e Scarabeo - Zombieschrodcat
+ #Maester and Beetle - Zombieschrodcat
   agot_filler_reach_beetle_dye:0 "Tintura di Scarabeo"
   agot_filler_reach_beetle_dye_desc:0 "Questa contea ha un fiorente business che produce una tintura fatta da scarabei nativi dell'Altopiano."
 
-  # Il Fungo nel Parco degli Dei - Zombieschrodcat
+ #The Mushroom in the Godswood - Zombieschrodcat
   agot_filler_posion_mushroom:0 "Veleno Fatto da Funghi"
 
-  # Drago nel Nord - Zombieschrodcat
+ #Dragon in the North  - Zombieschrodcat
   agot_filler_prepared_for_dragon:0 "Preparato per l'Attacco del Drago"
 
-  #Wildling Raids | North Filler - Defined
+ #Wildling Raids | North Filler - Defined
   agot_bad_wildling_raids:0 "Incursioni dei Bruti"
   agot_bad_wildling_raids_desc:0 "Questa contea è stata devastata dagli attacchi dei Bruti, e la popolazione sta soffrendo."
-
   agot_victorious_wildling_raids:0 "Incursioni dei Bruti"
   agot_victorious_wildling_raids_desc:0 "I Bruti che hanno saccheggiato questa contea sono stati sconfitti, il bottino è stato restituito alla popolazione, riducendone al minimo l'impatto."
-
   agot_free_wildling_raids:0 "Incursioni dei Bruti"
   agot_free_wildling_raids_desc:0 "I Bruti che hanno saccheggiato questa contea sono stati sconfitti, ma i sopravvissuti sono stati liberati, nonostante i danni arrecati."
 
-  # Modificatori degli Eventi Lannister
+ # Lannister Events Modifiers
   agot_knight_protector_positive_modifier:0 "Protettore Cavaliere Errante"
   agot_knight_protector_negative_modifier:0 "Banditi Falsi Cavalieri"
   agot_selfish_new_mine_modifier:0 "Sfruttare l'Oro dei Vassalli"
   agot_new_mine_shares_modifier:0 "Ricevere Quote d'Oro"
   agot_fresh_gold_veins_modifier:0 "Nuove Vene d'Oro"
 
-  # Modificatori per l'Altura - Scelte
-  agot_filler_north_protect_economy:0 "Proteggere la Contea"
-  agot_filler_north_protect_economy_desc:0 "L'economia non sarà influenzata, ma la popolazione locale non sarà felice."
-  agot_filler_north_help_people:0 "Aiutato la Popolazione"
-  agot_filler_north_help_people_desc:0 "L'economia sarà influenzata, ma avrai l'amore della popolazione locale."
-  agot_filler_north_do_nothing:0 "Non Fare Nulla..."
-  agot_filler_north_do_nothing_desc:0 "Il popolo dovrà cavarsela da solo..."
+agot_filler_north_protect_economy: 0 "Protettore del possedimento"
+agot_filler_north_protect_economy_desc: 0 "La popolazione locale è scontenta che questo personaggio abbia scelto di mettere in sicurezza il proprio possedimento invece di offrire loro rifugio."
+agot_filler_north_help_people: 0 "Protettore del popolo"
+agot_filler_north_help_people_desc: 0 "Questo personaggio ha dato riparo alla gente comune a detrimento della propria borsa."
+agot_filler_north_do_nothing: 0 "Sovrano inetto"
+agot_filler_north_do_nothing_desc: 0 "Questo personaggio non ha fatto nulla quando una tormenta ha minacciato il suo possedimento e la sua gente."
 
+ # Westerlands Events Modifiers
 
-  # Westerlands Events Modifiers
-
-  # Modificatori per il Furto
   stolen_from_modifier:0 "Derubato"
   stolen_from_modifier_desc:0 "Questo personaggio è stato derubato!"
-
   beat_up_steward_modifier:0 "Picchia l'Intendente"
   beat_up_steward_modifier_desc:0 "L'ira di questo personaggio si è scatenata, lasciando un povero intendente malconcio e ammaccato."
-
   shiny_jewel_modifier:0 "Una Gioiello Lucente"
   shiny_jewel_modifier_desc:0 "Questo personaggio possiede un gioiello lucente di origine speciale."
-
   rock_slide_modifier:0 "Danni da Frana"
   rock_slide_modifier_desc:0 "Una frana ha danneggiato una importante rotta commerciale in questa contea."
-
   ignored_rock_slide_modifier:0 "Frana Ignorata"
   ignored_rock_slide_modifier_desc:0 "Questa contea è diventata indisciplinata a causa dei danni di una frana lasciata senza risposta dal suo governante, lasciando al popolo il prezzo da pagare."
-
   improved_road_modifier:0 "Strada Migliorata"
   improved_road_modifier_desc:0 "La principale rotta commerciale in questa contea è stata notevolmente migliorata dopo una dannosa frana."
-
   ruined_road_modifier:0 "Strada Rovinata"
   ruined_road_modifier_desc:0 "La principale rotta commerciale in questa contea è stata rovinata da un tentativo malriuscito di riparare i danni di una frana."
   agot_lion_cub_rat_catcher_modifier:0 "Cacciatore di Ratti con Leoncino"
@@ -191,13 +185,14 @@
   agot_lion_adult_rat_catcher_modifier:0 "Cacciatore di Ratti con Leone"
   agot_lion_adult_rat_catcher_modifier_desc:0 "Questo personaggio ha acquistato un leone per cacciare i ratti intorno al loro castello."
 
-  # Mercante di Pesci a Approdo del Re
+ #Kings Landing Filler Modifiers
   agot_filler_kingslanding_haggler:0 "Commerciante Astuto"
   agot_filler_kingslanding_brothel_spys:0 "Spie sulla Strada della Seta"
+
   agot_cat_vivisection_modifier:0 "Gatto Vivisezionato"
   agot_cat_vivisection_modifier_desc:0 "Questo personaggio ha vivisezionato un gatto. Sebbene educativo, è stata una scena spiacevole per la corte."
 
-  # Eventi Contea dell'Incollatura
+ #Bottleneck county stuff
   bottleneck_province_modifiers:0 "Scarse forniture nella regione dell'Incollatura"
   bottleneck_character_modifiers:0 "Scarse forniture nella regione dell'Incollatura"
   bottleneck_province_causeway_modifiers:0 "Scarse forniture nella regione dell'Incollatura (Causaia)"
@@ -207,78 +202,78 @@
   bottleneck_causeway_visual:0 "La Causaia"
   bottleneck_causeway_visual_desc:0 "La Causaia è parte della Strada Reale, il che la rende molto più facile da attraversare rispetto al resto del collo."
 
-  # Mancanza di Muli - pbbm
+ #Mule Shortage - pbbm
   mule_shortage_modifier:0 "Mancanza di Muli"
   mule_shortage_modifier_desc:0 "Ultimamente, i Guardiani della Notte hanno avuto problemi a trovare un numero sufficiente di muli per pattugliare adeguatamente la Barriera."
 
-  # Truffa sulla Mancanza di Muli - pbbm
+ #Mule Shortage Scam - pbbm
   mule_shortage_scam_modifier:0 "Truffa sulla Mancanza di Muli"
   mule_shortage_scam_modifier_desc:0 "Questo personaggio guadagna vendendo muli dai Guardiani della Notte."
 
-  # Caccia al Lupo Riuscita - pbbm
+ # Succesful Wolf Hunt - pbbm
   successful_wolf_hunt:0 "Caccia al Lupo Riuscita"
   successful_wolf_hunt_desc:0 "Una squadra di caccia ha ucciso o scacciato i lupi dalla regione."
 
-  # Ha Mostrato Compassione - pbbm
+ # Showed Compassion - pbbm
   showed_compassion_modifier:0 "Ha Mostrato Compassione"
   showed_compassion_modifier_desc:0 "Questo personaggio ha dimostrato compassione in una situazione difficile."
 
-  # Contemplativo - pbbm
+ # Contemplative - pbbm
   contemplative_modifier:0 "Contemplativo"
   contemplative_modifier_desc:0 "Questo personaggio è in uno stato di riflessione attenta e composta."
 
-  # Falso Ardimento - pbbm
+ # False Bravado - pbbm
   false_bravado_modifier:0 "Ardimento Falso"
   false_bravado_modifier_desc:0 "Hai cercato di sembrare più grande di quanto tu sia davvero."
 
-  # Paura di Morire - pbbm
+ # Afraid of Dying = pbbm
   afraid_of_dying_modifier:0 "Paura di Morire"
   afraid_of_dying_modifier_desc:0 "Hai più paura che mai della morte, che sia per il meglio o per il peggio."
 
-  # Eccesso di Fiducia - pbbm
+ # Overconfident - pbbm
   overconfident_modifier:0 "Eccesso di Fiducia"
   overconfident_modifier_desc:0 "Ti trovi in uno stato di autoconfidenza senza precedenti."
 
-  # Trofeo di Caccia - pbbm
+ # Hunting Trophy - pbbm
   hunting_trophy_modifier:0 "Trofeo di Caccia"
   hunting_trophy_modifier_desc:0 "Hai ottenuto un nuovo trofeo di caccia e lo hai esposto."
 
-  # Dubbi su te Stesso - pbbm
+ # Doubting Yourself - pbbm
   doubting_yourself_modifier:0 "Dubbi su te Stesso"
   doubting_yourself_modifier_desc:0 "Ti trovi in uno stato di auto-dubbio, incerto su dove finisci tu e inizia la tua fortuna."
 
-  # Rotte Commerciali Disrupte - ZombieSchordCat
+ # Disrupted Trade Routes - ZombieSchordCat
   disrupted_trade_modifier:0 "Rotte Commerciali Disrupte"
   disrupted_trade_modifier_desc:0 "A causa della pirateria, le rotte commerciali sono diventate instabili."
 
-  # Tensione ai Confini - ZombieSchrodCat
+ # Border Tension - ZombieSchrodCat
   border_tension_modifier:0 "Tensione ai Confini"
   border_tension_modifier_desc:0 "Una Dorne indipendente ha i potenti Signori delle Terre Basse di Dorne e i Dorniani di Pietra che si preparano a futuri conflitti."
 
-  # Dinastia Ben Nota - ZombieSchrodCat
+ #Well known Dynasty - ZombieSchrodCat
   agot_renown_dynasty_modifier:0 "Dinastia Ben Nota"
   agot_renown_dynasty_modifier_desc:0 "La tua dinastia è stata oggetto di discussione nel regno ultimamente."
 
-  # Alberi Fioriti Innestati - ZombieSchrodCat
+ #Grafted Flower Trees - ZombieSchrodCat
   agot_graft_flowering_tree:0 "Alberi Fioriti Unici"
   agot_graft_flowering_tree_desc:0 "I colori vibranti degli alberi innestati in queste terre sono diventati ben noti."
 
-  # Alberi da Frutto Innestati - ZombieSchrodCat
+ #Grafted Fruit Trees - ZombieSchrodCat
   agot_graft_fruit_tree:0 "Alberi da Frutto Unici"
   agot_graft_fruit_tree_desc:0 "La varietà di mele in questo frutteto è ben nota e redditizia."
 
-  # Piaga - ZombieSchrodCat
+ #Blight - ZombieSchrodCat
   agot_graft_tree_blight:0 "Frutteto Affetto dalla Piaga"
   agot_graft_tree_blight_desc:0 "Una piaga si è diffusa tra gli alberi, uccidendoli: un orribile risultato dai tentativi di innesto."
 
-  # Rovine del Primo Uomo - Dylan/ZombieSchrodCat
+ #First Man Ruins - Dylan/ZombieSchrodCat
   agot_first_man_stone:0 "Rune del Primo Uomo"
   agot_first_man_stone_desc:0 "Una pietra coperta di rune risalenti prima dell'Arrivo degli Andali."
 
-  #Blood of Old Valyria -DYNASTY MODIFIER- - ZombieSchrodCat
+ #Blood of Old Valyria -DYNASTY MODIFIER- - ZombieSchrodCat
   valyrian_heritage_dynasty_modifier:0 "Sangue della Vecchia Valyria"
   valyrian_heritage_dynasty_modifier_desc:0 "Il sangue della Vecchia Valyria scorre ancora forte nelle vene di questa dinastia."
-  
+
   dragonrider_house_modifier:0 "Casa dei Cavalieri di Draghi"
   dragonrider_house_modifier_desc:0 "Anche se la maggior parte degli antichi Signori dei Draghi di Valyria è stata inghiottita dal Destino, questa casa continua la loro eredità ed è nota per domare e cavalcare draghi."
 
@@ -293,7 +288,6 @@
   walled_off_no_more_modifier:0 "Muri Abbattuti"
   walled_off_no_more_modifier_desc:0 "Questo clan è stato in prima linea nel cacciare i corvi dalla loro Barriera e nell'introdurre i Bruti alle meraviglie del mondo oltre."
 
-
   dealt_with_traders_modifier:0 "Trattato con i Dorniani"
   dealt_with_traders_modifier_desc:0 "Il tuo popolo non apprezzerà che tu tratti con i loro nemici storici."
   dealt_with_traders_county_modifier:0 "Trattato con i Dorniani"
@@ -307,43 +301,32 @@
   blessed_by_storm:0 "Benedetto dalla Tempesta"
   blessed_by_storm_desc:0 "Il tuo corpo è stato ringiovanito e scorre con una forza rinnovata."
 
-  # Pesca Prosperosa - Personaggio
   agot_prosperous_fishing:0 "Pesca Prosperosa"
   agot_prosperous_fishing_desc:0 "Il gioco è noto per essere abbondante in queste terre."
 
-  # Maestro delle Zucche - Personaggio
   pumpkin_master_modifier:0 "Maestro delle Zucche"
   pumpkin_master_modifier_desc:0 "Questo personaggio è famoso per le enormi zucche coltivate in queste terre."
 
-  # Terre Bruciate - Personaggio
   burned_lands_modifier:0 "Terre Bruciate"
   burned_lands_modifier_desc:0 "Questo personaggio ha perso terre a causa di un incendio doloso."
 
   lands_were_burned_modifier:0 "Terre Bruciate"
   lands_were_burned_modifier_desc:0 "Questo personaggio ha perso terre a causa di un incendio."
 
-
-  # Terre Bruciate - Personaggio
-  lands_were_burned_modifier:0 "Terre Bruciate"
-  lands_were_burned_modifier_desc:0 "Questo personaggio ha perso terre a causa di un incendio."
-
-  # Recupero delle Terre - Personaggio
   lands_recovery_modifier:0 "Recupero delle Terre"
   lands_recovery_modifier_desc:0 "La terra si sta riprendendo dopo un incendio."
 
-  # Ignorato le Richieste dei Popolani - Personaggio
   ignored_commoners_modifier:0 "Ignorato le Richieste di Aiuto"
   ignored_commoners_modifier_desc:0 "Questo personaggio ha ignorato le richieste di aiuto dei piccoli popolani locali."
 
-  # Aiutato i Popolani - Personaggio
   helped_commoners_modifier:0 "Aiutato i Popolani"
   helped_commoners_modifier_desc:0 "Questo personaggio ha aiutato i piccoli popolani e sente molte lodi per questo."
 
-  
-  # Redenzione della Bastardaggine - Sililex
+ # Working off Bastardry - Sililex
   agot_working_off_bastardry:0 "Redenzione del Bastardo"
   agot_working_off_bastardry_desc:0 "Nonostante sia nato in circostanze meno che ideali, questo personaggio sta lavorando duramente per portare onore al nome della sua famiglia."
 
+ # Reversed Claims Forswearing - Sililex
   agot_reversed_claim_forswear:0 "Abbandono Reclami Infranti"
   agot_reversed_claim_forswear_desc:0 "Nonostante avesse giurato di non far valere il suo diritto, questo personaggio ha invertito questa dichiarazione, macchiando per sempre il suo onore."
 
@@ -359,7 +342,7 @@
   visited_by_the_dead_2_modifier:0 "Visitato dai Morti"
   visited_by_the_dead_modifier:0 "Visitato dai Morti"
 
-  ### RELIGION ###
+ ### RELIGION ###
   the_pact_religion_opinion:0 "Opinione su $the_pact_religion$"
   old_gods_wnw_opinion:0 "Opinione su $old_gods_wnw$"
   old_gods_rnh_opinion:0 "Opinione su $old_gods_rnh$"
@@ -391,6 +374,7 @@
   fots_sands_opinion:0 "Opinione su $fots_sands$"
   fots_axe_opinion:0 "Opinione su $fots_axe$"
   fots_scourged_opinion:0 "Opinione su $fots_scourged$"
+
   the_ways_religion_opinion:0 "Opinione su $the_ways_religion$"
   drowned_god_opinion:0 "Opinione su $drowned_god$"
   fots_drowned_opinion:0 "Opinione su $fots_drowned$"
@@ -497,7 +481,7 @@
   the_temples_religion_opinion:0 "Opinione su $the_temples_religion$"
   summer_gods_pan_opinion:0 "Opinione su $summer_gods_pan$"
 
-  ## Riverlands Filler Modifiers ## 
+ ## Riverlands Filler Modifiers ##
   agot_heard_good_tales:0 "Sentito Racconti Eccellenti"
   agot_heard_good_tales_desc:0 "Questo personaggio ha sentito dei racconti davvero eccezionali da un eccellente narratore di storie."
 
@@ -528,48 +512,53 @@
   intrigue_speedy_siege_modifier:0 "Furia di Robert"
   intrigue_speedy_siege_modifier_desc:0 "Robert Baratheon è pieno di rabbia per il rapimento della sua fidanzata e per la morte della sua famiglia."
 
-  ## Reaver Modifiers ## 
+ ## Reaver Modifiers ##
   agot_smell_bad:0 "Odore Offensivo"
   agot_smell_bad_desc:0 "Non c'è un modo carino per dirlo, puzzi!"
 
   agot_sellsword_work:0 "Lavorato come Spadaccino Mercenario"
   agot_sellsword_work_desc:0 "Hai venduto la tua spada, non per onore o fede, ma per oro."
 
+ #Thrall House -DYNASTY MODIFIER- - ZombieSchrodCat
   thrall_house_dynasty_modifier:0 "Casa Thrall"
-  thrall_house_dynasty_modifier_desc:0 "Questa dinastia discende da Schiavi e Mogli di Sale nelle Isole di Ferro e, di conseguenza, sono spesso guardati con disprezzo."
-  
-  #Codd
+thrall_house_dynasty_modifier_desc: 0 "Questa dinastia discende da schiavi e mogli di sale delle Isole di Ferro; per questo è spesso guardata dall’alto in basso."
+
+ #Codd
   codd_dynasty_modifier:0 "Codd"
 
-  ## Rebuilding Modifiers ## 
+ #Unique Dynastic Nickname
+unique_dynasty_nickname_modifier: 0 "Soprannome dinastico"
+unique_dynasty_nickname_modifier_desc: 0 "Questa dinastia è legata semioticamente a [GetGlobalVariable('maester').Char.GetNameNoTooltip] come simbolo della propria legittimità."
+
+ ## Rebuilding Modifiers ##
   agot_rebuilding_new_stone:0 "Piccola Cava di Pietra"
   agot_rebuilding_new_stone_desc:0 "Una piccola cava di pietra che è una fonte di pietra locale."
 
   agot_rebuilding_focused:0 "Concentrazione Persistente"
   agot_rebuilding_focused_desc:0 "Un compito ha attirato la tua piena attenzione, che sia per il meglio o per il peggio."
 
-  #################
-  ###  WIDOWED  ###
-  #################
+ #################
+ ###  WIDOWED  ###
+ #################
 
   cold_hearted_modifier:0 "Senza Cuore"
   cold_hearted_modifier_desc:0 "Questo personaggio è stato recentemente vedovo ed è diventato insensibile e spietato."
 
-  #################
-  ###   HEALTH  ###
-  #################
+ #################
+ ###   HEALTH  ###
+ #################
 
   recently_muted:0 "Recentemente silenziato"
   recently_muted_desc:0 "A questo personaggio è stata rimossa la lingua e non può più parlare."
 
-  #################
-  ### KNIGHTING ###
-  #################
+ #################
+ ### KNIGHTING ###
+ #################
 
   agot_has_squire_modifier:0 "Ha uno scudiero"
   agot_has_squire_modifier_desc:0 "Questo personaggio ha uno scudiero che lo assiste."
 
-  ###Ruins#####
+ ###Ruins#####
 
   agot_ruins_ghost_stories:0 "Rovine: Storie di Fantasmi"
   agot_ruins_ghost_stories_desc:0 "Questa persona è infastidita implacabilmente da storie legate alle rovine che sta cercando di ricostruire."
@@ -580,23 +569,23 @@
   agot_hardworker_ruins:0 "Leader per Esempio"
   agot_hardworker_ruins_desc:0 "Non ti tireresti indietro dal lavoro che chiedi ai tuoi cortigiani, per questo hanno un certo rispetto per te."
 
-  ###Maledizione di Harrenhal#####
+ ###Harrenhal Curse#####
   cursed_bathed_blood:0 "Immerso nel Sangue"
   cursed_bathed_blood_desc:0 "Questa persona ha una routine di bellezza simile a quella di Danelle Lothston."
 
   cursed_lessons_past:0 "Lama Assetata di Sangue"
   cursed_lessons_past_desc:0 "Questa persona ha l'abitudine di attaccare gli altri senza motivo apparente."
 
-  #################
-  ###  GOADED ###
-  #################
+ #################
+ ###  GOADED ###
+ #################
 
   agot_goaded:0 "Provocato"
   agot_goaded_desc:0 "Questo personaggio non sta pensando chiaramente e potrebbe cercare una rissa."
 
-  ###############
-  ## BANCA DI FERRO ##
-  ###############
+ ###############
+ ## IRON BANK ##
+ ###############
 
   economically_undermined_character_modifier:0 "Economicamente Minato"
   economically_undermined_character_modifier_desc:0 "Questo personaggio sta subendo un indebolimento economico da una forza esterna."
@@ -604,24 +593,25 @@
   economically_undermined_modifier:0 "Economicamente Minato"
   economically_undermined_modifier_desc:0 "Questo titolo sta subendo un indebolimento economico da una forza esterna."
 
-  ##########################
-  ## HISTORICAL LOYALTIES ##
-  ##########################
+ ##########################
+ ## HISTORICAL LOYALTIES ##
+ ##########################
 
   agot_historical_loyalty_targaryen:0 "Tradizionale Lealista Targaryen"
   agot_historical_loyalty_targaryen_desc:0 "Questa casata ha dimostrato una forte simpatia in passato per la casa Targaryen e è probabile che si schieri al loro fianco in futuri conflitti."
   agot_historical_loyalty_blackfyre:0 "Tradizionale Lealista di Blackfyre"
   agot_historical_loyalty_blackfyre_desc:0 "Questa casata ha dimostrato una forte simpatia in passato per la casa Blackfyre e è probabile che si schieri al loro fianco in futuri conflitti."
 
-  ######################
-  # TRIAL BY COMBAT #
-  ######################
+
+ ######################
+ # TRIAL BY COMBAT #
+ ######################
   agot_unjust_trial_by_combat:0 "Sostenuto un Processo Ingiusto per Singolar Tenzone"
   agot_unjust_trial_by_combat_desc:0 "Questo personaggio ha dichiarato un campione ingiusto in un processo per Singolar Tenzone, terrorizzando la corte e insultando le leggi tradizionali della giustizia."
 
-  ############
-  ## Travel ##
-  ############
+ ############
+ ## Travel ##
+ ############
 
  #Vanilla Roads
  majorroad_plains_travel_danger:0 "[GetTerrain( 'majorroad_plains' ).GetName] [travel_danger|E]"
@@ -653,7 +643,6 @@
  majorroad_drylands_travel_danger:0 "[GetTerrain( 'majorroad_drylands' ).GetName] [travel_danger|E]"
  minorroad_drylands_travel_danger:0 "[GetTerrain( 'minorroad_drylands' ).GetName] [travel_danger|E]"
 
- #AGOT Added Terrains
  frozen_flats_travel_danger:0 "[GetTerrain( 'frozen_flats' ).GetName] [travel_danger|E]"
  majorroad_frozen_flats_travel_danger:0 "[GetTerrain( 'majorroad_frozen_flats' ).GetName] [travel_danger|E]"
  minorroad_frozen_flats_travel_danger:0 "[GetTerrain( 'minorroad_frozen_flats' ).GetName] [travel_danger|E]"
@@ -703,7 +692,6 @@
   minorroad_plains_min_combat_roll:1 "[command_modifier_i|E] Minimo [combat_roll|E] nelle Pianure (Strada Secondaria)"
   minorroad_plains_construction_gold_cost:0 "$MOD_CONSTRUCTION_GOLD_COST$ nelle Pianure (Strada Secondaria)"
   minorroad_plains_construction_prestige_cost:0 "$minorroad_plains_construction_gold_cost$"
-
   minorroad_plains_development_growth_factor:1 "$MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$ nelle Pianure (Strada Secondaria) ([terrain|E])"
   minorroad_plains_holding_construction_gold_cost:0 "$MOD_HOLDING_CONSTRUCTION_GOLD_COST$ nelle Pianure (Strada Secondaria)"
   minorroad_plains_holding_construction_prestige_cost:0 "$minorroad_plains_holding_construction_gold_cost$"
@@ -736,7 +724,6 @@
   minorroad_farmlands_tax_mult:0 "$MOD_TAX_MULT$ nei Prati (Strada Secondaria)"
   minorroad_farmlands_levy_size:0 "$MOD_LEVY_SIZE$ nei Prati (Strada Secondaria)"
   minorroad_farmlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nei Prati (Strada Secondaria)"
-
   majorroad_hills_advantage:1 "[command_modifier_i|E][advantage|E] nelle Colline (Strada Principale)"
   majorroad_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subite nelle Colline (Strada Principale)"
   majorroad_hills_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Colline (Strada Principale)"
@@ -750,7 +737,6 @@
   majorroad_hills_tax_mult:0 "$MOD_TAX_MULT$ nelle Colline (Strada Principale)"
   majorroad_hills_levy_size:0 "$MOD_LEVY_SIZE$ nelle Colline (Strada Principale)"
   majorroad_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Colline (Strada Principale)"
-
   minorroad_hills_advantage:1 "[command_modifier_i|E][advantage|E] nelle Colline (Strada Secondaria)"
   minorroad_hills_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subite nelle Colline (Strada Secondaria)"
   minorroad_hills_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Colline (Strada Secondaria)"
@@ -764,7 +750,6 @@
   minorroad_hills_tax_mult:0 "$MOD_TAX_MULT$ nelle Colline (Strada Secondaria)"
   minorroad_hills_levy_size:0 "$MOD_LEVY_SIZE$ nelle Colline (Strada Secondaria)"
   minorroad_hills_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Colline (Strada Secondaria)"
-
   majorroad_mountains_advantage:1 "[command_modifier_i|E][advantage|E] nelle Montagne (Strada Principale)"
   majorroad_mountains_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nelle Montagne (Strada Principale)"
   majorroad_mountains_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Montagne (Strada Principale)"
@@ -778,7 +763,6 @@
   majorroad_mountains_tax_mult:0 "$MOD_TAX_MULT$ nelle Montagne (Strada Principale)"
   majorroad_mountains_levy_size:0 "$MOD_LEVY_SIZE$ nelle Montagne (Strada Principale)"
   majorroad_mountains_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Montagne (Strada Principale)"
-
   minorroad_mountains_advantage:1 "[command_modifier_i|E][advantage|E] nelle Montagne (Strada Secondaria)"
   minorroad_mountains_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nelle Montagne (Strada Secondaria)"
   minorroad_mountains_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Montagne (Strada Secondaria)"
@@ -792,7 +776,6 @@
   minorroad_mountains_tax_mult:0 "$MOD_TAX_MULT$ nelle Montagne (Strada Secondaria)"
   minorroad_mountains_levy_size:0 "$MOD_LEVY_SIZE$ nelle Montagne (Strada Secondaria)"
   minorroad_mountains_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Montagne (Strada Secondaria)"
-
   majorroad_desert_advantage:1 "[command_modifier_i|E][advantage|E] nel Deserto (Strada Principale)"
   majorroad_desert_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nel Deserto (Strada Principale)"
   majorroad_desert_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Deserto (Strada Principale)"
@@ -806,7 +789,6 @@
   majorroad_desert_tax_mult:0 "$MOD_TAX_MULT$ nel Deserto (Strada Principale)"
   majorroad_desert_levy_size:0 "$MOD_LEVY_SIZE$ nel Deserto (Strada Principale)"
   majorroad_desert_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Deserto (Strada Principale)"
-
   minorroad_desert_advantage:1 "[command_modifier_i|E][advantage|E] nel Deserto (Strada Secondaria)"
   minorroad_desert_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nel Deserto (Strada Secondaria)"
   minorroad_desert_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Deserto (Strada Secondaria)"
@@ -859,7 +841,6 @@
   majorroad_oasis_tax_mult:0 "$MOD_TAX_MULT$ nell'Oasi (Strada Principale)"
   majorroad_oasis_levy_size:0 "$MOD_LEVY_SIZE$ nell'Oasi (Strada Principale)"
   majorroad_oasis_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nell'Oasi (Strada Principale)"
-
   minorroad_oasis_advantage:1 "[command_modifier_i|E][advantage|E] nell'Oasi (Strada Secondaria)"
   minorroad_oasis_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nell'Oasi (Strada Secondaria)"
   minorroad_oasis_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nell'Oasi (Strada Secondaria)"
@@ -886,7 +867,6 @@
   majorroad_jungle_tax_mult:0 "$MOD_TAX_MULT$ nella Giungla (Strada Principale)"
   majorroad_jungle_levy_size:0 "$MOD_LEVY_SIZE$ nella Giungla (Strada Principale)"
   majorroad_jungle_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Giungla (Strada Principale)"
-
   minorroad_jungle_advantage:1 "[command_modifier_i|E][advantage|E] nella Giungla (Strada Secondaria)"
   minorroad_jungle_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nella Giungla (Strada Secondaria)"
   minorroad_jungle_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Giungla (Strada Secondaria)"
@@ -913,7 +893,6 @@
   majorroad_forest_tax_mult:0 "$MOD_TAX_MULT$ nella Foresta (Strada Principale)"
   majorroad_forest_levy_size:0 "$MOD_LEVY_SIZE$ nella Foresta (Strada Principale)"
   majorroad_forest_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Foresta (Strada Principale)"
-
   minorroad_forest_advantage:1 "[command_modifier_i|E][advantage|E] nella Foresta (Strada Secondaria)"
   minorroad_forest_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nella Foresta (Strada Secondaria)"
   minorroad_forest_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Foresta (Strada Secondaria)"
@@ -940,7 +919,6 @@
   majorroad_taiga_tax_mult:0 "$MOD_TAX_MULT$ nella Taiga (Strada Principale)"
   majorroad_taiga_levy_size:0 "$MOD_LEVY_SIZE$ nella Taiga (Strada Principale)"
   majorroad_taiga_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Taiga (Strada Principale)"
-
   minorroad_taiga_advantage:1 "[command_modifier_i|E][advantage|E] nella Taiga (Strada Secondaria)"
   minorroad_taiga_attrition_mult:1 "[command_modifier_i|E][attrition|E] Sofferto nella Taiga (Strada Secondaria)"
   minorroad_taiga_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Taiga (Strada Secondaria)"
@@ -967,7 +945,6 @@
   majorroad_wetlands_tax_mult:0 "$MOD_TAX_MULT$ nelle Zone Umide (Strada Principale)"
   majorroad_wetlands_levy_size:0 "$MOD_LEVY_SIZE$ nelle Zone Umide (Strada Principale)"
   majorroad_wetlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Zone Umide (Strada Principale)"
-
   minorroad_wetlands_advantage:1 "[command_modifier_i|E][advantage|E] nelle Zone Umide (Strada Secondaria)"
   minorroad_wetlands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Zone Umide (Strada Secondaria)"
   minorroad_wetlands_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Zone Umide (Strada Secondaria)"
@@ -994,7 +971,6 @@
   majorroad_steppe_tax_mult:0 "$MOD_TAX_MULT$ nelle Steppe (Strada Principale)"
   majorroad_steppe_levy_size:0 "$MOD_LEVY_SIZE$ nelle Steppe (Strada Principale)"
   majorroad_steppe_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Steppe (Strada Principale)"
-
   minorroad_steppe_advantage:1 "[command_modifier_i|E][advantage|E] nelle Steppe (Strada Secondaria)"
   minorroad_steppe_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Steppe (Strada Secondaria)"
   minorroad_steppe_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Steppe (Strada Secondaria)"
@@ -1021,7 +997,6 @@
   majorroad_floodplains_tax_mult:0 "$MOD_TAX_MULT$ nelle Pianure Alluvionali (Strada Principale)"
   majorroad_floodplains_levy_size:0 "$MOD_LEVY_SIZE$ nelle Pianure Alluvionali (Strada Principale)"
   majorroad_floodplains_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Pianure Alluvionali (Strada Principale)"
-
   minorroad_floodplains_advantage:1 "[command_modifier_i|E][advantage|E] nelle Pianure Alluvionali (Strada Secondaria)"
   minorroad_floodplains_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Pianure Alluvionali (Strada Secondaria)"
   minorroad_floodplains_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Pianure Alluvionali (Strada Secondaria)"
@@ -1048,7 +1023,6 @@
   majorroad_drylands_tax_mult:0 "$MOD_TAX_MULT$ nelle Terre Aride (Strada Principale)"
   majorroad_drylands_levy_size:0 "$MOD_LEVY_SIZE$ nelle Terre Aride (Strada Principale)"
   majorroad_drylands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Terre Aride (Strada Principale)"
-
   minorroad_drylands_advantage:1 "[command_modifier_i|E][advantage|E] nelle Terre Aride (Strada Secondaria)"
   minorroad_drylands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Terre Aride (Strada Secondaria)"
   minorroad_drylands_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Terre Aride (Strada Secondaria)"
@@ -1062,7 +1036,6 @@
   minorroad_drylands_tax_mult:0 "$MOD_TAX_MULT$ nelle Terre Aride (Strada Secondaria)"
   minorroad_drylands_levy_size:0 "$MOD_LEVY_SIZE$ nelle Terre Aride (Strada Secondaria)"
   minorroad_drylands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Terre Aride (Strada Secondaria)"
-
   frozen_flats_advantage:1 "[command_modifier_i|E][advantage|E] nelle Pianure Ghiacciate"
   frozen_flats_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Pianure Ghiacciate"
   frozen_flats_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Pianure Ghiacciate"
@@ -1089,7 +1062,6 @@
   majorroad_frozen_flats_tax_mult:0 "$MOD_TAX_MULT$ nelle Pianure Ghiacciate (Strada Principale)"
   majorroad_frozen_flats_levy_size:0 "$MOD_LEVY_SIZE$ nelle Pianure Ghiacciate (Strada Principale)"
   majorroad_frozen_flats_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Pianure Ghiacciate (Strada Principale)"
-
   minorroad_frozen_flats_advantage:1 "[command_modifier_i|E][advantage|E] nelle Pianure Ghiacciate (Strada Secondaria)"
   minorroad_frozen_flats_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nelle Pianure Ghiacciate (Strada Secondaria)"
   minorroad_frozen_flats_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Pianure Ghiacciate (Strada Secondaria)"
@@ -1103,7 +1075,6 @@
   minorroad_frozen_flats_tax_mult:0 "$MOD_TAX_MULT$ nelle Pianure Ghiacciate (Strada Secondaria)"
   minorroad_frozen_flats_levy_size:0 "$MOD_LEVY_SIZE$ nelle Pianure Ghiacciate (Strada Secondaria)"
   minorroad_frozen_flats_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Pianure Ghiacciate (Strada Secondaria)"
-
   glacier_advantage:1 "[command_modifier_i|E][advantage|E] nel Ghiacciaio"
   glacier_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nel Ghiacciaio"
   glacier_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Ghiacciaio"
@@ -1117,7 +1088,6 @@
   glacier_tax_mult:0 "$MOD_TAX_MULT$ nel Ghiacciaio"
   glacier_levy_size:0 "$MOD_LEVY_SIZE$ nel Ghiacciaio"
   glacier_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Ghiacciaio"
-
   majorroad_glacier_advantage:1 "[command_modifier_i|E][advantage|E] nel Ghiacciaio (Strada Principale)"
   majorroad_glacier_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nel Ghiacciaio (Strada Principale)"
   majorroad_glacier_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Ghiacciaio (Strada Principale)"
@@ -1131,7 +1101,6 @@
   majorroad_glacier_tax_mult:0 "$MOD_TAX_MULT$ nel Ghiacciaio (Strada Principale)"
   majorroad_glacier_levy_size:0 "$MOD_LEVY_SIZE$ nel Ghiacciaio (Strada Principale)"
   majorroad_glacier_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Ghiacciaio (Strada Principale)"
-
   minorroad_glacier_advantage:1 "[command_modifier_i|E][advantage|E] nel Ghiacciaio (Strada Secondaria)"
   minorroad_glacier_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nel Ghiacciaio (Strada Secondaria)"
   minorroad_glacier_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Ghiacciaio (Strada Secondaria)"
@@ -1145,7 +1114,6 @@
   minorroad_glacier_tax_mult:0 "$MOD_TAX_MULT$ nel Ghiacciaio (Strada Secondaria)"
   minorroad_glacier_levy_size:0 "$MOD_LEVY_SIZE$ nel Ghiacciaio (Strada Secondaria)"
   minorroad_glacier_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Ghiacciaio (Strada Secondaria)"
-
   canyon_advantage:1 "[command_modifier_i|E][advantage|E] nel Canyon"
   canyon_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nel Canyon"
   canyon_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Canyon"
@@ -1172,7 +1140,6 @@
   majorroad_canyon_tax_mult:0 "$MOD_TAX_MULT$ nel Canyon (Strada Principale)"
   majorroad_canyon_levy_size:0 "$MOD_LEVY_SIZE$ nel Canyon (Strada Principale)"
   majorroad_canyon_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Canyon (Strada Principale)"
-
   minorroad_canyon_advantage:1 "[command_modifier_i|E][advantage|E] nel Canyon (Strada Secondaria)"
   minorroad_canyon_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nel Canyon (Strada Secondaria)"
   minorroad_canyon_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nel Canyon (Strada Secondaria)"
@@ -1186,7 +1153,6 @@
   minorroad_canyon_tax_mult:0 "$MOD_TAX_MULT$ nel Canyon (Strada Secondaria)"
   minorroad_canyon_levy_size:0 "$MOD_LEVY_SIZE$ nel Canyon (Strada Secondaria)"
   minorroad_canyon_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nel Canyon (Strada Secondaria)"
-
   cloudforest_advantage:1 "[command_modifier_i|E][advantage|E] nella Foresta Tropicale"
   cloudforest_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nella Foresta Tropicale"
   cloudforest_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Foresta Tropicale"
@@ -1213,7 +1179,6 @@
   majorroad_cloudforest_tax_mult:0 "$MOD_TAX_MULT$ nella Foresta Tropicale (Strada Principale)"
   majorroad_cloudforest_levy_size:0 "$MOD_LEVY_SIZE$ nella Foresta Tropicale (Strada Principale)"
   majorroad_cloudforest_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Foresta Tropicale (Strada Principale)"
-
   minorroad_cloudforest_advantage:1 "[command_modifier_i|E][advantage|E] nella Foresta Tropicale (Strada Secondaria)"
   minorroad_cloudforest_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito nella Foresta Tropicale (Strada Secondaria)"
   minorroad_cloudforest_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Foresta Tropicale (Strada Secondaria)"
@@ -1227,7 +1192,6 @@
   minorroad_cloudforest_tax_mult:0 "$MOD_TAX_MULT$ nella Foresta Tropicale (Strada Secondaria)"
   minorroad_cloudforest_levy_size:0 "$MOD_LEVY_SIZE$ nella Foresta Tropicale (Strada Secondaria)"
   minorroad_cloudforest_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Foresta Tropicale (Strada Secondaria)"
-
   highlands_advantage:1 "[command_modifier_i|E][advantage|E] negli Altipiani"
   highlands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito negli Altipiani"
   highlands_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] negli Altipiani"
@@ -1241,7 +1205,6 @@
   highlands_tax_mult:0 "$MOD_TAX_MULT$ negli Altipiani"
   highlands_levy_size:0 "$MOD_LEVY_SIZE$ negli Altipiani"
   highlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ negli Altipiani"
-
   majorroad_highlands_advantage:1 "[command_modifier_i|E][advantage|E] negli Altipiani (Strada Principale)"
   majorroad_highlands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito negli Altipiani (Strada Principale)"
   majorroad_highlands_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] negli Altipiani (Strada Principale)"
@@ -1255,7 +1218,6 @@
   majorroad_highlands_tax_mult:0 "$MOD_TAX_MULT$ negli Altipiani (Strada Principale)"
   majorroad_highlands_levy_size:0 "$MOD_LEVY_SIZE$ negli Altipiani (Strada Principale)"
   majorroad_highlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ negli Altipiani (Strada Principale)"
-
   minorroad_highlands_advantage:1 "[command_modifier_i|E][advantage|E] negli Altipiani (Strada Secondaria)"
   minorroad_highlands_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subito negli Altipiani (Strada Secondaria)"
   minorroad_highlands_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] negli Altipiani (Strada Secondaria)"
@@ -1269,7 +1231,6 @@
   minorroad_highlands_tax_mult:0 "$MOD_TAX_MULT$ negli Altipiani (Strada Secondaria)"
   minorroad_highlands_levy_size:0 "$MOD_LEVY_SIZE$ negli Altipiani (Strada Secondaria)"
   minorroad_highlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ negli Altipiani (Strada Secondaria)"
-
   taiga_bog_advantage:1 "[command_modifier_i|E][advantage|E] nella palude della Taiga"
   taiga_bog_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nella palude della Taiga"
   taiga_bog_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella palude della Taiga"
@@ -1283,7 +1244,6 @@
   taiga_bog_tax_mult:0 "$MOD_TAX_MULT$ nella palude della Taiga"
   taiga_bog_levy_size:0 "$MOD_LEVY_SIZE$ nella palude della Taiga"
   taiga_bog_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella palude della Taiga"
-
   majorroad_taiga_bog_advantage:1 "[command_modifier_i|E][advantage|E] nella palude della Taiga (Strada Principale)"
   majorroad_taiga_bog_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nella palude della Taiga (Strada Principale)"
   majorroad_taiga_bog_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella palude della Taiga (Strada Principale)"
@@ -1297,7 +1257,6 @@
   majorroad_taiga_bog_tax_mult:0 "$MOD_TAX_MULT$ nella palude della Taiga (Strada Principale)"
   majorroad_taiga_bog_levy_size:0 "$MOD_LEVY_SIZE$ nella palude della Taiga (Strada Principale)"
   majorroad_taiga_bog_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella palude della Taiga (Strada Principale)"
-
   minorroad_taiga_bog_advantage:1 "[command_modifier_i|E][advantage|E] nella palude della Taiga (Strada Secondaria)"
   minorroad_taiga_bog_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nella palude della Taiga (Strada Secondaria)"
   minorroad_taiga_bog_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella palude della Taiga (Strada Secondaria)"
@@ -1324,7 +1283,6 @@
   urban_tax_mult:0 "$MOD_TAX_MULT$ in Ambiente Urbano"
   urban_levy_size:0 "$MOD_LEVY_SIZE$ in Ambiente Urbano"
   urban_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Ambiente Urbano"
-
   majorroad_urban_advantage:1 "[command_modifier_i|E][advantage|E] in Ambiente Urbano (Strada Principale)"
   majorroad_urban_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita in Ambiente Urbano (Strada Principale)"
   majorroad_urban_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] in Ambiente Urbano (Strada Principale)"
@@ -1338,7 +1296,6 @@
   majorroad_urban_tax_mult:0 "$MOD_TAX_MULT$ in Ambiente Urbano (Strada Principale)"
   majorroad_urban_levy_size:0 "$MOD_LEVY_SIZE$ in Ambiente Urbano (Strada Principale)"
   majorroad_urban_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ in Ambiente Urbano (Strada Principale)"
-
   minorroad_urban_advantage:1 "[command_modifier_i|E][advantage|E] in Ambiente Urbano (Strada Secondaria)"
   minorroad_urban_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita in Ambiente Urbano (Strada Secondaria)"
   minorroad_urban_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] in Ambiente Urbano (Strada Secondaria)"
@@ -1365,7 +1322,6 @@
   the_bog_tax_mult:0 "$MOD_TAX_MULT$ nella Palude"
   the_bog_levy_size:0 "$MOD_LEVY_SIZE$ nella Palude"
   the_bog_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Palude"
-
   majorroad_the_bog_advantage:1 "[command_modifier_i|E][advantage|E] nella Palude (Strada Principale)"
   majorroad_the_bog_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nella Palude (Strada Principale)"
   majorroad_the_bog_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Palude (Strada Principale)"
@@ -1379,7 +1335,6 @@
   majorroad_the_bog_tax_mult:0 "$MOD_TAX_MULT$ nella Palude (Strada Principale)"
   majorroad_the_bog_levy_size:0 "$MOD_LEVY_SIZE$ nella Palude (Strada Principale)"
   majorroad_the_bog_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nella Palude (Strada Principale)"
-
   minorroad_the_bog_advantage:1 "[command_modifier_i|E][advantage|E] nella Palude (Strada Secondaria)"
   minorroad_the_bog_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nella Palude (Strada Secondaria)"
   minorroad_the_bog_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nella Palude (Strada Secondaria)"
@@ -1406,7 +1361,6 @@
   hotsprings_tax_mult:0 "$MOD_TAX_MULT$ nelle Sorgenti Termali"
   hotsprings_levy_size:0 "$MOD_LEVY_SIZE$ nelle Sorgenti Termali"
   hotsprings_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Sorgenti Termali"
-
   majorroad_hotsprings_advantage:1 "[command_modifier_i|E][advantage|E] nelle Sorgenti Termali (Strada Principale)"
   majorroad_hotsprings_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nelle Sorgenti Termali (Strada Principale)"
   majorroad_hotsprings_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Sorgenti Termali (Strada Principale)"
@@ -1420,7 +1374,6 @@
   majorroad_hotsprings_tax_mult:0 "$MOD_TAX_MULT$ nelle Sorgenti Termali (Strada Principale)"
   majorroad_hotsprings_levy_size:0 "$MOD_LEVY_SIZE$ nelle Sorgenti Termali (Strada Principale)"
   majorroad_hotsprings_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Sorgenti Termali (Strada Principale)"
-
   minorroad_hotsprings_advantage:1 "[command_modifier_i|E][advantage|E] nelle Sorgenti Termali (Strada Secondaria)"
   minorroad_hotsprings_attrition_mult:1 "[command_modifier_i|E][attrition|E] Subita nelle Sorgenti Termali (Strada Secondaria)"
   minorroad_hotsprings_cancel_negative_supply:1 "[command_modifier_i|E] Annulla la Penalità [supply_limit|E] nelle Sorgenti Termali (Strada Secondaria)"
@@ -1435,18 +1388,13 @@
   minorroad_hotsprings_levy_size:0 "$MOD_LEVY_SIZE$ nelle Sorgenti Termali (Strada Secondaria)"
   minorroad_hotsprings_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Sorgenti Termali (Strada Secondaria)"
 
+ #################
+ # TRAVEL EVENTS #
+ #################
 
-
-
-  #################
-  # TRAVEL EVENTS #
-  #################
-
-  #At the Crossroads event chain
-
+ #At the Crossroads event chain
   agot_true_knight:0 "Vero Cavaliere del Regno"
   agot_true_knight_desc:0 "Questo personaggio ha dimostrato di essere degno dei suoi titoli."
-
 
   agot_won_finger_dance:0 "Vincere una Danza delle Dita"
   agot_won_finger_dance_desc:0 "Questo personaggio ha dato prova di sé agli Uomini di Ferro in una danza delle dita"
@@ -1457,20 +1405,22 @@
   agot_hired_outlaw_band:0 "Assunto una Banda di Mercenari"
   agot_hired_outlaw_band_desc: "Questo personaggio impiega fuorilegge sotto il suo stendardo."
 
-   # A dragon, I saw a dragon!
+ # A dragon, I saw a dragon!
   agot_rumors_of_dragons:0 "Voci di Draghi"
   agot_rumors_of_dragons_desc:0 "In questa contea ci sono voci riguardo a un drago nelle vicinanze, causando una popolazione più collaborativa, ma meno produttiva."
 
-   # Travel to Myr Scholastic Guilds
+ # Travel to Myr Scholastic Guilds
   agot_invite_scholars:0 "Invitato Molti Studiosi"
   agot_invite_scholars_desc:0 "Questo personaggio ha invitato molti studiosi alla propria corte, sperando di acquisire conoscenza e saggezza dalla loro presenza."
   agot_discuss_scholars:0 "Aumento della Conoscenza"
   agot_discuss_scholars_desc:0 "Questo personaggio ha discusso con gli studiosi e ha acquisito molte conoscenze da loro."
 
-  # Ruins Restoration
-
+ # Ruins Restoration
   agot_rewarded_builders:0 "Costruttori Ricompensati"
   agot_rewarded_builders_desc:0 "I costruttori sono stati ricompensati per il loro lavoro."
+agot_harrenhal_health: 0 "Preghiera divina"
+agot_harrenhal_health_desc: 0 "Gli dèi mi hanno udito?"
+agot_green_man_gold: 0 "Oro dell’Uomo Verde"
 
   agot_reclaimed_knowledge_modifier:0 "Conoscenza Recuperata"
   agot_reclaimed_knowledge_modifier_desc:0 "Questo personaggio ha raccolto conoscenze utili da antichi e ancestrali pittogrammi."
@@ -1478,10 +1428,10 @@
   agot_cheerful_disposition_modifier:0 "Disposizione Allegra"
   agot_cheerful_disposition_desc:0 "Questo personaggio trova particolarmente facile sorridere e ridere."
 
+ #####################
+ # NPK FILLER EVENTS #
+ #####################
 
-  #####################
-  # NPK FILLER EVENTS #
-  #####################
   agot_sponsored_torturer_inventor_modifier:0 "Sostenitore dell'Inventore dei Torturatori"
   agot_sponsored_torturer_inventor_modifier_desc:0 "Questo personaggio ha finanziato un inventore specializzato nella creazione di dispositivi intricati e dolorosi utilizzati per la tortura."
 
@@ -1506,11 +1456,9 @@
   agot_supports_tyroshi_sex_industry_modifier:0 "Sostenitore dell'Industria delle Case del Piacere Tyrosi"
   agot_supports_tyroshi_sex_industry_modifier_desc:0 "Questo personaggio sostiene l'industria delle case del piacere tyroshi, sostenendo attivamente gli stabilimenti lussuosi e indulgenti delle città che offrono comfort e compagnia."
 
-
-
-  ######################
-  # FREE CITIES FILLER #
-  ######################
+ ######################
+ # FREE CITIES FILLER #
+ ######################
   agot_filler_upset_merchants:0 "Mercanti Scontenti"
 
   agot_filler_maester_visit_bonus:0 "Progetti Accademici"
@@ -1545,13 +1493,9 @@
   agot_filler_smugglers_alliance:0 "Mercati Neri"
   agot_filler_smugglers_alliance_desc:0 "Ladri e contrabbandieri dominano i mercati locali mentre la guardia corrotta fa finta di non vedere."
 
-
-
-  ######################
-  # WARS #
-  ######################
-
-
+ ######################
+ # WARS #
+ ######################
   proven_against_pirates_modifier:0 "Comprovato Contro i Pirati"
   proven_against_pirates_modifier_desc:0 "Questo personaggio ha respinto un attacco al loro regno da parte dei pirati."
 
@@ -1573,8 +1517,8 @@
   humiliated_by_pirates:0 "Umiliato dai Pirati"
   humiliated_by_pirates_desc:0 "Il tentativo di questo personaggio di liberare le loro coste dai pirati è miseramente fallito."
 
-  stepstones_adventurer_modifier:0 "Avventuriero delle Isole di Stepstones"
-  stepstones_adventurer_modifier_desc:0 "Questo personaggio ha lasciato la sua terra natale con un esercito di briganti e avventurieri, cercando di conquistare un regno nelle Isole di Stepstones."
+pirate_adventurer_modifier: 0 "Avventuriero delle Isole dei Gradini"
+pirate_adventurer_modifier_desc: 0 "Questo personaggio ha lasciato la propria terra con un esercito di canaglie e avventurieri, cercando di ritagliarsi un reame nelle Isole dei Gradini."
 
   castle_storming_event_modifier:0 "Assalto In Corso"
   castle_storming_event_modifier_desc:0 "Questo personaggio sta attualmente guidando l'assalto a una grande fortezza."
@@ -1583,34 +1527,32 @@
 
   agot_pentos_braavos_treaty:0 "Trattato di Braavos e Pentos"
   agot_pentos_braavos_treaty_desc:0 "Questo personaggio è vincolato al Trattato di Braavos e Pentos del 209 CA. Gli è vietato assoldare mercenari e partecipare al commercio di schiavi. Anche la sua forza militare è stata gravemente ridotta."
-
   agot_exile_faegon_invader_embark_modifier:0 "Invasore"
   agot_exile_faegon_invader_embark_modifier_desc:0 "Questo personaggio sta lanciando un'invasione."
 
-  ####################
-  # SCHEME MODIFIERS #
-  ####################
+ ####################
+ # SCHEME MODIFIERS #
+ ####################
+
   bond_with_dragon_scheme_scheme_phase_duration_add:0 "[GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]"
   deepen_bond_with_dragon_scheme_scheme_phase_duration_add:0 "[GetScheme('deepen_bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]"
   steal_back_artifact_enemy_scheme_phase_duration_add:0 "[GetScheme('steal_back_artifact').GetTypeName] [scheme_speed_single|E]"
 
-  
-  #############################
-  # MISSING VANILLA MODIFIERS #
-  #############################
+ #############################
+ # MISSING VANILLA MODIFIERS #
+ #############################
   republic_government_levy_contribution_add:1 "[republican|E] [vassal|E] [levy|E] [modifier_base_contribution|E]"
 
-  ###########################
-  # DESTINED (HEALTH BOOST) #
-  ###########################
+ ###########################
+ # DESTINED (HEALTH BOOST) #
+ ###########################
 
   kings_deathbed_modifier:0 "Predestinato"
   kings_deathbed_modifier_desc:0 "Questo personaggio ha ancora compiti da compiere in questa vita e non intende morire prima che siano stati adempiuti."
 
-
-  ###########################
-  # AGOT RELIGIONS          #
-  ###########################
+ ###########################
+ # AGOT RELIGIONS          #
+ ###########################
 
   agot_healing_flames_critical_success:0 "Fiamme Guaritrici"
   agot_healing_flames_critical_success_desc:0 "Questo personaggio è stato guarito dalle fiamme di R'hllor."
@@ -1620,16 +1562,12 @@
 
   whispering_stone_blessing:0 "La Pietra Sussurrante"
   whispering_stone_blessing_desc:0 "Gli echi di lingue antiche e dimenticate ora sussurrano in questo personaggio, rivelando segreti celati nelle ombre."
-
   eternal_design_blessing:0 "Benedizione dell'Ordine Abissale"
   eternal_design_blessing_desc:0 "Schemi imperscrutabili dal vuoto guidano la mano di questo personaggio, infondendo ordine e vigore alle sue azioni."
-
   monolith_wisdom_blessing:0 "Saggezza del Monolito"
   monolith_wisdom_blessing_desc:0 "La saggezza insondabile di un antico monolito permea questo personaggio, ampliando la sua comprensione e alleviando il peso delle preoccupazioni mortali."
-
   eldritch_presence_blessing:0 "Presenza dell'Innominabile"
   eldritch_presence_blessing_desc:0 "Una forza misteriosa e invisibile avvolge questo personaggio, aumentando la sua influenza e fortificando la sua vitalità."
-
   black_heart_blessing:0 "Il Cuore Nero"
   black_heart_blessing_desc:0 "Una determinazione oscura e implacabile pulsa in questo personaggio, rafforzandone la volontà e affinandone l’istinto."
   agot_kinslayer_malus_0:0 "Known [GetTrait('accidental_kinslayer').GetName( GetNullCharacter )]"

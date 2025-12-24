@@ -2,9 +2,8 @@
   dragon_taming_events.success.f:0 "Dominerai [dragon.GetFirstName]!"
   dragon_taming_events.failure.f:0 "Non riesci a dominare [dragon.GetFirstName]!"
   dragon_flee_during_taming_tt:0 "Fuggi via da [dragon.GetFirstName]"
-
-  # Eventi per drago non legato
-  # 0101 - Avvicinarsi e usare la forza di volontà
+ # Unbonded dragon events
+ # 0101 - Walk up and use force of will
   dragon_taming_events.0101.t:0 "Una Battaglia di Volontà"
   dragon_taming_events.0101.desc.wilds:0 "Sento il respiro pesante di [dragon.GetFirstName] prima di vedere la sua grande forma.\n\nRiposa tra le rocce nella tana di his, il grande drago solleva la testa e mi guarda con uno sguardo penetrante. Avverto una strana sensazione nella mente, una connessione spirituale condivisa, anche se non posso dire se sia reale o una manifestazione della paura nel mio cuore. Restiamo a guardarci, per quello che sembra un'eternità.\n\nFinalmente, faccio un passo avanti, e [dragon.GetFirstNameNoTooltip] emette un basso ringhio. Devo dimostrare a [dragon.Custom('GetDragonSheHe')] che non ho paura, che sono degno del suo rispetto.\n\nFaccio un altro passo avanti, e un altro, e un altro, fino a trovarmi proprio davanti a [dragon.Custom('GetDragonSheHe')]. Guardo negli occhi e alzo il palmo verso il suo muso."
   dragon_taming_events.0101.desc.dragonpit:0 "Sento il respiro pesante di [dragon.GetFirstName] prima di vedere la sua grande forma.\n\nRiposa nella Fossa del Drago, il grande drago solleva la testa e mi guarda con uno sguardo penetrante. Avverto una strana sensazione nella mente, una connessione spirituale condivisa, anche se non posso dire se sia reale o una manifestazione della paura nel mio cuore. Restiamo a guardarci, per quello che sembra un'eternità.\n\nFinalmente, faccio un passo avanti, e [dragon.Custom('GetDragonSheHe')] emette un basso ringhio. Devo dimostrare a [dragon.GetFirstNameNoTooltip] che non ho paura, che sono degno del suo rispetto.\n\nFaccio un altro passo avanti, e un altro, e un altro, fino a trovarmi proprio davanti a [dragon.Custom('GetDragonSheHe')]. Guardo negli occhi di his e alzo il palmo verso il suo muso."
@@ -15,8 +14,8 @@
   dragon_taming_events.0101.dragon_horn:0 "Prepara il corno del drago."
   dragon_taming_events.0101.dragon_horn.tt:0 "Selezionerai qualcuno per suonare il corno."
 
-  # Eventi per drago legato
-  # 0201 - Accettazione durante il legame
+ # Bonded dragon events
+ # 0201 - Acceptance during bonding
   dragon_taming_events.0201.t:0 "Un Legame Forgiato"
   dragon_taming_events.0201.sili:0 "Sento il tocco ruvido e liscio delle squame di [dragon.GetNameNicknamedPossessive] sotto il palmo, il calore del corpo di his che riscalda la mia mano. Mentre lo accarezzo, sento il nostro legame... consolidarsi.\n\nSenza alcun preavviso, [dragon.Custom('GetDragonSheHe')] abbassa la testa e mi spinge a sollevarmi. Accetto, ma [dragon.Custom('GetDragonSheHe')] resta abbassato, invitandomi a salire."
   dragon_taming_events.0201.aemmly:0 "Con grande cautela mi avvicino lentamente a [dragon.GetNameNicknamed]. Con grande curiosità ed eccitazione, [dragon.Custom('GetDragonSheHe')] si lancia verso di me, combattendo contro la sua catena. Lancio un pezzo di carne arrostita tra di noi mentre [dragon.Custom('GetDragonSheHe')] cerca di saltare in avanti e liberarsi. [dragon.Custom('GetDragonSheHe')|U] lacera la carne ferocemente, emettendo piccoli grugniti e brontolii di soddisfazione.\n\nPongo il palmo sul lato del suo volto, e il mio cuore comincia a riempirsi di fiducia mentre il calore si diffonde attraverso le squame di [dragon.GetNamePossessiveNoTooltip], salendo lungo il mio braccio. Dopo un momento, [dragon.Custom('GetDragonSheHe')] nota il mio tocco. Abbassando lentamente la testa, [dragon.Custom('GetDragonSheHe')] mi invita ad accarezzarl[dragon.Custom('DE_END_PRO_S_N')]."
@@ -25,8 +24,6 @@
   dragon_taming_events.0201.a:0 "#emp Accetto la tua offerta, [dragon.GetFirstNameNoTooltip].#!"
   dragon_taming_events.0201.b:0 "Um, no, grazie..."
   dragon_taming_events.0201.b.f:0 "Rifiuti l'offerta del drago, restando a terra."
-
-
   agot_dragonbinding:0 "Legame con il Drago"
   dragon_taming_events.0300.t:0 "$agot_dragonbinding$: Il Suonatore del Corno"
   dragon_taming_events.0300.desc:0 "Seleziona qualcuno per suonare il corno del drago. #X Questo ucciderà il Suonatore del corno.#!"
@@ -47,7 +44,6 @@
   dragon_taming_events.0301.c.tt:0 "Qualcosa è andato storto, è il momento di andarsene. CORRI!"
   agot_target_will_blow_horn:0 "[THIS.Var('si_selected_character').Char.GetName] suona il corno."
   agot_target_will_not_blow_horn:0 "[THIS.Var('si_selected_character').Char.GetName] si rifiuta di suonare il corno."
-
 
   dragon_taming_events.0302.t:0 "$agot_dragonbinding$: Un Drago Legato"
   dragon_taming_events.0302.desc:0 "A quanto pare, [fool.GetName] ha suonato il corno del drago in presenza di [dragon.GetNameNicknamed]. Poiché il corno era legato a me, la bestia [dragon.Custom('GetDragonColorFull')] mi ha cercato...\n\n"
@@ -77,7 +73,6 @@
   has_available_horn_blower:0 "Corteo o prigioniero disponibile"
   agot_rebind_success:0 "[dragon.GetNameNicknamedNoTooltip] sarà rilegato."
   agot_rebind_failure:0 "[dragon.GetNameNicknamedNoTooltip] resisterà al tentativo di rilegatura."
-
 
   dragon_taming_events.0305.t:0 "Il Falso Sangue"
   dragon_taming_events.0305.desc.intro:0 "[dragon_keeper.GetFirstName] ha lanciato un appello al regno per nuovi cavalieri dei draghi, una sorta di reunion familiare. Sebbene io non abbia il sangue di drago, vedo un'opportunità.\n\nSi dice che i sangue di drago possano avere molti, hmm, sapori diversi. Potrebbe essere possibile far passare un mio cortigiano; un cortigiano fidato che non si tirerà indietro di fronte alla morte, poiché la morte è sicuramente inevitabile.\n\nCon il caos che regnerà al [dragonpit.GetNameNoTooltip] quel giorno, potrebbe essere possibile far entrare il corno con il nostro caro “sangue di drago.”"

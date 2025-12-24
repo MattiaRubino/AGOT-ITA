@@ -1,10 +1,10 @@
 ﻿l_spanish:
-  ### Holding
+ ### Holding
   building_type_ruin_01:0 "Rovina"
   building_ruin_01:0 "Rovina Distrutta"
   building_ruin_01_desc:0 "Questo luogo è in rovina."
 
-  ### Tipi di Rovina di Base
+ ### Base Ruin Types
   building_type_small_ruin_01:0 "Rovina di Piccole Dimensioni"
   building_small_ruin_01:0 "Rovina di Piccole Dimensioni Abbandonata"
   building_small_ruin_01_desc:0 "Una rovina di piccole dimensioni, abbandonata al suo destino tra la natura selvaggia."
@@ -35,44 +35,44 @@
   building_large_ruin_04:0 "Rovina di Grandi Dimensioni Restaurata"
   building_large_ruin_04_desc:0 "Una volta una rovina di grandi dimensioni spazzata via nelle pagine della storia, è stata completamente ricostruita, e forse anche superata rispetto a ciò che era originariamente."
 
-  ### Ruin Afflictions
-  # Salted Earth
+ ### Ruin Afflictions
+ # Salted Earth
   building_type_ruin_salted_earth_01:0 "Terra Salata"
   building_ruin_salted_earth_01:0 "Terra Salata"
-  building_ruin_salted_earth_01_desc:0 "Il terreno circostante le rovine è stato salato, lasciando la terra sterile e infruttuosa, con solo erbacce e fiori resistenti capaci di crescere per molti anni a venire."
+building_ruin_salted_earth_01_desc: "La terra attorno alle rovine è stata salata, lasciando il suolo sterile e infruttuoso; soltanto le erbacce e i fiori più tenaci potranno crescere per molti anni a venire."
 
-  # Desolato
+ # Desolate
   building_type_ruin_desolate_01:0 "Desolato"
   building_ruin_desolate_01:0 "Luogo Desolato"
-  building_ruin_desolate_01_desc:0 "Il terreno circostante le rovine è stato abbandonato per quanto può vedere un uccello, gli abitanti originali non sono da nessuna parte."
+building_ruin_desolate_01_desc: "La terra attorno alle rovine è stata abbandonata fin dove l'occhio d'un uccello può vedere; degli abitanti originari non si trova traccia."
   building_ruin_desolate_02:0 "Popolazione Rivitalizzata"
   building_ruin_desolate_02_desc:0 "Attraverso coercizione, incentivi o dovere, una nuova comunità è stata creata per sostenere lo sforzo di ricostruzione."
 
-  # Allagato
+ # Flooded
   building_type_ruin_flooded_01:0 "Allagato"
   building_ruin_flooded_01:0 "Rovine Allagate"
-  building_ruin_flooded_01_desc:0 "L'acqua infesta i dintorni delle rovine, quasi fermando la ricostruzione poiché ostacola ogni movimento."
+building_ruin_flooded_01_desc: "L'acqua infesta ogni anfratto delle rovine, quasi arrestando la ricostruzione, poiché ostacola ogni movimento."
   building_ruin_flooded_02:0 "Rovine Drenate"
   building_ruin_flooded_02_desc:0 "Dopo un lavoro tanto necessario, l'acqua che aveva coperto le rovine e ostacolato lo sforzo di ricostruzione è stata in gran parte, se non completamente, drenata."
 
-  # Rinomato
+ # Renowned
   building_type_ruin_renowned_01:0 "Rovina Rinomata"
   building_ruin_renowned_01:0 "Rovina Rinomata"
   building_ruin_renowned_01_desc:0 "Quello che ora è solo macerie e mura cadenti era una volta elogiato e ammirato, o forse la sua caduta gli ha dato la sua reputazione di tragedia. Le persone sembrano essere più disposte ad assistere nello sforzo di ricostruzione."
 
-  # Infame
+ # Infamous
   building_type_ruin_infamous_01:0 "Rovina Infame"
   building_ruin_infamous_01:0 "Rovina Infame"
-  building_ruin_infamous_01_desc:0 "Si pensa che le rovine che adornano queste terre siano piene di maledizioni e sciagure. Le persone si allontanano dallo sforzo di ricostruzione e dalle rovine stesse, per paura di ciò che potrebbe accadere loro."
+building_ruin_infamous_01_desc: "Si ritiene che le rovine che adornano queste terre siano gravate da maledizioni e cattiva sorte. La gente rifugge lo sforzo di ricostruzione, e le rovine stesse, temendo ciò che potrebbe accaderle."
 
-  # Scoppio di Fuoco Selvaggio
+ # Wildfire Outbreak
   building_type_ruin_wildfire_01:0 "Scoppio di Altofuoco"
   building_ruin_wildfire_01:0 "Altofuoco Incontrollato"
   building_ruin_wildfire_01_desc:0 "L'Altofuoco brucia attraverso le rovine, causando danni mortali a chiunque non sia abbastanza esperto da gestire le fiamme verdi."
   building_ruin_wildfire_02:0 "Scoppio Contenuto"
-  building_ruin_wildfire_02_desc:0 "Ora che l'Altofuoco è stato contenuto, il processo di ricostruzione è diventato più facile ora che la minaccia persistente di ogni progresso ridotto in cenere non è più così preoccupante. Tuttavia, le terre e le persone circostanti le rovine ormai bruciate ne hanno risentito."
+building_ruin_wildfire_02_desc: "Ora che l'Altofuoco è stato contenuto, il processo di ricostruzione è divenuto più agevole: la minaccia costante che ogni progresso venga ridotto in brace non è più così opprimente. Tuttavia, le terre e la gente attorno alle rovine ormai arse hanno pagato un prezzo."
 
-  # Interaction
+ # Interaction
   agot_ruin_begin_reconstruction:0 "Ripristina Rovine"
   agot_ruin_begin_reconstruction_desc:0 "Assumi il controllo di uno sforzo di ricostruzione per riportare l'antica gloria della zona."
   agot_ruin_reconstruction:0 "Rovina Sotto Ricostruzione"
@@ -80,51 +80,49 @@
   RUIN_MUST_BEGIN_CONSTRUCTION:0 "Devi iniziare prima la [reconstruction_effort|E]."
   agot_ruin_disease_modifier:0 "Modificatore Debug Malattia Rovina"
   agot_ruin_disease_modifier_desc:0 "Questo è un modificatore utilizzato per proteggere le rovine dalla malattia."
-  # GUI
+
+ # GUI
   ABANDON_RUIN_BUTTON:0 "Abbandona Rovina"
   ABANDON_RUINS_TOOLTIP:0 "Abbandona nuovamente le rovine alla natura selvaggia."
   agot_ruins_character_desc:0 "[CHARACTER.Custom('RuinsHistory')]"
-  ruin_history_castamere:0 "Migliaia di anni di alleanza e sottomissione tra le casate Lannister e Reyne sarebbero andati tutti a nulla sotto il governo di Tytos Lannister, un leone che non era destinato a governare. Nessuno avrebbe potuto biasimare i suoi vassalli per approfittare delle sue debolezze, la sua riluttanza a richiamare i prestiti, un cuore gentile incapace di vedere oltraggi. Nessuno ne ha tratto maggior beneficio di Roger Reyne, la cui famiglia e cognato godevano dell'inefficienza di un leone senza denti. Castamere cresceva a spese de La Roccia, ed era glorioso. Quando i cuccioli arrivarono a mordere al posto del padre, perché Roger avrebbe loro prestato più attenzione? Aveva già dimostrato che le sue unghie erano più affilate di qualsiasi leone dorato. Questo orgoglio avrebbe portato alla distruzione di entrambe la famiglia e la casa, perché questo cucciolo non era altri che il futuro Lord Tywin Lannister. In una campagna che incapsula l'uomo che sarebbe diventato, Tywin reclamò i debiti dovuti dai vassalli di suo padre, portando rovina e morte a coloro che resistevano. A Tarbeck e Reyne. Quando gli eserciti Lannister raggiunsero Castamere, i Tarbeck erano stati estinti, e Lord Roger era delirante a causa di una ferita inflittagli da una balestra. Suo fratello Reynard avrebbe riparato tutti i loro simili sotto terra e chiamato a negoziati, ma il loro destino era già stato prefigurato sia dai Tarbeck che da ciò per cui Castamere era stato chiamato. Tywin avrebbe fatto sigillare tutte le entrate delle miniere dei Reyne e un vicino torrente sarebbe stato deviato per scorrere al loro interno. Nessuna difesa avrebbe impedito l'ingresso di una marea fluviale. Si dice che le guardie Lannister abbiano sentito il panico e le grida per tutta la notte, ma quello sarebbe stato l'ultimo lamento di sfida della casa Reyne.\n\nE così è rimasta Castamere, un sepolcro acquatico per quella che era una grande famiglia. Fino a quando qualcuno osa scavare questa tomba..."
+ruin_history_castamere: "Migliaia d'anni di alleanza e... una famiglia un tempo grande. Finché qualcuno non oserà disseppellire questa tomba."
   ruin_history_hellgate:0 "Un tempo sede della Casa Dryland, Hellgate Hall giace ora in rovina. Da questa antica roccaforte, la Casa Dryland governava come Re del Brimstone, inchinandosi a nessuno, e fu solo quando Nymeria e i Rhoynar arrivarono che un'altra casa di Dorne ebbe il potere e la forza di abbatterne le mura."
   ruin_history_woodfoot:0 "Quando Theon Stark cacciò per la prima volta gli Uomini di Ferro dalle Isoel dell'Orso, assegnò le terre alla Casa Woodfoot. I Woodfoot avrebbero protetto l'isola da tutte le minacce per quasi quindici secoli. Fu solo sotto Loron Greyjoy che gli Uomini di Ferro avrebbero messo fine alla Casa Woodfoot e ripreso le Isole dell'Orso. Eppure, anche dopo la loro fine, rimangono le rovine di Woodfoot Watch, il loro antico castello."
   ruin_history_skane:0 "Il Banchetto di Skane; Chi nel Nord e oltre non conosce gli Skagosi e il loro famigerato Banchetto di Skane? Quando gli Skagosi avevano ancora le loro navi, si rivolsero a Skane vicina, e fu lì che catturarono tutti gli abitanti di quell'isola. I fortunati vennero resi schiavi o mogli, i sfortunati vennero serviti come pasto in un grande banchetto per i predoni Skag. Il Banchetto fu completo e Skane giace vuota ancora oggi."
   ruin_history_oldstones:0 "La lista dei Re dei Fiumi è argomento di accesi dibattiti, sia tra i Meistri che tra i signori e le signore delle Terre dei Fiumi. Ma la prima grande casa ad essere conosciuta come Re dei Fiumi e Colline su cui tutti concordano è la Casa Mudd, l'ultima dei Primi Uomini a portare quel titolo. Fu dal castello oggi noto come Oldstones che i Re Mudd governarono, e per la maggior parte del loro regno combatterono gli invasori Andal. Il castello fu distrutto dopo la sconfitta di Tristifer IV e la fine del Regno Mudd."
-  ruin_history_summerhall:0 "Quando il Re Daeron II portò Dorne nel regno, dimostrò la sua fiducia nella pace costruendo un palazzo estivo tra le Terre Basse di Dorne, l'acclamata Sala dell'Estate. Questo avrebbe servito come ritiro regolare per la corte per sfuggire agli odori di Approdo del Re durante le lune estive e alla fine sarebbe stato dato a suo figlio minore, il futuro Maekar I. Maekar tenne il posto per tutto il regno dei suoi fratelli e del suo regno, e infine alla sua morte passò al suo ultimo detentore, Re Aegon V l'Improbabile. Sotto l'amato Re Aegon, Sala dell'Estate sarebbe diventato teatro di una grande tragedia, poiché quando il Re convocò la sua famiglia nella speranza di far nascere di nuovo i draghi nel mondo, il castello e gran parte della famiglia reale finirono in fiamme. Oggi Sala dell'Estate giace vuoto e in rovina, con solo le canzoni a tenerlo in vita."
-  ruin_history_morne:0 "L'antica sede reale di Tarth, fu qui che gli Stellaserale della Casa Tarth regnarono come Re dell'Isola Zaffiro, quando la casa andala prese per la prima volta l'isola. Col passare del tempo, e i Tarth si sposarono sia con la Casa Durrandon che col loro regno, il seggio perse significato, fino al punto in cui rimangono solo rovine."
+ruin_history_summerhall: "Quando Re Daeron II condusse Dorne nel reame, mostrò la sua fede nella pace costruendo un palazzo estivo fra le Terre Basse di Dorne, la celebre Sala dell'Estate. Questo avrebbe servito da regolare rifugio per la corte, per sfuggire ai miasmi di King's Landing durante le Lune d'Estate, e sarebbe infine stato donato al suo figlio minore, il futuro Maekar I. Maekar mantenne il seggio come proprio per tutti i regni dei suoi fratelli e del suo stesso governo, e infine, alla sua morte, sarebbe passato al suo ultimo detentore, Re Aegon V l'Improbabile. Sarebbe stato sotto l'amato Re Aegon che la Sala dell'Estate avrebbe conosciuto la sua grande tragedia: quando il Re convocò la sua famiglia nella speranza di far schiudere nuovamente i draghi nel mondo, il castello e gran parte della famiglia reale finirono tra le fiamme. Ancor oggi, la Sala dell'Estate giace vuota e in rovina, e soltanto le canzoni la tengono in vita."
+ruin_history_morne: "Un tempo seggio reale di Tarth, qui gli Evenstar di Casa Tarth regnavano come Re dell'Isola di Zaffiro, quando la Casa andala prese per la prima volta l'isola. Col passare del tempo, e con i Tarth che si unirono in matrimonio a Casa Durrandon e al loro regno, il seggio cadde in disgrazia, finché non ne rimasero che rovine."
   ruin_history_landless:0 ""
-  ruin_history_generic:0 "Il mondo stesso è disseminato di rovine, da Westeros a Essos, da Sothoryos a Ulthos; si diffondono in ogni terra e in ogni clima con poca o nessuna considerazione. Alcune erano una volta grandi fortezze e castelli, che resistevano agli nemici per migliaia di anni, solo per arrendersi a un nemico imbattibile, altre erano torri di avvistamento e piccole fortezze che venivano distrutte da raid minori perduti nel tempo. Alcune sono antiche oltre ogni misura, essendo state ridotte in rovina prima dei primi registri nella Cittadella o a Yi Ti, come Yeen a Sothoryos o Strygai nell'Ombra. Le cadute di altre sono state più recenti e documentate dagli studiosi delle terre del Tramonto e dell'Alba. Molte hanno avuto leggende, storie o canzoni a loro dedicate, o il loro ultimo atto di resistenza, e molte giacciono dimenticate e evitate da tutti i cantori.\n\nPer reclamare una contea distrutta e iniziare la ricostruzione, vai alla vista della tenuta e scegli "Ripristina Rovine". Quando possiedi una baronia in rovina, puoi potenziare il principale edificio in rovina per iniziare la ricostruzione."
+ruin_history_generic: "Il mondo è punteggiato di rovine, da Westeros a Essos, da Sothoryos a Ulthos; sono sparse in ogni terra. Alcune furono un tempo grandi fortezze e castelli, che resistettero agli nemici per migliaia d'anni prima di cadere dinanzi a un avversario imbattibile. Altre erano torri di guardia e piccoli fortilizi, spezzati da razzie minori e perduti al tempo. Di molte si cantano leggende, mentre altre giacciono dimenticate e respinte da ogni cantore.\n\nPer rivendicare una contea distrutta e iniziare la ricostruzione, vai alla schermata del possedimento e scegli \"Restore Ruins\". Quando possiedi una baronia in rovina, puoi migliorare l'edificio principale delle rovine per avviare il restauro."
   reconstruct_ruin_confirm_title:0 "Iniziare il Ripristino?"
   reconstruct_small_ruin_confirm_desc:0 "Restaurare queste rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 200#!."
   reconstruct_med_ruin_confirm_desc:0 "Restaurare queste rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 400#!."
   reconstruct_large_ruin_confirm_desc:0 "Restaurare queste rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 600#!."
-
   reconstruct_small_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 200#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
   reconstruct_med_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 400#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
   reconstruct_large_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 600#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
-
   reconstruct_summerhall_tooltip:0 "Perfino gli operai trovano questo luogo funesto e si rifiutano di lavorarci. Non potrai restaurare Summerhall."
   reconstruct_ruin_confirm_button:0 "Conferma"
 
-
-  # Eventi
+ # Events
   agot_ruins.1000.t:0 "Da Rovina a Gioiello"
-  agot_ruins.1000.d:0 "Pietra su pietra, mattone su mattone, davanti a te si erge ciò che era stato lasciato disgregare nell'oscurità e nella polvere, ora completamente rivitalizzato. Con l'aiuto di Meistri e muratori, le rovine sono state ricostruite il più possibile secondo il loro design originale. Tuttavia, una domanda rimane senza risposta. Qual sarà il suo scopo? Mura forti e infrangibili potrebbero farne un castello il cui potere è una forza con cui fare i conti, la costruzione di case e mercati nelle vicinanze potrebbe far sì che una cittadina vivace si sviluppi dal castello come il suo cuore, o la ristrutturazione dell'interno e delle sue pareti in uno spazio più sacro e religioso dovrebbe far sì che diventi un luogo di culto rispettabile. Analizzi le opzioni e decidi che dovresti pianificare per il futuro..."
+agot_ruins.1000.d: "Macerie su macerie, mattone su mattone, dinanzi a me s'erge ciò che era stato lasciato a sbriciolarsi nell'oblio e nella polvere, ora del tutto rinato. Con l'aiuto di maestri e muratori, le rovine sono state ricostruite il più possibile secondo il disegno originario.\n\nEppure una domanda resta senza risposta: #italic A quale scopo servirà?#!\n\nLe mura, forti e inflessibili, suggeriscono che potrebbe divenire una fortezza, e la sua potenza lo renderebbe una forza con cui fare i conti. In alternativa, le case e i mercati circostanti potrebbero dare vita a una città prospera, con la rocca come cuore pulsante. Oppure, forse, gli interni e le mura potrebbero essere rifatti in luogo santo, elevandolo a rispettabile sede di culto.\n\nMentre soppeso tali possibilità, comprendo che una pianificazione accorta è cruciale. Decido che dovrei predisporre i preparativi per."
   agot_ruins.1000.a:0 "Un grande castello."
   agot_ruins.1000.b:0 "Una città splendida."
   agot_ruins.1000.c:0 "Un tempio per i pii."
 
   agot_ruins.2000.t:0 "Tesori dalla Tragedia"
-  agot_ruins.2000.d:0 "La tragedia di Sala dell'Estate ha gettato un'ombra su questo progetto fin dall'inizio. I lavoratori più superstiziosi hanno sussurrato che il luogo sia maledetto e che i fantasmi dei Targaryen che sono caduti quel giorno infestino ancora le pietre stesse. Anche gli uomini più cinici sembravano nervosi quando uno strumento veniva smarrito o accadeva un piccolo incidente.\n\nOggi, tuttavia, piuttosto che una maledizione, ho trovato una benedizione. Vicino alle fasi finali del restauro, è stata scoperta una camera nascosta sotto le rovine! Sono stato portato davanti alla camera e, mentre entro, non posso fare a meno di esultare di gioia. Al centro della stanza c'è un piccolo tavolo con un cuscino sopra, e su quel cuscino, riposa un uovo di drago perfettamente intatto e senza macchie!"
+agot_ruins.2000.d: "La tragedia alla Sala dell'Estate ha gettato un'ombra su questo progetto sin dall'inizio. I lavoratori più superstiziosi hanno sussurrato che il luogo sia maledetto e che i fantasmi dei Targaryen periti quel giorno infestino ancora le pietre stesse. Persino gli uomini più cinici parevano in allarme quando un attrezzo spariva o si verificava un incidente di poco conto.\n\nOggi, però, anziché una maledizione, ho trovato una benedizione. Così vicini alle fasi finali del restauro, è stata scoperta una camera segreta sotto le rovine! Mi hanno condotto dinanzi alla camera e, quando vi entro, non posso trattenere un grido di gioia. Al centro della stanza vi è un piccolo tavolo con un cuscino; e su quel cuscino riposa un uovo di drago intatto, perfetto, immacolato!"
   agot_ruins.2000.a:0 "Una scoperta straordinaria!"
 
   agot_ruins.3000.t:0 "Inizio della Costruzione"
-  agot_ruins.3000.d:0 "L'ordine è stato dato. I muratori sono già al lavoro, e nutro grandi speranze di vedere questo monumento al potere del Nord restaurato.\n\nSolo tre torri rimangono dell'antico bastione dell'Incollatura, coperte di pelle di fantasma bianca, un pallido eco della forza passata della fortezza. Col tempo, restaurerò tutte e venti le torri e renderò questo luogo una fortezza temuta di nuovo.\n\nQuando il lavoro sarà completato, nessuno potrà attraversare senza invito!"
+agot_ruins.3000.d: "L'ordine è stato dato. I muratori sono già al lavoro, e nutro grande speranza di vedere questo monumento al potere del nord restaurato.\n\nSolo tre torri restano del grande bastione de L'Incollatura, coperte di pallida pelle fantasma, un'eco livida dell'antica potenza del fortilizio. Col tempo, ne restaurerò tutte e venti e farò di questo luogo una fortezza che incuta timore.\n\nQuando il lavoro sarà compiuto, nessuno passerà senza il mio permesso!"
   agot_ruins.3000.a:0 "L'antico bastione degli uomini dei crannog sarà restaurato!"
 
   agot_ruins.3001.t:0 "Torri Restaurate"
   agot_ruins.3001.d:0 "La ricostruzione di Moat Cailin procede spedita. Dove prima c'erano solo tre torri, ora ne sorgono venti, con solide mura costruite con la stessa pietra nera usata nella costruzione originale.\n\nIl luogo ora somiglia più da vicino alla fortezza che era in tempi antichi, e parte della vita è tornata alla struttura di conseguenza.\n\nLa Torre dei Bambini — dove si crede che i bambini abbiano evocato il martello delle acque — ha visto il suo tetto restaurato, e già i lavoratori superstiziosi parlano di voci infantili udite nella notte."
   agot_ruins.3001.a:0 "Questo castello emana un... potere soprannaturale."
-  agot_ruins.3001.b:0 "Fate tornare tutti al lavoro, c'è ancora molto da fare!"
+agot_ruins.3001.b: "Che tornino al lavoro. C'è ancora molto da fare!"
 
   agot_ruins.3002.t:0 "La Fase Finale"
   agot_ruins.3002.d:0 "I muratori continuano il loro lavoro, completando gli ultimi dettagli in pietra necessari per il mio grande progetto. Una volta, Moat Cailin era un rudere, consumato dalle oscure e tortuose nebbie della palude, lasciato a marcire nelle acque fangose dell'Incollatura.\n\nOra è quasi restaurato. Presto, avrò reso di nuovo forti le sue mura, restaurato le sue imponenti torri e fornito uomini a sufficienza per mantenerlo.\n\nChi oserebbe sfidare il Nord con questo luogo da attraversare?"
@@ -134,7 +132,100 @@
   agot_ruins.3003.d:0 "Il restauro di Moat Cailin è completo. Non più i difensori dell'Incollatura si nasconderanno nelle paludi, sempre timorosi degli invasori; ora staranno in piedi fieri come questo luogo.\n\nGuardo il castello, circondato da paludi insidiose piene di bestie pericolose, e maestoso di per sé. Tutte e venti le torri proiettano lunghe ombre sulle dense paludi. Questo è il luogo dove gli Andali fallirono, schiantandosi contro questa roccaforte come onde contro una grande scogliera.\n\nAnche [GetScriptedCharacterByHistoryID('Stark_12').GetFirstNameNicknamed] ammirerebbe questo lavoro!"
   agot_ruins.3003.a:0 "Anche la Casa [ROOT.Char.GetHouse.GetName] sa costruire."
   agot_ruins.3003.a_stark:0 "Spero di onorare il tuo nome, caro antenato."
-  agot_ruins.3003.b:0 "Che tutti siano testimoni del mio lavoro!"
+agot_ruins.3003.b: "Che tutti siano testimoni della mia opera!"
+
+agot_ruins.4000.t: "La Torre del Terrore Rifatta"
+agot_ruins.4000.d: "Alzo lo sguardo sulle rovine contorte e spezzate di Harrenhal. Se questo luogo deve tornare forte, devo scegliere da dove cominciare. Esaminando i resti fusi delle cinque possenti torri, comprendo perché Harren osò provocare il drago. Al suo apice, questa fortezza doveva far sentire chiunque invincibile.\n\nInfine poso gli occhi sulla Torre del Terrore; comincerò da qui."
+agot_ruins.4000.a: "Inizia i lavori."
+
+agot_ruins.4001.t: "La Prima Torre è Completa"
+agot_ruins.4001.desc: "Il mio folle progetto è iniziato e già una delle cinque sommità della fortezza è stata riportata al suo antico splendore. La Torre del Terrore deve ormai il suo nome tanto al suo aspetto tetro quanto alla sua funzione. Le sue prigioni sono state ampliate, rinnovate e fortificate; la struttura è di nuovo salda.\n\nÈ stato soltanto il primo passo della ricostruzione, ma è stato compiuto con maestria."
+agot_ruins.4001.a: "C'è ancora molto da fare."
+agot_ruins.4001.b: "Dovrei studiare i piani per la ricostruzione."
+agot_ruins.4001.c: "Non vedo l'ora di riempire queste nuove celle."
+agot_ruins.4001.d: "Portate birra ai lavoratori!"
+
+agot_ruins.4002.t: "La Torre dei Lamenti Rinasce"
+agot_ruins.4002.d: "Dopo la Torre del Terrore, il mio prossimo passo nella ricostruzione della fortezza è la Torre dei Lamenti. Il piano terreno funge da magazzino e granaio vitali, e le sue scorte saranno preziose quando verrà l'inverno. Le fondamenta vanno rifatte e il suolo smosso per ripristinare l'accesso alle cantine.\n\nIl fuoco ha fuso la pietra, ma il nostro sudore la ristabilirà."
+agot_ruins.4002.a: "Cominciamo senza indugio."
+agot_ruins.4002.a_lazy: "Purché non sia io a dover sudare."
+
+agot_ruins.4003.t: "La Torre del Silenzio"
+agot_ruins.4003.desc: "Per quanto alcuni giurino ancora di udire sussurri nel buio, almeno il lamento del castello maledetto si è placato. La seconda torre di Harrenhal è completa, e le fessure che davano al vento la sua voce sinistra sono state sigillate. Molti lavoratori hanno conosciuto le prime notti di sonno sereno da quando questo progetto è cominciato.\n\nC'è chi dice che sia il frutto del nostro lavoro, e chi che stiamo finalmente concedendo pace al vecchio Harren."
+agot_ruins.4003.a: "Certo, e tutti viviamo nell'occhio di un gigante dagli occhi azzurri."
+agot_ruins.4003.b: "Gli spiriti sono placati, e lo sono anch'io."
+agot_ruins.4003.c: "Questa maledizione potrebbe essere più che semplice vento."
+agot_ruins.4003.d: "Finalmente! Fine delle urla!"
+agot_ruins.4003.e: "Abbiamo dimostrato che, col tempo, tutto può essere riparato."
+
+agot_ruins.4004.t: "S'Innalza la Torre dei Fantasmi"
+agot_ruins.4004.d: "La Torre del Terrore e la Torre dei Lamenti ora svettano alte, e la mia attenzione si volge alla Torre dei Fantasmi. È la più distrutta tra le torri di Harren: la sua forma straziata getta un'ombra spezzata sul septo del castello, con una chiara vista sulla posterla del muro orientale. Perché questo luogo mi serva bene, devo restaurare e rinforzare tutte e tre.\n\nNon è un compito da poco, ma le torri già compiute mi danno forza!"
+agot_ruins.4004.a: "Chiamate i lavoratori."
+agot_ruins.4004.b: "Un altro nome nato da racconti superstiziosi."
+agot_ruins.4004.c: "Perché la gente sceglie sempre i nomi più orribili?"
+
+agot_ruins.4005.t: "I Fantasmi Banditi"
+agot_ruins.4005.d: "Un tetto ricostruito, mura rinforzate, stanze rinnovate — la famigerata Torre dei Fantasmi è ora più adatta ai vivi che ai morti.\n\nPer quanto resti ancora molto lavoro, la fortezza appare assai meno una rovina che una roccaforte. Presto il sogno di Harren rinascerà del tutto. Dovrei rendere grazie per quanto è stato ottenuto.\n\nCon la preghiera nella mente, che cosa devo fare del Septo?"
+agot_ruins.4005.a: "Gli adoratori dei Sette saranno liberi di pregare lì."
+agot_ruins.4005.a_father: "Pregherò il Padre."
+agot_ruins.4005.a_mother: "Pregherò la Madre."
+agot_ruins.4005.a_warrior: "Pregherò il Guerriero."
+agot_ruins.4005.a_smith: "Pregherò il Fabbro."
+agot_ruins.4005.a_maiden: "Pregherò la Fanciulla."
+agot_ruins.4005.a_crone: "Pregherò la Megera."
+agot_ruins.4005.a_stranger: "Pregherò lo Straniero."
+agot_ruins.4005.b: "Forse gli dèi venerati lì mi servirebbero meglio?"
+agot_ruins.4005.c: "Resterà un luogo di culto — ma per i veri dèi."
+
+agot_ruins.4006.t: "La Dimora della Vedova"
+agot_ruins.4006.d: "I miei occhi ora si volgono alla Torre della Vedova, dove la regina Rhaena Targaryen scelse di ritirarsi nei suoi ultimi anni.\n\nDobbiamo avere cura di questa torre, poiché col tempo dovrà essere unita con un ponte alla Torre della Guglia Reale. Harrenhal incombe di nuovo come una fortezza possente, anche se viverci resta arduo. Questa torre sarà la nostra soluzione."
+agot_ruins.4006.d_before_rhaena: "I miei occhi ora si volgono a [GetBuilding('building_ruins_harrenhal_05').GetNameNoTooltip].\n\nDobbiamo avere cura di questa torre, poiché col tempo dovrà essere unita con un ponte alla Torre della Guglia Reale. Harrenhal incombe di nuovo come una fortezza possente, anche se viverci resta arduo. Questa torre sarà la nostra soluzione."
+agot_ruins.4006.a: "Restaura la Vedova al suo antico splendore."
+
+agot_ruins.4007.t: "Una Vedova Onorata"
+agot_ruins.4007.desc: "La ricostruzione della Torre della Vedova è completa. Le camere dove un tempo dimorò la regina dei draghi sarebbero ora ben più degne di lei di quanto non fosse ciò che sopportò negli ultimi anni.\n\nHarrenhal è passata da rovina grottesca a qualcosa che sfiora la bellezza. Il terrore è stato placato, i lamenti taciuti, i fantasmi scacciati, e la vedova onorata. Chiunque posi lo sguardo su queste alte mura vede non un monumento straziato al fuoco di drago, ma una roccaforte restaurata dal lavoro.\n\nPresto verrà il tempo dell'ultima torre."
+agot_ruins.4007.desc_before_rhaena: "La ricostruzione della Torre della Vedova è completa.\n\nHarrenhal è passata da rovina grottesca a qualcosa che sfiora la bellezza. Chiunque posi lo sguardo su queste alte mura vede non un monumento straziato al fuoco di drago, ma una roccaforte restaurata dal lavoro.\n\nPresto verrà il tempo dell'ultima torre."
+agot_ruins.4007.a: "Harrenhal sarà presto restaurata."
+agot_ruins.4007.b: "Dedico questi sforzi alla regina Rhaena."
+agot_ruins.4007.c: "Capisco perché Rhaena l'abbia scelta."
+agot_ruins.4007.c_before_rhaena: "Questo sarebbe un ottimo studiolo privato."
+agot_ruins.4007.d: "I lavoratori hanno trovato strane cose nelle stanze della regina."
+agot_ruins.4007.d_before_rhaena: "I lavoratori hanno trovato strane cose in una delle stanze."
+agot_ruins.4007.d_tt: "La tua conoscenza dell'occulto ti permette di comprendere le strane cose lasciate dietro di sé"
+
+agot_ruins.4008.t: "L'Ultima Torre"
+agot_ruins.4008.d: "La Torre della Guglia Reale è la più alta e la più ampia delle cinque. Qui Harren e i suoi figli trovarono la fine, bollendo e urlando tra le fiamme di drago. Entro le sue mura sorgeva un tempo la Sala dei Cento Focolari, e presto dovrà sorgere di nuovo. Tornerà a ospitare la più grande sala di Westeros, degna del più possente dei castelli.\n\nCiò che il fuoco di un drago distrusse, ora dobbiamo disfare."
+agot_ruins.4008.a: "Voglio la pietra più forte e i muratori più abili!"
+
+agot_ruins.4009.t: "La Quinta Torre S'Erge"
+agot_ruins.4009.desc: "Per quanto il suo nome fosse un'esagerazione — contava solo trentacinque dei cento focolari promessi — la grande sala non è stata un'impresa da poco. I lavori hanno richiesto più tempo, più manodopera e più fatica di quanto avessi mai immaginato. Eppure, finalmente, le cinque torri di Harrenhal stanno di nuovo in piedi.\n\nOrmai resta ben poco tra me e la completa restaurazione di questa grande fortezza."
+agot_ruins.4009.a: "Le braci del terrore sono infine spente."
+agot_ruins.4009.b: "Condurrò questa ricostruzione fino alla fine."
+agot_ruins.4009.c: "Ora lo vedo — il fuoco è potere."
+agot_ruins.4009.d: "L'orgoglio di Harren è una lezione."
+
+agot_ruins.4010.t: "Ferite Che Lasciano Cicatrici"
+agot_ruins.4010.d: "Harrenhal ha ritrovato una certa vitalità. Da fortezza oscura e contorta, intrisa di sventura, è divenuta un grande castello, riplasmato dal tempo e dall'opera degli uomini.\n\nPer quanto le tracce del fuoco di drago segnino ancora le sue mura, pochi castelli potrebbero eguagliare la gloria del mio. Qualcuno sussurrerà sempre di maledizioni e ombre, ma l'aura è mutata profondamente.\n\nLe cinque torri sono intatte, eppure mi attendono ancora anni di lavoro.\n\nLa fine è vicina; niente più ritardi!"
+agot_ruins.4010.a: "Al lavoro!"
+agot_ruins.4010.a_arrogant: "Harren costruì Harrenhal, ma io l'ho ricostruita."
+
+agot_ruins.4011.t: "Harrenhal Rinasce"
+agot_ruins.4011.desc: "Al mattino osservo la mia opera. I timidi raggi del sole spargono una luce scintillante sull'albero del cuore del bosco sacro, fiero tra i pini sentinella. A mezzogiorno, la vista dell'Occhio degli Dei dalle alte mura risplende sotto lo zenit ardente della stella; e la sera, la Sala dei Cento Focolari scalda tutti coloro che vi sono dentro, gettando luce dorata su tutta la rocca.\n\nIl luogo pullula di vita: servi e manovali si affaccendano nella sua vasta distesa. Tutti coloro che entrano restano attoniti davanti alla sua immensità.\n\nC'è ancora chi sussurra di sogni strani e visioni oscure, e sostiene di udire i richiami lontani di antiche cose dall'Isola dei Volti, ma io non me ne curo. Questo luogo è mio, e nessun dio può più reclamarlo."
+agot_ruins.4011.a: "Che tutti vedano questo luogo e tremino!"
+agot_ruins.4011.b: "Ora è mio quanto lo fu di Harren."
+agot_ruins.4011.b_hoare: "Ciò che il sudore di Harren costruì, il suo sangue lo ricostruì."
+agot_ruins.4011.c: "Se posso costruire, posso anche distruggere."
+agot_ruins.4011.d: "Ciò che un drago distrusse, un altro lo custodirà."
+agot_ruins.4011.e: "Questo castello non teme eserciti, e io non temo draghi."
+
+agot_ruins.4100.a: "La mia fede non è sbagliata."
+the_seven_main: "La Fede dei Sette, seguita dalla maggior parte di Westeros"
+servants_of_the_star: "Tutte le altre fedi sono false; Il Puro è la via autentica"
+baelorism: " [GetScriptedCharacterByHistoryID( 'Targaryen_82' ).GetFirstName] è l'uomo più pio! Lo venererò!"
+warring_star: "Venereremo la leggenda del Re di Tutti gli Andali, e forse raggiungeremo persino il suo obiettivo"
+weirwood_of_the_seven: "Un tempo i Sette parlavano attraverso il Weirwood: sono gli stessi dèi"
+hugor_start: "Le antiche usanze di Hugor della Collina, quando i Sette che sono uno solo si rivelarono"
+original_fots: "La più antica fede andala, la più vicina alla verità più pura"
 
   agot_ruins.9999.t:0 "Interruzione dei Lavori"
   agot_ruins.9999.opening:0 "Restaurare tali rovine non è un compito semplice, e devo essere preparato. Potrebbe essere saggio rimandare.\n\nSebbene ci sia ancora molto da fare,"
@@ -148,10 +239,10 @@
   agot_ruins.9999.bankrupt:0 "le casse sono vuote e sarebbe sbagliato continuare mentre sono in debito,"
   agot_ruins.9999.lazy:0 "chi può sapere cosa riserva il futuro. Senza contare che non ho mai amato il lavoro in nessuna forma,"
   agot_ruins.9999.greedy:0 "chi può sapere cosa riserva il futuro. Preferisco riavere l'oro investito per sapere che è al sicuro,"
-  agot_ruins.9999.fickle:0 "chi può sapere cosa riserva il futuro. Comunque sapevo fin dall'inizio che non era una buona idea,"
+agot_ruins.9999.fickle: "chissà cosa riserva il futuro. In ogni caso, lo sapevo fin dall'inizio che non era una buona idea,"
   agot_ruins.9999.paranoid:0 "chi può sapere cosa riserva il futuro. E quando penso a tutte queste persone riunite in un luogo a 'lavorare', chissà cosa potrebbero tramare,"
-  agot_ruins.9999.impatient:0 "chi può sapere cosa riserva il futuro. Non voglio aspettare anni per vedere il frutto del lavoro,"
-  agot_ruins.9999.someone_else:0 "e in ogni caso non sono stato io a iniziare questo progetto,"
+agot_ruins.9999.impatient: "chissà cosa riserva il futuro. Non voglio aspettare anni per vedere il frutto della fatica,"
+agot_ruins.9999.someone_else: "e in ogni caso, non fui io ad aver iniziato questo progetto,"
   agot_ruins.9999.relation:0 "e anche se [restoration_constructor.GetName] desiderava vedere questo progetto realizzato, ho altre priorità nel futuro immediato,"
   agot_ruins.9999.outro:0 "è meglio che metta da parte l'idea di continuare questo lavoro senza fine."
   agot_ruins.9999.a:0 "Lasciamo che questo lavoro finisca ora."

@@ -1,11 +1,11 @@
 ﻿l_spanish:
 
 
-  ################################
-  # Widowed Events
-  # 1000 - 1999
-  # by Badger
-  ################################
+ ################################
+ # Widowed Events
+ # 1000 - 1999
+ # by Badger
+ ################################
 
   agot_widowed_events.0001.t: "Il Dolce Ricordo dell'Amore"
   agot_widowed_events.0001.desc: "[Select_CString(dead_lover.IsFemale,'La mia cara','Il mio caro')] [dead_lover.GetFirstNameNicknamedNoTooltip], è passat[dead_lover.Custom('DE_END_PRO_S_N')] a una vita migliore. #italic Darei qualsiasi cosa per avere solo un altro giorno con [dead_lover.GetSheHe]...#!\n\nLe mie stanze sembrano vuote — eppure devo indugiare in questo luogo. Forse questa tristezza si attenuerà col tempo."
@@ -29,6 +29,7 @@
   agot_widowed_events.0005.desc: "Il tempo è passato eppure sento ancora una pungente tristezza pensando [Select_CString(widowed_memory.IsFemale,'alla mia cara','al mio caro')]  [widowed_memory.GetFirstNameNicknamedNoTooltip]. #italic Come posso superare questo amore?#!\n\nMentre combatto con i miei pensieri, nella mia sala del trono entra [learned_courtier.GetFirstNameNicknamed], un membro colto della mia corte. [learned_courtier.GetSheHe|U] mi guarda, [learned_courtier.Custom('quirk_pos_adverb')], prima di annunciare: 'Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|l], sai qual è l'unico vero rimedio per un cuore spezzato... #bold imparare!#!'\n\nValuto [learned_courtier.GetFirstNameNoTooltip] con qualche dubbio, ma forse [learned_courtier.GetSheHe] ha ragione? Dovrei dedicarmi agli studi?"
   agot_widowed_events.0005.a: "Devo farlo!" #Breve a causa delle icone dei tratti.
   agot_widowed_events.0005.b: "I libri sono per i deboli."
+
   agot_widowed_events.0005.maester.tt: "Abbandoni tutte le possessioni mondane per diventare un maestro."
 
   agot_widowed_events.0006.t: "Un Amore... per il Bere"

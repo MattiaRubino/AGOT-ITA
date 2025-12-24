@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  #RP Event Weapons
+ # RP Event Weapons
   rp_hunters_spear:0 "Lancia per Cinghiali"
   rp_hunters_spear_desc:0 "Una lancia utilizzata per cacciare cinghiali. A causa dei rischi legati alla caccia a tali bestie, la lancia è stata ben fatta e curata, con una lama di acciaio forgiato in castello."
   rp_spear:0 "Lancia da Fanteria"
@@ -10,12 +10,12 @@
   rp_sell_sword_desc:0 "Acciaio forgiato in castello con un buon filo, questa spada è stata fatta per la funzione piuttosto che per la forma. La lama ha visto un uso pesante dal momento che il marchio del fabbricante è sbiadito."
   rp_axe:0 "Ascia dei Predoni"
   rp_axe_desc:0 "Forgiata in castello con minerale estratto dalle Isole di Ferro. Quest'ascia è ben fatta, anche se il marchio del fabbricante è sbiadito."
-  rp_mace:0 "Mazza del Comandante"
+rp_mace: "Mazza del Comandante"
   rp_mace_desc:0 "Forgiata in castello, questa mazza ha servito come segno di leadership e arma per il comandante di una compagnia di mercenari. Il marchio del fabbricante è sbiadito a causa degli anni di uso."
   rp_torture_dagger:0 "Pugnale del Torturatore"
   rp_torture_dagger_desc:0 "Forgiato in castello, questo pugnale non ha il marchio del fabbricante, il suo utilizzo nell'estrarre segreti che pochi desiderano associare."
 
-  #RP Events
+ # RP Events
   agot_rp_event.0001.t:0 "Nasce una Dinastia"
   agot_rp_event.0001.desc_westeros:0 ""Salve, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]; il Concilio mi ha inviato non appena ha ricevuto notizia della tua ascesa alla Signoria. No, non sono il tuo maestro. Sono qui per registrare il tuo nuovo titolo e la nascita della tua nuova [house|E], sempre che tu mi permetta di fare tale registro per il Concilio?""
   agot_rp_event.0001.desc:0 ""Salve, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Dopo aver appreso della tua ascesa alla Signoria, ho viaggiato per offrire i miei servizi come cronista a te. Sono qui per registrare il tuo nuovo titolo e la nascita della tua nuova [house|E], sempre che tu mi permetta di fare tale registro?""
@@ -23,7 +23,7 @@
   agot_rp_event.0001.a.tt_westeros:0 "Raccontare la tua storia al Maestro aggiungerà dei modificatori a te e avrà dei modificatori di opinione sul tuo signore nonché altri effetti."
   agot_rp_event.0001.a.tt:0 "Raccontare la tua storia al cronista aggiungerà dei modificatori a te e avrà dei modificatori di opinione sul tuo signore nonché altri effetti."
   agot_rp_event.0001.b:0 "Certamente, cosa desideri sapere?"
-  agot_rp_event.0001.c_westeros:0 "Non ho tempo per i libri dei maestri!"
+agot_rp_event.0001.c_westeros: "Non ho tempo per i libri dei maestri!"
   agot_rp_event.0001.c:0 "Non ho tempo per i cronisti!"
   agot_rp_event.0001.c.tt:0 "Questa opzione respinge l'evento "Nasce una Dinastia", e inizierai senza modificatori o modificatori di opinione sul tuo signore."
   agot_rp_event.0001.d:0 "Registra l'aspetto della mia dinastia"
@@ -33,7 +33,7 @@
   agot_rp_event.0002.t:0 "Nasce una Dinastia"
   agot_rp_event.0002.desc:0 ""Questo non richiederà molto tempo; si tratta di un riassunto della nascita della tua Casa, non di una storia approfondita o di ambizioni. Iniziamo con il modo in cui hai ottenuto la tua Signoria e la tua vita passata?""
   agot_rp_event.0002.a:0 "Ero un #bold cacciatore#! che ha aiutato il mio signore in un momento di bisogno."
-  agot_rp_event.0002.a.tt:0 "Salvando la vita del tuo signore da un animale selvatico o fornendo aiuto quando era ferito nei boschi, hai guadagnato la tua Signoria."
+agot_rp_event.0002.a.tt: "Salvando la vita del tuo signore da una bestia selvaggia, o anche solo prestando aiuto quando fu ferito nei boschi, ti sei guadagnato la tua Signoria."
   agot_rp_event.0002.b:0 "Ero un #bold soldato#!; i miei atti sul campo mi hanno guadagnato il titolo."
   agot_rp_event.0002.b.tt:0 "Il campo di battaglia ti ha portato gloria e l'attenzione del tuo signore, sia aiutandolo che solo per la gloria conquistata; ti è stata concessa una Signoria."
   agot_rp_event.0002.c:0 "Ero un #bold mercante#! che ha impressionato il mio signore."
@@ -45,7 +45,6 @@
   agot_rp_event.0002.f:0 "Altre opzioni."
   agot_rp_event.0002.f.tt:0 "Pagina successiva delle storie."
 
-  
   agot_rp_event.0003.t:0 "Nasce una Dinastia"
   agot_rp_event.0003.desc:0 ""Non ci vorrà molto; è per un riassunto della nascita della tua Casa, non una storia approfondita o ambizioni. Cominciamo con il modo in cui hai ottenuto la tua Signoria e la tua vita passata?""
   agot_rp_event.0003.a:0 "Ero un #bold cavaliere errante#!, anche se ora sono un cavaliere con terre."
@@ -54,8 +53,8 @@
   agot_rp_event.0003.b.tt:0 "Pirata, contrabbandiere, o forse un onesto capitano, hai guadagnato la tua Signoria dal mare..."
   agot_rp_event.0003.c:0 "Sono un cercatore di conoscenza, e la mia conoscenza ha aiutato il mio signore."
   agot_rp_event.0003.c.tt:0 "Conosci le arti curative, o forse conosci cose che nessuno potrebbe conoscere? Comunque sia, la tua conoscenza è stata vitale per il tuo signore e ti ha guadagnato una Signoria."
-  agot_rp_event.0003.d:0 "Sono un #bold orfano#!; le gesta e la morte dei miei genitori mi hanno comprato la Signoria."
-  agot_rp_event.0003.d.tt:0 "L'azione che ha guadagnato il titolo è stata quella del tuo padre o della tua madre, forse entrambi, ma è costata loro la vita. Attraverso il loro sacrificio, ora hai una posizione più elevata nella vita."
+agot_rp_event.0003.d: "Sono un #bold orfano#!; le imprese e la morte dei miei genitori mi hanno comprato la mia Signoria."
+agot_rp_event.0003.d.tt: "L'impresa che ti valse il titolo fu di tuo padre o di tua madre, forse di entrambi, ma costò loro la vita. Grazie al loro sacrificio, ora occupi un rango più elevato."
   agot_rp_event.0003.e:0 "Ero un abile #bold razziatore#!."
   agot_rp_event.0003.e.tt:0 "Hai navigato in luoghi di cui molti hanno solo sentito parlare e hai saccheggiato la costa. Grandi gesta, abilità o forse il salvataggio della vita del tuo signore ti hanno fatto guadagnare una Signoria."
   agot_rp_event.0003.f:0 "Altre opzioni."
@@ -203,7 +202,6 @@
   agot_rp_event.0027.c:0 "Un GattoOmbra."
   agot_rp_event.0027.c.tt:0 "La tua ascesa è stata aiutata da un GattoOmbra che ti segue ovunque."
 
-
   agot_rp_event.0100.t:0 "Nasce una Dinastia: Seme Forte Personalizzato"
   agot_rp_event.0100.desc:0 "Usa il menu per selezionare gli aspetti dell'aspetto del seme forte della tua dinastia. Puoi selezionare un seme forte personalizzato da ciascuna categoria.\n\nPuoi utilizzare il personaggio a destra come esempio di come appare ciascun elemento in termini di colore o dimensione."
   agot_rp_event.0100.a:0 "Capelli"
@@ -219,7 +217,6 @@
   agot_rp_event.0105.desc:0 "Se desideri personalizzare ulteriormente il tuo sovrano, puoi aggiungere un seme forte personalizzato basato su opzioni esistenti.\n\nIl tuo seme forte personalizzato, se scegli di crearlo, sarà ereditabile dai tuoi figli a seconda delle regole del gioco.\n\n@warning_icon! #X Utilizzare un seme forte personalizzato potrebbe sovrascrivere l'aspetto del tuo sovrano.#!"
   agot_rp_event.0105.a:0 "Sì, portami al Menu del Seme Forte Personalizzato!"
   agot_rp_event.0105.b:0 "No, voglio giocare ora."
-
 
   agot_rp_event.0200.t:0 "Luogo di nascita"
   agot_rp_event.0200.desc:0 "Puoi selezionare una qualsiasi delle contee di [recipient.GetTitledFirstNamePossessive] come tuo luogo di nascita."
@@ -240,18 +237,17 @@
   agot_rp_event.0201.a:0 "Grazie, lo farò."
   agot_rp_event.0201.b:0 "Non voglio scegliere il luogo di nascita."
 
-
-  # Altezza
+ # Height
   smol_tol_tt:0 "Hai selezionato #P Altezza Piccola Grande#!"
   tol_tt:0 "Hai selezionato #P Altezza Grande#!"
-  # Orecchie
+ # Ears
   dumbo_ears_tt:0 "Hai selezionato #P Orecchie Dumbo#!"
-  # Capelli
+ # Hair
   cool_silver_hair_tt:0 "Hai selezionato #P Capelli Argento Cool#!"
   cool_neutral_silver_hair_tt:0 "Hai selezionato #P Capelli Argento Neutro Cool#!"
+  neutral_silver_hair_tt:0 "Hai selezionato #P Capelli Argento Neutro#!"
   silver_blonde_hair_tt:0 "Hai selezionato #P Capelli Biondo Argento#!"
   silver_gold_hair_tt:0 "Hai selezionato #P Capelli Biondo Dorato#!"
-  neutral_silver_hair_tt:0 "Hai selezionato #P Capelli Argento Neutro#!"
   black_hair_tt:0 "Hai selezionato #P Capelli Neri#!"
   light_blonde_hair_tt:0 "Hai selezionato #P Capelli Biondo Chiaro#!"
   gold_hair_tt:0 "Hai selezionato #P Capelli Dorati#!"

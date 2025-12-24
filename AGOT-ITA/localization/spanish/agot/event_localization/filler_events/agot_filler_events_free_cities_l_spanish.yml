@@ -24,7 +24,6 @@
   agot_filler_free_cities.0002.save_success:0 "Hai imparato qualcosa di utile!"
   agot_filler_free_cities.0002.save_fail:0 "Non riesci a imparare nulla di rilevante."
 
-  
   agot_filler_free_cities.0003.t:0 "$agot_filler_free_cities.0001.t$: Mancanza di Prospettive"
   agot_filler_free_cities.0003.desc:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip], temo che senza alcun supporto, i miei sforzi qui sarebbero solamente sprecati," mi informa [maester.GetFirstName], con evidente disincanto nella sua voce.\n\nLo studioso straniero ha deciso di lasciare la mia corte, cercando conoscenza altrove."
   agot_filler_free_cities.0003.a:0 "Chi sa cosa avrebbe potuto trovare [maester.GetSheHe]?"
@@ -46,7 +45,7 @@
   agot_filler_free_cities.0005.b:0 "Preferirei non interferire con le sue ambizioni."
   agot_filler_free_cities.0005.b.tt:0 "[maester.GetFirstNameNoTooltip] partirà."
 
-  #Tootltips used throughout the event chain
+ #Tootltips used throughout the event chain
   agot_filler_free_cities.0010.tt.crit_success:0 "Lo studio di [maester.GetFirstNamePossessiveNoTooltip] migliora significativamente!!"
   agot_filler_free_cities.0010.tt.high_success_roll:0 "Lo studio di [maester.GetFirstNamePossessiveNoTooltip] migliora notevolmente!."
   agot_filler_free_cities.0010.tt.success_chance_roll:0 "Lo studio di [maester.GetFirstNamePossessiveNoTooltip] progredisce!."
@@ -144,7 +143,7 @@
   agot_filler_free_cities.0032.a.tt.failure:0 "Acquisisco qualche conoscenza"
   agot_filler_free_cities.0032.b:0 "Così tanto potenziale!"
 
-  #GENERIC REWARD ARTIFACTS
+ #GENERIC REWARD ARTIFACTS
   tyroshi_research_book_name:0 "Le Ricchezze di Tyrosh"
   tyroshi_research_book_famed_desc:0 "Un tomo meticolosamente scritto dal Maestro [maester.GetName] durante il suo soggiorno alla corte di [ROOT.Char.GetFullName], note estensive e schemi accuratamente disegnati che dettagliano il processo elaborato di estrazione dei coloranti e i segreti per farlo in modo sorprendentemente efficiente dal punto di vista dei costi — una vera miniera di conoscenze per tutti coloro che cercano fortuna."
   tyroshi_research_book_masterwork_desc:0 "Anche se alcuni passaggi sono piuttosto ambigui e i diagrammi disegnati rapidamente sono un po' incompleti, questo tomo contiene preziosi spunti per tutti coloro che cercano di padroneggiare l'arte della produzione di coloranti — Scritto dal Maestro [maester.GetName] durante il suo soggiorno alla corte di [ROOT.Char.GetFullName]."
@@ -155,13 +154,13 @@
   myr_research_book_name:0 "Guida del Maestro [maester.GetFirstNamePossessive] Attraverso le Stelle"
   myr_research_book_desc:0 "Un trattato affascinante che dettaglia costellazioni e altri oggetti celesti, scritto dal Maestro [maester.GetFirstName] sotto il patrocinio di [ROOT.Char.GetFullName] — inestimabile per coloro che cercano informazioni sui movimenti delle stelle."
 
-  #CUSTOM INTERFACE MESSAGES
+ #CUSTOM INTERFACE MESSAGES
   msg_agot_ffc.0006.t:0 "[traveling_maester.GetShortUIName] torna alla Cittadella"
   msg_agot_ffc.0006.desc:0 "Con la morte del suo benefattore, [traveling_maester.GetShortUIName] ha deciso di tornare alla Cittadella"
 
-  ################################
-  # 1000 - 1001:  PLUNDER AT SEA #
-  ################################
+ ################################
+ # 1000 - 1001:  PLUNDER AT SEA #
+ ################################
   agot_filler_free_cities.1000.t:0 "Razzia in Mare"
   agot_filler_free_cities.1000.desc:0 "Durante l'ultimo consiglio, sia [admiral.GetFirstName] che [marshal.GetFirstName] hanno espresso preoccupazione per gli attacchi sempre più frequenti alle mie navi mercantili.\n\nSebbene entrambi concordino che i pirati debbano essere affrontati, non riescono a raggiungere un consenso su #italic come#! farlo.\n\n[admiral.GetFirstNameNoTooltip] propone di aumentare le pattuglie, un approccio sicuro e deciso.\n\n[marshal.GetFirstNameNoTooltip], tuttavia, suggerisce che le incursioni dei pirati cesserebbero certamente se l'equipaggio pirata raidasse sotto la mia bandiera..."
   agot_filler_free_cities.1000.strategist:0 "Un'imboscata ben orchestrata risolverebbe la questione!"
@@ -193,11 +192,12 @@
   agot_filler_free_cities.1001.d:0 "Maledizione..."
   agot_filler_free_cities.1001.attacks:0 "Un numero crescente delle mie navi scompare in mare, i marinai vengono catturati e non fanno più ritorno a casa. Inoltre, il valore delle merci perdute mi ha già causato una piccola fortuna...\n\nSembra che a causa della mia inattività la fastidiosa ciurma pirata sia solo cresciuta in forza!"
   agot_filler_free_cities.1001.e:0 "Maledizione!"
-  ###################################
-  # 2000 - 2001:  A Delicious Drink #
-  ###################################
 
-  #2000 You visit the local market and try a local wine.
+ ###################################
+ # 2000 - 2001:  A Delicious Drink #
+ ###################################
+
+ #2000 You visit the local market and try a local wine.
   agot_filler_free_cities.2000.t:0 "Una Bevanda Deliziosa"
   agot_filler_free_cities.2000.intro:0 "Girando per il vivace mercato di [capital_city_free_city.GetNameNoTooltip] con il mio [steward.GetCouncilTitle], tra i seducenti profumi delle spezie esotiche e il vibrante brusio dei commercianti locali, una ondata di anticipazione mi avvolge.\n\n"
   agot_filler_free_cities.2000.lys:0 "Un venditore di vino mi offre una coppa piena di vino rosso dolce lyseno, i suoi ricchi colori mi invitano a gustare i distinti sapori creati dai vinificatori lyseni. Mentre faccio un sorso misurato, una profonda gratitudine mi assale. Riconoscendo l'arte dei produttori di vino lyseni, mi godo la consapevolezza che produciamo un vino degno di riconoscimento.\n\nLo sfondo vivido del mercato si dipana come una tela per la cultura diversificata di Lys, e la coppa tra le mie mani non tiene solo vino rosso dolce — ma è un simbolo della nostra identità duratura."
@@ -214,7 +214,7 @@
   agot_filler_free_cities.2000.b:0 "È ora di partire."
   agot_filler_free_cities.2000.b_tt:0 "Lasci il mercato dopo appena una coppa."
 
-  #2001 The wine is delicious, you decide to invest in your local wine industry!
+ #2001 The wine is delicious, you decide to invest in your local wine industry!
   agot_filler_free_cities.2001.t:0 "$agot_filler_free_cities.2000.t$: Opportunità di Investimento"
   agot_filler_free_cities.2001.lys:0 "Mentre assaporo l'ultimo sorso della mia seconda coppa del ricco vino rosso dolce lyseno, [essosi_filler_merchant.GetFirstNameNicknamed] nota la mia soddisfazione. [essosi_filler_merchant.GetSheHe|U] si avvicina con una proposta d'affari.\n\n"
   agot_filler_free_cities.2001.myr:0 "Mentre mi godo l'ultimo sorso della mia seconda coppa del vino verde pallido myreno, [essosi_filler_merchant.GetFirstNameNicknamed] si avvicina, riconoscendo la mia soddisfazione.\n\n"
@@ -228,7 +228,7 @@
   agot_filler_free_cities.2001.b:0 "No, credo di no."
   agot_filler_free_cities.2001.b_tt:0 "Nonostante il consiglio del tuo [steward.GetCouncilTitle], decidi #N di non investire nell'industria locale#!."
 
-  #Modifier loc
+ #Modifier loc
   agot_filler_free_cities_wine_bonus:0 "Investimento nell'Industria Locale"
   agot_filler_free_cities_wine_bonus_desc:0 "Questo contea ha ricevuto investimenti nella sua industria locale, e il business sta prosperando."
   agot_filler_free_cities_wine_drunkard_bonus:0 "Investimento Massiccio nell'Industria Locale"

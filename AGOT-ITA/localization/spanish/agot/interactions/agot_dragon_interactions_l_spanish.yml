@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
-  # DOMARE
+ # Taming
   tame_dragon_interaction:0 "Domare Drago"
   tame_dragon_interaction_desc:0 "Cercherai di domare [recipient.GetNameNoTooltip]"
   tame_dragon_interaction_desc_warning:0 "Cercherai di domare [recipient.GetNameNoTooltip].\n\n@warning_icon! #warning Domare un drago prima di legarlo è estremamente rischioso.#!"
@@ -9,7 +9,7 @@
   tame_dragon_interaction_tt1:0 "Potresti domare [recipient.GetName] o potresti essere ferito o morire."
   tame_dragon_interaction_tt2:0 "#warning Domare un drago prima di legarlo è estremamente rischioso.#!"
 
-  # LEGAME
+ # Bonding
   bond_with_dragon_interaction:0 "Legarsi al Drago"
   bond_with_dragon_interaction_desc:0 "Cercherai di legarti a [recipient.GetNameNoTooltip]."
   bond_dragon_notification:0 "Legame con [recipient.GetNameNoTooltip]"
@@ -26,7 +26,7 @@
 
   dragon_beyond_the_wall:0 "I draghi non si allontaneranno oltre la Barriera"
 
-  # UCCIDERE UN DRAGO
+ # Dragon slaying
   slay_dragon_interaction:0 "Uccidere Drago"
   slay_dragon_interaction_desc:0 "Cercherai di uccidere [recipient.GetNameNicknamed].\n\n@warning_icon! #warning Tentare di uccidere un drago è incredibilmente pericoloso#!"
   slay_dragon_notification:0 "Tentativo di Uccidere Drago"
@@ -37,8 +37,7 @@
   dragon_is_in_combat:0 "Il drago è impegnato in combattimento."
   dragon_is_in_dragonpit:0 "Il drago è rinchiuso in un Fossa del Drago."
 
-
-  # SCHEMI
+ # Schemes
   bond_with_dragon_scheme:0 "Legarsi a Questo Drago"
   bond_with_dragon_scheme_action:0 "Legarsi a"
   bond_with_dragon_scheme_desc:0 "Puoi tentare di legarti a questo drago"
@@ -48,7 +47,7 @@
   deepen_bond_with_dragon_scheme_desc:0 "Puoi tentare di approfondire il tuo legame con il tuo drago"
   deepen_bond_with_dragon_scheme_desc_general:0 "Un personaggio può tentare di approfondire il legame con il tuo drago"
 
-  # Schemi / probabilità di successo
+ # Scheme / success chances
   SCHEME_DRAGON_BASE:0 "Base: #V $VALUE|0=$#!"
   SCHEME_DRAGON_BONDED_BASE:0 "Base Drago Legato: #V $VALUE|0=$#!"
   SCHEME_DRAGON_UNBONDED_BASE:0 "Base Drago Non Legato: #V $VALUE|0=$#!"
@@ -71,8 +70,7 @@
   bonded_with_me:0 "Legato con me"
   failed_to_bond_with_me:0 "Fallito nel legarsi con me"
 
-
-  # UOVA / SCHIUSA
+ # Eggs / hatching
   select_egg_for_hatching:0 "Seleziona Uovo di Drago per l'Attività di Schiusa"
   select_egg_for_hatching_desc:0 "Seleziona quale dei tuoi uova di drago tenterai di far schiudere"
   selected_egg_for_hatching_notification_title:0 "Uovo Selezionato per la Schiusa"
@@ -94,7 +92,7 @@
   taught_dragonlore_received_desc:0 "Hai ricevuto l'insegnamento della storia dei draghi da [actor.GetFirstName]."
   has_a_dragon:0 "[actor.GetFirstName] ha già un drago domato o legato"
 
-  # Campagna di Terrore
+ # Terror campaign
   agot_instruct_to_conduct_terror_campaign:0 "Conducere una Campagna di Terrore"
   agot_instruct_to_conduct_terror_campaign_desc:0 "Istruisci [recipient.GetName] a usare [recipient.MakeScope.Var('current_dragon').GetCharacter.GetName] per condurre una Campagna di Terrore.\n$conduct_terror_campaign_tooltip$"
 
@@ -106,7 +104,7 @@
   agot_dragon.imprisoned_on_terror_campaign.t:0 "Campagna di Terrore Terminata!"
   agot_dragon.imprisoned_on_terror_campaign.desc:0 "[ROOT.Char.GetFirstName] è stato imprigionato e non brucerà più le terre dei tuoi nemici."
 
-  # Insegnare dragonlore
+ # Teach dragon lore
   agot_teach_dragonlore:0 "Insegnare la storia dei draghi"
   agot_teach_dragonlore_desc:0 "Con l'aiuto del tuo [GetCourtPositionType('head_dragonkeeper_court_position').GetName()], insegnerai a [recipient.GetName] la storia dei draghi fondamentale per l'addomesticamento dei draghi"
   scheme_taught_dragonlore:0 "Insegnato della storia dei draghi: $VALUE|+0=-+$"
@@ -116,8 +114,6 @@
   agot_teach_dragonlore_increased_dragonlore_preview_tt:0 "[recipient.GetName] aumenterà la propria conoscenza della storia dei draghi di #P [TopScope.GetValue('hdk_aptitude')]#!"
   agot_teach_dragonlore_increased_dragonlore_interface_tt:0 "[recipient.GetName] ha aumentato la propria conoscenza della storia dei draghi di #P [TopScope.GetValue('hdk_aptitude')]#!"
 
-
-  # Dragonpit
   agot_send_to_dragonpit:0 "Invia alla Fossa del Drago"
   agot_send_to_dragonpit_desc:0 "L'AI invierà [recipient.GetName] alla sua [dragonpit|E]"
 
@@ -148,7 +144,6 @@
   agot_dragonpit_access_denied_interface_tt:0 "[recipient.GetShortUIName] ha rifiutato il tuo accesso alla sua [dragonpit|E]!"
   agot_request_dragonpit_permission_ai_modifier_i_am_blood_of_the_dragon:0 "Riconosce l'importanza dei loro draghi"
 
-  # Uova
   agot_send_egg_to_pit:0 "Invia Uovo alla Fossa del Drago"
   agot_send_egg_to_pit_desc:0 "Invia una delle tue uova di drago in una [dragonpit|e] per la schiusa"
   agot_send_all_eggs_to_pit:0 "Send All Eggs to Dragonpit"

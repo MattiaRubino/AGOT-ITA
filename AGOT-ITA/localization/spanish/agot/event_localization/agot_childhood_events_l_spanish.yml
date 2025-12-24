@@ -2,12 +2,15 @@
   agot_childhood_events.0001.t:0 "Il Lancio di una Moneta"
   agot_childhood_events.0001.desc:0 "Ogni volta che nasce un [GetPlayer.GetHouse.GetBaseName], gli dei lanciano una moneta; da un lato, la grandezza, e dall'altro, la follia.\n\n[child.Custom('CoinFlipChild')]"
   agot_childhood_events.0001.a:0 "Così va il mondo..."
+
   agot_childhood_events.0002.t:0 "$agot_childhood_events.0001.t$"
   agot_childhood_events.0002.desc:0 "Ogni volta che nasce un [GetPlayer.GetHouse.GetBaseName], gli dei lanciano una moneta; da un lato, la grandezza, e dall'altro, la follia. E il mondo tiene il fiato in attesa del risultato.\n\nSembra che oggi il lancio sia stato favorevole... [child.GetFirstName] [child.Custom('CoinFlip')]"
   agot_childhood_events.0002.a:0 "Osserveremo la tua carriera con grande interesse."
+
   agot_childhood_events.0003.t:0 "$agot_childhood_events.0001.t$"
   agot_childhood_events.0003.desc:0 "Ogni volta che nasce un [GetPlayer.GetHouse.GetBaseName], gli dei lanciano una moneta; da un lato, la grandezza, e dall'altro, la follia. E il mondo tiene il fiato in attesa del risultato.\n\nSembra che oggi il lancio sia stato... meno favorevole. Sembra che [child.GetFirstName] sia l'immagine stessa della follia."  
   agot_childhood_events.0003.a:0 "Guai alla Casa [GetPlayer.GetHouse.GetBaseName]!"
+
   coin_flip_diligent:0 "sembra naturalmente laborioso e dedicato a tutto ciò che fa."
   coin_flip_learning:0 "sembra avere una predisposizione naturale per le arti accademiche."
   coin_flip_martial:0 "sembra avere una predisposizione naturale per gli studi marziali."
@@ -15,41 +18,23 @@
   coin_flip_stewardship:0 "sembra avere una predisposizione naturale per l'amministrazione."
   coin_flip_diplomacy:0 "sembra avere una predisposizione naturale per la diplomazia."
   coin_flip_prowess:0 "sembra avere abilità naturale con una spada."
-
   coin_flip_shrewd:0 "sembra avere un talento naturale in tutto ciò che [ROOT.Char.GetSheHe] prova a fare."
   coin_flip_genius:0 "sembra possedere un’intuizione sorprendente in qualsiasi cosa [ROOT.Char.GetSheHe] intraprenda."
-
   coin_flip_child_diligent:0 "A volte vorrei maledire [ROOT.Char.GetFaith.HighGodName] per la mia mancanza di talento, ma so che lamentarsi non serve a nulla. Ogni giorno è una sfida che intendo superare; ogni notte, un’opportunità per andare oltre. Devo — anzi, #italic lo farò#! — con le mie sole forze."
-
   coin_flip_child_learning:0 "Se in me vi è follia, è quella di non riuscire a smettere di leggere ogni libro che trovo... Aspetta, la follia della Casa [GetPlayer.GetHouse.GetBaseName] si è mai manifestata così? Devo andare in biblioteca a cercare qualche tomo sull’argomento!"
-
   coin_flip_child_martial:0 "Oggi i cavalieri della corte hanno inscenato l’assedio simulato del castello. Dalle mura, osservavo la 'battaglia' con crescente esasperazione! Ogni scelta era sbagliata, e la tattica ideale era dolorosamente ovvia. #italic Sono degli stolti?!#!"
-
   coin_flip_child_intrigue:0 "I cortigiani si scambiano sguardi furtivi, ignari del fatto che la loro tresca è chiara come il giorno... o così pensavo. Ma quando ne ho parlato con un altro [ROOT.Char.Custom('GirlBoy')|l] della corte, [ROOT.Char.GetSheHe] non capiva di cosa parlassi. Suppongo che certe cose vengano più naturali a me."
-
   coin_flip_child_stewardship:0 "Dopo ore di discussioni vuote con uno degli intendenti — il cui nome ho già dimenticato — la testa mi duole e il sonno mi reclama. Morirei felice se non dovessi mai più sentirmi dire: «Hai una bella mente per la tua età quando si parla d’oro!»"
-
   coin_flip_child_diplomacy:0 "Poche cose si avvicinano al piacere che provo nel raccontare le storie dell’Era degli Eroi a un pubblico rapito. Come pendono dalle mie labbra, anche se le hanno sentite mille volte... Oserei dire che ci so proprio fare!"
-
   coin_flip_child_prowess:0 "La mente mi ritorna ancora una volta alla scherma. Colpisci! Parata! #bold Contrattacco!#! Quante volte ho osservato quei movimenti nei duelli tra cavalieri? Quando sarà il mio turno, la risposta sarà semplice: Parata! Contrattacco! #bold Bel duello!#!"
-
   coin_flip_child_shrewd:0 "Ho discusso a lungo col mio reggente sull’uso dei prigionieri come spie anziché giustiziarli. E ogni volta mi si dice che il dovere di un [ROOT.Char.GetLadyLord] è essere giusto. Se solo gli altri vedessero come la giustizia può essere anche #italic pragmatica#!."
-
   coin_flip_child_genius:0 "Ogni argomento che esploro sembra rivelarmi i suoi segreti con gioia. Che discorso perfezionerò? Che strategia dominerò? Che complotto svelerò? Che teoria smaschererò? Il mio povero reggente fatica a starmi dietro! #bold Bene.#!"
-
   coin_flip_child_lunatic_1:0 "Il re senza testa mi osserva di nuovo dall’angolo della stanza. Sento il suo sguardo, i suoi pensieri nei miei, la sua voce nei miei sogni. Le sue storie mi cullano nel sonno, raccontandomi della mia natura speciale, di quanto siamo simili! Più parla, più riconosco la verità delle sue parole."
-
   coin_flip_child_possessed_1:0 "Perché i cortigiani ci osservano mentre corriamo nei corridoi? Sentono quanto siamo speciali? No, no, impossibile. Ma... e se lo sapessero? Nessuno deve sapere quanto siamo speciali. Cercheranno di separarci, lo sento. Dovremo prepararci stanotte."
-
   coin_flip_child_arbitrary:0 "Donato questo, follia quello — tutto così dannatamente noioso. E infantile, anche! Come si può perfino distinguere? Non ci sono criteri oggettivi. Perché gli altri continuano a parlarne? A me non importa nulla, e questo è tutto ciò che conta."
-
   coin_flip_child_paranoid:0 "Non riesco a dormire. Né a bere, né a mangiare. Né a pensare. Sento gli sguardi dei cortigiani su di me — aspettano di vedere se la moneta cadrà su testa o croce. Mi stanno facendo impazzire! Ma... anche io mi domando. Sto impazzendo? È questo il segno? È solo una storia, una sciocchezza per spaventare i bambini. Non esiste la follia dei [GetPlayer.GetHouse.GetBaseName]... giusto?"
-
   coin_flip_child_wrathful:0 "Sono tre settimane che studiamo lo stesso passo di storia dei [GetPlayer.GetHouse.GetBaseName], e la mia pazienza è ormai alla fine. Oggi ho sentito il mio reggente dire a dei cortigiani che non ho talento in nulla. Se non pesano le parole, lo farò io per loro."
-
   coin_flip_child_fire_obsessed:0 "Avevo udito sussurri alla corte sulla natura 'dono e maledizione' della Casa [GetPlayer.GetHouse.GetBaseName], ma mai avrei immaginato quanto fosse evidente. Ogni volta che guardo una fiamma danzante, vedo... visioni. Di cosa, non so. Ma i fuochi vogliono parlarmi. Avvertirmi? Solo in una vera, grande pira troverò la risposta."
-
-
 
   agot_childhood_events.0004.t:0 "Il Seme è Forte..."
   agot_childhood_events.0004.desc:0 "Mentre [child.GetFirstName] continua a crescere, vedo sempre meno di me stesso in [child.GetSheHe]. È [child.GetSheHe] davvero mio?"
@@ -74,7 +59,6 @@
   agot_childhood_events.0004.d:0 "Che siano miei per nascita o meno, nulla cambia."
   agot_childhood_events.0004.d.tt:0 "Se tua moglie ha segreti sulle origini contestate, saranno invalidati."
 
-
   agot_childhood_events.0005.t:0 "Un Tipo Diverso di Danza"
   agot_childhood_events.0005.desc:0 "Sto girovagando per il cortile quando vedo [other_child.GetFirstName] usare una spada di legno per combattere un nemico invisibile. "Prendi questa, perfido!" Osservo curiosamente per diversi momenti prima che [other_child.GetSheHe] si accorga della mia presenza.\n\n"Ciao mia signora, stavo solo allenandomi, e beh, non c'era nessun altro in giro... A meno che tu non voglia unirti?" [other_child.GetSheHe] arrossisce leggermente."
   agot_childhood_events.0005.desc.alone:0 "Sto girovagando per il cortile quando vedo un paio di spade di allenamento abbandonate: alcuni figli di cortigiani devono aver giocato e lasciato a metà il loro combattimento. Non ho da fare per un po' di tempo..."
@@ -84,13 +68,13 @@
   agot_childhood_events.0005.tt:0 "Inizierai ad allenarti nella spada."
 
   agot_childhood_events.0006.t:0 "Un Passatempo Inusuale"
-  agot_childhood_events.0006.desc:0 "Sto passeggiando nel cortile quando vedo due bambini che si affrontano per gioco con spade di legno. Una di loro disarma abilmente l'altra e, con un sussulto, la riconosco: è mia figlia, [child.GetFirstName].\n\nDeve avermi già notato, perché corre subito verso di me. «Hai visto? Ho vinto! Da grande diventerò una guerriera, come Visenya o Nymeria!»"
-  agot_childhood_events.0006.desc.alone:0 "Sto passeggiando nel cortile quando scorgo una bambina che si allena con la spada contro l’aria. Con un sussulto, realizzo che si tratta di mia figlia, [child.GetFirstName].\n\nAnche lei pare avermi notato e corre subito verso di me. «Non sapevo che usare la spada fosse così divertente! Voglio diventare una guerriera da grande, come Visenya o Nymeria!»"
+agot_childhood_events.0006.desc: 0 "Vago per il cortile quando scorgo un paio di bambini che fingono di duellare con spade di legno. Uno di loro disarma abilmente l'altro e, con un sussulto, la riconosco — è [Select_CString(child.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], [child.GetFirstName].\n\nDev'essersi già accorta di me, perché subito corre verso di me. «Hai visto? Ho vinto! Da grande diventerò una guerriera, come Visenya o Nymeria!»"
+agot_childhood_events.0006.desc.alone: 0 "Vago per il cortile quando scorgo un bambino che si esercita di spada contro l'aria. Con un sussulto, capisco che è [Select_CString(child.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], [child.GetFirstName].\n\nA quanto pare si accorge anche di me e subito corre verso di me. «Non avevo mai saputo che la scherma fosse così divertente! Da grande diventerò una guerriera, come Visenya o Nymeria!»"
   agot_childhood_events.0006.a:0 "Beh, allora mostrami cos'altro hai imparato."
   agot_childhood_events.0006.b:0 "Forse le piacerebbe imparare l'arte della battaglia anche a lei..."
   agot_childhood_events.0006.c:0 "Questo non è il passatempo appropriato per una signora!"
   agot_childhood_events.0006.tt:0 "[child.GetFirstName] inizierà ad allenarsi nella spada."
-  
+
   agot_childhood_events.0007.t:0 "I Colori della Corte"
   agot_childhood_events.0007.desc.courtier:0 "I capelli di [dyed_hair.GetNamePossessive] [dyed_hair.Custom('DE_PRO_POS_P_3P')] fanno risaltare in qualsiasi stanza entri."
   agot_childhood_events.0007.desc.sellsword:0 "Un mercenario in viaggio è passato recentemente alla corte dalle città libere, e non ho potuto fare a meno di notare il colore assolutamente straordinario dei suoi capelli!"
@@ -118,11 +102,161 @@
 
   agot_childhood_events.0011.t:0 "Una Stella Nascente"
   agot_childhood_events.0011.desc:0 "Osservando [prodigy.GetFirstName] che si allena nel cortile con la spada d’addestramento, noto la rapidità e l’agilità dei suoi movimenti, la sicurezza e la fluidità con cui brandisce la lama.\n\n[prodigy.GetSheHe|U] si sta già formando come un eccellente spadaccino, in un’età in cui la maggior parte impugna la spada come un pollo senza testa. Forse è solo orgoglio di casata, ma credo che questo bambino possa un giorno meritare l’onore di brandire [dawn.GetName] e portare il titolo di Spada dell'Alba.\n\nSe [prodigy.Custom('DE_PRO_POS_P_3P')] sprono ora, potrebbe raggiungere il massimo del suo potenziale... o crollare sotto il peso delle aspettative. È un rischio che sono disposto a correre?"
-
   agot_childhood_events.0011.a:0 "Il vero addestramento inizia ora."
   agot_childhood_events.0011.a.tt:0 "Ti metterai sulla via per diventare la Spada dell'Alba."
   agot_childhood_events.0011.b:0 "[prodigy.GetSheHe|U] è ancora un bambino; crescerà a modo suo."
   agot_childhood_events.0011.b.tt:0 "[prodigy.GetFirstNameNoTooltip] si svilupperà come ogni altro bambino."
+
+agot_childhood_events.dragon_doll: "Bambola Drago:"
+agot_childhood_events.0020.t: "$agot_childhood_events.dragon_doll$ Un Bambino Senza Drago"
+agot_childhood_events.0020.desc_dragons_live: "Secondo gli usi dell’Antica Valyria, [child.GetFirstName] avrebbe dovuto legarsi a un drago durante l’infanzia e, tuttavia, ancora oggi [child.GetSheHe] è senza drago.\n\nIl cuore mi duole per il bambino, sebbene un legame con un drago non sia un dono che perfino [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] come me possa concedere a [child.GetHerHim]. Eppure dev’esserci qualcosa che si possa fare per raddrizzare questo torto e onorare le tradizioni dei nostri antenati; forse posso procurare un dono più adatto a un bambino."
+agot_childhood_events.0020.desc_dragons_dead: "Gli antichi Valyrian dominavano la terra e i cieli in groppa ai loro draghi. Ma i draghi sono tutti scomparsi.\n\nEppure, i draghi restano al cuore della nostra identità, un simbolo del nostro potere e del nostro scopo. Forse esiste un modo per far innamorare [child.GetFirstName] della sua eredità."
+agot_childhood_events.0020.a: "Il bambino avrà un drago!"
+agot_childhood_events.0020.a.tt: "Inizierai a lavorare a una bambola drago per [child.GetNameNoTooltip]."
+agot_childhood_events.0020.ignore: "Proposta irriverente: i draghi non sono giocattoli!"
+
+agot_childhood_events.0021.t: "$agot_childhood_events.dragon_doll$ [newly_created_artifact.GetNameNoTooltip]"
+agot_childhood_events.0021.desc_simple: "La mano mi trema mentre attacco l’ultimo occhio, annodando il filo lento su sé stesso. La bambola è finalmente finita, e vedo le molte imperfezioni che ho intrecciato nel mio dono, ma andrà bene.\n\nAttendo che [child.GetFirstName] si alzi la mattina seguente. Quando [child.GetSheHe] si muove, gli svelo il dono per [child.GetHerHim]. [child.GetSheHe|U] me lo strappa dalle braccia e abbraccia il giocattolo con entusiasmo.\n\nLa gioia di [child.GetHerHis|U] mi travolge. Anche con le imperfezioni del giocattolo, vale qualunque prezzo io abbia potuto pagare per questo progetto."
+agot_childhood_events.0021.desc_exquisite: "Taglio con delicatezza l’ultimo filo, sospirando mentre esamino la bambola. È perfetta, esalo con euforia e sollievo.\n\nRisveglio [child.GetFirstName] dal sonno e gli premo con impazienza il giocattolo tra le mani. [child.GetSheHe|U] ridacchia di gioia mentre lo lancia da un lato all’altro, finché non si riassesta per la notte, stringendo ora la bambola in un abbraccio saldo. L’entusiasmo di [child.GetHerHis|U] è stato travolgente e ha ripagato qualunque prezzo io abbia potuto pagare per questo progetto."
+agot_childhood_events.0021.a: "Oh, il mio cuore."
+agot_childhood_events.0021.a.callous: "Bene per [child.GetHerHim]."
+agot_childhood_events.0021.desc_chosen_dragon: "\n\nBenché sia solo un’imitazione del drago [chosen_dragon.GetNameNicknamed], [child.GetFirstNameNoTooltip] si è già legat[Select_CString(child.IsFemale,'a','o')] alla bambola come se fosse un piccolo appena uscito dalla culla."
+agot_childhood_events.0021.desc_named_dragon: "\n\n[child.GetFirstNameNoTooltip] ha persino dato al drago un nome con affetto: [newly_created_artifact.GetNameNoTooltip]."
+
+agot_childhood_events.0022.t: "$agot_childhood_events.dragon_doll$ Il Prezzo di un Drago"
+agot_childhood_events.0022.desc: "I draghi sono bestie leggendarie fatte di fuoco e carne, ma simili materiali rovinerebbero una bambola. Che cosa dovrei usare al loro posto?"
+agot_childhood_events.0022.a: "Userò solo i materiali più pregiati! Sete e gioielli!"
+agot_childhood_events.0022.a.tt: "La qualità della bambola viene #V #Bold aumentata considerevolmente#!#!."
+agot_childhood_events.0022.b: "Davvero non ci serve il filo d’oro."
+agot_childhood_events.0022.b.tt: "La qualità della bambola viene #V #Bold aumentata leggermente#!#!."
+agot_childhood_events.0022.c: "Non possiamo accontentarci di ciò che abbiamo nei magazzini?"
+agot_doll_quality_significantly_increased: "La qualità della bambola viene #V #Bold aumentata considerevolmente#!#!."
+agot_doll_quality_slightly_increased: "La qualità della bambola viene #V #Bold aumentata leggermente#!#!."
+agot_doll_quality_slightly_decreased: "La qualità della bambola viene #V #Bold diminuita leggermente#!#!."
+agot_doll_quality_significantly_decreased: "La qualità della bambola viene #V #Bold diminuita considerevolmente#!#!."
+
+agot_childhood_events.0023.t: "$agot_childhood_events.dragon_doll$ Progettare un Drago"
+agot_childhood_events.0023.desc: "Per un progetto tanto delicato e minuzioso, il tempo è un fattore quanto il denaro. Con i miei doveri così come sono, potrei dovermi allontanare dalla corte per concentrarmi sul mio lavoro: come dovrei dividere il mio tempo?"
+agot_childhood_events.0023.a: "Dedicherò ogni istante che posso risparmiare!"
+agot_childhood_events.0023.b: "Ognuno riceverà la medesima attenzione."
+agot_childhood_events.0023.c: "È un passatempo, nulla di più."
+
+agot_childhood_events.0024.t: "$agot_childhood_events.dragon_doll$ Colori Vividi"
+agot_childhood_events.0024.desc_dragons_live: "I draghi sono celebri per le loro inconfondibili livree. Dalla fama delle fiamme di [GetScriptedCharacterByHistoryID('dragon_balerion').GetNameNicknamedPossessive] alle scaglie scintillanti di [GetScriptedCharacterByHistoryID('dragon_silverwing').GetName], mi chiedo se non sia opportuno un disegno più vivace; dopotutto, è un giocattolo per un bambino."
+agot_childhood_events.0024.desc_dragons_dead: "Quando vivevano, i draghi erano celebri per le loro inconfondibili livree. Dalla fama delle fiamme di [GetScriptedCharacterByHistoryID('dragon_balerion').GetNameNicknamedPossessive] alle scaglie scintillanti di [GetScriptedCharacterByHistoryID('dragon_silverwing').GetName], mi chiedo se non sia opportuno un disegno più vivace; dopotutto, è un giocattolo per un bambino."
+agot_childhood_events.0024.desc_fallback: "I draghi sono celebri per le loro inconfondibili livree, e mi chiedo se non sia opportuno un disegno più vivace; dopotutto, è un giocattolo per un bambino."
+agot_childhood_events.0024.a: "Più colori ci sono, meglio è!"
+agot_childhood_events.0024.a.tt: "Tenterai una combinazione di colori intricata."
+agot_childhood_events.0024.a.vibrant_success.tt: "Stranamente, il disegno vivace funziona."
+agot_childhood_events.0024.a.vibrant_fail.tt: "Alcuni colori sono fuori posto."
+agot_childhood_events.0024.a.vibrant_major_fail.tt: "La combinazione di colori è incoerente."
+agot_childhood_events.0024.b: "Qualche colore, per variare."
+agot_childhood_events.0024.b.tt: "Tenterai una combinazione di colori variegata."
+agot_childhood_events.0024.b.simple_success.tt: "I colori si completano a vicenda molto bene."
+agot_childhood_events.0024.b.simple_neutral.tt: "I colori non colpiscono."
+agot_childhood_events.0024.b.simple_fail.tt: "I colori stonano tra loro."
+agot_childhood_events.0024.c: "Difficile dar torto."
+agot_childhood_events.0024.c.tt: "Ti accontenterai di una combinazione monocromatica."
+
+agot_childhood_events.0025.t: "$agot_childhood_events.dragon_doll$ Procrastinazione"
+agot_childhood_events.0025.desc: "Faccio una smorfia mentre passo davanti alla camera di [child.GetFirstNamePossessive] e mi torna in mente la bambola drago, che giace incompiuta con un ago conficcato nella schiena, nascosta da qualche parte nelle mie stanze private. A dire il vero, fatico a trovare la motivazione per portare a termine questo progetto.\n\nMi rimprovero ogni volta che il pensiero mi attraversa la mente. L’ombra del lavoro ancora da compiere mi avvolge e ostacola ogni mio passo; finché non sarà finito o abbandonato, non riesco a concentrarmi su nient’altro senza essere divorat[Select_CString(ROOT.Char.IsFemale,'a','o')] dal senso di colpa.\n\nDa un lato, l’autodisciplina — prendere semplicemente l’ago e cominciare — potrebbe essere la chiave. Dall’altro, trovare un nuovo progetto è assai più allettante. Forse, se imparo una nuova abilità, troverò l’ispirazione per finire il giocattolo del bambino."
+agot_childhood_events.0025.a: "Avanti, il giocattolo non si finirà da solo."
+agot_childhood_events.0025.a.push_success: "Fai grandi progressi sul giocattolo."
+agot_childhood_events.0025.a.push_fail: "Non riesci a trovare la motivazione."
+agot_childhood_events.0025.a.push_major_fail: "Ti consumi fino allo sfinimento."
+agot_childhood_events.0025.b: "Ho sempre voluto imparare a intagliare il legno."
+agot_childhood_events.0025.b.wood_success: "Torni al giocattolo rinvigorito."
+agot_childhood_events.0025.b.wood_neutral: "Ti diverti, ma non aiuta."
+agot_childhood_events.0025.b.wood_fail: "Ti assorbi troppo nell’intaglio del legno."
+agot_childhood_events.0025.c: "Lo finirò… prima o poi."
+agot_childhood_events.0025.c.later_success: "Torni rinvigorito."
+agot_childhood_events.0025.c.later_neutral: "Fai fatica a trovare la motivazione."
+agot_childhood_events.0025.c.later_fail: "Il progetto non viene mai finito, abbandonato e dimenticato."
+
+agot_childhood_events.0026.t: "$agot_childhood_events.dragon_doll$ L’Anatomia di un Drago"
+agot_childhood_events.0026.desc: "I draghi sono bestie terribili che solcano il cielo con ali tanto grandi da oscurare il sole; un solo battito d’ali manda tutti gli astanti a cercare riparo ben prima che il drago oltrepassi l’orizzonte. È un compito arduo catturare un simile terrore in questo peluche, ma devo cominciare scegliendo l’apertura alare."
+agot_childhood_events.0026.a: "Più grande è, meglio è!"
+agot_childhood_events.0026.a.large_success.tt: "L’apertura alare, stranamente, risulta adatta."
+agot_childhood_events.0026.a.large_fail.tt: "Le ali sono scomodamente grandi."
+agot_childhood_events.0026.a.large_major_fail.tt: "Sembrano più orecchie di capra."
+agot_childhood_events.0026.small: "Piccol[Select_CString(ROOT.Char.IsFemale,'a','o')] e adorabile: è questa la via."
+agot_childhood_events.0026.small.large_success.tt: "L'apertura alare è stranamente azzeccata."
+agot_childhood_events.0026.small.large_fail.tt: "Le ali sono scomodamente piccole."
+agot_childhood_events.0026.small.large_major_fail.tt: "Sembrano più pinne di pesce."
+agot_childhood_events.0026.b: 0 "Di certo deve essere proporzionat[Select_CString(ROOT.Char.IsFemale,'a','o')] a quello vero."
+agot_childhood_events.0026.b.proportional_success.tt: "L'apertura alare è soddisfacentemente proporzionata."
+agot_childhood_events.0026.b.proportional_neutral.tt: "Le ali non impressionano, ma vanno bene."
+agot_childhood_events.0026.b.proportional_fail.tt: "Le ali sono storte."
+agot_childhood_events.0026.c: 0 "Chiedi il parere di [courtier.GetNamePossessive]."
+agot_childhood_events.0026.c.expert_major_success.tt: "Il consiglio è inestimabile."
+agot_childhood_events.0026.c.expert_success.tt: "Il consiglio è d'aiuto"
+agot_childhood_events.0026.c.expert_fail.tt: "Ricevi un cattivo consiglio."
+
+agot_childhood_events.0027.t: 0 "$agot_childhood_events.dragon_doll$ L'Anima di un Drago"
+agot_childhood_events.0027.desc: 0 "È tradizione che le bambole abbiano bottoni al posto degli occhi, ma i draghi sono più possenti degli animali comuni a cui la maggior parte delle bambole si ispira. Forse serve qualcosa di più vistoso, anche se ciò comporterebbe una spesa aggiuntiva. Ho in mente di applicare gemme preziose come bulbi oculari."
+agot_childhood_events.0027.gems: 0 "Gemme preziose saranno la via d'accesso alla sua anima."
+agot_childhood_events.0027.gems.tt: 0 "Cercherai di usare gemme di valore come occhi per la bambola"
+agot_childhood_events.0027.gems.success.tt: 0 "Gli occhi si adattano perfettamente al design"
+agot_childhood_events.0027.gems.fail.tt: 0 "Le gemme sembrano fuori posto"
+agot_childhood_events.0027.buttons: 0 "È solo una bambola; gli occhi di bottone sono la scelta giusta!"
+agot_childhood_events.0027.buttons.tt: 0 "Resterai ai tradizionali occhi di bottone per la bambola"
+
+agot_childhood_events.0028.t: 0 "$agot_childhood_events.dragon_doll$ Le Prime Fiamme del Drago"
+agot_childhood_events.0028.desc.intro: 0 "In lontananza, colgo la risata gioiosa di [child.GetFirstName]; [Select_CString(child.IsFemale,'lei','lui')] deve stare giocando con [dragon_doll.GetName]. Mi avvicino, cercando di non fare rumore, e la coppia e la scena mi colmano di gioia. Ignar[Select_CString(child.IsFemale,'a','o')] della mia presenza, [child.GetNameNoTooltip] dice, in un attacco di risatine, "
+agot_childhood_events.0028.desc.fire_common: 0 ""Ancora, [dragon_doll.GetNameNoTooltip], sputa fiamme, [dragon_doll.GetNameNoTooltip]!""
+agot_childhood_events.0028.desc.fire_valyrian: 0 ""Ancora, [dragon_doll.GetNameNoTooltip], [Glossary('dracarys','DRACARYS_GLOSS')], [dragon_doll.GetNameNoTooltip]!""
+agot_childhood_events.0028.desc.fire_breath: 0 "\n\nFiamme immaginarie schizzano dalla gola del drago, strappando a [child.GetNameNoTooltip] un'altra risata felice."
+agot_childhood_events.0028.a: 0 "Così... prezios[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+agot_childhood_events.0028.a.flavor: 0 "Le fiamme saranno anche immaginarie, ma il mio cuore si è sciolto."
+agot_childhood_events.0028.b: 0 "Bene, [Select_CString(child.IsFemale,'lei','lui')] conosce il potere del fuoco di drago."
+agot_childhood_events.0028.b.flavor: 0 "Le fiamme saranno anche immaginarie, ma persino il mio cuore gelido si è sciolto."
+
+agot_childhood_events.0029.t: 0 "$agot_childhood_events.dragon_doll$ L'Ispirazione di una Bambola"
+agot_childhood_events.0029.desc: 0 "Per quanto una bambola non possa imitare la meraviglia e la maestà di un drago vivo, forse può esserne l'ispirazione? Poiché [child.GetFirstName] è senza drago, se [Select_CString(child.IsFemale,'lei','lui')] si innamorasse di una bambola raffigurante un drago vivente, [Select_CString(child.IsFemale,'lei','lui')] potrebbe affezionarsi e sentirsi abbastanza coraggios[Select_CString(child.IsFemale,'a','o')] da reclamare la bestia quando sarà in età."
+agot_childhood_events.0029.untamed_dragon: 0 "La bambola sarà modellata su."
+agot_childhood_events.0029.ask_child: 0 "Dimmi, [child.GetNameNoTooltip], qual è il tuo drago preferito?"
+agot_childhood_events.0029.unnamed: 0 "Questa bambola di drago sarà unica."
+agot_childhood_events.0029.unnamed.tt: 0 "La bambola di drago verrà battezzata al termine degli eventi."
+agot_childhood_events.0029.child_dragon_name.toast_title: 0 "[chosen_dragon.GetNameNoTooltip]"
+agot_childhood_events.0029.child_dragon_name.toast_desc: 0 "[child.GetFirstName] ha scelto [chosen_dragon.GetNameNicknamed]."
+agot_childhood_events.0029.inspiration_quality_bump.tt: 0 "Modellare la bambola su un drago vivente ne aumenterà lievemente la qualità."
+
+agot_childhood_events.0030.t: 0 "$agot_childhood_events.dragon_doll$ Il Design del Drago"
+agot_childhood_events.0030.desc: 0 "Quale drago dovrà ispirare la bambola?"
+agot_childhood_events.0030.confirm_dragon: 0 "Questo drago."
+agot_childhood_events.0030.confirm_dragon.tt: 0 "La bambola sarà modellata su [chosen_dragon.GetNameNicknamed]."
+agot_childhood_events.0030.ask_child: 0 "Dimmi, [child.GetNameNoTooltip], qual è il tuo drago preferito?"
+agot_childhood_events.0030.cancel: 0 "Ripensandoci, teniamola originale."
+agot_childhood_events.0030.child_dragon_name.toast_title: 0 "[chosen_dragon.GetNameNoTooltip]"
+agot_childhood_events.0030.child_dragon_name.toast_desc: 0 "[child.GetFirstName] ha scelto [chosen_dragon.GetNameNicknamed]."
+
+agot_hand_crafted_dragon_doll_exquisite_desc: 0 "Una splendida bambola di lana a forma di drago.[story.Custom('GetDollColor')][story.Custom('GetDollEyes')][story.Custom('GetDollWings')]$agot_hand_crafted_dragon_doll_creator$"
+agot_hand_crafted_dragon_doll_exquisite_desc_modeled: 0 "Una splendida bambola di lana modellata a immagine del drago [chosen_dragon.GetNameNicknamed].[story.Custom('GetDollColor')][story.Custom('GetDollEyes')][story.Custom('GetDollWings')]$agot_hand_crafted_dragon_doll_creator$"
+agot_hand_crafted_dragon_doll_simple_desc: 0 "Una semplice bambola di lana a forma di drago.[story.Custom('GetDollColor')][story.Custom('GetDollEyes')][story.Custom('GetDollWings')]$agot_hand_crafted_dragon_doll_creator$"
+agot_hand_crafted_dragon_doll_simple_desc_modeled: 0 "Una semplice bambola di lana modellata a immagine del drago [chosen_dragon.GetNameNicknamed].[story.Custom('GetDollColor')][story.Custom('GetDollEyes')][story.Custom('GetDollWings')]$agot_hand_crafted_dragon_doll_creator$"
+agot_hand_crafted_dragon_doll_creator: 0 " Questa bambola è stata realizzata personalmente da [creator.Custom('IT_NAM_COL5')][creator.GetTitledFirstName] per [Select_CString(child.IsFemale,'la sua figlia','il suo figlio')], [child.GetFirstName]."
+agot_dragon_doll_color_vibrant_fit: 0 " I molti colori vivaci di questo peluche, in qualche modo, si armonizzano bene tra loro."
+agot_dragon_doll_color_vibrant_off: 0 " I molti colori vivaci di questo peluche non si mescolano bene."
+agot_dragon_doll_color_vibrant_incoherent: 0 " I molti colori vivaci di questo peluche si fondono in modo incoerente."
+agot_dragon_doll_color_simple_complement: 0 " Il design e la colorazione semplici di questo peluche si completano a vicenda."
+agot_dragon_doll_color_simple_clash: 0 " I colori di questo peluche cozzano in modo goffo."
+agot_dragon_doll_color_monotone: 0 "Questa bambola monocroma non spicca alla vista."
+agot_dragon_eyes_buttons: 0 " Bottoni decorano i suoi occhi come in una bambola tradizionale."
+agot_dragon_eyes_gems_off: 0 " Gemme preziose sono fissate in modo goffo sul volto della bambola."
+agot_dragon_eyes_gems_pop: 0 " Gemme preziose mozzafiato sono fissate sul volto della bambola."
+agot_dragon_wings_large_fit: 0 " Le sue grandi ali sono adorabili su questa feroce ammazzauomini."
+agot_dragon_wings_large_oversize: 0 " Le sue grandi ali sono scomodamente sproporzionate."
+agot_dragon_wings_large_goat: 0 " Le sue grandi ali pendono come orecchie di capra."
+agot_dragon_wings_small_fit: 0 " Questa bestia terribile ha un corpo grande e alucce."
+agot_dragon_wings_small_undersized: 0 " Le sue ali sono sproporzionatamente piccole per questa bambola."
+agot_dragon_wings_small_whale: 0 " Questa bestia terribile solca i cieli con ali che sembrano più pinne di balena."
+agot_dragon_wings_proportional_lopsided: 0 " Questa bestia terribile vola con ali sbilenche."
+
+agot_childhood_events.9001.t: 0 "Il Drago di [child.GetNamePossessiveNoTooltip]"
+agot_childhood_events.9001.desc: 0 "[child.GetName] ha reclamato un drago tutt[Select_CString(child.IsFemale,'a','o')] [Select_CString(child.IsFemale,'sua','suo')], dopotutto. È chiaro che questa bambola non può competere con un drago vivo e pulsante; non vi è più bisogno di portare avanti questo progetto."
+agot_childhood_events.9001.a: 0 "Un vero peccato."
+agot_dead_pirate_dragon_baby_name: 0 "[dead_pirate_dragon_baby.GetNameNoTooltip]"
+agot_character_name: 0 "[character.GetNameNoTooltip]" # generic, get name of character - useful for assigning names, don't know if it already exists
 
   child_personality.keeps_authoritative_tt: "[child.GetFirstName] mantiene il tratto [GetTrait('authoritative').GetName( child.Self )]"
   child_personality.keeps_rude_tt: "[child.GetFirstName] mantiene il tratto [GetTrait('rude').GetName( child.Self )]"
@@ -131,7 +265,6 @@
   agot_child_personality_events.2010.t: "Servitori in Disputa"
   agot_child_personality_events.2010.guardian: "[guardian.GetTitledFirstName] ha condotto davanti a me due servitori, i loro volti rossi dalla rabbia, mentre si fissano con astio da un lato all’altro della sala. Pare che una tenda sia stata macchiata da un calice di Arbor rosso, e ciascuno incolpa l’altro. Nessuno vuole occuparsene, e servitori indignati portano cattivo umore. [guardian.GetFirstNameNoTooltip] mi affida la decisione come prova del mio carattere."
   agot_child_personality_events.2010.no_guardian: "Due servitori fanno irruzione nei miei appartamenti, entrambi furiosi. Ognuno accusa l’altro di aver macchiato una tenda con un calice di Arbor rosso mentre puliva la sera prima. Questo dissidio è un chiaro danno al morale, e devo agire in fretta."
-
   agot_child_personality_events.2010.a: "Pulirete entrambi la tenda."
   agot_child_personality_events.2010.b: "Siete entrambi licenziati!"
   agot_child_personality_events.2010.c: "Chi era di turno la scorsa notte?"
@@ -152,4 +285,3 @@
   agot_child_personality_events.201.inquisitive: "[child.GetFirstNameNoTooltip] ha interrogato i servitori, scoprendo rapidamente chi era effettivamente di turno quella sera, e ha incaricato lui di pulire il disastro. [child.GetSheHe|U] ha mostrato riflessione e tatto, cercando la verità prima di emettere giudizi affrettati."
   agot_child_personality_events.201.confirm_inquisitive: "Hai mostrato grande saggezza oggi."
   agot_child_personality_events.201.inquisitive_change: "Per risolvere un problema, devi scoprirne la radice."
-

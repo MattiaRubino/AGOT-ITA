@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
-  # Offerta di ospiti di condividere voci da un regno straniero vicino.
+ # Guest offers to share rumors from a nearby foreign realm.
   agot_hold_court.1001.t:0 "$hold_court_header$ Una Proposta Suprema"
   agot_hold_court.1001.desc:0 "[paramount_petitioner.Custom('DE_ART_DEF_P_D')] mi[paramount_petitioner.Custom('DE_END_PRO_S_N')] vassall[paramount_petitioner.Custom('DE_END_PRO_S_N')] [paramount_petitioner.GetTitledFirstName] si avvicina al mio trono e fa un profondo inchino.\n\n"Saluti, vostra maestà. Il [paramount_title.GetName] non ha un sovrano indipendente dalla corona. Desidero propormi per governare questa regione in vostro nome.""
   agot_hold_court.1001.a:0 "Sovrintenderai [paramount_title.GetName] per me."
@@ -26,10 +26,11 @@
   agot_hold_court.1011.d:0 "[vassal_claim.GetNameNoTier] è storicamente la sede della Casa [historic_claimant.GetHouse.GetName], apparterrà a [historic_claimant.GetFirstName]!"
 
   ##################################################
-  # Dispossessed Character asks for land return 
-  # Badger 
+  # Dispossessed Character asks for land return
+  # Badger
   # 1021 - 29
   ##################################################
 
   agot_hold_court.1021.t:0 "[historic_claimant.GetName]"
   agot_hold_court.1021.desc:0 "Ehi amico, hai il [claim_title.GetName], ma Casa [dynasty.GetName] lo ha tenuto per secoli e noi non abbiamo terre, forse puoi darmelo tu"
+

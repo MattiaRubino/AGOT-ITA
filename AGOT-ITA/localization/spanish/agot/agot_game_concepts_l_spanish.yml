@@ -2,7 +2,7 @@
   game_concept_personal_steward:0 "Intenente Personale"
   game_concept_personal_steward_desc:0 "Il $game_concept_personal_steward$ è il [councillor|E] che si occupa delle necessità del Comandante della Guardia della Notte."
 
-  ## KNIGHTING
+ ## KNIGHTING
   game_concept_agot_knight:0 "Cavaliere"
   game_concept_agot_knights:0 "Cavalieri"
   game_concept_agot_knightspossessive:0 "del Cavaliere"
@@ -13,11 +13,11 @@
   game_concept_squirepossessive:0 "dello Scudiero"
   game_concept_squire_desc:0 "Uno scudiero è un [agot_knight|E] in addestramento. Serve come assistente del cavaliere, aiutandolo in tutti i suoi compiti.\n\nPuoi eleggere un personaggio scudiero al compimento del nono anno, e fino al ventunesimo. Durante il servizio da scudiero vivrà eventi speciali che #P aumenteranno#! o #N diminuiranno#! la sua esperienza di tirocinio. Raggiunta l’età e accumulata sufficiente esperienza, potrà infine essere investito cavaliere.\n\nIl cammino dello scudiero verso la cavalleria è influenzato dai suoi tratti e dalla personalità — alcuni lo affronteranno meglio di altri!"
 
-  ## Dynastic Stability
+ ## Dynastic Stability
   game_concept_agot_dynastic_stability:0 "Stabilità Dinastica"
   game_concept_agot_dynastic_stability_desc:0 "La stabilità dinastica è una meccanica che permette alle [houses|E] di sopravvivere alla [succession|E] patrilineare.\n\nSe un personaggio di una casa minore eredita il [title|E] di una casa maggiore con cui ha legami ancestrali, assumerà il nome di quella casa maggiore."
-  
-  ## Legitimate House
+
+ ## Legitimate House
   game_concept_agot_legitimate_house:0 "Casata Legittima"
   game_concept_agot_legitimate_house_desc:0 "Westeros è una terra antica, dove i sovrani traggono la loro legittimità non solo dal potere presente, ma anche dal sangue antico che rivendicano. Una $game_concept_agot_legitimate_house$ è la [house|E] considerata la legittima detentrice di un [title|E]. I membri della $game_concept_agot_legitimate_house$ di un titolo avranno un diritto ancestrale su di esso, riusciranno a governare più facilmente il rispettivo dominio e riceveranno ulteriore sostegno per i loro pretendenti qualora dovessero perderlo.\n\nSe una casata che non è la $game_concept_agot_legitimate_house$ di un titolo lo dovesse ottenere, inizierà a fare progressi verso il diventare la nuova $game_concept_agot_legitimate_house$ di quel titolo. Tali progressi sono visibili nella storia del titolo, e dipendono da diversi fattori. Se quella casata dovesse mai perdere il titolo, ogni progresso verso il diventare la $game_concept_agot_legitimate_house$ andrà perduto."
   game_concept_agot_legitimate_house_the_north_remembers:0 "Il Nord Ricorda"
@@ -25,8 +25,7 @@
   game_concept_agot_legitimate_house_iron_price:0 "Il Prezzo del Ferro"
   game_concept_agot_legitimate_house_iron_price_desc:0 "Gli Uomini di Ferro credono che solo chi ha la forza per prendere una corona meriti di indossarla. Danno meno peso alle antiche stirpi del continente, e si affezionano a una nuova [agot_legitimate_house|E] più rapidamente rispetto ad altri regni."
 
-
-  ## Kingsguard
+ ## Kingsguard
   game_concept_lord_commander:0 "Comandante della Guardia Reale"
   game_concept_lord_commander_desc:0 "Il $game_concept_lord_commander$ è il [councillor|E] responsabile della difesa personale della famiglia reale, guidando un piccolo contingente di [knights|E] d'élite che li proteggono con la loro vita."
 
@@ -49,6 +48,19 @@
   game_concept_unknown_holdings:0 "Tenute sconosciute"
   game_concept_unknown_holding_desc:0 "La tenuta di questo reame è sconosciuta, poiché giace al di là della portata della tua vista diplomatica."
 
+game_concept_wilderness_holding: "Terre Selvagge"
+game_concept_wilderness: "Terre Selvagge"
+game_concept_wildernesses: "Terre Selvagge"
+game_concept_wilderness_desc: "Una terra vasta e vuota, senza padrone e popolata in modo molto sparso."
+game_concept_wilderness_holdings: "Possedimenti delle Terre Selvagge"
+game_concept_wilderness_holding_desc: "I Possedimenti delle Terre Selvagge sono del tutto improduttivi e devono essere sostituiti da un [settlement_holding|E] durante la [colonization|E] per sbloccarne il potenziale."
+
+game_concept_settlement_holding: "Insediamento"
+game_concept_settlement: "Insediamento"
+game_concept_settlements: "Insediamenti"
+game_concept_settlement_holdings: "Possedimenti di Insediamento"
+game_concept_settlement_holding_desc: "I Possedimenti di Insediamento rappresentano i piccoli avamposti, i borghi e le colonie stabiliti come parte del processo di [colonization|E].\n\nSono meno produttivi di altri [holding_types|E], ma rimuovere tutti i [colonization_blockers|E] e aumentare il [county_development|E] permetterà alla loro produttività di crescere, fino a consentire la conversione in un [holding|E] standard."
+
   game_concept_ruin_holding:0 "Rovina"
   game_concept_ruin_holding_desc:0 "Una tenuta che è stata a lungo dimenticata e abbandonata, misera ombra di sé stessa. Puoi iniziare lo [reconstruction_effort|E] interagendo con la rovina stessa."
   game_concept_ruin:0 "Rovina"
@@ -56,13 +68,30 @@
   game_concept_ruin_holdings:0 "Tenute in rovina"
   game_concept_ruin_holdings_desc:0 "Tenute che sono state a lungo dimenticate e abbandonate, misere ombre di ciò che erano un tempo."
 
-
   game_concept_ruin_reconstruction:0 "Ricostruzione delle Rovine"
   game_concept_ruin_reconstruction_desc:0 "Attraverso l'upgrade degli [buildings|E] di una rovina, essa può essere ricostruita in un vero possedimento, anche se il processo è lungo e faticoso.\n\nPer iniziare la ricostruzione, clicca sul personaggio della rovina che la possiede, il che ti porterà in un'altra finestra. Lì, clicca sul pulsante 'Ripristina Rovine'."
   game_concept_reconstruction:0 "Ricostruzione delle Rovine"
   game_concept_reconstruction_desc:0 "Attraverso l'upgrade degli [buildings|E] di una rovina, essa può essere ricostruita in un vero possedimento, anche se il processo è lungo e faticoso.\n\nPer iniziare la ricostruzione, clicca sul personaggio della rovina che la possiede, il che ti porterà in un'altra finestra. Lì, clicca sul pulsante 'Ripristina Rovine'."
   game_concept_reconstruction_effort:0 "Ricostruzione delle Rovine"
   game_concept_reconstruction_effort_desc:0 "Attraverso l'upgrade degli [buildings|E] di una rovina, essa può essere ricostruita in un vero possedimento, anche se il processo è lungo e faticoso.\n\nPer iniziare la ricostruzione, clicca sul personaggio della rovina che la possiede, il che ti porterà in un'altra finestra. Lì, clicca sul pulsante 'Ripristina Rovine'."
+
+game_concept_colonization: "Colonizzazione"
+game_concept_colonize: "Colonizza"
+game_concept_colony: "Colonia"
+game_concept_colonization_desc: "La Colonizzazione è il modo in cui un [independent_ruler|E] espande il proprio [realm|E] nelle [counties|E] di [wilderness|E] confinanti.\n\nDopo un investimento iniziale di [gold|E], può essere fondato un [settlement_holding|E], portando la [county|E] nel proprio [domain|E]. In principio, tale insediamento sarà improduttivo e incapace di costruire [buildings|E] standard nel [holding|E]. Occorrerà invece investire tempo e [gold|E] per aumentare il [development|E] nel nuovo insediamento e rimuovere qualunque [colonization_blockers|E] presente.\n\nQuando tutti i blocchi sono stati rimossi, il [settlement_holding|E] è pienamente potenziato e la colonia ha raggiunto un [county_development|E] pari a tre o superiore, l'insediamento può essere convertito in un [holding|E] standard."
+
+game_concept_colonization_blocker: "Blocco alla Colonizzazione"
+game_concept_colonization_blockers: "Blocchi alla Colonizzazione"
+game_concept_blockers: "Blocchi"
+game_concept_colonization_blocker_desc: "I Blocchi alla Colonizzazione sono [buildings|E] nelle [counties|E] di [wilderness|E] che rappresentano ostacoli alla [colonization|E] dell'area.\n\nQuesti blocchi applicano [modifiers|E] negativi alla contea, riducendone la produttività e impedendole di essere convertita in un [holding|E] standard."
+
+game_concept_ongoing_colonies: "Colonie in Corso"
+game_concept_settlement_holding_limit: "Limite degli Insediamenti"
+game_concept_settlement_holding_limit_i: "@hud_wilderness! [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')|0]"
+game_concept_settlement_holding_limit_desc: "Il numero di insediamenti che un [ruler|E] può detenere in qualunque momento è determinato dal grado del suo titolo.\n\n$EFFECT_LIST_BULLET$Un #bold [count|E] #!può detenere al massimo 1 [settlement_holding|E] senza incorrere in [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$Un #bold [duke|E] #!può detenere al massimo 2 [settlement_holdings|E] senza incorrere in [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$Un #bold [king|E] #!può detenere al massimo 3 [settlement_holdings|E] senza incorrere in [additional_settlement_upkeep|E].\n\n$EFFECT_LIST_BULLET$Un #bold [emperor|E] #!può detenere al massimo 4 [settlement_holdings|E] senza incorrere in [additional_settlement_upkeep|E]."
+
+game_concept_additional_settlement_upkeep: "Mantenimento Aggiuntivo"
+game_concept_additional_settlement_upkeep_desc: "Il Mantenimento Aggiuntivo indica la riduzione dell'entrata mensile dovuta al possesso di troppi [settlement_holdings|E].\n\nI sovrani possono #V abbandonare#! i propri possedimenti di insediamento se il mantenimento inizia a mandare in rovina l'economia del [realm|E]."
 
   game_concept_bastard_house:0 "Ramo Bastardo"
   game_concept_bastard_branch:0 "Ramo Bastardo"
@@ -114,21 +143,30 @@
   game_concept_tamed_dragons:0 "Draghi Addomesticati"
   game_concept_tamed_dragon_desc:0 "$game_concept_tamed_dragons$ sono draghi che sono stati addomesticati da un [GetTrait('dragonrider').GetName(GetNullCharacter)]. Se il loro cavaliere è un [ruler|E], rimarranno nella loro capitale, altrimenti rimarranno nella capitale del datore di lavoro del cavaliere. Cioè, a meno che non siano in un [army|E] o siano utilizzati per [travel|E].\n\nSono uno dei tre tipi di [dragon|E]. Gli altri due sono [wild_dragons|E] e [owned_dragons|E]. I draghi addomesticati diventeranno selvaggi se il loro cavaliere muore mentre non sono conservati in un [dragonpit|E]."
 
-  game_concept_draconic_dread:0 "Timore Draconico"
-  game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ è il [dread|E] che un [dragon|E], piuttosto che un sovrano, possiede. Rappresenta la paura intrinseca che la creatura infonde nei cuori degli uomini. Sebbene rifletta in gran parte il [dragons_size|E], può essere influenzato anche dalla sua [personality|E] e dalle sue azioni."
-
-  game_concept_temperament:0 "Temperamento"
-  game_concept_temperament_desc:0 "$game_concept_temperament$ è la disposizione generale e l'atteggiamento che un [dragon|E] mostra. Valori positivi indicano un drago più socievole, mentre un drago con un temperamento negativo è una bestia più selvaggia e capricciosa. Il temperamento di un drago sarà influenzato dalla sua [education|E], [personality|E] ed esperienze."
-
-  game_concept_taming_chance:0 "Probabilità di Addomesticamento"
-  game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ è la probabilità innata di un [dragon|E] di essere addomesticato e legato. Una maggiore probabilità di addomesticamento indica un drago più suscettibile all'interazione umana, mentre una minore probabilità rappresenta un drago che solo le volontà più forti riusciranno a domare. La probabilità di addomesticamento di un drago sarà influenzata dalla sua [education|E], [personality|E] ed esperienze."
-
   game_concept_dragon_size:0 "Dimensione del Drago"
   game_concept_dragons_size:0 "Dimensione dei Draghi"
   game_concept_dragon_size_desc:0 "$game_concept_dragon_size$ è la dimensione fisica di un [dragon|E]. È una misura collettiva della lunghezza, dell'apertura alare e del peso del drago. La dimensione di un drago influenzerà notevolmente il suo [dragon_combat_effectiveness|E] così come il suo [draconic_dread|E] e [taming_chance|E].\n\nUn drago non smetterà mai di crescere, ma il tasso di crescita rallenterà con l'età. I draghi conservati in un [dragonpit|E] artificiale cresceranno più lentamente rispetto a quelli che crescono in natura o in un [natural_dragonpit|E]."
+game_concept_dragon_size_i: "@dragon_size_stat_icon!"
+game_concept_dragon_size_lists_i: "@dragon_size_lists_icon! [Character.MakeScope.ScriptValue('dragon_size')|0]"
 
   game_concept_dragon_combat_effectiveness:0 "Efficacia in Combattimento"
   game_concept_dragon_combat_effectiveness_desc:0 "$game_concept_dragon_combat_effectiveness$ è una misura di quanto un [dragon|E] sia efficace in combattimento. È influenzata principalmente dalla [dragons_size|E], ma può essere influenzata anche dai [traits|E] e dall'esperienza del suo [GetTrait('dragonrider').GetName(GetNullCharacter)]. Un drago con alta efficacia in combattimento sarà più efficace in battaglia."
+game_concept_dragon_combat_effectiveness_num: "[Character.MakeScope.Var('current_dragon').Char.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+game_concept_dragon_combat_effectiveness_i: "@dragon_combat_effectiveness_stat_icon!"
+game_concept_dragon_combat_effectiveness_lists_i: "@dragon_combat_effectiveness_lists_icon!  [Character.MakeScope.ScriptValue('dragon_combat_effectiveness')|0]"
+
+  game_concept_draconic_dread:0 "Timore Draconico"
+  game_concept_draconic_dread_desc:0 "$game_concept_draconic_dread$ è il [dread|E] che un [dragon|E], piuttosto che un sovrano, possiede. Rappresenta la paura intrinseca che la creatura infonde nei cuori degli uomini. Sebbene rifletta in gran parte il [dragons_size|E], può essere influenzato anche dalla sua [personality|E] e dalle sue azioni."
+game_concept_draconic_dread_i: "@draconic_dread_stat_icon!"
+game_concept_draconic_dread_lists_i: "@draconic_dread_lists_icon! [Character.MakeScope.ScriptValue('draconic_dread')|0]"
+
+  game_concept_temperament:0 "Temperamento"
+  game_concept_temperament_desc:0 "$game_concept_temperament$ è la disposizione generale e l'atteggiamento che un [dragon|E] mostra. Valori positivi indicano un drago più socievole, mentre un drago con un temperamento negativo è una bestia più selvaggia e capricciosa. Il temperamento di un drago sarà influenzato dalla sua [education|E], [personality|E] ed esperienze."
+game_concept_temperament_i: "@temperament_stat_icon!"
+game_concept_temperament_lists_i: "@temperament_lists_icon! [Character.MakeScope.ScriptValue('temperament')|0]"
+
+  game_concept_taming_chance:0 "Probabilità di Addomesticamento"
+  game_concept_taming_chance_desc:0 "$game_concept_taming_chance$ è la probabilità innata di un [dragon|E] di essere addomesticato e legato. Una maggiore probabilità di addomesticamento indica un drago più suscettibile all'interazione umana, mentre una minore probabilità rappresenta un drago che solo le volontà più forti riusciranno a domare. La probabilità di addomesticamento di un drago sarà influenzata dalla sua [education|E], [personality|E] ed esperienze."
 
   game_concept_dragonpit:0 "Fossa del Drago"
   game_concept_dragonpits:0 "Fosse del Drago"
@@ -157,8 +195,7 @@
   game_concept_dragonpit_interactions:0 "Interazioni con la Fossa del Drago"
   game_concept_dragonpit_interactions_desc:0 "$game_concept_dragonpit_interactions$ sono un insieme di [interactions|E] sbloccate quando un [character|E] impiega il $head_dragonkeeper_court_position$ [court_position|E]. Queste interazioni permettono al proprietario di una [dragonpit|e] un maggiore controllo.\n\n$EFFECT_LIST_BULLET$#V Insegnare la Lore dei Draghi #!Interaction - Insegnare la Lore dei Draghi a bambini, nipoti o membri della [house|E].\n$EFFECT_LIST_BULLET$#V Vietare l'accesso alla Fossa del Drago #!Interaction - Restringere l'accesso a una fossa del drago a un personaggio che normalmente avrebbe accesso secondo le leggi della fossa.\n$EFFECT_LIST_BULLET$#V Revocare il Divieto di Accesso alla Fossa del Drago #!Interaction - Ripristinare l'accesso a una fossa del drago per un personaggio a cui era stato vietato.\n$EFFECT_LIST_BULLET$#V Concedere Accesso alla Fossa del Drago #!Interaction - Rendere un personaggio un [authorized_tamer|E] di una specifica fossa del drago.\n$EFFECT_LIST_BULLET$#V Inviare Uovo alla Fossa del Drago #!Interaction - Inviare un uovo di drago [artifact|e] alla fossa dove potrebbe schiudersi da solo, o per la conservazione.\n$EFFECT_LIST_BULLET$#V Recuperare Uovo dalla Fossa del Drago #!Interaction - Recuperare un uovo conservato nella fossa del drago."
 
-
-  ## GAME CONCEPTS LOC
+ ## GAME CONCEPTS LOC
   game_concept_story_content_robert_baratheon_282:0 "$game_concept_story_generic_prefix$ $bookmark_282_robert_baratheon$"
   game_concept_story_content_robert_baratheon_282_desc:0 "#tooltip_heading Stile Narrativo: Esteso#!\n\nCome Robert Baratheon, combatterai contro Aerys II Targaryen e i suoi lealisti. Eventi narrativi scriptati si susseguiranno durante la guerra mentre ti muovi verso la vittoria — o la sconfitta — contro Casa Targaryen."
 
@@ -201,8 +238,7 @@
   game_concept_story_content_maekar_targaryen_233:0 "$game_concept_story_generic_prefix$ $bookmark_233_maekar_targaryen$"
   game_concept_story_content_maekar_targaryen_233_desc:0 "#tooltip_heading Stile Narrativo: Leggero#!\n\nCome Maekar I Targaryen, dovrai affrontare una rivolta nascente e una crisi di successione imminente. Affronterai eventi narrativi scriptati riguardanti la ribellione e il tuo erede prescelto."
 
-
-  # Defiance of Duskendale 8277
+ # Defiance of Duskendale 8277
   game_concept_story_content_aerys_targaryen_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_aerys_targaryen$"
   game_concept_story_content_aerys_targaryen_277_desc:0 "#tooltip_heading Stile della Storia: Esteso#!\n\nCome Aerys II Targaryen, sei tenuto prigioniero da Denys Darklyn, che reclama una carta per salvare il suo porto in rovina. Affronterai eventi narrativi sceneggiati incentrati sulla tua prigionia, le azioni della tua Mano del Re e quelle di tuo figlio ed erede."
 
@@ -215,8 +251,7 @@
   game_concept_story_content_tywin_lannister_277:0 "$game_concept_story_generic_prefix$ $bookmark_277_tywin_lannister$"
   game_concept_story_content_tywin_lannister_277_desc:0 "#tooltip_heading Stile della Storia: Esteso#!\n\nCome Tywin Lannister, servi come Mano del Re per il prigioniero Re Aerys II Targaryen, e spetta a te affrontare Denys Darklyn per ottenere la liberazione del re. Affronterai eventi narrativi sceneggiati riguardanti il salvataggio del re e le conseguenze delle tue azioni."
 
-  # The Laughing Storm Rebellion 8239
-
+ # The Laughing Storm Rebellion 8239
   game_concept_story_content_lyonel_baratheon_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_lyonel_baratheon$"
   game_concept_story_content_lyonel_baratheon_239_desc:0 "#tooltip_heading Stile della Storia: Esteso#!\n\nNei panni di Lyonel Baratheon, sei un lord deciso a ristabilire l'onore della tua casata. Vivrai eventi di storia scritti incentrati sulla ribellione in fermento."
 
@@ -237,24 +272,20 @@
 
   game_concept_nw_govt:0 "Guardiani della Notte"
   game_concept_nw_govt_desc:0 "Sotto il $game_concept_nw_govt$ [government_form|E], il [liege|E] supremo distribuisce [land|E] ai [vassals|E] per governare e proteggere. Solo i fratelli giurati dei Guardiani della Notte possono detenere titoli sotto questo governo, e alla loro morte, i titoli tornano al loro signore."
-
   game_concept_nw_govt_i:0 "@nights_watch_government!"
 
   game_concept_pirate_govt:0 "Pirati"
   game_concept_pirate_govt_desc:0 "Sotto il $game_concept_pirate_govt$ [government_form|E], i [rulers|E] sono vincolati a una forma elettiva di [succession|E], uniche [buildings|E] da pirati e limitati ai [pirate_den_holdings|E]. Nonostante queste restrizioni, i sovrani pirata possono [raid|E] e utilizzare il [casus_belli|E] di conquista."
-
   game_concept_pirate_govt_i:0 "@pirate_government!"
 
   game_concept_citadel_govt:0 "Il Concilio"
   game_concept_citadel_govt_desc:0 "Il $game_concept_citadel_govt$ è un governo non giocabile che rappresenta l'ordine dei maestri."
-
   game_concept_citadel_govt_i:0 "@the_citadel_government!"
 
   game_concept_kg_govt:0 "Guardia Reale"
   game_concept_kg_govt_desc:0 "Il $game_concept_kg_govt$ è un governo non giocabile che rappresenta l'ordine d'élite delle guardie del corpo del monarca sul Trono di Spade."
-
   game_concept_kg_govt_i:0 "@kingsguard_government!"
-  
+
   game_concept_command_govt:0 "Comando"
   game_concept_command_govt_desc:0 "Il $game_concept_command_govt$ è un governo non giocabile che rappresenta un comandante nominato a sorvegliare un titolo."
   game_concept_command_govt_i:0 "@command_government!"
@@ -266,20 +297,41 @@
   game_concept_host_govt:0 "Ospitata"
   game_concept_host_govt_desc:0 "L’$game_concept_host_govt$ è meno un governo e più una riunione temporanea di persone, spesso per uno scopo preciso. L'ospitata non è un [government|E] permanente, e cambierà o si scioglierà una volta compiuto il suo scopo."
   game_concept_host_govt_i:0 "@host_government!"
-  
+
+  game_concept_ruins_govt:0 "Rovina"
+  game_concept_ruins_govt_desc:0 "Il $game_concept_ruins_govt$ è un governo non giocabile che rappresenta i regni caduti in rovina, ora sorvegliati dai Custodi fino al loro ripristino."
+  game_concept_ruins_govt_i:0 "@ruins_government!"
+
   game_concept_unknown_govt:0 "Sconosciuto"
   game_concept_unknown_govt_desc:0 "Il $game_concept_unknown_govt$ è un governo non giocabile che rappresenta reami oltre i confini della tua portata diplomatica."
   game_concept_unknown_govt_i:0 "@unknown_government!"
 
-
-  game_concept_ruins_govt:0 "Rovina"
-  game_concept_ruins_govt_desc:0 "Il $game_concept_ruins_govt$ è un governo non giocabile che rappresenta i regni caduti in rovina, ora sorvegliati dai Custodi fino al loro ripristino."
-
-  game_concept_ruins_govt_i:0 "@ruins_government!"
+game_concept_wilderness_govt: "Terre Selvagge"
+game_concept_wilderness_govt_desc: "Il $game_concept_wilderness_govt$ è un governo non giocabile che rappresenta reami disabitati o troppo scarsamente popolati per sostenere un governo."
+game_concept_wilderness_govt_i: "@wilderness_government!"
 
   game_concept_agot_spoils_of_war:0 "Bottino di Guerra"
-  game_concept_agot_spoils_of_war_desc:0 "Il $game_concept_agot_spoils_of_war$ è un evento che può verificarsi dopo la vittoria di un pretendente su un [title|e] di livello [empire|E]. I primi 3 attaccanti della guerra che hanno ottenuto almeno il 10% del punteggio di guerra possono richiedere alcuni favori dal nuovo sovrano incoronato.\n\nQuesti favori includono:\n$EFFECT_LIST_BULLET$#V Oro#!\n$EFFECT_LIST_BULLET$#V Una posizione nel Concilio Ristretto#!\n$EFFECT_LIST_BULLET$#V Un matrimonio reale#!\n$EFFECT_LIST_BULLET$#V Collocare un membro della famiglia nella [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V Un titolo di Lord Protettore#!"
+game_concept_agot_spoils_of_war_desc: "$game_concept_agot_spoils_of_war$ è un evento che può scattare dopo la vittoria di un pretendente su [titles|e] di livello [empire|E] e [hegemony|E]. I primi 3 attaccanti della guerra che hanno raggiunto almeno il 10% di punteggio di guerra possono richiedere determinati favori al pretendente appena incoronat[Select_CString(ROOT.Char.IsFemale,'a','o')].\n\nQuesti favori includono:\n$EFFECT_LIST_BULLET$#V Oro#!\n$EFFECT_LIST_BULLET$#V Un incarico nel piccolo consiglio#!\n$EFFECT_LIST_BULLET$#V Un matrimonio reale#!\n$EFFECT_LIST_BULLET$#V Porre un membro della famiglia nei [kingsguard|E]#!\n$EFFECT_LIST_BULLET$#V Un lord protettorato#!"
 
+ # MEGA WARS #
+game_concept_agot_mega_wars: "Megaguerra"
+game_concept_agot_mega_wars_desc: "Una megaguerra è un conflitto su vasta scala all'interno di un grande reame, e può essere di gravità minore o maggiore: i possenti imperi cadranno in una guerra [Concept('agot_major_mw', 'major')|E], mentre altri precipiteranno in una [Concept('agot_minor_mw', 'minor')|E]. L'impatto della guerra è considerato così severo che ogni partecipante deve scegliere una fazione o, se si tratta di una guerra [Concept('agot_major_mw', 'major')|E], restare neutrale.\nAlla fine della guerra, la fazione vincitrice ottiene opzioni più ampie riguardo alla punizione degli sconfitti."
+game_concept_agot_major_mw: "Megaguerra Maggiore"
+game_concept_agot_major_mw_desc: "In una [Concept('agot_mega_wars', 'Megaguerra')|E] maggiore, il reame viene diviso in tre tipi di partecipanti: [Concept('agot_loyalists', 'Lealisti')|E], [Concept('agot_neutrals', 'Neutrali')|E], [Concept('agot_rebels', 'Ribelli')|E].\nDurante la guerra, i neutrali possono comunque scegliere una fazione e non sono vincolati alla loro decisione iniziale."
+game_concept_agot_minor_mw: "Megaguerra Minore"
+game_concept_agot_minor_mw_desc: "In una [Concept('agot_mega_wars', 'Megaguerra')|E] minore, il reame viene diviso soltanto in due tipi di partecipanti: [Concept('agot_loyalists', 'Lealisti')|E] e [Concept('agot_rebels', 'Ribelli')|E]."
+game_concept_agot_loyalists: "Lealisti"
+game_concept_agot_loyalists_desc: "Coloro che restano fedeli alla Corona durante una [Concept('agot_mega_wars', 'Megaguerra')|E] sono detti lealisti. La Corona può essere presa di mira da molteplici [Concept('agot_rebels', 'capi ribelli')|E]."
+game_concept_agot_neutrals: "Neutrali"
+game_concept_agot_neutrals_desc: "I neutrali, in una [Concept('agot_mega_wars', 'Megaguerra')|E], sono vassalli che non hanno ancora dichiarato per una delle fazioni in lotta. Alcuni non vogliono aver nulla a che fare con la guerra, altri attendono che le maree del conflitto rechino nuove opportunità.\n\nQuesta posizione può essere assunta soltanto durante una guerra [Concept('agot_major_mw', 'major')|E]"
+game_concept_agot_rebels: "Ribelli"
+game_concept_agot_rebels_desc: "I ribelli, durante una [Concept('agot_mega_wars', 'Megaguerra')|E], sono coloro che si oppongono alla [Concept('agot_loyalists', 'Corona')|E]. I ribelli hanno un capo ribelle che guida lo sforzo bellico. Possono esistere più capi ribelli che prendono di mira la stessa [Concept('agot_loyalists', 'Corona')|E] in guerre differenti."
+game_concept_agot_expel_character: "Espelli"
+game_concept_agot_expel_character_desc: "Il personaggio in questione sarà costretto a lasciare il tuo reame e non potrà mai farvi ritorno. Il suo destino è l'esilio."
+game_concept_agot_take_main_titles: "Requisire i titoli principali"
+game_concept_agot_take_main_titles_desc: "Questo confisca tutti i titoli di livello superiore da un traditore."
+
+ # BANKING CONCEPTS #
   game_concept_agot_bank:0 "Banca"
   game_concept_agot_banking:0 "Attività Bancarie"
   game_concept_agot_banks:0 "Banche"
@@ -314,7 +366,14 @@
   game_concept_agot_bank_dividends:0 "Dividendi"
   game_concept_agot_bank_dividend_level_desc:0 "Il $game_concept_agot_bank_dividend_level$ determina la frazione dei profitti quinquennali distribuiti agli azionisti della [agot_bank|E] sotto forma di dividendi: #difficulty_hard 50%#!, #difficulty_medium 75%#!, oppure #difficulty_easy 100%#!."
 
+
   game_concept_agot_bastard_surnames:0 "Cognomi Bastardi"
   game_concept_agot_bastard_surnames_desc:0 "Secondo la tradizione di Westeros, i [bastards|E] nati da nobili ricevono spesso cognomi regionali che indicano il luogo di nascita o dove sono stati cresciuti. Questa pratica serve a distinguere i figli illegittimi dalle casate dei genitori e dai fratelli legittimi.\n\nSebbene non obbligatorio, molti figli legittimi di bastardi mantengono il cognome bastardo del genitore o lo modificano per riflettere la propria legittimità."
   game_concept_agot_surname:0 "Cognome"
 
+ # Spy Network
+game_concept_agot_spy: "Spia"
+game_concept_agot_spies: "Spie"
+game_concept_agot_spy_desc: "Le spie sono agenti che possono essere stanziati in qualunque corte e riferire al loro datore quando trovano segreti. Il loro datore può apprendere uno di questi segreti pagando una piccola somma.\n\nIl gruppo complessivo di agenti al servizio di un datore è detto [agot_spy_network|E]."
+game_concept_agot_spy_network: "Rete di Spie"
+game_concept_agot_spy_network_desc: "Una raccolta di [agot_spies|E] che lavorano tutte per lo stesso datore. Questa rete può crescere usando l'interazione Recluta Spia su personaggi idonei, oppure usando l'interazione Cerca Spie su un sovrano per indagare la sua corte in cerca di opportunità.\n\nLe spie in altre corti vengono naturalmente reclutate da uno [spymaster|E] tramite l'incarico di consiglio Trova Segreti, e possono essere scoperte nella tua corte con l'incarico Disturba Complotti.\n\nL'efficacia di una [agot_spy_network|E] può essere migliorata prendendo determinate decisioni, con effetti quali l'aumento del numero massimo di spie, una maggiore probabilità che i cortigiani vogliano offrire i propri servigi, o la possibilità che le spie scoprano [innovations|E]."

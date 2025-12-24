@@ -1,15 +1,13 @@
 ﻿l_spanish:
-  # Ethoses
+ # Ethoses
   ethos_festive_name:0 "Festoso"
   ethos_festive_desc:0 "Dinanzi alla durezza dell’esistenza, questa cultura trova salvezza nella festa collettiva e nella risata condivisa."
-
   ethos_mystic_name:0 "Mistico"
   ethos_mystic_desc:0 "I disegni degli dèi sono oscuri e incomprensibili, ma ciò non impedisce a questa cultura di scrutare oltre il velo per cogliere i misteri più profondi del mondo."
-
   ethos_methodical_name:0 "Metodico"
   ethos_methodical_desc:0 "Il passo costante evita la caduta, e il popolo di questa cultura non agisce mai senza prima valutare tutte le possibili conseguenze."
 
-  # Effetti delle Tradizioni AGOT
+ #AGOT Tradition Effects
   culture_parameter_gluttonous_trait_bonuses:0 "Il [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_forder_trait_bonuses:0 "#italic Dalle Acque#!: Il [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_rough_terrain_trait_bonuses:0 "Il [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
@@ -20,15 +18,15 @@
   culture_parameter_stubborn_trait_gives_bonuses:0 "#italic Ostinati in Guerra#!: Il [GetTrait('stubborn').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_herbalist_crannog_trait_gives_bonuses:0 "#italic Conoscenza Velenosa#!: Il [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
 
-  # Tratti Infantili
+ #Child Traits
   culture_parameter_bossy_trait_more_common:0 "[children|E] hanno più probabilità di ottenere il tratto [GetTrait('bossy').GetName( GetNullCharacter )]"
   culture_parameter_curious_trait_more_common:0 "[children|E] hanno più probabilità di ottenere il tratto [GetTrait('curious').GetName( GetNullCharacter )]"
 
-  # Tratti Comuni
+ #Common Traits
   culture_parameter_greedy_trait_more_common:0 "Il tratto [GetTrait('greedy').GetName( GetNullCharacter )] è più comune"
   culture_parameter_arrogant_trait_more_common:0 "Il tratto [GetTrait('arrogant').GetName( GetNullCharacter )] è più comune"
 
-  # Tratti da Comandante
+ #Commander Traits
   culture_parameter_organizer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('organizer').GetName( GetNullCharacter )] è più comune"
   culture_parameter_aggressive_attacker_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('aggressive_attacker').GetName( GetNullCharacter )] è più comune"
   culture_parameter_cautious_leader_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('cautious_leader').GetName( GetNullCharacter )] è più comune"
@@ -37,15 +35,14 @@
   culture_parameter_military_engineer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('military_engineer').GetName( GetNullCharacter )] è più comune"
   culture_parameter_forder_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('forder').GetName( GetNullCharacter )] è più comune"
 
-
-  # Bonus Territoriali
+ #Terrain Bonuses
   culture_parameter_wetlands_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ottengono bonus aggiuntivi nelle Zone Umide"
   culture_parameter_plains_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ottengono bonus aggiuntivi nelle Pianure"
 
-  # Tratti Valorizzati
+ #Trait Valued
   culture_parameter_shrewd_trait_more_valued:0 "Il tratto [GetTrait('shrewd').GetName( GetNullCharacter )] è maggiormente apprezzato"
 
-  # Tratti Disprezzati
+ #Trait Looked Down Upon
   culture_parameter_slave_master_trait_looked_down_upon:0 "Il tratto [GetTrait('slave_master').GetName( GetNullCharacter )] è disprezzato"
   culture_parameter_cynical_trait_looked_down_upon:0 "Il tratto [GetTrait('cynical').GetName( GetNullCharacter )] è disprezzato"
   culture_parameter_zealous_trait_looked_down_upon:0 "Il tratto [GetTrait('zealous').GetName( GetNullCharacter )] è disprezzato"
@@ -54,12 +51,12 @@
   culture_parameter_lazy_trait_looked_down_upon:0 "Il tratto [GetTrait('lazy').GetName( GetNullCharacter )] è disprezzato"
   culture_parameter_wrathful_trait_looked_down_upon:0 "Il tratto [GetTrait('wrathful').GetName( GetNullCharacter )] è disprezzato"
 
-  # Vagabondi – Abilità Extra
+ #Wanderers Extra Skills
   culture_parameter_wanderers_gain_extra_learning_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nel sapere, come [learning|E] o [lifestyle_traits|E]"
   culture_parameter_wanderers_gain_extra_intrigue_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nella cospirazione, come [intrigue|E] o [lifestyle_traits|E]"
   culture_parameter_wanderers_gain_extra_diplomacy_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nella diplomazia, come [diplomacy|E] o [lifestyle_traits|E]"
 
-  # Edifici
+ #Buildings
   culture_parameter_city_holdings_more_dev:0 "I [city_holdings|E] forniscono più [development|E]"
   culture_parameter_city_holdings_more_levies:0 "I [city_holdings|E] forniscono più [levies|E]"
   culture_parameter_city_holdings_more_taxes:0 "I [city_holdings|E] forniscono più [taxes|E]"
@@ -69,14 +66,14 @@
   culture_parameter_better_farm_bonuses:0 "La linea di edifici #V $building_type_cereal_fields_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
   culture_parameter_better_smith_buildings:0 "La linea di edifici #V $building_type_smiths_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
 
-  # Varie
+ #Misc
   culture_parameter_shortened_truce_period:0 "[truces|E] più brevi"
   culture_parameter_more_slaves_from_raiding:0 "Si catturano più schiavi utilizzando il [casus_bellis|E] #V Razzia per Schiavi#!"
 
-  # Effetti Tradizione Vanilla Aggiuntivi
+ # Vanilla Tradition Effects Add-Ons
   culture_parameter_the_bog_hunt_success_chance:0 "Aumentata la [hunt_success_chance|E] nelle [GetTerrain( 'the_bog' ).GetName]"
 
-  # Tradizioni
+ #Traditions
   agot_tradition_vale_andal_heritage_name:0 "Fede e Furia"
   agot_tradition_vale_andal_heritage_desc:0 "Gli Andali provengono dall’Essos settentrionale, sebbene nessuno sappia esattamente da dove. Con l’espansione del vorace Dominio Libero di Valyria, furono costretti a fuggire verso Westeros, travolgendo tutto ciò che si trovava a sud dell’Incollatura e portando con sé fervore religioso e le tradizioni di cavalleria e nobiltà."
 
@@ -221,7 +218,10 @@
   agot_tradition_rhoynar_name:0 "Sulle Acque della Madre"
   agot_tradition_rhoynar_desc:0 "Sulle rive della Rhoyne nacque una delle più grandi civiltà di Essos. I Rhoynar erano famosi per la bellezza delle loro città e per l’arte della metallurgia, che si dice abbiano insegnato agli altri."
 
-  # Culture uniche
+agot_tradition_candling_name: 0 "Sotto la Grande Candela"
+agot_tradition_candling_desc: 0 "Salute alla Grande Candela. Tutti adoreranno la Grande Candela. La Grande Candela è saggia. La Grande Candela è la nostra padrona; sceglierà chi dovrà andare e chi dovrà restare. CAN-DLE, CAN-DLE, CAN-DLE."
+
+ #Unique Cultural
   agot_tradition_andalosi_name:0 "Purificati dal Fuoco"
   agot_tradition_andalosi_desc:0 "#italic “Qarlon il Grande bruciò con il suo esercito, e i signori dei draghi volarono oltre, portando sangue e fuoco su Lorath. Le fiamme divorarono le sue città e i villaggi. Si dice che nessun uomo, donna o bambino sopravvisse al Flagello di Lorath, tanto erano roventi quei fuochi.”#!"
 
@@ -291,13 +291,13 @@
   agot_tradition_sarar_name:0 "Viva al Canto delle Fontane"
   agot_tradition_sarar_desc:0 "#italic “Ny Sar, la città delle fontane, vibrante di canti;”#!"
 
-  # Regno
+ #Realm
   agot_tradition_insular_marriage_name:0 "Matrimoni Insulari"
   agot_tradition_insular_marriage_desc:0 "Pur non essendo isolazionista, questa cultura preferisce sposarsi tra il proprio stesso popolo."
 
   agot_tradition_debug_name:0 "Debug"
   agot_tradition_debug_desc:0 "Come sei finito qui?"
 
-  # Requisiti
+ #Triggers
   ibbenese_heritage_trigger:0 "La [culture|E] deve appartenere al retaggio ibbenese"
   westerosi_heritage_trigger:0 "La [culture|E] deve appartenere a un retaggio westerosi"

@@ -34,6 +34,10 @@
   agot_nights_watch.2003.a.tt:0 "Rinunci in favore di [heir.GetName]"
   agot_nights_watch.2003.b:0 "C'è ancora vita in queste vecchie ossa!"
 
+ #######
+ # Heir is unsuitable - Randyll Tarly
+ # Badger
+ #######
   agot_nights_watch.2004.t:0 "La Stabilità della Mia Casata"
   agot_nights_watch.2004.desc:0 "Il mio [ROOT.Char.Custom2('RelationToMe', craven_heir)] [craven_heir.GetFirstName] è un imbarazzo per la dinastia [ROOT.Char.GetDynasty.GetNameNoTooltip]. Se [craven_heir.GetSheHe] dovesse ereditare [primary_title.GetNameNoTier], sarebbe una catastrofe per la nostra casata. Le redini di questa dinastia sarebbero molto meglio servite dalle mani di [good_heir.GetFirstName].\n\nCade a me proteggere il nostro futuro da un certo declino. Rimuovere un anello debole dalla catena di successione è difficile, ma ci sono opzioni. Se porto [craven_heir.GetHerHim] a caccia, posso darle una scelta. [craven_heir.GetSheHe|U] può cavalcare verso nord verso Il Muro e rinunciare a tutti i titoli, o [craven_heir.GetSheHe] subirà un incidente sfortunato e inevitabile."
   agot_nights_watch.2004.a:0 "Porterò [craven_heir.GetSheHe] fuori per una cavalcata, dove le proporrò il mio ultimatum."
@@ -61,3 +65,18 @@
   agot_nights_watch.9901.stark:0 "L'inverno sta arrivando."
   agot_nights_watch.9901.a:0 "E ora la sua guardia è finita."
 
+agot_nights_watch.0027.t: "[nightswatch_candidate.GetFirstNameNoTooltip] [nightswatch_candidate.GetHouse.GetNameNoTooltip] Indossa il Nero"
+agot_nights_watch.0027.t.lowborn: "[nightswatch_candidate.GetFirstNameNoTooltip] Indossa il Nero"
+agot_nights_watch.0027.intro: "Ho smesso di contare i giorni da quando ho cominciato a covare un’avversione per [nightswatch_candidate.GetFirstNameNicknamed]. Mi sono passate per la mente molte idee, ma quante sono davvero giunte a compimento?"
+agot_nights_watch.0027.mid.trusting: "Benché un’#italic inimicizia#! ci avesse separati, sono cert[Select_CString(ROOT.Char.IsFemale,'a','o')] che [nightswatch_candidate.GetSheHe] non avesse intenzione di farmi altro male."
+agot_nights_watch.0027.mid.nocompassion: "Sapere della morte di [nightswatch_candidate.GetHerHis] non mi avrebbe rattristat[Select_CString(ROOT.Char.IsFemale,'a','o')], ma fu un altro il destino che toccò a [nightswatch_candidate.GetHerHim]. E qualunque cosa [nightswatch_candidate.GetSheHe] stesse preparando contro di me, in realtà non devo più preoccuparmene."
+agot_nights_watch.0027.mid: "Sono cert[Select_CString(ROOT.Char.IsFemale,'a','o')] che [nightswatch_candidate.GetSheHe] avesse intrighi e trame rivolti contro di me nei piani di [nightswatch_candidate.GetHerHis], ma ora dubito che andassero oltre volgari scarabocchi."
+agot_nights_watch.0027.mid2.sender: "Per mia volontà e con un semplice ordine, [nightswatch_candidate.GetSheHe] è condannat[Select_CString(nightswatch_candidate.IsFemale,'a','o')] all’esilio ai confini del mondo. Il nero che [nightswatch_candidate.GetSheHe] indosserà terrà viva la memoria del giorno in cui ho mandato [nightswatch_candidate.GetHerHim] lontano dal mio sguardo, a rispondere dei crimini di [nightswatch_candidate.GetHerHis] contro il reame, e contro #bold me#!."
+agot_nights_watch.0027.mid2: "Per ordine di [actor.GetName], [nightswatch_candidate.GetFirstNameNoTooltip] languirà ora alla Barriera, costrett[Select_CString(nightswatch_candidate.IsFemale,'a','o')] a vestire di nero e a rispettare i voti di [nightswatch_candidate.GetHerHis]. [nightswatch_candidate.GetSheHe|U] non avrà più famiglia, amici o alleati — solo criminali d’ogni sorta come compagnia."
+agot_nights_watch.0027.mid2.blamemw: "Per i numerosi misfatti di [nightswatch_candidate.GetHerHis], [nightswatch_candidate.GetFirstNameNoTooltip] languirà ora alla Barriera, costrett[Select_CString(nightswatch_candidate.IsFemale,'a','o')] a vestire di nero e a rispettare i voti di [nightswatch_candidate.GetHerHis]. [nightswatch_candidate.GetSheHe|U] non avrà più famiglia, amici o alleati — solo criminali d’ogni sorta come compagnia."
+agot_nights_watch.0027.outro: "In un certo senso, è una forma di giustizia per ciò che [nightswatch_candidate.GetSheHe] mi ha fatto. Non è così?"
+agot_nights_watch.0027.a: "[nightswatch_candidate.GetSheHe|U] ha avuto ciò che [nightswatch_candidate.GetSheHe] meritava."
+agot_nights_watch.0027.b: "Lo è, ma mi godrò il destino di [nightswatch_candidate.GetHerHis]."
+agot_nights_watch.0027.c: "[nightswatch_candidate.GetSheHe|U] potrà ora espiare le colpe di [nightswatch_candidate.GetHerHis]."
+agot_nights_watch.0027.d1: "E ora è tempo di finire il lavoro."
+agot_nights_watch.0027.d2: "Al diavolo la giustizia; voglio vendetta!"

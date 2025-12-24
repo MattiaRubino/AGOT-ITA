@@ -1,24 +1,23 @@
 ﻿l_spanish:
 
-  ################################################
-  #   agot_nights_watch.0000 - NIGHTSWATCHMAN ARRIVES  #
-  ################################################
+ ################################################
+ #   agot_nights_watch.0000 - NIGHTSWATCHMAN ARRIVES  #
+ ################################################
 
   nightswatch_arrived.title:0 "Un nuovo Guardiano della Notte"
   nightswatch_arrived.desc:0 "[nightswatch_candidate.GetShortUIName|U] si è unito alla Guardia della Notte come fratello giurato."
 
 
-
-  ################################################
-  #   agot_nights_watch.0001 - MULE SHORTAGE (SETUP)  #
-  ################################################
+ ################################################
+ #   agot_nights_watch.0001 - MULE SHORTAGE (SETUP)  #
+ ################################################
 
   agot_filler_nights_watch.0001.message.t:0 "Shortage of Mules in $c_eastwatch$"
   agot_filler_nights_watch.0001.message.tt:0 "The mules trained in $c_eastwatch$ per il pattugliamento della Barriera ultimamente scarseggiano."
 
-  ########################################
-  #   agot_nights_watch.0002 - MULE SHORTAGE  #
-  ########################################
+ ########################################
+ #   agot_nights_watch.0002 - MULE SHORTAGE  #
+ ########################################
 
   agot_filler_nights_watch.0002.t:0 "Carenza di Muli"
   agot_filler_nights_watch.0002.opening:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si trova davanti a me"
@@ -55,7 +54,6 @@
   agot_filler_nights_watch.0002.d.banish:0 "Bandisci [fallguy.GetTitledFirstNameNoTooltip] per i suoi crimini contro i Guardiani"
   agot_filler_nights_watch.0002.d.execute:0 "Giustizi [fallguy.GetTitledFirstNameNoTooltip] per i suoi crimini contro i Guardiani"
   agot_filler_nights_watch.0002.d.message.t:0 "Giustizi [fallguy.GetTitledFirstName]"
-
   agot_filler_nights_watch.0002.e.arrogant:0 "So meglio di voi cosa accade a $c_eastwatch$."
   agot_filler_nights_watch.0002.e.arbitrary:0 "I muli mi interessano poco, [teller.GetFirstNameNoTooltip]"
   agot_filler_nights_watch.0002.e.just:0 "Portatemi più di un sospetto e ne parleremo."
@@ -63,9 +61,9 @@
   every_member_of_nights_watch:0 "Ogni membro dei Guardiani della Notte"
   every_close_relation:0 "Ogni parente stretto del giustiziato"
 
-  ############################################
-  #   agot_nights_watch.0003 - GOLD REINVESTMENT  #
-  ############################################
+ ############################################
+ #   agot_nights_watch.0003 - GOLD REINVESTMENT  #
+ ############################################
 
   agot_filler_nights_watch.0003.t:0 "Reinvesting"
   agot_filler_nights_watch.0003.desc:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi trova nelle stanze del consiglio e non fa alcuno sforzo per nascondere la sua indignazione.\n\n"Il denaro che hai sequestrato dal piano di [undercutter.GetTitledFirstNamePossessive] deve essere reinvestito nei Guardiani della Notte." [teller.GetSheHe|U] gira per la stanza, le mani che fluttuano nell'aria. "Trattenere quel denaro è equiparabile a un furto, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Devi restituirlo ai Guardiani."
@@ -85,10 +83,9 @@
   agot_filler_nights_watch.0003.b.forgiving.tt:0 "[teller.GetTitledFirstName] si sente in colpa per essere stato così brusco con te"
   agot_filler_nights_watch.0003.b.tt:0 "Consegni il denaro ai Guardiani"
 
-
-  ############################################
-  #   agot_nights_watch.0004 - BEGGING FOR MERCY  #
-  ############################################
+ ############################################
+ #   agot_nights_watch.0004 - BEGGING FOR MERCY  #
+ ############################################
 
   agot_filler_nights_watch.0004.t:0 "Una richiesta di pietà"
   agot_filler_nights_watch.0004.opening:0 "[fallguy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha fatto di tutto per evitarmi ultimamente. Il debito che incombe sulla sua testa è immenso, ma non è meno di quanto [fallguy.GetSheHe] meriti per la sua parte nel piano per frodare i Guardiani della Notte. Per giorni, [fallguy.GetSheHe] mi evita, solo guadagnando infine il coraggio di vedermi questa mattina mentre faccio colazione.\n\n"[ROOT.Char.Custom('DE_ART_DEF_P_D')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]," dice"
@@ -108,25 +105,24 @@
   agot_filler_nights_watch.0004.b.fallback:0 "Insisti che [fallguy.GetSheHe] ripaghi qualcosa #EMP immediatamente#!"
   agot_filler_nights_watch.0004.b.deceitful.tt:0 "[fallguy.GetTitledFirstNameNoTooltip] lascerà temporaneamente La Barriera per procurarsi il pagamento del debito"
 
-
-  ##########################################
-  #   agot_nights_watch.0006 - Impriggionato THIEF #
-  ##########################################
+ ##########################################
+ #   agot_nights_watch.0006 - IMPRISONED THIEF #
+ ##########################################
 
   agot_filler_nights_watch.0006.message.t:0 "[teller.GetTitledFirstName] Impriggionato"
   agot_filler_nights_watch.0006.message.tt:0 "[teller.GetTitledFirstName] ha ucciso [victim.GetTitledFirstName] in una disputa ed è stat[teller.Custom('DE_END_PRO_S_N')] Impriggionat[teller.Custom('DE_END_PRO_S_N')]"
 
-  ###############################################
-  #   agot_nights_watch.0007 - BENEFACTOR GIVES GOLD #
-  ###############################################
+ ###############################################
+ #   agot_nights_watch.0007 - BENEFACTOR GIVES GOLD #
+ ###############################################
 
   agot_filler_nights_watch.0007.t:0 "[benefactor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
   agot_filler_nights_watch.0007.desc:0 "Spero che tu stia bene. Capisco che il mio [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] ha un debito nei tuoi confronti e nella tua confraternita. Sebbene [fallguy.GetSheHe] insista sulla sua innocenza, pagherò questo debito per suo conto, con l'aspettativa che tu non perseguirai più il mio [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] per questo.\n\nDato che sono stato più che equo nel saldare questo debito — un debito che non avresti mai avuto altrimenti — mi aspetto che un giorno farai lo stesso per me."
   agot_filler_nights_watch.0007.a:0 "Molto bene."
 
-  ####################################################
-  #   agot_nights_watch.0008 - FALLGUY FLEES (FOLLOW-UP)  #
-  ####################################################
+ ####################################################
+ #   agot_nights_watch.0008 - FALLGUY FLEES (FOLLOW-UP)  #
+ ####################################################
 
   agot_filler_nights_watch.0008.t.good:0 "[ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]"
   agot_filler_nights_watch.0008.t.bad:0 "Per l'idiota ancora a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
@@ -135,9 +131,9 @@
   agot_filler_nights_watch.0008.a.good:0 "Così sia."
   agot_filler_nights_watch.0008.a.bad:0 "Bastardo."
 
-  ############################################
-  #   agot_nights_watch.0009 - TROUBLE ADJUSTING  #
-  ############################################
+ ############################################
+ #   agot_nights_watch.0009 - TROUBLE ADJUSTING  #
+ ############################################
 
   agot_filler_nights_watch.0009.t:0 "Problemi di adattamento"
   agot_filler_nights_watch.0009.desc:0 "A volte arrivano tra i Guardiani come giovani signorini, ma più spesso come ragazzi spezzati. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è la versione grezza e trasandata di uno di questi ragazzi, ignorando i suoi maestri d'armi e combattendo senza provocazione. Quando infine spinge il maestro d'armi al limite, si ritrova di fronte a me.\n\n"Perché sei così propenso a litigare con i tuoi nuovi fratelli?" sibilo. "Preferiresti essere in una gabbia piuttosto che alla Barriera?"\n\n"Sì," risponde piano. "Non merito una seconda chance, non dopo tutto quello che ho fatto. Merito una gabbia, o un buco dove potermi seppellire."
@@ -149,16 +145,15 @@
   agot_filler_nights_watch.0009.e:0 "Promettigli più responsabilità per aiutarlo a trovare il suo posto"
   agot_filler_nights_watch.0009.court_position.tt:0 "#i [troublemaker.GetTitledFirstNameNoTooltip] si aspetterà una posizione di corte in un futuro immediato#!"
 
-
-  ############################################
-  #   agot_nights_watch.0010 - TROUBLE ADJUSTING  #
-  ############################################
+ ############################################
+ #   agot_nights_watch.0010 - TROUBLE ADJUSTING  #
+ ############################################
 
   agot_filler_nights_watch.0010.toast.t:0 "Avete infranto la promessa di dare maggiori responsabilità"
 
-  ###############################################
-  #   agot_nights_watch.0011 - SQUATTER AT la Barriera #
-  ###############################################
+ ###############################################
+ #   agot_nights_watch.0011 - SQUATTER AT THE WALL #
+ ###############################################
 
   agot_filler_nights_watch.0011.t:0 "Abusivo Alla Barriera"
   agot_filler_nights_watch.0011.opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))|U] [councillor.GetFirstName] lancia una creatura dall'aspetto triste ai miei piedi. "Questo era accovacciato tra le rovine di [derelict.GetNameNoTier]," dice [councillor.GetSheHe], ma mentre parla c'è paura nelle sue parole. "[squatter_1.GetSheHe|U]... sa cose. Cose alle quali nessuno ha il diritto di conoscere."\n\n"Dàmi rifugio," gracchia il barbone, "o spoglierò i tuoi pensieri più oscuri... metterò a nudo le tue vergogne segrete."\n\n[councillor.GetTitledFirstNameNoTooltip] calpesta [squatter_1.GetSheHe], e [squatter_1.GetSheHe] si calma. "[squatter_1.GetSheHe|U] non sta bene, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord]. Dovremmo impiccarl[squatter_1.Custom('DE_END_PRO_S_N')]."\n\nIl barbone fa un cenno con il pollice verso [councillor.GetFirstNameNoTooltip]."
@@ -180,10 +175,9 @@
   agot_filler_nights_watch.0011.b.sadistic:0 "Impicca [squatter_1.GetSheHe]"
   agot_filler_nights_watch.0011.c:0 "Prendi la lingua di [squatter_1.GetSheHe] prima che riveli altri segreti"
 
-
-  ###########################################
-  #   agot_nights_watch.0012 - THE WOLF'S SHADOW #
-  ###########################################
+ ###########################################
+ #   agot_nights_watch.0012 - THE WOLF'S SHADOW #
+ ###########################################
   agot_filler_nights_watch.0012.t:0 "L'Ombra del Lupo"
   agot_filler_nights_watch.0012.opening:0 "Un branco di lupi grigi sta cacciando il popolo comune ne Il Dono, ma le due squadre di cacciatori inviate sono tornate non solo con meno di una sola pelle, ma anche con un Fratello gravemente ferito in [eaten.GetTitledFirstName]. Gli uomini sono diventati irrequieti da allora, e ora circolano voci tra i Guardiani che un lupo gigante guida il branco.\n\n"A sud de la Barriera?" [goon.GetTitledFirstName] sghignazza ad uno degli uomini mentre ceniamo. "Non c'è alcun lupo gigante a sud de la Barriera. Questa è una cagna appena svezzata. Un colpo di spada e cadrà giù, sicuro come"
   agot_filler_nights_watch.0012.joke.lowborn:0 "[joke.GetFirstNamePossessive] madre a Villaggio delle Talpe."
@@ -205,19 +199,18 @@
   agot_filler_nights_watch.0012.b.fallback:0 "Dì loro che guiderai tu la prossima caccia"
   agot_filler_nights_watch.0012.b.tt:0 "Guiderai tu la caccia al lupo personalmente"
 
-
-  ###########################################
-  #   agot_nights_watch.0013 - THE WOLF'S SHADOW #
-  ###########################################
+ ###########################################
+ #   agot_nights_watch.0013 - THE WOLF'S SHADOW #
+ ###########################################
 
   agot_filler_nights_watch.0013.message.great_success.t:0 "[goon.GetTitledFirstName] Ha Abbattuto il Lupo"
   agot_filler_nights_watch.0013.message.great_success.tt:0 "Inviato per eradicare il branco di lupi che stava tormentando Il Dono, [goon.GetTitledFirstName] ha guidato una caccia di successo e il capobranco è stato ucciso, disperdendo il branco nuovamente nella wilderness"
   agot_filler_nights_watch.0013.message.success.t:0 "[goon.GetTitledFirstName] Ha Respinto i Lupi"
   agot_filler_nights_watch.0013.message.success.tt:0 "Il gruppo di cacciatori che hai inviato per affrontare i lupi non è riuscito a uccidere il capobranco, ma il branco è stato scacciato dai villaggi e dalle fortezze de Il Dono"
 
-  ###########################################
-  #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
-  ###########################################
+ ###########################################
+ #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
+ ###########################################
 
   agot_filler_nights_watch.0014.t:0 "L'Ombra del Lupo"
   agot_filler_nights_watch.0014.opening.forgiving:0 "Le squadre di cacciatori hanno fatto del loro meglio, ma guardando la paura sui loro volti, so che il compito deve spettare a me."
@@ -236,9 +229,9 @@
   agot_filler_nights_watch.0014.b:0 "Buttati nel bosco per spaventare via le creature"
   agot_filler_nights_watch.0014.b.tt:0 "#I Favorisce i personaggi audaci#!"
 
-  ###########################################
-  #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
-  ###########################################
+ ###########################################
+ #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
+ ###########################################
 
   agot_filler_nights_watch.0015.t:0 "L'Ombra del Lupo"
   agot_filler_nights_watch.0015.dire_wolf.defense:0 "Facciamo riposare i cavalli e assumiamo le nostre posizioni difensive. Le lame si sguainano nell'oscurità, l'acciaio sfavilla alla luce delle torce. I rami frusciano. I cespugli si agitano. Gli uccelli si quietano così delicatamente che un silenzio freddo si insinua in ognuno di noi, poi un ululato doloroso echeggia, e nell'oscurità il compagno risponde.\n\nI lupi si precipitano fuori dal bosco, zanne e artigli e pelliccia grigia che si agita intorno a noi come un mare grigio ribollente. Sopra gli abbaiamenti delle bestie, [goon.GetTitledFirstName] grida dal dolore. [goon.GetSheHe|U] giace a pancia in giù, e sopra di lui si erge un mostruoso e ringhioso lupo gigante, il muso insanguinato di gore, i suoi occhi gialli selvaggi come l'inverno. Il suo sguardo si fissa su di me e si lancia, la mascella schioccante per l'odio."
@@ -254,8 +247,7 @@
   agot_filler_nights_watch.0015.failure.trusting:0 "e prego per essere salvato."
   agot_filler_nights_watch.0015.failure.calm:0 "e mi giro, guardando il cielo notturno immobile. È così che finisce?"
   agot_filler_nights_watch.0015.failure.fallback:0 "e faccio un respiro profondo, preparandomi per quello che verrà dopo."
-
-  # Success
+ # Success
   agot_filler_nights_watch.0015.compassionate:0 "La povera bestia..."
   agot_filler_nights_watch.0015.calm:0 "Sono fortunato a essere vivo."
   agot_filler_nights_watch.0015.deceitful:0 "E avevo paura? Nemmeno per un momento."
@@ -273,8 +265,7 @@
   agot_filler_nights_watch.0015.gregarious:0 "Sei ancora con me, [goon.GetFirstNameNoTooltip]?"
   agot_filler_nights_watch.0015.lustful:0 "Oh, i letti che riempirò con questo racconto."
   agot_filler_nights_watch.0015.gluttonous:0 "C'è qualcosa di meglio della selvaggina che hai cacciato tu stesso?"
-
-  # Failure
+ # Failure
   agot_filler_nights_watch.0015.failure_1:0 "Sfodera un pugnale e combatti per la tua vita"
   agot_filler_nights_watch.0015.failure_2:0 "Fingi di essere morto"
   agot_filler_nights_watch.0015.failure_3:0 "Accetta il tuo destino"
@@ -285,7 +276,7 @@
   agot_filler_nights_watch.0016.t:0 "PLACEHOLDER"
   agot_filler_nights_watch.0016.desc:0 "PLACEHOLDER"
   agot_filler_nights_watch.0016.a:0 "PLACEHOLDER"
-  
+
   agot_filler_nights_watch.0017.t:0 "L'Ombra del Lupo"
   agot_filler_nights_watch.0017.desc:0 "I resti del gruppo di caccia inviato per eliminare il branco di lupi che terrorizzava il Dono tornano a casa malconci e sanguinanti. Alcuni dei miei fratelli non sono tornati affatto dal Dono, e sento la loro perdita come un pugnalata nello stomaco. Questi lupi, sembra, non sono un branco ordinario. Quando finalmente uno dei miei fratelli è abbastanza calmo da dare un resoconto coerente di cosa è successo, parla di una bestia massiccia con occhi gialli e pelo nero. Sono stati imboscatti, dice, e sono appena riusciti a sfuggire all'incontro con la loro vita.\n\nA che punto sono arrivati i Guardiani della Notte? Ci è affidato il compito di proteggere i regni degli uomini, ma non possiamo neanche proteggere i nostri vicini dagli animali selvatici."
   agot_filler_nights_watch.0017.a:0 "Questa falla è una macchia sul buon nome dei Guardiani della Notte."

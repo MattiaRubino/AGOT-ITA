@@ -26,7 +26,7 @@
 
   agot_trial_by_combat.1001.desc: "Per vincere la mia libertà, prima devo vincere questo processo per singolar tenzone. Posso scegliere un campione che combatterà al mio posto, ma chi dovrei scegliere?"
 
-  # TbC about to begin, defender POV
+ # TbC about to begin, defender POV
   agot_trial_by_combat.2000.t: "$agot_trial_by_combat.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]"
   agot_trial_by_combat.2000.desc.intro: "Mi portano incatenato nel luogo designato vicino a [duel_location.GetBaseNameNoTier], in buon anticipo, e trovo [recipient.GetTitledFirstName] già in attesa di me, insieme a una piccola comitiva di testimoni."
   agot_trial_by_combat.2000.desc.recipient_fighting: "[recipient.GetSheHe|U] mi informa che ha scelto di combattere personalmente questo processo."
@@ -48,8 +48,7 @@
   agot_trial_by_combat.2001.a: "Vinca il miglior [recipient_champion.GetWomanMan]."
   agot_trial_by_combat.2001.a.tt: "Inizia il processo per singolar tenzone!"
 
-
-  # Defender/actor wins, defender/actor POV
+ #Defender/actor wins, defender/actor POV
   agot_trial_by_combat.3001.t: "$agot_trial_by_combat.0000.t$: Vittoria!"
   agot_trial_by_combat.3001.desc.intro: "[actor.GetFaith.PantheonTerm|U] mi ha sorriso calorosamente ieri!"
   agot_trial_by_combat.3001.desc.both_fighting: "Mentre abbasso la mia arma, [recipient.GetName] cade. Rimango lì ansimante, prima di rendermi conto di aver vinto! Gli Dei mi hanno risparmiato e dimostrato che avevo sempre ragione!"
@@ -59,7 +58,7 @@
   agot_trial_by_combat.3001.desc.outro: "\n\nIeri abbiamo posto la nostra disputa davanti a [actor.GetFaith.PantheonTerm], e [actor.GetFaith.PantheonTerm] ha risposto saggiamente."
   agot_trial_by_combat.3001.a: "La giustizia è stata fatta."
 
-  # Defender/actor wins, accuser/recipient POV
+ #Defender/actor wins, accuser/recipient POV
   agot_trial_by_combat.3002.t: "$agot_trial_by_combat.0000.t$: Sconfitta!"
   agot_trial_by_combat.3002.desc.intro: "[recipient.GetFaith.PantheonTerm|U] non mi ha sorriso ieri."
   agot_trial_by_combat.3002.desc.actor_own_champion: "Mentre l'abominevole [actor.GetName] fa strada attraverso [recipient_champion.GetName], sospiro. Perché gli Dei mi hanno abbandonato? Guardando giù, [actor.GetNameNoTooltip] sorride largamente a me e fa un inchino beffardo prima di andarsene."
@@ -67,8 +66,7 @@
   agot_trial_by_combat.3002.desc.outro: "\n\nIeri abbiamo posto la nostra disputa davanti a [actor.GetFaith.PantheonTerm], e gli Dei si sono schierati contro di me. Per cosa la mia casata ha guadagnato la loro disapprovazione?"
   agot_trial_by_combat.3002.a: "Ah, qui non c'è stata giustizia."
 
-
-  # Accuser wins/recipient , accuser/recipient POV
+ #Accuser wins/recipient , accuser/recipient  POV
   agot_trial_by_combat.3003.t: "$agot_trial_by_combat.0000.t$: Vittoria!"
   agot_trial_by_combat.3003.desc.intro: "[recipient.GetFaith.PantheonTerm|U] ieri mi ha sorriso calorosamente!"
   agot_trial_by_combat.3003.desc.both_fighting: "Mentre abbasso la mia arma, [actor.GetName] cade. Rimango lì ansimante, prima di rendermi conto di aver vinto! Gli Dei mi hanno risparmiato e dimostrato che avevo sempre ragione!"
@@ -78,7 +76,7 @@
   agot_trial_by_combat.3003.desc.outro: "\n\nIeri abbiamo posto la nostra disputa davanti a [actor.GetFaith.PantheonTerm], e [actor.GetFaith.PantheonTerm] ha risposto saggiamente."
   agot_trial_by_combat.3003.a: "La giustizia è stata fatta."
 
-  # Accuser wins/recipient , defender/actor POV
+ #Accuser wins/recipient , defender/actor POV
   agot_trial_by_combat.3004.t: "$agot_trial_by_combat.0000.t$: Sconfitta!"
   agot_trial_by_combat.3004.desc.intro: "Come è arrivato a questo? Sono andato davanti a [actor.GetFaith.PantheonTerm] per cercare #EMP giustizia#!"
   agot_trial_by_combat.3004.desc.recipient_own_champion: "Mentre [recipient.GetSheHe] fa un ultimo colpo con il mio campione, [actor_champion.GetName], cadendo, il maledetto [recipient.GetName] si erge alto e sorride verso di me."
@@ -86,7 +84,6 @@
   agot_trial_by_combat.3004.desc.outro: "\n\nOra tutto il mondo ritiene risolte le nostre questioni e che la giustizia sia stata impartita."
   agot_trial_by_combat.3004.a:0 "Ah, qui non c'è stata giustizia."
 
-  # Singolar Tenzone
   agot_trial_by_combat.9000.t:0 "Singolar Tenzone"
   agot_trial_by_combat.9000.desc:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo due roghi; uno con il mio campione [actor_champion.GetTitledFirstName] già legato.\n\n"Ho scelto il fuoco come mio campione oggi," [recipient.GetTitledFirstName] ride follemente."
   agot_trial_by_combat.9000.desc.self_champion:0 "Mi portano dalla prigione incatenato al luogo in cui dovrebbe aver luogo il mio duello. Invece di un campo di battaglia, trovo un rogo pronto, e le guardie cominciano a trascinarmi verso di esso.\n\n"Ho scelto il fuoco come mio campione oggi," [recipient.GetTitledFirstName] ride follemente."
@@ -98,7 +95,6 @@
   agot_trial_by_combat.9001.a:0 "È bellissimo."
   agot_trial_by_combat.9001.tt:0 "[actor.GetTitledFirstName] e il suo campione, [actor_champion.GetTitledFirstName], muoiono entrambi."
   agot_trial_by_combat.9001.tt.self_champion:0 "[actor.GetTitledFirstName] muore."
-
 
   agot_trial_by_combat.9100.t:0 "Giudizio per Singolar Tenzone"
   agot_trial_by_combat.9100.desc:0 "Vengo portato dalla prigione incatenato al luogo dove si svolgerà il mio giudizio per Singolar Tenzone. Tuttavia, invece di un campo di battaglia, trovo [dragon.GetName] accanto a [recipient.GetTitledFirstName]!\n\n"Ho scelto [dragon.GetFirstNameNoTooltip] come mio campione oggi," dice [recipient.GetTitledFirstNameNoTooltip] con un sorriso ironico, mentre [actor_champion.GetFirstName] guarda terrorizzato alla prospettiva di affrontare un drago faccia a faccia."

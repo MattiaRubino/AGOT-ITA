@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  # Scheme modifiers
+ # Scheme modifiers
   fed_dragon_scheme_modifier:0 "Drago Nutrito"
   fed_dragon_scheme_modifier_desc:0 "Il drago è sazio dopo essere stato nutrito con un animale."
   fed_dragon_bad_scheme_modifier:0 "Affamato"
@@ -66,6 +66,7 @@
   dragon_bond_lullaby_success_modifier:0 "Cullato con una Ninna Nanna"
   dragon_bond_lullaby_failure_modifier:0 "Toni Irritanti"
 
+ # Dragon event modifiers
   agot_worshiping_dragon:0 "Venerazione del Drago"
   agot_worshiping_dragon_desc:0 "Questa contea sta venerando il drago [COUNTY.MakeScope.Var('worshiped_dragon').GetCharacter.GetFirstName]. La sua gente è più felice e lavora un po' più duramente, ma le offerte stanno causando un drenaggio nella raccolta delle tasse locali."
   agot_restricted_dragon_worship:0 "Venerazione del Drago Negata"
@@ -123,8 +124,7 @@
   agot_bond_gives_relief:0 "Legame con il Drago Dà Sollievo"
   agot_bond_gives_relief_desc:0 "Il legame di questo personaggio con il proprio drago gli dà un senso di sollievo dallo stress quotidiano."
 
-
-  # Dragon province damage
+ # Dragon province damage
   agot_dragon_fire:0 "Incendi del Drago Incontrollabili"
   agot_dragon_fire_desc:0 "Gli incendi della collera di un drago sono ancora accesi qui. La gente fugge dalle loro case, vede i loro mezzi di sussistenza bruciare e riempie le strade con i miseri e i moribondi."
   agot_dragon_damage_1:0 "Danno Minore del Drago"
@@ -149,9 +149,8 @@
   agot_dragon_damage_10_desc:0 "Questa contea assomiglia più a una visione di un inferno maledetto che a un luogo dove le persone vivevano. Il terreno stesso è bruciato e ci vorranno anni prima che anche le piante siano pronte a essere reintrodotte, per non parlare delle persone."
   agot_chain_dragon_filler_modifier:0 "Drago Imbrigliato"
   agot_chain_dragon_filler_modifier_desc:0 "Questo drago è stato imbrigliato con pesanti catene."
-
-  # Modificatori di guerra
-  # Assedio
+ # Warfare modifiers
+ # Siege
   dragon_siege_modifier_passive:0 "Supporto dell'Assedio del Drago"
   dragon_siege_modifier_passive_desc:0 "L'assedio di questo personaggio è sostenuto dalla presenza di un drago nel loro accampamento. I loro nemici temono che la bestia possa essere scatenata contro di loro, subendo così una penalità alla morale."
   dragon_siege_modifier_minor:0 "Distruzione Minore da Assedio del Drago"
@@ -243,7 +242,7 @@
   dragon_siege_modifier_40:0 "$dragon_siege_modifier_massive$"
   dragon_siege_modifier_40_desc:0 "$dragon_siege_modifier_massive_desc$"
 
-  # Prowess
+ # Prowess
   dragon_battle_prowess_modifier_1:0 "Cavalcare un Drago in Battaglia"
   dragon_battle_prowess_modifier_1_desc:0 "Questo personaggio sta cavalcando un drago novizio e, perciò, è molto più letale sul campo di battaglia."
   dragon_battle_prowess_modifier_2:0 "Cavalcare un Drago in Battaglia"
@@ -255,7 +254,8 @@
   dragon_battle_prowess_modifier_5:0 "Cavalcare un Drago in Battaglia"
   dragon_battle_prowess_modifier_5_desc:0 "Questo personaggio sta cavalcando un drago e, perciò, è molto più letale sul campo di battaglia."
 
-  # Army
+
+ # Army
   dragon_supporting_army:0 "Drago a Supporto dell'Esercito"
   dragon_supporting_army_desc:0 "Questo drago sta supportando un esercito e non sarà in grado di supportare un nuovo esercito finché non avrà smesso di supportare quello attuale."
   base_dragon_army_modifier_1:0 "Supporto dell'Esercito da Parte di un Drago Novizio"
@@ -278,9 +278,7 @@
   base_dragon_army_modifier_9_desc:0 "L'esercito di questo comandante è supportato da un drago veramente grande. Un drago come questo non è mai stato abbattuto dagli uomini e tutti coloro che osano sfidare questa forza cadranno."
   base_dragon_army_modifier_10:0 "Supporto dell'Esercito da Parte di un Drago Divino"
   base_dragon_army_modifier_10_desc:0 "L'esercito di questo comandante è superfluo rispetto al drago che lo supporta. Una bestia simile non è stata vista dal Doom, e questo è ciò che porta a tutti i nemici."
-
-
-  # Army Counters
+ # Army Counters
   base_dragon_army_modifier_scorpions_counter_1:0 "Copertura Aerea con Scorpioni"
   base_dragon_army_modifier_scorpions_counter_1_desc:0 "L'esercito di questo personaggio ha scorpioni, che contrastano parzialmente il supporto del drago nemico."
   base_dragon_army_modifier_scorpions_counter_2:0 "$base_dragon_army_modifier_scorpions_counter_1$"
@@ -301,7 +299,6 @@
   base_dragon_army_modifier_scorpions_counter_9_desc:0 "$base_dragon_army_modifier_scorpions_counter_1_desc$"
   base_dragon_army_modifier_scorpions_counter_10:0 "$base_dragon_army_modifier_scorpions_counter_1$"
   base_dragon_army_modifier_scorpions_counter_10_desc:0 "$base_dragon_army_modifier_scorpions_counter_1_desc$"
-
 
   base_dragon_army_modifier_water_wizards_counter_1:0 "Magia Difensiva dei Maghi dell'Acqua"
   base_dragon_army_modifier_water_wizards_counter_1_desc:0 "L'esercito di questo personaggio dispone di maghi dell'acqua, che contrastano parzialmente il supporto draconico del nemico."
@@ -324,8 +321,7 @@
   base_dragon_army_modifier_water_wizards_counter_10:0 "$base_dragon_army_modifier_water_wizards_counter_1$"
   base_dragon_army_modifier_water_wizards_counter_10_desc:0 "$base_dragon_army_modifier_water_wizards_counter_1_desc$"
 
-
-  # Combat warfare
+ # Combat warfare
   dragon_combat_modifier_1:0 "Azioni di Combattimento del Drago Novizio"
   dragon_combat_modifier_2:0 "Azioni di Combattimento del Drago Minore"
   dragon_combat_modifier_3:0 "Azioni di Combattimento del Drago Moderato"
@@ -336,8 +332,7 @@
   dragon_combat_modifier_8:0 "Azioni di Combattimento del Drago Terrificante"
   dragon_combat_modifier_9:0 "Azioni di Combattimento del Drago Tirannico"
   dragon_combat_modifier_10:0 "Azioni di Combattimento del Drago Divino"
-
-  # Combat
+ # Combat
   dragon_duel_edge_buff_01_modifier:0 "Buff del duello dei draghi"
   dragon_duel_edge_buff_02_modifier:0 "Buff del duello dei draghi"
   dragon_duel_edge_buff_03_modifier:0 "Buff del duello dei draghi"
@@ -403,7 +398,8 @@
   dragon_combat_move_taunt_modifier:0 "Provocato"
   dragon_combat_move_taunt_modifier_desc:0 "Il sangue di questo personaggio ribolle di rabbia."
 
-  # Altri modificatori
+
+ # Other modifiers
   agot_dragon_in_dragonpit:0 "Nella Fossa del Drago"
   agot_dragon_in_dragonpit_desc:0 "Questo drago è tenuto in una [dragonpit|E]. Sebbene indubbiamente più sicuro rispetto alla vita selvaggia, sia per il drago che per tutti gli altri, i draghi non sono stati fatti per la cattività."
 

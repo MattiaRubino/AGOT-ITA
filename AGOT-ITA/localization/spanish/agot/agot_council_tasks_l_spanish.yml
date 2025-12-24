@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  #Personal Steward
+ # Personal Steward
   personal_steward_task_diplomacy_good_skilled_notification_tooltip:0 "La competenza diplomatica del tuo consigliere personale [councillor.Custom('diplomacy_skill_level')] ha portato a questo colpo di fortuna."
   personal_steward_task_diplomacy_good_unskilled_notification_tooltip:0 "Ciò è accaduto nonostante la competenza diplomatica del tuo consigliere personale [councillor.Custom('diplomacy_skill_level')]."
   personal_steward_task_martial_good_unskilled_notification_tooltip:0 "Ciò è accaduto nonostante la competenza marziale del tuo consigliere personale [councillor.Custom('martial_skill_level')]."
@@ -10,14 +10,13 @@
   personal_steward_task_intrigue_good_skilled_notification_tooltip:0 "La competenza nell'inganno del tuo consigliere personale [councillor.Custom('intrigue_skill_level')] ha portato a questo colpo di fortuna."
   personal_steward_task_learning_good_unskilled_notification_tooltip:0 "Ciò è accaduto nonostante la competenza nell'apprendimento del tuo consigliere personale [councillor.Custom('learning_skill_level')]."
   personal_steward_task_learning_good_skilled_notification_tooltip:1 "La competenza nell'apprendimento del tuo consigliere personale [councillor.Custom('learning_skill_level')] ha portato a questo colpo di fortuna."
-
   task_personal_steward_default_diplomacy_modifier:0 "Assistenza dal Maggiordomo Personale"
   task_personal_steward_default_martial_modifier:0 "Assistenza dal Maggiordomo Personale"
   task_personal_steward_default_stewardship_modifier:0 "Assistenza dal Maggiordomo Personale"
   task_personal_steward_default_intrigue_modifier:0 "Assistenza dal Maggiordomo Personale"
   task_personal_steward_default_learning_modifier:0 "Assistenza dal Maggiordomo Personale"
 
-  #Personal Steward Tasks 
+ # Personal Steward Tasks
   task_personal_steward_default:0 "Assistere il Lord Comandante"
   task_personal_steward_default_effect_desc:0 "[councillor.GetShortUINameNoTooltip] ti assiste nel lavoro quotidiano di gestione dei Guardiani della Notte\n\nIl suo sostegno ti fornisce:\n[councillor.GetModifierDescForTask('task_personal_steward_default')]"
   task_personal_steward_court_politics:0 "Sviluppare Influenza"
@@ -50,8 +49,7 @@
   task_promote_culture_effect_desc_greenborn_override_smt_broke:0 "#R #L (AGOT ERROR)#!#!: Qualcosa è andato storto con la conversione della culture di Greenborn, segnalare a Typical"
 
 
-
-  #Castellan Tasks 
+ # Castellan Tasks
   task_castellan_default_1:0 "Supervisiona il Regno" #martial 
   task_castellan_default_effect_desc_1:0 "L'esperienza di [councillor.GetShortUINameNoTooltip] nelle questioni di guerra stringerà la tua presa su questa terra. \n\nIl suo sostegno ti fornisce:\n[councillor.GetModifierDescForTask('task_castellan_default_1')]"
 
@@ -66,6 +64,7 @@
 
   task_castellan_default_5:0 "Supervisiona il Regno" #diplomacy
   task_castellan_default_effect_desc_5:0 "[councillor.GetShortUINameNoTooltip] è un politico capace, e una mano ferma nella diplomazia è essenziale per governare. \n\nIl suo sostegno ti fornisce:\n[councillor.GetModifierDescForTask('task_castellan_default_5')]"
+
 
   task_castellan_default_hodor:0 "Fai del tuo meglio"
   task_castellan_default_hodor_effect_desc:0 "[councillor.GetShortUINameNoTooltip] non è sicuro di come sia finito qui, ma sta facendo del suo meglio."
@@ -97,8 +96,7 @@
   task_castellan_clergy_desc:0 "\n[councillor.GetModifierDescForTask('task_castellan_clergy')]"
   task_castellan_clergy_modifier:0 "Consiglio $councillor_castellan$"
 
-  #Admiral 
-
+ # Admiral
   task_admiral_fleet:0 "Disperdere le Flotte"
 
   task_admiral_fleet_modifier:0 "Consiglio $councillor_admiral$"
@@ -127,7 +125,7 @@
   task_admiral_maritime:0 "Proteggere il Commercio"
 
   task_admiral_maritime_modifier:0 "CounConsigliocil $councillor_admiral$"
-  
+
   task_admiral_maritime_tax_modifier:0 "Consiglio $councillor_admiral$" 
 
   task_admiral_maritime_effect_desc:0 "[domain|E] Tax: #P +[SCOPE.ScriptValue('task_admiral_maritime_tax_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Consigliere [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_tax_base')]%#! \n [supply|E] Capacità: #P +[SCOPE.ScriptValue('task_admiral_maritime_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_maritime_base')]%#!\n$TAB$Consigliere [stewardship_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_maritime_skill_base')]%#!"
@@ -136,9 +134,9 @@
 
   task_admiral_maritime_family_business_bonus:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('task_admiral_fleet_family_business_bonus')|1]%#!"
 
-  # Court Chaplain
+ # Court Chaplain
   COURT_CHAPLAIN_SHATTERED_WORLD:0 "Bonus iniziale del Mondo in frantumi"
-  
-  # Spymaster
+
+ # Spymaster
   agot_task_disrupt_schemes_discover_spies:0 "Potrebbe scoprire spie straniere alla sua corte \n"
   agot_task_disrupt_schemes_recruit_spies:0 "Potrebbe reclutare spie presso il tribunale degli obiettivi \n"

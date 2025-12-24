@@ -1,4 +1,7 @@
 ﻿l_spanish:
+ #Copied from spouse events, modified for personal steward
+
+ # DIPLOMACY
   councillor_personal_steward_diplomacy.1001.desc:0 "Reputazione Familiare"
   councillor_personal_steward_diplomacy.1004.desc:0 "Formazione Diplomatica"
   councillor_personal_steward_diplomacy.1004.desc_diplo_councillor:0 "Insegnato da [councillor.GetTitleAsName]"
@@ -18,16 +21,16 @@
   councillor_personal_steward_diplomacy.2003.b:0 "Riparerò la sua faccia!"
   councillor_personal_steward_diplomacy.2003.c:0 "Lo chiamate [SCOPE.Custom('PersonalityGetSharedTraitDescriptionFromFlag')]?! Lasciate che vi sveli il suo vero carattere..."
 
-  #INTRIGUE
-  councillor_personal_steward_intrigue.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] e [spymaster.GetCouncilTitle] Cooperano"
+ # INTRIGUE
+councillor_personal_steward_intrigue.0001.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] e [spymaster.GetCouncilTitle] cooperano"
 
-  councillor_personal_steward_intrigue.0002.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Espone il Piano"
+councillor_personal_steward_intrigue.0002.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] smaschera un complotto"
 
-  councillor_personal_steward_intrigue.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Scopre un Segreto"
+councillor_personal_steward_intrigue.0003.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] scopre un segreto"
 
-  councillor_personal_steward_intrigue.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Piano di Aiuti"
+councillor_personal_steward_intrigue.0004.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] agevola un complotto"
 
-  councillor_personal_steward_intrigue.0005.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Manipola il Soggetto"
+councillor_personal_steward_intrigue.0005.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] manipola il bersaglio"
 
   councillor_personal_steward_intrigue.0006.message:0 "Ingenuità Perduta"
 
@@ -56,7 +59,6 @@
   councillor_personal_steward_intrigue.1004.c:0 "A volte è meglio aspettare di avere una mano vincente."
   councillor_personal_steward_intrigue.1004.c.tt:1 "Non sveli ancora il Segreto di [secret_holder.GetFirstNamePossessiveNoTooltip]"
 
-
   councillor_personal_steward_intrigue.1005.t:1 "Attendente Personale: Divide et Impera"
   councillor_personal_steward_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] ha sostenuto attivamente [leader.GetTitledFirstName] e la [faction.GetName]. Tuttavia, [councillor.Custom('DE_ART_DEF_P_A')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] ha un piano per cambiare le cose.\n\n"Fidati di me, le cose che potrei dire a [faction_member.GetTitledFirstName] farebbero disconoscere [leader.GetFirstNameNoTooltip] all'istante.""
   councillor_personal_steward_intrigue.1005.a:0 "Assicurati che [faction_member.GetFirstNameNoTooltip] non supporti mai più [leader.GetFirstNameNoTooltip]!"
@@ -64,24 +66,23 @@
 
   councillor_personal_steward_intrigue.1006.t:1 "Attendente Personale: Un Rappresentante Appropriato"
   councillor_personal_steward_intrigue.1006.desc:0 "Essendo ben consapevole dei miei piani riguardo a [target.GetTitledFirstName], [councillor.Custom('DE_ART_DEF_P_A')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] è venuto da me con una proposta.\n\n"Ho amici a corte di [court_owner.GetTitledFirstNamePossessive]. Potrei chiedere che accolgano un ospite per qualche tempo. Con un piccolo segno di lealtà e tutto il supporto che posso offrire, [plant.GetTitledFirstName] potrebbe fare meraviglie per te...""
-  councillor_personal_steward_intrigue.1006.a:0 "Un'idea brillante, mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+councillor_personal_steward_intrigue.1006.a: 0 "Un'idea brillante, [Select_CString(councillor.IsFemale,'mia','mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]!"
   councillor_personal_steward_intrigue.1006.b:0 "Penso che avremmo bisogno di [plant.GetFirstNameNoTooltip] qui."
 
-  #MARTIAL
-  
-  councillor_personal_steward_martial.0001.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Ispira il Reclutamento"
+ # MARTIAL
+councillor_personal_steward_martial.0001.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] ispira il reclutamento"
 
   councillor_personal_steward_martial.0002.message:0 "Aiuto nell'Organizzazione dell'Esercito"
 
-  councillor_personal_steward_martial.0003.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Ispiratore"
+councillor_personal_steward_martial.0003.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] d'ispirazione"
 
-  councillor_personal_steward_martial.0004.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Incoraggia la Cavalleria"
+councillor_personal_steward_martial.0004.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] incoraggia la cavalleria"
 
   councillor_personal_steward_martial.0005.message:0 "Supporto nelle Negoziazioni con i Mercenari"
 
   councillor_personal_steward_martial.0006.message:0 "Prendendosi Cura di Me"
 
-  councillor_personal_steward_martial.0007.message:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Si Prende Cura delle Ferite"
+councillor_personal_steward_martial.0007.message: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] cura i feriti"
 
   councillor_personal_steward_martial.0008.message:0 "Presenza Intimidatoria"
 
@@ -95,7 +96,6 @@
   councillor_personal_steward_martial.1001.b.education_tt:0 "Avanzo dell'educazione marziale di [child.GetFirstNamePossessiveNoTooltip]"
   councillor_personal_steward_martial.1001.c:0 "Questa giornata è in #EMP nostro#! onore, mio caro!"
 
-  
   councillor_personal_steward_martial.1002.t:1 "Attendente Personale: Agire per mio conto"
   councillor_personal_steward_martial.1002.desc:0 "Il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] trascorre molto tempo viaggiando per il regno con la sua guardia d'onore. Ci sono molte questioni che [councillor.GetSheHe] può risolvere per conto mio, e la presenza militare di [councillor.GetTitledFirstName] è un solido ricordo del mio diritto di governare."
   councillor_personal_steward_martial.1002.a:0 "Io e il mio [councillor.GetTitleAsNameNoTooltip] siamo pronti a difendere il regno!"
@@ -111,31 +111,32 @@
   councillor_personal_steward_martial.1003.c.unlock_tt:0 "Questa opzione è disponibile grazie alla brillantezza strategica di [councillor.GetFirstNamePossessiveNoTooltip]"
 
   councillor_personal_steward_martial.1004.t:1 "Attendente Personale: La Guardia"
-  councillor_personal_steward_martial.1004.desc:0 "Sono un po' confuso su perché il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] voglia presentarmi un "grande dono" nel cortile. Presto capisco, però, quando [councillor.GetTitledFirstName] ordina a un gruppo di soldati di mettersi in fila. "Un intero reggimento, reclutato dalle mie terre, pronto a servirti."\n\nQuesto #EMP è#! un grande regalo!"
+councillor_personal_steward_martial.1004.desc: 0 "Sono un poco confus[Select_CString(ROOT.Char.IsFemale,'a','o')] sul perché [Select_CString(councillor.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] voglia presentarmi un «dono grandioso» nel cortile. Ben presto lo capisco, però, quando [councillor.GetTitledFirstName] ordina a un gruppo di soldati di mettersi in riga. «Un intero reggimento, levato dalle mie terre, pronto a servirti».\n\nQuesto #EMP è#! un dono grandioso!"
   councillor_personal_steward_martial.1004.a:0 "Più truppe per rafforzare l'esercito!"
   councillor_personal_steward_martial.1004.b:0 "Serviranno come mia guardia personale."
 
   councillor_personal_steward_martial.1005.t:1 "Attendente Personale: Lasciare un'Impressione"
-  councillor_personal_steward_martial.1005.desc:0 "[vassal.GetTitledFirstName] sta venendo a [capital.GetNameNoTier] per pagarmi tributo. Tuttavia, [councillor.GetTitledFirstName] suggerisce che una dimostrazione militare potrebbe assicurare una lealtà continuata.\n\n"Vedere la tua schiacciante potenza farebbe riflettere chiunque, nel caso il tradimento attraversasse la loro mente," fa notare il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]."
+councillor_personal_steward_martial.1005.desc: 0 "[vassal.GetTitledFirstName] sta venendo a [capital.GetNameNoTier] per porgermi tributo. Tuttavia, [councillor.GetTitledFirstName] suggerisce che una dimostrazione militare potrebbe garantire una lealtà duratura.\n\n«Vedere la tua schiacciante potenza farebbe esitare chiunque, se mai il tradimento dovesse attraversargli la mente,» osserva [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))]."
   councillor_personal_steward_martial.1005.a:0 "Sì, [vassal.GetFirstNameNoTooltip] vedrà soldati ovunque [vassal.GetSheHe] si giri!"
   councillor_personal_steward_martial.1005.a.tt:1 "[vassal.GetFirstNameNoTooltip] diventa più suscettibile a [dread|E]"
   councillor_personal_steward_martial.1005.b:0 "Una parata regolare dovrebbe essere sufficiente."
 
-#Different religion/culture notifications
+ # LEARNING
+ # Different religion/culture notifications
   councillor_personal_steward_learning.1001.religion.t:1 "Attendente Personale Medita con Vassallo di Fede [councillor.GetFaith.GetAdjectiveNoTooltip]"
   councillor_personal_steward_learning.1001.culture.t:1 "Attendente Personale Medita con [councillor.GetCulture.GetNameNoTooltip]"
 
-  councillor_personal_steward_learning.1002.religion.t:1 "Attendente Personale Medita con [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
-  councillor_personal_steward_learning.1002.culture.t:1 "Attendente Personale Medita con [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
- 
-  #Same religion/culture notifications
+councillor_personal_steward_learning.1002.religion.t: 1 "L'Amministratore personale media con [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U] di fede [councillor.GetFaith.GetAdjectiveNoTooltip]"
+councillor_personal_steward_learning.1002.culture.t: 1 "L'Amministratore personale media con [councillor.Custom2('LMF_RelationToMeShort', SCOPE.sC('opinion_house_member'))|U] di cultura [councillor.GetCulture.GetNameNoTooltip]"
+
+ # Same religion/culture notifications
   councillor_personal_steward_learning.1003.religion.desc:1 "Attendente Personale Medita con Soggetti di Fede [councillor.GetFaith.GetAdjectiveNoTooltip]"
   councillor_personal_steward_learning.1003.culture.desc:1 "Attendente Personale Medita con Soggetti di Cultura [councillor.GetCulture.GetNameNoTooltip]"
   councillor_personal_steward_learning.1301.t:1 "Attendente Personale: Influenza Conversione Religiosa"
   councillor_personal_steward_learning.1302.t:1 "Attendente Personale: Influenza Conversione Culturale"
   councillor_personal_steward_learning.1303.desc:0 "Attendente Personale è Patrono dei Teologi"
 
-  #General learning notifications
+ # General learning notifications
   councillor_personal_steward_learning.1601.desc:1 "L'Attendente Personale Ti Aiuta negli Studi di [ROOT.Char.Custom('LifestyleFocus')|U]"
   councillor_personal_steward_learning.1602.t:1 "[tutored_child.Custom('GetDaughterSon')] Fiorisce Sotto la Tutela dell'Attendente Personale"
   councillor_personal_steward_learning.1603.root_guardian.t:0 "Il Pupillo Apprezza la Tutela dell'Attendente Personale"
@@ -146,16 +147,17 @@
   agot_add_patronage_personal_steward_education_points_effect.desc:1 "[patronage_student.Custom('DE_ART_DEF_P_D')] mi[patronage_student.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], è più propenso a ricevere un'ottima [education|E] grazie alla tutela di [councillor.GetTitledFirstNamePossessive]."
   add_patronage_personal_steward_education_points_child_effect.desc:0 "[patronage_student.Custom('DE_ART_DEF_P_D')] mi[patronage_student.Custom('DE_END_PRO_S_N')] [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], è più propenso a ricevere un'ottima [education|E] grazie alla tutela di [councillor.GetTitledFirstNamePossessive]."
 
-  # Eventi
+ # Events
   councillor_personal_steward_learning.2601.t:1 "Attendente Personale: Educazione Avanzata"
-  councillor_personal_steward_learning.2601.not_scholarly.desc:0 ""Non ti farebbe male leggere un libro ogni tanto", mi dice spesso il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], lo studioso [councillor.GetTitledFirstName]. [councillor.GetSheHe|U] si è offerto di essere il mio tutore, nel caso avessi bisogno di un aiuto per cominciare."
-  councillor_personal_steward_learning.2601.scholarly.desc:0 "Ogni volta che il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] mi trova chinato su un tomo, [councillor.GetSheHe] si entusiasma visibilmente.\n\n"Ti piacerebbe un po' di aiuto nei tuoi studi? Qualcuno con cui scambiare idee o forse alcuni nuovi tomi? Ho recentemente acquisito un volume con un'ottima analisi di [ROOT.Char.Custom('education_conversation_subject')]!""
+councillor_personal_steward_learning.2601.not_scholarly.desc: 0 "«Non ti farebbe male leggere un libro ogni tanto,» mi dice spesso [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))], lo studioso [councillor.GetTitledFirstName]. [Select_CString(councillor.IsFemale,'Lei','Lui')|U] si è offert[Select_CString(councillor.IsFemale,'a','o')] di farmi da tutor, se ho bisogno d'aiuto per cominciare."
+councillor_personal_steward_learning.2601.scholarly.desc: 0 "Ogni volta che [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] mi trova chinat[Select_CString(ROOT.Char.IsFemale,'a','o')] su un tomo, [Select_CString(councillor.IsFemale,'lei','lui')] si entusiasma visibilmente.\n\n«Ti piacerebbe un po' d'aiuto con gli studi? Qualcuno con cui scambiare idee, o magari dei nuovi tomi? Ho appena acquisito un volume con un'eccellente analisi di [ROOT.Char.Custom('education_conversation_subject')]!»"
   councillor_personal_steward_learning.2601.a:0 "Sì, apprezzerei la tua guida."
   councillor_personal_steward_learning.2601.b:0 "[tutoring_student_1.GetTitledFirstNameNoTooltip] ha bisogno del tuo aiuto più di me."
   councillor_personal_steward_learning.2601.c:0 "Dovresti insegnare a [tutoring_student_2.GetTitledFirstNameNoTooltip] al posto mio."
   councillor_personal_steward_learning.2601.d:0 "Dovresti concentrarti sui tuoi studi."
   agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success:0 "La comprensione di [THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] di [THIS.Char.Custom('education_focus')] aumenta notevolmente"
   agot_councillor_personal_steward_learning_2601_tutoring_effect.success:0 "La comprensione di [THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] di [THIS.Char.Custom('education_focus')] aumenta"
+
 
   councillor_personal_steward_learning.2001.faith.t:1 "Attendente Personale: Dissidenti [councillor.GetFaith.GetAdjectiveNoTooltip]"
   councillor_personal_steward_learning.2001.culture.t:1 "Attendente Personale: Dissidenti [councillor.GetCulture.GetNameNoTooltip]"
@@ -166,7 +168,7 @@
   councillor_personal_steward_learning.2001.independence_faction.desc:0 "Dovrebbero essere sudditi leali, eppure so che stanno tramando contro di me."
   councillor_personal_steward_learning.2001.liberty_faction.desc:0 "Cercano di minare la mia autorità ad ogni passo."
   councillor_personal_steward_learning.2001.claimant_faction.desc:0 "Quei ladri disonorevoli cercano di prendere le terre che mi appartengono di diritto."
-  councillor_personal_steward_learning.2001.end.desc:0 "\n\nFortunatamente, essendo "uno di loro", il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] ha una certa influenza su di loro. [councillor.GetSheHe|U] si è offerto di mediarli e vuole sapere come procedere."
+councillor_personal_steward_learning.2001.end.desc: 0 "\n\nPer fortuna, in quanto «uno dei loro», [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] gode di una certa influenza su di loro. [Select_CString(councillor.IsFemale,'Lei','Lui')|U] si è offert[Select_CString(councillor.IsFemale,'a','o')] di mediare e vuole sapere come procedere."
   councillor_personal_steward_learning.2001.a.faith:0 "Calma i membri della fazione [councillor.GetFaith.GetAdjectiveNoTooltip]."
   councillor_personal_steward_learning.2001.a.culture:0 "Calma i membri della fazione [councillor.GetCulture.GetNameNoTooltip]."
   councillor_personal_steward_learning.2001.a.faction_members_faith:0 "Ogni membro di fede [councillor.GetFaith.GetAdjective] della [different_culture_or_faith_faction.GetName]"
@@ -175,16 +177,16 @@
   councillor_personal_steward_learning.2001.c:0 "Convinci [faction_member_2.GetTitledFirstNameNoTooltip] a rimanere leale a me."
 
   councillor_personal_steward_learning.2301.t:1 "Attendente Personale: Una Forza Superiore"
-  councillor_personal_steward_learning.2301.desc:0 "[councillor.Custom('DE_ART_DEF_P_D')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] è diventato una figura ben nota nel mondo religioso. Il Suo patronato verso gli studiosi di [councillor.GetFaith.GetAdjectiveNoTooltip], i [councillor.GetFaith.HouseOfWorshipPlural], e gli ordini ha attirato l'attenzione persino di [religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself].\n\nLa gratitudine del [religious_head.GetTitleAsNamePossessiveNoTooltip] arriva con molti benefici. [councillor.Custom('DE_ART_DEF_P_D')] mi[councillor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] è offerto di contattarl[religious_head.Custom('DE_END_PRO_S_N')] per mio conto."
+councillor_personal_steward_learning.2301.desc: 0 "[Select_CString(ROOT.Char.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] è divenut[Select_CString(councillor.IsFemale,'a','o')] una figura ben nota nel mondo religioso. Il patrocinio di [Select_CString(councillor.IsFemale,'lei','lui')] verso studiosi [councillor.GetFaith.GetAdjectiveNoTooltip], [councillor.GetFaith.HouseOfWorshipPlural] e ordini ha persino attirato l'attenzione di [religious_head.GetTitledFirstNameNicknamed] [religious_head.GetHerselfHimself].\n\nLa gratitudine [religious_head.GetTitleAsNamePossessiveNoTooltip] reca con sé potenti benefici. [Select_CString(ROOT.Char.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))] si è offert[Select_CString(councillor.IsFemale,'a','o')] di contattare [Select_CString(religious_head.IsFemale,'lei','lui')] per mio conto."
   councillor_personal_steward_learning.2301.a:0 "Puoi fare le presentazioni?"
-  councillor_personal_steward_learning.2301.a.success:0 "Ho stretto amicizia con [religious_head.GetTitledFirstName]."
+councillor_personal_steward_learning.2301.a.success: 0 "Ho stretto amicizia con [religious_head.GetTitledFirstNameNicknamed]."
   councillor_personal_steward_learning.2301.b:0 "Cosa può fare [religious_head.GetSheHe] per noi in cambio?"
   councillor_personal_steward_learning.2301.c:0 "Questa è la mia occasione per essere accolto nuovamente nella comunità santa!"
   councillor_personal_steward_learning.2301.d:0 "Fateglielo sapere, tutto ciò che facciamo, lo facciamo per [councillor.GetFaith.HighGodName]."
 
   councillor_personal_steward_learning.2602.t:1 "Attendente Personale: Allargare gli Orizzonti"
   councillor_personal_steward_learning.2602.not_root.desc:0 "Anche se [student.Custom('DE_ART_DEF_P_A')] mi[student.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] sa certamente qualcosa su [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] pensa che sia ora per [student.GetSheHe] di ampliare i suoi orizzonti.\n\n"Potrei procurare alcuni nuovi tomi, preparare alcuni compiti. Quale materia pensi possa beneficiare di più a [student.GetFirstNameNoTooltip]?""
-  councillor_personal_steward_learning.2602.root.desc:0 ""Nonostante tu sappia qualcosa su [student.Custom('highest_skill_noun')], [student.GetPrimaryTitle.GetNameNoTierNoTooltip] dovrebbe possedere una vasta gamma di competenze," dice il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"Potrei procurare alcuni nuovi tomi, preparare alcuni compiti, insegnarti un po'. A quale materia sei più interessato?""
+councillor_personal_steward_learning.2602.root.desc: 0 "«Per quanto tu sappia qualcosa su [student.Custom('highest_skill_noun')], [student.GetTitleTierName] di [student.GetPrimaryTitle.GetNameNoTierNoTooltip] dovrebbe possedere un ampio ventaglio di abilità,» dice [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n«Potrei procurarmi nuovi tomi, preparare alcuni compiti, darti un po' di lezioni. Quale argomento ti interessa di più?»"
   councillor_personal_steward_learning.2602.a:0 "Diplomazia."
   councillor_personal_steward_learning.2602.b:0 "Teoria militare."
   councillor_personal_steward_learning.2602.c:0 "Economia del regno."
@@ -194,8 +196,10 @@
   councillor_personal_steward_learning.1304.desc:0 "Amministrazione Personale è Patrono di [religious_vassal.GetTitledFirstNameNoTooltip]"
   councillor_personal_steward_learning.1305.desc:0 "La devozione dell'Attendente Personale Impressiona [religious_head.GetTitleAsNameNoTooltip]"
 
+
+
   councillor_personal_steward_learning.2603.t:1 "Attendente Personale: All'altezza del Compito"
-  councillor_personal_steward_learning.2603.desc:0 "Alcuni dei miei consiglieri credono che il lavoro sia loro di diritto per sangue o influenza — quanto si sbagliano! Mi aspetto risultati, ma spesso rimango deluso.\n\nDopo una lunga giornata, mi sto lamentando con [councillor.GetFirstName] quando [councillor.GetSheHe] mi interrompe. "Lascia che faccia qualcosa a riguardo, [ROOT.Char.GetWifeHusband]. Alcune lezioni potrebbero affinare le loro menti.""
+councillor_personal_steward_learning.2603.desc: 0 "Alcuni dei miei consiglieri credono che l'incarico sia loro per diritto di sangue o d'influenza — quanto si sbagliano! Io pretendo risultati, eppure spesso resto delus[Select_CString(ROOT.Char.IsFemale,'a','o')].\n\nDopo una lunga giornata, mi sto lamentando con [councillor.GetFirstName] quando [Select_CString(councillor.IsFemale,'lei','lui')] mi interrompe. «Lascia che me ne occupi, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]. Qualche lezione potrebbe affilar loro l'ingegno»."
   councillor_personal_steward_learning.2603.a:0 "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] potrebbe usare un tutore."
   councillor_personal_steward_learning.2603.b:0 "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] trarrebbe beneficio dal tuo aiuto."
   councillor_personal_steward_learning.2603.c:0 "Dai alcune lezioni al mio [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."
@@ -203,7 +207,7 @@
   councillor_personal_steward_learning.2603.e:0 "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] ha bisogno di un po' di orientamento."
   councillor_personal_steward_learning.2603.f:0 "Rimani qui con me invece..."
 
-  #STEWARDSHIP
+ # STEWARDSHIP
   councillor_personal_steward_stewardship.1001.desc:0 "Manutenzione Militare"
   councillor_personal_steward_stewardship.1002.desc:0 "Diligenza dei Lavoratori"
   councillor_personal_steward_stewardship.1003.desc:0 "Negoziazioni per le Costruzioni"
@@ -214,13 +218,13 @@
   councillor_personal_steward_stewardship.1007.desc:0 "Vita Confortevole"
   councillor_personal_steward_stewardship.1008.desc:0 "Corte Salutare"
   councillor_personal_steward_stewardship.1009.desc:0 "Negoziazioni per lo Sviluppo"
-  councillor_personal_steward_stewardship.1010.desc:1 "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))|U] Risolve i Debiti del Cortigiano"
+councillor_personal_steward_stewardship.1010.desc: 1 "[ROOT.Char.Custom2('LMF_RelationToMeShort', SCOPE.sC('councillor'))|U] risolve un debito di un cortigiano"
   councillor_personal_steward_stewardship.1011.desc.guilds:0 "Gilde Sconfitte"
   councillor_personal_steward_stewardship.1011.desc.serfs:0 "Contenuti i Servi"
   councillor_personal_steward_stewardship.1011.desc.corruption:0 "Controllo dei Riscossori Fiscali"
 
   councillor_personal_steward_stewardship.2001.t:1 "L'Attendente Personale: Inchiesta sugli Investimenti"
-  councillor_personal_steward_stewardship.2001.desc:0 "Grazie all'amministrazione diligente di [councillor.GetTitledFirstNamePossessive] delle finanze della mia famiglia, alla fine di questa stagione c'è più oro del previsto.\n\n"Come dovremmo usarlo al meglio, [ROOT.Char.GetWifeHusband]?""
+councillor_personal_steward_stewardship.2001.desc: 0 "Con l'amministrazione diligente di [councillor.GetTitledFirstNamePossessive] sulle finanze della mia casa, a fine stagione vi è più oro del previsto.\n\n«Come dovremmo impiegarlo al meglio, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]?»"
   councillor_personal_steward_stewardship.2001.a:0 "Organizziamo una magnifica cena che delizierà tutti!"
   councillor_personal_steward_stewardship_2001_every_powerful_vassal:0 "Ogni Vassallo Potente"
   councillor_personal_steward_stewardship.2001.b:0 "Investiamo il denaro nell'area locale."
@@ -250,7 +254,7 @@
   councillor_personal_steward_stewardship.2004.b:0 "Una buona azione non ha bisogno di ricompensa."
 
   councillor_personal_steward_stewardship.2005.t:1 "L'Attendente Personale: Investimenti in [county_to_boost.GetNameNoTierNoTooltip]"
-  councillor_personal_steward_stewardship.2005.desc:1 ""Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLadyLord|U]. Mi è giunta voce di un'opportunità rara di investire nella [county_to_boost.GetName]."\n\nMia [councillor.Custom('WifeHusband')] [councillor.GetFirstName] elabora i dettagli per l'investimento aziendale, e sembra proprio che l'affare potrebbe giovare molto a [county_to_boost.GetNameNoTierNoTooltip] se avrà successo."
+councillor_personal_steward_stewardship.2005.desc: 1 "«[ROOT.Char.GetLadyLord|U]. Mi è giunta notizia di una rara occasione d'investire nella contea di [county_to_boost.GetName].»\n\n[councillor.Custom('GetCouncilOrCourtPosition')] [councillor.GetFirstName] stende i dettagli dell'investimento commerciale, e davvero pare che l'accordo possa arrecare grande beneficio a [county_to_boost.GetNameNoTierNoTooltip], se avrà successo."
   councillor_personal_steward_stewardship.2005.a:0 "È un rischio che vale la pena correre!"
   councillor_personal_steward_stewardship.2005.a_1:0 "L'affare si conclude con un grande ritorno per [county_to_boost.GetNameNoTierNoTooltip]"
   councillor_personal_steward_stewardship.2005.a_2:0 "L'affare salta"

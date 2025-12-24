@@ -1,18 +1,21 @@
 ﻿l_spanish:
 
-  ### Dichiarare Guerra Privata
+ ### Declare Private War
   rv_declare_private_war_interaction:0 "Dichiarare Guerra Privata"
+rv_declare_private_war_desc: 0 "Usa un [casus_belli|E] per dichiarare [war|E] a [recipient.GetShortUINameNoTooltip]"
   rv_liege_warning:0 "Il [liege|E] del difensore si unirà alla guerra"
-  ### CB di Salvataggio
+ ### Rescue CB
+  RESCUE_WAR_NAME:0 "Guerra per Liberare i Prigionieri"
   rv_rescue_war:0 "Guerra per Liberare i Prigionieri"
   rv_duskendale_rescue_war:0 "Guerra per Liberare i Prigionieri"
   rv_duskendale_rescue_war_invalidated_desc:0 "La Guerra per Liberare i Prigionieri è giunta alla fine."
-  RESCUE_WAR_NAME:0 "Guerra per Liberare i Prigionieri"
   CB_RESCUE_COST:0 "Numero di Prigionieri Target"
   CB_RESCUE_CRIMINAL_COST:0 "Numero di Criminali Target"
   rv_release_effect:0 "• [Scope.GetCharacter.GetShortUIName|U] sarà liberato"
+rv_transfer_effect: 0 "• [Scope.GetCharacter.GetShortUIName|U] verrà imprigionat[Select_CString(Scope.GetCharacter.IsFemale,'a','o')] da te"
   rv_other_effect:0 "• I tuoi alleati condividono [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] in base al loro contributo \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n    • Gli alleati condividono [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] in base al loro contributo\n    • Aumenta la sua opinione degli alleati in base al loro contributo"
-  rescue_war_victory_desc:0 "Libera tutti i [prisoners|E] selezionati nella prigione di [defender.GetShortUINamePossessive]."
+rescue_war_victory_desc: 0 "Liberi tutti i [prisoners|E] e le [concubines|E] selezionat[Select_CString(defender.IsFemale,'e','i')] detenut[Select_CString(defender.IsFemale,'e','i')] da [defender.GetShortUINamePossessive]."
+rv_house_effect: 0 "• [house|E] [Scope.GetCharacter.GetDynastyHouseName|V] [house_unity|E] cambia di [EmptyScope.ScriptValue('medium_unity_gain')|+0] @dynasty_house_unity!"
   rescue_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] libera tutti i [prisoners|E] elencati nella tuoa prigione."
   rv_failed_rescue:0 "Salvataggio Fallito"
   rv_rescue_war_invalidated_desc:0 "Guerra per Liberare Prigioniero annullata!"
@@ -23,7 +26,7 @@
   rv_failed_rescue_desc_third_perspective_1:0 "[owner.GetName] ha fallito nel salvataggio di [rescue_target_dead.GetName] ucciso da [rescue_target_killer.GetName]"
   RV_IS_CRIMINAL:0 "Questo personaggio è [imprisoned|E] per il suo [crime|E]. Liberarlo comporterà costi aggiuntivi di [prestige|E] e ti porterà e al suo carceriere a diventare [rivals|E]."
 
-    ### Rescue_Opinions
+ ### Rescue_Opinions
   rv_rescued_me: "Mi ha liberato"
   rv_rescued_family: "Ha liberato [family_member|E]"
   rv_rescued_former_spouse: "Mi ha liberato da [concubinage|E] come ex [spouse|E]"
@@ -42,20 +45,20 @@
   rv_avenged_close_relation: "Ha vendicato un parente stretto"
   rv_avenged_very_close: "Ha vendicato [best_friend|E] o [soulmate|E]"
 
-    ### Revenge CB
+ ### Revenge CB
   REVENGE_WAR_NAME: "Guerra di Vendetta"
   rv_revenge_war: "Guerra di Vendetta"
   CB_REVENGE_COST: "Vittime da Vendicare"
   REVENGE_LABEL: "Vittime da Vendicare"
-  rv_no_revenge_target_trigger: "rv_no_revenge_target"
+  rv_no_revenge_target_trigger: "rv_no_revenge_target" #controllare_modifica
   rv_no_revenge_target: "Non c'è nessuno da vendicare"
-  revenge_war_victory_desc: "Ti vendichi per i crimini di [defender.GetShortUINamePossessive] contro coloro che ti sono vicini."
-  revenge_war_victory_desc_defender: "[attacker.GetShortUIName|U] si vendica per i tuoi crimini contro coloro che gli sono vicini."
-  rv_revenge_war_white_peace_desc: "I crimini commessi da [defender.GetShortUIName|U] non sono stati vendicati."
-  rv_revenge_war_defeat_desc: "I crimini commessi da [defender.GetShortUIName|U] non sono stati vendicati. [attacker.GetShortUIName|U] pagherà Riparazioni di Guerra, [attacker.GetShortUIName|U] perderà [prestige_i][EmptyScope.ScriptValue('major_prestige_value')|-0], [defender.GetShortUIName|U] otterrà un [imprisonment_reason|E] su [attacker.GetShortUIName|U]."
+revenge_war_victory_desc: 0 "Hai ottenuto vendetta per il crimine di [defender.GetShortUINamePossessive] contro coloro che ti sono cari."
+revenge_war_victory_desc_defender: 0 "[attacker.GetShortUIName|U] ha ottenuto vendetta per il tuo crimine contro coloro che sono cari a [Select_CString(attacker.IsFemale,'lei','lui')]."
+rv_revenge_war_white_peace_desc: 0 "Il crimine commesso da [defender.GetShortUIName|U] non è stato vendicato."
+  rv_revenge_war_defeat_desc: "I crimini commessi da [defender.GetShortUIName|U] non sono stati vendicati. [attacker.GetShortUIName|U] pagherà Riparazioni di Guerra, [attacker.GetShortUIName|U] perderà [prestige_i][EmptyScope.ScriptValue('major_prestige_value')|-0], [defender.GetShortUIName|U] otterrà un [imprisonment_reason|E] su [attacker.GetShortUIName|U]." #controllare_modifica
   rv_revenge_war_invalidated_desc: "Guerra di vendetta annullata!"
 
-  # Memoria di vendetta riuscita
+ # Successfule revenge memory
   rv_successful_revenged_lover: "Vendetta Riuscita"
   rv_revenged_lover_desc_1: "Ho vendicato la morte del mio amante [target_revenged.GetName] ucciso da [target_killer.GetName]"
   rv_revenged_lover_desc_second_perspective_1: "Hai vendicato la morte del tuo amante [target_revenged.GetName] ucciso da [target_killer.GetName]"
@@ -91,8 +94,16 @@
   rv_was_revenged_desc_second_perspective_1: "La tua morte causata da [target_killer.GetName] è stata vendicata da [target_revenger.GetName] (Post mortem)"
   rv_was_revenged_desc_third_perspective_1: "La morte di [owner.GetName] causata da [target_killer.GetName] è stata vendicata da [target_revenger.GetName] (Post mortem)"
 
-  # Storia della vendetta fallita
+ # Failed Revenge Story
   rv_failed_revenge_desc_1: "Ho fallito nel vendicarmi di [target_killer.GetName]."
   rv_failed_revenge_desc_second_perspective_1: "Hai fallito nel vendicarti di [target_killer.GetName]."
   rv_failed_revenge_desc_third_perspective_1: "[owner.GetName] ha fallito nel vendicarsi di [target_killer.GetName]."
   rv_failed_revenge: "Vendetta Fallita"
+
+ #Tooltip
+rv_is_your_family_member: 0 "questo personaggio è un membro della tua famiglia"
+
+ #gui texts
+rv_lover_header: 0 "Amante"
+
+rv_error_suppression: 0 "soppressione errori"

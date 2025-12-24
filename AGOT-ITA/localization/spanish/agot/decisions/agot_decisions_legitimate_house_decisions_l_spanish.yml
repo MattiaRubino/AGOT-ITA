@@ -1,77 +1,65 @@
 ﻿l_spanish:
-  # Decision loc
-  # Generic
+ # Decision loc
+ # Generic
   agot_become_legitimate_house_decision_generic:0 "Diventa la Casata Legittima"
   agot_become_legitimate_house_decision_desc_generic:0 "Dopo aver detenuto un titolo all'interno della tua casata per generazioni, Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è finalmente divenuta la [agot_legitimate_house|E] della regione. Ora sei il vero sovrano di queste terre agli occhi del popolo, e i tuoi discendenti le governeranno per sempre!"
   agot_become_legitimate_house_decision_generic_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetName] manterrà i nostri titoli abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] della nostra regione."
   agot_become_legitimate_house_decision_generic_effect:0 "Diventerai la [agot_legitimate_house|E] della regione."
   agot_become_legitimate_house_decision_has_doesnt_have_own_decision_trigger:0 "Non ha una [decision|E] dedicata per divenire la [agot_legitimate_house|E]"
   agot_become_legitimate_house_decision_generic_confirm:0 "Siamo i Veri Sovrani!"
-
-  # Triggers
+ # Triggers
   agot_become_legitimate_house_decision_100_percent_trigger:0 "Ha il 100% di progresso verso il divenire la [agot_legitimate_house|E]"
-
-  # North
+ # North
   agot_become_legitimate_house_decision_north:0 "Diventa la Casata Legittima del Nord"
   agot_become_legitimate_house_decision_desc_north:0 "Dopo aver mantenuto per generazioni le vaste distese del Nord sotto il tuo vessillo, Casa [GetTitleByKey('e_the_north').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più vista come la guardiana contro il gelo. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è la vera sovrana di queste terre agli occhi dei lord e della gente comune; dall'Incollatura alla Barriera, il Nord è nostro per sempre!"
-  agot_become_legitimate_house_decision_north_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo del Nord abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] del Nord."
+agot_become_legitimate_house_decision_north_tooltip: 0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà abbastanza a lungo il titolo del Nord, potremo diventare la [agot_legitimate_house|E] del Nord."
   agot_become_legitimate_house_decision_north_confirm:0 "Siamo i Veri Re dell'Inverno!"
-
-  # Vale
+ # Vale
   agot_become_legitimate_house_decision_vale:0 "Diventa la Casata Legittima della Valle"
   agot_become_legitimate_house_decision_desc_vale:0 "Dopo aver custodito per generazioni le montagne della Valle, Casa [GetTitleByKey('e_the_vale').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più considerata la vera sovrana. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] regna ora su queste terre agli occhi di nobili e plebei; dalla Porta Insanguinata alle Dita, la Valle è nostra per sempre!"
   agot_become_legitimate_house_decision_vale_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo della Valle abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] della Valle."
   agot_become_legitimate_house_decision_vale_confirm:0 "Queste Montagne Sono Nostre!"
-
-  # Riverlands
+ # Riverlands
   agot_become_legitimate_house_decision_riverlands:0 "Diventa la Casata Legittima delle Terre dei Fiumi"
   agot_become_legitimate_house_decision_desc_riverlands:0 "Dopo aver governato per generazioni i fertili campi e fiumi delle Terre dei Fiumi, Casa [GetTitleByKey('e_the_riverlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più ritenuta la vera padrona. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] domina ora queste terre per diritto e per rispetto; dalle Torri Gemelle al Crocevia, le Terre dei Fiumi sono nostre per sempre!"
   agot_become_legitimate_house_decision_riverlands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Terre dei Fiumi abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Terre dei Fiumi."
   agot_become_legitimate_house_decision_riverlands_confirm:0 "I Nostri Fiumi, le Nostre Terre!"
-
-  # Westerlands
+ # Westerlands
   agot_become_legitimate_house_decision_westerlands:0 "Diventa la Casata Legittima delle Terre dell’Ovest"
   agot_become_legitimate_house_decision_desc_westerlands:0 "Dopo aver posseduto per generazioni le colline delle Terre dell’Ovest, Casa [GetTitleByKey('e_the_westerlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più vista come la sovrana legittima. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero potere di queste terre agli occhi dei nobili e dei comuni; dalla vetta di Castel Granito agli abissi di Tana Profonda, la ricchezza dell’Ovest è nostra per sempre!"
   agot_become_legitimate_house_decision_westerlands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Terre dell’Ovest abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Terre dell’Ovest."
   agot_become_legitimate_house_decision_westerlands_confirm:0 "Terre Dorate, Casata Dorata!"
-
-  # Iron Islands
+ # Iron Islands
   agot_become_legitimate_house_decision_iron_islands:0 "Diventa la Casata Legittima delle Isole di Ferro"
   agot_become_legitimate_house_decision_desc_iron_islands:0 "Dopo aver dominato per generazioni le coste rocciose delle Isole di Ferro, Casa [GetTitleByKey('e_the_iron_islands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più riconosciuta come sovrana legittima. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora padrona indiscussa, temuta in ogni riva dove sventoleranno i nostri stendardi!"
   agot_become_legitimate_house_decision_iron_islands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Isole di Ferro abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Isole di Ferro."
   agot_become_legitimate_house_decision_iron_islands_confirm:0 "Siamo i Veri Uomini di Ferro!"
-
-  # Reach
+ # Reach
   agot_become_legitimate_house_decision_reach:0 "Diventa la Casata Legittima dell'Altopiano"
   agot_become_legitimate_house_decision_desc_reach:0 "Dopo aver governato per generazioni i campi dell'Altopiano, Casa [GetTitleByKey('e_the_reach').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più riconosciuta come sovrana. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora la vera guida, amata da nobili e contadini; dai piccoli Quattro Scudi alla grande Goldengrove, tutto cresce sotto la nostra protezione!"
   agot_become_legitimate_house_decision_reach_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo dell'Altopiano abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] dell'Altopiano."
   agot_become_legitimate_house_decision_reach_confirm:0 "Il Nostro Potere Cresce!"
-
-  # Stormlands
+ # Stormlands
   agot_become_legitimate_house_decision_stormlands:0 "Diventa la Casata Legittima delle Terre della Tempesta"
   agot_become_legitimate_house_decision_desc_stormlands:0 "Dopo aver governato le varie contrade delle Terre della Tempesta per generazioni, Casa [GetTitleByKey('e_the_stormlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più vista come la vera padrona. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora sovrana indiscussa agli occhi di tutti; dal Monte Rosso al Nero Fiume, queste terre ci appartengono per sempre!"
   agot_become_legitimate_house_decision_stormlands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Terre della Tempesta abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Terre della Tempesta."
   agot_become_legitimate_house_decision_stormlands_confirm:0 "Nessuna Tempesta Ci Spezzerà!"
-
-  # Dorne
+ # Dorne
   agot_become_legitimate_house_decision_dorne:0 "Diventa la Casata Legittima di Dorne"
   agot_become_legitimate_house_decision_desc_dorne:0 "Dopo aver retto per generazioni le sabbie di Dorne, Casa [GetTitleByKey('e_dorne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più ritenuta la vera sovrana. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] regna ora su queste terre, dalle dune dei Monti Rossi alle rive del Mare dell’Estate, Dorne è nostro per sempre!"
   agot_become_legitimate_house_decision_dorne_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo di Dorne abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] di Dorne."
   agot_become_legitimate_house_decision_dorne_confirm:0 "Le Sabbie Sono Nostre!"
-
-  # Crownlands
+ # Crownlands
   agot_become_legitimate_house_decision_crownlands:0 "Diventa la Casata Legittima delle Terre della Corona"
   agot_become_legitimate_house_decision_desc_crownlands:0 "Dopo aver governato le Terre della Corona per generazioni, Casa [GetTitleByKey('k_the_crownlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più vista come la sovrana. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il potere legittimo, dagli argini del Nero Fiume ai boschi del Re, queste terre ci appartengono!"
   agot_become_legitimate_house_decision_crownlands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Terre della Corona abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Terre della Corona."
   agot_become_legitimate_house_decision_crownlands_confirm:0 "Il Nostro Sangue Dominerà il Nero Fiume!"
-
-  # Iron Throne
+ # Iron Throne
   agot_become_legitimate_house_decision_iron_throne:0 "Diventa la Casata Legittima del Trono di Spade"
-  agot_become_legitimate_house_decision_desc_iron_throne:0 "Dopo aver retto il Trono di Spade per generazioni, Casa [GetTitleByKey('k_the_iron_throne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più ritenuta degna. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero potere di Westeros, acclamata da nobili e popolo. Il continente ci appartiene per sempre!"
+agot_become_legitimate_house_decision_desc_iron_throne: 0 "Dopo aver mantenuto il Trono di Spade sotto la tua casata per generazioni, Casa [GetTitleByKey('e_the_iron_throne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più considerata il vero sovrano del Trono di Spade. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero padrone di queste terre agli occhi dei lord e del popolino; Westeros stessa è nostra per sempre!"
   agot_become_legitimate_house_decision_iron_throne_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo del Trono di Spade abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] del Trono di Spade."
   agot_become_legitimate_house_decision_iron_throne_confirm:0 "Westeros È Nostro!"
-
-  # Dragonstone
+ # Dragonstone
   agot_become_legitimate_house_decision_dragonstone:0 "Diventa la Casata Legittima di Roccia del Drago"
   agot_become_legitimate_house_decision_desc_dragonstone:0 "Dopo aver governato per generazioni l’isola di Roccia del Drago, Casa [GetTitleByKey('k_dragonstone').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più riconosciuta come padrona. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero potere dell’isola, acclamata da nobili e plebei. Il regno dell’isola è nostro per sempre!"
   agot_become_legitimate_house_decision_dragonstone_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo di Roccia del Drago abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] di Roccia del Drago."

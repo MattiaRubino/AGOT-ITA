@@ -1,11 +1,11 @@
 ﻿l_spanish:
-  # Event IDs
-  # 0001 - 0099: Daemon
-  # 0100 - 0199: Corlys
-  # 0200 - 0299: Crabfeeder
-  # 1000 - 1999: Misc Minor Events
+ # Event IDs
+ # 0001 - 0099: Daemon
+ # 0100 - 0199: Corlys
+ # 0200 - 0299: Crabfeeder
+ # 1000 - 1999: Misc Minor Events
 
-  # 0001 - 0099: Daemon
+ # 0001 - 0099: Daemon
   agot_scenario_trp.0001.t:0 "La Guerra del Principe Ribelle"
   agot_scenario_trp.0001.desc:0 "Scendo dalla schiena di [current_dragon.GetName], rimuovo il mio elmo per osservare il campo di battaglia davanti a me. I vessilli dei Targaryen e dei Velaryon sventolano nel vento, i soldati si preparano già per la nostra prossima offensiva. L'isola di [ROOT.Char.GetCurrentLocation.GetName] è caduta facilmente, ma il resto delle Stepstones non sarà altrettanto semplice.\n\nAnche se mi è stato negato il diritto di nascita come Principe di Roccia del Drago, non permetterò a mio fratello di relegarmi all'oscurità. Conquisterò le Stepstones e dimostrerò che questo secondo figlio è il vero erede della Casa [ROOT.Char.GetHouse.GetName]!"
   agot_scenario_trp.0001.a:0 "Nessun #emp Mangiagranchi #! mi fermerà!"
@@ -39,7 +39,6 @@
   agot_scenario_trp.0005.d.tt:0 "Rimarrai indipendente e continuerai a governare le Stepstones"
   agot_scenario_trp.0005.e:0 "Sono stanco di questo regno di rocce. Tornerò al Fortezza Rossa."
 
-
   agot_scenario_trp.0006.t:0 "Un Invito del Serpente di Mare"
   agot_scenario_trp.0006.desc:0 "Il mio ex alleato in guerra e amico, [corlys.GetTitledFirstName], mi ha inviato un invito a Driftmark! Anche se ci sono già stato e non è passato molto tempo dall'ultima volta che ho visto Corlys, c'è un accenno di... opportunità nelle sue parole. Corlys è sempre stato incline ai gesti grandiosi, e non posso fare a meno di chiedermi cosa avrà in mente.\n\nDovrei accettare questo invito, o rimanere qui?"
   agot_scenario_trp.0006.a:0 "Vediamo cosa ha in mente il Serpente di Mare."
@@ -61,8 +60,7 @@
 
   agot_scenario_trp.daemon_leaves_tt:0 "Lascierai le Stepstones al proprio destino e tornerai al Fortezza Rossa."
 
-
-  # 0100 - 0199: Corlys
+ # 0100 - 0199: Corlys
   agot_scenario_trp.0101.t:0 "Il Serpente di Mare"
   agot_scenario_trp.0101.desc:0 "Mi trovo sul ponte della mia nave ammiraglia, il Serpente di Mare, pronto a salpare ancora una volta per una nuova avventura per la gloria della Casa [ROOT.Char.GetHouse.GetName]. Le tasse imposte dalla Triarchia sulle Stepstones hanno soffocato le ricchezze che avevo già accumulato, e non permetterò a dei mercanti in ascesa di rovinare il mio lavoro con un colpo di penna.\n\nIn questo, ho trovato alleato in [daemon.GetTitledFirstName], che è già sbarcato a [daemon.GetCurrentLocation.GetName] e ha iniziato a prepararsi per la prossima fase della guerra. Lo raggiungerò, e insieme porteremo la Triarchia in ginocchio!"
   agot_scenario_trp.0101.a:0 "Verso le Stepstones!"
@@ -89,7 +87,6 @@
   agot_scenario_trp.0104.a:0 "Non lascerò passare questa opportunità!"
   agot_scenario_trp.0104.b:0 "Le mie navi possono viaggiare liberamente, e così i miei obiettivi sono stati raggiunti."
   agot_scenario_trp.0104.b.f:0 "Lascerai Daemon a combattere le sue guerre da solo."
-
 
   agot_scenario_trp.0105.t:0 "Un Giuramento Importante"
   agot_scenario_trp.0105.desc:0 "«Era un accordo che aveva senso all'epoca...»\n\nLa mia amata figlia, [laena.GetFirstName], è stata promessa in matrimonio a [laena_betrothed.GetName] da anni, ma la convenienza di questo legame è diminuita notevolmente. Poco dopo aver accettato il matrimonio con il precedente Signore del Mare, [laena_betrothed.GetFirstNameNoTooltip] ha ereditato la posizione di suo padre e ha subito sperperato l'eredità paterna.\n\nIl suo fidanzamento con mia figlia è il suo ultimo bene rimasto, e da allora vive alla mia corte, cercando di assicurarsi che io mantenga la mia promessa.\n\nSono riuscito a respingere le sue richieste per anni, citando la gioventù di [laena.GetFirstNamePossessiveNoTooltip], ma ora che è diventata donna, non potrò mantenere a lungo questa farsa."
@@ -119,7 +116,6 @@
   agot_scenario_trp.0107.a.unlanded_tt:0 "[daemon.GetFirstName] arriverà a breve."
   agot_scenario_trp.0107.b:0 "Conosco Daemon. Tale unione non è nel miglior interesse di Laena."
 
-
   agot_scenario_trp.0108.t:0 "Un Fidanzamento Mal Concluso"
   agot_scenario_trp.0108.desc:0 "Davvero, sembra che questo pessimo matrimonio non possa essere evitato.\n\n[laena.GetFirstName] è promessa a [laena_betrothed.GetFirstName] da oltre due decenni, e ora sta arrivando il momento in cui la sua età inizierà a diventare un problema per eventuali #italic altre#! proposte di matrimonio che potrebbe ricevere. Sembra che la mia finestra per trovare un matrimonio veramente opportuno sia passata.\n\nDovrò fare del mio meglio con questa situazione e sperare che [laena_betrothed.GetFirstNameNoTooltip] possa dimostrarsi un adeguato pretendente per mia figlia."
   agot_scenario_trp.0108.a:0 "Molto bene. Porterò avanti questo fidanzamento fino alla fine."
@@ -138,7 +134,6 @@
   agot_scenario_trp.0110.a:0 "Ero così sicuro che avrebbe funzionato..."
   agot_scenario_trp.0110.a.tt:0 "Continuerai a cercare un matrimonio per Laena"
 
-
   agot_scenario_trp.0111.t:0 "La Conquista del Drago"
   agot_scenario_trp.0111.desc:0 "Il mio piano ha funzionato meglio di quanto avessi sperato!\n\nQuando [daemon.GetFirstName] è arrivato a Driftmark, lui e [laena.GetFirstName] sembravano completamente innamorati. Pensavo che il fidanzamento avrebbe rappresentato un problema, ma il ribelle ha abbattuto la sua concorrenza senza pensarci due volte!\n\nNon ho visto motivo di indugi, e ho convocato il Septon per celebrare il matrimonio quel giorno stesso. È stata una cerimonia splendida per uno degli uomini più impressionanti del regno.\n\nCosa potrebbe chiedere di più un padre?"
   agot_scenario_trp.0111.a:0 "Sono così orgoglioso!"
@@ -153,8 +148,7 @@
   agot_scenario_trp.0113.a:0 "È tutto ciò che un padre potrebbe chiedere!"
   agot_scenario_trp.0113.a.daemon_t:0 "Matrimonio Accettato"
 
-
-  # 0200 - 0299: Crabfeeder
+ # 0200 - 0299: Crabfeeder
   agot_scenario_trp.0201.t:0 "Il Generale dei Granchi"
   agot_scenario_trp.0201.desc:0 "Un buon generale non si tira indietro di fronte al proprio dovere — né di fronte ai nemici. Ne ho affrontati dozzine, dalle mura di Myr alle Terre Contese. Negli ultimi dieci anni, sono stato al comando delle forze della Triarchia nelle Stepstones, combattendo contro piccoli re dei pirati isola per isola in campagne brutali tra le grotte. Ora, affronto un nuovo nemico, non uno che si nasconde sottoterra o solca i mari, ma uno che vola!\n\n[daemon.GetTitledFirstName] [daemon.GetHouse.GetName], il Principe Ribelle, è atterrato a [daemon.GetCurrentLocation.GetName] e ha iniziato una campagna per conquistare le Stepstones in un vano tentativo di gloria. Non gli permetterò di avere successo, e non permetterò alla Triarchia di cadere!"
   agot_scenario_trp.0201.a:0 "I granchi assaporeranno la carne di drago!"
@@ -171,7 +165,7 @@
   agot_scenario_trp.0203.a:0 "Non tradiremo il nostro alleato di un tempo, torniamo a unire le forze."
   agot_scenario_trp.0203.b:0 "Queste isole sono mie, e di nessun altro!"
 
-  # 1000 - 1999: Misc Minor Events
+ # 1000 - 1999: Misc Minor Events
   agot_scenario_trp.1000.t:0 "Un Fratello Sbandato"
   agot_scenario_trp.1000.desc:0 "Sempre una spina nel fianco, ho ricevuto notizia che mio fratello, [daemon.GetTitledFirstName], è atterrato a [daemon.GetCurrentLocation.GetName] e ha iniziato una campagna per conquistare le Stepstones. Anche se non ho amore per la Triarchia, e nutro una certa preoccupazione per mio fratello, tale brama di guerra non si addice a un sovrano saggio.\n\nIl tempo dirà come andrà la sua campagna e cosa significherà per il futuro del regno."
   agot_scenario_trp.1000.a:0 "Buona fortuna, fratello folle."
@@ -224,6 +218,7 @@
   agot_scenario_trp.1009.a_alive:0 "Ben tornato a casa!"
   agot_scenario_trp.1009.a_dead:0 "Riposa in pace."
   agot_scenario_trp.1009.a_dead_unrelated:0 "Beh, è un concorrente in meno di cui preoccuparsi."
+
 
   agot_scenario_trp.1010.t:0 "Il Principe Ritorna Re!"
   agot_scenario_trp.1010.desc:0 "Ho ricevuto notizia che [daemon.GetTitledFirstName] è tornato alla Fortezza Rossa, con Caraxes avvistato entrare nel Pozzo dei Draghi questa mattina. Torna vittorioso, l'unico e indiscusso Re delle Stepstones e del Mare Stretto! La Triarchia ha rinunciato a tutte le pretese sulle isole!\n\nAnche se avevo una lieve preoccupazione quando ho sentito che era tornato a cavallo del drago, sembra che sia venuto per fare più che vantarsi. È venuto per prestarmi giuramento di fedeltà!\n\nNon gli negherò nulla. Ha dimostrato di essere un sovrano degno, e sono felice di averlo di nuovo nel regno. È, tuttavia, previsto che io gli conceda qualche dono per il suo servizio. Dovrei estendere questa offerta?"
@@ -302,7 +297,6 @@
   agot_scenario_trp.1018.b:0 "Le Stepstones saranno solo mie!"
   agot_scenario_trp.1018.b.tt:0 "Dichiarerai guerra a tutti gli altri governanti delle Stepstones. Anche loro dichiareranno guerra tra di loro. Chiunque vinca sarà l'unico sovrano delle Stepstones."
 
-
   agot_scenario_trp.1020.t:0 "Pace ai Nostri Tempi"
   agot_scenario_trp.1020.desc:0 "Sembra che né io né i miei co-ammiragli desideriamo vedere le Stepstones bruciare di nuovo così presto. Anche se siamo stati ai colli di bottiglia per anni, abbiamo deciso di mettere da parte le nostre differenze e tornare allo status quo.\n\nLe Stepstones sono di nuovo sotto il controllo della Triarchia, e il normale flusso commerciale è ripreso. Anche se non ho guadagnato nuove terre, ho guadagnato il rispetto dei miei pari e la consapevolezza di poterli guidare verso la vittoria."
   agot_scenario_trp.1020.desc.no_three_daughters:0 "Sembra che né io né i miei co-ammiragli desideriamo vedere le Stepstones bruciare di nuovo così presto. Anche se la guida della Triarchia potrebbe non essere più a nostra disposizione, si spera che con teste così calme al comando, la pace possa prevalere. Ho guadagnato il rispetto dei miei pari e la consapevolezza di poterli guidare saggiamente."
@@ -311,6 +305,7 @@
   agot_scenario_trp.1021.t:0 "Caos sulle Secche"
   agot_scenario_trp.1021.desc:0 "Il processo di pace è fallito.\n\nSembra che, nonostante i miei sforzi, i miei co-ammiragli, [war_instigator.GetTitledFirstName] in primis, abbiano deciso che ora è il momento di decidere chi tra di noi dovrà governare le Stepstones.\n\nAnche se questo non era il cammino che desideravo, il destino ha deciso che dobbiamo combattere."
   agot_scenario_trp.1021.a:0 "Non prenderai ciò che è mio!"
+
 
   agot_scenario_trp.1022.t:0 "Isole Unite"
   agot_scenario_trp.1022.desc:0 "Vittoria!\n\nSono il primus tra i pari, le forze dei miei ex-co-ammiragli sono state distrutte in mare e ora servono sotto il mio stendardo. Anche se potrebbero brontolare e lamentarsi nei giorni a venire, per ora sono miei, e le Stepstones sono unite sotto il mio dominio!\n\nNaturalmente, questo mio regno è sempre stato solo vagamente indipendente dalla Triarchia. Devo decidere se continuare a governare come vassallo di questo regno più grande, o formalizzare la mia indipendenza."
@@ -327,10 +322,6 @@
   agot_scenario_trp.1024.desc_daemon_lost_second:0 "Si penserebbe che dopo aver respinto il drago, il nostro controllo sulle Stepstones sarebbe stato confermato come sicuro. Chiaramente però, abbiamo esagerato con [stepstones_ruler.GetName].\n\nHo recentemente sentito che [stepstones_ruler.GetSheHe] ha rimproverato la nostra autorità sul suo nuovo regno e ha dichiarato la sua indipendenza!"
   agot_scenario_trp.1024.a:0 "Quel presuntuoso pirata!"
   agot_scenario_trp.1024.b:0 "Non possiamo tollerare questo!"
-
-
-
-
 
   agot_scenario_trp.1025.t:0 "L'Ira del Principe dei Draghi"
   agot_scenario_trp.1025.desc.refused:0 "Ancora una volta, [sitting_ruler.GetTitledFirstName] ha rifiutato il mio dono!"
@@ -356,7 +347,6 @@
   agot_scenario_trp.1026.desc:0 "Daemon esce dalla fortezza in preda alla rabbia, infuriato per il mio rifiuto alla sua richiesta. Lo chiamo, ma lui è cieco alle mie parole.\n\nMi siedo di nuovo sul trono con un sospirone stanco, ma prima che possa anche solo chiamare uno scrivano per redigere la lettera che dobbiamo inevitabilmente inviare, sento un grande #bold RUGGITO #! proveniente dall'esterno della fortezza, seguito da un fenomenale #bold SCHIANTO!#!\n\nLa consapevolezza mi travolge come un bagno di ghiaccio, il freddo terrore che penetra nelle mie ossa. Non può aver — anche Daemon non sarebbe così distruttivo da...\n\nIl pensiero viene interrotto da un lampo accecante di luce, e vedi brevemente il cielo aperto prima che tutto nella sala del trono venga incenerito."
   agot_scenario_trp.1026.a:0 "Dannato Daemon!"
 
-
   agot_scenario_trp.1029.t:0 "L'Ambizione di Daemon Scatenata!"
   agot_scenario_trp.1029.desc.start:0 ""Per i Sette, il Dio Affogato, il Dio Rosso, tutti i maledetti dei, e il buon senso di ogni dannato uomo e donna di Westeros #N MERITO RICONOSCIMENTO!#!" urla [daemon.GetFirstName], estraendo Dark Sister più veloce di quanto possa vedere.\n\n"
   agot_scenario_trp.1029.desc.kgone:0 "I miei Guardiani Reali sono abbastanza veloci, con [daemon_kg_1.GetFullName]"
@@ -374,7 +364,6 @@
   agot_scenario_trp.1029.b:0 "Non posso batterti! Mi arrendo!"
   agot_scenario_trp.1029.b.tt:0 "Surrenderai il trono a [daemon.GetTitledFirstName]"
   agot_scenario_trp.1029.b.tt_child:0 "Essendo un bambino, non hai altra scelta che arrenderti."
-
 
   agot_scenario_trp.1030.t:0 "Regno Ascendente"
   agot_scenario_trp.1030.desc.start:0 "[loser_of_IT_duel.GetFirstName] giace morto ai miei piedi, e la sala del trono è silenziosa per un momento, prima che un solo applauso riecheggi nella stanza. Mi volto per vedere un cortigiano coraggioso, poi un altro, e un altro ancora, fino a quando la stanza è riempita dal suono dell'applauso.\n\nGuardo verso il trono e, con passi decisi, salgo al Trono di Spade per prendere il mio giusto posto."
@@ -458,7 +447,6 @@
   agot_scenario_trp.1042.t:0 "Il Morso del Drago"
   agot_scenario_trp.1042.desc_survived:0 "Quando andai a sellare il mio cavallo per la caccia, trovai che i miei servitori erano già radunati con molti volti nuovi tra di loro. Non avendo una natura sospettosa, non pensai nulla di strano in quel momento, ma mentre il nostro gruppo si addentrava nei boschi, le loro espressioni silenziose e sottomesse mi fecero accapponare la pelle.\n\nQuando raggiungemmo una collina, il gruppo tentò di farmi cadere da cavallo! Con una fortunata sferzata della mia lama uccisi uno dei miei aggressori e riuscii a fuggire! Lasciando gli assassini potenziali dietro di me al suono dei zoccoli in lontananza, mi chiesi chi potesse essere stato a orchestrare un simile complotto."
   agot_scenario_trp.1042.desc_died:0 "Quando andai a sellare il mio cavallo per la caccia, trovai che i miei servitori erano già radunati! Li lodai per tale diligenza, ma mentre ci addentravamo nei boschi, notai che erano insolitamente silenziosi.\n\nMi chinai per chiedere cosa fosse successo e sentii una stretta acuta alla schiena! Caddi da cavallo con un #bold tonfo#!, e mentre sentivo la bestia sopra di me, capii di essere stato tradito..."
-
   agot_scenario_trp.1042.a:0 "Daemon... #emp *cough*#! bastardo!"
   agot_scenario_trp.1042.b:0 "Credo di sapere chi c'è dietro a questo..."
   agot_scenario_trp.1042.b.f:0 "Sospetti che [daemon.GetTitledFirstName] sia dietro il tentativo di assassinio, ma non hai prove."

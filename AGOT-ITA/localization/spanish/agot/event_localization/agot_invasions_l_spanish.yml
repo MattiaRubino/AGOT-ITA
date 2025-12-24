@@ -1,25 +1,30 @@
 ﻿l_spanish:
+ # This is the event where the mini-hatching ceremony chain starts. scope:egg_granter is a randomly generated character who will grant the eggs. Think of them as an admirer from far.
   agot_targaryen_exile_invasion.0301.t:0 "L’Ora Finale"
   agot_targaryen_exile_invasion.0301.desc:0 "Il viaggio verso Westeros è quasi giunto al termine. Dopo anni di preparativi, ho finalmente radunato una forza in grado di sfidare gli usurpatori che occupano il mio trono. Mentre continuo a rimuginare sui piani futuri, mi viene riferito che un ricco locale di nome [egg_granter.GetName] è giunto nella mia [ROOT.Char.Custom('GetCourtType')].\n\n"Vostra Grazia," inizia [egg_granter.GetSheHe], "da anni seguo con attenzione il vostro cammino. Le vostre vittorie, le vostre sconfitte, le vostre ambizioni... hanno animato molte delle mie notti."\n\n"Mi hanno incantato. Solo la paura mi ha impedito finora di offrire il mio aiuto. Ma non sarò più un codardo. Accettate, vi prego, queste tre uova di drago come segno di amicizia e per il vostro ritorno al potere. Le ho custodite a lungo, ma serviranno meglio voi e la vostra Casa.""
   agot_targaryen_exile_invasion.0301.a:0 "Un dono meraviglioso, grazie!"
   agot_targaryen_exile_invasion.0301.generated_eggs:0 "Hai ottenuto tre uova di drago"
   agot_targaryen_exile_invasion.0301.teaser_eggs:0 "#italic Un dono gentile, ma alla fine sono solo pietre... vero?#!"
 
+ # This event fires for all humans (bar the Iron Throne and Exiles) when the Targaryen Exiles hatches dragons.
   agot_targaryen_exile_invasion.0305.t:0 "Draghi e Nemici"
   agot_targaryen_exile_invasion.0305.desc:0 "Strane notizie giungono alla mia [ROOT.Char.Custom('GetCourtType')]. I resti della dinastia Targaryen in esilio, nascosti da qualche parte a Essos, hanno fatto schiudere dei #italic draghi#!. Creature vive, ruggenti e volanti. Si dice sia stato [hatcher.GetName] in persona a farli nascere. Una cosa è certa: la guerra sta arrivando. E in fretta."
   agot_targaryen_exile_invasion.0305.a:0 "[ROOT.Char.GetFaith.HighGodName], salvaci!"
 
+ # This event fires for the IT holder when the Targaryen Exiles hatches dragons.
   agot_targaryen_exile_invasion.0306.t:0 "Draghi e Nemici"
   agot_targaryen_exile_invasion.0306.desc:0 "Cattive notizie giungono alla mia [ROOT.Char.Custom('GetCourtType')]. In qualche modo, [targaryen_exile.GetName] e i suoi seguaci sono venuti in possesso di draghi. Non si tratta di voci o dicerie — è evidente che la dinastia Targaryen ha riottenuto un potere che il mondo non vedeva da secoli.\n\nLe opzioni a mia disposizione sono poche, ma una cosa è certa: #bold la guerra è alle porte#!."
   agot_targaryen_exile_invasion.0306.marry_me_to_you:0 "Proporre un matrimonio di pace tra me e [targaryen_exile.GetFirstName]."
   agot_targaryen_exile_invasion.0306.marry_heir_to_you:0 "Proporre un matrimonio tra il mio erede e [targaryen_exile.GetFirstName]."
   agot_targaryen_exile_invasion.0306.a:0 "Ci vorranno anni perché quei draghi crescano... vero?"
 
+ # An event that fires for the targaryen Exiles where the IT attempts to propose a last minute peace deal through marriage.
   agot_targaryen_exile_invasion.0307.t:0 "Nemici e Draghi"
   agot_targaryen_exile_invasion.0307.desc:0 "Nelle prime ore del mattino, non è il canto dei draghi a svegliarmi, ma un messaggero. Porta un messaggio dal [GetTitleByKey('e_the_iron_throne').GetNameNoTier].\n\n"Alla nobile Casa Targaryen," inizia la lettera. "Siete stati lontani dalla vostra terra troppo a lungo. Il passato è alle spalle, non dev’essere la fiamma che guida le nostre azioni presenti. Pertanto, vi propongo un’unione tra la vostra causa e il Trono di Spade, per evitare la guerra che incombe. Al vostro ritorno sarete accolti, non più nemici, ma alleati. Un matrimonio tra [targaryen_exile.GetName] e [marriage_offer.GetName] suggellerà la nostra pace. Pensate a tutto il sangue che potremmo risparmiare, alle ferite che potremmo guarire... insieme.""
   agot_targaryen_exile_invasion.0307.a:0 "Un tentativo patetico di placare la tempesta in arrivo."
   agot_targaryen_exile_invasion.0307.b:0 "Le loro parole hanno peso. Accetto l’offerta."
 
+ # The event that launches the Targaryen Exile invasion of the IT
   agot_targaryen_exile_invasion.0400.t:0 "Il Risveglio del Drago"
   agot_targaryen_exile_invasion.0400.desc:0 "È giunto il momento di lanciare la mia invasione di Westeros. Gli usurpatori hanno infangato il trono dei miei avi troppo a lungo, ed è ora di raddrizzare quest’ingiustizia.\n\nMentre termino di radunare i miei capitani, mi informano che diverse migliaia di leve locali si sono unite alla mia causa, desiderosi di sostenere il vero [ROOT.Char.Custom('GetQueenKing')|U] di Westeros."
   agot_targaryen_exile_invasion.0400.a:0 "Westeros, il Drago si è risvegliato!"
@@ -28,18 +33,16 @@
   agot_targaryen_exile_invasion.0400.b_tt_patrons:0 "#warning I tuoi sostenitori legittimisti si aspettano comunque che tu conquisti il Trono di Spade presto.#!"
   agot_targaryen_exile_invasion.0400.c:0 "Invierò una richiesta a [iron_throne_holder.GetShortUIName] per il trono."
 
+ # The event where the Targaryen Exiles win
   agot_targaryen_exile_invasion.0401.t:0 "L’Ascesa del Drago"
   agot_targaryen_exile_invasion.0401.desc:0 "Il viaggio è finito e ho trionfato! Gli usurpatori sono stati abbattuti e il drago è tornato al [GetTitleByKey('e_the_iron_throne').GetNameNoTier], dopo tanti anni.\n\nMa anche se ho riconquistato il trono, la lotta non è finita. Devo ora affrontare i debiti contratti coi miei patroni, le suppliche del popolo e i complotti dei miei nuovi vassalli."
   agot_targaryen_exile_invasion.0401.a:0 "Fuoco e Sangue."
   agot_targaryen_exile_invasion.0401.b:0 "Sarò ricordato come il Restauratore!"
   agot_targaryen_exile_invasion.0401.tt:0 "Con la guerra conclusa, ogni alleato che è accorso in tuo aiuto cesserà di essere un tuo alleato formale, a meno che non nutra per te grande stima."
-
-
   agot_targaryen_exile_invasion.0402.t:0 "La Punizione dell’Usurpatore"
   agot_targaryen_exile_invasion.0402.desc:0 "L’usurpatore, [defender.GetFirstName] [defender.GetHouse.GetName], viene condotto davanti a me in catene. [defender.GetSheHe|U] ha occupato ingiustamente il mio trono per troppo tempo. Quante morti e distruzioni ha causato la sua ambizione? L’onore richiede che [defender.GetSheHe] paghi per queste colpe.\n\nI miei soldati e la mia corte mi osservano in silenzio mentre pondero il destino di [defender.GetNameNoTooltip]. Dopo tutto, sarà questo il mio primo atto da [ROOT.Char.Custom('GetQueenKing')]."
   agot_targaryen_exile_invasion.0402.a:0 "[defender.GetSheHe|U] deve essere giustiziato."
   agot_targaryen_exile_invasion.0402.b:0 "Lo giudicherò più tardi."
-
 
   agot_targaryen_exile_invasion.0410.t:0 "Le Richieste del Drago"
   agot_targaryen_exile_invasion.0410.desc:0 "[iron_throne_holder.GetName] ha raggiunto il [GetTitleByKey('e_the_iron_throne').GetNameNoTier] prima di me.\n\nAnche se è frustrante, sono pronto a combattere fino all’ultimo sangue per reclamare ciò che è mio. Eppure, forse la guerra non è necessaria. Tempo fa, [iron_throne_holder.GetNameNoTooltip] mi offrì un posto al suo fianco. Forse posso fargli io un’offerta ora."
@@ -64,6 +67,8 @@
   agot_targaryen_exile_invasion.0413.desc:0 "[iron_throne_holder.GetName] ha rifiutato le mie richieste. Ha scelto la guerra."
   agot_targaryen_exile_invasion.0413.a:0 "Che sia guerra!"
 
+
+ # An event where a royal bastard declares war for the IT. Sent to the Targaryen Exiles.
   agot_targaryen_exile_invasion.0500.t:0 "Un Nuovo [royal_bastard_monarch.Custom('GetQueenKing')|U]"
   agot_targaryen_exile_invasion.0500.desc:0 "Giunge notizia alla mia [ROOT.Char.Custom('GetCourtType')] che [royal_bastard_monarch.GetName] è stato rivelato essere un bastardo reale. Se ciò è vero, allora è mio stretto parente.\n\nA quanto pare, anche lui non tollera l'usurpazione del [GetTitleByKey('e_the_iron_throne').GetNameNoTier], e ha lanciato una propria campagna per divenire [royal_bastard_monarch.Custom('GetQueenKing')|U] di Westeros. Pare abbia già raccolto numerosi seguaci: il continente è in guerra.\n\nMentre rifletto su questa notizia, un pensiero oscuro si fa strada. E se io non fossi mai stato destinato a salire sul trono? E se fosse sempre stato destino di [royal_bastard_monarch.GetNameNoTooltip]? Dovrei unire le mie forze alle sue? Almeno così tornerei a casa prima."
   agot_targaryen_exile_invasion.0500.a:0 "Voglio tornare a casa. Mi unirò a lui."
@@ -71,17 +76,20 @@
   agot_targaryen_exile_invasion.0500.b_tt:0 "#warning Il contenuto speciale dedicato all’Esilio Targaryen terminerà!#!"
   agot_targaryen_exile_invasion.0500.c:0 "Non significa nulla per me."
 
+ # An event where the targaryen exiles joins the above royal bastard
   agot_targaryen_exile_invasion.0501.t:0 "Un Nuovo [royal_bastard_monarch.Custom('GetQueenKing')|U]"
   agot_targaryen_exile_invasion.0501.desc:0 "Ho deciso di riconoscere [royal_bastard_monarch.GetName] come il vero [royal_bastard_monarch.Custom('GetQueenKing')|U] di Westeros. Ma quale sarà ora il mio destino?"
   agot_targaryen_exile_invasion.0501.a:0 "Sosterrò completamente [royal_bastard_monarch.GetNameNoTooltip]."
   agot_targaryen_exile_invasion.0501.b:0 "Il mio cammino non è ancora finito."
 
+ # An event where the royal bastard wins and the targaryen exiles are notified
   agot_targaryen_exile_invasion.0502.t:0 "Contro Ogni Probabilità"
   agot_targaryen_exile_invasion.0502.desc:0 "Contro ogni previsione, [royal_bastard_monarch.GetName] ha vinto la sua lotta per il [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. La notizia mi lascia un misto di gelosia, timore e rispetto. Come ho potuto lasciare che un bastardo mi precedesse sul trono?\n\nCiò che è fatto è fatto. Ma ora che lo scenario è mutato, dovrò adattare i miei piani."
   agot_targaryen_exile_invasion.0502.a:0 "Va bene. È tempo di tornare a casa."
   agot_targaryen_exile_invasion.0502.mp_enabled:0 "Riconosceremo [royal_bastard_monarch.GetNameNoTooltip] come [royal_bastard_monarch.Custom('GetQueenKing')|U]."
   agot_targaryen_exile_invasion.0502.b:0 "Prima era un impostore. Ora è un usurpatore. Il mio obiettivo non cambia."
 
+ # Dragon hatching ceremony begins. Targaryen Exile is wondering about past hatching attempts, and how useful becoming a dragonrider would be
   agot_targaryen_exile_invasion.0600.t:0 "Potere Indiscutibile"
   agot_targaryen_exile_invasion.0600.desc:0 "Non riesco a smettere di pensare alle tre uova di drago che sono state donate di recente alla mia [ROOT.Char.Custom('GetCourtType')].\n\nLa mente mi torna ai Targaryen di un tempo, coloro che tentarono di far schiudere le uova dopo la scomparsa dei draghi. Tutti loro sapevano che i draghi concedono potere assoluto sui nemici — e ora comprendo esattamente ciò che provarono.\n\nIl potere non di uno, ma di tre draghi mi porrebbe alla pari di Aegon il Conquistatore. Mi darebbe un vantaggio innegabile nel reclamare ciò che mi spetta.\n\nForse è giunto il momento di tentare la schiusa. Le ricompense superano di gran lunga i rischi..."
   agot_targaryen_exile_invasion.0600.a:0 "Devo tentare."
@@ -89,21 +97,13 @@
   agot_targaryen_exile_invasion.0600.b:0 "Non correrò questo rischio."
   agot_targaryen_exile_invasion.0600.b_tt:0 "Per ora non tenterai di far schiudere le uova."
 
-
-
+ # Targ Exile finds a local guide to help out
   agot_targaryen_exile_invasion.0601.t:0 "Preparativi"
   agot_targaryen_exile_invasion.0601.desc:0 "Durante le mie ricerche su come far schiudere le uova, ho incontrato un locale che sostiene di avere profonda conoscenza della magia e dei rituali.\n\nDopo aver rivelato i miei piani, [guide.GetName] ha accettato di supervisionare la cerimonia per una modica ricompensa. Anche se non so come [guide.GetNameNoTooltip] conosca questi arcani o le uova stesse, sento inspiegabilmente che può aiutarmi dove i miei antenati fallirono."
   agot_targaryen_exile_invasion.0601.desc_took_eggs_away:0 "$agot_targaryen_exile_invasion.0601.desc$\n\nTornando alla mia [ROOT.Char.Custom('GetCourtType')], mi impadronisco delle uova da [egg_owner.GetName], che reagisce con rabbia e mi accusa d’essere uno sciocco per essermi fidato di [guide.GetNameNoTooltip]."
   agot_targaryen_exile_invasion.0601.a:0 "Spero che funzioni."
 
-  agot_targaryen_exile_invasion.0602.t:0 "La Cerimonia"
-  agot_targaryen_exile_invasion.0602.desc:0 "[guide.GetName] mi avvisa che tutto è pronto. In silenzio ci dirigiamo verso una radura, dove vedo le tre uova posate su una pira.\n\nUna volta sistemate, [guide.GetNameNoTooltip] inizia a recitare strane invocazioni, facendo calare un silenzio innaturale tra gli ospiti e i servitori presenti. Osservo con ansia crescente, gli occhi fissi sulle fiamme.\n\nPoi [guide.GetNameNoTooltip] si volta e mi dice che è tempo di offrire il pagamento: serve un sacrificio per risvegliare i draghi."
-  agot_targaryen_exile_invasion.0602.a:0 "Il mio sangue"
-  agot_targaryen_exile_invasion.0602.b:0 "Il sangue del mio erede"
-  agot_targaryen_exile_invasion.0602.c:0 "Sacrificherò il mio erede"
-  agot_targaryen_exile_invasion.0602.d:0 "Sacrificherò un ospite"
-
-  # Ceremony starts, choose which option to take
+ # Ceremony starts, choose which option to take
   agot_targaryen_exile_invasion.0602.t:0 "La Cerimonia"
   agot_targaryen_exile_invasion.0602.desc:0 "[guide.GetName] si avvicina a me e mi dice che la cerimonia è pronta per iniziare. Insieme, camminiamo in silenzio verso una radura vicina, dove scorgo subito le tre uova adagiate su una pira.\n\nUna volta sistemate le uova, [guide.GetNameNoTooltip] inizia a recitare strane invocazioni, facendo calare un silenzio inquietante tra gli ospiti e i servitori radunati. Osservo con ansia crescente, gli occhi fissi sulle fiamme che si innalzano.\n\n[guide.GetNameNoTooltip] si volta verso di me e annuncia che è richiesto un pagamento; devo compiere un sacrificio per risvegliare i draghi dalle uova."
   agot_targaryen_exile_invasion.0602.a:0 "Il sangue del mio stesso corpo."
@@ -116,7 +116,7 @@
   agot_targaryen_exile_invasion.0603.desc:0 "Scegli un sacrificio per il rito di schiusa."
   agot_targaryen_exile_invasion.0603.a:0 "Questa persona andrà bene."
 
-  # Hatching ceremony outcomes
+ # Hatching ceremony outcomes
   agot_targaryen_exile_invasion.0604.t:0 "La Fine è l’Inizio"
   agot_targaryen_exile_invasion.0604.desc_main_text:0 "Mentre il sangue si mescola alle fiamme, il fumo mi annebbia i sensi. Sento la tosse e i gemiti degli ospiti, ma non vedo più nulla — nemmeno [guide.GetNameNoTooltip], che era accanto a me un attimo fa.\n\nAll’improvviso, un sibilo dalle fiamme, poi uno schiocco assordante. Poi un secondo. E un terzo. Seguo i suoni e intravedo le uova tremare. Le uova collassano su se stesse e un canto inquietante riempie l’aria.\n\n#italic Le uova si sono schiuse.#!"
   agot_targaryen_exile_invasion.0604.desc_self:0 "[guide.GetName] mi taglia la mano e getta il mio sangue nel fuoco.\n\n$agot_targaryen_exile_invasion.0604.desc_main_text$"
@@ -129,7 +129,7 @@
   agot_targaryen_exile_invasion.0604.a:0 "Tutto cambia, ora!"
   agot_targaryen_exile_invasion.0604.b:0 "[guide.GetNameNoTooltip], mi hai tradito!"
 
-   # Dragons hatched outcome event
+ # Dragons hatched outcome event
   agot_targaryen_exile_invasion.0605.t:0 "Reclamare un Drago"
   agot_targaryen_exile_invasion.0605.desc:0 "Rimango completamente estasiato mentre i draghi si liberano dalle uova e spiegano le ali. Il loro pigolio lieve mi strappa un sorriso, riempiendo la mente di pensieri su come queste piccole creature un giorno diventeranno leggendarie come [GetScriptedCharacterByHistoryID('dragon_balerion').GetNameNicknamed].\n\nOra devo scegliere uno di loro come mio futuro destriero."
   agot_targaryen_exile_invasion.0605.desc_heir_start:0 "Rimango completamente estasiato mentre i draghi si liberano dalle uova e spiegano le ali. Ma il mio entusiasmo svanisce quando li vedo affollarsi intorno a [heir_blood_donor.GetName], posandosi con timore sulle sue spalle.\n\n"
@@ -139,30 +139,31 @@
   agot_targaryen_exile_invasion.0605.a:0 "Tu!"
   agot_targaryen_exile_invasion.0605.a_tt:0 "Sceglierai un drago con cui legarti."
 
-
+ # GUI selection widget. IGNORE (that means you!)
   agot_targaryen_exile_invasion.0606.t:0 "Scegli un Drago"
   agot_targaryen_exile_invasion.0606.desc:0 "Scegli il drago con cui legarti:"
   agot_targaryen_exile_invasion.0606.a:0 "Questo, credo..."
   agot_targaryen_exile_invasion.0606.a_tt:0 "I tuoi draghi cresceranno rapidamente nel corso dell’anno; inoltre, tra un anno #bold dichiarerai automaticamente guerra al [GetTitleByKey('e_the_iron_throne').GetNameNoTier].#!"
 
+ # Your heir (as targ exiles) asks for a dragon.
   agot_targaryen_exile_invasion.0607.t:0 "Un Drago per [heir_asking_for_dragon.GetFirstNameNoTooltip]"
   agot_targaryen_exile_invasion.0607.desc:0 "[heir_asking_for_dragon.GetName] irrompe nei miei alloggi, implorandomi di lasciargli uno dei miei draghi. Mi dice che due cavalieri di drago sono meglio di uno per la guerra imminente.\n\nHa un punto. Anche [GetScriptedCharacterByHistoryID('Targaryen_27').GetNameNicknamedRegnal] si fidò delle sue sorelle con i draghi... Lo guardo: i suoi occhi brillano fissando [dragon_for_heir.GetName]."
   agot_targaryen_exile_invasion.0607.a:0 "Va’ pure."
   agot_targaryen_exile_invasion.0607.b:0 "No, sono miei."
 
-
+ # Big event for the Targaryen Exiles. Talks about how the Targaryens are invading
   agot_targaryen_exile_invasion.0810.t:0 "La Restaurazione Targaryen"
   agot_targaryen_exile_invasion.0810.desc:0 "I Targaryen sono tornati!\n\nGuidando un’armata che conta migliaia di uomini, [attacker.GetName] intende reclamare il Trono di Spade da [defender.GetName]. Per la prima volta da secoli, un invasore Targaryen sbarca sulle coste di Westeros deciso a piegare il reame. Ma a differenza di Aegon il Conquistatore, [attacker.GetNameNoTooltip] è mosso non solo dall’ambizione, ma anche dall’odio e dalla vendetta."
   agot_targaryen_exile_invasion.0810.a:0 "Chissà come finirà?"
   agot_targaryen_exile_invasion.0810.b:0 "Buona fortuna!"
 
-
+ # AI only, ignore
   agot_faegon_invasion.0002.a:0 "Manda il messaggio."
   agot_faegon_invasion.0002.b:0 "No, questo è #italic il mio#! diritto di nascita e di nessun altro."
   agot_faegon_invasion.0002.c:0 "I Targaryen devono accogliermi a casa."
   agot_faegon_invasion.0002.b_no_exiles:0 "È giunta l’ora di tornare a Westeros!"
 
-
+ # Faegon offers the Targaryens to join him
   agot_faegon_invasion.0003.t:0 "L’Altro Drago"
   agot_faegon_invasion.0003.desc:0 "[faegon.GetName], creduto morto da tempo, è tornato! Secondo un messaggio che mi ha inviato, [faegon.GetSheHe] fu cresciuto in segreto e nascosto dai segugi dell’usurpatore.\n\nOra che ha raggiunto l’età adulta, [faegon.GetSheHe] chiede che ci inginocchiamo alla #italic sua#! pretesa sul [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. [faegon.GetNameNoTooltip] sostiene che la sua pretesa sia superiore alla nostra, e che dovrebbe essere [faegon.Custom('GetQueenKing')]. Tuttavia, ha offerto un’alleanza matrimoniale per riunire i rami dispersi della Casa Targaryen."
   agot_faegon_invasion.0003.desc_blackfyre:0 "I Blackfyre sono tornati! Un giovane guerriero di nome [faegon.GetName] guida la loro causa, immutata: conquistare il [GetTitleByKey('e_the_iron_throne').GetNameNoTier].\n\n[faegon.GetNameNoTooltip] mi ha inviato un messaggio: desidera che i draghi rossi e neri si uniscano ancora. Chiede che la nostra Casa riconosca la sua pretesa e suggella il patto con un matrimonio fra le nostre famiglie."
@@ -170,12 +171,14 @@
   agot_faegon_invasion.0003.a_blackfyre_tt:0 "I Draghi devono unirsi!"
   agot_faegon_invasion.0003.b:0 "Un altro impostore. Nient’altro."
 
+ # Event for the player to decide if they want to play as faegon or remain a laamp. Fired for the Exiles
   agot_faegon_invasion.0004.t:0 "I Draghi Uniti"
   agot_faegon_invasion.0004.desc:0 "Ho deciso di unire le mie forze a quelle di [faegon.GetName] per combattere in nome della sua pretesa su Westeros. Ma rimane una domanda: quale sarà il mio destino?"
   agot_faegon_invasion.0004.a:0 "Sosterrò completamente [faegon.GetName]."
   agot_faegon_invasion.0004.a_tt:0 "Inizierai a giocare come [faegon.GetName]."
   agot_faegon_invasion.0004.b:0 "Resterò un avventuriero."
 
+ # Faegon tames a dragon / reacts to Targaryen offer.
   agot_faegon_invasion.0005.t:0 "Conversazione tra Draghi"
   agot_faegon_invasion.0005_desc.targs_accepted_try_to_tame_dragon:0 "I Targaryen hanno giurato fedeltà alla mia causa. Ma resta una prova finale...[dragon_for_faegon.GetName]\n\nDevo domare il drago per consacrare il mio destino di conquistatore."
   agot_faegon_invasion.0005_desc.targs_accepted_but_no_dragon:0 "I Targaryen si sono uniti a me! Il mondo sarà nostro, ma il [GetTitleByKey('e_the_iron_throne').GetNameNoTier] sarà mio."
@@ -184,22 +187,25 @@
   agot_faegon_invasion.0005.targs_accepted_but_no_dragon:0 "I draghi stanno tornando, Westeros!"
   agot_faegon_invasion.0005.targs_rejected_me:0 "Peggio per loro. Verso Westeros!"
 
+ # Faegon faces the spare dragon.
   agot_faegon_invasion.0006.t:0 "Davanti a [dragon_for_faegon.GetNameNoTooltip]"
   agot_faegon_invasion.0006.desc:0 "Il drago [dragon_for_faegon.Custom('GetDragonColor')], [dragon_for_faegon.GetName], incombe su di me, gli occhi ardenti. Il destino ha fatto schiudere il suo uovo e ora ci ha messi faccia a faccia.\n\n[dragon_for_faegon.GetName] #italic sarà#! mio. Ne sono certo."
   agot_faegon_invasion.0006.a:0 "[dragon_for_faegon.GetNameNoTooltip], arrenditi a me!"
 
+ # Faegon launches his invasion event
   agot_faegon_invasion.0007.t:0 "L’Invasione"
   agot_faegon_invasion.0007.desc:0 "È tempo di reclamare il mio trono dall’usurpatore! Mentre la notizia si diffonde per il reame, vengo informato che lealisti e soldati ambiziosi stanno accorrendo alla mia causa."
   agot_faegon_invasion.0007.a:0 "Alla guerra!"
   agot_faegon_invasion.0007.a_war_started:0 "Dichiarerai guerra a [GetTitleByKey('e_the_iron_throne').GetHolder.GetName]!"
 
+ # Faegon has won
   agot_faegon_invasion.0008.t:0 "Vittoria!"
   agot_faegon_invasion.0008.desc:0 "Finalmente, la guerra è finita, e gli usurpatori che occupavano il [GetTitleByKey('e_the_iron_throne').GetNameNoTier] sono stati piegati.\n\nIl mio regno è solo all’inizio, ma sento che tutto è possibile ora."
   agot_faegon_invasion.0008.desc_no_war:0 "Sono riuscito a evitare la guerra e reclamare il [GetTitleByKey('e_the_iron_throne').GetNameNoTier] senza versare una sola goccia di sangue!\n\nIl mio regno è appena iniziato, ma tutto sembra possibile ora."
   agot_faegon_invasion.0008.i_am_aegon_vi:0 "Madre, ti ho vendicata."
   agot_faegon_invasion.0008.i_am_a_blackfyre:0 "Il Drago Nero ha vinto, finalmente!"
 
-
+ # Illyrio decides whether or not to tell Faegon his true identity.
   agot_faegon_invasion.0009.t:0 "Colpe del Cuore"
   agot_faegon_invasion.0009.desc_secret_blackfyre:0 "La mia scommessa ha avuto successo. Il mio protetto, il mio progetto, il mio #italic figlio#! ha conquistato il [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. [faegon_victor.GetSheHe|U] siede ora sul Trono di Spade con la grazia dei suoi avi. Nessuno può più metterlo in discussione, e chi lo farà, affronterà la sua ira.\n\nMa resta una domanda. Dovrei dirgli la verità sulla sua identità?"
   agot_faegon_invasion.0009.desc_secret_orphan:0 "La mia scommessa ha avuto successo. Il mio protetto, il mio progetto, la mia #italic eredità#! ha conquistato il [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. [faegon_victor.GetSheHe|U] siede ora sul Trono con una grazia degna dei Targaryen d’un tempo. Nessuno può metterlo in dubbio.\n\nMa dovrei dirgli chi è davvero?"
@@ -207,6 +213,7 @@
   agot_faegon_invasion.0009.b:0 "Forse un dono lo aiuterà ad accettarla."
   agot_faegon_invasion.0009.c:0 "Non posso dirglielo, è troppo rischioso."
 
+ # Faegon receives news (or a letter) from Illyrio concerning his fate
   agot_faegon_invasion.0010.t:0 "Colpe del Cuore"
   agot_faegon_invasion.0010.desc_intro:0 "È giunta una lettera dalla tenuta di"
   agot_faegon_invasion.0010.desc_intro_illyrio_is_dead:0 "mio defunto ma leale "
@@ -222,6 +229,7 @@
   agot_faegon_invasion.0010.keep_a_secret_secret_orphan_tt:0 "I tuoi #italic veri#! genitori saranno una coppia insignificante di Lys."
   agot_faegon_invasion.0010.declare_it_to_the_world_orphan_tt:0 "Fonderai una nuova dinastia, reclamando il trono per diritto di conquista."
 
+ # Faegon big invasion event
   agot_faegon_invasion.0100.t:0 "Aegon il Conquistatore Tornato"
   agot_faegon_invasion.0100.desc:0 "#italic «Aegon il Conquistatore è tornato!»#!\n\nLa notizia ha raggiunto la mia [ROOT.Char.Custom('GetCourtType')], e pare tutto il reame: un aspirante conquistatore di nome [faegon.GetName] ha dichiarato l’intento di reclamare il [GetTitleByKey('e_the_iron_throne').GetNameNoTier] con la forza.\n\n[faegon.GetNameNoTooltip] ha annunciato al reame che egli è "
   agot_faegon_invasion.0100.desc_blackfyre:0 "il legittimo erede della Casa Blackfyre, discendente diretto di [GetScriptedCharacterByHistoryID('Targaryen_94').GetName]! "
@@ -230,6 +238,7 @@
   agot_faegon_invasion.0100.a:0 "Mi chiedo cosa riuscirà a fare..."
   agot_faegon_invasion.0100.b:0 "Buona fortuna!"
 
+ # Event where the Targaryens control the IT and Faegon offers a marriage alliance in exchange for the throne.
   agot_faegon_invasion.0020.t:0 "Uno Straniero e la Sua Storia"
   agot_faegon_invasion.0020.desc_allegedly_aegon:0 "Un messaggio è giunto da un [faegon.GetWomanMan] di nome [faegon.GetName], che sostiene di essere il figlio legittimo di [GetScriptedCharacterByHistoryID('Targaryen_3').GetFullName] e [GetScriptedCharacterByHistoryID('Martell_7').GetFullName]. [faegon.GetSheHe|U] afferma che la sua pretesa è superiore alla mia, e che dovrei cedergli il trono. Se accettassi, diventerei suo consorte.\n\nSe rifiutiamo, farà valere la sua pretesa e getterà il reame in guerra."
   agot_faegon_invasion.0020.desc_open_blackfyre:0 "Un messaggio è giunto da un [faegon.GetWomanMan] di nome [faegon.GetName], che si dichiara erede legittimo della stirpe Blackfyre. [faegon.GetSheHe|U] pretende che io abdichi in suo favore. Se accetto, sarò suo consorte.\n\nSe rifiutiamo, egli ci trascinerà in guerra."
@@ -239,49 +248,54 @@
   agot_faegon_invasion.0020.c:0 "Accetterò, ma terrò Roccia del Drago."
   agot_faegon_invasion.0020.d:0 "Rifiuto le sue pretese."
 
+ # Faegon wins, event fired for the Targ Exiles
   agot_faegon_invasion.0040.t:0 "Contro Ogni Probabilità"
   agot_faegon_invasion.0040.desc:0 "Contro ogni previsione, [faegon_victor.GetName] ha conquistato il [GetTitleByKey('e_the_iron_throne').GetNameNoTier]... La notizia suscita in me gelosia, timore e ammirazione. Come ho potuto permettere che lui vendicasse la mia famiglia prima di me?\n\nCiò che è fatto è fatto. Ma ora devo adattare i miei piani."
   agot_faegon_invasion.0040.a:0 "$agot_targaryen_exile_invasion.0502.a$"
   agot_faegon_invasion.0040.mp_enabled:0 "Riconosceremo [faegon_victor.GetNameNoTooltip]."
   agot_faegon_invasion.0040.b:0 "Un altro usurpatore. Il mio scopo non cambia."
 
+ # Toast tooltips for Faegon
   agot_faegon_invasion.0040.targs_wont_go_home:0 "Ulteriore Insulto"
   agot_faegon_invasion.0040.targs_wont_go_home_tt:0 "[targaryen_exile.GetName] ha rifiutato la tua ascesa!"
   agot_faegon_invasion.0040.targs_will_go_home:0 "Non Più Perduti"
   agot_faegon_invasion.0040.targs_will_go_home_tt:0 "[targaryen_exile.GetName] ha deciso di unirsi alla tua corte!"
 
+ # Decision for Faegon who lost the invasion but wants to reclaim his identity
   agot_faegon_reclaim_identity:0 "Reclamare l’Identità"
   agot_faegon_reclaim_identity_desc:0 "Anche se il mio primo tentativo è fallito, ho raggiunto una fama innegabile. Posso ora reclamare la mia vera identità come erede della Casa Targaryen."
   agot_faegon_reclaim_identity_effect_tt:0 "Diventerai membro della Casa [GetScriptedCharacterByHistoryID('Targaryen_3').GetHouse.GetName], figlio di [GetScriptedCharacterByHistoryID('Targaryen_3').GetName] e [GetScriptedCharacterByHistoryID('Martell_7').GetFullName]."
   agot_faegon_reclaim_identity_confirm:0 "Reclama la tua eredità!"
 
-
-  # Intro event that explains Targaren Exle Mechanics
+ # Intro event that explains Targaren Exle Mechanics
   agot_targaryen_exile_invasion.0800.t:0 "Gli Esuli Targaryen"
   agot_targaryen_exile_invasion.0800.desc:0 "Stai giocando nei panni del leader di [GetTitleByKey('d_laamp_targaryen_exiles').GetNameNoTier].\n\nVivrai contenuti scritti che culmineranno con la tua invasione di [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. Questi eventi ruotano attorno all’interazione #V Richiedi Sostegno dei Legittimisti#!, ribilanciata per [GetTitleByKey('d_laamp_targaryen_exiles').GetNameNoTierNoTooltip].\n\nUna volta che avrai radunato un esercito degno attraverso questa interazione, riceverai contenuti riguardanti il risveglio dei draghi.\n\nAllo stesso modo, la tua dichiarazione di guerra contro Westeros sarà #bold gestita automaticamente#! dagli eventi, e avverrà quando avrai un esercito abbastanza forte.\n\nSe dovessi ottenere terre, la storia #bold #N giungerà al termine!#!#!"
   agot_targaryen_exile_invasion.0800.a:0 "Il mio cammino ha inizio ora."
 
+ # Targaryen Exiles fallback event for where the IT is destroyed
   agot_targaryen_exile_invasion.0801.t:0 "[GetTitleByKey('e_the_iron_throne').GetNameNoTier] Distrutto"
   agot_targaryen_exile_invasion.0801.desc:0 "[GetTitleByKey('e_the_iron_throne').GetNameNoTier], mio diritto di nascita, mio destino, mia ambizione, è stato #italic distrutto#!. Il caos ha inghiottito non solo Westeros, ma anche la mia [ROOT.Char.Custom('GetCourtType')], ora che realizziamo di non avere più uno scopo.\n\nCosa credano di ottenere, quegli stolti, mi sfugge."
   agot_targaryen_exile_invasion.0801.a:0 "Che cosa hanno fatto?"
 
+ # Decision to end scripted exile content
   agot_end_targexile_story_decision:0 "Termina i Contenuti Speciali degli Esuli Targaryen"
   agot_end_targexile_story_decision_desc:0 "Gli eventi legati all’Esilio Targaryen sono attualmente attivi. Scegliendo questa decisione, li terminerai e il gioco tornerà alla normalità."
   agot_end_targexile_story_decision_tooltip:0 "Termina i Contenuti degli Esuli Targaryen"
   agot_end_targexile_story_decision_confirm:0 "$agot_end_targexile_story_decision_tooltip$"
   agot_end_targexile_story_end_effect_tt:0 "#warning Il ciclo narrativo dell’Esilio Targaryen terminerà. Questa decisione è irreversibile!#!"
 
+ # Targaryen Exiles defeated event
   agot_targaryen_exile_invasion.0802.t:0 "Sconfitti"
   agot_targaryen_exile_invasion.0802.desc:0 "[defender.GetName] ha sconfitto la mia conquista di [GetTitleByKey('e_the_iron_throne').GetNameNoTier]!\n\nTutti i miei piani e preparativi sono andati perduti. Prego di riuscire a fuggire con la vita e a salvare ciò che resta della mia [ROOT.Char.Custom('GetCourtType')]."
   agot_targaryen_exile_invasion.0802.a:0 "È una catastrofe."
 
+ # Targaryen exiles' leader dies during the war, heir inherits.
   agot_targaryen_exile_invasion.0805.t:0 "La Guerra Infuria"
   agot_targaryen_exile_invasion.0805.desc:0 "Il mio predecessore è morto. Ho ereditato la guerra per [GetTitleByKey('e_the_iron_throne').GetNameNoTier]!"
   agot_targaryen_exile_invasion.0805.a:0 "Non fallirò."
   agot_targaryen_exile_invasion.0805.b:0 "Devo cercare rifugio altrove."
 
-
-  # Misc Loc Keys, IGNORE
+ # Misc Loc Keys, IGNORE
   AGOT_TARGARYEN_EXILES_LEGIT_SUPPORT_MODIFIER:0 "Bonus degli Esuli Targaryen:: $VALUE|=+0$"
   agot_scripted_laamp_legitimist_support_contract:0 "$laamp_legitimist_support_contract$"
   agot_scripted_laamp_legitimist_support_contract_contract:0 "$laamp_legitimist_support_contract_contract$"
@@ -305,7 +319,6 @@
   agot_faegon_invasion.0021.iron_throne_title_tt:0 "[faegon.GetName] ha rifiutato la tua controfferta! La guerra sarà dichiarata a breve."
   agot_faegon_invasion.0021.iron_throne_title_accepted:0 "Controfferta Accettata"
   agot_faegon_invasion.0021.iron_throne_title_tt_accepted:0 "[faegon.GetName] ha accettato la tua controfferta!"
-
   targ.support_6: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] ha promesso un #EMP #color_yellow Sostegno Travolgente#! – #color_yellow [TopScope.ScriptValue('agot_targ_legit_gold_value')] dragoni d’oro e [TopScope.ScriptValue('agot_targ_legit_troops_value')] truppe scelte#!"
   targ.support_5: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] ha promesso un #EMP #color_yellow Sostegno Formidabile#! – #color_yellow [TopScope.ScriptValue('agot_targ_legit_gold_value')] dragoni d’oro e [TopScope.ScriptValue('agot_targ_legit_troops_value')] truppe scelte#!"
   targ.support_4: "\n#italic [petitioned_ruler.GetShortUINameNoTooltip] ha promesso un #EMP #color_yellow Sostegno Considerevole#! – #color_yellow [TopScope.ScriptValue('agot_targ_legit_gold_value')] dragoni d’oro e [TopScope.ScriptValue('agot_targ_legit_troops_value')] truppe scelte#!"

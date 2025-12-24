@@ -1,9 +1,9 @@
 ﻿l_spanish:
-  ## TODO This decision does not seem to exist anywhere, commenting out for now.
-  # btw_go_on_trophy_hunt_decision:0 "Go on a Trophy Hunt"
-  # btw_go_on_trophy_hunt_decision_desc:0 "Beyond the wall there are ample beasts for the hunt: snow bears, shadowcats, direwolves, oh my!"
-  # btw_go_on_trophy_hunt_decision_tooltip:0 "You will call a great hunt."
-  # btw_go_on_trophy_hunt_decision_confirm:0 "Sound the horns!"
+ ## TODO This decision does not seem to exist anywhere, commenting out for now.
+ # btw_go_on_trophy_hunt_decision:0 "Go on a Trophy Hunt"
+ # btw_go_on_trophy_hunt_decision_desc:0 "Beyond the wall there are ample beasts for the hunt: snow bears, shadowcats, direwolves, oh my!"
+ # btw_go_on_trophy_hunt_decision_tooltip:0 "You will call a great hunt."
+ # btw_go_on_trophy_hunt_decision_confirm:0 "Sound the horns!"
 
   raise_pirate_kingdom_decision:0 "Dichiara un Regno Pirata"
   raise_pirate_kingdom_decision_desc:0 "I Sistermen erano una volta re pirati indipendenti, prima dello Stupro delle Sorelle e della Guerra dei Mille Anni. Ora, la nostra potenza è cresciuta ancora una volta, ed è giunto il momento di sfidare il giogo di [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
@@ -33,16 +33,6 @@
   agot_abdicate.1.desc:0 "[ROOT.Char.GetTitledFirstName] ha deciso di abdicare in tuo favore."
   agot_abdicate.1.a:0 "Sono grato."
 
-  build_dune_road_decision:0 "Costruisci la Strada delle Dune"
-  build_dune_road_decision_tooltip:0 "Costruisci una grande strada da Capo Tempesta a Lancia del Sole, aumentando la ricchezza di tutte le contee attraversate."
-  build_dune_road_decision_desc:0 "Costruisci una grande strada da Capo Tempesta a Lancia del Sole, aumentando la ricchezza di tutte le contee attraversate."
-  build_dune_road_decision_confirm:0 "Così sia"
-  agot_minor_decisions_events.0003.t:0 "La Strada delle Dune"
-  agot_minor_decisions_events.0003.desc:0 "[top_liege.GetFullNameNicknamedRegnal] ha deciso di costruire una strada da Capo Tempesta a Lancia del Sole, al fine di promuovere meglio il commercio tra le Terre della Tempesta e gli orgogliosi territori di Dorne."
-  agot_minor_decisions_events.0003.a:0 "Davvero un progetto reale!"
-  agot_dune_road_modifier:0 "La Strada delle Dune"
-  agot_dune_road_modifier_desc:0 "Una grande strada tra Capo Tempesta e Lancia del Sole."
-
   stress_loss_summerhall_decision:0 "Fuggi a Sala dell'Estate"
   stress_loss_summerhall_decision_tooltip:0 "Trova pace tra le rovine"
   stress_loss_summerhall_decision_desc:0 "Ho bisogno di un po' di tempo da solo con i miei pensieri e lontano da tutte queste persone. Sala dell'Estate può essere in rovina ora, ma fornirà un gradito riposo."
@@ -60,6 +50,7 @@
   end_the_ironborn_decision_desc:0 "Per secoli, i cani bastardi degli Uomini di Ferro hanno violentato, saccheggiato e razziato attraverso Westeros e oltre. È ormai inevitabile che si debba agire contro questii briganti di mare e schiacciare il loro potere una volta per tutte. Dobbiamo condurre una guerra di tale devastazione contro di loro che mai più un Re di Ferro siederà sulla trono di Seastone."
   end_the_ironborn_decision_confirm_text_desc:0 "Alle armi!"
   end_the_ironborn_decision_tooltip:0 "Morte agli Uomini di Ferro."
+
   ironborn_rebellion_decision:0 "Rivolta contro il Trono di Spade"
   ironborn_rebellion_decision_desc:0 "Da troppo tempo, gli uomini delle terre verdi hanno dormito tranquillamente nei loro letti. In effetti, è dalla morte di Harren il Nero che il Continente Occidentale non teme veramente gli Uomini di Ferro, solo occasionali gruppi di razziatori che sbarcano per pagare il prezzo del ferro. Re, uno dopo l'altro, si sono seduti sul loro Trono di Spade. Ma abbiamo dimenticato che abbiamo il nostro trono, che per secoli abbiamo avuto i nostri re?\n\nAltri uomini possono averlo dimenticato, ma io no. Getterò via le catene che legano il nostro popolo; sarò il Re del Sale e della Roccia. Gli Andali, Rhoynar e Primi Uomini conosceranno di nuovo la paura degli Uomini di Ferro."
   ironborn_rebellion_decision_tooltip:0 "Piangi, o Westeros, che le Isole risorgono di nuovo!"
@@ -103,17 +94,23 @@
   disavow_incest_decision_confirm:0 "Romperemo con la tradizione."
 
   reinstate_incest_decision:0 "Ripristina l’Incesto"
-  reinstate_incest_decision_desc:0 "Un tempo il nostro casato prosperava grazie alla purezza della stirpe, conservata mediante l’incesto. Sebbene ci fossimo allontanati da questa usanza, la dottrina dell’eccezionalismo della Fede ci conferma ancora il diritto di mantenere questa antica pratica. Dovremmo abbracciare la nostra eredità e ripristinare quell’usanza che ci ha definiti?"
+reinstate_incest_decision_desc: 0 "Un tempo la nostra casata prosperò grazie alla purezza della propria stirpe, preservata tramite la pratica dell'incesto. Sebbene ci siamo allontanati da tale tradizione, la dottrina d'eccezionalismo della fede permane, concedendoci il diritto di mantenere quest'antica usanza. Dovremmo abbracciare la nostra eredità e ristabilire la tradizione che un tempo ci definiva?"
   reinstate_incest_decision_tooltip:0 "Consenti la pratica del matrimonio fra fratelli nel tuo casato."
   reinstate_incest_decision_confirm:0 "Ripristineremo le vecchie usanze."
 
-  take_new_face_decision:0 "Assumi un Nuovo Volto"
-  take_new_face_decision_desc:0 "Abbandonerò la mia vecchia vita e coloro che mi conoscono, assumendo un nuovo volto, una nuova esistenza e un nuovo scopo al servizio del Dio dai Mille Volti."
-  take_new_face_decision_tooltip:0 "Abbandonerai il tuo volto attuale e inizierai da capo"
-  take_new_face_decision_c_tt:0 "Assumendo un nuovo volto:\n$EFFECT_LIST_BULLET$Abbandonerai il tuo personaggio attuale e passerai a uno nuovo. Conserverai solo il tuo [gold|E], gli [artifacts|E] non legati alla corte, i [traits|E] e la tua [faith|E]. Tutto il resto dipenderà dal volto scelto.\n$EFFECT_LIST_BULLET$ Inizierai a giocare come un personaggio senza terre, appartenente a una nuova casata."
-  take_new_face_multiple_player_warning_tt:0 "@warning_icon! Questa è una sessione multigiocatore: il passaggio al nuovo personaggio non è automatico."
-  take_new_face_decision_confirm:0 "Una nuova vita mi attende"
-  has_taken_face_recently:0 "Hai assunto un nuovo volto di recente"
+agot_take_new_face_decision: 0 "Assumi un Nuovo Volto"
+agot_take_new_face_decision_desc: 0 "Assumerò un nuovo volto al servizio del Dio dai Mille Volti."
+agot_take_new_face_decision_tooltip: 0 "Sceglierai un altro volto da un personaggio dello stesso sesso."
+agot_take_new_face_decision_tt: 0 "Assumere un nuovo volto sostituirà l'aspetto e l'età del tuo personaggio, ma conserverai il personaggio attuale, le terre e i titoli."
+agot_take_new_face_multiple_player_warning_tt: 0 "@warning_icon! Questa è una sessione multigiocatore: il trasferimento del giocatore al nuovo personaggio non è automatico."
+agot_take_new_face_decision_confirm: 0 "Mostrami la Sala dei Volti"
+agot_has_taken_face_recently: 0 "Hai indossato di recente un nuovo volto"
+
+agot_faceless_new_adventure_decision: 0 "Inizia un'Avventura dal Volto Nuovo"
+agot_faceless_new_adventure_decision_desc: 0 "Abbandonerò le mie vecchie vie e tutti coloro che conosco, assumendo un nuovo volto, una nuova vita e un nuovo scopo al servizio del Dio dai Mille Volti."
+agot_faceless_new_adventure_decision_tooltip: 0 "Abbandonerai il tuo personaggio attuale per iniziare una nuova avventura con un nuovo volto."
+agot_faceless_new_adventure_decision_tt: 0 "Dopo aver assunto un nuovo volto:\n$EFFECT_LIST_BULLET$Abbandonerai il tuo personaggio attuale e passerai a uno nuovo. Verranno mantenuti solo il tuo [gold|E], gli [artifacts|E] non di corte, i [traits|E] e la [faith|E]. Il resto è determinato dal volto che selezioni.\n$EFFECT_LIST_BULLET$ Inizierai a giocare come personaggio senza terre di una nuova casata."
+agot_faceless_new_adventure_decision_confirm: 0 "Una nuova vita mi attende"
 
   agot_visit_house_of_baw:0 "Fai visita alla Casa del Bianco e del Nero"
   agot_visit_house_of_baw_decision_effect:0 "@warning_icon! Il Dio dai Mille Volti prenderà il tuo dolore. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]."

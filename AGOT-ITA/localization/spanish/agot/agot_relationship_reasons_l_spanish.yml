@@ -1,9 +1,9 @@
 ﻿l_spanish:
 
-  # Best Friends Reasons
+ #Best Friends Reasons
   best_friend_kingsguard:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] sono diventati fratelli d'armi giurati mentre servivano nella [CHARACTER.Custom('KingsguardName')]."
 
-  # Friends reasons
+ #Friends reasons
   friend_served_as_pages_together:0 "[TARGET_CHARACTER.GetShortUIName|U] e [CHARACTER.GetShortUIName] hanno servito come scudieri insieme durante la loro giovinezza."
   friend_served_as_pages_together_corresponding:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] hanno servito come scudieri insieme durante la loro giovinezza."
 
@@ -12,29 +12,31 @@
 
   friend_campaigned_together:0 "[TARGET_CHARACTER.GetShortUIName|U] e [CHARACTER.GetShortUIName] hanno scoperto che i legami di sangue sono forti, avendo servito insieme in campagna."
   friend_campaigned_together_corresponding:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] hanno scoperto che i legami di sangue sono forti, avendo servito insieme in campagna."
-  
+
   friend_bloodrider:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] sono diventati fratelli d'arme giurati dopo un giuramento di sangue."
 
-  # Lover reasons
+friend_business_associate: "[TARGET_CHARACTER.GetShortUIName|U] è un fidato 'socio d'affari' di [CHARACTER.GetShortUIName]."
+friend_business_associate_corresponding: "[CHARACTER.GetShortUIName] è un fidato 'socio d'affari' di [TARGET_CHARACTER.GetShortUIName]."
+
+ #Lover reasons
   lover_widowed_brothel:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
   lover_widowed_brothel_corresponding:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
 
  #Grudge Reasons
-
   grudge_maidenvault_desc:0 "[CHARACTER.GetShortUIName|U] ha nutrito rancore verso [TARGET_CHARACTER.GetShortUIName] dopo aver trascorso molti anni rinchiuso nella Rocca delle Fanciulle."
   grudge_maidenvault_desc_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha nutrito rancore verso [CHARACTER.GetShortUIName] dopo aver trascorso molti anni rinchiuso nella Rocca delle Fanciulle."
+grudge_rivalrystop_desc: "La rivalità di [CHARACTER.GetShortUINamePossessive|U] con [TARGET_CHARACTER.GetShortUIName] è divenuta un rancore a senso unico dopo che [CharYouSheHe(TARGET_CHARACTER)] ha deciso che [CHARACTER.GetShortUINameNoTooltip] non valesse più il tempo di [CharYourHerHis(TARGET_CHARACTER)]."
+grudge_rivalrystop_desc_corresponding: "La rivalità di [TARGET_CHARACTER.GetShortUIName|U] con [CHARACTER.GetShortUIName] è divenuta un rancore a senso unico dopo che [CharYouSheHe(CHARACTER)] ha deciso che [TARGET_CHARACTER.GetShortUINameNoTooltip] non valesse più il tempo di [CharYourHerHis(CHARACTER)]."
 
-
-  #Rival Reasons
-  rival_broke_important_betrothal:0 "[CHARACTER.GetShortUIName|U] ha rotto un fidanzamento cruciale per la posizione di [TARGET_CHARACTER.GetShortUINamePossessive]."
-  rival_broke_important_betrothal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha rotto un fidanzamento cruciale per la posizione di [CHARACTER.GetShortUINamePossessive]."
-  rival_forced_betrothal:0 "[CHARACTER.GetShortUIName|U] è stato/a costretto/a a un fidanzamento indesiderato con [TARGET_CHARACTER.GetShortUIName]"
-  rival_forced_betrothal_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] è stato/a costretto/a a un fidanzamento indesiderato con [CHARACTER.GetShortUIName]"
-  rival_forced_marriage:0 "[CHARACTER.GetShortUIName|U] ha costretto [TARGET_CHARACTER.GetShortUIName] a un matrimonio contro la sua volontà."
-  rival_forced_marriage_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha costretto [CHARACTER.GetShortUIName] a un matrimonio contro la sua volontà."
+ #Rival Reasons
+rival_broke_important_betrothal: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ha rotto un fidanzamento cruciale per la posizione di [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]."
+rival_broke_important_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] ha rotto un fidanzamento cruciale per la posizione di [CHARACTER.GetShortUINamePossessiveNoTooltipNoFormat]."
+rival_forced_betrothal: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(CHARACTER)] costretto a un fidanzamento indesiderato con [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat]."
+rival_forced_betrothal_corresponding: "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharWereWas(TARGET_CHARACTER)] costretto a un fidanzamento indesiderato con [CHARACTER.GetShortUINameNoTooltipNoFormat]."
+rival_forced_marriage: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] ha costretto [TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat] a un matrimonio contro la volontà di [CharYourHerHis(TARGET_CHARACTER)]."
+rival_forced_marriage_corresponding: "[TARGET_CHARACTER.GetShortUINameNoTooltipNoFormat|U] ha costretto [CHARACTER.GetShortUINameNoTooltipNoFormat] a un matrimonio contro la volontà di [CharYourHerHis(CHARACTER)]."
   rival_stole_prized_heirloom:0 "[TARGET_CHARACTER.GetShortUIName|U] ha rubato un prezioso oggetto di [CHARACTER.GetShortUINamePossessive]."
   rival_stole_prized_heirloom_corresponding:0 "[TARGET_CHARACTER.GetShortUINamePossessive] ha giurato di vendicarsi su [CHARACTER.GetShortUIName|U] per aver reclamato il suo prezioso oggetto."
-
   rival_made_ride_dragon_piggyback:0 "[CHARACTER.GetShortUIName|U] ha fatto montare [TARGET_CHARACTER.GetShortUIName] su un maiale, anche se [TARGET_CHARACTER.GetSheHe] era stato promesso un drago."
   rival_made_ride_dragon_piggyback_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] non ha preso bene essere costretto a montare quel[CHARACTER.Custom('DE_END_ADJ_NUL_S_N')] maiale di [CHARACTER.GetShortUIName]."
   rival_stole_horn:0 "[TARGET_CHARACTER.GetShortUIName] ha rubato il corno di [CHARACTER.GetShortUINamePossessive|U] mentre cercava di domare un drago."
@@ -44,3 +46,4 @@
   rival_twin_given_egg:0 "A [TARGET_CHARACTER.GetShortUIName|U] è stato dato un uovo alla nascita, mentre a [CHARACTER.GetShortUIName|U] no."
   rival_has_my_legitimate_house_title:0 "[TARGET_CHARACTER.GetShortUIName|U] si è infuriato perché [CHARACTER.GetShortUIName] ha ottenuto un titolo di cui sono il legittimo [agot_legitimate_house|E]."
   rival_has_my_legitimate_house_title_corresponding:0 "[CHARACTER.GetShortUIName|U] si è infuriato perché [TARGET_CHARACTER.GetShortUIName] ha ottenuto un titolo di cui sono il legittimo [agot_legitimate_house|E]._]()
+

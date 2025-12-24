@@ -5,6 +5,7 @@
   nw_petition_persuasion_fail: "Non riesci a persuadere [nw_petition_target.GetTitledFirstNameNoTooltip]"
   nw_petition_persuation_player_target: "Tenterai di persuadere [nw_petition_target.GetTitledFirstName]"
 
+ # NIGHTSWATCH ENVOY START
   agot_nw_petition_events.01.t:0 "Un Emissario ai Sette Regni"
   agot_nw_petition_events.01.desc:0 "Il dovere di Lord Comandante è ingrato — notti lunghe passate col maestro, tra pergamene e corvi inviati a sud nella speranza di ottenere rifornimenti e nuove reclute.\n\n"I corvi e l’inchiostro arrivano solo fino a un certo punto," mi dice [nw_petition_envoy.GetTitledFirstName] con un sorrisetto compiaciuto. "Alcuni lord potrebbero rispondere meglio a un po’ di... #italic sforzo diplomatico#!."\n\n[nw_petition_envoy.GetSheHe|U] mi propone di inviarlo a sud come emissario. #italic Ma cosa dovrei chiedere?#!"
   agot_nw_petition_events.01.a:0 "Chiederò più uomini."
@@ -12,6 +13,7 @@
   agot_nw_petition_events.01.c:0 "Perché non entrambi?"
   agot_nw_petition_events.01.d:0 "Forse non è una buona idea, dopotutto."
 
+ # NIGHTSWATCH ENVOY RANDOM TRAVELING EVENTS
   agot_nw_petition_events.0100.t:0 "Tesoro Nascosto"
   agot_nw_petition_events.0100.desc:0 "Durante il viaggio, [nw_petition_envoy.Custom('DE_ART_DEF_P_A')] mi[nw_petition_envoy.Custom('DE_END_PRO_S_N')] emissari[nw_petition_envoy.Custom('DE_END_PRO_S_N')] [nw_petition_envoy.GetFirstNameNoTooltip] si è imbattuto in un nascondiglio pieno di ninnoli preziosi. Sicuramente valgono il loro peso in oro!\n\nMa come Lord Comandante, devo guardare oltre il mio tornaconto. #italic Che fare di questa ricchezza improvvisa?#!"
   agot_nw_petition_events.0100.a:0 "Tenerla per la Barriera!"
@@ -56,7 +58,6 @@
   agot_nw_petition_events.0107.t:0 "Rissa in Taverna"
   agot_nw_petition_events.0107.desc:0 "[nw_petition_envoy.Custom('DE_ART_DEF_P_A')] mi[nw_petition_envoy.Custom('DE_END_PRO_S_N')] emissari[nw_petition_envoy.Custom('DE_END_PRO_S_N')] fa talvolta sosta nelle taverne locali durante i suoi viaggi, ma la visita di stasera è stata... particolare.\n\nTutto è iniziato tranquillamente, ma in un attimo si è scatenata una #bold rissa da taverna epica#!!"
   agot_nw_petition_events.0107.a:0 "Combatti! Combatti! Combatti!"
-
 
   agot_nw_petition_events.0108.t:0 "Agguato di un Borseggiatore"
   agot_nw_petition_events.0108.desc:0 "Durante il viaggio, [nw_petition_envoy.Custom('DE_ART_DEF_P_A')] mi[nw_petition_envoy.Custom('DE_END_PRO_S_N')] emissari[nw_petition_envoy.Custom('DE_END_PRO_S_N')] deve restare sempre all’erta. Quando una figura si avvicina nell’ombra, non si può mai sapere se [vile_bandit.GetSheHe] ha cattive intenzioni.\n\nOggi, la sorte non è stata dalla sua parte. Un vile brigante, [vile_bandit.GetFirstName], è riuscito a tendergli un’imboscata sulla strada, lontano da ogni aiuto. #italic Cosa dovrebbe fare [nw_petition_envoy.GetFirstNameNoTooltip]?#!"
@@ -111,8 +112,7 @@
   agot_nw_petition_events.0120.desc:0 "Sebbene colto alla sprovvista, [nw_petition_envoy.Custom('DE_ART_DEF_P_A')] mi[nw_petition_envoy.Custom('DE_END_PRO_S_N')] emissari[nw_petition_envoy.Custom('DE_END_PRO_S_N')] ha reagito con prontezza, fuggendo lontano dall’animale selvatico.\n\nNon è stata una fuga gloriosa — e i suoi calzoni ora hanno una tinta più scura — ma almeno è vivo."
   agot_nw_petition_events.0120.a:0 "Lavati i pantaloni prima d'incontrare il lord, ti prego."
 
-
-  # NIGHTSWATCH ENVOY MAIN
+ # NIGHTSWATCH ENVOY MAIN
   agot_nw_petition_events.1000.t:0 "Un Emissario per i Sette Regni"
   agot_nw_petition_events.1000.desc:0 "I preparativi sono stati compiuti, i piani messi in atto, e ora [nw_petition_envoy.GetTitledFirstName] si presenta davanti a me per un ultimo saluto prima della sua partenza.\n\n"Lord Comandante, ti prometto che compirò il mio dovere nel sud con solerzia, tornando a Castello Nero con ciò che abbiamo richiesto," mi assicura [nw_petition_envoy.GetFirstNameNoTooltip]. "Sebbene la strada sia lunga e ricca di pericoli, giuro la mia vita e il mio onore a questo scopo. #bold Avanti, verso [nw_petition_target.GetCapitalLocation.GetName]!""
   agot_nw_petition_events.1000.a:0 "Va', e compi il tuo dovere."
@@ -122,15 +122,14 @@
   agot_nw_petition_events.1001.a:0 "Preghiamo che il casato accolga la nostra supplica."
 
   agot_nw_petition_events.1002.t:0 "Un Emissario dei Guardiani della Notte"
-  agot_nw_petition_events.1002.desc.a:0 "Uno strano viaggiatore giunge alla mia corte, vestito tutto di nero e con l'odore del lungo cammino.\n\n"[nw_petition_envoy.GetTitledFirstName], mio [ROOT.Char.GetLadyLord|l]," si presenta. "Sono qui in missione — come emissario dei fratelli neri, i guardiani della Barriera." Sbadiglio, sperando che giunga presto al punto.\n\n"Ehm, mio [ROOT.Char.GetLadyLord|l]. Sono qui per supplicare la tua corte di inviarci provviste, affinché il nostro ordine giurato possa difendere i Sette Regni!""
-  agot_nw_petition_events.1002.desc.b:0 "Uno strano viaggiatore giunge alla mia corte, vestito tutto di nero e con l'odore del lungo cammino.\n\n"[nw_petition_envoy.GetTitledFirstName], mio [ROOT.Char.GetLadyLord|l]," si presenta. "Sono qui in missione — come emissario dei fratelli neri, i guardiani della Barriera." Sbadiglio, sperando che giunga presto al punto.\n\n"Ehm, mio [ROOT.Char.GetLadyLord|l]. Sono qui per supplicare la tua corte di inviarci uomini, affinché il nostro ordine giurato possa difendere i Sette Regni!""
-  agot_nw_petition_events.1002.desc.c:0 "Uno strano viaggiatore giunge alla mia corte, vestito tutto di nero e con l'odore del lungo cammino.\n\n"[nw_petition_envoy.GetTitledFirstName], mio [ROOT.Char.GetLadyLord|l]," si presenta. "Sono qui in missione — come emissario dei fratelli neri, i guardiani della Barriera." Sbadiglio, sperando che giunga presto al punto.\n\n"Ehm, mio [ROOT.Char.GetLadyLord|l]. Sono qui per supplicare la tua corte di inviarci sia provviste che uomini, affinché il nostro ordine giurato possa difendere i Sette Regni!""
+agot_nw_petition_events.1002.desc.a: "Uno strano viandante giunge alla mia corte, vestito interamente di nero e impregnato del lezzo della strada.\n\n\"[nw_petition_envoy.GetTitledFirstName], mi[ROOT.Char.GetLadyLord|l],\" si presenta [nw_petition_envoy.GetSheHe], introducendo [nw_petition_envoyGetHerselfHimself]. \"Sono qui in missione — come inviato dei fratelli in nero, i guardiani sulla Barriera.\" Sbadiglio, sperando che questo emissario arrivi al punto.\n\n\"Ehem, mi[ROOT.Char.GetLadyLord|l]. Sono qui per chiedere rifornimenti alla vostra corte, per aiutare il nostro ordine giurato a difendere i Sette Regni!\""
+agot_nw_petition_events.1002.desc.b: "Uno strano viandante giunge alla mia corte, vestito interamente di nero e impregnato del lezzo della strada.\n\n\"[nw_petition_envoy.GetTitledFirstName], mi[ROOT.Char.GetLadyLord|l],\" si presenta [nw_petition_envoy.GetSheHe], introducendo [nw_petition_envoyGetHerselfHimself]. \"Sono qui in missione — come inviato dei fratelli in nero, i guardiani sulla Barriera.\" Sbadiglio, sperando che questo emissario arrivi al punto.\n\n\"Ehem, mi[ROOT.Char.GetLadyLord|l]. Sono qui per chiedere uomini alla vostra corte, per aiutare il nostro ordine giurato a difendere i Sette Regni!\""
+agot_nw_petition_events.1002.desc.c: "Uno strano viandante giunge alla mia corte, vestito interamente di nero e impregnato del lezzo della strada.\n\n\"[nw_petition_envoy.GetTitledFirstName], mi[ROOT.Char.GetLadyLord|l],\" si presenta [nw_petition_envoy.GetSheHe], introducendo [nw_petition_envoyGetHerselfHimself]. \"Sono qui in missione — come inviato dei fratelli in nero, i guardiani sulla Barriera.\" Sbadiglio, sperando che questo emissario arrivi al punto.\n\n\"Ehem, mi[ROOT.Char.GetLadyLord|l]. Sono qui per chiedere sia rifornimenti sia uomini alla vostra corte, per aiutare il nostro ordine giurato a difendere i Sette Regni!\""
   agot_nw_petition_events.1002.a:0 "Aye, offrirò ciò che posso per aiutare i fratelli neri!"
   nw_ruler_accepted_petition:0 "Accetti la supplica dei Guardiani della Notte."
   agot_nw_petition_events.1002.b:0 "Hm, potrei accettare... se i Guardiani possono soddisfare una mia richiesta."
   nw_ruler_select_condition:0 "Accetti la supplica dei Guardiani della Notte, con riserva."
   agot_nw_petition_events.1002.c:0 "Har! Chiedete aiuto per tenere d'occhio snark e grumkin?"
-
   nw_ruler_petition_inital_reject:0 "Rifiuti la supplica dei Guardiani della Notte."
 
   agot_nw_petition_events.1003.t:0 "Un Emissario dei Guardiani della Notte"
@@ -140,7 +139,6 @@
   agot_nw_petition_events.1003.c:0 "Attacca una tribù di Bruti per me."
   agot_nw_petition_events.1003.d:0 "Troviamo un prezzo equo..."
   agot_nw_petition_events.1003.e:0 "Un artefatto raro vale più dell'oro!"
-
 
   agot_nw_petition_events.1004.t:0 "Un Emissario per i Sette Regni"
   agot_nw_petition_events.1004.desc.a:0 "Ho ricevuto notizie dal mio emissario a [nw_petition_target.GetCapitalLocation.GetName], [nw_petition_envoy.GetTitledFirstName]: le trattative sono andate #bold splendidamente#!!\n\nAnche se i dettagli sono ancora in discussione, [nw_petition_envoy.GetFirstNameNoTooltip] crede che il [nw_petition_target.GetLadyLord] accetterà la nostra supplica."
@@ -178,7 +176,6 @@
   agot_nw_petition_events.1009.b:0 "No, questa trattativa è finita."
   agot_nw_petition_events.1009.c:0 "Ti ringrazio, mio [nw_petition_target.GetLadyLord]."
 
-
   agot_nw_petition_events.1010.t:0 "Un Emissario per i Sette Regni"
   agot_nw_petition_events.1010.desc.a:0 "Quando [nw_petition_envoy.GetTitledFirstName] lasciò Castello Nero, [nw_petition_envoy.GetSheHe] giurò che avrebbe svolto la sua missione con solerzia, senza tralasciare alcuna via pur di ottenere aiuto per i Guardiani della Notte.\n\nOggi, [nw_petition_envoy.GetFirstNameNoTooltip] conclude il suo viaggio, meritevole di un’accoglienza da eroe mentre attraversa il portone.\n\n"Ce l’hai fatta," dico, stringendogli la mano. "Hai servito con onore come emissario dei Guardiani della Notte."\n\n#italic Ora, che fare del premio tanto sudato?#!"
   agot_nw_petition_events.1010.desc.b:0 "Quando [nw_petition_envoy.GetTitledFirstName] lasciò Castello Nero, [nw_petition_envoy.GetSheHe] giurò che avrebbe svolto la sua missione con solerzia, senza tralasciare alcuna via pur di ottenere aiuto per i Guardiani della Notte.\n\nOggi, [nw_petition_envoy.GetFirstNameNoTooltip] conclude il suo viaggio, meritevole di un’accoglienza da eroe mentre attraversa il portone.\n\n"Ce l’hai fatta," dico, stringendogli la mano. "Hai servito con onore come emissario dei Guardiani della Notte."\n\n#italic Ora, che fare del premio tanto sudato?#!"
@@ -193,30 +190,22 @@
   agot_nw_petition_events.1010.h:0 "Manda gli uomini a presidiare i castelli abbandonati, e le provviste agli avamposti minori."
   agot_nw_petition_events.1010.i:0 "Ora, torna al tuo posto."
 
-
-  # FAILSAFE FOR NIGHTSWATCH ENVOY DESC OPTIONS
+ # FAILSAFE FOR NIGHTSWATCH ENVOY DESC OPTIONS
   NW_SOMETHING_BROKE:0 "Aspettare notizie dal mio emissario è divenuto il mio principale pensiero — ma ahimè, pare che qualcosa sia andato perso tra i venti.\n\nNon posso più attendere, posso solo immaginare quale scelta il mio emissario avrebbe posto davanti a me. #italic Cosa dovrei fare?#!"
 
-  # VIOLAZIONE DEL DIRITTO DELL’OSPITE - EVENTO MONDIALE
+ # VIOLATED GUEST RIGHT WORLD EVENT
   agot_nw_petition_events.1011.t:0 "Diritto dell'Ospite Violato"
   agot_nw_petition_events.1011.opening:0 "Un Emissario dei Guardiani della Notte... Disprezzato!"
   agot_nw_petition_events.1011.desc:0 "Durante la mia visita alla corte di [nw_petition_target.GetTitledFirstName] come emissario dei Guardiani della Notte, sono stato schernito e umiliato. Tutto il mondo deve conoscere l'infamia di [nw_petition_target.GetFirstNamePossessiveNoTooltip]!"
   agot_nw_petition_events.1011.a:0 "Che vergogna!"
 
-  # EVENTI CASUALI AL RITORNO DELL’EMISSARIO
+ # NIGHTSWATCH ENVOY RANDOM RETURNING EVENTSS
   agot_nw_petition_events.0200.t:0 "Desiderio di Unirsi ai Guardiani della Notte"
   agot_nw_petition_events.0200.desc:0 "Mentre il mio emissario [nw_petition_envoy.GetTitledFirstName] si trova alla corte di [nw_petition_target.GetTitledFirstName], [nw_petition_envoy.GetSheHe] viene avvicinato da un membro della famiglia dell’ospite.\n\n[nw_petition_200_lords_family_member.GetFirstNameNoTooltip] afferma di aver sognato a lungo il giorno in cui un fratello nero avrebbe varcato la sua soglia — #bold dandogli così l'opportunità di lasciare quella casa e unirsi ai Guardiani della Notte!#!"
   agot_nw_petition_events.0200.a:0 "Abbiamo bisogno di uomini!"
   agot_nw_petition_events.0200.b:0 "Non possiamo permetterlo."
   nw_post_petition_rand_event_1_family_member_taken:0 "Accetti la richiesta di [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip]. Si unirà ai Guardiani della Notte, rinunciando a ogni diritto d'eredità."
   nw_post_petition_rand_event_1_family_member_refused:0 "Rifiuti la richiesta di [nw_petition_200_lords_family_member.GetFirstNamePossessiveNoTooltip]. La Barriera non è un luogo per sognatori."
-
-  agot_nw_petition_events.0201.t:0 "Una Donna tra Noi"
-  agot_nw_petition_events.0201.desc.a:0 "Reclutare uomini per i Guardiani della Notte porta talvolta a risultati inaspettati — gli scarti di Westeros che si affrettano a unirsi a un corvo errante per sfuggire al castigo non sono sempre ciò che sembrano.\n\n[nw_petition_envoy.GetTitledFirstName] aveva già qualche sospetto su questo nuovo recluta, [nw_petition_200_lords_family_member.GetFirstNameNoTooltip], ma solo ora ha scoperto che è #N una donna#!!"
-  agot_nw_petition_events.0201.desc.b:0 "Reclutare uomini per i Guardiani della Notte porta talvolta a risultati inaspettati — gli scarti di Westeros che si affrettano a unirsi a un corvo errante per sfuggire al castigo non sono sempre ciò che sembrano.\n\n[nw_petition_envoy.GetTitledFirstName] sospettava che qualcosa non andasse con uno dei nuovi reclutati... [nw_petition_202_female_recruit.GetFirstNameNoTooltip] è in realtà #N una donna#!!"
-  agot_nw_petition_events.0201.a:0 "Portala con noi; abbiamo bisogno di reclute."
-  agot_nw_petition_events.0201.b:0 "Permettiamole di unirsi... #italic sotto mentite spoglie.#!"
-  agot_nw_petition_events.0201.c:0 "Ordinale di andarsene!"
 
   agot_nw_petition_events.0202.t:0 "Reclute Tentano la Fuga"
   agot_nw_petition_events.0202.desc:0 "Talvolta, le reclute prese per i Guardiani della Notte non vengono di loro volontà. E spesso, un corvo errante deve tener d’occhio il proprio gregge.\n\nOggi, un gruppo di nuove reclute ha tentato la fuga dalla carovana, ma [nw_petition_envoy.GetTitledFirstName] è riuscito a catturarli prima che andassero lontano. #italic Ora, che fare con i disertori?#!"
@@ -229,7 +218,6 @@
   agot_nw_petition_events.0203.b:0 "Non possiamo permetterlo."
   nw_post_petition_rand_event_4_knight_taken:0 "Accetti la richiesta di [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip]. [nw_petition_203_local_knight.GetSheHe] si unirà ai Guardiani della Notte, rinunciando a ogni diritto d’eredità."
   nw_post_petition_rand_event_4_knight_refused:0 "Rifiuti la richiesta di [nw_petition_203_local_knight.GetFirstNamePossessiveNoTooltip]. La Barriera non è un luogo per sognatori."
-
 
   agot_nw_petition_events.0204.t:0 "Un Fabbro Locale Offre Provviste"
   agot_nw_petition_events.0204.desc:0 "Vi sono ancora uomini a Westeros che nutrono rispetto per i Guardiani della Notte — coloro che conoscono i sacrifici dei fratelli neri e i pericoli che affrontano.\n\nUn fabbro locale, [nw_petition_204_blacksmith.GetFirstNameNoTooltip], ha cercato il mio emissario [nw_petition_envoy.GetTitledFirstName] per offrire le provviste che possiede, in aiuto alla missione dei Guardiani della Notte."

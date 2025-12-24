@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
 
-  ##Aging types
+ ##Aging types
   gene_age: "Tipo di Invecchiamento (visibile solo sui personaggi più anziani)"
   old_1: "Invecchiamento 1"
   old_2: "Invecchiamento 2"
@@ -10,7 +10,7 @@
   old_beauty_1: "Bellezza Invecchiata"
   no_aging: "Senza Età"
 
-  ## Tipi di Busto
+ ##bust types
   bust_clothes: "Busto con Vestiti"
   bust_clothes_light: "Busto con Vestiti Leggeri"
   bust_default: "Busto Predefinito"
@@ -23,25 +23,10 @@
   bust_shape_4_half: "Busto Forma 4 Mezzo"
   bust_shape_4_full: "Busto Forma 4 Completo"
 
-  ## Tipi di Peli Per il Corpo
-  gene_body_hair: "Peli del Corpo (visibili solo per gli uomini)"
-  body_hair_sparse: "Radi"
-  body_hair_avg: "Medi"
-  body_hair_dense: "Folti"
-  body_hair_sparse_low_stubble: "Radi, Poca Barba"
-  body_hair_avg_low_stubble: "Medi, Poca Barba"
-  body_hair_dense_low_stubble: "Folti, Poca Barba"
-
-  ## Tipi di Rughe
-  expression_brow_wrinkles: "Rughe sulla Fronte (visibili solo sui personaggi più anziani)"
-  brow_wrinkles_01: "Ruga sulla Fronte 1"
-  brow_wrinkles_02: "Ruga sulla Fronte 2"
-  brow_wrinkles_03: "Ruga sulla Fronte 3"
-  brow_wrinkles_04: "Ruga sulla Fronte 4"
-
-  ### Tipi di Corpo
+ ###Body types
   body_shape_average_clothed: "Forma del Corpo Vestita"
-  gene_bs_body_shape: "Forma del Corpo"
+ #Modified in vanilla
+ #gene_bs_body_shape: "Body Shape"
   body_shape_average: "Media"
   body_shape_apple_half: "Mela Metà"
   body_shape_apple_full: "Mela Intero"
@@ -54,13 +39,13 @@
   body_shape_triangle_half: "Triangolo Metà"
   body_shape_triangle_full: "Triangolo Intero"
 
-  ### Orecchie
+ ###Ears
   gene_bs_ear_lobe: "Lobo dell'Orecchio"
   vanilla_ear_lobe: "Lobo dell'Orecchio Standard"
   ear_lobe_fused: "Lobo dell'Orecchio Fuso"
   ear_lobe_detached: "Lobo dell'Orecchio Distaccato"
 
-  ### Occhi
+ ###Eyes
   gene_bs_eye_height_inside: "Altezza dell'Occhio Interno"
   vanilla_eye_height_inside: "Altezza dell'Occhio Interno Standard"
   eye_height_inside_neg: "Altezza dell'Occhio Interno Negativa"
@@ -83,8 +68,7 @@
   vanilla_eye_size: "Dimensione dell'Occhio Standard"
   eye_size: "Dimensione dell'Occhio"
 
-
-  ### Naso
+ ###Nose
   gene_bs_nose_central_width: "Larghezza Centrale del Naso"
   vanilla_nose_central_width: "Larghezza Centrale del Naso Standard"
   nose_central_width_neg: "Larghezza Centrale del Naso Negativa"
@@ -94,8 +78,8 @@
   vanilla_nose_septum_width: "Larghezza del Setto Nasale Standard"
   nose_septum_width_neg: "Larghezza del Setto Nasale Negativa"
   nose_septum_width_pos: "Larghezza del Setto Nasale Positiva"
-  
-  ##complexions
+
+ ##complexions
   complexion_beauty_1: "Carnagione Bella"
   complexion_ugly_1: "Carnagione Brutta" 
   complexion_no_face: "Carnagione senza volto (non utilizzata)"  
@@ -165,8 +149,8 @@
   complexion_35a: "Carnagione Asiatica 35"   
   complexion_36a: "Carnagione Asiatica 36"  
   complexion_37a: "Carnagione Asiatica 37"  
-  
-  
+
+
   complexion_1in: "Complexion Indiana 1" 
   complexion_2in: "Complexion Indiana 2"  
   complexion_3in: "Complexion Indiana 3"  
@@ -181,63 +165,48 @@
   complexion_12in: "Complexion Indiana 12"  
   complexion_13in: "Complexion Indiana 13"  
   complexion_14in: "Complexion Indiana 14"  
-  
-  
-  ## Rughe intorno agli occhi
-  expression_eye_wrinkles: "Rughe degli Occhi"
-  eye_wrinkles_01: "Rughe degli Occhi 1"
-  eye_wrinkles_02: "Rughe degli Occhi 2"
-  eye_wrinkles_03: "Rughe degli Occhi 3"
 
-  ## Rughe sulla fronte
-  expression_forehead_wrinkles: "Rughe sulla Fronte"
-  forehead_wrinkles_01: "Rughe sulla Fronte 1"
-  forehead_wrinkles_02: "Rughe sulla Fronte 2"
-  forehead_wrinkles_03: "Rughe sulla Fronte 3"
-
-  ## Altre Espressioni
+ ##expression_other
   expression_other: "Altre Rughe"
   cheek_wrinkles_left_01: "Rughe sulla Guancia Sinistra 1"
   cheek_wrinkles_right_01: "Rughe sulla Guancia Destra 1"
   cheek_wrinkles_both_01: "Rughe su Entrambe le Guance 1"
   nose_wrinkles_01: "Rughe sul Naso 1"
 
-  ## Capelli
-  gene_hair_type: "Tipo di Capelli"
-  hair_straight: "Capelli Lisci"
-  hair_wavy: "Capelli Ondulati"
-  hair_curly: "Capelli Ricci"
-  hair_afro: "Capelli Afro"
-  hair_straight_thin_beard: "Capelli Lisci con Barbetta Sottile"
-
-
-  ## Viso
+ ##Face
   gene_forehead_inner_brow_width: "Larghezza Interna delle Sopracciglia (Obsoleta)"
   vanilla_inner_brow_width: "Larghezza Interna delle Sopracciglia Standard"
   inner_brow_width: "Larghezza Interna delle Sopracciglia"
 
-  ## Bocca
+
+ ##Mouth
   gene_bs_mouth_lower_lip_profile: "Profilo Inferiore della Bocca"
   vanilla_lower_lip_profile: "Profilo Inferiore della Bocca Standard"
   lower_lip_profile: "Profilo Inferiore della Bocca"
 
-  ## Tipi di Invecchiamento dei Capelli
+ ##Hair aging types
+
   hair_aging: "Tipo di Invecchiamento dei Capelli"
   vanilla_hair_aging: "Invecchiamento dei Capelli Standard"
   late_hair_aging: "Invecchiamento dei Capelli Tardivo"
   no_hair_aging: "Nessun Invecchiamento dei Capelli"
 
-  ## Forme Fantasy delle Orecchie
-  gene_bs_ears_fantasy: "Forme Fantasy delle Orecchie"
+
+ ##Fantasy Ear Blendshapes
+
+gene_bs_ears_fantasy: "Forma delle orecchie fantasy"
   vanilla_ears_fantasy: "Orecchie Standard"
   ears_fantasy: "Orecchie Fantasy"
 
-  ## Forma delle Sopracciglia
+
+ ##Blend shape Eyebrow Straight
+
   gene_bs_eyebrow_straight: "Forma Sopracciglia Dritte"
   vanilla_eyebrow_straight: "Forma Sopracciglia Dritte Standard"
   eyebrow_straight: "Sopracciglia Dritte"
 
-  ## Asimmetria della Testa
+ ##Blend shape Head Asymmetry
+
   gene_bs_head_asymmetry_1: "Asimmetria della Testa"
   vanilla_head_asymmetry_1: "Asimmetria della Testa Standard"
   head_asymmetry_1: "Asimmetria della Testa 1"
@@ -251,15 +220,17 @@
   head_asymmetry_9: "Asimmetria della Testa 9"
   head_asymmetry_10: "Asimmetria della Testa 10"
 
-  ## Altezza Inferiore della Testa
+
+ ##Blend shape Head Lower Height
+
   gene_bs_head_lower_height: "Altezza Inferiore della Testa"
   vanilla_head_lower_height: "Altezza Inferiore della Testa Standard"
   head_lower_height_max: "Altezza Inferiore della Testa Massima"
   head_lower_height_min: "Altezza Inferiore della Testa Minima"
 
-  ## Forma Rotonda della Testa
+ ##Head Shape Archetypes
+
   gene_bs_head_shape: "Forme della Testa"
-  gene_bs_head_round_shape: "Forma Rotonda della Testa"
   vanilla_head_round_shape: "Forma Rotonda della Testa Standard"
   head_round_shape: "Forma Rotonda della Testa"
   head_archetype_shape_01: "Archetipo della testa 01"
@@ -273,80 +244,94 @@
   head_archetype_shape_09: "Archetipo della testa 09"
   head_archetype_shape_10: "Archetipo della testa 10"
 
-  ## Altezza del Setto Nasale
+ ##Blend shape Nose Septum Height
+
   gene_bs_nose_septum_height: "Altezza del Setto Nasale"
   vanilla_nose_septum_height: "Altezza del Setto Nasale Standard"
   nose_septum_height: "Altezza del Setto Nasale"
 
-  ##Blend shape Eye fold Overhaul
+ ##Blend shape Eye fold Overhaul
 
-  eye_fold_shape_neg_02: "Eye Fold 03"
-  eye_fold_shape_neg: "Eye Fold 01"
-  eye_fold_shape_pos: "Eye Fold 02"
-  #  vanilla_eye_fold_2: "Vanilla Eye fold 2"
-  #  eye_fold_2: "Eye fold 2"
+  eye_fold_shape_pos: "Piega dell'occhio 02"
+  eye_fold_shape_neg_02: "Piega dell'occhio 03"
+ #  vanilla_eye_fold_2: "Vanilla Eye fold 2"
+ #  eye_fold_2: "Eye fold 2"
+
+ ##Blend shape Eye fold 2
 
 
+ ##Blend shape Eye Outer Width
 
-  ## Larghezza Esterna degli Occhi
   gene_bs_eye_outer_width: "Larghezza Esterna degli Occhi"
   vanilla_eye_outer_width: "Larghezza Esterna degli Occhi Standard"
   eye_outer_width: "Larghezza Esterna degli Occhi"
 
-  ## Narici Alte
+ ##Blend shape Nose Flared Nostril
+
   gene_bs_nose_flared_nostril: "Narici Alte"
   vanilla_nose_flared_nostril: "Narici Alte Standard"
   nose_flared_nostril: "Narici Alte"
 
-  ## Naso Gonfio
+
+ ##Blend shape Nose Swollen
+
   gene_bs_nose_swollen: "Naso Gonfio"
   vanilla_nose_swollen: "Naso Gonfio Standard"
   nose_swollen: "Naso Gonfio"
 
-  ## Curva al Centro della Bocca
+ ##Blend shape Mouth Center Curve
+
   gene_bs_mouth_center_curve: "Curva al Centro della Bocca"
   vanilla_mouth_center_curve: "Curva al Centro della Bocca Standard"
   mouth_center_curve_max: "Curva al Centro della Bocca Massima"
   mouth_center_curve_min: "Curva al Centro della Bocca Minima"
 
-  ## Labbra Glamour
+ ##Blend shape Mouth Glamour Lips
+
   gene_bs_mouth_glamour_lips: "Labbra Glamour"
   vanilla_mouth_glamour_lips: "Labbra Glamour Standard"
   mouth_glamour_lips: "Labbra Glamour"
 
-  ## Sporgenza Inferiore della Bocca
+ ##Blend shape Mouth Lower Lip Forward
+
   gene_bs_mouth_lower_lip_forward: "Sporgenza Inferiore della Bocca"
   vanilla_lower_lip_forward: "Sporgenza Inferiore della Bocca Standard"
   mouth_lower_lip_forward: "Sporgenza Inferiore della Bocca"
 
-  ## Sporgenza Superiore della Bocca
+ ##Blend shape Mouth Upper Lip Forward
+
   gene_bs_mouth_upper_lip_forward: "Sporgenza Superiore della Bocca"
   vanilla_upper_lip_forward: "Sporgenza Superiore della Bocca Standard"
   mouth_upper_lip_forward: "Sporgenza Superiore della Bocca"
 
-  ## Definizione della Palpebra Superiore del Viso
+ ##Blend shape Face Upper Eyelid Definition
+
   face_detail_eye_upper_lid_def: "Definizione della Palpebra Superiore del Viso"
   vanilla_upper_lid_def: "Definizione della Palpebra Superiore Standard"
   upper_lid_def: "Definizione della Palpebra Superiore Tipo 1"
   upper_lid_def_2: "Definizione della palpebra superiore Tipo 2"
 
-  ## Colore della Cavità Oculare
-  eye_socket_color_01: "Colore Occhi Scuro Tipo 1"
-  eye_socket_color_02: "Colore Occhi Scuro Tipo 2"
-  eye_socket_color_03: "Colore Occhi Scuro Tipo 3"
+ ##Blend shape Face Upper Eyelid Definition
+ #Modified in vanilla
+ #eye_socket_color_01: "Socket Darker Type 1"
+ #eye_socket_color_02: "Socket Darker Type 2"
+ #eye_socket_color_03: "Socket Darker Type 3"
 
-  ## Larghezza Interna delle Sopracciglia Nuova
+ ##Eyebrow Inner Width New
+
   gene_eyebrow_inner_width: "Larghezza Interna delle Sopracciglia"
   eyebrow_inner_width_max: "Larghezza Interna delle Sopracciglia Massima"
   vanilla_eyebrow_inner_width: "Larghezza Interna delle Sopracciglia Standard"
   eyebrow_inner_width_min: "Larghezza Interna delle Sopracciglia Minima"
 
-  ## Dimensione della Palpebra Inferiore
+ ##Blend shape Lower Lid Size
+
   gene_bs_eye_lower_lid_size: "Dimensione della Palpebra Inferiore"
   vanilla_eye_lower_lid_size: "Dimensione della Palpebra Inferiore Standard"
   eye_lower_lid_size: "Dimensione della Palpebra Inferiore"
 
-  ## Forma degli Occhi
+ ##Blend shape Eye Shape
+
   gene_bs_eye_shape: "Forma degli Occhi"
   vanilla_eye_shape: "Forma degli Occhi Standard"
   eye_shape_01: "Forma degli Occhi 01 - Mandorla"
@@ -354,17 +339,19 @@
   eye_shape_03: "Forma degli occhi 03 - Mandorla piccola"
   eye_shape_04: "Forma degli occhi 04 - Variante mandorla"
 
-  ## Rotazione Nasolabiale
+ ##Blend shape Nasolabial Rotation
+
   gene_bs_nasolabial_rotation: "Rotazione Nasolabiale"
   vanilla_nasolabial_rotation: "Rotazione Nasolabiale Standard"
   nasolabial_rotation: "Rotazione Nasolabiale"
 
-  ## Saturazione del Colore degli Occhi
+ ##Eye Saturation
+
   gene_eye_color_saturation: "Saturazione del Colore degli Occhi"
   vanilla_eye_saturation: "Saturazione del Colore degli Occhi Standard"
   eye_color_saturation: "Saturazione del Colore degli Occhi"
 
-  ##Face Decals
+ ##Face Decals
   gene_face_dacals: "Face Decals"
   no_face_dacal: "No Decal"
   face_dacal_01: "Decal 01"
@@ -378,8 +365,7 @@
   face_dacal_09: "Decal 09"
   face_dacal_10: "Decal 10"
 
-
-  #Aggiunte Vanilla
+ #Vanilla Additions
 
   eye_upper_lid_size_pos: "Dimensione palpebra superiore positiva 1"
   eye_upper_lid_size_pos_02: "Dimensione palpebra superiore positiva 2"
@@ -389,37 +375,35 @@
 
   nose_ridge_def_02: "Mediumer"
 
-  #Rinominazione profilo del naso
-  nose_profile_neg: "Dritto 01"
+ #Nose Profile Renames
+ #Modified in vanilla
+ #nose_profile_neg: "Straight 01"
   nose_profile_pos: "Adunco 01"
-  nose_profile_hawk: "Aquilino 01"
+ #Modified in vanilla
+ #nose_profile_hawk: "Hawk 01"
   nose_profile_hawk_pos: "Aquilino 02"
   nose_profile_aquiline_01: "Aquilineo 01"
   nose_profile_aquiline_02: "Aquilineo 02"
   nose_profile_brody_01: "Brody 01"
 
-  ##Sovrapposizione piega degli occhi Blend shape
-  eye_fold_shape_neg: "Piega dell'occhio 01"
-  eye_fold_shape_pos: "Piega dell'occhio 02"
-  eye_fold_shape_neg_02: "Piega dell'occhio 03"
-
-  #Definizione della punta del naso
+ #Nose Tip Def
   nose_tip_def: "Definizione della punta del naso"
   nose_tip_def_02: "Definizione della punta del naso 02"
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

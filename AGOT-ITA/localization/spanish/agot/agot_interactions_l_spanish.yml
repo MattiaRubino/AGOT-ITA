@@ -1,10 +1,11 @@
 ﻿l_spanish:
   btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] fa parte della [btw_struggle|E] e tu no: $VALUE|=+0$"
+
+ # Set relationship debug interaction
   agot_set_relation_debug_paramour:0 "#difficulty_medium Amante#!"
   agot_remove_relation_debug_paramour:0 "#difficulty_medium Rimuovi Amante#!"
 
-
-  #Prisoner Interactions
+ # Prisoner Interactions
 
   mute_interaction:0 "Mute"
   mute_interaction_desc:0 "Make [recipient.GetShortUINameNoTooltip] a [GetTrait('mute').GetName( GetPlayer )]"
@@ -12,25 +13,26 @@
   sell_prisoner_into_slavery_interaction:0 "Vendere come schiavo"
   sell_prisoner_into_slavery_interaction_desc:0 "Vendere [recipient.GetShortUINameNoTooltip] come schiavo"
 
-  #septa 
-  septa_child_language_rank_1:0 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce allo [scheme|E] #P 5#! di [success_chance|E] e [scheme_odds|E]addizionali"
-  septa_child_language_rank_2:0 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce allo [scheme|E] #P 10#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  septa_child_language_rank_3:0 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce allo [scheme|E] #P 15#! di [success_chance|E] aned [scheme_odds|E] addizionali"
-  septa_child_language_rank_4:0 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce allo [scheme|E] #P 20#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  septa_child_language_rank_5:0 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce allo [scheme|E] #P 25#! di [success_chance|E] e [scheme_odds|E] addizionali"
+ # septa
+septa_child_language_rank_1: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 5#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+septa_child_language_rank_2: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 10#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+septa_child_language_rank_3: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 15#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+septa_child_language_rank_4: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 20#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+septa_child_language_rank_5: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 25#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
 
+ #Maester
+maester_child_language_rank_1: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('maester_court_position').GetName()] conferisce al [scheme|E] #P 5#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+maester_child_language_rank_2: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('maester_court_position').GetName()] conferisce al [scheme|E] #P 10#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+maester_child_language_rank_3: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('maester_court_position').GetName()] conferisce al [scheme|E] #P 15#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+maester_child_language_rank_4: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('maester_court_position').GetName()] conferisce al [scheme|E] #P 20#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
+maester_child_language_rank_5: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('maester_court_position').GetName()] conferisce al [scheme|E] #P 25#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
 
-  maester_child_language_rank_1:0 "L'[aptitude|E] della tua [GetCourtPositionType('maester_court_position').GetName()] conferisce allo [scheme|E] #P 5#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  maester_child_language_rank_2:0 "L'[aptitude|E] della tua [GetCourtPositionType('maester_court_position').GetName()] conferisce allo [scheme|E] #P 10#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  maester_child_language_rank_3:0 "L'[aptitude|E] della tua [GetCourtPositionType('maester_court_position').GetName()] conferisce allo [scheme|E] #P 15#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  maester_child_language_rank_4:0 "L'[aptitude|E] della tua [GetCourtPositionType('maester_court_position').GetName()] conferisce allo [scheme|E] #P 20#! di [success_chance|E] e [scheme_odds|E] addizionali"
-  maester_child_language_rank_5:0 "L'[aptitude|E] della tua [GetCourtPositionType('maester_court_position').GetName()] conferisce allo [scheme|E] #P 25#! di [success_chance|E] e [scheme_odds|E] addizionali"
-
-  # Nightswatch / Kingsguard Vows interaction Desc
+ # Nightswatch / Kingsguard Vows interaction Desc
   ORDER_VOWS_MARRIED_OR_BETROTHED:0 "Sono [betrothed|E] per essere sposato: $VALUE|=+0$"
   ORDER_VOWS_DIFFERENT_FAITH:0 "I tuoi dei sono sbagliati: $VALUE|=+0$"
 
   ORDER_VOWS_AMBITION:0 "[TARGET_CHARACTER.GetShortUIName|U] si è allenato per tutta la vita per questo."
+
 
   ORDER_VOWS_LOWBORN:0 "Sceglieresti un [lowborn|E]?!: $VALUE|=+0$"
   ORDER_VOWS_HEIR_1:0 "Sono l'[primary_heir|E] di un titolo: $VALUE|=+0$"
@@ -65,18 +67,16 @@
   take_claimed_vs_sword_interaction_i_am_imprisoned:0 "#P Sei imprigionato #!"
   take_claimed_vs_sword_interaction_inappropriate:0 "#N Il bersaglio non è una Spada d'Acciaio Valyriano #!"
 
-
   raise_to_nobility_interaction:0 "Eleva a Nobiltà"
   raise_to_nobility_interaction_desc:0 "Eleva [recipient.GetShortUINameNoTooltip] alla nobiltà"
   raise_to_nobility_tt:0 "Verrà elevat[recipient.Custom('DE_END_PRO_S_N')] alla nobiltà e fonderà una nuova dinastia"
   raised_me_to_nobility_opinion:0 "Elevat[recipient.Custom('DE_END_PRO_S_N')] alla Nobiltà"
 
   already_offered_concubine_warning:0 "@warning_icon! #X ai già offerto una concubina a [recipient.GetShortUIName], offrendone un'altra si #underline sovrascrivera#! il modificatore [opinion|E] esistente!#!"
+
   hof_ask_for_claim_must_higher_one_tier_desc:0 "La differenza di rango tra te e il personaggio bersaglio è troppo grande"
 
   CANNOT_GRANT_OWN_SC_VASSAL_THIRD:0 "Non puoi cedere un membro del Concilio Ristretto preso in prestito"
-  is_available_desc_third:0 "Sei disponibile"
-  NOT_is_available_desc_third:0 "Non sei disponibile"
 
   agot_dragon.0004.t:0 "Un Momento Difficile"
   agot_dragon.0004.desc:0 "Sono stato svegliato nelle prime ore del mattino da due guardie sconosciute. Avevo certamente considerato ciò che sta per accadere nei miei momenti più oscuri. Ma nessuna quantità di immagini mentali avrebbe potuto prepararmi ad affrontare questo. Mentre vengo scortato davanti al drago di [actor.GetShortUINamePossessive], vivo un momento di serena e perfetta chiarezza. Passiamo tanto tempo a considerare le nostre azioni, le nostre decisioni e come queste influenzano il mondo. Ma è tutto una menzogna. Non sono altro che un sacco di carne, tendini e ossa. Questo, questo essere che mi guarda con lo sguardo affamato di un predatore, questo è il loro mondo; noi ci viviamo solo dentro.\n\nO, beh, vivevamo."
@@ -86,11 +86,11 @@
   AGOT_ACTIVITY_GUEST_DIVIDED_DYNASTY:0 "[ROOT.Char.GetSheHe|U] sospetta del tuo invito: $VALUE|=+0$"
   AGOT_ACTIVITY_GUEST_HOUSE_FEUD:0 "[ROOT.Char.GetSheHe|U] sospetta del tuo invito: $VALUE|=+0$"
 
-  # Interazioni con i seguaci di R'hllor
+ # R'hllor Interactions
   seek_healing_from_red_priest_interaction:0 "Chiedi guarigione"
   seek_healing_from_red_priest_interaction_desc:0 "Chiedi guarigione a [recipient.GetShortUINameNoTooltip]"
   offer_red_priest_healing_to_liege_interaction:0 "Offri guarigione"
   offer_red_priest_healing_to_liege_interaction_desc:0 "Offri guarigione a [recipient.GetShortUINameNoTooltip]"
 
-  # Generale
+ # General
   agot_can_disinherit_flag_tt:0 "[recipient.GetShortUIName] ha rifiutato di adempiere al tentativo di fidanzamento"

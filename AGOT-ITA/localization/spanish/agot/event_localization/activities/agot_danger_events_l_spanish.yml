@@ -65,46 +65,35 @@
  agot_danger.0002.d.tt:0 "Sacrificherai [sacrificed_entourage.GetName] nel tentativo di distrarre i razziatori."
  agot_danger.0002.d.sacrifice:0 "[sacrificed_entourage.GetFirstNameNoTooltip] È Stato Lasciato Alle Spalle"
 
-
  agot_danger.0003.title:0 "$travel_danger_prefix$ Il Crepaccio Ghiacciato"
   agot_danger.0003.desc:0 "Mentre attraverso la distesa di ghiaccio, navigando con attenzione tra crepacci e gole che solcano la sua superficie, odo un debole grido dietro di me. Voltandomi per seguire il suono, vedo [crevasse_fallerinto.GetName], il ritardatario in coda al mio seguito, aggrappato al bordo di un crepaccio. La sua slitta pende sotto di [crevasse_fallerinto.GetSheHe]. Il suo volto si contorce nell'orrore mentre [crevasse_fallerinto.GetSheHe] urla il mio nome, lottando disperatamente contro il peso della slitta che l[crevasse_fallerinto.Custom('DE_END_PRO_S_N')] trascina verso una fine certa."
-
   agot_danger.0003.a:0 "Ecco perché porto sempre una corda con me."
   agot_danger.0003.a.tt:0 "Con abilità, lanci il laccio verso [crevasse_fallerinto.GetFirstNameNoTooltip], leghi la corda attorno a te e pianti i piedi saldamente finché non arriva aiuto."
-
   agot_danger.0003.b:0 "Tieni duro, ti tiro su!"
   agot_danger.0003.b.toast.success.t:0 "Sei riuscito a tirare su [crevasse_fallerinto.GetName] insieme alla sua slitta."
   agot_danger.0003.b.toast.failure.t:0 "La presa è scivolata e [crevasse_fallerinto.GetName] è caduto nella morte."
-
   agot_danger.0003.c:0 "Il peso combinato è troppo, devo tagliare l'imbracatura della slitta di [crevasse_fallerinto.GetTitledFirstNamePossessiveNoTooltip]."
   agot_danger.0003.c.tt:0 "La perdita delle provviste significa che dovrai razionare."
-
   agot_danger.0003.d:0 "Ebbene, [crevasse_fallerinto.GetFirstNameNoTooltip], è ora che inizi a cavartela da solo."
   agot_danger.0003.d.tt:0 "Osservi indifferente mentre la slitta trascina [crevasse_fallerinto.GetName] nell'abisso gelido."
 
   agot_danger.0004.title:0 "$travel_danger_prefix$ Il Vento Scuoiatore"
   agot_danger.0004.desc:0 "Viaggiare attraverso le inospitali lande che si estendono oltre la Barriera è già abbastanza difficile in una buona giornata. Oggi, sembra, non sarà una di quelle. L'aria si insinua in ogni fessura delle mie pellicce e del mantello, e le raffiche ululanti martellano i miei sensi. So che le nuvole sopra di me porteranno con sé neve che mi accecherà. Con la neve arriverà l'umidità, e con l'umidità il gelo. Trovare riparo potrebbe salvare delle vite ora."
-
   agot_danger.0004.a:0 "So per certo che c'è una grotta qui vicino!"
   agot_danger.0004.a.tt:0 "Troverai riparo in una grotta finché la tempesta non si calma."
-
   agot_danger.0004.b:0 "Dobbiamo trovare un riparo, in fretta!"
   agot_danger.0004.b.tt:0 "Cercherai un luogo dove accamparvi. Alcuni membri del gruppo potrebbero subire ferite da freddo."
   agot_danger.0004.b.toast.lostlimb.t:0 "[frostbite_victim.GetName] ha nutrito gli Dei del Gelo con la sua carne."
-
   agot_danger.0004.c:0 "Non mi fermo per il maltempo. Marciare o morire."
   agot_danger.0004.c.tt:0 "Proseguirai attraverso i venti gelidi, molti membri del tuo seguito subiranno congelamenti o periranno."
   agot_danger.0004.c.toast.death.t:0 "[frostbite_victim.GetName] è stato sopraffatto dal vento gelido."
-
   agot_danger.0005.title:0 "$travel_danger_prefix$ Il Vento Scuoiatore: La Grotta"
   agot_danger.0005.desc:0 "Mi getto nel santuario oscuro della grotta proprio mentre i primi fiocchi di neve iniziano a precipitare dalle nuvole sopra di noi. L'ululato del vento ci perseguita ancora all'interno, ma le spesse pareti della grotta ci proteggeranno dal peggio del freddo.\n\nMentre avanzo più in profondità, i miei occhi si abituano all'oscurità, non avendo torce per rischiararla, e rimango sorpreso nel trovare dipinti che mi aspettano più avanti nella grotta. Raffigurazioni di un popolo che ha usato questo luogo come rifugio prima di noi."
-
   agot_danger.0005.a:0 "Guardate questi dipinti murali, devono essere antichi!"
   agot_danger.0005.a.tt:0 "Esaminerai attentamente i dipinti nella grotta per cercare di trarne qualcosa."
   agot_danger.0005.a.success:0 "Riesci a riconoscere qualcosa nei dipinti."
   agot_danger.0005.a.failure:0 "Sono solo figure di uomini, animali e oggetti. Carini, ma non ti dicono nulla."
   agot_danger.0005.a.toast.failure.t:0 "I dipinti della grotta non rivelano nulla."
-
   agot_danger.0005.b:0 "Il fuoco è caldo, ma [cave_companion.GetFirstNameNoTooltip] lo è di più."
   agot_danger.0005.c:0 "Se siamo già bloccati qui, tanto vale perlustrare il luogo."
   agot_danger.0005.c.tt:0 "Perlustrerai la grotta alla ricerca di oggetti di valore."
@@ -117,20 +106,16 @@
   agot_danger.0005.c.bear.tt:0 "Trovi il proprietario della grotta."
   agot_danger.0005.d:0 "Accampiamoci. Accendiamo un fuoco e raccontiamo storie."
   agot_danger.0005.d.tt:0 "Aspetterai che la bufera passi condividendo storie attorno al fuoco."
-
   agot_danger.0006.title:0 "$travel_danger_prefix$ Il Vento Scuoiatore: Dipinti Ancestrali"
   agot_danger.0006.desc:0 "Osservando da vicino i dipinti della grotta, noto che non appartengono tutti a un solo popolo. Le storie di una dozzina di clan e tribù rivestono le pareti, raccontando delle loro lotte e dei loro trionfi. Questo luogo ha dato rifugio a tutti loro, come lo dà ora a noi. Queste pareti raccontano le loro storie, quasi come se potessi sentire i loro fantasmi sussurrarmi attraverso i lontani suoni del vento. Esaminando i dipinti più nel dettaglio, alcuni iniziano a richiamare la mia attenzione.\n\nA quale mi dedicherò?"
-
   agot_danger.0006.a:0 "Queste file di piccoli disegni, c'è un motivo. È poesia?"
   agot_danger.0006.a.tt:0 "Mentre cercherai di decifrare la poesia, finirai involontariamente per comporre qualche verso tuo."
   agot_danger.0006.b:0 "Riconosco quella scena: il nostro fondatore che uccide il mammut bianco con un’unica zanna!"
   agot_danger.0006.b.tt:0 "Avere un resoconto contemporaneo delle imprese del tuo antenato rafforzerà la leggenda del tuo clan."
   agot_danger.0006.c:0 "Non ho mai sentito parlare della tecnica di pesca rappresentata qui, è davvero ingegnosa."
   agot_danger.0006.c.tt:0 "Alcune scene mostrano figure che svolgono i loro compiti con un'ingegnosità ispiratrice."
-
   agot_danger.0007.title:0 "$travel_danger_prefix$ Il Vento Scuoiatore: Risvegliare l'Ospite"
   agot_danger.0007.desc:0 "Mentre mi addentro più profondamente nella grotta, trovo ossa di bestie e uomini sparse sul pavimento. Mi fermo quando realizzo che alcune di queste ossa hanno ancora carne attaccata, luccicanti di sangue cremisi alla luce limitata. Istintivamente, inizio ad afferrare un'arma proprio mentre la massiccia figura di un orso muscoloso si fa avanti. Il sangue gocciola lentamente dalla sua bocca mentre si alza sulle zampe posteriori e lancia un ruggito di sfida."
-
   agot_danger.0007.a:0 "Questa grotta non è abbastanza grande per entrambi."
   agot_danger.0007.b:0 "Tutti, preparate le lance!"
   agot_danger.0007.b.cleankill.tt:0 "Il tuo gruppo uccide l'orso senza incidenti."
@@ -138,10 +123,8 @@
   agot_danger.0007.b.toast.bearwound.t:0 "[injury_target.GetName] è stato ferito da un orso."
   agot_danger.0007.b.toast.bearkill.t:0 "[injury_target.GetName] ha trovato la morte nella tana di un orso."
   agot_danger.0007.b.toast.cleankill.t:0 "Nessuno è stato ferito dall'orso."
-
   agot_danger.0008.title:0 "$travel_danger_prefix$ Il Vento Scuoiatore: Trofeo dello Speleologo"
   agot_danger.0008.desc:0 "Mi trovo sopra l'orso morente, il suo sangue ricopre la mia arma mentre la bestia esala il suo ultimo respiro affannoso. Il suo corpo si affloscia sul pavimento della sua vecchia tana, e sospiro di sollievo. Mi volto verso il mio gruppo rimanente con un sorriso soddisfatto: questo orso sarà una grande storia. Tutti aspettano me ora, sapendo che spetta a me scegliere per primo un trofeo dalla bestia che abbiamo abbattuto."
-
   agot_danger.0008.a:0 "Dopo quello che abbiamo passato, non posso dire di no a quella lussureggiante pelliccia."
   agot_danger.0008.a.tt:0 "Ottieni un manufatto di corte: Pelle d'Orso."
   agot_danger.0008.b:0 "Prendete la testa del mostro e pulite il cranio per me."
@@ -151,7 +134,6 @@
 
   agot_danger.0009.title:0 "$travel_danger_prefix$ Su Ghiaccio Sottile"
   agot_danger.0009.desc:0 "Nel profondo nord, è raro trovare strade degne di questo nome, e anche i sentieri battuti sono pochi e lontani tra loro. Le gelide lande sono costellate di montagne ghiacciate e crepacci, e spesso l'unica area pianeggiante e sgombra è un fiume ghiacciato. Il nostro gruppo ne ha trovato uno, offrendo l'opportunità di usarlo come strada per la prossima parte del viaggio. Tuttavia, in questo periodo dell'anno, lo spessore del ghiaccio è dubbio, rendendo incerto il passaggio sicuro su questo terreno insidioso."
-
   agot_danger.0009.a:0 "Camminerò io per primo per testare il ghiaccio."
   agot_danger.0009.a.tt:0 "Controllerai se il ghiaccio si rompe sotto il tuo peso."
   agot_danger.0009.a.icegood.tt:0 "Il ghiaccio è abbastanza spesso."
@@ -183,14 +165,12 @@
 
   agot_danger.0011.title:0 "$travel_danger_prefix$ Su Ghiaccio Sottile: [travel_leader.GetWomanMan|U] Sott'Acqua"
   agot_danger.0011.desc:0 "[travel_leader.GetFirstNameNicknamed] segue fedelmente il mio ordine e scende sulla superficie ghiacciata. [travel_leader.GetSheHe|U] compie appena tre passi quando, senza alcun preavviso apparente, il ghiaccio si spacca violentemente sotto i suoi piedi e [travel_leader.GetSheHe] scompare sotto la sua superficie."
-
   agot_danger.0011.a:0 "[travel_leader.GetSheHe|U] è da solo ora."
   agot_danger.0011.a.tt:0 "Rimani in attesa che [travel_leader.GetFirstNameNoTooltip] riemerga — oppure no."
   agot_danger.0011.a.swim.tt:0 "[travel_leader.GetFirstNameNoTooltip] riemerge da sotto il ghiaccio."
   agot_danger.0011.a.swim.toast:0 "[travel_leader.GetFirstNameNoTooltip] è riemerso dall'acqua gelida."
   agot_danger.0011.a.sink.tt:0 "[travel_leader.GetFirstNameNoTooltip] annega nel fiume."
   agot_danger.0011.a.sink.toast:0 "[travel_leader.GetFirstNameNoTooltip] è mort[travel_leader.Custom('DE_END_PRO_S_N')] nelle gelide profondità."
-
   agot_danger.0011.b:0 "Devo aiutarl[travel_leader.Custom('DE_END_PRO_S_N')]!"
   agot_danger.0011.b.tt:0 "Corri a salvare [travel_leader.GetName]."
   agot_danger.0011.b.swim.tt:0 "Riesci a tirare fuori [travel_leader.GetFirstNameNoTooltip] da sotto il ghiaccio."

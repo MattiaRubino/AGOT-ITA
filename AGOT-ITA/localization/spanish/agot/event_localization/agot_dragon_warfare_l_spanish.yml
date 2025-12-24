@@ -3,7 +3,7 @@
   agot_dragon_warfare.you_have_caused_buff:0 "#P [dragon_in_battle.GetName] ha aiutato grandemente la tua parte in questa battaglia!#!\n\n#weak Il comandante della battaglia ha ricevuto un modificatore temporaneo.#!"
   agot_dragon_warfare.enemy_has_received_buff:0 "#N [dragon_in_battle.GetName] ha danneggiato gravemente la tua parte in questa battaglia!#!\n\n#weak Il comandante nemico ha ricevuto un modificatore temporaneo.#!"
 
-  # Un Ruggito Devastante
+ # A Shattering Roar
   agot_dragon_warfare.0001.t:0 "Un Ruggito Devastante"
 
   agot_dragon_warfare.0002.t:0 "$agot_dragon_warfare.0001.t$"
@@ -33,7 +33,6 @@
   agot_dragon_warfare.0004.ending:0 "\n\nPiù tardi, sento da [enemy_knight.GetTitledFirstNameNoTooltip] che il drago ha emesso un terrificante #bold ruggito#!, ma non importa — il danno è fatto."
   agot_dragon_warfare.0004.a:0 "Quando si combattono tali mostri, è necessario più coraggio!"
 
-
   agot_dragon_warfare.0005.t:0 "$agot_dragon_warfare.0001.t$"
   agot_dragon_warfare.0005.opening1:0 "Con la battaglia ancora in corso, [dragon_in_battle.GetName] ed io voliamo basso sopra il campo di battaglia. Puntando verso le loro linee, la mia cavalcatura [dragon_in_battle.Custom('GetDragonColorFull')] emette un grande #bold ruggito#! che fa vacillare il nemico [enemy_knight.GetName], i suoi compagni si disperdono proprio mentre le nostre forze caricano.\n\n"
   agot_dragon_warfare.0005.opening2:0 "Mentre la battaglia infuria, dirigo [dragon_in_battle.GetName] in picchiata sopra la linea difesa con tenacia. Senza alcun mio ordine, [dragon_in_battle.GetNameNoTooltip] emette un potente #bold ruggito#! — un suono terrificante carico di furia.\n\n"
@@ -46,7 +45,7 @@
   agot_dragon_warfare.0005.a.valyrian:0 "#EMP Dracarys!#!"
   agot_dragon_warfare.0005.a:0 "Sputa fuoco su di loro, [dragon_in_battle.GetNameNoTooltip]!"
 
-  # Una Carica Folle
+ # A Mad Charge
   agot_dragon_warfare.0006.t:0 "Una Carica Folle"
 
   agot_dragon_warfare.0007.t:0 "$agot_dragon_warfare.0006.t$"
@@ -83,7 +82,7 @@
   agot_dragon_warfare.0008.c:0 "No! Non posso affrontare un guerriero simile!"
   agot_dragon_warfare.0008.c.f:0 "Fuggi da [enemy_knight.GetFirstNameNicknamed]!"
 
-  # A Fiery Arrangement
+ # A Fiery Arrangement
   agot_dragon_warfare.0012.t:0 "Una Dispiegamento Infuocato"
   agot_dragon_warfare.0012.opening1:0 "Volando alto sopra la posizione nemica — uomini e cavalli si dispongono per la battaglia imminente. A bordo del mio grande drago [dragon_in_battle.GetName], sembrano solo formiche. Tuttavia, alcune formiche sono più significative di altre, e un ondeggiare di stendardi disposti insieme attira la mia attenzione, anche da qui sopra."
   agot_dragon_warfare.0012.opening2:0 "Dalle nuvole, in cima a [dragon_in_battle.GetName], posso vedere l'intero campo della Battaglia di [battle_location.GetName] mentre si svolge — piccoli gruppi dei nostri reggimenti che si scontrano con le linee nemiche. Da qui sopra, sembrano quasi giocattoli manovrati dai comandanti. I miei occhi si spostano su un gruppo di stendardi che ondeggiano, segnando la posizione di quei comandanti stessi..."
@@ -108,9 +107,6 @@
   agot_dragon_warfare.0013.burned3:0 "Corro via il più velocemente possibile. Vedo una figura infuocata cadere accanto a me, un tempo un comandante come me, e salto sopra il mucchio infuocato mentre mi precipito verso la fuga. Il peggio del fuoco di [dragon_in_battle.GetNamePossessiveNoTooltip] è diretto altrove, ma sento la mia pelle scottarsi e screpolarsi sotto la mia armatura rovente."
   agot_dragon_warfare.0013.a:0 "[ROOT.Char.Custom('Scream')]"
 
-
-
-
   agot_dragon_warfare.0014.t:0 "Destino sulle ali del terrore"
   agot_dragon_warfare.0014.desc:0 "Questo sarà ricordato come uno dei più devastanti errori militari nella storia del regno.\n\nChe un piano così standard — riunirsi prima della battaglia per discutere strategie e posizionamenti — potesse andare così male sarebbe stato impensabile ieri. [enemy_knight.GetTitledFirstName], così come i miei altri comandanti e i più valorosi guerrieri, si erano riuniti prima della battaglia. Ma invece di discutere strategie, hanno affrontato l'orrore: [dragonrider_in_battle.GetTitledFirstName] è sceso in sella al drago e ha avvolto i leader del mio esercito con il fuoco draconico!\n\nColoro che sono sopravvissuti sono orribilmente ustionati, grazie al terrore [dragon_in_battle.Custom('GetDragonColorFull')] di [dragon_in_battle.GetNameNicknamed]. Io e pochi altri abbiamo evitato tale sorte solo perché non eravamo ancora arrivati... La leadership del nostro esercito è devastata, e ora perderemo sicuramente questa battaglia."
   agot_dragon_warfare.0014.a:0 "Maledizione a quei demoni alati!"
@@ -119,7 +115,7 @@
   agot_dragon_warfare.0015.desc:0 "Questo sarà ricordato come una delle vittorie militari più decisive nella storia dei reami!\n\nGrazie alle eroiche azioni [dragonrider_in_battle.Custom('DE_PRO_PER_P_3P_A')] [dragonrider_in_battle.GetTitledFirstName] in sella al drago, la leadership nemica è stata devastata. I comandanti nemici si erano riuniti prima della battaglia per discutere strategie e posizionamenti, ma tale raduno ha fornito il bersaglio perfetto per [dragon_in_battle.GetNameNicknamed].\n\n[enemy_knight.GetTitledFirstName], così come molti altri comandanti e guerrieri di rilievo, sono stati accolti dal fuoco draconico! Coloro che sono sopravvissuti sono orribilmente ustionati, grazie a [dragonrider_in_battle.GetFirstNameNoTooltip] e alla sua bestia.\n\nIl nemico è disorganizzato, e i loro ranghi ora vacillano senza una guida chiara; sicuramente vinceremo questa battaglia."
   agot_dragon_warfare.0015.a:0 "Grande gloria a noi!"
 
-  # I Rischi del Coraggio
+ # The Risks of Bravery
   agot_dragon_warfare.0016.t:0 "I Rischi del Coraggio"
 
   agot_dragon_warfare.0017.t:0 "$agot_dragon_warfare.0016.t$"
@@ -149,7 +145,7 @@
   agot_dragon_warfare.0019.desc:0 "Sto supervisionando i preparativi delle mie linee per l'inevitabile battaglia di [battle_location.GetName]. Mentre dirigo i posizionamenti, vedo [enemy_commander_in_battle.GetName] indossare il suo elmo attraverso le linee nemiche. Sicuramente, [enemy_commander_in_battle.GetSheHe] non può caricare direttamente?\n\nE invece sì! Come un carro impazzito vedo cosa accadrà prima che succeda. [dragonrider_in_battle.GetTitledFirstName] discende come un fulmine su [dragon_in_battle.GetName], e con un #bold TH-WOOP#! che può essere udito in tutto il campo di battaglia, vedo il suo corpo essere colpito, volando per decine di piedi prima di schiantarsi a terra. Se non bastasse, [enemy_commander_in_battle.GetSheHe] viene poi schiacciato dalla carica delle sue stesse truppe."
   agot_dragon_warfare.0019.a:0 "Il coraggioso di uno sciocco."
 
-  # A Bolt from the Blue
+ # A Bolt from the Blue
   agot_dragon_warfare.0020.t:0 "Un Fulmine dal Cielo"
 
   agot_dragon_warfare.0021.t:0 "$agot_dragon_warfare.0020.t$"
@@ -177,7 +173,7 @@
   agot_dragon_warfare.0025.a:0 "Ah! Prendi questo, grande lucertola!"
   agot_dragon_warfare.0025.a.f:0 "Emetti un grido di vittoria, la morte del cavaliere dei draghi nemico è una grande benedizione per la tua fazione."
 
-
+ # The Great Deluge
   agot_dragon_warfare.0040.t:0 "Il Grande Diluvio"
 
   agot_dragon_warfare.0041.t:0 "$agot_dragon_warfare.0040.t$"
@@ -205,9 +201,7 @@
   agot_dragon_warfare.0045.a:0 "Ha! Prendi questo, lucertolone!"
   agot_dragon_warfare.0045.a.f:0 "Esulti con un grido di vittoria: la morte del cavaliere nemico è un gran vantaggio per il tuo schieramento."
 
-
-
-  # Draconic Intervention
+ # Draconic Intervention
   agot_dragon_warfare.0026.battle_title:0 "Intervento Draconico:"
   agot_dragon_warfare.0026.t:0 "$agot_dragon_warfare.0026.battle_title$ Salvatore Alato"
   agot_dragon_warfare.0026.opening:0 "Una parola. Una parola si diffonde sul campo di battaglia come un'onda travolgente. Una parola che incute paura nei cuori collettivi di una massa di soldati coraggiosi. 'DRAGO!' La battaglia si è fermata, tutti gli sguardi sono rivolti verso il cielo, l'aria è carica di paura.\n\nRiprendendomi dallo shock, inizio a dubitare della visione... Ma la mia inchiesta si blocca in gola quando il ruggito mostruoso di [dragon_in_battle.GetNameNicknamed] frantuma la calma congelata della battaglia. Tutto l'inferno si scatena, e considero brevemente la ritirata."
@@ -238,7 +232,6 @@
   agot_dragon_warfare.0030.a:0 "[ROOT.Char.Custom('Scream')]"
   agot_dragon_warfare.0030.a.tt:0 "#N [dragon_in_battle.GetName] ha inflitto gravi danni a tutte le fazioni in questa battaglia!#!\n\n#weak Beh, è un peccato.#"
 
-
   agot_dragon_warfare.0031.t:0 "$agot_dragon_warfare.0026.battle_title$ Giudizio Infuocato"
   agot_dragon_warfare.0031.outro:0 "\n\n[dragon_in_battle.Custom('GetDragonSheHe')|U] è indiscriminato nella sua rabbia, spruzzando fuoco draconico sulle mie truppe e sui nemici indistintamente. Da questa distanza, non posso fare altro che guardare mentre i miei soldati vengono trasformati in cenere davanti ai miei occhi."
   agot_dragon_warfare.0031.a:0 "È un incubo infernale!"
@@ -255,8 +248,7 @@
   agot_dragon_warfare.0034.b:0 "Devo andarmene da qui."
   agot_dragon_warfare.0034.b.craven:0 "Speri che [dragon_in_battle.Custom('GetDragonSheHe')] non ti abbia visto!"
 
-
-  # Dragon Kills Loc
+ # Dragon Kills Loc
   dragon_ate_enemy_enemy:1 "Il nostro [TARGET_CHARACTER.GetShortUINameNoTooltip] è stato divorato dal [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
 
   dragon_ate_enemy_friendly:1 "Il nostro [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ha divorato [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
@@ -269,25 +261,31 @@
 
   killed_by_dragon_flame_knight_enemy:0 "Con un ruggito infuocato che ha scosso la terra, il [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ha scagliato una marea di fiamme incandescenti, riducendo il nostro cavaliere [TARGET_CHARACTER.GetShortUINameNoTooltip] in cenere in un istante."
 
+
   killed_by_dragon_tail_knight_friendly:0 "Con una mossa veloce e mortale, la coda del nostro [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ha colpito [TARGET_CHARACTER.GetShortUINameNoTooltip] a mezz'aria, lanciando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] come un giocattolo."
 
   killed_by_dragon_tail_knight_enemy:0 "Con una mossa veloce e mortale, la coda del [GetTrait('dragon').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip] ha colpito il valoroso [TARGET_CHARACTER.GetShortUINameNoTooltip] a mezz'aria, lanciando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] come un giocattolo."
+
 
   killed_by_dragon_jaws_knight_friendly:0 "[CHARACTER.GetShortUINameNoTooltip] è sceso improvvisamente, le sue enormi fauci si sono chiuse attorno a [TARGET_CHARACTER.GetShortUINameNoTooltip], sollevando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] urlante nel cielo prima di lasciarlo cadere nel vuoto sottostante."
 
   killed_by_dragon_jaws_knight_enemy:0 "[CHARACTER.GetShortUINameNoTooltip] è sceso improvvisamente, le sue enormi fauci si sono chiuse attorno a [TARGET_CHARACTER.GetShortUINameNoTooltip], sollevando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] urlante nel cielo prima di lasciarlo cadere nel vuoto sottostante."
 
+
   killed_by_dragon_breath_knight_friendly:0 "Un improvviso alito di zolfo è stato l'unico avvertimento per [TARGET_CHARACTER.GetShortUINameNoTooltip] prima che un getto fatale di fiamme [TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] avvolgesse, lasciando solo una silouette carbonizzata."
 
   killed_by_dragon_breath_knight_enemy:0 "Un improvviso alito di zolfo è stato l'unico avvertimento per [TARGET_CHARACTER.GetShortUINameNoTooltip] prima che un getto fatale di fiamme [TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] avvolgesse , lasciando solo una silouette carbonizzata."
+
 
   killed_by_dragon_claws_knight_friendly:0 "Gli artigli di [CHARACTER.GetShortUINameNoTooltip], affilati come il miglior acciaio valyriano, hanno lacerato l'armatura di [TARGET_CHARACTER.GetShortUINameNoTooltip] come se fosse carta, lasciando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] mortalmente ferit[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] sul campo di battaglia."
 
   killed_by_dragon_claws_knight_enemy:0 "Gli artigli di [CHARACTER.GetShortUINameNoTooltip], affilati come il miglior acciaio valyriano, hanno lacerato l'armatura di [TARGET_CHARACTER.GetShortUINameNoTooltip] come se fosse carta, lasciando[TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')] mortalmente ferit[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] sul campo di battaglia."
 
+
   killed_by_dragon_crushed_knight_friendly:0 "La terra è tremata quando [CHARACTER.GetShortUINameNoTooltip] è atterrato, il suo peso enorme ha schiacciato [TARGET_CHARACTER.GetShortUINameNoTooltip] sotto di esso, spegnendo la sua vita in un batter d'occhio."
 
   killed_by_dragon_crushed_knight_enemy:0 "La terra è tremata quando [CHARACTER.GetShortUINameNoTooltip] è atterrato, il suo peso enorme ha schiacciato [TARGET_CHARACTER.GetShortUINameNoTooltip] sotto di esso, spegnendo la sua vita in un batter d'occhio."
+
 
   killed_by_dragon_horns_knight_friendly:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] non ha avuto tempo di reagire mentre [CHARACTER.GetShortUINameNoTooltip] si faceva strada tra le sue file, i suoi corni letali hanno perforato la sua armatura e infilzat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')]."
 
@@ -297,18 +295,20 @@
 
   killed_by_dragon_maw_knight_enemy:0 "Gli occhi di [CHARACTER.GetShortUINameNoTooltip] brillavano di intenzione mortale mentre [CHARACTER.Custom('GetDragonSheHe')] puntava su [TARGET_CHARACTER.GetShortUINameNoTooltip], le sue fauci [TARGET_CHARACTER.Custom('DE_PRO_POS_P_3P')]  hanno afferrat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] e hanno messo fine al suo grido di battaglia per sempre."
 
+
   killed_by_dragon_wings_knight_friendly:0 "Con un poderoso battito delle ali, [CHARACTER.GetShortUINameNoTooltip] ha creato una raffica di vento così potente da travolgere [random_knight.GetFirstName], scagliando[random_knight.Custom('DE_PRO_POS_P_3P')] tra le fauci della morte."
 
   killed_by_dragon_wings_knight_enemy:0 "Con un poderoso battito delle ali, [CHARACTER.GetShortUINameNoTooltip] ha creato una raffica di vento così potente da travolgere [random_knight.GetFirstName], scagliando[random_knight.Custom('DE_PRO_POS_P_3P')] tra le fauci della morte."
 
+
   killed_by_dragon_fire_jet_knight_friendly:0 "[CHARACTER.GetShortUINameNoTooltip], con un rapido e brutale movimento della testa, ha scagliato un getto di morte infuocata verso [random_knight.GetFirstName], le sue urla inghiottite dalle fiamme."
 
   killed_by_dragon_fire_jet_knight_enemy:0 "[CHARACTER.GetShortUINameNoTooltip], con un rapido e brutale movimento della testa, ha scagliato un getto di morte infuocata verso [random_knight.GetFirstName], le sue urla inghiottite dalle fiamme."
+
 
   wounded_by_dragon_fire_friendly:0 "Il nostro drago [CHARACTER.GetShortUINameNoTooltip] ha inflitto a [TARGET_CHARACTER.GetShortUINameNoTooltip] gravi ustioni con il suo fuoco di drago."
 
   wounded_by_dragon_fire_enemy:0 "[TARGET_CHARACTER.GetShortUINameNoTooltip] è stato gravemente ustionato dal fuoco di drago di [CHARACTER.GetShortUINameNoTooltip]."
 
   agot_wild_dragon_fire_county_title:0 "[battle_location.GetName] sotto il Fuoco di Drago"
-
   agot_wild_dragon_fire_county_desc:0 "Il drago selvaggio [dragon_in_battle.GetName] ha scatenato il fuoco di drago su [battle_location.GetNameNoTooltip] dopo aver preso parte a una battaglia in corso."

@@ -11,9 +11,9 @@
   agot_create_dorne_old_gods_decision_confirm:0 "Per Duna e Sabbia..."
   agot_create_dorne_old_gods_decision_desc:0 "Giuro la mia fede su terra e acqua, bronzo e ferro, su duna e sabbia: guiderò i fedeli dei Vecchi Dei in [GetGeographicalRegion('world_westeros_dorne').GetName] e vedrò i biancospini fiorire dai Monti Rossi al Braccio Spezzato."
   agot_create_dorne_old_gods_decision_tooltip:0 "Convertiti a una nuova fede dei Vecchi Dei basata sulla cultura di Dorne"
-  agot_create_dorne_old_gods_effect:0 "Tutte le contee e i signori nel tuo reame che seguono [GetReligionByKey('the_pact_religion').GetName] nelle [GetGeographicalRegion('world_westeros_the_dorne').GetName] [region|E] si convertiranno agli [GetFaithByKey('old_gods_dns').GetName]. Altre contee e signori che seguono [GetReligionByKey('the_pact_religion').GetNameNoTooltip] nella regione potrebbero convertirsi anch'essi."
-  pact_present_in_dorne_realm:0 "Almeno sei contee del tuo dominio in [GetGeographicalRegion('world_westeros_the_dorne').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
-  pact_present_in_dorne_region:0 "Almeno otto contee in [GetGeographicalRegion('world_westeros_the_dorne').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
+agot_create_dorne_old_gods_effect: 0 "Tutte le contee e i sovrani nel tuo reame che seguono [GetReligionByKey('the_pact_religion').GetName] nella [region|E] di [GetGeographicalRegion('world_westeros_dorne').GetName] si convertiranno a [GetFaithByKey('old_gods_dns').GetName]. Anche altre contee e sovrani che seguono [GetReligionByKey('the_pact_religion').GetNameNoTooltip] nella regione potrebbero convertirsi."
+pact_present_in_dorne_realm: 0 "Almeno sei contee nel tuo reame, nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName], devono seguire [GetReligionByKey('the_pact_religion').GetName]"
+pact_present_in_dorne_region: 0 "Almeno otto contee nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
 
   agot_create_crownlands_old_gods_decision:0 "Divergi ai Vecchi Dei delle Terre della Corona"
   agot_create_crownlands_old_gods_decision_confirm:0 "Per Fumo e Sale..."
@@ -30,7 +30,6 @@
   agot_create_reach_old_gods_effect:0 "Tutte le contee e i signori nel tuo reame che seguono [GetReligionByKey('the_pact_religion').GetName] nell'[GetGeographicalRegion('world_westeros_the_reach').GetName] [region|E] si convertiranno agli [GetFaithByKey('old_gods_fng').GetName]. Altre contee e signori che seguono [GetReligionByKey('the_pact_religion').GetNameNoTooltip] nella regione potrebbero convertirsi anch'essi."
   pact_present_in_reach_realm:0 "Almeno sei contee del tuo dominio in [GetGeographicalRegion('world_westeros_the_reach').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
   pact_present_in_reach_region:0 "Almeno otto contee in [GetGeographicalRegion('world_westeros_the_reach').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
-
 
   agot_create_stormlands_old_gods_decision:0 "Divergi ai Vecchi Dei delle Terre della Tempesta"
   agot_create_stormlands_old_gods_decision_confirm:0 "Per Tempesta e Onda..."

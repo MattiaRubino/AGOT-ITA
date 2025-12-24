@@ -1,28 +1,23 @@
 ﻿l_spanish:
-
-  ### Events ###
+ ### Events ###
   free_city_events.9999.t:0 "L'Elezione di [term_limit_country.GetAdjective]"
-  free_city_events.9999.desc_old_holder:0 "Dunque, è fatta. Sono stato sostituito. \n\n[magister_winner.GetFullName] è il nuovo Primo Magistro, e io... io mi faccio da parte, per ora. I Magistri e il Gonfaloniere hanno giurato fedeltà al nuovo sovrano, le loro voci riecheggiano nella sala con promesse che un tempo obbedivano a me.\n\nÈ dura da accettare, ma non è la prima volta. Il potere scivola tra le dita come sabbia, ma so che la partita non è finita. Non sarò dimenticato. Non posso permettermelo."
+free_city_events.9999.desc_old_holder: "Così, è fatto. Sono stat[Select_CString(ROOT.Char.IsFemale,'a','o')] sostituit[Select_CString(ROOT.Char.IsFemale,'a','o')]. \n\n[magister_winner.GetFullName] è il nuovo Primo Magistro, e io—be', per ora mi faccio da parte. I Magistri e il Gonfaloniere hanno giurato fedeltà al nuovo leader, le loro voci riecheggiano nella sala con promesse che un tempo erano ai miei ordini. \n\nÈ difficile da mandar giù, ma non è la prima volta che mi accade. Il potere scivola tra le dita come sabbia, eppure so che la partita non è finita. Non sarò dimenticat[Select_CString(ROOT.Char.IsFemale,'a','o')]. Non devo esserlo."
 
-  free_city_events.9999.desc_magister_winner:0 "Hanno scelto me. Il Conclave mi ha nominato nuovo Primo Magistro. [old_holder.GetTitledFirstName] è stato rimosso dall'incarico, e ora io sono dove un tempo stava lui.\n\nI Magistri e il Gonfaloniere hanno giurato lealtà alla mia persona, consacrando il mio potere. Ma ora? Come governerò? Già alcuni Magistri complottano apertamente, mentre altri sussurrano parole dolci, cercando nel frattempo di derubarmi alle spalle. Dovrò restare vigile, pronto a tutto ciò che verrà."
+free_city_events.9999.desc_magister_winner: "Hanno scelto me. Il Conclave mi ha designato come nuovo Primo Magistro. [old_holder.Custom('IT_NAM_COL3')][old_holder.GetTitledFirstName] è stat[Select_CString(old_holder.IsFemale,'a','o')] sollevat[Select_CString(old_holder.IsFemale,'a','o')] dall'incarico, e ora io mi trovo dove [Select_CString(old_holder.IsFemale,'lei','lui')] si trovava..\n\nI Magistri e il Gonfaloniere hanno giurato la loro lealtà a me, proclamando fedeltà mentre la mia autorità si fa pietra. Ma e adesso? Come governerò? Già alcuni Magistri tramano apertamente, mentre altri mi sussurrano parole dolci in volto, tentando al contempo di alleggerirmi la borsa. Devo restare vigile, e pront[Select_CString(ROOT.Char.IsFemale,'a','o')] ad affrontare qualunque cosa venga."
 
   free_city_events.9999.desc_vassal:0 "Un nuovo Primo Magistro è stato scelto, e [old_holder.GetFirstName] è stato sollevato dal suo incarico.\n\nCon la fine del suo regno, un altro inizia: [magister_winner.GetFullName] è stato scelto dal Conclave. Con grande cerimonia, i Magistri e il Gonfaloniere giurano fedeltà al nuovo Primo Magistro, e la sua ’autorità viene ufficialmente riconosciuta dal popolo.\n\nCome governerà [magister_winner.GetFullNameNoTooltip] resta da vedere, ma già i Magistri tramano su come piegare il nuovo sovrano ai propri interessi."
-
   free_city_events.9999.a:0 "Lunga vita al Primo Magistro! Lunga vita a [term_limit_country.GetName]!"
   free_city_events.9999.b:0 "Mi chiedo che tipo di sovrano sarà [magister_winner.GetFirstName]..."
 
   free_city_events.1001.t:0 "Elezione Posticipata"
   free_city_events.1001.desc_elector:0 "Con il reame coinvolto in una guerra contro il [war_enemy.GetPrimaryTitle.GetName], il Conclave ha ritenuto che non sia sicuro procedere con l'elezione di un nuovo Primo Magistro. \n\nInvece, il [current_ruler.GetFullNameNicknamed] ha temporaneamente assunto nuovi poteri per aiutare a mantenere l'ordine e la stabilità fino alla fine della guerra. \n\nIl Conclave e il Gonfaloniere dichiarano in un annuncio che riconoscono l'autorità del Primo Magistro durante questo periodo di crisi, consapevoli che il futuro della loro città è in bilico. I cittadini ora attendono la fine del conflitto, apparentemente divisi, tra chi applaude i decreti e chi è incerto su cosa accadrà una volta restaurata la pace."
-
   free_city_events.1001.desc_liege:0 "Con il reame coinvolto in una guerra contro il [war_enemy.GetPrimaryTitle.GetName], il Conclave ha ritenuto che non sia sicuro procedere con l'elezione di un nuovo Primo Magistro, mantenendo al sicuro la tua posizione per ora. \n\nInvece, il Conclave ha dichiarato di averti temporaneamente conferito nuovi poteri per aiutare a mantenere l'ordine e la stabilità fino alla fine della guerra. \n\nIl Conclave e il Gonfaloniere dichiarano pubblicamente di riconoscere la tua autorità durante questo periodo di crisi, consapevoli che il futuro della loro città è in bilico. I tuoi cittadini ora attendono la fine del conflitto, apparentemente divisi, tra chi applaude i decreti e chi è incerto su cosa accadrà una volta restaurata la pace."
-
   free_city_events.1001.a:0 "È così che muore la libertà?... con scroscianti applausi?"
   free_city_events.1001.a_liege:0 "Mi applaudono..."
   free_city_events.1001.a.tt:0 "Il conclave posticipa l'elezione fino alla fine della guerra."
   free_city_events.1001.war_delayed_due_to_war_tt:0 "L'elezione è stata rimandata a causa della guerra in corso."
 
   free_city_events.1002.t:0 "La Fine della Guerra"
-
   free_city_events.1002.desc_elector:0 "La guerra è finalmente terminata e la città si prepara a riprendere l'elezione di un nuovo Primo Magistro. \n\nCon il conflitto alle spalle, il Conclave si riunisce per scegliere un leader che guidi la città nella sua ripresa e verso un futuro prospero. \n\nLe prime indicazioni suggeriscono che [magister_winner.GetFullName] potrebbe avere il sostegno necessario per essere scelto. Mentre i Magistri e il Gonfaloniere si radunano, i cittadini sono pieni di aspettative e sperano in stabilità e un ritorno alla normalità."
 
   free_city_events.1002.desc_liege:0 "Con la guerra conclusa, la questione di rinunciare ai poteri d'emergenza assunti durante il conflitto si fa pressante. \n\nIl Conclave si sta preparando a riprendere l'elezione di un nuovo Primo Magistro, ma il processo è incerto. [magister_winner.GetFullName] sembra essere un candidato probabile, ma la decisione finale non è ancora stata presa. \n\nCome Magistro che ha mantenuto la stabilità durante la guerra, ti chiedi se abbandonare il potere sia davvero nel miglior interesse della città, o nel tuo, oppure se la tua leadership continuata potrebbe fornire la guida necessaria in questi tempi precari."
@@ -41,6 +36,8 @@
   free_city_events.1004.t:0 "Una Svolta Oscura"
   free_city_events.1004.desc:0 "In un colpo di scena scioccante, [current_ruler.GetFullName] ha dichiarato che i poteri d'emergenza non verranno restituiti. Invece, [current_ruler.GetSheHe] intende mantenere il controllo e trasformare la città in una dittatura. Questo annuncio ha provocato shock nel Conclave e tra la popolazione, che sperava in un ritorno al governo democratico. Mentre le tensioni aumentano, il futuro del reame è in bilico, con incertezza e paura che si diffondono tra i cittadini."
   free_city_events.1004.a:0 "Cosa ne sarà del nostro reame?"
+
+
 
   free_city_events.0001.t:0 "Una Lettera con Proposta di Alleanza"
   free_city_events.0001.desc:0 "Una lettera con il sigillo di [request_sender.GetTitledFirstName] è stata portata da qualche capitano alla nostra corte, e il messaggio contenuto parlava di una decisione importante.\n\n[request_sender.GetTitledFirstNameNoTooltip] tende un ramo d'ulivo, proponendo il rinnovo di un'antica alleanza che una volta ha formato la potente Triarchia. Un ricordo di quei giorni, quando le nostre città erano unite e forti, è tornato nei nostri cuori una volta di più.\n\n[request_sender.GetSheHe|U] desidera ancora una volta alzare il vessillo del Regno delle Tre Figlie, unendo Myr, Lys e Tyrosh in scopo e potere.\n\nRifiuteremo noi, orgogliose e sovrane città, l'ostilità del passato e riformeremo un'eterna alleanza dai giorni lontani? Staremo insieme, spalla a spalla, e affronteremo le tempeste imminenti come una Triarchia unita — o sceglieremo di seguire il nostro destino come navi individuali, affrontando le tempeste da sole?"
@@ -69,7 +66,7 @@
   free_city_events.2000.desc:0 "Mi trovo davanti alla folla, le mani legate, il peso dei miei fallimenti più gravoso di qualsiasi catena. Per aver perso la guerra, il mio popolo ora mi offrirà in sacrificio agli dei.\n\nLa lama fredda si posa sulla mia gola. Sento i mormorii della folla, ma ormai nulla ha più importanza; il mio destino è segnato.\n\nPenso a ciò che avrebbe potuto essere, alle ambizioni che un tempo coltivavo, e agli uomini che mi hanno seguito. Tutto questo ora sembra lontanissimo.\n\nCon un ultimo respiro, la lama squarcia il silenzio... e io non sono più."
   free_city_events.2000.a:0 "..."
 
-  ### Decisions/Interactions ###
+ ### Decisions/Interactions ###
   agot_attempt_triarchy:0 "Tentativo di Formare la Triarchia"
   agot_attempt_triarchy_desc:0 "Contatta le altre Tre Figlie per formare la Triarchia"
   agot_attempt_triarchy_tooltip:0 "Contatta i tuoi colleghi sovrani per formare la triarchia"
@@ -77,7 +74,6 @@
   request_war_interaction:0 "Richiedi il Permesso per la Guerra"
   request_war_desc:0 "Richiedi che l'Alto Consiglio voti per concederti il permesso di dichiarare guerra"
   request_war_effect_tt:0 "L'Alto Consiglio si riunirà e voterà sulla tua richiesta di dichiarare guerra a [recipient.GetName]."
-
 
   agot_create_three_daughters:0 "Forma il Regno delle Tre Figlie"
   agot_create_three_daughters_desc:0 "Ora che controllo tutte e tre le figlie della Vecchia Valyria, è tempo di consolidare il mio potere."
@@ -101,6 +97,7 @@
   agot_form_undisputed_lands_decision_desc:0 "Queste terre sono state combattute e contese sin dalla Rovina di Valyria, ma finalmente le ho unite."
   agot_form_undisputed_lands_decision_tooltip:0 "Forma un regno da queste terre un tempo contese"
   agot_form_undisputed_lands_confirm:0 "All'infamia e all'immortalità!"
+three_daughters_confederation: "Esiste la confederazione delle Tre Figlie"
 
   agot_break_braavos_pentos_treaty:0 "Rompi il Trattato Braavos-Pentos"
   agot_break_braavos_pentos_treaty_desc:0 "Dal 209, i Braavosi costringono l’orgogliosa città di Pentos a rispettare un trattato oppressivo. È giunto il momento per Pentos di stracciare quell'accordo e governarsi liberamente!"
@@ -116,8 +113,7 @@
   agot_braavos_pentos_treaty_is_active:0 "Non puoi dichiarare guerra finché il [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] è attivo."
   agot_break_braavos_pentos_treaty_as_braavos_tooltip:0 "$agot_break_braavos_pentos_treaty_tooltip$"
 
-
-  ### Misc ###
+ ### Misc ###
   THREE_DAUGHTERS:0 "Alto Consiglio della Triarchia"
   HIGH_COUNCIL_TRIARCHY:0 "Alto Consiglio"
   tooltip_magisterial_wealth:0 "Ricchezza Personale: [GetPlayer.GetGold|0]"
@@ -137,8 +133,9 @@
   high_council_description:0 "#italic L'Alto Consiglio della Triarchia è composto da undici Magistri provenienti da ogni città libera che lo compone.\n\nInsieme, votano su tutte le azioni importanti delle Tre Figlie e quelli di alto rango tra loro selezionano il prossimo Triarca.#!"
   war_approved:0 "Guerra Approvata"
   war_denied:0 "Guerra Negata"
-  
+
   c_tyroshi_landing:0 "Approdo di Tyroshi"
+
   election_aristocratic_support_desc: "Sostegno Aristocratico"
   election_mercantile_support_desc: "Sostegno Mercantile"
   election_populist_support_desc: "Sostegno Popolare"

@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  ### war related
+ ### war related
   esr_declared_war_on_family:0 "Ha dichiarato guerra ad un [family_member|E]"
   esr_declared_war_on_close_family:0 "Ha dichiarato guerra ad un [close_family_member|E]"
   esr_joined_war_on_family:0 "Si è unito alla guerra contro un [family_member|E]"
@@ -11,7 +11,7 @@
   esr_declared_war_on_rival:0 "Ha dichiarato guerra al [rival|E]"
   esr_declared_war_on_nemesis:0 "Ha dichiarato guerra alla mia [nemesis|E]"
 
-  ### relation related
+ ### relation related
   esr_common_friend:0 "Hai un [friend|E] in comune"
   esr_rival_friend:0 "Tu sei [friend|E] del mio [rival|E]"
   esr_nemesis_friend:0 "Tu sei [friend|E] del mio [nemesis|E]"
@@ -23,8 +23,7 @@
   esr_friend_nemesis:0 "Tu sei [nemesis|E] del mio [friend|E]"
   esr_best_friend_nemesis:0 "Tu sei [nemesis|E] del mio [best_friend|E]"
 
-
-  ### Murder / Execution related
+ ### Murder / Execution related
   esr_murdered_best_friend:0 "Giustiziato  [best_friend|E]"
   esr_murdered_soulmate:0 "Giustiziato  [soulmate|E]"
   esr_murdered_rival:0 "Giustiziato  [rival|E]"
@@ -32,7 +31,7 @@
   esr_murdered_extended_family:0 "Giustiziato  [extended_family_members|E]"
   esr_hate_by_association_murder:0 "Famiglia dell'assassino"
 
-  ### Attempted Murder related modifiers
+ ### Attempted Murder related modifiers
   esr_attempted_murder_extended_family:0 "Tentato omicidio del [extended_family_members|E]"
   esr_attempted_murder_close_relation_opinion:0 "Tentato omicidio da Parenti Stretti"
   esr_attempted_murder_best_friend:0 "Tentato omicidio del [best_friend|E]"
@@ -40,10 +39,10 @@
   esr_attempted_murder_rival:0 "Tentato omicidio del [rival|E]"
   esr_attempted_murder_nemesis:0 "Tentato omicidio della [nemesis|E]"
 
-  ### Execution modifiers
+ ### Execution modifiers
   esr_hate_by_association_execution:0 "Famiglia del Carnefice"
 
-  ### Imprison modifiers
+ ### Imprison modifiers
   esr_imprisoned_close_family:0 "Imprigionato da [close_family_member|E]"
   esr_imprisoned_extended_family:0 "Imprigionato da [extended_family_members|E]"
   esr_imprisoned_close_relation_opinion:0 "Imprigionato da Parenti Stretti"
@@ -60,7 +59,7 @@
   esr_move_very_close_to_house_arrest:0 "Trasferito [best_friend|E] or [soulmate|E] agli arresti domiciliari"
   esr_move_nemesis_to_house_arrest:0 "Trasferito [nemesis|E] agli arresti domiciliari"
 
-  ### Revoke title modifiers
+ ### Revoke title modifiers
   esr_revoked_close_family:0 "Revoca del titolo a [close_family_member|E]"
   esr_revoked_extended_family:0 "Revoca del titolo a [extended_family_members|E]"
   esr_revoked_close_relation_opinion:0 "Revoca del titolo ad un Parente Stretto"
@@ -69,7 +68,7 @@
   esr_revoked_rival:0 "Revoca del titolo ad un [rival|E]"
   esr_revoked_nemesis:0 "Revoca del titolo ad una [nemesis|E]"
 
-  ### Retracted vassal modifiers
+ ### Retracted vassal modifiers
   esr_retracted_close_family:0 "[vassal|E] del [close_family_member|E] ritirato"
   esr_retracted_extended_family:0 "[vassal|E] del [extended_family_members|E] ritirato"
   esr_retracted_close_relation_opinion:0 "[vassal|E] di un Parente Stretto ritirato"
@@ -78,7 +77,7 @@
   esr_retracted_rival:0 "[vassal|E] del [rival|E] ritirato"
   esr_retracted_nemesis:0 "[vassal|E] della [nemesis|E] ritirato"
 
-  ### Grant title / [vassal|E] modifiers
+ ### Grant title / [vassal|E] modifiers
   esr_grant_family_county:0 "Concesso Contea ad un [close_family_member|E]"
   esr_grant_family_duchy:0 "Concesso Ducato ad un [close_family_member|E]"
   esr_grant_family_kingdom:0 "Concesso Regno ad un [close_family_member|E]"
@@ -90,32 +89,11 @@
   esr_grant_rival:0 "Concesso Titolo o [vassal|E] a un [rival|E]"
   esr_grant_nemesis:0 "Concesso Titolo o [vassal|E] a un [nemesis|E]"
 
-  ### Grant Independance
+ ### Grant Independance
   esr_grant_independence_family:0 "Concesso l'indipendenza ad un[close_family_member|E]"
 
-  ### Family friend
-  esr_family_friend:0 "[family_friends|E]"
+ ### Family friend
+esr_family_friend: 0 "[family_friend|E]"
 
-
-
-
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
+ ### Threat
+esr_threatened_by_war_declared: 0 "Minacciat[Select_CString(ROOT.Char.IsFemale,'a','o')] dall’aggressione"

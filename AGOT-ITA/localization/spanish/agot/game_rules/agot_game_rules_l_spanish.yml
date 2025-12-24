@@ -1,5 +1,5 @@
 ﻿l_spanish:
-  #Story Outcomes
+ # Story Outcomes
   rule_agot_story_outcome:0 "#R AGOT:#! Risultati della storia"
   setting_agot_story_sandbox:0 "Area di gioco"
   setting_agot_story_sandbox_desc:0 "Si verificheranno eventi minimamente scriptati"
@@ -115,8 +115,6 @@
   setting_agot_cadet_none_desc:0 "I personaggi non saranno in grado di creare rami cadetti."
 
   rule_agot_bastard_cadets:0 "#R AGOT:#! Creazione di Rami Cadetti Bastardi"
-
-
   setting_agot_bastard_cadets_landed_only:0 "Possidenti e Avventurieri"
   setting_agot_bastard_cadets_landed_only_desc:0 "Solo i [bastards|E] che posseggono terre o che vivono da avventurieri senza patria fonderanno [bastard_houses|E] quando avranno figli."
   setting_agot_bastard_cadets_everyone:0 "Chiunque"
@@ -141,7 +139,6 @@
   setting_agot_faegon_identity_open_blackfyre_desc:0 "Aegon sarà un membro della Casa Blackfyre."
   setting_agot_faegon_identity_real:0 "Vero Targaryen"
   setting_agot_faegon_identity_real_desc:0 "Se possibile, Aegon nascerà sempre come il vero figlio di Rhaegar, ma dovrà conquistare il Trono di Spade per rendere ufficiale quella rivendicazione."
-
 
 
   rule_agot_balding: "#R AGOT:#! Personaggio Calvo"
@@ -171,19 +168,14 @@
   setting_agot_no_dragon_culling_desc:0 "Non ci sarà un limite tangibile sul numero di draghi.\n@warning_icon! #X Questa impostazione potrebbe essere #bold pesante#! sulle prestazioni. Usala a tuo rischio e pericolo!#!"
 
   rule_agot_dragon_trait_inheritance:0 "#R AGOT:#! Eredità dei Tratti dei Draghi"
-
   setting_agot_dragon_trait_inheritance_full:0 "Completa"
   setting_agot_dragon_trait_inheritance_full_desc:0 "I draghi erediteranno i tratti congeniti dei genitori a un tasso comparabile a quello degli umani."
-
   setting_agot_dragon_trait_inheritance_reduced:0 "Ridotta"
   setting_agot_dragon_trait_inheritance_reduced_desc:0 "L'ereditarietà dei tratti congeniti nei draghi è ridotta al 75% del tasso umano standard."
-
   setting_agot_dragon_trait_inheritance_half:0 "Metà"
   setting_agot_dragon_trait_inheritance_half_desc:0 "L'ereditarietà dei tratti congeniti nei draghi è ridotta al 50% del tasso umano standard."
-
   setting_agot_dragon_trait_inheritance_disabled:0 "Disabilitata"
   setting_agot_dragon_trait_inheritance_disabled_desc:0 "L'ereditarietà dei tratti è disabilitata. I tratti congeniti dei draghi sono completamente casuali."
-
 
   rule_agot_silly:0 "#R AGOT:#! Modalità Bizzarra"
   setting_agot_silly_mode:0 "Bizzarra"
@@ -192,13 +184,18 @@
   setting_agot_no_silly_desc:0 "Equilibrio normale del gioco."
 
   rule_agot_essos:0 "#R AGOT:#! Essos Abilitato"
-
   setting_agot_essos_enabled:0 "Essos Abilitato"
   setting_agot_essos_enabled_desc:0 "Essos è disponibile per l'interazione."
-
   setting_agot_essos_disabled:0 "Essos Disabilitato"
   setting_agot_essos_disabled_desc:0 "Essos non è disponibile per l'interazione."
 
-  #Vanilla Add-Ons
+ #LMF AGOT
+rule_agot_realistic_pregnancy_chance_rule: 0 "@lmf_icon! Gravidanze realistiche"
+setting_agot_realistic_pregnancy_chance: 0 "Realismo"
+setting_agot_realistic_pregnancy_chance_desc: 0 "I personaggi diverranno incinti solo se entrambi i partner si trovano nello stesso luogo, attività, piano di viaggio o esercito quando viene avviato il controllo di gravidanza. Ciò viene ignorato se nessuno dei due è un sovrano."
+setting_agot_vanilla_pregnancy_chance: 0 "Vanilla"
+setting_agot_vanilla_pregnancy_chance_desc: 0 "I personaggi potranno diventare incinti ovunque, indipendentemente dal fatto che entrambi i partner siano vicini."
+
+#Vanilla Add-Ons
   setting_epidemic_frequency_very_very_rare:0 "Estremamente Raro"
   setting_epidemic_frequency_very_very_rare_desc:0 "Le pestilenze saranno estremamente rare e si diffonderanno con una frequenza molto minore."

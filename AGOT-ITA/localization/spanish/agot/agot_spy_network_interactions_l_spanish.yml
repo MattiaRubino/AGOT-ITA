@@ -70,8 +70,25 @@
   agot_spy_network.0800.a:0 "Dovrei contattare presto [potential_new_spy.GetTitledFirstName]..."
 
   hostile_scheme_discovery_spy.2001.intro:0 "Il mio maestro delle spie, [spymaster.GetTitledFirstName], ha scoperto la preparazione di un complotto contro di me alla corte di [courtowner.GetTitledFirstNamePossessive]. Anche se non sappiamo ancora chi,"
-
   potential_spy_in_court:0 "Un personaggio in questa corte è disposto a fare la spia per te."
 
-  #GUI
+ # Recruit Spy
+agot_invite_to_spy_network_interaction_desc: "Recluta [recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName] nella tua [agot_spy_network|E]"
+invite_to_spy_network_interaction_target_added_to_network.tt: "Aggiungi [recipient.GetShortUIName] alla tua rete di spie"
+invite_to_spy_network_interaction_target_becomes_spy.tt: "[recipient.GetShortUIName] viene aggiunt[Select_CString(recipient.IsFemale,'a','o')] alla tua rete di spie"
+invite_to_spy_network_toast_title: "Spia reclutat[Select_CString(ROOT.Char.IsFemale,'a','o')]"
+invite_to_spy_network_toast_desc: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName] è entrat[Select_CString(recipient.IsFemale,'a','o')] nei ranghi della tua vasta rete di spie."
+
+ # Dismiss Spy
+agot_remove_from_spy_network_interaction_desc: "Congeda [recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName] dalla tua [agot_spy_network|E]"
+ dismiss_from_spy_network_interaction_target_remove_from_network.tt: "You dismiss [recipient.GetShortUIName] from your spy network"
+dismiss_from_spy_network_interaction_target_loses_spy.tt: "[recipient.GetShortUIName] viene congedat[Select_CString(recipient.IsFemale,'a','o')] dalla tua rete di spie"
+dismiss_from_spy_network_toast_title: "Spia congedat[Select_CString(ROOT.Char.IsFemale,'a','o')]"
+dismiss_from_spy_network_toast_desc: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName] ha lasciato i ranghi della tua vasta rete di spie."
+
+ # Check for Potential Spies
+agot_check_for_potential_spies_interaction_desc: "Controlla la corte di [rec...ari che potrebbero essere disposti a unirsi alla tua [agot_spy_network|E]"
+check_for_potential_spies_actor.tt: "Verrai informat[Select_CString(ROOT.Char.IsFemale,'a','o')] di una potenziale [agot_spy|E] con cui potresti negoziare l'ingresso nella tua [agot_spy_network|E]"
+
+ #GUI
   your_spies:0 "Le tue spie"
