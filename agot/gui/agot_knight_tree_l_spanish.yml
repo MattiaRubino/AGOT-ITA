@@ -18,7 +18,7 @@
   KNIGHT_TREE_TT:0 "#T Visualizza l'Albero dei Cavalieri\n#!Mostra tutti i personaggi [Character.GetShortUINameNoTooltip] [Character.LocalPlayerString('hai','ha')] nominati cavalieri, chi ha nominato [Character.LocalPlayerString('te','loro')] e chi era già stato nominato cavaliere prima di [Character.LocalPlayerString('te','loro')], [Character.LocalPlayerString('se vuoi rivivere i ricordi...','che conosciamo...')]"
 
  ###### Names
-  AGOT_NAME_KNIGHT_TREE:0 "Ser [Scope.GetCharacter.GetFirstNameNoTooltip] [Scope.GetCharacter.Custom('SurnameSwitch')]"
+AGOT_NAME_KNIGHT_TREE: 0 "Ser [Scope.GetCharacter.GetFirstNameNoTooltip][AGOTGetSurname(Scope.GetCharacter)]"
 
  ###### Interaction
   agot_debug_make_knight:0 "Nomina Cavaliere"

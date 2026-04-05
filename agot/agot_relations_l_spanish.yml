@@ -9,6 +9,7 @@
   agot_dragon:0 "Drago"
 agot_parent_in_law: 0 "[Character.Custom('GoodMotherFatherWithConcept')]"
 agot_child_in_law: 0 "[Character.Custom('GoodDaughterSonWithConcept')]"
+pirate_ship_designated_heir: 0 "[pirate_ship_designated_heir|E]"
 
   agot_squire_desc:0 "Questo è [CHARACTER.GetShortUINamePossessiveNoTooltip] [squire|E]"
   agot_knight_desc:0 "Questo è [CHARACTER.GetShortUINamePossessiveNoTooltip] [agot_knight|E]"
@@ -16,6 +17,12 @@ agot_child_in_law: 0 "[Character.Custom('GoodDaughterSonWithConcept')]"
   bodyguard_desc:0 "Questo è [CHARACTER.GetShortUINamePossessiveNoTooltip] Guardia del Corpo"
   bloodrider_desc:0 "Questo è il Cavaliere del Sangue di [CHARACTER.GetShortUINamePossessiveNoTooltip]"
   agot_dragon_desc:0 "Questo è il [dragon|E] legato a [CHARACTER.GetShortUINamePossessiveNoTooltip]"
+agot_pirate_ship_designated_heir: 0 "Questo è l'erede designato del [agot_landless_pirate_domicile|E] di [CHARACTER.GetShortUINamePossessiveNoTooltip]"
+
+ # AGOT birthplace introduction
+CharacterIntroductionSupportNoComma_firstnamedynastyname_a_noblewoman_from_birthplace_location: 0 "[ROOT.Char.GetFirstName], una nobildonna di [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
+CharacterIntroductionSupportNoComma_firstnamedynastyname_a_nobleman_from_birthplace_location: 0 "[ROOT.Char.GetFirstName], un nobiluomo di [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
+CharacterIntroductionSupportNoComma_firstname_a_commoner_from_birthplace_location: 0 "[ROOT.Char.GetFirstName], un popolano di [ROOT.Char.MakeScope.Var('agot_birthplace').GetProvince.GetName]"
 
   relation_maester_female:0 "Maestra"
   relation_maester_male:0 "Maestro"

@@ -13,6 +13,9 @@
   sell_prisoner_into_slavery_interaction:0 "Vendere come schiavo"
   sell_prisoner_into_slavery_interaction_desc:0 "Vendere [recipient.GetShortUINameNoTooltip] come schiavo"
 
+ransom_for_artifacts_interaction: 0 "Metti Artefatti a Riscatto"
+ransom_for_artifacts_interaction_desc: 0 "Seleziona quali artefatti di [recipient.GetShortUINamePossessiveNoTooltip] verranno richiesti in cambio della sua liberazione"
+
  # septa
 septa_child_language_rank_1: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 5#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
 septa_child_language_rank_2: 1 "L'[aptitude|E] della tua [GetCourtPositionType('septa_court_position').GetName()] conferisce al [scheme|E] #P 10#! [success_chance|E] e [scheme_speed|E] aggiuntivi"
@@ -94,3 +97,16 @@ maester_child_language_rank_5: 1 "L'[aptitude|E] del tuo [GetCourtPositionType('
 
  # General
   agot_can_disinherit_flag_tt:0 "[recipient.GetShortUIName] ha rifiutato di adempiere al tentativo di fidanzamento"
+
+ # Pirates
+agot_landless_pirate_designate_heir: 0 "Designa Erede della Nave Pirata"
+agot_landless_pirate_designate_heir_desc: 0 "Designa [recipient.GetShortUIName] come tuo [pirate_ship_designated_heir|E]"
+agot_landless_pirate_designate_heir_effect_tt: 0 "[recipient.GetShortUIName] diventerà il tuo [pirate_ship_designated_heir|E]."
+
+agot_remove_landless_pirate_designate_heir: 0 "Rimuovi l'Erede della Nave Pirata"
+agot_remove_landless_pirate_designate_heir_desc: 0 "Rimuovi [actor.MakeScope.Var('appointed_pirate_jank_heir').Char.GetName] come tuo [pirate_ship_designated_heir|E]"
+agot_remove_landless_pirate_designate_heir_effect_tt: 0 "[actor.MakeScope.Var('appointed_pirate_jank_heir').Char.GetName] non sarà più il tuo [pirate_ship_designated_heir|E]."
+
+pirate_ship_designated_heir_is_no_longer_your_heir: 0 "[target.GetShortUIName] non è più il tuo [pirate_ship_designated_heir|E]."
+pirate_ship_designated_heir_is_now_your_heir: 0 "[target.GetShortUIName] è ora il tuo [pirate_ship_designated_heir|E]."
+pirate_ship_designated_heir_change: 0 "Cambio nella Successione della Nave Pirata"

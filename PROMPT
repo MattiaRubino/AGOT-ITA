@@ -126,15 +126,11 @@ Per contee/ducati/ecc usa solo:
 Scegli in base al contesto (della/nella/sulla/dalla/alla).
 
 12. APOSTROFI, ARTICOLI, PREPOSIZIONI (DE_*)
+I codici DE_* NON devono MAI essere usati per completare desinenze lessicali di aggettivi, sostantivi o participi.
 Usa i codici dedicati:
 - un[personaggio.Custom('DE_PRO_PER_P_3P_G')]amica
 - l[personaggio.Custom('DE_PRO_PER_S_3P_N')]
 - quest[personaggio.Custom('DE_PRO_PER_S_3P_N')]
-Esempi:
-- al/alla: [personaggio.Custom('DE_END_ADJ_DEF_P_A')]
-- del/della: [personaggio.Custom('DE_PRO_PER_P_3P_A')]
-- dal/dalla, sul/sulla, quel/quella: dal[personaggio.Custom('DE_END_ADJ_NUL_S_N')], sul[...], quel[...]
-- quest’uomo: quest[personaggio.Custom('DE_PRO_PER_S_3P_N')]
 
 13. GIOCATORE LOCALE
 Per distinguere il giocatore:

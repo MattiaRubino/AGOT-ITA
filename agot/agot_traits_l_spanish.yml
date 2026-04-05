@@ -6,6 +6,18 @@
   trait_triplet:0 "Trigemino"
   trait_triplet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nacque come trigemino."
 
+ #Order Member
+trait_order_member_fots_warriors_sons: 0 "Membro della Fede Militante"
+trait_order_member_fots_warriors_sons_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve nei Figli del Guerriero, un ramo della Fede Militante."
+trait_order_member_fots_poor_fellows: 0 "Membro della Fede Militante"
+trait_order_member_fots_poor_fellows_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve nei Poveri Compagni, un ramo della Fede Militante."
+trait_order_member_fots: 0 "Membro della Fede Militante"
+trait_order_member_fots_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve nella Fede Militante."
+trait_order_member_bearded_god: 0 "Membro della Guardia Sacra"
+trait_order_member_bearded_god_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve come uno dei soldati schiavi della Guardia Sacra dei Sacerdoti Barbuti di Norvos."
+trait_order_member_rhllor: 0 "Membro della Mano Ardente"
+trait_order_member_rhllor_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] serve come uno dei soldati schiavi della Mano Ardente del Signore della Luce."
+
  #Trait Groups
   trait_citadel:0 "Membri della Cittadella"
 
@@ -120,6 +132,10 @@
   trait_kingsguard: "Guardia Reale"
   trait_kingsguard_desc: "Questo personaggio ha indossato il manto bianco e serve nella Guardia Reale."
   trait_kingsguard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha indossato il manto bianco e serve nella Guardia Reale."
+
+trait_former_kingsguard: 0 "Ex Guardia Reale"
+trait_former_kingsguard_desc: 0 "Questo personaggio è stato allontanato da quello che dovrebbe essere un incarico a vita nella Guardia Reale."
+trait_former_kingsguard_character_desc: 0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] è stat[Select_CString(ROOT.GetCharacter.IsFemale,'a','o')] allontanat[Select_CString(ROOT.GetCharacter.IsFemale,'a','o')] da quello che dovrebbe essere un incarico a vita nella Guardia Reale."
 
   trait_rainbow_guard: "Guardia dell'Arcobaleno"
   trait_rainbow_guard_desc: "Questo personaggio ha indossato il manto arcobaleno e serve nella Guardia dell'Arcobaleno."
@@ -387,11 +403,6 @@ trait_wilderness_character_desc: ""
   trait_agot_dummy_trait:0 ""
   trait_agot_dummy_trait_desc:0 ""
   trait_agot_dummy_trait_character_desc:0 ""
-
- #Misc
-  trait_shade_of_the_evening:0 "Ombra della Sera"
-  trait_shade_of_the_evening_desc:0 "Questo personaggio beve regolarmente l'ombra della sera, colorando le labbra di blu."
-  trait_shade_of_the_evening_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] beve regolarmente l'ombra della sera, colorando le labbra di blu."
 
  #Ironborn priests
   trait_drowned_man:0 "Uomo Annegato"

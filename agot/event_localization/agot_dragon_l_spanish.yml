@@ -1,5 +1,6 @@
 ﻿l_spanish:
   bright_text:0 "#high "
+dragon_homed_separate_from_rider: 0 "Il drago si trova in una fossa del drago lontano dal suo cavaliere"
 
  # Conduct terror campaign request
   agot_dragon.0008.t:0 "Uno Strumento di Terrore"
@@ -129,22 +130,6 @@ agot_dragon.0040.desc.fire_breath: 0 "Fiamme schizzano dalle fauci del drago, su
 agot_dragon.0040.desc.fire_breath_craven: 0 "Fiamme schizzano dalle fauci del drago e mi ritrovo a fuggire verso l’uscita. Un bambino non dovrebbe avere un simile potere."
   agot_dragon.0040.a:0 "Straordinario."
   agot_dragon.0040.b:0 "Il drago deve essere contenuto prima che uccida qualcuno."
-
- # The conquered cities
-  agot_dragon.0017.t:0 "Le Città Conquistate"
-  agot_dragon.0017.desc:0 "Vittoria! Il mio nuovo impero è forgiato dalla caduta del governo della Triarchia stessa.\n\nOra che questo corpo è caduto sotto la mia ala di ferro, c'è l'opportunità di forgiare un vero stato unitario dalle ceneri della vecchia oligarchia.\n\nUna domanda naturale è però, dove sarà la sede del mio nuovo impero?"
-  agot_dragon.0017.a:0 "[target_title_1.GetNameNoTier] sarà la sede del mio impero!"
-  agot_dragon.0017.a.f:0 "Governerete da [target_title_1.GetBaseNameNoTooltip]."
-  agot_dragon.0017.a.tt:0 "[target_title_1.GetBaseName] sarà la [de_jure_capital|E] del [GetTitleByKey('e_three_daughters').GetNameNoTier]."
-  agot_dragon.0017.b:0 "Non è [target_title_2.GetNameNoTier] il più adatto?"
-  agot_dragon.0017.b.f:0 "Governerete da [target_title_2.GetBaseNameNoTooltip]."
-  agot_dragon.0017.b.tt:0 "[target_title_2.GetBaseName] sarà la [de_jure_capital|E] del [GetTitleByKey('e_three_daughters').GetNameNoTier]."
-  agot_dragon.0017.c:0 "Governerò da [target_title_3.GetNameNoTier]!"
-  agot_dragon.0017.c.f:0 "Governerete da [target_title_3.GetBaseNameNoTooltip]."
-  agot_dragon.0017.c.tt:0 "[target_title_3.GetBaseName] sarà la [de_jure_capital|E] del [GetTitleByKey('e_three_daughters').GetNameNoTier]."
-  agot_dragon.0017.d:0 "Questi mercanti ora servono #bold me#!, non andrò da loro!"
-  agot_dragon.0017.d.f:0 "Rimarrete e governerete dalla vostra attuale capitale."
-  agot_dragon.0017.d.tt:0 "[current_capital.GetName] sarà la [de_jure_capital|E] del [GetTitleByKey('e_three_daughters').GetNameNoTier]."
 
  # Dragon Death
   agot_dragon.0018.t:0 "Morte di un Drago"

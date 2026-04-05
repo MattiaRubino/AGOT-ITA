@@ -4,16 +4,18 @@
  #Additional Councillors
   councillor_admiral:0 "Ammiraglio"
   councillor_admiral_possessive:0 "dell'Ammiraglio"
+ councillor_admiral_desc:0 "$game_concept_admiral_desc$"
 
   councillor_castellan:0 "Castellano"
   councillor_castellan_possessive:0 "del Castellano"
+ councillor_castellan_desc:0 "$game_concept_castellan_desc$"
 
 
 
  #Westerosi Council Loc
   agot_councillor_spouse_consort:0 "Consorte"
-  agot_councillor_spouse_paramount_female:0 "Lady Protettrice"
-  agot_councillor_spouse_paramount_male:0 "Lord Protettore"
+agot_councillor_spouse_paramount_female: 0 "Lady"
+agot_councillor_spouse_paramount_male: 0 "Lord"
   agot_councillor_spouse_paramount_female_targ:0 "Lady"
   agot_councillor_spouse_paramount_male_targ:0 "Lord"
   agot_councillor_spouse_lord_female:0 "Lady"
@@ -72,6 +74,17 @@
   agot_councillor_admiral_iron_islands:0 "Capitano della Flotta di Ferro"
   agot_councillor_admiral_iron_islands_possessive:0 "Capitano della Flotta di Ferro"
 
+ # Pirate Government
+agot_councillor_castellan_pirate: 0 "Primo Ufficiale"
+agot_councillor_castellan_pirate_possessive: 0 "del Primo Ufficiale"
+agot_councillor_admiral_pirate: 0 "Maestro di Navigazione"
+agot_councillor_admiral_pirate_possessive: 0 "del Maestro di Navigazione"
+agot_councillor_steward_pirate: 0 "Commissario di Bordo"
+agot_councillor_steward_pirate_possessive: 0 "del Commissario di Bordo"
+agot_councillor_marshal_pirate: 0 "Nostromo"
+agot_councillor_marshal_pirate_possessive: 0 "del Nostromo"
+agot_councillor_chancellor_pirate: 0 "Maestro degli Articoli"
+agot_councillor_chancellor_pirate_possessive: 0 "del Maestro degli Articoli"
 
  # Night's Watch Government
   agot_councillor_steward_nights_watch:0 "Primo Costruttore"
@@ -86,14 +99,19 @@
   agot_councillor_personal_steward_nights_watch_possessive:0 "dell'Attendente Personale"
   councillor_personal_steward:0 "Attendente Personale"
   councillor_personal_steward_possessive:0 "dell'Attendente Personale"
+ councillor_personal_steward_desc:0 "$game_concept_personal_steward_desc$"
 
  # Court Chaplain Loc
 
  # FoTS
-  councillor_court_chaplain_the_seven_county:0 "Septon"
-  councillor_court_chaplain_the_seven_county_possessive:0 "del Septon"
-  councillor_court_chaplain_the_seven_empire:0 "Alto Septon"
-  councillor_court_chaplain_the_seven_empire_possessive:0 "dell'Alto Septon"
+councillor_court_chaplain_the_seven_county_m: 0 "Septon"
+councillor_court_chaplain_the_seven_county_m_possessive: 0 "del Septon"
+councillor_court_chaplain_the_seven_county_f: 0 "Septa"
+councillor_court_chaplain_the_seven_county_f_possessive: 0 "della Septa"
+councillor_court_chaplain_the_seven_empire_m: 0 "Alto Septon"
+councillor_court_chaplain_the_seven_empire_m_possessive: 0 "dell'Alto Septon"
+councillor_court_chaplain_the_seven_empire_f: 0 "Alta Septa"
+councillor_court_chaplain_the_seven_empire_f_possessive: 0 "dell'Alta Septa"
 
  # Drowned God
   councillor_court_chaplain_drowned_god_county:0 "Abissale"

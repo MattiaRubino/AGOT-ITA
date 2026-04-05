@@ -5,17 +5,17 @@
   start_contraceptives_decision:0 "Usare Contracettivi"
   start_contraceptives_decision_desc:0 "Consultando un medico posso ottenere contraccettivi, come l'infuso di luna, che possono essere utilizzati per assicurarmi che i miei occasionali flirt non portino a figli."
   start_contraceptives_decision_tooltip:0 "Sacrifica parte del tuo [income|E] per ridurre la tua [fertility|E]."
-  start_contraceptives_decision_confirm:0 "Sono pronto."
+start_contraceptives_decision_confirm: 0 "Sono pronto"
 
   stop_contraceptives_decision:0 "Smettere di Usare Contracettivi"
   stop_contraceptives_decision_desc:0 "È ora di mettere da parte erbe e unguenti. Potrei non aver voluto figli prima, ma è giunto il momento di portare figli e figlie nel mondo."
   stop_contraceptives_decision_tooltip:0 "Smetti di sacrificare parte del tuo [income|E] per ridurre la tua [fertility|E]."
-  stop_contraceptives_decision_confirm:0 "Lascia che la natura segua il suo corso."
+stop_contraceptives_decision_confirm: 0 "Che la natura faccia il suo corso"
 
   weirwood_meditate_decision:0 "Meditare presso un Albero Cuore"
   weirwood_meditate_decision_desc:0 "Indipendentemente dalla fede, pochi luoghi nel mondo possono eguagliare un Parco degli Dei in termini di tranquillità e solitudine ultraterrena. Forse dovrei visitare l'albero cuore per chiedere qualche consiglio."
   weirwood_meditate_decision_tooltip:0 "Visiterai il Parco degli Dei per una possibilità di rinnovamento."
-  weirwood_meditate_decision_confirm:0 "Gli alberi mi chiamano."
+weirwood_meditate_decision_confirm: 0 "Gli alberi mi chiamano"
 
   high_heart_the_pact_decision:0 "Rigenerare gli alberi sacri di High Heart"
   high_heart_the_pact_decision_desc:0 "Per troppo tempo, High Heart è rimasta un monumento agli Andali e alle loro nuove divinità. È tempo di incoronare nuovamente la collina con gli alberi sacri — i loro volti scolpiti vigileranno su chiunque vi si avventuri."
@@ -57,6 +57,9 @@
 justman_revival_decision: 0 "Rianima Casa Justman"
 justman_revival_desc: 0 "Molto tempo fa, Benedict Rivers, figlio di sangue Blackwood e Bracken, unì il Tridente sotto il suo dominio e fondò Casa Justman. Governarono le Terre dei Fiumi per quasi trecento anni, prima che la loro stirpe fosse crudelmente spezzata dagli Uomini di Ferro. Anche io sono figlio di entrambe queste linee — forse è tempo di riportare in vita questa un tempo grande [dynasty|E], con me stesso come suo capo."
 justman_revival_decision_confirm: 0 "Un Nome Meritato"
+saerygan_revival_decision: 0 "Rifonda Casa Saerygan"
+saerygan_revival_desc: 0 "Per fato e sventura, l'antica Casa Saerygan si è estinta, ponendo fine a centinaia d'anni di dominio di una casata che vide il Libero Dominio di Valyria al culmine del suo splendore e sopravvisse al Destino di Valyria. Forse è tempo di riportare in vita questa un tempo grande [dynasty|E], con me stesso come suo capo."
+saerygan_revival_decision_confirm: 0 "Un Nome Conquistato"
   dynamic_bastard_house_revival_decision:0 "Rinascita della Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName]"
   dynamic_bastard_house_revival_decision_desc:0 "La Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] si è estinta. In quanto discendente diretto, posso rivendicarne l’eredità e il nome."
   dynamic_bastard_house_revival_decision_confirm:0 "La Casa [ROOT.Char.GetHouse.MakeScope.Var('bastard_house_of').House.GetName] rinascerà dalle ceneri!"
@@ -124,7 +127,7 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
   retrieve_stored_artifacts_decision:0 "Recupera gli artefatti custoditi"
   retrieve_stored_artifacts_decision_desc:0 "Molte reliquie della Casa Targaryen giacciono dimenticate nelle segrete sotto la Fortezza Rossa. Corone e antichi teschi di drago raccolgono polvere in silenzio. È tempo di farle riaffiorare e restituirle al loro legittimo posto nella storia."
   retrieve_stored_artifacts_decision_tooltip:0 "Recupera gli artefatti Targaryen custoditi sotto la Fortezza Rossa"
-  retrieve_stored_artifacts_decision_confirm:0 "Manda i servi sotto."
+retrieve_stored_artifacts_decision_confirm: 0 "Manda i servitori sotto"
 
  ###############################################################
  ## Manage Realm Affairs - World Notification Config Decision ##
@@ -267,7 +270,7 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
 
   adopt_personal_coa:0 "Adotta un Set di Armi Personali"
   adopt_personal_coa_desc:0 "Un set di [agot_personal_coa|e] può distinguermi ulteriormente dalla mia casa e dalla mia famiglia."
-  adopt_personal_coa_confirm:0 "Fallo."
+adopt_personal_coa_confirm: 0 "Fallo"
   adopt_personal_coa_tooltip:0 "Adotta un Set di Armi Personali"
   adopt_personal_coa_effect_tt:0 "Acquisirai un stemma personale che sarà visualizzato accanto al sigillo della tua casa."
   pcoa_plain:0 "Stemma Semplice"
@@ -335,6 +338,11 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
   control_realm_borders_open_effect_tt.vale:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
   control_realm_borders_open_effect_tt.north:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
   control_realm_borders_open_effect_tt.iron_islands:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
+
+agot_dump_landless_pirate_raid_loot: 0 "Raccogli il Bottino della Razza"
+agot_dump_landless_pirate_raid_loot_desc: 0 "Il bottino della mia razzia è pronto per essere riscosso dopo il ritorno in porto. Dovrò però mandare qualche lacchè a reclamarlo a mio nome."
+agot_dump_landless_pirate_raid_loot_tooltip: 0 "Raccogli il Bottino"
+agot_dump_landless_pirate_raid_loot_confirm: 0 "Raccogli il Bottino"
 
  # AI only, blank loc keys
   agot_request_paramountcy_ai_desc:0 ""

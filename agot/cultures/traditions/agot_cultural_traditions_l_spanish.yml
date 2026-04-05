@@ -1,22 +1,29 @@
 ﻿l_spanish:
- # Ethoses
+ #Ethoses
   ethos_festive_name:0 "Festoso"
   ethos_festive_desc:0 "Dinanzi alla durezza dell’esistenza, questa cultura trova salvezza nella festa collettiva e nella risata condivisa."
   ethos_mystic_name:0 "Mistico"
   ethos_mystic_desc:0 "I disegni degli dèi sono oscuri e incomprensibili, ma ciò non impedisce a questa cultura di scrutare oltre il velo per cogliere i misteri più profondi del mondo."
   ethos_methodical_name:0 "Metodico"
   ethos_methodical_desc:0 "Il passo costante evita la caduta, e il popolo di questa cultura non agisce mai senza prima valutare tutte le possibili conseguenze."
+ethos_assertive_name: 0 "Assertivo"
+ethos_assertive_desc: 0 "Solo prendendo ciò di cui ha bisogno una civiltà può prosperare, ed è un'idea che questa cultura ha fatto propria. Come lo faccia, con le armi o con le parole, non fa differenza."
+culture_parameter_ethos_assertive_truce_breaking_twenty_five_cheaper: 0 "Le perdite di [legitimacy|E], [prestige|E] e [piety|E] sono ridotte del #P -25%#! quando si infrangono le [truces|E]"
+culture_parameter_ethos_assertive_additional_contract_change: 0 "I [vassal_contracts|E] [feudal|E] possono essere modificati con #P +1#! cambiamento aggiuntivo"
+ethos_fervent_name: 0 "Fervente"
+ethos_fervent_desc: 0 "Quando una cultura è unita nella fede, può sopravvivere, prosperare e fiorire, poiché è attraverso il divino che un popolo avanza davvero."
+culture_parameter_ethos_fervent_same_faith_increased_vassalization_acceptance: 0 "I membri della stessa fede sono più propensi ad accettare la vassallizzazione"
+culture_parameter_ethos_fervent_same_faith_increased_vassalization_acceptance_tt: 0 "[ethos|E] fervente e stessa [faith|E]: $VALUE|=+0$"
 
  #AGOT Tradition Effects
   culture_parameter_gluttonous_trait_bonuses:0 "Il [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_forder_trait_bonuses:0 "#italic Dalle Acque#!: Il [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_rough_terrain_trait_bonuses:0 "Il [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
   culture_parameter_can_recruit_forder_specialist:0 "Sblocca una [decision|E] per reclutare [commanders|E] con il [GetTrait('forder').GetName( GetNullCharacter )] [traits|E]"
-  culture_parameter_can_have_paramours:0 "I personaggi possono avere amanti scelti per amore, e non per alleanze politiche"
-  culture_parameter_cannibal_skane_trait_gives_bonuses:0 "#italic Un Gusto di Skane#!: Il [GetTrait('cannibal').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
+culture_parameter_can_have_paramours: 0 "I personaggi possono avere apertamente degli amanti scelti per amore, anziché per il bene delle alleanze politiche"
   culture_parameter_the_mark_trait_gives_bonuses:0 "#italic Figli delle Onde#!: Il [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
-  culture_parameter_stubborn_trait_gives_bonuses:0 "#italic Ostinati in Guerra#!: Il [GetTrait('stubborn').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
-  culture_parameter_herbalist_crannog_trait_gives_bonuses:0 "#italic Conoscenza Velenosa#!: Il [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
+culture_parameter_cheaper_tour_activity: 0 "L'attività [GetActivityType( 'activity_tour' ).GetName] costa il #P 10%#! in meno"
+cheaper_tour_activity_discount: 0 "[GetPlayer.GetCulture.GetName] [culture|E]"
 
  #Child Traits
   culture_parameter_bossy_trait_more_common:0 "[children|E] hanno più probabilità di ottenere il tratto [GetTrait('bossy').GetName( GetNullCharacter )]"
@@ -25,6 +32,12 @@
  #Common Traits
   culture_parameter_greedy_trait_more_common:0 "Il tratto [GetTrait('greedy').GetName( GetNullCharacter )] è più comune"
   culture_parameter_arrogant_trait_more_common:0 "Il tratto [GetTrait('arrogant').GetName( GetNullCharacter )] è più comune"
+culture_parameter_wrathful_trait_more_common: 0 "Il [trait|E] [GetTrait('wrathful').GetName( GetNullCharacter )] è più comune"
+culture_parameter_brave_trait_more_common: 0 "Il [trait|E] [GetTrait('brave').GetName( GetNullCharacter )] è più comune"
+culture_parameter_dragon_dreams_more_common: 0 "Il [trait|E] [GetTrait('dragon_dreams').GetName( GetNullCharacter )] è più comune"
+culture_parameter_cannibal_trait_is_more_common: 0 "Il [trait|E] [GetTrait('cannibal').GetName( GetNullCharacter )] è più comune"
+culture_parameter_greensight_more_common: 0 "Il [trait|E] [GetTrait('greensight').GetName( GetNullCharacter )] è più comune"
+culture_parameter_fashionable_trait_more_common: 0 "Il [trait|E] [GetTrait('fashionable').GetName( GetNullCharacter )] è più comune"
 
  #Commander Traits
   culture_parameter_organizer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('organizer').GetName( GetNullCharacter )] è più comune"
@@ -34,13 +47,23 @@
   culture_parameter_logistician_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('logistician').GetName( GetNullCharacter )] è più comune"
   culture_parameter_military_engineer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('military_engineer').GetName( GetNullCharacter )] è più comune"
   culture_parameter_forder_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('forder').GetName( GetNullCharacter )] è più comune"
+culture_parameter_open_terrain_expert_trait_more_common: 0 "Il [commander_trait|E] [GetTrait('open_terrain_expert').GetName( GetNullCharacter )] è più comune"
+culture_parameter_reaver_trait_more_common: 0 "Il [commander_trait|E] [GetTrait('reaver').GetName( GetNullCharacter )] è più comune"
 
  #Terrain Bonuses
   culture_parameter_wetlands_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ottengono bonus aggiuntivi nelle Zone Umide"
   culture_parameter_plains_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ottengono bonus aggiuntivi nelle Pianure"
+culture_parameter_steppe_trait_bonuses: 0 "Alcuni [commander_traits|E] e [personality_traits|E] ricevono bonus aggiuntivi nella Steppa"
+culture_parameter_urban_trait_bonuses: 0 "Alcuni [commander_traits|E] e [personality_traits|E] ricevono bonus aggiuntivi in ambiente urbano"
+culture_parameter_bog_hunt_success_chance: 0 "Probabilità di successo della caccia aumentata in [GetTerrain( 'the_bog' ).GetName]"
 
  #Trait Valued
   culture_parameter_shrewd_trait_more_valued:0 "Il tratto [GetTrait('shrewd').GetName( GetNullCharacter )] è maggiormente apprezzato"
+culture_parameter_knight_trait_more_valued: 0 "Il [trait|E] [GetTrait('knight').GetName( GetNullCharacter )] è maggiormente apprezzato"
+culture_parameter_just_trait_more_valued: 0 "Il [trait|E] [GetTrait('just').GetName( GetNullCharacter )] è maggiormente apprezzato"
+culture_parameter_cul_more_likely_born_with_mark: 0 "I personaggi di questa cultura hanno maggiori probabilità di nascere con [GetTrait('the_mark').GetName( GetNullCharacter )]"
+culture_parameter_cannibal_trait_more_valued: 0 "Il [trait|E] [GetTrait('cannibal').GetName( GetNullCharacter )] è maggiormente apprezzato"
+culture_parameter_poet_trait_more_valued: 0 "Il [trait|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] è maggiormente apprezzato"
 
  #Trait Looked Down Upon
   culture_parameter_slave_master_trait_looked_down_upon:0 "Il tratto [GetTrait('slave_master').GetName( GetNullCharacter )] è disprezzato"
@@ -50,6 +73,11 @@
   culture_parameter_humble_trait_looked_down_upon:0 "Il tratto [GetTrait('humble').GetName( GetNullCharacter )] è disprezzato"
   culture_parameter_lazy_trait_looked_down_upon:0 "Il tratto [GetTrait('lazy').GetName( GetNullCharacter )] è disprezzato"
   culture_parameter_wrathful_trait_looked_down_upon:0 "Il tratto [GetTrait('wrathful').GetName( GetNullCharacter )] è disprezzato"
+culture_parameter_craven_looked_down_upon: 0 "Il [trait|E] [GetTrait('craven').GetName( GetNullCharacter )] è disprezzato"
+culture_parameter_shy_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('shy').GetName( GetNullCharacter )] è disprezzato"
+culture_parameter_gluttonous_looked_down_upon: 0 "Il [trait|E] [GetTrait('gluttonous').GetName( GetNullCharacter )] è disprezzato"
+culture_parameter_arbitrary_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('arbitrary').GetName( GetNullCharacter )] è disprezzato"
+culture_parameter_disloyal_looked_down_upon: 0 "Il [trait|E] [GetTrait('disloyal').GetName( GetNullCharacter )] è disprezzato"
 
  #Wanderers Extra Skills
   culture_parameter_wanderers_gain_extra_learning_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nel sapere, come [learning|E] o [lifestyle_traits|E]"
@@ -62,242 +90,368 @@
   culture_parameter_city_holdings_more_taxes:0 "I [city_holdings|E] forniscono più [taxes|E]"
   culture_parameter_city_holding_fort_level_bonus:0 "[fort_level|E] per ogni livello di #V $building_type_city_01$#!: [fort_level_i]#P +1#!"
   culture_parameter_better_workshop_bonuses:0 "La linea di edifici #V $building_type_workshops_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
-  culture_parameter_better_farm_estate_bonuses:0 "La linea di edifici #V $building_type_farm_estates_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
+culture_parameter_better_farm_estates_bonuses: 0 "La catena di [buildings|E] #V $building_type_farm_estates_01$#! fornisce bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
   culture_parameter_better_farm_bonuses:0 "La linea di edifici #V $building_type_cereal_fields_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
   culture_parameter_better_smith_buildings:0 "La linea di edifici #V $building_type_smiths_01$#! fornisce bonus aggiuntivi nei [counties|E] appartenenti a questa [culture|E]"
+culture_parameter_better_bakeries_bonuses: 0 "La catena di [buildings|E] #V $building_type_agot_urban_farms_01$#! fornisce bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_watermill_bonuses: 0 "La catena di [buildings|E] #V $building_type_watermills_01$#! fornisce bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_regimental_bonuses: 0 "La catena di [buildings|E] #V $building_type_regimental_grounds_01$#! fornisce bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_barracks_bonuses: 0 "La catena di [buildings|E] #V $building_type_barracks_01$#! fornisce bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_watermills_without_innovations_unlock: 0 "La catena di [buildings|E] #V $building_type_watermills_01$#! non richiede innovazioni per essere costruita"
+culture_parameter_control_gain_on_building_complete: 0 "Ottieni #P 15#! [control|E] quando viene costruito un [building|E] #weak (fino a una volta l'anno)#!"
+culture_parameter_piety_gain_on_building_complete: 0 "Ottieni [piety|E] quando viene costruito un [building|E]"
+
 
  #Misc
   culture_parameter_shortened_truce_period:0 "[truces|E] più brevi"
   culture_parameter_more_slaves_from_raiding:0 "Si catturano più schiavi utilizzando il [casus_bellis|E] #V Razzia per Schiavi#!"
+culture_parameter_gain_piety_from_aggro_war_victory: 0 "Vincere guerre come attaccante principale conferirà [piety|E]"
+culture_parameter_guardians_add_more_prowess_to_wards: 0 "I bambini ottengono [prowess|E] aggiuntiva se hanno un [guardian|E] di questa [culture|E]"
+culture_parameter_slightly_hard_to_convert_county_faith: 0 "Resistenza alla conversione della contea: #P +10%#!"
+culture_parameter_fashionistas_marriage_acceptance_bonus: 0 "Accettazione del [marriage|E]: #P +10#!"
 
- # Vanilla Tradition Effects Add-Ons
-  culture_parameter_the_bog_hunt_success_chance:0 "Aumentata la [hunt_success_chance|E] nelle [GetTerrain( 'the_bog' ).GetName]"
+ #Triggers and Tooltips
+TRADITION_SLIGHTLY_HARD_TO_CONVERT_CONVERSION_MODIFIER: 0 "$tradition_agot_first_men_name$ [culture_tradition|E]: $VALUE|=+0$"
+TRADITION_BONUS_WEDDING_CEREMONIES_FASHIONISTAS: 0 "$tradition_agot_fashionistas_name$ [culture_tradition|E]: $VALUE|+=0$"
+
+ #Realm Traditions
+tradition_agot_insular_marriage_name: 0 "Matrimonio Insulare"
+tradition_agot_insular_marriage_desc: 0 "Pur non essendo isolazionista, questa cultura preferisce ancora sposarsi all'interno del proprio popolo."
+
+tradition_agot_debug_name: 0 "Debug"
+tradition_agot_debug_desc: 0 "Come sei arrivato qui?"
+
+ #Societal Traditions
+tradition_agot_fashionistas_name: 0 "Carezza il Tessuto"
+tradition_agot_fashionistas_desc: 0 "Vedo che la moda consuma più vestiti dell'uomo."
 
  #Traditions
-  agot_tradition_vale_andal_heritage_name:0 "Fede e Furia"
-  agot_tradition_vale_andal_heritage_desc:0 "Gli Andali provengono dall’Essos settentrionale, sebbene nessuno sappia esattamente da dove. Con l’espansione del vorace Dominio Libero di Valyria, furono costretti a fuggire verso Westeros, travolgendo tutto ciò che si trovava a sud dell’Incollatura e portando con sé fervore religioso e le tradizioni di cavalleria e nobiltà."
+tradition_agot_blackwater_bay_name: 0 "Dominio della Corona"
+tradition_agot_blackwater_bay_desc: 0 "Le Terre della Corona sono la più recente tra le regioni di Westeros, forgiate dalle casate e dai popoli giurati direttamente al Trono di Spade. Per questo motivo ne hanno assunto le caratteristiche e i modi di vivere. Dominata dalla città di Approdo del Re, sempre più persone iniziano a vivere nelle città e ad adottare stili di vita più urbani."
 
-  agot_tradition_crownlander_name:0 "Nati dal Fiumenero"
-  agot_tradition_crownlander_desc:0 "I Popoli delle Terre della Corona hanno una cultura forgiata dalla vicinanza al potere reale e dal commercio che attraversa la Baia del Fiumenero. Un’amministrazione solida e una prosperità relativa hanno fatto di loro mercanti, artigiani e negozianti. Sono molto meno marziali degli uomini delle Tempeste e ben più agiati dei loro vicini delle Terre dei Fiumi."
+tradition_agot_vale_andal_heritage_name: 0 "Fede e Furia"
+tradition_agot_vale_andal_heritage_desc: 0 "Gli Andali provengono dall'Essos settentrionale, sebbene nessuno sappia con precisione da dove. Con la continua espansione del Possedimento Valyriano, affamato di terre, gli Andali furono costretti a fuggire dalle loro patrie originarie verso Westeros, travolgendo ogni luogo a sud dell'Incollatura e portando con sé il loro fervore religioso e le tradizioni della cavalleria e della cortesia."
 
-  agot_tradition_fingerman_name:0 "Umile Servizio"
-  agot_tradition_fingerman_desc:0 "Le Dita sono un luogo brullo e battuto dai venti gelidi del nord, dove cresce ben poco. I contadini vivono di pastorizia, su terre inadatte alla coltivazione. Così, i Popolani delle Dita vivono in modo modesto, trovando un briciolo di serenità in una terra spietata."
+tradition_agot_valeman_finger_name: 0 "Umile Servizio"
+tradition_agot_valeman_finger_desc: 0 "Le Dita sono un luogo tetro e battuto dal vento, tanto assalite dalle raffiche del gelido nord che ben poca vegetazione cresce presso le loro estremità. Per la piccola gente vi sono pochi mezzi di sostentamento oltre alla pastorizia, poiché vi è scarsa terra da rendere coltivabile. Così gli uomini delle Dita vivono vite modeste, e i caprai e i mezzadri trovano una certa contentezza nella loro casa spietata."
 
-  agot_tradition_harborman_name:0 "Dal Mander al Coltello"
-  agot_tradition_harborman_desc:0 "Gli Uomini del Porto abitano attorno a Porto Bianco, la più grande città del Nord. Tra tutti i popoli del Nord, sono quelli più influenzati dagli Andali, grazie a Casa Manderly che ha portato con sé la Fede dei Sette e molte usanze andale dopo l’esilio dall’Altopiano."
+tradition_agot_honeywiner_name: 0 "Dolci e Soavi"
+tradition_agot_honeywiner_desc: 0 "Gli uomini dello Honeywine e delle terre circostanti sono tra i più prosperi di tutto Westeros. Con terre fertili e la grande città di Oldtown, molto commercio scorre lungo il fiume che dà il nome al popolo. Con la Cittadella e il Tempio Stellato, la regione è un bastione del sapere a Westeros, tanto che perfino molti popolani sanno leggere e scrivere."
 
-  agot_tradition_honeywiner_name:0 "Dolcezza e Delicatezza"
-  agot_tradition_honeywiner_desc:0 "Gli uomini del Mielevino vivono in terre tra le più fertili e prospere di Westeros. Con la grande città di Vecchia Città e la presenza della Cittadella e del Sept Stellato, la zona è un faro di sapere — persino molti popolani sanno leggere e scrivere."
+tradition_agot_valeman_upper_name: 0 "Molto in Alto"
+tradition_agot_valeman_upper_desc: 0 "Separati dai loro parenti che dimorano nelle fertili valli della Valle, gli uomini che vivono sulle alture delle Montagne della Luna sono gente assai più rude e tenace. In tempo di guerra sono loro a presidiare le prime linee di difesa contro le incursioni esterne e, vivendo ad alta quota, sono anche coloro che più devono affrontare le scorrerie dei Clanici delle Montagne."
 
-  agot_tradition_marcher_name:0 "Sangue e Acciaio"
-  agot_tradition_marcher_desc:0 "Gli uomini delle Terre Basse di Dorne sono tra i guerrieri più feroci di Westeros. La loro cultura è forgiata da secoli di scontri contro i Dorniani delle Montagne, con cui condividono una lunga storia di faide sanguinose."
+tradition_agot_reachman_name: 0 "Gloria di Mano Verde"
+tradition_agot_reachman_desc: 0 "L'Altopiano è una terra prospera e fertile costruita sulle spalle della piccola gente laboriosa. È anche una terra di famiglie con alcune delle radici più antiche di Westeros, risalenti al mitico Garth Mano Verde, dal quale la maggior parte delle illustri famiglie dell'Altopiano afferma di discendere. Con così tante famiglie che aspirano all'eminenza in una terra ricca, i legami che le uniscono sono più forti e importanti che altrove a Westeros."
 
-  agot_tradition_moonman_name:0 "Sopra le Vette"
-  agot_tradition_moonman_desc:0 "Separati dai loro parenti che abitano le valli fertili del Val, gli uomini delle Montagne della Luna sono più duri e tenaci. In guerra, sono la prima linea contro le incursioni, abituati tanto al freddo quanto agli attacchi dei Clan delle Montagne."
+tradition_agot_riverlands_name: 0 "Ricompense del Fiume"
+tradition_agot_riverlands_desc: 0 "Gli Uomini delle Terre dei Fiumi sono spesso stretti tra i poteri che li circondano, eppure tendono a prosperare quando hanno un re forte tutto loro. Il Tridente e i suoi affluenti plasmano le loro vite più di ogni altra cosa, ed è da queste acque che traggono prosperità."
 
-  agot_tradition_reachman_name:0 "La Gloria del Verde"
-  agot_tradition_reachman_desc:0 "L’Altopiano è una terra ricca e fertile, costruita sul lavoro dei popolani. Le sue famiglie affondano le radici nei miti di Garth Manoverde, da cui molti Reachman si dicono discendenti. In un regno tanto prospero, i legami di sangue sono forti e le rivalità tra famiglie ancor più aspre."
+tradition_agot_shieldman_name: 0 "Guardiani del Mander"
+tradition_agot_shieldman_desc: 0 "Così chiamate per la loro funzione primaria di scudo contro gli attacchi degli Uomini di Ferro, le Isole Scudo sono un insieme di quattro isole dell'Altopiano ben fortificate, governate da quattro diverse casate. Popolo leale, sebbene per certi versi isolato, gli abitanti delle Isole Scudo sono noti per il loro temperamento robusto e il loro senso del dovere. Le isole sono celebri per i loro fuochi di segnalazione, che gli anziani nelle torri di guardia accendono da isola a isola per diffondere l'avviso dell'arrivo delle navi lunghe agli insediamenti dell'interno. Più di ogni altra cosa, coloro che provengono dalle Isole Scudo si considerano la prima linea di difesa navale."
 
-  agot_tradition_riverlander_name:0 "Tempesta sul Tridente"
-  agot_tradition_riverlander_desc:0 "Il Tridente è terra di guerre infinite, spesso combattute da altri ma su suolo suo. Con Stormlander e Uomini di Ferro che l’hanno invasa più volte, i Rivermen hanno imparato a usare la propria terra a loro vantaggio — tanto in guerra quanto in pace."
+tradition_agot_stormlands_name: 0 "Simili al loro Tempo"
+tradition_agot_stormlands_desc: 0 "Gli uomini delle Terre della Tempesta sono gente robusta, ben nota per la propria inclinazione marziale e per la rapidità con cui si adira. Gli uomini e le donne delle Terre della Tempesta hanno resistito all'ira degli uomini, della natura e perfino degli stessi dèi, e non solo sono rimasti, ma hanno prosperato."
 
-  agot_tradition_shieldman_name:0 "Guardiani del Mander"
-  agot_tradition_shieldman_desc:0 "Le Isole Scudo prendono il nome dalla loro funzione: proteggere l’Altopiano dagli attacchi degli Uomini di Ferro. Le quattro isole fortificate sono governate da quattro casate fedeli e robuste. Famosi per i loro fari, gli isolani inviano segnali di allerta nell’entroterra accendendo fuochi isola dopo isola. Per loro, la difesa navale è un sacro dovere."
+tradition_agot_marches_name: 0 "Guerre Senza Numero"
+tradition_agot_marches_desc: 0 "Le Marche sono da lungo tempo il crocevia tra le Terre della Tempesta, l'Altopiano e Dorne, testimoniando innumerevoli battaglie fin dall'Età dell'Alba. Il popolo che le chiama casa è noto per la propria abilità marziale, la feroce ostinazione e la costante vigilanza verso ogni possibile minaccia."
 
-  agot_tradition_stone_dornish_name:0 "Guardiani dei Passi"
-  agot_tradition_stone_dornish_desc:0 "I Dorniani delle Montagne sono i meno influenzati dai Rhoynar. Vivono nelle valli e nei passi dei Monti Rossi, e la loro cultura è stata forgiata da generazioni di guerra contro i Signori delle Marche dell’Altopiano e delle Tempeste."
+tradition_agot_stone_dornish_name: 0 "Guardiani dei Passi"
+tradition_agot_stone_dornish_desc: 0 "I Dorniani di Pietra sono, sul piano etnico e culturale, i meno influenzati dai Rhoynar tra i Dorniani. Vivendo sulle alture e nelle valli delle Montagne Rosse, la loro cultura è stata plasmata da generazioni di conflitti con i lord delle Terre Basse dell'Altopiano e delle Terre della Tempesta, difendendo con ardore i loro passi montani dalle incursioni esterne."
 
-  agot_tradition_stormlander_name:0 "Tuono Rombante"
-  agot_tradition_stormlander_desc:0 "Gli uomini delle Terre della Tempesta sono noti per il loro carattere rude e impetuoso, come il clima che li forgia. Crescono tra colline e burroni, temprati a diventare guerrieri forti e resistenti. Anche i loro marinai, forgiati dalle acque tempestose della Baia Spaccanavi, sono tra i più temprati."
+tradition_agot_vale_name: 0 "Montagna e Valle"
+tradition_agot_vale_desc: 0 "L'antico regno degli Arryn è dominato dalle Montagne della Luna e dalle valli che si snodano tra esse, soprattutto la Valle di Arryn. Questi due elementi hanno isolato dal resto di Westeros i popoli che vivono a oriente e, al contempo, li hanno uniti."
 
-  agot_tradition_valeman_name:0 "Montagna e Valle"
-  agot_tradition_valeman_desc:0 "Il Val d’Arryn è la regione più profondamente andala di tutto Westeros. I suoi cavalieri sono detti i più abili, e il popolo il più pio. Le valli tra i Monti della Luna sono fertili, seconde solo all’Altopiano, rendendo la regione abbondante e potente."
+tradition_agot_vineman_name: 0 "Vino, Donne e Canto"
+tradition_agot_vineman_desc: 0 "Fin dalla venuta di Gilbert delle Vigne, gli uomini dell'Arbor conoscono una sola cosa: il vino. I vigneti dell'Arbor sono leggendari a Westeros e oltre per la qualità del vino che producono, e molti mercanti e marinai gettano l'ancora a Ryamsport per comprare i migliori rossi dell'Arbor."
 
-  agot_tradition_vineman_name:0 "Vino, Donne e Canti"
-  agot_tradition_vineman_desc:0 "Da quando giunse Gilbert della Vigna, gli uomini dell’Arbor vivono per il vino. I vigneti dell’Arbor sono leggendari in tutto il reame e oltre, e mercanti e marinai si fermano a Ryamsport per acquistare i celebri rossi dell’Arbor."
+tradition_agot_westerman_name: 0 "Di Oro e Argento"
+tradition_agot_westerman_desc: 0 "Le Terre dell'Ovest, a prima vista, sembrano un luogo modesto: non il più vasto né il più popoloso dei Sette Regni, eppure il più ricco. Ciò che manca loro in campi estesi e fertili lo compensano più che ampiamente con la ricchezza delle loro colline, colme d'oro e d'argento. È su questa abbondanza di minerali preziosi che si fonda il potere delle Terre dell'Ovest, e i loro nobili custodiscono gelosamente le miniere da coloro che le osservano, invidiosi della loro ricchezza."
 
-  agot_tradition_westerman_name:0 "D’Oro e d’Argento"
-  agot_tradition_westerman_desc:0 "A prima vista, le Terre dell’Ovest possono sembrare modeste: non sono né le più vaste né le più popolose tra i Sette Regni, ma di certo sono le più ricche. Ciò che manca loro in campi fertili, viene più che compensato dalle ricchezze delle colline, colme d’oro e d’argento. È su questa abbondanza di minerali preziosi che si fonda il potere dell’Ovest, e i suoi nobili proteggono gelosamente le loro miniere dagli sguardi invidiosi altrui."
+tradition_agot_north_name: 0 "Legati da Bronzo e Ferro"
+tradition_agot_north_desc: 0 "I Northrons, uomini e donne che chiamano il Nord casa, sono un popolo austero e tenace. Uniti migliaia di anni fa dal Lupo Affamato, questi popoli sono vari quanto le terre che abitano, eppure tutti sono vincolati dagli antichi giuramenti."
 
-  agot_tradition_barrowman_name:0 "Colline e Canali"
-  agot_tradition_barrowman_desc:0 "Un tempo governate dai Re dei Tumuli, le Terre dei Tumuli furono infine sottomesse da Grande Inverno, dopo un millennio di conflitti. I Barrowmen si sono integrati tra gli uomini del nord, ma sono rimasti abili cavalieri, e le loro vaste pianure ondulate li rendono preziosi alleati per chiunque voglia combattere nel Nord."
+tradition_agot_sisterman_name: 0 "Sotto la Salamoia"
+tradition_agot_sisterman_desc: 0 "Per gran parte della loro storia, gli abitanti delle Tre Sorelle avevano più in comune con gli Uomini di Ferro che con gli uomini della Valle o del Nord. Per millenni furono governati dai loro re pirati, depredando le coste del Morso per procurarsi ciò che le loro isole battute dal vento non potevano offrire, e adorando strane divinità sconosciute tanto agli Andali quanto ai Primi Uomini."
 
-  agot_tradition_clawman_name:0 "Uomini Selvaggi dell’Artiglio"
-  agot_tradition_clawman_desc:0 "Gli uomini di Punta Artiglio sono tra i più selvaggi a sud dell’Incollatura. Il sangue degli Antichi Scorre ancora forte in loro, e molte delle loro usanze originarie sopravvivono. Insieme ai Clan delle Montagne del Val, furono gli unici a resistere all’invasione andala, accettando la Fede dei Sette solo dopo aver intrecciato matrimoni con gli Andali."
+tradition_agot_ironmen_name: 0 "Scolpiti dal Legno Pallido"
+tradition_agot_ironmen_desc: 0 "Gli Uomini di Ferro sono un flagello dei mari, eppure la loro influenza rifluisce e cresce come le maree che li portano. Talvolta sono confinati unicamente alle loro isole nel Mare del Tramonto; altre volte si diffondono nelle Terre Verdi e vi regnano. Tuttavia restano sempre uniti dagli antichi legami con il Re Grigio che dimora nelle profondità."
 
-  agot_tradition_crannogman_name:0 "Figli della Palude"
-  agot_tradition_crannogman_desc:0 "I Crannogmen sono un popolo basso e riservato, visti da alcuni come primitivi e da altri come spiriti del fango o diavoli delle paludi. La loro terra, l’Incollatura, è una distesa paludosa piena di nebbie e segreti. Molti sussurrano che abbiano appreso magie e incantesimi dai Figli della Foresta — alcuni si spingono oltre, dicendo che i Crannogmen discendano da un’unione tra Figli e Primi Uomini."
+tradition_agot_dorne_rhoynish_heritage_name: 0 "Figli di Madre Rhoyne"
+tradition_agot_dorne_rhoynish_heritage_desc: 0 "La civiltà rhoynish è antica e illustre. Così profonda è la storia dei Rhoynar che alcuni attribuiscono loro l'insegnamento agli Andali della forgiatura e della lavorazione del ferro. Provenienti dalle città-stato lungo il fiume Rhoyne, i Rhoynar venerano numerosi dèi del fiume e hanno anche una speciale affinità con ogni sorta d'imbarcazione, dai piccoli battelli da pesca alle oscene chiatte da piacere. La cultura rhoynish è notevolmente diversa da quella andala, con l'eredità eguale come norma tanto per le donne quanto per gli uomini, e con l'accettazione delle relazioni tra persone dello stesso sesso. I Rhoynar sono noti per l'amore verso l'arte e la musica, il che potrebbe spiegare in parte perché alcune pratiche culturali rhoynish si diffusero così rapidamente a Dorne quando i Rhoynar vi giunsero."
 
-  agot_tradition_firstman_name:0 "I Primi"
-  agot_tradition_firstman_desc:0 "Prima dei Sette Regni, del Flagello di Valyria e persino degli Andali, vi furono i Primi Uomini. Armati di bronzo, furono i primi ad abitare Westeros, incidendo la loro cultura e il loro retaggio nel sangue del continente. Sebbene la Vecchia Lingua viva solo tra bruti e giganti, e le rune siano ormai estinte, la fede e le tradizioni dei Primi sopravvivono nel Nord, dove molti ancora pregano gli Alberi-Cuore nei boschetti sacri."
+tradition_agot_greenblood_name: 0 "Orfanotrofio Fluviale"
+tradition_agot_greenblood_desc: 0 "Dopo essere fuggiti da Essos e giunti a Dorne, gli Orfani del Greenblood si guadagnarono da sé quel titolo rifiutando di adottare le usanze dorniane e di assimilarsi, scegliendo invece di vivere come gli 'orfani' del fiume Rhoyne, il fiume che chiamano 'madre'. Gli Orfani del Greenblood e i loro discendenti si aggrappano alla cultura e alle credenze dei Rhoynar, parlando ancora la lingua rhoynish a porte chiuse e in segreto, vivendo su zattere lungo il fiume Greenblood da cui prendono il nome."
 
-  agot_tradition_hill_clansman_name:0 "Clan del Nord"
-  agot_tradition_hill_clansman_desc:0 "I Clan delle Colline sono tra i popoli più selvaggi e meno civilizzati a sud della Barriera. I conflitti tra clan, piccoli e grandi, sono all’ordine del giorno, e le faide hanno versato sangue per secoli. La loro vicinanza alla Barriera ha creato legami con i Guardiani della Notte, e interagiscono più di altri con i Bruti, tramite razzie e scambi."
+tradition_agot_salt_dornish_name: 0 "Il Sangue di Nymeria"
+tradition_agot_salt_dornish_desc: 0 "Avendo nelle vene più sangue rhoynar di qualsiasi altro Dorniano, i Dorniani di Sale vivono lungo le coste più temperate di Dorne. Portano avanti molte delle tradizioni egualitarie introdotte da Nymeria e sono ottimi marinai, con i porti disseminati lungo la costa dorniana che recano loro grande prosperità."
 
-  agot_tradition_northman_name:0 "Fedeli e Veri"
-  agot_tradition_northman_desc:0 "Gli uomini del Nord sono tra gli ultimi discendenti dei Primi Uomini, e costituiscono la popolazione più vasta ancora esistente. Protetti dagli Andali dal terreno impervio dell’Incollatura e dalla Fortezza di Moat Cailin, hanno mantenuto le loro antiche tradizioni e continuano a venerare gli Antichi Dei. Ancora oggi sono un popolo isolazionista, poco interessato agli affari a sud dell’Incollatura."
+tradition_agot_sand_dornish_name: 0 "Deserto e Duna"
+tradition_agot_sand_dornish_desc: 0 "Traendo a fatica sostentamento dal duro deserto che chiamano casa, i Dorniani di Sabbia sono un popolo resistente e spietato. I loro castelli e insediamenti sorgono intorno alle rare fonti d'acqua della loro patria desertica, che difendono con ardore. Sono un popolo naturalmente audace e avventuroso, e molte delle casate nobili della regione discendono da quei pochi coraggiosi che si spinsero in spedizioni tra le dune più severe."
 
-  agot_tradition_sisterman_name:0 "Sotto il Mare Salato"
-  agot_tradition_sisterman_desc:0 "Per gran parte della loro storia, gli Uomini delle Sorelle somigliavano più agli Uomini di Ferro che ai loro vicini del Val o del Nord. Per millenni furono governati da re pirati, saccheggiando le coste del Golfo per ottenere ciò che le loro isole ventose non potevano offrire. Veneravano dèi sconosciuti tanto agli Andali quanto ai Primi Uomini."
+tradition_agot_wildling_name: 0 "Feroci, Selvaggi e Bruti"
+tradition_agot_wildling_desc: 0 "Laddove la maggior parte dei popoli e delle società progredisce e cresce, vi sono gruppi che rifiutano di piegarsi al progresso, come dimostrano i numerosi Bruti di Westeros. La maggior parte di essi si trova oltre la Bariera, ma gruppi se ne trovano anche nelle Montagne della Luna. Questi gruppi tribali sono feroci, sebbene poco sviluppati, e possono diventare una minaccia se numerosi."
 
-  agot_tradition_skagosi_name:0 "Figli della Pietra"
-  agot_tradition_skagosi_desc:0 "Gli Skagosi — o 'Skaggs', come vengono dispregiativamente chiamati — sono visti più come Bruti che come gente civilizzata. Ma per se stessi, sono i Nati dalla Roccia: un popolo fiero, temprato dalla pietra che li circonda. Secondo molti, continuano a praticare antiche usanze oscure dei Primi Uomini, come il cannibalismo e i sacrifici umani."
+tradition_agot_moon_clan_name: 0 "Sopra il Sole Calante"
+tradition_agot_moon_clan_desc: 0 "Nelle profondità delle Montagne della Luna dimorano i loro clanici, gli uomini più selvaggi e incivili di ogni luogo a sud della Bariera. Sono gli ultimi veri resti dei Primi Uomini nella Valle, poiché la loro dimora montana li ha protetti dall'assalto degli Andali, consentendo loro di continuare le proprie usanze primitive senza grandi interferenze esterne."
 
-  agot_tradition_ironborn_name:0 "Sale e Roccia"
-  agot_tradition_ironborn_desc:0 "Le Isole di Ferro sono terre aspre e spoglie, e i loro abitanti non sono da meno. La cultura degli Uomini di Ferro si fonda sulla razzia e sul ‘prezzo di ferro’. Con poche terre coltivabili, hanno sempre vissuto di mare, e chi non può brandire un’ascia diventa pescatore. Le poche fattorie sono lavorate dagli schiavi, poiché persino i popolani disdegnano l’agricoltura."
+tradition_agot_rushlander_name: 0 "Dove i Fiumi Incontrano le Colline"
+tradition_agot_rushlander_desc: 0 "Cultura nata sul confine tra la Valle e le Terre dei Fiumi, i Rushlanders sono un popolo robusto, adattato alla vita tra le colline così come lungo i fiumi."
 
-  agot_tradition_greenborn_name:0 "Dal Mare e dai Campi"
-  agot_tradition_greenborn_desc:0 "Uomini di Ferro che si sono stabiliti nell’entroterra. Sebbene conservino un forte legame col mare, si sono adattati a vivere anche lontano da esso."
+tradition_agot_harsh_laws_name: 0 "Governo Severo"
+tradition_agot_harsh_laws_desc: 0 "La società plasma le leggi. La storia ha mostrato che è naturale che una terra aspra generi gente aspra, e che costoro, a loro volta, creino leggi severe con cui governare."
 
-  agot_tradition_valyrian_name:0 "Sangue di Drago"
-  agot_tradition_valyrian_desc:0 "Un tempo i Valyriani erano un popolo innumerevole, con un impero che si estendeva da Ghis a Pentos. Il Dominio Libero, nonostante il nome, era tutt’altro che libero. Pur tollerando i popoli sottomessi a dorso di drago, non esitavano a ridurli in schiavitù, mandandoli a morire nelle miniere delle Quattordici Fiamme. Con il Flagello, però, quasi tutti i Valyriani di sangue puro svanirono, insieme ai draghi che avevano usato per conquistare il mondo."
+tradition_agot_thenn_name: 0 "Gli Ultimi dei Primi"
+tradition_agot_thenn_desc: 0 "Considerati i più 'sofisticati' dei bruti da coloro che vivono a sud della Bariera, i Thenn si reputano gli ultimi Primi Uomini rimasti. Gli abitanti della valle montana nei Frostfangs hanno più contatti con i giganti che con altre culture, ma sono riusciti a imparare occasionalmente qualche parola o frase nella Lingua Comune, pur non avendo mai abbandonato l'Antica Lingua che parlano ancora oggi. Fieri della loro fede nel Magnar, i Thenn sono in qualche misura più disciplinati e organizzati degli altri bruti e hanno accumulato un'impressionante armeria di bronzo. Sebbene coloro che vivono a sud della Bariera possano considerarli selvaggi, essi sono più che capaci e spesso entrano in conflitto con i Guardiani della Notte."
 
-  agot_tradition_dorne_rhoynish_heritage_name:0 "Figli della Madre Rhoyne"
-  agot_tradition_dorne_rhoynish_heritage_desc:0 "La civiltà rhoynar è antica e illustre. Alcuni attribuiscono a loro persino l’insegnamento della metallurgia agli Andali. Provenienti dalle città-stato lungo il fiume Rhoyne, i Rhoynar venerano molte divinità fluviali e mostrano grande affinità con ogni tipo di imbarcazione, dalle barche da pesca alle chiatte del piacere. La loro cultura, diversa da quella andala, prevede eredità equa tra uomini e donne e accettazione delle relazioni tra pari. La loro passione per arte e musica ha facilitato la diffusione delle loro usanze a Dorne."
+tradition_agot_andalos_name: 0 "Colline Sotto le Stelle"
+tradition_agot_andalos_desc: 0 "Fu a Hugor che i Sette-Che-Sono-Uno imposero l'unzione sulla collina di Andalos con sette stelle, affidandogli il compito di condurre gli Andali a Westeros, quale ricompensa divina per aver mantenuto il patto con i Sette-Che-Sono-Uno."
 
-  agot_tradition_greenblood_name:0 "Orfani del Fiume"
-  agot_tradition_greenblood_desc:0 "Fuggiti da Essos, gli Orfani del Verde Sangue si guadagnarono tale nome rifiutando di adottare le usanze di Dorne, preferendo vivere come ‘orfani’ del fiume Rhoyne, che chiamano 'madre'. Ancora oggi mantengono viva la cultura rhoynar, parlando la lingua in segreto e vivendo su zattere lungo il fiume Verde Sangue."
+tradition_agot_braavos_name: 0 "Liberi dalle Catene degli Schiavisti"
+tradition_agot_braavos_desc: 0 "Unica fra le Città Libere, Braavos nacque da schiavi fuggiaschi diretti a Valyria, ed è dunque composta da popoli provenienti da tutto il mondo conosciuto e oltre. Ciò ha plasmato Braavos in una città e in una nazione di molti popoli, dove una sola regola prevale su tutte: 'Nessun uomo, donna o bambino a Braavos sarà mai schiavo, servo o vincolato.'"
 
-  agot_tradition_salt_dornish_name:0 "Il Sangue di Nymeria"
-  agot_tradition_salt_dornish_desc:0 "I Dorniani Salati, abitanti delle coste temperate di Dorne, portano più sangue rhoynar di chiunque altro. Mantengono molte delle tradizioni egualitarie portate da Nymeria e sono eccellenti marinai, prosperando nei porti disseminati lungo le coste dorniote."
+tradition_agot_religious_fc_name: 0 "In Cerca di Purezza Religiosa"
+tradition_agot_religious_fc_desc: 0 "Il Possedimento era una mescolanza di molti popoli, dai Valyriani agli Andali, Rhoynar, Ghiscari e altri ancora, senza contare i numerosi schiavi oltre i suoi confini. Per mantenere il controllo su genti tanto diverse, i Signori dei Draghi permisero il culto di tutti, cosa detestata da alcuni tra i loro sudditi più zelanti, che partirono per fondare proprie città in cerca di purezza religiosa."
 
-  agot_tradition_sand_dornish_name:0 "Deserto e Duna"
-  agot_tradition_sand_dornish_desc:0 "Sopravvivendo nel deserto aspro e inospitale, i Dorniani Sabbiosi sono un popolo resiliente e implacabile. I loro castelli sorgono attorno alle rare fonti d’acqua, che difendono con ferocia. Sono avventurosi e audaci, e molte delle loro casate discendono da coloro che osarono esplorare le dune."
+tradition_agot_three_daughters_name: 0 "Presi Fra Sorelle"
+tradition_agot_three_daughters_desc: 0 "Quando il Possedimento crollò con il Disastro, il suo impero si spezzò e le diverse città iniziarono tutte a contendersi il predominio. Ciò appare con la massima chiarezza nelle Terre Contese, dove Lys, Myr e Tyrosh lottano l'una contro l'altra, con il popolo comune intrappolato nel mezzo del loro conflitto senza fine."
 
-  agot_tradition_wildling_name:0 "Selvaggi, Liberi e Magici"
-  agot_tradition_wildling_desc:0 "Malgrado il nome e la fama, i Bruti oltre la Barriera non sono affatto privi di civiltà, anche se ciò dipende da cosa si intenda per 'civiltà'. Seguono leggi e strutture che differiscono dai 'ginocchiati' dei Sette Regni, ma che non sono meno organizzate. Tra clan e tribù, si trovano capi e 'Magnar', antichi signori nella Vecchia Lingua. Ma due cose sembrano unirli: il valore della parola data... e il dovere di bruciare i morti."
+tradition_agot_pentos_name: 0 "Nati dalla Mescolanza"
+tradition_agot_pentos_desc: 0 "Si crede che i Pentoshi siano il frutto dell'unione tra i coloni valyriani e gli Andali autoctoni che abitavano la regione in precedenza, e che così siano nati i Pentoshi."
 
-  agot_tradition_westeros_valyrian_name:0 "Sfida alla Tempesta"
-  agot_tradition_westeros_valyrian_desc:0 "I Valyriani delle Isole del Fiumenero sono più simili agli Andali che ai loro progenitori del Dominio Libero. Invece di fondare la loro ricchezza sulla schiavitù, hanno cercato fortuna nel mare. Sono mercanti industriosi e tra i migliori marinai di Westeros."
+tradition_agot_doom_name: 0 "Ammantati dal Disastro"
+tradition_agot_doom_desc: 0 "Il Disastro mutò per sempre il mondo, e ancora oggi resta un mistero. Coloro che scamparono a quella distruzione cataclismica ne restano ancora avvolti."
 
-  agot_tradition_krakenman_name:0 "Ferro e Ghiaccio"
-  agot_tradition_krakenman_desc:0 "Anche se fanno parte del Nord, molti maestri sostengono che il sangue dei popoli di Capo Kraken sia più vicino agli Uomini di Ferro che agli Uomini del Nord. Culturalmente in conflitto, si trovano tra l’Incollatura e il mare, lontani da Grande Inverno, ma segnati dalle razzie degli Ironborn, dai quali differiscono profondamente."
+tradition_agot_slavers_bay_name: 0 "Avvinti dal Commercio"
+tradition_agot_slavers_bay_desc: 0 "Linfa vitale dell'Antico Impero e persino del Possedimento fu la tratta degli schiavi. È da questo commercio che un popolo può prosperare e crescere per costruire il proprio futuro, anche se ciò avviene al prezzo della libertà di un altro popolo."
 
-  agot_tradition_mountain_clansman_name:0 "Sopra il Sole Calante"
-  agot_tradition_mountain_clansman_desc:0 "Nei recessi dei Monti della Luna vivono i Clan delle Montagne, tra gli uomini più selvaggi e incivili di tutto Westeros. Sono gli ultimi veri discendenti dei Primi Uomini nel Val, sopravvissuti all’invasione andala grazie alla protezione delle loro vette."
+tradition_agot_ghis_name: 0 "Nella Stretta dei Grandi"
+tradition_agot_ghis_desc: 0 "Fu con disciplina e fermezza che l'Antico Impero di Ghis sorse e si diffuse. Nonostante l'uso degli schiavi, l'Antico Impero fu costruito sulla forza d'armi di uomini liberi nelle Legioni Serrate, e così grande era il loro addestramento e il loro ordine che nessun altro esercito d'uomini poteva resistere loro, soltanto i draghi e le loro fiamme."
 
-  agot_tradition_wolfswood_clansman_name:0 "Nel Cuore del Bosco"
-  agot_tradition_wolfswood_clansman_desc:0 "Popolo duro e laborioso, i Clan del Bosco del Lupo sono noti per la loro resistenza e per l’abilità nella pesca nel ghiaccio. Pur non essendo nobili, il loro sangue è antico quanto quello delle grandi casate. Alcuni clan esistevano ancor prima del bosco stesso, sopravvivendo persino a incendi causati dagli Uomini di Ferro. Si dice che certi clan pratichino ancora la Prima Notte, e che i loro capi siano considerati ‘lord’ per cortesia, sebbene non si ritengano nobili."
+tradition_agot_rhoynar_name: 0 "Sulla Madre dei Fiumi"
+tradition_agot_rhoynar_desc: 0 "È sulle rive del Rhoyne, il grande fiume dell'Essos occidentale, che sorse una delle grandi civiltà del mondo. I Rhoynar sono celebri per la bellezza delle loro città e per l'uso e l'insegnamento della fusione del ferro."
 
-  agot_tradition_bearman_name:0 "Tra Orsi e Pini"
-  agot_tradition_bearman_desc:0 "Gli abitanti dell’Isola dell’Orso sono temprati da secoli di razzie da parte di Bruti e Uomini di Ferro. Hanno mantenuto il possesso dell’isola fin dai tempi di Re Rodrik Stark, e non intendono cederla. Le donne combattono accanto agli uomini e si dice siano feroci come un’orsa che difende i suoi cuccioli."
-
-  agot_tradition_rushlander_name:0 "Tra Colline e Fiumi"
-  agot_tradition_rushlander_desc:0 "Nata al confine tra Val e Terre dei Fiumi, questa cultura si è adattata a vivere sia tra le colline che lungo i fiumi. I Rushlander sono un popolo temprato dalla natura doppia del loro territorio."
-
-  agot_tradition_harsh_laws_name:0 "Legge di Ferro"
-  agot_tradition_harsh_laws_desc:0 "È la terra a forgiare le leggi. E terre dure generano uomini duri... e leggi ancora più dure per governare."
-
-  agot_tradition_thenn_name:0 "Ultimi dei Primi"
-  agot_tradition_thenn_desc:0 "Conosciuti come i più 'raffinati' tra i Bruti da chi vive a sud della Barriera, i Thenn si considerano i veri ultimi Primi Uomini. Abitano in una valle montana delle Zanne Ghiacciate, più vicini ai giganti che ad altre culture. Parlano ancora la Vecchia Lingua, anche se hanno imparato qualche parola della Lingua Comune. Credono nel Magnar e sono più disciplinati e organizzati degli altri Bruti, dotati persino di una notevole armatura di bronzo. Possono sembrare selvaggi agli occhi del Sud, ma sono ben più che capaci, spesso in conflitto con i Guardiani della Notte."
-
-  agot_tradition_andalos_name:0 "Colline sotto le Stelle"
-  agot_tradition_andalos_desc:0 "Fu su una collina di Andalos che Hugor ricevette l’unzione dei Sette-Che-Sono-Uno, con sette stelle sulla fronte, e il compito di guidare il suo popolo verso Westeros, loro ricompensa divina per aver onorato il patto."
-
-  agot_tradition_braavos_name:0 "Liberi dalle Catene"
-  agot_tradition_braavos_desc:0 "Unica tra le Città Libere, Braavos fu fondata da schiavi fuggitivi diretti a Valyria. La città è nata da genti provenienti da ogni angolo del mondo. Questo ha forgiato una società dove vige una sola legge sopra tutte: 'Nessun uomo, donna o bambino potrà mai essere schiavo, servo o legato in catene a Braavos.'"
-
-  agot_tradition_religious_fc_name:0 "In Cerca di Purezza"
-  agot_tradition_religious_fc_desc:0 "Il Dominio Libero univa molti popoli — Valyriani, Andali, Rhoynar, Ghiscari, e schiavi di terre lontane. Per mantenere il controllo, i Signori dei Draghi permisero ogni culto. Alcuni sudditi, però, odiavano tale permissività e fuggirono per fondare città basate sulla purezza religiosa."
-
-  agot_tradition_three_daughters_name:0 "Fratelli in Guerra"
-  agot_tradition_three_daughters_desc:0 "Con il Flagello, l’impero valyriano cadde e ogni città cercò di imporsi. Nelle Terre Contese, Lys, Myr e Tyrosh si scontrano senza fine, e il popolo comune resta intrappolato in questa guerra fratricida."
-
-  agot_tradition_pentos_name:0 "Nati dalla Fusione"
-  agot_tradition_pentos_desc:0 "I Pentoshi discendono dalla mescolanza tra coloni valyriani e gli Andali che già abitavano la regione. Da questa unione nacque il popolo pentoshi."
-
-  agot_tradition_doom_name:0 "Avvolti dal Flagello"
-  agot_tradition_doom_desc:0 "Il Flagello cambiò per sempre il mondo, e rimane un mistero. Chi riuscì a fuggire da quella catastrofe porta ancora addosso l’ombra della distruzione."
-
-  agot_tradition_slavers_bay_name:0 "Schiavi del Commercio"
-  agot_tradition_slavers_bay_desc:0 "Il commercio di schiavi era il cuore pulsante dell’Antico Impero e persino del Dominio Libero. Da questa tratta si è costruita prosperità, anche se al costo della libertà altrui."
-
-  agot_tradition_ghis_name:0 "Nel Pugno dei Grandi"
-  agot_tradition_ghis_desc:0 "Con disciplina e forza, l’Impero di Ghis si sollevò e si espanse. Sebbene ricorresse agli schiavi, la sua vera potenza si fondava sulle Legioni in Marcia, formate da uomini liberi. Nessun esercito umano poteva opporsi alla loro perfezione... solo i draghi e le loro fiamme."
-
-  agot_tradition_rhoynar_name:0 "Sulle Acque della Madre"
-  agot_tradition_rhoynar_desc:0 "Sulle rive della Rhoyne nacque una delle più grandi civiltà di Essos. I Rhoynar erano famosi per la bellezza delle loro città e per l’arte della metallurgia, che si dice abbiano insegnato agli altri."
-
-agot_tradition_candling_name: 0 "Sotto la Grande Candela"
-agot_tradition_candling_desc: 0 "Salute alla Grande Candela. Tutti adoreranno la Grande Candela. La Grande Candela è saggia. La Grande Candela è la nostra padrona; sceglierà chi dovrà andare e chi dovrà restare. CAN-DLE, CAN-DLE, CAN-DLE."
+tradition_agot_candling_name: 0 "Sotto la Grande Candela"
+tradition_agot_candling_desc: 0 "Ogni onore alla Grande Candela. Tutti venereranno la Grande Candela. La Grande Candela è saggia. La Grande Candela è la nostra padrona; essa sceglierà chi andrà e chi resterà. CAN-DE-LA, CAN-DE-LA, CAN-DE-LA..."
 
  #Unique Cultural
-  agot_tradition_andalosi_name:0 "Purificati dal Fuoco"
-  agot_tradition_andalosi_desc:0 "#italic “Qarlon il Grande bruciò con il suo esercito, e i signori dei draghi volarono oltre, portando sangue e fuoco su Lorath. Le fiamme divorarono le sue città e i villaggi. Si dice che nessun uomo, donna o bambino sopravvisse al Flagello di Lorath, tanto erano roventi quei fuochi.”#!"
+tradition_agot_andalosi_name: 0 "Purificati dalla Fiamma"
+tradition_agot_andalosi_desc: 0 "#italic «Qarlon il Grande arse con il suo esercito e, in seguito, i signori dei draghi volarono oltre, portando sangue e fuoco alle isole di Lorath. La grande rocca di Qarlon fu divorata dalle fiamme, così come i borghi e i villaggi di pescatori lungo le sue rive. Perfino le grandi pietre dei labirinti furono bruciate e annerite dalle tempeste di fuoco che travolsero le isole. Si dice che nessun uomo, donna o bambino sopravvisse alla Devastazione di Lorath, tanto ardentemente bruciarono quei fuochi.»#!"
 
-  agot_tradition_andal_name:0 "Inseguendo il Tramonto"
-  agot_tradition_andal_desc:0 "#italic “Si dice che i Sette camminarono tra il loro popolo sulle colline di Andalos, incoronando Hugor della Collina e promettendo regni in una terra lontana. Questo è ciò che insegnano septon e septa: la ragione per cui gli Andali lasciarono Essos e mossero verso Westeros.”#!"
+tradition_agot_andal_name: 0 "Inseguendo il Tramonto"
+tradition_agot_andal_desc: 0 "#italic «...si dice che i Sette stessi camminassero tra il loro popolo sulle colline di Andalos, e che furono loro a incoronare Hugor della Collina e a promettere a lui e ai suoi discendenti grandi regni in una terra straniera. Questo è ciò che septon e septa insegnano come ragione per cui gli Andali lasciarono Essos e mossero verso occidente, verso Westeros,»#!"
 
-  agot_tradition_braavosi_name:0 "Sospinti da Vele Viola"
-  agot_tradition_braavosi_desc:0 "#italic “Perché rischiarono la vita per la libertà, i padri e le madri di Braavos giurarono che mai uomo, donna o bambino sarebbe stato schiavo. Questa è la Prima Legge di Braavos, incisa nell’arco sul Grande Canale. Da allora, i Signori dei Mari hanno sempre combattuto la schiavitù in ogni sua forma.”#!"
+tradition_agot_braavosi_name: 0 "Portati da Vele Purpuree"
+tradition_agot_braavosi_desc: 0 "#italic «E poiché avevano rischiato la vita in nome della libertà, i padri e le madri della nuova città giurarono che nessun uomo, donna o bambino a Braavos sarebbe mai stato schiavo, servo o vincolato. Questa è la Prima Legge di Braavos, incisa nella pietra sull'arco che scavalca il Canale Lungo. Da quel giorno fino a oggi, i Re del Mare di Braavos si sono opposti alla schiavitù in ogni sua forma e hanno combattuto molte guerre contro gli schiavisti e i loro alleati.»#!"
 
-  agot_tradition_lorathi_name:0 "Nel Labirinto e nella Cieca Fede"
-  agot_tradition_lorathi_desc:0 "#italic “I nuovi Lorathi furono inizialmente soggetti ai seguaci di Boash, ma col tempo la loro fede svanì. I sacerdoti, corrotti e ingrassati dalle tasse, persero ogni sacralità. Infine, pescatori, contadini e popolani si ribellarono, liberandosi del giogo di Boash.”#!"
+tradition_agot_lorathi_name: 0 "Nella Cecità di Isola e Labirinto"
+tradition_agot_lorathi_desc: 0 "#italic «Questi nuovi Lorathi, inizialmente, furono sottomessi ai seguaci di Boash giunti prima di loro, e per molti anni i sacerdoti del Dio Cieco continuarono a governare le isole. Col tempo, tuttavia, il numero dei nuovi arrivati aumentò mentre i ranghi dei fedeli si assottigliavano. Il culto di Boash svanì, poiché i sacerdoti rimasti divennero più mondani e corrotti, abbandonando i cilici, i cappucci e la pietà e ingrassando e arricchendosi grazie alle tasse che esigevano da coloro che governavano. Alla fine, pescatori, contadini e altra piccola gente si sollevarono in ribellione, spezzando le catene di Boash.»#!"
 
-  agot_tradition_lyseni_name:0 "Amanti del Crepuscolo"
-  agot_tradition_lyseni_desc:0 "#italic “I Lyseni sono noti allevatori di schiavi, unendo bellezza a bellezza per generare cortigiane e amanti perfetti. Il sangue valyriano scorre ancora forte a Lys, dove anche i popolani mostrano pelle chiara, capelli d’argento e occhi lilla o azzurri. La nobiltà lysena venera la purezza del sangue più di ogni altra cosa.”#!"
+tradition_agot_lyseni_name: 0 "Amore del Crepuscolo"
+tradition_agot_lyseni_desc: 0 "#italic «I Lyseni sono anche grandi allevatori di schiavi, accoppiando bellezza con bellezza nella speranza di produrre cortigiane e schiavi da letto sempre più raffinati e avvenenti. Il sangue di Valyria scorre ancora forte a Lys, dove perfino la piccola gente spesso vanta pelle chiara, capelli argenteo-dorati e gli occhi viola, lilla e azzurro pallido degli antichi signori dei draghi. La nobiltà lysena tiene la purezza del sangue sopra ogni cosa e ha prodotto molte celebri, e infami, bellezze.»#!"
 
-  agot_tradition_myrish_name:0 "Chiarezza della Lente"
-  agot_tradition_myrish_desc:0 "#italic “Il commercio è da sempre la linfa di Myr, e le sue navi solcano il Mare Stretto da secoli. Gli artigiani di Myr, spesso nati in schiavitù, sono rinomati: i merletti e gli arazzi di Myr valgono oro e spezie, e le lenti myriene non hanno eguali al mondo.”#!"
+tradition_agot_myrish_name: 0 "Limpidezza della Lente"
+tradition_agot_myrish_desc: 0 "#italic «Il commercio è la linfa vitale di Myr fin da allora, e le navi myrensi solcano le acque del Mare Stretto da secoli. Anche gli artigiani di Myr, molti dei quali nati schiavi, sono grandemente rinomati; si dice che il merletto myrense e gli arazzi myrensi valgano il loro peso in oro e spezie, e che le lenti myrensi non abbiano eguali in tutto il mondo.»#!"
 
-  agot_tradition_norvoshi_name:0 "Al Suono della Campana e del Capello"
-  agot_tradition_norvoshi_desc:0 "#italic “Anche se la Grande Norvos oggi domina le sorgenti della Rhoyne, i Norvosi non discendono dai Rhoynar che un tempo governavano quel grande fiume. Come le altre Città Libere, anche Norvos è figlia di Valyria.”#!"
+tradition_agot_norvoshi_name: 0 "Nel Suono di Campana e Capello"
+tradition_agot_norvoshi_desc: 0 "#italic «Sebbene Grande Norvos domini oggi le sorgenti del Rhoyne, i Norvoshi non discendono dai Rhoynar che un tempo governavano quel possente fiume. Come le altre Città Libere, Norvos è una figlia di Valyria.»#!"
 
-  agot_tradition_pentoshi_name:0 "Incatenati dal Debito"
-  agot_tradition_pentoshi_desc:0 "#italic “I primi Pentoshi erano mercanti, marinai, contadini e pochi nobili. Forse proprio per questo, proteggevano meno la purezza del sangue valyriano, preferendo mescolarsi con gli abitanti originari delle terre conquistate.”#!"
+tradition_agot_pentoshi_name: 0 "Con Catene di Debito"
+tradition_agot_pentoshi_desc: 0 "#italic «I primi Pentoshi furono mercanti, commercianti, marinai e contadini, con pochi tra loro di alto lignaggio; forse per questa ragione furono meno gelosi del loro sangue valyriano e più disposti a unirsi agli abitanti originari delle terre che governavano.»#!"
 
-  agot_tradition_hartalari_name:0 "Sotto Tre Tacchi"
-  agot_tradition_hartalari_desc:0 "#italic “Le guerre tra Tyrosh, Lys e Myr hanno generato non solo le compagnie mercenarie nelle Terre Contese, ma anche intere flotte di pirati e mercenari del mare, pronti a combattere per chiunque paghi. La maggior parte opera dalle Stepstones, le isole che punteggiano il mare tra il Braccio Spezzato e la costa orientale.”#!"
+tradition_agot_hartalari_name: 0 "Sotto Tre Calcagni"
+tradition_agot_hartalari_desc: 0 "#italic «Le guerre tra Tyrosh, Lys e Myr non hanno soltanto alimentato la nascita delle compagnie libere nelle Terre Contese, ma hanno anche portato alla formazione di flotte di pirati e mercenari del mare, capitani di ventura pronti a combattere per chiunque paghi. La maggior parte di essi ha base nelle Stepstones, le isole che punteggiano lo stretto tra il Braccio Spezzato e la costa orientale.»#!"
 
-  agot_tradition_qohorik_name:0 "Nel Buio di Bosco e Forgia"
-  agot_tradition_qohorik_desc:0 "#italic “Gli artigiani di Qohor sono leggendari. Gli arazzi qohorik, tessuti perlopiù da donne e bambini, rivaleggiano con quelli di Myr. Le loro sculture in legno, raffinate e inquietanti, e le fucine della città non temono confronto.”#!"
+tradition_agot_qohorik_name: 0 "Nel Buio di Foresta e Forgia"
+tradition_agot_qohorik_desc: 0 "#italic «Gli artigiani di Qohor sono famosi in lungo e in largo. Gli arazzi qohorik, tessuti soprattutto dalle donne e dai bambini della città, sono raffinati quanto quelli di Myr, sebbene meno costosi. Squisite, anche se alquanto inquietanti, sculture in legno si possono acquistare nel mercato di Qohor, e le forge della città non hanno pari.»#!"
 
-  agot_tradition_tyroshi_name:0 "Ricchezza delle Chiocciole"
-  agot_tradition_tyroshi_desc:0 "#italic “I tintori di Tyrosh scoprirono come produrre scarlatto, cremisi e indaco variando la dieta delle chiocciole. Col tempo, idearono centinaia di tinte, alcune naturali, altre alchemiche. I nobili di tutto il mondo si adornarono con queste stoffe, e la città si arricchì. Col denaro arrivò l’ostentazione: a Tyrosh uomini e donne tingono capelli in colori vivaci e innaturali.”#!"
+tradition_agot_tyroshi_name: 0 "Ricchezza delle Lumache"
+tradition_agot_tyroshi_desc: 0 "#italic «I tintori di Tyrosh appresero presto a produrre anche tinte scarlatte, cremisi e di un profondo indaco variando la dieta delle lumache. Nei secoli successivi escogitarono tinture di cento altre sfumature e tonalità, alcune naturali e altre ottenute per alchimia. Le vesti dai colori vivaci conquistarono il favore di lord e principi in tutto il mondo, e tutte le tinture che le producevano provenivano da Tyrosh. La città si arricchì, e con la ricchezza venne l'ostentazione. I Tyroshi si compiacciono di esibizioni sgargianti, e uomini e donne traggono uguale diletto dal tingersi i capelli di colori vistosi e innaturali.»#!"
 
-  agot_tradition_volantene_name:0 "La Prima delle Figlie"
-  agot_tradition_volantene_desc:0 "#italic “Dopo il Flagello che divorò Valyria e le Terre dell’Eterna Estate, Volantis rivendicò il diritto di governare su tutte le colonie valyriane. Per un tempo, la #italic “Prima Figlia”#! riuscì a stabilire la sua egemonia su diverse Città Libere...”#!"
+tradition_agot_volantene_name: 0 "Prima tra le Figlie"
+tradition_agot_volantene_desc: 0 "#italic «Dopo che il Disastro inghiottì Valyria e le Terre della Lunga Estate, Volantis rivendicò il diritto di governare su tutte le altre colonie valyriane nel mondo. Tale era la potenza della #italic “Prima Figlia”#! che per un tempo riuscì a stabilire la propria egemonia su parecchie delle altre Città Libere...»#!"
 
-  agot_tradition_essosi_valyrian_name:0 "Sangue degli Antichi"
-  agot_tradition_essosi_valyrian_desc:0 "#italic “Molti dell’Antico Sangue di Volantis venerano ancora gli dèi valyriani, ma solo entro le Mura Nere. Fuori, è il dio rosso R’hllor ad avere i cuori degli schiavi e dei liberti.”#!"
+tradition_agot_essosi_valyrian_name: 0 "Sangue degli Antichi"
+tradition_agot_essosi_valyrian_desc: 0 "#italic «Molti dell'Antico Sangue di Volantis conservano ancora gli antichi dèi di Valyria, ma la loro fede si trova soprattutto entro le Mura Nere. Al di fuori, il dio rosso R'hllor è venerato da molti, specialmente tra gli schiavi e i liberti della città.»#!"
 
-  agot_tradition_astapori_name:0 "Forgiati dalla Gentilezza"
-  agot_tradition_astapori_desc:0 "#italic “Mattoni e sangue hanno costruito Astapor, e mattoni e sangue hanno forgiato il suo popolo, recita un vecchio detto. I 'Buoni Padroni' governano, ma la città è famosa per gli Immacolati: schiavi eunuchi addestrati fin da bambini a non provare dolore e obbedire senza paura.”#!"
+tradition_agot_astapori_name: 0 "Dominati dai Buoni"
+tradition_agot_astapori_desc: 0 "#italic «Mattoni e sangue costruirono Astapor, e mattoni e sangue il suo popolo, recita una vecchia filastrocca, riferendosi alle mura di mattoni rossi della città e al sangue versato dalle migliaia di schiavi che vissero, lavorarono e morirono edificandole. Governata da uomini che si fanno chiamare Buoni Padroni, Astapor è nota soprattutto per la creazione degli eunuchi schiavi-soldato detti Immacolati, uomini allevati fin dalla fanciullezza per essere guerrieri senza paura che non provano dolore.»#!"
 
-  agot_tradition_yunkish_name:0 "Governati dai Saggi"
-  agot_tradition_yunkish_desc:0 "#italic “Di Yunkai, la città gialla, si dice poco di buono. I suoi governanti, i 'Saggi Padroni', sono corrotti fino al midollo, commercianti di schiavi da letto, ragazzini e peggio ancora.”#!"
+tradition_agot_yunkaii_name: 0 "Dominati dai Saggi"
+tradition_agot_yunkaii_desc: 0 "#italic «Di Yunkai, la città gialla, poco occorre dire, poiché è un luogo oltremodo disonorevole. Gli uomini che la governano, chiamandosi Saggi Padroni, sono immersi nella corruzione e vendono schiavi da letto, ragazzi di piacere e peggio ancora.»#!"
 
-  agot_tradition_meereenese_name:0 "Soggiogati dai Grandi"
-  agot_tradition_meereenese_desc:0 "#italic “La più imponente tra le città della Baia degli Schiavisti è l’antica Meereen. Ma come le altre, anche questa cade in rovina, la sua popolazione ridotta rispetto ai fasti dell’Impero. Dentro le sue mura di mattoni variopinti si cela dolore: i Grandi Padroni addestrano schiavi per farli combattere e morire nelle fosse di sangue.”#!"
+tradition_agot_meereenese_name: 0 "Dominati dai Grandi"
+tradition_agot_meereenese_desc: 0 "#italic «La più formidabile delle città lungo la Baia degli Schiavisti è l'antica Meereen, ma come le altre è un luogo in rovina, la cui popolazione è solo una frazione di quella che un tempo sosteneva all'apice dell'Antico Impero. Le sue mura di mattoni dai molti colori racchiudono una sofferenza senza fine, poiché i Grandi Padroni di Meereen addestrano gli schiavi a combattere e morire per il loro piacere nelle fosse di lotta intrise di sangue.»#!"
 
-  agot_tradition_ghiscari_name:0 "Con il Fulmine tra le Mani"
-  agot_tradition_ghiscari_desc:0 "#italic “La Vecchia Ghis fu costruita sulla schiavitù. Il suo leggendario fondatore, Grazdan il Grande, è tanto venerato che il suo nome è ancora comune. Fu lui a creare le Legioni in Marcia, con scudi alti e tre lance: i primi veri eserciti disciplinati. Con esse, la città conquistò terre e popoli, fondando il primo impero.”#!"
+tradition_agot_ghiscari_name: 0 "Afferrando i Fulmini"
+tradition_agot_ghiscari_desc: 0 "#italic «Antica Ghis: una città edificata sulla schiavitù. Il leggendario fondatore della città, Grazdan il Grande, resta tanto venerato che agli uomini delle famiglie schiaviste viene ancora spesso dato il suo nome. Fu lui che, secondo le più antiche storie dei Ghiscari, fondò le legioni serrate con i loro alti scudi e le tre lance, le prime a combattere come corpi disciplinati. Antica Ghis e il suo esercito procedettero a colonizzare i dintorni, quindi, avanzando ancora, a soggiogare i vicini. Così nacque il primo impero, e per secoli esso regnò sovrano.»#!"
 
-  agot_tradition_rhoynish_name:0 "Giurati nelle Conchiglie d’Acqua"
-  agot_tradition_rhoynish_desc:0 "#italic “Alcuni, come i Rhoynar, resistettero alla marea per secoli, o perfino millenni. I Rhoynar, che fondarono grandi città lungo la Rhoyne, furono detti i primi a dominare l’arte della forgiatura del ferro.”#!"
+tradition_agot_rhoynish_name: 0 "Giurati tra Conchiglie d'Acqua"
+tradition_agot_rhoynish_desc: 0 "#italic «Alcuni, come i Rhoynar, resistettero alla marea per secoli, persino per millenni. I Rhoynar, che fondarono grandi città lungo il Rhoyne, si dice siano stati i primi ad apprendere l'arte della lavorazione del ferro.»#!"
 
-  agot_tradition_chroyanar_name:0 "Nel Cuore delle Feste"
-  agot_tradition_chroyanar_desc:0 "#italic “...e Chroyane, la più grande di tutte, la città delle feste, con il suo magnifico Palazzo dell’Amore.”#!"
+tradition_agot_chroyanar_name: 0 "Per Amore delle Feste"
+tradition_agot_chroyanar_desc: 0 "#italic «...e Chroyane, la più grande di tutte, la città delle feste con il suo grande Palazzo dell'Amore.»#!"
 
-  agot_tradition_mellar_name:0 "Tra le Paludi Fiorite"
-  agot_tradition_mellar_desc:0 "#italic “...la pallida Sar Mell, terra di fiori;”#!"
+tradition_agot_mellar_name: 0 "Sopra la Palude dei Fiori"
+tradition_agot_mellar_desc: 0 "#italic «...la pallida Sar Mell dei fiori;»#!"
 
-  agot_tradition_qhoynar_name:0 "Scolpiti nel Marmo Verde"
-  agot_tradition_qhoynar_desc:0 "#italic “Ar Noy, sulla Qhoyne, con le sue sale di marmo verde;”#!"
+tradition_agot_qhoynar_name: 0 "Elevati con Pugni di Marmo"
+tradition_agot_qhoynar_desc: 0 "#italic «Ar Noy sul Qhoyne, con le sue sale di marmo verde;»#!"
 
-  agot_tradition_sarhar_name:0 "Nutriti dai Canali Salmastri"
-  agot_tradition_sarhar_desc:0 "#italic “...Sarhoy, cinta dal mare, con i suoi canali e giardini d’acqua salata;”#!"
+tradition_agot_sarhar_name: 0 "Nutrìti da Canali di Sale"
+tradition_agot_sarhar_desc: 0 "#italic «...Sarhoy cinta dal mare, con i suoi canali e i giardini d'acqua salata;»#!"
 
-  agot_tradition_sarar_name:0 "Viva al Canto delle Fontane"
-  agot_tradition_sarar_desc:0 "#italic “Ny Sar, la città delle fontane, vibrante di canti;”#!"
-
- #Realm
-  agot_tradition_insular_marriage_name:0 "Matrimoni Insulari"
-  agot_tradition_insular_marriage_desc:0 "Pur non essendo isolazionista, questa cultura preferisce sposarsi tra il proprio stesso popolo."
-
-  agot_tradition_debug_name:0 "Debug"
-  agot_tradition_debug_desc:0 "Come sei finito qui?"
+tradition_agot_sarar_name: 0 "Vivi del Canto delle Fontane"
+tradition_agot_sarar_desc: 0 "#italic «Ny Sar, la città delle fontane, viva di canti;»#!"
 
  #Triggers
   ibbenese_heritage_trigger:0 "La [culture|E] deve appartenere al retaggio ibbenese"
   westerosi_heritage_trigger:0 "La [culture|E] deve appartenere a un retaggio westerosi"
+
+ #Dreams of Essos - Culture Specific Traditions
+tradition_agot_axemen_name: 0 "Stringere l'Ascia"
+tradition_agot_axemen_desc: 0 "#italic «Gli Andali portarono con sé armi di ferro e corazze di piastre di ferro, contro le quali le tribù che abitavano quelle terre potevano ben poco.»#!"
+
+tradition_agot_essari_name: 0 "Sotto lo Sguardo di Sole e Cielo"
+tradition_agot_essari_desc: 0 "#italic «La colonia valyriana di Essaria, talvolta ricordata come la Città Libera Perduta,»#!"
+
+tradition_agot_noynar_name: 0 "Tra le Colline di Pelliccia"
+tradition_agot_noynar_desc: 0 "#italic «...dove la Madre accoglie in sé la sua Figlia Selvaggia, il Noyne,»#!"
+
+tradition_agot_valyrian_original_name: 0 "Volontà del Possedimento"
+tradition_agot_valyrian_original_desc: 0 "#italic «I Valyriani non avevano re ma si chiamavano Possedimento, poiché tutti i cittadini che possedevano terre avevano voce in capitolo.»#!"
+
+tradition_agot_dothraki_sea_name: 0 "Sul Grande Mare d'Erba"
+tradition_agot_dothraki_sea_desc: 0 "#italic «Coloro che fanno la loro dimora sul Grande Mare d'Erba conducono una vita nomade,»#!"
+
+tradition_agot_dothraki_name: 0 "Cavalcando il Mondo"
+tradition_agot_dothraki_desc: 0 "#italic «I viaggiatori chiamano queste terre le Terre Infestate per le molte città in rovina che le punteggiano, o la Grande Desolazione per il loro vuoto, ma è come mare dothraki che queste praterie sono oggi meglio conosciute. Tale uso è però relativamente recente, poiché i Dothraki sono una razza giovane, ed è solo da quando il Disastro distrusse Valyria che i loro khalasar sono giunti a dominare queste terre, irrompendo da oriente con fuoco e acciaio per conquistare e distruggere le antiche città che un tempo vi prosperavano e trascinandone i popoli in schiavitù.»#!"
+
+tradition_agot_grass_sea_name: 0 "Sotto lo Zoccolo"
+tradition_agot_grass_sea_desc: 0 "#italic «...la luce del sole sul mare dothraki, la pianura vivente, ricca degli odori della terra e della morte. Il vento agitava le erbe, ed esse increspavano come acqua.»#!"
+
+tradition_agot_lhazareen_name: 0 "Un Gregge Unito"
+tradition_agot_lhazareen_desc: 0 "#italic «...il popolo di questo paese si chiamava Lhazareen, ma i Dothraki li chiamavano haesh rakhi, gli Uomini Agnello.»#!"
+
+tradition_agot_omberi_name: 0 "Un Tributo Volontario"
+tradition_agot_omberi_desc: 0 "#italic «Coloro che osano proseguire ancora più a oriente passeranno poi lungo le coste del piccolo e pastorale Regno di Omber, i cui re codardi e deboli principi sono noti soprattutto per il grano, le gemme e le fanciulle che pagano ogni anno ai signori dei cavalli dothraki per non essere molestati.»#!"
+
+tradition_agot_sarnori_name: 0 "Rampolli delle Regine Pescatrici"
+tradition_agot_sarnori_desc: 0 "#italic «Il Regno di Sarnor, così chiamato benché vantasse quaranta re rivali, fu fra le grandi civiltà del mondo conosciuto per più di duemila anni, eppure molto di ciò che sappiamo di essi proviene soltanto da frammenti delle loro altrimenti perdute storie, in particolare gli Annali dell'Estate e dell'Inverno, e da cronache provenienti da Qarth, dalla Baia degli Schiavisti e dalle Città Libere. I mercanti sarnori viaggiavano fino a Valyria e Yi Ti, a Leng e Asshai. Le navi sarnori solcavano il Mare dei Brividi verso Ib, le Mille Isole e la lontana Mossovy. I re sarnori mossero guerra ai Qaathi e all'Antico Impero di Ghis, e condussero molte incursioni contro le bande di nomadi a cavallo che erravano nelle steppe a oriente.»#!"
+
+tradition_agot_tagaez_fen_name: 0 "Rampolli delle Torri"
+tradition_agot_tagaez_fen_desc: 0 "#italic «A Westeros i loro conquistatori sono ricordati come Sarnori, poiché al suo apice il loro grande regno comprendeva tutte le terre bagnate dal Sarne e dai suoi vassalli, e i tre grandi laghi che erano tutto ciò che restava del rimpicciolito Mare Argenteo. Essi chiamavano sé stessi gli Uomini Alti, nella loro lingua Tagaez Fen. Erano lunghi di membra e bruni di pelle, come gli Zoqora, ma i loro capelli e i loro occhi erano neri come la notte. Guerrieri, stregoni e sapienti, facevano risalire la loro discendenza al re eroe che chiamavano Huzhor Amai, il Meraviglioso, nato dall'ultima delle Regine Pescatrici,»#!"
+
+tradition_agot_trimbaez_fen_name: 0 "Rampolli delle Carovane"
+tradition_agot_trimbaez_fen_desc: 0 "#italic «A oriente si levava Kasath, la Città delle Carovane;»#!"
+
+tradition_agot_goraez_fen_name: 0 "Rampolli del Lago"
+tradition_agot_goraez_fen_desc: 0 "#italic «Gornath sul Lago, con i suoi canali;»#!"
+
+tradition_agot_zanhar_fen_name: 0 "Rampolli dei Sapienti"
+tradition_agot_zanhar_fen_desc: 0 "#italic «Sallosh sulla Riva d'Argento, Città dei Sapienti, con la sua vasta biblioteca e le Mura Dipinte.»#!"
+
+tradition_agot_madekh_fen_name: 0 "Rampolli dei Soldati"
+tradition_agot_madekh_fen_desc: 0 "#italic «Qui sorgeva anche Mardosh, la Città dei Soldati, rinomata come Mardosh l'Inespugnabile.»#!"
+
+tradition_agot_gilal_fen_name: 0 "Rampolli delle Cascate"
+tradition_agot_gilal_fen_desc: 0 "#italic «Sathar, la Città della Cascata, alla congiunzione di due rami del Sarne;»#!"
+
+tradition_agot_giren_fen_name: 0 "Rampolli delle Colline"
+tradition_agot_giren_fen_desc: 0 "#italic «I mercanti sarnori viaggiavano fino a Valyria e Yi Ti, a Leng e Asshai.»#!"
+
+tradition_agot_cenaakh_fen_name: 0 "Rampolli dei Templi"
+tradition_agot_cenaakh_fen_desc: 0 "#italic «Solo lì i cento dèi del Regno di Sarnor sono ancora venerati.»#!"
+
+tradition_agot_zivylar_fen_name: 0 "Rampolli delle Monete"
+tradition_agot_zivylar_fen_desc: 0 "#italic «A valle, dove il Sarne piegava verso nord, le prospere città fluviali di Rathylar, Hornoth e Kyth servivano le navi che solcavano le sue profonde acque azzurre.»#!"
+
+tradition_agot_cewi_fen_name: 0 "Rampolli del Gemello"
+tradition_agot_cewi_fen_desc: 0 "#italic «Le rovine della città sorella di Saath, Sarys, saccheggiata e distrutta secoli addietro da un khal dothraki, si trovano sparse attraverso tutta l'ampiezza del delta.»#!"
+
+tradition_agot_dawiz_fen_name: 0 "Rampolli dell'Ultimo"
+tradition_agot_dawiz_fen_desc: 0 "#italic «...solo Saath resta oggi intatta, e quella città portuale è un luogo triste, assai decaduto da ciò che un tempo fu,»#!"
+
+tradition_agot_cymmeri_name: 0 "Con la Corazza della Sposa"
+tradition_agot_cymmeri_desc: 0 "#italic «...la sua sposa cymer gli fece l'armatura, poiché il suo popolo fu il primo a lavorare il ferro»#!"
+
+tradition_agot_gipps_name: 0 "Con lo Scudo della Sposa"
+tradition_agot_gipps_desc: 0 "#italic «...i longilinei Gipps con i loro scudi di vimini e i capelli induriti dalla calce,»#!"
+
+tradition_agot_zoqora_name: 0 "Con l'Impeto della Sposa"
+tradition_agot_zoqora_desc: 0 "#italic «Si dice che fosse la sua sposa zoqora a guidare il suo carro,»#!"
+
+tradition_agot_first_clans_name: 0 "Coloro che Suonano il Corno"
+tradition_agot_first_clans_desc: 0 "#italic «...e nei tempi antichi Joramun, che soffiò nel Corno dell'Inverno e svegliò i giganti dalla terra.»#!"
+
+tradition_agot_nonteloshi_name: 0 "Con Vincoli di Cortesia"
+tradition_agot_nonteloshi_desc: 0 "#italic «Si parla di Nove Città Libere, sebbene in tutta l'ampiezza di Essos si possano trovare molte altre città, insediamenti e avamposti valyriani, alcuni più grandi e popolosi di Gulltown, Porto Bianco o persino Lannisport. La distinzione che separa le Nove non è la loro grandezza, ma le loro origini.»#!"
+
+tradition_agot_valemen_main_name: 0 "Cavalleria dei Falchi"
+tradition_agot_valemen_main_desc: 0 "#italic «Come accadde per gli uomini della Valle, alcuni si sottomisero agli Andali, persino abbracciando la fede dei Sette. In molti casi, gli Andali presero in moglie le spose e le figlie dei re sconfitti, quale mezzo per consolidare il proprio diritto a governare. Poiché, nonostante tutto, i Primi Uomini erano assai più numerosi degli Andali e non potevano semplicemente essere messi da parte.»#!"
+
+tradition_agot_valemen_finger_name: 0 "Stelle Scolpite nella Pietra"
+tradition_agot_valemen_finger_desc: 0 "#italic «Septon, cantori e maestri concordano tutti che il primo luogo in cui gli Andali approdarono furono le Dita nella Valle di Arryn. Incisioni della stella a sette punte sono sparse sulle rocce e sulle pietre di tutta quella regione, pratica che in seguito cadde in disuso man mano che le conquiste andale progredivano.»#!"
+
+tradition_agot_valemen_upper_name: 0 "Sopra Tutti"
+tradition_agot_valemen_upper_desc: 0 "#italic «L'alta strada che dalle Terre dei Fiumi attraversa le Montagne della Luna ha visto versare molto sangue, poiché, ripida e sassosa com'è, offre la via più probabile a un esercito per entrare nella Valle.»#!"
+
+tradition_agot_sistermen_name: 0 "Tesori Portati dall'Onda"
+tradition_agot_sistermen_desc: 0 "#italic «Le ultime isole a essere unite alla Valle furono le Tre Sorelle. Per migliaia di anni, queste isole avevano avuto propri re crudeli, pirati e razziatori le cui navi lunghe solcavano il Morso, il Mare Stretto e perfino il Mare dei Brividi impunemente, saccheggiando e razziando a piacere e tornando alle Sorelle cariche d'oro e di schiavi.»#!"
+
+tradition_agot_rivermen_main_name: 0 "Sui Rami del Tridente"
+tradition_agot_rivermen_main_desc: 0 "#italic «I ricordi di antichi torti e di passati tradimenti venivano di rado accantonati dai lord del Tridente, le cui inimicizie correvano profonde quanto i fiumi che irrigavano le loro terre.»#!"
+
+tradition_agot_crownlander_name: 0 "Nati dalle Acque Nere"
+tradition_agot_crownlander_desc: 0 "#italic «Chiamò a sé i suoi lord leali ad Approdo del Re, ma si presentarono soltanto piccoli lord delle Terre della Corona...»#!"
+
+tradition_agot_clawmen_name: 0 "Volontà dell'Artiglio"
+tradition_agot_clawmen_desc: 0 "#italic «...intrattenendoli con racconti di Crackclaw Point. Ogni cupa valle aveva il suo lord, disse, e tutti erano uniti soltanto dalla loro diffidenza verso gli stranieri. Nelle loro vene il sangue dei Primi Uomini scorreva scuro e forte. “Gli Andali provarono a prendere Crackclaw, ma noi li dissanguammo nelle valli e li annegammo nelle paludi. Solo ciò che i loro figli non seppero vincere con le spade, le loro graziose figlie lo vinsero coi baci. S'imparentarono con le casate che non riuscivano a conquistare, aye.”»#!"
+
+tradition_agot_high_valyrian_name: 0 "Sangue del Drago"
+tradition_agot_high_valyrian_desc: 0 "#italic «Gli antichi signori dei draghi di Valyria avevano controllato le loro cavalcature con incantesimi vincolanti e corni stregati.»#!"
+
+tradition_agot_western_valyrian_name: 0 "Doni della Marea"
+tradition_agot_western_valyrian_desc: 0 "#italic «...una famiglia di antica e rinomata ascendenza valyriana giunta a Westeros prima dei Targaryen,»#!"
+
+tradition_agot_ironborn_name: 0 "Pagare il Prezzo di Ferro"
+tradition_agot_ironborn_desc: 0 "#italic «La guerra era il mestiere naturale di un Uomo di Ferro. Il Dio Abissale li aveva fatti per razziare e stuprare, per scolpire regni e scrivere i loro nomi nel fuoco, nel sangue e nel canto.»#!"
+
+tradition_agot_greenborn_name: 0 "Dominare le Terre Verdi"
+tradition_agot_greenborn_desc: 0 "#italic «Puoi vestire un Uomo di Ferro di sete e velluti, insegnargli a leggere e a scrivere e dargli libri, istruirlo nella cavalleria, nella cortesia e nei misteri della Fede... ma quando lo guarderai negli occhi, il mare sarà ancora lì, freddo, grigio e crudele.»#!"
+
+tradition_agot_first_men_name: 0 "Conquistare con Bronzo e Destriero"
+tradition_agot_first_men_desc: 0 "#italic «I Primi Uomini, che avevano portato con sé strani dèi, cavalli, bestiame e armi di bronzo, erano anche più grandi e più forti dei figli, e dunque rappresentavano una minaccia considerevole.»#!"
+ 
+tradition_agot_northmen_name: 0 "Governati da Lupi e Inverno"
+tradition_agot_northmen_desc: 0 "#italic «Focolare e cuore e raccolto noi rendiamo a voi, mio lord. Le nostre spade e lance e frecce sono vostre da comandare. Concedete misericordia ai nostri deboli, aiuto ai nostri indifesi e giustizia a tutti, e noi non vi mancheremo mai... Lo giuro per terra e acqua... Lo giuro per bronzo e ferro... Lo giuriamo per ghiaccio e fuoco.»#!"
+
+tradition_agot_bearmen_name: 0 "Accanto a Orso e Stirpe"
+tradition_agot_bearmen_desc: 0 "#italic «“Orse, aye,” disse Lady Maege. “Abbiamo dovuto esserlo. Nei tempi antichi gli Uomini di Ferro venivano a razziare sulle loro navi lunghe, o i bruti dalla Riva Gelata. Gli uomini erano spesso lontani a pescare. Le mogli che lasciavano dietro di sé dovevano difendere sé stesse e i loro figli, oppure essere portate via.”»#!"
+
+tradition_agot_wolfswood_clansmen_name: 0 "Cacciare con Zanna e Piuma"
+tradition_agot_wolfswood_clansmen_desc: 0 "#italic «La Wolfswood è piena di pericoli; la tua ultima cavalcata avrebbe dovuto insegnartelo.»#!"
+
+tradition_agot_northern_clans_name: 0 "Armati di Maglia e Ghiaccio"
+tradition_agot_northern_clans_desc: 0 "#italic “La mappa non è la terra, diceva spesso mio padre. Gli uomini vivono da migliaia di anni nelle alte valli e nei prati montani, governati dai capi dei loro clan.”#!"
+
+tradition_agot_barrowmen_name: 0 "Alla carica tra Rills e Colline"
+tradition_agot_barrowmen_desc: 0 "#italic “Ci sono tumuli ovunque nel nord, Vostra Grazia... Questa terra è antica... E fredda.”#!"
+
+tradition_agot_stoneborn_name: 0 "Banchetto di Pietra e Carne"
+tradition_agot_stoneborn_desc: 0 "#italic “...be', solo gli alberi del cuore vedono mai metà di ciò che fanno su Skagos.”#!"
+ 
+tradition_agot_krakenmen_name: 0 "Nati da Sale e Neve"
+tradition_agot_krakenmen_desc: 0 "#italic “In effetti, Capo Kraken, il più vicino alle Isole di Ferro, è passato di mano così tante volte che molti maestri credono che la sua popolazione sia più vicina per sangue agli Uomini di Ferro che agli uomini del nord.”#!"
+
+tradition_agot_crannogmen_name: 0 "Giurati alla Terra e all'Acqua"
+tradition_agot_crannogmen_desc: 0 "#italic “Altrettanto pericolosi erano i suoi abitanti, visti di rado ma sempre in agguato: i dimoratori delle paludi, i mangiatori di rane, gli uomini del fango.”#!"
+
+tradition_agot_harbormen_name: 0 "Accolti con Neve e Argento"
+tradition_agot_harbormen_desc: 0 "#italic “Erano stati grandi lord sul Mander, finché non si spinsero troppo oltre e le mani verdi li abbatterono. Il re lupo prese il loro oro, ma diede loro della terra e permise che conservassero i loro dèi.”#!"
+
+tradition_agot_stormlander_main_name: 0 "Guerrieri del Tuono"
+tradition_agot_stormlander_main_desc: 0 "#italic “Coloro che scelgono di farsi una casa nelle Terre della Tempesta — sia lungo le rive sassose del mare Stretto, sia tra le grondanti foreste verdi del Rainwood, sia nelle Terre Basse di Dorne battute dal vento — sono tuttavia di una razza speciale. Si dice spesso che il popolo delle Terre della Tempesta somigli al proprio clima: tumultuoso, violento, implacabile, imprevedibile.”#!"
+
+tradition_agot_marcher_name: 0 "Canto di Spade"
+tradition_agot_marcher_desc: 0 "#italic “Là, al cospetto delle Montagne Rosse, sorgono i grandi castelli dei lord delle Terre Basse di Dorne, eretti a guardia dei confini delle Terre della Tempesta contro le incursioni degli uomini di Dorne da sud e dei servitori corazzati dei Re dell'Altopiano da ovest.”#!"

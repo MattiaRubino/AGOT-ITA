@@ -270,3 +270,48 @@
   agot_laid_clutch_desc_5:0 "Ho deposto una covata di cinque uova"
   agot_laid_clutch_desc_second_perspective_5:0 "Hai deposto una covata di cinque uova"
   agot_laid_clutch_desc_third_perspective_5:0 "[owner.GetName] ha deposto una covata di cinque uova"
+
+agot_became_pirate: 0 "Divenne un Pirata"
+agot_became_pirate_desc: 0 "Sono diventat[Select_CString(ROOT.Char.IsFemale,'a','o')] un pirata"
+agot_became_pirate_desc_second_perspective: 0 "Sei diventato un pirata"
+agot_became_pirate_desc_third_perspective: 0 "[owner.GetName] è diventato un pirata"
+
+agot_trial_of_seven_accused_usurper: 0 "Accusato di usurpazione"
+agot_trial_of_seven_accused_usurper_desc_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] mi ha accusato di aver usurpato la corona e ha richiesto una Prova dei Sette"
+agot_trial_of_seven_accused_usurper_desc_second_perspective_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] ti ha accusato di aver usurpato la corona e ha richiesto una Prova dei Sette"
+agot_trial_of_seven_accused_usurper_desc_third_perspective_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] ha accusato [owner.GetName] di aver usurpato la corona e ha richiesto una Prova dei Sette"
+
+agot_trial_of_seven_accuser_usurper: 0 "Ha accusato un usurpatore"
+agot_trial_of_seven_accuser_usurper_desc_1: 0 "Ho accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di aver usurpato la corona e ho richiesto una Prova dei Sette"
+agot_trial_of_seven_accuser_usurper_desc_second_perspective_1: 0 "Hai accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di aver usurpato la corona e hai richiesto una Prova dei Sette"
+agot_trial_of_seven_accuser_usurper_desc_third_perspective_1: 0 "[owner.GetName] ha accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di aver usurpato la corona e ha richiesto una Prova dei Sette"
+
+agot_trial_of_seven_accused_criminal: 0 "Accusato di crimini"
+agot_trial_of_seven_accused_criminal_desc_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] mi ha accusato di crimini e ha richiesto una Prova dei Sette"
+agot_trial_of_seven_accused_criminal_desc_second_perspective_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] ti ha accusato di crimini e ha richiesto una Prova dei Sette"
+agot_trial_of_seven_accused_criminal_desc_third_perspective_1: 0 "[accuser.Custom('IT_NAM_COL3')][accuser.GetTitledFirstName] ha accusato [owner.GetName] di crimini e ha richiesto una Prova dei Sette"
+
+agot_trial_of_seven_accuser_criminal: 0 "Ha sporto accuse criminali"
+agot_trial_of_seven_accuser_criminal_desc_1: 0 "Ho accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di crimini e ho richiesto una Prova dei Sette"
+agot_trial_of_seven_accuser_criminal_desc_second_perspective_1: 0 "Hai accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di crimini e hai richiesto una Prova dei Sette"
+agot_trial_of_seven_accuser_criminal_desc_third_perspective_1: 0 "[owner.GetName] ha accusato [accused.Custom('IT_NAM_COL3')][accused.GetTitledFirstName] di crimini e ha richiesto una Prova dei Sette"
+
+agot_trial_of_seven_winner_leader: 0 "Ha vinto una Prova dei Sette"
+agot_trial_of_seven_winner_leader_desc_1: 0 "Ho vinto una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+agot_trial_of_seven_winner_leader_desc_second_perspective_1: 0 "Hai vinto una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+agot_trial_of_seven_winner_leader_desc_third_perspective_1: 0 "[owner.GetName] ha vinto una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+
+agot_trial_of_seven_loser_leader: 0 "Ha perso una Prova dei Sette"
+agot_trial_of_seven_loser_leader_desc_1: 0 "Ho perso una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+agot_trial_of_seven_loser_leader_desc_second_perspective_1: 0 "Hai perso una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+agot_trial_of_seven_loser_leader_desc_third_perspective_1: 0 "[owner.GetName] ha perso una Prova dei Sette contro [opponent.Custom('IT_NAM_COL3')][opponent.GetTitledFirstName] e [Select_CString(opponent.IsFemale,'le sue','i suoi')] campioni"
+
+agot_trial_of_seven_winner: 0 "Ha combattuto in una Prova dei Sette vittoriosa"
+agot_trial_of_seven_winner_desc_1: 0 "Ho combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette e ho sconfitto [opponent_leader.Custom('IT_NAM_COL3')][opponent_leader.GetTitledFirstName]"
+agot_trial_of_seven_winner_desc_second_perspective_1: 0 "Hai combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette e hai sconfitto [opponent_leader.Custom('IT_NAM_COL3')][opponent_leader.GetTitledFirstName]"
+agot_trial_of_seven_winner_desc_third_perspective_1: 0 "[owner.GetName] ha combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette e ha sconfitto [opponent_leader.Custom('IT_NAM_COL3')][opponent_leader.GetTitledFirstName]"
+
+agot_trial_of_seven_loser: 0 "Ha combattuto in una Prova dei Sette perduta"
+agot_trial_of_seven_loser_desc_1: 0 "Ho combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette e sono stato sconfitto da [opponent_leader.Custom('IT_NAM_COL5')][opponent_leader.GetTitledFirstName]"
+agot_trial_of_seven_loser_desc_second_perspective_1: 0 "Hai combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette e sei stato sconfitto da [opponent_leader.Custom('IT_NAM_COL5')][opponent_leader.GetTitledFirstName]"
+agot_trial_of_seven_loser_desc_third_perspective_1: 0 "[owner.GetName] ha combattuto al fianco di [leader.Custom('IT_NAM_COL2')][leader.GetTitledFirstName] in una Prova dei Sette ed è stato sconfitto da [opponent_leader.Custom('IT_NAM_COL5')][opponent_leader.GetTitledFirstName]"

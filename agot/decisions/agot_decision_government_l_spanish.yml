@@ -21,7 +21,7 @@
  # agot_adopt_kneeler_ways_decision and effects and event following
   agot_adopt_kneeler_ways_decision:0 "Conformarsi agli Usi Meridionali"
   agot_adopt_kneeler_ways_decision_desc:0 "La vita nella terra desolata e crudele del Lontano Nord ci ha resi un popolo spietato e inflessibile, molto diverso da quelli che vivono al di là della Barriera. Ora che abbiamo trovato dimora tra loro, forse sarebbe saggio adattarci al loro stile di vita, alle loro leggi e alle loro usanze."
-  agot_adopt_kneeler_ways_decision_confirm:0 "È tempo di piegare le ginocchia."
+agot_adopt_kneeler_ways_decision_confirm: 0 "È tempo di piegare un po' meno le ginocchia"
   agot_adopt_kneeler_ways_decision_tooltip:0 "Il tuo popolo adotterà gli usi dei sudditi del Trono di Spade. Questo permetterà maggiori interazioni con i sovrani a sud della Barriera, ma perderai i vantaggi di essere un Popolo Libero."
   is_culture_head:0 "Sei il capo della tua cultura"
   hybridized_with_kneelers:0 "La tua cultura è stata ibridata con una presente a sud della Barriera"
@@ -30,3 +30,31 @@
   agot_major_decisions_events.1003.desc:0 "Il nostro sogno lungo generazioni di sfuggire alle dure realtà della vita al di là della Barriera si è realizzato. Non sarebbe forse un atto di arroganza portare avanti ostinatamente i nostri modi, ignorando le leggi e le usanze dei nostri nuovi vicini? La gente al di qua della Barriera può sembrare timida e molle, ma le loro vite sono lunghe e confortevoli. Chiaramente sanno come trarre il meglio da queste terre ospitali, e se le loro leggi li aiutano in questo, allora le adotteremo anche noi."
   agot_major_decisions_events.1003.a:0 "Verso un futuro più mite!"
   every_freefolk_ruler_tt:0 "Ogni Capo del Popolo Libero"
+
+become_landless_pirate_decision: 0 "Diventa un Pirata"
+become_landless_pirate_decision_desc: 0 "Ho assaporato gloria e oro come predone dei mari. Ora è tempo di gettare la maschera e abbracciare la mia vera natura di pirata."
+become_landless_pirate_decision_tooltip: 0 "Cambia tipo di governo diventando [GetGovernment( 'pirate_government' ).GetName]"
+become_landless_pirate_decision_confirm: 0 "Diventa un Pirata"
+
+agot_located_in_pirating_region: 0 "Devi trovarti in una regione nota per la pirateria, come [GetGeographicalRegion('world_stepstones').GetName]."
+become_landless_pirate_decision_tt: 0 "Diventi un [pirate_govt|E] senza terre"
+
+abandon_pirate_holdings_decision: 0 "Diventa un Pirata senza Terre"
+abandon_pirate_holdings_decision_desc: 0 "Governare su scogli spogli e covi di pirati è una vita tediosa. È tempo di consacrarmi interamente ai mari, come razziatore e corsaro!"
+abandon_pirate_holdings_decision_tooltip: 0 "Rinuncia ai tuoi titoli fondiari e diventa un pirata senza terre"
+abandon_pirate_holdings_decision_confirm: 0 "Abbandona i miei Possedimenti Terrieri"
+
+agot_pirate_higher_tier_title_decision: 0 "[ROOT.Char.Custom('GetDominateTitleLoc')]"
+agot_pirate_higher_tier_title_decision_title: 0 "Domina [ROOT.Char.GetPrimaryTitle.GetDeJureLiege.GetBaseNameNoTierNoTooltip]"
+agot_pirate_higher_tier_title_decision_desc: 0 "È tempo di dimostrare il mio dominio sulla regione e soggiogare coloro che vi abitano."
+agot_pirate_higher_tier_title_decision_tooltip: 0 "Tenta di ottenere un [title|E] di [title_tier|E] superiore"
+agot_pirate_higher_tier_title_decision_confirm: 0 "Cadranno dinanzi a me"
+
+agot_become_landed_pirate_decision: 0 "Abbraccia la Pirateria"
+agot_become_landed_pirate_decision_desc: 0 "Se voglio prosperare tra i pirati, devo abbracciare pienamente la pirateria come mia forma di governo."
+agot_become_landed_pirate_decision_tooltip: 0 "Diventa un Pirata"
+ agot_become_landed_pirate_decision_confirm:0 "$agot_become_landed_pirate_decision_tooltip$"
+
+agot_become_landed_pirate_decision_shatter_realm_tt: 0 "Ogni titolo posseduto al di fuori del tuo [primary_title|E] sarà concesso ai governanti locali."
+agot_become_landed_pirate_decision_gain_tributaries_tt: 0 "Tutti i nuovi governanti dei tuoi antichi titoli diventeranno tuoi [tributaries|E]."
+agot_become_landed_pirate_decision_holding_reset_tt: 0 "Il tuo [holding|E] principale diventerà un [pirate_den_holding|E]."

@@ -12,13 +12,22 @@
 
   agot_knighthood_maintenance.0008.t:0 "Fine della Tutela del Cavaliere"
   agot_knighthood_maintenance.0008.desc:0 "A causa delle ostilità sociali in corso, la mia tutela del mio scudiero, [my_squire.GetName], deve finire."
-  agot_knighthood_maintenance.0008.a:0 "Deludente"
-  agot_knighthood_maintenance.0008.a.tt:0 "A causa delle relazioni ostili sviluppate tra te e il tuo scudiero, [my_squire.GetSheHe] non può più essere tuo scudiero."
+agot_knighthood_maintenance.0008.a: 0 "Deludente."
+agot_knighthood_maintenance.0008.desc_nemesis: "Poiché [my_squire.GetName] ed io siamo divenuti nemici giurati, [Select_CString(my_squire.IsFemale,'lei','lui')] non sarà più il mio scudiero."
+agot_knighthood_maintenance.0008.desc_rivalry: "Poiché [my_squire.GetName] ed io siamo divenuti rivali, [Select_CString(my_squire.IsFemale,'lei','lui')] non sarà più il mio scudiero."
+agot_knighthood_maintenance.0008.desc_war_against_knight: "Poiché [my_squire.GetName] ed io siamo in guerra, [Select_CString(my_squire.IsFemale,'lei','lui')] non sarà più il mio scudiero."
+agot_knighthood_maintenance.0008.desc_liege_war_against_knight: "Poiché il signore di [my_squire.GetNamePossessive] ed io siamo in guerra, [Select_CString(my_squire.IsFemale,'lei','lui')] non sarà più il mio scudiero."
+agot_knighthood_maintenance.0008.desc_liege_war_against_knight_liege: "Poiché il signore di [my_squire.GetNamePossessive] e il mio signore sono in guerra, [Select_CString(my_squire.IsFemale,'lei','lui')] non sarà più il mio scudiero."
 
   agot_knighthood_maintenance.0009.t:0 "Fine della Tutela del Cavaliere"
   agot_knighthood_maintenance.0009.desc:0 "A causa delle ostilità sociali in corso, non posso più essere lo scudiero di [my_knight.GetName]."
   agot_knighthood_maintenance.0009.a:0 "Maledizione!"
-  agot_knighthood_maintenance.0009.a.tt:0 "A causa delle relazioni ostili sviluppate tra te e il tuo cavaliere, non puoi più essere il loro scudiero."
+
+agot_knighthood_maintenance.0009.desc_nemesis: "Poiché [my_knight.GetName] ed io siamo divenuti nemici giurati, [Select_CString(my_knight.IsFemale,'lei','lui')] non sarà più il mio cavaliere."
+agot_knighthood_maintenance.0009.desc_rivalry: "Poiché [my_knight.GetName] ed io siamo divenuti rivali, [Select_CString(my_knight.IsFemale,'lei','lui')] non sarà più il mio cavaliere."
+agot_knighthood_maintenance.0009.desc_war_against_knight: "Poiché [my_knight.GetName] ed io siamo in guerra, [Select_CString(my_knight.IsFemale,'lei','lui')] non sarà più il mio cavaliere."
+agot_knighthood_maintenance.0009.desc_liege_war_against_knight: "Poiché il mio signore e [my_knight.GetName] sono in guerra, [Select_CString(my_knight.IsFemale,'lei','lui')] non sarà più il mio cavaliere."
+agot_knighthood_maintenance.0009.desc_liege_war_against_knight_liege: "Poiché il mio signore e il signore di [my_knight.GetNamePossessive] sono in guerra, [Select_CString(my_knight.IsFemale,'lei','lui')] non sarà più il mio cavaliere."
 
   agot_knighthood_maintenance.0010.t:0 "La Morte del Mio Cavaliere"
   agot_knighthood_maintenance.0010.desc:0 "Il mio mentore e cavaliere, [dead_knight.GetName], è morto!\n\nQuesto significa che ora sono un #V scudiero senza cavaliere#!. Senza un cavaliere, il mio percorso per diventare un cavaliere è giunto a una fermata. Se sono abbastanza fortunato, un altro cavaliere potrebbe prendermi come suo scudiero. Anche se, se non trovo un nuovo cavaliere presto, potrebbe significare la #N fine#! del mio viaggio per diventare cavaliere."

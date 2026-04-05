@@ -10,11 +10,16 @@ agot_events_bastard.host_response_choice: 0 "Spetterà a [reveal_employer.GetNam
 agot_events_bastard.personal_response_choice: 0 "Spetterà a [reveal_scope.GetNameNoTooltip] rispondere alla tua richiesta."
 agot_events_bastard.demand_reject_harsh: 0 "Questa è una richiesta oltraggiosa! Ciò significa guerra!"
 agot_events_bastard.demand_reject_light: 0 "Questa è una punizione per la nascita. Non lo tollererò."
-agot_events_bastard.demand_reject_flavor: 0 "Rifiuterai la richiesta di [ruler_scope.GetNamePossessiveNoTooltip]."
-agot_events_bastard.demand_reject_tt: 0 "@warning_icon! #warning Ciò ti porrà irrevocabilmente sul sentiero della guerra contro il Trono di Spade.#!"
+agot_events_bastard.demand_reject_flavor: 0 "Rifiuterai la richiesta di [ruler_scope.GetNamePossessiveNoTooltip] e avanzerai una pretesa al trono."
+agot_events_bastard.demand_reject_tt: 0 "@warning_icon! #warning Questo ti porrà irrevocabilmente sulla via della guerra contro il Trono di Spade. Avanzerai una pretesa e combatterai come attaccante.#!"
 agot_events_bastard.demand_accept_harsh: 0 "Per quanto mi addolori, accetterò in nome della pace."
 agot_events_bastard.demand_accept_light: 0 "Accetterò la relativa clemenza di [ruler_scope.GetNamePossessiveNoTooltip]."
 agot_events_bastard.demand_accept_flavor: 0 "Accetterai la richiesta di [ruler_scope.GetNamePossessiveNoTooltip]."
+agot_events_bastard.demand_refuse_defensive_harsh: 0 "Non obbedirò, ma non sarò io l'aggressore. Che vengano pure."
+agot_events_bastard.demand_refuse_defensive_light: 0 "Rifiuto. Se la Corona vuole imporlo, dovrà marciare."
+agot_events_bastard.demand_refuse_defensive_vassal_tt: 0 "@warning_icon! #warning Sfiderai la richiesta della Corona e ti ribellerai all'imposizione di [ruler_scope.GetNamePossessiveNoTooltip], ma non avanzerai alcuna pretesa al trono.#!"
+agot_events_bastard.demand_refuse_defensive_independent_tt: 0 "@warning_icon! #warning Sfiderai la richiesta della Corona. La Corona dichiarerà guerra per imporla, ma non avanzerai alcuna pretesa al trono. Combatterai in difesa.#!"
+agot_events_bastard.demand_refuse_defensive_flavor: 0 "Rifiuterai la richiesta di [ruler_scope.GetNamePossessiveNoTooltip] e ti difenderai dalla sua imposizione, ma non avanzerai alcuna pretesa al trono."
 agot_events_bastard.unjust_warning_tt: 0 "Il reame potrebbe mal sopportare richieste giudicate ingiuste."
 agot_events_bastard.no_demand_acknowledge: 0 "Un sollievo, senza dubbio."
 
@@ -235,6 +240,7 @@ agot_events_bastard.0959.a.flavor: 0 "Governerai con durezza questa faccenda."
 agot_events_bastard.0959.b: 0 "Devo rispondere, ma non agiamo avventatamente."
 agot_events_bastard.0959.b.flavor: 0 "Governerai con moderazione questa faccenda."
 agot_events_bastard.0959.c: 0 "Non ha alcuna importanza. Non dirò nulla al riguardo."
+agot_events_bastard.0959.c_order: 0 "Con i suoi voti, [Select_CString(reveal_scope.IsFemale,'lei','lui')] non ha alcuna vera pretesa."
 agot_events_bastard.0959.c.flavor: 0 "Non risponderai a questo sviluppo."
 
  # Robert gets Eddards letter
@@ -268,9 +274,11 @@ agot_events_bastard.0962.d: 0 "[reveal_scope.GetName] deve dichiarare che [Selec
 
  # King is of same dynasty
 agot_events_bastard.0963.t: 0 "Un Nuovo [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]?"
+ agot_events_bastard.0963.t_unchanged_dynasty:0 "$agot_events_bastard.0959.t$"
 agot_events_bastard.0963.desc.jon: 0 "Sono seduto sul trono, a governare come governo, quando mi viene recata una strana notizia, sigillata da Casa [revealer.GetHouse.GetBaseName]. Mentre leggo, gli occhi mi si spalancano per lo shock.\n\nPare che [reveal_scope.GetFullName] sia, in verità, di sangue [reveal_scope.GetDynasty.GetBaseName] come me! Nat[Select_CString(reveal_scope.IsFemale,'a','o')] dall'unione tra [real_father.GetFullName] e [real_mother.GetFullName] durante la Guerra dell'Usurpatore, [Select_CString(reveal_scope.IsFemale,'lei','lui')] è ora riconosciut[Select_CString(reveal_scope.IsFemale,'a','o')] di stirpe regale!\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e incontro un mare di volti in attesa. Vogliono vedere come rispondo a questo dramma di sangue. Sebbene una simile pretesa rappresenti senza dubbio una minaccia, [reveal_scope.GetNameNoTooltip] non ha agito contro di me ed è, in fondo, del mio sangue, bastarda o no. Come dovrei, dunque, rispondere a questa notizia?"
 agot_events_bastard.0963.desc.my_son: 0 "Sono seduto sul trono, a governare come governo, quando mi viene recata una notizia sconvolgente, sigillata da Casa [revealer.GetHouse.GetBaseName]. Mentre leggo, gli occhi mi si spalancano e quasi mi cade la mascella.\n\nPare che [reveal_scope.GetFullName] sia, in verità, mio figlio! Nat[Select_CString(reveal_scope.IsFemale,'a','o')] dalla mia unione con [real_mother.GetFullName], [Select_CString(reveal_scope.IsFemale,'lei','lui')] è ora riconosciut[Select_CString(reveal_scope.IsFemale,'a','o')] di stirpe regale da tutto il reame.\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e incontro un mare di volti in attesa. Vogliono vedere come rispondo a questo dramma di sangue. Sebbene l'emergere di un figlio ignoto rappresenti senza dubbio una minaccia al mio potere, [reveal_scope.GetNameNoTooltip] non ha agito contro di me. Come dovrei, dunque, rispondere a questa notizia?"
-agot_events_bastard.0963.desc.my_daughter: 0 "Sono seduto sul trono, a governare come governo, quando mi viene recata una notizia sconvolgente, sigillata da Casa [revealer.GetHouse.GetBaseName]. Mentre leggo, gli occhi mi si spalancano e quasi mi cade la mascella.\n\nPare che [reveal_scope.GetFullName] sia, in verità, mia figlia! Nat[Select_CString(reveal_scope.IsFemale,'a','o')] dalla mia unione con [real_mother.GetFullName], [Select_CString(reveal_scope.IsFemale,'lei','lui')] è ora riconosciut[Select_CString(reveal_scope.IsFemale,'a','o')] di stirpe regale da tutto il reame.\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e incontro un mare di volti in attesa. Vogliono vedere come rispondo a questo dramma di sangue. Sebbene l'emergere di una figlia ignota rappresenti senza dubbio una minaccia al mio potere, [reveal_scope.GetNameNoTooltip] non ha agito contro di me ed è, per di più, una donna. Come dovrei, dunque, rispondere a questa notizia?"
+agot_events_bastard.0963.desc.my_daughter: 0 "Siedo sul trono, governando come faccio, quando mi viene consegnata una notizia sconvolgente recante il sigillo di Casa [revealer.GetHouse.GetBaseName]. Mentre la leggo, i miei occhi si spalancano e quasi mi cade la mascella.\n\nPare che [reveal_scope.GetFullName] sia, in verità, mia figlia! Nata dalla mia unione con [real_mother.GetFullName], [reveal_scope.GetSheHe] è ora riconosciuta da tutto il regno come di discendenza reale.\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e trovo davanti a me un mare di volti in attesa. Attendono di vedere come reagirò a questo dramma familiare. Benché l'emergere di una figlia sconosciuta rappresenti senza dubbio una minaccia al mio potere, [reveal_scope.GetNameNoTooltip] non ha agito contro di me. Come dovrei dunque rispondere a questa notizia?"
+agot_events_bastard.0963.desc_unchanged_dynasty: 0 "Siedo sul trono, governando come faccio, quando mi viene consegnata una curiosa notizia recante il sigillo di Casa [revealer.GetHouse.GetBaseName]. Mentre la leggo, i miei occhi si spalancano per lo shock.\n\nPare che [reveal_scope.GetFullName], già appartenente alla mia stessa casata tramite [real_mother.GetFullName], sia ora provat[Select_CString(reveal_scope.IsFemale,'a','o')] oltre ogni dubbio come portatrice del sangue di [reveal_scope.GetDynasty.GetBaseName] in tutta la sua pienezza. Nat[Select_CString(reveal_scope.IsFemale,'a','o')] da [real_father.GetFullName] e [real_mother.GetFullName], [reveal_scope.GetSheHe] non si pone soltanto come parente di nome, ma per entrambe le stirpi di sangue.\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e trovo davanti a me un mare di volti in attesa. Attendono di vedere come reagirò a questo dramma familiare. Benché una simile pretesa rappresenti senza dubbio una minaccia, [reveal_scope.GetNameNoTooltip] non ha agito contro di me, ed è anzi del mio sangue, bastardo o meno. Come dovrei dunque rispondere a questa notizia?"
 agot_events_bastard.0963.desc: 0 "Sono seduto sul trono, a governare come governo, quando mi viene recata una strana notizia, sigillata da Casa [revealer.GetHouse.GetBaseName]. Mentre leggo, gli occhi mi si spalancano per lo shock.\n\nPare che [reveal_scope.GetFullName] sia, in verità, di sangue [reveal_scope.GetDynasty.GetBaseName] come me! Nat[Select_CString(reveal_scope.IsFemale,'a','o')] dall'unione tra [real_father.GetFullName] e [real_mother.GetFullName], [Select_CString(reveal_scope.IsFemale,'lei','lui')] è ora riconosciut[Select_CString(reveal_scope.IsFemale,'a','o')] di stirpe regale.\n\nAlzo lo sguardo dalla pergamena che mi è stata consegnata e incontro un mare di volti in attesa. Vogliono vedere come rispondo a questo dramma di sangue. Sebbene una simile pretesa rappresenti senza dubbio una minaccia, [reveal_scope.GetNameNoTooltip] non ha agito contro di me ed è, in fondo, del mio sangue, bastarda o no. Come dovrei, dunque, rispondere a questa notizia?"
 agot_events_bastard.0963.a.nw: 0 "Gli sarà concesso di vivere i suoi giorni alla Barriera."
 agot_events_bastard.0963.a.ss: 0 "Le sarà concesso di unirsi alle Sorelle del Silenzio."
@@ -278,6 +286,7 @@ agot_events_bastard.0963.b: 0 "[Select_CString(reveal_scope.IsFemale,'Lei','Lui'
 agot_events_bastard.0963.c: 0 "[reveal_scope.GetNameNoTooltip] può unirsi alla corte, per prendere nota della sua nuova condizione."
 agot_events_bastard.0963.c.flavor: 0 "Potrai conferirle ulteriori onori se accetteranno."
 agot_events_bastard.0963.d: 0 "[reveal_scope.GetNameNoTooltip] deve dichiarare che [Select_CString(reveal_scope.IsFemale,'lei','lui')] non ha alcuna pretesa: questo basta."
+agot_events_bastard.0963.e: 0 "Con i suoi voti, [Select_CString(reveal_scope.IsFemale,'lei','lui')] non ha alcuna vera pretesa."
 
  # Employer responds to king execute all demands
 agot_events_bastard.0970.t_execution_both: 0 "Una Richiesta Tirannica"
@@ -350,6 +359,18 @@ agot_events_bastard.0985.desc_pending: 0 "Qualunque lord o lady trovati ad aiuta
 agot_events_bastard.0985.desc_resolved: 0 "Questa minaccia sarà risolta senza spargimento di sangue: tale è la mia misericordia e il mio desiderio. La dichiarazione giungerà ai vostri colombaî nei prossimi giorni, e mi aspetto che tutti la riconoscano come verità."
 agot_events_bastard.0985.a: 0 "Pare una risposta equa."
 
+agot_events_bastard.0986.t: 0 "La Corona Avanza"
+agot_events_bastard.0986.desc: 0 "Ci è giunta voce che [ruler_scope.GetName] ha perso la pazienza dinanzi alla nostra sfida. Gli eserciti della Corona si stanno radunando, e pare che [Select_CString(ruler_scope.IsFemale,'lei','lui')] intenda far rispettare con la forza delle armi il decreto riguardante [Select_CString( reveal_scope.IsLocalPlayer, 'me', reveal_scope.GetName )]. Dobbiamo prepararci a difenderci."
+agot_events_bastard.0986.desc.same: 0 "Ci è giunta voce che il nostro stesso sangue, [ruler_scope.GetName], ha perso la pazienza dinanzi alla nostra sfida. Gli eserciti della Corona si stanno radunando per far rispettare il decreto riguardante [Select_CString( reveal_scope.IsLocalPlayer, 'me', reveal_scope.GetName )]. Che si sia giunti a questo tra parenti è una tragedia, ma dobbiamo prepararci a difenderci."
+agot_events_bastard.0986.a: 0 "Che vengano pure."
+agot_events_bastard.0986.a.tt: 0 "@warning_icon! #warning [ruler_scope.GetNameNoTooltip] dichiarerà guerra per far rispettare il regio decreto riguardante [reveal_scope.GetNameOrMeNoTooltip]. Tu sarai il difensore.#!"
+
+agot_events_bastard.0987.t: 0 "Fai Rispettare il Regio Decreto"
+agot_events_bastard.0987.desc: 0 "La nostra richiesta riguardante [reveal_scope.GetName] è stata accolta con aperta sfida. Il tempo delle parole è finito: raduneremo i nostri eserciti e faremo rispettare il nostro decreto su [reveal_employer.GetName] per diritto della Corona."
+agot_events_bastard.0987.desc.same: 0 "La nostra richiesta riguardante il nostro stesso sangue, [reveal_scope.GetName], è stata accolta con aperta sfida. Sebbene ci addolori marciare contro la famiglia, l'autorità della Corona dev'essere mantenuta. Raduneremo i nostri eserciti e faremo rispettare il nostro decreto su [reveal_employer.GetName]."
+agot_events_bastard.0987.a: 0 "La parola della Corona è legge."
+agot_events_bastard.0987.a.tt: 0 "@warning_icon! #warning Dichiarerai guerra a [reveal_employer.GetName] per far rispettare il tuo regio decreto riguardante [reveal_scope.GetName].#!"
+
  #agot_events_bastard.0989 is a hidden event - handles war preparation
 
  # Pre-war marriage search
@@ -375,6 +396,7 @@ agot_events_bastard.0992.desc: 0 "Così si è giunti a questo.\n\nÈ trascorso t
 agot_events_bastard.0992.desc.same: 0 "Così si è giunti a questo.\n\nÈ trascorso troppo tempo per sostenere che non abbia ricevuto l'avviso di [ruler_scope.GetFirstNamePossessive], e per radunare le truppe necessarie ho inviato corvi a chiamare gli stendardi alla guerra. Il confine è stato superato, il dado è tratto, e la legittimità di [ruler_scope.GetHouse.GetBaseName] sarà decisa col sangue.\n\nOsservo gli stendardi raccolti dinanzi a me, vedendo i molti accorsi per sfidare le richieste ingiuste del tiranno [ruler_scope.GetNameNoTooltip]."
 agot_events_bastard.0992.desc.ned: 0 "Così si è giunti a questo.\n\nÈ trascorso troppo tempo per sostenere che non abbia ricevuto l'avviso di [ruler_scope.GetFirstNamePossessive], e per radunare le truppe necessarie ho inviato corvi a chiamare gli stendardi alla guerra. Il confine è stato superato, il dado è tratto, e quando tutto ciò sarà finito o [reveal_scope.GetHouse.GetBaseName] o [ruler_scope.GetHouse.GetBaseName] regnerà vittorios[Select_CString(ROOT.Char.IsFemale,'a','o')].\n\nOsservo gli stendardi raccolti dinanzi a me e, sebbene il cuore mi dole nel marciare a sud contro un amico d'un tempo, so di doverlo a Lyanna e a [reveal_scope.GetFirstName] per fare ciò che è giusto. Per misericordia degli uomini e mia, desidero che questa guerra sia rapida."
 agot_events_bastard.0992.a: 0 "Insieme marceremo per la giustizia!"
+agot_events_bastard.0992.a.tt: 0 "@warning_icon! #warning Rivendicherai il trono di [ruler_scope.GetFirstNamePossessive] e dichiarerai guerra. Combatterai come attaccante.#!"
 
  # Ruler war declaration alert
 agot_events_bastard.0993.t: 0 "Richieste Respinte"
@@ -382,6 +404,7 @@ agot_events_bastard.0993.desc: 0 "Così si è giunti a questo.\n\nRespingendo le
 agot_events_bastard.0993.desc.same: 0 "Così si è giunti a questo.\n\nRespingendo le mie richieste, il bastardo [reveal_scope.GetName] ha dichiarato l'intento di regnare su [ruler_scope.GetPrimaryTitle.GetName] e ha chiamato i propri alleati a sostenere la sua pretesa. Non è dato sapere quali promesse [Select_CString(reveal_scope.IsFemale,'lei','lui')] abbia dovuto fare per radunare un simile esercito, ma il confine è stato superato, il dado è tratto, e quando tutto ciò sarà finito o un vero [reveal_scope.GetHouse.GetBaseName] o un falso regnerà vittorios[Select_CString(ROOT.Char.IsFemale,'a','o')].\n\nOsservo gli stendardi raccolti dinanzi a me, vedendo i molti accorsi per difendere il mio giusto governo."
 agot_events_bastard.0993.desc.robert: 0 "Gli eventi delle ultime settimane mi hanno scosso fin nel profondo, e nulla più del luogo in cui mi ritrovo ora.\n\nIl mio amico d'un tempo, Eddard Stark, ha dichiarato ingiuste le mie richieste e ha levato i suoi stendardi per insediare [reveal_scope.GetName] come sovrano di [ruler_scope.GetPrimaryTitle.GetName]. Ha chiamato i suoi numerosi alleati e vassalli a sostenere tale pretesa, e ha detto che la mia richiesta dimostra che non sono migliore del Re Folle che insieme abbiamo deposto.\n\nQualunque amicizia esistesse tra noi è ormai finita. Il confine è stato superato, il dado è tratto, e quando tutto ciò sarà finito o Stark o Baratheon regnerà vittorios[Select_CString(ROOT.Char.IsFemale,'a','o')].\n\nSchiaccerò i ribelli, schiaccerò gli Stark, e schiaccerò quel piccolo sangue di drago proprio come schiacciai il padre e il nonno [Select_CString(reveal_scope.IsFemale,'di lei','di lui')]!"
 agot_events_bastard.0993.a: 0 "Distruggerò questi ribelli usurpatori!"
+agot_events_bastard.0993.a.tt: 0 "@warning_icon! #warning [reveal_scope.GetName] ti ha dichiarato guerra per il trono. Combatterai in difesa.#!"
 
  # Ruler wins war
 agot_events_bastard.0994.t: 0 "Ordine Ripristinato"
@@ -407,6 +430,21 @@ agot_events_bastard.0996.t: 0 "Un Nuovo Giorno Sorge"
 agot_events_bastard.0996.desc: 0 "Osservo [claimant.GetFirstName] mentre varca i cancelli della sala del trono, con la corona sul capo. Occhi sicuri scrutano una nuova era e, a ogni passo, sempre più persone, me compres[Select_CString(ROOT.Char.IsFemale,'a','o')], piegano il ginocchio dinanzi al nostro nuovo signore.\n\nUna parte di me fatica ancora a credere che questo sia il mondo in cui viviamo ora; non molto tempo fa [Select_CString(claimant.IsFemale,'lei','lui')] non conosceva neppure la verità della propria discendenza. Eppure, per il sentiero su cui l'ho condott[Select_CString(ROOT.Char.IsFemale,'a','o')], un nuovo giorno sorge in [claimant.GetPrimaryTitle.GetName]."
 agot_events_bastard.0996.a: 0 "Mi chiedo che cosa provi [Select_CString(claimant.IsFemale,'lei','lui')] in questo momento."
 agot_events_bastard.0996.b: 0 "Onore a [claimant.GetNameNoTooltip]!"
+
+ #agot_events_bastard.0997 is a hidden event - crown declares enforcement war
+
+agot_events_bastard.0998.t: 0 "Il Regio Decreto è Stato Fatto Rispettare"
+agot_events_bastard.0998.desc_execute: 0 "La guerra è vinta, e [claimant.GetName] si trova ora alla nostra mercé. La sentenza sarà eseguita come decretato."
+agot_events_bastard.0998.desc_send_to_order: 0 "La guerra è vinta. [claimant.GetName] sarà spogliat[Select_CString(claimant.IsFemale,'a','o')] delle proprie pretese e mandat[Select_CString(claimant.IsFemale,'a','o')] a servire, come era stato decretato."
+agot_events_bastard.0998.desc_imprison: 0 "La guerra è vinta. [claimant.GetName] è già in catene: il decreto è stato fatto rispettare con la spada."
+agot_events_bastard.0998.desc_bring_to_court: 0 "La guerra è vinta. [claimant.GetName] sarà condott[Select_CString(claimant.IsFemale,'a','o')] a corte, come decretato, dove potremo tenerl[Select_CString(claimant.IsFemale,'a','o')] sotto stretta sorveglianza."
+agot_events_bastard.0998.desc_give_up_claims: 0 "La guerra è vinta. [claimant.GetName] rinuncerà a ogni pretesa al trono, come era stato decretato."
+agot_events_bastard.0998.desc_default: 0 "La guerra è vinta. Il nostro decreto sarà fatto rispettare."
+agot_events_bastard.0998.a: 0 "La giustizia è compiuta."
+
+agot_events_bastard.0999.t: 0 "La Corona è Sconfitta"
+agot_events_bastard.0999.desc: 0 "Contro ogni previsione, abbiamo prevalso sul tentativo della Corona di imporre il suo decreto. Gli eserciti del Trono di Spade sono stati respinti, e abbiamo conquistato la nostra libertà, insieme a dovute riparazioni per il disturbo arrecato."
+agot_events_bastard.0999.a: 0 "Non ci pieghiamo ad alcun decreto ingiusto."
 
  # Ruler notified of double execute acceptance
 agot_events_bastard.1001.t: 0 "Richieste Accettate"

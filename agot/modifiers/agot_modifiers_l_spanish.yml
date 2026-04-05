@@ -23,9 +23,23 @@ agot_craft_focused_minor_desc: 0 "L’attenzione di questo personaggio è divisa
   agot_incest_aversion_modifier:0 "Avversione all’Incesto"
   agot_incest_aversion_modifier_desc:0 "Questo personaggio non brama nozze con un fratello o con una sorella."
 
+agot_tomboy_modifier: 0 "Temperamento Vivace"
+agot_tomboy_modifier_desc: 0 "Benché sia insolito per una donna del suo rango, questo personaggio trae grande diletto dalla pratica delle armi, dal clangore dell'acciaio e dagli esercizi nel cortile d'addestramento."
+
+agot_legendary_conversion_modifier: 0 "Evangelizza il Regno"
+agot_legendary_conversion_modifier_desc: 0 "Questo personaggio sta evangelizzando il proprio regno e troverà più facile convertire le contee alla sua fede."
+
+
  #################
  # Filler Events #
  #################
+
+
+agot_escorted_noble_county_modifier: 0 "Scorta Draconica"
+agot_escorted_noble_county_modifier_desc: 0 "Il popolino di questa contea è rimasto stupito dalla scorta in groppa a un drago che ha riportato a casa il proprio sovrano."
+
+agot_ignored_noble_modifier: 0 "Personaggio Ignorato"
+agot_ignored_noble_modifier_desc: 0 "Questo personaggio è stato ignorato nel momento del bisogno."
 
   agot_modifiers_invited_wildling_modifier:0 "Invitato un Bruto a Corte"
   agot_modifiers_invited_wildling_modifier_desc:0 "Questo personaggio ha permesso a un Bruto di unirsi alla sua corte."
@@ -283,8 +297,6 @@ agot_filler_north_do_nothing_desc: 0 "Questo personaggio non ha fatto nulla quan
   disavowed_incest_house_modifier:0 "Incesto Ripudiato"
   disavowed_incest_house_modifier_desc:0 "Questa casata ha scelto di non avvalersi dell’esenzione all’incesto sancita dalla Dottrina dell’Eccezionalità."
 
-  bittersteel_modifier:0 "Bittersteel"
-  bittersteel_modifier_desc:0 "Questo personaggio è Aegor Bittersteel, discendente di Aegon IV e fedele sostenitore della Casa Blackfyre."
   walled_off_no_more_modifier:0 "Muri Abbattuti"
   walled_off_no_more_modifier_desc:0 "Questo clan è stato in prima linea nel cacciare i corvi dalla loro Barriera e nell'introdurre i Bruti alle meraviglie del mondo oltre."
 
@@ -608,6 +620,18 @@ unique_dynasty_nickname_modifier_desc: 0 "Questa dinastia è legata semioticamen
  ######################
   agot_unjust_trial_by_combat:0 "Sostenuto un Processo Ingiusto per Singolar Tenzone"
   agot_unjust_trial_by_combat_desc:0 "Questo personaggio ha dichiarato un campione ingiusto in un processo per Singolar Tenzone, terrorizzando la corte e insultando le leggi tradizionali della giustizia."
+agot_denied_a_trial_by_combat: 0 "Ha Negato una Singolar Tenzone"
+agot_denied_a_trial_by_combat_desc: 0 "Questo personaggio ha ingiustamente negato a qualcuno il diritto alla singolar tenzone, insultando le tradizionali leggi della giustizia."
+agot_denied_a_trial_of_seven: 0 "Ha Negato un Giudizio dei Sette"
+agot_denied_a_trial_of_seven_desc: 0 "Questo personaggio ha ingiustamente negato a qualcuno un Giudizio dei Sette, insultando le antiche tradizioni andale della giustizia."
+
+ ###############
+ ## Provinces ##
+ ###############
+agot_province_gold_veins: 0 "Vene d'Oro"
+agot_province_gold_veins_desc: 0 "Vene d'oro sono state scoperte sotto il suolo di questa provincia. Con un'estrazione costante e una gestione oculata, promettono una fonte affidabile di ricchezza e prosperità."
+agot_province_silver_veins: 0 "Vene d'Argento"
+agot_province_silver_veins_desc: 0 "Vene d'argento sono state scoperte sotto il suolo di questa provincia. Con un'estrazione costante e una gestione oculata, promettono una fonte affidabile di ricchezza e prosperità."
 
  ############
  ## Travel ##
@@ -1541,7 +1565,12 @@ pirate_adventurer_modifier_desc: 0 "Questo personaggio ha lasciato la propria te
  #############################
  # MISSING VANILLA MODIFIERS #
  #############################
+
+ #############################
+ # GOVERNMENT #
+ #############################
   republic_government_levy_contribution_add:1 "[republican|E] [vassal|E] [levy|E] [modifier_base_contribution|E]"
+lp_feudal_government_tax_contribution_mult: 0 "[modifier_contribution|E] di [tax|E] dei [vassal|E] del $lp_feudal_government$"
 
  ###########################
  # DESTINED (HEALTH BOOST) #
@@ -1575,3 +1604,41 @@ pirate_adventurer_modifier_desc: 0 "Questo personaggio ha lasciato la propria te
   agot_kinslayer_malus_2:0 "Known [GetTrait('kinslayer_2').GetName( GetNullCharacter )]"
   agot_kinslayer_malus_3:0 "Known [GetTrait('kinslayer_3').GetName( GetNullCharacter )]"
   accidental_kinslayer_crime_dynasty:0 "$kinslayer_crime_dynasty$"
+
+demanded_artifact_ransom: 0 "Ha Preso i Miei Artefatti come Riscatto"
+demanded_heirloom_artifact_ransom: 0 "Ha Preso Cimeli di Casata come Riscatto"
+
+bestowed_scion_status_male_opinion: 0 "Mi Ha Reso un [Concept( 'royal_scion', 'Prince')|E]"
+bestowed_scion_status_female_opinion: 0 "Mi Ha Reso una [Concept( 'royal_scion', 'Princess')|E]"
+
+ #Pirates
+agot_refused_pirate_haven_fee: 0 "Si è Rifiutato di pagare il Pedaggio del Rifugio Pirata"
+agot_raided_pirate_ship_crime: 0 "Ha Razziato una Nave Pirata"
+attempted_raid_pirate_ship_crime: 0 "Ha Tentato di Razziar una Nave Pirata"
+agot_newly_made_pirate: 0 "Pirata da Poco"
+demanded_pirate_leave: 0 "Mi Ha Scacciato"
+refused_pirate_expulsion: 0 "Si è Rifiutato di Lasciare il Porto"
+
+pirate_level_1_control_modifier: 0 "Presenza Pirata Livello 1"
+pirate_level_2_control_modifier: 0 "Presenza Pirata Livello 2"
+pirate_level_3_control_modifier: 0 "Presenza Pirata Livello 3"
+pirate_level_4_control_modifier: 0 "Presenza Pirata Livello 4"
+pirate_level_5_control_modifier: 0 "Presenza Pirata Livello 5"
+
+pirate_level_1_control_modifier_desc: 0 "La presenza dei pirati sta influenzando negativamente il [control|e] in questa contea."
+ pirate_level_2_control_modifier_desc:0 "$pirate_level_1_control_modifier_desc$"
+ pirate_level_3_control_modifier_desc:0 "$pirate_level_1_control_modifier_desc$"
+ pirate_level_4_control_modifier_desc:0 "$pirate_level_1_control_modifier_desc$"
+ pirate_level_5_control_modifier_desc:0 "$pirate_level_1_control_modifier_desc$"
+
+ pirate_tax_rate_01_displayer_modifier:0 "$pirate_tax_rate_law$"
+pirate_tax_rate_01_displayer_modifier_desc: 0 "[agot_landless_pirate_domiciles|e] pagheranno:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 5 @gold_icon! di tassa d'attracco, e 20 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 10 @gold_icon! di tassa d'attracco, e 40 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 15 @gold_icon! di tassa d'attracco, e 60 @gold_icon! di tassa annua."
+
+ pirate_tax_rate_02_displayer_modifier:0 "$pirate_tax_rate_law$"
+pirate_tax_rate_02_displayer_modifier_desc: 0 "[agot_landless_pirate_domiciles|e] pagheranno:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 7.5 @gold_icon! di tassa d'attracco, e 30 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 12.5 @gold_icon! di tassa d'attracco, e 50 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 17.5 @gold_icon! di tassa d'attracco, e 70 @gold_icon! di tassa annua."
+
+ pirate_tax_rate_03_displayer_modifier:0 "$pirate_tax_rate_law$"
+pirate_tax_rate_03_displayer_modifier_desc: 0 "[agot_landless_pirate_domiciles|e] pagheranno:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 10 @gold_icon! di tassa d'attracco, e 40 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 15 @gold_icon! di tassa d'attracco, e 60 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 20 @gold_icon! di tassa d'attracco, e 80 @gold_icon! di tassa annua."
+
+ pirate_tax_rate_04_displayer_modifier:0 "$pirate_tax_rate_law$"
+pirate_tax_rate_04_displayer_modifier_desc: 0 "[agot_landless_pirate_domiciles|e] pagheranno:\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_01').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_02').GetName]: 12.5 @gold_icon! di tassa d'attracco, e 50 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_03').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_04').GetName]: 17.5 @gold_icon! di tassa d'attracco, e 70 @gold_icon! di tassa annua.\n$EFFECT_LIST_BULLET$ [GetDomicileBuilding('agot_pirate_ship_main_05').GetName] e [GetDomicileBuilding('agot_pirate_ship_main_06').GetName]: 22.5 @gold_icon! di tassa d'attracco, e 90 @gold_icon! di tassa annua."
