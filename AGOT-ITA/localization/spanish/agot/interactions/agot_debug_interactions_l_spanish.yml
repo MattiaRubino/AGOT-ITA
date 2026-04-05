@@ -9,11 +9,6 @@ agot_debug_incest_variable.tt: 0 "Variabile già impostata."
  agot_adelphogamous_incest_for_house:0 "Allow adelphogamous incest for house."
  agot_agot_no_incest_allowed:0 "Allow no special incest at all."
 
-
- agot_debug_make_lord_paramount_interaction:0 "Set #S #Y PARAMOUNTSHIP#!#!"
- agot_debug_make_lord_paramount_interaction_desc:0 "Make [recipient.GetFullName] a [recipient.GetLadyLord] Paramount"
-
-
  # MEGA WARS!
  agot_debug_manage_mw_interaction:0 "Manage Mega War"
  agot_debug_manage_mw_interaction_desc:0 "Several debugging options."
@@ -25,6 +20,7 @@ agot_debug_incest_variable.tt: 0 "Variabile già impostata."
  agot_debug_mw_stance.tt.rebel_leader:0 "[recipient.GetFirstName] is a rebel leader against [debug_mw_rebel_leader.GetFirstName]."
  agot_debug_mw_stance.tt.none:0 "[recipient.GetFirstName] is on no side or list."
  agot_debug_mw_stance.tt.pre_war_liege:0 "[recipient.GetFirstNamePossessive] pre-war-liege is [recipient.MakeScope.Var('pre_war_liege').Char.GetFirstName]."
+agot_debug_mw_stance.tt.agot_pwl_top: 0 "Il signore superiore prebellico di [recipient.GetFirstNamePossessive] è [recipient.MakeScope.Var('agot_pwl_top').Char.GetFirstName]."
  agot_debug_mw_rebuild_realm_loc:0 "Rebuild the realm."
  agot_debug_mw_remove_pre_war_liege_loc:0 "Remove pre_war_liege variable"
  agot_debug_mw_end_mw_story_loc:0 "End mega war stories."
@@ -32,8 +28,10 @@ agot_debug_incest_variable.tt: 0 "Variabile già impostata."
  agot_debug_mw_remove_pre_war_liege_desc:0 "This will remove the pre_war_liege variable"
  agot_debug_mw_end_mw_story_desc:0 "End [recipient.GetFirstNamePossessive] mega war stories."
 
- agot_debug_mw_set_stance_interaction:0 "Set MW stance prior to war"
- agot_debug_mw_set_stance_interaction_desc:0 "Set MW stance prior to war"
+agot_debug_mw_set_stance_interaction: 0 "Unisciti a una fazione nella mega guerra"
+agot_debug_mw_set_stance_interaction_desc: 0 "Unisciti a una fazione nella mega guerra"
+agot_debug_mw_set_stance_pre_war_interaction: 0 "Imposta la posizione MW prima della guerra"
+agot_debug_mw_set_stance_pre_war_interaction_desc: 0 "Imposta la posizione MW prima della guerra"
  agot_debug_mw_only_one_stance:0 "Only select one stance at a time!"
  agot_debug_mw_loyalist_loc:0 "Set #S #G LOYALIST#!#!"
  agot_debug_mw_neutral_loc:0 "Set #S #D NEUTRAL#!#!"
@@ -118,6 +116,9 @@ agot_show_all_dragonbloods_desc: 0 "Mostra un elenco di tutti i personaggi dal s
  agot_dragon_lay_egg_debug_desc:0 "Lay Clutch of Eggs"
  agot_dragon_lay_egg_debug.lay_eggs:0 "Lays a clutch of eggs"
 
+agot_run_event_debug: 0 "Avvia Evento Debug"
+agot_run_event_debug_desc: 0 "Avvia un evento debug sul personaggio selezionato"
+
  agot_field_of_fire_debug:0 "Field of Fire"
  agot_field_of_fire_debug_desc:0 "Rain dragonfire on unimportant characters throughout the world"
  field_of_fire_debug_desc:0 "Angry dragon noises"
@@ -146,3 +147,6 @@ debug_visible_disfigurement_3: 0 "Bocca deformata"
 debug_visible_disfigurement_4: 0 "Lato sinistro del volto danneggiato"
 debug_visible_disfigurement_5: 0 "Senza naso"
 debug_remove_visible_disfigurement: 0 "Rimuovi tipo di sfiguramento nascosto"
+
+agot_give_pirate_ship: 0 "Genera un Domicilio Nave Pirata"
+agot_give_pirate_ship_desc: 0 "Genera un Domicilio Nave Pirata per [recipient.GetName]"

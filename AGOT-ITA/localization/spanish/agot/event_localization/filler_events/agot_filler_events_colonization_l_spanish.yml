@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
-  agot_filler_colonization.0001.t:0 "[colony_province.GetName]: Lo Scoiattolo"
+agot_filler_colonization.0001.t: 0 "[colony_province.GetNameNoTooltip]: Lo Scoiattolo"
   agot_filler_colonization.0001.desc:0 "Mentre viaggio per visitare la mia colonia di [colony_province.GetName], io e il mio seguito ci fermiamo per un leggero pasto tra gli alberi. Mi perdo nei pensieri, rimuginando sulle più recenti sfide affrontate dal mio regno. All'improvviso, il mio torpore viene interrotto da un fruscio tra i rami sopra di me. Nella penombra occorre un istante per identificarne la fonte — uno scoiattolo nero e snello.\n\nMi fissa. Io ricambio lo sguardo. C'è qualcosa nel suo sguardo acuto che mi appare malevolo."
   agot_filler_colonization.0001.a:0 "Via da me, parassita!"
   agot_filler_colonization.0001.a.success:0 "Scacci il roditore in volo"
@@ -8,7 +8,7 @@
   agot_filler_colonization.0001.b:0 "Guardie, aiuto!"
   agot_filler_colonization.0001.c:0 "Probabilmente non è nulla."
 
-  agot_filler_colonization.0002.t:0 "[colony_province.GetName]: Il Cervo Bianco"
+agot_filler_colonization.0002.t: 0 "[colony_province.GetNameNoTooltip]: Il Cervo Bianco"
   agot_filler_colonization.0002.desc:0 "Esploro i sentieri boscosi e intricati nei pressi della mia colonia di [colony_province.GetName], ammirando l'incredibile densità dell'antica foresta. In alcuni punti, gli alberi crescono quasi tronco contro tronco. Il legno morto caduto germoglia funghi luminosi. Gli alberi vivi sono avvolti da liane e rampicanti, ricoperti di muschi spugnosi e licheni pendenti. L'aria è impregnata di mille odori di vita vibrante e di putrefazione fetida.\n\nAll'improvviso lo vedo. Colto in un raggio di luce che squarcia la volta come una lancia celeste: un enorme cervo, bianco come il ghiaccio, con occhi ambrati che per un istante si fissano nei miei.\n\nPoi, con uno sbuffo, il cervo bianco balza via lungo il sentiero. Alle mie spalle sento il mio seguito tendere gli archi."
   agot_filler_colonization.0002.a:0 "Abbatterò io stesso il cervo!"
   agot_filler_colonization.0002.a.success:0 "Uccidi la creatura"
@@ -20,7 +20,7 @@
   agot_filler_colonization.0002.b.critical_failure:0 "[Select_CString(martial_companion.IsFemale,'Ella','Egli')|U] viene trafitt[Select_CString(martial_companion.IsFemale,'a','o')] mortalmente"
   agot_filler_colonization.0002.c:0 "Il cervo bianco è sacro; lasciamolo andare."
 
-  agot_filler_colonization.0003.t:0 "[colony_province.GetName]: Terra Dura"
+agot_filler_colonization.0003.t: 0 "[colony_province.GetNameNoTooltip]: Terra Grama"
   agot_filler_colonization.0003.desc:0 "Ho finalmente trovato il tempo di ispezionare la mia colonia a [colony_province.GetName]. Il viaggio è stato lungo e stancante, ma il mio animo si solleva all'istante al mio arrivo nell'insediamento. Posso quasi sentire l'odore dello spirito di frontiera.\n\nLa colonia è un alveare di attività, e il suono delle asce che colpiscono il legno e dei martelli che risuonano sulle incudini echeggia tra le colline, così come le voci dei coloni, che spesso scoppiano spontaneamente in canti mentre lavorano. Sono persone sane e robuste, e mi sento onorat[Select_CString(ROOT.Char.IsFemale,'a','o')] di essere il loro signore.\n\nGli altopiani rocciosi sono poco adatti alla semina, e i coloni riferiscono l'urgente necessità di razze resistenti di pecore e capre per fornire sia sostentamento sia pelli per gli abiti. La colonia è ricca di metalli e pietra da commerciare, ma occorre stringere un accordo per trasportare queste risorse in cambio di bestiame."
   agot_filler_colonization.0003.a:0 "Supervisionerò io stesso l'accordo."
   agot_filler_colonization.0003.a.success:0 "Concludi un accordo vantaggioso per la colonia"
@@ -37,7 +37,7 @@
   poorly_supplied_colony_county_modifier:0 "Colonia Mal Rifornita"
   poorly_supplied_colony_county_modifier_desc:0 "Questa colonia fatica a ricevere anche i rifornimenti di base dal resto del regno."
 
-  agot_filler_colonization.1001.t:0 "[colony_province.GetName]: Campagna di Reclutamento"
+agot_filler_colonization.1001.t: 0 "[colony_province.GetNameNoTooltip]: Campagna di Reclutamento"
   agot_filler_colonization.1001.desc:0 "Per molti aspetti, sono soddisfatt[Select_CString(ROOT.Char.IsFemale,'a','o')] dei progressi della colonia a [colony_province.GetName]. Un gruppo avanzato ha individuato un nuovo sito per l'insediamento, e una semplice sala, insieme a diversi rifugi e magazzini, è già stata eretta. Attrezzi e viveri sono stati accumulati per sostenere l'insediamento nei suoi primi anni, e la terra viene dissodata per il pascolo e la semina.\n\nTuttavia, un esasperat[Select_CString(stewardship_companion.IsFemale,'a','o')] [stewardship_companion.GetName] si lamenta che troppo poche persone sembrano disposte a emigrare nell'insediamento. Se la colonia deve sopravvivere e prosperare, sarà necessario incoraggiare più coloni a compiere il passo."
   agot_filler_colonization.1001.a:0 "Manda i miei armigeri a ricollocare alcuni locali..."
   maa_gathering_new_colonists_modifier:0 "Campagna di Reclutamento"
@@ -45,14 +45,14 @@
   agot_filler_colonization.1001.b:0 "Paghiamo per sovvenzionare l'immigrazione di lavoratori qualificati."
   agot_filler_colonization.1001.c:0 "I miei [ROOT.Char.Custom('DefaultPriestTitlePlural')|U] dovrebbero offrire benedizioni di [ROOT.Char.GetFaith.HighGodName] ai nuovi coloni."
 
-  agot_filler_colonization.1002.t:0 "[colony_province.GetName]: Una Nuova Vita"
+agot_filler_colonization.1002.t: 0 "[colony_province.GetNameNoTooltip]: Una Nuova Vita"
   agot_filler_colonization.1002.desc:0 "La notizia delle nuove opportunità e degli investimenti nel mio crescente insediamento di [colony_province.GetName] ha oltrepassato i suoi confini, giungendo alla gente della vicina provincia di [origin_county.GetNameNoTier].\n\nNelle ultime settimane, sempre più migranti di cultura [migrant_culture.GetName] hanno iniziato ad arrivare nel mio giovane insediamento, cercando di costruirsi una nuova vita sotto la mia protezione.\n\nNon c'è dubbio che forniranno al mio avamposto la manodopera tanto necessaria, ma se lasciati arrivare senza controllo, supereranno numericamente i miei coloni prima della fine della settimana!"
   agot_filler_colonization.1002.a:0 "Mani volenterose sono sempre benvenute nelle mie terre..."
   agot_filler_colonization.1002.b:0 "Dite alla milizia locale di scacciare questi migranti."
   allowed_migrants_in_colony:0 "Migranti accolti in cerca di una nuova vita nella colonia"
   forbade_migrants_in_colony:0 "Migranti respinti in cerca di una nuova vita nella colonia"
 
-  agot_filler_colonization.1003.t:0 "[colony_province.GetName]: L'Incendio"
+agot_filler_colonization.1003.t: 0 "[colony_province.GetNameNoTooltip]: L'Incendio"
   agot_filler_colonization.1003.desc:0 "Mi è giunta voce che ampie parti della mia colonia a [colony_province.GetName] siano state distrutte da un grande incendio, a quanto pare causato da un fornaio troppo zelante. Ogni rifugio, magazzino e granaio è stato raso al suolo.\n\nSenza aiuti esterni, i coloni traumatizzati saranno costretti ad abbandonare le rovine fumanti, e solo un intervento deciso e immediato potrà salvare la colonia.\n\nUn rappresentante della gente di frontiera, in lutto, ha riassunto i danni totali causati dal fuoco e chiede umilmente l'oro necessario per ricostruire."
   agot_filler_colonization.1003.a:0 "Date a queste anime coraggiose l'oro di cui hanno bisogno."
   agot_filler_colonization.1003.b:0 "Supervisionerò personalmente la ricostruzione della colonia."
@@ -64,7 +64,7 @@
   agot_filler_colonization.1003.c.failure.toast:0 "Fallimento della Colonia"
   agot_filler_colonization.1003.c.success.toast:0 "La Colonia Sopravvive"
 
-  agot_filler_colonization.1004.t:0 "[colony_province.GetName]: Un Covone di Peccato"
+agot_filler_colonization.1004.t: 0 "[colony_province.GetNameNoTooltip]: Un Covo di Vizio"
   agot_filler_colonization.1004.desc.1:0 "Ho ricevuto notizie inquietanti dai miei principali [ROOT.Char.Custom('DefaultPriestTitlePlural')|U]: la crescente popolazione coloniale di [colony_province.GetName] si sta allontanando da [ROOT.Char.GetFaith.HighGodName] e conduce vite di peccato.\n\n"
   agot_filler_colonization.1004.desc.2.deceit:0 "Si dice che la gente della provincia abbia sviluppato una cultura dell'inganno e dell'astuzia, dove l'onestà è vista come ingenuità. Chi visita la colonia corre una probabilità tutt'altro che trascurabile di essere spennato dagli intraprendenti locali o di cadere vittima di scherzi. Questo influisce persino sul mio governo della provincia, poiché non possiamo essere certi dell'accuratezza dei rapporti delle élite locali!\n\n"
   agot_filler_colonization.1004.desc.2.chastity:0 "Si dice che nella provincia abbia preso piede una cultura della castità, poiché la gente si astiene dai piaceri carnali per concentrarsi sul lavoro e sulla crescita personale. Ciò rappresenta una grave minaccia per la stabilità a lungo termine della provincia, poiché in che altro modo potremo ottenere una popolazione stabile?\n\n"
@@ -80,7 +80,7 @@
   sided_with_sinners_modifier_desc:0 "Questo personaggio ha chiuso un occhio sulle attività peccaminose nel proprio regno."
   agot_filler_colonization.1004.c:0 "Non saprei, forse hanno ragione loro..."
 
-  agot_filler_colonization.1005.t:0 "[colony_province.GetName]: Compari come Ladri"
+agot_filler_colonization.1005.t: 0 "[colony_province.GetNameNoTooltip]: D'accordo come Ladri"
   agot_filler_colonization.1005.desc:0 "Ho ricevuto rapporti allarmanti dal mio insediamento a [colony_province.GetName]. Le entrate della provincia mostrano un lento ma costante declino e, di conseguenza, il brigantaggio è aumentato, con rifornimenti destinati all'insediamento spesso saccheggiati e rivenduti tramite canali illeciti.\n\nSi vocifera che [governor.GetFirstName], un sovrintendente locale da me nominato, sia in combutta con i ladri, ricevendo una parte della refurtiva e coprendo le loro nefandezze.\n\nMa [governor.GetFirstNameNoTooltip] è scaltro, e ha ben nascosto le tracce [Select_CString(governor.IsFemale,'di lei','di lui')]. Dovrò procedere con cautela e precisione..."
   agot_filler_colonization.1005.a:0 "Che imbarazzo! Rimuovet[Select_CString(governor.IsFemale,'ela','elo')] prima che possa fare altri danni."
   agot_filler_colonization.1005.a.tt:0 "[governor.GetFirstNameNoTooltip] viene rimosso dalla sua posizione di Governatore"
@@ -95,7 +95,7 @@
   unofficial_income_modifier:0 "Entrate Ufficiose"
   unofficial_income_modifier_desc:0 "Questo personaggio ottiene entrate aggiuntive tramite mezzi illeciti."
 
-  agot_filler_colonization.1006.t:0 "[colony_province.GetName]: Faida coloniale"
+agot_filler_colonization.1006.t: 0 "[colony_province.GetNameNoTooltip]: Faida Coloniale"
   agot_filler_colonization.1006.desc:0 "I miei consiglieri mi hanno chiesto d'intervenire in una disputa in corso tra i leader locali della mia colonia nascente in [colony_province.GetName], riguardo alla direzione futura dell'insediamento.\n\n[merchant.GetFirstName] è un mercante di spicco della zona e sostiene che si debba reinvestire l'oro nello sviluppo delle attività locali e nel miglioramento dell'accesso ad altri mercati, così da accrescere la prosperità della popolazione.\n\nNel frattempo, [militia.GetFirstName], capo della milizia locale, afferma che gli investimenti dovrebbero essere diretti al rafforzamento delle forze armate, per difendere gli interessi della colonia.\n\nLa situazione è in stallo, ed essi guardano a me per risolvere la faida. La decisione che prenderò influenzerà con ogni probabilità il destino della provincia per molti anni a venire..."
   agot_filler_colonization.1006.a:0 "Senza un esercito forte, siamo bersagli facili."
   agot_filler_colonization.1006.b:0 "Un'economia solida porterà benefici a tutti."
@@ -111,7 +111,7 @@
   harmonious_colony_county_modifier:0 "Leadership efficace"
   harmonious_colony_county_modifier_desc:0 "Le varie fazioni rivali di questa contea hanno raggiunto un compromesso, collaborando efficacemente per rafforzarla."
 
-  agot_filler_colonization.1007.t:0 "[colony_province.GetName]: Boicottaggio"
+agot_filler_colonization.1007.t: 0 "[colony_province.GetNameNoTooltip]: Boicottaggio"
   agot_filler_colonization.1007.desc.1.steward:0 "Il mio amministratore,"
   agot_filler_colonization.1007.desc.1.advisor:0 "Il mio consigliere,"
   agot_filler_colonization.1007.desc.2:0 "[steward.GetFirstName] bussa alla mia porta con un'espressione più cupa del solito. [Select_CString(steward.IsFemale,'Lei','Lui')|U] ha trascorso una giornata estenuante a negoziare con le corporazioni, e pare che tali discussioni non abbiano dato frutto.\n\n«Perché ogni volta che i capigilda si riuniscono sembra una congiura contro il popolo? Si lamentano che le tasse sulla rotta commerciale verso la nostra colonia in [colony_province.GetName] siano troppo alte, e minacciano di boicottare tutte le merci prodotte laggiù. Se ne paralizzano ora l'economia, la strangolano sul nascere. Ho tentato di persuaderli, ma invano. Temo che tu debba intervenire...»\n\nCondivido l'irritazione di [Select_CString(steward.IsFemale,'lei','lui')] per la notizia. Perché tanto deve dipendere da questi avidi capigilda? Bisognerà pur fare qualcosa."
@@ -130,7 +130,7 @@
   agot_filler_colonization.1007.c.failure.toast:0 "Le corporazioni fanno pressione sulla colonia"
   agot_filler_colonization.1007.c.critical_failure.toast:0 "Fallimento della colonia"
 
-  agot_filler_colonization.1008.t:0 "[colony_province.GetName]: Pestilenza"
+agot_filler_colonization.1008.t: 0 "[colony_province.GetNameNoTooltip]: Peste"
   agot_filler_colonization.1008.desc:0 "Le ultime notizie dalla mia colonia a [colony_province.GetName] sono davvero agghiaccianti. I coloni sono stati colpiti da una pestilenza devastante che ha travolto quasi ogni focolare. Riesco a malapena a leggere i resoconti, tanto sono crudi nei dettagli.\n\nLa malattia inizia con febbre e una sete inestinguibile — alcuni villaggi sono letteralmente scoppiati nel tentativo di placare il loro disperato bisogno. Seguono poi i bubboni — grandi gonfiori neri a ogni giuntura che espellono un pus giallastro e nauseabondo, rendendo la vittima del tutto immobile. Nella fase finale questi si ritirano, ma gli afflitti soffrono di un'eruzione infernale sul volto, così dolorosa che alcuni si sono strappati gli occhi o lacerati orecchie e naso nel vano tentativo di trovare sollievo. La morte sopraggiunge per la maggior parte poco dopo, spesso con un ultimo tormento di spasmi che spezzano la schiena.\n\nSe la colonia deve essere salvata, occorre agire senza indugio!"
   agot_filler_colonization.1008.a:0 "Mettete la colonia in quarantena — nessuno deve uscire! Non rischierò che si diffonda."
   agot_filler_colonization.1008.a.success.toast:0 "Colonia salvata"
@@ -142,7 +142,7 @@
   colony_disease_recovery_county_modifier:0 "Epidemia"
   colony_disease_recovery_county_modifier_desc:0 "La popolazione di questa contea si sta riprendendo da una recente epidemia."
 
-  agot_filler_colonization.1009.t:0 "[colony_province.GetName]: Prospezione"
+agot_filler_colonization.1009.t: 0 "[colony_province.GetNameNoTooltip]: Prospezione"
   agot_filler_colonization.1009.desc.1.steward:0 "Il mio amministratore,"
   agot_filler_colonization.1009.desc.1.advisor:0 "Il mio consigliere,"
   agot_filler_colonization.1009.desc.2:0 "[steward.GetFirstName] mi si avvicina nelle mie sale con un largo sorriso sul volto. Forse, per una volta, ha qualcosa di buono da riferire...\n\n«[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], ho ricevuto buone notizie dai nostri coloni in [colony_province.GetName]! Mentre esploravano le alture di [mineral_province.GetName] alla ricerca di banditi, uno di loro ha scoperto una ricca vena di minerali preziosi in un affioramento roccioso. I coloni ora ribollono d'entusiasmo, sognando future ricchezze, e ti supplicano di organizzare un rilievo del territorio.»\n\nSebbene ciò richieda un investimento iniziale, se hanno davvero trovato un giacimento significativo, potrebbe garantire ricchezze per molti anni a venire..."
@@ -156,33 +156,32 @@
   agot_filler_colonization.1009.a.failure.toast:0 "Nessun giacimento trovato"
   agot_filler_colonization.1009.b:0 "Mi sembra uno spreco d'oro..."
 
-  agot_filler_colonization.1010.t:0 "[colony_province.GetName]: Minaccia lupina"
+agot_filler_colonization.1010.t: 0 "[colony_province.GetNameNoTooltip]: Minaccia Lupina"
   agot_filler_colonization.1010.desc:0 "Con l'afflusso di coloni in [colony_province.GetName] giunge anche l'arrivo delle loro mandrie al pascolo — soprattutto pecore, ma non solo. Tuttavia, questa migrazione di greggi allo stato brado pare aver attirato anche altri nuovi arrivati...\n\nCon l'abbondanza di nuove prede relativamente incustodite, i lupi hanno iniziato a comparire in numero sempre maggiore nella provincia.\n\nSebbene non abbiano ancora fatto del male ai coloni, continuiamo a ricevere lamentele per la perdita degli animali e, con essi, del sostentamento economico e di una preziosa fonte di cibo.\n\nDovrò affrontare presto la questione, o rischiare che la mia nuova colonia vacilli."
   agot_filler_colonization.1010.a:0 "Maledetti lupi!"
 
-  agot_filler_colonization.1011.t:0 "[colony_province.GetName]: Terra di briganti"
-  agot_filler_colonization.1011.desc:0 "Nelle aspre terre di frontiera di [colony_province.GetName], l'autorità del mio dominio è, nel migliore dei casi, debole. Le nostre infrastrutture sono minime e dedicate soprattutto a mantenere a galla la colonia. Di conseguenza, individui di dubbia reputazione spesso vi trovano rifugio sotto falso nome, sfuggendo alla giustizia e alle conseguenze delle loro precedenti malefatte.\n\nQuesti sedicenti \"uomini liberi\", che vivono selvaggi e senza catene, rispondendo a nessuno, possono sembrare romantici e persino attraenti, ma è perlopiù un miraggio che cela azioni infami e crudeltà.\n\nLa frontiera diviene fin troppo spesso un rifugio di briganti e banditi, e così è accaduto anche qui."
+agot_filler_colonization.1011.t: 0 "[colony_province.GetNameNoTooltip]: Terra di Banditi"
+  agot_filler_colonization.1011.desc:0 "Nelle aspre terre di frontiera di [colony_province.GetName], l'autorità del mio dominio è, nel migliore dei casi, debole. Le nostre infrastrutture sono minime e dedicate soprattutto a mantenere a galla la colonia. Di conseguenza, individui di dubbia reputazione spesso vi trovano rifugio sotto falso nome, sfuggendo alla giustizia e alle conseguenze delle loro precedenti malefatte.\n\nQuesti sedicenti "uomini liberi", che vivono selvaggi e senza catene, rispondendo a nessuno, possono sembrare romantici e persino attraenti, ma è perlopiù un miraggio che cela azioni infami e crudeltà.\n\nLa frontiera diviene fin troppo spesso un rifugio di briganti e banditi, e così è accaduto anche qui."
   agot_filler_colonization.1011.a:0 "Maledetti briganti buoni a nulla!"
 
-  agot_filler_colonization.1012.t:0 "[colony_province.GetName]: Una richiesta di autonomia"
+agot_filler_colonization.1012.t: 0 "[colony_province.GetNameNoTooltip]: Una Supplica d'Autonomia"
   agot_filler_colonization.1012.desc:0 "È passato del tempo da quando l'insediamento di [colony_province.GetName] è stato fondato. I primi resoconti dalla colonia sono stati positivi e i lavori sono proceduti senza intoppi.\n\nIl rapporto successivo mi viene consegnato da [colonist.GetFirstName], scelto come rappresentante dei coloni. «[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip], io e i miei compagni coloni veniamo al tuo cospetto con una richiesta di autonomia», afferma [Select_CString(colonist.IsFemale,'lei','lui')] — con mia grande sorpresa. «Abbiamo lavorato duramente e raggiunto i nostri obiettivi con largo anticipo. Una tale diligenza merita una ricompensa, non credi?»\n\nÈ una richiesta audace, quella di chiedere una quasi-indipendenza per la colonia che ho finanziato. D'altro canto, concederla potrebbe portare benefici reciproci..."
-  agot_filler_colonization.1012.tt:0 "La colonia in [colony_province.GetName] è stata completata"
+agot_filler_colonization.1012.tt: 0 "La colonia in [colony_province.GetNameNoTooltip] è stata completata"
   agot_filler_colonization.1012.a:0 "Sì. Pagate il vostro tributo a me, e potrete governarvi da soli."
-  agot_filler_colonization.1012.a.tt:0 "[colonist.GetName] diventa tuo [tributary|E]"
   agot_filler_colonization.1012.b:0 "Come miei vassalli, vi garantirei giusto trattamento e protezione."
-  agot_filler_colonization.1012.b.tt:0 "Tenti di persuadere [colonist.GetName] a restare tuo vassallo"
-  agot_filler_colonization.1012.b.success:0 "Successo - [colonist.GetFirstName] giura fedeltà"
+agot_filler_colonization.1012.b.tt: 0 "Cerchi di persuadere [colonist.GetFirstNameNoTooltip] a rimanere tuo vassallo"
+agot_filler_colonization.1012.b.success: 0 "Successo - [colonist.GetFirstNameNoTooltip] ha giurato fedeltà"
   agot_filler_colonization.1012.b.failure:0 "Fallimento - I coloni rifiutano la tua autorità"
-  agot_filler_colonization.1012.c:0 "Il governo di [colony_province.GetName] è mio, e di nessun altro!"
-  agot_filler_colonization.1012.c.success:0 "Arresti [colonist.GetFirstName] e pacifichi [colony_province.GetName]"
-  agot_filler_colonization.1012.c.failure:0 "[colonist.GetFirstName] sfugge alla tua presa"
+agot_filler_colonization.1012.c: 0 "Il dominio di [colony_province.GetNameNoTooltip] è mio, e di nessun altro!"
+agot_filler_colonization.1012.c.success: 0 "Arresti [colonist.GetFirstNameNoTooltip] e pacifichi [colony_province.GetNameNoTooltip]"
+agot_filler_colonization.1012.c.failure: 0 "[colonist.GetFirstNameNoTooltip] sfugge alla tua presa"
 
-  agot_filler_colonization.1013.t:0 "[colony_province.GetName]: Progressi straordinari"
+agot_filler_colonization.1013.t: 0 "[colony_province.GetNameNoTooltip]: Progressi Sorprendenti"
   agot_filler_colonization.1013.desc:0 "Sono giunti gli ultimi rapporti sui progressi dall'insediamento di [colony_province.GetName]. Mentre inizio a esaminarli, diviene chiaro che i lavoratori hanno compiuto progressi straordinari e, di fatto, hanno completato la colonia con largo anticipo!\n\nCiò significa che il possedimento in [colony_province.GetName] è stato ultimato grazie a una combinazione di fortuna e della mancanza d'interruzioni da parte della natura selvaggia circostante.\n\nUn gran giorno, davvero, per [ROOT.Char.GetPrimaryTitle.GetName]!"
   agot_filler_colonization.1013.a:0 "Questa è un'ottima notizia!"
   agot_filler_colonization.1013.a.tt:0 "La colonia in [colony_province.GetName] è completata"
 
-  agot_filler_colonization.1014.t:0 "[colony_province.GetName]: Ascesa degli eretici"
+agot_filler_colonization.1014.t: 0 "[colony_province.GetNameNoTooltip]: Ascesa degli Eretici"
   agot_filler_colonization.1014.desc:0 "Una lettera sigillata mi giunge dall'insediamento di [colony_province.GetName]. È stata inviata da [heretic_colonist.GetFirstName], uno dei leader locali. A quanto pare, la colonia è stata completata più rapidamente del previsto, ma i lavoratori hanno iniziato a seguire la fede di [heretical_faith.GetName]!\n\nSebbene dovrei compiacermi per i progressi inattesi dell'insediamento, questa deviazione nella fede è una questione che non posso ignorare. Questa eresia deve essere tollerata, o devo stroncarla il prima possibile?"
   agot_filler_colonization.1014.tt:0 "La colonia in [colony_province.GetName] è stata completata"
   agot_filler_colonization.1014.a:0 "Hanno lavorato bene. Permetterò la loro eresia."

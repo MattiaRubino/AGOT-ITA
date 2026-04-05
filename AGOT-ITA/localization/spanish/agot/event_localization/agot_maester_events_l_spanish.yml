@@ -11,7 +11,7 @@
   decision_employ_maester_tooltip:0 "Manderai a chiamare un [maester|E]"
 decision_employ_maester_desc: "Rinomata in tutto il mondo conosciuto come centro del sapere westerosi, la Cittadella di [GetTitleByKey('c_oldtown').GetNameNoTier] fornisce a ogni rocca di Westeros un uomo istruito. Forse dovrei mandare a chiamarne uno."
   decision_employ_maester_effect:0 "Un maestro capace sarà scelto per servirti e giungerà presto alla tua corte."
-  decision_employ_maester_confirm:0 "Manda un corvo a Vecchia Città."
+decision_employ_maester_confirm: 0 "Invia un corvo a Oldtown"
   tooltip_employ_maester:0 "Non devi avere maestri capaci già presenti alla tua corte."
   tooltip_recently_employed_maester:0 "Non devi aver cercato di assumere un maestro di recente."
 
@@ -19,9 +19,10 @@ decision_employ_maester_desc: "Rinomata in tutto il mondo conosciuto come centro
   essos_decision_employ_maester_tooltip:0 "Inizierai la ricerca di un [maester|E]"
   essos_decision_employ_maester_desc:0 "Chi ha detto che solo i lord di Westeros possono avere un maestro? Devo iniziare la ricerca, e con un po' di fortuna, troverò qualcuno con la giusta competenza."
   essos_decision_employ_maester_effect:0 "Avrà inizio la ricerca di un maestro."
-  essos_decision_employ_maester_confirm:0 "Inizia la ricerca."
+essos_decision_employ_maester_confirm: 0 "Inizia la ricerca"
 
   agot_maester.0001.t:0 "Il Nuovo Maestro di [capital.GetNameNoTooltip]"
+agot_maester.0001.t_alt: 0 "Un Nuovo Maestro"
   agot_maester.0001.desc:0 "Il maestro che ho inviato dalla Cittadella è arrivato a [capital.GetNameNoTooltip], un [new_maester.GetCulture.GetName] di nome [new_maester.GetFirstName]. Speriamo che [new_maester.GetSheHe] sia leale e saggio."
   agot_maester.0001.a:0 "Bene."
   agot_maester.0001.a.tt:0 "Il maestro servirà sia come consigliere che come medico di corte."

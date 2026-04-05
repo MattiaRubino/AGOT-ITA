@@ -51,12 +51,12 @@ agot_become_legitimate_house_decision_north_tooltip: 0 "Se Casa [ROOT.Char.GetHo
   agot_become_legitimate_house_decision_dorne_confirm:0 "Le Sabbie Sono Nostre!"
  # Crownlands
   agot_become_legitimate_house_decision_crownlands:0 "Diventa la Casata Legittima delle Terre della Corona"
-  agot_become_legitimate_house_decision_desc_crownlands:0 "Dopo aver governato le Terre della Corona per generazioni, Casa [GetTitleByKey('k_the_crownlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più vista come la sovrana. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il potere legittimo, dagli argini del Nero Fiume ai boschi del Re, queste terre ci appartengono!"
+agot_become_legitimate_house_decision_desc_crownlands: 0 "Dopo aver detenuto per generazioni le terre delle Terre della Corona sotto la tua casata, Casa [GetTitleByKey('e_the_crownlands').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più considerata il vero sovrano delle Terre della Corona. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è il vero sovrano di queste terre agli occhi dei lord e del popolino; dalle Acque Nere al Bosco del Re, le Terre della Corona sono nostre per sempre!"
   agot_become_legitimate_house_decision_crownlands_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo delle Terre della Corona abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] delle Terre della Corona."
   agot_become_legitimate_house_decision_crownlands_confirm:0 "Il Nostro Sangue Dominerà il Nero Fiume!"
  # Iron Throne
   agot_become_legitimate_house_decision_iron_throne:0 "Diventa la Casata Legittima del Trono di Spade"
-agot_become_legitimate_house_decision_desc_iron_throne: 0 "Dopo aver mantenuto il Trono di Spade sotto la tua casata per generazioni, Casa [GetTitleByKey('e_the_iron_throne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più considerata il vero sovrano del Trono di Spade. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero padrone di queste terre agli occhi dei lord e del popolino; Westeros stessa è nostra per sempre!"
+agot_become_legitimate_house_decision_desc_iron_throne: 0 "Dopo aver detenuto per generazioni il Trono di Spade sotto la tua casata, Casa [GetTitleByKey('h_the_iron_throne').MakeScope.Var('legitimate_house').House.GetNameNoTooltip] non è più considerata il vero sovrano del Trono di Spade. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] è ora il vero sovrano di queste terre agli occhi dei lord e del popolino; Westeros stessa è nostra per sempre!"
   agot_become_legitimate_house_decision_iron_throne_tooltip:0 "Se Casa [ROOT.Char.GetHouse.GetNameNoTooltip] manterrà il titolo del Trono di Spade abbastanza a lungo, potremo divenire la [agot_legitimate_house|E] del Trono di Spade."
   agot_become_legitimate_house_decision_iron_throne_confirm:0 "Westeros È Nostro!"
  # Dragonstone

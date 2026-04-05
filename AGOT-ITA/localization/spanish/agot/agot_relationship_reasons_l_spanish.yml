@@ -18,9 +18,14 @@
 friend_business_associate: "[TARGET_CHARACTER.GetShortUIName|U] è un fidato 'socio d'affari' di [CHARACTER.GetShortUIName]."
 friend_business_associate_corresponding: "[CHARACTER.GetShortUIName] è un fidato 'socio d'affari' di [TARGET_CHARACTER.GetShortUIName]."
 
+friend_fought_for_me_in_a_trial_of_seven: 0 "[TARGET_CHARACTER.GetShortUIName|U] si è schierat[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
+friend_fought_for_me_in_a_trial_of_seven_corresponding: 0 "[CHARACTER.GetShortUIName|U] si è schierat[Select_CString(CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [TARGET_CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
+
  #Lover reasons
   lover_widowed_brothel:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
   lover_widowed_brothel_corresponding:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
+lover_muse: 0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
+lover_muse_corresponding: 0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
 
  #Grudge Reasons
   grudge_maidenvault_desc:0 "[CHARACTER.GetShortUIName|U] ha nutrito rancore verso [TARGET_CHARACTER.GetShortUIName] dopo aver trascorso molti anni rinchiuso nella Rocca delle Fanciulle."
@@ -46,4 +51,5 @@ rival_forced_marriage_corresponding: "[TARGET_CHARACTER.GetShortUINameNoTooltipN
   rival_twin_given_egg:0 "A [TARGET_CHARACTER.GetShortUIName|U] è stato dato un uovo alla nascita, mentre a [CHARACTER.GetShortUIName|U] no."
   rival_has_my_legitimate_house_title:0 "[TARGET_CHARACTER.GetShortUIName|U] si è infuriato perché [CHARACTER.GetShortUIName] ha ottenuto un titolo di cui sono il legittimo [agot_legitimate_house|E]."
   rival_has_my_legitimate_house_title_corresponding:0 "[CHARACTER.GetShortUIName|U] si è infuriato perché [TARGET_CHARACTER.GetShortUIName] ha ottenuto un titolo di cui sono il legittimo [agot_legitimate_house|E]._]()
-
+rival_raid_pirate_ship: 0 "[TARGET_CHARACTER.GetShortUIName|U] ha razziato la nave pirata di [CHARACTER.GetShortUINamePossessive]."
+rival_raid_pirate_ship_corresponding: 0 "La nave pirata di [CHARACTER.GetShortUINamePossessive|U] è stata razziata da [TARGET_CHARACTER.GetShortUIName]."

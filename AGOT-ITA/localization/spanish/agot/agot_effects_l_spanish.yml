@@ -86,3 +86,15 @@
   agot_add_new_house_progress_positive_effect:0 "[CURRENT_HOUSE.GetName] guadagna progressi verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName]"
   agot_add_new_house_progress_negative_effect:0 "[CURRENT_HOUSE.GetName] perde progressi verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName]"
   agot_add_new_house_progress_zero_effect:0 "I progressi di [CURRENT_HOUSE.GetName] verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName] restano invariati"
+
+I_BECAME_A_PRINCELING: 0 "Sono diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTierNoTooltip|V]"
+THEY_BECAME_A_PRINCELING: 0 "[AGOTGetName(CHARACTER)] è diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
+BECAME_A_PRINCELING: 0 "Diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
+I_BECOME_A_PRINCELING: 0 "Divento un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTierNoTooltip|V]"
+THEY_BECOME_A_PRINCELING: 0 "[AGOTGetName(CHARACTER)] diventa un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
+BECOMES_A_PRINCELING: 0 "Diventa un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
+
+ # Desert the Night's Watch Perk for First Ranger
+UNLOCKS_DESERT_NW_DECISIONS: 0 "Sblocca la [decision|E] [agot_desert_nw|E]"
+I_CAN_USE_DESERT_NW_DECISIONS: 1 "Puoi prendere la [decision|E] [agot_desert_nw|E]"
+THEY_CAN_USE_DESERT_NW_DECISIONS: 0 "[CHARACTER.GetShortUIName|U] può prendere la [decision|E] [agot_desert_nw|E]"

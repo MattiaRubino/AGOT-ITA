@@ -225,7 +225,7 @@
   agot_dragon_combat.1001.desc.my_injury.light:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo solo leggermente feriti, "
   agot_dragon_combat.1001.desc.my_injury.heavy:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo feriti, con sangue che gocciola a terra, "
   agot_dragon_combat.1001.desc.my_injury.severe:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo in gravi condizioni, con sangue che sgorga a fiumi, "
-  agot_dragon_combat.1001.desc.my_injury.mortal:0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo a un passo dalla morte, le nostre numerose ferite ci stanno facendo quasi cadere dal cielo, "
+agot_dragon_combat.1001.desc.my_injury.mortal: 0 "\n\n[my_dragon.GetNameNoTooltip] e io siamo a un soffio dalla morte, e le nostre molte ferite quasi ci fanno precipitare dal cielo, "
 
   agot_dragon_combat.1001.desc.foe_injury.none:0 "mentre [my_foe_dragon.GetNameNoTooltip] e [my_foe.GetTitledFirstNameNoTooltip] sembrano in ottima forma."
   agot_dragon_combat.1001.desc.foe_injury.light:0 "mentre [my_foe_dragon.GetNameNoTooltip] e [my_foe.GetTitledFirstNameNoTooltip] mostrano solo ferite superficiali."
@@ -325,7 +325,7 @@ agot_dragon_combat.1010.a.knight: 0 "[dragonrider_in_battle.Custom('IT_NAM_COL3'
 
 agot_dragon_combat.1010.desc.lord: 0 "Un grido si leva dalle mura di [home_location.GetNameNoTooltip]: [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstName] piomba sulle mie terre, l’ombra di [enemy_dragon_in_battle.GetTitledFirstNamePossessive] che si distende lunga e nera su focolari e sale. La mia gente si disperde in preda al terrore, sapendo che né lancia né freccia possono schermarla dall’ira delle fiamme di drago.\n\nSolo io posso levarmi a incontrare [Select_CString(enemy_dragonrider.IsFemale,'lei','lui')]. Se spicco il volo, il cielo sopra [home_location.GetNameNoTooltip] ruggirà di fuoco, e soltanto uno di noi vivrà per rivederlo."
 agot_dragon_combat.1010.a.lord: 0 "Difenderò la mia casa — nei cieli!"
-agot_dragon_combat.1010.b.lord: 0 "No… meglio che brucino le mura, che io."
+agot_dragon_combat.1010.b.lord: 0 "No... meglio che brucino le mura piuttosto che io."
 
 agot_dragon_combat.1010.desc.courtier: 0 "Il panico serpeggia nelle sale quando l’ombra di [enemy_dragonrider.Custom('IT_NAM_COL3')][enemy_dragonrider.GetTitledFirstName] cala su di noi. Il drago [Select_CString(enemy_dragonrider.IsFemale,'di lei','di lui')], [enemy_dragon_in_battle.GetTitledFirstName], volteggia sopra [home_location.GetNameNoTooltip], il fuoco che lambisce i tetti, le urla che echeggiano nei cortili. Nessun cavaliere, nessun esercito, nessuna muraglia può reggere contro un simile nemico.\n\nEppure non ogni speranza è perduta. Uno fra i miei cortigiani, [dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstName], comanda un drago tutto [Select_CString(dragonrider_in_battle.IsFemale,'suo','suo')]. Se [Select_CString(dragonrider_in_battle.IsFemale,'lei','lui')] si leverà, il cielo sarà lacerato da tuono e fiamma, e soltanto uno di loro sopravvivrà allo scontro."
 agot_dragon_combat.1010.a.courtier: 0 "Convoca [dragonrider_in_battle.Custom('IT_NAM_COL3')][dragonrider_in_battle.GetTitledFirstNameNoTooltip] — che affronti questo fuoco col fuoco."

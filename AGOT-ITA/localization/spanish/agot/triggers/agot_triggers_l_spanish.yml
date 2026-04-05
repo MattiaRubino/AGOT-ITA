@@ -11,16 +11,20 @@
   ANY_HAS_BUILDING_TRIGGER:0 "Ha un $BUILDING|V$ [building|E]"
   agot_can_create_duchy:0 "Il titolo ha un livello uguale o superiore al titolo primario del tuo [liege|E] pre-guerra"
   NOT_PRIMARY_TITLE_KINGDOM_TRIGGER:0 "Il tuo [primary_title|E] non può essere un [kingdom|E]"
+NOT_AT_LEAST_TWO_KINGDOM_TITLES_TRIGGER: "Devi possedere almeno due titoli di [kingdom|E]"
   agot_title_create_via_decision:0 "Questo titolo può essere creato solo tramite [decision|E]"
   agot_cannot_create:0 "Questo titolo non può essere creato"
   agot_can_create_lp:0 "Non puoi creare questo titolo mentre tu o il tuo [liege|E] state partecipando a una Mega Guerra"
   agot_cannot_create_equivalent:0 "Non puoi creare un titolo di Regno se esiste già il titolo equivalente di Impero"
   any_liege_or_above_trigger:0 "Qualsiasi Signore o superiore:"
+control_morne: 0 "Tu o un tuo vassallo dovete detenere [GetTitleByKey('b_morne').GetName]"
+agot_can_create_moat_cailin: 0 "Il Bastione dell'Incollatura dev'essere restaurato per poter creare questo titolo."
+
 
  #Dragons
-  IS_CURRENT_DRAGONRIDER_TRIGGER_FIRST:0 "Sei un [GetTrait('dragonrider').GetName(GetNullCharacter)] con un [dragon|El] vivente"
-  IS_CURRENT_DRAGONRIDER_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] è un [GetTrait('dragonrider').GetName(GetNullCharacter)] con un [dragon|El] vivente"
-  IS_CURRENT_DRAGONRIDER_TRIGGER:0 "È un [GetTrait('dragonrider').GetName(GetNullCharacter)] con un [dragon|El] vivente"
+IS_CURRENT_DRAGONRIDER_TRIGGER_FIRST: 0 "Sei un [GetTrait('dragonrider').GetName(GetNullCharacter)] con accesso a un [dragon|El] vivente"
+IS_CURRENT_DRAGONRIDER_TRIGGER_THIRD: 0 "[CHARACTER.GetShortUIName|U] è un [GetTrait('dragonrider').GetName(GetNullCharacter)] con accesso a un [dragon|El] vivente"
+IS_CURRENT_DRAGONRIDER_TRIGGER: 0 "È un [GetTrait('dragonrider').GetName(GetNullCharacter)] con accesso a un [dragon|El] vivente"
   NOT_IS_REJECTING_TERROR_CAMPAIGN_FIRST:0 "Sto rifiutando di condurre una campagna di terrore"
   NOT_IS_REJECTING_TERROR_CAMPAIGN_THIRD:0 "[CHARACTER.GetShortUIName|U] ha rifiutato di condurre una campagna di terrore"
   HAS_DRAGON_RELATION:0 "Ha un legame con un [dragon|El]"

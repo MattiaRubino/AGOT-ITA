@@ -54,6 +54,19 @@
   AGOT_COUNCIL_TITLE_CUSLOC:0 "[GetPlayer.Custom('AGOTCouncilWindowTitle')]"
   NW_COUNCILWINDOW_TITLE:0 "Ufficiali"
 
+# Desert the Night's Watch Decision for First Ranger
+game_concept_agot_desert_nw: 0 "Disertare i Guardiani della Notte"
+game_concept_agot_desert_nw_desc: 0 "Una [decision|E] che permette al $first_ranger_landless_male$ di disertare l'[nw_govt|E] e diventare un [adventurer|E]."
+first_ranger_has_to_be_beyond_the_wall: 0 "Il tuo [agot_ranger_camp|E] deve trovarsi oltre la Bariera"
+ # Desert the Night's Watch Perk for First Ranger
+ desert_the_nw:0 "$game_concept_agot_desert_nw$"
+desert_the_nw_desc: 0 "La Bariera ha preso molto e dato poco. Disertare i Guardiani della Notte significa rinunciare ai miei voti, ai miei fratelli e alla sicurezza del dovere, ma oltre la Bariera si trova la libertà, se oso reclamarla."
+desert_the_nw_tooltip: 0 "Diserterai i [nw_govt|E]"
+desert_the_nw_confirm: 0 "Diserta i Guardiani della Notte"
+twice_schemed_perk_ranger_name: 0 "Voltagabbana"
+
+agot_wall_reclamation_post_nw_cb: 0 "Riconquista dei Guardiani della Notte"
+
  #Government
   game_concept_nwfr_govt:0 "Ranger"
   game_concept_nwfr_govt_desc:0 "Sotto la [government_form|E] del $game_concept_nwfr_govt$, il $first_ranger_landless_male$ può avventurarsi oltre la Barriera con un piccolo gruppo di Ranger. Solo i confratelli giurati dei [GetGovernment( 'nights_watch_government' ).GetName] possono diventare Ranger, e solo il $first_ranger_landless_male$ può guidare un [agot_ranger_camp|E]."
@@ -221,7 +234,8 @@
   agot_nw_ranger_events.0001.desc:0 "I fuochi ardono fiacchi nella sala, proiettando lunghe ombre su Castel Nero. La notizia è appena giunta: il Primo Ranger [dead_first_ranger.GetFirstName], un uomo di cui mi fidavo per guidare oltre la Barriera, è morto. La sua perdita pesa, ma i Guardiani della Notte non possono vacillare.\n\nI venti gelidi del Nord non attendono il lutto. Un altro deve sorgere al suo posto, qualcuno forte, capace e pronto ad affrontare i pericoli oltre i nostri muri."
   agot_nw_ranger_events.0001.desc.fr_to_lc:0 "I fuochi ardono fiacchi nella sala, proiettando lunghe ombre su Castel Nero. La notizia è appena giunta: il Lord Comandante [dead_first_ranger.GetFirstName] è morto.\n\nI confratelli hanno parlato, e ora devo assumere io stesso il mantello del Lord Comandante.\n\nI venti gelidi del Nord non attendono né lutto né dubbio. Qualcuno deve prendere il mio posto come Primo Ranger, un uomo che possa sostenere il peso della vigilanza oltre la Barriera, come un tempo feci io."
   agot_nw_ranger_events.0001.desc.incapable:0 "La notizia è giunta: il Primo Ranger [dead_first_ranger.GetFirstName], un uomo che ha servito con onore e coraggio, non può più compiere il proprio dovere. I pericoli oltre la Barriera e il passare del tempo lo hanno infine raggiunto.\n\nLa Confraternita non può restare senza un Primo Ranger.\n\nI venti gelidi del Nord non danno tregua, e ora spetta a me nominare il suo successore, qualcuno capace di guidare uomini oltre la Barriera, proprio come fece [dead_first_ranger.GetFirstNameNoTooltip]."
-  agot_nw_ranger_events.0001.desc.fr_deserted:0 "Il Primo Ranger [deserted_first_ranger.GetFirstName], un uomo in cui un tempo riponevo fiducia, ha disertato. Il suo tradimento grava pesantemente sulla Confraternita, lasciando un vuoto che va colmato in fretta.\n\nIl Nord non attende, e i pericoli oltre la Barriera crescono ogni giorno. Non possiamo permetterci esitazioni tra le nostre fila.\n\nOra devo nominare un nuovo Primo Ranger, qualcuno capace, forte e pronto ad affrontare ciò che ci attende. La Confraternita dipende da questo, e non vacilleremo."
+agot_nw_ranger_events.0001.desc.fr_deserted: 0 "Il Primo Ranger [dead_first_ranger.GetFirstName], uomo di cui un tempo mi fidavo, ha disertato. Il suo tradimento grava pesantemente sui Guardiani, lasciando un vuoto che dev'essere colmato in fretta.\n\nIl Nord non attenderà, e i pericoli oltre la Bariera crescono con ogni giorno che passa. Non possiamo permetterci esitazioni tra i nostri ranghi.\n\nOra devo nominare un nuovo Primo Ranger — qualcuno di capace, forte e pronto ad affrontare ciò che ci attende oltre. I Guardiani ne dipendono, e noi non vacilleremo."
+agot_nw_ranger_events.0001.desc.fr_to_lc_reclaim: 0 "La Bariera è di nuovo nelle nostre mani. Ciò che era andato perduto è stato reclamato, non soltanto con i voti, ma con sangue, risolutezza e sacrificio. Io ero tra coloro che hanno riportato i Guardiani fuori dalla rovina, e ora i fratelli mi hanno nominato Lord Comandante.\n\nEppure la restaurazione non si conclude con un titolo. I Guardiani della Notte devono essere ricostruiti come erano destinati a essere, con un comando saldo e uomini fidati ai loro posti.\n\nNon posso più esplorare come un tempo. Bisogna scegliere un nuovo Primo Ranger, qualcuno che guidi oltre la Bariera e faccia sì che questo ritorno conquistato a caro prezzo non venga sperperato."
   agot_nw_ranger_events.0001.a:0 "Un nuovo ranger deve sorgere."
   agot_nw_ranger_events.0001.a.tt:0 "[fr_candidate.GetTitledFirstName] diventa il tuo Primo Ranger"
 
@@ -332,8 +346,16 @@
   agot_nw_ranger_events.0019.desc.republic:0 "La Barriera è ancora in piedi, ma la Confraternita che conoscevo è scomparsa. I giuramenti, le tradizioni, lo scopo che dovevamo difendere — tutto è stato abbandonato. Ora comanda un nuovo ordine, che non segue più le vecchie vie. I Guardiani della Notte sono diventati altro, qualcosa che non riconosco più.\n\nNon sono più Primo Ranger, non in alcun modo che conti. Il mio posto qui è perduto, e davanti a me vi è una scelta."
   agot_nw_ranger_events.0019.a:0 "E così, la mia veglia è finita..."
   agot_nw_ranger_events.0019.a.tt:0 "...ma un nuovo viaggio ha inizio."
+agot_nw_ranger_events.0019.c: 0 "Non finirà così."
+agot_nw_ranger_events.0019.c.tt: 0 "Dedicherai gli anni che ti restano a restaurare i Guardiani della Notte."
   agot_nw_ranger_events.0019.b:0 "Non è rimasto più nulla per me."
-  agot_nw_ranger_events.0019.b.tt:0 "Fine del Gioco."
+agot_nw_ranger_events.0019.b.tt: 0 "Fine della partita."
+
+ #New First Ranger's House member informed
+agot_nw_ranger_events.0020.t: 0 "Un Nome Portato a Nord"
+agot_nw_ranger_events.0020.desc: 0 "Mi occorre un momento per afferrare il peso di ciò che mi viene detto. Mi[Select_CString(first_ranger.IsFemale,'a','o')] [SCOPE.sC('family_member').Custom2('RelationToMeShort', SCOPE.sC('first_ranger'))], [first_ranger.Custom('IT_NAM_COL3')][first_ranger.GetTitledFirstName], è stat[Select_CString(first_ranger.IsFemale,'a','o')] nominat[Select_CString(first_ranger.IsFemale,'a','o')] Primo Ranger, incaricat[Select_CString(first_ranger.IsFemale,'a','o')] della dura strada oltre la Bariera e delle vite di coloro che la percorrono. È una chiamata di gelo e ombra, di notti lunghe e ricordi ancor più lunghi.\n\nL'orgoglio si desta in me, benché cammini accanto alla preoccupazione, poiché nessun onore a nord della Bariera viene mai pagato senza un prezzo."
+agot_nw_ranger_events.0020.a: 0 "Il Lord Comandante ha scelto bene."
+agot_nw_ranger_events.0020.b: 0 "Mi domando come sarebbe stare al suo posto."
 
  ### First Ranger Council Events
 
@@ -544,6 +566,69 @@
   agot_nw_ranger_events.0028.desc.fail_e:0 "\n\nSebbene [my_ranger.GetTitledFirstNameNoTooltip] tentasse di fermar[main_figure.Custom('DE_PRO_POS_P_3P')], il Bruto ebbe la meglio e fuggì con del bottino, lasciando il campo scosso."
   agot_nw_ranger_events.0028.a.success:0 "Il campo è salvo, ancora una volta."
   agot_nw_ranger_events.0028.a.failure:0 "Dovremo riprenderci da questo colpo."
+
+ ######################
+ ### RECLAIM THE NW ###
+ ######################
+
+ #ex-FR: Reclaiming the NW
+agot_nw_ranger_events.0100.t: 0 "Quando i Guardiani Tacquero"
+agot_nw_ranger_events.0100.t.after: 0 "Ciò che Fu Lasciato Indietro"
+agot_nw_ranger_events.0100.desc: 0 "I Guardiani sono caduti nel silenzio. I Bruti hanno spezzato il nostro ordine, disperdendo i fratelli e facendo a pezzi quel poco di comando che restava. I mantelli neri sono scomparsi dalle torri, e i voti che un tempo ci legavano ormai vivono solo nel ricordo.\n\nQualunque rango io abbia un tempo ricoperto non ha più peso. Non sono più davvero il Primo Ranger, soltanto un uomo che ricorda ciò che i Guardiani avrebbero dovuto essere.\n\nSe i Guardiani della Notte devono esistere di nuovo, non sarà per mezzo di cerimonie o parole, ma di scelte dure e imprese ancor più dure."
+agot_nw_ranger_events.0100.desc.after: 0 "I Guardiani della Notte sono caduti ormai da tempo, e il Nord si è abituato alla loro assenza. Le loro terre restano senza padrone, il loro dovere senza risposta, e nessuna autorità chiara si è fatta avanti per colmare il vuoto.\n\nIl pericolo oltre la Bariera non è mutato, è mutata soltanto la volontà di affrontarlo. Se i Guardiani meritino d'essere restaurati è questione lasciata a coloro che siano abbastanza audaci o abbastanza folli da tentare.\n\nSe devono tornare, non sarà per tradizione, ma per decisione."
+agot_nw_ranger_events.0100.a: 0 "Forse il Nord risponderà ancora una volta ai Guardiani."
+agot_nw_ranger_events.0100.a.tt: 0 "Cercherai l'aiuto di [northern_lord.Custom('IT_NAM_COL2')][northern_lord.GetTitledFirstName], [Select_CString(northern_lord.IsFemale,'lady','lord')|U] di [northern_lord_title.GetNameNoTier], per restaurare i Guardiani della Notte."
+agot_nw_ranger_events.0100.b: 0 "Allora farò ciò che i Guardiani non hanno saputo fare."
+agot_nw_ranger_events.0100.c: 0 "Questo fardello non spetta a me."
+
+ #ex-FR: Arrived at Winterfell
+agot_nw_ranger_events.0101.t: 0 "Davanti [Select_CString(northern_lord.IsFemale,'alla lady','al lord')|U] di [northern_lord_title.GetNameNoTierNoTooltip]"
+agot_nw_ranger_events.0101.desc: 0 "[destination_1.GetNameNoTier] si leva dalla neve come qualcosa di eterno, immutato da ciò che ci è accaduto nell'estremo Nord. Vengo condotto nelle sue sale non come Primo Ranger, ma come un uomo in nero privo di un comando degno di tal nome.\n\nI Guardiani della Notte sono spezzati, i loro fratelli dispersi, il loro scopo lasciato ad appassire. Se devono essere restaurati, non accadrà soltanto con la forza delle armi. Il Nord è sempre stato il più fedele alleato dei Guardiani, e ora devo chiedere se quel legame regga ancora.\n\n[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] ascolta mentre parlo di ciò che è andato perduto e di ciò che potrebbe ancora essere ricostruito."
+agot_nw_ranger_events.0101.desc.after: 0 "[destination_1.GetNameNoTier] si leva dalla neve come qualcosa di eterno, immutato da ciò che ci è accaduto nell'estremo Nord.\n\nI Guardiani della Notte sono spezzati, i loro fratelli dispersi, il loro scopo lasciato ad appassire. Se devono essere restaurati, non accadrà soltanto con la forza delle armi. Il Nord è sempre stato il più fedele alleato dei Guardiani, e ora devo chiedere se quel legame regga ancora.\n\n[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] ascolta mentre parlo di ciò che è andato perduto e di ciò che potrebbe ancora essere ricostruito."
+agot_nw_ranger_events.0101.a: 0 "Porrò il destino dei Guardiani dinanzi a [Select_CString(northern_lord.IsFemale,'lei','lui')]."
+
+ #The North: Lord of the North decides
+agot_nw_ranger_events.0102.t: 0 "L'Antico Vincolo"
+agot_nw_ranger_events.0102.desc: 0 "Un uomo in nero viene condotto al mio cospetto, uno che un tempo ricopriva il rango di Primo Ranger. I Guardiani della Notte che lo inviarono non esistono più, spezzati dai Bruti e dispersi nell'estremo Nord. Ciò che ne rimane ora riposa sulla risolutezza di coloro che ancora ne ricordano il fine.\n\nMi chiede l'aiuto di [northern_lord_title.GetNameNoTierPossessive] per restaurare i Guardiani, non per il proprio onore, ma affinché l'antico dovere possa levarsi di nuovo. È una richiesta gravosa. I Guardiani hanno sempre giurato di restare separati, eppure il Nord è stato a lungo il loro scudo quando di uno scudo vi era bisogno.\n\nSe agiamo, vi sarà guerra. Se rifiutiamo, il fardello cadrà su altri — o non verrà raccolto affatto."
+agot_nw_ranger_events.0102.desc.after: 0 "Un uomo in nero viene condotto al mio cospetto. I Guardiani della Notte non esistono più, spezzati dai Bruti e dispersi nell'estremo Nord. Ciò che ne rimane ora riposa sulla risolutezza di coloro che ancora ne ricordano il fine.\n\nMi chiede l'aiuto di [northern_lord_title.GetNameNoTierPossessive] per restaurare i Guardiani, non per il proprio onore, ma affinché l'antico dovere possa levarsi di nuovo. È una richiesta gravosa. I Guardiani hanno sempre giurato di restare separati, eppure il Nord è stato a lungo il loro scudo quando di uno scudo vi era bisogno.\n\nSe agiamo, vi sarà guerra. Se rifiutiamo, il fardello cadrà su altri — o non verrà raccolto affatto."
+agot_nw_ranger_events.0102.a: 0 "[northern_lord_title.GetNameNoTierNoTooltip] non abbandonerà il proprio dovere."
+agot_nw_ranger_events.0102.a.tt: 0 "Presto prenderai le armi per contribuire a restaurare i Guardiani della Notte."
+agot_nw_ranger_events.0102.b: 0 "I Guardiani devono reggersi o cadere da soli."
+
+ #ex-FR prewar event
+agot_nw_ranger_events.0103.t.accepted: 0 "[northern_lord_title.GetNameNoTierNoTooltip] Risponde"
+agot_nw_ranger_events.0103.t.refused: 0 "[northern_lord_title.GetNameNoTierNoTooltip] Volta le Spalle"
+agot_nw_ranger_events.0103.desc.accepted: 0 "[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] dà la [Select_CString(northern_lord.IsFemale,'sua','suo')] risposta senza enfasi. [northern_lord_title.GetNameNoTier] sosterrà ciò che resta dei Guardiani della Notte, non per ricompensa o gloria, ma perché certi doveri non sono fatti per essere accantonati.\n\nGli uomini saranno chiamati, i vessilli innalzati e i preparativi compiuti. La via che ci attende riconduce a sangue e gelo, ma non la percorrerò da solo."
+agot_nw_ranger_events.0103.desc.refused: 0 "[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] mi ascolta, poi rifiuta. [northern_lord_title.GetNameNoTier] non sosterrà questa causa, non ora e non a un simile prezzo. I Guardiani della Notte dovranno trovare da soli la propria via, oppure svanire nel ricordo.\n\nLascio Grande Inverno senza vessilli alle spalle, con il solo peso della scelta che ancora mi sta dinanzi."
+agot_nw_ranger_events.0103.a: 0 "Allora i vessilli si leveranno."
+agot_nw_ranger_events.0103.a.alone: 0 "Allora marcerò da solo."
+agot_nw_ranger_events.0103.b: 0 "Non è questo il momento."
+agot_nw_ranger_events.0103.b.tt: 0 "Rimanderai la guerra e attenderai un'occasione migliore."
+
+ #ex-FR: War Lost
+agot_nw_ranger_events.0104.t: 0 "L'Ultima Guardia"
+agot_nw_ranger_events.0104.desc: 0 "La guerra è perduta. Gli uomini che mi hanno seguito sono morti o dispersi, e la causa che portavo è finita in catene.\n\nMe ne sto legato nell'accampamento di [wildling.Custom('IT_NAM_COL2')][wildling.GetTitledFirstName], che ha già deciso il mio destino. Non vi sarà salvezza, né ultimo patto. Queste sono le ultime ore che mi restano.\n\nSe i Guardiani della Notte devono mai levarsi di nuovo, non sarà per mia mano. Tutto ciò che resta è affrontare la fine come ho affrontato il gelo per tutta la vita."
+agot_nw_ranger_events.0104.a: 0 "La mia guardia è finita."
+
+ #wildling: Wildling executes the ex-fr
+agot_nw_ranger_events.0105.t: 0 "L'Ultimo Corvo"
+agot_nw_ranger_events.0105.desc: 0 "La battaglia è finita. [first_ranger.Custom('IT_NAM_COL3')][first_ranger.GetTitledFirstName], l'uomo dal mantello nero che guidava la carica, giace legato dinanzi a me, battuto e sfinito. Parla di voti e di dovere, di un ordine che un tempo ci si opponeva, ma qui quelle parole non hanno alcun potere.\n\nLa sua guerra è conclusa. Lasciarlo in vita non serve a nulla, e la misericordia non farebbe che invitare a un nuovo scontro. La questione è semplice.\n\nPoniamovi fine, ora."
+agot_nw_ranger_events.0105.a: 0 "Fatela finita."
+
+ #ex-FR: NW Restored and becomes the new LC
+agot_nw_ranger_events.0106.t: 0 "I Guardiani Riforgiati"
+agot_nw_ranger_events.0106.desc: 0 "La battaglia è finita. I Bruti sono stati respinti, e i Guardiani della Notte si ergono ancora una volta — ridotti, sfregiati, ma non spezzati. I mantelli neri tornano alle torri, e i voti vengono pronunciati di nuovo là dove erano quasi caduti nel silenzio.\n\nOra i fratelli guardano a me. Non mi ero messo in cammino per comandarli, eppure non vi è nessun altro che possa portare questo fardello. Per loro volontà, sono nominato Lord Comandante, incaricato di tenere unito ciò che era stato lacerato.\n\nI Guardiani sono restaurati, ma non sono più gli stessi di prima. Ciò che verrà non si vincerà con la sola forza."
+agot_nw_ranger_events.0106.a: 0 "I Guardiani resistono."
+
+ #Player notified about NW Restoration
+agot_nw_ranger_events.0107.t: 0 "I Guardiani Restaurati"
+agot_nw_ranger_events.0107.desc: 0 "La voce si diffonde dall'estremo Nord che i Guardiani della Notte si ergono ancora una volta. Dopo un'aspra lotta, i Bruti che avevano spezzato l'ordine sono stati ricacciati indietro, e i mantelli neri presidiano di nuovo i castelli lungo la Bariera.\n\n[the_new_lc.GetFirstName], un nuovo Lord Comandante, è stato scelto tra coloro che sono sopravvissuti alla caduta, e si dice che gli antichi voti vengano di nuovo pronunciati. Se i Guardiani resisteranno come un tempo, resta da vedersi, ma per ora il loro fuoco non si è spento."
+agot_nw_ranger_events.0107.a: 0 "Così la Bariera ha di nuovo i suoi guardiani."
+
+ #Player notified about the fall of the NW
+agot_nw_ranger_events.0108.t: 0 "La Caduta dei Guardiani della Notte"
+agot_nw_ranger_events.0108.desc: 0 "Inquietanti notizie giungono a sud dall'estremo Nord. I Guardiani della Notte sono stati annientati, i loro fratelli uccisi o dispersi, le loro fortezze lasciate mute. Si dice che i Bruti vaghino liberamente là dove un tempo sostavano i mantelli neri.\n\nSenza i Guardiani a tenere la linea, l'estremo Nord è stato lasciato al proprio destino."
+agot_nw_ranger_events.0108.a: 0 "Non è cosa buona."
 
  ### CONTRACTS
   game_concept_agot_ranger_mission:0 "Missione del Ranger"

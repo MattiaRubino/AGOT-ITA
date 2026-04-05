@@ -89,7 +89,7 @@
   agot_dragonkeepers.0314.desc:0 "[head_dragonkeeper.GetName] riporta che il drago [dragon.GetName] è caduto malato.\n\nUn budget ridotto combinato con condizioni scadenti ha portato a un comportamento disordinato e letargico di [dragon.GetNamePossessiveNoTooltip].\n\n"Anche i grandi fuochi possono spegnersi di tanto in tanto..." [head_dragonkeeper.GetSheHe] riflette pensieroso."
 
   agot_dragonkeepers.0315.t:0 "Visita di [child_with_egg.GetFirstNamePossessiveNoTooltip]"
-  agot_dragonkeepers.0315.desc:0 "Sento un leggero colpo alla porta e mi giro per vedere [child_with_egg.Custom('DE_ART_DEF_P_A')] mi[child_with_egg.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', child_with_egg)] [child_with_egg.GetFirstName] entra timidamente nella stanza portando con sé l'uovo di drago. Gli occhi di [child_with_egg.GetSherHe] sono lucidi mentre passa le dita sulle squame metalliche. "Non sento calore, e non si schiuderà..."\n\n[child_with_egg.GetSheHe] mi guarda, una lacrima scende dal suo volto. "Puoi aiutarmi?""
+agot_dragonkeepers.0315.desc: 0 "Odo un lieve bussare alla porta e mi volto per vedere il mio [ROOT.Char.Custom2('RelationToMeShort', child_with_egg)] [child_with_egg.GetFirstName] entrare timidamente nella stanza, portando il suo uovo di drago. I suoi occhi si velano di lacrime mentre passa le dita sulle scaglie metalliche. «Non sento alcun calore, e non si schiuderà...»\n\nAlza lo sguardo verso di me, mentre una lacrima [Select_CString(child_with_egg.IsFemale,'le','gli')] scivola sul viso. «Puoi aiutarmi?»"
   agot_dragonkeepers.0315.a:0 "Scelgo un altro uovo per te."
   agot_dragonkeepers.0315.a_tt:0 "Sceglierai quale uovo concedere a [child_with_egg.GetNameNoTooltip]"
   agot_dragonkeepers.0315.b:0 "Dagli più tempo, bambino."

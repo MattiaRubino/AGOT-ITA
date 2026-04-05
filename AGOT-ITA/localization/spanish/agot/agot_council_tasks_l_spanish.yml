@@ -116,7 +116,7 @@
   task_admiral_raid_modifier:0 "Consiglio $councillor_admiral$"
 
 
-  task_admiral_raid_effect_desc:0 "[raid|E] Velocità: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Consigliere [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n [raid_loot|E] Capacità: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Consigliere [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#!  \n Velocità di movimento: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Consigliere [martial_skill|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
+task_admiral_raid_effect_desc: 0 "Velocità di [raid|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$Tratto [GetPerk('hard_rule_perk').GetName(GetNullCharacter)]: #P +[SCOPE.ScriptValue('task_admiral_hard_rule_perk_bonus')]%#!\n$TAB$[martial_skill|E] del consigliere: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#! \n Capacità di [loot|E] durante il [raid|E]: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] del consigliere: #P +[SCOPE.ScriptValue('task_admiral_fleet_skill_base')]%#! \n Velocità di movimento: #P +[SCOPE.ScriptValue('task_admiral_raid_modifier_value')]%#!\n$TAB$Base: #P +[SCOPE.ScriptValue('task_admiral_raid_base')]%#!\n$TAB$[martial_skill|E] del consigliere: #P +[SCOPE.ScriptValue('task_admiral_raid_skill_base')]%#!"
 
   task_admiral_raid_erudition_bonus:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('task_admiral_fleet_erudition_bonus')]%#!\n"
 
@@ -136,7 +136,15 @@
 
  # Court Chaplain
   COURT_CHAPLAIN_SHATTERED_WORLD:0 "Bonus iniziale del Mondo in frantumi"
+COURT_CHAPLAIN_CONVERSION_LEGENDARY_CONVERSION_BONUS_MODIFIER: 3 "Evangelizzare il Reame"
 
  # Spymaster
   agot_task_disrupt_schemes_discover_spies:0 "Potrebbe scoprire spie straniere alla sua corte \n"
   agot_task_disrupt_schemes_recruit_spies:0 "Potrebbe reclutare spie presso il tribunale degli obiettivi \n"
+
+ # Pirates
+task_collect_pirate_domicile_taxes: 0 "Riscuoti i tributi"
+task_collect_pirate_domicile_taxes_modifier: 0 "Assistenza del $councillor_steward$"
+task_collect_pirate_domicile_taxes_effect_desc: 0 "[councillor.GetShortUINameNoTooltip] si concentra sui registri del domicilio, cercando di estorcere ogni possibile briciola d'oro.\n\nIl supporto di [Select_CString(councillor.IsFemale,'lei','lui')] ti conferisce:\n[councillor.GetModifierDescForTask('task_collect_pirate_domicile_taxes')]"
+task_domicile_generic_build_speed_inc_modifier: 0 "Gestione del Domicilio"
+you_have_one_of_the_following_domiciles: 0 "Devi avere uno dei seguenti [domiciles|E]:\n$EFFECT_LIST_BULLET$[agot_landless_pirate_domicile]"
