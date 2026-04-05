@@ -81,7 +81,7 @@
   friend_studied_together_corresponding: "$friend_studied_together$"
  
   tgp_movement_events.0080.t: "Per la nostra casata"
-  tgp_movement_events.0080.desc: "[Select_CString(family_member.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('family_member'))] [family_member.Custom('IT_NAM_COL3')][family_member.GetTitledFirstName] [family_member.Custom('quirk_pos_present')] mentre entra nella stanza. ""[Select_CString(family_member.IsFemale,'Cara','Caro')] [family_member.Custom2('RelationToMe', SCOPE.sC('root_scope'))]," mi rivolge un inchino cortese, le vesti ben spazzolate, lo sguardo abbassato in segno di rispetto.\n\n""Ho a lungo meditato sull'onore della nostra casata. Forse non è molto, ma desidero comunque offrirtelo, così che [ROOT.Char.GetDomicile.GetName] risplenda per tutti."""
+  tgp_movement_events.0080.desc: "[Select_CString(family_member.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('family_member'))] [family_member.Custom('IT_NAM_COL3')][family_member.GetTitledFirstName] [family_member.Custom('quirk_pos_present')] mentre entra nella stanza. ""[Select_CString(family_member.IsFemale,'Cara','Caro')] [family_member.Custom2('RelationToMe', SCOPE.sC('root_scope'))]," mi rivolge un inchino cortese, le vesti ben spazzolate, lo sguardo abbassato in segno di rispetto.\n\n""Ho a lungo meditato sull'onore della nostra casata. Forse non è molto, ma desidero comunque offrirtelo, così che [ROOT.Char.GetDomicile.GetName] risplenda per tutti.""
   tgp_movement_events.0080.aa: ""Il nome di [ROOT.Char.GetHouse.GetNameNoTooltip] sarà noto!""
   tgp_movement_events.0080.a: ""Ti ringrazio per questo contributo.""
   tpg_movement_events.0080.b: ""Dobbiamo usare l'oro per finanziare il [my_movement.GetNameNoTooltip].""
@@ -93,14 +93,14 @@
   friend_rejected_funds_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] è stat[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] incoraggiat[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] da [CHARACTER.GetShortUIName] a non sprecare l'oro di [CHARACTER.GetShortUIName] per [TARGET_CHARACTER.GetShortUIName]."
  
   tgp_movement_events.0090.t: "Vecchie ferite"
-  tgp_movement_events.0090.desc: ""[ ROOT.Char.Custom('IT_NAM_COL3') ][ ROOT.Char.GetTitledFirstNameNoTooltip ]," [Select_CString(courtier.IsFemale,'una donna','un uomo')] recante il sigillo della [other_ruler.GetHouse.GetName] si inchina profondamente dinanzi a me. ""[Select_CString(other_ruler.IsFemale,'La mia','Il mio')] [other_ruler.GetLadyLord] [other_ruler.Custom('IT_NAM_COL3')][other_ruler.GetTitledFirstName] mi ordina di leggere questo messaggio.""\n\n""Benché in stagioni passate camminassimo in opposizione, il cammino che ora percorriamo come membri del [my_movement.GetName] ci conduce alla stessa meta. Dobbiamo dimenticare le ferite del passato."""
+  tgp_movement_events.0090.desc: ""[ ROOT.Char.Custom('IT_NAM_COL3') ][ ROOT.Char.GetTitledFirstNameNoTooltip ]," [Select_CString(courtier.IsFemale,'una donna','un uomo')] recante il sigillo della [other_ruler.GetHouse.GetName] si inchina profondamente dinanzi a me. ""[Select_CString(other_ruler.IsFemale,'La mia','Il mio')] [other_ruler.GetLadyLord] [other_ruler.Custom('IT_NAM_COL3')][other_ruler.GetTitledFirstName] mi ordina di leggere questo messaggio.""\n\n""Benché in stagioni passate camminassimo in opposizione, il cammino che ora percorriamo come membri del [my_movement.GetName] ci conduce alla stessa meta. Dobbiamo dimenticare le ferite del passato.""
   tgp_movement_events.0090.aa: ""Rifiutato.""
   tgp_movement_events.0090.a: ""Una scusa che #EMP tutti#! possano udire.""
   tgp_movement_events.0090.b: "Solo per il bene del [my_movement.GetNameNoTooltip]."
   tgp_movement_events.0090.c: ""Manda i miei omaggi [other_ruler.Custom('IT_NAM_COL4')][other_ruler.GetTitleAsNameNoTooltip].""
  
   tgp_movement_events.0100.t: "Un consiglio"
-  tgp_movement_events.0100.desc: ""Eccelso [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]."" [Select_CString(spymaster.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spymaster'))] [spymaster.Custom('IT_NAM_COL3')][spymaster.GetTitledFirstName] reclama la mia attenzione nel buio. Il legno scricchiola sotto i suoi passi rapidi.\n\n""Abbiamo saputo che [rival.Custom('IT_NAM_COL3')][rival.GetTitledFirstName], capo del [rival_movement.GetName], potrebbe essere più incline a... suggerimenti del previsto."""
+  tgp_movement_events.0100.desc: ""Eccelso [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]."" [Select_CString(spymaster.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spymaster'))] [spymaster.Custom('IT_NAM_COL3')][spymaster.GetTitledFirstName] reclama la mia attenzione nel buio. Il legno scricchiola sotto i suoi passi rapidi.\n\n""Abbiamo saputo che [rival.Custom('IT_NAM_COL3')][rival.GetTitledFirstName], capo del [rival_movement.GetName], potrebbe essere più incline a... suggerimenti del previsto.""
   tgp_movement_events.0100.aa: "Dovrebbe sapere cosa è meglio per [Select_CString(rival.IsFemale,'lei','lui')]."
   tgp_movement_events.0100.a: ""Procedi.""
   tgp_movement_events.0100.a.success: "[rival.GetShortUIName] lascia il [rival_movement.GetName]"
@@ -118,7 +118,7 @@
   artifact_movement_gift_desc: "[newly_created_artifact.GetDesc]\n\nUn dono da [other_ruler.GetShortUIName] a [root_scope.GetShortUIName] in quanto membri del [my_movement.GetName]."
  
   tgp_movement_events.0120.t: "Un brindisi alla virtù"
-  tgp_movement_events.0120.desc: "Mentre le coppe si riempiono di [host.Custom('GetExpensiveDrink')] e i piatti di [host.Custom('GetExpensiveMeal')] scompaiono, [other_ruler.Custom('IT_NAM_COL3')][other_ruler.GetTitledFirstName] si avvicina.\n\n""Non possiamo deludere il [my_movement.GetName]," dice, [other_ruler.Custom('quirk_pos_pp')]. ""Hai studiato [other_ruler.Custom('GetRandomHistoryPassage')], [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]?"""
+  tgp_movement_events.0120.desc: "Mentre le coppe si riempiono di [host.Custom('GetExpensiveDrink')] e i piatti di [host.Custom('GetExpensiveMeal')] scompaiono, [other_ruler.Custom('IT_NAM_COL3')][other_ruler.GetTitledFirstName] si avvicina.\n\n""Non possiamo deludere il [my_movement.GetName]," dice, [other_ruler.Custom('quirk_pos_pp')]. ""Hai studiato [other_ruler.Custom('GetRandomHistoryPassage')], [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]?""
   tgp_movement_events.0120.a: ""Per favore, istruiscimi.""
   tgp_movement_events.0120.b: "Dobbiamo affidarci solo alla forza."
   tgp_movement_events.0120.c: ""Un banchetto non è luogo per studiare!""

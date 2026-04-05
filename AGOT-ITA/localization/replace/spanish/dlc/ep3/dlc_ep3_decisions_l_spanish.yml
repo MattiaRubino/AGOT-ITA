@@ -84,7 +84,7 @@
  ep3_decisions_event.0002.e: "Brucia il/la [sacked_artifact.GetNameNoTooltip] e distribuisci i bottini di guerra."
  ep3_decisions_event.0002.e.tt: "Tutti dovrebbero sentirsi parte della vittoria e dell’umiliazione assoluta del nemico!"
  ep3_decisions_event.0003.t: "$ep3_decisions_event_triumph$ a [ROOT.Char.Custom('TriumphReligiousLocationCapitalized')]"
- ep3_decisions_event.0003.desc: "\"Gli esseri umani sono fragili, e anche la più grande delle vittorie impallidisce dinanzi alla grandezza di [ROOT.Char.GetFaith.HighGodName]," penso tra me e me, cupo, mentre attraverso le porte. Rimango subito colpito dalla maestosità e grandiosità dell’edificio.\n\nIl popolo apprezzerà sicuramente un gesto umile e devoto da parte mia come corollario alla mia brillante vittoria su [triumph_enemy_defeated.GetTitledFirstName]."
+ ep3_decisions_event.0003.desc: ""Gli esseri umani sono fragili, e anche la più grande delle vittorie impallidisce dinanzi alla grandezza di [ROOT.Char.GetFaith.HighGodName]," penso tra me e me, cupo, mentre attraverso le porte. Rimango subito colpito dalla maestosità e grandiosità dell’edificio.\n\nIl popolo apprezzerà sicuramente un gesto umile e devoto da parte mia come corollario alla mia brillante vittoria su [triumph_enemy_defeated.GetTitledFirstName]."
  ep3_decisions_event.0003.desc_no_war: "La superbia è il peggior nemico dei potenti.\n\nMa ancor peggio è #EMP dare l'impressione di superbia#! ai propri sudditi! Dopotutto, [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip|U] è solo il rappresentante di [ROOT.Char.GetFaith.HighGodName] sulla terra. Potere, ricchezze e maestà sono solo un riflesso della gloria della Corte Divina, quindi è importante dimostrare rispetto per la gerarchia."
  ep3_decisions_event.0003.desc_hostage: "Ecco anche perché ho convenientemente invitato [enemy_hostage.Custom2('MyCharacterIntroduction', ROOT.Char)] a unirsi a me."
  ep3_decisions_event.0003.a: "Accolgo la benedizione di [ROOT.Char.GetFaith.HighGodNameAlternate]."
@@ -1135,7 +1135,7 @@ ep3_decisions_event.5030.desc: "Con un elegante gesto, [local_artisan.GetFirstNa
  
  ep3_decisions_event.6001.t: "Il Difensore dei [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]"
  ep3_decisions_event.6001.desc.intro: "Una fredda brezza accompagna la vista dal campo. Le [county.Custom('TerrainTypeCountyScope')] sembrano infinite. È qui che appartengo, è qui che appartiene il mio popolo. Respiro profondamente.\n\n"
- ep3_decisions_event.6001.desc.spouse_common: "\"Potrebbe essere tutto tuo, lo sai?\" la dolce voce di [spouse.GetFirstName] interrompe i miei pensieri."
+ ep3_decisions_event.6001.desc.spouse_common: ""Potrebbe essere tutto tuo, lo sai?" la dolce voce di [spouse.GetFirstName] interrompe i miei pensieri."
  ep3_decisions_event.6001.desc.spouse_same_culture: "$ep3_decisions_event.6001.desc.spouse_common$ "Ti ammirano, ti seguirebbero fino alla fine.""
  ep3_decisions_event.6001.desc.spouse_diff_culture: ""Anche se io stess[spouse.Custom('DE_END_PRO_S_N')] sono [spouse.GetCulture.GetName] so che queste persone ti ammirano. Ti vedono come il loro eroe. Non deluderli.""
  ep3_decisions_event.6001.desc.no_spouse: "Un [liege.GetCulture.GetName]? Il sovrano del popolo [ROOT.Char.GetCulture.GetName]? La sola idea mi disgusta. E so di non essere l’unico.\n\n"

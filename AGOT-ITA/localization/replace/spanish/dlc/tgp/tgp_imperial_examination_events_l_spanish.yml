@@ -31,7 +31,7 @@ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] avrà più op
 
  #Entrant: Meet a fellow entrant
   imperial_examination.1020.t: "Volti nuovi"
-  imperial_examination.1020.desc: "Alla locanda noto un[Select_CString(new_entrant.IsFemale,'a','')] esaminand[Select_CString(new_entrant.IsFemale,'a','o')] a un tavolo, dallo sguardo serio, che si morde le unghie.\n\nCi scambiamo un’occhiata e avvio la conversazione: ""Saluti — sono [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]. Chi sei?""\n\nIl suo sguardo vaga inquieto per la stanza e poi risponde: ""[new_entrant.Custom('IT_NAM_COL3')][new_entrant.GetTitledFirstName]. E con ciò?"""
+  imperial_examination.1020.desc: "Alla locanda noto un[Select_CString(new_entrant.IsFemale,'a','')] esaminand[Select_CString(new_entrant.IsFemale,'a','o')] a un tavolo, dallo sguardo serio, che si morde le unghie.\n\nCi scambiamo un’occhiata e avvio la conversazione: ""Saluti — sono [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]. Chi sei?""\n\nIl suo sguardo vaga inquieto per la stanza e poi risponde: ""[new_entrant.Custom('IT_NAM_COL3')][new_entrant.GetTitledFirstName]. E con ciò?""
   imperial_examination.1020.a: ""Anche tu sei nervos[Select_CString(new_entrant.IsFemale,'a','o')]?""
   imperial_examination.1020.a.success.tt: "Instauri un legame con [new_entrant.GetShortUIName]"
   imperial_examination.1020.a.failure.tt: "La tua chiacchierata fallisce"
@@ -230,7 +230,7 @@ imperial_examination.3007.a.success_tooltip_first: "#weak Per superare l’Esame
   imperial_examination.4070.c: ""[ parent.GetMotherFather|U ], per favore! Vai #EMP via#!.""
 
   imperial_examination.4080.t: "La via si biforca"
-  imperial_examination.4080.desc: "Dovunque vada, mi segue il brusio di dispute dotte. \n\nDue voci particolarmente accese si levano sopra la folla, e voltato l’angolo trovo [examiner_1.Custom('IT_NAM_COL3')][examiner_1.GetTitledFirstName] e [examiner_2.Custom('IT_NAM_COL3')][examiner_2.GetTitledFirstName], due celebri rivali accademici, di nuovo avvinti in un acceso dibattito. In specie, su chi abbia scritto lo studio più distinto su [examiner_1.Custom('EruditeTopic')]. \n\n[examiner_1.Custom('IT_NAM_COL3')][examiner_1.GetTitledFirstName] incrocia il mio sguardo e chiede: ""Ebbene, quale testo preferisci #EMP tu#!?"""
+  imperial_examination.4080.desc: "Dovunque vada, mi segue il brusio di dispute dotte. \n\nDue voci particolarmente accese si levano sopra la folla, e voltato l’angolo trovo [examiner_1.Custom('IT_NAM_COL3')][examiner_1.GetTitledFirstName] e [examiner_2.Custom('IT_NAM_COL3')][examiner_2.GetTitledFirstName], due celebri rivali accademici, di nuovo avvinti in un acceso dibattito. In specie, su chi abbia scritto lo studio più distinto su [examiner_1.Custom('EruditeTopic')]. \n\n[examiner_1.Custom('IT_NAM_COL3')][examiner_1.GetTitledFirstName] incrocia il mio sguardo e chiede: ""Ebbene, quale testo preferisci #EMP tu#!?""
   imperial_examination.4080.a: "Preferisco l’opera di [examiner_1.Custom('IT_NAM_COL2')][examiner_1.GetTitledFirstNameNoTooltip]."
   imperial_examination.4080.b: "[examiner_2.Custom('IT_NAM_COL3')][examiner_2.GetTitledFirstNameNoTooltip] è [Select_CString(examiner_2.IsFemale,'la studiosa più virtuosa','lo studioso più virtuoso')]."
   imperial_examination.4080.c: "Mi piacciono entrambe in egual misura."
@@ -246,13 +246,13 @@ imperial_examination.3007.a.success_tooltip_first: "#weak Per superare l’Esame
   imperial_examination.cheat_wash.tt: "La tua mancanza viene insabbiata e la scorrettezza dimenticata"
 
   imperial_examination.4090.t: "Anime affini"
-  imperial_examination.4090.desc: "Un senso di trepidazione nervosa pervade la pensione, dissipato solo dal volto lieto di [Select_CString(other_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_entrant'))] [other_entrant.Custom('IT_NAM_COL3')][other_entrant.GetTitledFirstName]. \n\nCon [Select_CString(other_entrant.IsFemale,'lei','lui')] non ho bisogno di spiegarmi, e ogni mia parola risuona in profondità. Le nostre discussioni prendono vita propria e ci sorprendono entrambi con i loro colpi di scena! \n\nAlla fine [Select_CString(other_entrant.IsFemale,'lei','lui')] si sporge e dice: ""Conosco altre persone affini che sarebbero liete di incontrarti, se vuoi che faccia le dovute presentazioni?"""
+  imperial_examination.4090.desc: "Un senso di trepidazione nervosa pervade la pensione, dissipato solo dal volto lieto di [Select_CString(other_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_entrant'))] [other_entrant.Custom('IT_NAM_COL3')][other_entrant.GetTitledFirstName]. \n\nCon [Select_CString(other_entrant.IsFemale,'lei','lui')] non ho bisogno di spiegarmi, e ogni mia parola risuona in profondità. Le nostre discussioni prendono vita propria e ci sorprendono entrambi con i loro colpi di scena! \n\nAlla fine [Select_CString(other_entrant.IsFemale,'lei','lui')] si sporge e dice: ""Conosco altre persone affini che sarebbero liete di incontrarti, se vuoi che faccia le dovute presentazioni?""
   imperial_examination.4090.a: "Non vedo l’ora di conoscerli!"
   imperial_examination.4090.b: "Ho testi importanti da leggere."
   imperial_examination.4090.b.tt: "La tua diligenza frutta [merit_i][merit|E]."
 
   imperial_examination.4100.t: "Un foglio di carta"
-  imperial_examination.4100.desc: "Mi muovo con cautela tra i gabbiotti d’esame, sperando di nascondere un biglietto preparato con informazioni #EMP utili#! in vista della prova imminente. \n\nNel momento in cui trovo un’asse allentata nella parete di un gabbiotto, sento un colpo di tosse alle mie spalle. [Select_CString(other_entrant.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_entrant'))], [other_entrant.Custom('IT_NAM_COL3')][other_entrant.GetTitledFirstName], riesce in qualche modo ad avvicinarsi senza fare rumore. \n\n[Select_CString(other_entrant.IsFemale,'Lei','Lui')] chiede: ""Che cosa stai facendo laggiù?"""
+  imperial_examination.4100.desc: "Mi muovo con cautela tra i gabbiotti d’esame, sperando di nascondere un biglietto preparato con informazioni #EMP utili#! in vista della prova imminente. \n\nNel momento in cui trovo un’asse allentata nella parete di un gabbiotto, sento un colpo di tosse alle mie spalle. [Select_CString(other_entrant.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('other_entrant'))], [other_entrant.Custom('IT_NAM_COL3')][other_entrant.GetTitledFirstName], riesce in qualche modo ad avvicinarsi senza fare rumore. \n\n[Select_CString(other_entrant.IsFemale,'Lei','Lui')] chiede: ""Che cosa stai facendo laggiù?""
   imperial_examination.4100.a: "Condividi le risposte per placare [other_entrant.Custom('IT_NAM_COL3')][other_entrant.GetTitledFirstNameNoTooltip]."
   imperial_examination.4100.a.success: "[other_entrant.GetTitledFirstNameNoTooltip] è convint[Select_CString(other_entrant.IsFemale,'a','o')] a barare con te"
   imperial_examination.4100.a.failure: "[other_entrant.GetTitledFirstNameNoTooltip] non è convint[Select_CString(other_entrant.IsFemale,'a','o')]"
@@ -276,7 +276,7 @@ imperial_examination.8010.a: "Devo studiare con impegno per il prossimo."
   imperial_examination.9000.desc.intro: "Con l’Esame Metropolitano concluso, l’esaminatore [examiner.GetFirstName] mi presenta [Select_CString(first_char.IsFemale,'l’esaminanda','l’esaminando')] con il punteggio più alto, [first_char.Custom('IT_NAM_COL3')][first_char.GetTitledFirstName].\n\n""L’affinità di quest[first_char.Custom('DE_PRO_PER_S_3P_N')] [first_char.GetWomanMan] per"
   imperial_examination.9000.desc.diplomacy: "la diplomazia"
   imperial_examination.9000.desc.martial: "l’arte della guerra"
-  imperial_examination.9000.outro: "ci ha impressionato tutti oggi"" dice [examiner.GetFirstNameNoTooltip]. ""Gli altri esaminandi di alto rango vengono scortati ora al palazzo imperiale.""\n\n[first_char.GetFirstNameNoTooltip] si inchina profondamente e dice, con la voce velata di riverenza: ""Vivo per servire [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]."""
+  imperial_examination.9000.outro: "ci ha impressionato tutti oggi"" dice [examiner.GetFirstNameNoTooltip]. ""Gli altri esaminandi di alto rango vengono scortati ora al palazzo imperiale.""\n\n[first_char.GetFirstNameNoTooltip] si inchina profondamente e dice, con la voce velata di riverenza: ""Vivo per servire [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip].""
   imperial_examination.9000.a: "Mi aspettavo un [ROOT.Char.GetInvolvedActivity.Custom('GetExamFocusSkill')]."
   imperial_examination.9000.a.tt_martial: "Ottieni questa opzione grazie alla tua [activity_option|E] $imperial_examination_focus_martial$"
   imperial_examination.9000.a.tt_learning: "Ottieni questa opzione grazie alla tua [activity_option|E] $imperial_examination_focus_learning$"
@@ -477,8 +477,8 @@ other_entrant_shortstop_fail: "galoppa per il campo, inclinandosi in avanti quel
   imperial_examination.5500.desc.safe_learning: "Ripeto i detti più noti che ricordo dalle letture, ma non approfondisco né discuto a lungo la materia."
   imperial_examination.5500.desc.failed_martial: "Già prima che le piume sfiorino il parabraccio so che non andrà a segno, e la vedo sfiorare l’angolo del bersaglio per poi sparire dietro di esso."
   imperial_examination.5500.desc.failed_classics: "Fatico a rammentare le lezioni dei miei maestri. I passi dei testi più importanti paiono banditi dalla memoria."
-  imperial_examination.5500.desc.hegemon_positive: "\n\n[host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] mi guarda, [host.Custom('quirk_pos_pp')]. ""Benissimo."""
-  imperial_examination.5500.desc.hegemon_negative: "\n\n[host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] mi guarda, [host.Custom('quirk_neg_pp')]. ""Puoi andare."""
+  imperial_examination.5500.desc.hegemon_positive: "\n\n[host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] mi guarda, [host.Custom('quirk_pos_pp')]. ""Benissimo.""
+  imperial_examination.5500.desc.hegemon_negative: "\n\n[host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] mi guarda, [host.Custom('quirk_neg_pp')]. ""Puoi andare.""
   imperial_examination.5500.a: "Ricorderò per sempre questo momento."
 
  #Conclusion event
