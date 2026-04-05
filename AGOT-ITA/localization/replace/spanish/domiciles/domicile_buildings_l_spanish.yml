@@ -1,4 +1,9 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_1: "[SelectLocalization(GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate' ), 'domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1', 'domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1')]"
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_2: "[SelectLocalization(GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate' ), 'domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2', 'domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2')]"
+ domicile_building_parameter_raids_less_likely_to_make_prisoners_3: "[SelectLocalization(GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate' ), 'domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3', 'domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3')]"
+ #End AGOT modifiche
 
  DOMICILE_BUILDING_INTERNAL_BUILDINGS_LIST: "#T Edifici Interni:\n#!"
  DOMICILE_BUILDING_COOLTIP_NAME: "$EFFECT_LIST_BULLET$[GetDomicileBuilding('$KEY|q$').GetName]"
@@ -336,9 +341,6 @@ domicile_building_parameter_increased_gardener_aptitude_6: "[GetCourtPositionTyp
  domicile_building_parameter_cheaper_grain_fields_buildings_2: "Costo degli [buildings|E] della [estate|E] di tipo Campo di Grano #P -25%#!"
  domicile_building_parameter_cheaper_grain_fields_buildings_3: "Costo degli [buildings|E] della [estate|E] di tipo Campo di Grano #P -35%#!"
  domicile_building_parameter_reduce_success_of_raid_estate: "Ogni livello di questo edificio riduce sempre più la probabilità di successo degli [schemes|E] [GetScheme('raid_estate').GetTypeName]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_1: "Le [raids|E] ostili e gli [sieges|E] hanno una probabilità leggermente inferiore di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_2: "Le [raids|E] ostili e gli [sieges|E] hanno meno probabilità di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_3: "Le [raids|E] ostili e gli [sieges|E] hanno molte meno probabilità di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
  estate_has_kennels: "[GetDomicileBuilding('stable_kennel_04').GetName]"
  domicile_building_parameter_kennels_more_successful_hunts_1: "[GetActivityType('activity_hunt').GetName] Probabilità di Successo di Base: #P +[EmptyScope.ScriptValue('kennels_more_successful_hunts_1_value')|0]#!"
  domicile_building_parameter_kennels_more_successful_hunts_2: "[GetActivityType('activity_hunt').GetName] Probabilità di Successo di Base: #P +[EmptyScope.ScriptValue('kennels_more_successful_hunts_2_value')|0]#!"

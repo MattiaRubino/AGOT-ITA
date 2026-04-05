@@ -1,6 +1,6 @@
 ﻿l_spanish:
  #start AGOT modofiche
- CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon! #high [CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.Custom('AGOTCustomGetShortUIName')|U]#! muore"
+ CHARACTER_DEATH_EFFECT_THIRD:1 "@death_icon! [AGOTGetUINameNoTooltip(CHARACTER)|V] muore"
  CHARACTER_DIED_EFFECT:1 "@death_icon! [CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.Custom('AGOTCustomGetShortUIName')] è mort[CHARACTER.Custom('DE_END_PRO_S_N')]"
  CHARACTER_DIED_EFFECT_THIRD:1 "@death_icon! #high [CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.Custom('AGOTCustomGetShortUIName')]#! è mort[CHARACTER.Custom('DE_END_PRO_S_N')]"
  CHARACTER_DIED_EFFECT_FIRST:1 "@death_icon! Sei mort[CHARACTER.Custom('DE_END_PRO_S_N')]"

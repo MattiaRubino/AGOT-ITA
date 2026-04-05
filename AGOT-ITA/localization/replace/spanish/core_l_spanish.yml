@@ -7,8 +7,8 @@
  ERROR_HOOF_1:1 "Io sono Jimhaerys. A volte sono qui al posto di Pugarion. Anche io sono qui perché ci sono $ERRORS$ errore(i) nella tua partita. $ERROR_ACTION$"
  ERROR_HOOF_2:1 "Io sono Pugarion. Sono qui perché ci sono $ERRORS$ errore(i) nella tua partita. $ERROR_ACTION$"
  ERROR_HOOF_3:1 "Io sono il Jimhaerys. A volte sono qui al posto di Pugarion. Nutrimi. Ci sono anche $ERRORS$ errore(i) nella tua partita. $ERROR_ACTION$"
- SCOPE_CHARACTER:0 "#high [ROOT.GetCharacter.Custom('AGOTCustomGetShortUIName')]#![ROOT.GetCharacter.Custom('TitleSuffix')]:"
- SCOPE_CHARACTER_ME:0 "I, #high [ROOT.GetCharacter.Custom('AGOTCustomGetShortUIName')]#![ROOT.GetCharacter.Custom('TitleSuffix')]:"
+ SCOPE_CHARACTER:0 "[AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
+ SCOPE_CHARACTER_ME:0 "Io, [AGOTGetLongUIName(ROOT.GetCharacter)|V]:"
  BIRTH_DATE:0 "Nato nella Luna [DATE.GetStringShort|V]"
  HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$"
  GAME_DATE_STRING:0 "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
@@ -17,6 +17,8 @@
  GAME_DATE_STRING_LONG:0 "$DAY|O$ of $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
  BROTHER_IN_LAW:0 "[good_brother|E]"
  SISTER_IN_LAW:0 "[good_sister|E]"
+ EVENT_SIGNATURE:1 "[AGOTGetFullNameNoTooltip(CHARACTER)]"
+
  #End AGOT modifiche
 
  SM_LANGUAGE:0 "Lingua"
@@ -603,7 +605,6 @@ ERROR_HOOF_7: "Io sono Angelhoof il Misericordioso. Sebbene perdoni molte cose, 
  flag_desc:0 "Flags are simple markers that you can use to trace that something has happened in the game. They have a specific type depending on what kind of scope it was set in (character flag, scheme flag, sC.). The particular scope (for example a particular character) will have the flag set until it is removed by an effect, or until its timer runs out, if a timer was defined for it."
  TODO:0 "TODO: $WHAT$"
  EVENT_SIGNED:0 "Firmato,"
- EVENT_SIGNATURE:1 "[CHARACTER.GetNameNoTooltip]"
  EVENT_REASON_SEPARATOR:0 ", "
  EVENT_REASON_SKILL:0 "$SKILL$ Skill"
  EVENT_REASON_TRAIT:0 "[TRAIT.GetName( CHARACTER.Self )|L] Tratto"

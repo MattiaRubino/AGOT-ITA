@@ -32,7 +32,19 @@
  game_concept_theocracy_desc:0 "$game_concept_theocracy$ è una [government_form|E] non giocabile, disponibile per alcune [faiths|E] a seconda delle [doctrines|E]. Di norma è guidata da un[head_of_faith|E] o da un[realm_priest|E] [landed|E]."
  game_concept_head_of_faith_desc:0 "Un $game_concept_head_of_faith$ è il leader formale di una [faith|E]. I poteri e la natura del $game_concept_head_of_faith$ dipendono dalle [doctrines|E] della Fede.\n\nAlcune Fedi hanno un [spiritual_head_of_faith|E] #weak (es. l'Alto Septon)#!, altre un [temporal_head_of_faith|E] #weak (es. Magnar dei Thenn)#!, e altre ancora non hanno affatto un $game_concept_head_of_faith$."
  game_concept_unreformed_pagan_combat_bonus_desc:1 "Le [faiths|E] con dottrina [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] ottengono un [advantage|E] in [battle|E] nelle [counties|E] della loro fede."
- 
+
+ game_concept_accolade_desc:5 "Le [accolades|E] sono onori conferiti ai [knights|E] dal loro [liege|E].\n\nIl Capitano che detiene una Accolade diventa un [acclaimed_knight|E].\n\nMan mano che il Capitano Acclamato accumula [glory|E], il [accolade_rank|E] dei suoi [accolade_types|E] aumenta, offrendo bonus più forti al suo Signore.\n\nQuando i Capitani Acclamati muoiono, vengono sostituiti tramite [accolade_succession|E].\n\nLe [innovations|e] e i [title_tiers|e] più elevati consentono ai [rulers|E] di avere più Accolades contemporaneamente."
+ game_concept_acclaimed_knight:0 "Capitano Acclamato"
+ game_concept_acclaimed_knights:0 "Capitani Acclamati"
+ game_concept_acclaimed_knight_desc:1 "Il [knight|E] che detiene una [accolade|E].\n\nPer essere un Capitano Acclamato, un Capitano deve essere [unlanded|E] oppure un [baron|E], e possedere almeno [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V] di [prowess|E] o più.\n\nUn Capitano Acclamato deve essere idoneo a due [accolade_types|E]; nessuno dei due può già appartenere a un altro dei Capitani Acclamati del suo [liege|e]."
+ game_concept_accolade_type_desc:1 "Una [accolade|E] possiede un Attributo primario e uno secondario, che conferiscono bonus man mano che il [accolade_rank|E] aumenta.\n\nOgni potenziale [acclaimed_knight|E] è idoneo solo a determinati Attributi, perlopiù in base ai suoi [traits|E]. Con la [accolade_succession|E], il nuovo Capitano deve soddisfare l'Attributo Primario, mentre quello Secondario può essere cambiato, al costo di [glory|E]. Inoltre, se un Attributo concede accesso ai [retinue_maa|E], ciò avverrà solo se esso è l'Attributo Primario. \n\nOgni Accolade deve avere due Attributi distinti. Un Signore #high non può#! duplicare gli Attributi tra diverse Accolades."
+ game_concept_accolade_succession_desc:1 "La Successione dell'Accolade avviene quando il [acclaimed_knight|e] di una [accolade|E] muore o diventa non più valido per il ruolo.\n\nIl Capitano Acclamato viene sostituito dal suo Successore, che deve essere idoneo per l'[accolade_type|E] Primario. L'Attributo secondario può essere cambiato, al costo di [glory|E].\n\nSe non vi sono Successori degni a corte, si può usare la decisione #high $call_for_acclaimed_knight_candidates_decision$#! per invitare candidati adatti."
+ game_concept_inactive_accolade_desc:1 "Le [accolades|E] diventano Inattive quando vengono invalidate.\n\nUna Accolade diventa inattiva se:\n$EFFECT_LIST_BULLET$L'[acclaimed_knight|e] o il suo [ruler|E] non soddisfano più i requisiti del suo [accolade_type|e]\n$EFFECT_LIST_BULLET$Il Capitano Acclamato muore o lascia la [court|e] del suo Sovrano senza un Successore\n$EFFECT_LIST_BULLET$Il [ruler|E] la ritira manualmente"
+ game_concept_glory_desc:1 "La Gloria di una [accolade|E] ne accresce il [accolade_rank|E].\n\nLa Gloria viene ottenuta quando l'[acclaimed_knight|E] vince [battles|E], sconfigge guerrieri, gareggia nelle [contests|E] di [GetActivityType( 'activity_tournament' ).GetName] e prende parte ad [activities|E].\n\nTuttavia, la Gloria dell'Accolade diminuisce quando il Capitano Acclamato partecipa a battaglie perdute, con la [accolade_succession|e], e quando l'Accolade diventa una [inactive_accolade|E]."
+ game_concept_knight_army_modifier:0 "Modificatore dell'Esercito del Capitano"
+ game_concept_knight_army_modifiers:0 "Modificatori dell'Esercito del Capitano"
+ game_concept_knight_army_modifier_desc:0 "Un effetto applicato a qualunque [army|e] che #high includa#! il relativo [acclaimed_knight|e].\n\nPerché si applichi il Modificatore dell'Esercito del Capitano, il [knight|e] #high non deve necessariamente#! essere il [commander|e] di quell'Esercito."
+
  #End AGOT modifiche
 
  test_text_to_use_explanation:0 "La parola [primary_title|E] è un concetto di gioco."
@@ -2458,18 +2470,11 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
 
  game_concept_accolade:0 "Encomio"
  game_concept_accolades:0 "Encomi"
- game_concept_accolade_desc:5 "Gli encomi sono onorificenze assegnate ai [knights|E] dal loro [liege|E].\n\nIl Cavaliere che possiede un'encomio diventa un [acclaimed_knight|E].\n\nIl Cavaliere acclamato guadagna [glory|E], e il [accolade_rank|E] dei loro [accolade_types|E] aumenta, offrendo dei benefici maggiori al proprio Signore.\n\nQuando i Cavalieri acclamati muoiono, vengono sostituiti tramite la [accolade_succession|E].\n\nLe [innovations|e] e i [title_tiers|e] più elevati permettono ai [rulers|E] di avere più encomi contemporaneamente."
-
- game_concept_acclaimed_knight:0 "Cavaliere Acclamato"
- game_concept_acclaimed_knights:0 "Cavalieri Acclamati"
- game_concept_acclaimed_knight_desc:1 "Il [knight|E] possiede un [accolade|E].\n\nPer essere un Cavaliere Acclamato, un Cavaliere deve essere [unlanded|E] oppure un [baron|E], con una [prowess|E] pari a [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V] o superiore.\n\nUn Cavaliere Acclamato ha diritto a due [accolade_types|E]; nessuno dei due può già appartenere ad un altro dei Cavalieri Acclamati del loro [liege|e]."
 
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
- game_concept_accolade_type_desc:1 "Un [accolade|E] ha un attributo primario e un attributo secondario, che forniscono dei vantaggi con l'accrescimento del [accolade_rank|E].\n\nOgni potenziale [acclaimed_knight|E] è idoneo solo a determinati attributi, per lo più basati sui propri [traits|E]. Alla [accolade_succession|E], il nuovo Cavaliere deve soddisfare l'attributo primario, mentre quello secondario può essere cambiato, spendendo [glory|E]. Inoltre, se un attributo dà accesso al [retinue_maa|E], continerà a farlo solo se è l'attributo primario.\n\nOgni Acclamato deve avere due attributi unici. Un Signore #high non#! può duplicare gli attributi tra gli accoliti."
 
  game_concept_accolade_succession:0 "Successione dell'Encomio"
- game_concept_accolade_succession_desc:1 "La Successione dell'Encomio avviene quando un [acclaimed_knight|e] muore o diventa non idoneo al ruolo.\n\nIl Cavaliere Acclamato viene sostituito dal suo Successore, che deve essere idoneo al [accolade_type|E] primario. L'attributo secondario può essere modificato, spendendo [glory|E].\n\nSe non ci fossero degni successori a corte, può essere utilizzata la decisione #high $call_for_acclaimed_knight_candidates_decision$#! per invitare dei candidati idonei."
 
  game_concept_accolade_rank:0 "Rango dell'Encomio"
  game_concept_accolade_ranks:0 "Ranghi dell'Encomio"
@@ -2477,10 +2482,8 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
  game_concept_accolade_rank_desc:1 "Un [accolade|e] ha #value 6#! gradi progressivi che sbloccano dei vantaggi specifici per quello specifico [accolade_types|e], come ad esempio i [knight_army_modifiers|e].\n\nGuadagnare [glory|E] sblocca ciascun rango, mentre la perdita di gloria può farli perdere.\n\nI gradi dispari sono forniti dall'attributo Primario dell'encomio, quelli pari dal Secondario."
 
  game_concept_inactive_accolade:0 "Encomio Inattivo"
- game_concept_inactive_accolade_desc:1 "Gli [accolades|E] diventano inattivi quando vengono invalidati.\n\nUn encomio diventa inattivo se:\n$EFFECT_LIST_BULLET$ Il [acclaimed_knight|e] o il suo [ruler|E] non soddisfano più i requisiti legati al [accolade_type|e]\n$EFFECT_LIST_BULLET$ Il Cavaliere Acclamato muore o lascia la [court|e] del suo Governante senza un successore\n$EFFECT_LIST_BULLET$ Il [ruler|E] lo ritira manualmente"
 
  game_concept_glory:0 "Gloria"
- game_concept_glory_desc:1 "La Gloria di un [accolade|E] aumenta il suo [accolade_rank|E].\n\nLa gloria è ottenuta dal [acclaimed_knight|E] attraverso la vittoria delle [battles|E], la sconfitta di guerrieri, la competizione nelle [GetActivityType( 'activity_tournament' ).GetName] [contests|E], e la partecipazione alle [activities|E].\n\nTuttavia, la Gloria dell'elogio diminuisce quando il Cavaliere Acclamato è coinvolto in battaglie perse, nella [accolade_succession|e], e quando l'elogio diventa un [inactive_accolade|E]."
 
  game_concept_tax_collector: "Esattore delle Tasse"
  game_concept_tax_collector_desc: "Un $game_concept_tax_collector$ permette alle [tax_jurisdictions|E] di funzionare.\n\nLa loro [aptitude|E] determina la quantità di [taxes|E] e [levies|E] che riscuotono per il loro [liege|E]."
@@ -2511,10 +2514,6 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
 
  game_concept_retinue_maa:0 "Seguito di Uomini d'Arme"
  game_concept_retinue_maa_desc:0 "Alcuni [accolade_types|E] danno accesso a speciali [men_at_arms|E]. Si sbloccano avendo un [acclaimed_knight|E] con i progressi rilevanti del [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait_level_track|E] oppure uno specifico [commander_trait|E].\n\nI seguiti di $game_concept_men_at_arms$ sono limitati ad un [regiment|E] e hanno un numero limitato di truppe. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$ e migliorano sempre di più ad ogni epoca."
-
- game_concept_knight_army_modifier:0 "Modificatore dell'esercito dei cavalieri"
- game_concept_knight_army_modifiers:0 "Modificatori dell'esercito dei cavalieri"
- game_concept_knight_army_modifier_desc:0 "Un effetto applicato a qualsiasi [army|e] che #high contenga#! il pertinente [acclaimed_knight|e].\n\nIl [knight|e] #high non#! deve essere il [commander|e] del suo esercito perché si possa applica il modificatore dell'esercito dei cavalieri."
 
  game_concept_piety_level_impact:0 "Impatto del livello di devozione"
  game_concept_piety_level_impact_desc:0 "L'impatto del livello di devozione aumenta o diminuisce i [modifiers|E] acquisiti grazie al tuo attuale [piety_level|E]."

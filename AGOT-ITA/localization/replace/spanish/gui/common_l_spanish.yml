@@ -4,6 +4,9 @@
  TOP_BAR_VERSION:2 "Game Version: [GetGameVersionInfo]\nMP Checksum: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo] $AGOT_VERSION_BUILD$"
  VERSION_SHORT:2 "[GetGameVersionInfoShort], Checksum: [GetMPChecksum] $MODIFIED_CHECKSUM$ $AGOT_VERSION_BUILD$"
  CHARACTER_LOCATION_TOOLTIP:0 "[Character.Custom('is_missing_location_loc')]"
+ cooltip_spouse_listing:0 "[spouse|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]"
+ cooltip_betrothed_listing:0 "[betrothed|E]: [AGOTGetName(ROOT.Char.GetPrimarySpouseOrBetrothed)]"
+ cooltip_concubine_listing:1 "[concubine|E] di: [AGOTGetName(ROOT.Char.GetConcubinist)]"
  #End AGOT modifiche
 
  CHARACTER_IN_ACTIVITY_LOCATION:0 "In Attività: [ACTIVITY.GetBaronyNameExplicitly|V]"
@@ -97,9 +100,6 @@ COA_REALM_TOOLTIP_CHARACTER: "[SelectLocalization( Character.IsAlive, 'COA_REALM
  COA_REALM_TOOLTIP_CHARACTER_CLICK_INFO:0 "#I [Select_CString(CHARACTER.IsShownInCharacterWindow, 'Clicca per andare alla posizione', 'Clicca per vedere')]\nClicca con il tasto destro per interagire con [CHARACTER.GetShortUINameNoTooltip]#!"
  COA_REALM_TOOLTIP_PRIMARY_TITLE_CLICK_INFO:0 "#I Clicca per mostrare il Titolo Primario [CHARACTER.GetPrimaryTitle.GetNameNoTooltip|V]#!"
  COA_REALM_TOOLTIP_GUI_CLICK_INFO:0 "#I [Select_CString(Character.IsShownInCharacterWindow, 'Clicca per andare alla posizione', 'Clicca per vedere')]\nClicca con il tasto destro per interagire con [Character.GetShortUINameNoTooltip]#!"
- cooltip_spouse_listing:0 "[spouse|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]"
- cooltip_betrothed_listing:0 "[betrothed|E]: [ROOT.Char.GetPrimarySpouseOrBetrothed.GetName]"
- cooltip_concubine_listing:0 "[concubine|E] di: [ROOT.Char.GetConcubinist.GetName]"
  cooltip_unmarried_listing:0 "Celibe"
  GLOBAL_OBSERVER:0 "Osservare"
  PLAYER_OBSERVER:0 "Osservare come [GetPlayer.GetShortUINameNotMeNoTooltip] ([SelectLocalization(GetPlayer.IsPlayer, 'OBSERVER_PLAYER_NAME', 'OBSERVER_AI')])"

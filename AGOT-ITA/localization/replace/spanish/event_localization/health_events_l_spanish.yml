@@ -14,6 +14,7 @@
  disease_bubonic_plague:0 "peste del tramonto."
  disease_measles: "febbre maculata."
  disease_ergotism: "peste danzante."
+ health.3001.fallback_reason.desc:0 "Questo mondo è pieno di pericoli, perfino per un [ROOT.Char.GetTitleTierName] e per la sua [ROOT.Char.Custom('GetCourt')|l].\n\nHo chiesto in giro qualche raccomandazione e ho raccolto alcune opzioni tra cui scegliere."
  #End AGOT modifiche
 
  fire_court_physician_effect.tt:0 "[THIS.Char.GetShortUIName] non è più [GetCourtPositionType('court_physician_court_position').GetName()]"
@@ -88,7 +89,6 @@ health.1004.court_physician.desc: 0 "\n\n«Mi dispiace: la lebbra è un'afflizio
  health.1004.a:0 "Cosa ho fatto per meritarmi questa maledizione?"
 
  health.1005.desc:0 "Ho sentito storie di coraggiosi soldati che muoiono come mosche prima ancora di mettere piede sul campo di battaglia. Ma io, un [ROOT.Char.GetTitleTierNameAsNameNoTooltip]? Questo incubo doloroso e febbrile non è un destino riservato a me.\n\nMentre un altro pasto si fa forza nella mia gola e le mie narici sono irritate dal cattivo odore della bile, prego per la redenzione."
-health.1005.court_physician.desc: 0 "\n\n«Non preoccuparti, [ROOT.Char.Custom('FormOfAddressForLiege')]! Il tifo è curabile, te lo assicuro»."
  health.1005.a:0 "Ti prego, fai che smetta!"
 
  health.1006.t:1 "[SCOPE.Custom('EventTitleDisease')]: Poco per Volta"
@@ -207,16 +207,11 @@ health.2001.a.not_sick: 0 "Vattene dal mio letto, [std_partner.Custom2('InsultNo
 health.2101.smallpox_outbreak.desc: 0 "La maledizione della morte è caduta sulla mia casa: è stato scoperto un caso di vaiolo!"
  health.2101.smallpox_spreads.desc:0 "Un'altra anima è stata maledetta dal vaiolo."
  health.2101.bubonic_plague_spreads.desc:0 "Un'altra anima è sull'orlo della morte, con terrificanti bubboni che deturpano la sua pelle."
- health.2101.typhus_outbreak.desc: "Un pericoloso caso di febbre da campo si è insinuato a corte. Eruzioni cutanee, tosse e febbre assalgono i malati."
- health.2101.typhus_spreads.desc: "Un altro caso di tifo si è manifestato."
+
  health.2101.consumption_outbreak.desc: "La tosse si diffonde in tutta la corte. La consunzione si aggira per i corridoi, mietendo la sua prima vittima."
  health.2101.consumption_spreads.desc: "Altre anime sfortunate si trovano nella morsa della consunzione."
- health.2101.measles_outbreak.desc: "L'eruzione cutanea che si è sviluppata sulla pelle dei malati era evidente: il morbillo è stato scoperto a corte."
- health.2101.measles_spreads.desc: "Sempre più persone si ammalano e sviluppano sulla pelle le eruzioni cutanee livide che testimoniano la presenza del morbillo."
  health.2101.dysentery_outbreak.desc: "Il fetore che circonda il luogo racconta una storia a sé stante. A corte è stata scoperta la dissenteria."
  health.2101.dysentery_spreads.desc: "Continuano ad emergere altri casi di dissenteria, con i bagni occupati giorno e notte."
- health.2101.ergotism_outbreak.desc: "L'ergotismo si è manifestato nella corte e i movimenti a scatti della vittima lo hanno reso evidente a tutti i presenti."
- health.2101.ergotism_spreads.desc: "Altri casi di ergotismo continuano a colpire le vittime, incendiando gli arti sotto la pelle.."
  health.2101.imporant.desc:0 "[sick_character.Custom('DE_ART_DEF_P_D')] mi[sick_character.Custom('DE_END_PRO_S_N')] pover[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] sta combattendo per la sua vita."
  health.2101.prisoner.desc:0 "La sfortunata vittima è [sick_character.GetTitledFirstName], uno dei miei prigionieri."
  health.2101.courtier_or_guest.desc:0 "La sfortunata vittima è [sick_character.Custom('DE_ART_DEF_P_A')] mi[sick_character.Custom('DE_END_PRO_S_N')] pover[sick_character.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]."
@@ -241,8 +236,6 @@ health.2101.b: 0 "[sick_character.Custom('IT_NAM_COL3')][sick_character.GetTitle
  disease_early_great_pox:0 "herpes."
  disease_great_pox:0 "sifilide."
  disease_smallpox:0 "vaiolo."
- disease_measles: "morbillo."
- disease_ergotism: "fuoco sacro."
  disease_dysentery: "dissenteria."
  missing_illness:0 "#D Malattia assente #!"
  health.2201.minor_disease.desc:0 "\n\nNormalmente, un piccolo disturbo non sarebbe motivo di grande preoccupazione, tuttavia la salute di [sick_character.GetFirstName] è fragile e questo potrebbe essere troppo per [sick_character.GetSheHe]."
@@ -286,8 +279,7 @@ health.2101.b: 0 "[sick_character.Custom('IT_NAM_COL3')][sick_character.GetTitle
  # Recruit physician event
  health.3001.disease.t:0 "[SCOPE.Custom('EventTitleDisease')]:"
  health.3001.t:0 "Medico di [ROOT.Char.Custom('GetCourt')|U]"
-health.3001.fallback_reason.desc: 0 "Questo mondo è pieno di pericoli, anche per [ROOT.Char.GetTitleTierName] e [Select_CString(ROOT.Char.IsFemale,'la sua','il suo')] [ROOT.Char.Custom('GetCourt')].\n\nHo chiesto in giro per avere raccomandazioni e ho riunito alcune opzioni fra cui scegliere."
-health.3001.decision.desc: 0 "Questo mondo è pieno di pericoli, anche per [ROOT.Char.GetTitleTierName] e [Select_CString(ROOT.Char.IsFemale,'le sue','i suoi')] [ROOT.Char.Custom('GetCourtierPlural')]. Su mio incarico, i miei servitori hanno chiesto raccomandazioni. Ora hanno riunito alcune opzioni fra cui scegliere."
+ health.3001.decision.desc: 0 "Questo mondo è pieno di pericoli, anche per [ROOT.Char.GetTitleTierName] e [Select_CString(ROOT.Char.IsFemale,'le sue','i suoi')] [ROOT.Char.Custom('GetCourtierPlural')]. Su mio incarico, i miei servitori hanno chiesto raccomandazioni. Ora hanno riunito alcune opzioni fra cui scegliere."
  health.3001.already_sick.desc:0 "Alla fine, i miei servitori hanno trovato alcune persone che potrebbero essere idonee per il ruolo di medico. Ad ogni modo, temo di non potermi permettere di essere pignol[ROOT.Char.Custom('DE_END_PRO_S_N')] in questo momento."
  health.3001.a:0 "A quanto pare, [high_skill_option.GetFirstNameNoTooltip] possiede una certa esperienza."
  health.3001.a.tt:1 "Un [GetCourtPositionType('court_physician_court_position').GetName()] riceve anche un salario mensile di [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"

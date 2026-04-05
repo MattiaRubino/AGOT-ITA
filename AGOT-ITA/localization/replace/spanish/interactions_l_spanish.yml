@@ -3,7 +3,8 @@
  vassal_contract_forbids_revocation:2 "Non puoi revocare [titles|E] da un [vassal|E] che ha un [vassal_contract|E] con la #high $title_revocation_rights_protected$#!"
  EFFECTS_ON_ME:1 "Effetti [Character.Custom('IT_NAM_COL')]#high [Character.Custom('AGOTCustomGetUINameOrMe')]#!"
  can_be_granted_titles_interaction_tt:0 "Le [recipient.GetWomenMen|U] devono essere di genere Dominante, Paritario o Clericale all'interno della tua [faith|E] ([actor.GetFaith.GetName]), oppure devono essere sia il tuo [primary_heir|E] sia possedere il [trait|E] [GetTrait('education_heir_training_1').GetName( GetNullCharacter )]"
- 
+ vassal_modify_vassal_contract_obligation_change_limit:0 "Non puoi proporre più di #V [GetPlayer.MakeScope.ScriptValue('max_contract_changes')|0]#! modifiche alla volta"
+
  #End AGOT modifiche
 
  ANSWER_YES:1 "#P Accetterà#!"
@@ -1262,7 +1263,6 @@ marriage_interaction.0043.desc_spouse: "Ho rilasciato il/la tuo/a [secondary_rec
 
  MODIFY_VASSAL_CONTRACT_SELECT_DIFFERENT_OBLIGATION_LEVEL:2 "Devi proporre una modifica per un nuovo [vassal_contract|E]"
  VASSAL_MODIFY_VASSAL_CONTRACT_CANNOT_INCREASE_OBLIGATION_LEVEL:2 "Devi proporre uno scambio paritario tra obblighi e [hooks|E], attuali cambiamenti in favore di [SelectLocalization( GreaterThan_CFixedPoint( '(CFixedPoint)$VALUE|q$', '(CFixedPoint)0.0' ), CHARACTER.GetShortUIName, TARGET_CHARACTER.GetShortUIName )]: [Abs_CFixedPoint( '(CFixedPoint)$VALUE|q$' )|V0]"
- vassal_modify_vassal_contract_obligation_change_limit:0 "Non puoi proporre più di #V [EmptyScope.ScriptValue('max_contract_changes')|0]#! cambi alla volta"
  vassal_modify_vassal_contract_unnecessary_hook_usage_vassal_favor:0 "Non puoi utilizzare un [hook|E] su un contratto già a favore del [vassal|E], attuali cambiamenti in favore di [TARGET_CHARACTER.GetShortUIName]: $VALUE|V0$"
  vassal_modify_vassal_contract_unnecessary_hook_usage_equal:0 "Non puoi utilizzare un [hook|E] su un contratto che è giusto per il [vassal|E]"
  LIEGE_MODIFY_VASSAL_CONTRACT_CANNOT_EXCEED_TYRANNY_CAP:0 "Non puoi richiedere più di un cambiamneto [tyrannical|E]"

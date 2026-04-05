@@ -1,4 +1,11 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ message_filter_accolade_succession: "@accolade_icon! Successione del Capitano"
+ message_filter_tournament_knight_arrives: "@tournament_icon! Nuovi Capitani"
+ message_filter_tournament_qualification_knight: "@tournament_icon! Qualificazione del Capitano"
+
+
+ #End AGOT modifiche
 
  message_filter: "Filtro Messaggi"
  message_filter_generic_interface_message_good: "@catch_all_icon! Messaggi Generici Positivi"
@@ -296,18 +303,15 @@ message_filter_scheme_completion_desc: "Un [scheme|E] completa una [scheme_phase
  message_filter_accolade_activity_desc: "Un [accolade|E] di tua proprietà viene attivato o disattivato"
  message_filter_accolade_rank: "@accolade_icon! Nuovo Grado"
  message_filter_accolade_rank_desc: "Un [accolade|E] di tua proprietà cambia Rango"
- message_filter_accolade_succession: "@accolade_icon! Successione del Cavaliere"
  message_filter_accolade_succession_desc: "Il tuo [acclaimed_knight|E] cambia"
  # ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! Arrivo di un Governante"
  message_filter_tournament_arrival_desc: "Un [ruler|E] importante arriva come [activity_guest|E] al/alla tuo/a [GetActivityType( 'activity_tournament' ).GetName]"
- message_filter_tournament_knight_arrives: "@tournament_icon! Nuovi Cavalieri"
  message_filter_tournament_knight_arrives_desc: "Un [knight|E] di spicco arriva come [activity_guest|E] al/alla tuo/a [GetActivityType( 'activity_tournament' ).GetName]"
  message_filter_tournament_qualification: "@tournament_icon! Qualificazione"
  message_filter_tournament_qualification_desc: "La tua [contest_qualification|E] per una [contest|E] [GetActivityType( 'activity_tournament' ).GetName] cambia"
  message_filter_tournament_qualification_champion: "@tournament_icon! Qualificazione del Campione"
  message_filter_tournament_qualification_champion_desc: "La [contest_qualification|E] del tuo Campione per una [contest|E] [GetActivityType( 'activity_tournament' ).GetName] cambia"
- message_filter_tournament_qualification_knight: "@tournament_icon! Qualificazione del Cavaliere"
  message_filter_tournament_qualification_knight_desc: "La [contest_qualification|E] dei tuoi [knights|E] per una [contest|E] [GetActivityType( 'activity_tournament' ).GetName] cambia"
  # HOLY ORDER
  message_filter_holy_order_founded: "@holy_order_icon! Fondazione della Fede"

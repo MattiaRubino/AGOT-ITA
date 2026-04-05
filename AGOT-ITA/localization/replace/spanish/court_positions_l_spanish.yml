@@ -1,8 +1,6 @@
 ﻿l_spanish:
  #start AGOT modofiche
  APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Sostituisci #high [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.Custom('AGOTCustomGetTitledFullNameDynasty')]#! come [AppointCourtPositionView.GetCourtPositionType.GetName]"
- COURT_POSITION_REPLACE:0 "#T Sostituisci #high [Character.Custom('AGOTCustomGetTitledFullNameDynasty')]#!#!"
- COURT_POSITION_REVOKE:0 "#T Licenzia #high [Character.Custom('AGOTCustomGetTitledFullNameDynasty')]#!#!"
  court_jester_court_position:0 "Giullare di Corte"
  court_jester_court_position_desc:1 "Un $court_jester_court_position$ – è lì per intrattenere sia il suo Signore che gli ospiti che visitano la corte. Mentre un abile gioco di parole può essere apprezzato di tanto in tanto, una bella caduta strappa sempre una risata."
  royal_architect_court_position:0 "Architetto"
@@ -15,6 +13,11 @@
  court_position_reforge_vs: 0 "Conosce i segreti della riforgiatura dell'Acciaio di Valyria"
  eparch_court_position: "Jovēnnio"
  eparch_court_position_desc: "Il Jovēnnio è il principale amministratore e l'autorità suprema della capitale, secondo soltanto al monarca regnante."
+ COURT_POSITION_REPLACE:0 "#T Sostituisci [AGOTGetUINameNoTooltip(Character)|V]#!"
+ COURT_POSITION_REVOKE:0 "#T Licenzia [AGOTGetUINameNoTooltip(Character)|V]#!"
+ travel_leader_court_position_desc:0 "[SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] ti assiste durante i viaggi e si occupa di tutti gli itinerari. Il suo scopo è assicurarsi che tu giunga a destinazione sano e salvo e in tempo."
+ hire_travel_leader_decision:0 "Cerca [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )]"
+ hire_travel_leader_decision_desc:0 "Un buon [SelectLocalization( GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_pirate_trigger_check' ), 'travel_leader_pirate', 'travel_leader_court_position' )] è la chiave per un viaggio riuscito. Richiederò che mi vengano proposti alcuni candidati adatti."
  
  #End AGOT modifiche
 
@@ -543,12 +546,9 @@ court_position_innovation_mural_sextant: "[dynasty|E] ha $fp3_innovation_mural_s
   cave_hermit_court_position_tt:0 "Hai trovato un #V [GetCourtPositionType( 'cave_hermit_court_position' ).GetName()]#! durante i tuoi [travels|E]"
 
   travel_leader_court_position:0 "Carovaniere"
-  travel_leader_court_position_desc:0 "Il $travel_leader_court_position$ ti assiste nei viaggi facendosi carico di tutti gli itinerari. Il suo fine è quello di condurti a destinazione in sicurezza e in tempo."
 
-  hire_travel_leader_decision:0 "Cerca un $travel_leader_court_position$"
   hire_travel_leader_decision_tooltip:0 "I tuoi servitori ti suggeriranno un numero di candidati idonei per la mansione di [GetCourtPositionType('travel_leader_court_position').GetName()]"
   travel_leader_court_position_custom_desc: "$EFFECT_LIST_BULLET$Fornisce [travel_safety|E]@travel_safety_icon! e [travel_speed|E]@travel_speed_icon! durante i [travels|e]"
-  hire_travel_leader_decision_desc:0 "Un abile $travel_leader_court_position$ è la chiave per un viaggio di successo. Chiederò che venga suggerito un numero di candidati adeguati."
   hire_travel_leader_decision_confirm:0 "Inizia la ricerca"
   caravan_master_prepare_travels: "Fare Scorta per i Viaggi"
   caravan_master_prepare_travels_desc: "Questo personaggio ha il compito di preparare il prossimo viaggio del suo Signore."

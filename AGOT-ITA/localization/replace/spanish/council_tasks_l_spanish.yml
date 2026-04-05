@@ -1,4 +1,12 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ task_manage_guards:0 "Gestisci le Guardie della Casata"
+ task_manage_guards_knight_modifier:0 "Gestisci le Guardie della Casata: Efficacia del Capitano"
+ task_manage_guards_scheme_modifier:0 "Gestisci le Guardie della Casata: Probabilità di Successo dei Piani Ostili Nemici"
+ task_manage_guards_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P Capitano Migliorato#!"
+ task_manage_guards_knight_wounded:0 "\n$EFFECT_LIST_BULLET$#N Capitano Ferito#!"
+ task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Guardie della Casata Disorganizzate#!"
+ #End AGOT modifiche
 
 ACTIVE_COUNCIL_TASK_TT: 2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFemale,'La mia','Il mio')] [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] ha l'incarico di [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT:1 "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Assegna un personaggio a questa posizione nel consiglio per continuare a procedere con l'incarico#!"
@@ -193,7 +201,6 @@ ACTIVE_COUNCIL_TASK_TT: 2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFem
  task_increase_control_loss_of_crown_authority:0 "\n$EFFECT_LIST_BULLET$#N Perdita di Autorità della Corona#!"
  task_domestic_affairs_notification_tooltip:0 "Dall'incarico $task_domestic_affairs$"
 
- task_manage_guards:0 "Gestisci le Guardie Reali"
  task_manage_guards_knights_desc:1 "[knight_effectiveness|E]: #P +[SCOPE.ScriptValue('marshal_overtime_boost_scale')|1]%#!\nAumenta di #P +[SCOPE.ScriptValue('marshal_overtime_boost_monthly_increase')]%#!/mese fino a #P +[SCOPE.ScriptValue('marshal_overtime_boost_max')]%#!\n$TAB$[martial_skill|E] del [councillor.Custom('GetCouncillorKurultaiMember')]: #P +[SCOPE.ScriptValue('marshal_overtime_boost_base')|2]#!"
  task_manage_guards_erudition_bonus_knights:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P +[SCOPE.ScriptValue('marshal_manage_guards_max_erudition_bonus')|P]%#!"
  task_manage_guards_family_business_bonus_knights:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P +[SCOPE.ScriptValue('marshal_manage_guards_max_family_business_bonus')|P]%#!"
@@ -202,12 +209,7 @@ ACTIVE_COUNCIL_TASK_TT: 2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFem
  task_manage_guards_erudition_bonus_scheme:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P -[SCOPE.ScriptValue('marshal_manage_guards_max_erudition_bonus')|P]%#!"
  task_manage_guards_family_business_bonus_scheme:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P -[SCOPE.ScriptValue('marshal_manage_guards_max_family_business_bonus')|P]%#!"
  task_manage_guards_consulted_house_bonus_scheme:0 "\n$TAB$$unity_consulted_house_member_desc$: #P -[SCOPE.ScriptValue('marshal_manage_guards_max_consulted_house_bonus')|P]%#!"
- task_manage_guards_knight_modifier:0 "Gestisci la Guardia Reale: Efficacia dei Cavalieri"
- task_manage_guards_scheme_modifier:0 "Gestisci la Guardia Reale: Probabilità di Successo del Complotto Nemico Ostile"
- task_manage_guards_knight_improved:0 "\n$EFFECT_LIST_BULLET$#P Cavaliere Migliorato#!"
  task_manage_guards_scheme_disrupted:0 "\n$EFFECT_LIST_BULLET$#P Complotto Ostile Interrotto#!"
- task_manage_guards_knight_wounded:0 "\n$EFFECT_LIST_BULLET$#N Cavaliere Ferito#!"
- task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Guardie Reali Disorganizzate#!"
  task_manage_guards_notification_tooltip:0 "Dall'incarico $task_manage_guards$"
 
  SCALED_COUNCILLOR_MARTIAL_VALUE:2 "[martial_skill|E] [councillor.GetCouncilTitle] [councillor.GetShortUIName]"

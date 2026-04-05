@@ -1,4 +1,15 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ action_find_accolade_successor_HELP:1 "\n\n#help Un Successore #EMP deve#! soddisfare i requisiti dell'[accolade_type|E] Primario della [accolade|E], ma provoca una minore perdita di [glory|E] se soddisfa anche i requisiti dell'[accolade_type|E] Secondario.\n\nUn [knight|E] idoneo può essere trovato anche reclutando [guests|E], tramite [marriage|E], l'[interaction|E] Invita a Corte o la [decision|E] Invita Capitani.#!"
+ action_find_accolade_successor_click:0 "#I Clicca per visualizzare i tuoi Capitani#!"
+ action_find_accolade_successor_unimportant:0 "@warning_icon! #X $find_suitable_accolade_successor_interaction$ non è attualmente disponibile#!"
+ action_find_accolade_successor_combined_unimportant:0 "@warning_icon! #X Non ci sono Successori validi tra i tuoi Capitani"
+ action_accolade_successor_available_click:0 "#I Clicca per visualizzare i tuoi Capitani#!"
+ action_empty_accolade_slot_unimportant:1 "@warning_icon! #X Il Capitano potrebbe anche essere un Successore valido per un'Accolade esistente"
+ action_empty_accolade_slot_click:0 "#I Clicca per visualizzare i tuoi Capitani#!"
+ action_inactive_accolade_HELP:0 "\n\n#help Se un'[inactive_accolade|e] è vacante, assegnale un [knight|e]. Una volta che avrà un Capitano Acclamato, l'Accolade potrà essere Ripristinata, recuperando i suoi effetti senza alcun costo in [prestige|e].\n\nPotresti invece voler Distruggere permanentemente un'Accolade Inattiva e così rimuovere l'assegnazione del suo Capitano Acclamato.#!"
+ action_inactive_accolade_click:0 "#I Clicca per visualizzare i tuoi Capitani#!"
+ #End AGOT modifiche
 
  IMPORTANT_ACTION_CLICK_TO_HIDE:0 "#I Clicca per nascondere tutto#!"
  IMPORTANT_ACTION_CLICK_TO_EXPAND:0 "#I Clicca per mostrare tutto#!"
@@ -715,21 +726,16 @@ action_can_ask_hof_for_claim_label: 0 "@hof_icon! Il tuo Capo della Fede, [secon
  action_find_accolade_successor_label:1 "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#! ha bisogno di un degno Successore"
  action_find_accolade_successor_combined_label:0 "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#!"
  action_find_accolade_successor_desc:1 "Considera l'utilizzo dell'interazione #high $find_suitable_accolade_successor_interaction$#! (nella scheda Cambia Successore dell'Encomio) per evitare che questo diventi un [inactive_accolade|e] alla [accolade_succession|E].$action_find_accolade_successor_HELP$"
- action_find_accolade_successor_HELP:1 "\n\n#help Un successore #EMP deve#! soddisfare i requisiti Primari del [Concept( 'accolade_type', 'tipo' )|E] di [accolade|E], ma fa ottenere meno [glory|E] se soddisfa anche i requisiti del [accolade_type|E] Secondaro.\n\nUn [knight|E] idoneo  può essere trovato anche reclutando [guests|E], attraverso il [marriage|E], l'[interaction|E] Invita a Corte o tramite la [decision|E] Invita Cavalieri.#!"
- action_find_accolade_successor_click:0 "#I Clicca per visualizzare i tuoi Cavalieri#!"
- action_find_accolade_successor_unimportant:0 "@warning_icon! #X $find_suitable_accolade_successor_interaction$ al momento non è disponibile#!"
 
  action_find_accolade_successor_combined_group_name:0 "@acclaimed_knight_icon! L'Encomio manca di un Successori"
  action_find_accolade_successor_combined_group_label:0 "@acclaimed_knight_icon! L'Encomio manca di Successori"
  action_find_accolade_successor_combined_group_description:0 "Hai dei [acclaimed_knights|E] che sono senza successori e senza candidati validi: alla [accolade_succession|E], ogni [accolade|e] che diventa vacante viene reso [inactive_accolade|e].$action_find_accolade_successor_HELP$"
- action_find_accolade_successor_combined_unimportant:0 "@warning_icon! #X Non ci sono Successori validi tra i tuoi Cavalieri."
 
  action_accolade_successor_available:0 "@acclaimed_knight_icon! È disponibile un Successore per l'Encomio"
  action_accolade_successor_available_label:0 "@acclaimed_knight_icon! Puoi nominare un valido successore di #high [recipient.GetNameNoTooltip]#!"
  action_accolade_successor_available_combined_label:0 "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#!"
  action_accolade_successor_available_desc:0 "Nominare un successore valido per il tuo [acclaimed_knight|E] eviterà che questo diventi un [inactive_accolade|e] al momento della [accolade_succession|e].$action_accolade_successor_available_HELP$"
  action_accolade_successor_available_HELP:0 "\n\n#help I successori soddisfano i requisiti Primari del [accolade_type|E] e possono o meno soddisfare anche i requisiti dell'Attributo Secondario del loro [accolade|e]\n\nSe vengono soddisfatti solo i requisiti primari, ciò può modificare l'attributo secondario dell'Encomio alla Successione e causare una perdita di [glory|e]."
- action_accolade_successor_available_click:0 "#I Clicca per visualizzare i tuoi Cavalieri#!"
 
  action_accolade_successor_available_combined_group_name:0 "@acclaimed_knight_icon! Successori degli Encomi Disponibili"
  action_accolade_successor_available_combined_group_label:0 "@acclaimed_knight_icon! Puoi nominare i Successori degli Encomi"
@@ -739,15 +745,11 @@ action_can_ask_hof_for_claim_label: 0 "@hof_icon! Il tuo Capo della Fede, [secon
  action_empty_accolade_slot_label:1 "@acclaimed_knight_icon! Puoi creare un Encomio"
  action_empty_accolade_slot_desc:1 "Sei al di sotto del tuo numero massimo di [accolades|E] e uno dei tuoi [knights|e] può essere nominato [acclaimed_knight|e].$action_empty_accolade_slot_HELP$"
  action_empty_accolade_slot_HELP:1 "\n\n#help A meno che non ci sia un [inactive_accolade|E] che vorresti invece reintegrare, dovresti considerare di spendere [prestige|e] per creare un nuovo Encomio.#!"
- action_empty_accolade_slot_unimportant:1 "@warning_icon! #X Il Cavaliere può altresì essere un valido Successore per un Encomio esistente"
- action_empty_accolade_slot_click:0 "#I Clicca per visualizzare i tuoi Cavalieri#!"
 
  action_inactive_accolade:0 "@acclaimed_knight_icon! Puoi Ripristinare un Encomio Inattivo"
  action_inactive_accolade_label:0 "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#! Può essere Ripristinato"
  action_inactive_accolade_combined_label:0 "@acclaimed_knight_icon! #high [recipient.GetNameNoTooltip]#!"
  action_inactive_accolade_desc:0 "[recipient.GetName] ha un [acclaimed_knight|e] assegnato o un candidato idoneo ad essere Assegnato.$action_inactive_accolade_HELP$"
- action_inactive_accolade_HELP:0 "\n\n#help Se un [inactive_accolade|e] è vuoto, assegnagli un [knight|e]. Una volta Creato un Cavaliere Acclamato, l'Encomio può essere ripristinanto, senza alcun costo di [prestige|e].\n\nPotresti invece desiderare di Distruggere permanentemente un'Encomio inattivo e quindi rimuovere l'assegnazione del suo Cavaliere Acclamato.#!"
- action_inactive_accolade_click:0 "#I Clicca per visualizzare i tuoi Cavalieri#!"
 
  action_inactive_accolade_combined_group_label:0 "@acclaimed_knight_icon! Gli Encomi Inattivi possono essere Ripristinati"
  action_inactive_accolade_combined_group_name:0 "@acclaimed_knight_icon! Inactive Accolades can be Reinstated"

@@ -1,4 +1,12 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] è già un Capitano Acclamato"
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] è già il Capitano Acclamato o il Successore di un'Accolade"
+ ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] è già il Capitano Acclamato o il Successore di questa Accolade"
+ ACCOLADE_KNIGHT_MODIFIERS:0 "#S Modificatori del Capitano:#!"
+ accolade_charmer_party_modifier_desc:0 "Il capitano più lascivo di questo personaggio sta trascinando la tavola d'onore verso una licenziosa allegria."
+ accolade_charmer_party_high_modifier_desc:0 "Il capitano dongiovanni di questo personaggio guida la tavola d'onore in ardenti dissolutezze."
+  #End AGOT modifiche
 
  ACCOLADE_ADJECTIVE_NOUN:0 "$NOUN$ $ADJECTIVE$"
  ACCOLADE:0 "Encomio"
@@ -23,10 +31,7 @@
  ACCOLADE_SHOW:1 "Mostra [accolade|E]"
  ACCOLADE_OWNER_ALREADY_HAS_ACCOLADE_OF_TYPE:1 "Il proprietario ha già un [accolade|E] attivo di tipo $TYPE$"
  ACCOLADE_NOT_ENOUGH_POTENTIAL_TYPES:0 "[Character.GetNameNoTooltip] non soddisfa i requisiti di almeno due tipi di encomi"
- ACCOLADE_CHARACTER_ALREADY_ACCLAIMED:0 "[Character.GetNameNoTooltip] è già un Cavaliere Acclamato"
  ACCOLADE_CHARACTER_ALREADY_SUCCESSOR:0 "[Character.GetNameNoTooltip] è già il successore di un [accolade|E]"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR:0 "[Character.GetNameNoTooltip] è già il Cavaliere Acclamato o il successore di un Encomio"
- ACCOLADE_CHARACTER_ALREADY_HEAD_OR_SUCCESSOR_THIS:0 "[Character.GetNameNoTooltip] è già il Cavaliere Acclamato o il successore di questo Encomio"
  ACCOLADE_SUCCESSOR:0 "Successore"
  ACCOLADE_SUCCESSOR_NAME:0 "Successore: [Accolade.GetSuccessor.GetUIName]"
  ACCOLADE_ACCLAIMED_KNIGHT:0 "$knight_culture_player_no_tooltip$ Acclamato"
@@ -66,7 +71,6 @@
  ACCOLADE_CHANGE_SECONDARY_TYPE:0 "Cambia $ACCOLADE_SECONDARY_TYPE$"
  CREATE_ACCOLADE_CANNOT_CHANGE_TYPES:0 "@warning_icon! #X [Character.GetShortUINameNoTooltip] non soddisfa i requisiti di altri [accolade_types|E] se non di quelli attualmente selezionati #!"
  ACCOLADE_LIEGE_MODIFIERS:0 "#S Modificatori del Signore:#!"
- ACCOLADE_KNIGHT_MODIFIERS:0 "#S Modificatori del Cavaliere:#!"
  ACCOLADE_KNIGHT_ARMY_MODIFIERS:1 "#S [knight_army_modifiers|e]:#!"
  ACCOLADE_UNLOCKS:0 "#S Sblocca:#!"
  CREATE_ACCOLADE_NO_ACCLAIMED_KNIGHTS:0 "@warning_icon! #X Non hai nessun $knight_culture_player_no_tooltip$ che possa essere nominato [acclaimed_knight|E] #!"
@@ -170,11 +174,9 @@ gunpowder_attribute_modifier: "$gunpowder_attribute$ [acclaimed_knight|E]"
 
  accolade_party_fertility:0 "$EFFECT_LIST_BULLET$L'organizzazione di [GetActivityType('activity_feast').GetName] o [GetActivityType( 'activity_wedding' ).GetName] fornisce un incremento della [fertility|E] e dell'[opinion|E] di [attraction|E]"
  accolade_charmer_party_modifier:0 "Festeggiamenti Licenziosi"
- accolade_charmer_party_modifier_desc:0 "Il cavaliere più salace di questo personaggio sta conducendo i partecipanti al tavolo d'onore verso una goliardia licenziosa."
 
  accolade_party_fertility_high:0 "$EFFECT_LIST_BULLET$L'organizzazione di [GetActivityType('activity_feast').GetName] o [GetActivityType( 'activity_wedding' ).GetName] fornisce un notevole incremento della [fertility|E] e dell'[opinion|E] di [attraction|E]"
  accolade_charmer_party_high_modifier:0 "Festeggiamenti Follemente Licenziosi"
- accolade_charmer_party_high_modifier_desc:0 "Il cavaliere più dongiovanni fra quelli al servizio di questo personaggio sta conducendo il tavolo d'onore verso ardenti passioni carnali."
 
  # SKILLED ATTRIBUTES
  politicker_attribute:0 "Politicante"

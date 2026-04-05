@@ -1,6 +1,7 @@
 ﻿l_spanish:
  #start AGOT modifiche
  GRANT_TO_SAME_CULTURE_NOBLE_HEADER:0 "Un Nobile con la Cultura [GetPlayer.Custom('same_culture_noble_header')]"
+ TITLE_VIEW_TITLE_HISTORY_LABEL:2 "[SelectLocalization( Title.MakeScope.Var('is_pirate_domicile').IsSet, 'TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP', 'TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP' )]"
  #End AGOT modifiche
 
  TITLE_VIEW_OWNED_BY:0 "All'interno del [CHARACTER.GetLiege.LocalPlayerString( ' tuo', '' )] [realm|E][CHARACTER.GetLiege.LocalPlayerString( '', ' di ' )][CHARACTER.GetLiege.LocalPlayerString( '', 'Loc_FR_le_GetShortUIName_U' )]"
@@ -32,7 +33,6 @@ TITLE_VIEW_TREASURY_TEXT: "[treasury_i]$VALUE|0V$"
  TITLE_VIEW_CLAIMANTS:1 "Pretendenti: [TitleViewWindow.GetNumberOfClaimants]"
  TITLE_VIEW_NO_CLAIMANTS:0 "Non può avere pretendenti"
  TITLE_VIEW_NO_CLAIMANTS_TOOLTIP:0 "#T $TITLE_VIEW_NO_CLAIMANTS$\n#!Alcuni [titles|E] non possono avere [claimants|E]: \n$BULLET_WITH_TAB$All [baronies|E]\n$BULLET_WITH_TAB$[mercenary_company|E] Titles\n$BULLET_WITH_TAB$[holy_order|E] Titles\n$BULLET_WITH_TAB$[head_of_faith|E] Titles"
- TITLE_VIEW_TITLE_HISTORY_LABEL:2 "Cronologia [Title.Custom('IT_COU_COL')][Title.GetBaseName]"
  TITLE_VIEW_SHOW_ELECTION_TT:2 "#T Mostra Elezioni#!"
  TITLE_VIEW_CLEAR_LAWS:0 "Rimuovi Legge"
  TITLE_VIEW_CLEAR_LAWS_TOOTLIP_TITLE:0 "#T Elimina Legge [title_succession|E]#!"

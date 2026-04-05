@@ -1,4 +1,8 @@
 ﻿l_spanish:
+ #start AGOT modifiche
+ artifact_lost_in_siege:0 "[this_artifact.GetName] finì nelle mani di [SAISE_attacker.GetShortUINameNoTooltip] durante l'assedio di [SAISE_location.GetNameNoTooltip]"
+ artifact_lost_in_raid:0 "[this_artifact.GetName] finì nelle mani di [SAISE_attacker.GetShortUINameNoTooltip] durante la razzia contro [SAISE_location.GetNameNoTooltip]"
+  #End AGOT modifiche
 
  # Debug
  test_artifact_name:0 "Manufatto di [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"
@@ -7,8 +11,6 @@
  
  # Notification localization
  artifact_lost_toast:0 "Manufatto Perso"
- artifact_lost_in_siege:0 "[SAISE_artifact.GetName] è stato rubato da [SAISE_attacker.GetShortUINameNoTooltip] durante l'assedio di [SAISE_location.GetNameNoTooltip]"
- artifact_lost_in_raid:0 "[SAISE_artifact.GetName] è stato rubato da [SAISE_attacker.GetShortUINameNoTooltip] nella sua incursione a [SAISE_location.GetNameNoTooltip]"
  artifact_seized_toast:0 "Manufatto Confiscato"
  artifact_seized_in_siege:0 "Ho confiscato [SAISE_artifact.GetName] dopo l'assedio di [SAISE_location.GetNameNoTooltip]"
  artifact_seized_in_raid:0 "Ho confiscato [SAISE_artifact.GetName] nella mia incursione a [SAISE_location.GetNameNoTooltip]"

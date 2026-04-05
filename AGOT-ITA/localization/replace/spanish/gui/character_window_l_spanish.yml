@@ -1,4 +1,9 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Successivo: [AGOTGetLongUIName(CHARACTER)|V]#!"
+ CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Precedente: [AGOTGetLongUIName(CHARACTER)|V]#!"
+ #End AGOT modifiche
+
 
  SPOUSE:0 "[spouse|E]"
  FORMER_SPOUSE:0 "Ex [spouse|E]"
@@ -183,8 +188,6 @@ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Il tuo [realm_priest|E] #emphasis non#
  CHARACTER_WINDOW_FIND_SPOUSE_SELF:1 "#T Trova un [spouse|E]\n#!Organizza un [marriage|E] per te stesso\n\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
  CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE:0 "#T Trova un [spouse|E]\n#!Organizza un [marriage|E]"
  CHARACTER_WINDOW_GOTO_FIND_SPOUSE:0 "#T Successivo: Trova un [spouse|E]#!"
- CHARACTER_WINDOW_GOTO_NEXT_SPOUSE:0 "#T Successivo: [CHARACTER.GetUIName]#!"
- CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE:0 "#T Precedente: [CHARACTER.GetUIName]#!"
  CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE:0 "#T Precedente: Trova un [spouse|E]#!"
  CHARACTER_WINDOW_GOTO_DIARCH:0 "#T Successivo: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
 
