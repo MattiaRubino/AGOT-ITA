@@ -6,11 +6,12 @@
   send_to_nightswatch_interaction_desc:0 "$dynasty_interaction_header$Manda via [recipient.GetShortUINameNoTooltip] affinché serva come scudo degli uomini nei Guardiani della Notte. Non genererà figli né deterrà terre, ma è un dovere sacro e onorevole."
   send_to_nightswatch_interaction_toast:1 "[recipient.GetShortUIName] è partito per i Guardiani della Notte"
   send_to_nightswatch_interaction_toast_desc:0 "Ora ha inizio il suo servizio."
-  
+
   CHARACTER_INTERACTION_NOT_ALLOWED_IN_NIGHTSWATCH:0 "[Select_CString(recipient.IsFemale,'Lei','Lui')] non può servire come [knight|E] nella [court|E] di destinazione"
-  
+
   send_to_nightswatch_interaction_effect_desc:1 "#weak [CHARACTER.GetShortUIName] lascerà la tua corte per servire nei Guardiani della Notte. [Select_CString(CHARACTER.IsFemale,'Lei','Lui')] rinuncerà a ogni eredità e diritto per servire nella difesa del regno.#!"
-  
+
+ #Maester
   agot_send_to_citadel_interaction:0 "Invia alla Cittadella"
   agot_send_to_citadel_interaction_desc:0 "Invia [recipient.GetFirstNameNoTooltip] alla Cittadella"
   agot_send_to_citadel_interaction_extra_icon:0 "$hook_extra_icon$"
@@ -42,10 +43,12 @@
   agot_the_citadel.1000.positive:0 "Sono lieto che [recipient.GetFirstNameNoTooltip] abbia compreso la saggezza di questa decisione."
   agot_the_citadel.1001.desc:0 "Il vostro suggerimento che io sradichi tutta la mia vita e corra alla Cittadella è ridicolo. Sono felice dove mi trovo, e non ho alcuna intenzione di cambiare."
   agot_the_citadel.1001.negative:0 "Davvero sfortunato..."
-  
+
+ #Silent Sister
   send_to_silent_sisterhood_interaction:0 "Invia alla Sorellanza del Silenzio"
   send_to_silent_sisterhood_interaction_desc:0 "Invia [recipient.GetShortUINameNoTooltip] a pronunciare i voti del silenzio e a unirsi alla sorellanza."
-  
+
+ #Septon
   take_vows_septon_interaction:0 "Chiedi di prendere i voti"
   take_vows_septon_interaction_desc:0 "Chiedi a [recipient.GetShortUINameNoTooltip] di prendere i voti e unirsi al clero"
   take_vows_septon_decline_summary:0 "Se [recipient.GetShortUINameNoTooltip] rifiuta, [Select_CString(recipient.IsFemale,'rimarrà','rimarrà')] nella tua [court|E]"

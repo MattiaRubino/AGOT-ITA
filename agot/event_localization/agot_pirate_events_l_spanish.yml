@@ -1,52 +1,52 @@
 ﻿l_spanish:
-  #Marked for Review
+ #Marked for Review
   agot_pirate_events.0003.t:0 "Usanze del Porto"
   agot_pirate_events.0003.desc:0 "Sono giunto al rifugio pirata di [port_name.GetName].\n\nNon appena metto piede sui moli, mi viene detto che devo pagare una tassa d'attracco una tantum di #P [SCOPE.GetValue('port_docking_fee')|0]#! @gold_icon!, e una tassa annuale attualmente fissata a #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!.\n\nLe tasse annuali possono cambiare all'improvviso secondo i capricci del proprietario del porto e vengono calcolate in base alle dimensioni della mia nave.\n\nVengo avvertito che il mancato pagamento della tassa annuale potrebbe comportare la #N prigionia!#!"
   agot_pirate_events.0003.a:0 "Capisco."
-  
+
   agot_pirate_events.0004.t:0 "Usanze del Porto"
   agot_pirate_events.0004.desc:0 "È tempo di pagare le tasse annuali del porto. Devo versare #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon! a [port_holder.GetName]."
   agot_pirate_events.0004.a:0 "Pagherò."
   agot_pirate_events.0004.b:0 "Mi rifiuto di pagare."
   agot_pirate_events.0004.c:0 "Forse posso usare la mia influenza per evitare questo pagamento..."
   agot_pirate_events.0004.c_tt:0 "Usare il tuo [strong_hook|E] su [port_holder.GetShortUIName] ti permetterà di evitare il pagamento richiesto per quest'anno."
-  
+
   agot_pirate_events.0100.t:0 "Diventare un Pirata"
   agot_pirate_events.0100.desc:0 "Ho abbandonato la mia vita da avventuriero e ho abbracciato la pirateria."
   agot_pirate_events.0100.a:0 "La vita del corsaro fa per me."
-  
+
   agot_pirate_events.0101.t:0 "Verso i Mari"
   agot_pirate_events.0101.desc:0 "Ho rinunciato ai miei titoli e alle mie terre per vivere come un capitano senza terre, legato soltanto al mare e alla mia nave."
   agot_pirate_events.0101.a:0 "La vita del corsaro è mia!"
-  
+
   agot_pirate_auto_join_port_war_interface_toast_title:0 "Guerra Difensiva Raggiunta"
   agot_pirate_auto_join_port_war_interface_toast:0 "Ti sei unito automaticamente alla guerra per il porto in cui ti trovi."
-  
+
   agot_pirate_events.0200.t:0 "Espulsione"
   agot_pirate_events.0200.desc:0 "[actor.GetName], il sovrano di [port_name.GetName], ha emanato un editto che mi impone di lasciare immediatamente il porto, o affrontare la prigionia!"
   agot_pirate_events.0200.a:0 "Allora salperò verso [new_destination.GetName]."
   agot_pirate_events.0200.b:0 "Lascia che [Select_CString(actor.IsFemale,'lei','lui')] provi ad arrestarmi!"
   agot_pirate_events.0200.c:0 "Le mie opzioni sono limitate; forse è giunto il momento di ritirarmi dalla pirateria."
-  
+
   agot_pirate_events.0200.msg_pirate_moved_title:0 "Il Pirata se n'è Andato"
   agot_pirate_events.0200.msg_pirate_moved_desc:0 "[recipient.GetName] ha obbedito alla tua richiesta di lasciare [port_name.GetNameNoTooltip]!"
-  
+
   agot_pirate_events.0200.msg_pirate_squatting_title:0 "Il Pirata si Rifiuta di Andarsene"
   agot_pirate_events.0200.msg_pirate_squatting_desc:0 "[recipient.GetName] si è rifiutat[Select_CString(recipient.IsFemale,'a','o')] di lasciare [port_name.GetNameNoTooltip]! Potresti tentare di sequestrare il [recipient.Custom('GetDomicileConcept')] tramite un [character_interaction|e]."
-  
+
   agot_pirate_events.0200.msg_pirate_renouncd_piracy_title:0 "Pirata Mai Più"
   agot_pirate_events.0200.msg_pirate_renouncd_piracy_desc:0 "[recipient.GetName] ha rinunciato alla pirateria in seguito ai tuoi sforzi per espellerl[recipient.Custom('DE_PRO_PER_S_3P_O')] da [port_name.GetNameNoTooltip]! Ora è un[recipient.Custom('DE_PRO_PER_P_3P_G')] [adventurer|e]."
-  
+
   agot_pirate_events.0300.t:0 "Tasse del Porto Rifiutate"
   agot_pirate_events.0300.desc:0 "[pirate.GetName], un pirata attraccato in uno dei miei porti, si è rifiutat[Select_CString(pirate.IsFemale,'a','o')] di pagarmi la tassa annuale di #P [SCOPE.GetValue('yearly_port_fee')|0]#! @gold_icon!."
   agot_pirate_events.0300.a:0 "Per ora chiuderò un occhio."
   agot_pirate_events.0300.b:0 "Sequestra la sua nave e imprigiona [Select_CString(pirate.IsFemale,'lei','lui')]."
-  
+
   agot_pirate_events.9000.t:0 "Sorge un Nuovo Capitano"
   agot_pirate_events.9000.desc:0 "Il capitano [dying_pirate_predecessor.GetName] è mort[dying_pirate_predecessor.Custom('DE_PRO_PER_S_3P_G')]! Mi è stato affidato il comando del #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTier]#! e ora governo come [Select_CString(ROOT.Char.IsFemale,'capitana','capitano')]."
   agot_pirate_events.9000.desc_maa_reset:0 "\n\nBenché il mio comando sia stato rapidamente riconosciuto in tutto il #italic [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]#!, vaste schiere di uomini d'arme temprati dalla battaglia, un tempo al servizio di [dying_pirate_predecessor.GetNameNoTooltip], se ne sono andate in cerca di nuove sfide.\n\nNon tutto è perduto, tuttavia, poiché la notizia della morte del mio predecessore ha cominciato ad attirare nuove lame desiderose di giurarmi fedeltà."
   agot_pirate_events.9000.a:0 "Il mio viaggio comincia."
-  
+
   agot_pirate_ship_succession_gui_tt:0 "@title_succession! I [agot_landless_pirate_domiciles|E] saranno ereditati dal tuo [player_heir|E], dal [pirate_ship_designated_heir|E], dal tuo [primary_heir|E], oppure da un [courtier|E] idoneo."
   you_are_an_landless_pirate_tt:0 "Sei un [GetGovernment('pirate_government').GetNameWithIcon]"
   agot_pirate_succession_invalid:0 "@warning_icon! Il tuo erede primario possiede già una nave pirata."
@@ -54,82 +54,82 @@
   agot_pirate_tax_results.t:0 "Tasse Portuali dei Pirati: Pagate"
   agot_pirate_tax_results.desc:0 "[pirate.GetShortUIName] ha pagato le tasse portuali richieste:"
   agot_pirate_tax_results.desc_used_hook_to_skip_taxes:0 "[pirate.GetShortUIName] ha usato il suo uncino forte su di te per #X evitare di pagare la tassa portuale di quest'anno#!."
-  
+
   agot_pirate_domicile_arrived_in_port.t:0 "Arrivo di un Pirata al Porto"
   agot_pirate_domicile_arrived_in_port.desc:0 "[pirate.GetShortUIName] è giunt[Select_CString(pirate.IsFemale,'a','o')] a [port_name.GetName]."
-  
+
   agot_pirate_domicile_departed_port.t:0 "Partenza di un Pirata dal Porto"
   agot_pirate_domicile_departed_port.desc:0 "[departing_pirate_ship_holder.GetShortUIName] è salpat[Select_CString(departing_pirate_ship_holder.IsFemale,'a','o')] da [departing_pirate_ship_location.GetName]."
-  
+
   agot_pirate_loot_collect:0 "Bottino della Razzia Raccolto"
   agot_pirate_loot_collect_tt:0 "[THIS.Var('raid_loot').GetValue|0] @gold_icon! aggiunti al Bottino dell'Armata."
-  
+
   agot_pirate_port_rate_changed.t:0 "Tariffa del Porto Modificata"
   agot_pirate_port_rate_changed.desc_01:0 "La tariffa del porto è cambiata in [GetLaw('pirate_tax_rate_01').GetName]."
   agot_pirate_port_rate_changed.desc_02:0 "La tariffa del porto è cambiata in [GetLaw('pirate_tax_rate_02').GetName]."
   agot_pirate_port_rate_changed.desc_03:0 "La tariffa del porto è cambiata in [GetLaw('pirate_tax_rate_03').GetName]."
   agot_pirate_port_rate_changed.desc_04:0 "La tariffa del porto è cambiata in [GetLaw('pirate_tax_rate_04').GetName]."
-  
+
   agot_pirate_events.9201.t:0 "Un'Impresa Desolante"
   agot_pirate_events.9201.desc:0 ""Mio signore," dice [colonist.GetName] con un sospiro stanco, "Questa terra è fatta per pirati e razziatori, non per contadini e mercanti. Il suolo è magro, la costa è pericolosa e i pirati infestano ancora acque e colline. Non posso farla prosperare senza il vostro aiuto — e anche allora temo che forse non varrà mai il costo."\n\nSe offrirò il mio aiuto, potrò mantenere queste terre sotto il mio dominio, ma il prezzo verrà mai ripagato, se davvero sono tanto sterili quanto afferma [colonist.GetFirstNameNoTooltip]? Eppure, è mio dovere da signore sostenere i miei vassalli nel bisogno, e se verrò meno a tale dovere, non si può sapere per quanto resteranno leali, o persino vassalli."
   agot_pirate_events.9201.a:0 "Avrai l'oro che ti occorre."
   agot_pirate_events.9201.b:0 "Questa è una tua responsabilità; da me non avrai nulla."
   agot_pirate_events.9201.b.tt:0 "[colonist.Custom('IT_NAM_COL3')][colonist.GetTitledFirstNameNoTooltip] potrebbe reagire male a questa decisione."
-  
+
   agot_pirate_events.9300.t:0 "Minaccia Esistenziale"
   agot_pirate_events.9300.desc:0 "[attacker.GetName] ha lanciato un'invasione per sconvolgere la pirateria nella regione. Data la gravità della minaccia, abbiamo automaticamente unito le forze con il nostro sovrano, [defender.GetName]!\n\nSe dovessimo perdere, il nostro territorio sarà ridotto a una landa selvaggia e le nostre navi pirata saranno disperse."
   agot_pirate_events.9300.a:0 "Dobbiamo prevalere."
-  
+
   forced_vassalage_perk_landless_pirate_name:0 "Capitano Carismatico"
   forced_vassalage_perk_landless_pirate_desc:0 "[GetPerk('forced_vassalage_perk').GetName(GetPlayer)]: $VALUE|+0=$"
   forced_vassalage_perk_landless_pirate_effect_desc:0 "[pirate_govt_i] [personal_scheme|E] [success_chance|E]: #P +20%#!"
 
   landless_pirate_strict_organization_perk_effect:0 "[pirate_govt_i] Completare un [siege|E] conferisce #V x20#! del valore di [loot|E] del possedimento come [provisions_i][provisions|E]."
-  
+
   landless_pirate_hard_rule_perk_effect:0 "[pirate_govt_i] La velocità delle [raid|E] aumenta del #P 15%#! quando il Consigliere [GetPlayer.GetCouncillorPosition('councillor_admiral').GetPositionName] svolge il compito [GetCouncilTaskType('task_admiral_raid').GetName|V]."
-  
+
   serve_the_crown_perk_pirate_name:0 "Servi il Capitano"
-  
+
   landless_pirate_enduring_hardships_perk_effect:0 "[pirate_govt_i] Aumenta la protezione contro gli [schemes|E] [GetScheme('agot_raid_pirate_domicile').GetTypeName]."
-  
+
   prepared_conscription_perk_pirate_name:0 "Chiamata alla Pirateria"
-  
+
   absolute_controlperk_landless_pirate_name:0 "Capitano al Comando"
   absolute_control_perk_landless_pirate_effect_1_modifier_desc:0 "[GetPerk('absolute_control_perk').GetName(GetPlayer)]: $VALUE|+0=$"
   absolute_control_perk_landless_pirate_effect_1:0 "[pirate_govt_i] I [courtiers|E] hanno meno probabilità di diventare [agents|E] in [hostile_schemes|E] contro di te."
-  
+
   martial_authority_landless_pirate_focus_desc:0 "Comandare una nave significa piegare tanto l'equipaggio quanto il mare al controllo di un[GetPlayer.Custom('DE_PRO_PER_P_3P_G')] [GetPlayer.GetWomanMan]."
   martial_authority_landless_pirate_focus:0 "Focus $martial_authority_focus_short$"
   martial_authority_landless_pirate_focus_modifier:0 "[GetFocus('martial_authority_landless_pirate_focus').GetName]"
   martial_authority_landless_pirate_focus_effect_desc:0 "Concentrarsi sull'Autorità conferisce:"
-  
+
   stewardship_duty_landless_pirate_focus:0 "$stewardship_duty_focus$"
   stewardship_duty_landless_pirate_focus_modifier:0 "[GetFocus('stewardship_duty_landless_pirate_focus').GetName]"
   stewardship_duty_landless_pirate_focus_effect_desc:0 "Concentrarsi sul Dovere conferisce:"
-  
+
   learning_scholarship_landless_pirate_focus:0 "$learning_scholarship_focus$"
   learning_scholarship_landless_pirate_focus_modifier:0 "[GetFocus('learning_scholarship_landless_pirate_focus').GetName]"
   learning_scholarship_landless_pirate_focus_effect_desc:0 "Concentrarsi sull'Erudizione conferisce:"
-  
+
   detailed_ledgers_landless_pirate_effect:0 "[pirate_govt_i] L'opzione di viaggio #V $experienced_captains_option$#! è gratuita."
-  
+
   detailed_ledgers_perk_landless_pirate_name:0 "Contatti Locali"
   professional_workforce_perk_pirate_name:0 "Lavoratori Tenaci"
   tax_man_perk_pirate_name:0 "Occhio per l'Oro"
   scientific_perk_landless_pirate_name:0 "Guerrieri Eruditi"
-  
+
   tax_man_perk_landless_pirate_effect:0 "[pirate_govt_i] La [court_position|e] di [GetCourtPositionType('travel_leader_court_position').GetName()] può essere assegnata senza alcun costo."
-  
+
   travel_leader_pirate:0 "Cambusiere"
   travel_leader_pirate_desc:0 "Il $travel_leader_pirate$ ti assiste durante i viaggi, assicurandosi che le provviste siano curate e che il viaggio proceda in sicurezza e secondo i tempi previsti."
-  
+
   organized_muster_rolls_perk_name_landless_pirate_name:0 "Novizi del Mare"
-  
+
   centralization_landless_pirate_perk_effect:0 "[pirate_govt_i] Visitare un [point_of_interest|E] [capital|E] migliora tutti i [courtiers|E] di #V 1#! punto [skill|E]."
-  
+
   popular_figurehead_landless_pirate_perk_effect:0 "[pirate_govt_i] Ottieni #V 10-15#! @dread_icon! [dread|E] quando viene costruito un [building|e] nel [domicile|e] #weak (fino a una volta l'anno)#!"
   popular_figurehead_landless_pirate_perk_name:0 "Popolarità nei Porti"
-  
+
   court_position_positions_of_landless_pirate_toe_the_line_perk_bonus:0 "Il datore di lavoro possiede [GetPerk('toe_the_line_perk').GetName(GetPlayer)]"
   toe_the_line_perk_landless_pirate_name:0 "Una Ciurma Leale"
   toe_the_line_landless_pirate_perk_effect_1:0 "[pirate_govt_i] [aptitude|E] della [court_position|e] di [GetCourtPositionType('travel_leader_court_position').GetName()]: #P +10#!"
@@ -138,18 +138,18 @@
 
   planned_cultivation_perk_landless_pirate_name:0 "Educazione dei Corsari"
   planned_cultivation_perk_landless_pirate_effect:0 "Il compito della [court_position|E] #V $physician_guard_family$#! costa il #P 50%#! in meno."
-  
+
   zealous_proselytizer_perk_landless_pirate_name:0 "Il Patronato Prima di Tutto"
   zealous_proselytizer_perk_pirate_effect:0 "Scegliere una divinità patrona costa il #P 50%#! in meno."
   zealous_proselytizer_perk_pirate_effect_2:0 "Il compito [GetCouncilTaskType('task_religious_relations').GetName|V] del consigliere $councillor_court_chaplain$ produce più @piety_icon! [piety|E]."
-  
+
   religious_icon_perk_landless_pirate_name:0 "Naviganti Benedetti"
   religious_icon_perk_landless_pirate_effect:0 "[pirate_govt_i] Ottieni #V 25-50#! @piety_icon! [piety|E] quando viene costruito un [building|e] nel [domicile|e] #weak (fino a una volta l'anno)#!"
 
   court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_landless_pirate_desc:1 "\n$TAB$[GetPerk('zealous_proselytizer_perk').GetName(GetPlayer)]: #P +[SCOPE.ScriptValue('court_chaplain_religious_relations_zealous_proselytizer_perk_bonus_modifier')]#!"
 
   my_realm_window_designated_pirate_ship_heir_display:0 "[MyRealmWindow.GetCharacter.MakeScope.Var('appointed_pirate_jank_heir').Char.GetUINameNoTooltip]"
-  
+
   MY_REALM_WINDOW_NO_LANDLESS_PIRATESHIP_HEIR_FLAVOR:0 "@warning_icon! #X Non hai alcun [pirate_ship_designated_heir|E]. Alla tua morte la partita terminerà#!"
-  
+
   liege_cannot_be_a_landless_pirate:0 "#X Non puoi essere un pirata senza terra!#!"

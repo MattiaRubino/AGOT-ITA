@@ -1,28 +1,41 @@
 ﻿l_spanish:
-  # Intro Events
+ # Intro Events
 
-  # Daemon II Blackfyre
-  #Available scopes daemon2/daemon1 (Daemon I Blackfyre)/bittercringe
+ # Daemon II Blackfyre
+ #Available scopes daemon2/daemon1 (Daemon I Blackfyre)/bittercringe
   agot_scenario_ats.1000.t:0 "Il Drago Nero all'Estero"
   agot_scenario_ats.1000.desc:0 "Quando mi abbandono al sonno, nel cuore della notte, i sogni tormentano le mie ore silenziose. Sogni dei miei fratelli, soffocati nel loro stesso sangue in mezzo a un mare d'erba cremisi. Di come vidi un martello infrangere l'esercito di mio padre contro una fredda incudine di ferro. La freccia d'un fratello che trovava il cuore d'un drago nero sotto un crinale piangente.\n\nQuelle visioni si rivelarono terribilmente vere, proprio come so che lo saranno i miei nuovi sogni. Ultimamente, ho visto un possente drago squarciare il suo freddo guscio nel mezzo d'un banchetto nuziale. Ho visto un gigante, rivestito di scintillante armatura bianca con un mantello abbinato che si gonfiava dietro di lui, ergersi accanto a un re dai capelli d'argento. Mi sono tormentato su ogni dettaglio di quelle visioni, su ogni interpretazione. Ora so che il primo sarà un drago destinato a reclamare il mio diritto di nascita, e il gigante sarà il guardiano che mi aiuterà a conservarlo.\n\nQuesti sogni preannunciano la mia regalità, la prova finale che sono il figlio di mio padre. Ma prima di dimostrarlo al mondo, devo dimostrarlo a mio zio [bittercringe.GetNameNicknamed]."
   agot_scenario_ats.1000.a:0 "Gli mostrerò che #italic io sono il Drago Nero!#!"
   agot_scenario_ats.1000.a.tt:0 "Sceglierai come affrontare Bittersteel"
-  
+
+ # Rohanne Webber
+ #Available scopes: longinch/rohanne/gerold
   agot_scenario_ats.1001.t:0 "Pietra, Acciaio e Acqua"
   agot_scenario_ats.1001.desc:0 "'La Vedova Rossa', così mi chiamano, sogghignando e spettegolando sulla vecchia di Fossafredda. La loro Vedova Rossa era una bambina di dieci anni quando perse il suo primo marito, ucciso al [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )]. Pensavo che le perdite sarebbero finite allora, ma ve ne furono altre. Mio figlio, mia figlia, mio padre e altri tre mariti se ne sono andati.\n\nMio padre mi lasciò Fossafredda, ma mi intrappolò in una ragnatela quando allungai la mano per prenderla. Devo sposarmi prima che la luna volga, altrimenti il testamento di mio padre consegnerà le mie terre a un cugino. Vedo come Ser [longinch.GetFullNameNicknamed] mi guarda con occhi famelici; [Select_CString(longinch.IsFemale,'vorrebbe','vorrebbe')] le mie terre per sé, e al diavolo i miei desideri.\n\nCome se il testamento di mio padre non bastasse, i lord vicini pensano che senza un uomo al mio fianco io sia debole. Quello che non sanno è che non ripongo più la mia fiducia negli uomini. Ripongo la mia fiducia nella pietra, nell'acciaio e nell'acqua. Ripongo la mia fiducia nei fossati, e il mio non si prosciugherà, siccità o no. Coloro che vorranno nuocermi scopriranno che questa vedova è davvero forte, e piena di veleno."
   agot_scenario_ats.1001.a:0 "Tenete colmo il fossato!"
   agot_scenario_ats.1001.a.tt:0 "Farai sbarrare il Chequy Water"
-  
+
+ # Eustace Osgrey
+ # Available scopes: eustace/dunk/bittercringe/bennis
   agot_scenario_ats.1002.t:0 "Il Leone Scaccato"
   agot_scenario_ats.1002.desc:0 "Mentre guardo dal balcone in cima alla torre di Standfast, vengo colpito da quanto piccolo e fiacco io sia diventato. Posso ancora starmene ritto, ma la mia Casata è una cosa infranta e in rovina, spogliata di tutto ciò che eravamo da un drago rosso; per la cui misericordia dicono che dovrei essere grato.\n\nLa misericordia che mi portò via i figli al [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )], che colpì mia moglie con gli stessi colpi, che mi tolse mia figlia in compenso per essermi schierato con il solo vero re... Una silenziosa sorella la rese, e non pronunciò nemmeno il nome di suo padre quando la vidi l'ultima volta.\n\nAl mio servizio, ho soltanto due cavalieri erranti, Ser [bennis.GetFirstNameNicknamed] e [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed]; quest'ultimo è un giovane valente, ma non del mio sangue. No, l'ultimo del mio sangue se n'è andato con il Morbo della Grande Primavera ad Approdo del Re, ancora silenziosa come un fantasma mentre la misericordia di Daeron mi strappava un'ultima cosa.\n\nPer cosa, dunque, dovrei essere riconoscente?"
   agot_scenario_ats.1002.a:0 "La misericordia d'un re è un dono avvelenato."
   agot_scenario_ats.1002.a.tt:0 "Resterai saldo, solo"
-  
+
+ # Dunk the Lunk
+ # Available scopes: dunk/bennis/egg/eustace/bloodraven/aerys/maekar/aemon
   agot_scenario_ats.1003.t:0 "Denso come un Muro di Castello"
   agot_scenario_ats.1003.desc:0 "Sono passati due anni dalla morte di Ser Arlan, due anni da Ashford, e due anni da quando il regno ha perduto il suo amato principe. Tre uomini valorosi morirono quel giorno per salvare la mia gamba. Come potrei giustificare #italic io#! la loro perdita?\n\nQuando [maekar.Custom('IT_NAM_COL3')][maekar.GetTitledFirstName] mi affidò il suo figlio più giovane, vidi un'occasione per ripagare il debito che porto. Dopo Ashford, ci mettemmo in viaggio per Dorne, per visitare i parenti di Egg, proprio mentre giungeva il Morbo della Grande Primavera. Con la morte del nonno di Egg, suo zio [aerys.GetFirstName] ereditò il Trono di Spade, e [bloodraven.GetFirstNameNicknamed] ne fu la Mano. Mille occhi, e uno, possiede, e il regno vive nel timore sotto un duro sole estivo.\n\nQuando la siccità colpì il regno, facemmo visita al fratello di Egg, [aemon.GetFirstName], alla Cittadella, prima di cercare servizio nell'Altopiano. Quel servizio lo abbiamo trovato presso [eustace.GetFullName], un vecchio cavaliere cui resta ben poco se non il suo nome e qualche vecchio ninnolo. Sebbene la primavera sia finita e sia giunta una dura estate, servirò bene il mio signore, per i tre uomini valorosi cui devo il mio debito."
   agot_scenario_ats.1003.a:0 "Andiamo, Egg."
   agot_scenario_ats.1003.a.tt:0 "Tornerai verso Standfast"
-  
+
+ # Stage 1
+
+ ##########
+ # Daemon #
+ ##########
+ # Daemon can try to get Blackfyre or leave, chooses which option for getting it as well
+ # Available scopes: bittercringe/daemon_blackfyre_2
   agot_scenario_ats.2000.t:0 "Il Re Senza la Spada"
   agot_scenario_ats.2000.desc:0 "Quando mio padre e i miei fratelli maggiori morirono al [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )], fu mio zio [bittercringe.GetName] a prendere Blackfyre e a guidare la nostra famiglia a Tyrosh, la patria di mia madre. [Select_CString(bittercringe.IsFemale,'Lei','Lui')] ha preso servizio come mercenari[Select_CString(bittercringe.IsFemale,'a','o')] mentre viviamo in esilio, e non si è ancora deciso a sostenere la mia pretesa al Trono di Spade, né mi ha consegnato la spada che porta il nome della mia casata. Senza di essa, e senza il suo sostegno, sarà difficile convincere qualcuno a sostenere la mia causa.\n\nDevo però scegliere con cura come avvicinarmi a [Select_CString(bittercringe.IsFemale,'lei','lui')]. [bittercringe.GetNameNicknamedNoTooltip] comprende l'acciaio e la forza, dunque un duello potrebbe essere la via migliore, anche se nessuno oserebbe dubitare della sua abilità con la lama. Potrei tentare di far ragionare [Select_CString(bittercringe.IsFemale,'lei','lui')], cosa che rientra tra le mie capacità, anche se è improbabile che ascolti. Forse dovrei semplicemente salpare verso ovest e lasciare [Select_CString(bittercringe.IsFemale,'lei','lui')] a rimuginare nel suo broncio."
   agot_scenario_ats.2000.a:0 "Lo sfiderò con l'acciaio!"
@@ -31,7 +44,9 @@
   agot_scenario_ats.2000.b.tt:0 "Cercherai di convincere Bittersteel che deve consegnarti Blackfyre."
   agot_scenario_ats.2000.c:0 "Lascerò indietro [bittercringe.GetNameNicknamedNoTooltip] e troverò la mia strada."
   agot_scenario_ats.2000.c.tt:0 "Rinuncerai a ottenere Blackfyre e il sostegno di Bittersteel"
-  
+
+ # Daemon tried to fight Bittersteel result
+ # Available scopes: bittercringe/daemon2/blackfyre(sword)
   agot_scenario_ats.2001.t:0 "Il Re che Impugna la Spada"
   agot_scenario_ats.2001.desc.daemonwins:0 "Mi ergo sulla figura malconcia di [bittercringe.GetNameNicknamed], con la spada levata alta sopra il capo. "Arrenditi!" esigo, mentre [Select_CString(bittercringe.IsFemale,'lei','lui')] non riesce a rialzarsi per affrontarmi. [Select_CString(bittercringe.IsFemale,'Lei','Lui')] ricade al suolo in un ammasso inerme e fa cenno della propria resa. Aiuto [Select_CString(bittercringe.IsFemale,'lei','lui')] a rimettersi in piedi e, dopo un istante di riflessione, [Select_CString(bittercringe.IsFemale,'lei','lui')] si avvicina al luogo dove riposa [blackfyre.GetName].\n\nSguainando la spada dal fodero e piegando un ginocchio a terra, dice: "Non credevo che fossi il figlio di tuo padre; ora vedo che Daemon è tornato. Prendi Blackfyre, e tutto l'aiuto che posso darti." Tendo le mani tremanti e sollevo in alto la Lama del Conquistatore.\n\n#italic Sarò#! re!"
   agot_scenario_ats.2001.desc.daemonloses:0 "Cado a terra, pesto e sconfitto, mentre [bittercringe.GetNameNicknamed] si erge sopra di me con un'espressione di puro disgusto. "Non porterai la Lama del Conquistatore, ragazzo, né riceverai il mio aiuto. I tuoi sogni sono deliri da stolto."\n\nOra non ho scelta; devo continuare senza il suo aiuto."
@@ -39,7 +54,9 @@
   agot_scenario_ats.2001.a.tt:0 "Potrai scegliere come procedere per conquistare il Trono di Spade"
   agot_scenario_ats.2001.b:0 "Non sono riuscito a conquistare la spada; ora devo restare solo."
   agot_scenario_ats.2001.b.tt:0 "Dovrai continuare da solo"
-  
+
+ # Daemon tried to convince Bittersteel result
+ # Available scopes: bittercringe/daemon2/blackfyre
   agot_scenario_ats.2002.t:0 "Il Re che Impugna la Spada"
   agot_scenario_ats.2002.desc.intro:0 ""Zio," comincio. "Mezzo zio," mi interrompe bruscamente [bittercringe.GetNameNicknamed], con un luccichio negli occhi.\n\n"Sì, certo," proseguo, sfoggiando un sorriso disinvolto nonostante il mio disagio. "I miei sogni sono sempre stati profetici, ma uno sovrasta tutti gli altri: tornare al mio diritto di nascita, reclamare il Trono di Spade. E per farlo, mi servono due cose. Una spada e una Mano..."\n\n"
   agot_scenario_ats.2002.desc.daemonhassword:0 "La mia supplica appassionata ha convinto [bittercringe.GetNicknameNoTooltip] della verità dei miei sogni e della mia capacità di reclamare il mio diritto di nascita. [Select_CString(bittercringe.IsFemale,'Lei','Lui')] mi ha concesso la spada [blackfyre.GetName] e mi ha offerto tutto il sostegno che può darmi.\n\nCon la lama del Conquistatore #italic forgerò#! un nuovo futuro per la nostra famiglia e prenderò il nostro legittimo posto sul Trono di Spade!"
@@ -48,12 +65,22 @@
   agot_scenario_ats.2002.a.tt:0 "Potrai scegliere come procedere per conquistare il Trono di Spade"
   agot_scenario_ats.2002.b:0 "Non sono riuscito a conquistare la spada; ora devo restare solo."
   agot_scenario_ats.2002.b.tt:0 "Dovrai continuare da solo"
-  
+
+ ##########
+ # Rohanne #
+ ##########
+ # Rohanne is informed of conflict at the dam with Dunk and Bennis
+ # Available scopes: rohanne/dunk/bennis/eustace
   agot_scenario_ats.2010.t:0 "Guai alla Diga"
   agot_scenario_ats.2010.desc:0 "Un servitore irrompe di corsa nel cortile di Fossafredda, col respiro pesante e spezzato. "Mia [rohanne.GetLadyLord], ci sono stati guai alla diga!" riesce a dire in fretta. Con volto nervoso, spiega che uno dei contadini mandati a lavorare alla diga è stato sfregiato al volto da Ser [bennis.GetFirstNameNicknamed], un cavaliere errante al servizio di Ser [eustace.GetFirstName]. Era presente anche un altro cavaliere errante, più giovane e molto più alto.\n\nAvevo creduto che ciò che avevo dovuto fare al contadino Dake sarebbe bastato a dissuaderli, ma pare che mi sbagliassi.\n\nOra non ho altra scelta che cercare vendetta, anche se forse potrei volgere la cosa a mio vantaggio... se resto in agguato."
   agot_scenario_ats.2010.a:0 "Aspetterò un inviato di Ser [eustace.GetFirstNameNoTooltip]."
   agot_scenario_ats.2010.a.tt:0 "Aspetterai di vedere chi arriverà da Standfast"
-  
+
+ ##########
+ # Eustace #
+ ##########
+ # Eustace is informed of conflict at the dam, decides between Dunk going to coldmoat and himself
+ # Available scopes: rohanne/dunk/bennis
   agot_scenario_ats.2020.t:0 "Guai alla Diga"
   agot_scenario_ats.2020.desc:0 "[dunk.GetFullName] giunge in cima ai gradini che salgono serpeggiando verso la mia torre di Standfast, interrompendo i miei sogni a occhi aperti di tempi antichi che non nacqui per vedere, con un'espressione preoccupata sul volto.\n\nQuando chiedo spiegazioni, apprendo che [Select_CString(dunk.IsFemale,'lei','lui')] e [bennis.GetFullName] hanno trovato il Chequy Water, #italic il mio#! Chequy Water, asciutto e misero quando raggiunge le mie terre. [rohanne.GetFullNameNicknamed] lo ha sbarrato, e per rappresaglia [bennis.Custom('IT_NAM_COL3')][bennis.GetTitledFirstNameNoTooltip] ha colpito uno dei contadini di [Select_CString(rohanne.IsFemale,'lei','lui')]. Se voglio scongiurare un conflitto aperto, devo mandare un inviato a incontrare la Vedova Rossa e sperare di poter offrire abbastanza per far abbattere la diga e proteggere le mie terre.\n\n[dunk.GetFullNameNoTooltip] si è offert[Select_CString(dunk.IsFemale,'a','o')] di andare al mio posto, poiché ho giurato di non entrare mai più nella sede di Fossafredda, a meno che non sia come suo signore. Anche se so che il messaggio sarebbe accolto meglio se venisse da me, dovrei accettare la sua offerta?"
   agot_scenario_ats.2020.desc.nodunk:0 "Un servitore giunge in cima ai gradini che salgono serpeggiando verso la mia torre di Standfast, interrompendo i miei sogni a occhi aperti di tempi antichi che non nacqui per vedere, con un'espressione preoccupata sul volto.\n\nQuando chiedo spiegazioni, apprendo che il mio cavaliere [bennis.GetFullName] ha trovato il Chequy Water, #italic il mio#! Chequy Water, asciutto e misero quando raggiunge le mie terre. [rohanne.GetFullNameNicknamed] lo ha sbarrato, e per rappresaglia [bennis.Custom('IT_NAM_COL3')][bennis.GetTitledFirstNameNoTooltip] ha colpito uno dei contadini di [Select_CString(rohanne.IsFemale,'lei','lui')]. Se voglio scongiurare un conflitto aperto, devo aprire al più presto trattative con la Vedova Rossa.\n\nEppure un vecchio giuramento mi aleggia ancora nella mente. Giurai di non entrare mai più a Fossafredda, a meno che non fosse come suo restaurato signore. Eppure ora non resta altra scelta se non infrangerlo."
@@ -61,392 +88,686 @@
   agot_scenario_ats.2020.a.tt:0 "[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] sarà inviato a Fossafredda per negoziare"
   agot_scenario_ats.2020.b:0 "Andrò io, per quanto mi costi."
   agot_scenario_ats.2020.b.tt:0 "Andrai a Fossafredda nonostante il tuo giuramento"
-  
+
+ # Eustace Coldmoat arrival event
   agot_scenario_ats.2021.t:0 "Il Leone Assopito"
   agot_scenario_ats.2021.desc:0 "Mentre mi avvicino ai cancelli di Fossafredda, resto colpito dalla sua forza. Standfast è poco più che una torre con attorno mura mediocri; Fossafredda è una vera fortezza.\n\nIl mio cuore brucia mentre passo sotto i grandi ragni di Casa Webber e il rilievo di pietra scolorito d'un leone scaccato addormentato nella pietra sopra il cancello."
   agot_scenario_ats.2021.a:0 "Così il mio giuramento è infranto..."
   agot_sceanrio_ats.2021.a.tt:0 "Entrerai a Fossafredda"
-  
+
+
+ ##########
+ #  Dunk  #
+ ##########
+ # Dunk informs Eustace of situation at the dam
+ # Available scopes: eustace/bennis/rohanne
   agot_scenario_ats.2030.t:0 "Guai alla Diga"
   agot_scenario_ats.2030.desc:0 "Mentre Egg e io torniamo verso la torre di Standfast, notiamo che il corso costante d'acqua che alimenta il bosco locale e i raccolti è quasi del tutto in secca. [bennis.GetTitledFirstNameNicknamed], un altro cavaliere errante al servizio di [eustace.Custom('IT_NAM_COL2')][eustace.GetTitledFirstName], si unisce a noi mentre risaliamo il corso in cerca di risposte, poiché, per quanto la recente siccità sia stata dura, non avrebbe prosciugato il torrente così in fretta.\n\nDopo una breve cavalcata vediamo la diga che ha prosciugato l'acqua e un gruppo di contadini al servizio della vicina sede di Fossafredda. Prima che io possa reagire, [bennis.Custom('IT_NAM_COL3')][bennis.GetTitledFirstNameNoTooltip] è già su di loro, e una discussione degenera presto in violenza, lasciando uno dei contadini con una cicatrice sul volto per i loro guai.\n\nDi ritorno a Standfast, informiamo [eustace.Custom('IT_NAM_COL4')][eustace.GetTitledFirstNameNoTooltip] dello scontro e vediamo chi [Select_CString(eustace.IsFemale,'lei','lui')] manderà a incontrare la Vedova Rossa di Fossafredda."
   agot_scenario_ats.2030.a:0 "Ora tocca al mio signore."
   agot_scenario_ats.2030.a.tt:0 "Aspetterai di sapere chi Eustace invierà"
-  
-  # Stage 2
-  
-  ##########
-  # Daemon #
-  ##########
-  
-  # AGOT Todo: Give Daemon John the fiddler option and have him travel to Westeros
-  # agot_scenario_ats.3000.t:0 ""
-  # agot_scenario_ats.3000.desc:0 ""
-  # agot_scenario_ats.3000.a:0 ""
-  # agot_scenario_ats.3000.a.tt:0 ""
-  
-  ##########
-  # Rohanne #
-  ##########
-  
-  # Dunk offered Rohanne gold and asked for the dam to come down
-  # Available scopes: dunk/bennis/eustace/longinch
+
+ # Stage 2
+
+ ##########
+ # Daemon #
+ ##########
+
+ # AGOT Todo: Give Daemon John the fiddler option and have him travel to Westeros
+ # agot_scenario_ats.3000.t:0 ""
+ # agot_scenario_ats.3000.desc:0 ""
+ # agot_scenario_ats.3000.a:0 ""
+ # agot_scenario_ats.3000.a.tt:0 ""
+
+ ##########
+ # Rohanne #
+ ##########
+
+ # Dunk offered Rohanne gold and asked for the dam to come down
+ # Available scopes: dunk/bennis/eustace/longinch
   agot_scenario_ats.3010.t:0 "Un'Offerta d'Oro"
   agot_scenario_ats.3010.desc:0 "Mentre mi esercito con l'arco, mi viene annunciato l'arrivo d'un inviato mandato al posto di [eustace.Custom('IT_NAM_COL2')][eustace.GetTitledFirstName]. [Select_CString(dunk.IsFemale,'Lei','Lui')] si presenta come [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed], un cavaliere errante. [Select_CString(dunk.IsFemale,'È','È')] davvero più alt[Select_CString(dunk.IsFemale,'a','o')] perfino di [longinch.GetNicknameNoTooltip]; larg[Select_CString(dunk.IsFemale,'a','o')] di spalle, ben fatt[Select_CString(dunk.IsFemale,'a','o')] e avvenente in modo semplice. Tra noi nasce un gioco di civetteria più spontaneo di quanto mi aspettassi, benché [Select_CString(dunk.IsFemale,'lei','lui')] abbia chiaramente ben poca esperienza.\n\nLasciando da parte le cortesie, e quella naturale civetteria, [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] mi offre un sacchetto d'oro come compenso per il mio contadino ferito e mi chiede di rimuovere la diga sul Chequy Water, arrivando persino a sostenere che appartenga a Casa Osgrey, nonostante abbiano perduto il corso d'acqua dopo il [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )]."
+ # Rohanne accepts and takes down the dam
   agot_scenario_ats.3010.a:0 "Prenderò l'oro e rimuoverò la diga."
   agot_scenario_ats.3010.a.tt:0 "Abbatterai la diga; vi sarà meno acqua per tutti i coinvolti"
+ # Rohanne accepts the gold but refuses to remove the dam
   agot_scenario_ats.3010.b:0 "Prenderò il tuo oro, ma il mio fossato non può prosciugarsi."
   agot_scenario_ats.3010.b.tt:0 "Prenderai l'oro per la ferita del tuo contadino, ma manterrai la diga"
+ # Rohanne refuses both
   agot_scenario_ats.3010.c:0 "Non avrò il tuo oro, e tu non avrai la mia acqua."
   agot_scenario_ats.3010.c.tt:0 "Non prenderai alcun oro e manterrai la diga"
-  
+
+ # Dunk offered Rohanne Bennis as a prisoner and asks that the dam be taken down
+ # Available scopes: dunk/bennis/eustace
   agot_scenario_ats.3011.t:0 "Un'Offerta di Sangue"
   agot_scenario_ats.3011.desc:0 "Mentre mi esercito con l'arco, mi viene annunciato l'arrivo d'un inviato mandato al posto di [eustace.Custom('IT_NAM_COL2')][eustace.GetTitledFirstName]. [Select_CString(dunk.IsFemale,'Lei','Lui')] si presenta come [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed], un cavaliere errante. [Select_CString(dunk.IsFemale,'È','È')] davvero più alt[Select_CString(dunk.IsFemale,'a','o')] perfino di [longinch.GetNicknameNoTooltip]; larg[Select_CString(dunk.IsFemale,'a','o')] di spalle, ben fatt[Select_CString(dunk.IsFemale,'a','o')] e avvenente in modo semplice. Tra noi nasce un gioco di civetteria più spontaneo di quanto mi aspettassi, benché [Select_CString(dunk.IsFemale,'lei','lui')] abbia chiaramente ben poca esperienza.\n\nLasciando da parte le cortesie, [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] mi offre la vita di Ser [bennis.GetFirstNameNicknamed] come compenso per il mio contadino ferito e mi chiede di rimuovere la diga sul Chequy Water. Arriva persino a sostenere che appartenga a Casa Osgrey, nonostante abbiano perduto il corso d'acqua dopo il [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )]."
+ # Rohanne accepts and agrees to take down the dam
   agot_scenario_ats.3011.a:0 "Prenderò l'uomo e rimuoverò la diga."
   agot_scenario_ats.3011.a.tt:0 "Abbatterai la diga; vi sarà meno acqua per tutti i coinvolti"
+ # Rohanne accepts bennis but won't remove dam
   agot_scenario_ats.3011.b:0 "Prenderò il tuo uomo, ma il mio fossato non può prosciugarsi."
   agot_scenario_ats.3011.b.tt:0 "Prenderai il prigioniero per la ferita del tuo contadino, ma manterrai la diga"
+ # Rohanne refuses bennis and to remove the dam
   agot_scenario_ats.3011.c:0 "Non mi darò pena per il tuo cavaliere errante."
   agot_scenario_ats.3011.c.tt:0 "Rifiuterai il prigioniero e manterrai la diga"
-  
+
+ # Eustace offered Rohanne gold and asks for dam to come down
+ # Available scopes: bennis/eustace/longinch
   agot_scenario_ats.3012.t:0 "Un'Offerta d'Oro"
   agot_scenario_ats.3012.desc:0 "Mentre mi esercito con l'arco, odo i cancelli di Fossafredda gemere quando vengono aperti. Tutti coloro che sono radunati nel cortile si immobilizzano quando un cavaliere solitario entra. [Select_CString(eustace.IsFemale,'Lei','Lui')] ordina che il [Select_CString(eustace.IsFemale,'suo cavallo','suo cavallo')] venga condotto alle stalle, poi avanza verso di me. È Ser [eustace.GetFirstName], col volto rosso di collera.\n\n[Select_CString(eustace.IsFemale,'Lei','Lui')] si ferma a un passo da me, ignorando [longinch.GetNickname], che tenta di frapporsi fra noi. Ser [eustace.GetFirstNameNoTooltip] è qui per trattare: ancora alt[Select_CString(eustace.IsFemale,'a','o')], robust[Select_CString(eustace.IsFemale,'a','o')] e vigoros[Select_CString(eustace.IsFemale,'a','o')] come lo ricordo, sebbene vi sia un vuoto nei [Select_CString(eustace.IsFemale,'suoi occhi','suoi occhi')] che non c'era prima del [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )].\n\nDopo un breve tragitto fino alla sala ove attende il mio trono, Ser [eustace.GetFirstNameNoTooltip] mi offre dell'oro quale compenso per il mio contadino ferito e mi chiede di rimuovere la diga, lasciando meno acqua a entrambi."
+ # Rohanne accepts and takes down the dam
   agot_scenario_ats.3012.a:0 "Prenderò l'oro e rimuoverò la diga."
   agot_scenario_ats.3012.a.tt:0 "Abbatterai la diga; vi sarà meno acqua per tutti i coinvolti"
+ # Rohanne accepts the gold but refuses to remove the dam, sends Eustace back
   agot_scenario_ats.3012.b:0 "Prenderò il tuo oro, ma il mio fossato non può prosciugarsi."
   agot_scenario_ats.3012.b.tt:0 "Prenderai l'oro per la ferita del tuo contadino, ma manterrai la diga"
+ # Rohanne refuses both, sends Eustace back
   agot_scenario_ats.3012.c:0 "Non avrò il tuo oro, e tu non avrai la mia acqua."
   agot_scenario_ats.3012.c.tt:0 "Non prenderai alcun oro e manterrai la diga"
-  
+
+ # Eustace offers Rohanne Bennis and asks the dam be taken down
+ # Available scopes: bennis/eustace/longinch
   agot_scenario_ats.3013.t:0 "Un'Offerta di Sangue"
   agot_scenario_ats.3013.desc:0 "Mentre mi esercito con l'arco, odo i cancelli di Fossafredda gemere quando vengono aperti. Tutti coloro che sono radunati nel cortile si immobilizzano quando un cavaliere solitario entra. [Select_CString(eustace.IsFemale,'Lei','Lui')] ordina che il [Select_CString(eustace.IsFemale,'suo cavallo','suo cavallo')] venga condotto alle stalle, poi avanza verso di me. È Ser [eustace.GetFirstName], col volto rosso di collera.\n\n[Select_CString(eustace.IsFemale,'Lei','Lui')] si ferma a un passo da me, ignorando [longinch.GetNickname], che tenta di frapporsi fra noi. Ser [eustace.GetFirstNameNoTooltip] è qui per trattare: ancora alt[Select_CString(eustace.IsFemale,'a','o')], robust[Select_CString(eustace.IsFemale,'a','o')] e vigoros[Select_CString(eustace.IsFemale,'a','o')] come lo ricordo, sebbene vi sia un vuoto nei [Select_CString(eustace.IsFemale,'suoi occhi','suoi occhi')] che non c'era prima del [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )].\n\nDopo un breve tragitto fino alla sala ove attende il mio trono, Ser [eustace.GetFirstNameNoTooltip] mi offre Ser [bennis.GetFirstNameNicknamed] in catene quale compenso per il mio contadino ferito e mi chiede di rimuovere la diga. In mezzo a questa siccità, togliere la diga potrebbe soltanto arrecare ulteriori sofferenze a entrambi."
+ # Rohanne accepts and agrees to take down the dam
   agot_scenario_ats.3013.a:0 "Prenderò l'uomo e rimuoverò la diga."
   agot_scenario_ats.3013.a.tt:0 "Abbatterai la diga; vi sarà meno acqua per tutti i coinvolti"
+ # Accepts bennis but won't remove dam
   agot_scenario_ats.3013.b:0 "Prenderò il tuo uomo, ma il mio fossato non può prosciugarsi."
   agot_scenario_ats.3013.b.tt:0 "Prenderai il prigioniero per la ferita del tuo contadino, ma manterrai la diga"
+ # Refuses bennis and to remove the dam
   agot_scenario_ats.3013.c:0 "Non mi darò pena per il tuo cavaliere errante, e tu non avrai la mia acqua."
   agot_scenario_ats.3013.c.tt:0 "Rifiuterai il prigioniero e manterrai la diga"
-  
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace makes offer to Rohanne
+ # Available scopes: rohanne/bennis
   agot_scenario_ats.3020.t:0 "Un Accordo con un Ragno"
   agot_scenario_ats.3020.desc:0 "Attendo per poco prima di essere invitato nella sala del trono di [rohanne.GetFullNamePossessive]. [Select_CString(rohanne.IsFemale,'Lei','Lui')] comincia con qualche cortesia, pur sedendo su un trono destinato alla mia Casata, nel castello che fu la nostra sede. Reprimendo la mia furia e il mio orrore, devo fare ciò per cui ho infranto il mio giuramento.\n\nChe cosa offrirò a [rohanne.Custom('IT_NAM_COL4')][rohanne.GetLadyLord] di Fossafredda: oro o sangue? Quale delle due cose la persuaderebbe a rimuovere questa maledetta diga?"
+ # Eustace offers gold, asks for dam to come down
   agot_scenario_ats.3020.a:0 "L'oro dovrà bastare per il tuo contadino ferito. Ora rimuoverai questa diga?"
   agot_scenario_ats.3020.a.tt:0 "Offrirai a [rohanne.GetNameNoTooltip] dell'oro come compenso"
+ # Eustace offers Bennis as a prisoner, asks for dam to come down
   agot_scenario_ats.3020.b:0 "Prendi Ser [bennis.GetFirstNameNicknamed] e abbatti la tua diga."
   agot_scenario_ats.3020.b.tt:0 "Offrirai Ser [bennis.GetFirstNameNoTooltip] come prigioniero e chiederai che la diga venga rimossa"
-  
+
+ # Inform Eustace that Rohanne is removing the dam
+ # Available scopes: rohanne/bennis
   agot_scenario_ats.3021.t:0 "Il Mio Chequy Water"
   agot_scenario_ats.3021.desc:0 "[rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstNameNicknamed] ha ceduto e ha rimosso la diga che bloccava il Chequy Water. Sebbene la siccità ora colpirà entrambi, almeno le terre di Standfast sopravvivranno.\n\nNon ci resta che sperare che giunga la pioggia... e presto."
   agot_scenario_ats.3021.a:0 "Forse questa Vedova Rossa non è poi tanto crudele..."
   agot_scenario_ats.3021.a.tt:0 "La diga è stata rimossa da Standfast, prolungando il corso del Chequy Water"
-  
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk is informed of what Eustace is doing
+ # Available scopes: bennis/eustace
   agot_scenario_ats.3030.t:0 "Il Leone o la Quercia?"
   agot_scenario_ats.3030.desc:0 "Ser [eustace.GetFirstName] ha accettato la mia offerta di andare al [Select_CString(eustace.IsFemale,'suo','suo')] posto a Fossafredda per trattare con la Vedova Rossa. La mia mente corre senza posa attraverso le dicerie sulla Signora di Fossafredda: delle sue dita ossute e invecchiate, dell'assassinio dei [Select_CString(rohanne.IsFemale,'suoi mariti','suoi mariti')] defunti, delle empie stregonerie compiute nel suo castello sotto il pallido chiarore lunare. Può darsi che cavalchi verso Fossafredda per andare incontro alla mia rovina, ma almeno l'affronto al servizio del mio signore.\n\nMentre Egg e io ci lasciamo Standfast alle spalle, parliamo d'etichetta e di quale sia il modo migliore di rivolgersi a una dama d'alto lignaggio. Se vogliamo sopravvivere a un incontro con la pericolosa strega di Casa Webber, dovrò parlarle come si conviene a una donna del suo rango. Almeno, questo è ciò che mi dice Egg."
   agot_scenario_ats.3030.desc.eustacegoing:0 "Ser [eustace.GetFirstName] ha rifiutato la mia offerta di andare al [Select_CString(eustace.IsFemale,'suo','suo')] posto a Fossafredda per trattare con la Vedova Rossa. [Select_CString(eustace.IsFemale,'Lei','Lui')] vi andrà [Select_CString(eustace.IsFemale,'di persona','di persona')] nella speranza che ciò trasmetta un messaggio migliore, nonostante i giuramenti che ha pronunciato di restare lontan[Select_CString(eustace.IsFemale,'a','o')] dall'antica dimora della sua famiglia. Trascorro il tempo dopo la partenza di Ser Eustace camminando avanti e indietro al piano più alto di Standfast, domandandomi se il leone scaccato non abbia ceduto troppo del proprio orgoglio solo per cavalcare dentro la mortale ragnatela d'un ragno."
   agot_scenario_ats.3030.a:0 "Speriamo che si possa ragionare con la Vedova Rossa."
   agot_scenario_ats.3030.a.tt:0 "Le trattative proseguiranno"
-  
+
+ # Dunk makes an offer to Rohanne
+ # Available scopes: rohanne/eustace/bennis/egg/longinch
   agot_scenario_ats.3033.t:0 "Nella Tana della Vedova"
   agot_scenario_ats.3033.desc:0 "Egg e io varchiamo i cancelli di Fossafredda, passando sotto il rilievo scolorito d'un leone scaccato che tradisce la sua lunga storia. Nonostante i depistaggi e gli scherzi di Ser [longinch.GetNameNicknamed], alla fine mi viene presentata [rohanne.GetFullNameNicknamed]. Da tutte le storie che avevo udito, la Vedova Rossa era una vecchia megera che aveva ucciso tutti i [Select_CString(rohanne.IsFemale,'suoi mariti','suoi mariti')] con empie stregonerie.\n\nDavanti a me si trova una donna di forse venticinque anni, minuta e graziosa. Allontanandosi dal campo di tiro con l'arco, [Select_CString(rohanne.IsFemale,'lei','lui')] pare squadrarmi, facendo scorrere le mani sulla mia tunica presa in prestito, che reca il leone scaccato di Casa Osgrey, e parlando con un tono che mi fa salire il sangue al volto.\n\nSer [eustace.GetFirstName] mi ha affidato le trattative, ma quale offerta potrebbe meglio compiacere questa Vedova Rossa? E come potrò convincerla ad abbattere la diga?"
+ # Dunk offers gold, asks for dam to come down
   agot_scenario_ats.3033.a:0 "Prendete quest'oro, mia [rohanne.GetLadyLord], e lasciate che il Chequy Water torni a scorrere."
   agot_scenario_ats.3033.a.tt:0 "Offri oro per il contadino ferito e chiedi che la diga venga abbattuta"
+ # Dunk offers Bennis, asks for dam to come down
   agot_scenario_ats.3033.b:0 "Prendete Ser [bennis.GetFirstNameNicknamedNoTooltip] e abbattete la diga."
   agot_scenario_ats.3033.b.tt:0 "Offri [bennis.GetFirstNameNoTooltip] come prigioniero e chiedi che la diga venga abbattuta"
-  
+
+ # Dunk gets slapped for mentioning Adamm
+ # Available scopes: eustace/rohanne/addam
   agot_scenario_ats.3031.t:0 "Il Morso d'una Vedova"
   agot_scenario_ats.3031.desc:0 "Lady [rohanne.GetFirstName] non ha accolto bene la mia offerta e la diga non sarà abbattuta. Senza quell'acqua, le terre possedute da Ser [eustace.GetFirstName] avvizziranno e il suo popolo morirà.\n\nRicordando una storia che Ser [eustace.GetFirstNameNoTooltip] mi raccontò, su suo figlio [addam.GetFirstName] e la sua lunga amicizia con Lady [rohanne.GetFirstNameNoTooltip], tento di supplicarla evocando il suo ricordo e il legame che li univa.\n\nIl suo volto si contorce di rabbia e, prima che io possa reagire, la sua mano scatta come una freccia, colpendomi la guancia e facendovi correre fitte di dolore. [Select_CString(rohanne.IsFemale,'Lei','Lui')] mi racconta di come Ser [eustace.GetFirstNameNoTooltip] portò i propri figli in guerra, pensando che il Drago Nero avrebbe restituito ciò che il Drago Rosso aveva tolto a Casa Osgrey, e di come li uccise. Tutto ciò che posso fare è restare in un silenzio attonito mentre apprendo che il mio signore fu un traditore. [Select_CString(rohanne.IsFemale,'Lei','Lui')] mi strappa infine al mio torpore: "Andatevene, ser, e sappiate che difenderò le mie terre e il mio fossato con #italic fuoco e spada!#!""
   agot_scenario_ats.3031.desc.tookbennis:0 "Lady [rohanne.GetFirstName] non ha accolto bene la mia offerta, pur avendo preso Bennis e mantenuto la sua diga. Senza quell'acqua, le terre possedute da Ser [eustace.GetFirstName] avvizziranno e il suo popolo morirà.\n\nRicordando una storia che Ser [eustace.GetFirstNameNoTooltip] mi raccontò, su suo figlio [addam.GetFirstName] e la sua lunga amicizia con Lady [rohanne.GetFirstNameNoTooltip], tento di supplicarla evocando il suo ricordo e il legame che li univa.\n\nIl suo volto si contorce di rabbia e, prima che io possa reagire, la sua mano scatta come una freccia, colpendomi la guancia e facendovi correre fitte di dolore. [Select_CString(rohanne.IsFemale,'Lei','Lui')] mi racconta di come Ser [eustace.GetFirstNameNoTooltip] portò i propri figli in guerra, pensando che il Drago Nero avrebbe restituito ciò che il Drago Rosso aveva tolto a Casa Osgrey, e di come li uccise. Tutto ciò che posso fare è restare in un silenzio attonito mentre apprendo che il mio signore fu un traditore. [Select_CString(rohanne.IsFemale,'Lei','Lui')] mi strappa infine al mio torpore: "Andatevene, ser, e sappiate che difenderò le mie terre e il mio fossato con #italic fuoco e spada!#!""
   agot_scenario_ats.3031.a:0 "Temo ciò che nascerà dall'ira della Vedova."
   agot_scenario_ats.3031.a.tt:0 "Attenderai di vedere che cosa accadrà"
-  
+
+ ###### Stage 3 events ######
+
+ ##########
+ # Rohanne #
+ ##########
+
+ # Rohanne sees wat's wood fire
+ # Available scope: wats_wood
   agot_scenario_ats.4010.t:0 "Un Cielo in Fiamme"
   agot_scenario_ats.4010.desc:0 "Voci concitate e una luce intensa mi destano dal sonno. Esco e supero un gruppo di guardie del castello per vedere ciò che sembra il sole che sorge a est. In un istante, il fumo che s'alza e il ruggire delle fiamme smentiscono quell'illusione.\n\nIl Bosco di Wat brucia e, se il vento cambia, i nostri campi non tarderanno a seguirlo."
   agot_scenario_ats.4010.a:0 "Ne daranno la colpa a me."
   agot_scenario_ats.4010.a.tt:0 "Ci si aspetterà che tu raggiunga il fiume, poiché Standfast ti riterrà responsabile"
-  
-  ##########
-  # Eustace #
-  ##########
-  
-  # Eustace is confronted by Dunk
-  # Available scopes: dunk/rohanne
-  cagot_scenario_ats.5010.t:0 "Tra le Ceneri"
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace is confronted by Dunk
+ # Available scopes: dunk/rohanne
+agot_scenario_ats.4020.t: 0 "Il Leone Colpevole"
+agot_scenario_ats.4020.desc: 0 "Odo il cavallo di [dunk.Custom('IT_NAM_COL2')][dunk.GetTitledFirstName] avvicinarsi a Standfast mentre attendo accanto al fuoco. Dal fremito di frustrazione nel [Select_CString(dunk.IsFemale,'respiro di lei','respiro di lui')] e dal battere dei [Select_CString(dunk.IsFemale,'suoi','suoi')] passi capisco che non è andata bene. [Select_CString(dunk.IsFemale,'Lei','Lui')] raggiunge la cima delle scale e, nel giro di pochi istanti, mi accusa di tradimento.\n\n\"Avete detto di aver combattuto per il re!\" esclama [Select_CString(dunk.IsFemale,'lei','lui')]. \"E così feci; combattei per il Re che Portava la Spada.\" La mia risposta mi travolge con un'ondata di crepacuore. #italic Se solo Fireball fosse vissuto, se solo Daemon avesse abbattuto Gwayne Corbray, se solo avesse preso Weeping Ridge, se solo i miei figli...#!\n\nMa ormai è troppo tardi, e poco posso fare per impedire a [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] di uscire furibond[Select_CString(dunk.IsFemale,'a','o')] dalla stanza e scendere le scale, lasciandomi ancora una volta solo con le mie reliquie."
+agot_scenario_ats.4020.a: 0 "Se solo..."
+agot_scenario_ats.4020.a.tt: 0 "Ti riposerai per la notte"
+
+ # Eustace sees wat's wood fire
+ # Available scope: wats_wood
+agot_scenario_ats.4021.t: 0 "Un Cielo in Fiamme"
+agot_scenario_ats.4021.desc: 0 "Dopo che la Vedova Rossa ebbe respinto la mia precedente offerta, tornai a cavallo verso casa in malinconico silenzio, dirigendomi subito ai miei alloggi nella speranza di dimenticare le umiliazioni del giorno prima. Nel pieno del riposo notturno, l'aspra luce arancio-rossa dell'alba mi desta dal sonno. Mi strofino la stanchezza dagli occhi, scostando l'antico calice da cui avevo bevuto la notte scorsa. Sbircio dalla finestra orientale e trovo ad accogliermi il blu scuro della notte. Confuso, mi volto di nuovo verso il sole che sorge e mi rendo conto che non è affatto il sole.\n\nFumo che si attorciglia e fiamme furiose avvolgono il Bosco di Wat, mentre i servitori ai piedi di Standfast si precipitano a prendere acqua dai pozzi nel caso l'incendio si propaghi. In un istante comprendo; è stata la Vedova Rossa.\n\nOra non ho altra scelta che combattere o incontrarla sul campo per trattare. Non vi può essere alcuna via di mezzo."
+agot_scenario_ats.4021.a: 0 "Presto cavalcheremo... in un modo o nell'altro."
+agot_scenario_ats.4021.a.tt: 0 "Presto deciderai come procedere"
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk confronts Eustace
+ # Available Scopes: eustace/egg
+agot_scenario_ats.4030.t: 0 "Le Menzogne del Leone"
+agot_scenario_ats.4030.desc: 0 "Il viaggio di ritorno da Coldmoat è silenzioso. Lo trascorro in preda all'ira, sconvolto dal fatto che il signore cui servo abbia combattuto per il Drago Nero. Ser [eustace.GetFirstName] aveva sempre detto di aver servito il Re. Non disse mai quale. Egg la sente allo stesso modo; suo padre aveva contribuito a spezzare l'esercito del Drago Nero al Campo dell'Erba Rossa, solo per servire poi uno dei suoi cavalieri. #italic Dunk il Tronfio, spesso come le mura d'un castello...#!\n\nAl nostro arrivo ordino a Egg di occuparsi dei cavalli e salgo battendo i piedi fino alla cima della torre, affrontando Ser [eustace.GetFirstNameNoTooltip] in un impeto d'ira. \"Siete un traditore\", dico con sicurezza, ma mi viene ricordato che le cose sono di rado così semplici.\n\n\"Se il Drago Nero avesse vinto, ci chiamerebbero lealisti, e i sostenitori di Daeron il Falsonato sarebbero i traditori\", fa notare [eustace.GetFirstNameNoTooltip]. Ora devo scegliere: restare con un traditore e portare tutto questo fino in fondo, o tornare alle siepi."
+ # Dunk decides to leave
+agot_scenario_ats.4030.a: 0 "Dobbiamo andarcene; non posso servire un traditore."
+agot_scenario_ats.4030.a.tt: 0 "Pianificherai di andartene non appena ti sarà possibile"
+ # Dunk decides to stay
+agot_scenario_ats.4030.b: 0 "Drago Nero o Rosso, ho giurato di servire."
+agot_scenario_ats.4030.b.tt: 0 "Deciderai di restare a Standfast"
+
+ # Dunk sees wat's wood fire as he sleeps, triggered loc for whether its his last night or not
+ # Available scopes: rohanne/egg/wats_wood
+agot_scenario_ats.4031.t: 0 "Un Cielo in Fiamme"
+agot_scenario_ats.4031.desc: 0 "Mentre riposo nella cantina sotto Coldmoat, con in mente un sogno piacevole, un improvviso trambusto mi costringe a balzare sveglio. Egg sta già aspettando, e insieme ci precipitiamo su per le scale seguendo il breve corteo di servitori e di coscritti contadini del luogo, fino al cortile.\n\nUn incendio furioso divora il cielo mentre il Bosco di Wat brucia; la siccità ha inaridito alberi ed erbe selvatiche, diffondendo il fuoco ben oltre un normale incendio boschivo. Tutti si precipitano al pozzo, radunando secchi e preparandosi a respingere le fiamme.\n\nAl mattino il bosco è annerito e in rovina, e molti raccolti sono perduti."
+ # Dunk decided to leave, now chooses to stay
+agot_scenario_ats.4031.a: 0 "Fuoco e spada... devo restare."
+agot_scenario_ats.4031.a.tt: 0 "Resterai per vedere come andrà a finire"
+ # Dunk decided to stay
+agot_scenario_ats.4031.b: 0 "Questo non cambia nulla, devo restare."
+agot_scenario_ats.4031.b.tt: 0 "Resterai per vedere come andrà a finire"
+ # Dunk decided to leave, still leaves
+agot_scenario_ats.4031.c: 0 "Non servirò questo traditore."
+agot_scenario_ats.4031.c.tt: 0 "Ti lascerai il conflitto alle spalle"
+ # Cover if Dunk didn't confront Eustace because Eustace went to Coldmoat
+agot_scenario_ats.4031.d: 0 "Questo porterà a uno scontro, di eserciti o di cavalieri."
+agot_scenario_ats.4031.d.tt: 0 "Dovrai essere pront[Select_CString(ROOT.Char.IsFemale,'a','o')] a combattere"
+
+ ###### Stage 4 events ######
+
+ ##########
+ # Rohanne #
+ ##########
+
+ # Rohanne can decide whether to start a war or meet Eustace or Eustace and Dunk depending at the river
+ # Available scopes: dunk/eustace/wats_wood
+agot_scenario_ats.5010.t: 0 "Tra le Ceneri"
   agot_scenario_ats.5010.desc.dunkstayed:0 "I miei esploratori riferiscono che Ser [eustace.GetFirstName] sta radunando le [Select_CString(eustace.IsFemale,'sue truppe','sue truppe')] e i [Select_CString(eustace.IsFemale,'suoi cavalieri erranti','suoi cavalieri erranti')] sulla scia dell'incendio nel Bosco di Wat. Ho due strade dinanzi a me: marciare su Standfast e fare guerra, oppure incontrarli al torrente che ci separa e accettare un parlamento.\n\nVi è poco onore nel fare guerra adesso, ma potrei impadronirmi di Standfast prima che [Select_CString(eustace.IsFemale,'lei','lui')] abbia il tempo di reagire.\n\nUn parlamento mi offrirebbe la possibilità di chiedere un Singolar Tenzone e, forse, di liberarmi del Longinch, soprattutto se [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] fosse disposto a combattere. In ogni caso, i miei cavalieri attendono la mia decisione."
   agot_scenario_ats.5010.desc.dunkleft:0 "I miei esploratori riferiscono che Ser [eustace.GetFirstName] sta radunando le [Select_CString(eustace.IsFemale,'sue truppe','sue truppe')] e i [Select_CString(eustace.IsFemale,'suoi cavalieri erranti','suoi cavalieri erranti')] sulla scia dell'incendio in [wats_wood]. Ho due strade dinanzi a me: marciare su Standfast e fare guerra, oppure incontrarli al torrente che ci separa e accettare un parlamento.\n\nVi è poco onore nel fare guerra adesso, ma potrei impadronirmi di Standfast prima che [Select_CString(eustace.IsFemale,'lei','lui')] abbia il tempo di reagire.\n\nUn parlamento mi offrirebbe la possibilità di chiedere un Singolar Tenzone e, forse, di liberarmi del Longinch. In ogni caso, i miei cavalieri attendono la mia decisione."
+ # Rohanne decides to meet Dunk and Eustace
   agot_scenario_ats.5010.a:0 "Cavalchiamo verso il torrente!"
   agot_scenario_ats.5010.a.tt:0 "Incontrerai Ser [eustace.GetFirstNameNoTooltip] e [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip]"
+ # Option for Rohanne to start war
   agot_scenario_ats.5010.b:0 "Cavalchiamo in guerra! Con fuoco e spada!"
+ # Rohanne meets Eustace without Dunk
   agot_scenario_ats.5010.c:0 "Cavalchiamo verso il torrente!"
   agot_scenario_ats.5010.c.tt:0 "Incontrerai Ser [eustace.GetFirstNameNoTooltip]"
-  
+
+ # Rohanne meets Eustace and Dunk at the river
+ # Available scopes: eustace/dunk/longinch/maekar/wats_wood
   agot_scenario_ats.5011.t:0 "Il Parlamento"
   agot_scenario_ats.5011.desc:0 "[longinch.GetFirstNameNicknamed], i miei cavalieri e io arriviamo e troviamo [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] e Ser [eustace.GetFirstName] in attesa sull'altra riva del torrente. Ser [eustace.GetFirstNameNoTooltip] non perde tempo e mi attribuisce subito l'incendio del Bosco di Wat. «Guardate i miei campi, così aridi; sarei stata una sciocca ad appiccare quell'incendio,» ribatto, ma [Select_CString(eustace.IsFemale,'lei','lui')] non vuole sentir ragioni. Per [Select_CString(eustace.IsFemale,'lei','lui')], io sono la malvagia Vedova Rossa di Fossafredda, artefice di empie magie.\n\n[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] mi fa cenno d'avvicinarmi e ci incontriamo nel mezzo del torrente, dove nessuno, tranne noi, potrà udirci. [Select_CString(dunk.IsFemale,'Lei','Lui')] estrae un piccolo anello che reca un sigillo: quattro draghi squartati che sputano fuoco, ciascuno con tre teste. Il sigillo di [maekar.Custom('IT_NAM_COL2')][maekar.GetTitledFirstName] di Sala dell'Estate. Lo scudiero di [dunk.GetFirstNamePossessiveNoTooltip] è figlio del principe, e schiacciarli ora potrebbe attirarmi la sua ira — e io preferirei essere amica d'un drago. Eppure non posso cedere tanto facilmente, o i miei nemici mi crederanno debole, oltre ad avermi accusata d'un crimine atroce.\n\nCol rumore del torrente che mi riempie l'udito, getto uno sguardo a [longinch.GetFirstName] e capisco che questa potrebbe essere la mia occasione. Un Singolar Tenzone per provare la mia innocenza riguardo all'incendio."
+ # Rohanne demands trial by combat
   agot_scenario_ats.5011.a:0 "Esigo un Singolar Tenzone! [longinch.GetFirstNameNoTooltip] sarà il mio campione!"
   agot_scenario_ats.5011.a.tt:0 "Esigerai un Singolar Tenzone da Eustace"
+ # Rohanne starts a war
   agot_scenario_ats.5011.b:0 "Non vi sarà alcun processo, in guerra!"
+ # Rohanne backs down and takes down the dam
   agot_scenario_ats.5011.c:0 "Ammetto la mia colpa e rimuoverò la diga."
   agot_scenario_ats.5011.c.tt:0 "Cederai e potresti apparire debole"
-  
+
+ # Rohanne meets just Eustace at the river
+ # Available scopes: eustace/longinch/addam
   agot_scenario_ats.5012.t:0 "Il Parlamento"
   agot_scenario_ats.5012.desc:0 "Quando io e i miei cavalieri arriviamo al torrente, troviamo Ser [eustace.GetFirstName] in attesa sull'altra riva, solo con pochi contadini appena armati. «So che siete stata voi ad appiccare l'incendio, strega! Con qualche oscura magia!» grida [Select_CString(eustace.IsFemale,'lei','lui')] al di sopra dello scroscio dell'acqua.\n\n«Guardate i miei campi, così aridi; sarei stata una sciocca ad appiccare quell'incendio,» ribatto, ma [eustace.GetFirstNameNoTooltip] non vuole sentir ragioni. Per [Select_CString(eustace.IsFemale,'lei','lui')], io sono la malvagia Vedova Rossa di Fossafredda, artefice di empie magie.\n\nSer [eustace.GetFirstNameNoTooltip] sguaina la [Select_CString(eustace.IsFemale,'sua spada','sua spada')] e aspetta che attraversiamo. Potrei avanzare col mio esercito, e vi sarebbero ben poche possibilità che Standfast resista, ma disonorerei il mio amico d'infanzia... il mio dolce [addam.GetFirstName].\n\nGetto uno sguardo a [longinch.GetFirstNameNicknamed] e un piano comincia a prendere forma. Potrei evitare una battaglia esigendo un Singolar Tenzone per i crimini che mi vengono imputati. Una raffica di pensieri mi attraversa la mente...\n\nUna battaglia sarebbe più rapida, ma più sanguinosa. Il mio campione potrebbe vincere il duello e io non guadagnerei nulla se non una vecchia torre. D'altra parte, forse dovrei cedere, e torneremmo a dividere l'acqua in questo tempo di siccità. #italic Qualunque sia la scelta, dev'essere presa #bold ora#!.#!"
+ # Rohanne demands trial by combat
   agot_scenario_ats.5012.a:0 "Esigo un Singolar Tenzone! Ser [longinch.GetFirstNameNoTooltip] sarà il mio campione!"
   agot_scenario_ats.5012.a.tt:0 "Esigerai un Singolar Tenzone da Eustace"
+ # Rohanne starts a war
   agot_scenario_ats.5012.b:0 "Non vi sarà alcun processo, in guerra!"
+ # Rohanne backs down and takes down the dam
   agot_scenario_ats.5012.c:0 "Ammetto la mia colpa e rimuoverò la diga."
   agot_scenario_ats.5012.c.tt:0 "Cederai e potresti apparire debole"
-  
+
+ # Eustace started a war with Rohanne
+ # Available scopes: eustace
   agot_scenario_ats.5013.t:0 "L'Ira del Leone"
   agot_scenario_ats.5013.desc:0 "Nonostante i miei tentativi di pazienza e ragionevolezza, Ser [eustace.GetFirstName] ha insistito nel prendere le armi contro di me. Purtroppo per [Select_CString(eustace.IsFemale,'lei','lui')], non verrò più soltanto per l'acqua: annienterò quel poco che resta di Casa Osgrey!\n\nCasa Webber cancellerà una volta per tutte la macchia scaccata dall'Altopiano."
   agot_scenario_ats.5013.desc.eustacerefused:0 "Ser [eustace.GetFirstName] ha rifiutato la richiesta di Singolar Tenzone e ha insistito nel prendere le armi contro di me. Purtroppo per [Select_CString(eustace.IsFemale,'lei','lui')] non verrò più soltanto per l'acqua: annienterò quel poco che resta di Casa Osgrey.\n\nCasa Webber cancellerà una volta per tutte la macchia scaccata dall'Altopiano."
+ # With fire and sword! Rohanne is ready for war.
   agot_scenario_ats.5013.a:0 "Con fuoco e spada! In guerra!"
   agot_scenario_ats.5013.a.tt:0 "Combatterai una guerra contro Eustace"
-  
+
+ # Rohanne trial by combat confirmation if Eustace or Dunk are a player
+ # Available scopes: eustace/dunk_the_lunk/longinch/wats_wood
   agot_scenario_ats.5014.t:0 "Una Prova di Sangue"
   agot_scenario_ats.5014.desc:0 "Ser [eustace.GetFirstName] ha inviato una richiesta: un Singolar Tenzone. Se il mio campione dovesse perdere, rimuoverò la diga sul Chequy Water e sarò dichiarata colpevole per l'incendio del Bosco di Wat.\n\nOrmai resta ben poca scelta se non accettare."
+ #  Rohanne confirms trial by combat
   agot_scenario_ats.5014.a:0 "[longinch.GetFirstNameNicknamed] sarà il mio campione."
   agot_scenario_ats.5014.a.tt:0 "Il Longinch prenderà parte a un Singolar Tenzone"
-  
+
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace chooses whether to meet Rohanne at the stream or start a war without a meeting
+ # Available scopes: dunk/rohanne/addam/wats_wood
   agot_scenario_ats.5020.t:0 "Tra le Ceneri"
   agot_scenario_ats.5020.desc.dunkstayed:0 "Gran parte del Bosco di Wat è ormai ridotta in cenere e, senza pioggia, passerà molto tempo prima che si riprenda. Sono quasi certo che sia stata la Vedova Rossa di Fossafredda a farlo, servendosi di qualche magia infernale per trarre vantaggio dalla lunga siccità. [Select_CString(rohanne.IsFemale,'Lei','Lui')] marcerà ora sulle mie terre, lasciandomi soltanto due scelte:\n\nPosso marciare in guerra — senza alleati e con poche truppe al mio comando — e sperare che il leone scaccato abbia ancora qualche morso. Oppure posso incontrarla e tentare un parlamento. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] ritiene che dovrei scegliere questa seconda via e vedere quale accordo si possa stringere. [Select_CString(dunk.IsFemale,'È','È')] giovan[Select_CString(dunk.IsFemale,'e','e')], con ben poca conoscenza della vera crudeltà del mondo, ma potrebbe nondimeno avere ragione.\n\nDevo scegliere ora, però, poiché una guerra più tardi avrebbe ancor meno speranza di vittoria."
   agot_scenario_ats.5020.desc.dunkleft:0 "Gran parte del Bosco di Wat è ormai ridotta in cenere e, senza pioggia, passerà molto tempo prima che si riprenda. Sono quasi certo che sia stata la Vedova Rossa di Fossafredda a farlo, servendosi di qualche magia infernale per trarre vantaggio dalla lunga siccità. [Select_CString(rohanne.IsFemale,'Lei','Lui')] marcerà ora sulle mie terre, lasciandomi soltanto due scelte:\n\nPosso marciare in guerra — senza alleati e con poche truppe al mio comando — e sperare che il leone scaccato abbia ancora gli artigli. Oppure posso incontrarla e tentare un parlamento. [addam.GetFirstName] mi avrebbe consigliato di parlamentare, se non altro per l'amicizia che lo legava a [Select_CString(rohanne.IsFemale,'lei','lui')]. Onorarne la memoria potrebbe essere anche la scelta più saggia, poiché forse si potrebbe stringere un accordo capace di salvare le mie terre e quel che resta della mia casata.\n\nDevo scegliere ora, però, poiché una guerra più tardi avrebbe ancor meno speranza di vittoria."
+ # Eustace decides to meet Rohanne
   agot_scenario_ats.5020.a:0 "Incontreremo questa strega al torrente e tenteremo un accordo."
   agot_scenario_ats.5020.a.tt:0 "Incontrerai [rohanne.GetNameNoTooltip] al Chequy Water"
+ # Option for Eustace to start war without meeting Rohanne at the stream
   agot_scenario_ats.5020.b:0 "Mostrerò a tutti che il leone scaccato ha ancora gli artigli!"
-  
+
+ # Eustace meets Rohanne at the stream with Dunk
+ # Available scopes: dunk/rohanne/longinch
   agot_scenario_ats.5021.t:0 "Il Parlamento"
   agot_scenario_ats.5021.desc:0 "[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] e io siamo giunti alla riva del Chequy Water. Non passa molto prima che [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] compaia sull'altra sponda, vestita di seta come un ragno e d'armatura a scaglie sul dorso d'un grande destriero nero. I cavalieri di [Select_CString(rohanne.IsFemale,'lei','lui')] la circondano, apparentemente pronti alla guerra. La sola vista della Vedova Rossa fa ribollire il mio vecchio sangue e, prima ancora di riflettere, mi ritrovo a gridare le mie accuse.\n\n«Perché mai dovrei appiccare un incendio così vicino alle mie stesse terre, ser?» Prima che io possa ribattere alla sua risposta con una mia, [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] avanza al trotto, chiedendo d'incontrare la Vedova Rossa nel mezzo del torrente.\n\nGlielo permetto, sperando che la sua testa sia più fredda della mia. Mentre i due s'incontrano in mezzo al corso d'acqua, ansimo quando [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] estrae il coltello... per poi tagliarsi il volto con la lama. I due terminano il loro colloquio e il mio cavaliere errante fa ritorno da me.\n\n[rohanne.GetTitledFirstNameNoTooltip] ha chiesto un Singolar Tenzone per le mie accuse, dice [Select_CString(dunk.IsFemale,'lei','lui')], invitandomi a scegliere il mio campione. Questa è un'occasione per porre fine all'intera contesa senza guerra, e potrebbe essere per mia stessa mano, anche se forse [dunk.GetTitledFirstNameNoTooltip] sarebbe la scelta migliore."
+ # # Eustace demands trial by combat with dunk fighting
   agot_scenario_ats.5021.a:0 "[dunk.GetTitledFirstNameNoTooltip] sarà il mio campione."
   agot_scenario_ats.5021.a.tt:0 "Farai combattere [dunk.GetFirstNameNoTooltip] nel Singolar Tenzone"
+ # Eustace demands trial by combat with Eustace fighting
   agot_scenario_ats.5021.b:0 "Combatterò per me stesso!"
   agot_scenario_ats.5021.b.tt:0 "Combatterai nel Singolar Tenzone"
+ # Eustace starts a war at the stream
   agot_scenario_ats.5021.c:0 "Al diavolo il processo, attaccate!"
   agot_scenario_ats.5021.c.tt:0 "Andrai in guerra contro [rohanne.GetFullNameNoTooltip]"
-  
+
+ # Eustace meets Rohanne at the stream without Dunk
   agot_scenario_ats.5022.t:0 "Il Parlamento"
   agot_scenario_ats.5022.desc:0 "Sono giunto alla riva del Chequy Water, solo con pochi dei miei contadini levati. Non passa molto prima che [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] compaia sull'altra sponda, vestita di seta come un ragno e d'armatura a scaglie sul dorso d'un grande destriero nero. I cavalieri di [Select_CString(rohanne.IsFemale,'lei','lui')] la circondano, apparentemente pronti alla guerra. La sola vista della Vedova Rossa fa ribollire il mio vecchio sangue e, prima ancora di riflettere, mi ritrovo a gridare le mie accuse.\n\n[rohanne.GetTitledFirstNameNoTooltip] le nega, sostenendo che avrebbe ben poco senso per [Select_CString(rohanne.IsFemale,'lei','lui')] appiccare l'incendio così vicino ai [Select_CString(rohanne.IsFemale,'suoi campi','suoi campi')], anche se faccio fatica a crederlo.\n\nPassiamo un breve tempo a discutere prima di giungere al vero scopo di questo incontro: [ rohanne.GetTitledFirstNameNoTooltip ] chiede un Singolar Tenzone per le mie accuse e per risolvere il cattivo sangue fra noi, invitandomi a scegliere il mio campione. Questa è un'occasione per ottenere vittoria in questa faida, e farlo di mia stessa mano. Oppure potrei tentare di colpire adesso con le mie poche truppe, mentre non se l'aspettano."
+ # Eustace demands trial by combat
   agot_scenario_ats.5022.a:0 "Affronterò il vostro campione!"
   agot_scenario_ats.5022.a.tt:0 "Combatterai in un Singolar Tenzone"
+ # Eustace starts a war
   agot_scenario_ats.5022.b:0 "Al diavolo il processo, attaccate!"
   agot_scenario_ats.5022.b.tt:0 "Andrai in guerra contro [rohanne.GetFullNameNoTooltip]"
-  
-  # Rohanne started a war with Eustace (Eustace POV)
+
+ # Rohanne started a war with Eustace (Eustace POV)
   agot_scenario_ats.5024.t:0 "Fuoco e Spada"
   agot_scenario_ats.5024.desc:0 "La Vedova Rossa mi ha dichiarato guerra! Dubito che il nostro signore verrà in mio aiuto, dunque spetta a me e ai miei difenderci.\n\nMostrerò a tutti che il leone scaccato ha ancora gli artigli!"
+ # The chequy lion still has claws! Eustace is ready for war.
   agot_scenario_ats.5024.a:0 "In guerra!"
   agot_scenario_ats.5024.a.tt:0 "Avrà inizio una guerra"
-  
+
+ # Eustace asked about trial by combat
+ # Available scopes rohanne/dunk/longinch
   agot_scenario_ats.5025.t:0 "Duello sull'Acqua"
   agot_scenario_ats.5025.desc:0 "[rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] ha chiesto un Singolar Tenzone per risolvere tanto le accuse riguardo all'incendio del Bosco di Wat quanto la faida tra noi. Benché sia difficile fidarsi di [Select_CString(rohanne.IsFemale,'lei','lui')], ben pochi oserebbero sfidare la volontà degli dèi in un Singolar Tenzone.\n\nLa decisione, dunque, spetta a me: o scelgo un campione, oppure sguainiamo le spade per la guerra."
   agot_scenario_ats.5025.desc.dunkrefused:0 "Nonostante il suo giuramento di servizio nei miei confronti e il suo presunto onore, [Select_CString(dunk.IsFemale,'lei','lui')] ha rifiutato di combattere in mio nome. Ora ho ben poca scelta: devo affrontare io stesso il campione di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstNamePossessive], oppure marciare in guerra per ottenere soddisfazione.\n\nDunque, devo muovere guerra alla Vedova Rossa? Oppure sguainare la mia vecchia spada un'ultima volta?"
+ # Eustace offers to fight the longinch
   agot_scenario_ats.5025.a:0 "Affronterò il vostro campione!"
   agot_scenario_ats.5025.a.tt:0 "Combatterai nel Singolar Tenzone"
+ # Eustace asks Dunk to fight
   agot_scenario_ats.5025.b:0 "Farò combattere [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] in mio nome."
   agot_scenario_ats.5025.b.tt:0 "Dunk combatterà nel Singolar Tenzone"
+ # Eustace refuses trial by combat, this means war
   agot_scenario_ats.5025.c:0 "Al diavolo il processo, attaccate!"
   agot_scenario_ats.5025.c.tt:0 "Andrai in guerra contro [rohanne.GetFullNameNoTooltip]"
-  
+
+ # Eustace is informed of Rohanne backing down
+ # Available scopes: dunk/rohanne
   agot_scenario_ats.5026.t:0 "Una Faida Risolta"
   agot_scenario_ats.5026.desc:0 "Un messaggero giunge da Fossafredda: [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] ha chiesto che la nostra faida abbia fine e ha compiuto il passo di rimuovere la diga dal Chequy Water. Questo salverà le mie terre dalla siccità, a rischio delle [Select_CString(rohanne.IsFemale,'sue','sue')].\n\nForse mi sbagliavo sulla Vedova Rossa, forse è tempo di lasciarsi il passato alle spalle. L'acqua resterà scarsa, ancor più per [rohanne.GetTitledFirstNameNoTooltip] senza la diga a trattenerla, ma le nostre possibilità sono ora di molto migliorate."
   agot_scenario_ats.5026.a:0 "Il mio Chequy Water è tornato."
   agot_scenario_ats.5026.a.tt:0 "La diga viene rimossa, anche se l'acqua resta scarsa"
-  
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk meets Rohanne at the stream with Eustace
+ # Available scopes: eustace/rohanne
   agot_scenario_ats.5030.t:0 "Il Parlamento"
   agot_scenario_ats.5030.desc:0 "Il nostro misero seguito giunge al torrente, soltanto per non trovarvi nessuno in attesa. Getto uno sguardo a Egg, ma il ragazzo ha tenuto il capo chino per tutta la mattina. #italic Lo farei anch'io, se fossi al suo posto.#!\n\nNon molto dopo, [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] arriva con al seguito i suoi cavalieri. Ser [eustace.GetFirstNameNoTooltip] non tarda a gridare le proprie accuse, benché la Vedova Rossa neghi qualunque coinvolgimento nel rovinoso incendio. Prima che la situazione degeneri oltre, sprono il mio destriero in avanti, chiedendo a [rohanne.GetFirstNameNoTooltip] d'incontrarmi da sola nel mezzo del torrente. Cavalieri e fanti si scambiano sguardi confusi mentre avanzo tra gli spruzzi del Chequy Water.\n\nQuando [Select_CString(rohanne.IsFemale,'lei','lui')] mi raggiunge al centro del torrente, le mostro l'anello col sigillo del padre di Egg. Ben pochi oserebbero mettersi contro il figlio d'un principe Targaryen, dopotutto. Benché [Select_CString(rohanne.IsFemale,'lei','lui')] comprenda la gravità di quell'anello, [Select_CString(rohanne.IsFemale,'lei','lui')] non può nemmeno permettersi di apparire debole.\n\nCon rapidità estraggo il pugnale dal fodero e me lo passo netto sulla guancia. Il sangue gocciola nel torrente sottostante, ma dal volto di [rohanne.GetTitledFirstNamePossessiveNoTooltip] capisco d'averla colpita e d'aver compensato la ferita inflitta al contadino.\n\nOra dobbiamo affrontare le accuse: [Select_CString(rohanne.IsFemale,'lei','lui')] offre un Singolar Tenzone con uno sguardo compiaciuto rivolto a Ser [longinch.GetFirstNameNicknamed]."
+ # Dunk offers trial by combat, send Rohanne confirmation for trial by combat
   agot_scenario_ats.5030.a:0 "Accettiamo, e combatterò io come campione di Ser [eustace.GetFirstNamePossessiveNoTooltip]!"
   agot_scenario_ats.5030.a.tt:0 "Combatterai nel Singolar Tenzone"
+ # Dunk lets Eustace decide
   agot_scenario_ats.5030.b:0 "Devo lasciare la decisione a Ser [eustace.GetFirstNameNoTooltip]."
   agot_scenario_ats.5030.b.tt:0 "Lascerai decidere [eustace.GetFirstNameNoTooltip]"
-  
+
+ # Dunk is given choice on single combat
+ # Available scopes: eustace/rohanne
   agot_scenario_ats.5031.t:0 "Duello sull'Acqua"
   agot_scenario_ats.5031.desc:0 "Vi sarà un Singolar Tenzone nel torrente, un duello tra cavalieri per decidere la fine di questa faida. Devo decidere se accetterò di combattere in nome di Ser [eustace.GetFirstName], oppure se lasciare che sia [Select_CString(eustace.IsFemale,'lei','lui')] a combattere per sé contro qualunque campione scelga [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName]."
+ # Dunk fights single combat
   agot_scenario_ats.5031.a:0 "Sarò io il vostro campione."
   agot_scenario_ats.5031.a.tt:0 "Combatterai nel Singolar Tenzone"
+ # Dunk refuses trial by combat
   agot_scenario_ats.5031.b:0 "Il leone scaccato dovrebbe combattere le proprie battaglie."
   agot_scenario_ats.5031.b.tt:0 "Rifiuterai di combattere nel Singolar Tenzone"
-  
+
+ # Eustace chose to fight for himself
+ # Available scopes: eustace/dunk/rohanne
   agot_scenario_ats.5032.t:0 "Duello sull'Acqua"
   agot_scenario_ats.5032.desc:0 "Nonostante l'età di [eustace.GetFirstName] e il mio giuramento di servizio, Ser [eustace.GetFirstName] ha scelto di combattere come proprio campione nel prossimo Singolar Tenzone.\n\nOra non posso far altro che guardare e sperare che il mio [eustace.GetLadyLord] esca vittorioso dal torrente."
   agot_scenario_ats.5032.a:0 "Guarderò il duello."
   agot_scenario_ats.5032.a.tt:0 "Sarai informato dell'esito del duello."
-  
+
+###### Stage 5 events ######
+
+ ##########
+ # Rohanne #
+ ##########
+
+ # Rohanne single combat result: Dunk won
+ # Available scopes: dunk/longinch/eustace
   agot_scenario_ats.6010.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6010.desc:0 "[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] e Ser [longinch.GetFirstNameNicknamed] giacciono inerti nell'acqua, mentre il sangue sgorga da una ferita appena sotto il braccio del Longinch. [dunk.GetTitledFirstNameNoTooltip] ha vinto, ma [Select_CString(dunk.IsFemale,'si è ritrovata','si è ritrovato')] i polmoni pieni d'acqua per questo.\n\nEssere ritenuta colpevole dell'incendio del Bosco di Wat è un problema, sì, ma impallidisce di fronte alla possibilità di liberarmi del Longinch e rendermi libera.\n\nTutti aspettiamo che [dunk.GetTitledFirstNameNoTooltip] si levi dall'acqua, ma vi sono ben pochi movimenti. Il mio maestro accorre in avanti, un Uomo di Ferro avvezzo a salvare gli annegati."
+ # Dunk won
   agot_scenario_ats.6010.a:0 "[Select_CString(dunk.IsFemale,'Lei','Lui')] guarirà a Fossafredda!"
   agot_scenario_ats.6010.a.tt:0 "Ora potrai scegliere un marito per te stessa"
-  
+
+ # Rohanne single combat result: Longinch won
+ # Available scopes: dunk/longinch/eustace
   agot_scenario_ats.6011.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6011.desc:0 "Ser [longinch.GetFirstNameNicknamed] esce a fatica dal torrente, ansimando in cerca d'aria, mentre il corpo inerte di Ser [longinch_opponent.GetFirstNameNicknamed] galleggia insanguinato e spezzato sulla superficie dell'acqua. Non provo alcun affetto per il Longinch — anzi, avevo perfino sperato che [Select_CString(longinch.IsFemale,'lei','lui')] morisse in questo duello — ma almeno ora la via è sgombra perché io possa prendere Standfast.\n\nResta ben poco a fermarmi e avrei il sostegno del mio signore. Non mi resta che cavalcare laggiù e prenderla."
+ # Rohanne demands Standfast from Eustace
   agot_scenario_ats.6011.a:0 "Inviate la richiesta a Ser [eustace.GetFirstNameNoTooltip], Standfast è mia."
   agot_scenario_ats.6011.a.tt:0 "Rivendicherai Standfast, anche se [eustace.GetFirstName] potrebbe rifiutare"
+ # Eustace died in trial by combat, Rohanne takes Standfast
   agot_scenario_ats.6011.b:0 "Standfast è mia."
   agot_scenario_ats.6011.b.tt:0 "Diventerai il nuovo signore di Standfast"
-  
+
   eustace_gave_up_standfast:0 "Ser [eustace.GetFirstName] mi ha ceduto Standfast!"
-  
+
+
+ # Rohanne event if Eustace won
+ # Available scopes: eustace/longinch
   agot_scenario_ats.6012.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6012.desc:0 "Ser [eustace.GetFirstName] esce a fatica dal torrente, ansimando in cerca d'aria, mentre il corpo inerte del [longinch.GetName] riempie il torrente di sangue. Sono colpevole, agli occhi degli dèi e degli uomini, d'aver appiccato l'incendio del Bosco di Wat, che sia vero oppure no.\n\nSer [eustace.GetFirstNameNoTooltip] quasi certamente pretenderà ora che io rimuova la diga e avrò ben poca scelta, anche se almeno, con la morte di Ser [longinch.GetFirstName], il testamento di mio padre desta assai meno preoccupazione."
+ # Eustace won
   agot_scenario_ats.6012.a:0 "Vedremo che cosa pretenderà davvero [eustace.GetFirstNameNoTooltip]."
   agot_scenario_ats.6012.a.tt:0 "Conoscerai le richieste di Eustace"
-  
+
+ # Rohanne result if both dunk and longinch die
+ # Available scopes: dunk/longinch/eustace
   agot_scenario_ats.6013.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6013.desc:0 "I corpi senza vita di [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] e di Ser [longinch.GetFirstNameNicknamed] restano sospesi nelle acque basse del torrente, mentre il sangue cola da numerose ferite e si mescola alle acque torbide. La mia colpa non è stata provata, né la mia innocenza, ma la questione è ormai risolta quanto più può esserlo.\n\nCon il Longinch scomparso sarò libera di scegliere il mio sposo e, senza prove dinanzi agli dèi e agli uomini, per Ser [eustace.GetFirstName] sarà difficile accusarmi dell'incendio del Bosco di Wat.\n\nOra non resta che risolvere il testamento di mio padre e andare avanti."
   agot_scenario_ats.6013.a:0 "Una fine tragica, ma necessaria."
   agot_scenario_ats.6013.a.tt:0 "Passerai alla scelta d'un marito"
-  
+
+ # Eustace demands Rohanne take the dam down now that she's lost the trial by combat
+ # Available scopes: eustace
   agot_scenario_ats.6014.t:0 "La Richiesta"
   agot_scenario_ats.6014.desc:0 "Dopo la sconfitta del mio campione nel Singolar Tenzone al torrente, Ser [eustace.GetFirstName] mi ha inviato una richiesta di rimuovere la diga. Farlo, persino adesso, potrebbe comunque farmi apparire debole. Inoltre, ciò disperderebbe la nostra riserva d'acqua in un tempo di siccità.\n\nRifiutare questa richiesta significherebbe, in sostanza, dichiarare guerra, dunque devo ponderare con cura la mia prossima mossa."
+ # Accepts and takes the dam down
   agot_scenario_ats.6014.a:0 "E va bene, rimuoverò la diga."
   agot_scenario_ats.6014.a.tt:0 "Rimuoverai la diga e apparirai debole"
+ # Refuses and starts a war
   agot_scenario_ats.6014.b:0 "Sembrerò traditrice prima di sembrare debole!"
-  
+
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace single combat result: Dunk won
+ # Available scopes: dunk/longinch/rohanne
   agot_scenario_ats.6020.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6020.desc:0 "[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] e Ser [longinch.GetFirstNameNicknamed] giacciono inerti nell'acqua, mentre il sangue sgorga da una ferita appena sotto il braccio del Longinch. [dunk.GetTitledFirstNameNoTooltip] ha vinto, ma [Select_CString(dunk.IsFemale,'si è ritrovata','si è ritrovato')] i polmoni pieni d'acqua per questo.\n\nOra che [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] è stata riconosciuta colpevole dell'incendio del Bosco di Wat, ho la leva che mi serve per pretendere che la diga venga abbattuta e che il mio Chequy Water torni a scorrere!"
+ # Move to next stage, give prestige, send Rohanne demand for the dam to come down
   agot_scenario_ats.6020.a:0 "È tempo d'inviare la mia richiesta, la diga deve cadere!"
   agot_scenario_ats.6020.a.tt:0 "Pretenderai che [rohanne.GetFullNameNoTooltip] abbatta la diga"
-  
+
+ # Eustace single combat result: Dunk lost
+ # Available scopes: longinch/rohanne/dunk
   agot_scenario_ats.6021.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6021.desc:0 "Ser [longinch.GetFirstNameNicknamed] esce dal torrente, lasciandosi dietro il corpo inerte di [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed], che sanguina nel corso d'acqua. Sento lacrime involontarie scendermi lungo le guance; avevo detto al ragazzo che, se mia figlia fosse stata ancora in vita, mi sarebbe piaciuto darla in sposa a [Select_CString(dunk.IsFemale,'lei','lui')], e ora [Select_CString(dunk.IsFemale,'lei','lui')] è con lei e con il resto della mia casata nell'aldilà. Egg, il giovane scudiero, piange accanto a me mentre [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] posa un lungo sguardo sul corpo del valoroso cavaliere.\n\n[Select_CString(rohanne.IsFemale,'Lei','Lui')] è ormai libera dalle mie accuse ed è in una posizione forte per prendersi le mie terre, se così [Select_CString(rohanne.IsFemale,'le','gli')] aggrada. Dovrò sperare che quella richiesta non giunga, oppure affidarmi alla forza delle mie armi per affrontarla."
   agot_scenario_ats.6021.a:0 "Addio, [dunk.GetTitledFirstNameNoTooltip]..."
   agot_scenario_ats.6021.a.tt:0 "Attenderai ciò che verrà"
-  
+
+ # Eustace fought single combat and won
+ # Available scopes: rohanne/longinch
   agot_scenario_ats.6022.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6022.desc:0 "Mi aggrappo alle sponde del torrente, trascinandomi fuori dall'acqua e strappandomi l'elmo dal capo. Vedo il cadavere insanguinato di Ser [longinch.GetFirstNameNicknamed] galleggiare nell'acqua bassa, mentre il sangue sgorga dalla ferita all'ascella che ha posto fine al nostro duello.\n\n[rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] osserva mentre il corpo viene tratto fuori dal torrente, poi ci separiamo ciascuno per la propria strada. Ora che le mie accuse sono state provate dinanzi agli dèi e agli uomini, posso finalmente pretendere senza indugio che la diga venga rimossa e che l'acqua torni a scorrere verso le mie terre!"
   agot_scenario_ats.6022.a:0 "Abbattete quella diga!"
   agot_scenario_ats.6022.a.tt:0 "Pretenderai che la diga venga rimossa dal Chequy Water" 
-  
-  # Eustace result if both dunk and longinch die
-  # Available scopes: rohanne/dunk/longinch
+
+ # Eustace result if both dunk and longinch die
+ # Available scopes: rohanne/dunk/longinch
   agot_scenario_ats.6023.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6023.desc:0 "Sia [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] sia Ser [longinch.GetFirstNameNicknamed] galleggiano nel torrente, insanguinati e spezzati. [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] fa recuperare dai suoi uomini il corpo di Ser [longinch.GetFirstNameNoTooltip], mentre lo scudiero Egg mi aiuta a raccogliere il corpo di [dunk.Custom('IT_NAM_COL2')][dunk.GetTitledFirstNameNoTooltip].\n\nCiascuno di noi ha cercato di dimostrare le proprie ragioni in questo Singolar Tenzone, e ora due cavalieri sono morti senza che nulla sia divenuto più vero agli occhi degli dèi e degli uomini. Senza prove non posso accusare [rohanne.GetTitledFirstNameNoTooltip] di alcunché, e il sospetto impedirà senz'altro a [Select_CString(rohanne.IsFemale,'lei','lui')] di muoversi contro di me adesso."
   agot_scenario_ats.6023.a:0 "Che spreco d'un buon cavaliere..."
   agot_scenario_ats.6023.a.tt:0 "Farai ritorno a Standfast"
-  
+
+ # Rohanne refused to remove the dam, and declared war after losing the trial by combat
+ # Available scopes: rohanne
   agot_scenario_ats.6024.t:0 "Veleno e Artigli"
   agot_scenario_ats.6024.desc:0 "Nonostante la sua sconfitta nel Singolar Tenzone, [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] non soltanto ha rifiutato la mia richiesta di rimuovere la diga sul Chequy Water, ma ha anche rivendicato le terre che ancora mi restano e marciato con un esercito per prendersele.\n\nOrmai non mi resta che dimostrare d'avere ancora gli artigli sul campo di battaglia e far guerra a questa Vedova Rossa finché uno di noi non conosca il morso della sconfitta!"
   agot_scenario_ats.6024.a:0 "Questo Leone mostrerà gli artigli!"
   agot_scenario_ats.6024.a.tt:0 "Combatterai [rohanne.GetFullNameNoTooltip] in una guerra per la sua pretesa sulle tue terre"
-  
+
+ # Rohanne demands Standfast from Eustace, Eustace can start a war or give up land and become a LAAMP waiting for Bittersteel
+ # Available scopes: bittercringe/rohanne
   agot_scenario_ats.6025.t:0 "Una Torre Assediata"
   agot_scenario_ats.6025.desc:0 "Con la mia sconfitta nel Singolar Tenzone e la perdita di ciò che resta della mia dignità, sono costretto a considerare la richiesta di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstNameNoTooltip] riguardo a Standfast. Potrei combattere per l'ultimo residuo dell'antico diritto della mia Casata su queste terre, e con ogni probabilità morire nel tentativo di conservarlo, trascinando con me forse centinaia del mio stesso popolo.\n\nForse sarebbe meglio, allora, fare ciò che avrei dovuto fare quando perdemmo al [Glossary( 'Redgrass Field', 'REDGRASS_FIELD_GLOSS' )]: abbandonare tutto e prendere la via del mercenario, come fece [bittercringe.GetNickname]. Forse potrei perfino unirmi alla sua compagnia, se davvero se n'è formata una, e impugnare ancora le armi coi Draghi Neri rimasti, come un tempo feci con Daemon.\n\nLa decisione va presa ora: combattere per il passato, o partire verso un futuro nuovo?"
+ # Eustace refuses, starts a war with Rohanne
   agot_scenario_ats.6025.a:0 "Non cederò ancora le ossa dei miei avi!"
   agot_scenario_ats.6025.a.tt:0 "Combatterai una guerra per Standfast"
+ # Eustace gives in, becomes a LAAMP
   agot_scenario_ats.6025.b:0 "Tieni pure questa vecchia torre, io troverò una nuova strada."
   agot_scenario_ats.6025.b.tt:0 "Diventerai un avventuriero senza terre"
-  
+
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk won the single combat, wakes up later
+ # Available scopes: eustace/rohanne
   agot_scenario_ats.6030.t:0 "Una Vittoria Dolorosa"
   agot_scenario_ats.6030.desc:0 "Mi desto in un castello che non è il mio, con una cicatrice che mi segna il volto e ossa rotte e lividi su tutto il corpo. Ho vinto il Singolar Tenzone e ci si aspetta che la pace possa essere negoziata. Un maestro si prende cura di me mentre le mie ferite si rimarginano e mi informa che Ser [eustace.GetFirstName] e [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] sono proprio nel mezzo di quelle trattative, e che, una volta ristabilito, sarò libero di andare dove vorrò. Col passare dei giorni, [rohanne.GetTitledFirstNameNoTooltip] evita a quanto pare di farmi visita, poiché non la vedo mai per tutta la durata della mia permanenza.\n\nLa mia amarezza cresce, mentre Egg resta saldo al mio fianco e mi aiuta nella guarigione in ogni modo possibile. Tutto quel dolore, tutta quella lotta e tutto quel tira e molla soltanto per giungere a un accordo che un solo incontro avrebbe potuto ottenere.\n\nQualunque sia l'esito di queste trattative, so che devo insegnare a Egg il valore della gente comune, che non è fatta di semplici pezzi da usare nei giochi dei nobili e che l'orgoglio non è una scusa sufficiente per infliggere tanta sofferenza."
   agot_scenario_ats.6030.a:0 "Attenderemo l'esito delle trattative, poi andremo avanti."
   agot_scenario_ats.6030.a.tt:0 "Attenderai di vedere se scoppierà una guerra o se verrà conclusa la pace"
-  
+
+ # Dunk single combat result: Eustace won
   agot_scenario_ats.6031.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6031.desc:0 "Ser [eustace.GetFirstNameNicknamed] esce a fatica dal torrente e si gode la propria vittoria, mentre il corpo del suo avversario sanguina nell'acqua alle sue spalle. [Select_CString(eustace.IsFemale,'Lei','Lui')] mi sorride, poi lascia sfuggire un sospiro di sollievo, sapendo che presto il Chequy Water tornerà a scorrere libero.\n\nDopo un ultimo, struggente sguardo verso [rohanne.Custom('IT_NAM_COL4')][rohanne.GetTitledFirstName], mi lascio il torrente alle spalle e ritorno a Standfast."
+ # Move to next stage, give prestige, send Rohanne demand for the dam to come down
   agot_scenario_ats.6031.a:0 "Ora la diga cadrà di certo."
   agot_scenario_ats.6031.a.tt:0 "Attenderai di vedere se [rohanne.GetTitledFirstNameNoTooltip] accetterà l'esito del duello"
-  
+
+ # Dunk single combat result: Eustace lost
   agot_scenario_ats.6032.t:0 "Sangue nell'Acqua"
   agot_scenario_ats.6032.desc:0 "Ser [longinch.GetFirstNameNicknamed] esce dal torrente, lasciandosi alle spalle il corpo inerte di Ser [eustace.GetFirstNameNicknamed], che sanguina nell'acqua dietro [Select_CString(longinch.IsFemale,'di lei','di lui')]. Sento la colpa lacerarmi il cuore mentre il corpo sbatte contro il margine del torrente. Mi volto a guardare [rohanne.Custom('IT_NAM_COL4')][rohanne.GetTitledFirstName], aspettandomi di vedere un sorriso soddisfatto sul suo bel volto. Invece vi scorgo malinconia e, forse, persino dolore.\n\n[Select_CString(rohanne.IsFemale,'Lei','Lui')] è ora libera da ogni accusa e di prendere l'ultima parte delle terre del leone scaccato. Mentre Egg ed io ci lasciamo alle spalle l'acqua e facciamo ritorno a Standfast, sento le lacrime scendermi sul viso per la morte del vecchio cavaliere."
   agot_scenario_ats.6032.a:0 "Addio, Ser [eustace.GetFirstNameNoTooltip]..."
   agot_scenario_ats.6032.a.tt:0 "Attenderai ciò che verrà"
-  
+
+ ###### Stage 6 events ######
+
+ ##########
+ # Rohanne #
+ ##########
+ # Rohanne marriage event
+ # Available scopes: eustace/dunk/gerold/longinch
   agot_scenario_ats.7010.t:0 "Rose d'Estate"
   agot_scenario_ats.7010.desc.start:0 "Ora che le recenti ostilità sono alle spalle e il testamento di mio padre incombe dinanzi a me, è tempo di trovare un altro marito.\n\n"
   agot_scenario_ats.7010.desc.e:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Non sarebbe un matrimonio d'amore, ma sarebbe una scelta saggia per la politica locale."
   agot_scenario_ats.7010.desc.d:0 "[dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è alto, avvenente e gradevole, con un senso dell'onore che commuove e una volontà di mettersi in pericolo in suo nome. Non sarebbe un matrimonio vantaggioso sul piano politico, ma potrebbe essere felice."
   agot_scenario_ats.7010.desc.g:0 "Ser [gerold.GetNameNicknamed] è un candidato assai valido. Mi manda spesso lettere, che ho imparato ad apprezzare, e inoltre è il fratello capace e influente del lord più ricco del regno. Nutro qualche dubbio sul fatto che sarebbe soddisfatto d'una vita a Fossafredda, così lontano dalla corte del Leone, e dunque il matrimonio non sarebbe privo di rischi."
   agot_scenario_ats.7010.desc.l:0 "Ser [longinch.GetFirstNameNicknamed] è un uomo spregevole, crudele nello spirito e povero di gioia. Se avessi potuto predisporne la morte, forse lo avrei fatto, eppure era lui che mio padre desiderava io sposassi, dunque devo comunque prenderlo in considerazione."
+ # Eustace and Dunk are available
   agot_scenario_ats.7010.desc.ed:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Eppure devo considerare anche la mia felicità personale, e a questo riguardo il mio pensiero va a [dunk.Custom('IT_NAM_COL4')][dunk.GetTitledFirstName], un cavaliere bello e valoroso per il quale ho nutrito una certa tenerezza nel poco tempo che abbiamo trascorso insieme, e che mi lascerebbe governare le mie terre come meglio credo."
+ # Eustace and Gerold are available
   agot_scenario_ats.7010.desc.eg:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Devo però considerare anche un'unione ancor più vantaggiosa sul piano politico. Ser [gerold.GetNameNicknamed] mi scrive spesso, lettere che ho imparato ad attendere con piacere, ed è un rampollo della Casata più ricca di Westeros. Per quanto potrebbe trovare poca gioia a Fossafredda e dunque rappresentare un rischio come marito, non posso ignorarlo."
+ # Eustace and the Longinch are available
   agot_scenario_ats.7010.desc.el:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Poi vi è Ser [longinch.GetFirstNameNicknamed], un uomo spregevole, crudele nello spirito e povero di gioia. Se avessi potuto predisporne la morte, forse lo avrei fatto, eppure era lui che mio padre desiderava io sposassi, dunque devo comunque prenderlo in considerazione."
+ # Eustace, Dunk, and Gerold are available
   agot_scenario_ats.7010.desc.edg:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Eppure, quando considero la mia felicità, altri due candidati si fanno avanti. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è alto, avvenente e ho imparato ad affezionarmi a [Select_CString(dunk.IsFemale,'lei','lui')] nel poco tempo che abbiamo trascorso insieme. Dall'altra parte c'è Ser [gerold.GetNameNicknamed], che mi manda ogni giorno dolci lettere e proviene dalla Casata più ricca di Westeros. Ciascuno di loro potrebbe essere un marito degno; non mi resta che chiedere."
+ # Eustace, Dunk, and the Longinch are available
   agot_scenario_ats.7010.desc.edl:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Devo però considerare anche la mia felicità personale, e a tal fine il mio sguardo si posa su [dunk.Custom('IT_NAM_COL4')][dunk.GetTitledFirstName], un cavaliere bello e valoroso per il quale ho nutrito una certa tenerezza nel poco tempo che abbiamo trascorso insieme, e che mi lascerebbe governare le mie terre come meglio credo. Infine devo considerare Ser [longinch.GetNameNicknamed], se non altro perché mio padre si aspettava che ci sposassimo, per quanto poco mi piaccia quell'uomo."
+ # Eustace, Gerold, and the Longinch are available
   agot_scenario_ats.7010.desc.egl:0 "Ser [eustace.GetFirstName] rappresenta un'occasione per unire le nostre pretese su Fossafredda, salvare il suo orgoglio e assicurarmi un marito con scarso interesse nel governare le mie terre, che morirà molto prima di me. Un altro leone mi viene però in mente, poiché Ser [gerold.GetNameNicknamed] è un candidato assai valido. Mi manda spesso lettere, che ho imparato ad apprezzare, e inoltre è il fratello del lord più ricco del regno. Infine devo considerare Ser [longinch.GetNameNicknamed], se non altro perché mio padre si aspettava che ci sposassimo, per quanto poco mi piaccia quell'uomo."
+ # Eustace, Dunk, Gerold, and Longinch are available
   agot_scenario_ats.7010.desc.edgl:0 "Quattro scelte mi si presentano mentre considero le mie possibilità. Ser [eustace.GetFirstName] offre stabilità, unendo le nostre pretese su Fossafredda, e vantaggi nella politica locale. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è valoroso e avvenente, e l'affetto che provo per [Select_CString(dunk.IsFemale,'lei','lui')] sorprende persino me, anche se un'unione simile offrirebbe ben pochi guadagni... potrebbe però essere felice. Ser [gerold.GetNameNicknamed] è una scelta solida, poiché le sue lettere mi sono state di conforto negli ultimi tempi e la forza e la ricchezza di Casa Lannister non hanno pari. Infine devo considerare Ser [longinch.GetNameNicknamed], un uomo spregevole che prendo in considerazione soltanto perché mio padre riteneva che avremmo dovuto sposarci."
+ # Dunk and Gerold are available
   agot_scenario_ats.7010.desc.dg:0 "Due possibili pretendenti mi vengono in mente. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è un cavaliere onesto e valoroso, e l'affetto che provo per [Select_CString(dunk.IsFemale,'lei','lui')] è cresciuto rapidamente nel poco tempo che abbiamo trascorso insieme. Un'unione simile offrirebbe ben pochi vantaggi politici, ma potrebbe essere felice. L'altro è Ser [gerold.GetNameNicknamed], le cui lettere ho imparato ad attendere con piacere. È inoltre membro della Casata più ricca del regno e rappresenterebbe un ottimo matrimonio politico, anche se dubito che sarebbe soddisfatto d'una vita a Fossafredda, così lontano dalla corte del Leone."
+ # Dunk, Gerold, and the Longinch are available
   agot_scenario_ats.7010.desc.dgl:0 "Tre possibili pretendenti mi vengono in mente. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è un cavaliere onesto e valoroso, e l'affetto che provo per [Select_CString(dunk.IsFemale,'lei','lui')] è cresciuto rapidamente nel poco tempo che abbiamo trascorso insieme. Un'unione simile offrirebbe ben pochi vantaggi politici, ma potrebbe essere felice. L'altro è Ser [gerold.GetNameNicknamed], le cui lettere ho imparato ad attendere con piacere. È inoltre membro della Casata più ricca del regno e rappresenterebbe un ottimo matrimonio politico, anche se dubito che sarebbe soddisfatto d'una vita a Fossafredda, così lontano dalla corte del Leone. Infine devo considerare Ser [longinch.GetNameNicknamed], un uomo spregevole che prendo in considerazione soltanto perché mio padre riteneva che avremmo dovuto sposarci."
+ # Dunk and Longinch are available
   agot_scenario_ats.7010.desc.dl:0 "Due possibili pretendenti mi vengono in mente. [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstName] è un cavaliere onesto e valoroso, e l'affetto che provo per [Select_CString(dunk.IsFemale,'lei','lui')] è cresciuto rapidamente nel poco tempo che abbiamo trascorso insieme. Un'unione simile offrirebbe ben pochi vantaggi politici, ma potrebbe essere felice. L'altro è Ser [longinch.GetNameNicknamed], un uomo spregevole che prendo in considerazione soltanto perché mio padre riteneva che avremmo dovuto sposarci."
+ # Gerold and the Longinch are available
   agot_scenario_ats.7010.desc.gl:0 "Due possibili pretendenti mi vengono in mente. Ser [gerold.GetNameNicknamed], le cui lettere ho imparato ad attendere con piacere, e che è il fratello del lord più ricco del regno. Per quanto sarebbe una scelta pregevole, dubito che troverebbe soddisfazione in una vita a Fossafredda, così lontano dalla corte del Leone. L'altro è Ser [longinch.GetNameNicknamed], un uomo spregevole che prendo in considerazione soltanto perché mio padre riteneva che avremmo dovuto sposarci."
+ # Description end
   agot_scenario_ats.7010.desc.finish:0 "\n\nCome devo decidere?"
+
+ # Eustace marriage option
   agot_scenario_ats.7010.a:0 "Il ragno sposerà il leone scaccato."
+ # Dunk marriage option
   agot_scenario_ats.7010.b:0 "Sposerò [dunk.GetTitledFirstNameNoTooltip] e spero di trovare la felicità."
+ # Gerold Lannister marriage option
   agot_scenario_ats.7010.c:0 "Spero che il leone dorato possa dirsi soddisfatto."
+ # Longinch marriage option
   agot_scenario_ats.7010.d:0 "Manderò giù l'unione voluta da mio padre."
+ # Rohanne will find a partner elsewhere
   agot_scenario_ats.7010.e:0 "Troverò marito altrove, ma dovrò agire in fretta."
   agot_scenario_ats.7010.e.tt:0 "Cercherai un altro sposo, ma avrai soltanto sei mesi per farlo"
-  
+
+ # Eustace wants normal marriage with Rohanne
+ # Available scopes: eustace
   agot_scenario_ats.7011.t:0 "La Storia Ricorda i Nomi"
   agot_scenario_ats.7011.desc:0 "Ho ricevuto una risposta da Ser [eustace.GetFirstName] riguardo alla mia proposta di matrimonio. Benché [Select_CString(eustace.IsFemale,'lei','lui')] abbia mostrato interesse dopo che abbiamo condiviso il dolore per la perdita di suo figlio, non permetterà che i nostri figli portino il nome Webber.\n\nSe devo sposare Ser [eustace.GetFirstNameNoTooltip], dovrà avvenire nel modo tradizionale, con i nostri futuri figli destinati a portare il nome Osgrey e il leone scaccato come stemma.\n\nSe rifiuterò questa richiesta, dovrò trovare marito altrove: quanto vale, dunque, il nome Webber?"
+ # Rohanne accepts
   agot_scenario_ats.7011.a:0 "Accetterò queste condizioni."
   agot_scenario_ats.7011.a.tt:0 "Sposerai [eustace.GetNameNoTooltip] in un matrimonio non matrilineare"
+ # Rohanne will find a marriage elsewhere
   agot_scenario_ats.7011.b:0 "Altrove troverò una scelta migliore."
   agot_scenario_ats.7011.b.tt:0 "Cercherai liberamente un marito"
-  
+
   rohanne_patrimarried_eustace:0 "Lady Rohanne ha accettato la mia proposta di un matrimonio tradizionale!"
-  
+
+ # Eustace rejected Rohanne, Rohanne must find marriage elsewhere
+ # Available scopes: eustace
   agot_scenario_ats.7012.t:0 "Un Duro Rifiuto"
   agot_scenario_ats.7012.desc:0 "È giunta parola da Ser [eustace.GetFirstName]: [Select_CString(eustace.IsFemale,'lei','lui')] ha respinto la mia proposta di matrimonio e mi ha intimato di cercare marito altrove.\n\nDevo tornare a cercare per soddisfare il testamento di mio padre."
   agot_scenario_ats.7012.a:0 "Altrove troverò una scelta migliore."
   agot_scenario_ats.7012.a.tt:0 "Cercherai liberamente un marito"
-  
+
+ # Dunk rejected Rohanne, Rohanne must find marriage elsewhere
+ # Available scopes: dunk
   agot_scenario_ats.7013.t:0 "Un Duro Rifiuto"
   agot_scenario_ats.7013.desc:0 "Ho ricevuto notizie da [dunk.Custom('IT_NAM_COL2')][dunk.GetTitledFirstName] riguardo alla mia proposta di matrimonio. Nonostante la sua umile nascita e l'altezza della mia, e persino la possibilità per il suo scudiero di servire a Fossafredda nella sicurezza d'un castello, sono stata respinta da un misero cavaliere errante.\n\nPare che io debba tornare a cercare, per quanto sorprendente ciò possa essere."
   agot_scenario_ats.7013.a:0 "Altrove troverò una scelta migliore."
   agot_scenario_ats.7013.a.tt:0 "Cercherai liberamente un marito"
-  
+
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace was chosen for marriage, can accept or decline
+ # Available scopes: rohanne
   agot_scenario_ats.7020.t:0 "Un'Offerta Sorprendente"
   agot_scenario_ats.7020.desc:0 "È giunta una richiesta da [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstName] per ottenere accesso alle mie terre e visitare la tomba di mio figlio [addam.GetFirstName]. Le concedo il permesso quasi senza riflettere, e poco dopo la trovo in lacrime accanto alla sua sepoltura. Una parte di me, che credevo morta da tempo, mi spinge a confortarla, e presto ci ritroviamo a ricordare insieme memorie care accanto al mio fuoco, mangiando more in ricordo del passato. Non molto dopo la sua partenza, giunge un corriere recando una proposta di matrimonio.\n\nSarei stolto a non prenderla in considerazione, poiché un patto matrimoniale mi renderebbe signore di Fossafredda almeno nel nome e salverebbe la mia Casata dall'estinzione. Eppure desidera che i nostri figli siano Webber, e devo rispondere tenendolo bene a mente."
+ # Eustace accepts but only if he can keep his name
   agot_scenario_ats.7020.a:0 "Accetterò, ma soltanto se i nostri figli porteranno il leone scaccato."
   agot_scenario_ats.7020.a.tt:0 "Chiederai un matrimonio non matrilineare"
+ # Eustace accepts matrilineal marriage
   agot_scenario_ats.7020.b:0 "Accetto le sue condizioni, i nostri figli saranno ragni."
+ # Eustace refuses
   agot_scenario_ats.7020.c:0 "Al diavolo ogni cosa, rifiuto."
   agot_scenario_ats.7020.c.tt:0 "Rifiuti la proposta di matrimonio"
-  
+
+ # Rohanne rejected patri-marriage
+ # Available scopes: rohanne, eustace
   agot_scenario_ats.7021.t:0 "Un Duro Rifiuto"
   agot_scenario_ats.7021.desc:0 "Nonostante l'iniziale interesse di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstNamePossessive] per un patto matrimoniale fra noi, pare che l'idea di vedere i suoi figli portare il fiero leone scaccato sia un passo troppo lungo! [Select_CString(rohanne.IsFemale,'Lei','Lui')] mi ha dunque inviato un duro rifiuto alla mia richiesta di un matrimonio tradizionale, ponendo fine senz'altro ai nostri colloqui matrimoniali.\n\nPare che il ragno e il leone scaccato non fossero destinati a unirsi."
+ # Eustace confirms
   agot_scenario_ats.7021.a:0 "È meglio voltare pagina e trovare una moglie per conto mio."
   agot_scenario_ats.7021.a.tt:0 "Lascerai questa storia alle spalle."
-  
-  
-  ##########
-  #  Dunk  #
-  ##########
-  
-  # Dunk chosen for marriage, can choose to accept or decline
-  # Available scopes: rohanne
+
+
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk chosen for marriage, can choose to accept or decline
+ # Available scopes: rohanne
   agot_scenario_ats.7031.t:0 "L'Offerta della Vedova Rossa"
   agot_scenario_ats.7031.desc:0 "È giunto un messaggero da [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstName]. Spezzando il sigillo del ragno, vi trovo una lettera fin troppo dolce e una proposta di matrimonio. A stento riesco a contenere il mio stupore mentre continuo a leggere. Un[rohanne.Custom('DE_PRO_PER_P_3P_G')] bell[Select_CString(rohanne.IsFemale,'a','o')] [rohanne.GetLadyLord] d'alto lignaggio ha scelto proprio me come [Select_CString(rohanne.IsFemale,'marito','marito')]? Spingendosi persino a offrire a Egg un posto tra gli scudieri del castello e a me il comando dei cavalieri della casa.\n\nQuesto cambierebbe ogni cosa: non sarei più un cavaliere errante, ma il consorte della Signora di Fossafredda. Egg potrebbe crescere in un vero castello, continuando a imparare il mondo, ma al sicuro entro mura e circondato da scudieri della sua età.\n\nOltre a ciò, [rohanne.GetTitledFirstNameNoTooltip] è una sposa degna di qualunque uomo. Sarebbe duro abbandonare la vita delle siepi, ma ne varrebbe la pena per avere una casa... e forse persino amore?"
+ # Dunk accepts matrilineal marriage, destroy his LAAMP title and make him a courtier of Rohanne, swap to Rohanne
   agot_scenario_ats.7031.b:0 "Sposerò la vedova e mi lascerò alle spalle le siepi."
   agot_scenario_ats.7031.b.tt:0 "Sposerai [rohanne.GetNameNoTooltip] con matrimonio matrilineare e passerai a [Select_CString(rohanne.IsFemale,'lei','lui')]"
+ # Dunk refuses
   agot_scenario_ats.7031.c:0 "Non posso lasciarmi alle spalle le siepi, sono tutto ciò che conosco."
   agot_scenario_ats.7031.c.tt:0 "Rifiuterai la proposta di matrimonio"
-  
+
+
+ ###### Stage 7 events ######
+
+ # Dunk offered position at Coldmoat, can accept (switches to Rohanne Webber) or can leave with a gift, give lock of hair and prestige
+ # Available scopes: rohanne
   agot_scenario_ats.8030.t:0 "Piogge d'Estate e Dolci Addii"
   agot_scenario_ats.8030.desc:0 "Mentre la pioggia finalmente cade sull'Altopiano, mi preparo a lasciare Fossafredda e tutta la faccenda tra essa e Standfast alle spalle. Vengo fermato alle scuderie dalla figura minuta di [rohanne.GetName]. Benché io sia abbattuto dopo aver appreso del suo imminente matrimonio, e dell'inutilità di questo conflitto fin dall'inizio, è bello vedere il volto di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstNamePossessive]. [Select_CString(rohanne.IsFemale,'Lei','Lui')] si scusa e sembra dibattersi fra il dire qualcosa e il tacere, mentre i cavalli si agitano e si riassestano nelle loro stalle.\n\nAlla fine, mi offre un posto come cavaliere della casa ed a Egg uno come scudiero del castello, dicendo che sperava di non perderci sulla strada.\n\nÈ un'offerta allettante, ma le siepi sono tutto ciò che ho mai conosciuto e questo luogo mi ha lasciato un gusto amaro. Se non vorrò accettare, [Select_CString(rohanne.IsFemale,'lei','lui')] si offre almeno di farmi un qualche dono."
+ # Dunk becomes Rohanne's Knight
   agot_scenario_ats.8030.a:0 "Diventerò il vostro cavaliere."
   agot_scenario_ats.8030.a.tt:0 "Diventerai un cortigiano di [rohanne.GetNameNoTooltip] e passerai a [Select_CString(rohanne.IsFemale,'lei','lui')]"
+ # Dunk leaves, with a kiss and a lock of hair
   agot_scenario_ats.8030.b:0 "Non posso accettare, ma chiederei un bacio e un piccolo dono."
   agot_scenario_ats.8030.b.tt:0 "Te ne andrai con null'altro che qualche ciocca di capelli"
-  
+
+ ###### Fallback/Other/Result events ######
+ ##########
+ #  Daemon  #
+ ##########
+ # Daemon can fight start a war with Bittersteel's support
   agot_scenario_ats.9000.t:0 "Il Diritto di Nascita del Drago Nero"
   agot_scenario_ats.9000.desc:0 "[Select_CString(bittercringe.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', bittercringe)] [bittercringe.GetFirstName] ha mandato notizia: ha radunato tutti coloro che i draghi rossi hanno offeso, esiliato e derubato. Si sono raccolti attorno a [Select_CString(bittercringe.IsFemale,'lei','lui')] sotto un vessillo dorato, formando una nuova compagnia più grande di qualunque altra le Città Libere abbiano ancora veduto.\n\nDa quando ho ottenuto Blackfyre e guadagnato il suo sostegno, [Select_CString(bittercringe.IsFemale,'lei','lui')] è pront[Select_CString(bittercringe.IsFemale,'a','o')] a far guerra in mio nome e ad aiutarmi a reclamare il Trono di Spade dall'Usurpatore [ITRuler.GetFirstName]. Migliaia moriranno e il regno che spero di governare sanguinerà, se sceglierò di dare inizio a questa guerra, ma senza di essa forse i draghi rossi non verranno mai sfidati. Qualunque sia la mia decisione, devo prenderla ora.\n\nMarcerò per il mio diritto di nascita, o lascerò che il mio popolo sia governato dai draghi bastardi?"
+ # Daemon II goes to war
   agot_scenario_ats.9000.a:0 "Marciamo in guerra!"
+ # Daemon chooses not to go to war
   agot_scenario_ats.9000.b:0 "Devo trovare la mia via al potere; non è ancora il momento."
-  
+
+ ##########
+ # Rohanne #
+ ##########
+
+ # Rohanne fallback if Eustace dies
+ # Available scopes: eustace
   agot_scenario_ats.9010.t:0 "L'Ultimo Leone Scaccato"
   agot_scenario_ats.9010.desc:0 "Con la morte di Ser [eustace.GetFirstName], il conflitto per la diga è finito e il mio fossato resterà pieno e pronto. Vi è in me una certa tristezza nel veder seppellire l'ultimo rampollo di una stirpe tanto nobile e il padre del ragazzo che avevo amato, ma ho già seppellito vecchi uomini in passato.\n\nOra, nonostante il peso sul cuore, passerò ad altre occupazioni."
   agot_scenario_ats.9010.a:0 "Una triste fine per una triste vita."
   agot_scenario_ats.9010.a.tt:0 "Proseguirai verso compiti più urgenti"
-  
+
+ # Rohanne won the war notification event
+ # Available scopes: eustace, longinch, dunk, gerold
   agot_scenario_ats.9011.t:0 "Un'Ultima Occasione"
   agot_scenario_ats.9011.desc:0 "Il testamento di mio padre grava su di me come un peso enorme. Devo sposarmi entro la settimana, oppure vedrò i miei titoli sottratti e il mio erede legittimo impadronirsi dei miei castelli. Ho inviato corvi e cavalieri per scoprire quali degli uomini che avevo esaminato in precedenza siano ancora disponibili, e le scelte mi sono state presentate.\n\nSceglierò infine un consorte? O tenterò ancora una volta il fato prendendo la ricerca nelle mie mani?"
+ # Eustace Marriage option
   agot_scenario_ats.9011.a:0 "Il leone scaccato potrebbe ancora sposare il ragno."
   agot_scenario_ats.9011.a.tt:0 "Contatterai Ser [eustace.GetFirstNameNoTooltip] riguardo a un patto matrimoniale."
+ # Dunk marriage option
   agot_scenario_ats.9011.b:0 "[dunk.GetTitledFirstNameNoTooltip] potrebbe ancora essere il mio salvatore."
   agot_scenario_ats.9011.b.tt:0 "Contatterai [dunk.GetTitledFirstNameNoTooltip] riguardo a un patto matrimoniale."
+ # Gerold Lannister marriage option
   agot_scenario_ats.9011.c:0 "Potrei vedere se [gerold.GetFirstNameNoTooltip] potrebbe dirsi soddisfatto qui."
   agot_scenario_ats.9011.c.tt:0 "Sposerai Ser [gerold.GetFirstNameNoTooltip]."
+ # Longinch marriage option
   agot_scenario_ats.9011.d:0 "Potrei mandar giù un'unione con Ser [longinch.GetFirstNameNoTooltip]."
   agot_scenario_ats.9011.d.tt:0 "Sposerai Ser [longinch.GetFirstNameNoTooltip]"
+ # Rohanne does one last search herself
   agot_scenario_ats.9011.e:0 "Devo tentare, un'ultima volta."
   agot_scenario_ats.9011.e.tt:0 "Potrai cercare di nuovo un coniuge per conto tuo, ma avrai soltanto un'altra settimana."
-  
+
+ # Game over event for Rohanne for failing to fulfill her father's will in time
+ # Available scopes: dunk
   agot_scenario_ats.9012.t:0 "La Ragnatela d'un Padre"
   agot_scenario_ats.9012.desc:0 "La trappola di mio padre mi ha infine raggiunta. Nonostante tutti i miei sforzi, ormai ho ben poca scelta. Devo cedere le mie terre e lasciare i miei castelli al mio erede. Non era certo questo il destino che desideravo, ma ormai vi è ben poco da fare.\n\nLa Vedova Rossa di Fossafredda non esiste più; ora sono soltanto Lady Rohanne."
   agot_scenario_ats.9012.a:0 "Addio, Fossafredda."
@@ -454,89 +775,127 @@
   agot_scenario_ats.9012.b.tt:0 "Passerai a Ser Duncan l'Alto e Rohanne diventerà una seguace."
   agot_scenario_ats.9012.c:0 "Mi lascerò alle spalle queste terre e forgerò una nuova via."
   agot_scenario_ats.9012.c.tt:0 "Rinuncerai ai tuoi titoli e formerai un campo d'avventura."
-  
+
+ # War victory event for Rohanne as attacker
+ # Available scopes: eustace
   agot_scenario_ats.9013.t:0 "Una Torre Ridotta a Torcia"
   agot_scenario_ats.9013.desc:0 "Mentre gli incendi divampano intorno a Standfast e le misere forze schierate da Ser [eustace.GetFirstName] contro di noi svaniscono nel nulla, io mi ergo vittoriosa. Ora che la polvere si posa, posso ricostruire e occuparmi infine del testamento di mio padre."
+ # Rohanne now has Standfast, the dam comes down
   agot_scenario_ats.9013.a:0 "La torre è mia e la diga può cadere!"
   agot_scenario_ats.9013.a.tt:0 "Standfast e Fossafredda condivideranno l'acqua"
-  
+
+ # War victory event for Rohanne as defender
   agot_scenario_ats.9014.t:0 "Il Leone Senza Denti"
   agot_scenario_ats.9014.desc:0 "Nonostante l'enorme divario tra le nostre risorse, Ser [eustace.GetFirstName] ha comunque ritenuto opportuno muovere guerra alla Vedova di Fossafredda. Ora la sua misera forza è stata schiacciata ed egli è ridotto a una rovina. Con questa faccenda risolta e la vittoria nelle mie mani, posso finalmente occuparmi del testamento di mio padre e del rafforzamento della mia posizione."
   agot_scenario_ats.9014.a:0 "Ad altre questioni."
   agot_scenario_ats.9014.a.tt:0 "Riceverai una scelta di opzioni matrimoniali"
-  
+
+ # War defeat event for Rohanne as attacker
   agot_scenario_ats.9015.t:0 "Le Ragnatele in Fiamme"
   agot_scenario_ats.9015.desc:0 "I corpi degli uomini dei Webber giacciono disseminati nei campi insanguinati fuori da Fossafredda, mentre il fiero leone scaccato attende ai cancelli. Ho mosso contro Ser [eustace.GetFirstName] e ho pagato il prezzo del fallimento. Sono umiliata e la mia diga è stata abbattuta, lasciando meno acqua per i raccolti di Fossafredda nei giorni a venire.\n\nOra non posso far altro che pregare per la pioggia."
   agot_scenario_ats.9015.a:0 "Devo solo attendere la fine di questa siccità e tramare la mia prossima mossa"
   agot_scenario_ats.9015.a.tt:0 "La diga cadrà e passerai alla scelta d'un coniuge"
-  
+
+ # War defeat for Rohanne as a defender
   agot_scenario_ats.9016.t:0 "Un Diritto di Nascita Perduto"
   agot_scenario_ats.9016.desc:0 "Il leone scaccato sventola di nuovo fiero sopra Fossafredda, mentre i vessilli del ragno dell'antico castello vengono strappati e gettati nelle fiamme sottostanti. Mi ritrovo a domandarmi se mio padre avesse ragione, se davvero non fossi in grado di governare da sola, mentre la parte più grande del mio diritto di nascita mi viene strappata di mano.\n\nChe cosa verrà ora? Vendetta? O accettazione?"
+ # Rohanne has lost coldmoat, and the dam comes down
   agot_scenario_ats.9016.a:0 "Passerò ad altre questioni e valuterò la mia prossima mossa."
   agot_scenario_ats.9016.a.tt:0 "Sceglierai da una lista di potenziali sposi"
-  
+
+ ##########
+ # Eustace #
+ ##########
+
+ # Eustace fallback if Rohanne dies
+ # Available scopes: rohanne
   agot_scenario_ats.9020.t:0 "Una Vedova Morta"
   agot_scenario_ats.9020.desc:0 "Con la morte di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstName], il conflitto per la diga è finito, almeno per ora. Non posso fare a meno di provare dolore mentre l'amore d'infanzia di mio figlio viene sepolto all'ombra del castello della mia famiglia. Tanta morte e tanta distruzione nella mia vita, eppure nulla di tutto questo ha significato alcunché. Sarà difficile compiere altre mosse, poiché il mio signore osserverà troppo da vicino, quindi non mi resta che resistere alla siccità finché la pioggia non verrà a salvarci.\n\nSpero che giunga presto."
   agot_scenario_ats.9020.a:0 "Piangeremo i morti e pregheremo per i vivi."
   agot_scenario_ats.9020.a.tt:0 "Attenderai che la siccità finisca"
-  
+
+ # Eustace won the war as an attacker
+ # Available scopes: rohanne
   agot_scenario_ats.9021.t:0 "Il Leone Trionfante"
   agot_scenario_ats.9021.desc:0 "In quella che verrà ricordata per generazioni come una vittoria straordinaria, ho annientato gli eserciti di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstName], lasciando i suoi uomini in un mucchio insanguinato fuori da Fossafredda. Mentre avanzo verso la possente porta del castello, prendendomi il tempo di esaminare ciascuna delle antiche mura che la mia Casata un tempo costruì, un ampio sorriso mi si disegna sul volto. Strappando il vessillo dei Webber, il ragno bianco ondeggia nella brezza mentre scende al suolo, e il mio sorriso si allarga alla vista del leone scaccato restaurato, tornato al suo posto d'onore.\n\nInfine, ho restaurato la mia Casata."
   agot_scenario_ats.9021.a:0 "La diga sarà abbattuta e io governerò."
   agot_scenario_ats.9021.a.tt:0 "Fossafredda e Standfast condivideranno l'acqua"
-  
+
+ # Eustace won the war as a defender
+ # Available scopes: rohanne
   agot_scenario_ats.9022.t:0 "Il Leone Trionfante"
   agot_scenario_ats.9022.desc:0 "Nonostante tutte le minacce di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstNamePossessive], ho dimostrato che il veleno di questa vedova era ben debole. I suoi uomini giacciono spezzati e sanguinanti nei campi fuori da Standfast, mentre la mia torre resta inespugnata. Ho vinto contro ogni previsione e ho portato nuovo orgoglio e nuova gloria alla mia antica Casata. Rohanne è costretta ad accettare una pace umiliante, lasciando la Vedova Rossa indebolita e il leone scaccato più forte che mai."
   agot_scenario_ats.9022.a:0 "Abbattete quella diga!"
   agot_scenario_ats.9022.a.tt:0 "Abbatterai la diga"
-  
+
+ # Eustace lost the war as the defender
+ # Available scopes: rohanne
   agot_scenario_ats.9023.t:0 "La Fine del Leone Scaccato"
   agot_scenario_ats.9023.desc:0 "Con la caduta di Standfast, [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] ha spezzato le mie forze e reclamato l'ultima fortezza rimasta alla mia Casata. Ora sono un cavaliere senza terra, senza casa, senza speranza.\n\nVorrei che non si fosse mai giunti a questo, che mi fossi tirato indietro quando ancora ne avevo l'occasione, ma ora non mi restano che rovine."
   agot_scenario_ats.9023.a:0 "La mia Casata è caduta."
   agot_scenario_ats.9023.a.tt:0 "Hai perduto Standfast"
-  
+
+ # Eustace lost the war as an attacker
+ # Available scopes: rohanne
   agot_scenario_ats.9024.t:0 "Il Leone Senza Artigli"
   agot_scenario_ats.9024.desc:0 "Con la sconfitta dei miei eserciti e l'incendio delle mie terre, Casa Osgrey è stata ancora una volta dimostrata debole. Ho disonorato la mia Casata più di quanto avrei mai immaginato. La mia famiglia in rovina, le mie terre devastate e la mia posizione politica più fragile che mai.\n\nOra sono un leone senza artigli e sono alla mercé di questa vedova."
   agot_scenario_ats.9024.a:0 "La diga resterà, e dovrò convivere con i miei fallimenti."
   agot_scenario_ats.9024.a.tt:0 "Attenderai ciò che verrà"
-  
+
+ ##########
+ #  Dunk  #
+ ##########
+
+ # Dunk fallback if Rohanne dies
+ # Available scopes: rohanne
   agot_scenario_ats.9030.t:0 "Una Vedova Morta"
   agot_scenario_ats.9030.desc:0 "Con la morte di [rohanne.GetFullName], il conflitto per la diga è finito, almeno per ora. Mi addolora vedere la minuta figura della Signora di Fossafredda sepolta nella sua ombra.\n\nOra che questo conflitto è concluso, Egg ed io siamo liberi di scegliere se restare e lavorare qui o proseguire verso pascoli forse più verdi. In ogni caso, le siepi ci attendono."
   agot_scenario_ats.9030.a:0 "Un addio alla vedova."
   agot_scenario_ats.9030.a.tt:0 "Tornerai a svolgere contratti"
-  
+
+ # Dunk fallback if Eustace dies
+ # Available scopes: eustace
   agot_scenario_ats.9031.t:0 "L'Ultimo Leone Scaccato"
   agot_scenario_ats.9031.desc:0 "Con la morte di Ser [eustace.GetFirstName], Egg ed io ci ritroviamo ancora una volta senza servire alcun padrone. Pare proprio che sia tempo di rimettersi in viaggio e mostrare a Egg una parte più ampia del mondo.\n\nL'ultimo leone scaccato forse è scomparso, ma le siepi ci attendono sempre."
   agot_scenario_ats.9031.a:0 "Addio, leone scaccato."
   agot_scenario_ats.9031.a.tt:0 "Tornerai a svolgere contratti"
-  
+
+ # Dunk can join the war on Eustace's side
+ # Available scopes: eustace/rohanne
   agot_scenario_ats.9032.t:0 "Fuoco e Spada"
   agot_scenario_ats.9032.desc:0 "[rohanne.GetFullName] e Ser [eustace.GetFirstName] sono ora in guerra! I nostri giuramenti di servizio esigono che Egg ed io ci uniamo a Ser [eustace.GetFirstNameNoTooltip] e combattiamo al suo fianco, e [Select_CString(eustace.IsFemale,'lei','lui')] mi ha offerto truppe da comandare, ma mettere a rischio Egg è una scelta difficile.\n\nLa guerra non è cosa lieve, e portare con sé perfino uno scudiero assai capace può essere pericoloso. Devo scegliere con cura se prestare il mio aiuto."
+ # Dunk joins the war
   agot_scenario_ats.9032.a:0 "Per il leone scaccato!"
   agot_scenario_ats.9032.a.tt:0 "Guiderai truppe dalla parte di [eustace.GetNameNoTooltip]"
+ # Dunk refuses to join
   agot_scenario_ats.9032.b:0 "Non posso immischiarmi in questo, non adesso."
   agot_scenario_ats.9032.b.tt:0 "Rifiuterai di unirti a Ser [eustace.GetFirstNameNoTooltip]"
-  
+
   rohanne_hair_token.desc:0 "Una ciocca di capelli legata con un nastro di seta, presa dalla lunga treccia rossa di [rohanne.Custom('IT_NAM_COL2')][rohanne.GetTitledFirstName] durante il soggiorno di [dunk.GetTitledFirstNameNicknamedPossessive] a Standfast."
-  
+
+ # Dunk event if Eustace lost the war
   agot_scenario_ats.9033.t:0 "Il Leone Spezzato"
   agot_scenario_ats.9033.desc:0 "Forse non dovrebbe sorprendermi, visto quanto era piccolo l'esercito al comando di Ser [eustace.GetFirstNamePossessive], che i suoi uomini giacciano morti e spezzati tutt'intorno a me. Il campo è disseminato di cadaveri sanguinanti mentre [rohanne.Custom('IT_NAM_COL3')][rohanne.GetTitledFirstName] rivendica la propria vittoria sotto il cielo rosso sangue del mattino. I miei uomini, concessimi da Ser [eustace.GetFirstNameNoTooltip], fanno ritorno alle loro case.\n\nEgg ed io, come sempre, torneremo alle siepi e cercheremo di dimenticare tutto ciò che abbiamo veduto."
   agot_scenario_ats.9033.a:0 "Addio, leone scaccato."
   agot_scenario_ats.9033.a.tt:0 "Tornerai a svolgere contratti"
-  
+
+ # Dunk event if Eustace won the war
   agot_scenario_ats.9034.t:0 "Il Leone Vittorioso"
   agot_scenario_ats.9034.desc:0 "L'esercito della vedova giace in frantumi, mentre le forze dell'esperto Ser [eustace.GetFirstName] lasciano il campo da vincitrici. Questa notevole vittoria su forze immensamente superiori rende il leone scaccato più forte che mai e con ancor meno bisogno d'un comune cavaliere delle siepi. Mentre il cielo del mattino si tinge d'un cremisi sanguigno, restituisco il comando degli uomini che Ser [eustace.GetFirstNameNoTooltip] mi aveva affidato, raccolgo le mie cose e mi preparo a partire.\n\nEgg ed io, come sempre, torneremo alle siepi."
   agot_scenario_ats.9034.a:0 "Addio, leone scaccato."
   agot_scenario_ats.9034.a.tt:0 "Tornerai a svolgere contratti"
-  
+
   osgrey_and_webber_claim:0 "La Guerra della Vedova"
-  
+
+ # Interface toast if Rohanne removed the dam
   rohanne_removed_the_dam:0 "Lady Rohanne ha accettato i termini e ha rimosso la diga"
-  
+
+ # Rohanne LAAMP Names
   rohanne_laamp_name_1:0 "Le Ragnatele della Vedova"
   rohanne_laamp_name_2:0 "Le Spade del Ragno"
   rohanne_laamp_name_3:0 "Freddi Compagni"
-  
+
+ # Eustace LAAMP Names
   eustace_laamp_name_1:0 "L'Orgoglio del Leone"
   eustace_laamp_name_2:0 "I Compagni Scaccati"
   eustace_laamp_name_3:0 "Gli Esuli di Eustace"
