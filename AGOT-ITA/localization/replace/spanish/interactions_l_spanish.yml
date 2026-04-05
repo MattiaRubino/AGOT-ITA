@@ -3,7 +3,7 @@
  vassal_contract_forbids_revocation:2 "Non puoi revocare [titles|E] da un [vassal|E] che ha un [vassal_contract|E] con la #high $title_revocation_rights_protected$#!"
  EFFECTS_ON_ME:1 "Effetti [Character.Custom('IT_NAM_COL')]#high [Character.Custom('AGOTCustomGetUINameOrMe')]#!"
  can_be_granted_titles_interaction_tt:0 "Le [recipient.GetWomenMen|U] devono essere di genere Dominante, Paritario o Clericale all'interno della tua [faith|E] ([actor.GetFaith.GetName]), oppure devono essere sia il tuo [primary_heir|E] sia possedere il [trait|E] [GetTrait('education_heir_training_1').GetName( GetNullCharacter )]"
-
+ 
  #End AGOT modifiche
 
  ANSWER_YES:1 "#P Accetterà#!"

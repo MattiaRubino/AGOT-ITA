@@ -3,7 +3,7 @@
  MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC: "Solo il [top_liege|E] può modificare le leggi Provinciali"
  MY_REALM_ADMIN_LAWS_HEADER: "Governo di [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  #high [Character.Custom('AGOTCustomGetTitledFullNameDynasty')]#!, "
-
+ 
  #End AGOT modifiche
 
  MY_REALM_WINDOW_TITLE:0 "Il Mio Regno"
@@ -160,6 +160,7 @@ MY_REALM_WINDOW_TITLES_LOST_LABEL: "[TitleSuccessionItem.GetTitlesLostToText( Ch
  MY_REALM_WINDOW_HIDE:0 "Nascondi"
  MY_REALM_WINDOW_DESIGNATE_HEIR:1 "Cambia"
  MRW_CHANGE_LAW:0 "Cambia"
+MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  [Character.GetShortUINameNoTooltip], "
  MRW_DESIGNATED_HEIR:0 "[MyRealmWindow.GetCharacter.GetDesignatedHeir.GetUIName]"
  MRW_NO_DESIGNATED_HEIR:0 "#weak Nessuno#!"
  MRW_DESIGNATED_HEIR_LABEL:0 "[designated_heir|E]:"

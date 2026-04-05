@@ -15,8 +15,8 @@
  court_position_reforge_vs: 0 "Conosce i segreti della riforgiatura dell'Acciaio di Valyria"
  eparch_court_position: "Jovēnnio"
  eparch_court_position_desc: "Il Jovēnnio è il principale amministratore e l'autorità suprema della capitale, secondo soltanto al monarca regnante."
-
-   #End AGOT modifiche
+ 
+ #End AGOT modifiche
 
   APPOINT_COURT_POSITION_VIEW_replace_character_header: "Sostituisci [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.Custom('IT_NAM_COL3')][AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] come [AppointCourtPositionView.GetPositionName]"
   APPOINT_COURT_POSITION_VIEW_select_character_header: "Nomina [AppointCourtPositionView.GetPositionName]"
@@ -378,6 +378,8 @@ court_position_no_poet_trait: "Non #bold possiede#! il [trait|E] [GetTrait('life
   court_position_tgp_dynasty_legacy: "[GetDynastyPerk( 'tgp_chinese_legacy_5' ).GetName]"
   court_position_surveyor_trait: "[GetTrait('lifestyle_surveyor').GetName( ROOT.Char )]"
 
+  court_position_poet_is_advancement: "Membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
+  court_position_liege_is_advancement: "Il signore è membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
   court_position_tradition_poetry:0 "[culture_tradition|E] $tradition_poetry_name$"
   court_position_tradition_horse_lords:0 "[culture_tradition|E] $tradition_horse_lords_name$"
   court_position_tradition_caravaneers:0 "[culture_tradition|E] $tradition_caravaneers_name$"
@@ -651,6 +653,8 @@ caravan_master_improve_self_fallback_tt: "Ogni mese questo personaggio ha la pos
   court_position_not_same_culture_heritage: "[heritage|E] diverso dalla [culture|e] del [liege|E]"
   court_position_not_same_culture_language: "[language|E] diversa dalla [culture|E] del [liege|E]"
  
+  eparch_court_position: "Eparca"
+  eparch_court_position_desc: "L'Eparca è il principale amministratore e l'autorità suprema della capitale, secondo solo al monarca regnante."
   eparch_appease_populace: "Calmare la Popolazione"
   eparch_appease_populace_desc: "L'[GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] si occuperà delle necessità dei cittadini della capitale."
   eparch_support_troops: "Sostenere le Truppe"

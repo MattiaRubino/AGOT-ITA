@@ -3,8 +3,8 @@
  building_type_castle_01:0 "Castello"
  building_castle_01:1 "Piccolo Mastio"
  building_castle_01_desc:1 "Questa piccola ma formidabile fortificazione è situata su un terrapieno rialzato."
-  building_type_capital_bureau_01_desc: "Un ramo dedicato del governo che consacra tutte le proprie risorse alla gestione della capitale. Una folla di funzionari e servitori risiede entro queste mura, pronta a servire ai comandi del jovēnnio."
-
+ building_type_capital_bureau_01_desc: "Un ramo dedicato del governo che consacra tutte le proprie risorse alla gestione della capitale. Una folla di funzionari e servitori risiede entro queste mura, pronta a servire ai comandi del jovēnnio."
+ 
  #End AGOT modifiche
 
   BUILDING_DEBUG_KEY: "#D DEBUG KEY:#! [BUILDING.GetKey]"
@@ -1091,6 +1091,7 @@ building_holy_site_japanese_temple_01: "Grande santuario"
   mines_roco_effect_desc:0 "$unlocks_building_desc$Incremento di Qualità delle [inspirations|E] Finanziate di #V Artigianato#!, #V Armi#!, #V Armature#!, e #V Fabbri#!"
   royal_garden_effect_desc:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'royal_garden_effect_toto_desc', 'blank_line' )]"
   leisure_palace_effect_desc:1 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'leisure_palace_effect_toto_desc', 'feast_cost_discount_max_desc' )]"
+wedding_bonus_effect: "Ricompense aumentate per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] ospitate in questo [holding|E]"
   royal_garden_effect_toto_desc:1 "$unlocks_building_desc$Maggiori Ricompense per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] Organizzate in questo [holding|E]"
   dragon_kiln_effect_desc: "Aumento di [opinion|E] da $gift_interaction|V$: #P +50%#!"
   leisure_palace_effect_toto_desc:1 "$feast_cost_discount_max_desc$\nMaggiori Ricompense per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] Organizzate in questo [holding|E]"
@@ -2268,6 +2269,7 @@ building_type_alcazar_of_segovia_01_desc: 0 "Questa fortezza, che si innalza com
   building_generic_gold_mines_04_desc: "$building_rammelsberg_mines_04_desc$"
  
   building_type_capital_bureau_01: "Magistratura della Capitale"
+  building_type_capital_bureau_01_desc: "Un ramo dedicato del governo, che dedica tutte le sue risorse alla gestione della capitale. Una folla di impiegati e funzionari risiede entro queste mura, pronta a servire agli ordini dell’eparca"
   building_capital_bureau_01: "Tribunale"
   building_capital_bureau_01_desc: "La legge è ciò che fa prosperare una città, e può essere rispettata solo nei tribunali."
   building_capital_bureau_02: "Ufficio della Sicurezza"
@@ -2387,7 +2389,10 @@ building_type_alcazar_of_segovia_01_desc: 0 "Questa fortezza, che si innalza com
   building_powder_magazine_07_desc: "Un edificio separato in cui i diversi componenti vengono combinati per creare la polvere da sparo. Se dovesse verificarsi un incidente, auspicabilmente non comprometterà più l'intero complesso."
   building_powder_magazine_08: "Stabilimento per cannoni a mano"
   building_powder_magazine_08_desc: "I cannoni a mano possono essere inaffidabili e incrinarsi durante l'uso. Occorre quindi dotarsi del miglior equipaggiamento possibile e ingaggiare i più abili artefici disponibili per produrre armi della massima qualità"
-
+  powder_magazine_1_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_1')|0]#!"
+  powder_magazine_2_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_2')|0]#!"
+  powder_magazine_3_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_3')|0]#!"
+ 
   building_type_mandala_capital_01: "Complesso templare capitale"
   building_type_mandala_capital_01_desc: "Questo [great_project|E] non è solo un tempio. È una testimonianza del nostro valore. Delle nostre imprese. Della nostra #EMP grandezza#!. Un tempio simile attesta il dominio e la benevolenza del nostro divino e potente Devaraja."
   building_mandala_capital_01: "Tempio ornato"

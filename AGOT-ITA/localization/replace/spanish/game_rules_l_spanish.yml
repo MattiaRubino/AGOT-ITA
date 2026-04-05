@@ -12,8 +12,8 @@
  setting_matrilineal_marriages_no_player_exception:0 "#high Limitato#!"
  setting_matrilineal_marriages_no_player_exception_desc:0 "I personaggi IA predisporranno matrimoni [matrilineal|E] se sono di grado [title_tier|E] [duke|E] o superiore, appartengono a una [dynasty|E] di livello [dynasty_prestige_level_4|L], oppure a un regno con la legge [GetLaw('equal_law').GetName], seguendo le preferenze di #high $setting_default_matrilineal_marriages$#!." 
  setting_matrilineal_marriages_always_desc:0 "I personaggi IA vorranno predisporre matrimoni [matrilineal|E] per tutte le donne della [dynasty|E] e per i cortigiani destinati a ereditare un titolo. Come nelle regole di #high $setting_default_matrilineal_marriages$#!, i matrimoni [patrilineal|E] avverranno comunque se ritenuti abbastanza vantaggiosi."
-
-   #End AGOT modifiche
+ 
+ #End AGOT modifiche
 
  GAME_RULES:0 "Regole di Gioco"
  GAME_RULES_HEADER:0 "Regole di Gioco"
@@ -527,15 +527,21 @@ setting_roman_empire_name_of_byzantium_desc: "Il nome di $e_byzantium$ sarà cam
  setting_random_seljuk_invasion:0 "#high Casuale#!"
  setting_random_seljuk_invasion_desc:0 "I Selgiuchidi invaderanno in una data casuale."
 
+ rule_black_death_occurrence: "Circostanze della Morte Nera"
  setting_bd_occurrence_organic: "#high Organica#!"
+ setting_bd_occurrence_organic_desc: "La Morte Nera si verifica in uno scenario storicamente plausibile che reagisce allo stato del gioco."
  setting_bd_occurrence_historical: "Storica"
  setting_bd_occurrence_historical_desc: "La Morte Nera inizia in Asia Centrale nel XIV secolo e si diffonde lungo le rotte commerciali storicamente più frequentate. Milano, i Pirenei, la Polonia e altre regioni storiche vengono colpite meno da questa pandemia."
  setting_bd_occurrence_random: "#high Casuale#!"
+ setting_bd_occurrence_random_desc: "La Morte Nera ha origine in una provincia completamente casuale della mappa."
 
  rule_black_death_frequency: "Frequenza della Morte Nera"
  setting_bd_frequency_once: "Una Volta"
+ setting_bd_frequency_once_desc: "La Morte Nera può verificarsi una sola volta nel corso della partita."
  setting_bd_frequency_unlimited: "[game_rule_extreme_i|e] #high Illimitata#!"
+ setting_bd_frequency_unlimited_desc: "La Morte Nera può comparire un numero illimitato di volte nel corso della partita."
  setting_bd_frequency_never: "#high Mai#!"
+ setting_bd_frequency_never_desc: "La Morte Nera non si verificherà mai."
 
  rule_other_epidemic_frequency: "Frequenza delle Epidemie"
  setting_epidemic_frequency_normal: "Normale"

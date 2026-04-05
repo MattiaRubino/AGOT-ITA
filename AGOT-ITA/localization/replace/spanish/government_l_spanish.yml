@@ -945,7 +945,10 @@ investiture_marriage_no: "Escluso dalla famiglia imperiale"
 INCREASED_MARRIAGE_ACCEPTANCE_INVESTITURE_MARRIAGE_REASON: "Il [tributary|E] ha $celestial_tributary_investiture_privilege_marriage$: $VALUE|=+0$"
 
 celestial_tributary_investiture_privilege_politics: "Privilegi di palazzo"
-
+investiture_politics_yes_short: "Accesso al palazzo"
+investiture_politics_yes: "Accesso al palazzo imperiale"
+investiture_politics_yes_desc: "#emphasis #bold Privilegi del [tributary|E]:#!#!\n$EFFECT_LIST_BULLET$ Diventa parte attiva del [dynastic_cycle|E]\n$EFFECT_LIST_BULLET$ Ottiene [movement_power|E] in proporzione alla [imperial_grace|E]\n\n#flavor Mentre alla maggior parte dei [tributaries|E] di [GetTitleByKey('h_china').GetDefinitiveName] si chiede solo di osservare l’ordine celeste, a pochi eletti può essere concessa voce nel suo moto. L’accesso al palazzo imperiale coinvolge il $game_concept_tributary$ privilegiato nel $game_concept_dynastic_cycle$, permettendogli di unirsi a un [movement|E] e influenzarne la [situation_dynastic_cycle_phase|E].#!"
+investiture_politics_no: "Escluso dal palazzo imperiale"
 
 TRIBUTARY_GAIN_LEGITIMACY: "Il tributario ottiene @legitimacy_icon! per la [radiance|e] del [suzerain|E] [CHARACTER.GetRadianceValueNoTooltip|V0]/[GetDefine( 'NMandala', 'MAX_RADIANCE' )|V0]"
 
