@@ -1,0 +1,20 @@
+﻿l_spanish:
+
+ ############################
+ ### Adventurer Decisions ###
+ ############################
+  settle_wilderness_county_or_duchy_decision:0 "Insedia la Regione"
+  settle_wilderness_county_or_duchy_decision_desc:0 "Insedia la regione locale, divenendo un sovrano con terre e lasciandoti alle spalle i tuoi giorni d'avventura."
+  settle_wilderness_county_or_duchy_decision_tooltip:0 "Insedia la regione locale, divenendo un [ruler|E] con terre"
+  settle_one_county:0 "Insedia la [county|E] immediata"
+  settle_one_county_tooltip:0 "$settle_one_county$"
+  settle_one_county_desc:0 ""
+  settle_duchy:0 "Tenta di insediare il [duchy|E]"
+  settle_duchy_tooltip:0 "$settle_duchy$"
+  settle_duchy_desc:0 ""
+  settle_wilderness_county_or_duchy_decision_confirm:0 "È tempo di farsi una casa..."
+  settle_wilderness_county_or_duchy_basic_effect:0 "Per ogni #V 100#! [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E], insedierai #P 1#! [county|E]"
+  settle_wilderness_county_or_duchy_current_settle_limit_effect:0 "Contee attualmente insediabili: #V [GetPlayer.MakeScope.ScriptValue('agot_settle_wilderness_as_adventurer_county_limit')]#!"
+  settle_wilderness_county_or_duchy_destroy_maa_effect:0 "I [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E] saranno distrutti!"
+  settle_wilderness_county_or_duchy_not_enough_maa_tt:0 "Non hai abbastanza Uomini d'Arme\n#low Ne servono almeno 300 [GetMaA('laamp_settler_maa').GetName] [men_at_arms|E]#!"
+  settle_wilderness_duchy_has_underground_counties:0 "In questo [duchy|E] vi sono contee sotterranee che #N non#! verranno insediate."

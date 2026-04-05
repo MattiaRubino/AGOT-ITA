@@ -1,0 +1,30 @@
+﻿l_spanish:
+
+ ###########################
+ #   Rhllor Filler Events  #
+ ###########################
+
+  agot_filler_rhllor.0001.t:0 "Il Signore della Luce"
+agot_filler_rhllor.0001.desc: 0 "In una notte infausta, mi ritrovo sol[Select_CString(ROOT.Char.IsFemale,'a','o')] nel mio studio, intento a rimuginare su rapporti e dettagli che di solito vengono lasciati a uomini inferiori. All'improvviso, la porta cigola e, senza alcuna cerimonia, una donna entra. È vestita interamente di rosso, i capelli come fuoco, e parla con una voce profonda, stranamente melodiosa. È inquietantemente bella, e per un istante mi chiedo se mi sia addormentat[Select_CString(ROOT.Char.IsFemale,'a','o')]. Ma quando sbatto le palpebre, è ancora lì.\n\nLa Donna Rossa mi parla di una profezia, del Signore della Luce, e di un nome che riconosco dalle lezioni di un tempo: Azor Ahai, il portatore di Lightbringer, nat[Select_CString(ROOT.Char.IsFemale,'a','o')] tra sale e fumo — il salvatore del mondo conosciuto.\n\nSi china vicino e mi sussurra all'orecchio che è giunta l'ora di reclamare il mio destino, di compiere i presagi visti nei templi lontani quanto Asshai. Mi basta afferrarlo, ora."
+  agot_filler_rhllor.0001.a:0 "Ascolterò, ma nient'altro."
+  agot_filler_rhllor.0001.b:0 "Devo tener conto di questi segni..."
+  agot_filler_rhllor.0001.b.tt:0 "...perché la notte è buia e piena di terrore."
+  agot_filler_rhllor.0001.c:0 "Devo tener conto di questi segni...e #italic di più#!..."
+  agot_filler_rhllor.0001.d:0 "Vai via, strega vile! Non hai alcun potere su di me!"
+  agot_filler_rhllor.0001.e:0 "Guardie! Assassino!"
+
+  agot_filler_rhllor.0002.t:0 "Abbracciare la Luce"
+agot_filler_rhllor.0002.desc: 0 "Dopo aver abbracciato il Signore della Luce, la mia fede arde di nuovo dentro di me, irradiando il suo fulgore sul mio nome.\n\nPer onorare questa profonda devozione al Dio Rosso, forse dovrei considerare l'idea di adottare un nuovo sigillo — che renda ancora omaggio alla mia Casata, ma rifletta l'essenza ardente e le fiamme sacre del Signore della Luce. Dovrei cogliere questa occasione per lasciare che la mia fede divampi sul mio vessillo, o mantenere le armi tradizionali della mia Casata?"
+  agot_filler_rhllor.0002.a:0 "Lascia che le fiamme di R'hllor guidino il nostro stendardo."
+  agot_filler_rhllor.0002.b:0 "Conserverò i nostri stemmi tradizionali."
+agot_filler_rhllor.0002.tt: 0 "Ottieni uno stemma personale nello stile di R'hllor"
+
+ ##################################
+ # CONVERT TO R'HLLOR (0020-0030) #
+ ##################################
+
+  agot_filler_rhllor.0020.t:0 "Il Sacerdote Rosso di [current_location.GetNameNoTooltip]"
+  agot_filler_rhllor.0020.desc:0 "Mentre ci facciamo strada per le strade affollate di [current_location.GetNameNoTooltip], io e [companion.GetTitledFirstName] non possiamo fare a meno di notare il crescente tumulto davanti a noi. Il ruggito della folla riunita davanti a noi diventa sempre più forte, come un falò che si nutre di troppa legna.\n\nDavanti alla folla si erge un sacerdote rosso di R'hllor che pronuncia un acceso discorso, lasciando l'audience in raptus. Ogni sua parola sembra spingere gli ascoltatori sempre più verso una frenesia...\n\n#italic "La notte diventa buia intorno a noi, soffocando la luce in ognuno di noi... La luce del Signore, la stessa fiamma della nostra esistenza, richiede sacrificio!"#! La voce tonante di [red_priest.GetFirstNamePossessive] taglia l'aria mentre i suoi occhi si bloccano con i miei. "Ehi! Cosa abbiamo #italic qui#!? Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] potente [ROOT.Char.GetLadyLord|l] venut[ROOT.Char.Custom('DE_END_PRO_S_N')] a mescolarsi coi comuni mortali."\n\nIl silenzio improvviso ci avvolge come la fiamma di una candela schiacciata tra due dita, ma il mio sguardo rimane fisso su [red_priest.GetFirstNameNoTooltip]. "Cosa offriresti al Signore della Luce, per vedere il suo #italic vero#! volto?" #italic I suoi occhi si spostano verso un rogo acceso accanto a [red_priest.GetSheHe].#!"
+  agot_filler_rhllor.0020.a:0 "Solo il sangue di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetLadyLord] andrà bene."
+  agot_filler_rhllor.0020.b:0 "Sicuramente il Signore della Luce accetterebbe [companion.GetFirstNameNoTooltip]."
+  agot_filler_rhllor.0020.c:0 "Penso che sia ora di andare via da [current_location.GetNameNoTooltip]"

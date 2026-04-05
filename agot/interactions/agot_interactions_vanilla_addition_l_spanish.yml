@@ -1,0 +1,38 @@
+﻿l_spanish:
+  MEGA_WAR_SWITCH_SIDES:0 "Forza a Cambiare Fazione"
+  SWITCH_SIDES_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] è riluttante a cambiare fazione: $VALUE|=+0$"
+  SWITCH_SIDES_HEIR_IMPRISONED:0 "Il suo erede è stato imprigionato: $VALUE|=+0$"
+  SWITCH_SIDES_LOYAL:0 "[recipient.GetSheHe|U] è leale: $VALUE|=+0$"
+  SWITCH_SIDES_DISLOYAL:0 "[recipient.GetSheHe|U] è Sleale: $VALUE|=+0$"
+  SWITCH_SIDES_CONTROLS_CAPITAL:0 "[recipient.GetSheHe|U] non controlla la sua capitale: $VALUE|=+0$"
+  SWITCH_SIDES_LOSING_WAR:0 "[recipient.GetSheHe|U] sta perdendo la guerra: $VALUE|=+0$"
+
+  AGOT_REALM_MEGAWAR_REASON:0 "Regno in guerra: $VALUE|=+0$"
+
+  DESIGNATE_HEIR_HAS_CHILD:0 "Hai già un erede!"
+
+  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_WV:0 "Tentativo di convertire [secondary_recipient.GetShortUIName] in ([secondary_actor.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_WV:0 "Tentativo di convertire [secondary_actor.GetShortUIName] in ([secondary_recipient.GetCulture.MakeScope.Var('wv_culture').Culture.GetName])."
+  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_ACTOR_EV:0 "Tentativo di convertire [secondary_recipient.GetShortUIName] in ([secondary_actor.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+  EDUCATE_CHILD_OPTION_CONVERT_CULTURE_TT_TO_RECIPIENT_EV:0 "Tentativo di convertire [secondary_actor.GetShortUIName] in ([secondary_recipient.GetCulture.MakeScope.Var('ev_culture').Culture.GetName])."
+
+  childhood_education.1011.wv.desc:0 "[guardian.GetTitledFirstName] mi ha insegnato così tanto sui modi del suo popolo — del nostro popolo, perché non solo io mi professi nella fede [guardian.GetFaith.GetAdjective], ma mi identifico come [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+  childhood_education.1011.ev.desc:0 "[guardian.GetTitledFirstName] mi ha insegnato così tanto sui modi del suo popolo — del nostro popolo, perché non solo io mi professi nella fede [guardian.GetFaith.GetAdjective], ma mi identifico come [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
+
+  childhood_education.1012.wv.desc:0 "Con l'educazione continua nella fede e nelle pratiche del mio popolo, [ward.GetTitledFirstName] mi ha detto che si sente un [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+  childhood_education.1012.ev.desc:0 "Con l'educazione continua nella fede e nelle pratiche del mio popolo, [ward.GetTitledFirstName] mi ha detto che si sente un [guardian.GetFaith.GetAdjective] [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
+
+  childhood_education.1031.wv.desc:0 "Sono forse nato [ward.GetCulture.GetName], ma non posso negare che ormai non so nemmeno cosa significhi. Dopo il tutoraggio di [guardian.GetTitledFirstNamePossessive], mi sento totalmente [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]."
+  childhood_education.1031.ev.desc:0 "Sono forse nato [ward.GetCulture.GetName], ma non posso negare che ormai non so nemmeno cosa significhi. Dopo il tutoraggio di [guardian.GetTitledFirstNamePossessive], mi sento totalmente [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]."
+
+  childhood_education.1032.wv.desc:0 "Dopo il mio lungo tutoraggio del giovane [ward.GetTitledFirstName], ero lieto oltre misura quando [ward.GetSheHe] mi disse che si considera [guardian.GetCulture.MakeScope.Var('wv_culture').Culture.GetName]!"
+  childhood_education.1032.ev.desc:0 "Dopo il mio lungo tutoraggio del giovane [ward.GetTitledFirstName], ero lieto oltre misura quando [ward.GetSheHe] mi disse che si considera [guardian.GetCulture.MakeScope.Var('ev_culture').Culture.GetName]!"
+
+  agot_strip_knighthood:0 "Revoca Cavalleria"
+  NOT_RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] non è religiosamente legato alla sua cavalleria: $VALUE|=+0$"
+  RELIGIOUS_ATTACHED_TO_KNIGHTHOOD_REASON:0 "[recipient.GetSheHe|U] è religiosamente legato alla cavalleria: $VALUE|=+0$"
+
+  agot_send_to_nw:0 "Manda ai [nw_govt|E]"
+  RELEASE_BANISH_INVALID_SEND_TO_NW_CONDITION:0 "Non puoi bandire dei personaggi e mandarli alla Barriera allo stesso tempo."
+  RELEASE_SEND_TO_NW_INVALID_BANISH_CONDITION:0 "Non puoi bandire dei personaggi e mandarli alla Barriera allo stesso tempo."
+  NW_NEGATIVE_REASON:0 "[recipient.GetSheHe|U] teme di prendere il nero: $VALUE|=+0$"
