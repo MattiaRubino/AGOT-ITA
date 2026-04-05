@@ -362,7 +362,6 @@ fp2_struggle.1001.desc: "[expectant_courtier.Custom('IT_NAM_COL3')][expectant_co
  fp2_struggle.1001.physician_imprisoned:0 "[great_physician.GetFirstName] viene imprigionat[great_physician.Custom('DE_END_PRO_S_N')] da [neighboring_ruler.GetName], per alcuni motivi."
 
  fp2_struggle.1010.t:0 "Anima di Ferro"
-fp2_struggle.1010.desc: "Alla mia corte è arrivat[Select_CString(great_swordsmith.IsFemale,'a','o')] [great_swordsmith.GetName], [great_swordsmith.GetWomanMan] che sostiene di essere un[Select_CString(great_swordsmith.IsFemale,'a',' ')] maestr[Select_CString(great_swordsmith.IsFemale,'a','o')] fabbr[Select_CString(great_swordsmith.IsFemale,'a','o')] di spade che ha viaggiato in lungo e in largo.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», dice, «la mia famiglia forgia spade a [toledo_holding.GetNameNoTierNoTooltip] fin dai tempi antichi e un tempo realizzava #italic falcate#! per gli eserciti di Cartagine. Nessuna lega è forte quanto quella prodotta in Iberia, e io posso perfezionarla. Posso fabbricare le armi migliori al mondo, ma in cambio devi darmi il comando della corporazione dei fabbri di [blacksmith_county.GetNameNoTierNoTooltip]. Allora vedranno che sono sempre stat[Select_CString(great_swordsmith.IsFemale,'a','o')] migliore di loro!»"
  fp2_struggle.1010.b:1 "Qualsiasi conoscenza tu abbia, ti costringerò a rivelarmela..."
  fp2_struggle.1010.c:1 "L'avrai, se creerai spade per i miei eserciti."
  fp2_struggle.1010.paranoid_rivals:1 "Armare i tuoi soldati potrebbe preoccupare alcuni sovrani confinanti."
@@ -935,7 +934,6 @@ fp2_yearly.4003.a: "Contatterò i guerrieri sacri di [ho_province.GetProvince.Ge
  fp2_yearly.4003.c:0 "[ROOT.Char.GetFaith.HighGodName] aiuta chi si aiuta da solo..."
  fp2_yearly.4003.tt:0 "L'[holy_order|E] locale pattuglierà la strada nella loro contea."
  fp2_yearly.4004.t:0 "Il Maestro Errante"
-fp2_yearly.4004.desc: "Sto attraversando l'aula quando una colluttazione in fondo attira la mia attenzione. Un[mozarab_wanderer.GetWomanMan] di corporatura robusta viene circondat[Select_CString(mozarab_wanderer.IsFemale,'a','o')] dalle mie guardie, ma in un batter d'occhio le loro armi tintinnano a terra. Lo sconosciut[Select_CString(mozarab_wanderer.IsFemale,'a','o')] fa un cenno con la spada in mio saluto.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», comincia mentre faccio cenno alle guardie di arretrare, «non ho un signore cui servire e, a giudicare dalla tua protezione qui, potresti aver bisogno del mio aiuto».\n\nDalla croce che porta al collo deduco che sia [mozarab_wanderer.GetFaith.GetAdherentName]."
  fp2_yearly.4004.a:0 "Per un[mozarab_wanderer.Custom('DE_PRO_POS_P_2P')] [mozarab_wanderer.GetWomanMan] del tuo talento? Assolutamente!"
  fp2_yearly.4004.b:0 "Preferirei che i miei cavalieri fossero [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] piuttosto."
  fp2_yearly.4004.c:0 "Vattene, pagan[mozarab_wanderer.Custom('DE_END_PRO_S_N')]!"
@@ -952,7 +950,6 @@ fp2_yearly.4005.desc: "È insolito, dunque, vedere uno dei loro mercanti locali 
  fp2_yearly.4005.b:0 "Non vi permetterò di contaminare le mie città!"
 
  fp2_yearly.4006.t:0 "Architetto di [ROOT.Char.GetFaith.HighGodName]"
-fp2_yearly.4006.desc: "Ci vuole coraggio per fermarmi mentre esco dalla [ROOT.Char.GetFaith.HouseOfWorship] dopo il culto quotidiano, ma un[mozarab_priest.GetWomanMan] ha fatto proprio questo. Osservo con sospetto il crocifisso che gli pende dal collo mentre prende la parola.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], chiedo solo un minuto del tuo tempo. Desidero soltanto che il mio gregge possa pregare in una [mozarab_priest.GetFaith.HouseOfWorship], come dovrebbero fare tutti i buoni seguaci di [mozarab_priest.GetFaith.HighGodName]!» Il sacerdote, nervoso, si ferma e mi guarda supplichevole.\n\nPermettere ai [mozarab_priest.GetFaith.GetAdherentNamePlural] di edificare luoghi di culto renderebbe più difficile convertirli, ma forse un po' di indulgenza aiuterebbe la coesione del mio reame."
  fp2_yearly.4006.a:0 "Hai il mio consenso. Costruite la vostra [mozarab_priest.GetFaith.HouseOfWorshipPlural]."
  fp2_yearly.4006.b:0 "Non costruirete #EMP mai#! quelle baracche pagane nella mia terra!"
  fp2_yearly.4007.t:0 "Osserva e Troverai"

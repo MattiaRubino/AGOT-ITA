@@ -7,7 +7,6 @@
 
 # Struggle
  game_concept_persian_struggle: "Interregno Iraniano"
- game_concept_persian_struggle_desc: "L'$game_concept_persian_struggle$ descrive il tumultuoso declino del califfato abbaside, durante il quale la Mesopotamia fu devastata da ribellioni e lotte per il potere, mentre diversi governanti persiani diventavano indipendenti.\n\nSebbene i [characters|E] [Concept('struggle_involved', 'coinvolti')|E] nella disputa possano avere piani diversi, la maggior parte di loro cercherà di diventare [GetTrait('fp3_struggle_supporter').GetName(GetNullCharacter)] e combattere per ripristinare il potere del califfato, oppure di diventare [GetTrait('fp3_struggle_detractor').GetName(GetNullCharacter)] e cercare di distruggerlo.\n\nLa [struggle|E] oscilla tra due [struggle_phase_phases|E]: [struggle_persia_phase_unrest|E] e [struggle_persia_phase_stabilisation|E]."
 
 # Legacy Track Stuff
 
@@ -42,7 +41,6 @@
  game_concept_fp3_request_turkic_invasion_interaction_desc: "Finanzia qualsiasi [ruler|E] di origine turca per conquistare il territorio di uno dei governanti tuoi vicini."
 
  game_concept_fp3_install_loyalist_cb: "Imporre un Sostenitore"
- game_concept_fp3_install_loyalist_cb_desc: "Permette di dichiarare una [war|E] per imporre un [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] del Califfato a capo del [realm|E] interessato."
 
  game_concept_fp3_demand_submission_interaction: "$fp3_demand_submission_interaction$"
  game_concept_fp3_demand_submission_interaction_desc: "Richiedi la lealtà di un [character|E] sotto forma di un [hook|E] usando la pietà, l'astuzia o l'intimidazione."

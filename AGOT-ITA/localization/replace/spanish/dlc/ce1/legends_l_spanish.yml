@@ -62,7 +62,6 @@
   game_concept_legends: "Leggende"
   game_concept_legends_desc: "$game_concept_legend_desc$"
   game_concept_legend_seed: "Seme della Leggenda"
-  game_concept_legend_seed_desc: "Una [legend|E] in divenire. I $game_concept_legend_seeds$ sono la base di una $game_concept_legend$ e, fondandoli, un [ruler|E] può iniziare una $game_concept_legend$.\n\nI $game_concept_legend_seeds$ possono essere ottenuti soddisfacendo alcuni criteri come l'essere l'erede di Carlomagno o compiendo azioni leggendarie come: prendere una delle [decisions|E] Maggiori, vincere una [great_holy_war|E], diventare un [king|E] oppure un [emperor|E], organizzare una Grande [activity|E], cacciare un animale leggendario, ecc..\n\nI $game_concept_legend_seeds$ inattivi non hanno costi, ma non producono alcun effetto. Fondare un $game_concept_legend_seed$ per la prima volta costa dell'[gold|E]."
   game_concept_legend_seeds: "Semi della Leggenda"
   game_concept_legend_seeds_desc: "$game_concept_legend_seed_desc$"
   game_concept_legend_quality: "Qualità della Leggenda"
@@ -264,7 +263,6 @@
  legend_chronicle_debug_legend: "#D La Leggenda di QA#!"
  legend_chronicle_debug_legend_desc: "#D QA è una professione ancestrale e nobile#!"
  legend_chronicle_beast_slayer: "L'Ammazza-[Localize( beast )|U]"
- legend_chronicle_beast_slayer_desc: "A [location.GetName] un esemplare di [Localize( beast )] è stato ucciso"
  legend_chronicle_holy_war: "La Guerra Santa [location.GetName]"
  legend_chronicle_holy_war_desc: "A [location.GetName] vi è stata la sconfitta di [Localize( antagonist )]"
  
@@ -339,7 +337,6 @@
  legend_chapter_motivation_peasant: "Quando un povero contadino, disperato e in lacrime, [ROOT.Legend.GetProtagonist.Custom('DE_PRO_DEM')] ha chiesto un'udienza, [ROOT.Legend.GetProtagonist.Custom('DE_ART_DEF_P_A')] pi[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] non ha potuto lasciare incustodite le sue suppliche ed è partit[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] subito all'avventura."
  legend_chapter_motivation_spouse: "Quando [Select_CString(ROOT.Legend.GetProtagonist.IsFemale, 'il', 'la')] coniuge di [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] è venut[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] da [ROOT.Legend.GetProtagonist.GetSheHe] una mattina con voci allarmanti, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] si affrettò e promise di onorare il loro eterno amore."
  legend_chapter_motivation_honor_lady: "Quando gli occhi di [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] hanno incontrato quelli del suo amore era tutto deciso. Ascoltando le richieste di aiuto e volendo dimostrare quanto grande fosse il suo coraggio, [ROOT.Legend.GetProtagonist.GetSheHe] è partit[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] per un'avventura."
- legend_chapter_discovery_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] ha perlustrato [Localize( location )] con il suo seguito, e non [ROOT.Legend.GetProtagonist.Custom('DE_PRO_DEM')] ci è voluto molto per trovare il luogo esatto."
  legend_chapter_hunt_generic: "L'esemplare di [Localize( beast )] era già lì, ad abbeverarsi ad un ruscello. Ha sollevato la sua testa avanzando rapidamente verso [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]. Affamato. Ma [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] è stat[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] più veloce e con un colpo secco ha ucciso la bestia."
  legend_chapter_battle_generic: "La battaglia è stata feroce. [ROOT.Legend.GetProtagonist.GetNameNoTooltip] ha incontrato [loser.GetNameNoTooltip] in mezzo al campo di battaglia, i suoi occhi erano pieni di orgoglio. [ROOT.Legend.GetProtagonist.GetSheHe|U] ha sollevato la sua arma e ha sferrato un colpo al petto del suo nemico. Il sangue è sgorgato. Vittoria."
  legend_chapter_conclusion_generic: "Il viaggio di ritorno non è stato facile, ma [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] è entrat[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] in città tra canti trionfali. E ora gioiamo e festeggiamo tutti, perché la sua leggenda è da celebrare!"

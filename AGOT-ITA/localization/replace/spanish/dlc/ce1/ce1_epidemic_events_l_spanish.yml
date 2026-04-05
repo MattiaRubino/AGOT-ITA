@@ -10,7 +10,6 @@
 
  health.1015.t: "[SCOPE.Custom('EventTitleDisease')]: Il Piccolo Tormento"
  health.1015.desc: "#EMP Mi prude tutto.#! Mi sveglio nel bel mezzo della notte e trovo la mia gamba sanguinante, le mie unghie pure. Il prurito è così forte che non riesco a smettere di raspare più in profondità.\n\nImmergo il mio volto in acqua gelida sperando che passi. Il mio riflesso - occhi rossi."
-health.1015.court_physician.desc: "\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], è la malattia nota come morbillo.»"
  health.1015.a: "Non ce la faccio più!"
  health.1016.t: "[SCOPE.Custom('EventTitleDisease')]: La Fontana Scarlatta"
  health.1016.desc: "#EMP Argh.#! Afferro le mie budella in agonia. Ho perso il conto del tempo che ho passato in questa latrina. Ore, giorni? #EMP Settimane?#! Arghhhhhh. Le escrezioni sanguinose sono ogni volta più dolorose, nè tantomeno aiuta l'olezzo.\n\nSento di star per svenire..."
@@ -49,7 +48,6 @@ health.1017.court_physician.desc: "\n\n«Pare siate colpit[Select_CString(ROOT.C
  disease_desc_short_measles: "tormentat[ROOT.Char.Custom('DE_END_PRO_S_N')] da rosse macchie"
  disease_desc_short_dysentery: "afflitt[ROOT.Char.Custom('DE_END_PRO_S_N')] da escrezioni sanguinee"
  disease_desc_short_ergotism: "castigat[ROOT.Char.Custom('DE_END_PRO_S_N')] a stentati movimenti"
- disease_desc_short_typhus: "tormentat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla febbre da campo"
  disease_desc_short_consumption: "soffocat[ROOT.Char.Custom('DE_END_PRO_S_N')] da tosse sanguinea"
  disease_desc_short_smallpox: "crivellat[ROOT.Char.Custom('DE_END_PRO_S_N')] da cicatrici e irritazioni"
  disease_desc_short_cancer: "prosciugat[ROOT.Char.Custom('DE_END_PRO_S_N')] dal cancro"
@@ -459,8 +457,6 @@ epidemic_events.5009.b: "Comprerò il vostro miglior sacchetto [newly_created_ar
  epidemic_events.5010.b.neutral: "Ti angosci per le sfide che ti attendono"
  epidemic_events.5010.b.lose: "Sprofondi in un senso di terrore"
 
- epidemic_events.5900.t: "La Morte Nera"
- epidemic_events.5900.desc: "La pestilenza infesta il paese.\n\nLe vittime sono colpite da bolle grigie e spumeggianti, le cui pietose richieste d'aiuto vengono lentamente soffocate mentre annegano nelle loro stesse gole piene di pus.\n\nDal più infimo monello all'imperatore più celebrato, tutti temono la falce indiscriminata della spietata peste. Quelli che sopravvivono devono assistere impotenti alla morte di tutti coloro che li circondano.\n\nI devoti cercano nel divino un salvatore e i potenti le loro ricchezze, ma nessuno può dirsi veramente al sicuro. Tendini spaventosi si diffondono sulla terra, restringendola fino a non farla più respirare.\n\nLa Morte Nera è su di noi. Che [ROOT.Char.GetFaith.HighGodName] ci salvi."
 epidemic_events.5900.desc_asia: "La pestilenza cammina tra noi.\n\nGli afflitti si coprono di bubboni; i loro gridi si fanno gorgoglii man mano che il respiro cede. Nella morte, anche i più rumorosi tacciono.\n\nNessuno è risparmiato. Dal bracciante scalzo al principe recluso, la ruota della sofferenza gira per tutti. Ai vivi spetta spazzare la cenere dagli usci e contare le stuoie vuote.\n\nC’è chi recita sutra, chi si aggrappa a rito e rango, ma nessun editto arresta il decadimento, nessun merito compensa il tributo. Come nebbia nella valle, la peste si diffonde invisibile, eppure avvertita in ogni mattina immobile.\n\nLa Morte Nera è qui. Che il Cielo distolga lo sguardo."
  epidemic_events.5900.christian: ""Padre Nostro, che sei nei cieli, sia santificato il tuo nome...""
  epidemic_events.5900.fallback: "Che si possa perseverare in questi tempi grami."

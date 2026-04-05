@@ -962,7 +962,6 @@ ep3_decisions_event.4090.a_merit: "Studierò."
  
  # The Knight of the Swan
  knight_errant_decision: "Il $knight_culture_player_no_tooltip$ del [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')|U]"
- knight_errant_decision_desc: "Si dice che un misterioso $knight_culture_player_no_tooltip_lowercase$ arrivi su una barca trainata da un [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] per salvare coloro che sono in pericolo.\n\nUna piccola barca dal riflesso perlaceo, e un maestoso $knight_culture_player_no_tooltip_lowercase$ seduto al suo interno."
  knight_errant_decision_tooltip: "Diventa un [GetTrait('knight_errant').GetName( GetNullCharacter )]"
  knight_errant_decision_confirm: "Il migliore della sua specie."
  knight_errant_decision_effect_tt: "$knight_errant_decision_tooltip$"
@@ -1018,11 +1017,8 @@ swan_knight_desc: "E allora videro un animale dal manto bianco come la neve che 
  commission_artifact_decision_option_court_icon_small_desc:0 "[AddTextIf( ROOT.Char.GetInventory.HasEquippedArtifactsInSlotType( 'wall_small' ), Concatenate( 'Attualmente Esposta:\n', ROOT.Char.GetInventory.GetEquippedArtifactsInSlotTypeString( 'wall_small', 'NEWLINE', 'NEWLINE', 'NEWLINE' ) ) )]"
  commission_artifact_decision_option_court_icon_small: "Piccola Icona da Parete\n#low Possedute: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString( 'wall_small' )]#!"
  artifact_wall_court_icon_large_name: "Grande Icona"
- artifact_wall_court_icon_large_description: "Un’imponente icona, dipinta nello stile tradizionale della Chiesa Ortodossa, raffigurante una solenne scena religiosa: [owner.Custom('RandomIconTopic')]."
  artifact_wall_court_icon_small_name: "Piccola Icona"
- artifact_wall_court_icon_small_description: "Una piccola ma evocativa icona, dipinta nello stile tradizionale della Chiesa Ortodossa, che raffigura a vividi colori una scena religiosa: [owner.Custom('RandomIconTopic')]"
  artifact_trinket_icon_name: "Icona Portatile"
- artifact_trinket_icon_description: "Un’icona portatile, dipinta nello stile consueto della Chiesa Ortodossa, che raffigura una tradizionale scena religiosa: [owner.Custom('RandomIconTopic')]. Nonostante le dimensioni ridotte, i tratti pittorici sono nitidi, i colori vividi e il tono solenne."
  commission_icon_decision_effect: "Un pittore locale è convocato per produrre un [artifact|E] di tipo Icona"
  ep3_decisions_event.5000.t: "Icona Realizzata"
  ep3_decisions_event.5000.desc: "[local_artisan.GetFirstName], il pittore a cui ho affidato la commissione dell’icona, è tornato a corte per offrirmi il frutto del suo lavoro.\n\n"[ROOT.Char.GetFaith.HighGodName] sia benedetto, [ROOT.Char.GetTitleAsNameNoTooltip], vi presento umilmente questa sacra icona che ho dipinto, secondo la tradizione e le abilità che [ROOT.Char.GetFaith.HighGodNameAlternate] mi ha donato. Che possa sempre ispirarvi sulla via della devozione e della rettitudine.""
@@ -1088,16 +1084,11 @@ swan_knight_desc: "E allora videro un animale dal manto bianco come la neve che 
 
  # Establish Silk Production
  establish_silk_production_decision: "Avvia la Produzione di Seta"
- establish_silk_production_decision_desc.boilerplate: "Da quando gli antichi contrabbandarono i primi bachi da seta dalle terre più remote dell’Est fino a Costantinopoli, la produzione e la vendita della seta sono sempre state un monopolio imperiale."
- establish_silk_production_decision_desc: "$establish_silk_production_decision_desc.boilerplate$\n\nSarebbe un’impresa costosa, ma potremmo acquistare una dispensa imperiale per poter avviare una nostra produzione di seta nel nostro feudo familiare."
- establish_silk_production_decision_desc.emperor: "$establish_silk_production_decision_desc.boilerplate$\n\nCome capo della famiglia imperiale, posso concedere a me stesso e ai miei successori il privilegio della sua manifattura con un semplice gesto."
- establish_silk_production_decision_tooltip: "Compra un permesso imperiale per sbloccare gli edifici di produzione della seta nella tua [estate|E]"
  establish_silk_production_decision_confirm: "Invia il pagamento"
  unlocked_estate_silk_buildings: "Sblocca la [estate|E] [GetDomicileBuilding('silk_01').GetName]"
  unlocked_estate_silk_buildings_t: "[GetDomicileBuilding('silk_01').GetName] Sbloccato"
 has_unlocked_estate_silk: "Devi aver sbloccato [GetModifier('ep3_unlocked_silk').GetNameWithTooltip] tramite la [GetDecisionWithKey('establish_silk_production_decision').GetName] [decision|E] oppure la tua [culture|E] deve possedere l'[innovation|E] #V $innovation_sericulture$#!"
  commission_silk_regalia_decision: "Commissiona Regalia di Seta"
- commission_silk_regalia_decision_desc: "La nostra famiglia è tra le poche autorizzate imperialmente a produrre e vendere la migliore seta bizantina. La nostra attività ci porta oro e influenza — e qualche altro #EMP vantaggio#! — ma raramente ne godiamo i benefici direttamente. Credo di meritare qualcosa di #EMP veramente speciale#! per me stesso, per una volta!"
  commission_silk_regalia_decision_tooltip: "Commissiona un [artifact|E] in seta per te stesso"
  commission_silk_regalia_decision_confirm: "Chiama l’artigiano"
  commission_silk_regalia_decision_effect: "Un artigiano del tuo feudo produrrà per te un un [artifact|E] - Regalia in seta"
@@ -1105,7 +1096,6 @@ has_unlocked_estate_silk: "Devi aver sbloccato [GetModifier('ep3_unlocked_silk')
 ep3_decisions_event.5030.desc: "Con un elegante gesto, [local_artisan.GetFirstName], maestr[Select_CString(local_artisan.IsFemale,'a','o')] artigian[Select_CString(local_artisan.IsFemale,'a','o')] della Magnaneria della mia famiglia, mi presenta un insieme di vesti di seta della qualità più fine.\n\n«Il tuo incarico è pronto, [ROOT.Char.Custom('FormOfAddressForLiege')]. Spero che sia all'altezza dei tuoi criteri.»\n\nLa seta scorre come acqua tra le dita, mentre i miei occhi faticano a cogliere tutti i minimi dettagli della decorazione."
  ep3_decisions_event.5030.a: "Semplicemente splendida!"
  silk_regalia_name: "Regalia di Seta Pregiata"
- silk_regalia_description: "Un set di vesti di seta degno di un imperatore, realizzato da alcuni dei migliori artigiani dello stile bizantino nel feudo della Casa [owner.GetHouse.GetName].\n\nI colori sono brillanti, e un filo d’oro è elegantemente intrecciato lungo tutto il tessuto per far risaltare i disegni intricati."
 
  # Foster Integration
  foster_integration_decision: "Favorisci l’Integrazione"

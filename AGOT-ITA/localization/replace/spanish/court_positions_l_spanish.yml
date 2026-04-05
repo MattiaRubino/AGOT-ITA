@@ -21,7 +21,6 @@
  
  #End AGOT modifiche
 
-  APPOINT_COURT_POSITION_VIEW_replace_character_header: "Sostituisci [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.Custom('IT_NAM_COL3')][AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] come [AppointCourtPositionView.GetPositionName]"
   APPOINT_COURT_POSITION_VIEW_select_character_header: "Nomina [AppointCourtPositionView.GetPositionName]"
 APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY: "Salario: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]"
 APPOINT_COURT_POSITION_VIEW_EMPLOYEE_SALARY: "Salario: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V]"
@@ -622,12 +621,10 @@ caravan_master_improve_self_fallback_tt: "Ogni mese questo personaggio ha la pos
 
   court_position_fickle: "[GetTrait('fickle').GetName( ROOT.Char )]"
   court_position_varangian_trait: "[GetTrait('varangian').GetName( ROOT.Char )]"
-  court_position_fp1_coastal_warriors: "La sua [culture|e] ha la [tradition|e] dei [GetCultureTradition('tradition_fp1_coastal_warriors').GetName]"
   court_position_hird: "La sua [culture|e] ha la [tradition|e] della [GetCultureTradition('tradition_hird').GetName]"
   court_position_fp1_performative_honour: "La sua [culture|e] ha la [tradition|E] della [GetCultureTradition('tradition_fp1_performative_honour').GetName]"
 
   akolouthos_court_position:0 "Akolouthos"
-  akolouthos_employer_custom_effect_description: "$BULLET$Aumenta l'[aptitude|e] della [GetCourtPositionType('bodyguard_court_position').GetName()] [GetTrait('varangian').GetName( GetNullCharacter )] (in base all'[aptitude|e])\n$BULLET$Più [courtiers|e] idonei guadagnano i [traits|e] [GetTrait('varangian').GetName( GetNullCharacter )] e [GetTrait('loyal').GetName( GetNullCharacter )]\n$BULLET$Più Varangiani appariranno\n@warning_icon! #X I variaghi chiederanno dell'oro [gold_i] dopo la morte del Basileus.#!"
   akolouthos_court_position_desc: "L'$akolouthos_court_position$ comanda gran parte della guardia imperiale bizantina, compresi i famosi variaghi, pronti a morire con onore per il loro padrone."
   akolouthos_founded_varangians_trigger_tt: "Hai creato i variaghi"
 
@@ -653,8 +650,6 @@ caravan_master_improve_self_fallback_tt: "Ogni mese questo personaggio ha la pos
   court_position_not_same_culture_heritage: "[heritage|E] diverso dalla [culture|e] del [liege|E]"
   court_position_not_same_culture_language: "[language|E] diversa dalla [culture|E] del [liege|E]"
  
-  eparch_court_position: "Eparca"
-  eparch_court_position_desc: "L'Eparca è il principale amministratore e l'autorità suprema della capitale, secondo solo al monarca regnante."
   eparch_appease_populace: "Calmare la Popolazione"
   eparch_appease_populace_desc: "L'[GetCourtPositionType('eparch_court_position').GetNameNoTooltip()] si occuperà delle necessità dei cittadini della capitale."
   eparch_support_troops: "Sostenere le Truppe"

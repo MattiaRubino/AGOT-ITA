@@ -93,10 +93,8 @@
  fp3_yearly.2021.desc_intro: "Sebbene [sinful_tax_collector.Custom('IT_NAM_COL3')][sinful_tax_collector.GetTitledFirstName], mi[sinful_tax_collector.Custom('DE_END_PRO_S_N')] esat[sinful_tax_collector.Custom('DE_END_NOU_S_GS_N')] delle tasse, sia abbastanza competente, [denouncing_taxpayer.Custom('IT_NAM_COL3')][denouncing_taxpayer.GetName] è venut[denouncing_taxpayer.Custom('DE_END_PRO_S_N')] a trovarmi per esprimere serie riserve su di [sinful_tax_collector.GetSheHe].\n\n"
  fp3_yearly.2021.desc_greedy: ""[sinful_tax_collector.Custom('IT_NAM_COL3')|U][sinful_tax_collector.GetTitledFirstNameNoTooltip] si preoccupa solo dei propri interessi e agisce per desiderio di profitto, non di giustizia. Spesso riscuote più del dovuto e non dà nulla alla tassa per le elemosine.""
  fp3_yearly.2021.desc_arbitrary: ""[sinful_tax_collector.Custom('IT_NAM_COL3')|U][sinful_tax_collector.GetTitledFirstNameNoTooltip] raramente rispetta leggi e norme, riscuotendo le tasse secondo i suoi capricci. I contadini sono spesso confusi dall'incoerenza delle sue azioni.""
- fp3_yearly.2021.desc_cynical: ""[sinful_tax_collector.Custom('IT_NAM_COL3')|U][sinful_tax_collector.GetTitledFirstNameNoTooltip] non ha paura di [ROOT.Char.GetFaith.HighGodName]. Spesso non si sveglia per le preghiere del mattino ed è stat[sinful_tax_collector.Custom('DE_END_PRO_S_N')] vist[sinful_tax_collector.Custom('DE_END_PRO_S_N')] rubare del cibo durante il Ramadan. Temiamo che per le sue azioni l'ira divina si abbatta anche su di noi.""
  fp3_yearly.2021.desc_contrite: ""[sinful_tax_collector.Custom('IT_NAM_COL3')|U][sinful_tax_collector.GetTitledFirstNameNoTooltip] è inaffidabile e rivela, senza farsi tanti problemi, la situazione finanziaria di chiunque con tutti coloro che vogliono ascoltare. È solo questione di tempo prima che queste informazioni finiscano nelle mani dei nostri nemici.""
  fp3_yearly.2021.desc_outro: "\n\n[denouncing_taxpayer.Custom('IT_NAM_COL3')|U][denouncing_taxpayer.GetTitledFirstNameNoTooltip] [denouncing_taxpayer.Custom('quirk_pos_present')], sperando ovviamente che io destituisca [sinful_tax_collector.Custom('IT_NAM_COL3')][sinful_tax_collector.GetTitledFirstNameNoTooltip] dal suo incarico a causa di questi peccati."
- fp3_yearly.2021.a: "[sinful_tax_collector.Custom('IT_NAM_COL3')|U][sinful_tax_collector.GetTitledFirstNameNoTooltip] verrà destituit[sinful_tax_collector.Custom('DE_END_PRO_S_N')], inshallah."
  fp3_yearly.2021.b: "Terrò presenti le vostre parole."
 
  fp3_yearly.2030.t: "Una Bella Guida per il Regno"
@@ -131,8 +129,6 @@ fp3_yearly.2040.desc_attacker_is_not_muslim: "Ignaro delle parole del Profeta, q
 fp3_yearly.2041.desc_fallback: "So bene che la mia guerra contro [caliph.GetName] è sancita da [ROOT.Char.GetFaith.HighGodName]. Eppure quell[Select_CString(caliph.IsFemale,'a','o')] [caliph.Custom2('InsultNoun', ROOT.Char)] è riuscit[Select_CString(caliph.IsFemale,'a','o')] a convincere i miei soldati di fede [caliph.GetFaith.GetReligion.GetAdjectiveNoTooltip] che, poiché [Select_CString(caliph.IsFemale,'è la successora','è il successore')] del Profeta, debbano deporre le armi e tornare a casa.\n\nMolti dei miei soldati hanno obbedito e ora devo gestire le conseguenze di un esercito devoto, ma più esiguo..."
 fp3_yearly.2041.a: "Maledetto quel [caliph.Custom2('InsultNoun', ROOT.Char)]!"
 
- fp3_yearly.2050.t: "Sedi della Futuwwa"
- fp3_yearly.2060.t_madrasas: "Madrasse"
  fp3_yearly.2060.t_houses_of_worship: "Istruzione scolastica nelle [ROOT.Char.GetFaith.HouseOfWorshipPlural|U]"
  
  #Ghazi Gone Bad, by Ola Jentzsch 
@@ -194,7 +190,6 @@ fp3_yearly.8003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('superstitiou
 
 ####The Frontiers' Call, by Ola Jentzsch####
  fp3_yearly.8004.t: "Il Richiamo Della Frontiera"
- fp3_yearly.8004.desc: "Il lamento dei venti provenienti dalle steppe del nord riecheggia ancora nei cuori di alcuni abitanti delle splendide città di questo Paese. Nel bene o nel male, mi[fp3_child_to_leave.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fp3_child_to_leave'))] [fp3_child_to_leave.GetFirstName] ha iniziato a sentire questa chiamata.\n\n"[parent.GetMotherFather|U], dovete lasciarmi andare. Voglio affinare la mia mente e la mia spada nella selvaggia frontiera, viaggiare con le carovane e i montanari e forse anche trovare #italic Hara Berezaiti#!, la leggendaria montagna sacra."\n\nMa [worried_relation.GetFirstName] vuole troppo bene a [fp3_child_to_leave.GetFirstNameNoTooltip] e mi prega di rifiutare la sua richiesta."
  fp3_yearly.8004.a: "Sfoderate il vostro acciaio, pulcino malformato!"
  fp3_yearly.8004.b: "Non volete restare, per il bene di [worried_relation.GetFirstNameNoTooltip]?"
  fp3_yearly.8004.c: "Se partirete, non sarete più mi[fp3_child_to_leave.Custom('DE_END_PRO_S_N')] [fp3_child_to_leave.Custom('GetDaughterSon')]."
@@ -209,7 +204,6 @@ fp3_yearly.8003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('superstitiou
  fp3_yearly.8007.b: "Bene. Ho delle responsabilità #italic reali#! per voi."
  fp3_yearly.8007.c: "E ora dovete sposarvi!"
  fp3_yearly.8008.t: "Una Sconfitta Ignominiosa"
- fp3_yearly.8008.desc: "Barcollo all'indietro, insanguinat[ROOT.Char.Custom('DE_END_PRO_S_N')] ed esaust[ROOT.Char.Custom('DE_END_PRO_S_N')], mentre [fp3_child_to_leave.GetFirstNameNoTooltip] si avvicina, arma alla mano.\n\n"Ve lo ripeto, [parent.GetMotherFather], io #italic partirò#!. Seguirò il desiderio del mio cuore, andrò alla frontiera e percorrerò la Via della Seta... e #italic voi#! pagherete per questo."\n\nPosso solo guardare mentre mi[fp3_child_to_leave.Custom('DE_END_PRO_S_N')] [fp3_child_to_leave.Custom('GetDaughterSon')] se ne va, a testa alta, con una borsa di monete d'oro Kushan e Sasanidi prelevate dai miei forzieri."
  fp3_yearly.8008.a: "Perdere mi[fp3_child_to_leave.Custom('DE_END_PRO_S_N')] [fp3_child_to_leave.Custom('GetDaughterSon')] è una cosa, ma anche il mio oro?"
  fp3_yearly.8008.b: "Sarebbe stato meglio essere un eunuco..."
  fp3_yearly.8008.c: "Il Destino vi riporterà da me, vedrete."
@@ -265,7 +259,6 @@ fp3_yearly.8003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('superstitiou
 
  #Forgotten Runestones, by Ola Jentzsch 
  fp3_yearly.8016.t: "Pietre Dimenticate"
- fp3_yearly.8016.desc: "[hyrcanian_vassal.Custom('DE_ART_DEF_P_D')] mi[hyrcanian_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hyrcanian_vassal'))], [hyrcanian_vassal.GetFirstName], mi ha invitat[ROOT.Char.Custom('DE_END_PRO_S_N')] nel suo dominio per esaminare una triade di strane lastre di pietra, alte e scolpite con bizzarri caratteri e simboli, ritrovate nel fitto della foresta di Ircania.\n\n"Devono essere state erette da una spedizione perduta di selvaggi #italic Rus'#!", mi spiega. "Gli abitanti della foresta vicina sono affascinati da queste pietre e dal loro mistero, e credono che i loro ignoti creatori scenderanno su di loro dal Mar Caspio per vendicare nel sangue ogni danno arreccato a tali pietre. Ma io non credo a queste superstizioni. Anche se non riesco a leggere ciò che c'è scritto sopra, è evidente che si tratta di idoli pagani che devono essere fatti a pezzi. Non è così mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]?""  
  fp3_yearly.8016.a: "Passatemi un martello!"
  fp3_yearly.8016.b: "No, daremo retta agli abitanti della foresta."
  fp3_yearly.8016.c: "Le farò rimuovere da lì e sistemare all'esterno del mio [ROOT.Char.Custom('ResidenceBuilding')]..."
@@ -332,14 +325,10 @@ fp3_yearly.8018.desc_eunuch: "Mentre mi alleno con [ROOT.Char.Custom('WarhorseSt
  children_arriving_shortly.tt: "I bambini arriveranno presto"
 
  fp3_frontier_story_cycle.0002_opening: "Grande [ROOT.Char.GetTitleTierName]"
- fp3_frontier_story_cycle.0002_letter: "Mi pento del mio comportamento durante la vicenda dei nomadi. Hanno effettivamente lasciato le mie terre di [nomads_county.GetNameNoTier] e sembra che i conflitti tra loro e i contadini si siano placati. Anche se insisto affinché prendiate sul serio la minaccia dei nomadi, vorrei offrirvi queste magnifiche monete d'oro, coniate molto tempo fa nell'Impero Kushan, in segno del mio rispetto." 
  fp3_frontier_story_cycle.0002.a: "Un bellissimo regalo. Tutto è perdonato."
  fp3_frontier_story_cycle.0002.b: "Non ho bisogno dei vostri regali e non accetto le vostre scuse."
 
  fp3_frontier_story_cycle.0003.t: "Pagare la Propria Parte"
-fp3_frontier_story_cycle.0003_beginning: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('greedy_chaplain'))], [greedy_chaplain.GetFirstName], pare aver riflettuto a lungo su [turkic_leader.GetName] e sulla sua tribù nomade.\n\n«Invero, [ROOT.Char.Custom('FormOfAddressForLiege')]», dice [greedy_chaplain.GetFirstNameNoTooltip], «li ho avuti nelle mie preghiere. Ho appreso che alcuni di loro seguono ancora la loro fede pagana."
- fp3_frontier_story_cycle.0003_jizya: "Dovremmo far loro pagare una #italic jizya#!, per il privilegio di conservare le loro pratiche idolatre."\n\n"
- fp3_frontier_story_cycle.0003_not_jizya: "Dovremmo seguire l'usanza dei musulmani e chiedere loro di pagare una tassa aggiuntiva, visto che siete stat[ROOT.Char.Custom('DE_END_PRO_S_N')] certamente molto generos[ROOT.Char.Custom('DE_END_PRO_S_N')] nei loro confronti."\n\n"
  fp3_frontier_story_cycle.0003_ending: ""Questo non è giusto", protesta [turkic_leader.GetFirstNameNoTooltip]. "Ho assegnato al vostro servizio cento arcieri a cavallo, oltre a me stess[turkic_leader.Custom('DE_END_PRO_S_N')]. Se vi asterrete dal tassarci in questo modo, prometto che non dimenticherò questo vostro favore.""
  fp3_frontier_story_cycle.0003.a: "Troveremo fino all'ultima moneta che la vostra tribù ha nascosto."
  fp3_frontier_story_cycle.0003.b: "No, [greedy_chaplain.GetFirstNameNoTooltip] ha ragione, dovete essere tassati."
@@ -350,7 +339,6 @@ fp3_frontier_story_cycle.0003_beginning: "[ROOT.Char.Custom2('RelationToMe', SCO
  fp3_frontier_story_cycle.0004.desc: "La [orphan_girl.GetName] ha un aspetto infelice, così come il suo fratellino [orphan_boy.GetName], che sembra essere caduto in ogni sorte di sventura.\n\n"Vi prego, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]", dice con voce tremante, "non mangiamo nulla da una settimana, posso chiedervi un po' di pane? Non importa se è ammuffito, basta che ne abbiate un po' da darci."\n\nDopo averli interrogati, emerge che i due bambini non hanno idea di chi sia il responsabile delle sventure della loro famiglia. "Sono arrivati dei cavalieri, hanno calpestato i nostri raccolti e rubato le nostre pecore. Poi sono spariti. Ora non so cosa ne sarà di noi, ma sono terribilmente dispiaciuta che [upset_vassal.Custom('IT_NAM_COL3')][upset_vassal.GetTitledFirstName] vi abbia importunat[ROOT.Char.Custom('DE_END_PRO_S_N')] per una questione tanto banale.""
  fp3_frontier_story_cycle.0004.a: "Non preoccupatevi, mi prenderà cura io di voi."
  fp3_frontier_story_cycle.0004.b: "L'unica cosa giusta sarebbe che fosse la stessa tribù di [turkic_leader.GetFirstNameNoTooltip] ad adottarvi."
- fp3_frontier_story_cycle.0004.c: "Vi manderò in un monastero."
  fp3_frontier_story_cycle.0004.d: "Non ho idea di cosa [upset_vassal.GetFirstNameNoTooltip] si aspetti che io faccia. Perché non andate in un orfanotrofio?."
  fp3_pay_for_upkeep_flavor: "Dovrai pagare per il loro mantenimento."
 
@@ -371,7 +359,6 @@ fp3_frontier_story_cycle.0006_ending: "«È stato un incidente», implora [turki
 
 
  fp3_frontier_story_cycle.0007.t: "Una Calamità per le Carovane"
-fp3_frontier_story_cycle.0007.desc: "«Oh, [ROOT.Char.GetTitleTierName]», dice [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('warmonger_councillor'))], [warmonger_councillor.GetFirstName], «i mercanti di [bandits_county.GetName] parlano di razzie di banditi a cavallo. Ora le carovane evitano quelle terre, danneggiando il nostro commercio sulla Via della Seta. Ti prego di inviarmi a indagare».\n\n«No», interviene con forza [turkic_leader.GetName], «posso mandare i miei guerrieri a proteggere stabilmente le vie carovaniere… se d'ora in poi ci sarà concesso pascolare i cavalli in [bandits_county.GetNameNoTierNoTooltip]. Non sarebbe meglio?»\n\nMa [warmonger_councillor.GetFirstNameNoTooltip] protesta: «Bada, [ROOT.Char.Custom('FormOfAddressForLiege')], i contadini detestano quando lasci i nomadi liberi di vagare»."
  fp3_frontier_story_cycle.0007.a: "Comunque, il piano di [turkic_leader.GetFirstNameNoTooltip] è quello migliore."
  fp3_frontier_story_cycle.0007.b: "Mi sembra giusto, vi darò questa possibilità."
  fp3_frontier_story_cycle.0007.c: "Attendiamo, i mercanti torneranno ad attraversare le nostre terre."
@@ -407,7 +394,6 @@ fp3_frontier_story_cycle.0007.desc: "«Oh, [ROOT.Char.GetTitleTierName]», dice 
 
  #Acidic Advancements, by Ola Jentzsch
  fp3_yearly.8021.t: "Un Incidente con l'Acido"
- fp3_yearly.8021.desc: "Qualche giorno fa, [alchemy_enthusiast.Custom('IT_NAM_COL3')][alchemy_enthusiast.GetName], l'erudit[alchemy_enthusiast.Custom('DE_END_PRO_S_N')] [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.Custom('DE_PRO_PER_P_3P_A')] mi[upset_vassal.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))] [upset_vassal.GetFirstName], ha partecipato a un esperimento con olio di vetriolo preparato dal[enthusiastic_alchemist.Custom('DE_END_ADJ_NUL_S_N')] famos[enthusiastic_alchemist.Custom('DE_END_PRO_S_N')] alchimista [enthusiastic_alchemist.GetName]. Ma pare che qualcosa sia andata maledettamente storta.\n\n"Dovete severamente punire [enthusiastic_alchemist.GetFirstNameNoTooltip]", esige [upset_vassal.Custom('IT_NAM_COL3')][upset_vassal.GetTitledFirstNameNoTooltip], "Guardate lo stato pietoso in cui versa [alchemy_enthusiast.Custom('DE_ART_DEF_P_A')] mi[alchemy_enthusiast.Custom('DE_END_PRO_S_N')] [alchemy_enthusiast.Custom2('RelationToMe', SCOPE.sC('upset_vassal'))]!"\n\n"Pietà, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleTierName]", implora [enthusiastic_alchemist.GetFirstNameNoTooltip], "Io ho semplicemente perfezionato una formula a lungo ricercata dai saggi. Non è colpa mia se [alchemy_enthusiast.Custom('IT_NAM_COL3')][alchemy_enthusiast.GetTitledFirstNameNoTooltip] è stat[alchemy_enthusiast.Custom('DE_END_PRO_S_N')] imprudente nel manipolare un'intera #italic uqiyyah#! della sostanza più corrosiva mai vista sulla terra.""
  fp3_acid_delving_deeper_tooltip: "Ignori le lamentele di [upset_vassal.GetFirstNameNoTooltip] e ti concentri sulle scoperte di [enthusiastic_alchemist.Custom('IT_NAM_COL2')][enthusiastic_alchemist.GetNameNoTooltip]."
  fp3_yearly.8021.a: "[enthusiastic_alchemist.GetNameNoTooltip], parlatemi di queste vostre scoperte..."
  fp3_yearly.8021.b: "Molto bene, [upset_vassal.GetTitledFirstNameNoTooltip], l[enthusiastic_alchemist.Custom('DE_END_PRO_S_N')] farò giustiziare."
@@ -415,7 +401,6 @@ fp3_frontier_story_cycle.0007.desc: "«Oh, [ROOT.Char.GetTitleTierName]», dice 
  fp3_yearly.8021.d: "In questa vicenda, nessuno ha delle colpe, dovete perdonarvi a vicenda."
 
  fp3_yearly.8022.t: "Idee al Vetriolo"
- fp3_yearly.8022.desc: ""Ciò che ho inventato deriva da un minerale vetroso che gli antichi babilonesi e greci chiamavano #italic vetriolo#!", spiega [enthusiastic_alchemist.Custom('IT_NAM_COL3')][enthusiastic_alchemist.GetName]. "Riscaldando meticolosamente il vetriolo verde in una storta di ferro, ho creato una sostanza corrosiva. Ne vedo un uso sia didattico che medicinale, ma occorre fare molta attenzione mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. È una sostanza che deve essere maneggiata con molta cura, come [alchemy_enthusiast.Custom('IT_NAM_COL3')][alchemy_enthusiast.GetTitledFirstName] ha imparato a sue spese. Potreste finanziare voi la mia ricerca?""
  fp3_yearly.8022.a: "Studierò personalmente questa sostanza!"
  fp3_yearly.8022.b: "Potrebbe essere utilizzata anche a scopi... #italic militari#!?"
  fp3_yearly.8022.c: "Molto bene, ma è qualcosa che non mi è di alcuna utilità."
@@ -455,7 +440,6 @@ fp3_frontier_story_cycle.0007.desc: "«Oh, [ROOT.Char.GetTitleTierName]», dice 
  fp3_yearly.8026.b: "Dovrei mettere a tacere per sempre [helpful_courtier.GetFirstNameNoTooltip], per precauzione."
 
  fp3_yearly.8027.t: "Novecentonovanta Capitoli d'Oro"
- fp3_yearly.8027.desc: "[snubbed_poet.Custom('IT_NAM_COL3')|U][snubbed_poet.GetName], [Select_CString(snubbed_poet.IsFemale,'una famosa scrittrice','un famoso scrittore')], ha avuto un diverbio [Select_CString(former_employer.IsFemale,'con la sua vecchia','col suo vecchio')] mecenate, [former_employer.Custom('IT_NAM_COL3')][former_employer.GetName].\n\n"[former_employer.GetSheHe|U] mi ha promesso novecentonovanta talenti d'oro", si lamenta [snubbed_poet.GetFirstNameNoTooltip], "uno per ogni capitolo del poema epico che sto scrivendo da tempo per suo conto. Volevo usarli per pagare i lavori di restauro dei #italic qanat#! del mio villaggio natale che sono crollati. Un messaggero mi ha portato la ricompensa mentre ero alle terme, ma le monete erano d'argento! Sconvolt[snubbed_poet.Custom('DE_END_PRO_S_N')] da questo tradimento, ho dato tutto al corriere, al proprietario dei bagni termali e a un venditore di succhi di frutta. Ora ho bisogno di un nuovo mecenate, per terminare gli ultimi capitoli, e si dice che voi abbiate abbastanza oro per eguagliare la precedente offerta.""
  fp3_yearly.8027.a: "Vi darò la #italic metà#! di quella cifra, quando il libro sarà terminato."
  fp3_yearly.8027.b: "Deve trattarsi di un semplice malinteso con [former_employer.Custom('IT_NAM_COL3')][former_employer.GetTitledFirstNameNoTooltip]..."
  fp3_yearly.8027.c: "Pensate che io sia un[ROOT.Char.Custom('DE_END_PRO_S_N')] spendaccion[ROOT.Char.Custom('DE_END_PRO_S_N')]? Andate altrove a spillare oro."
@@ -465,27 +449,19 @@ fp3_frontier_story_cycle.0007.desc: "«Oh, [ROOT.Char.GetTitleTierName]», dice 
  fp3_promise_to_pay_for_book.tt: "Prometti di pagare 495 monete d'[gold|El] quando il libro sarà terminato."
  fp3_mediate_between_them.flavor: "Cerchi di far conciliare fra loro [snubbed_poet.Custom('IT_NAM_COL3')][snubbed_poet.GetNameNoTooltip] e [former_employer.GetFirstNameNoTooltip]."
 
- fp3_yearly.8028.t: "Il Libro dei Re"
- fp3_yearly.8028.desc: "L'ho finito", esclama [snubbed_poet.Custom('IT_NAM_COL3')][snubbed_poet.GetName], "come avevo promesso. È lungo 990 capitoli e racconta storie epiche di eroismo persiano e meraviglie del passato remoto. Ho riversato la mia anima in quest'opera, non farò mai più nulla di simile. Non sono che un[snubbed_poet.Custom('DE_PRO_POS_P_2P')] umile [Select_CString(snubbed_poet.IsFemale,'poetessa','poeta')] mortale, eppure, grazie al vostro patrocinio, il mio libro potrà forse superare la prova del tempo e diventare il simbolo del rinato orgoglio della Persia."\n\n"Ora... mi avevate promesso 495 talenti d'oro, se la memoria non m'inganna." 
  fp3_yearly.8028.a: "Sono vostri. Inoltre, non sarebbe il caso che rimaneste a corte al mio servizio?"
  fp3_yearly.8028.b: "Proprio così. Ecco, andate ad aiutare il vostro villaggio."
  fp3_yearly.8028.c: "È #italic questo#! ciò per cui ho pagato? Che delusione!"
 
- shahnameh_name: "Il Libro dei Re"
- shahnameh_desc: "Questo voluminoso tomo racconta in versi squisiti la mitica storia dell'Impero Persiano, dalla creazione del mondo alla conquista musulmana. Sembra che faccia battere il cuore di tutti i persiani che lo leggono." 
 
- persian_epic_name: "Epica Persiana"
- persian_epic_desc: "Questo libro è pieno di poemi epici che celebrano le imprese e i destini degli eroi persiani di un tempo."
 
  fp3_yearly.8029.t: "Una Storia di Antica Gloria"
- fp3_yearly.8029.desc: "[snubbed_poet.Custom('IT_NAM_COL3')|U][snubbed_poet.GetName] mi porge il suo manoscritto, già miniato con miniature sapientemente realizzate. "Questo è il libro che vi avevo promesso", dichiara trionfante. "Dall'alto del mio umile talento, vi prometto che non vi deluderà. Racconta le storie di eroi come Arash l'arciere, Fereydun l'uccisore di draghi e quelle di bellissime principesse e dell'antica gloria della Persia. Ho persino incluso un verso che radica la vostra dinastia in tali eventi."\n\n"Ora, se la memoria non m'inganna, avevamo detto qualcosa a proposito di 495 talenti d'oro, giusto?""
  fp3_yearly.8029.a: "Sono vostri. E forse potreste restare a corte al mio servizio, che ne dite?."
  fp3_yearly.8029.b: "Proprio così. Ecco, andate ad aiutare il vostro villaggio."
  fp3_yearly.8029.c: "Così tanto oro solo per questo?"
 
 
  fp3_yearly.8030.opening: "[former_employer.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
- fp3_yearly.8030.desc: "Pensate che io sia un sempliciotto? [snubbed_poet.Custom('IT_NAM_COL3')|U][snubbed_poet.GetName] ha speso le mie ricchezze con miseri venditori ambulanti e in #italic hammam#! dove si praticano le pratiche più degenerate, e sebbene [snubbed_poet.GerSheHe] affermi di aver ricevuto solo monete d'argento, persone più degne di fiducia di voi mi hanno detto che invece erano d'oro. Tuttavia, [snubbed_poet.GetSheHe] è cors[snubbed_poet.Custom('DE_END_PRO_S_N')] da voi con il libro che mi aveva promesso. Che [former_employer.GetFaith.HighGodNameAlternate] vi scacci dai giardini del paradiso!"
  fp3_yearly.8030.a: "È un peccato che non vogliate ascoltare ragioni..."
 
  fp3_yearly.8031.opening: "[former_employer.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
@@ -577,7 +553,6 @@ fp3_yearly.8042.desc: "«Invero», dice [ROOT.Char.Custom2('RelationToMe', SCOPE
 
  # Sick Monkey Chain 
  fp3_yearly.8045.t: "Il Fagotto Misterioso"
-fp3_yearly.8045.desc: "Durante una passeggiata al chiaro di luna, incontro [Select_CString(buzina_enthusiast.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('buzina_enthusiast'))], [buzina_enthusiast.GetName], che culla un fagotto grande quanto un neonato. Ma le apparenze ingannano: dalla stoffa provengono suoni strani e il volto di [buzina_enthusiast.GetNameNoTooltip] è coperto di graffi.\n\n«Non è un bambino, [ROOT.Char.Custom('FormOfAddressForLiege')], ma una scimmia», sussurra. «Mentre riscuotevo le imposte per il [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], l'ho accettata in pagamento al posto dell'oro. Si dice che fosse appartenuta a un grande re d'Oriente che le insegnò a giocare a scacchi. Ma, ahimè, si è ammalata ed è diventata un po'… aggressiva».\n\n[Select_CString(buzina_enthusiast.IsFemale,'Lei','Lui')|U] mi porge il fagotto e continua: «Ma con le tue cure di certo si riprenderà presto»."
  fp3_yearly.8045.a: "Credo che il mio medico di corte saprà curarla."
  fp3_yearly.8045.b: "Io vi pago per riscuotere oro, #EMP non scimmie!#!"
  fp3_yearly.8045.c: "Non ne sono cert[ROOT.Char.Custom('DE_END_PRO_S_N')]..."
@@ -586,7 +561,6 @@ fp3_yearly.8045.desc: "Durante una passeggiata al chiaro di luna, incontro [Sele
  fp3_inspired_tax_collector: "[buzina_enthusiast.Custom('IT_NAM_COL3')|U][buzina_enthusiast.GetShortUIName] si sforza di riscuotere le tasse in modo più efficace"
 
  fp3_yearly.8046.t: "Cura per Scimmie"
- fp3_yearly.8046.desc: ""Per quanto ne so", dice [court_physician.Custom('IT_NAM_COL3')][court_physician.GetName], "le scimmie sono state generate da Gayōmart, il primo uomo. Il loro fisico è simile al nostro e forse anche la loro mente. Ho sentito dire che alcune di loro possono persino parlare!"\n\n"Dovrei essere in grado di curare questo piccolo animale dalla sua malattia, ma il metodo migliore è un intruglio di erbe che sono costose da procurare. L'alternativa è una dieta a base di pesce salato e incenso."\n\nE mentre parla, [court_physician.GetSheHe|U] osserva gli affilati artigli della scimmia con grande preoccupazione."
  fp3_yearly.8046.a: "Curatela, senza badare alle spese."
  fp3_yearly.8046.b: "È forte, una dieta sana dovrebbe essere sufficiente."
  fp3_wait_and_see.tt: "Solo il tempo ci dirà se la cura sarà efficace"
@@ -626,22 +600,11 @@ fp3_yearly.8045.desc: "Durante una passeggiata al chiaro di luna, incontro [Sele
  fp3_yearly.8051_earthquake: "spento quando il tempio è stato squassato da un terremoto che ha quasi spaccato in due l'edificio."
  fp3_yearly.8051_sandstorm: "spento da una tempesta di sabbia talmente violenta da mandare in frantumi le porte del tempio."
  fp3_yearly.8051_gust_of_wind: "spento da una folata di vento gelido, che proveniva probabilmente da una fessura nelle pareti del tempio."
- fp3_yearly.8051_islamic_zealots: "spento da fanatici musulmani che si sono introdotti nel tempio e lo hanno profanato in modi molto creativi."
  fp3_yearly.8051_invisible_hand: "spento in maniera alquanto misteriosa, come da una mano invisibile."
- fp3_yearly.8051_ending.desc: "Nonostante questo cattivo presagio, [magi.Custom('IT_NAM_COL3')][magi.GetName] non sembra perdere le speranze.\n\n"Dobbiamo riaccendere la fiamma", esclama. "La più pura e grande delle fiamme è un #italic Atash Behram#!, il Fuoco della Vittoria, scaturito da un fulmine tra le nuvole. Ma poiché questo è un tempio minore, forse possiamo accontentarci di un #italic Atash Adaran#!, il Fuoco dei Fuochi, che il focolare di un orafo potrebbe darci. Potremmo anche ricorrere al fuoco meno puro, un #italic Atash Dadgah#!, che può essere consacrato dal focolare di qualsiasi casa."" 
- fp3_yearly.8051.a: "Solo un fulmine può bastare. Lo troverò per voi."
- fp3_yearly.8051.b: "Andiamo a cercare la fiamma di un orafo."
  fp3_yearly.8051.c: "Non mi interessano molto i presagi. Il focolare di una casa è sufficiente."
- fp3_yearly.8051_chasing_lightning.tt: "Aspetti il prossimo temporale."
 
- fp3_yearly.8052.t: "A Caccia di Nuvole"
- fp3_yearly.8052.desc: "I [ROOT.Char.GetFaith.AltPriestTermPlural] continuano a ricordarmi che ho promesso di trovare un Fuoco della Vittoria per il tempio di [sacred_fire_province.GetName]. Ma io non l'ho dimenticato. Ho inviato esploratori in ogni direzione, alla ricerca di un temporale, un segno di [ROOT.GetCharacter.GetFaith.HighGodName]. Ma i fulmini si sono rivelati inafferrabili.\n\nMa mentre mi trovo fuori dal mio [ROOT.Char.Custom('ResidenceBuilding')], un tuono rimbomba in lontananza e un fulmine squarcia il cielo oscurato da nubi minacciose. I miei servitori si affannano a cercare di catturare i fulmini con grandi pali, mentre io contemplo il paesaggio alla ricerca di qualche fiamma. I nostri sforzi sono però vani: le nuvole si dissolvono presto e i fulmini scompaiono nell'alto dei cieli.\n\n[ROOT.GetCharacter.GetFaith.HighGodName], è davvero questo che vuoi? Non troverò mai il fuoco che cerco?"
- fp3_yearly.8052.a: "Dovrei accontentarmi della fiamma di un orafo."
  fp3_yearly.8052.b: "È meglio che mi accontenti di un fuoco di minore purezza."
- fp3_give_up_the_quest.flavor: "Abbandoni la ricerca del Fuoco della Vittoria... per ora."
   
- fp3_yearly.8053.t: "Il Fuoco della Vittoria"
- fp3_yearly.8053.desc: "Passano giorni, poi settimane, durante le quali i miei esploratori setacciano il regno alla ricerca di un incendio appiccato da un fulmine, senza però alcun risultato. Ma, proprio quando comincio a scoraggiarmi, all'improvviso appaiono dei nuvoloni scuri in lontananza e risuona un tuono. Mi precipito fuori dal mio [ROOT.Char.Custom('ResidenceBuilding')] verso la tempesta, con i servi al seguito, e in effetti il temporale si avvicina, come se fosse il cenno di una mano invisibile.\n\nPoi, proprio di fronte a me, un bagliore accecante trafigge le nuvole e colpisce come una lancia del [ROOT.Char.GetFaith.DivineRealm] un albero solitario. Il legno secco si incendia immediatamente, bruciando con una fiamma pura come gli spiriti #italic fravashi#!. Ho trovato il Fuoco della Vittoria! È venuto da me!" 
  fp3_yearly.8053.a: "Incredibile! Quasi non riesco a crederci..."
 
 
@@ -652,7 +615,6 @@ fp3_yearly.8045.desc: "Durante una passeggiata al chiaro di luna, incontro [Sele
  fp3_scholarship.0001.desc: "[scholar.Custom('IT_NAM_COL3')|U][scholar.GetTitledFirstName] si è presentat[scholar.Custom('DE_END_PRO_S_N')] a corte, nella speranza di beneficiare di un mecenate per la sua attività scientifica"
 
  fp3_scholarship.1000.t: "Un Secondo Aryabhata"
- fp3_scholarship.1000.desc: "Ho imparato a conoscere il prestigio della matematica indiana. Anche i più umili studenti di aritmetica ne tessono le lodi. Se dovessi riempire le sale della mia corte di matematici [nearby_indian_ruler.GetCulture.GetCollettiveNoun], allora [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] potrebbe forse diventare una vera Mecca della matematica.\n\nPotrei chiedere [nearby_indian_ruler.Custom('IT_NAM_COL4')][nearby_indian_ruler.GetTitledFirstName] di mandarmi alcuni di questi matematici, ma [nearby_indian_ruler.GetSheHe] accetterebbe una simile proposta?"
  fp3_scholarship.1000.a: "[nearby_indian_ruler.GetSheHe|U] non rifiuterà di certo la mia richiesta."
  fp3_scholarship.1000.b: "Un generoso regalo dovrebbe convincerl[nearby_indian_ruler.Custom('DE_END_PRO_S_N')]."
  fp3_scholarship.1000.c: "I matematici [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] non hanno bisogno dell'aiuto dei [nearby_indian_ruler.GetCulture.GetCollectiveNounNoTooltip]!"
@@ -703,7 +665,6 @@ fp3_yearly.8045.desc: "Durante una passeggiata al chiaro di luna, incontro [Sele
  fp3_scholarship_research_success_slight_gain_effect: "Il [research_project|E] [inspiration_owner.Custom('IT_NAM_COL2')][inspiration_owner.GetShortUIName] avrà una possibilità di successo #P leggermente maggiore#!"
  
  fp3_scholarship.8000.t: "Un Nuovo $game_concept_research_project$"
- fp3_scholarship.8000.desc: "[court_scholar.Custom('DE_ART_DEF_P_D')] mi[court_scholar.Custom('DE_END_PRO_S_N')] erudit[court_scholar.Custom('DE_END_PRO_S_N')] di corte, [court_scholar.Custom('IT_NAM_COL3')][court_scholar.GetName], si precipita verso di me, seguit[court_scholar.Custom('DE_END_PRO_S_N')] da servitori che portano libri, rotoli e antiche pergamene.\n\n"Credo di poter fare una scoperta scientifica, a patto di avere abbastanza tempo, fondi e tanto inchiostro da poter tingere di nero l'Indo."
  fp3_scholarship.8000.a: "Prendete le redini del progetto, [court_scholar.GetFirstNameNoTooltip]."
  fp3_scholarship.8000.b: "Forse un'altra volta?"
  fp3_scholarship.8000.a.tt: "[court_scholar.GetFirstNameNoTooltip] inizierà a impegnarsi in un nuovo [research_project|E]"

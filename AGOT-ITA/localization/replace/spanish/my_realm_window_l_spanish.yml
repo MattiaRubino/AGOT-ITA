@@ -20,7 +20,6 @@ MY_REALM_WINDOW_BOOKMARK_LAWS_TT: "#T Leggi#!\nLe [laws|E] del tuo [realm|E]\n\n
 
  MY_REALM_WINDOW_LAWS_REALM_LAWS: "Leggi del Reame"
  MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS: "Leggi Provinciali"
-MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC: "Solo [MyRealmWindow.GetCharacter.GetTopLiege.Custom('IT_NAM_COL3')][MyRealmWindow.GetCharacter.GetTopLiege.GetTitleAsName][MyRealmWindow.GetCharacter.GetTopLiege.GetPrimaryTitle.Custom('IT_COU_COL2')][MyRealmWindow.GetCharacter.GetTopLiege.GetPrimaryTitle.GetDefinitiveName] può cambiare le Leggi Provinciali"
 MY_REALM_WINDOW_LAWS_PROVINCIAL_NO_LAWS_DESC: "Questo [realm|E] non ha $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS$"
  MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC_DISABLED: "@warning_icon! #X $MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC$#!"
  MY_REALM_WINDOW_LAWS_SPECIFIC_SUCCESSION_LAWS: "Leggi Specifiche di Successione"
@@ -160,7 +159,6 @@ MY_REALM_WINDOW_TITLES_LOST_LABEL: "[TitleSuccessionItem.GetTitlesLostToText( Ch
  MY_REALM_WINDOW_HIDE:0 "Nascondi"
  MY_REALM_WINDOW_DESIGNATE_HEIR:1 "Cambia"
  MRW_CHANGE_LAW:0 "Cambia"
-MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  [Character.GetShortUINameNoTooltip], "
  MRW_DESIGNATED_HEIR:0 "[MyRealmWindow.GetCharacter.GetDesignatedHeir.GetUIName]"
  MRW_NO_DESIGNATED_HEIR:0 "#weak Nessuno#!"
  MRW_DESIGNATED_HEIR_LABEL:0 "[designated_heir|E]:"
@@ -269,7 +267,6 @@ NON_FEUDAL_SUBJECT_CONTRACT_OBLIGATIONS_TITLE_LEVIES: 0 "Livello di Leve"
  THEME_ADMINISTRATION_LABEL: "Tipi di Amministrazione Disponibili"
 VASSAL_CONTRACT_VASSAL_TITLE_ADMIN: "Modifica dell’Amministrazione di\n[SubjectContract.GetSubject.GetPrimaryTitle.GetNameNoTooltip]\n#high Governata da [SubjectContract.GetSubject.Custom('IT_NAM_COL5')][SubjectContract.GetSubject.GetTitledFirstNameNoTooltip]#!"
 
- MY_REALM_ADMIN_LAWS_HEADER: "Amministrazione di [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
 
  RELEASE_TRIBUTARY_CONFIRMATION_TITLE: "Rilascia [Character.GetNameNoTooltip]"
  RELEASE_TRIBUTARY_CONFIRMATION_TEXT: "Termina la relazione [tributary|E] tra te e [Character.GetNameNoTooltip]"
