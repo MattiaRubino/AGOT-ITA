@@ -1,0 +1,13 @@
+﻿l_spanish:
+
+  agot_choose_dragonpit_event.0001.t:0 "Una fossa del drago per [dragon.GetNameNoTooltip]"
+  agot_choose_dragonpit_event.0001.desc:0 "Un drago senza cavaliere è una risorsa imprevedibile e pericolosa. Senza un legame che lo trattenga, ben poco impedisce alla bestia di fuggire o di divenire ostile. Se vogliamo conservarne il controllo, il drago deve essere alloggiato. Per fortuna, abbiamo a disposizione diversi luoghi adatti, ciascuno con i propri vantaggi e svantaggi."
+  agot_choose_dragonpit_event.0001.desc_rider:0 "Un drago è una risorsa potente, ma senza un cavaliere la sua lealtà non può essere garantita. Se [Select_CString( rider.IsLocalPlayer, 'io', rider.GetName )] [Select_CString( rider.IsLocalPlayer, 'morissi', 'morisse' )], [dragon.GetName] potrebbe andarsene e tornare allo stato selvatico. Per conservarne il controllo, [dragon.Custom('GetDragonSheHe')] deve essere alloggiat[Select_CString(dragon.IsFemale,'a','o')]. Per fortuna, abbiamo a disposizione diversi luoghi adatti, ciascuno con i propri vantaggi e svantaggi."
+  agot_choose_dragonpit_event.0001.a:0 "Andrà bene."
+  agot_choose_dragonpit_event.0001.a.tt:0 "[dragon.GetNameNoTooltip] sarà alloggiat[Select_CString(dragon.IsFemale,'a','o')] nella fossa del drago selezionata."
+  agot_choose_dragonpit_event.0001.a.tt_2:0 "@warning_icon! #X Alloggiare [dragon.GetNameNoTooltip] in una fossa lontana dal [Select_CString(rider.IsFemale,'cavaliere','cavaliere')] di [dragon.Custom('GetDragonHerHis')] impedirà che [dragon.Custom('GetDragonHerHim')] venga usat[Select_CString(dragon.IsFemale,'a','o')] in viaggio o in guerra e potrebbe indebolire il loro legame#!"
+  agot_choose_dragonpit_event.0001.b:0 "[dragon.GetNameNoTooltip] dovrebbe essere liber[Select_CString(dragon.IsFemale,'a','o')]."
+  agot_choose_dragonpit_event.0001.c:0 "[dragon.GetNameNoTooltip] sta bene dov[Select_CString(dragon.IsFemale,'e','e')] [dragon.Custom('GetDragonSheHe')] si trova."
+  agot_choose_dragonpit_event.0001.d:0 "No, non rinchiuderò [dragon.GetNameNoTooltip]."
+  
+  dragon_bond_weakening_toast:0 "Legame in indebolimento"

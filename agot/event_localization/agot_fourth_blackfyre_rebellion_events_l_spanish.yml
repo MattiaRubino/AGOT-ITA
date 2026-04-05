@@ -1,0 +1,152 @@
+﻿l_spanish:
+
+  ### 0001 - 0009 # Aegor Events
+  #Aegor Rivers (Daemon has declared war on IT, time to help!)
+  agot_fourth_blackfyre_rebellion.0001.t: "La Pretesa Blackfyre"
+  agot_fourth_blackfyre_rebellion.0001.desc: "[daemon.Custom('IT_NAM_COL3')][daemon.GetTitledFirstName] ha avanzato la sua pretesa al Trono. Il tempo è vicino; dobbiamo unire ancora una volta le forze e travolgere i Targaryen e i loro lord leccapiedi. Un lungo inverno, un re stolto e lord scontenti rendono Westeros maturo per essere conquistato. Stavolta la vittoria è alla nostra portata... la sento.\n\nAlle armi!"
+  agot_fourth_blackfyre_rebellion.0001.a: "Sotto l'Oro, l'Acciaio Amaro!"
+
+  agot_fourth_blackfyre_rebellion.0002.t: "Amaro Servigio"
+  agot_fourth_blackfyre_rebellion.0002.desc: "[daemon.Custom('IT_NAM_COL3')][daemon.GetTitledFirstName] ha infine conquistato il trono! Sono passate settimane da quel giorno glorioso, e le cose hanno cominciato a placarsi...\n\nIl nuovo re ha ora bisogno di servitori leali, consiglieri che aiutino a guidare Sua Grazia nelle vie di Westeros. Considerato il mio ruolo nella sua ascesa, potrei chiedere una carica per me.\n\nO forse basterebbe una semplice ricompensa."
+  agot_fourth_blackfyre_rebellion.0002.a: "La Mano del Re sarebbe una carica più che adatta."
+  agot_fourth_blackfyre_rebellion.0002.b: "Servirò nella Guardia Reale... come Lord Comandante!"
+  agot_fourth_blackfyre_rebellion.0002.c: "Prenderò Sala dell'Estate."
+  agot_fourth_blackfyre_rebellion.0002.d: "Sotto l'Oro... c'è ancora più oro!"
+  agot_fourth_blackfyre_rebellion.0002.e: "Non desidero nulla; mi basta aver compiuto il mio dovere."
+  agot_fourth_blackfyre_rebellion.0002.gc_tt: "[daemon.GetFirstName] riceve la Compagnia Dorata come [special_troops|E]."
+
+  agot_fourth_blackfyre_rebellion.0010.t: "Una Vittoria Blackfyre"
+  agot_fourth_blackfyre_rebellion.0010.desc: "A stento riesco a crederci...\n\nPer generazioni, i miei avi hanno sopportato privazioni, esilio e scherno. Casa [ROOT.Char.GetHouse.GetName] ha combattuto e tramato, ha sanguinato ed è morta, tutto per un unico sogno, un unico scopo: reclamare il nostro diritto di nascita, il nostro giusto posto sul Trono di Spade. Oggi, quel sogno diviene realtà.\n\nMentre salgo i gradini che conducono al Trono di Spade, il mio pensiero corre a colui dal quale porto il nome. Le lacrime mi colmano gli occhi mentre mi volto verso la sala del trono. #italic Se solo potessi vedermi ora, nonno...#!\n\nCi sono voluti molti anni, ma infine un Daemon di Casa [ROOT.Char.GetHouse.GetNameNoTooltip] siede sul Trono di Spade. Io non sono che il seme di una dinastia che durerà mille anni e oltre!"
+  agot_fourth_blackfyre_rebellion.0010.a: "Il mio regno comincia ora!"
+
+  agot_fourth_blackfyre_rebellion.0011.t: "L'Invasione!"
+  agot_fourth_blackfyre_rebellion.0011.desc: "Il mio cuore martella per un misto di eccitazione e timore mentre preparo le mie forze per la nostra invasione d'occidente: un ultimo tentativo di reclamare il mio diritto di nascita.\n\nWesteros sanguinerà; di questo non v'è dubbio, ma sanguinerà per una causa nobile. Le intenzioni di [GetScriptedCharacterByHistoryID('Targaryen_88').GetTitledFirstNamePossessiveRegnal] verso mio nonno erano chiare: donandogli [blackfyre.GetName], lo segnò quale suo legittimo erede. Tutti i re Targaryen che vennero dopo non furono altro che usurpatori indegni.\n\n#bold Il reame si piegherà al suo legittimo re!#!"
+  agot_fourth_blackfyre_rebellion.0011.a: "Sento odore di vittoria..."
+  agot_fourth_blackfyre_rebellion.0011.a.tt: "Soltanto una manciata di tradizionali lealisti di Casa [ROOT.Char.GetHouse.GetNameNoTooltip] si è raccolta attorno alla nostra causa. Se dimostrerò che la mia ribellione può ancora riuscire là dove le altre fallirono, resistendo alla potenza del Trono di Spade, altri potrebbero unirsi a noi nella nostra giusta lotta. Forse potrei perfino volgere gli eventi a mio favore con una morte conveniente..."
+
+  agot_fourth_blackfyre_rebellion.0012.t: "Un'Altra Ribellione Blackfyre"
+  agot_fourth_blackfyre_rebellion.0012.desc: "Gravi notizie per il reame: [daemon.GetTitledFirstNameRegnal], rampollo da tempo dimenticato della traditrice Casa [daemon.GetHouse.GetNameNoTooltip], è sbarcat[Select_CString(daemon.IsFemale,'a','o')] a Westeros! Comanda un'armata di migliaia di uomini, guidata da [aegor.Custom('IT_NAM_COL3')][aegor.GetTitledFirstName]. Proprio quando si pensava che le ferite del reame stessero guarendo, i Sette Regni sono di nuovo in guerra.\n\nOra che il reame è ancora una volta nel tumulto, bisogna fare una scelta."
+  agot_fourth_blackfyre_rebellion.0012.a: "Alle armi! Questo drago nero va schiacciato."
+  agot_fourth_blackfyre_rebellion.0012.b: "Forse potrei trarne vantaggio..."
+  agot_fourth_blackfyre_rebellion.0012.c: "Forse dovrei unirmi a questo drago nero?"
+
+  agot_fourth_blackfyre_rebellion.0013.t: "Un Anno di Ribellione"
+  agot_fourth_blackfyre_rebellion.0013.desc: "È passato un anno da quando ho avanzato la mia pretesa al Trono. Pare che più a lungo resistiamo, e più a lungo io rimango in vita in aperta sfida al cosiddetto [aegonv.Custom('IT_NAM_COL3')][aegonv.GetTitledFirstName], più lord si raccolgano sotto il nostro vessillo. Molti tra gli antichi lealisti Blackfyre, che un tempo si unirono alle cause dei miei antenati, si sono ormai dichiarati per me.\n\nResta da vedere se il loro rinnovato sostegno basterà a volgere il conflitto a nostro favore."
+  agot_fourth_blackfyre_rebellion.0013.a: "Un secondo vento gonfia le nostre vele!"
+
+  agot_fourth_blackfyre_rebellion.0014.t: "La Mia Audace Vittoria"
+  agot_fourth_blackfyre_rebellion.0014.desc: "A stento riesco a crederci, eppure è vero. Ho ucciso il più feroce protettore di [aegonv.GetTitledFirstNamePossessive], [duncantall.GetNameNicknamed]. Una simile impresa sembra aver ispirato alcuni dei lord più esitanti.\n\nAvendo compiuto l'impensabile, molti fra gli antichi lealisti Blackfyre, che un tempo si unirono alla causa del mio antenato, si sono ora dichiarati per me."
+  agot_fourth_blackfyre_rebellion.0014.a: "Non posso essere sconfitto!"
+
+  agot_fourth_blackfyre_rebellion.0015.t: "Un'Amara Richiesta"
+  agot_fourth_blackfyre_rebellion.0015.desc: "Sono passate settimane dalla mia vittoria, dalla mia ascesa al Trono di Spade. In queste settimane non sono rimasto inoperoso. Ho trascorso giorni e notti a consolidare il mio potere, assicurandomi che la presa di Casa [ROOT.Char.GetHouse.GetName] sul Trono resti salda per gli anni a venire.\n\nOra, mentre riposo sul Trono, beandomi della gloria della mia opera, [aegor.GetFirstName] si presenta a me con una richiesta...\n\n"
+  agot_fourth_blackfyre_rebellion.0015.gold: "Un'umile somma di 1000 monete d'oro per i miei sforzi nel garantirci la vittoria. I miei uomini sono stanchi, ma continueremo a servirvi qualunque cosa accada.\n\nChiediamo soltanto una modesta ricompensa per i nostri sforzi. Con l'oro, vi sarà gloria in abbondanza per celebrare la vostra ascesa!"
+  agot_fourth_blackfyre_rebellion.0015.hotk: "Mio signore, è stato un onore servire la vostra giusta causa. Ora che il trono è occupato dal suo unico vero re, vi chiedo umilmente di nominarmi vostra Mano. Lasciate che continui a servirvi e a offrire la mia saggezza al vostro governo sino alla fine dei miei giorni."
+  agot_fourth_blackfyre_rebellion.0015.summerhall: "Con la nostra vittoria, la Compagnia Dorata si scioglierà. Abbiamo compiuto il nostro unico e solo scopo, restituire il trono al nostro legittimo signore. Ora vi chiedo umilmente un luogo in cui stabilirmi, un luogo dove io possa servirvi fedelmente come lord."
+  agot_fourth_blackfyre_rebellion.0015.lc: "Mio signore, è stato un onore combattere sotto i vostri vessilli. Ora che il trono è occupato dal suo unico vero re, vi chiedo umilmente di permettermi di consacrare la mia vita alla vostra difesa da ogni male. La Guardia Reale, per come ora si presenta, ha servito la casa sbagliata, il re sbagliato, e non può essere ritenuta degna della vostra fiducia, Vostra Grazia.\n\nPrenderò io l'iniziativa. Nominate me vostro Lord Comandante, e farò in modo che la vostra dinastia duri mille anni!"
+  agot_fourth_blackfyre_rebellion.0015.gc_tt: "Ricevi l'esercito della Compagnia Dorata come [special_troops|E]."
+  agot_fourth_blackfyre_rebellion.0015.a: "È una richiesta ragionevole; gliela concederò."
+  agot_fourth_blackfyre_rebellion.0015.b: "Mi duole dirlo, ma no..."
+
+  agot_fourth_blackfyre_rebellion.1000.t: "Una Quarta Ribellione?"
+  agot_fourth_blackfyre_rebellion.1000.desc: "Con la fine dell'inverno, il tempo è maturo per un'altra invasione. Come mio padre prima di me, e suo padre prima di lui, io mi trovo alla testa di una grande armata. Con Bittersteel e la Compagnia Dorata al mio fianco, formeremo una forza possente. Ma il lavoro è ben lungi dall'essere compiuto.\n\nIl reame ci crede finiti, logori come i nostri vessilli, eppure potremmo ancora mostrare a questi grassi grandi lord che Casa [ROOT.Char.GetHouse.GetName] sa ancora brandire la forza e l'influenza necessarie a governare i Sette Regni. Dobbiamo protenderci oltre il Mare Stretto, attirare alcune forze locali alla nostra causa e sgretolare dall'interno il dominio di Casa [aegonv.GetHouse.GetName].\n\nL'infame tradimento del Gran Concilio non deve essere dimenticato. Reclamerò ciò che mi appartiene di diritto, o morirò nel tentativo. Casa [ROOT.Char.GetHouse.GetNameNoTooltip] siederà sul Trono di Spade!"
+  agot_fourth_blackfyre_rebellion.1000.a: "Invaderò!"
+  agot_fourth_blackfyre_rebellion.1000.a.tt: "#EMP Darai inizio alla tua invasione esattamente fra due settimane.#!"
+  agot_fourth_blackfyre_rebellion.1000.b: "A ripensarci..."
+  agot_fourth_blackfyre_rebellion.1000.b.tt: "#EMP Per ora metti da parte le tue speranze d'invasione.#!"
+
+  agot_fourth_blackfyre_rebellion.1001.t: "Sotto l'Oro, l'Acciaio Amaro"
+  agot_fourth_blackfyre_rebellion.1001.desc: "La corona che ho posto sul capo di [daemon.GetTitledFirstNamePossessiveRegnal] lascia aperta una sola via. Ora che l'inverno è finalmente terminato, si presenta l'occasione per un nuovo tentativo di conquistare il Trono.\n\nL'amaro sapore del nostro ultimo tentativo mi indugia ancora in bocca. Più invecchio, più cresce di anno in anno la mia disperazione nel voler porre un [daemon.GetHouse.GetName] sul Trono. Eppure, ora che quel miserabile Bloodraven è stato così scioccamente allontanato dal re, le nostre probabilità non sono mai state migliori.\n\nLa Compagnia Dorata affilerà le nostre spade. Non abbiamo ancora finito. Caro fratello mio [daemoni.GetFirstName], stiamo finalmente tornando a casa!"
+  agot_fourth_blackfyre_rebellion.1001.desc.b:0 "Gli anni del mio esilio costituiscono ormai la maggior parte della mia vita. Volta dopo volta, ribellione dopo ribellione, abbiamo attraversato il Mare Stretto nella speranza di tornare alla nostra patria e porre un [daemon.GetHouse.GetName] sul Trono di Spade. Volta dopo volta, abbiamo fallito.\n\nL'amaro sapore del nostro ultimo tentativo mi indugia ancora in bocca. Più invecchio, più cresce di anno in anno la mia disperazione nel voler porre un [daemon.GetHouse.GetNameNoTooltip] sul Trono. Eppure, ora che quel miserabile Bloodraven è stato così scioccamente allontanato dal re, si presenta l'occasione per un nuovo tentativo di conquistare il Trono.\n\nForse non è ancora troppo tardi..."
+  agot_fourth_blackfyre_rebellion.1001.a: "Affilate le spade, uomini!"
+  agot_fourth_blackfyre_rebellion.1001.a.b: "Che cosa faremo?"
+
+  agot_fourth_blackfyre_rebellion.1002.t: "Un Regno Improbabile"
+  agot_fourth_blackfyre_rebellion.1002.desc: "Sono trascorsi tre anni dalla mia ascesa al Trono di Spade, e il rigido inverno che la adombrò non c'è più. Nato quarto figlio di un quarto figlio, non avrei mai immaginato di ritrovarmi in una posizione tanto ingrata. Ciò nondimeno, ho usato i miei nuovi poteri per giovare agli oppressi, ai deboli e ai meno fortunati, una scelta che ha suscitato dissenso fra i miei lord più tradizionalisti.\n\nOra mormorii da oriente sono giunti alle mie orecchie. Un pretendente di Casa [daemon.GetHouse.GetName], il sedicente [daemon.Custom('IT_NAM_COL3')][daemon.GetTitledFirstName], sta radunando forze per un'invasione. Un altro tentativo di sottrarre il Trono di Spade al suo legittimo sovrano.\n\nDevo stringere alleanze e costruire ponti con i miei lord scontenti, se il dominio di Casa [ROOT.Char.GetHouse.GetName] deve sopravvivere alla tempesta in arrivo. Gli dèi mi diano forza..."
+  agot_fourth_blackfyre_rebellion.1002.a: "Forse Bloodraven aveva ragione..."
+
+  agot_fourth_blackfyre_rebellion.1003.t: "Il Principe delle Libellule"
+  agot_fourth_blackfyre_rebellion.1003.desc: "Il sole sorge a est dietro il Montedrago, gettando la sua lunga ombra su Roccia del Drago. Ancora una volta mi ritrovo colmo di stupore per questo castello e per il grave fardello che la sua signoria comporta. Non ho scelto io questo destino. Mi è stato imposto dagli dèi e da mio padre, [aegonv.GetFirstName].\n\nOra, mentre a Tyrosh si raduna una nuova armata di Casa [daemon.GetHouse.GetName], mio padre sta pensando di promettermi in sposo a qualche figlia di lord, per suggellare un'alleanza che possa resistere all'assalto imminente proveniente da oriente.\n\nDire che la cosa non mi entusiasma sarebbe dir poco. Non sono ancora nemmeno un uomo fatto, eppure mio padre, il mio signore, vorrebbe che decidessi con chi dividere il letto per il resto della mia vita... mentre egli stesso si sposò più tardi, e per amore. L'ingiustizia della cosa mi fa torcere di frustrazione. E tuttavia, un buon re sa che il reame deve venire prima di tutto. Sono combattuto."
+  agot_fourth_blackfyre_rebellion.1003.a: "Gli dèi sono crudeli!"
+
+  agot_fourth_blackfyre_rebellion.1004.t: "Il Leone Dorato"
+  agot_fourth_blackfyre_rebellion.1004.desc: "Lord Gerold «il Dorato», così mi chiamavano un tempo. Ero un lord accorto e capace. Il mio governo, prospero e giusto. Per arrivare fin qui ho dovuto compiere molti atti sgradevoli nel corso degli anni, atti che mi lasciano vergogna e timore nel cuore. Eppure, per mantenere l'albero vivo e rigoglioso, alcune erbacce devono essere strappate a beneficio di Casa [ROOT.Char.GetHouse.GetName] e delle Terre dell'Ovest.\n\nEppure, per le mie ambizioni, gli dèi hanno ritenuto opportuno punirmi. Prima mi hanno tolto mia moglie, poi il mio amato figlio ed erede. Il mio dolore, l'età e la malattia mi hanno reso incapace di reggere le redini del potere come un tempo. Ora trascorro la maggior parte delle giornate nei miei appartamenti con i miei libri, mentre la mia corte è infestata da Reyne di tutt'altra specie. E oltre il Mare Stretto si prepara la guerra.\n\nForse la mia punizione non è ingiusta..."
+  agot_fourth_blackfyre_rebellion.1004.a: "Il reame udrà ancora una volta il mio ruggito?"
+
+  agot_fourth_blackfyre_rebellion.1005.t: "La Tempesta che Ride"
+  agot_fourth_blackfyre_rebellion.1005.desc: "Un'altra notte tempestosa si abbatte su Storm's End, forse presagio d'una tempesta di ben altro genere. Un pretendente di Casa [daemon.GetHouse.GetName] in oriente, questi sedicenti draghi si fanno davvero sempre più numerosi, di questi tempi. Quando impareranno il loro posto, questi falsi draghi?\n\nAlle mie orecchie sono giunte voci secondo cui il mio signore, [aegonv.Custom('IT_NAM_COL3')][aegonv.GetTitledFirstName], desidera dare in sposa la mia amata figlia [cassandra.GetFirstName] a suo figlio ed erede, [duncansmall.Custom('IT_NAM_COL4')][duncansmall.GetTitledFirstNameNicknamed]. Una scelta saggia, dico io! Il fidanzamento sarà verosimilmente sancito nei mesi a venire.\n\nOra devo affilare la spada e preparare i miei lord per le battaglie che verranno. I miei domini hanno ogni probabilità di divenire il luogo di sbarco dell'Oste Blackfyre e io, da parte mia, non vedo l'ora di incontrare [daemon.Custom('IT_NAM_COL4')][daemon.GetTitledFirstName] in carne e ossa."
+  agot_fourth_blackfyre_rebellion.1005.a: "Oh, quanto mi mancava il suono dei corni di guerra!"
+
+  agot_fourth_blackfyre_rebellion.1010.t: "Un'Unione Promettente"
+  agot_fourth_blackfyre_rebellion.1010.desc: "La prossima invasione Blackfyre si avvicina sempre più. [ROOT.Char.GetPrimarySpouse.GetFirstName] ha suggerito una possibile alleanza con [lyonel.Custom('IT_NAM_COL2')][lyonel.GetTitledFirstName] per aiutare a proteggere la nostra casata nella guerra ventura. Se mio figlio [duncansmall.GetFirstName] sarà disposto a sposare la figlia di [lyonel.GetTitledFirstNamePossessiveNoTooltip], [cassandra.GetFirstName], una volta che ella avrà raggiunto l'età adulta, l'unione potrebbe rivelarsi estremamente preziosa.\n\nPer prima cosa, devo scoprire se [duncansmall.GetFirstNameNoTooltip] accetterebbe un simile matrimonio. Soltanto allora dovrei mandare parola a [lyonel.Custom('IT_NAM_COL4')][lyonel.GetTitledFirstNameNoTooltip]."
+  agot_fourth_blackfyre_rebellion.1010.a: "Inviate i corvi!"
+  agot_fourth_blackfyre_rebellion.1010.b: "Non ho bisogno del suo aiuto..."
+
+  agot_fourth_blackfyre_rebellion.1011.t: "Rifiuto"
+  agot_fourth_blackfyre_rebellion.1011.desc: "Mio figlio [duncansmall.GetFirstName] ha rifiutato di fidanzarsi con [cassandra.GetFirstName]... Non posso dire che la cosa mi sorprenda, sebbene mi deluda. [duncansmall.GetFirstNameNoTooltip] ha sempre avuto un proprio modo di agire, anche quando ciò va a discapito degli interessi di Casa [ROOT.Char.GetHouse.GetNameNoTooltip]..."
+  agot_fourth_blackfyre_rebellion.1011.a: "Per questo qui non c'è alcuna speranza..."
+  agot_fourth_blackfyre_rebellion.1011.a.tt: "Il rifiuto di [duncansmall.GetShortUINamePossessive] ti permetterà di diseredar[Select_CString(duncansmall.IsFemale,'la','lo')]."
+
+  agot_fourth_blackfyre_rebellion.1012.t: "Accettazione!"
+  agot_fourth_blackfyre_rebellion.1012.desc: "Mio figlio [duncansmall.GetFirstName] ha accettato di fidanzarsi con [cassandra.GetFirstName]... Il più grande ostacolo è ormai alle nostre spalle, ne sono certo. [duncansmall.GetFirstNameNoTooltip] è il più capriccioso dei due. Ora dobbiamo vedere se [lyonel.GetFirstName] accetterà l'unione."
+  agot_fourth_blackfyre_rebellion.1012.a: "Sicuramente il Cervo acconsentirà?"
+
+  agot_fourth_blackfyre_rebellion.1013.t: "La Risposta del Cervo"
+  agot_fourth_blackfyre_rebellion.1013.desc.a: "Sono colmo di gioia. [lyonel.Custom('IT_NAM_COL3')][lyonel.GetTitledFirstName] ha accettato di fidanzare sua figlia [cassandra.GetFirstName] con mio figlio [duncansmall.GetFirstName]. Con l'approvazione di [duncansmall.GetFirstNamePossessiveNoTooltip], l'alleanza è sancita. Il nostro avvenire appare ora più luminoso. Affronteremo la tempesta in arrivo... insieme a una che ride."
+  agot_fourth_blackfyre_rebellion.1013.desc.r: "La risposta di [lyonel.GetTitledFirstNamePossessive] è giunta questa mattina, e non era ciò che speravo...\n\nHa rifiutato di fidanzare [cassandra.GetFirstName] con mio figlio [duncansmall.GetFirstName], persino con [duncansmall.GetFirstNameNoTooltip] stesso concorde all'unione. Forse ho sottovalutato la frustrazione dei miei lord per le mie riforme...\n\nBisogna trovare una nuova unione per [duncansmall.Custom('IT_NAM_COL4')][duncansmall.GetTitledFirstNameNoTooltip]. Il tempo stringe!"
+  agot_fourth_blackfyre_rebellion.1013.a.a: "Esattamente come previsto."
+  agot_fourth_blackfyre_rebellion.1013.a.r: "Che gran peccato..."
+
+  agot_fourth_blackfyre_rebellion.1014.t: "Il Principe delle Libellule"
+  agot_fourth_blackfyre_rebellion.1014.desc: "Mio figlio [duncansmall.GetFirstName] ha abdicato! La mia delusione nei suoi confronti non era un segreto, ma non mi aspettavo che ricorresse a misure tanto drastiche...\n\nRidotto a poco più di un mendicante comune, ora segue la strada, avendo rinunciato alle sue terre e ai suoi titoli in favore di [jaehaerys.Custom('IT_NAM_COL4')][jaehaerys.GetTitledFirstName]..."
+  agot_fourth_blackfyre_rebellion.1014.a: "Per questo qui non c'è #italic davvero#! alcuna speranza..."
+
+  agot_fourth_blackfyre_rebellion.1020.t: "Una Richiesta di Mio Padre"
+  agot_fourth_blackfyre_rebellion.1020.desc: "È giunto un corvo da mio padre, nella capitale. Desidera che io sposi la figlia di [lyonel.GetTitledFirstNamePossessive], [cassandra.GetFirstName], quando sarà giunta all'età adulta. Non posso dire di non aspettarmelo, per quanto mi dispiaccia. Non sono pronto per il matrimonio; di questo sono certo.\n\nE tuttavia, la stabilità e il bene del reame devono essere presi in considerazione. Bisogna stringere alleanze se vogliamo sopravvivere alla prossima Ribellione Blackfyre..."
+  agot_fourth_blackfyre_rebellion.1020.a: "Accetto, per il bene del reame!"
+  agot_fourth_blackfyre_rebellion.1020.a.tt: "Questa proposta d'alleanza andrà avanti soltanto se anche [lyonel.GetFirstName] acconsentirà all'unione."
+  agot_fourth_blackfyre_rebellion.1020.b: "I-io non voglio!"
+  agot_fourth_blackfyre_rebellion.1020.b.tt: "Se rifiuti, [aegonv.GetFirstName] potrà #EMP diseredarti#! senza alcuna conseguenza."
+
+  agot_fourth_blackfyre_rebellion.1021.t: "Delusione"
+  agot_fourth_blackfyre_rebellion.1021.desc: "Alla fine, non sono riuscito a farlo. Ho rifiutato il desiderio di mio padre di fidanzarmi con [cassandra.GetFirstName]...\n\nLa sua risposta sarà certamente un silenzio colmo di disapprovazione. Non c'è da stupirsi che sia adirato con me. Ma non legherò la mia vita a una donna che non conosco per il bene di un'alleanza. In fondo al suo cuore, mio padre deve comprenderlo."
+  agot_fourth_blackfyre_rebellion.1021.a: "Io... ho fatto ciò che dovevo!"
+  agot_fourth_blackfyre_rebellion.1021.b: "Forse mio padre aveva davvero a cuore il mio bene..."
+  agot_fourth_blackfyre_rebellion.1021.c: "Non posso più sopportarlo! Abdico!"
+  duncan_the_small_laamp_name_1: "Cacciatori in Agguato"
+  duncan_the_small_laamp_name_2: "Sciame della Libellula"
+  duncan_the_small_laamp_name_3: "Sciame di Spade"
+  duncan_the_small_laamp_name_4: "Corona di Veli"
+
+  agot_fourth_blackfyre_rebellion.1022.t: "Libertà, Per Ora"
+  agot_fourth_blackfyre_rebellion.1022.desc: "Notizie gioiose, seppur inattese! [lyonel.Custom('IT_NAM_COL3')][lyonel.GetTitledFirstName] ha rifiutato l'offerta di mio padre di fidanzarmi con sua figlia [cassandra.GetFirstName]...\n\nDevo ammettere che non me l'aspettavo. Benché, naturalmente, non me ne lamenti. [aegonv.Custom('IT_NAM_COL3')][aegonv.GetTitledFirstName|U] sarà certamente deluso, forse persino amareggiato, ma dubito che il reame ne soffrirà. Sebbene egli possa cercare per me un'altra unione negli anni a venire, non vi è dubbio che le sue ambizioni siano state temperate da questo rifiuto. Potrei avere ancora un po' di tempo..."
+  agot_fourth_blackfyre_rebellion.1022.a: "Di certo non mi oppongo!"
+
+  agot_fourth_blackfyre_rebellion.1030.t: "Una Potenziale Alleanza"
+  agot_fourth_blackfyre_rebellion.1030.desc: "[aegonv.Custom('IT_NAM_COL3')][aegonv.GetTitledFirstName] mi ha fatto pervenire una proposta d'alleanza: suo figlio [duncansmall.GetName] dovrebbe essere promesso a mia figlia [cassandra.GetFirstName], se io acconsentissi all'unione. Potrebbe rivelarsi un'occasione rara. Imparentarsi con la famiglia reale, dopotutto, conferirebbe un'enorme influenza sulla conduzione del reame.\n\nCiò nondimeno, questo significa che ci si aspetterà il mio sostegno dinanzi a qualunque... minaccia esterna.\n\nDevo ponderare attentamente le mie opzioni."
+  agot_fourth_blackfyre_rebellion.1030.a: "Fate sapere a [aegonv.Custom('IT_NAM_COL4')][aegonv.GetTitledFirstName] che acconsento!"
+  agot_fourth_blackfyre_rebellion.1030.a.tt: "Accetti la proposta."
+  agot_fourth_blackfyre_rebellion.1030.a.notification: "[lyonel.GetFirstName] accetta la proposta."
+  agot_fourth_blackfyre_rebellion.1030.b: "Un'offerta generosa, ma al momento non è nel mio interesse."
+  agot_fourth_blackfyre_rebellion.1030.b.tt: "Rifiuti la proposta."
+  agot_fourth_blackfyre_rebellion.1030.b.notification: "[lyonel.GetFirstName] rifiuta la proposta."
+
+  agot_fourth_blackfyre_rebellion.1031.t: "Un Rifiuto Reale"
+  agot_fourth_blackfyre_rebellion.1031.desc: "Pare che le mie speranze di un fidanzamento reale siano state vane. Quello sciocco moccioso di [duncansmall.Custom('IT_NAM_COL3')][duncansmall.GetTitledFirstName] ha apparentemente rifiutato un fidanzamento con la mia dolce figlia [cassandra.GetFirstName], sostenendo di «volersi sposare per amore, non per politica».\n\nBenché si tratti soltanto di sussurri, e non vi siano mai state offerte ufficiali, non posso celare la mia delusione. A quanto pare, una lady di Casa [ROOT.Char.GetHouse.GetNameNoTooltip] non è ritenuta un'unione degna per questo principe."
+  agot_fourth_blackfyre_rebellion.1031.a: "I Sette ci aiutino tutti quando questa progenie reale sederà sul trono..."
+
+  agot_fourth_blackfyre_rebellion.9990.t: "Il Drago e la Bariera"
+  agot_fourth_blackfyre_rebellion.9990.desc: "La guerra è un affare sanguinoso; questo lo so da anni. Eppure nulla avrebbe potuto prepararmi alla carneficina nella quale ora mi faccio strada. Una pioggia rossa di viscere e sangue mi investe mentre pianto la spada in un altro cavallo nemico morente.\n\nTerso il sangue dalla visiera, e allora lo vedo: torreggia sopra i miei soldati e brandisce una grande spada poderosa. Prima che io possa voltarmi altrove, mi scorge, scagliando da parte un cavaliere completamente corazzato con una forza capace di abbattere un destriero adulto.\n\nDèi misericordiosi, viene dritto verso di me..."
+  agot_fourth_blackfyre_rebellion.9990.a: "[ROOT.Char.GetHouse.GetMotto]"
+
+  agot_fourth_blackfyre_rebellion.9991.t: "La Bariera e il Drago"
+  agot_fourth_blackfyre_rebellion.9991.desc: "Un'altra guerra, un'altra ribellione. Sfondo le linee nemiche con relativa facilità, spaccando a metà i soldati Blackfyre con la mia grande spada. Sebbene la mia forza sia venuta meno con gli anni recenti, è rassicurante sapere che resto ancora tre volte più forte del soldato comune.\n\nD'un tratto, oltre la nebbia rossa della battaglia, lo vedo: il cosiddetto [daemon.Custom('IT_NAM_COL3')][daemon.GetTitledFirstName], che sventra un cavallo sotto il suo cavaliere. Potrei porre fine a questa ribellione oggi stesso, con un solo grande colpo della mia spada..."
+  agot_fourth_blackfyre_rebellion.9991.a: "Per il Re!"
+
+  agot_fourth_blackfyre_rebellion.9994.t: "Il Cucciolo di Leone"
+  agot_fourth_blackfyre_rebellion.9994.desc: "Fendo e travolgo la linea nemica. Nemico dopo nemico cade dinanzi a me mentre faccio danzare Blackfyre sul campo di battaglia. I cani di [aegonv.GetTitledFirstNamePossessive] menano colpi a vuoto, o le loro spade risuonano inutili contro la mia armatura. Né lama né mazza possono rivaleggiare con il mio acciaio valyriano.\n\nCalando il colpo ancora una volta, Blackfyre si scontra contro una spada lunga incrostata di rubini. Sotto di essa, sorridendo con insolenza, c'è un giovane dai capelli d'oro."
+  agot_fourth_blackfyre_rebellion.9994.a: "Ti sei smarrito, piccolo leone?"
+
+  agot_fourth_blackfyre_rebellion.9995.t: "Un Amaro Scontro d'Acciaio"
+  agot_fourth_blackfyre_rebellion.9995.desc: "Colpisco, fendo e abbatto un drago nero dopo l'altro. Questi stolti ribelli saranno presto ricacciati nel mare dal quale sono venuti. Scorgo il cosiddetto [daemon.Custom('IT_NAM_COL3')][daemon.GetTitledFirstName] dall'altra parte del campo di battaglia, troppo lontano per raggiungerlo. Se solo fosse più vicino...\n\nUn lampo d'acciaio venato di nero cattura il mio sguardo. L'anziano Bittersteel si sta aprendo un sentiero sanguinoso attraverso le nostre linee. Devo cogliere questa occasione di gloria eterna!"
+  agot_fourth_blackfyre_rebellion.9995.a: "Potrei ancora divenire una leggenda!"
