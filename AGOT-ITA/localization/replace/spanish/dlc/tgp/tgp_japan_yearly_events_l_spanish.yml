@@ -367,7 +367,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   house_relation_quarrel_reason_cadet_branch_permission_desc: "Hai ignorato le preoccupazioni di [contester.GetTitledFirstNamePossessive]"
 
   tgp_japan_yearly_events.1225.t: "Una vita poetica"
-  tgp_japan_yearly_events.1225.desc.intro.influencer: "[Select_CString(poet_influencer.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('poet_influencer'))] stamani ha una luce negli occhi. Sempre premuros[Select_CString(SCOPE.sC('poet_influencer').IsFemale,'a','o')] verso il mio miglioramento, si lancia in una recitazione appassionata.\n\n"
+  tgp_japan_yearly_events.1225.desc.intro.influencer: "Il/la mio/mia [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('poet_influencer'))] stamani ha una luce negli occhi. Sempre premuros[Select_CString(SCOPE.sC('poet_influencer').IsFemale,'a','o')] verso il mio miglioramento, si lancia in una recitazione appassionata.\n\n"
   tgp_japan_yearly_events.1225.desc.intro: "Mentre sfoglio testi per migliorarmi, m’imbatto in un passaggio che cattura l’attenzione."
   tgp_japan_yearly_events.1225.desc: "#EMP «Il seme della poesia [ROOT.Char.GetTopLiege.GetCulture.GetNameNoTooltip] giace nei cuori di tutti. Se nutrito, fiorirà in foglie di diecimila parole.\n\nQueste parole possono trarre le piccole cose che vediamo e udiamo e dare loro il potere di muovere cielo e terra, scuotere i sentimenti degli dèi e degli spiriti invisibili, mitigare le relazioni tra uomini e donne e placare i cuori di feroci guerrieri!»#!\n\n«Essere poeti è vivere, e vivendo si diventa poeti migliori.»"
   tgp_japan_yearly_events.1225.a: "Allora inizierò a vivere!"
@@ -464,7 +464,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1190.c_tt: "Una [county|E] casuale del tuo reame perderà un po’ di [control|E]"
 
   tgp_japan_yearly_events.1220.t: "Un miracolo in abito"
-  tgp_japan_yearly_events.1220.desc: "[Select_CString(miracle_recipient.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', miracle_recipient)], [miracle_recipient.GetName], mi porta notizia del monac[Select_CString(monk.IsFemale,'a','o')] itinerante [monk.GetName], che ha compiuto un miracolo.\n\n"
+  tgp_japan_yearly_events.1220.desc: "Il/la mio/mia [ROOT.Char.Custom2('RelationToMeShort', miracle_recipient)], [miracle_recipient.GetName], mi porta notizia del monac[Select_CString(monk.IsFemale,'a','o')] itinerante [monk.GetName], che ha compiuto un miracolo.\n\n"
   tgp_japan_yearly_events.1220.desc_health: "«La mia malattia non mi tormenta più, [miracle_recipient.Custom2('RelationToMeShort', ROOT.Char)]! Anzi, il potere delle [Select_CString(monk.IsFemale,'sue','sue')] preghiere mi ha reso più forte di prima.»"
   tgp_japan_yearly_events.1220.desc_wealth: "«Ho offerto al monac[Select_CString(monk.IsFemale,'a','o')] una sacca d’oro e, mesi dopo, [Select_CString(monk.IsFemale,'lei','lui')] è [Select_CString(monk.IsFemale,'tornata','tornato')] con un sacchetto dal valore dieci volte superiore, ricambiando il favore!»"
   tgp_japan_yearly_events.1220.desc_knowledge: "«Forse prima mi si considerava ottus[Select_CString(miracle_recipient.IsFemale,'a','o')], ma dopo aver ricevuto i [Select_CString(monk.IsFemale,'suoi','suoi')] insegnamenti, la mia mente trabocca di conoscenza e acume!»"

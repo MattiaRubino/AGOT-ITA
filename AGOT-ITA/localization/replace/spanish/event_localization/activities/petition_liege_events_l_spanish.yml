@@ -336,8 +336,8 @@ petition_ceremonial_liege_costs_refunded: "Costi di $petition_ceremonial_liege_d
 petition_liege.0001.a.tt_non_royal: "Ricevi [petition_vassal.GetTitledFirstName] nella [royal_court|E] del tuo [liege|E]"
  ## Desc
 petition_liege.0101.desc_non_royal: "[petition_vassal.GetTitledFirstName] viene infine ammess[Select_CString(petition_vassal.IsFemale,'a','o')] nella mia grande sala e non perde tempo prima di avvicinarsi al trono e inchinarsi profondamente.\n\n«Grazie per avermi ricevuto, [petition_liege.GetTitledFirstNamePossessive]. Vengo oggi a voi con una richiesta urgente —»"
-petition_liege.0101.desc.title_liege_non_royal: "«con rispetto, [petition_liege.Custom('IT_NAM_COL3')][petition_liege.GetTitleAsNameNoTooltip], il/la [petition_claim.GetName] appartiene a me di diritto!»\n\n«Sovrintendete a un possente [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], [Select_CString(petition_liege.IsFemale,'mia','mio')] [petition_liege.GetLadyLord]; non potete concedermi un semplice [petition_claim.GetTierAsNameNoTooltip], richiesto con tanta fermezza?»"
-petition_liege.0201.a_non_royal: "Grazie, [Select_CString(petition_liege.IsFemale,'mia','mio')] [petition_liege.GetLadyLord]!"
+petition_liege.0101.desc.title_liege_non_royal: "«con rispetto, [petition_liege.Custom('IT_NAM_COL3')][petition_liege.GetTitleAsNameNoTooltip], il/la [petition_claim.GetName] appartiene a me di diritto!»\n\n«Sovrintendete a un possente [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip], mio/mia [petition_liege.GetLadyLord]; non potete concedermi un semplice [petition_claim.GetTierAsNameNoTooltip], richiesto con tanta fermezza?»"
+petition_liege.0201.a_non_royal: "Grazie, mio/mia [petition_liege.GetLadyLord]!"
 
 petition_liege.0221.a: "La mia eterna gratitudine, grande [petition_liege.GetTitleAsNameNoTooltip]!"
  ## Liege asks for something in return
