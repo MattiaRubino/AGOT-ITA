@@ -63,7 +63,7 @@ feast_default.1009.desc: "Quando gli occhi di [secret_recipient.GetTitledFirstNa
  feast_default.1010.every_participant_with_high_opinion:1 "Ogni altro partecipante che rispetti [favor_recipient.GetFirstNameNoTooltip]"
 
  feast_default.1011.t:1 "Sul sentiero di Guerra"
-feast_default.1011.desc: "È inebriante: la bevanda nel sangue e la rabbia nelle vene.\n\nIl/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] mi urta fuori dalla sala, e lo/la scambio per il/la [disliked_guest.Custom2('InsultAdjective', ROOT.Char)] [disliked_guest.GetTitledFirstName]. In un istante il suo sangue gocciola dalla mia lama. Quando il suo corpo crolla a terra, all’improvviso mi sento lucidissimo/a."
+feast_default.1011.desc: "È inebriante: la bevanda nel sangue e la rabbia nelle vene.\n\n[Select_CString(guest_to_murder.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] mi urta fuori dalla sala, e lo/la scambio per il/la [disliked_guest.Custom2('InsultAdjective', ROOT.Char)] [disliked_guest.GetTitledFirstName]. In un istante il suo sangue gocciola dalla mia lama. Quando il suo corpo crolla a terra, all’improvviso mi sento lucidissimo/a."
  feast_default.1011.a:0 "[guest_to_murder.GetSheHe|U] ha urtato contro il mio pugnale! Lo giuro!"
  feast_default.1011.a.success:0 "Le persone credono sia stato un incidente"
  feast_default.1011.a.failure:0 "Le persone non si bevono la mia bugia"
@@ -88,7 +88,7 @@ feast_default.1013.a_1: "Spero che [ROOT.Char.GetFaith.NegativeAfterLife] accolg
  feast_default.1013.d:0 ""Ho agito in difesa di [guest_to_save.GetFirstNameNoTooltip], lo avete visto tutti.""
 
  feast_default.1014.t:1 "Il Testimone"
-feast_default.1014.desc: "Il/la mio/mia [guest_to_murder.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] sogghigna mentre esco traballando in cerca di un posto dove liberarmi. La rabbia che già ribolle nelle vene acquista slancio devastante quando [guest_to_murder.GetSheHe] cammina verso di me. «Guarda chi si vede! Il/la [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('guest_to_murder'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('guest_to_murder'))] [ROOT.Char.GetFirstNameNoTooltip]! Scommetto che—»\n\nProprio mentre affondo la lama nell’odioso volto di [guest_to_murder.GetFirstNamePossessive], sento un lieve sussulto alle mie spalle."
+feast_default.1014.desc: "[Select_CString(guest_to_murder.IsFemale,'La mia','Il mio')] [guest_to_murder.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_murder'))] [guest_to_murder.GetTitledFirstName] sogghigna mentre esco traballando in cerca di un posto dove liberarmi. La rabbia che già ribolle nelle vene acquista slancio devastante quando [guest_to_murder.GetSheHe] cammina verso di me. «Guarda chi si vede! Il/la [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('guest_to_murder'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('guest_to_murder'))] [ROOT.Char.GetFirstNameNoTooltip]! Scommetto che—»\n\nProprio mentre affondo la lama nell’odioso volto di [guest_to_murder.GetFirstNamePossessive], sento un lieve sussulto alle mie spalle."
  feast_default.1014.a:0 "Per favore, [witness.GetTitledFirstNameNoTooltip], non dirlo a nessuno!"
  feast_default.1014.a_2:0 "Non dirai a nessuno ciò che hai visto."
  feast_default.1014.b:0 "Quando si parla di essere nel posto sbagliato al momento sbagliato!"
@@ -118,7 +118,7 @@ feast_default.1016.desc_intro: "Osservo la sala animata. I fuochi ruggiscono, le
 
  #Shiny Trinkets continued - The witness confronts you via proxy
  feast_default.1018.t:1 "... Verrà Allo Scoperto"
-feast_default.1018.desc_intro: "Dal nulla, si presenta alla mia porta un emissario di [witness.GetTitledFirstName], di nome [witness_proxy.GetTitledFirstName]. «Saluti, [ROOT.Char.Custom('FormOfAddressForLiege')]! Porto notizie da [witness.GetTitledFirstNameNoTooltip].»\n\nL’emissario sembra un po’ a disagio: «[witness.GetTitledFirstNameNoTooltip] farà sapere che [feast_host.GetTitledFirstName] è in cerca del/la [trinket_to_steal.GetName] e…», [witness_proxy.GetSheHe] si ferma un istante, «parrebbe che il/la mio/mia [witness.Custom('MistressMaster')] pensi che possiate averlo visto durante il banchetto?» [witness_proxy.GetTitledFirstNameNoTooltip] mi squadra dall’alto in basso."
+feast_default.1018.desc_intro: "Dal nulla, si presenta alla mia porta un emissario di [witness.GetTitledFirstName], di nome [witness_proxy.GetTitledFirstName]. «Saluti, [ROOT.Char.Custom('FormOfAddressForLiege')]! Porto notizie da [witness.GetTitledFirstNameNoTooltip].»\n\nL’emissario sembra un po’ a disagio: «[witness.GetTitledFirstNameNoTooltip] farà sapere che [feast_host.GetTitledFirstName] è in cerca del/la [trinket_to_steal.GetName] e…», [witness_proxy.GetSheHe] si ferma un istante, «parrebbe che [Select_CString(MistressMaster.IsFemale,'la mia','il mio')] [witness.Custom('MistressMaster')] pensi che possiate averlo visto durante il banchetto?» [witness_proxy.GetTitledFirstNameNoTooltip] mi squadra dall’alto in basso."
  feast_default.1018.desc_greedy:0 "\n\nCome osa! Con le unghie che si conficcano nel palmo delle mani, mi sforzo di non guardare apertamente l'evidente compiacimento di [witness.GetTitledFirstNameNoTooltip] mentre cerco di pensare alla mia prossima mossa."
  feast_default.1018.desc_default:0 "\n\nIl cuore mi rimbomba di nuovo nelle orecchie, mentre sento un rivolo di sudore scorrere sulla schiena. Questo è il rischio che corro in cambio di quel dolce, dolcissimo momento di appropriazione."
  feast_default.1018.a:0 "Ho qui un borsello di monete che potresti avere."
@@ -236,7 +236,7 @@ feast_default.2005.desc: 0 "Tutti capivamo che [drunk.Custom('IT_NAM_COL3')][dru
  feast_default.2006.d:0 "Ti prego, lasciami in pace!"
 
  feast_default.2007.t:1 "Relazione Smascherata!"
-feast_default.2007.desc: "Un fragoroso schianto risuona nella sala quando una delle porte degli alloggi della servitù cede.\n\nIn un groviglio quasi senza vestiti, il/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1') )] [lover_guest_1.GetTitledFirstName] e il/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2') )] [lover_guest_2.GetTitledFirstName] rovinano a terra davanti a tutti."
+feast_default.2007.desc: "Un fragoroso schianto risuona nella sala quando una delle porte degli alloggi della servitù cede.\n\nIn un groviglio quasi senza vestiti, [Select_CString(lover_guest_1.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_1') )] [lover_guest_1.GetTitledFirstName] e [Select_CString(lover_guest_2.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover_guest_2') )] [lover_guest_2.GetTitledFirstName] rovinano a terra davanti a tutti."
  feast_default.2007.a_chaste:0 "Non riesco a guardare!"
  feast_default.2007.a_lustful:0 "Basta #EMP immaginare#! cosa stessero facendo..."
  feast_default.2007.a_sadistic:0 "Ahahah! Tutto ciò è uno spasso!"
@@ -261,7 +261,7 @@ feast_default.2009.desc: "Ascolto con attenzione [secret_holder.GetTitledFirstNa
  feast_default.2011.b:0 ""Ahahah, [favor_character.Custom('IT_NAM_COL3')][favor_character.GetTitledFirstNameNoTooltip] è troppo ubriaco per sapere di cosa stia parlando!""
 
  feast_default.2012.t:1 "Il Testimone"
-feast_default.2012.desc: "Mentre esco barcollando in cerca di un posto appartato, sento delle urla dietro l’angolo. Voltato l’angolo, vedo il/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sogghignare mentre affonda la lama nel volto del/la [murdered_guest.GetTitledFirstName] raggomitolato/a dalla paura.\n\nQualunque suono io abbia emesso dev’essere bastato, perché [murderer.GetFirstName] si volta verso di me, la sorpresa in volto."
+feast_default.2012.desc: "Mentre esco barcollando in cerca di un posto appartato, sento delle urla dietro l’angolo. Voltato l’angolo, vedo [Select_CString(murderer.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murderer'))] [murderer.GetTitledFirstName] sogghignare mentre affonda la lama nel volto del/la [murdered_guest.GetTitledFirstName] raggomitolato/a dalla paura.\n\nQualunque suono io abbia emesso dev’essere bastato, perché [murderer.GetFirstName] si volta verso di me, la sorpresa in volto."
  feast_default.2012.a:0 "Che cosa avete #EMP fatto#!?!"
  feast_default.2012.b:0 "Tutti sapranno del vostro crimine!"
  feast_default.2012.c:0 "Il mio silenzio ha un prezzo."
@@ -304,7 +304,7 @@ feast_default.3004.b: "Non sei altro che un [rival_guest.Custom2('InsultAdjectiv
  feast_default.3004.d:0 "Un pugno in faccia è una risposta buona come qualsiasi altra!"
 
  feast_default.3005.t:1 "Una Sfida"
-feast_default.3005.desc: "La sala riecheggia delle risate del/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_to_duel'))] [rival_to_duel.GetTitledFirstName], dei suoi scherni e insulti — quando [rival_to_duel.GetSheHe] mi chiama [ROOT.Char.Custom2('InsultAdjectiveArticle', SCOPE.sC('rival_to_duel'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival_to_duel'))], sguaino la lama."
+feast_default.3005.desc: "La sala riecheggia delle risate [Select_CString(rival_to_duel.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_to_duel'))] [rival_to_duel.GetTitledFirstName], dei suoi scherni e insulti — quando [rival_to_duel.GetSheHe] mi chiama [ROOT.Char.Custom2('InsultAdjectiveArticle', SCOPE.sC('rival_to_duel'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('rival_to_duel'))], sguaino la lama."
  feast_default.3005.desc_won:0 "\n\nTorno in me mentre mi chino su di [rival_to_duel.GetSheHe], lo stivale sul suo petto, entrambi con il respiro affannato."
  feast_default.3005.desc_lost:0 "\n\nTorno in me mentre si china su di me, lo stivale sul mio petto. [rival_to_duel.GetSheHe|U] sibila nel mio orecchio, "Voglio sentirti supplicare pietà.""
  feast_default.3005.a:0 ""Pagherete per tutto quello che avete fatto""
@@ -341,7 +341,7 @@ feast_default.3005.desc: "La sala riecheggia delle risate del/la mio/mia [ROOT.C
  feast_default.3007.love:0 "Mentre gli altri invitati stanno perdendo il loro senno nei boccali, [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] e io troviamo una camera tutta per noi dove passare la notte. Cospargo di baci la schiena nuda di [lover.GetFirstName] quando una voce mi fa correre a coprirmi."
  feast_default.3007.not_love:0 "Ho portato [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], [lover.GetTitledFirstName], in una camera vuota per allontanarci dalla folla. Sono in procinto di soddisfare il mio desiderio quando una voce familiare mi fa gelare il sangue."
  feast_default.3007.ambiguous:0 "Sperando di poter passare un po' di tempo con [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))], porto [lover.GetTitledFirstName] lontano dal banchetto. Ma proprio mentre mi appresto a farvi ritorno, una voce familiare mi fa congelare sotto shock."
-feast_default.3007.end: "\n\n«[ROOT.Char.GetFirstNameNoTooltip]?!» Il/la mio/mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))], [spouse.GetTitledFirstName], ci fissa sconvolto/a. «Come hai potuto andare a letto con [lover.Custom2('InsultAdjective', SCOPE.sC('spouse'))] [lover.Custom2('InsultNounSexual', SCOPE.sC('spouse'))]?»"
+feast_default.3007.end: "\n\n«[ROOT.Char.GetFirstNameNoTooltip]?!» [Select_CString(spouse.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('spouse'))], [spouse.GetTitledFirstName], ci fissa sconvolto/a. «Come hai potuto andare a letto con [lover.Custom2('InsultAdjective', SCOPE.sC('spouse'))] [lover.Custom2('InsultNounSexual', SCOPE.sC('spouse'))]?»"
  feast_default.3007.a:0 "Questo non significa nulla, mi[lover.Custom('DE_END_PRO_S_N')] car[lover.Custom('DE_END_PRO_S_N')]!"
  feast_default.3007.b:0 "Io [lover.Custom('DE_PRO_POS_P_3P')] amo!"
  feast_default.3007.c:0 "Faccio come mi pare."
@@ -413,7 +413,7 @@ feast_default.6003.opening: "Ho fatto tutto il possibile, assicurandomi che [fig
  feast_default.6101.c.tt:0 "Potremmo entrambi fare una pausa..."
 
  feast_default.6111.t:1 "Qualcuno con cui Conversare"
-feast_default.6111.desc: "Mentre un piatto sostituisce l’altro, il/la mia/o [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_talk_to'))] [guest_to_talk_to.GetTitledFirstName] continua senza sosta su [guest_to_talk_to.Custom('subject_of_interest')].\n\n«…ed è così che abbiamo rimediato a quel disastro! Sicuri che non vi stia annoiando, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
+feast_default.6111.desc: "Mentre un piatto sostituisce l’altro, [Select_CString(guest_to_talk_to.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guest_to_talk_to'))] [guest_to_talk_to.GetTitledFirstName] continua senza sosta su [guest_to_talk_to.Custom('subject_of_interest')].\n\n«…ed è così che abbiamo rimediato a quel disastro! Sicuri che non vi stia annoiando, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
  feast_default.6111.a:0 "No no, vi prego, continuate!"
  feast_default.6111.b:0 "Perché invece non parliamo di voi?"
  feast_default.6111.c:0 "Voi che vi rendete ridicolo non potreste mai annoiarmi!"

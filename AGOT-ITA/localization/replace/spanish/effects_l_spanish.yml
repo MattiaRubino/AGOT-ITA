@@ -635,6 +635,9 @@ I_GOT_BETROTHED_MATRILINEAL_EFFECT: "Sei diventato [betrothed|E] [matrilineally|
  REMOVED_MY_TRAIT:2 "Hai perso il [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
  REMOVED_THEIR_TRAIT:1 "[CHARACTER.GetShortUIName|U] ha perso il [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
 
+ADD_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
+ADD_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla tua [CHARACTER.Custom('GetCourtConcept')]"
+ADD_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
 ADDED_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
 ADDED_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla tua [CHARACTER.Custom('GetCourtConcept')]"
 ADDED_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"

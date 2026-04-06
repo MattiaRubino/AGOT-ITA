@@ -8,6 +8,7 @@
  BattlePoiInfo: "#emp $BattlePoiVictoriousSide$\n$BattlePoiLosingSide$\n$BattlePoiDate$#!"
  BattlePoiVictoriousSide: "Vincitore: [Province.MakeScope.Var('battle_poi_winner').Char.GetName]"
  BattlePoiLosingSide: "Sconfitto: [Province.MakeScope.Var('battle_poi_loser').Char.GetName]"
+ BattlePoiDate: "Data: [Province.Custom('OrdinalIndicatorPoI')] di [Province.Custom('MonthBattlePoI')], [Province.MakeScope.Var('battle_poi_date_year').GetValue] D.C."
  BattlePoiDescription: "#weak [Province.Custom('BattlePoIDescriptionLocIntro')] [Province.Custom('BattlePoIDescriptionLocMid')] [Province.Custom('BattlePoIDescriptionLocOutcome')] [Province.Custom('BattlePoIDescriptionLocOutro')]#!"
 
 

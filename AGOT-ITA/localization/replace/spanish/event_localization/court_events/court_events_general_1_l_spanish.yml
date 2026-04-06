@@ -5,6 +5,7 @@
 
 
 court_events.1000.t: "Il Più Grande di Tutti"
+court_events.1000.desc: ""Oh grande [ROOT.Char.GetTitleAsNameNoTooltip]! Insieme, noi due abbiamo vagato per tutto il mondo conosciuto," dice [guest.GetName], [Select_CString(guest.IsFemale,'la prima','il primo')] di una coppia di rinomati viaggiatori, con tono adulatorio, "Ho visto cupole di piacere assolate! Grotte di ghiaccio! Ho bevuto il latte della Palestina e mi sono [Select_CString(guest.IsFemale,'nutrita','nutrito')] di rugiada di miele."\n\n"Abbiamo visitato i campi dei khan, i palazzi dei sultani, le antiche sale... ma nessuna corte sulla terra può essere paragonata alla vostra: nessuna è uguale in maestosità e lusso!"\n\n[Select_CString(guest_2.IsFemale,'La sua compagna','Il suo compagno')] [guest_2.GetName] esegue strani ossequi stranieri, supplicando:\n\n"Le comodità di questo posto sono persino superiori alla frivolezza [second_court.GetPrimaryTitle.GetAdjective]... saggi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], la prego, ci conceda ancora altri precoci scorci di [guest_2.GetFaith.PositiveAfterLife]!""
 court_events.1000.a: "Solo la carità compensa una fama di eccessi..."
 court_events.1000.a.flavor: "E arricchisce il mio popolo!"
 court_events.1000.b: ""Restate qui, nella più grandiosa delle corti.""

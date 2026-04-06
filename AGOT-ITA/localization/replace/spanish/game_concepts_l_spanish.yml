@@ -32,7 +32,7 @@
  game_concept_theocracy_desc:0 "$game_concept_theocracy$ è una [government_form|E] non giocabile, disponibile per alcune [faiths|E] a seconda delle [doctrines|E]. Di norma è guidata da un[head_of_faith|E] o da un[realm_priest|E] [landed|E]."
  game_concept_head_of_faith_desc:0 "Un $game_concept_head_of_faith$ è il leader formale di una [faith|E]. I poteri e la natura del $game_concept_head_of_faith$ dipendono dalle [doctrines|E] della Fede.\n\nAlcune Fedi hanno un [spiritual_head_of_faith|E] #weak (es. l'Alto Septon)#!, altre un [temporal_head_of_faith|E] #weak (es. Magnar dei Thenn)#!, e altre ancora non hanno affatto un $game_concept_head_of_faith$."
  game_concept_unreformed_pagan_combat_bonus_desc:1 "Le [faiths|E] con dottrina [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] ottengono un [advantage|E] in [battle|E] nelle [counties|E] della loro fede."
-
+ 
  game_concept_accolade_desc:5 "Le [accolades|E] sono onori conferiti ai [knights|E] dal loro [liege|E].\n\nIl Capitano che detiene una Accolade diventa un [acclaimed_knight|E].\n\nMan mano che il Capitano Acclamato accumula [glory|E], il [accolade_rank|E] dei suoi [accolade_types|E] aumenta, offrendo bonus più forti al suo Signore.\n\nQuando i Capitani Acclamati muoiono, vengono sostituiti tramite [accolade_succession|E].\n\nLe [innovations|e] e i [title_tiers|e] più elevati consentono ai [rulers|E] di avere più Accolades contemporaneamente."
  game_concept_acclaimed_knight:0 "Capitano Acclamato"
  game_concept_acclaimed_knights:0 "Capitani Acclamati"
@@ -44,7 +44,7 @@
  game_concept_knight_army_modifier:0 "Modificatore dell'Esercito del Capitano"
  game_concept_knight_army_modifiers:0 "Modificatori dell'Esercito del Capitano"
  game_concept_knight_army_modifier_desc:0 "Un effetto applicato a qualunque [army|e] che #high includa#! il relativo [acclaimed_knight|e].\n\nPerché si applichi il Modificatore dell'Esercito del Capitano, il [knight|e] #high non deve necessariamente#! essere il [commander|e] di quell'Esercito."
-
+ 
  #End AGOT modifiche
 
  test_text_to_use_explanation:0 "La parola [primary_title|E] è un concetto di gioco."
@@ -341,6 +341,7 @@ game_concept_hegemon_desc: "Un $game_concept_hegemon$ è un [ruler|E] il cui [pr
  game_concept_culture_i: "@culture_icon!"
  game_concept_religion:0 "Religione"
  game_concept_religions:0 "Religioni"
+game_concept_religion_desc: "Una $game_concept_religion$ può consistere di molte diverse denominazioni, chiamate [faiths|E]. Le religioni, a loro volta, appartengono a una di quattro grandi [religious_families|E]: [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName], [GetReligionFamily('rf_sinitic').GetName] o [GetReligionFamily('rf_pagan').GetName]."
  game_concept_heresy:0 "Eresia"
  game_concept_heresies:0 "Eresie"
  game_concept_heresy_desc:0 "Quando il [fervor|E] di una [faith|E] è basso, un focolaio di Eresia potrebbe comparire. Quando ciò accade, un [ruler|E] della Fede dal basso-Fervore si convertirà ad un'altra Fede, diventando un [GetTrait('heresiarch').GetName( GetNullCharacter )]. Essi a quel punto diffonderanno la loro nuova Fede ai propri [counties|E] e [vassals|E].\n\nSe un focolaio è minore, si fermerà lì. Se è un focolaio maggiore, più governanti della stessa zona si convertiranno. Se ti trovi in quell'area, anche tu avrai la possibilità di convertirti, qualora lo desiderassi."
@@ -2163,6 +2164,7 @@ game_concept_tributary_contract_desc: "Il $game_concept_tributary_contract$ dete
  house_unity_decrease_examples: "\n$EFFECT_LIST_BULLET$ $revoke_title_interaction$\n$EFFECT_LIST_BULLET$ $declare_war_interaction$\n$EFFECT_LIST_BULLET$ $imprison_interaction$\n$EFFECT_LIST_BULLET$ $move_to_dungeon_interaction$\n$EFFECT_LIST_BULLET$ $force_join_faction_interaction$\n$EFFECT_LIST_BULLET$ $disinherit_interaction$\n$EFFECT_LIST_BULLET$ $denounce_interaction$\n$EFFECT_LIST_BULLET$ $expose_secret_interaction$\n$EFFECT_LIST_BULLET$ $blackmail_interaction$\n$EFFECT_LIST_BULLET$ $break_betrothal_interaction$\n$EFFECT_LIST_BULLET$ $join_independence_faction_interaction$\n$EFFECT_LIST_BULLET$ $sumptuary_law_debate_interaction$\n$EFFECT_LIST_BULLET$ $vassal_claim_liege_title_interaction$"
 
  game_concept_dreams: "Sogni"
+ game_concept_dreams_desc: "I personaggi che seguono una fede con il principio della divinazione possono occasionalmente avere dei sogni. Questi sogni possono essere interpretati da un mistico con esiti molteplici, sia positivi che negativi."
 
  game_concept_board_game_type_go:0 "Go"
  game_concept_board_game_type_go_desc:0 "$game_concept_board_game_type_desc_guts$\n\nIn $game_concept_board_game_type_go$:\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [martial|E]\n$EFFECT_LIST_BULLET$ [martial|E] $game_concept_board_game_type_counters$ [intrigue|E]\n$EFFECT_LIST_BULLET$ [intrigue|E] $game_concept_board_game_type_counters$ [learning|E]"
@@ -2469,6 +2471,7 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
  game_concept_accolade:0 "Encomio"
  game_concept_accolades:0 "Encomi"
 
+
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
 
@@ -2512,6 +2515,7 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
 
  game_concept_retinue_maa:0 "Seguito di Uomini d'Arme"
  game_concept_retinue_maa_desc:0 "Alcuni [accolade_types|E] danno accesso a speciali [men_at_arms|E]. Si sbloccano avendo un [acclaimed_knight|E] con i progressi rilevanti del [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait_level_track|E] oppure uno specifico [commander_trait|E].\n\nI seguiti di $game_concept_men_at_arms$ sono limitati ad un [regiment|E] e hanno un numero limitato di truppe. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$ e migliorano sempre di più ad ogni epoca."
+
 
  game_concept_piety_level_impact:0 "Impatto del livello di devozione"
  game_concept_piety_level_impact_desc:0 "L'impatto del livello di devozione aumenta o diminuisce i [modifiers|E] acquisiti grazie al tuo attuale [piety_level|E]."
@@ -2563,6 +2567,7 @@ game_concept_legitimacy_desc_mandala: "\n\nI [rulers|E] del [GetGovernment( 'man
  game_concept_legitimacy_expectations_desc: "$game_concept_expected_legitimacy_desc$"
  
  game_concept_initial_legitimacy: "Legittimità Iniziale"
+ game_concept_initial_legitimacy_desc: "La $game_concept_legitimacy$ che un [character|E] ha quando ottiene delle terre.\n\nÈ calcolata in base al [dynasty_prestige_level|E], relazione con il proprio predecessore, [court_grandeur|E], genere, se si è dei bastardi, gli anni come [ruler|E], ai [dynasty_perk|E] sulla [legitimacy|E], [diplomacy|E], [virtues|E], [sins|E] e altri [traits|E] speciali, come [GetTrait('sayyid').GetName( GetNullCharacter )], [GetTrait('diplomat').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )].\n\nGli [heirs|E] erediteranno [GetDefine( 'NCharacter', 'LEGITIMACY_INHERITED' )|V%^] della $game_concept_legitimacy$ del precedente governante se erediteranno un [title|E] di [title_tier|E] più alto."
  
  game_concept_court_position_task_short: "Incarico"
  game_concept_court_position_task_short_desc: "$game_concept_court_position_task_desc$"

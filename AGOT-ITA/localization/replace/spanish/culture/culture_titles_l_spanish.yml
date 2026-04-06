@@ -63,7 +63,7 @@
  empire_clan:0 "Alto Clan"
  kingdom:0 "Regno"
  unlanded_plural:0 "Senza Terra"
-
+ 
  duke_landless_adventurer_camp_mercenaries: "[Character.Custom('AgotMercCamp')|U]"
  duke_landless_adventurer_camp_wanderers: "[Character.Custom('AgotWandererCamp')|U]"
  duke_landless_adventurer_camp_scholars: "[Character.Custom('AgotScholarCamp')|U]"
@@ -76,7 +76,7 @@
  duchess_landless_adventurer_camp_explorers: "[Character.Custom('AgotExplorerCamp')|U]"
  duchess_landless_adventurer_camp_brigands: "[Character.Custom('AgotBrigandCamp')|U]"
  duchess_landless_adventurer_camp_legitimists: "[Character.Custom('AgotLegitimistCamp')|U]"
-
+ 
  #End AGOT modifiche
 
 
@@ -1314,6 +1314,20 @@ co_ruler_actual: "[Character.Custom('IT_NAM_COL3')][Character.GetLiegeEvenWhenDe
  duchy_landless_adventurer_camp: "Campo"
  spouse_landless_adventurer_male: "Maestro"
  spouse_landless_adventurer_holder_female: "Maestra"
+
+ duke_landless_adventurer_camp_mercenaries: "Capitano"
+ duke_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
+ duke_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
+ duke_landless_adventurer_camp_explorers: "Capo"
+ duke_landless_adventurer_camp_brigands: "Capo"
+ duke_landless_adventurer_camp_legitimists: "Signor[Character.Custom('DE_END_ADJ_IND_S_A')]"
+
+ duchess_landless_adventurer_camp_mercenaries: "Capitano"
+ duchess_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
+ duchess_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
+ duchess_landless_adventurer_camp_explorers: "Capo"
+ duchess_landless_adventurer_camp_brigands: "Capo"
+ duchess_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]"
 
  ### Estates
  spouse_estate_holder_male: "Signore"

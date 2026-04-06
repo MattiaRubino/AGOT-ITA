@@ -483,7 +483,9 @@ house_unity_parameter_unity_enable_border_wars: "La [GetLawGroup('border_wars_la
  default_tax_collector_desc: "Vengono applicate le [obligations|E] base, a seconda dell'[aptitude|E] dell'[tax_collector|E] assegnato"
  default_tax_collector_flavor_desc: "Una tassa standard. I contribuenti non pagano né più né meno di quanto ci si aspetta da loro."
 
+ jizya_special_rights_tax_collector: "Status Jizya"
 jizya_special_rights_tax_collector_desc: "#emphasis #bold Privilegi del [vassal|E]:#!#!\n$EFFECT_LIST_BULLET$ Il [liege|E] non può [demand_conversion|E] del [vassal|E]\nIl [liege|E] non può usare [convert_county|E] nelle terre dei [vassals|E]\n$EFFECT_LIST_BULLET$ Il [liege|E] non può usare la [faith|E] come motivo per evitare la [tyranny|E] quando revoca titoli\n$EFFECT_LIST_BULLET$ Il [liege|E] non può revocare i [titles|E] del [vassal|E]\n\n#flavor Al [vassal|E] è garantita la proprietà dei propri [titles|E], impedendo al [liege|E] di revocarli, che abbia un [revoke_title_reason|E] o meno.\n\nAl [vassal|E] è anche concesso uno status speciale protetto, con il reame che riconosce ufficialmente il diritto di praticare la propria [faith|E].#!"
+ jizya_special_rights_tax_collector_flavor_desc: "Jizya è una tassa speciale assignata ai #italic dhimmis#!, minoranze religiose, in cambio del privilegio di praticare la propria fede eretica in pace."
  unlock_jizya_contract_name: "[core_tenet|E] [GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName]"
 
  jizya_special_rights:0 "$jizya_special_rights_tax_collector$" 
@@ -522,6 +524,12 @@ ghazi_special_rights_tax_collector_desc: "#emphasis #bold Privilegio del [vassal
  not_has_house_unity_parameter: "Non ha accesso a $PARAMETER_NAME$"
 
  # Administrative
+ administrative_government: "Amministrativo"
+ administrative_government_with_icon: "@government_type_administrative! $administrative_government$"
+ administrative_government_adjective: "Amministrativo"
+ administrative_government_realm: "Regno Amministrativo"
+ administrative_government_desc: "\n$game_concept_administrative_desc$\n\n#F Quello Amministrativo è un governo altamente centralizzato, dove il potere risiede principalmente nella captiale. Il diritto di nascita, sebbene ancora importante, non è così prominente come in un regno feudale. Con abbastanza abilità e ambizione, chiunque, anche dalla più umile delle origini, può emergere per diventare un governatore influente o tentare di conquistare il trono e diventare imperatore.#!"
+ administrative_government_vassals_label: "Le [obligations|E] [Concept( 'administrative', 'amministrative' )|E] sono basate su [GetPlayer.Custom('GetProvinceAdministrationConcept')]"
  administrative_obligations: "Obbligazioni Amministrative"
  administrative_themes: "Tipi di Amministrazione Disponibili"
  admin_theme_balanced: "@balanced_administration! Amministrazione Equilibrata"

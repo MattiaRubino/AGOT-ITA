@@ -55,8 +55,8 @@
 
  harm.0003.t:0 "$harm.0001.t.pre_title$: Dolorante"
  harm.0003.desc.intro:0 "Per volontà di [ROOT.Char.GetFaith.HealthGodName], perché sono così #EMP dolorante#!? Ho dormito bene, come faccio di solito, ma ogni volta che mi stiracchio sento le mie ossa che fanno scintille quando si sfregano l'una contro l'altra.\n\n"
- harm.0003.desc.sighted:0 "Guardo la/le mia/e [ROOT.Char.Custom('HandHands')], osservando attentamente le unghie. Ingiallimento dovuto all'età, la pelle in cima che si sta raggrinzendo più di quanto vorrei."
- harm.0003.desc.blind:0 "Faccio scorrere la/le [ROOT.Char.Custom('HandHands')] sulla mia pelle, sentendo la consistenza cartacea e quelli che probabilmente sembrano vortici di rughe troppo spessi che intasano la mia scorza."
+ harm.0003.desc.sighted:0 "Guardo le mie [ROOT.Char.Custom('HandHands')], osservando attentamente le unghie. Ingiallimento dovuto all'età, la pelle in cima che si sta raggrinzendo più di quanto vorrei."
+ harm.0003.desc.blind:0 "Faccio scorrere le [ROOT.Char.Custom('HandHands')] sulla mia pelle, sentendo la consistenza cartacea e quelli che probabilmente sembrano vortici di rughe troppo spessi che intasano la mia scorza."
  harm.0003.desc.outro:0 "È difficile immaginare che un tempo la giovinezza scorresse in questa carne, calda e vitale."
  harm.0003.a:0 "Gah, le articolazioni di tutti #EMP scricchiolano#! così?"
  harm.0003.a.tt:0 "Il tuo corpo comincia a rallentare..."
@@ -283,7 +283,7 @@
  harm.0611.c.tt.failure:0 "$harm.0000.tt.incapable.failure$"
 
  harm.0612.t:0 "$harm.0611.t.prefix$: Una corsa"
- harm.0612.desc:0 "Questa è l'ultima. Centouno lettere, o almeno così mi è sembrato, da parte dei vari funzionari che tengono in piedi il/la mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l], per non parlare di un'intera serata persa a rispondere a ciascuno di loro.\n\nOra, credo, farò un piccolo pasto prima di andare a letto.\n\nSpingendo via la sedia, mi alzo di scatto e... e... sono così... intontit[ROOT.Char.Custom('DE_END_PRO_S_N')]. Il sangue mi pulsa nelle vene.\n\nConcentarti.\n\n#EMP nConcentarti#!.\n\nUggh, che cos'è stato?"
+ harm.0612.desc:0 "Questa è l'ultima. Centouno lettere, o almeno così mi è sembrato, da parte dei vari funzionari che tengono in piedi il mio [ROOT.Char.Custom('GetRealmOrDomicile')|l], per non parlare di un'intera serata persa a rispondere a ciascuno di loro.\n\nOra, credo, farò un piccolo pasto prima di andare a letto.\n\nSpingendo via la sedia, mi alzo di scatto e... e... sono così... intontit[ROOT.Char.Custom('DE_END_PRO_S_N')]. Il sangue mi pulsa nelle vene.\n\nConcentarti.\n\n#EMP nConcentarti#!.\n\nUggh, che cos'è stato?"
  harm.0612.a:0 "Ho ancora le vertigini."
  harm.0612.a.tt:0 "#WEAK Il tuo corpo è davvero così debole?#!"
 
@@ -376,7 +376,7 @@ harm.0632.desc: 0 "Per tutte le stelle del firmamento, [bonker.GetFirstName] acc
  harm.1011.c.tt.failure:0 "$harm.0000.tt.death.failure$"
 
  harm.1012.t:0 "$harm.1011.t.prefix$: Al ritorno"
- harm.1012.desc:0 "Come tutti coloro che conducono, ci si aspetta che io sia in grado di andare a cavallo, spesso e bene. Dopotutto, difficilmente potrei gestire il/la mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l] se non lo facessi.\n\nLa commissione di oggi è un compito banale nelle zone rurali di [ROOT.Char.GetCurrentLocation.GetNameBaronyNameExplicitly], qualcosa che io e il mio entourage siamo in grado di risolvere al meglio e in ....\n\nSenza preavviso, il mio destriero si muove di scatto, spaventato da un piccolo animale sul sentiero. Vengo quasi sbalzat[ROOT.Char.Custom('DE_END_PRO_S_N')], ma riesco a riprendere il controllo solo all'ultimo momento."
+ harm.1012.desc:0 "Come tutti coloro che conducono, ci si aspetta che io sia in grado di andare a cavallo, spesso e bene. Dopotutto, difficilmente potrei gestire il mio [ROOT.Char.Custom('GetRealmOrDomicile')|l] se non lo facessi.\n\nLa commissione di oggi è un compito banale nelle zone rurali di [ROOT.Char.GetCurrentLocation.GetNameBaronyNameExplicitly], qualcosa che io e il mio entourage siamo in grado di risolvere al meglio e in ....\n\nSenza preavviso, il mio destriero si muove di scatto, spaventato da un piccolo animale sul sentiero. Vengo quasi sbalzat[ROOT.Char.Custom('DE_END_PRO_S_N')], ma riesco a riprendere il controllo solo all'ultimo momento."
  harm.1012.a:0 "Ehi, ragazza, calmati..."
  harm.1012.a.tt:0 "#WEAK Sarebbe potuto accadere qualcosa di spiacevole...#!"
 
@@ -522,7 +522,7 @@ harm.1072.desc: 0 "«E un’altra cosa, [other.Custom2('InsultAdjective', SCOPE.
 
  harm.1111.t.prefix:0 "Regno del Terrore"
  harm.1111.t:0 "$harm.1111.t.prefix$: Giustizia popolare"
- harm.1111.desc:0 "Mentre attraverso il/la mio/a [ROOT.Char.Custom('GetCourt')], sono sempre affiancat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalle mie guardie del corpo. Altre ancora sorvegliano l'ingresso, per non parlare del/della mio/a [ROOT.Char.Custom('GetChamber')]. Abbastanza da fermare qualsiasi intruso, eppure apparentemente non abbastanza da impedire a [Select_CString(killer.IsFemale,'una dannata servitrice','un dannato servitore')] di scontrarsi con me e...\n\nDolore. Un dolore acuto, una vera e propria pugnalata. Il sangue sta già sgorgando dal mio ventre mentre barcollo all'indietro, con il coltello [Select_CString(killer.IsFemale,'della servitrice','del servitore')] che sporge dal mio corpo.\n\nLe mie guardie del corpo si avventano su di [killer.GetSheHe] in pochi secondi, facendo a pezzi l'assassin[killer.Custom('DE_END_PRO_S_N')]. Il suo sorriso compiaciuto mentre muore non lascia dubbi sul fatto che si sia trattato di una questione puramente personale.\n\nTutti vogliono morire da eroi."
+ harm.1111.desc:0 "Mentre attraverso la mia [ROOT.Char.Custom('GetCourt')], sono sempre affiancat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalle mie guardie del corpo. Altre ancora sorvegliano l'ingresso, per non parlare del mio [ROOT.Char.Custom('GetChamber')]. Abbastanza da fermare qualsiasi intruso, eppure apparentemente non abbastanza da impedire a [Select_CString(killer.IsFemale,'una dannata servitrice','un dannato servitore')] di scontrarsi con me e...\n\nDolore. Un dolore acuto, una vera e propria pugnalata. Il sangue sta già sgorgando dal mio ventre mentre barcollo all'indietro, con il coltello [Select_CString(killer.IsFemale,'della servitrice','del servitore')] che sporge dal mio corpo.\n\nLe mie guardie del corpo si avventano su di [killer.GetSheHe] in pochi secondi, facendo a pezzi l'assassin[killer.Custom('DE_END_PRO_S_N')]. Il suo sorriso compiaciuto mentre muore non lascia dubbi sul fatto che si sia trattato di una questione puramente personale.\n\nTutti vogliono morire da eroi."
  harm.1111.a:0 "Gah, è la mia fine!"
  harm.1111.a.tt.success:0 "$harm.0000.tt.death.success$"
  harm.1111.a.tt.failure:0 "$harm.0000.tt.death.failure$"
