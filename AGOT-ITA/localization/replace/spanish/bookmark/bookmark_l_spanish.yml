@@ -9,6 +9,20 @@
  BOOKMARK_CHARACTER_TITLE_DATA:0 "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleTierName|U] '[BOOKMARK_CHARACTER.GetTitleName]'#!"
  NOMAD_BOOKMARK_CHARACTER_TITLE_CHIEFTAIN_OR_KHAN: "[SelectLocalization(EqualTo_int32( BookmarkCharacter.GetTier, '(int32)3'), '$count_tribal_male|q$', '$king_feudal_male_altaic_group|q$' )] "[BookmarkCharacter.GetTitleName]"" 
  
+ BOOKMARK_SUBHEADING_DEFAULT: "[BookmarkCharacter.GetTitleTierName] "[BookmarkCharacter.GetTitleName]"
+ BOOKMARK_SUBHEADING_DEFAULT_WITH_THE: "[BookmarkCharacter.GetTitleTierName] "[BookmarkCharacter.GetTitleName]"
+ BOOKMARK_SUBHEADING_ADVENTURER: "Il [BookmarkCharacter.GetTitleName]"
+ BOOKMARK_SUBHEADING_KHAN: "$king_feudal_male_altaic_group$ "[BookmarkCharacter.GetTitleName]"
+ BOOKMARK_SUBHEADING_KHAN_WITH_THE: "$king_feudal_male_altaic_group$ "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_HIGH_CHIEFTAIN: "$duke_tribal_male$ "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_GOVERNOR: "$game_concept_governor$ "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_MILITARY_GOVERNOR: "$game_concept_governor$ militare "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_CHIEFTAIN: "$count_tribal_male$ "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_LANDLESS_ADMIN: "Capo "[BookmarkCharacter.GetTitleName]""
+ BOOKMARK_SUBHEADING_RULING_REGENT: "$game_concept_ceremonial_regent$ "[BookmarkCharacter.GetTitleName]""
+
+
+ 
  #End AGOT modifiche
 
  BOOKMARK_SUBTITLE_NEW_NOBLE_FAMILY: "Crea una nuova dinastia"
@@ -83,16 +97,5 @@ BOOKMARK_CUSTOM_CHARACTER_SUBHEADING_ADVENTURER: "Avventuriero senza terre in [B
  BOOKMARK_RELATION_HALF_BROTHER: "(Fratellastro)"
  BOOKMARK_RELATION_FATHER_IN_LAW: "(Suocero)"
 
-# character subheading templates
-BOOKMARK_SUBHEADING_DEFAULT: "[BookmarkCharacter.GetTitleTierName] di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_DEFAULT_WITH_THE: "[BookmarkCharacter.GetTitleTierName] di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_ADVENTURER: "Il [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_KHAN: "$king_feudal_male_altaic_group$ di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_KHAN_WITH_THE: "$king_feudal_male_altaic_group$ di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_HIGH_CHIEFTAIN: "$duke_tribal_male$ di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_GOVERNOR: "$game_concept_governor$ di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_MILITARY_GOVERNOR: "$game_concept_governor$ militare di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_CHIEFTAIN: "$count_tribal_male$ di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_LANDLESS_ADMIN: "Capo di [BookmarkCharacter.GetTitleName]"
-BOOKMARK_SUBHEADING_RULING_REGENT: "$game_concept_ceremonial_regent$ di [BookmarkCharacter.GetTitleName]"
+
  

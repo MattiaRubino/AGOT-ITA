@@ -625,30 +625,27 @@ pilgrimage.3004.desc: "Mentre il mio seguito attraversa una cittadina noto una f
  pilgrimage.3301.b:0 "Ma la mia tenda, le mie coperte? È troppo. Non sono pronto!"
  pilgrimage.3301.c:0 "Ah, ma è contrario alla Rita (Ordine Cosmico) per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] viaggiare in austerità."
 
-#The Wisdom of Goats
-pilgrimage.3302.t: "$pilgrimage_header$ la sabiduría de las cabras"
-pilgrimage.3302.desc: "Cuando entramos en los/las [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] agrestes de [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier], pensé que nuestro recorrido por el paso sería sencillo. Tras horas de ascenso extenuante, se me recuerda que he de dar la bienvenida a las tribulaciones de mi yatra.\n\nMe paro a quitarme el sudor de la frente y me pasmo al ver cabras silvestres de pie sobre la pendiente casi vertical del/de la [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')].\n\nUn[mountain_local.Custom('DE_PRO_PER_P_3P_G')] [mountain_local.GetWomanMan] local arrugad[mountain_local.Custom('ES_OA')] se vuelve hacia mí.\n\n«Esas cabras glotonas solo suben para lamer la sal»."
-pilgrimage.3302.a: "¡Deberían abandonar su búsqueda de gratificación!"
-pilgrimage.3302.b: "Si pudiera ser igual de firme en mi ascenso…"
-pilgrimage.3302.c: "¡Esa sal ha de ser mía!"
-pilgrimage.3302.c.flavor: "Recoges la sal para comerciar."
+ #The Wisdom of Goats
+ pilgrimage.3302.t: "$pilgrimage_header$ la saggezza delle capre"
+ pilgrimage.3302.desc: "Quando entriamo nei [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] aspri di [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier], pensavo che il nostro percorso attraverso il passo sarebbe stato semplice. Dopo ore di estenuante ascesa, mi viene ricordato che devo accogliere le tribolazioni del mio yatra.\n\nMi fermo ad asciugarmi il sudore dalla fronte e resto sbalordit[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] nel vedere capre selvatiche in piedi sul pendio quasi verticale del [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')].\n\nUn[Select_CString(mountain_local.IsFemale,'a','')] [mountain_local.GetWomanMan] del luogo, rugos[Select_CString(mountain_local.IsFemale,'a','o')], si volta verso di me.\n\n«Quelle capre ingorde salgono fin lassù solo per leccare il sale»."
+ pilgrimage.3302.a: "Dovrebbero abbandonare la loro ricerca di gratificazione!"
+ pilgrimage.3302.b: "Se solo potessi essere altrettanto saldo nella mia ascesa..."
+ pilgrimage.3302.c: "Quel sale deve essere mio!"
+ pilgrimage.3302.c.flavor: "Raccogli il sale per commerciarlo."
 
- #Kalama Sutta
-pilgrimage.3303.t: "$pilgrimage_header$ sutra de [place_to_teach.GetBaronyNameExplicitlyNoTooltip]"
-pilgrimage.3303.desc: "Al pasar por [place_to_teach.GetBaronyNameExplicitlyNoTooltip], algunos lugareños, con [wisdom_seeker.GetName] a la cabeza, se acercan con la confusión dibujada en sus rostros.\n\n«Venerable [ROOT.Char.GetTitleAsName|l], hay [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] que visitan [place_to_teach.GetBaronyNameExplicitlyNoTooltip]. Ensalzan la virtud de su doctrina, mientras que con las creencias de otros se asemejan a [ROOT.Char.Custom('RegionalOnlyFerociousAnimalPlural')] y las hacen pedazos. Después, otros [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] acudirán y despreciarán y vilipendiarán la doctrina del grupo anterior.\n\nNos consume la incertidumbre, la duda llega a diario a nuestra puerta. ¿Cuáles de estos reverendos [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] dicen la verdad y cuáles mienten?»."
-pilgrimage.3303.a: "¡No sigáis ningún razonamiento engañoso, sino el camino de [ROOT.Char.GetFaith.HighGodName]!"
-pilgrimage.3303.b: "De las fuentes de las que bebéis, ¿cuál os da fuerza?"
-pilgrimage.3303.b.flavor: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] encontrará el pensamiento correcto en su momento."
+ pilgrimage.3303.t: "$pilgrimage_header$ sutra di [place_to_teach.GetBaronyNameExplicitlyNoTooltip]"
+ pilgrimage.3303.desc: "Al passaggio per [place_to_teach.GetBaronyNameExplicitlyNoTooltip], alcuni abitanti del luogo, guidati da [wisdom_seeker.GetName], si avvicinano con la confusione dipinta sul volto.\n\n«Venerabile [ROOT.Char.GetTitleAsName|l], vi sono [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] che visitano [place_to_teach.GetBaronyNameExplicitlyNoTooltip]. Esaltano la virtù della loro dottrina, mentre trattano le credenze altrui come [ROOT.Char.Custom('RegionalOnlyFerociousAnimalPlural')] e le fanno a pezzi. In seguito, altri [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] giungeranno e disprezzeranno e vilipenderanno la dottrina del gruppo precedente.\n\nL'incertezza ci consuma, il dubbio bussa ogni giorno alla nostra porta. Quali di questi reverendi [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] dicono il vero e quali mentono?»."
+ pilgrimage.3303.a: "Non seguite alcun ragionamento ingannevole, ma il cammino di [ROOT.Char.GetFaith.HighGodName]!"
+ pilgrimage.3303.b: "Delle fonti a cui attingete, quale vi dà forza?"
+ pilgrimage.3303.b.flavor: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] troverà il giusto pensiero a suo tempo."
 
-### Dharmic Pilgrimage Journey Events
-#Brahmacharya Challenged
-pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
-pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
-pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
-pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
-pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana."
-BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."
- ###Hajj Arrival Event
+ pilgrimage.3401.t: "$pilgrimage_header$ brahmacharya messa alla prova"
+ pilgrimage.3401.desc: "Il nostro yatra ci ha condotti sulle rive di [body_of_water.GetName]. Le sue acque risplendono come fili d'oro battuto nel sole del pomeriggio, invitandoci a bagnarci.\n\nIl mio sguardo si posa su un[Select_CString(bather.IsFemale,'a','')] altr[Select_CString(bather.IsFemale,'a','o')] dei miei compagn[Select_CString(bather.IsFemale,'a','o')]i yatri, [bather.GetName], il cui corpo nudo è rivestito soltanto dallo scintillio dell'acqua.\n\nBenché durante [ROOT.Char.GetInvolvedActivity.GetShortName|l] si supponga che dobbiamo adottare una [Glossary('brahmacharya', 'BRAHMACHARAYA_GLOSS')] quasi monastica, astenendoci da pensieri e impulsi lussuriosi..."
+ pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
+ pilgrimage.3401.b: "Mi immergo nell'acqua gelida, e le mie passioni si spengono."
+ pilgrimage.3401.b.flavor: "Un passo più vicino al nirvana."
+ BRAHMACHARAYA_GLOSS: "«Praticare la condotta di un brahmano» in sanscrito, ovvero condurre uno stile di vita volto alla ricerca della conoscenza sacra e della liberazione spirituale. Ciò si ottiene anche sforzandosi di raggiungere uno stato libero dal desiderio."
+  ###Hajj Arrival Event
  #Entering state of Ihram
  pilgrimage.3101.t:1 "Ihram
  pilgrimage.3101.desc:1 "Avvicinandomi alla Mecca, mi trovo ora davanti alla Mīqāt, il confine tra gli spazi sacri della Mecca e il mondo esterno.\n\nDa questo momento in poi devo entrare in uno stato di Ihram, sottoponendomi alla purificazione rituale e indossando solo gli abiti prescritti. Dovrò anche astenermi da atti sessuali, parolacce e pensieri arroganti o sgarbati."
@@ -749,15 +746,15 @@ BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o 
  pilgrimage.5421.desc:0 "Il mio viaggio mi ha finalmente condott[ROOT.Char.Custom('DE_END_PRO_S_N')] a Sarnath, il luogo in cui [ROOT.Char.GetFaith.HighGodName] insegnò per la prima volta le quattro nobili verità ai suoi seguaci e gli insegnamenti ad esse associati.\n\nÈ qui che fu fondata la prima scuola buddista, che ancora oggi attira pellegrini da tutto il mondo."
 
  ###Dharmic
- #Parikrama
-pilgrimage.5445.t: "Parikrama"
-pilgrimage.5445.desc: "Contemplo el/la majestuoso/a [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')] de [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier] y paso a la siguiente fase de mi [Glossary('yatra', 'YATRA_GLOSS')]. Expreso mi homenaje devoto a [ROOT.Char.GetFaith.HighGodName] mediante una [Glossary('puja', 'PUJA_GLOSS')]. Después, me uno a la multitud en el camino de la [Glossary('pradakshina', 'PRADAKSHINA_GLOSS')] circunvalando el santuario en el sentido de las agujas del reloj."
-pilgrimage.5445.a: "$pilgrimage.4001.a$"
-pilgrimage.5445.a_dead: "$pilgrimage.4001.a_dead$"
-pilgrimage.5445.a_cynical: "$pilgrimage.4001.a_cynical$"
-PUJA_GLOSS: "Pujas son expresiones de honra, veneración y atención devota expresadas por hindúes y budistas"
-PRADAKSHINA_GLOSS: "«A la derecha» en sánscrito, indica el camino que uno toma al circunvalar un santuario «en la dirección del sol» en prácticas hindúes y budistas. Se hace para garantizar un renacimiento favorable."
- ###Jainism
+  #Parikrama
+ pilgrimage.5445.t: "Parikrama"
+ pilgrimage.5445.desc: "Contemplo con reverenza [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')] di [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier] e passo alla fase successiva del mio [Glossary('yatra', 'YATRA_GLOSS')]. Rendo il mio devoto omaggio a [ROOT.Char.GetFaith.HighGodName] mediante una [Glossary('puja', 'PUJA_GLOSS')]. Poi mi unisco alla folla sul cammino della [Glossary('pradakshina', 'PRADAKSHINA_GLOSS')], circumambulando il santuario in senso orario."
+ pilgrimage.5445.a: "$pilgrimage.4001.a$"
+ pilgrimage.5445.a_dead: "$pilgrimage.4001.a_dead$"
+ pilgrimage.5445.a_cynical: "$pilgrimage.4001.a_cynical$"
+ PUJA_GLOSS: "Le puja sono espressioni di onore, venerazione e devota attenzione praticate da induisti e buddhisti"
+ PRADAKSHINA_GLOSS: "«Verso destra» in sanscrito, indica il percorso seguito nel circumambulare un santuario «nella direzione del sole» nelle pratiche induiste e buddhiste. Viene compiuto per assicurare una rinascita favorevole."
+  ###Jainism
  #Shikharj
  pilgrimage.5501.t:0 "Shikharji"
  pilgrimage.5501.desc:1 "Secondo il Nirvana Kanda, venti dei ventiquattro tirthankara giainisti raggiunsero la Moksha qui, sulla montagna di Shikharji. Una storia così importante ha fatto di questo luogo il più importante luogo di pellegrinaggio per la comunità giainista, e mentre il mio sguardo spazia tra le montagne, dalle cime più alte a quelle più basse, mi ritrovo quindi a riflettere sul mio viaggio e sul significato che esso possa avere per la mia esistenza nel mondo terreno."
