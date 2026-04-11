@@ -87,7 +87,7 @@
   agot_add_new_house_progress_negative_effect:0 "[CURRENT_HOUSE.GetName] perde progressi verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName]"
   agot_add_new_house_progress_zero_effect:0 "I progressi di [CURRENT_HOUSE.GetName] verso il diventare la [agot_legitimate_house|E] di [TITLE_REF.GetName] restano invariati"
 
-I_BECAME_A_PRINCELING: 0 "Sono diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTierNoTooltip|V]"
+I_BECAME_A_PRINCELING: 0 "Sono diventat[Select_CString(CHARACTER.IsFemale,'a','o')] [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'una principessa', 'un principe'))|E] di [TARGET_TITLE.GetNameNoTierNoTooltip|V]"
 THEY_BECAME_A_PRINCELING: 0 "[AGOTGetName(CHARACTER)] è diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
 BECAME_A_PRINCELING: 0 "Diventat[Select_CString(CHARACTER.IsFemale,'a','o')] un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTier|V]"
 I_BECOME_A_PRINCELING: 0 "Divento un [Concept( 'royal_scion', SelectLocalization(CHARACTER.IsFemale, 'princess', 'prince'))|E] di [TARGET_TITLE.GetNameNoTierNoTooltip|V]"

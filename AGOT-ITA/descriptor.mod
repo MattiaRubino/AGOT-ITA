@@ -1,6 +1,9 @@
 version="4.21"
 tags={
 	"Translation"
+    "ita"
+    "italiano"
+    "traduzione"
 }
 name="AGOT-ITA"
 supported_version="1.*.*.*"
