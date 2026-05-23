@@ -2,16 +2,6 @@
   I_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:1 "Almeno tre dei tuoi antenati appartengono alla tua attuale [house|E] e hanno governato il tuo [primary_title|E] per almeno dieci anni."
   I_NOT_DYNASTIC_ANCESTORS_RULED_THIS_TITLE:2 "Meno di tre dei tuoi antenati appartengono alla tua attuale [house|E] e hanno governato il tuo [primary_title|E] per almeno dieci anni."
 
-  start_contraceptives_decision:0 "Usare Contracettivi"
-  start_contraceptives_decision_desc:0 "Consultando un medico posso ottenere contraccettivi, come l'infuso di luna, che possono essere utilizzati per assicurarmi che i miei occasionali flirt non portino a figli."
-  start_contraceptives_decision_tooltip:0 "Sacrifica parte del tuo [income|E] per ridurre la tua [fertility|E]."
-start_contraceptives_decision_confirm: 0 "Sono pronto"
-
-  stop_contraceptives_decision:0 "Smettere di Usare Contracettivi"
-  stop_contraceptives_decision_desc:0 "È ora di mettere da parte erbe e unguenti. Potrei non aver voluto figli prima, ma è giunto il momento di portare figli e figlie nel mondo."
-  stop_contraceptives_decision_tooltip:0 "Smetti di sacrificare parte del tuo [income|E] per ridurre la tua [fertility|E]."
-stop_contraceptives_decision_confirm: 0 "Che la natura faccia il suo corso"
-
   weirwood_meditate_decision:0 "Meditare presso un Albero Cuore"
   weirwood_meditate_decision_desc:0 "Indipendentemente dalla fede, pochi luoghi nel mondo possono eguagliare un Parco degli Dei in termini di tranquillità e solitudine ultraterrena. Forse dovrei visitare l'albero cuore per chiedere qualche consiglio."
   weirwood_meditate_decision_tooltip:0 "Visiterai il Parco degli Dei per una possibilità di rinnovamento."
@@ -117,6 +107,12 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
   recover_brightroar_decision_tooltip:0 "Organizza una spedizione per recuperare Ruggibrillante"
   recover_brightroar_decision_confirm:0 "Prepara una nave"
 
+ #Longthorn
+decision_reforge_longthorn: 0 "Restaura Longthorn"
+decision_reforge_longthorn_desc: 0 "La lama di Longthorn sopravvive, poiché l'acciaio di Valyria resiste persino al fuoco di drago. Eppure la nostra casata giurò solennemente che non sarebbe stata riforgiata finché Alto Giardino non fosse stato riconquistato e Casa Gardener restituita alla gloria."
+decision_reforge_longthorn_tooltip: 0 "Farai riforgiare la tua lama ancestrale, Longthorn, in una spada utilizzabile"
+decision_reforge_longthorn_confirm: 0 "Chiamate i fabbri!"
+
  #Retrieve Hidden Artifact
   retrieve_hidden_artifact_decision:0 "Recupera l'artefatto nascosto"
   retrieve_hidden_artifact_decision_desc:0 "All'oscuro del mondo, posseggo [ROOT.Char.Custom('HiddenArtifact')]. Non vedo più ragione di tenerlo segreto. È giunto il momento di rivelarlo."
@@ -128,141 +124,6 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
   retrieve_stored_artifacts_decision_desc:0 "Molte reliquie della Casa Targaryen giacciono dimenticate nelle segrete sotto la Fortezza Rossa. Corone e antichi teschi di drago raccolgono polvere in silenzio. È tempo di farle riaffiorare e restituirle al loro legittimo posto nella storia."
   retrieve_stored_artifacts_decision_tooltip:0 "Recupera gli artefatti Targaryen custoditi sotto la Fortezza Rossa"
 retrieve_stored_artifacts_decision_confirm: 0 "Manda i servitori sotto"
-
- ###############################################################
- ## Manage Realm Affairs - World Notification Config Decision ##
- ###############################################################
- #Decision localization
-  manage_realm_affairs_decision:0 "Gestire gli Affari del Regno"
-  manage_realm_affairs_decision_desc:0 "Petizioni, eredità al di fuori del mio dominio... le decisioni quotidiane possono diventare fastidiose. Davvero devo essere disturbato da tutto questo?\n\nPosso notificare ai miei servitori che non desidero essere disturbato dalle notizie di questioni futili."
-  manage_realm_affairs_decision_tooltip:0 "Scegli di quali eventi nel regno desideri rimanere informato."
-  manage_realm_affairs_decision_confirm:0 "Chiamare un servo."
-  manage_realm_affairs_decision_effect:0 "Scegli quali questioni devono essere portate direttamente davanti a te, o scopri di più riguardo le segnalazioni provenienti da tutto il mondo"
-  CHOOSE_REALM_AFFAIRS_DECISION_NEXT_STEP_BUTTON:0 "Seleziona Argomento"
-
-  choose_petitioners_and_homage_name:0 "Petizioni & Omaggi"
-  choose_petitioners_and_homage_tooltip:0 "Scegli se desideri ricevere petizioni e omaggi"
-  choose_foreign_succession_name:0 "Eredità Straniere"
-  choose_foreign_realms_succession_tooltip:0 "Scegli se desideri essere informato sulle successioni straniere"
-  choose_foreign_succession_invalid:0 "Tu governi già il Trono di Spade!"
-  choose_nights_watch_elections_name:0 "Elezioni della Guardia della Notte"
-  choose_nights_watch_elections_tooltip:0 "Scegli se desideri essere informato quando viene eletto un nuovo Lord Comandante della Guardia della Notte"
-  choose_nights_watch_elections_invalid:0 "Tu sei già il Lord Comandante!"
-  choose_show_valyrian_steel_name:0 "Acciaio Valyriano"
-  choose_show_valyrian_steel_tooltip:0 "Ti verrà presentato un elenco di tutti i possessori conosciuti di lame in acciaio di Valyria"
-  choose_dragons_name:0 "Draghi"
-  choose_dragons_tooltip:0 "Scegli se desideri essere informato delle notizie relative ai [dragons_plural|E] oppure se preferisci ricevere un elenco di tutti i draghi e delle loro uova"
-  choose_house_feuds:0 "Faide tra Casate"
-  choose_house_feuds_desc:0 "Ti verrà mostrato un elenco di tutte le [house_feuds|E] conosciute"
-  choose_house_feuds_tooltip:0 "Ti verrà mostrato un elenco di tutte le [house_feuds|E] conosciute"
-  choose_dragon_trees:0 "Alberi Genealogici dei Draghi"
-  choose_dragon_trees_tooltip:0 "Ti verrà mostrato un elenco di tutte le [dragon_matriarchs|E] conosciute"
-  choose_banks:0 "Banche"
-  choose_banks_desc:0 "Ti verrà mostrato un elenco di tutte le banche conosciute"
-  choose_banks_tooltip:0 "Ti verrà mostrato un elenco di tutte le banche conosciute"
-
- #DLC Tooltips
-  agot_requires_rc:0 "Questa opzione richiede il DLC Royal Court"
-  agot_requires_court:0 "Questa opzione richiede [royal_court|E]"
-  agot_requires_fnf:0 "Questa opzione richiede il DLC Friends and Foes"
-  agot_requires_rtp:0 "Questa opzione richiede il DLC Roads to Power"
-
- #Fallback event
-  global_events_settings.0001.t:0 "Affari del Regno"
-  global_events_settings.0001.desc:0 "Le decisioni quotidiane del regno stanno prendendo troppo del mio tempo ultimamente...\n\nMentre un altro affare mi viene portato all'attenzione da uno dei miei servitori, mi chiedo se davvero ho bisogno di essere disturbato da tutto ciò."
-
-  global_events_settings.0001.dragonrider_death_toggle_on:0 "Tienimi informato sulla morte dei cavalieri dei draghi."
-  global_events_settings.0001.dragonrider_death_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che muore un cavaliere dei draghi."
-  global_events_settings.0001.dragonrider_death_toggle_off:0 "La morte dei cavalieri dei draghi non mi interessa."
-  global_events_settings.0001.dragonrider_death_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che muore un cavaliere dei draghi."
-  global_events_settings.0001.dragon_death_toggle_on:0 "Tienimi informato sulla morte dei draghi."
-  global_events_settings.0001.dragon_death_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che muore un drago."
-  global_events_settings.0001.dragon_death_toggle_off:0 "La morte dei draghi non mi interessa."
-  global_events_settings.0001.dragon_death_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che muore un drago."
-  global_events_settings.0001.inform_dragon_egg_hatched_toggle_on:0 "Tienimi informato sulle uova di drago che si schiudono."
-  global_events_settings.0001.inform_dragon_egg_hatched_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che un uovo di drago si schiude."
-  global_events_settings.0001.inform_dragon_egg_hatched_toggle_off:0 "Le uova di drago che si schiudono non mi interessano."
-  global_events_settings.0001.inform_dragon_egg_hatched_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un uovo di drago si schiude."
-  global_events_settings.0001.inform_dragon_tamed_toggle_on:0 "Tienimi informato sui draghi che vengono domati."
-  global_events_settings.0001.inform_dragon_tamed_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato ogni volta che un drago viene domato."
-  global_events_settings.0001.inform_dragon_tamed_toggle_off:0 "I draghi che vengono domati non mi interessano."
-  global_events_settings.0001.inform_dragon_tamed_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un drago viene domato."
-
-  global_events_settings.0001.vs_blades:0 "Riguardo ai portatori dell'acciaio di Valyria..."
-  global_events_settings.0001.petitioners:0 "Riguardo alle petizioni e agli omaggi..."
-  global_events_settings.0001.it_succession:0 "Riguardo al Trono di Spade..."
-  global_events_settings.0001.nw_elections:0 "Riguardo alle elezioni della Guardia della Notte..."
-  global_events_settings.0001.mute_plagues:0 "Riguardo alle epidemie..."
-  global_events_settings.0001.dragon_categories:0 "Riguardo ai draghi e alle lor uova..."
-  global_events_settings.0001.dragon_trees:0 "Informazioni sugli alberi genealogici dei draghi..."
-  global_events_settings.0001.house_feuds:0 "Informazioni sulle faide tra casate..."
-  global_events_settings.main_screen:0 "C'è qualcos'altro..."
-  global_events_settings.dismiss:0 "È tutto."
- #Petitioners & Homage
-  global_events_settings.0002.t:0 "$global_events_settings.0001.t$"
-  global_events_settings.0002.desc:0 "$global_events_settings.0001.desc$"
-  global_events_settings.0002.less_homage:0 "Lascia che i miei vassalli paghino omaggio a un ritmo ragionevole."
-  global_events_settings.0002.less_homage.tt:0 "Vedrai la normale quantità di vassalli che pagano omaggio."
-  global_events_settings.0002.more_homage:0 "Tutti devono farmi omaggio."
-  global_events_settings.0002.more_homage.tt:0 "Ti occuperai di #N #bold MOLTI DI PIÙ#!#! vassalli che he vi rendono omaggi."
-  global_events_settings.0002.homage_on:0 "Che i signori del regno mi rendano nuovamente omaggio."
-  global_events_settings.0002.homage_on.tt:0 "Permetterai nuovamente #P #bold AI VASSALLI#!#! di renderti omaggio."
-  global_events_settings.0002.homage_off:0 "Non ho interesse per l'omaggio."
-  global_events_settings.0002.homage_off.tt:0 "Cesserai di permettere ai vassalli di renderti omaggio."
-  global_events_settings.0002.petitioners_on:0 "Che i signori del regno mi presentino nuovamente le loro petizioni."
-  global_events_settings.0002.petitioners_on.tt:0 "Permetterai nuovamente #P #bold AI Petitori#!#! di presentarti le loro richieste."
-  global_events_settings.0002.petitioners_off:0 "Non voglio vedere più petizioni."
-  global_events_settings.0002.petitioners_off.tt:0 "Cesserai #N #bold di Permettere#!#! petizioni."
- #Iron Throne Succession
-  global_events_settings.0003.t:0 "$global_events_settings.0002.t$"
-  global_events_settings.0003.desc:0 "$global_events_settings.0002.desc$"
-  global_events_settings.0003.it_toggle_on:0 "Tienimi informato sulla successione del Trono di Spade."
-  global_events_settings.0003.it_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato sulla successione del Trono di Spade."
-  global_events_settings.0003.it_toggle_off:0 "La successione del Trono di Spade non mi interessa."
-  global_events_settings.0003.it_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che un nuovo sovrano sale sul Trono di Spade."
- #Night's Watch Elections
-  global_events_settings.0004.t:0 "$global_events_settings.0002.t$"
-  global_events_settings.0004.desc:0 "$global_events_settings.0002.desc$"
-  global_events_settings.0004.nw_toggle_on:0 "Gli affari della Guardia della Notte mi interessano."
-  global_events_settings.0004.nw_toggle_on.tt:0 "Attualmente, #N #bold non sarai#!#! informato sulle elezioni della Guardia della Notte."
-  global_events_settings.0004.nw_toggle_off:0 "Le azioni della Guardia della Notte non mi riguardano."
-  global_events_settings.0004.nw_toggle_off.tt:0 "Attualmente, #P #bold sarai#!#! informato ogni volta che viene eletto un nuovo Lord Comandante della Guardia della Notte."
-
-  agot_house_maintenance.1000.t:0 "Visualizza le Faide tra Casate"
-  agot_house_maintenance.1000.desc:0 "Mio signore, ecco tutte le faide tra casate attualmente conosciute:"
-  agot_house_maintenance.1000.desc_none:0 "Mio signore, al momento non ci sono faide tra casate conosciute."
-
- ###############################################################
- ## Manage Bank ##
- ###############################################################
- #Decision localization
-  manage_bank_decision:0 "Gestisci la Banca"
-  manage_bank_decision_desc:0 "In qualità di [agot_bank_director|El], ho molti mezzi a disposizione per guidare la [agot_bank|El] verso un futuro redditizio."
-  manage_bank_decision_tooltip:0 "Scegli quali politiche bancarie desideri modificare"
-  manage_bank_decision_confirm:0 "Convoca uno scriba."
-  manage_bank_decision_effect:0 "Scegli quali politiche bancarie desideri modificare"
-  CHOOSE_BANK_DECISION_NEXT_STEP_BUTTON:0 "Seleziona Argomento"
-
-  set_risk_level_name:0 "Modifica Livello di Rischio"
-  set_risk_level_tooltip:0 "Potrai scegliere tra livelli di [agot_bank_risk_levels_l|E] basso, medio e alto per prestiti e investimenti."
-
-  set_dividend_level_name:0 "Regola i Dividendi"
-  set_dividend_level_tooltip:0 "Potrai scegliere tra aliquote di [agot_bank_dividends|El] basse, medie e alte."
-
-  set_interest_level_name:0 "Regola i Tassi d’Interesse"
-  set_interest_level_tooltip:0 "Potrai scegliere tra tassi di [agot_bank_interest_rates_l|E] più bassi, normali o più alti. Più basso è il tasso, più clienti attirerai, ma i tuoi [agot_bank_profits|El] per prestito saranno minori, e viceversa."
-
-  delegate_defaulter_handling_name:0 "Delega la Gestione degli Insolventi"
-  delegate_defaulter_handling_tooltip:0 "Non riceverai più messaggi riguardo i debitori inadempienti."
-
-  handle_defaulters_again_name:0 "Gestisci gli Insolventi"
-  handle_defaulters_again_tooltip:0 "Riceverai un messaggio ogni volta che si verificherà un'inadempienza."
-
-  investments_forbidden_name:0 "Rifiuta Nuovi Investimenti"
-  investments_forbidden_tooltip:0 "Solo tu potrai investire nella banca."
-
-  investments_allowed_name:0 "Permetti Nuovi Investimenti"
-  investments_allowed_tooltip:0 "Ogni personaggio nel tuo dominio potrà investire nella banca."
 
  #####################################
  ## adopt_personal_coa Decision Loc ##
@@ -339,13 +200,67 @@ adopt_personal_coa_confirm: 0 "Fallo"
   control_realm_borders_open_effect_tt.north:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
   control_realm_borders_open_effect_tt.iron_islands:0 "Permetterai viaggi verso [title.GetName] nuovamente, ma sarai suscettibile alla diffusione di [epidemic|E] [plague_apocalyptic|E]."
 
-agot_dump_landless_pirate_raid_loot: 0 "Raccogli il Bottino della Razza"
-agot_dump_landless_pirate_raid_loot_desc: 0 "Il bottino della mia razzia è pronto per essere riscosso dopo il ritorno in porto. Dovrò però mandare qualche lacchè a reclamarlo a mio nome."
-agot_dump_landless_pirate_raid_loot_tooltip: 0 "Raccogli il Bottino"
-agot_dump_landless_pirate_raid_loot_confirm: 0 "Raccogli il Bottino"
+abdicate_decision: 0 "Abdica in favore del mio erede"
+abdicate_decision_tooltip: 0 "Il mio dominio deve giungere alla fine."
+abdicate_decision_desc: 0 "Date le circostanze, non vedo altra alternativa se non consegnare le redini del potere al mio erede e lasciare che i libri di storia scrivano la nota a piè di pagina del mio regno."
+abdicate_decision_confirm: 0 "Chiama il mio maestro"
+agot_abdicate.1.t: 0 "Abdicazione"
+agot_abdicate.1.desc: 0 "[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstName] ha deciso di abdicare in tuo favore."
+agot_abdicate.1.a: 0 "Sono riconoscente."
 
- # AI only, blank loc keys
-  agot_request_paramountcy_ai_desc:0 ""
-  agot_request_paramountcy_ai:0 ""
-  agot_request_paramountcy_ai_tooltip:0 ""
-  agot_request_paramountcy_ai_confirm:0 ""
+agot_minor_decisions_events.0005.t: 0 "Lasciarsi andare"
+agot_minor_decisions_events.0005.desc: 0 "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] è sprofondat[Select_CString(ROOT.Char.IsFemale,'a','o')] completamente nella follia...#!\n\nPosso udire i sussurri in tutta la corte. I miei cortigiani mi considerano una seccatura, nel comportamento se non nell'aspetto. Se mi considerano tale, forse dovrei smettere di mantenere le apparenze."
+agot_minor_decisions_events.0005.a: 0 "Vattene, barbiere!"
+
+recruit_forder_specialist_decision: 0 "Recluta uno specialista dei guadi"
+recruit_forder_specialist_decision_desc: 0 "Recluta un comandante che non solo sappia attraversare efficacemente i fiumi, ma sia anche un abile combattente nel farlo."
+recruit_forder_specialist_decision_tooltip: 0 "Un comandante con il tratto Forder si unirà alla tua corte."
+recruit_forder_specialist_decision_confirm: 0 "Spero di trovarne uno"
+
+agot_commission_special_artifact_decision: 0 "Commissiona un manufatto speciale"
+agot_commission_special_artifact_decision_tooltip: 0 "Commissiona al fabbro di corte la creazione di un nuovo manufatto speciale"
+agot_commission_special_artifact_decision_effects_tooltip: 0 "Commissionerai un nuovo manufatto speciale."
+agot_commission_special_artifact_decision_desc: 0 "Un sovrano è giudicato tanto da ciò che porta quanto da ciò che compie. Corona o armatura, un simile pezzo funge da simbolo e da dichiarazione. Farò creare un nuovo manufatto, degno del mio rango."
+agot_commission_special_artifact_decision_confirm: 0 "Convocate il fabbro!"
+agot_commission_special_artifact_button: 0 "Scegli manufatto"
+
+agot_commission_special_artifact_crown_choice_loc: 0 "Una corona per me"
+agot_commission_special_artifact_crown_choice_tooltip: 0 "Una corona ispirata ad aspetti di me stesso, della mia stirpe, della mia fede e dei miei titoli."
+agot_commissioned_personal_crown_recently: 0 "Non puoi commissionare un'altra corona per te stesso fino al [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_crown' ))]"
+
+agot_commission_special_artifact_crown_spouse_choice_loc: 0 "Una corona per il mio consorte"
+agot_commission_special_artifact_crown_spouse_choice_tooltip: 0 "Una corona ispirata alla stirpe, alla fede o ai titoli del mio consorte."
+agot_commissioned_spouse_crown_recently: 0 "Non puoi commissionare un'altra corona per [spouse_scope.GetName] fino al [GetCurrentDateWithDiff( GetVarTimeRemaining( spouse_scope.MakeScope, 'agot_recently_commissioned_crown') )]"
+
+agot_commission_special_artifact_armor_choice_loc: 0 "Un'armatura"
+agot_commission_special_artifact_armor_choice_tooltip: 0 "Un'armatura forgiata su misura, adattata a chi la indossa."
+agot_commissioned_armor_recently: 0 "Non puoi commissionare un'altra armatura fino al [GetCurrentDateWithDiff( THIS.VarRemaining( 'agot_recently_commissioned_armor' ))]"
+
+disavow_incest_decision: 0 "Rinnega l'incesto"
+disavow_incest_decision_desc: 0 "Per secoli, la stirpe dei Targaryen è stata mantenuta pura attraverso la pratica dell'incesto, con la Fede che ci concedeva una speciale esenzione sotto la dottrina dell'eccezionalismo. Ma ora è giunto il momento di riconsiderare questa tradizione. Vale la pena continuare ad aggrapparsi agli antichi costumi, o dovremmo cercare nuove alleanze e ampliare gli orizzonti della nostra casata?"
+disavow_incest_decision_tooltip: 0 "Proibisci la pratica del matrimonio tra fratelli nella tua casata."
+disavow_incest_decision_confirm: 0 "Romperemo con la tradizione"
+
+reinstate_incest_decision: 0 "Ripristina l'incesto"
+reinstate_incest_decision_desc: 0 "La nostra casata un tempo prosperava grazie alla purezza della sua stirpe, preservata attraverso la pratica dell'incesto. Sebbene avessimo superato questa tradizione, la dottrina dell'eccezionalismo della Fede resta ancora valida, concedendoci il diritto di mantenere quest'antico costume. Dovremmo abbracciare la nostra eredità e restaurare la tradizione che un tempo ci definiva?"
+reinstate_incest_decision_tooltip: 0 "Permetti la pratica del matrimonio tra fratelli nella tua casata."
+reinstate_incest_decision_confirm: 0 "Restaureremo gli antichi costumi"
+
+agot_take_new_face_decision: 0 "Assumi un nuovo volto"
+agot_take_new_face_decision_desc: 0 "Assumerò un nuovo volto al servizio del Dio dai Mille Volti."
+agot_take_new_face_decision_tooltip: 0 "Sceglierai un altro volto da un personaggio dello stesso sesso."
+agot_take_new_face_decision_tt: 0 "Assumere un nuovo volto sostituirà l'aspetto e l'età del tuo personaggio, ma manterrai il tuo personaggio attuale, le sue terre e i suoi titoli."
+agot_take_new_face_multiple_player_warning_tt: 0 "@warning_icon! Questa è una sessione multigiocatore, il trasferimento del giocatore al nuovo personaggio non è automatico."
+agot_take_new_face_decision_confirm: 0 "Mostrami la Sala dei Volti"
+agot_has_taken_face_recently: 0 "Hai indossato di recente un nuovo volto"
+
+agot_faceless_new_adventure_decision: 0 "Inizia un'avventura dal volto nuovo"
+agot_faceless_new_adventure_decision_desc: 0 "Abbandonerò le mie vecchie vie e tutti coloro che conosco, assumendo un nuovo volto, una nuova vita e un nuovo scopo al servizio del Dio dai Mille Volti."
+agot_faceless_new_adventure_decision_tooltip: 0 "Abbandonerai il tuo personaggio attuale per iniziare una nuova avventura con un nuovo volto."
+agot_faceless_new_adventure_decision_tt: 0 "Dopo aver assunto un nuovo volto:\n$EFFECT_LIST_BULLET$Abbandonerai il tuo personaggio attuale e passerai a uno nuovo. Solo il tuo [gold|E], i [artifacts|E] non di corte, i [traits|E] e la [faith|E] saranno mantenuti. Il resto sarà determinato dal volto che sceglierai.\n$EFFECT_LIST_BULLET$ Inizierai a giocare come personaggio senza terre di una nuova casata."
+agot_faceless_new_adventure_decision_confirm: 0 "Una nuova vita attende"
+
+agot_visit_house_of_baw: 0 "Visita la Casa del Bianco e del Nero"
+agot_visit_house_of_baw_decision_effect: 0 "@warning_icon! Il Dio dai Mille Volti porterà via la tua sofferenza. [Glossary( 'Valar dohaeris.', 'VALAR_DOHAERIS_GLOSS' )]."
+agot_valar_morghulis: 0 "Valar Morghulis"
+commit_suicide_decision_confirm_base: 0 "Il mio tempo è giunto"

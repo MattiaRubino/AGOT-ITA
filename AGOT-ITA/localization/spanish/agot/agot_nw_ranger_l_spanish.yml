@@ -54,16 +54,11 @@
   AGOT_COUNCIL_TITLE_CUSLOC:0 "[GetPlayer.Custom('AGOTCouncilWindowTitle')]"
   NW_COUNCILWINDOW_TITLE:0 "Ufficiali"
 
-# Desert the Night's Watch Decision for First Ranger
+ # Desert the Night's Watch Perk for First Ranger
+twice_schemed_perk_ranger_name: 0 "Voltagabbana"
 game_concept_agot_desert_nw: 0 "Disertare i Guardiani della Notte"
 game_concept_agot_desert_nw_desc: 0 "Una [decision|E] che permette al $first_ranger_landless_male$ di disertare l'[nw_govt|E] e diventare un [adventurer|E]."
 first_ranger_has_to_be_beyond_the_wall: 0 "Il tuo [agot_ranger_camp|E] deve trovarsi oltre la Bariera"
- # Desert the Night's Watch Perk for First Ranger
- desert_the_nw:0 "$game_concept_agot_desert_nw$"
-desert_the_nw_desc: 0 "La Bariera ha preso molto e dato poco. Disertare i Guardiani della Notte significa rinunciare ai miei voti, ai miei fratelli e alla sicurezza del dovere, ma oltre la Bariera si trova la libertà, se oso reclamarla."
-desert_the_nw_tooltip: 0 "Diserterai i [nw_govt|E]"
-desert_the_nw_confirm: 0 "Diserta i Guardiani della Notte"
-twice_schemed_perk_ranger_name: 0 "Voltagabbana"
 
 agot_wall_reclamation_post_nw_cb: 0 "Riconquista dei Guardiani della Notte"
 
@@ -581,7 +576,7 @@ agot_nw_ranger_events.0100.a.tt: 0 "Cercherai l'aiuto di [northern_lord.Custom('
 agot_nw_ranger_events.0100.b: 0 "Allora farò ciò che i Guardiani non hanno saputo fare."
 agot_nw_ranger_events.0100.c: 0 "Questo fardello non spetta a me."
 
- #ex-FR: Arrived at Grande Inverno
+ #ex-FR: Arrived at Winterfell
 agot_nw_ranger_events.0101.t: 0 "Davanti [Select_CString(northern_lord.IsFemale,'alla lady','al lord')|U] di [northern_lord_title.GetNameNoTierNoTooltip]"
 agot_nw_ranger_events.0101.desc: 0 "[destination_1.GetNameNoTier] si leva dalla neve come qualcosa di eterno, immutato da ciò che ci è accaduto nell'estremo Nord. Vengo condotto nelle sue sale non come Primo Ranger, ma come un uomo in nero privo di un comando degno di tal nome.\n\nI Guardiani della Notte sono spezzati, i loro fratelli dispersi, il loro scopo lasciato ad appassire. Se devono essere restaurati, non accadrà soltanto con la forza delle armi. Il Nord è sempre stato il più fedele alleato dei Guardiani, e ora devo chiedere se quel legame regga ancora.\n\n[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] ascolta mentre parlo di ciò che è andato perduto e di ciò che potrebbe ancora essere ricostruito."
 agot_nw_ranger_events.0101.desc.after: 0 "[destination_1.GetNameNoTier] si leva dalla neve come qualcosa di eterno, immutato da ciò che ci è accaduto nell'estremo Nord.\n\nI Guardiani della Notte sono spezzati, i loro fratelli dispersi, il loro scopo lasciato ad appassire. Se devono essere restaurati, non accadrà soltanto con la forza delle armi. Il Nord è sempre stato il più fedele alleato dei Guardiani, e ora devo chiedere se quel legame regga ancora.\n\n[northern_lord.Custom('IT_NAM_COL3')][northern_lord.GetTitledFirstName] ascolta mentre parlo di ciò che è andato perduto e di ciò che potrebbe ancora essere ricostruito."

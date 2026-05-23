@@ -18,19 +18,6 @@
   agot_pirate_events.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"
   agot_converting_to_admin_kings_become_lp_feudal:0 "Qualsiasi [kingdom|E] [title_tier|E] [vassal|E] cambierà il proprio tipo di [government|E] in [GetGovernment( 'lp_feudal_government' ).GetName]"
 
- # agot_adopt_kneeler_ways_decision and effects and event following
-  agot_adopt_kneeler_ways_decision:0 "Conformarsi agli Usi Meridionali"
-  agot_adopt_kneeler_ways_decision_desc:0 "La vita nella terra desolata e crudele del Lontano Nord ci ha resi un popolo spietato e inflessibile, molto diverso da quelli che vivono al di là della Barriera. Ora che abbiamo trovato dimora tra loro, forse sarebbe saggio adattarci al loro stile di vita, alle loro leggi e alle loro usanze."
-agot_adopt_kneeler_ways_decision_confirm: 0 "È tempo di piegare un po' meno le ginocchia"
-  agot_adopt_kneeler_ways_decision_tooltip:0 "Il tuo popolo adotterà gli usi dei sudditi del Trono di Spade. Questo permetterà maggiori interazioni con i sovrani a sud della Barriera, ma perderai i vantaggi di essere un Popolo Libero."
-  is_culture_head:0 "Sei il capo della tua cultura"
-  hybridized_with_kneelers:0 "La tua cultura è stata ibridata con una presente a sud della Barriera"
-  capital_south_of_the_wall:0 "La tua capitale si trova a sud della Barriera"
-  agot_major_decisions_events.1003.t:0 "Dall'Altra Parte..."
-  agot_major_decisions_events.1003.desc:0 "Il nostro sogno lungo generazioni di sfuggire alle dure realtà della vita al di là della Barriera si è realizzato. Non sarebbe forse un atto di arroganza portare avanti ostinatamente i nostri modi, ignorando le leggi e le usanze dei nostri nuovi vicini? La gente al di qua della Barriera può sembrare timida e molle, ma le loro vite sono lunghe e confortevoli. Chiaramente sanno come trarre il meglio da queste terre ospitali, e se le loro leggi li aiutano in questo, allora le adotteremo anche noi."
-  agot_major_decisions_events.1003.a:0 "Verso un futuro più mite!"
-  every_freefolk_ruler_tt:0 "Ogni Capo del Popolo Libero"
-
 become_landless_pirate_decision: 0 "Diventa un Pirata"
 become_landless_pirate_decision_desc: 0 "Ho assaporato gloria e oro come predone dei mari. Ora è tempo di gettare la maschera e abbracciare la mia vera natura di pirata."
 become_landless_pirate_decision_tooltip: 0 "Cambia tipo di governo diventando [GetGovernment( 'pirate_government' ).GetName]"
@@ -58,3 +45,8 @@ agot_become_landed_pirate_decision_tooltip: 0 "Diventa un Pirata"
 agot_become_landed_pirate_decision_shatter_realm_tt: 0 "Ogni titolo posseduto al di fuori del tuo [primary_title|E] sarà concesso ai governanti locali."
 agot_become_landed_pirate_decision_gain_tributaries_tt: 0 "Tutti i nuovi governanti dei tuoi antichi titoli diventeranno tuoi [tributaries|E]."
 agot_become_landed_pirate_decision_holding_reset_tt: 0 "Il tuo [holding|E] principale diventerà un [pirate_den_holding|E]."
+
+agot_dump_landless_pirate_raid_loot: 0 "Raccogli il bottino della razzia"
+agot_dump_landless_pirate_raid_loot_desc: 0 "Il mio bottino di razzia è pronto per essere rivendicato dopo il ritorno in porto. Devo però mandare qualche lacchè a reclamarlo degnamente per mio conto."
+agot_dump_landless_pirate_raid_loot_tooltip: 0 "Raccogli il bottino"
+agot_dump_landless_pirate_raid_loot_confirm: 0 "Raccogli il bottino"

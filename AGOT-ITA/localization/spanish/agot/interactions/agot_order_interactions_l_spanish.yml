@@ -47,9 +47,11 @@
  #Silent Sister
   send_to_silent_sisterhood_interaction:0 "Invia alla Sorellanza del Silenzio"
   send_to_silent_sisterhood_interaction_desc:0 "Invia [recipient.GetShortUINameNoTooltip] a pronunciare i voti del silenzio e a unirsi alla sorellanza."
+ send_to_silent_sisterhood_interaction_extra_icon:0 "$hook_extra_icon$"
 
  #Septon
   take_vows_septon_interaction:0 "Chiedi di prendere i voti"
   take_vows_septon_interaction_desc:0 "Chiedi a [recipient.GetShortUINameNoTooltip] di prendere i voti e unirsi al clero"
   take_vows_septon_decline_summary:0 "Se [recipient.GetShortUINameNoTooltip] rifiuta, [Select_CString(recipient.IsFemale,'rimarrà','rimarrà')] nella tua [court|E]"
+ take_vows_septon_interaction_extra_icon:0 "$hook_extra_icon$"
   REQUEST_SEPTON_VOWS_NOTIFICATION_TEXT:0 "Ti viene chiesto di lasciare la tua posizione a corte e prendere i voti."
