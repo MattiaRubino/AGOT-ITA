@@ -593,7 +593,7 @@ seduce_ongoing.5202.desc: 0 "Mentre [Select_CString(SCOPE.sC('owner').IsFemale,'
  seduce_ongoing.5301.c.tt:0 "#F Ci saranno altre volte. [target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] non andrà da nessuna parte.#!"
  seduce_ongoing.5301.success_tt:0 "Se [target.GetFirstName] ricambia le mie effusioni:"
 
- seduce_ongoing.5302.desc:0 "Sembra così giusto, all'inizio non ne prendo nemmeno atto, ma mentre ci sediamo davanti al caminetto, [owner.Custom('DE_ART_DEF_P_A')] mi[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC ('owner'))] [owner.GetFirstName] mi stringe la mano con un'intensità ben oltre le assicurazioni di un[owner.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC ('owner'))].\n\nRiesco a sentire il suo battito accelerare dal desiderio."
+seduce_ongoing.5302.desc: 0 "Sembra così giusto che all'inizio nemmeno me ne accorgo, ma mentre sediamo davanti al camino, [Select_CString(owner.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] mi stringe la mano con un'intensità che va ben oltre le rassicurazioni di un[owner.Custom('DE_PRO_PER_P_3P_G')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nSento il polso di [Select_CString(owner.IsFemale,'lei','lui')] accelerare di desiderio."
  seduce_ongoing.5302.a:0 "Mi rifiuto di credere che ciò che sento sia sbagliato."
  seduce_ongoing.5302.b:0 "Sono lusingat[ROOT.Char.Custom('DE_END_PRO_S_N')] dall'attenzione, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], ma no."
 

@@ -177,7 +177,7 @@ MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.Ge
 MY_REALM_WINDOW_HOLDING_BARTER_GOODS: "@barter_goods_icon! [Holding.GetBarterGoodsIncome|1V]"
  MY_REALM_WINDOW_HOLDING_LEVY:0 "@soldier_icon! [Holding.GetMaxLevySize|0]"
  MY_REALM_WINDOW_COUNTY_CONTROL:0 "[control|E]: $VALUE|%/0$"
- MY_REALM_WINDOW_COUNTY_CONTROL_COLORED:0 "#X [control|E]: $VALUE|%/0$#!"
+MY_REALM_WINDOW_COUNTY_CONTROL_COLORED: 0 "[control|E]: #X $VALUE|%/0$#!"
  MY_REALM_WINDOW_CURRENT_CONSTRUCTION:1 "$BULDING$ - [DATE.GetTimeDiffFromNow] al completamento della costruzione"
  MY_REALM_WINDOW_CONSTRUCT_HOLDING:0 "Puoi costruire un nuovo Insediamento"
  MY_REALM_WINDOW_CONSTRUCT_BUILDING:0 "Puoi costruire un Edificio"
@@ -245,6 +245,14 @@ VASSAL_CONTRACT_VASSAL_TITLE: 2 "Modifica del Contratto di\n#high [SubjectContra
  VASSAL_OPINION_DUCHIES_OVERRUN:0 "Troppi [duchies|E]"
 MY_REALM_WINDOW_VASSAL_OPINION: "Opinione dei vassalli: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!"
 MY_REALM_WINDOW_VASSAL_OPINION_TT: "#T Opinione dei [vassals|E]: #color:{[ToTextFormatColor(GetOpinionTint( MyRealmWindow.GetVassalOpinion ))]} [MyRealmWindow.GetVassalOpinion|=]#!\n#!Questo è il totale delle Opinioni che influenzerà tutti i tuoi [vassals|E]. Se questo valore è basso, è probabile che molte [factions|E] si oppongano a te!\n\n#S Fonti#!\n[MyRealmWindow.GetVassalOpinionBreakdown]"
+ 
+MY_REALM_MASS_DIRECTIVES: "#T Attiva/disattiva la visuale delle [directives|e]#!"
+MY_REALM_COMPACT_SUBJECT_LIST: "#T Attiva/disattiva l'elenco compatto#!"
+MASS_DIRECTIVES_TITLE: "Emana Direttive"
+MASS_DIRECTIVES_TIP: "Emana [directives|e] a più [vassals|e]"
+ISSUE_DIRECTIVES_HEADER: "Emana [directives|e]"
+ACTIVE_DIRECTIVES_HEADER: "[directives|E] attive"
+VASSALS_AFFECTED_HEADER: "[vassals|E] interessati:"
  
 MY_REALM_WINDOW_NO_FEUDAL_CONTRACT_TT: 1 "#T Nessun obbligo individuale\n#!Solo i [landed|E] [feudal|E], [administrative|E], [nomad|E] e [clan|E] [vassals|E] (esclusi i [barons|E]) possono avere [obligations|E] individuali"
  MY_REALM_WINDOW_ABSOLUTE_COUNTY_CONTROL: "[control|E]: [absolute_control_short|E]"

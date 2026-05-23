@@ -257,8 +257,8 @@
  fp2_yearly.1003.a:0 "Salutate il prode cavaliere, gli comprerò un nuovo destriero."
  fp2_yearly.1003.b:0 "Non tollererò favole nella mia corte."
 
- fp2_yearly.1004.t:0 "Il Falco di Quarysh"
- fp2_yearly.1004.desc:0 "Sto leggendo una storia su [hawk_of_quraysh.GetName] conosciut[hawk_of_quraysh.Custom('DE_END_PRO_S_N')] anche come "Il falco di Quarysh".\n\nConoscere la sua vita è incredibilmente stimolante, dalla sua fuga dalla [abbasid_dynasty.GetName], fino alla fondazione della dinastia [hawk_dynasty.GetName] in Iberia. Non posso fare a meno di pensare che dovrei prendere a cuore alcuni di questi argomenti."
+fp2_yearly.1004.t: 0 "Il Falco dei Quraysh"
+fp2_yearly.1004.desc: 0 "Sto leggendo una storia di [hawk_of_quraysh.GetName], noto anche come «Il Falco dei Quraysh».\n\nScoprire la sua vita è incredibilmente ispirante: dalla fuga dagli [abbasid_dynasty.GetName] alla fondazione della dinastia [hawk_dynasty.GetName] in Iberia, non posso fare a meno di pensare che dovrei farne tesoro."
  fp2_yearly.1004.a:0 "Anch'io potrei ispirare i miei uomini come ha fatto [hawk_of_quraysh.GetSheHe] a Carmona."
  fp2_yearly.1004.b:0 "I suoi rapporti diplomatici con gli Yemeniti sono leggendari."
  fp2_yearly.1004.c:0 "Siamo affini!"
@@ -266,12 +266,12 @@
  nick_the_hawk_of_quraysh:0 "Il Falco di Quarysh"
 
 
- fp2_hawk_of_quarysh_martial_modifier:0 "Ispirazione Marziale"
- fp2_hawk_of_quarysh_martial_modifier_desc:0 "Questo personaggio ha ottenuto un'ispirazione marziale dal Falco di Quarysh."
+fp2_hawk_of_quraysh_martial_modifier: 0 "Ispirazione Marziale"
+fp2_hawk_of_quraysh_martial_modifier_desc: 0 "Questo personaggio ha tratto ispirazione marziale dal Falco dei Quraysh."
 
 
- fp2_hawk_of_quarysh_diplomacy_modifier:0 "Ispirazione Diplomatica"
- fp2_hawk_of_quarysh_diplomacy_modifier_desc:0 "Questo personaggio ha ottenuto un'ispirazione diplomatica dal Falco di Quarysh."
+fp2_hawk_of_quraysh_diplomacy_modifier: 0 "Ispirazione Diplomatica"
+fp2_hawk_of_quraysh_diplomacy_modifier_desc: 0 "Questo personaggio ha tratto ispirazione diplomatica dal Falco dei Quraysh."
 
  fp2_yearly.1005.a:1 "Potrete intrattenere i miei cortigiani con la vostra storia unica."
  fp2_yearly.1005.b:0 "Un'azione buona non bilancia quella cattiva - muori."
@@ -817,7 +817,7 @@ fp2_struggle.2004.c.desc: "Speri nella fama straordinaria rischiando il tuo dena
  fp2_struggle.2005.a:0 "Avete fatto un buon lavoro."
  fp2_struggle.2005.a.a:0 "Peccato per i cantieri, ma almeno abbiamo le navi."
  fp2_struggle.2005.desc.alt.a:1 "Argento sommerso"
- fp2_struggle.2005.desc.alt.a.desc:0 "Consapevole di quanto sarà sconvolgente questa notizia, il mio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName], si avvicina con cautela per comunicare l'esito del nostro tentativo di far galleggiare l'argento.\n\n"Nonostante i nostri sforzi, l'idea di costruire una barca in metallo è una follia. Dopo il suo completamento, la barca ha lasciato il porto ed è prontamente affondata negli abissi dell'oceano. Una parte significativa del nostro tesoro ora giace fuori portata sotto le onde crudeli. Mi dispiace, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]."\n\n"
+fp2_struggle.2005.desc.alt.a.desc: 0 "Consapevole di quanto questa notizia sarà sconvolgente, [Select_CString(2005_scoped_steward.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName], si avvicina con cautela per riferirmi l'esito del nostro tentativo di far galleggiare l'argento.\n\n«Nonostante i nostri migliori sforzi, l'idea di costruire una barca di metallo è follia. Dopo il completamento, la barca ha lasciato il porto ed è subito affondata nell'abisso dell'oceano. Una parte significativa del nostro tesoro giace ora fuori portata sotto onde crudeli. Mi dispiace, mio signore.»\n\n"
  fp2_struggle.2005.desc.alt.b:1 "Vascelli d'Argento"
  fp2_struggle.2005.desc.alt.b.desc:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')]  mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('2005_scoped_steward'))], [2005_scoped_steward.GetFirstName] sapeva che si trattava soltanto di un oggetto scenico, qualcosa con cui farsi una reputazione. Le barche fatte di metallo non galleggeranno mai, a prescindere dai progressi tecnologici.\n\nPertanto, invece di prendere sul serio il compito e tentare l'impossibile, [2005_scoped_steward.GetSheHe] ha rivestito un vascello di legno con un sottile strato d'argento per ingannare gli spettatori. Io e la mia nuova "nave metallica" siamo sulla bocca di tutti, invidiati da tutto il mondo!\n\n"
 

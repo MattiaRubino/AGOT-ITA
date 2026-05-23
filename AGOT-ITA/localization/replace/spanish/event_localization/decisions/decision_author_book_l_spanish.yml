@@ -92,7 +92,7 @@
   author_book.0001.a.tt: "#italic [SCOPE.Custom('GetCiPoemName')]#! sarà il nome del mio poema"
   author_book.0001.b: "Consulterò [Select_CString(trusted_influencer.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('trusted_influencer'))] [trusted_influencer.GetShortUINameNoTooltip]"
   author_book.0001.b.tt: "[trusted_influencer.GetShortUIName] sceglierà un'aria per il poema"
-  paid_me_respect: "Mi ha reso omaggio"
+paid_me_respect: "Mi Ha Reso Omaggio"
 
   author_book.0004.t: "Sulla virtù nel nostro tempo"
   author_book.0004.desc: "Sedendomi alla scrivania a riflettere sul lavoro che mi attende, i miei occhi cadono sui [Glossary( 'Four Treasures of the Study', 'FOUR_TREASURES')]. In quanto studioso, questi sono gli strumenti del mio mestiere. Con essi posso applicare la ragione e illuminare gli altri.\n\nMa che cosa dovrei dire?\n\nPotrei cercare di gettare nuova luce sugli eventi del passato, oppure intraprendere qualcosa di più attuale analizzando le azioni virtuose partendo da un evento recente."
@@ -105,7 +105,7 @@
   prose_theme_philosophy: "filosofia"
   prose_topic_history: "storia"
   prose_book_description: "Questo è un trattato ampio su [SCOPE.Custom('GetProseTheme')] di [author.GetFirstName] che mostra [Select_CString(author.IsFemale,'la sua','il suo')] padronanza di [SCOPE.Custom('GetProseTopic')] nonché [Select_CString(author.IsFemale,'la sua','il suo')] perizia stilistica.\n[SCOPE.Custom('GetProseQuality')]"
-  prose_name: "Riflessioni di [author.GetFirstNameNoTooltip]"
+prose_name_hashcollision: "Meditazioni di [author.GetFirstNameNoTooltip]"
  #Philosophy
   prose_theme_comentary: "commentario ai Quattro Libri"
   prose_theme_logic: "l'uso generale della logica rigorosa"
@@ -137,7 +137,7 @@
   writing_monograph_desc: "Questo personaggio è attualmente assorbito nella stesura e nella ricerca per una nuova monografia"
   monograph_description_full: "Si tratta di un voluminoso tomo sul tema di [SCOPE.Custom('GetMonographTheme')] scritto dal funzionario erudito [author.GetName], che attinge ai suoi estesi studi nel campo di [SCOPE.Custom('GetMonographTopic')].\n\n[SCOPE.Custom('GetMonographQuality')]"
 
-  monograph_name: "Tomo su [SCOPE.Custom('GetMonographTopic')]"
+monograph_name_hashcollision: "Tomo su [SCOPE.Custom('GetMonographTopic')]"
   monograph_topic_mathematics: "matematica"
   monograph_topic_geography: "geografia"
   monograph_theme_home_duchy: "le terre in [author.GetCapitalLocation.GetTitle.GetDeJureLiegeOfTier('duchy').GetBaseNameNoTierNoTooltip]"

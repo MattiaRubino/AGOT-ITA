@@ -10,8 +10,43 @@
  KNIGHT_EFFECTIVENESS:1 "$knight_culture_player_no_tooltip$ Efficacia: #high [GetPlayer.GetKnightEffectiveness|%0]#!"
  KNIGHT_EFFECTIVENESS_TOOLTIP:2 "#T [knight_effectiveness|E]: [GetPlayer.GetKnightEffectiveness|V%0]#!\nBase: #V 100%#!\n[GetPlayer.GetKnightEffectivenessBreakdown]"
  KNIGHTS_VIEW_TITLE_FORBID_TT:2 "#T Vieta ad [Character.GetShortUIName] di essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] non può unirsi #emphasis mai#! ai tuoi [armies|E] come $knight_culture_player_no_tooltip$. Questo lo protegge dal morire in [battle|E]."
+CREATE_ACCOLADE_FORBID_TT: "#T Proibisci a [CreateAccoladeView.GetSelectedKnight.GetShortUIName] di essere un $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] non potrà #emphasis mai#! unirsi alle tue [armies|E] come $knight_culture_player_no_tooltip$. Ciò protegge [Select_CString(CreateAccoladeView.GetSelectedKnight.IsFemale,'lei','lui')] dalla morte in [battle|E]."
  KNIGHTS_VIEW_TITLE_BY_PROWESS_TT:2 "#T Permetti a [Character.GetShortUIName] di essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] può unirsi ai tuoi [armies|E] come $knight_culture_player_no_tooltip$ se la sua [prowess|E] è una delle più alte nel [realm|E]"
+CREATE_ACCOLADE_BY_PROWESS_TT: 2 "#T Permetti a [CreateAccoladeView.GetSelectedKnight.GetShortUIName] di essere un $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] può unirsi alle tue [armies|E] come $knight_culture_player_no_tooltip$ se la [prowess|E] di [Select_CString(CreateAccoladeView.GetSelectedKnight.IsFemale,'lei','lui')] è tra le più alte del [realm|E]"
  KNIGHTS_VIEW_TITLE_FORCE_TT:2 "#T Costringi [Character.GetShortUIName] ad essere un $knight_culture_player$#!\n\n[Character.GetShortUIName] #emphasis deve#! unirsi ai tuoi [armies|E] come $knight_culture_player_no_tooltip$, a dispetto della sua [prowess|E]. [Character.GetSheHe|U] potrebbe prendere il posto di un $knight_culture_player_no_tooltip$ con una maggiore Maestria."
+CREATE_ACCOLADE_FORCE_TT: "#T Forza [CreateAccoladeView.GetSelectedKnight.GetShortUIName] a essere un $knight_culture_player$#!\n\n[CreateAccoladeView.GetSelectedKnight.GetShortUIName] #emphasis deve#! unirsi alle tue [armies|E] come $knight_culture_player_no_tooltip$, a prescindere dalla [prowess|E] di [Select_CString(CreateAccoladeView.GetSelectedKnight.IsFemale,'lei','lui')]. [Select_CString(CreateAccoladeView.GetSelectedKnight.IsFemale,'Lei','Lui')] può prendere il posto di un $knight_culture_player_no_tooltip$ con Prodezza più alta."
  KNIGHTS_CURRENT_MAX:0 "[GetKnightCount( GetPlayer.Self )|V]/[GetKnightLimit( GetPlayer.Self )|V]"
  KNIGHTS_SUBHEADER:0 "[courtiers|E] e [vassals|E] Idonei"
  KNIGHTS_SUBHEADER_LANDLESS_ADVENTURER: "[followers|E] Idonei"
+
+ ### Knight permissions
+ 
+knight_singular: "[GetPlayer.Custom('KnightCultureNoTooltip')]"
+knight_plural: "[GetPlayer.Custom('KnightCulturePluralNoTooltip')]"
+knight_singular_tt: "[GetPlayer.Custom('KnightCulture')]"
+knight_plural_tt: "[GetPlayer.Custom('KnightCulturePlural')]"
+KNIGHT_PERMISSIONS_TITLE: "Permessi $knight_singular$"
+KNIGHT_PERMISSIONS_SHORT: "Permessi"
+KNIGHT_PERMISSIONS_TT: "Gestisci chi può servire come $knight_singular_tt$[AddLocalizationIf(Not( KnightsView.GetKnightPermissions.IsDefault), 'KNIGHT_PERMISSIONS_SET')]"
+KNIGHT_PERMISSIONS_SET: "\n#warning Alcuni filtri sono attivi!#!"
+YOUR_KNIGHT_PERMISSIONS: "Imposta le tue regole per stabilire chi può essere un $knight_singular_tt$.\nI $knight_plural$ [acclaimed|e] o Forzati non sono influenzati."
+ 
+MINIMUM_PROWESS: "Prodezza Minima"
+DECREASE_MIN_PROWESS_KP: "Riduci la [prowess|e] minima richiesta per i [knights|e]\n#i Clic destro per ridurre di 10"
+INCREASE_MIN_PROWESS_KP: "Aumenta la [prowess|e] minima richiesta per i [knights|e]\n#i Clic destro per aumentare di 10"
+FAMILY_RELATIONS_KP: "Famiglia e Relazioni"
+OTHER_CHILDERN_KP: "Altri Figli"
+WITH_TRAITS_KP: "Tratti"
+SPOUSES_OF_CHILDERN_KP: "Coniugi dei Figli"
+COURT_POSITIONS_KP: "Posizioni di Corte"
+COURT_POSITIONS_TT: "Non consentire posizioni non combattenti.\n[GetCourtPositionType('bodyguard_court_position').GetName] e [GetCourtPositionType('garuda_court_position').GetName] sono esclusi e sempre autorizzati a essere [knights|e], poiché sono pensati per aiutare in battaglia"
+ 
+HBOX_DOCTRINE_FAITH_TT: "#T [FaithDoctrine.GetNameNoTooltip( Faith.Self )]#!\n[FaithDoctrine.GetEffectsDescription( Faith.Self )]\n\n[FaithDoctrine.GetDescription( Faith.Self )|F]"
+KNIGHT_RESTRICTIONS: "Si applicano altre restrizioni"
+ 
+ # this is can_be_knight_trigger in 00_war_and_peace_triggers.txt
+KNIGHT_RESTRICTIONS_TT: "#T Restrizioni dei Cavalieri#!\nSolo i tuoi [vassals|e], [courtiers|e] o [followers|e] diretti possono servire come [knights|e].\nLa tua [culture|e] o [faith|e] determina quali generi possono agire come [knights|e].\n\nUn Cavaliere non può essere:\n - Giocatore, [child|e], [prisoner|e] o [GetTrait('incapable').GetName(GetPlayer.Self)]\n - membro del [clergy|e] (a meno che la [faith|e] o la [culture|e] lo consenta)\n - [master_assassin|e] o [GetTrait('blind').GetName(GetPlayer.Self)] (a meno che la [culture|e] lo consenta o sia un [GetTrait('order_member').GetName(GetPlayer.Self)])\n - [diarch|e] o [ceremonial_liege|e]\n - [governor|e] di un [duchy|e] (o [title|e] superiore) o [house_head|e] di una [noble_family|e]\n\nLe [traditions|e] culturali e gli eventi possono rimuovere alcune restrizioni"
+ 
+KP_CULTURE_MINIMUM_PROWESS: "@alert_icon! La tua [culture|e] richiede almeno 12 [prowess|e]"
+KP_CULTURE_ADMIN_FAMILY_KNIGHTS: "@check_icon! La tua [culture|e] rimuove alcune restrizioni di genere per le [wars|e] difensive"
+KP_CULTURE_HIGH_PROWESS: "@check_icon! La tua [culture|e] rimuove la maggior parte delle restrizioni per i [knights|e] con almeno 10 [prowess|e]"

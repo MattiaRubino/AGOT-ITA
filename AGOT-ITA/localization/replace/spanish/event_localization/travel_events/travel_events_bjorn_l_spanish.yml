@@ -1,0 +1,14 @@
+﻿l_spanish:
+
+#Travel Flavor Events
+#Troll bridge - you encounter a troll bridge.
+travel_events.5100.t: "Il Ponte [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')|U]"
+travel_events.5100.desc: "«Mio signore! Questo ponte gode di pessima fama. Un [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')] vive sotto di esso!» [Select_CString(superstitious_traveler.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', superstitious_traveler)] [superstitious_traveler.Custom('IT_NAM_COL3')][superstitious_traveler.GetTitledFirstName] grida. «Di certo ci assalirà, o ci maledirà da lontano mentre passiamo.»\n\nI membri del mio seguito iniziano a sussurrare tra loro. Alcuni invocano il nome di [ROOT.Char.GetFaith.HighGodName] per protezione. Purtroppo, il ponte è l'unico luogo sicuro per attraversare per miglia."
+travel_events.5100.a: "«Non temo alcun [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')] né demone!»"
+travel_events.5100.b: "«Non esistono tali cose, [superstitious_traveler.Custom('IT_NAM_COL3')][superstitious_traveler.GetTitledFirstNameNoTooltip].»"
+travel_events.5100.c: "«Dobbiamo pregare per scacciare questo spirito.»"
+travel_events.5100.d: "«Che paura! Cerchiamo un'altra via.»"
+custom.every_brave_or_impatient_entourage_member: "Ogni membro del seguito [GetTrait('brave').GetName( GetNullCharacter )] o [GetTrait('impatient').GetName( GetNullCharacter )]"
+custom.every_cynical_or_impatient_entourage_member: "Ogni membro del seguito [GetTrait('cynical').GetName( GetNullCharacter )] o [GetTrait('impatient').GetName( GetNullCharacter )]"
+custom.every_eccentric_or_zealous_entourage_member: "Ogni membro del seguito [GetTrait('eccentric').GetName( GetNullCharacter )] o [GetTrait('zealous').GetName( GetNullCharacter )]"
+custom.every_craven_or_impatient_entourage_member: "Ogni membro del seguito [GetTrait('craven').GetName( GetNullCharacter )] o [GetTrait('impatient').GetName( GetNullCharacter )]"

@@ -184,7 +184,7 @@ COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST: "Costo di revoca: [CourtPositionType.Ge
 
   COURT_POSITION_TASK_EFFECTS_HEADER: "#S Effetti#!\n"
   COURT_POSITION_TASK_EMPLOYER_EFFECTS: "#S Effetto sul [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierDescription( CourtPosition.Self )]#!"
-  COURT_POSITION_TASK_EMPLOYER_COURT_EFFECTS: "#S Effetto sulla [court|E] del [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierDescription( CourtPosition.Self )]#!"
+COURT_POSITION_TASK_EMPLOYER_COURT_EFFECTS: "#S Effetto sui [GetPlayer.Custom('GetCourtiersTypeConcept')|U] del [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierDescription( CourtPosition.Self )]#!"
   COURT_POSITION_TASK_EMPLOYEE_EFFECTS: "#S Effetto su [CourtPositionType.GetName]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployeeModifierDescription]#!"
   COURT_POSITION_TASK_START_EFFECTS: "#S Quando inizia:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectDesc( CourtPosition.Self )]#!"
   COURT_POSITION_TASK_END_EFFECTS: "#S Quando viene interrotto:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectDesc( CourtPosition.Self )]#!"
@@ -193,7 +193,7 @@ COURT_POSITION_TASK_COST: "#S Costo (al mese):#!#indent_newline:2 \n[CourtPositi
 COURT_POSITION_TASK_HINT: "Possibili [court_position_tasks_short|E]:"
   COURT_POSITION_TASK_GENERIC_TT: "Il mio [CourtPositionType.GetNameNoTooltip] eseguirà attivamente l'[court_position_task_short|e] [CourtPositionTaskType.GetName|V]."
   COURT_POSITION_TASK_EMPLOYER_GENERIC_EFFECTS: "#S Effetto sul [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerModifierGenericDescription]#!"
-  COURT_POSITION_TASK_EMPLOYER_COURT_GENERIC_EFFECTS: "#S Effetto sulla [court|E] del [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierGenericDescription]#!"
+COURT_POSITION_TASK_EMPLOYER_COURT_GENERIC_EFFECTS: "#S Effetto sui [GetPlayer.Custom('GetCourtiersTypeConcept')|U] del [liege|E]:#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCourtModifierGenericDescription]#!"
   COURT_POSITION_TASK_START_GENERIC_EFFECTS: "#S Quando inizia:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnStartEffectGenericDesc]#!"
   COURT_POSITION_TASK_END_GENERIC_EFFECTS: "#S Quando viene interrotto:#!#indent_newline:2 \n[CourtPositionTaskType.GetOnEndEffectGenericDesc]#!"
 COURT_POSITION_TASK_GENERIC_COST: "#S Costo (al mese):#!#indent_newline:2 \n[CourtPositionTaskType.GetEmployerCostText( GetPlayer )]#!"
@@ -473,6 +473,7 @@ court_position_no_poet_trait: "Non #bold possiede#! il [trait|E] [GetTrait('life
   courtier_inspired_message: "$poet_inspired_message$"
   courtier_inspired_effect: "[Select_CString(inspired_courtier.IsFemale,'La tua','Il tuo')] [courtier|E] [inspired_courtier.GetFirstName] ha ottenuto un'@inspiration_icon![inspiration|E]"
   court_poet_skald: "Scaldo di corte"
+court_poet_skald_desc: "Lo $court_poet_skald$ è un intenditore di parole e versi, e offre al suo Signore e a tutta la corte intrattenimento, stimoli intellettuali ed esperienze emotive."
 
   bodyguard_court_position_nomadic: "Kheshig"
   bodyguard_employer_custom_effect_description:3 "$BULLET$Ha una possibilità di prevenire i [schemes|E] di [GetScheme('murder').GetTypeName]#!\n#indent_newline:3 $BULLET$Riduce il tuo rischio di morire o di essere catturato nelle [battles|E] in cui state entrambi combattendo#!#!"
@@ -532,6 +533,7 @@ champion_improve_self_fallback_tt: "Ogni mese questo personaggio ha la possibili
   is_imprisoned_court_position_executioner: "È incarcerato e attualmente #bold non#! impiegato come [GetCourtPositionType('executioner_court_position').GetName()]"
   faith_allows_master_assassin: "La sua [faith|e]:\n$BULLET$Ha come [core_tenet|E] [GetFaithDoctrine('tenet_fp3_fedayeen').GetBaseName]\n$BULLET$#bold Non#! ha come [core_tenet|E] [GetFaithDoctrine('tenet_pacifism').GetBaseName] né [GetFaithDoctrine('tenet_dharmic_pacifism').GetBaseName]"
   is_not_a_ceremonial_liege_trigger: "#bold Non#! è un [ceremonial_liege|E]"
+not_travel_option_character: "Non sono #bold stati#! assunti da una [travel_option|e]"
 
   clan_tax_collector_court_position:0 "Esattore delle Imposte"
   clan_tax_collector_court_position_desc:0 "L'$clan_tax_collector_court_position$ è incaricato di organizzare e riscuotere le tasse, assicurandosi che i [vassals|E] del [clan|E] paghino la loro parte diligentemente."
@@ -577,7 +579,7 @@ caravan_master_improve_self_fallback_tt: "Ogni mese questo personaggio ha la pos
   wet_nurse_instill_virtue: "Instillare la Virtù"
   wet_nurse_instill_virtue_desc: "Questo personaggio sta insegnando ai bambini della corte quale tipo di comportamento ci si aspetta da loro."
   wet_nurse_instill_virtue_notification_desc: "[ROOT.Char.Custom('IT_NAM_COL3')!U][ROOT.Char.GetShortUIName] ha insegnato [child_character.Custom('IT_NAM_COL4')][child_character.GetShortUIName] come comportarsi da buon [notification_character.GetFaith.GetAdherentName]"
-  wet_nurse_instill_virtue_fallback_tt: "I [children|e] della [court|e] possono guadagnare un [trait|e] [virtuous|e] ogni mese"
+wet_nurse_instill_virtue_fallback_tt: "I [children|E] a [court|E] possono ottenere un [personality_trait|E] [virtuous|E] ogni mese"
   wet_nurse_promote_relationships: "Promuovere l'Amicizia"
   wet_nurse_promote_relationships_desc: "Questo personaggio ha il compito di garantire un ambiente sano in cui i bambini della corte possano crescere."
   wet_nurse_promote_relationships_fallback_tt: "I [children|e] della [court|e] possono guadagnare [opinion|E][opinion_i] l'uno verso l'altro, diventare [friends|e] o smettere di essere [bullies|e]"

@@ -322,3 +322,6 @@ game_concept_appointment_succession_law_desc: "In base alla $game_concept_appoin
 game_concept_appointment_level: "Livello di nomina"
 game_concept_appointment_levels: "Livelli di nomina"
 game_concept_appointment_level_desc: "Un $game_concept_appointment_level$ è impiegato da alcune [appointment_succession_laws|E] come requisito perché i [characters|E] diventino candidati idonei.\n\nI livelli si basano sul grado di una valuta specifica e ogni legge può usare una valuta diversa come requisito. Un [title|E] di rango superiore in genere richiede un livello più alto.\n\n#weak Per esempio: [GetLaw('celestial_appointment_succession_law').GetName] richiede [merit|E] - Un [duchy|E] richiede un [merit_level|E] di [GetModifier( 'merit_level_3' ).GetNameWithTooltip|L] o superiore, mentre un [kingdom|E] richiede [GetModifier( 'merit_level_5' ).GetNameWithTooltip|L] o superiore.#!"
+
+game_concept_seize_peripheral_duchy: "Conquistare Ducato Periferico"
+game_concept_seize_peripheral_duchy_desc: "Un [casus_belli|E] disponibile ai [rulers|E] confinanti con un [realm|E] governato da una [government_form|E] [government_bureaucratic_type|E].\n\nPermette all'attaccante di conquistare un [duchy|E] vicino che si trova al di fuori della gerarchia [de_jure|E] della capitale del difensore."

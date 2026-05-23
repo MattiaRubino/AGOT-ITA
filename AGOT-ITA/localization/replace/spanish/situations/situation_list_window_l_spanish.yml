@@ -3,13 +3,13 @@
   situation_tab_your: "Le tue situazioni"
   situation_tab_other: "Altre situazioni"
   SITUATION_LIST_WINDOW_HEADER: "Situazioni"
-SITUATION_LIST_WINDOW_HEADER_DESC: "Tutte le [situation_situations|E] e le [struggle_struggles|E] in corso"
+SITUATION_LIST_WINDOW_HEADER_DESC: "Tutte le [situation_situations|E], [struggle_struggles|E] e [story_cycles|E] in corso"
   SITUATION_LIST_GROUP_HEADER: "$NAME$ #weak ($SIZE$)#!"
   SITUATION_LIST_STRUGGLE_PHASE: "[struggle_phase|E] attuale: [Struggle.GetCurrentPhase.GetName]"
   SITUATION_LIST_SITUATION_PHASE: "[situation_phase|E] attuale: [Situation.GetTopCurrentPhase.GetName]"
 
   SITUATION_LIST_HUD_BUTTON: "#T Mostra tutte le situazioni#!"
-
+SITUATION_LIST_NO_SITUATIONS: "Non sei coinvolto in una [situation|E], [struggle|E] o [story_cycle|E]"
   SITUATION_LIST_EPIDEMICS: "Mostra le pestilenze"
 
 SITUATION_TOGGLE_VISIBLE_BUTTON_TT: "[SelectLocalization( IsSituationPriority( Situation.Self, 'visible' ), 'SITUATION_TOGGLE_VISIBLE_BUTTON_TT_ON', 'SITUATION_TOGGLE_VISIBLE_BUTTON_TT_OFF' )]"
@@ -23,3 +23,7 @@ STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_ON: "#T $STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEA
 STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_OFF: "#T $STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEADING$: #V Nascosto#!\n#!$STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_DESC$\n\n#I Fai clic per mostrare#!"
 STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_HEADING: "Scorciatoia per $game_concept_struggle$"
 STRUGGLE_TOGGLE_VISIBLE_BUTTON_TT_DESC: "Imposta se mostrare una scorciatoia per aprire [Struggle.GetNameNoTooltip]"
+
+situation_group_type_story_cycles: "Storie"
+SITUATION_LIST_STORY_CYCLE_ENTRY_TITLE: "[SituationItem.GetStoryCycle.GetName]"
+SITUATION_LIST_STORY_CYCLE_ENTRY_DESC: "[SituationItem.GetStoryCycle.GetDesc]"

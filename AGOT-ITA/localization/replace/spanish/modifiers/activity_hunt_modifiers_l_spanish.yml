@@ -137,7 +137,7 @@ tgp_hunt_burnt_local_crops_desc: "Questo personaggio ha incendiato i campi dei c
  hunt_left_in_trap_modifier_desc:0 "Questo personaggio è stato lasciato in una trappola di caccia molto più a lungo di quanto fosse utile per il suo benessere."
  
  hunt_punished_trappers_modifier:0 "Cacciatori puniti"
- hunt_punished_trappers_modifier_desc:0 "Le trappole da caccia dei contadini di questa contea hanno scatenato l'ira del suo proprietario."
+hunt_punished_trappers_modifier_desc: 0 "Le trappole da caccia dei contadini di questa contea hanno suscitato l'ira del suo proprietario."
  
  hunt_witch_suspicion_modifier:0 "Calunnie di stregoneria"
  hunt_witch_suspicion_modifier_desc:0 "L'interesse di questo personaggio per la natura ha sollevato dubbi sulla sua fedeltà al vero dio."
@@ -188,6 +188,7 @@ hunt_success_chance.chocolate_hills_01: "$building_type_chocolate_hills_01$ [bui
  hunt_success_chance.visegrad_castle_01: "[building|E] $building_type_visegrad_castle_01$" 
  hunt_success_chance.logging_camps:0 "[building|E] $building_type_logging_camps_01$"
  hunt_success_chance.royal_forest:0 "[building|E] $building_type_royal_forest_01$"
+hunt_success_chance.legendary_hunting_lodge: "$building_legendary_hunting_lodge$ [building|E]"
  hunt_success_chance.culture:0 "[culture_traditions|E] [ROOT.Activity.GetHost.GetCulture.GetName]"
  hunt_success_chance.events:0 "Eventi"
  hunt_success_chance.sighting:0 "[hunt_sighting_no_prefix|E] [ROOT.Activity.Custom('GetAnimalType')|U]"
@@ -200,3 +201,9 @@ hunt_success_chance.chocolate_hills_01: "$building_type_chocolate_hills_01$ [bui
  hunt_medicinal_herbs_modifier_desc:0 "$useful_herbs_desc$"
  hunt_poisonous_herbs_modifier:0 "$poisonous_plants$"
  hunt_poisonous_herbs_modifier_desc:0 "$poisonous_plants_desc$"
+
+hunt_carving_into_bark_modifier: "Amore Eterno"
+hunt_carving_into_bark_modifier_desc: "Questo personaggio ha inciso le iniziali della persona amata nella corteccia di un albero maestoso."
+
+hunt_ending_dog_suffering_modifier: "Amici Fino alla Fine"
+hunt_ending_dog_suffering_modifier_desc: "Questo personaggio ha preso la difficile decisione di porre fine alla vita del suo leale compagno, ormai in punto di morte."

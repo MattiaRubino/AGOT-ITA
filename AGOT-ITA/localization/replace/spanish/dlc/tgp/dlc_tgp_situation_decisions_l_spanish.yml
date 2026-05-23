@@ -9,7 +9,7 @@
   situation_dynastic_cycle_claim_mandate_decision_desc: "In mezzo a una [GetTitleByKey('h_china').GetNameNoTier] divisa, i Cieli non mancano mai di trovare chi sia degno del favore celeste, il prossimo a brandire il più alto dei Mandati.\n\nIl ciclo dinastico deve continuare e, dunque... #EMP io#! sono stato scelto dai Cieli!"
   situation_dynastic_cycle_claim_mandate_decision_confirm: "Afferma l’egemonia imperiale"
   situation_dynastic_cycle_claim_mandate_decision_county_percentage_tt: "Controlli almeno [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] delle [counties|E] [de_jure|E] di [GetTitleByKey('h_china').GetDefinitiveNamePossessive]"
-situation_dynastic_cycle_claim_mandate_decision_phase_tt: "Selezioni la [situation.GetName] [situation_situations_possessive|E] prossima [dynastic_cycle_era_type_stable|E]"
+situation_dynastic_cycle_claim_mandate_decision_phase_tt: "Selezioni il prossimo [dynastic_cycle_era_type_stable|E] di [situation.GetName]"
 
 situation_dynastic_cycle_claim_mandate_decision_tooltip: "Ottieni il [title|E] [GetTitleByKey('h_china').GetDefinitiveName|U] e fai passare il [GetSituation('dynastic_cycle').GetName] a [dynastic_cycle_era_type_stable|E]"
   claim_mandate_decision_county_percentage_tt: "#V Devi#! controllare almeno [SCOPE.ScriptValue('claim_mandate_china_county_percentage_value')|V%0] delle [counties|E] [de_jure|E] di [GetTitleByKey('h_china').GetDefinitiveName] #weak (Attuale: [SCOPE.ScriptValue('claim_mandate_china_control_percent_value')|0]%)#!"

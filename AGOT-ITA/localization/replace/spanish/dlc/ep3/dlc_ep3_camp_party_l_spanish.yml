@@ -55,10 +55,10 @@
  ep3_fireside_chat_modifier_3: "Conversazioni davanti al Focolare: La Cornocupia della Saggezza"
  ep3_fireside_chat_modifier_3_desc: "$ep3_fireside_chat_modifier_1_desc$"
 
- activity_camp_party_special_type_bar_segment_tt_0: "#t Vivace#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Riduzione del costo delle [provisions_i][provisions|E] dalla [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1#! anno"
- activity_camp_party_special_type_bar_segment_tt_1: "#t Allegra#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Guadagni una #positive_value piccola#! quantità di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclutamenti migliori dalla [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! anno\n$EFFECT_LIST_BULLET$Ottieni della [lifestyle_experience|E]"
- activity_camp_party_special_type_bar_segment_tt_2: "#t Gioiosa#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Guadagni una #positive_value media#! quantità di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclutamenti migliori dalla [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! anno\n$EFFECT_LIST_BULLET$Ottieni della [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$Ottieni un nuovo [task_contract|E]"
- activity_camp_party_special_type_bar_segment_tt_3: "#t Radiosa#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono  [stress|E]\n$EFFECT_LIST_BULLET$Guadagni una #positive_value grande#! quantità di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclutamenti migliori dalla [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! year\n$EFFECT_LIST_BULLET$Ottieni della [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$Ottieni #value 2#! nuovi [task_contracts|E]\n$EFFECT_LIST_BULLET$$activity_camp_party_reward_upgrade_building$"
+activity_camp_party_special_type_bar_segment_tt_0: "#t Vivace#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 25#!#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Riduzione dei costi in [provisions_i][provisions|E] da [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1#! anno"
+activity_camp_party_special_type_bar_segment_tt_1: "#t Allegra#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 50#!#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Ottieni una #positive_value piccola#! quantità di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclute migliori da [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! anno\n$EFFECT_LIST_BULLET$Ottieni [lifestyle_experience|E]"
+activity_camp_party_special_type_bar_segment_tt_2: "#t Gioiosa#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 75#!#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Ottieni una quantità #positive_value media#! di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclute migliori da [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! anno\n$EFFECT_LIST_BULLET$Ottieni [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$Ottieni un nuovo [task_contract|E]"
+activity_camp_party_special_type_bar_segment_tt_3: "#t Giubilante#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 100#!#!\n$EFFECT_LIST_BULLET$Tutti i partecipanti perdono [stress|E]\n$EFFECT_LIST_BULLET$Ottieni una #positive_value grande#! quantità di [provisions_i][provisions|E]\n$EFFECT_LIST_BULLET$Reclute migliori da [GetDecisionWithKey('visit_local_settlement_decision').GetName] per #value 1 #! anno\n$EFFECT_LIST_BULLET$Ottieni [lifestyle_experience|E]\n$EFFECT_LIST_BULLET$Ottieni #value 2#! nuovi [task_contracts|E]\n$EFFECT_LIST_BULLET$$activity_camp_party_reward_upgrade_building$"
  activity_camp_party_reward_upgrade_building: "Possibilità di migliorare un'[building|E] casuale del @landless_rulers_icon![camp|E] gratuitamente"
 
  camp_party_tt_positive_massive: "Il livello di Divertimento della tua [GetActivityType('activity_camp_party').GetName] #P aumenta notevolmente #!"
@@ -275,7 +275,7 @@ ep3_camp_party.1020.ending: "«Chiedo solo un riparo sicuro per la notte e un po
  ep3_camp_party.2000.vengeful: "la #EMP vendetta#! è un piatto che va servito freddo"
 
  #Opinion Modifiers
- camp_party_listened_to_me_opinion: "Mi Ha Ascoltato"
+camp_party_listened_to_me_opinion: "Mi Ha Ascoltato"
  camp_party_reveled_opinion: "Abbandonarsi ai Bagordi"
 
  ep3_camp_party.2100.t: "Chiacchierata Intorno al Fuoco"
@@ -328,8 +328,8 @@ ep3_fireside_chat_diplomacy_desc: "Questo personaggio ha appreso diverse frasi e
  ep3_fireside_chat_learning: "Chiacchierata Intorno al Fuoco: Apprendimento"
  ep3_fireside_chat_learning_desc: "Questo personaggio ha imparato molte cose sui misteri del cielo e della terra durante un'affascinante conversazione intorno al fuoco"
  ep3_camp_party_sad_lonesome: "Festa al Campo in Solitaria"
- ep3_camp_party_sad_lonesome_desc: "Questo personaggio ha organizzato una [activity_camp_party|E] solo per se stesso ed è ora perseguitato dal ricordo di una pesante solitudine"
+ep3_camp_party_sad_lonesome_desc: "Questo personaggio ha ospitato un [GetActivityType('activity_camp_party').GetName] solo per sé stesso ed è tormentato dal ricordo del silenzio inquieto della solitudine"
  ep3_camp_party_shadows_in_the_dark: "Spaventose Ombre nel Buio"
- ep3_camp_party_shadows_in_the_dark_desc: "Questo personaggio ha trascorso tutto solo la sua [activity_camp_party|E], stando seduto... immobile"
+ep3_camp_party_shadows_in_the_dark_desc: "Questo personaggio ha trascorso il proprio [GetActivityType('activity_camp_party').GetName] da solo, restando molto, molto immobile"
  camp_party_fortress_of_solitude: "Fortezza di Solitudine"
- camp_party_fortress_of_solitude_desc: "Questo personaggio ha organizzato una [activity_camp_party|E] solo per se stesso e ripensa con nostalgia al tranquillo silenzio della solitudine"
+camp_party_fortress_of_solitude_desc: "Questo personaggio ha ospitato un [GetActivityType('activity_camp_party').GetName] solo per sé stesso ed è riscaldato dal ricordo del pacifico silenzio della solitudine"

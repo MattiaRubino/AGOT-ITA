@@ -6,6 +6,12 @@
  secure_high_kingdom_north_sea_decision_confirm:0 "Un Alto Re, al di sopra di tutto!"
  secure_high_kingdom_north_sea_decision_solve_danelaw:0 "Il $k_danelaw$ attualmente possiede delle [counties|E] [de_jure|E], e per prima cosa l'$k_england$ deve essere riunificata."
  secure_high_kingdom_north_sea_scripted_effect.daneland_reabsorbed.tt:0 "Tutti i [duchies|E] che sono sotto il [Concept( 'completely_controlled' 'controllo completo' )|E] del $k_daneland$ devono essere [de_jure_drift_drifted|E] all'$k_england$"
+secure_high_kingdom_north_sea_scripted_effect: "Ottieni un [strong_hook|E] #weak (Lealtà)#! sui [powerful_vassals|E]"
+secure_high_kingdom_north_sea_custom_powerful_vassals: "Ogni [powerful_vassal|E]"
+secure_high_kingdom_denmark_held_years: "[temp_scope.GetName] detenuto per #V 10#! anni #weak (attualmente [SCOPE.ScriptValue('north_sea_held_value')|0V])#!"
+secure_high_kingdom_neustria: "Ottieni il [title|E] #V Regno di Neustria#!"
+secure_high_kingdom_custom_every_coastal: "Ogni [province|e] costiera"
+north_sea_kingdom_coastal_modifier: "Pax Nordica"
 
  found_capital_of_the_rus_decision:0 "Fonda la Capitale dei Rus'"
  found_capital_of_the_rus_decision_desc:0 "I norvegesi intraprendenti accorrono dalla Scandinavia e attraversano i fiumi dei feroci Slavi a Est. Anche se innumerevoli insediamenti e regni minori, sia Slavi che Norreni, si contendono il potere, solo #EMP uno#! sarà in grado di simboleggiare veramente l'unificazione dei due popoli..."

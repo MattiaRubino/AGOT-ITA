@@ -1,0 +1,36 @@
+﻿l_spanish:
+
+hunt_events_anna.0001.t: "Radici profonde"
+hunt_events_anna.0001.desc: "Una grande quercia si presenta con la sua maestosa chioma, che si estende in lungo e in largo — avvolgendo nell'oscurità tutto ciò che sta sotto. Guardare verso i suoi rami mi ricorda le varie dinastie che vengono e vanno. Tutti coloro che mi hanno preceduto, e coloro che porteranno avanti la mia eredità quando non ci sarò più.\n\nAvvicinandomi, noto diverse iniziali incise sulla corteccia, un gentile promemoria del fatto che le persone vanno e vengono attraverso le epoche. E la persona con cui vorrei tramandare la mia eredità è tutto per me: [love_interest.GetFirstName]."
+hunt_events_anna.0001.a: "Incidi le iniziali di [love_interest.GetFirstNameNoTooltip] nella corteccia"
+hunt_events_anna.0001.b: "Non c'è tempo per simili sciocchezze!"
+hunt_events_anna.0001.b.t_toast: "La caccia è la mia priorità principale."
+ 
+hunt_events_anna.0005.t: "Sotto la pelle"
+hunt_events_anna.0005.desc: "Il mio breve riposo viene interrotto da una risata beffarda che si avvicina nella mia direzione. Alzo lo sguardo e, con ben poca sorpresa, vengo accolto dall'ampio ghigno di [mocking_participant.GetFirstName], che stringe quello che sembra essere un [ROOT.Char.Custom('SmallAnimal')] morto.\n\n«Non ti ho mai ritenuto capace di sopravvivere da solo nelle terre selvagge, così ho pensato che un po' di pratica potesse farti comodo», dice [Select_CString(mocking_participant.IsFemale,'lei','lui')] con tono sprezzante, gettando la carcassa ai miei piedi."
+hunt_events_anna.0005.a: "Tenta di scuoiare l'animale."
+hunt_events_anna.0005.a.toast.good: "Sono riuscito a scuoiare l'animale"
+hunt_events_anna.0005.a.toast.nothing: "Quel che resta è indistinguibile"
+hunt_events_anna.0005.b: "Pratica? Non mi dispiace affatto..."
+hunt_events_anna.0005.c: "Non spetta a me svolgere un compito tanto umile."
+ 
+hunt_events_anna.0010.t: "Intrappolato là sotto"
+hunt_events_anna.0010.desc: "Con passi pesanti e instabili, seguo le tracce della mia preda attraverso [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')], concentrandomi sul mantenere il passo. Un secco schiocco mi risuona nelle orecchie. Sento una súbita assenza di peso e un profondo fremito mi si annida nello stomaco. La caduta si arresta, e un dolore bruciante mi attraversa il corpo per l'impatto.\n\nMentre mi guardo intorno a fatica, tutto ciò che vedo sono quattro pareti che mi circondano. Sono caduto in una trappola, e devo trovare un modo per risalire."
+hunt_events_anna.0010.a: "Arrampicati fuori dalla buca."
+hunt_events_anna.0010.a.desc.good: "Riesco ad arrampicarmi fuori"
+hunt_events_anna.0010.a.toast.good: "Riesco a sopportare il dolore e a uscire"
+hunt_events_anna.0010.a.toast.bad: "Inciampo ancora una volta e mi ferisco nel tentativo"
+hunt_events_anna.0010.a.desc.bad: "Scivolo e ricado nella buca"
+hunt_events_anna.0010.b: "«C'è qualcuno?!»"
+hunt_events_anna.0010.b.flavor: "La compagnia di caccia interrompe la battuta e viene invece ad aiutarmi."
+ 
+hunt_events_anna.0015.t: "Inspira... Espira"
+hunt_events_anna.0015.desc: "Strani tonfi, bassi mormorii e un sospiro occasionale riecheggiano nella radura. Una figura che impugna un arco cammina avanti e indietro, apparentemente frustrata per qualcosa.\n\nPer osservare meglio, mi nascondo dietro un albero e lancio una discreta occhiata. Vedo [Select_CString(child_with_bow.IsFemale,'mia','mio')] [child_with_bow.Custom('GetDaughterSon')] [child_with_bow.GetFirstName], circondat[Select_CString(child_with_bow.IsFemale,'a','o')] da alcune frecce sparse a terra, che raggiungono a malapena il bersaglio che [Select_CString(child_with_bow.IsFemale,'lei','lui')] ha sistemato. Sembra che [Select_CString(child_with_bow.IsFemale,'lei','lui')] possa trarre beneficio da un po' di guida."
+hunt_events_anna.0015.a: "«Ecco, lascia che ti mostri...»"
+hunt_events_anna.0015.a.flavor: "Essendo io stesso un abile cacciatore, dovrei poter usare la mia esperienza per insegnar[Select_CString(child_with_bow.IsFemale,'le','gli')] postura e precisione migliori."
+hunt_events_anna.0015.a.toast.good: "[child_with_bow.GetFirstNameNoTooltip] segue le mie istruzioni"
+hunt_events_anna.0015.a.toast.bad: "[child_with_bow.GetFirstNameNoTooltip] non capisce le mie istruzioni"
+hunt_events_anna.0015.b: "Mostra incoraggiamento facendo il tifo per [Select_CString(child_with_bow.IsFemale,'lei','lui')]."
+hunt_events_anna.0015.c: "Lascia che [child_with_bow.GetFirstNameNoTooltip] lo capisca da sé."
+hunt_events_anna.0015.c.toast: "[child_with_bow.GetFirstNameNoTooltip] trova il modo di maneggiare l'arco"
+ 

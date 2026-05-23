@@ -93,4 +93,5 @@ EP3_LAAMP_APPREHEND_ADVENTURER_CB_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', 
  ep3_laamp_peasant_war: "Rivolta Contadina"
  ep3_laamp_peasant_war.peasant_army: "I contadini di ogni contea si raduneranno come [levies|E] e si uniranno alla tua causa"
  ep3_join_war_payment_tt: "A causa del [task_contract|E] - [GetTaskContractType('laamp_join_war_contract').GetName]:"
- ep3_hire_laamp_mercs_payment_tt: "A causa del lavoro di [mercenary|E]:" 
+ep3_hire_laamp_mercs_payment_tt: "Poiché [TARGET_CHARACTER.GetShortUIName] ha completato il [CharYourHerHis( TARGET_CHARACTER )] contratto [mercenary|E]:"
+ep3_hire_laamp_mercs_payment_later_tt: "[THIS.Char.GetShortUIName|U], [adventurer|E] [mercenary|E], resterà nelle altre [wars|E] di [THIS.Char.MakeScope.Var('joined_as_mercenary').Char.GetShortUINamePossessive]"

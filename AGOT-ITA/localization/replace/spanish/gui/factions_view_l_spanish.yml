@@ -49,7 +49,7 @@ FACTION_CANT_LEAVE_NOT_PART: 0 "@warning_icon! #X Non è possibile lasciare una 
  FACTIONS_WINDOW_DISCONTENT_TO_WEAK:0 "Troppo debole per inviare un Ultimatum"
  FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN:0 "Vassalli che non possono unirsi alle Fazioni"
  FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION:1 "Puoi prevenire che un [vassal|E] si unisca ad una [faction|E] rendendolo tuo [friend|E], [lover|E], [prisoner|E], o [ally|E]. Evitera inoltre di entrare nelle Fazioni se è [cowed|E] o se hai un [strong_hook|E] su di lui."
- FACTIONS_WINDOW_FACTION_AT_WAR:0 "In guerra"
+FACTIONS_WINDOW_FACTION_AT_WAR: "In [war|E]! Devi avere almeno [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] [war_score|E] prima che questa Fazione si sciolga per vincere la Guerra."
  FACTION_WINDOW_MEMBER_SINGULAR:0 "$NUMBER|V$ Membri"
  FACTION_WINDOW_MEMBER_PLURAL:0 "$NUMBER|V$ Membri"
  FACTION_WINDOW_LEAVE:0 "Lascia"

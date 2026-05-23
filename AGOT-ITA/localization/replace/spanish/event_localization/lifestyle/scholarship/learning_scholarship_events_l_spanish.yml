@@ -47,6 +47,18 @@ learning_scholarship.1101.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|
  learning_scholarship.3001.c.toast.tt2:0 "[chaplain.GetFirstName] ha respinto le mie ragioni"
 
 # Translate a Great Work, by Petter Vilberg
+#story cycle loc
+book_translation_story: "Tradurre una Grande Opera"
+book_translation_story_desc: "Tradurre una grande opera permetterà ad altri di beneficiare della sua saggezza. Compiere questa ambiziosa impresa intellettuale sarà il riflesso del tuo brillante ingegno; fallire ti marchierà come un ottuso."
+TRANSLATION_STORY: "Stai traducendo [Story.GetOwner.Custom('TranslationBookLong')]"
+TRANSLATION_QUALITY: "Qualità della Traduzione"
+POOR_TRANSLATION: "Scarsa"
+EXCELLENT_TRANSLATION: "Eccellente"
+DURATION_LEFT: "Durata Rimanente"
+PROGRESS_TOWARDS_CYNICISM: "Progresso verso il Cinismo"
+CYNICISM: "Cinismo"
+ZEALOTRY: "Fanatismo"
+#event loc
  learning_scholarship_special.2001.t:0 "Una nuova traduzione"
  learning_scholarship_special.2001.desc:0 "Più di ogni altra cosa, questo mio voler essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] istruit[ROOT.Char.Custom('DE_END_PRO_S_N')] mi sta insegnando quanto ancora non so. In più, deve esserci cosi tanta conoscenza che è stata persa nei secoli, visto che i libri cadono a pezzi o le lingue vengono dimenticate...\n\nForse potrei contribuire facendo una nuova traduzione di una delle opere classiche?\n\nPensandoci, cosa potrei mai tradurre...?"
  learning_scholarship_special.2001.physica_elementa:0 "Un classico della scienza — la fisica di Aristotele!"

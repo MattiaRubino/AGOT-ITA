@@ -276,9 +276,6 @@
   domicile_building_parameter_gunpowder_limit_1: "Limite di reclutamento dei [men_at_arms|E] [gunpowder|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_1')|0]#!"
   domicile_building_parameter_gunpowder_limit_2: "Limite di reclutamento dei [men_at_arms|E] [gunpowder|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_2')|0]#!"
  
-  domicile_building_parameter_estate_increase_physician_aptitude_2: "[GetCourtPositionType('court_physician_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increase_physician_aptitude_2_value')|0]#!"
-  domicile_building_parameter_estate_increase_physician_aptitude_3: "[GetCourtPositionType('court_physician_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increase_physician_aptitude_3_value')|0]#!"
- 
   domicile_building_parameter_celestial_civilian_score_bonus_1: "[candidate_score|E] per [GetLaw('celestial_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_1_value')|=+0]"
   domicile_building_parameter_celestial_civilian_score_bonus_2: "[candidate_score|E] per [GetLaw('celestial_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_2_value')|=+0]"
   domicile_building_parameter_celestial_civilian_score_bonus_3: "[candidate_score|E] per [GetLaw('celestial_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_3_value')|=+0]"
@@ -288,11 +285,6 @@ domicile_building_parameter_meritocratic_civilian_score_bonus_1: "[candidate_sco
 domicile_building_parameter_meritocratic_civilian_score_bonus_2: "[candidate_score|E] per la [GetLaw('meritocratic_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_2_value')|=+0]"
 domicile_building_parameter_meritocratic_civilian_score_bonus_3: "[candidate_score|E] per la [GetLaw('meritocratic_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_3_value')|=+0]"
 domicile_building_parameter_meritocratic_civilian_score_bonus_4: "[candidate_score|E] per la [GetLaw('meritocratic_appointment_succession_law').GetName]: [EmptyScope.ScriptValue('celestial_civilian_score_bonus_4_value')|=+0]"
- 
-  domicile_building_parameter_estate_increased_tutor_aptitude_1: "[GetCourtPositionType('court_tutor_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increased_tutor_aptitude_1_value')|0]#!"
-  domicile_building_parameter_estate_increased_tutor_aptitude_2: "[GetCourtPositionType('court_tutor_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increased_tutor_aptitude_2_value')|0]#!"
-  domicile_building_parameter_estate_increased_tutor_aptitude_3: "[GetCourtPositionType('court_tutor_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increased_tutor_aptitude_3_value')|0]#!"
-  domicile_building_parameter_estate_increased_tutor_aptitude_4: "[GetCourtPositionType('court_tutor_court_position').GetName()] [aptitude|E]: #P +[EmptyScope.ScriptValue('estate_increased_tutor_aptitude_4_value')|0]#!"
  
   domicile_building_parameter_estate_reduced_tutor_cost_low: "[GetCourtPositionType('court_tutor_court_position').GetName()] Salary Cost: #P -[EmptyScope.ScriptValue('estate_court_tutor_cost_reduction_low_value')|0%]#!"
   domicile_building_parameter_estate_reduced_tutor_cost_high: "[GetCourtPositionType('court_tutor_court_position').GetName()] Salary Cost: #P -[EmptyScope.ScriptValue('estate_court_tutor_cost_reduction_high_value')|0%]#!"
@@ -366,7 +358,7 @@ domicile_building_parameter_meritocratic_military_score_bonus_4: "[candidate_sco
  # Various
   estate_buildings_with_value_desc: "[estate_buildings|E]: $VALUE|=+0$"
  
-  east_asian_estate_family_accomplishments_main_desc: "Tu o qualsiasi membro della [house|E] avete conseguito uno dei seguenti risultati:"
+east_asian_estate_family_accomplishments_main_desc: "Tu o qualsiasi membro della [house|E] dovete conseguire almeno uno dei seguenti risultati:"
   east_asian_estate_family_accomplishments_dynasty_desc: "$BULLET_WITH_TAB$Essere [son_of_heaven|E]"
   east_asian_estate_family_accomplishments_minister_desc: "$BULLET_WITH_TAB$Essere [minister_grand_chancellor|E]"
   east_asian_estate_family_accomplishments_grand_marshal_desc: "$BULLET_WITH_TAB$Essere [minister_grand_marshal|E]"

@@ -73,7 +73,7 @@ NOT_THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(T
  NUM_OF_RELATION_BEST_FRIEND_TRIGGER:1 "Il numero di [best_friend|E] è $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_CRUSH_TRIGGER:1 "Il numero di [crushes|E] è $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_SOULMATE_TRIGGER:1 "Il numero di [soulmates|E] è $COMPARATOR$ $NUM|V0$"
- HAS_RELATION_POSSIBLE_PARENT_OF_TARGET:0 "Potrebbe essere il [parent|E] di [TARGET_CHARACTER.GetName]"
+HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: 0 "Potrebbe essere il genitore di [TARGET_CHARACTER.GetShortUIName]"
  HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] fratelli di sangue"
 
  HAS_RELATION_NEMESIS_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [nemeses|E]"

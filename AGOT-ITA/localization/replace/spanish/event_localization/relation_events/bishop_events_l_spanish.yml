@@ -1,7 +1,9 @@
 ﻿l_spanish:
 
  bishop.1001.opening:0 "[bishop.Custom2('AppropriateGreeting', ROOT.Char)]"
- bishop.1001.desc:0 "È mio dovere informarvi che sono state svelate prove inconfutabili a dimostrazione che il vostro matrimonio con [spouse.GetTitledFirstName] è di natura consanguinea. Questa informazione rimarrà tra noi due se porrete fine a questa scellerata unione."
+bishop.1001.desc: 0 "È mio dovere informarti che sono emerse prove irrefutabili che dimostrano la natura consanguinea del tuo matrimonio con [spouse.Custom('IT_NAM_COL4')][spouse.GetTitledFirstName].\n\n"
+bishop.1001.desc.actually_incestuous: "Questa informazione resterà tra noi due se porrai immediatamente fine a questa unione empia."
+bishop.1001.desc.made_up: "Questa... informazione #EMP irrefutabile#! resterà tra noi due se porrai immediatamente fine a questa unione #EMP chiaramente#! empia."
  bishop.1001.a:0 "Certamente, [bishop.GetTitledFirstNameNoTooltip]."
  bishop.1001.a.tt:1 "@warning_icon! #X Divorzi da [spouse.GetUIName]#!"
  bishop.1001.b:0 "Il nostro matrimonio non sarà distrutto per colpa di una bugia così ovvia!"

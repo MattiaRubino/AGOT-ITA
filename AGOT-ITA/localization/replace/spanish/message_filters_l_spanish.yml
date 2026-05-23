@@ -113,6 +113,8 @@ message_filter_grandchild_born_desc: "Il tuo [child|E] genera o partorisce un fi
  message_filter_house_unity_stage_desc: "Il tuo [house_unity_level|E] cambia"
  message_filter_dynasty_child_of_age: "@dynasty_icon_alt! Maggiore Età" 
  message_filter_dynasty_child_of_age_desc: "Un [child|E] della tua [dynasty|E] raggiunge la maggiore età nella tua [court|E]"
+message_filter_child_of_age: "@child_icon! Tuo Figlio Diventa Maggiorenne"
+message_filter_child_of_age_desc: "Uno dei tuoi [children|E] diventa maggiorenne"
  # DEATH
  message_filter_death_family: "@death_icon! Morte in Famiglia"
  message_filter_death_family_desc: "Un membro della tua [close_family|E] è morto"
@@ -305,6 +307,10 @@ message_filter_scheme_completion_desc: "Un [scheme|E] completa una [scheme_phase
  message_filter_accolade_rank_desc: "Un [accolade|E] di tua proprietà cambia Rango"
  message_filter_accolade_succession: "@accolade_icon! Successione del Cavaliere"
  message_filter_accolade_succession_desc: "Il tuo [acclaimed_knight|E] cambia"
+message_filter_accolade_eligibility: "@accolade_icon! Cavaliere idoneo a un [accolade_type|E]"
+message_filter_accolade_eligibility_desc: "A un [knight|E] può essere concesso un [accolade|E] con un nuovo [accolade_type|E]"
+message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E] ha addestrato uno Scudiero"
+message_filter_squire_training_desc: "Le [skills|E] di un [courtier|E] sono migliorate grazie all'Attitudine degli [accolade_squires|E] di un [accolade|E]"
  # ACTIVITY
  message_filter_tournament_arrival: "@tournament_icon! Arrivo di un Governante"
  message_filter_tournament_arrival_desc: "Un [ruler|E] importante arriva come [activity_guest|E] al/alla tuo/a [GetActivityType( 'activity_tournament' ).GetName]"

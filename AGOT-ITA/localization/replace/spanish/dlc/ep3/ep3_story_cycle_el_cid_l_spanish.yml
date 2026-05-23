@@ -121,6 +121,14 @@
  cid.4010.c.flavor: "#EMP Per amore [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstNameNoTooltip] che mi aveva esiliato.#!"
  
  cid.5000.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)],"
- cid.5000.desc: "Vi comunico, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] buon[ROOT.Char.Custom('DE_PRO_POS_P_2P')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')] che [Select_CString(liege.IsFemale,'la vostra legittima Signora','il vostro legittimo Signore')], [ROOT.Char.MakeScope.Var('cid_liege').GetCharacter.GetTitledFirstName], è mort[liege.Custom('DE_END_PRO_S_N')].\n\nQualsiasi problema abbiate avuto con [ROOT.Char.MakeScope.Var('cid_liege').GetCharacter.GetSheHe], non ha alcuna importanza per me."
+cid.5000.desc: "Una parola per te, mio buon [ROOT.Char.GetLadyLord]: [el_cid_story.MakeScope.Var('cid_liege').GetCharacter.Custom('IT_NAM_COL3')][el_cid_story.MakeScope.Var('cid_liege').GetCharacter.GetTitledFirstName], tuo legittimo signore, è decedut[Select_CString(el_cid_story.MakeScope.Var('cid_liege').GetCharacter.IsFemale,'a','o')].\n\nQualunque questione tu avessi con [Select_CString(el_cid_story.MakeScope.Var('cid_liege').GetCharacter.IsFemale,'lei','lui')] non ha alcuna importanza per me."
  cid.5000.a: "Credo che questo risolva la questione."
  
+story_el_cid: "[Concept( 'story_content_el_cid', 'Il Cantar del Cid' )|E]"
+story_el_cid_desc: "Ingiustamente esiliato dal tuo amico e signore, Sancho II di Castiglia, dopo una guerra con Alfonso VI, ora parti per dare inizio alla tua leggenda. Forgerai la tua strada o resterai leale?"
+CID_LIEGE: "Il tuo Signore Informale"
+EL_CID_CUSTOM_STRING_KEY: "Nel corso dei tuoi viaggi, potrai dimostrare la tua [Concept( 'cid_loyalty', 'Lealtà' )|E] a [Story.MakeScope.Var('cid_liege').Char.GetShortUIName], che alla fine potrebbe offrirti terre come [vassal|E].\n\nPuoi anche forgiare la tua strada impegnandoti in [wars|E] in [GetGeographicalRegion('world_europe_west_iberia').GetName]. Questo potrebbe ricompensarti con le tue spade storiche e offrirti un'occasione alternativa per ottenere terre."
+EL_LOYALTY_COUNTER_TOOLTIP: "Valore attuale della [Concept( 'cid_loyalty', 'Lealtà' )|E]: [Story.MakeScope.Var('cid_loyalty_counter').GetValue|V0]"
+cid_loyalty_counter_label: "[Concept( 'cid_loyalty', 'Lealtà' )|E]"
+CID_LOYALTY_MIN_LABEL: "#difficulty_hard Sleale#!"
+CID_LOYALTY_MAX_LABEL: "#difficulty_easy Leale#!"

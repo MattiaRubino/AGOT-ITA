@@ -140,7 +140,7 @@
  game_concept_strong_vassals:0 "Vassalli Potenti"
  game_concept_strong_vassal_desc:0 "Un $game_concept_strong_vassal$ è un [vassal|E] che si avvicina o supera il proprio [liege|E] in potere, incorrendo in una penalità di [opinion|E]. #weak Vedono il loro signore come debole e inadatto a regnare il reame.#!"
  game_concept_domain_limit:0 "Limite del Dominio"
- game_concept_domain_limit_desc:0 "Il $game_concept_domain_limit$ determina quanti [holdings|E] puoi detenere legalmente nel tuo [domain|E]. Il $game_concept_domain_limit$ è condizionato da molte cose, come ad esempio la tua [stewardship_skill|E], la [succession_law|E] e il livello del tuo [primary_title|E].\n\nSebbene tu possa andare oltre il tuo $game_concept_domain_limit$, fare ciò ridurrà le tue [income|E] e le [opinions|E] dei tuoi [vassals|E] ."
+game_concept_domain_limit_desc: 0 "Il $game_concept_domain_limit$ determina quante [holdings|E] puoi legalmente possedere nel tuo [domain|E]. Il $game_concept_domain_limit$ è influenzato da molti fattori, come la tua [succession_law|E] e il rango del tuo [primary_title|E].\n\nSebbene tu possa superare il tuo $game_concept_domain_limit$, farlo ridurrà il tuo [income|E] e le [opinions|E] dei [vassal|E]."
  game_concept_vassal_limit:0 "Limite dei Vassalli"
  game_concept_vassal_limit_desc:2 "Il $game_concept_vassal_limit$ determina quanti [direct_vassals|E] tu possa avere legalmente (escludendo i vassalli del livello-[barony|E]).\n\nSebbene tu possa andare oltre il tuo $game_concept_vassal_limit$, fare ciò ridurrà le [taxes|E] e le [levies|E] che ricevi dai tuoi vassalli, e potrebbe essere meglio eseguire il [transferring|E] di alcuni vassalli per rimanere sotto il limite."
  game_concept_leasing:0 "Affitto"
@@ -160,7 +160,7 @@
  game_concept_primary_heir_possessive: "Erede Primario"
  game_concept_primary_heir_desc:0 "L'$game_concept_primary_heir$ è il personaggio che erediterà il [primary_title|E] di un [ruler|E] alla [succession|E]. Questo è di solito — ma non sempre — lo stesso personaggio che è l' [player_heir|E]."
  game_concept_player_heir:0 "Erede"
- game_concept_player_heir_desc:0 "L' $game_concept_player_heir$ è il personaggio con cui un giocatore continuerà a giocare al momento della [succession|E].\n\nL'$game_concept_player_heir$ è di solito lo stesso dell'[primary_heir|E], ma se la [succession_law|E] del tuo [primary_title|E] determina che esso debba andare ad un personaggio al di fuori della tua [dynasty|E], continuerai a giocare come l'erede dinastico del tuo secondo titolo più alto (o terzo, quarto, ecc.).\n\nQuesta situazione è comune quando il tuo $game_concept_player_heir$ è votato all'interno di una legge di successione elettiva."
+game_concept_player_heir_desc: "Il $game_concept_player_heir$ è l'[heir|E] con cui un giocatore continuerà a giocare alla [succession|E].\n\nIl $game_concept_player_heir$ di solito coincide con il [primary_heir|E], ma se la [succession_law|E] del tuo [primary_title|E] stabilisce che esso debba passare a un personaggio esterno alla tua [dynasty|E], continuerai invece a giocare come erede dinastico del tuo secondo titolo di rango più alto (o del terzo, quarto, ecc.).\n\nQuesta situazione è comune quando il tuo $game_concept_player_heir$ viene escluso dal voto in base a una Legge di Successione Elettiva. Se sei [house_head|E] di una [noble_family|E] in un [realm|E] [administrative|E], potresti perdere il tuo Reame a favore di Eredi Primari esterni alla tua [house|E], ma conservare il tuo Titolo di Famiglia Nobile."
  game_concept_title_heir:0 "Erede del Titolo"
  game_concept_title_heirs:0 "Eredi del Titolo"
  game_concept_title_heir_desc:0 "L'erede del titolo è l'[heir|E] di uno specifico [title|E] con la sua [title_succession|E]. Riceverà quel Titolo quando l'attuale [holder|E] morirà."
@@ -217,7 +217,7 @@ game_concept_succession_law_desc: 2 "Ogni [ruler|E] ha una Legge di Successione 
  game_concept_opinion_desc:1 "Ogni Personaggio ha un'$game_concept_opinion$ unidirezionale di ogni altro Personaggio, rappresentata da un valore che va da #N -100#! a #P +100#!.\n\nL'opinione che un altro personaggio ha di te è di cruciale importanza, poiché essa guiderà il loro comportamento!\n\nDovresti stare specialmente attento alle Opinioni dei tuoi [powerful_vassals|E], del [spymaster|E] e del tuo [spouse|E]."
  game_concept_faction:0 "Fazione"
  game_concept_factions:0 "Fazioni"
- game_concept_faction_desc:0 "Una $game_concept_faction$ è un gruppo di [vassals|E] con interessi politici in comune. La popolazione locale delle [counties|E] può inoltre prendere parte a determinati tipi di Fazioni, come la Fazione dei Contadini.\n\nLe fazioni possono diventare pericolose una volta che il loro [faction_discontent|E] raggiunge un certo punto, nel quale invieranno un ultimatum.\n\nSe il [liege|E] non accetta, la Fazione insorgerà in rivolta, scatenando una [civil_war|E]."
+game_concept_faction_desc: "Una $game_concept_faction$ è un gruppo di [vassals|E] con interessi politici comuni. Anche la popolazione locale delle [counties|E] può unirsi ad alcuni tipi di Fazioni, come la Fazione Contadina.\n\nLe Fazioni diventano pericolose quando il loro [faction_discontent|E] raggiunge un certo punto, momento in cui presenteranno un ultimatum.\n\nSe il [liege|E] non si conforma, la Fazione insorgerà in rivolta, scatenando una [civil_war|E]. Se la Fazione si scioglie, il Signore deve avere almeno [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] [war_score|E] per vincere la Guerra."
  game_concept_faction_discontent:0 "Malcontento"
  game_concept_discontent:0 "Malcontento"
  game_concept_faction_discontent_desc:1 "Il $game_concept_faction_discontent$ è una misura di quanto sia vicina una [faction|E] ad inviare un ultimatum.\n\nSe il [military_power|E] di una fazione è alla soglia, il malcontento crescerà ogni mese. Se il Potere Militare è al di sotto della soglia, il Malcontento decrescerà. Le fazioni molto potenti avranno il loro malcontento in rapida crescita."
@@ -672,6 +672,7 @@ game_concept_barters: "Baratti"
  game_concept_occupation:0 "Occupazione"
  game_concept_occupations:0 "Occupazioni"
  game_concept_occupy:0 "Occupa"
+game_concept_occupies: "Occupa"
  game_concept_occupying:0 "Occupando"
  game_concept_occupied:0 "Occupato"
  game_concept_occupation_desc:0 "Gli [holdings|E] occupati sono temporaneamente sotto il controllo di un [ruler|E] ostile durante una [war|E]. Un [army|E] che si trova in una [barony|E] con un [fortified_holding|E] ostile inizierà ad [Concept( 'besiege','assediarlo' )|E] se il numero di [soldiers|E] nell'esercito è più numerosa della [garrison|E].\n\nSe l'assedio ha successo, il possedimento risulterà occupato, il che aumenta il [Concept( 'war_score', 'Punteggio di Guerra' )|E] dell'occupante nella [war|E].\n\nOccupare un Insediamento non significa ora che sia tuo! Solo il territorio specificato dall'[war_target|E] può effettivamente passare di mano, e solo se l'Attaccante [Concept( 'wins', 'vince' )|E]."
@@ -701,7 +702,7 @@ game_concept_barters: "Baratti"
  game_concept_assault_desc:0 "Un Assalto è quando un [army|E] [Concept( 'besieging', 'assediante' )|E] cerca di espugnare una [fortified_holding|E] rischiando di perdere una grande quantità di [soldiers|E]. Gli Assalti possono essere tentati solo se le mura della Fortezza hanno una breccia, la quale richiedete che l'Esercito abbia delle [siege_weapons|E]."
  game_concept_fort_level:0 "Livello del Forte"
  game_concept_fort_level_i:0 "@fort_icon!"
- game_concept_fort_level_desc:0 "Alcuni [holdings|E] sono fortificati e richiedono di essere [Concept( 'besieged', 'assediati' )|E] e [Concept( 'occupied', 'occupati' )|E] per poter guadagnare il controllo della [county|E].\n\nIl $game_concept_fort_level$ di tali [fortified_holdings|E] determina quanto a lungo l'Assedio potrebbe durare.\n\nUn $game_concept_fort_level$ alto richiederà [siege_weapons|E] per poter essere assediato efficacemente, sebbene ogni Arma d'Assedio sia efficace solo fino ad un certo Livello del Forte."
+game_concept_fort_level_desc: "Alcune [holdings|E] sono fortificate e devono essere [besieged|E] e [occupied|E] per ottenere il controllo della [county|E].\n\nIl $game_concept_fort_level$ di tali [fortified_holdings|E] determina quanto a lungo ci si può aspettare che duri l'Assedio.\n\nUn $game_concept_fort_level$ elevato richiederà [siege_weapons|E] per essere $game_concept_besieged$ efficientemente, sebbene ogni Arma d'Assedio sia efficace solo fino a un certo Livello del Forte.\n\nAumentare il Livello del Forte di un Possedimento non fortificato non ha alcun effetto."
  game_concept_garrison:0 "Guarnigione"
  game_concept_garrison_desc:2 "La $game_concept_garrison$ di un [fortified_holding|E] lo protegge dall'essere [besieged|E] dai piccoli [armies|E].\n\nL'Esercito Assediante ha bisogno di avere più [soldiers|E] della Guarnigione affinché l'Assedio prosegua.\n\nQuando viene perso un [siege|E], la $game_concept_garrison$ è impostata a [GetDefine('NDomain', 'HOLDING_MIN_GARRISON_COUNT')|0]. Da quel momento in poi, la guarnigione si ripristina ogni mese in base ai [garrison_reinforcement|E] fino a che non raggiunge la sua capacità massima.\n\nQuando inizia un [siege|E], l'equipaggiamento della guarnigione condiziona l'ammontare richiesto per il [siege_progress|E]."
  game_concept_garrison_reinforcement:0 "Tasso di Accrescimento della Guarnigione"
@@ -763,7 +764,7 @@ game_concept_barters: "Baratti"
  game_concept_stewardship:0 "Amministrazione"
  game_concept_stewardship_i:0 "@skill_stewardship_icon!"
  game_concept_stewardship_skill:0 "Abilità Amministrativa"
- game_concept_stewardship_skill_desc:1 "L'$game_concept_stewardship$ è una [skill|E] che aiuta i [rulers|E] a gestire i propri [domains|E]. Essa aumenta direttamente la [taxation|E], rendendola una abilità molto utile per tutti i governanti.\n\nIl corrispondente [lifestyle|E] è lo [stewardship_lifestyle|E]. Ogni [GetDefine('NDomain', 'STEWARDSHIP_SKILL_FOR_DOMAIN_LIMIT_INCREASE')] punti di Amministrazione fanno salire il [domain_limit|E] di 1."
+game_concept_stewardship_skill_desc: 1 "$game_concept_stewardship$ è una [skill|E] che aiuta i [rulers|E] a gestire i propri [domains|E]. Aumenta direttamente la [taxation|E], rendendola un'abilità molto utile per tutti i governanti.\n\nIl [lifestyle|E] corrispondente è lo [stewardship_lifestyle|E]."
  game_concept_intrigue:0 "Intrigo"
  game_concept_intrigue_i:0 "@skill_intrigue_icon!"
  game_concept_intrigue_skill:0 "Abilità d'Intrigo"
@@ -1972,10 +1973,11 @@ game_concept_command_modifiers: "Modificatori al comando"
  game_concept_physical_trait_desc:1 "Un [trait|E] che descrive l'aspetto fisico, legato all'apparenza o al comportamento, e al livello di intelletto che ha un personaggio. Molte caratteristiche fisiche condizionano quanto siano [Concept( 'attracted', 'attratti' )|E] da lui gli altri personaggi.\n\nQuesto tratto è spesso [congenital|E], pertanto è ottenuto alla nascita ed è permanente."
 
  game_concept_fame_trait:0 "Tratto della Fama"
+game_concept_fame_traits: 0 "Tratti di Fama"
  game_concept_fame_trait_desc:1 "Un $game_concept_fame_trait$ è un [trait|E] speciale ottenuto tramite specifiche circostanze e che condiziona l'[opinion|E] degli altri. Si possono ottenere questi tratti come risultato di un'azione positiva, o quando i [secrets|E] oscuri di qualcuno vengono esposti. Oppure come risultato delle circostanze della nascita di qualcuno."
 
  game_concept_health_trait:0 "Tratto della Salute"
- game_concept_health_trait_desc:1 "Un $game_concept_health_trait$ è un [trait|E] che condiziona direttamente la [health|E] mentale e fisica di qualcuno, come ad esempio le [diseases|E]. Rientrano in questa categoria anche i tratti temporanei che influiscono sulle capacità corporee, come le gravidanze e le ferite."
+game_concept_health_trait_desc: 1 "Un $game_concept_health_trait$ è un [trait|E] che influenza direttamente la [health|E] fisica e mentale di un individuo, come le [diseases|E]. Anche i tratti temporanei che influenzano le capacità corporee, come gravidanze e ferite, rientrano in questa categoria.\n\nI [characters|E] anziani possono ottenere [Concept( 'elder_traits', 'Tratti da Anziano' )|E]."
 
  game_concept_modifier_contribution:0 "Contributo"
  game_concept_modifier_contributions:0 "Contributi"
@@ -2000,8 +2002,8 @@ game_concept_command_modifiers: "Modificatori al comando"
  game_concept_personalities:0 "Personalità"
  game_concept_personality_desc:1 "I Personaggi agiranno contro di te e contro gli altri in base alla loro Personalità, che è principalmente determinata dai loro [personality_traits|E]."
  
- game_concept_economical_archetype:0 "Archetipo Economico"
- game_concept_economical_archetype_desc:0 "L'Archetipo Economico di un [ruler|E] influenza il modo in cui egli decide di spendere il proprio [gold_i][gold|E]. Esso è in larga parte basato sui loro [traits|E].\n\n#low Gli Archetipi Economici sono:#!\n$EFFECT_LIST_BULLET$[ai_warlike_personality|E]\n$EFFECT_LIST_BULLET$[ai_cautious_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_boom_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_unpredictable_personality|E]\n$EFFECT_LIST_BULLET$[ai_conqueror_personality|E]"
+game_concept_economical_archetype: 0 "Archetipo Economico"
+game_concept_economical_archetype_desc: 0 "L'Archetipo Economico di un [rulerpossessive|E] influenza il modo in cui decide di spendere il proprio [gold_i][gold|E]. Si basa in larga parte sui suoi [traits|E].\n\n#low Gli Archetipi Economici sono:#!\n$EFFECT_LIST_BULLET$[ai_warlike_personality|E]\n$EFFECT_LIST_BULLET$[ai_cautious_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_boom_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_unpredictable_personality|E]\n$EFFECT_LIST_BULLET$[ai_conqueror_personality|E]"
  
  game_concept_gift:0 "Dono"
  game_concept_gifts:0 "Doni"
@@ -2408,12 +2410,12 @@ game_concept_ai_conqueror_personality_desc: "Un $game_concept_ai_conqueror_perso
  game_concept_ai_economical_boom_personality:0 "Costruttore"
 game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economical_boom_personality$ vuole investire tutto il proprio [gold|E] nel [realm|E]. Svuoterà la tesoreria per finanziare [buildings|E] e [men_at_arms|E] e spesso costruirà più [economic_buildings|E] e [holdings|E]. Accumula oro solo se minacciato direttamente, per esempio da una [faction|E] forte.\n\nI $game_concept_ai_economical_boom_personality$ sono leggermente meno inclini a creare e promuovere [legends|E].\n\nSovrani audaci con propensione all’edilizia e senza particolare inclinazione alla [war|E] tendono a essere $game_concept_ai_economical_boom_personality$.\nTratti comuni includono [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('diligent').GetName( GetNullCharacter )], [GetTrait('generous').GetName( GetNullCharacter )], [GetTrait('stubborn').GetName( GetNullCharacter )] e [GetTrait('profligate').GetName( GetNullCharacter )]. I sovrani con [GetFocus('stewardship_domain_focus').GetName] tendono anch’essi a essere $game_concept_ai_economical_boom_personality$."
  game_concept_ai_economical_unpredictable_personality:0 "Imprevedibile"
- game_concept_ai_economical_unpredictable_personality_desc:0 "Un [ruler|E] $game_concept_ai_economical_unpredictable_personality$ non ha [traits|E] che lo spingono verso uno specifico Archetipo Economico e può decidere qualsiasi strategia.\n\nPuò scegliere di investire temporaneamente e massicciamente negli [buildings|E] come [ai_economical_boom_personality|E], o costruire il loro [realm|E] lentamente con un gruzzolo d'[gold|E]. Va in [war|E] a un ritmo regolare."
+game_concept_ai_economical_unpredictable_personality_desc: "Un [ruler|E] $game_concept_ai_economical_unpredictable_personality$ non possiede [traits|E] che lo spingano verso uno specifico Archetipo Economico e può scegliere qualsiasi strategia.\n\nPuò decidere di investire temporaneamente molto nei [buildings|E] come una [ai_economical_boom_personality|E], oppure sviluppare lentamente il proprio [realm|E] mantenendo una riserva di [gold|E]. Va in [war|E] a un ritmo regolare."
 
  game_concept_trait_level_track:1 "Percorso del Tratto"
- game_concept_trait_level_track_desc:1 "Alcuni [traits|E] offrono diversi percorsi, ognuno dei quali migliorerà il Tratto in modi differenti.\n\nGuadagnare [trait_level_track_xp|E] è necessario per avanzare lungo un percorso."
+game_concept_trait_level_track_desc: 1 "Alcuni [traits|E] offrono vari percorsi, ciascuno dei quali modificherà il Tratto in modi diversi.\n\nOttenere [trait_level_track_xp|E] è necessario per avanzare lungo un percorso."
  game_concept_trait_level_track_xp:1 "Esperienza del Tratto"
- game_concept_trait_level_track_xp_desc:1 "L'esperienza è necessaria per poter avanzare di [trait_level_track|E] e migliorare i benefici che il [trait|E] fornisce. "
+game_concept_trait_level_track_xp_desc: 1 "È necessaria esperienza per avanzare lungo una [trait_level_track|E] e modificare i bonus forniti dal [trait|E]."
  
  game_concept_hunt_sighting:0 "Avvistamento di Caccia"
  game_concept_hunt_sightings:0 "Avvistamenti di Caccia"
@@ -2469,22 +2471,32 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
  game_concept_taxation_tour_desc:0 "Un [tour_type|E] in cui cerchi di ricavare della ricchezza dai tuoi [vassals|E], guadagnando dell'[gold|E]."
 
  game_concept_accolade:0 "Encomio"
+game_concept_accolade_possessive: "dell'Encomio"
  game_concept_accolades:0 "Encomi"
+game_concept_acclaimed: "Acclamato"
+game_concept_accolade_desc: 5 "Gli Encomi sono onori concessi ai [knights|E] dal loro [liege|E].\n\nIl Cavaliere che detiene un Encomio diventa un [acclaimed_knight|E].\n\nMan mano che il Cavaliere Acclamato ottiene [glory|E], l'Attitudine dei suoi [accolade_squires|E] aumenta (migliorando la [accolade_succession|E]) e può ottenere [accolade_ranks|E]. Questi permettono di sbloccare più [accolade_types|E], offrendo bonus più potenti.\n\nQuando un Cavaliere Acclamato muore, avviene la [accolade_succession|E] e il cavaliere viene immediatamente sostituito da un successore le cui abilità sono modificate dall'Attitudine degli [accolade_squires|E].\n\nLe [innovations|e] e i [title_tiers|e] più alti consentono ai [rulers|E] di possedere più Encomi contemporaneamente."
 
+game_concept_acclaimed_knight_possessive: "del Cavaliere Acclamato"
+game_concept_acclaimed_knight_desc: 1 "Il [knight|E] che detiene un [accolade|E].\n\nPer essere un Cavaliere Acclamato, un Cavaliere deve essere [unlanded|E] o un [baron|E], con almeno [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V] o più [prowess|E]. Un Cavaliere Acclamato deve essere idoneo ad almeno un [accolade_type|E] che non sia già posseduto da un altro dei Cavalieri Acclamati del suo [liege|e].\n\nI Cavalieri Acclamati hanno meno probabilità di essere uccisi o fatti prigionieri in battaglia. Possono migliorare la loro [glory|E] principalmente combattendo [wars|E] e partecipando ad [activities|E] come [GetActivityType( 'activity_tournament' ).GetName].\n\nI Cavalieri Acclamati possono talvolta ottenere [skills|E] e [traits|E] legati agli Attributi del loro Encomio"
 
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
+game_concept_accolade_type_desc: 1 "Un [accolade|E] possiede fino a #value 3#! Attributi, che forniscono bonus crescenti man mano che vengono sbloccati i loro livelli superiori. Ogni Attributo ha #value 3#! Livelli. Quando un Encomio aumenta il proprio [accolade_rank|E], il suo proprietario può aumentare il livello di un Attributo esistente oppure aggiungere un nuovo Attributo all'Encomio. Tuttavia, l'[acclaimed_knight|E] deve soddisfare i requisiti di qualsiasi nuovo Attributo.\n\nOgni [knight|E] è idoneo solo a determinati Attributi, che possono basarsi su [traits|E], [skills|E] o sblocchi esperienziali ottenuti servendo come Cavaliere.\n\nOgni Encomio deve avere Attributi unici: un Signore #high non può#! duplicare Attributi tra Encomi. Ogni Encomio può inoltre specializzarsi in un solo Attributo di tipo [men_at_arms|E], fino a #value 1#!."
 
  game_concept_accolade_succession:0 "Successione dell'Encomio"
+game_concept_accolade_succession_desc: 1 "La Successione dell'Encomio avviene quando l'[acclaimed_knight|e] di un [accolade_possessive|E] muore o diventa non valido.\n\nIl precedente Cavaliere Acclamato viene immediatamente sostituito. I giovani [courtiers|E] e [knights|E] addestrati grazie all'Attitudine degli [accolade_squires|E] dell'Encomio sono favoriti per primi come Successori; poi altri cavalieri, altri cortigiani, vagabondi e infine [characters|E] appena creati. In base all'Attitudine degli [accolade_squires|E] dell'Encomio, il nuovo Cavaliere riceverà maggiore [prowess_skill|E], [martial_skill|E], [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )] e forse altre [skills|E].\n\nDopo la Successione dell'Encomio, può andare perduta una piccola quantità di [glory|E] e l'Attitudine degli Scudieri dell'Encomio viene reimpostata per riflettere le abilità e l'esperienza del suo nuovo Cavaliere Acclamato\n\nLa morte del Cavaliere Acclamato in battaglia, in duello o in altro modo onorevole annullerà la perdita di Gloria e migliorerà gli Scudieri dell'Encomio."
 
  game_concept_accolade_rank:0 "Rango dell'Encomio"
  game_concept_accolade_ranks:0 "Ranghi dell'Encomio"
  game_concept_accolade_rank_short:0 "Rango"
- game_concept_accolade_rank_desc:1 "Un [accolade|e] ha #value 6#! gradi progressivi che sbloccano dei vantaggi specifici per quello specifico [accolade_types|e], come ad esempio i [knight_army_modifiers|e].\n\nGuadagnare [glory|E] sblocca ciascun rango, mentre la perdita di gloria può farli perdere.\n\nI gradi dispari sono forniti dall'attributo Primario dell'encomio, quelli pari dal Secondario."
-
- game_concept_inactive_accolade:0 "Encomio Inattivo"
+game_concept_accolade_rank_desc: 1 "Un [accolade|e] possiede #value 6#! Ranghi progressivi che permettono al suo proprietario di sbloccare e migliorare i bonus degli [accolade_type|e], come i [knight_army_modifiers|e].\n\nOttenere [glory|E] sblocca ciascun Rango, mentre perdere Gloria può farli decadere. Quando un Encomio perde un Rango, un livello di un [accolade_type|E] viene disabilitato. Recuperare il Rango ripristinerà l'Attributo e il suo bonus."
 
  game_concept_glory:0 "Gloria"
+game_concept_glory_desc: 1 "La Gloria di un [accolade_possessive|E] aumenta il suo [accolade_rank|E].\n\nLa Gloria viene ottenuta dall'[acclaimed_knight|E] vincendo [battles|E], sconfiggendo guerrieri, gareggiando nei [contests|E] di [GetActivityType( 'activity_tournament' ).GetName] e partecipando ad [activities|E].\n\nTuttavia, la Gloria dell'Encomio diminuisce quando il Cavaliere Acclamato è coinvolto in battaglie perse, e può anche ridursi alla [accolade_succession|E] se il Cavaliere Acclamato non è morto in battaglia, in duello o in qualche altro modo onorevole."
+
+game_concept_accolade_squires: "Scudieri"
+game_concept_accolade_squire: "Scudiero"
+game_concept_accolade_squires_desc: "Ogni [accolade|E] possiede un indicatore di Attitudine degli Scudieri, che modifica i [traits|E] e le [skills|E] (principalmente [prowess_skill|E], [martial_skill|E] e la [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )]) del suo prossimo [acclaimed_knight|E].\n\nEsistono 5 livelli di Attitudine per gli Scudieri:\n$EFFECT_LIST_BULLET$Compiuta\n$EFFECT_LIST_BULLET$Capace\n$EFFECT_LIST_BULLET$Inesperta\n$EFFECT_LIST_BULLET$Inetta\n$EFFECT_LIST_BULLET$Patetica\n\nAvere un'Attitudine Inesperta o superiore farà sì che il Cavaliere Acclamato influenzi sporadicamente i [traits|E] e le [skills|E] dei giovani [courtiers|E] di genere marziale, dando loro priorità nell'assumere l'Encomio al momento della [accolade_succession|E]\n\nGli Scudieri migliorano principalmente tramite il guadagno di [glory|E], ma anche tramite:\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$La [martial_skill|E] del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$Il guadagno di [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )] da parte del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$Il guadagno di [trait_level_track_xp|E] di [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] da parte del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$La [martial_skill|E] del [liege|E] dell'Encomio\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del [liege|E] dell'Encomio\n\nOgni [accolade_succession|E] reimposta gli Scudieri dell'Encomio."
 
  game_concept_tax_collector: "Esattore delle Tasse"
  game_concept_tax_collector_desc: "Un $game_concept_tax_collector$ permette alle [tax_jurisdictions|E] di funzionare.\n\nLa loro [aptitude|E] determina la quantità di [taxes|E] e [levies|E] che riscuotono per il loro [liege|E]."
@@ -2514,7 +2526,7 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
  game_concept_unassigned_vassal_desc: "I $game_concept_unassigned_vassals$ sono [vassals|E] del [clan|E] che non sono stati assegnati ad una [tax_jurisdiction|E] come [taxpayers|E], e pertanto non contribuiscono in [taxes|E] o [levies|E].\n\nUna volta assegnati a una $game_concept_tax_jurisdiction$ con un [tax_collector|E], inzieranno a pagare mensilmente."
 
  game_concept_retinue_maa:0 "Seguito di Uomini d'Arme"
- game_concept_retinue_maa_desc:0 "Alcuni [accolade_types|E] danno accesso a speciali [men_at_arms|E]. Si sbloccano avendo un [acclaimed_knight|E] con i progressi rilevanti del [GetTrait('tourney_participant').GetName( GetNullCharacter )] [trait_level_track|E] oppure uno specifico [commander_trait|E].\n\nI seguiti di $game_concept_men_at_arms$ sono limitati ad un [regiment|E] e hanno un numero limitato di truppe. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$ e migliorano sempre di più ad ogni epoca."
+game_concept_retinue_maa_desc: 0 "Alcuni [accolade_types|E] danno accesso a [men_at_arms|E] speciali. Vengono sbloccati possedendo un [acclaimed_knight|E] con progressi nella [trait_level_track|E] rilevante di [GetTrait('tourney_participant').GetName( GetNullCharacter )] o con un [commander_trait|E] rilevante.\n\nI $game_concept_men_at_arms$ del seguito sono limitati a un solo [regiment|E]. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$."
 
 
  game_concept_piety_level_impact:0 "Impatto del livello di devozione"
@@ -2620,6 +2632,10 @@ game_concept_fatalities_desc: "[characters|E] periti come risultato diretto di u
 
  game_concept_state_faith: "Fede di Stato"
  game_concept_state_faith_desc: "La $game_concept_state_faith$ è la [faith|E] sostenuta e condonata da un [administrative_government|E]. Questa fede è legata al [title|E] e non ad un [character|E] specifico. È più facile convertire i personaggi nel [realm|E] alla fede dello stato e molto difficile fargliela abbandonare.\n\nSolo il [ruler|E] di un Regno Amminsitrativo può cambiare la Fede di Stato, ma i [governors|E] possono liberamente convertirsi ad essa."
+
+game_concept_story_cycle: "Storia"
+game_concept_story_cycles: "Storie"
+game_concept_story_cycle_desc: "Una Storia è una situazione personale legata a un [ruler|E].\n\nEsistono molti tipi di Storie: dal possedere [GetModifier('dog_story_modifier').GetNameWithTooltip] al diventare #V [GetTrait('conqueror').GetName( GetNullCharacter )]#!. Ciascuna è costruita con elementi diversi, solitamente coinvolgendo [characters|E], [titles|E] o [decisions|E] chiave."
 
  game_concept_story_generic_prefix: "La Storia di"
  game_concept_story_generic_desc_boilerplate: "#WEAK Il contenuto della storia è opzionale. Puoi sempre scegliere di non seguirla una volta che avrai iniziato a giocare."

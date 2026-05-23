@@ -234,11 +234,11 @@ intrigue_dread.4200.desc.noble_forest: 2 "Le mie celle sono colme fino all’orl
  tooltip.intrigue_dread.2001.c.duel_failure:1 "[loved_one.GetFirstName] ti sfida apertamente"
  intrigue_protected_by_loved_one_modifier:1 "Protetti da una persona amata"
  intrigue_protected_by_loved_one_modifier_desc:0 "Questa persona ha una persona cara che farebbe #EMP qualsiasi#! cosa per proteggerla."
- intrigue_defied_loved_one_opinion:1 "Ha sfidato una persona amata"
+intrigue_defied_loved_one_opinion: 1 "Ha Sfidato una Persona Cara"
 
  # Rumors about a relative, by Luke Bean
  intrigue_dread.2101.t:0 "Pettegolezzi su [family_member.GetFirstNameNoTooltip]"
- intrigue_dread.2101.desc.intro:0 ""Sono riuscit[spymaster.Custom('DE_END_PRO_S_N')] a risalire alla fonte di quelle disgustose voci riguardo il vostro [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)]." Mentre dice ciò,  [spymaster.Custom('DE_ART_DEF_P_D')] [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] accarezza un mazzo di lettere.\n\nQuelle lettere dimostrano che [hater.GetName] ha cercato di trascinare nel fango il nome di [family_member.GetFirstName]. "
+intrigue_dread.2101.desc.intro: 0 "«Quelle voci infami su [Select_CString(family_member.IsFemale,'la vostra','il vostro')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('family_member'))] [family_member.Custom('IT_NAM_COL3')][family_member.GetTitledFirstName]... le ho ricondotte alla fonte.» [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] batte la mano su un fascio di lettere.\n\nLe lettere dimostrano che [hater.GetName] ha tentato di trascinare nel fango il nome di [family_member.GetFirstNamePossessive]. "
  intrigue_dread.2101.desc.failed_assassination:0 "[hater.GetSheHe|U] accusa [family_member.GetFirstName] perfino di aver cercato di uccider[hater.Custom('DE_PRO_POS_P_3P')]!"
  intrigue_dread.2101.desc.committed_adultery:0 "[hater.GetSheHe|U] sostiene che [family_member.GetFirstName] è stat[family_member.Custom('DE_END_PRO_S_N')] un[family_member.Custom('DE_PRO_POS_P_2P')] [family_member.GetWifeHusband] infedele e racconta storie abiette su di [family_member.GetSheHe]!"
  intrigue_dread.2101.desc.bullied_me:0 "[hater.GetSheHe|U] sostiene che [family_member.GetFirstName] porta in sé il seme del male sin dall'infanzia, quando [hater.Custom('DE_PRO_POS_P_3P')] malmenava brutalmente."
@@ -268,7 +268,7 @@ intrigue_dread.2101.d: 0 "Prendi le distanze da [family_member.GetFirstNameNoToo
  intrigue_bumbling_tyrant_modifier:0 "Tiranno Goffo"
  intrigue_blanket_of_fear_modifier:0 "Aura di Paura"
  intrigue_controlling_the_narrative_modifier:0 "In Controllo dei Pettegolezzi"
- intrigue_thrown_under_the_carriage_opinion:0 "Lontano da Me"
+intrigue_thrown_under_the_carriage_opinion: 0 "Si È Distanziato da Me"
  intrigue_made_me_sound_scary_opinion:0 "Mi Fa Sembrare Spaventos[ROOT.Char.Custom('DE_END_PRO_S_N')]"
 
  # Councillor is too scared to speak their mind, by Luke Bean
@@ -299,7 +299,7 @@ intrigue_dread.2101.d: 0 "Prendi le distanze da [family_member.GetFirstNameNoToo
  intrigue_doing_stewards_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_marshals_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
  intrigue_doing_court_chaplains_job_modifier:0 "$intrigue_doing_spymasters_job_modifier$"
- intrigue_position_is_safe_opinion:0 "Ha Avuto la Garanzia Del Mantenimento Della Sua Carica"
+intrigue_position_is_safe_opinion: 0 "Ha Assicurato che la Mia Posizione È Sicura"
 
  # Your court thinks you're soft, by Luke Bean
  intrigue_dread.2301.t:0 "Dimostra Loro Chi Sei"

@@ -87,7 +87,7 @@ bp2_yearly.6010.t: "Nessun[Select_CString(sad_boi.IsFemale,'a','')] [sad_boi.Get
 bp2_yearly.6010.desc: ""#EMP Ho tanti amici, i loro doni sono pochi...#!" canta [sad_boi.GetFirstName], la voce incrinata dall’emozione.\n\n[sad_boi.Custom('DE_ART_DEF_P_D')] mi[sad_boi.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] getta via il suo strumento, gridando: "Basta con [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
 bp2_yearly.6010.adult: "È priva di ogni comodità."\n\nLanciandomi uno sguardo carico di disprezzo, [sad_boi.GetSheHe] aggiunge: "Questa canzone sarà il mio appello di aiuto in questa triste prigionia. Qualche soldo... se il mio popolo ancora si cura di me...""
 bp2_yearly.6010.child: "Sono così infelice qui."\n\nGuardandomi con gli occhi colmi di lacrime, [Select_CString(sad_boi.IsFemale,'la bambina','il bambino')] aggiunge: "Ascoltando questa canzone, la mia famiglia si commuoverà! Mi manderanno qualcosa per rendere sopportabile il mio #EMP esilio#!, se... ancora si curano di me...""
-bp2_yearly.6010.outro: "\n\n[sad_boi.GetSheHe|U] riprende il malinconico motivo, ripensando a [home_court_liege.GetPrimaryTitle.GetNameNoTier] come a un ricordo lontano negli suoi occhi."
+bp2_yearly.6010.outro: "\n\n[Select_CString(sad_boi.IsFemale,'Lei','Lui')] riprende ancora una volta la mesta melodia, con una patria lontana negli occhi."
 bp2_yearly.6010.a: "Sì, vediamo quale "carità" riusciranno a racimolare..."
 bp2_yearly.6010.a.tt: "...per la mia borsa."
 bp2_yearly.6010.b: "Infelice?! #EMP Posso aiutare?!#!"

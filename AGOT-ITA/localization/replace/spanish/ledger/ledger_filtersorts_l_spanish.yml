@@ -1,0 +1,939 @@
+﻿l_spanish:
+
+
+ # reverse button
+LEDGER_SORT_BY: "#T $SORT_BY$[Select_CString( LedgerWindow.GetSortOrder, 'crescente', 'decrescente' )]\n#!#I Clicca per alternare#!"
+ # active sorting order, creates two loc keys for ascending and descending orders
+ACTIVE_SORTING_LEDGER: "#low Ordinato per:#! #clickable [Localize(Concatenate(OrderLedgerOption.GetKey, Select_CString(LedgerWindow.GetSortOrder, '_least', '_most')))]#!"
+ 
+ # shared locs
+any_filter: "Qualsiasi"
+ all_filter_option: "$any_filter_option$" # yes, any is all
+ your_filter_option: "$CHARACTER_NAME_MY_CAPITALIZED$"
+most_sort: "Più"
+least_sort: "Meno"
+fewest_sort: "Meno"
+highest_sort: "Più alto"
+lowest_sort: "Più basso"
+player_realms_filter_option: "Reami dei Giocatori"
+players_only_filter_option: "Solo giocatori"
+ 
+ 
+sort_by: "Ordina per"
+ # standalone sorting buttons, usually reusing dropdown names
+BUTTON_SORT_LEDGER: "$sort_by$ [Localize(Concatenate('sort_l_', PdxGuiWidget.GetName))]"
+ # dropdown items. Using GetKey to reuse them instead of having 40 identical options for titles
+DROP_SORT_LEDGER: "[Localize(Concatenate('sort_l_', OrderLedgerOption.GetKey))]"
+ # some standalones need more detailed tooltips, so we replace them like this
+EXTRA_SORT_LEDGER: "$sort_by$ [Localize(Concatenate('sort_tt_', PdxGuiWidget.GetName))]"
+ 
+ ### Wars
+sort_l_date: "Durata"
+sort_l_attacker_strength: "Attaccanti"
+sort_l_defender_strength: "Difensori"
+sort_l_total_strength: "Totale [soldiers|e]"
+sort_l_total_casualties: "Perdite Totali"
+ 
+ # active sorting order
+ # I think capitalizing them looks better and helps separate the words
+ # trying to keep these shorter, omitting some words on occasiton, and more natural sounding: 'older' isntead of 'most age'
+ # avoiding |e concepts for the active button so their tooltisp don't get in the way
+ # the dropdown is more spacious, so tooltips there aren't an issue
+ 
+attacker_strength_most: "$most_sort$ $sort_l_attacker_strength$"
+attacker_strength_least: "$fewest_sort$ $sort_l_attacker_strength$"
+ 
+defender_strength_most: "$most_sort$ $sort_l_defender_strength$"
+defender_strength_least: "$fewest_sort$ $sort_l_defender_strength$"
+ 
+total_strength_most: "$most_sort$ $game_concept_soldiers$"
+total_strength_least: "$fewest_sort$ $game_concept_soldiers$"
+ 
+total_casualties_least: "$least_sort$ $sort_l_total_casualties$"
+total_casualties_most: "$most_sort$ $sort_l_total_casualties$"
+ 
+ # date order is flipped
+date_most: "Più lunga"
+date_least: "$most_sort$ recente"
+ 
+ ### filters
+ ongoing_wars_type: "$type$"
+ ongoing_wars_type_all: "$all_filter_option$"
+ 
+ongoing_wars_type_civil: "Guerre Civili"
+ongoing_wars_type_religious: "Religiose"
+ 
+ ongoing_wars_relation: "$relation_filter_category$"
+ ongoing_wars_relation_all: "$all_filter_option$"
+ ongoing_wars_relation_yours: "$your_filter_option$"
+ ongoing_wars_relation_realm: "$realm_relation_filter$"
+ ongoing_wars_relation_top_realm: "$top_realm_relation_filter$"
+ ongoing_wars_relation_players: "$OUTLINER_PLAYERS$"
+ 
+ongoing_wars_relation_neighbors: "Vicini"
+ongoing_wars_relation_pvp: "Giocatore contro giocatore"
+ 
+
+ ### artifacts
+ # dropdown
+sort_l_rarity: "[rarity|e]"
+sort_l_kills: "Uccisioni"
+sort_l_claimants: "[claimants|e]"
+sort_l_duration: "[durability|e]"
+sort_l_age: "Età"
+sort_l_distance: "Distanza"
+ 
+ # active
+rarity_most: "Più raro"
+rarity_least: "$least_sort$ raro"
+ 
+kills_most: "$most_sort$ uccisioni"
+kills_least: "$fewest_sort$ uccisioni"
+ 
+claimants_most: "$most_sort$ pretendenti"
+claimants_least: "$fewest_sort$ pretendenti"
+ 
+duration_most: "$most_sort$ durevole"
+duration_least: "$least_sort$ durevole"
+ 
+distance_most: "$least_sort$ distante"
+distance_least: "$most_sort$ distante"
+ 
+age_most: "Più vecchio"
+age_least: "Più nuovo"
+
+ # value tooltips  
+LEDGER_ARTIFACT_AGE: "Età in anni"
+LEDGER_ARTIFACTS_CLAIMANTS: "[Concept('artifact_claim', Localize('game_concept_claimants'))|e]"
+LEDGER_ARTIFACTS_HOUSE_CLAIMANTS: "[Concept('house_artifact_claim', 'House Claims')|e]"
+LEDGER_ARTIFACTS_KILLS: "Uccisioni dell'artefatto"
+ 
+ 
+ # filters
+ artifacts_rarity: "$game_concept_rarity$"
+ artifact_type_category: "$type$"
+artifacts_rarity_common: "Comune"
+ 
+ artifacts_rarity_all: "$all_filter_option$"
+ artifacts_rarity_masterwork: "$masterwork$"
+ artifacts_rarity_famed: "$famed$"
+ artifacts_rarity_illustrious: "$illustrious$"
+artifacts_unique: "Unico"
+ artifacts_unique_any: "$any_filter$"
+ artifacts_unique_unique: "$artifacts_unique$"
+ artifacts_personal: "$personal_filter_category$"
+ artifacts_personal_all: "$all_filter_option$"
+ artifacts_personal_helmet: "$helmet$"
+ artifacts_personal_regalia: "$regalia$"
+ artifacts_personal_armor: "$armor$"
+ artifacts_personal_primary_armament: "$primary_armament$"
+ artifacts_personal_miscellaneous: "$miscellaneous$"
+ artifacts_personal_journal: "$journal$"
+ artifacts_personal_none: "$NONE$"
+ artifacts_court: "$game_concept_court$"
+ artifacts_court_all: "$all_filter_option$"
+ artifacts_court_throne: "$throne$"
+ artifacts_court_wall_big: "$wall_big$"
+ artifacts_court_wall_small: "$wall_small$"
+artifacts_court_furniture: "da rimuovere"
+ artifacts_court_sculpture: "$sculpture$"
+ artifacts_court_pedestal: "$pedestal$"
+ artifacts_court_book: "$book$"
+ artifacts_court_none: "$NONE$"
+ artifacts_relation: "$relation_filter_category$"
+ artifacts_relation_all: "$all_filter_option$"
+ artifacts_relation_top_realm: "$top_realm_relation_filter$"
+ artifacts_relation_your_realm: "$realm_relation_filter$"
+ artifacts_relation_court: "$court_relation_filter$"
+ artifacts_relation_your_house: "$game_concept_house$"
+artifacts_relation_player_owned: "Giocatore"
+ artifacts_diplo_range: "$range_filter$"
+ artifacts_diplo_range_any: "$any_filter$"
+ artifacts_diplo_range_inside: "$in_range_filter$"
+ artifacts_diplo_range_outside: "$not_in_range_filter$"
+
+ ### characters 
+ ### Rich
+ 
+sort_l_gold: "[gold|e]"
+sort_l_gold_balance: "[income|e] totale"
+sort_l_realm_size: "[realm_size|e]"
+SORT_L_BUILDINGS_REALM: "$sort_by$ totale [buildings|e]\nin tutte le [counties|e] del [realm|e]"
+sort_l_average_development: "[development|e]"
+SORT_L_AVG_DEVELOPMENT_CHARACTER: "$sort_by$ [development|e] medio\nin tutte le [counties|e] del [realm|e]"
+sort_l_treasury: "[treasury|e]"
+sort_l_treasury_balance: "Saldo del [treasury|e]"
+ 
+ # active
+gold_most: "$most_sort$ $game_concept_gold$"
+gold_least: "$least_sort$ $game_concept_gold$"
+
+gold_balance_most: "$most_sort$ $game_concept_income$"
+gold_balance_least: "$least_sort$ $game_concept_income$"
+
+realm_size_most: "$game_concept_realm$ più grande"
+realm_size_least: "$game_concept_realm$ più piccolo"
+
+buildings_most: "$most_sort$ $game_concept_buildings$"
+buildings_least: "$fewest_sort$ $game_concept_buildings$"
+
+average_development_most: "$most_sort$ sviluppato"
+average_development_least: "$least_sort$ sviluppato"
+
+treasury_most: "$game_concept_treasury$ più grande"
+treasury_least: "$game_concept_treasury$ più piccolo"
+
+treasury_balance_most: "$highest_sort$ $game_concept_treasury$ $game_concept_income$"
+treasury_balance_least: "$least_sort$ $game_concept_treasury$ $game_concept_income$"
+ 
+ # filters
+LEDGER_FILTER_RULERS_ONLY: "@titles_icon! Solo possidenti"
+ 
+ rich_relation: "$relation_filter$"
+ rich_relation_all: "$all_filter_option$"
+ rich_relation_your_realm: "$realm_relation_filter$"
+ rich_relation_top_realm: "$top_realm_relation_filter$"
+ rich_diplo_range: "$range_filter$"
+ rich_diplo_range_any: "$any_filter$"
+ rich_diplo_range_inside: "$in_range_filter$"
+ rich_diplo_range_outside: "$not_in_range_filter$"
+ rich_religion: "$game_concept_religion$"
+ rich_religion_all: "$all_filter_option$"
+rich_religion_your_faith: "$your_filter_option$ $game_concept_faith$"
+rich_religion_your_religion: "$your_filter_option$ $game_concept_religion$"
+ rich_culture: "$game_concept_culture$"
+ rich_culture_all: "$all_filter_option$"
+rich_culture_your_culture: "$your_filter_option$ $game_concept_culture$"
+rich_culture_your_heritage: "$your_filter_option$ $game_concept_heritage$"
+ rich_dynasty: "$game_concept_dynasty$"
+ rich_dynasty_all: "$all_filter_option$"
+rich_dynasty_your_house: "$your_filter_option$ $game_concept_house$"
+rich_dynasty_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+
+ rich_ruler: "$game_concept_ruler$"
+ rich_ruler_all: "$all_filter_option$"
+ rich_ruler_any_ruler: "$any_filter$"
+ rich_ruler_landed_ruler: "$game_concept_landed$"
+ rich_ruler_landless_ruler: "$game_concept_unlanded$"
+ rich_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ rich_players_only: "$OUTLINER_PLAYERS$"
+ rich_players_only_no: "$any_filter$"
+ rich_players_only_yes: "$players_only_filter_option$"
+ 
+
+ # Strong
+sort_l_commander_traits: "[traits|e] da comandante"
+sort_l_military_strength: "Soldati"
+sort_l_men_at_arms: "[men_at_arms|e]"
+sort_l_army_power: "Potenza militare"
+strong_army_power: ""
+strong_army_power_tt: "[damage|e] e [toughness|e] totali delle [armies|e] sotto il controllo di questo [ruler|e]"
+sort_l_knights: "[knights|e]"
+sort_l_knight_effectiveness: "[knight_effectiveness|e]"
+sort_l_dread: "[dread|e]"
+sort_l_prisoners: "[prisoners|e]"
+sort_l_herd: "[herd|e]"
+ 
+commander_traits_most: "$most_sort$ $game_concept_traits$ da comandante"
+commander_traits_least: "$fewest_sort$ $game_concept_traits$ da comandante"
+military_strength_most: "$most_sort$ soldati"
+military_strength_least: "$fewest_sort$ soldati"
+men_at_arms_most: "$most_sort$ $game_concept_men_at_arms$"
+men_at_arms_least: "$fewest_sort$ $game_concept_men_at_arms$"
+army_power_most: "$most_sort$ potenza militare"
+army_power_least: "$least_sort$ potenza militare"
+knights_most: "$most_sort$ $game_concept_knights$"
+knights_least: "$fewest_sort$ $game_concept_knights$"
+knight_effectiveness_most: "$most_sort$ $game_concept_knights$ efficaci"
+knight_effectiveness_least: "$least_sort$ $game_concept_knights$ efficaci"
+dread_most: "$most_sort$ temibile"
+dread_least: "$least_sort$ temibile"
+prisoners_most: "$most_sort$ $game_concept_prisoners$"
+prisoners_least: "$fewest_sort$ $game_concept_prisoners$"
+herd_most: "$most_sort$ $game_concept_herd$"
+herd_least: "$least_sort$ $game_concept_herd$"
+ 
+ # filters
+ strong_relation: "$relation_filter$"
+ strong_relation_all: "$all_filter_option$"
+ strong_relation_your_realm: "$realm_relation_filter$"
+ strong_relation_top_realm: "$top_realm_relation_filter$"
+ strong_diplo_range: "$range_filter$"
+ strong_diplo_range_any: "$any_filter$"
+ strong_diplo_range_inside: "$in_range_filter$"
+ strong_diplo_range_outside: "$not_in_range_filter$"
+ strong_religion: "$game_concept_religion$"
+ strong_religion_all: "$all_filter_option$"
+strong_religion_your_faith: "$your_filter_option$ $game_concept_faith$"
+strong_religion_your_religion: "$your_filter_option$ $game_concept_religion$"
+ strong_culture: "$game_concept_culture$"
+ strong_culture_all: "$all_filter_option$"
+strong_culture_your_culture: "$your_filter_option$ $game_concept_culture$"
+strong_culture_your_heritage: "$your_filter_option$ $game_concept_heritage$"
+ strong_dynasty: "$game_concept_dynasty$"
+ strong_dynasty_all: "$all_filter_option$"
+strong_dynasty_your_house: "$your_filter_option$ $game_concept_house$"
+strong_dynasty_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+
+ strong_ruler: "$game_concept_ruler$"
+ strong_ruler_all: "$all_filter_option$"
+ strong_ruler_any_ruler: "$any_filter$"
+ strong_ruler_landed_ruler: "$game_concept_landed$"
+ strong_ruler_landless_ruler: "$game_concept_unlanded$"
+ strong_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ strong_players_only: "$OUTLINER_PLAYERS$"
+ strong_players_only_no: "$any_filter$"
+ strong_players_only_yes: "$players_only_filter_option$"
+
+ #Pious
+ # standalones
+sort_l_prestige_level: "[prestige_level|e]"
+sort_l_piety_level: "[piety_level|e]"
+sort_l_legitimacy: "[legitimacy|e]"
+sort_l_influence_level: "[influence_level|e]"
+sort_l_merit: "[merit|e]"
+sort_l_mandala_radiance: "[radiance|e]"
+sort_l_dominance: "[dominance|e]"
+ 
+ # dropdowns
+sort_l_prestige: "[prestige|e]"
+sort_l_prestige_gain: "Guadagno di [prestige|e]"
+sort_l_piety: "[piety|e]"
+sort_l_piety_gain: "Guadagno di [piety|e]"
+sort_l_influence: "[influence|e]"
+sort_l_influence_gain: "Guadagno di [influence|e]"
+sort_l_merit_gain: "Guadagno di [merit|e]"
+ 
+ # most/least
+ 
+prestige_level_most: "$most_sort$ famoso"
+prestige_level_least: "$least_sort$ famoso"
+piety_level_most: "$most_sort$ devoto"
+piety_level_least: "$least_sort$ devoto"
+legitimacy_most: "$most_sort$ legittimo"
+legitimacy_least: "$least_sort$ legittimo"
+influence_level_most: "$most_sort$ influente"
+influence_level_least: "$least_sort$ influente"
+merit_most: "$most_sort$ meritevole"
+merit_least: "$least_sort$ meritevole"
+mandala_radiance_most: "$most_sort$ radioso"
+mandala_radiance_least: "$least_sort$ radioso"
+dominance_most: "$most_sort$ dominante"
+dominance_least: "$least_sort$ dominante"
+ 
+prestige_most: "$most_sort$ prestigioso"
+prestige_least: "$least_sort$ prestigioso"
+prestige_gain_most: "$most_sort$ guadagno di $game_concept_prestige$"
+prestige_gain_least: "$least_sort$ guadagno di $game_concept_prestige$"
+piety_most: "$most_sort$ pio"
+piety_least: "$least_sort$ pio"
+piety_gain_most: "$most_sort$ guadagno di $game_concept_piety$"
+piety_gain_least: "$least_sort$ guadagno di $game_concept_piety$"
+influence_most: "$most_sort$ $game_concept_influence$"
+influence_least: "$least_sort$ $game_concept_influence$"
+influence_gain_most: "$most_sort$ guadagno di $game_concept_influence$"
+influence_gain_least: "$least_sort$ guadagno di $game_concept_influence$"
+merit_gain_most: "$most_sort$ guadagno di $game_concept_merit$"
+merit_gain_least: "$least_sort$ guadagno di $game_concept_merit$"
+
+ # filters
+ pious_relation: "$relation_filter$"
+ pious_relation_all: "$all_filter_option$"
+ pious_relation_your_realm: "$realm_relation_filter$"
+ pious_relation_top_realm: "$top_realm_relation_filter$"
+ pious_diplo_range: "$range_filter$"
+ pious_diplo_range_any: "$any_filter$"
+ pious_diplo_range_inside: "$in_range_filter$"
+ pious_diplo_range_outside: "$not_in_range_filter$"
+ pious_religion: "$game_concept_religion$"
+ pious_religion_all: "$all_filter_option$"
+pious_religion_your_faith: "$your_filter_option$ $game_concept_faith$"
+pious_religion_your_religion: "$your_filter_option$ $game_concept_religion$"
+ pious_culture: "$game_concept_culture$"
+ pious_culture_all: "$all_filter_option$"
+pious_culture_your_culture: "$your_filter_option$ $game_concept_culture$"
+pious_culture_your_heritage: "$your_filter_option$ $game_concept_heritage$"
+ pious_dynasty: "$game_concept_dynasty$"
+ pious_dynasty_all: "$all_filter_option$"
+pious_dynasty_your_house: "$your_filter_option$ $game_concept_house$"
+pious_dynasty_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ 
+ pious_ruler: "$game_concept_ruler$"
+ pious_ruler_all: "$all_filter_option$"
+ pious_ruler_any_ruler: "$any_filter$"
+ pious_ruler_landed_ruler: "$game_concept_landed$"
+ pious_ruler_landless_ruler: "$game_concept_unlanded$"
+ pious_ruler_no_ruler: "$not_ruler_filter_option$"
+ 
+ pious_players_only: "$OUTLINER_PLAYERS$"
+ pious_players_only_no: "$any_filter$"
+ pious_players_only_yes: "$players_only_filter_option$"
+ 
+ 
+ ### Houses
+ # dropdown
+sort_l_num_living_members: "Membri viventi"
+sort_l_num_dead_members: "Membri morti"
+sort_l_num_rulers: "[rulers|e]"
+sort_l_num_counties: "[counties|e]"
+sort_l_unity: "[unity|e]"
+sort_l_found_date: "Data di fondazione"
+sort_l_aspiration_level: "[house_attribute|e]"
+sort_l_renown_level: "[dynasty_prestige_level|e]"
+sort_l_renown_gain: "Guadagno di [dynasty_prestige|e]"
+  
+sort_l_total_military_strength: "[soldiers|e]"
+sort_l_num_legacies: "[dynasty_perks|e]"
+ 
+ 
+ # most/least
+num_living_members_most: "$most_sort$ $sort_l_num_living_members$"
+num_living_members_least: "$fewest_sort$ $sort_l_num_living_members$"
+num_dead_members_most: "$most_sort$ $sort_l_num_dead_members$"
+num_dead_members_least: "$fewest_sort$ $sort_l_num_dead_members$"
+num_rulers_most: "$most_sort$ $game_concept_rulers$"
+num_rulers_least: "$fewest_sort$ $game_concept_rulers$"
+num_counties_most: "$most_sort$ $game_concept_counties$"
+num_counties_least: "$fewest_sort$ $game_concept_counties$"
+num_legacies_most: "$most_sort$ $game_concept_dynasty_perks$"
+num_legacies_least: "$fewest_sort$ $game_concept_dynasty_perks$"
+unity_most: "$most_sort$ unito"
+unity_least: "$most_sort$ disunito"
+found_date_most: "Più recente"
+found_date_least: "Più vecchio"
+aspiration_level_most: "$highest_sort$ attributo"
+aspiration_level_least: "$lowest_sort$ attributo"
+total_military_strength_most: "$most_sort$ soldati"
+total_military_strength_least: "$fewest_sort$ soldati"
+renown_level_most: "$most_sort$ splendido"
+renown_level_least: "$most_sort$ oscuro"
+renown_gain_most: "$most_sort$ guadagno di $game_concept_dynasty_prestige$"
+renown_gain_least: "$least_sort$ guadagno di $game_concept_dynasty_prestige$"
+ 
+ #standalone and tips
+SORT_L_HOUSE_COUNTIES: "$sort_by$ $LEDGER_HOUSE_COUNTIES$"
+LEDGER_HOUSE_COUNTIES: "Tutte le [counties|e]\ncontrollate dalla [house|e]"
+ 
+SORT_L_HOUSE_STRENGTH: "$sort_by$ $LEDGER_HOUSE_STRENGTH$"
+LEDGER_HOUSE_STRENGTH: "[soldiers|e] totali di tutti i [rulers|e] di questa [house|e]"
+ 
+LEDGER_HOUSES_NUM_RULERS: "[rulers|e] di questa [house|e]"
+HOUSES_NUM_LIVING_MEMBERS_TT_HEADER: "[DynastyHouse.GetNumberOfMembers|v0] $sort_l_num_living_members$ della [house|e] [DynastyHouse.GetName]"
+ 
+ # Dynasties
+
+sort_l_num_houses: "[houses|e]"
+num_houses_most: "$most_sort$ $game_concept_houses$"
+num_houses_least: "$fewest_sort$ $game_concept_houses$"
+ 
+SORT_L_DYNASTY_HOUSES: "$sort_by$ $LEDGER_DYNASTY_HOUSES$"
+LEDGER_DYNASTY_HOUSES: "[houses|e] di questa [dynasty|e]"
+ 
+SORT_L_DYNASTY_COUNTIES: "$sort_by$ $LEDGER_DYNASTY_COUNTIES$"
+LEDGER_DYNASTY_COUNTIES: "Tutte le [counties|e]\ncontrollate dalla [dynasty|e]"
+ 
+DYNASTIES_NUM_LIVING_MEMBERS_TT_HEADER: "[Dynasty.GetNumberOfMembers|v0] $sort_l_num_living_members$ della [dynasty|e] [Dynasty.GetName]"
+ 
+SORT_L_DYNASTY_STRENGTH: "$sort_by$ $LEDGER_DYNASTY_STRENGTH$"
+LEDGER_DYNASTY_STRENGTH: "[soldiers|e] totali di tutti i [rulers|e] di questa [dynasty|e]"
+ 
+DYNASTY_HOUSES_TT_HEADER: "[GetDataModelSize(Dynasty.GetDynastyHouses)|v0] [houses|e] della [dynasty|e] [Dynasty.GetName]"
+ 
+HOUSE_MEMBER_TINY: "[AddTextIf(Not(Character.IsRuler), '#low ')][Character.GetName], #low [Character.GetAge]#!"
+ 
+ 
+ ###
+ # Holdings
+ 
+ # dropdown
+sort_l_tax: "[tax|e]"
+sort_l_loot: "[loot|e]"
+sort_l_levies: "[levies|e]"
+sort_l_building_slots: "Spazi [building|e]"
+sort_l_free_building_slots: "Spazi [building|e] vuoti"
+sort_l_buildings: "[buildings|e]"
+sort_l_building_levels: "Livelli [building|e]"
+sort_l_development: "[development|e]"
+sort_l_development_growth: "Variazione di [development|e]"
+sort_l_control: "[control|e]"
+sort_l_popular_opinion: "[county_opinion|e]"
+ 
+ # standalones
+ 
+sort_tt_total_tax: "[tax|e] totale disponibile\n#low La somma di tutte le [taxes|e] fornite dalle [holdings|e] in questo [title|e], senza considerare la quantità che i [vassals|e] tratterrebbero per sé.#!"
+sort_tt_total_loot: "[loot|e] totale"
+sort_tt_total_levies: "[levies|e] totali disponibili\n#low La somma di tutte le [levies|e] fornite dalle [holdings|e] in questo [title|e], senza considerare i bonus e la quantità che i [vassals|e] tratterrebbero per sé.#!"
+sort_tt_total_buildings: "[buildings|e] totali $sort_across_all_holdings$"
+sort_tt_special_buildings: "[special_buildings|e] totali $sort_across_all_holdings$"
+sort_across_all_holdings: "\nin tutte le [holdings|e] di questo [title|e]"
+sort_across_all_counties: "\nin tutte le [counties|e] di questo [title|e]"
+ 
+tax_most: "$most_sort$ $game_concept_tax$"
+tax_least: "$least_sort$ $game_concept_tax$"
+ 
+loot_most: "$most_sort$ $game_concept_loot$"
+loot_least: "$least_sort$ $game_concept_loot$"
+ 
+levies_most: "$most_sort$ $game_concept_levies$"
+levies_least: "$fewest_sort$ $game_concept_levies$"
+ 
+building_slots_most: "$most_sort$ spazi $game_concept_building$"
+building_slots_least: "$fewest_sort$ spazi $game_concept_building$"
+ 
+free_building_slots_most: "$most_sort$ spazi vuoti"
+free_building_slots_least: "$fewest_sort$ spazi vuoti"
+ 
+building_levels_most: "$most_sort$ livelli $game_concept_building$"
+building_levels_least: "$fewest_sort$ livelli $game_concept_building$"
+ 
+development_most: "$most_sort$ sviluppato"
+development_least: "$least_sort$ sviluppato"
+ 
+development_growth_most: "Crescita del $game_concept_development$"
+development_growth_least: "Declino del $game_concept_development$"
+ 
+control_most: "$most_sort$ $game_concept_control$"
+control_least: "$least_sort$ $game_concept_control$"
+ 
+popular_opinion_most: "$highest_sort$ $game_concept_opinion$"
+popular_opinion_least: "$lowest_sort$ $game_concept_opinion$"
+
+ provinces_relation: "$relation_filter_category$"
+ provinces_relation_all: "$all_filter_option$"
+provinces_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ provinces_relation_your_realm: "$realm_relation_filter$"
+ provinces_relation_top_realm: "$top_realm_relation_filter$"
+provinces_relation_player_domains: "Domini dei giocatori"
+ provinces_relation_player_realms: "$player_realms_filter_option$"
+provinces_looted: "Saccheggiata"
+ provinces_looted_any: "$any_filter$"
+ provinces_looted_yes: "$provinces_looted$"
+provinces_looted_no: "Non saccheggiata"
+provinces_ongoing_construction: "Costruzione in corso"
+ provinces_ongoing_construction_any: "$any_filter$"
+provinces_ongoing_construction_yes: "Costruzione"
+ provinces_ongoing_construction_no: "$NONE$"
+provinces_special_buildings: "Edifici speciali"
+ provinces_special_buildings_all: "$all_filter_option$"
+provinces_special_buildings_special_building: "Edifici speciali"
+provinces_special_buildings_empty_special_building_slot: "Spazi speciali vuoti"
+provinces_special_buildings_great_building: "Grandi edifici"
+provinces_special_buildings_empty_great_building_slot: "Spazi grandi vuoti"
+provinces_special_buildings_duchy_building: "Edifici ducali"
+provinces_special_buildings_empty_duchy_building_slot: "Spazi ducali vuoti"
+provinces_can_build: "Può costruire"
+ provinces_can_build_any: "$any_filter$"
+provinces_can_build_can_construct: "Può costruire"
+provinces_can_build_can_upgrade: "Può migliorare"
+
+ ### counties
+
+sort_l_holdings: "[holdings|e] totali"
+sort_l_baronies: "[baronies|e] totali"
+sort_l_total_tax: "[tax|e] totale"
+sort_l_total_loot: "[loot|e] totale"
+sort_l_total_levies: "[levies|e] totali"
+sort_l_total_buildings: "[buildings|e] totali"
+sort_l_total_building_slots: "Spazi [buildings|e] totali"
+sort_l_total_special_slots: "Spazi [special_building|e] totali"
+sort_l_special_buildings: "[special_buildings|e] totali"
+sort_l_number_of_claimants: "[claimants|e]"
+ 
+holdings_most: "$most_sort$ $game_concept_holdings$"
+holdings_least: "$least_sort$ $game_concept_holdings$"
+ 
+baronies_most: "$most_sort$ $game_concept_baronies$"
+baronies_least: "$least_sort$ $game_concept_baronies$"
+ 
+ total_tax_most: "$tax_most$"
+ total_tax_least: "$tax_least$"
+ 
+ total_loot_most: "$loot_most$"
+ total_loot_least: "$loot_least$"
+ 
+ total_levies_most: "$levies_most$"
+ total_levies_least: "$levies_least$"
+ 
+ total_buildings_most: "$buildings_most$"
+ total_buildings_least: "$buildings_least$"
+ 
+total_building_slots_most: "$most_sort$ spazi $game_concept_buildings$"
+total_building_slots_least: "$fewest_sort$ spazi $game_concept_buildings$"
+ 
+total_special_slots_most: "$most_sort$ spazi speciali"
+total_special_slots_least: "$fewest_sort$ spazi speciali"
+ 
+special_buildings_most: "$most_sort$ $game_concept_special_buildings$"
+special_buildings_least: "$fewest_sort$ $game_concept_special_buildings$"
+ 
+number_of_claimants_most: "$most_sort$ $game_concept_claimants$"
+number_of_claimants_least: "$fewest_sort$ $game_concept_claimants$"
+ 
+ counties_relation: "$relation_filter$"
+ counties_relation_all: "$all_filter_option$"
+counties_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ counties_relation_your_realm: "$realm_relation_filter$"
+counties_relation_your_house: "$your_filter_option$ $game_concept_house$"
+counties_relation_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ counties_relation_top_realm: "$top_realm_relation_filter$"
+ counties_relation_player_realms: "$player_realms_filter_option$"
+ counties_faith: "$game_concept_faith$"
+ counties_faith_all: "$all_filter_option$"
+ counties_faith_yours: "$your_filter_option$"
+ counties_culture: "$game_concept_culture$"
+ counties_culture_all: "$all_filter_option$"
+ counties_culture_yours: "$your_filter_option$"
+ 
+counties_created: "Creata"
+ counties_created_all: "$any_filter$"
+ counties_created_existing: "$YES$"
+ counties_created_not_existing: "$NO$"
+ 
+ counties_landed: "$game_concept_landed$"
+ counties_landed_all: "$any_filter$"
+ counties_landed_landed: "$YES$"
+ counties_landed_unlanded: "$NO$"
+ 
+ ### Titles
+ 
+sort_l_de_facto_counties: "[counties|e]"
+ 
+ sort_tt_de_facto_counties: "$sort_l_de_facto_counties$"
+ sort_tt_holdings: "$sort_l_holdings$"
+sort_tt_development: "$LEDGER_AVERAGE_DEVELOPMENT$$sort_across_all_counties$"
+sort_tt_control: "$LEDGER_AVERAGE_CONTROL$$sort_across_all_counties$"
+sort_tt_popular_opinion: "$LEDGER_AVERAGE_POPULAR_OPINION$$sort_across_all_counties$"
+ sort_tt_number_of_claimants: "$sort_l_number_of_claimants$"
+ 
+de_facto_counties_most: "$most_sort$ $game_concept_counties$"
+de_facto_counties_least: "$least_sort$ $game_concept_counties$"
+ 
+LEDGER_AVERAGE_DEVELOPMENT: "[development|e] medio"
+LEDGER_AVERAGE_CONTROL: "[control|e] medio"
+LEDGER_AVERAGE_POPULAR_OPINION: "[county_opinion|e] media"
+ 
+TOTAL_TITLE_COUNTIES_TT: "[counties|e] totali [Select_CString(Title.GetHolder.IsValid, 'de facto', 'de jure')] in [Title.GetNameNoTierNoTooltip]"
+DEJURE_TITLE_COUNTIES_TT: "[Title.GetNumberOfDeJureCounties|v0] [counties|e] [de_jure|e] totali in [Title.GetNameNoTierNoTooltip]\n[Title.GetNumberOfDeFactoCounties|v0] [counties|e] de facto\n#low I valori sono mostrati per le sue [counties|e] [de_jure|e]"
+DEFACTO_TITLE_COUNTIES_TT: "[Title.GetNumberOfDeFactoCounties|v0] [counties|e] de facto totali in [Title.GetNameNoTierNoTooltip]\n[Title.GetNumberOfDeJureCounties|v0] [counties|e] [de_jure|e]\n#low I valori sono mostrati per le sue [counties|e] de facto"
+
+ 
+ duchies_relation: "$relation_filter$"
+ duchies_relation_all: "$all_filter_option$"
+duchies_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ duchies_relation_your_realm: "$realm_relation_filter$"
+duchies_relation_your_house: "$your_filter_option$ $game_concept_house$"
+duchies_relation_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ duchies_relation_top_realm: "$top_realm_relation_filter$"
+ duchies_relation_player_realms: "$player_realms_filter_option$"
+ duchies_faith: "$game_concept_faith$"
+ duchies_faith_all: "$all_filter_option$"
+ duchies_faith_yours: "$your_filter_option$"
+ duchies_culture: "$game_concept_culture$"
+ duchies_culture_all: "$all_filter_option$"
+ duchies_culture_yours: "$your_filter_option$"
+ 
+duchies_created: "Creato"
+ duchies_created_all: "$any_filter$"
+ duchies_created_existing: "$YES$"
+ duchies_created_not_existing: "$NO$"
+ 
+ duchies_landed: "$game_concept_landed$"
+ duchies_landed_all: "$any_filter$"
+ duchies_landed_landed: "$YES$"
+ duchies_landed_unlanded: "$NO$"
+
+ kingdoms_relation: "$relation_filter$"
+ kingdoms_relation_all: "$all_filter_option$"
+kingdoms_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ kingdoms_relation_your_realm: "$realm_relation_filter$"
+kingdoms_relation_your_house: "$your_filter_option$ $game_concept_house$"
+kingdoms_relation_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ kingdoms_relation_top_realm: "$top_realm_relation_filter$"
+ kingdoms_relation_player_realms: "$player_realms_filter_option$"
+ kingdoms_faith: "$game_concept_faith$"
+ kingdoms_faith_all: "$all_filter_option$"
+ kingdoms_faith_yours: "$your_filter_option$"
+ kingdoms_culture: "$game_concept_culture$"
+ kingdoms_culture_all: "$all_filter_option$"
+ kingdoms_culture_yours: "$your_filter_option$"
+ 
+kingdoms_created: "Creato"
+ kingdoms_created_all: "$any_filter$"
+ kingdoms_created_existing: "$YES$"
+ kingdoms_created_not_existing: "$NO$"
+
+ empires_relation: "$relation_filter$"
+ empires_relation_all: "$all_filter_option$"
+empires_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ empires_relation_your_realm: "$realm_relation_filter$"
+empires_relation_your_house: "$your_filter_option$ $game_concept_house$"
+empires_relation_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ empires_relation_top_realm: "$top_realm_relation_filter$"
+ empires_relation_player_realms: "$player_realms_filter_option$"
+ empires_faith: "$game_concept_faith$"
+ empires_faith_all: "$all_filter_option$"
+ empires_faith_yours: "$your_filter_option$"
+ empires_culture: "$game_concept_culture$"
+ empires_culture_all: "$all_filter_option$"
+ empires_culture_yours: "$your_filter_option$"
+ 
+empires_created: "Creato"
+ empires_created_all: "$any_filter$"
+ empires_created_existing: "$YES$"
+ empires_created_not_existing: "$NO$"
+
+ hegemonies_relation: "$relation_filter$"
+ hegemonies_relation_all: "$all_filter_option$"
+hegemonies_relation_your_domain: "$your_filter_option$ $game_concept_domain$"
+ hegemonies_relation_your_realm: "$realm_relation_filter$"
+hegemonies_relation_your_house: "$your_filter_option$ $game_concept_house$"
+hegemonies_relation_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+ hegemonies_relation_top_realm: "$top_realm_relation_filter$"
+ hegemonies_relation_player_realms: "$player_realms_filter_option$"
+ hegemonies_faith: "$game_concept_faith$"
+ hegemonies_faith_all: "$all_filter_option$"
+ hegemonies_faith_yours: "$your_filter_option$"
+ hegemonies_culture: "$game_concept_culture$"
+ hegemonies_culture_all: "$all_filter_option$"
+ hegemonies_culture_yours: "$your_filter_option$"
+ 
+hegemonies_created: "Creata"
+ hegemonies_created_all: "$any_filter$"
+ hegemonies_created_existing: "$YES$"
+ hegemonies_created_not_existing: "$NO$"
+
+ # Faiths
+ # dropdown
+sort_l_counties: "[counties|e]"
+sort_l_counties_change: "Variazione di [county|e]"
+sort_l_followers: "Aderenti"
+sort_l_rulers: "[rulers|e]"
+sort_l_sinners: "Peccatori"
+sort_l_virtuous: "Virtuosi"
+sort_l_holy_wars: "[holy_wars|e]"
+sort_l_controlled_holy_sites: "[holy_sites|e] controllati"
+sort_l_fervor: "[fervor|e]"
+sort_l_strength: "[soldiers|e] totali"
+ 
+ # standalones
+ 
+sort_tt_counties: "[counties|e] di questa [faith|e]"
+sort_tt_counties_change: "Variazione delle [counties|e] dovuta a [Concept('convert_county', 'Conversions')|e]"
+sort_tt_followers: "Tutti gli aderenti di questa [faith|e]"
+sort_tt_rulers: "[rulers|e]"
+sort_tt_sinners: "[rulers|e] peccatori\n[rulers|e] con almeno un [Concept('sin', 'Sinful Trait')|e]"
+sort_tt_virtuous: "[rulers|e] virtuosi\nColoro che non sono macchiati dal [sin|E] e hanno almeno un [Concept('virtue', 'Virtuous Trait')|e]"
+sort_tt_holy_wars: "[holy_wars|e] di questa [faith|e]"
+sort_tt_controlled_holy_sites: "[holy_sites|e] controllati"
+sort_tt_fervor: "[fervor|e]"
+ 
+FAITHS_COUNTIES_TT: "[counties|e] [Faith.GetAdjectiveNoTooltip]"
+FAITHS_COUNTIES_CHANGE_TT: "[Faith.GetNameNoTooltip] [Select_CString(GreaterThan_int32(Faith.GetCountiesChange, '(int32)-1'), 'guadagnerà', 'perderà')] [Faith.GetCountiesChange|=+] [counties|e]\n\n[Faith.GetCountiesGain|+] [counties|e] vengono [Concept('convert_county', 'Converted')|e] a [Faith.GetNameNoTooltip]\n[Faith.GetCountiesLoss|-] [counties|e] [Faith.GetAdjectiveNoTooltip] vengono [Concept('convert_county', 'Converted')|e] a un'altra [faith|e]"
+ 
+FAITHS_FOLLOWERS_TT: "Tutti i [Faith.GetAdherentNamePluralNoTooltip]"
+FAITHS_RULERS_TT: "[rulers|e] [Faith.GetAdjectiveNoTooltip]"
+FAITHS_SINNERS_TT: "[rulers|e] peccatori [Faith.GetAdjectiveNoTooltip]"
+FAITHS_VIRTUOUS_TT: "[rulers|e] virtuosi [Faith.GetAdjectiveNoTooltip]"
+FAITHS_TOTAL_STRENGTH_TT: "[soldiers|e] totali\ndi tutti i [rulers|e] [Faith.GetAdjectiveNoTooltip]"
+SORT_FAITHS_TOTAL_STRENGTH: "$sort_by$ [soldiers|e] totali\ndi tutti i [rulers|e] di questa [faith|e]"
+ 
+ 
+FAITH_CONTROLLED_HOLY_SITES: "[Faith.GetNumberOfControlledHolySites] #low /[Faith.GetNumberOfHolySites]#!"
+FAITH_CONTROLLED_HOLY_SITES_TT: "I [Faith.GetAdherentNamePluralNoTooltip] controllano [Faith.GetNumberOfControlledHolySites|0v] dei loro [Faith.GetNumberOfHolySites] [holy_sites|e]"
+ 
+ # most/least
+counties_most: "$most_sort$ $game_concept_counties$"
+counties_least: "$fewest_sort$ $game_concept_counties$"
+ 
+counties_change_most: "Guadagno di $game_concept_county$"
+counties_change_least: "Perdita di $game_concept_county$"
+ 
+followers_most: "$most_sort$ aderenti"
+followers_least: "$fewest_sort$ aderenti"
+ 
+rulers_most: "$most_sort$ $game_concept_rulers$"
+rulers_least: "$fewest_sort$ $game_concept_rulers$"
+ 
+sinners_most: "$most_sort$ peccatori"
+sinners_least: "$fewest_sort$ peccatori"
+ 
+virtuous_most: "$most_sort$ sovrani virtuosi"
+virtuous_least: "$fewest_sort$ sovrani virtuosi"
+ 
+holy_wars_most: "$most_sort$ $game_concept_holy_wars$"
+holy_wars_least: "$fewest_sort$ $game_concept_holy_wars$"
+ 
+controlled_holy_sites_most: "$most_sort$ $game_concept_holy_sites$"
+controlled_holy_sites_least: "$fewest_sort$ $game_concept_holy_sites$"
+ 
+fervor_most: "$most_sort$ $game_concept_fervor$"
+fervor_least: "$least_sort$ $game_concept_fervor$"
+ 
+strength_most: "$most_sort$ $game_concept_soldiers$"
+strength_least: "$fewest_sort$ $game_concept_soldiers$"
+
+ # filters
+ 
+faiths_my_religion: "La mia $game_concept_religion$"
+ faiths_my_religion_any: "$any_filter$"
+ faiths_my_religion_yes: "$YES$"
+ faiths_my_religion_no: "$NO$"
+faiths_organized: "Organizzata"
+ faiths_organized_any: "$any_filter$"
+ faiths_organized_yes: "$YES$"
+ faiths_organized_no: "$NO$"
+faiths_head_of_faith: "Capo della $game_concept_faith$"
+ faiths_head_of_faith_any: "$any_filter$"
+ faiths_head_of_faith_yes: "$YES$"
+ faiths_head_of_faith_no: "$NO$"
+faiths_player_faith: "$game_concept_faith$ del giocatore"
+ faiths_player_faith_any: "$any_filter$"
+ faiths_player_faith_yes: "$YES$"
+ faiths_player_faith_no: "$NO$"
+ 
+ # Religions
+ 
+sort_l_number_of_faiths: "[faiths|e]"
+ 
+SORT_RELIGIONS_LEDGER: "$sort_by$ [Localize(Concatenate('sort_religions_', PdxGuiWidget.GetName))]"
+ 
+sort_religions_number_of_faiths: "Tutte le [faiths|e] di questa [religion|e]"
+sort_religions_counties: "[counties|e] di questa [religion|e]"
+ sort_religions_counties_change: "$sort_tt_counties_change$"
+ sort_religions_followers: "$sort_l_followers$"
+ sort_religions_rulers: "$sort_l_rulers$"
+ sort_religions_sinners: "$sort_tt_sinners$"
+ sort_religions_virtuous: "$sort_tt_virtuous$"
+sort_religions_holy_wars: "[holy_wars|e] di tutte le [faiths|e] in questa [religion|e]"
+ sort_religions_controlled_holy_sites: "$sort_tt_controlled_holy_sites$"
+sort_religions_total_strength: "[soldiers|e] totali\ndi tutti i [rulers|e] di questa [religion|e]"
+ 
+number_of_faiths_most: "$most_sort$ $game_concept_faiths$"
+number_of_faiths_least: "$fewest_sort$ $game_concept_faiths$"
+ 
+RELIGION_COUNTIES_TT: "[counties|e] [Religion.GetAdjectiveNoTooltip]"
+RELIGION_COUNTIES_CHANGE_TT: "[Religion.GetNameNoTooltip] [Select_CString(GreaterThan_int32(Religion.GetCountiesChange, '(int32)-1'), 'guadagnerà', 'perderà')] [Religion.GetCountiesChange|=+] [counties|e]\n\n[Religion.GetCountiesGain|+] [counties|e] vengono [Concept('convert_county', 'Converted')|e] a [Religion.GetNameNoTooltip]\n[Religion.GetCountiesLoss|-] [counties|e] [Religion.GetAdjectiveNoTooltip] vengono [Concept('convert_county', 'Converted')|e] a un'altra [religion|e]"
+ 
+RELIGION_FOLLOWERS_TT: "Tutti i [Religion.GetAdherentNamePluralNoTooltip]"
+RELIGION_RULERS_TT: "[rulers|e] [Religion.GetAdjectiveNoTooltip]"
+RELIGION_SINNERS_TT: "[rulers|e] peccatori [Religion.GetAdjectiveNoTooltip]"
+RELIGION_VIRTUOUS_TT: "[rulers|e] virtuosi [Religion.GetAdjectiveNoTooltip]"
+RELIGION_TOTAL_STRENGTH_TT: "[soldiers|e] totali\ndi tutti i [rulers|e] [Religion.GetAdjectiveNoTooltip]"
+ 
+RELIGION_CONTROLLED_HOLY_SITES: "[Religion.GetNumberOfControlledHolySites] #low /[Religion.GetNumberOfHolySites]#!"
+RELIGION_CONTROLLED_HOLY_SITES_TT: "I [Religion.GetAdherentNamePluralNoTooltip] controllano [Religion.GetNumberOfControlledHolySites|0v] dei loro [Religion.GetNumberOfHolySites] [holy_sites|e]"
+
+religions_player_religion: "$game_concept_religion$ del giocatore"
+ religions_player_religion_any: "$any_filter$"
+ religions_player_religion_yes: "$YES$"
+ religions_player_religion_no: "$NO$"
+ 
+ 
+ ### Cultures
+ 
+sort_l_traditions: "[traditions|e]"
+sort_l_characters: "[characters|e]"
+sort_l_acceptance: "[cultural_acceptance|e]"
+sort_l_creation_date: "Data di creazione"
+sort_l_innovations: "[innovations|e]"
+ 
+SORT_CULTURES_LEDGER: "$sort_by$ [Localize(Concatenate('sort_cultures_', PdxGuiWidget.GetName))]"
+sort_cultures_characters: "Tutti i personaggi di questa [culture|e]"
+sort_cultures_counties_change: "Variazione delle [counties|e] dovuta a [Concept('promote_culture', 'Culture Promotion')|e]"
+sort_cultures_average_development: "[development|e] medio\nIn tutte le [counties|e] di questa [culture|e]"
+sort_cultures_acceptance: "[cultural_acceptance|e] della tua [culture|e]"
+sort_cultures_total_strength: "[soldiers|e] totali\ndi tutti i [rulers|e] di questa [culture|e]"
+ 
+traditions_most: "$most_sort$ $game_concept_traditions$"
+traditions_least: "$fewest_sort$ $game_concept_traditions$"
+ 
+characters_most: "$most_sort$ $game_concept_characters$"
+characters_least: "$fewest_sort$ $game_concept_characters$"
+ 
+acceptance_most: "$most_sort$ accogliente"
+acceptance_least: "$least_sort$ accogliente"
+ 
+creation_date_most: "Più antica"
+creation_date_least: "Più recente"
+ 
+innovations_most: "$most_sort$ $game_concept_innovations$"
+innovations_least: "$fewest_sort$ $game_concept_innovations$"
+ 
+CULTURE_COUNTIES_CHANGE_TT: "La [culture|e] [Culture.GetNameNoTooltip] [Select_CString(GreaterThan_int32(Culture.GetCountiesChange, '(int32)-1'), 'guadagnerà', 'perderà')] [Culture.GetCountiesChange|=+] [counties|e]\n\n[Culture.GetCountiesGain|+] [counties|e] vengono [Concept('promote_culture', 'Changed')|e] a [Culture.GetNameNoTooltip]\n[Culture.GetCountiesLoss|-] [counties|e] [Culture.GetNameNoTooltip] vengono [Concept('promote_culture', 'Changed')|e] a un'altra [culture|e]"
+CULTURES_TOTAL_STRENGTH_TT: "[soldiers|e] totali\ndi tutti i [rulers|e] [Culture.GetNameNoTooltip]"
+ 
+LEDGER_CULTURES_COUNTIES: "[counties|e]"
+LEDGER_CULTURES_CHARACTERS: "Tutti i personaggi [Culture.GetNameNoTooltip]"
+LEDGER_CULTURES_RULERS: "[rulers|e] [Culture.GetNameNoTooltip]"
+LEDGER_CULTURES_AVERAGE_DEVELOPMENT: "[development|e] medio in tutte le [counties|e] [Culture.GetNameNoTooltip]\n#low Questo influenza il progresso delle [innovation|e]#!"
+
+ cultures_heritage: "$game_concept_heritage$"
+ cultures_heritage_any: "$any_filter$"
+ cultures_heritage_yours: "$your_filter_option$"
+cultures_player_cultures: "Culture dei giocatori"
+ cultures_player_cultures_any: "$any_filter$"
+ cultures_player_cultures_players: "$OUTLINER_PLAYERS$"
+cultures_era: "Era"
+ cultures_era_any: "$any_filter$"
+cultures_era_tribal: "Tribale"
+cultures_era_early_medieval: "Altomedievale"
+cultures_era_high_medieval: "Pienomedievale"
+cultures_era_late_medieval: "Tardomedievale"
+
+
+### UNUSED
+
+relations_relation: "$relation_filter$"
+relations_relation_all: "$all_filter_option$"
+relations_relation_your_realm: "$realm_relation_filter$"
+relations_relation_top_realm: "$top_realm_relation_filter$"
+relations_diplo_range: "$range_filter$"
+relations_diplo_range_any: "$any_filter$"
+relations_diplo_range_inside: "$in_range_filter$"
+relations_diplo_range_outside: "$not_in_range_filter$"
+relations_religion: "$game_concept_religion$"
+relations_religion_all: "$all_filter_option$"
+relations_religion_your_faith: "$your_filter_option$ $game_concept_faith$"
+relations_religion_your_religion: "$your_filter_option$ $game_concept_religion$"
+relations_culture: "$game_concept_culture$"
+relations_culture_all: "$all_filter_option$"
+relations_culture_your_culture: "$your_filter_option$ $game_concept_culture$"
+relations_culture_your_heritage: "$your_filter_option$ $game_concept_heritage$"
+relations_dynasty: "$game_concept_dynasty$"
+relations_dynasty_all: "$all_filter_option$"
+relations_dynasty_your_house: "$your_filter_option$ $game_concept_house$"
+relations_dynasty_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+
+killers_relation: "$relation_filter$"
+killers_relation_all: "$all_filter_option$"
+killers_relation_your_realm: "$realm_relation_filter$"
+killers_relation_top_realm: "$top_realm_relation_filter$"
+killers_diplo_range: "$range_filter$"
+killers_diplo_range_any: "$any_filter$"
+killers_diplo_range_inside: "$in_range_filter$"
+killers_diplo_range_outside: "$not_in_range_filter$"
+killers_religion: "$game_concept_religion$"
+killers_religion_all: "$all_filter_option$"
+killers_religion_your_faith: "$your_filter_option$ $game_concept_faith$"
+killers_religion_your_religion: "$your_filter_option$ $game_concept_religion$"
+killers_culture: "$game_concept_culture$"
+killers_culture_all: "$all_filter_option$"
+killers_culture_your_culture: "$your_filter_option$ $game_concept_culture$"
+killers_culture_your_heritage: "$your_filter_option$ $game_concept_heritage$"
+killers_dynasty: "$game_concept_dynasty$"
+killers_dynasty_all: "$all_filter_option$"
+killers_dynasty_your_house: "$your_filter_option$ $game_concept_house$"
+killers_dynasty_your_dynasty: "$your_filter_option$ $game_concept_dynasty$"
+
+killers_ruler: "$game_concept_ruler$"
+killers_ruler_all: "$all_filter_option$"
+killers_ruler_any_ruler: "$any_filter$"
+killers_ruler_landed_ruler: "$game_concept_landed$"
+killers_ruler_landless_ruler: "$game_concept_unlanded$"
+killers_ruler_no_ruler: "$not_ruler_filter_option$"
+
+killers_players_only: "$OUTLINER_PLAYERS$"
+killers_players_only_no: "$any_filter$"
+killers_players_only_yes: "$players_only_filter_option$"

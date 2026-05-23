@@ -43,10 +43,10 @@ activity_adult_education_host_desc: "$BULLET_WITH_TAB$Potresti migliorare il tuo
  adult_education_tt_positive_tiny: "I tuoi studi in [GetActivityType('activity_adult_education').GetName] diventano #P leggermente più fruttuosi#!"
  adult_education_tt_negative: "I tuoi studi in [GetActivityType('activity_adult_education').GetName] diventano #N meno fruttuosi#!"
  adult_education_books_good_reward: "Molto denaro è stato investito nell'acquisto di rari e preziosi libri"
- activity_adult_education_special_type_bar_segment_tt_0: "#t Studi Decenti (Livello 1)#!\nGuadagni [lifestyle_experience|E]\nProbabilità bassa di migliorare il tuo [education_trait|E]"
- activity_adult_education_special_type_bar_segment_tt_1: "#t Studi Nella Media (Livello 2)#!\nnGuadagni #P 1#! punto [perk|E]\nProbabilità media di migliorare il tuo [education_trait|E]"
- activity_adult_education_special_type_bar_segment_tt_2: "#t Buoni Studi (Livello 3)#!\nnGuadagni #P 2#! punti [perk|E]\nProbabilità alta di migliorare il tuo [education_trait|E]"
- activity_adult_education_special_type_bar_segment_tt_3: "#t Studi Perfetti (Livello 4)#!\nnGuadagni #P 3#! punti [perk|E]\nProbabilità molto alta di migliorare il tuo [education_trait|E]"
+activity_adult_education_special_type_bar_segment_tt_0: "#t Studi Discreti (Livello 1)#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 25#!#!\nOttieni [lifestyle_experience|E]\nBassa probabilità di migliorare il tuo [education_trait|E]"
+activity_adult_education_special_type_bar_segment_tt_1: "#t Studi Medi (Livello 2)#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 50#!#!\nOttieni #P 1#! punto [perk|E]\nMedia probabilità di migliorare il tuo [education_trait|E]"
+activity_adult_education_special_type_bar_segment_tt_2: "#t Studi Buoni (Livello 3)#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 75#!#!\nOttieni #P 2#! punti [perk|E]\nAlta probabilità di migliorare il tuo [education_trait|E]"
+activity_adult_education_special_type_bar_segment_tt_3: "#t Studi Perfetti (Livello 4)#!\n#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|0V]/#V 100#!#!\nOttieni #P 3#! punti [perk|E]\nProbabilità molto alta di migliorare il tuo [education_trait|E]"
  activity_adult_education_province_desc: "Dai inizio ad un/una [GetActivityType( 'activity_adult_education' ).GetName] a [ROOT.Province.GetName]\nVari fattori influenzano il tuo $activity_adult_education_success$"
 
  # EVENTS
@@ -282,7 +282,7 @@ bp2_adult_education.9100.desc: "Vengo all’improvviso distratt[Select_CString(R
  bp2_adult_education.9100.a: "Mi servirebbero dei servitori per trasportare tutti i miei libri..."
  bp2_adult_education.9100.b: ""Contadini - portateci altre coppe, io vado a prendere gli altri studenti!""
  bp2_adult_education.9100.c: "Meglio dirlo agli insegnanti prima che distruggano il posto..."
- changed_my_life_opinion: "Ha cambiato la mia vita"
+changed_my_life_opinion: "Ha Cambiato la Mia Vita"
  
  bp2_adult_education.9200.t: "Una Pausa di Studio Afosa"
  bp2_adult_education.9200.desc: "La biblioteca è vuota, tranne per me e [student_flirt.GetFirstName]. Continuo a leggere la stessa pagina di [SCOPE.Custom('RandomInformativeTextName')] ancora e ancora, ma non c'è verso, non riesco a concentrarmi.\n\nNon mentre [student_flirt.GetSheHe] continua a mordere delicatamente la punta della sua penna d'oca, facendo scorrere dolcemente il dito sul/sulla suo/a [student_flirt.Custom('ObjectifiedFeature')], e mentre continua a guardarmi #EMP dritto negli occhi#! mentre lo fa!\n\n"Forse ci meritiamo una... pausa, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('RomanticComplimentNoun')]." dice [student_flirt.GetSheHe] gemendo dolcemente."
@@ -290,7 +290,7 @@ bp2_adult_education.9100.desc: "Vengo all’improvviso distratt[Select_CString(R
  bp2_adult_education.9200.b: ""Vuoi farlo sul tetto dell'università?""
  bp2_adult_education.9200.c: "Immagino sia giunto il momento di fare alcuni studi anatomici pratici!"
  bp2_adult_education.9200.d: "Tutto ciò è inutile... ho bisogno di riposarmi..."
- blew_off_some_steam_opinion: "Sfogarsi un po' Insieme"
+blew_off_some_steam_opinion: "Ci Siamo Sfogati Insieme"
  
  bp2_adult_education.9300.t: "Idee Eccentriche"
  bp2_adult_education.9300.desc: ""Ascoltatemi!" Urla [eccentric_student.GetFirstName], maniacalmente. "Se leggede fra le linee di [SCOPE.Custom('RandomInformativeTextName')] è ovvio;  dovete semplicemente combinare [eccentric_student.Custom('ThrowableObjectArticle')], un/una [eccentric_student.Custom('RandomWeirdObject')], e un/una [eccentric_student.Custom('GetObjectToBalanceOnNose')] — il tutto mentre aderite ai principi di [eccentric_student.Custom('EruditeTopic')] — fidatevi di me, #EMP funzionerà!#!"\n\nForse l'idea di [eccentric_student.GetFirstNameNoTooltip] di studiare per trentasei ore di fila non è stata un abuona idea..."

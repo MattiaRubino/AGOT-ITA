@@ -1032,6 +1032,28 @@ CANNOT_BE_ORDERED_TO_LIKE_THEMSELVES_MORE: 0 "A un Cancelliere non si può ordin
 
  has_any_secrets_trigger:0 "[CHARACTER.GetShortUIName|U] ha dei [secrets|E]"
  has_any_nickname_trigger:0 "Ha un soprannome"
+
+has_first_name_global: "Ha il nome $NAME$"
+not_has_first_name_global: "#bold Non#! ha il nome $NAME$"
+has_first_name_third: "[CHARACTER.GetShortUIName|U] ha il nome $NAME$"
+not_has_first_name_third: "[CHARACTER.GetShortUIName|U] #bold non#! ha il nome $NAME$"
+has_first_name_first: "Hai il nome $NAME$"
+not_has_first_name_first: "#bold Non#! hai il nome $NAME$"
+
+has_regnal_name_global: "Ha il nome regnale $NAME$"
+not_has_regnal_name_global: "#bold Non#! ha il nome regnale $NAME$"
+has_regnal_name_third: "[CHARACTER.GetShortUIName|U] ha il nome regnale $NAME$"
+not_has_regnal_name_third: "[CHARACTER.GetShortUIName|U] #bold non#! ha il nome regnale $NAME$"
+has_regnal_name_first: "Hai il nome regnale $NAME$"
+not_has_regnal_name_first: "#bold Non#! hai il nome regnale $NAME$"
+
+has_original_first_name_global: "Ha il nome di nascita $NAME$"
+not_has_original_first_name_global: "#bold Non#! ha il nome di nascita $NAME$"
+has_original_first_name_third: "[CHARACTER.GetShortUIName|U] ha il nome di nascita $NAME$"
+not_has_original_first_name_third: "[CHARACTER.GetShortUIName|U] #bold non#! ha il nome di nascita $NAME$"
+has_original_first_name_first: "Hai il nome di nascita $NAME$"
+not_has_original_first_name_first: "#bold Non#! hai il nome di nascita $NAME$"
+
  PRISON_TOTAL_DAYS:0 "Totale dei giorni passati in [prison|E]: $DAYS|V$"
  TIME_IN_PRISON_TYPE_TRIGGER:0 "Tempo passato nell'attuale tipo di prigionia: $TIME|V$"
  IN_PRISON_TYPE_TRIGGER:0 "Sta attualmente scontando il proprio tempo di prigionia in: "

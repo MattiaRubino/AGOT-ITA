@@ -17,6 +17,14 @@ change_house_relation_third: "La [house_relation|E] [HOUSE_RELATION.GetName] [Se
   change_house_relation_third_past: "$change_house_relation_third$"
   change_house_relation_global_past: "$change_house_relation_third_past$"
 
+ # Effect: impact_house_relation
+impact_house_relation_to_be_established_global: "Stabilisci una [house_relation|E] tra [DYNASTY_HOUSE.GetName] e [DYNASTY_HOUSE_2.GetName] al livello iniziale di [HOUSE_RELATION_LEVEL.GetName]"
+impact_house_relation_to_change_level_global: "La [house_relation|E] [HOUSE_RELATION.GetName] [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P migliora#!', '#N peggiora#!' )] da [OLD_HOUSE_RELATION_LEVEL.GetName] a [NEW_HOUSE_RELATION_LEVEL.GetName] ($STEPS|+=%^$)"
+impact_house_relation_to_progress_towards_level_global: "La [house_relation|E] [HOUSE_RELATION.GetName] [Select_CString( GreaterThan_CFixedPoint( '(CFixedPoint)$STEPS|q$', '(CFixedPoint)0.0'), '#P migliora#!', '#N peggiora#!' )] da [HOUSE_RELATION.GetLevel.GetName] verso [HOUSE_RELATION_LEVEL.GetName] ($STEPS|+=%^$)"
+ impact_house_relation_to_be_established_third: "$impact_house_relation_to_be_established_global$"
+ impact_house_relation_to_change_level_third: "$impact_house_relation_to_change_level_global$"
+ impact_house_relation_to_progress_towards_level_third: "$impact_house_relation_to_progress_towards_level_global$"
+
   I_CLEAR_HOUSE_RELATION_EFFECT: "[DYNASTY_HOUSE.GetName]-[DYNASTY_HOUSE_2.GetName] [house_relation|E] termina"
   THEY_CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"
   CLEAR_HOUSE_RELATION_EFFECT: "$I_CLEAR_HOUSE_RELATION_EFFECT$"

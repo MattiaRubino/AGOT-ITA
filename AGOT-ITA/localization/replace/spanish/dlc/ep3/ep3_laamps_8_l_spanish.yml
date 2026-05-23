@@ -133,7 +133,7 @@ ep3_laamps.8090.desc.world_asia_southeast: "Fronde pesanti mi proteggono dal sol
  ep3_laamps.8101.d: "[title_4.GetName]"
 
  ep3_laamps.8102.t: "$laamp_legitimist_support_contract$ — Preludio"
- ep3_laamps.8102.desc: ""Posso offrirvi dell'oro e i miei migliori guerrieri, in cambio della metà del reddito annuale [claimed_title.Custom('IT_NAM_COL2')][claimed_title.GetName]." [petitioned_ruler.GetName], chiaramente, non intende perdere tempo.\n\n"Non vedo l'ora di vedere la testa [claimed_title.GetHolder.Custom('IT_NAM_COL2')][claimed_title.GetHolder.GetName] infilzata sulla punta di una lancia. E per favore non infastiditemi chiedendo di più, anche se so che ciò sia in un certo senso inevitabile, perché c'è un limite alla mia indulgenza."\n\n#italic Avrai [ROOT.Var('legitimist_turns').GetValue] turni per negoziare i dettagli dell'accordo." 
+ep3_laamps.8102.desc: "«Possiamo offrirvi oro e i nostri migliori guerrieri in cambio, diciamo, di metà del reddito annuo di [claimed_title.GetName].» [petitioned_ruler.GetName] chiaramente non vuole perdere tempo.\n\n«Non vediamo l'ora di vedere la testa di [claimed_title.GetHolder.GetName] su una lancia. Oh, e vi preghiamo di non annoiarci troppo mentre, inevitabilmente, chiederete di più: c'è un limite alla nostra indulgenza.»\n\n#italic Avrai [ROOT.Var('legitimist_turns').GetValue] turni per negoziare i dettagli dell'accordo."
  ep3_laamps.8102.a: ""La cosa più importante, Vostra Grazia...""
  ep3_laamps.8102.a.desc: "Inizierai le trattative senza chiedere di più"
  ep3_laamps.8102.b: "Impressional[petitioned_ruler.Custom('DE_END_PRO_S_N')] con la tua genialità."
@@ -183,7 +183,7 @@ ep3_laamps.8090.desc.world_asia_southeast: "Fronde pesanti mi proteggono dal sol
  ep3_laamps.8105.a.desc: "Chiederai più tempo per preparare la guerra."
  ep3_laamps.8105.a.success: "Hai 8 anni di tempo per rivendicare [claimed_title.Custom('IT_COU_COL4')][claimed_title.GetName]"
  ep3_laamps.8105.a.failure: "Hai 4 anni di tempo per rivendicare [claimed_title.Custom('IT_COU_COL4')][claimed_title.GetName]"
- ep3_laamps.8105.b: "Al futuro [claimed_title.Custom('IT_COU_COL')][claimed_title.GetName]!"
+ep3_laamps.8105.b: "Al futuro di [claimed_title.GetNameNoTooltip]!"
  ep3_laamps.8105.b.desc: "Accetti le condizioni dell'accordo. $ep3_laamps.8105.a.failure$"
  ep3_laamps.8105.c: "È stata solo una perdita di tempo."
  ep3_laamps.8105.c.desc: "@warning_icon! #color_red Interrompi le negoziazioni.#! [petitioned_ruler.Custom('IT_NAM_COL3')|U][petitioned_ruler.GetTitledFirstName] non ti fornirà supporto e, senza dubbio, conserverà una cattiva opinione nei tuoi confronti."

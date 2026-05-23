@@ -87,6 +87,10 @@ mandala_coronation_low_feast_modifier_desc: "$ach_coronation_low_feast_modifier_
  doctrine_parameter_no_anointment: "I [characters|E] non hanno accesso all’[activity_option|E] [coronation_anointment|lE]"
  doctrine_parameter_theocratic_coronation: "I [characters|E] hanno accesso all’[activity_option|E] [coronation_anointment|lE]"
  doctrine_parameter_imperial_anointment: "I [characters|E] di [title_tier|E] [empire|E] o superiore devono usare l’[activity_option|E] [coronation_anointment|E] per ricevere la [law|E] [GetLaw('crowned_emperor').GetName]"
+doctrine_parameter_coronation_artifact: "I [characters|E] di questa [faith|E] devono avere un [artifact|E] [FAITH.Custom('CoronationRequiresArtifact')] per accedere a ulteriori [activity_options|E]"
+coronation_custom_crown_artifact: "Corona"
+coronation_custom_regalia_artifact: "Regalia"
+coronation_custom_crown_or_regalia_artifact: "Corona o Regalia"
 
  # Costs
  CORONATION_BASE_COST: "Costo base della [GetActivityType( 'activity_coronation' ).GetName|l]"
@@ -112,9 +116,9 @@ mandala_coronation_low_feast_modifier_desc: "$ach_coronation_low_feast_modifier_
  can_only_be_lost_through_losing_titles: "Già Incoronato"
  already_better_coronation: "Già Unto"
  already_coronated_trigger: "Già Incoronato"
- coronation_no_crown_trigger: "Serve un [artifact|E] di tipo Corona"
- coronation_no_regalia_trigger: "Serve un [artifact|E] di tipo Vesti Regali"
- coronation_no_crown_or_regalia_trigger: "Serve un [artifact|E] di tipo Corona o di Vesti Regali"
+coronation_no_crown_trigger: "La tua fede richiede un [artifact|E] Corona, che può essere forgiato tramite la [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
+coronation_no_regalia_trigger: "La tua fede richiede un [artifact|E] Regalia, che può essere forgiato tramite la [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
+coronation_no_crown_or_regalia_trigger: "La tua fede richiede un [artifact|E] Corona o Regalia, che può essere forgiato tramite la [decision|E] [GetDecisionWithKey('commission_artifact_decision').GetName]"
 
  ## Intents
  # Host Intents
@@ -145,10 +149,12 @@ mandala_coronation_low_feast_modifier_desc: "$ach_coronation_low_feast_modifier_
  ## Widget
  # Right-hand Side
 SUPPORTER_WINDOW_OTHER_LABEL: "Altri sostenitori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
+SUPPORTER_WINDOW_OTHER_LABEL_NONE: "Altri sostenitori: 0"
 SUPPORTER_WINDOW_OTHER_LABEL_HOVER: "#T Sostenitori#!\n$game_concept_coronation_supporter_desc$\n\n"
  SUPPORTER_WINDOW_LABEL: "Grandi Sostenitori"
  SUPPORTER_WINDOW_LABEL_HOVER: "#T $SUPPORTER_WINDOW_LABEL$#!\nSono i [coronation_supporters|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_supporter_desc$"
 DETRACTOR_WINDOW_OTHER_LABEL: "Altri detrattori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
+DETRACTOR_WINDOW_OTHER_LABEL_NONE: "Altri detrattori: 0"
 DETRACTOR_WINDOW_OTHER_LABEL_HOVER: "#T Detrattori#!\n$game_concept_coronation_detractor_desc$"
  DETRACTOR_WINDOW_LABEL: "Grandi detrattori"
  DETRACTOR_WINDOW_LABEL_HOVER: "#T $DETRACTOR_WINDOW_LABEL$#!\nSono i [coronation_detractors|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_detractor_desc$"
@@ -370,13 +376,16 @@ coronation_events.0110.desc.end_the_struggle_oath: "#emp «La [activity.GetHost.
  ## Provide for the Poor
  coronation_events.0110.desc.provide_for_the_poor_oath: "#emp «I poveri di [activity.GetHost.GetPrimaryTitle.GetNameNoTier] sono il sale della terra, la luce del mondo. Lavorano in silenzio per il bene di tutti. Mi impegnerò affinché anche i più umili vivano con dignità e speranza».#!"
  ## Repent
- coronation_events.0110.desc.repent_oath: "#emp «Può la natura del[activity.GetHost.Custom('DE_PRO_PER_S_3P_N')][activity.GetHost.GetWomanMan] cambiare? Basterà la mia volontà? Posso convincere gli altri [activity.GetHost.GetFaith.GetAdherentNamePlural], posso convincere [activity.GetHost.GetFaith.HighGodName] che il mio pentimento è sincero? Tentarci può parere stoltezza, ma non farlo sarebbe il peccato maggiore».#!"
+coronation_events.0110.desc.repent_oath: "#emp «Che cosa può mutare la natura di un [activity.GetHost.GetWomanMan]? È sufficiente la mia volontà? Posso convincere altri [activity.GetHost.GetFaith.GetAdherentNamePlural], posso convincere [activity.GetHost.GetFaith.HighGodName] che mi pento davvero dei miei peccati? Tentare potrebbe essere una stoltezza, ma non farlo sarebbe il più grave dei peccati.»#!"
 
  ## Other
- coronation_events.0110.desc.fallback: "#emp «Il mio governo sarà ricordato da chi verrà dopo di noi come l’inizio di un’età dell’oro per [activity.GetHost.GetPrimaryTitle.GetNameNoTier]».#!"
+coronation_events.0110.desc.fallback_compassionate: "#emp «Giuro di osservare tutte le giuste leggi e consuetudini del popolo [activity.GetHost.GetPrimaryTitle.GetAdjective]; di governare con mite saggezza e giudicare con grazia misericordiosa.»#!"
+coronation_events.0110.desc.fallback_honorable: "#emp «Giuro di mantenere la pace e la concordia degli [activity.GetHost.GetFaith.AltPriestTermPlural] di [activity.GetHost.GetFaith.HighGodNamePossessive] in [activity.GetHost.GetPrimaryTitle.GetNameNoTier], e di custodire col mio onore le libertà e i diritti del mio popolo.»#!"
+coronation_events.0110.desc.fallback_feckless: "#emp «Io... ehm... giuro i debiti giuramenti del [activity.GetHost.GetTierAsName] di [activity.GetHost.GetPrimaryTitle.GetNameNoTierPossessive]... d'ora innanzi farò quanto gli [activity.GetHost.GetFaith.AltPriestTermPlural] richiedono, e risponderò quando il reame invocherà il suo [activity.GetHost.GetTierAsNameNoTooltip], e così via...»#!"
+coronation_events.0110.desc.fallback: "#emp «Giuro, in virtù del mio governo, fortuna a [activity.GetHost.GetPrimaryTitle.GetNameNoTier], deferenza verso le usanze dei suoi popoli e gloria al [activity.GetHost.GetPrimaryTitle.GetTierAsNameNoTooltip].»#!"
+coronation_events.0110.regular: "Vedremo se [Select_CString(activity.GetHost.IsFemale,'lei','lui')] saprà essere all'altezza di queste parole..."
+coronation_events.0110.no_oath: "Parole di cerimonia, non di storia."
  coronation_events.0110.desc.outro: ""
- coronation_events.0110.regular: "Vedremo se [activity.GetHost.GetSheHe] sarà all’altezza delle aspettative…"
- coronation_events.0110.no_oath: "Che delusione…"
 
 
  coronation_events.0150.t: "Giuramento infranto: [SCOPE.Custom('GetOathSpecific')|V]"
@@ -727,7 +736,7 @@ heir_preparation_oath_decision_desc: "Ho giurato di preparare [Select_CString(Ge
  repent_oath_decision_desc_extra: "\n\n@alert_icon!#alert_trial Restano [RemainingTime('repent_oath_timer')] per adempiere al [oath|lE]#![IsOngoingCoronationOath('repent_oath')]"
  repent_oath_decision_tooltip: "Completa #V 4#! [pilgrimages|lE]."
  repent_oath_decision_confirm: "La mia anima è nuda davanti a [ROOT.Char.GetFaith.HighGodName]"
- repent_oath_remove_traits_tooltip: "Tutti i tuoi [traits|E] [Concept('sinful', 'peccaminosi')|E] saranno sostituiti con [Concept('traits', 'altri')|E] [Concept('virtuous', 'virtuosi')|E]."
+repent_oath_remove_traits_tooltip: "Ogni [lifestyle_trait|E] e [fame_trait|E] [sinful|E] verrà rimosso, e i [personality_traits|E] [sinful|E] verranno sostituiti con [personality_traits|E] [virtuous|E] casuali, fino a un numero pari a quelli posseduti dalla tua [faith|E]"
  repent_oath_pilgrimage: "#V Completate [ROOT.Char.MakeScope.Var('repent_oath_pilgrimage_counter').GetValue|0]/4#! [pilgrimages|lE]"
 
  # Activity Log
@@ -933,7 +942,23 @@ coronation_events.0312.better_councillors: "Grazie all’[intent|E] #V Accogli i
  CORONATION_ANOINTMENT_REQUEST_INTERACTION_NOTIFICATION: "Con la massima venerazione, cerco la vostra benedizione e il vostro appoggio per la mia giusta e propizia ascesa al trono."
  anointment_request_already_supported: "[recipient.Custom('IT_NAM_COL3')][recipient.GetTitledFirstName|l|U] ha già accettato di sostenere la tua [anointment|lE]"
  coronation_realm_size_desc: "$CB_REALM_SIZE_COST$"
- coronation_empire_req: "[empire|E] [title_tier|E]"
- coronation_tribal_reg: "[GetGovernment('tribal_government').GetName]"
- coronation_nomadic_reg: "[GetGovernment('nomadic_government').GetName]"
+coronation_empire_req: "[title_tier|E] di [empire|E] o superiore"
+activity_coronation_predicted_cost: "Il costo di una [GetActivityType( 'activity_coronation' ).GetNameNoTooltip] è influenzato principalmente dal [activity_type|E] e dalle [activity_options|E] che selezioni."
+coronation_tribal_reg: "[GetGovernment('tribal_government').GetNameNoTooltip] o [GetGovernment('wanua_government').GetNameNoTooltip]"
+coronation_nomadic_reg: "[GetGovernment('nomad_government').GetNameNoTooltip]"
+coronation_tribal_nomadic_reg: "[GetGovernment('tribal_government').GetNameNoTooltip], [GetGovernment('wanua_government').GetNameNoTooltip] o [GetGovernment('nomad_government').GetNameNoTooltip]"
+coronation_discount_reg: "Da evento"
  HOF_is_ai_tt: "[head_of_faith|E] $IS_LOCAL_PLAYER_TRIGGER|l$"
+coronation_conclusion_summary_desc_crown: "[host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNicknamedRegnal] è ora incoronat[Select_CString(host.IsFemale,'a','o')] come legittim[Select_CString(host.IsFemale,'a','o')] [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] di [host.GetPrimaryTitle.GetNameNoTierPossessive], e incaricat[Select_CString(host.IsFemale,'a','o')] della salvaguardia del reame."
+coronation_conclusion_summary_desc: "[host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNicknamedRegnal] è ora insediat[Select_CString(host.IsFemale,'a','o')] sul trono come legittim[Select_CString(host.IsFemale,'a','o')] [host.Custom('IT_NAM_COL3')][host.GetTitleAsNameNoTooltip] di [host.GetPrimaryTitle.GetNameNoTierPossessive], e affidat[Select_CString(host.IsFemale,'a','o')] al benessere del reame."
+coronation_supporters_pledge_total: "\n\n[activity.MakeScope.Var('supporters_pledge_var').GetValue|0V] [vassals|E] ([coronation_supporters|E]) hanno giurato lealtà con sincera convinzione"
+coronation_supporters_pledge_total_1: "\n\n[activity.MakeScope.Var('supporters_pledge_var').GetValue|0V] [vassal|E] ([coronation_supporter|E]) ha giurato lealtà con sincera convinzione"
+coronation_detractors_scorned_pledge_total: "\n\n[activity.MakeScope.Var('detractors_scorned_pledge_var').GetValue|0V] [vassals|E] ([coronation_detractors|E]) hanno disprezzato il giuramento al loro nuovo [liege|E]"
+coronation_detractors_scorned_pledge_total_1: "\n\n[activity.MakeScope.Var('detractors_scorned_pledge_var').GetValue|0V] [vassal|E] ([coronation_detractor|E]) ha disprezzato il giuramento al suo nuovo [liege|E]"
+coronated_confed_modifier: "Scelto dalla Confederazione"
+coronated_confed_modifier_desc: "Questo personaggio è stato ufficialmente accettato come primo tra pari, padrone di una confederazione."
+
+coronation_events.0401.opening: "Onorato visitatore,"
+coronation_events.0401.desc: "Non posso più accettare la mia coronazione, poiché il principale tra i miei titoli è cambiato.\n\nNon intendo mancarti di rispetto, mio nobile ospite. Che il viaggio di ritorno ti sia benigno."
+coronation_events.0401.desc_title_loss: "La mia coronazione non è più possibile. Il mio titolo è perduto.\n\nPrego che i miei stimati ospiti non conoscano mai una sventura simile."
+coronation_events.0401.a: "Devo congedarmi, suppongo."

@@ -3193,7 +3193,7 @@ rival_tried_to_have_me_disinherited: "[CHARACTER.GetShortUIName|U] ha scoperto c
 rival_tried_to_have_me_disinherited_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] ha scoperto che [CHARACTER.GetShortUIName|U] aveva tentato di far[Select_CString(TARGET_CHARACTER.IsFemale,'la','lo')] diseredare o persino uccidere."
 
 rival_conquered_me: "[CHARACTER.GetShortUIName|U] ha conquistato il reame di [TARGET_CHARACTER.GetShortUINamePossessive|U]."
-rival_conquered_me_corresponding: "Il reame di [TARGET_CHARACTER.GetShortUINamePossessive|U] è stato conquistato da [CHARACTER.GetShortUIName|U]."
+rival_conquered_me_corresponding: "Il reame di [CHARACTER.GetShortUINamePossessive|U] è stato conquistato da [TARGET_CHARACTER.GetShortUIName|U]"
  
  friend_opened_up:0 "[CHARACTER.GetTitledFirstName|U] si è aperto con [TARGET_CHARACTER.GetTitledFirstName] riguardo ai suoi problemi più intimi."
  friend_opened_up_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha ascoltato [CHARACTER.GetTitledFirstName] parlare dei suoi problemi più intimi."
@@ -3451,3 +3451,5 @@ friend_drinking_tea: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortU
 friend_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] legarono durante un festival"
 lover_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] condivisero una notte di passione durante un festival"
 rival_courtiers_friction_on_festival: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString(And(CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale),'nemiche giurate','nemici giurati')] durante un festival"
+
+friend_supported_child: "[CHARACTER.GetShortUINameNoTooltip] ha incoraggiato [TARGET_CHARACTER.GetShortUIName|U] mentre si esercitava nel tiro con l'arco."

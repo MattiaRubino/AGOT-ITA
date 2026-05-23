@@ -116,6 +116,7 @@ ceremonial_liege_cannot_be_governor_trigger: "Le [governorships|E] non possono e
   tgp_has_ceremonial_liege_title_no_title_tt: "[THIS.Char.GetShortUIName|U] [CharHaveHas(THIS.Char)] il [ceremonial_liege|E] [title|E]"
   tgp_is_in_ceremonial_house_tt: "[THIS.Char.GetShortUIName|U] [CharAreIs( THIS.Char )] membro della [ceremonial_house|E] #weak ([THIS.Char.GetTopLiege.GetPrimaryTitle.MakeScope.Var('administrative_ui_special_title').Title.GetHolder.GetHouse.GetName|V])#!"
   tgp_realm_has_ceremonial_liege_tt: "[THIS.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName|U] ha un [ceremonial_liege|E]"
+tgp_ceremonial_liege_coronation_trigger: "Solo un [ceremonial_liege|E] [independent|E] può essere incoronato nel proprio [realm|E]"
 
   influence_candidacy_interaction_desc_japan: "Spendi [influence|E] per promuovere o indebolire la candidatura di un personaggio a [recipient.GetTopLiege.Custom('GetGovernorConcept')] o a [ceremonial_regent|E]"
   request_appointment_support_desc_japan: "Chiedi a [recipient.GetShortUINameNoTooltip] di promuovere te o un membro del tuo [house|E] per diventare un futuro [actor.GetTopLiege.Custom('GetGovernorConcept')] o [ceremonial_regent|E]"
@@ -154,7 +155,7 @@ japan_administrative_province_trade_short: "@japan_administrative_trade_administ
   japan_administrative_province_military: "@japan_administrative_military_administration! Amministrazione Militare"
 japan_administrative_province_military_short: "@japan_administrative_military_administration! Militare"
   japan_administrative_province_military_text_icon: "@japan_administrative_military_administration!"
-  japan_administrative_province_military_benefits: "#emphasis #bold Benefici del [vassal|E]:#!#!\n$EFFECT_LIST_BULLET$ Usa [GetLaw('japanese_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! Limitata a [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!"
+japan_administrative_province_military_benefits: "#emphasis #bold Benefici per [vassal|E]:#!#!\n$EFFECT_LIST_BULLET$ Usa [GetLaw('japanese_military_appointment_succession_law').GetName]\n\n#alert_trial @alert_icon! Limitato a [EmptyScope.ScriptValue('japan_administrative_province_military_max_value')|V0]#!"
   japan_administrative_province_military_desc: "#low Un’amministrazione militare focalizzata su fortificazioni e reclutamento. Fornisce al reame i mezzi per proteggersi o ampliare i confini quando necessario.#!"
   japan_administrative_province_military_amount_desc: "Limite $japan_administrative_province_military_short$ raggiunto"
   should_hold_a_lower_tier_governorship_first: "Occorre detenere prima una [governorship|E] di rango inferiore"

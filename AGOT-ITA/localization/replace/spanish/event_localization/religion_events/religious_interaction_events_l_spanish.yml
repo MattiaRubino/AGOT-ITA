@@ -39,7 +39,9 @@
  religious_interaction.5.they_are_female:0 "A causa del tuo status di donna,"
  religious_interaction.5.they_are_male:0 "A causa del tuo status virile,"
  religious_interaction.5.fallback:0 "A causa della tua evidente mancanza di pietà,"
- religious_interaction.5.outro:0 "una condizione che preoccupa molto la Chiesa, ho concesso a [actor.GetName] una rivendicazione su [target.GetName], su sua richiesta."
+religious_interaction.5.outro: 0 "una condizione che preoccupa molto la Chiesa,"
+religious_interaction.5.outro_different_recipient: "Ho concesso ad [actor.GetName] una rivendicazione su [target.GetName], su richiesta di [Select_CString(actor.IsFemale,'lei','lui')]."
+religious_interaction.5.self: "Ho deciso di perseguire la mia rivendicazione su [target.GetName], poiché è mio diritto."
  religious_interaction.5.a:0 "Questa è una farsa!"
 
  religious_interaction.6.opening:0 "[recipient.Custom2('AppropriateGreeting', ROOT.Char)]"

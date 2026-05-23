@@ -1,0 +1,36 @@
+﻿l_spanish:
+
+
+debug_test_story_counter_positive: "Questo #positive_value mostrerà#! [debug_test_story|E] [liege.Custom('IT_NAM_COL4')][liege.GetTitleAsNameNoTooltip]"
+debug_test_story_counter_very_positive: "Questo #positive_value mostrerà grandemente#! [debug_test_story|E] [liege.Custom('IT_NAM_COL4')][liege.GetTitleAsNameNoTooltip]"
+debug_test_story_counter_negative: "Questo #negative_value metterà in dubbio#! [debug_test_story|E] [liege.Custom('IT_NAM_COL4')][liege.GetTitleAsNameNoTooltip]"
+debug_test_story_counter_very_negative: "Questo #negative_value metterà grandemente in dubbio#! [debug_test_story|E] [liege.Custom('IT_NAM_COL4')][liege.GetTitleAsNameNoTooltip]"
+game_concept_debug_test_story: "Valore di Lealtà di Prova"
+game_concept_debug_test_story_desc: "Rimanendo #V leale#!, [debug_test_story|E] può aumentare il proprio misuratore di lealtà.\n\nDiventando #V sleale#!, debug_test_story può abbassare il proprio misuratore di lealtà."
+debug_test_story: "Ciclo di Storia di Prova Black Forge Jam"
+debug_test_story_desc: "Questa è una prova di tutte le visualizzazioni di un ciclo di storia. È davvero notevole. Grazie a Chad e Oscar per la vostra magia del codice!"
+debug_test_story.0001.t: "TITOLO DI PROVA DEBUG"
+debug_test_story.0001.desc: "DESCRIZIONE DI PROVA DEBUG"
+debug_test_story.0001.a: "Mostra tutto quanto"
+debug_test_story.0001.a.flavor: "VARIANTE OPZIONE A DI PROVA DEBUG"
+debug_test_story.0001.b: "Fai scendere il tiro alla fune"
+debug_test_story.0001.b.flavor: "VARIANTE OPZIONE B DI PROVA DEBUG"
+debug_test_story.0001.c: "Concludi la storia"
+
+debug_test_story_prayer_modifier: "MODIFICATORE PREGHIERA DI PROVA DEBUG"
+debug_test_story_prayer_modifier_desc: "DESCRIZIONE MODIFICATORE PREGHIERA DI PROVA DEBUG"
+debug_test_story_weak_stomach_modifier: "MODIFICATORE STOMACO DEBOLE DI PROVA DEBUG"
+debug_test_story_weak_stomach_modifier_desc: "DESCRIZIONE MODIFICATORE STOMACO DEBOLE DI PROVA DEBUG"
+
+DEBUG_TEST_LIEGE: "Il tuo signore di prova"
+DEBUG_TEST_ENEMY: "Il tuo nemico di prova"
+DEBUG_TEST_COURTIERS: "La tua lista di cortigiani di prova"
+DEBUG_TEST_VALUE_FOR_BASIC: "Il valore di prova per il contatore base"
+DEBUG_TEST_VALUE_FOR_TUG: "Il valore di prova per il misuratore tiro alla fune"
+DEBUG_TEST_TITLE: "Il titolo di prova"
+DEBUG_TEST_ARTIFACT: "Il manufatto di prova"
+DEBUG_TEST_TITLES: "La lista di titoli di prova"
+DEBUG_TEST_ARTIFACT_LIST: "La lista di manufatti di prova"
+
+DEBUG_TEST_CUSTOM_STRING_KEY: "[Story.MakeScope.Var('debug_test_story_liege').Char.GetShortUIName] è il tuo [liege|E]. $game_concept_debug_test_story$ è un numero che influenza il misuratore di lealtà che dovrebbe essere visualizzato in questa finestra."
+debug_debug_test_story_interaction: "Avvia ciclo di storia debug"

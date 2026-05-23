@@ -88,7 +88,7 @@ diarch_retract_vassal_interaction.send_name: "Ritira Vassallo"
  diarch_imprison_interaction.send_name: "Imprigiona"
  recipient_secondary_diarch_imprison_interaction:0 "$recipient_secondary_diarch_interaction$"
  DIARCH_IMPRISON_PROPOSAL:1 "$char_interaction.0281.desc$"
- diarch_imprison_interaction.tt.inform_recipient:1 "[recipient.Custom('IT_NAM_COL3')|U][actor.GetShortUIName] ha cercato di [Concept('imprisoned','imprigionarti')|E]"
+diarch_imprison_interaction.tt.inform_recipient: 1 "[actor.GetShortUIName|U] ha tentato di far [imprisoned|E] [recipient.GetShortUIName|U]"
 
  diarch_subsidise_crown_authority_interaction:0 "Sovvenziona l'Autorità del Signore"
  diarch_subsidise_crown_authority_interaction_desc:0 "Offri di usare il tuo [prestige|E] per aiutare il tuo [liege|E] a incrementare la sua [crown_authority|E], la sua [tribal_authority|E] o la sua [imperial_bureaucracy|E], cosa di cui potrebbero necessitare alcuni dei tuoi [diarch_powers|E].$diarch_boilerplate_postscript_partial$"
@@ -297,7 +297,7 @@ swing_scales_currency_interaction.tt.scales_min_movement_power: "Hai più di [Em
 swing_scales_decrease_movement_power: "[movement_power_i][personal_movement_power|E]: [actor.MakeScope.ScriptValue('movement_power_decreased_diarchy_value')|+=0] #weak ([EmptyScope.ScriptValue('movement_power_decreased_scheme_decay_value')|+=0]/anno)#!"
  diarch_entrench_regency_interaction:0 "Consolida la Reggenza"
  diarch_entrench_regency_interaction_desc:0 "Fai sì che la tua [regency|E] diventi una [entrenched_regency|E], rendendo più difficile per [actor.Custom('IT_NAM_COL3')][actor.GetLiege.GetShortUINameNoTooltip] poterti destituire dal tuo incarico"
- HIGHLIGHTED_CAN_DIARCH_ENTRENCH_REGENCY:0 "#EMP Puoi [Concept('entrenched_regency','Consolidare la tua Reggenza')|E]!"
+HIGHLIGHTED_CAN_DIARCH_ENTRENCH_REGENCY: 0 "#EMP Puoi diventare una [entrenched_regency|E]!"
  diarch_entrench_regency_interaction.tt.recipient_notification:0 "[actor.Custom('IT_NAM_COL3')][actor.GetShortUINameNoTooltip] ha [Concept('entrenched_regency_entrenched','consolidato')|E] la sua posizione di $game_concept_regent$"
 
  diarch_regent_appoints_self_co_emperor_interaction: "Ascendi a $game_concept_co_emperor$"
@@ -377,7 +377,7 @@ swing_scales_decrease_movement_power: "[movement_power_i][personal_movement_powe
  appoint_vizier_interaction.tt.secondary_recipient_is_not_best_candidate:0 "[secondary_recipient.GetTitledFirstName] #XB NON#! è il candidato più elegibile #WEAK (i tuoi amministratori si lamenteranno se non sceglierai [best_candidate.GetTitledFirstName], a causa del suo [vizier_succession_score|E])#!"
  appoint_vizier_interaction.tt.secondary_recipient_grants_tax_jurisdictions:0 "La sua [stewardship|E] ti garantirà #P +[secondary_recipient.MakeScope.ScriptValue('vizier_bonus_tax_jurisdictions_value')|0]#! [tax_jurisdictions|E] extra"
  appoint_vizier_interaction.tt.same_house_penalty:0 "[secondary_recipient.GetFirstNameNoTooltip|U] è della tua [house|E] e pertanto al di sopra del lavoro nel servizio civile #WEAK (nominarl[secondary_recipient.Custom('DE_END_PRO_S_N')] costerà sia [dynasty_prestige|E] che [prestige|E])#!"
- 
+
  civil_service_upset_modifier:0 "Sconvolgimento del Servizio Civile"
  civil_service_upset_modifier_desc:0 "Le nomine politiche hanno sconvolto l'amministrazione di questo personaggio."
 
@@ -409,20 +409,20 @@ swing_scales_decrease_movement_power: "[movement_power_i][personal_movement_powe
  mulct_vizier_interaction.vizier_loses_extravagance_t3_modifiers: "Tutti i [modifiers|E] [Concept( 'vizier_extravagance', '$vizier_extravagance_t3_title|q$ Extravagance')|E] sono stati rimossi #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t3_tally')|0])#!"
  mulct_vizier_interaction.vizier_loses_extravagance_t4_modifiers: "Tutti i [modifiers|E] [Concept( 'vizier_extravagance', '$vizier_extravagance_t4_title|q$ Extravagance')|E] sono stati rimossi #WEAK ([THIS.Char.MakeScope.ScriptValue('vizier_extravagance_modifiers_t4_tally')|0])#!"
 
- systematically_maim_character_interaction: "Menoma il Co-Imperatore"
+systematically_maim_character_interaction: "Rimuovi Co-reggente"
  systematically_maim_character_interaction_desc: "Una sorte più misericordiosa della morte — o almeno così affermiamo — una mutilazione formale è il modo migliore per far desistere un presunto imperatore dai suoi deliri imperiali."
- maim_arm_name: "Taglia un braccio"
+maim_arm_name: "Taglia un Braccio"
  maim_arm: "Ne avrà comunque un altro, dopotutto."
- maim_leg_name: "Taglia una gamba"
+maim_leg_name: "Taglia una Gamba"
  maim_leg: "Non te ne servono due per camminare."
- maim_face_name: "Taglia via il naso"
+maim_face_name: "Taglia via il Naso"
  maim_face: "Un inutile cappuccio di cartilagine e pelle."
  maim_blind_name: "Prendi gli occhi"
  maim_blind: "Un messaggio che #EMP quasi#! tutto il mondo potrà vedere."
  maim_castrate_name: "Rimuovi la Mascolinità"
  maim_castrate: "Forse è importante, ma di certo non necessario."
  execute_prisoner_interaction.tt.co_emperor_usurpation: "Dato che sei il suo [co_ruler|E], l[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] [Concept( 'usurp', 'usurpi' )|E]:"
- 
+
 diarch_syphon_treasury_interaction_syphon_development_growth_massive_tt: "[SCOPE.ScriptValue('siphon_treasury_recipient_county_tally')|V0] [counties|E] casuali detenute da [recipient.GetShortUIName] perdono [SCOPE.ScriptValue('massive_development_progress_loss')|N0] [development|E] [development_growth|E]"
 diarch_syphon_treasury_interaction_syphon_development_growth_major_tt: "[SCOPE.ScriptValue('siphon_treasury_recipient_county_tally')|V0] [counties|E] casuali detenute da [recipient.GetShortUIName] perdono [SCOPE.ScriptValue('major_development_progress_loss')|N0] [development|E] [development_growth|E]"
 diarch_syphon_treasury_interaction_syphon_development_growth_medium_tt: "[SCOPE.ScriptValue('siphon_treasury_recipient_county_tally')|V0] [counties|E] casuali detenute da [recipient.GetShortUIName] perdono [SCOPE.ScriptValue('medium_development_progress_loss')|N0] [development|E] [development_growth|E]"

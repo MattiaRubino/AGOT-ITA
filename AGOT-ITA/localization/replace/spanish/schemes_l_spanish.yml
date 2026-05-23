@@ -13,9 +13,11 @@
 
  SCHEME_AGENT_GOLD:0 "[gold_i] Tangente"
 SCHEME_AGENT_TREASURY: 0 "Trasferimento [treasury|E] [treasury_i]"
+SCHEME_AGENT_TREASURY_BRIBE: "[treasury_i] Tangente"
  SCHEME_HOOK:1 "Usa un [hook_i][hook|e]"
  SCHEME_HOOK_EXPLICIT: "[hook_i] Usa il tuo [hook|E]"
  SCHEME_AGENT_GOLD_SIGNIFICANT: "[gold_i] Tangente #EMP Consistente#!"
+SCHEME_AGENT_TREASURY_SIGNIFICANT_BRIBE: "[treasury_i] Tangente #EMP Cospicua#!"
  offer_gold.tt.cannot_offer_both_bribes: "Una tangente può avere una sola dimensione"
 not_two_overrides: "Non puoi usare due opzioni di accettazione automatica"
  SCHEME_AGENT_HOOK: "[hook_i] Offri un [hook|E] su di te"
@@ -80,8 +82,10 @@ scheme_cancelled: "[owner.GetShortUIName|U] ha abbandonato il Complotto"
 
 
 SCHEME_AGENT_GOLD_VALID: "Paga [gold_i][SCOPE.ScriptValue('bribe_value')|V0] a [recipient.GetShortUINameNoTooltip]"
+SCHEME_AGENT_TREASURY_BRIBE_VALID: "Usa [treasury_i][SCOPE.ScriptValue('bribe_value')|V0] per pagare [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('bribe_value')|V0]"
 SCHEME_AGENT_TREASURY_VALID: "Trasferisci [treasury_i][SCOPE.ScriptValue('treasury_bribe_value')|V0] a [recipient.GetShortUINameNoTooltip]"
 SCHEME_AGENT_GOLD_SIGNIFICANT_VALID: "Paga [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0] a [recipient.GetShortUINameNoTooltip]"
+SCHEME_AGENT_TREASURY_SIGNIFICANT_VALID: "Usa [treasury_i][SCOPE.ScriptValue('greater_bribe_value')|V0] per pagare [recipient.GetShortUINameNoTooltip] [gold_i][SCOPE.ScriptValue('greater_bribe_value')|V0]"
  SCHEME_AGENT_OPPORTUNITIES_VALID: "Guadagna [EmptyScope.ScriptValue('agent_acceptance_per_burnt_opportunity_value')|=+P0] di accettazione per [scheme_opportunity_opportunity|E] spesa"
 SCHEME_AGENT_PRESTIGE_VALID: "Trasferisci [prestige_i][SCOPE.ScriptValue('prestige_bribe_value')|V0] a [recipient.GetShortUINameNoTooltip]"
 SCHEME_AGENT_INFLUENCE_VALID: "Trasferisci [influence_i][SCOPE.ScriptValue('influence_bribe_value')|V0] a [recipient.GetShortUINameNoTooltip]"

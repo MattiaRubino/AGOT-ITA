@@ -155,6 +155,10 @@ ep2_tournament_events.0021.b: "«[versus_contestant.Custom2('InsultNoun', ROOT.C
  ep2_tournament_events.1005.t:1 "$tournament_contest_header$ Puntare alla Gola"
  ep2_tournament_events.1005.desc:0 "Intorno a me, [ROOT.Char.Custom('DE_PRO_DEM')] [ROOT.Char.GetWomenMen] si allontanano dalla zuffa con il sangue che scorre senza freni dalle loro membra. Gli scudi sono spezzati in due, insieme alle lance e alle spade abbandonate, disseminate sul campo di battaglia.\n\nUn avversario senza volto avanza verso di me e io paro il suo colpo, con la vibrazione che mi sale lungo il braccio. Supero il colpo successivo e lo manco con il mio, #X mi avvicino#! per seguirlo e-\n\nLa sua risposta si è infilata proprio sotto il mio mento. Se fossi rimasto dov'ero, l'avrebbe mancato. Invece mi ritrovo con un colpo alla gola. Barcollando fuori dalla zuffa, mi massaggio impotente la ferita e sprofondo in ginocchio."
  ep2_tournament_events.1005.a:0 "...hurk!"
+ep2_tournament_events.1005.b: 0 "Mi arrendo! Mi arrendo..."
+ep2_tournament_events.1005.success: "Solo una ferita superficiale, dopotutto"
+ep2_tournament_events.1005.fail: "Una fine patetica"
+ep2_tournament_events.1005.resign: "#V Tu#! ti ritiri dal torneo"
 
  ep2_tournament_events.1006.t:0 "$tournament_header$ Catturat[surrendering_knight.Custom('DE_END_PRO_S_N')]"
  ep2_tournament_events.1006.start:0 "Colpisco [surrendering_knight.GetFirstName] con la mia spada, facendo volare scintille dalla lama mentre squarcia la sua armatura. Costretto all'indietro e a terra dai colpi di martello, [surrendering_knight.GetSheHe] alla fine getta l'arma e alza un braccio in segno di resa.\n\n"
@@ -642,6 +646,12 @@ ep2_tournament_events.5505.start.fallback: "[enemy.Custom2('InsultAdjective', RO
  tournament_melee_death_log_title:0 "Morte nella Mischia"
  tournament_melee_death_log:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetTitledFirstName] ha incontrato una sfortunata morte nella mischia"
 
+ tournament_melee_wounded_log_title:0 "$tournament_wounded_quit_log_title$"
+tournament_melee_wounded_log: 0 "[CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetTitledFirstName] si è ritirat[Select_CString(CHARACTER.IsFemale,'a','o')] a causa delle ferite"
+
+tournament_accident_wounded_log_title: "Spirito Resiliente"
+tournament_accident_wounded_log: "[CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetTitledFirstName] è stat[Select_CString(CHARACTER.IsFemale,'a','o')] ferit[Select_CString(CHARACTER.IsFemale,'a','o')] accidentalmente, ma continua a combattere"
+
  tournament_wounded_quit_log_title:0 "Abbandono per Ferita"
  tournament_wounded_quit_log:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetTitledFirstName] ha acconsentito alla richiesta [TARGET_CHARACTER.Custom('IT_NAM_COL2')][TARGET_CHARACTER.GetTitledFirstName] di interrompere il duello a causa delle ferite riportate"
 
@@ -755,6 +765,9 @@ ep2_tournament_events.5505.start.fallback: "[enemy.Custom2('InsultAdjective', RO
 
  tournament_joust_injury_log_title:0 "Ferit[CHARACTER.Custom('DE_END_PRO_S_N')] nella Giostra"
  tournament_joust_injury_log:0 "[CHARACTER.Custom('IT_NAM_COL3')|U][CHARACTER.GetTitledFirstName] ha riportato una brutta ferita durante la giostra"
+
+tournament_melee_injury_log_title: 0 "Ferita nella Mischia"
+tournament_melee_injury_log: 0 "[CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetTitledFirstName] ha subito una brutta ferita durante la Mischia"
 
  tournament_mercy_pass_log_title:0 "Passaggio di Clemenza"
  tournament_mercy_pass_log:0 "[TARGET_CHARACTER.Custom('IT_NAM_COL3')|U][TARGET_CHARACTER.GetTitledFirstName] ha richiesto un passaggio di clemenza durante la sua giostra contro [CHARACTER.Custom('IT_NAM_COL3')][CHARACTER.GetTitledFirstName]"

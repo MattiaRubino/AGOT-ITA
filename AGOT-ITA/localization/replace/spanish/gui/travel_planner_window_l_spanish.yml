@@ -82,9 +82,10 @@ TRAVEL_PLAN_CURRENT_DESTINATION_ACTIVITY: "\n[TravelPlanData.GetActivity.GetName
  CANCEL_TRAVEL_PLAN_ACTIVE_CONTRACT: "Non puoi annullare il piano di viaggio, hai accettato un contratto"
 
  TRAVEL_EDIT_ROUTE_HEADER:1 "Personalizza il Percorso"
- TRAVEL_EDIT_ROUTE_TT:0 "Seleziona le tappe intermedie sulla mappa per cambiare il percorso del tuo viaggio.\n\n#I Clicca per personalizzare il percorso#!"
+TRAVEL_EDIT_ROUTE_TT: "Seleziona punti di passaggio sulla mappa per cambiare il percorso del tuo viaggio.\n\n#I Clicca per personalizzare l'itinerario#!\n#I Tieni premuto Maiusc per entrare in modalità modifica rapida#!"
  TRAVEL_EDIT_ROUTE_SELECT_PROVINCE:1 "Selezionare una posizione sulla mappa..."
- TRAVEL_EDIT_ROUTE_INSTRUCTION:0 "Per personalizzare il tuo percorso, aggiungi delle deviazioni tra ogni destinazione"
+TRAVEL_EDIT_ROUTE_INSTRUCTION: 0 "Per personalizzare il tuo itinerario, aggiungi deviazioni tra le destinazioni. Tieni premuto Maiusc per la modalità modifica rapida."
+TRAVEL_EDIT_ROUTE_QUICK_EDIT_INSTRUCTION: "Clic sinistro: aggiungi un punto di passaggio o seleziona il punto di partenza\nClic destro: rimuovi un punto di passaggio esistente"
  TRAVEL_EDIT_ROUTE_DETOUR_LABEL:0 "via [Province.GetNameNoTooltip]"
  TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL:0 "[Select_CString(ObjectsEqual(TravelPlanDestination.GetProvince, GetPlayer.GetCapitalLocation),'La tua capitale','Destinazione')]"
  TRAVEL_EDIT_ROUTE_FIXED_SUB_LABEL_DEPARTURE:0 "Luogo di partenza"

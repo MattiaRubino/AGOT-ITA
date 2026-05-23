@@ -76,6 +76,8 @@ ACTOR_HIGH_MOVEMENT_POWER: "[actor.GetShortUIName|U] ha [movement_power|E] eleva
  bargain_fealty_border_raid_tt:0 "Non può [Concept( 'bargain_fealty', 'Contrattare la fedeltà' )|E] con un [border_raid|E]"
  bargain_fealty_struggle_clash_tt:1 "Non può [Concept( 'bargain_fealty', 'Contrattare la fedeltà' )|E] con un [struggle_conquest|E]"
  bargain_fealty:0 "$bargain_fealty_interaction$"
+bargain_fealty_interaction_valid_tt: "Devi essere il Difensore Principale in una [war|E] che non usa i [casus_bellis|E] $fp2_border_raid$ o $county_struggle_cb$"
+bargain_fealty_interaction_neighbor_tt: "[recipient.GetShortUIName|U] deve essere un [top_liege|E] confinante"
 
  BF_AI_OUTNUMBERED_REASON:0 "[actor.GetShortUIName|U] è in forte inferiorità numerica: $VALUE|=+0$"
  BF_AI_DIFFERENT_CULTURE_REASON:0 "La [culture|E] di [actor.GetShortUINamePossessive] è diversa dalla Cultura di [recipient.GetShortUINamePossessive]: $VALUE|=+0$"
@@ -103,7 +105,7 @@ ACTOR_HIGH_MOVEMENT_POWER: "[actor.GetShortUIName|U] ha [movement_power|E] eleva
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName|U] si sta difendendo: $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "I fallimenti passati di [actor.GetShortUIName|U] come contraente: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "Lealtà verso l'[ally|E]: $VALUE|=+0$"
- contract_assistance_interaction_condition_tt:1 "Se il [war_contribution|E] di [actor.GetShortUIName] è di almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0] al termine della [war|E]:"
+contract_assistance_interaction_condition_tt: 1 "Se il [war_contribution|E] [TARGET_CHARACTER.GetShortUINamePossessive] è almeno [TARGET_CHARACTER.MakeScope.ScriptValue('saved_contribution_value')|Z0] quando la [war|E] termina:"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$: La Guerra Termina"
  contract_assistance_war_msg_hirer_paid_desc:1 "Hai pagato [contract_assistance_helper.GetShortUIName] per l'[Concept( 'contract_assistance', 'Assistenza' )|E], perché il suo [war_contribution|E] era almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_helper_paid_desc:1 "Sei stato pagato da [contract_assistance_hirer.GetShortUIName] per l'[Concept( 'contract_assistance', 'Assistenza' )|E], perché il tuo [war_contribution|E] era almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0]"

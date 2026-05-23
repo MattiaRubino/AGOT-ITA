@@ -319,13 +319,13 @@ activity_feast_guest_help_text: 1 "Ogni [activity_guests|E] invitato avrà l'opp
  activity_playdate_predicted_cost:0 "Il costo di un [GetActivityType( 'activity_playdate' ).GetNameNoTooltip] è determinato soprattutto dalle tue [income|E] e dal tuo [title_tier|E]."
 
  liege_accolades_glory_reward_title:0 "[glory|E] Ottenuta"
- liege_accolades_glory_reward:0 "I partecipanti hanno parlato con reverenza della virtù marziale tra di loro, in particolare quella dei [root_scope.Custom('KnightCulturePluralNoTooltip')|l] di [root_scope.GetShortUIName]"
+liege_accolades_glory_reward: 0 "I presenti parlarono con riverenza della virtù marziale tra loro, in particolare di quella dei [accolade_owner.Custom('KnightCulturePluralNoTooltip')|l] di [accolade_owner.GetShortUINamePossessive]"
 
  knight_accolade_glory_reward_title:0 "[glory|E] Ottenuta"
- knight_accolade_glory_reward:0 "[root_scope.GetShortUIName], a [root_scope.Custom('KnightCultureNoTooltip')|l] of note, awed and impressed"
+knight_accolade_glory_reward: 0 "[acclaimed_knight.GetShortUIName], un [acclaimed_knight.Custom('KnightCultureNoTooltip')|l] di nota fama, suscitò stupore e ammirazione"
 
  liege_accolades_glory_reward_tour_title:0 "[glory|E] Ottenuta"
- liege_accolades_glory_reward_tour:0 "I [root_scope.Custom('KnightCulturePluralNoTooltip')|l] di [root_scope.GetShortUIName] cavalcavano attraverso il paese, con il loro splendore e il loro predominio ben evidente."
+liege_accolades_glory_reward_tour: 0 "I [accolade_owner.Custom('KnightCulturePluralNoTooltip')|l] di [accolade_owner.GetShortUINamePossessive] cavalcarono attraverso la terra, con splendore e dominio quanto mai evidenti"
 
 
  # Chariot Race

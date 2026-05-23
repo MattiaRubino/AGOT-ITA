@@ -311,6 +311,7 @@
   great_project_error_plan_mandala_capital: "Requisiti mancanti per pianificare l’espansione della Capitale Mandala"
 
   only_single_great_project_type_allowed: "Un [great_project|E] di questo tipo #bold non#! è già in pianificazione né in corso"
+you_are_owner_of_the_project: "Sei il proprietario del [great_project|E]"
 great_project_type_minister_project_culture: "Assimilare l’area"
 minister_project_culture_name_chinese: "Sinizzare l’area"
 minister_project_culture_name_default: "Convertire la cultura dell’area"
@@ -409,10 +410,10 @@ action_targeted_by_grand_campaign_click_to_join: "Clicca per unirti al fronte de
   grand_campaign_target_border_tt_global: "[TARGET_CHARACTER.GetPrimaryTitle.GetName] confina con il [realm|E] di [GetTitleByKey('h_china').GetName] o con i [tributaries|E]"
   movement_power_increased_grand_campaign_name: "Ha vinto una Grande Campagna"
   movement_power_decreased_grand_campaign_name: "Ha perso una Grande Campagna"
-  grand_campaign_movement_power_gain_tt: "Ottiene [movement_power|E]: [movement_power_i]#P +100#!"
-  grand_campaign_movement_power_loss_tt: "Perde [movement_power|E]: [movement_power_i]#N -100#!"
-grand_campaign_won_tt: "Se i contributori o [owner.GetShortUIName] [completely_control|E] almeno #V il 50%#! dei [titles|E] contesi:\n$BULLET_WITH_TAB$Ogni contributore:\n$TAB$$BULLET_WITH_TAB$$grand_campaign_movement_power_gain_tt$\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] otterrà [legitimacy_i][EmptyScope.ScriptValue('major_legitimacy_gain')|+0]\n$BULLET_WITH_TAB$$great_project_type_grand_campaign_project_contribution_win_tt$\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] innescherà “$catalyst_grand_campaign$”"
-grand_campaign_lost_tt: "Altrimenti:\n$BULLET_WITH_TAB$Ogni contributore:\n$TAB$$BULLET_WITH_TAB$$grand_campaign_movement_power_loss_tt$\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] innescherà '$catalyst_grand_campaign_lost$'"
+grand_campaign_movement_power_gain_tt: "[THIS.Char.GetFirstName] ([THIS.Char.Custom('GetMyMovement')]) ottiene [movement_power|E]: [movement_power_i]#P +100#!"
+grand_campaign_movement_power_loss_tt: "[THIS.Char.GetFirstName] ([THIS.Char.Custom('GetMyMovement')]) perde [movement_power|E]: [movement_power_i]#N -100#!"
+grand_campaign_won_tt: "Se i contributori o [owner.GetShortUIName] [completely_control|E] almeno il #V 50%#! dei [titles|E] contesi:\n$BULLET_WITH_TAB$Ogni contributore:\n$TAB$$BULLET_WITH_TAB$Ottiene [movement_power|E]: [movement_power_i]#P +100#!\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] otterrà [legitimacy_i][EmptyScope.ScriptValue('major_legitimacy_gain')|+0]\n$BULLET_WITH_TAB$$great_project_type_grand_campaign_project_contribution_win_tt$\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] attiverà '$catalyst_grand_campaign$'"
+grand_campaign_lost_tt: "Altrimenti:\n$BULLET_WITH_TAB$Ogni contributore:\n$TAB$$BULLET_WITH_TAB$Perde [movement_power|E]: [movement_power_i]#N -100#!\n$BULLET_WITH_TAB$[owner.GetShortUIName|U] attiverà '$catalyst_grand_campaign_lost$'"
 grand_campaign_start_tt: "Il [holder|E] del [title|E] [GetTitleByKey('e_minister_grand_marshal').GetName] avvierà la [war|E] [GetCasusBelliType('grand_campaign_kingdom_invasion_cb').GetName]"
  
   great_project_type_minister_project_development: "Sviluppare comunità"
@@ -477,7 +478,7 @@ minister_project_train_troops_levy_bootcamp_modifier_tt: "Ogni [county|E] nel [d
 holder_has_military_appointment_tt: "La [THIS.Char.Custom('GetProvinceAdministrationConcept')] di [THIS.Char.GetShortUINamePossessive] #bold non#! è un [governorship|E] militare"
 
 great_project_type_minister_project_conduct_census: "Svolgere un censimento"
-great_project_type_minister_project_conduct_census_desc: "Il Ministro del Fisco effettuerà un censimento della popolazione del ducato selezionato, con grandi benefici per i suoi abitanti e per il [treasury|E] dei [holders|E] locali."
+great_project_type_minister_project_conduct_census_desc: "Il Ministro delle Entrate eseguirà un censimento della popolazione del ducato selezionato, con grandi benefici per i suoi abitanti e per il [treasury|E] dei [holders|E] locali."
 great_project_purge_treasury_debt_msg_t: "Da [GetGreatProjectType('minister_project_conduct_census').GetNameNoTooltip]"
 great_project_type_minister_project_conduct_census_contribution_conduct_census: "Censimento"
 great_project_type_minister_project_conduct_census_contribution_purge_treasury_debt: "Estinzione del debito del tesoro"

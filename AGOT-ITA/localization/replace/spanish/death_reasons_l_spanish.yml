@@ -2,6 +2,7 @@
 
   death_natural_causes:1 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] nel sonno"
   death_old_age:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] di vecchiaia"
+death_broken_bones: "morì dopo essersi rotto molte fragili ossa inciampando"
   death_bubonic_plague:1 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] di [GetTrait('bubonic_plague').GetName( CHARACTER.Self )]"
   death_smallpox:2 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] per il [GetTrait('smallpox').GetName( CHARACTER.Self )]"
   death_measles: "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] di [GetTrait('measles').GetName( CHARACTER.Self )]"
@@ -278,7 +279,7 @@
   death_tournament_pas_darmes_defend_killer:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] per le ferite riportate mentre difendeva il suo pas d'armes da [TARGET_CHARACTER.GetUIName]"
   death_tournament_pas_darmes_challenge:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] per le ferite riportate mentre sfidava un pas d'armes"
   death_tournament_pas_darmes_challenge_killer:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] per le ferite riportate mentre sfidava un pas d'armes di [TARGET_CHARACTER.GetUIName]"
-  death_wild_animal:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] sbranat[CHARACTER.Custom('DE_END_PRO_S_N')] viv[CHARACTER.Custom('DE_END_PRO_S_N')] da una bestia selvaggia"
+death_wild_animal: 0 "fu sbranat[Select_CString(CHARACTER.IsFemale,'a','o')] da una bestia selvaggia"
   death_tournament_archery_fall:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] dopo essere cadut[CHARACTER.Custom('DE_END_PRO_S_N')] da cavallo durante una gara di tiro con l'arco a cavallo"
   death_tournament_quintain_hit:0 "è mort[CHARACTER.Custom('DE_END_PRO_S_N')] dopo che una quintain lo/la ha fatt[CHARACTER.Custom('DE_END_PRO_S_N')] cadere completamente dal cavallo durante un torneo"
   death_tournament_piledriver:0 "ha battut[CHARACTER.Custom('DE_END_PRO_S_N')] la testa durante un incontro di lotta in un torneo"
@@ -352,6 +353,7 @@
   death_poisonous_forage:0 "ha mangiat[CHARACTER.Custom('DE_END_PRO_S_N')] per errore alcune piante velenose"
   death_drowning_in_terrain: "andò a fondo e annegò per colpa del proprio cavallo mentre cercava di salvarlo"
   death_drowning_in_terrain_killer: "andò a fondo e annegò per colpa del cavallo [TARGET_CHARACTER.GetUINamePossessive] mentre cercava di salvarlo"
+death_lost_in_rainstorm: "si perse durante un temporale torrenziale"
 
  #BP2
   death_hostage_execution:0 "è stat[CHARACTER.Custom('DE_END_PRO_S_N')] giustiziat[CHARACTER.Custom('DE_END_PRO_S_N')] mentre era un ostaggio"
@@ -421,5 +423,8 @@
 
   death_avoid_dishonor: "si tolse la vita per evitare il disonore"
   death_avoid_dishonor_killer: "$death_avoid_dishonor$ per mano di [TARGET_CHARACTER.GetUIName]"
-  death_eradicated: "e tutta la sua casata fu giustiziata"
+death_eradicated: "fu sterminat[Select_CString(CHARACTER.IsFemale,'a','o')] insieme all'intera sua casata"
   death_eradicated_killer: "$death_eradicated$ da [TARGET_CHARACTER.GetUIName]"
+
+ # TGP
+death_ritual_suicide: "commise suicidio rituale"

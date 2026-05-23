@@ -56,7 +56,7 @@ death_management.1000.plaguestart: "Malattia e pestilenza proseguono la loro ang
  death_management.1007.a.tt:1 "Il tuo erede, [dead_character.GetTitledFirstName], [dead_character.GetDeathReasonHideKiller]."
 
  death_management.1006.t:0 "Una Maledizione Spezzata"
-death_management.1006.desc: "I capricci del fato non sono sempre stati a mio favore: [ROOT.Char.GetFaith.HighGodName] sa che fui maledett[Select_CString(ROOT.Char.IsFemale,'a','o')] il giorno in cui conobbi [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName]. Oggi, però, quella maledizione è svanita! La sorte mi ha sorriso e ha condotto quell[dead_character.Custom2('InsultNoun', ROOT.Char)] [dead_character.Custom2('InsultAdjective', ROOT.Char)] fino alla sua tomba!"
+death_management.1006.desc: 0 "I colpi di scena e le svolte del destino non sono sempre stati a mio favore: [ROOT.Char.GetFaith.HighGodName] sa che fui maledett[Select_CString(ROOT.Char.IsFemale,'a','o')] il giorno in cui incontrai [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName].\n\nOggi, tuttavia, quella maledizione è stata sciolta! Il destino mi ha sorriso e ha condotto quel[dead_character.Custom('DE_END_ADJ_NUL_S_N')] [dead_character.Custom2('InsultAdjective', ROOT.Char)] [dead_character.Custom2('InsultNoun', ROOT.Char)] alla tomba di [Select_CString(dead_character.IsFemale,'lei','lui')]!"
  death_management.1006.a.tt:1 "Il tuo [rival|E], [dead_character.GetFullName], [dead_character.GetDeathReasonHideKiller]."
 
  death_management.parent.desc:2 "Tu[dead_character.Custom('DE_END_PRO_S_N')] [dead_character.Custom('MotherFather')], [dead_character.GetFullName], [dead_character.GetDeathReason]."

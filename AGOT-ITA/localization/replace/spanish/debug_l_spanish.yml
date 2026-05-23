@@ -20,7 +20,7 @@
  debug_generic_option_can_disable:0 "$debug_generic_option$$debug_generic_option_can_disable_text$"
  debug_generic_option_shortened_trigger:0 "#D Questo trigger è stato reso più breve perché è stato abilitato il debug#!"
  debug_generic_option_shortened_trigger_can_disable:0 "$debug_generic_option_shortened_trigger$$debug_generic_option_can_disable_text$"
- 
+
  interaction_debug_main: "#D DEBUG: #BER Principale#!#!"
  debug_main:0 "#D DEBUG Principale#!"
  interaction_debug_relations: "#D DEBUG Relazioni#!"
@@ -205,7 +205,19 @@ remove_relation_debug_disciple: "#color_light_blue Rimuovi Discepolo#!"
  give_away_random_artifact_interaction: "Dai a un Vicino Casuale"
  take_artifact_interaction: "Prendi Manufatto"
 
-
+ # Impact House Relation (debug interaction)
+debug_impact_house_relation_interaction: "Influenza Relazione tra Casate"
+debug_impact_house_relation_interaction_desc: "Migliora o peggiora la [house_relation|E] tra la [house|E] [actor.GetHouse.GetName] e [recipient.GetHouse.GetName]."
+debug_impact_house_relation_for_the_significantly_better: "#P Migliora#! significativamente la [house_relation|E] (+300%)"
+debug_impact_house_relation_for_the_noticeably_better: "#P Migliora#! notevolmente la [house_relation|E] (+100%)"
+debug_impact_house_relation_for_the_slightly_better: "#P Migliora#! leggermente la [house_relation|E] (+30%)"
+debug_impact_house_relation_by_setting_to_neutral: "#M Crea/Imposta Neutrale#!"
+debug_impact_house_relation_for_the_slightly_worse: "#N Peggiora#! leggermente la [house_relation|E] (-30%)"
+debug_impact_house_relation_for_the_noticeably_worse: "#N Peggiora#! notevolmente la [house_relation|E] (-100%)"
+debug_impact_house_relation_for_the_significantly_worse: "#N Peggiora#! significativamente la [house_relation|E] (-300%)"
+debug_impact_house_relation_by_clearing_it: "#V Cancella [house_relation|E] (prossimo tic)#!"
+debug_impact_house_relation_by_starting_a_feud: "#DIE1 Avvia Faida#!"
+debug_impact_house_relation_change_description: "[house_relation|E] modificata da #D interazione di debug#!."
 
  inspire_interaction:0 "Ispira"
  inspire_interaction_book:0 "Diventa ispirato a scrivere un libro"
@@ -349,7 +361,7 @@ NOT_has_province_modifier_trigger: "#bold Non#! ha il [modifier|E] di [province|
  set_relationship_debug_nemesis_remove:0 "Rimuovi Nemesi"
 
  set_relationship_debug_nevermind:0 "Non Importa"
- 
+
  EVENT_DEBUG_TOOLTIP:0 "#P Cliccare per aprire lo script dell'evento nell'editor associato#!\n#weak (ricorda che puoi modificare l'editor di base!)#!"
 
 
@@ -381,14 +393,14 @@ NOT_has_province_modifier_trigger: "#bold Non#! ha il [modifier|E] di [province|
  debug.511.a:0 "Imposta il rabbinismo come fede segreta per [ROOT.Char.GetName]"
  debug.511.b:0 "Rimuovi [ROOT.Char.GetSecretFaith.GetName] come fede sgreta di [ROOT.Char.GetName]"
  debug.512.a:0 "[ROOT.Char.GetName] ha la fede [ROOT.Char.GetSecretFaith.GetName] come propria fede segreta"
- 
+
  change_hunt_success_chance:0 "Modifica Probabilità di Successo della Battuta di Caccia"
  ERROR_FLAG_INDEX:0 "-"
 BETA_BUILD: "Build di sviluppo. Non condividere"
 BETA_PROMPT_TITLE: "Benvenuto nella beta di CK3!"
 BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON condividere pubblicamente alcuna informazione su questa build. Questa build gestisce una quantità minima di dati personali per rintracciare eventuali fughe di notizie."
 
- 
+
  debug_destroy_artifact_interaction:0 "Distruggi/Danneggia Manufatto"
  destroy_artifact: "Distruggi"
  damage_artifact: "Danneggia (Dimezza [durability|E])" 
@@ -396,9 +408,6 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
  debug_travel_to_ruler_interaction:0 "Viaggia verso il Governante"
  designate_diarch_interaction:0 "Designa Diarca"
  debug_give_animal_interaction:0 "Inizia Storia Animale Domestico"
- story_cycle_pet_dog:0 "Cane Domestico"
- story_cycle_pet_cat:0 "Gatto Domestico"
- story_cycle_pet_eagle: "Aquila da Caccia"
 
  had_sex_with_effect.log.root_cheated_inappropriately:0 "had_sex_with_effect: root cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"
  had_sex_with_effect.log.target_cheated_inappropriately:0 "had_sex_with_effect: target cheated on a partner that they wouldn't have\nCheater: [THIS.Char.GetShortUIName]\nWith: [PREV.Char.GetShortUIName]"
@@ -410,7 +419,7 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
 
  steam_rich_presence_debug_t: "Test your steam rich presence"
  steam_rich_presence_debug_desc: "Tu: [GetPlayer.Custom('rich_presence_flavor_status')] [GetPlayer.GetFullName]\n\nUn sayyid: [sayyid.Custom('rich_presence_flavor_status')] [sayyid.GetFullName]\n\nUn detrattore del Califfo: [fp3_struggle_detractor.Custom('rich_presence_flavor_status')] [fp3_struggle_detractor.GetFullName]\n\nUn sostenitore del Califfo: [fp3_struggle_supporter.Custom('rich_presence_flavor_status')] [fp3_struggle_supporter.GetFullName]\n\nIl Califfo nel 867: [sus_caliph.Custom('rich_presence_flavor_status')] [sus_caliph.GetFullName]\n\nDisputa Iberica: [iberian_struggle.Custom('rich_presence_flavor_status')] [iberian_struggle.GetFullName]\n\nDisputa Persiana: [persian_struggle.Custom('rich_presence_flavor_status')] [persian_struggle.GetFullName]"
- 
+
  spawn_epidemic_interaction_measles: "[GetTrait('measles').GetName( GetNullCharacter )]"
  spawn_epidemic_interaction_consumption: "[GetTrait('consumption').GetName( GetNullCharacter )]"
  spawn_epidemic_interaction_smallpox: "[GetTrait('smallpox').GetName( GetNullCharacter )]"
@@ -422,7 +431,7 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
  spawn_minor_epidemic_interaction: "#BOLD #M Minore#!#!"
  spawn_major_epidemic_interaction: "#BOLD #color_red Maggiore#!#!"
  spawn_apocalyptic_epidemic_interaction: "#BOLD #difficulty_easy A#!#P p#!#difficulty_easy o#!#P c#!#difficulty_easy a#!#P l#!#difficulty_easy y#!#P p#!#difficulty_easy t#!#P i#!#difficulty_easy c#!#!"
- 
+
  spawn_legend_interaction: "Ottieni Semi della Leggenda"
  spawn_legend_interaction_heroic: "eroico"
  spawn_legend_interaction_holy: "sacro"
@@ -506,7 +515,7 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
  antagonise_court_antagonise_all: "Antagonize All"
 
  debug_military_power_tt: "#D Military power: $CURRENT|0$/$CURRENT|0$#!"
- 
+
  start_diarchy_interaction: "Start #BOLD #M Diarchy#!#!"
  take_hostage_interaction: "Take Hostage"
  spawn_courtier_interaction: "Spawn [recipient.Custom('GetCourtier')|U]"
@@ -517,7 +526,7 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
  destroy_title_interaction: "Distruggi Titolo"
  debug_top_title_interaction: "Solo Titolo Principale"
  debug_all_title_interaction: "Tutti i Titoli del Regno"
- 
+
  debug_situation.0001.t: "#D La Fase della Situazione è Iniziata"
  debug_situation.0001.desc: "#D La Fase della Situazione è Iniziata"
  debug_situation.0002.t: "#D La Fase della Situazione è Finita"
@@ -552,8 +561,8 @@ BETA_PROMPT_MESSAGE: "Questa è una build beta di contenuti CK3 in arrivo. NON c
  DEBUG_TOOLTIP_WAR_COORDINATOR_WOULD_START_SIEGE: "Would start siege"
  DEBUG_TOOLTIP_WAR_COORDINATOR_TARGET_CLOSE_TO_WAR_GOAL: "Proximity to war goal"
  DEBUG_TOOLTIP_WAR_COORDINATOR_ADJACENCY_SCORE: "Adjacency score"
- 
- debug_change_the_great_steppe: "Change #bold Steppe Season#!" #da tradurre
+
+debug_change_the_great_steppe: "Cambia #bold Stagione della Steppa#!"
  debug_change_steppe_grazing: "Abundant Grazing"
  debug_change_steppe_drought: "Severe Drought"
  debug_change_steppe_white_zud: "White Zud"
@@ -591,15 +600,6 @@ debug_change_dynastic_cycle_conquest: "[GetSituationType('dynastic_cycle').GetPh
 debug_change_dynastic_cycle_instability: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_instability').GetName]"
 debug_change_dynastic_cycle_chaos: "[GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]"
 
-debug_change_house_relation: "Modifica relazione di casata"
-debug_neutral_house_relation: "#M Crea/Imposta neutrale#!"
-debug_increase_house_relation: "#P Aumenta livello#!"
-debug_improve_house_relation: "#P Migliora#!"
-debug_damage_house_relation: "#N Danneggia#!"
-debug_decrease_house_relation: "#N Riduci livello#!"
-debug_clear_house_relation: "#V Pulisci#!"
-debug_start_feud: "#DIE1 Avvia faida#!"
-
 debug_spawn_natural_disaster: "Genera disastro naturale"
 debug_sub_realm_earthquake: "Terremoto nel sottoreame del destinatario"
 debug_random_earthquake: "Terremoto globale casuale"
@@ -608,7 +608,7 @@ debug_random_flood: "Inondazione globale casuale"
 debug_sub_realm_flood_tt: "[recipient.GetShortUIName|U] deve possedere terre su un grande fiume che non sia attualmente inondato"
 
 CONFEDERATION_HOUSE_NAME: "[bloc_creator.GetBaseNameNoTooltip] Blocco"
- 
+
 debug_set_mandala_aspect: "Imposta #BOLD #M Aspetto mandala#! #!"
 debug_set_mandala_aspect_desc: "Imposta il [mandala_aspect|E] della [recipient.GetShortUINamePossessive] [house|E]"
 debug_set_mandala_aspect_none: "Nessun aspetto"
@@ -634,3 +634,18 @@ debug_set_mandala_aspect_trickery_04: "Inganno 04"
 debug_set_mandala_aspect_trickery_05: "Inganno 05"
 
 debug_change_bloc_cohesion: "$adjust_confederation_cohesion_decision$"
+debug_improve_block_cohesion: "#P Migliora#! Coesione"
+debug_damage_block_cohesion: "#N Danneggia#! Coesione"
+
+debug_option_1: "Prima opzione"
+debug_option_2: "Opzione intelligente"
+debug_option_3: "Perdi stress"
+debug_option_4: "Libro spaventoso"
+debug_option_5: "Riportami indietro"
+debug_option_6: "opzione 6"
+debug_option_7: "opzione 7"
+debug_option_8: "opzione 8"
+debug_option_9: "opzione 9"
+debug_option_10: "opzione 10"
+debug_option_11: "opzione 11"
+debug_option_12: "opzione 12"

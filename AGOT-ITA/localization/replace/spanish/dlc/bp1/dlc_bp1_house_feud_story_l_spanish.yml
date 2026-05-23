@@ -380,7 +380,7 @@ house_feud_raid_estate_flavor: "[ROOT.Var('house_feud_house_2_first_head').Char.
  # Important Action 
  action_ongoing_house_feud:0 "[house_feud|E] in corso nella Casata"
  action_ongoing_house_feud_label:1 "@dynasty_icon! La tua Casata è in impegnata in una Faida con [recipient.GetHouse.GetBaseNameNoTooltip]"
- action_ongoing_house_feud_desc:2 "La tua famiglia vede i membri della Casata [recipient.GetHouse.GetBaseName] come nemici e riceverà delle ricompense sconfiggendoli.\n\n#help Uccidere, [torturing|E], cornificare, derubare e vincere [wars|E] contro i membri della [house|E] incrementerà il punteggio della tua Casata, mentre cadere vittima di queste azioni lo ridurrà.#!\n\n#help $house_feud_balance_action_tt$.#!\n"
+action_ongoing_house_feud_desc: 2 "La tua famiglia considera la Casata [recipient.GetHouse.GetBaseName] come nemica, e riceverà ricompense per averla superata.\n\n#help Uccidere, [torturing|E], cornificare, derubare e vincere [wars|E] contro i suoi membri aumenterà il punteggio della tua Casata, mentre cadere vittima di queste azioni lo ridurrà.#!\n"
  action_ongoing_house_feud_click:0 "#I Clicca per visualizzare il Capo della Casata [house_feud|E]#!"
  action_ongoing_house_feud_unimportant:0 "@warning_icon! #N La tua Casata sta attualmente perdendo la [house_feud|E]#!"
  swap_feud_tt:0 "Temina la [house_feud|E] con la [house|E] [house_feud_existing.GetBaseName]"

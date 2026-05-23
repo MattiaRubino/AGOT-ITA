@@ -39,7 +39,7 @@
   tgp_ceremonial_liege_events.0020.c: "Invia i miei auguri a [Select_CString(opposing_power.IsFemale,'lei','lui')]."
 
   tgp_ceremonial_liege_events.0030.t: "Il memoriale di uno studioso"
-  tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presenta un memoriale ben scritto sulla storia di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetName].\n\nNel memoriale,"
+tgp_ceremonial_liege_events.0030.desc: "[scholar.GetName] presenta un memoriale ben scritto sulla storia di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveName].\n\nNel memoriale,"
   tgp_ceremonial_liege_events.0030.regent: "si menziona spesso e in dettaglio [opposing_power.GetFirstName], e [scholar.GetFirstNameNoTooltip] si premura di includere particolari sulla casa di [opposing_power.GetFirstNameNoTooltip], i [opposing_power.GetHouse.GetName].\n\nIl problema è evidente quando io vengo descritto come [ROOT.Char.Custom('InsultAdjective')] e [opposing_power.GetFirstNameNoTooltip] come piuttosto [ROOT.Char.Custom('ComplimentAdjective')]..."
   tgp_ceremonial_liege_events.0030.liege: "si parla spesso e in dettaglio di me, e [scholar.GetFirstNameNoTooltip] si premura di includere particolari sulla mia casa, i [ROOT.Char.GetHouse.GetName].\n\nCiò che mi ha colpito davvero è che vengo descritto come [ROOT.Char.Custom('ComplimentAdjective')] e [opposing_power.GetFirstNameNoTooltip] come piuttosto [opposing_power.Custom('InsultAdjective')]..."
   tgp_ceremonial_liege_events.0030.a: "Ottimo lavoro!"

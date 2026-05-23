@@ -24,7 +24,7 @@
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_1:0 "[ROOT.Char.GetFullNameNoTooltip] ha trovato la pace nell'abbraccio di Cristo all'età di [ROOT.Char.GetAge] anni."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_CHRISTIANITY_2:0 "[ROOT.Char.GetFullNameNoTooltip] riposa ora tra le braccia del Signore all'età di [ROOT.Char.GetAge] anni."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_1:0 "[ROOT.Char.GetFullNameNoTooltip] ha lasciato la sua fugace dimora mortale per rispondere alla chiamata dell'Unico Vero Dio all'età di [ROOT.Char.GetAge] anni."
- SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_2:0 "[ROOT.Char.GetFullNameNoTooltip] ha abbandonato questo mondo fuggevole ed è volato verso il [ROOT.Char.GetFaith.PositiveAfterLife] all'età di [ROOT.Char.GetAge] anni."
+SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_2: 0 "[ROOT.Char.GetFullNameNoTooltip] ha abbandonato questo mondo transitorio ed è volat[Select_CString(ROOT.Char.IsFemale,'a','o')] verso [ROOT.Char.GetFaith.PositiveAfterLife] all'età di [ROOT.Char.GetAge] anni."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_ISLAM_3:0 "[ROOT.Char.GetFullNameNoTooltip] è passato all'eternità all'età di [ROOT.Char.GetAge] anni."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_NORSE_1:0 "[ROOT.Char.GetFullNameNoTooltip] si è unito al banchetto nel [ROOT.Char.GetFaith.PositiveAfterLife] all'età di [ROOT.Char.GetAge] anni."
  SUCCESSION_EVENT_WINDOW_DEAD_INTRO_HELLENIC_1:0 "[ROOT.Char.GetFullNameNoTooltip] ha attraversato il fiume Stige all'età di [ROOT.Char.GetAge] anni."
@@ -229,7 +229,7 @@ SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_WRATHFUL_ZEALOUS: 0 "Accecati dal fervore rel
  SUCCESSION_EVENT_WINDOW_GAME_OVER_MIN_SPLENDOR:1 "ma questa è rimasto oscura, sconosciuta e sarà presto dimenticata"
 
 #########################################
- SUCCESSION_EVENT_WINDOW_DEAD_DESC:0 "[CHARACTER.Custom('DeathMessageIntro')] [CHARACTER.Custom('DeathMessageReason')] [CHARACTER.Custom('DeathMessageOutro')]"
+SUCCESSION_EVENT_WINDOW_DEAD_DESC: 0 "[Character.Custom('DeathMessageIntro')][Character.Custom('NicknameReason')] [Character.Custom('DeathMessageReason')] [Character.Custom('DeathMessageOutro')]"
  SUCCESSION_EVENT_WINDOW_HEIR_DESC:0 "[CHARACTER.GetTitledFirstNameNoTooltip] [CHARACTER.Custom('GetSuccessionHeirMotion')]. [CHARACTER.Custom('HeirMessageInterface')]"
  SUCCESSION_EVENT_WINDOW_GAME_OVER_DESC:2 "[CHARACTER.Custom('GameOverMessageInterface')]. [CHARACTER.Custom('GameOverMessageInterfaceDuration')] [CHARACTER.Custom('GameOverMessageInterfaceSplendor')]."
  SUCCESSION_EVENT_WINDOW_END_DATE_DESC:1 "La data di fine gioco è stata raggiunta.\n\n[SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceDuration')] [SuccessionEventWindow.GetDeadCharacter.Custom('GameOverMessageInterfaceSplendor')]."
@@ -313,3 +313,6 @@ SUCCESSION_EVENT_WINDOW_END_DATE_RESTORED_ROMAN_EMPIRE_DESC: 0 " Grazie a te, il
 #Variable loc for lamp
  succession_heir_throne: "ascende al trono"
  succession_heir_leader: "si fa avanti come capo"
+
+ #Nicknames
+SUCCESSION_EVENT_WINDOW_NICKNAME: " Conosciut[Select_CString(ROOT.Char.IsFemale,'a','o')] in vita come [ROOT.Char.GetNickname]."

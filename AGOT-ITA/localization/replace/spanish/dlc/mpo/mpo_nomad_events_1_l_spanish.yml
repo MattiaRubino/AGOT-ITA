@@ -20,7 +20,6 @@
 
  mpo_noble_warriors_grave_modifier: "Tomba del Nobile Decapitato"
  mpo_noble_warriors_grave_modifier_desc: "Mozzata in battaglia, una testa di grande fama è sepolta nel suolo di questa terra. La sua tomba è un luogo sacro, noto e spesso visitato."
- beheaded_accolade_successor_tt: "Un degno successore di [beheaded_warrior_accolade.GetName] si unirà alla tua [court|E]"
  custom.every_beheaded_family: "Ogni [close_family_member|E] di [beheaded_warrior.GetShortUIName]"
 
  warriors_head_artifact: "Testa Venerata [beheaded_warrior.Custom('IT_NAM_COL2')][beheaded_warrior.GetTitledFirstNameNoTooltip|U]"
@@ -106,7 +105,7 @@
  mpo_nomad_events.1020.f: ""Sei esiliat[rowdy_boy.Custom('DE_END_PRO_S_N')], [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))]! Sparisci!""
  mpo_nomad_events.1020.f.flavor: "Il sentiero selvaggio e solitario della libertà l[rowdy_boy.Custom('DE_END_PRO_S_N')] attende!"
 
- attacked_family_opinion: "Ha attaccato un mio familiare"
+attacked_family_opinion: "Ha Attaccato un Membro della Mia Famiglia"
 
  mpo_nomad_events.1022.t: "Morte di un[rowdy_boy.Custom('DE_PRO_POS_P_2P')] Ribelle"
  mpo_nomad_events.1022.desc: "Come la pantera che salta senza guardare dal dirupo, come il falco che si lancia contro la propria ombra, come il cammello maschio che morde i talloni del suo puledro... sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] consumat[ROOT.Char.Custom('DE_END_PRO_S_N')] dall’ira.\n\nAlla fine del nostro duello d’onore, [rowdy_boy.GetFirstName] – [Select_CString(rowdy_boy.IsFemale, 'la tua', 'il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rowdy_boy'))] – giace mort[rowdy_boy.Custom('DE_END_PRO_S_N')].\n\nMentre i tamburi ruggenti della mia giusta collera si placano, comincio a udire i suoni del lutto. Il mio popolo piange davanti alla prova del mio potere."
@@ -142,7 +141,8 @@
  nomad_settling_gain_kingdom_counties_tt: "Viene [revoked|E], se detenuto da un [vassal|E] di [culture|E] diversa"
 
  mpo_nomad_events.1040.t: "Una Casa Oltre la Steppa"
- mpo_nomad_events.1040.desc: "#EMP Fuori, [defender.GetTitledFirstName]! Fuori, [expelled_culture.GetCollectiveNoun]!#! Con i vostri figli grassi sulle spalle, con le vostre ricchezze sparse dietro di voi, fuggite dal cavaliere [ROOT.Char.GetCulture.GetAdjective] e dalle sue frecce!\n\n[target.GetBaseNameNoTierNoTooltip] è del mio popolo, ora. Non siamo più spinti come polvere sulle pianure! Qui, la vita stanziale è nostra: le fatiche dei locali rimasti e dei nostri comuni servono il nostro benessere.\n\nA [ROOT.Char.GetCapitalLocation.GetName], nell’opulenza della mia residenza che domina il territorio di [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l], il mio corpo stanco dalla guerra troverà riposo... mentre la mia mente inizia a riflettere"
+mpo_nomad_events.1040.desc_duchy: "#EMP Fuori, [defender.Custom('IT_NAM_COL3')][defender.GetTitledFirstName]!#! Via i codardi, via [Select_CString(defender.IsFemale,'la sconfitta','lo sconfitto')] [defender.Custom('MistressMaster')] di questo luogo! Un nuovo [ROOT.Char.GetTitleAsName] governa ora i molli [expelled_culture.GetCollectiveNoun] di [Select_CString(defender.IsFemale,'lei','lui')]. Impareranno a compiacere [Select_CString(ROOT.Char.IsFemale,'lei','lui')], oppure scopriranno che questa è soltanto l'alba della loro soggiogazione!\n\n[target.GetBaseNameNoTier] sarà un'ottima dimora per il mio popolo. Non saremo più sospinti come polvere attraverso le pianure! Qui, le vite stanziali sono nostre, e le fatiche dei locali servono ai nostri agi.\n\nA [ROOT.Char.GetCapitalLocation.GetName], nell'opulenta [ROOT.Char.Custom('ResidenceBuilding')] che domina il suo [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l], il mio corpo stanco di guerra riposerà... mentre la mia mente comincia a riflettere"
+mpo_nomad_events.1040.desc: "#EMP Fuori, [defender.Custom('IT_NAM_COL3')][defender.GetTitledFirstName]! Fuori, [expelled_culture.GetCollectiveNoun]!#! Con i vostri figli grassi sulle spalle, con le vostre ricchezze sparse dietro di voi, fuggite il cavaliere [ROOT.Char.GetCulture.GetName] e le frecce di [Select_CString(dummy_soldier.IsFemale,'lei','lui')]!\n\n[target.GetBaseNameNoTier] è lasciata al mio popolo. Non saremo più sospinti come polvere attraverso le pianure! Qui, le vite stanziali sono nostre: le fatiche dei locali rimasti e dei nostri popolani servono ai nostri agi.\n\nA [ROOT.Char.GetCapitalLocation.GetName], nell'opulenta [ROOT.Char.Custom('ResidenceBuilding')] che domina il suo [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l], il mio corpo stanco di guerra riposerà... mentre la mia mente comincia a riflettere"
  mpo_nomad_events.1040.desc_tribal: "su dove un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] stanziale possa trovare la forza."
  mpo_nomad_events.1040.desc_clan: "su un nobile clan [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip], e sulle sue molte tasse."
  mpo_nomad_events.1040.desc_feudal: "sulle leggi di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] feudale."
@@ -169,6 +169,11 @@
  gold_army_for_herd_tt: "[Select_CString(former_nomad.IsLocalPlayer, 'La tua', 'La'] [herd_i][herd|E] e [Select_CString(former_nomad.IsLocalPlayer, 'la tua ', 'l’'][horde|E][Select_CString(former_nomad.IsLocalPlayer, '', ' di '][Select_CString(former_nomad.IsLocalPlayer, '', former_nomad.GetShortUIName)] vengono scambiati con @gold_icon![gold|E] e [special_troops|E]"
  attackers_counties_lose_development: "Le [counties|E] conquistate perdono @development_icon![development|E]"
  overrunning_gain_titular_kingdom_tt: "Ottieni un [titular_title|E] di [title_tier|E] [kingdom|E]"
+
+FORMER_NOMAD_DUCHY_NAME: "[attacker.GetCulture.GetNameNoTooltip] [target.GetBaseNameNoTierNoTooltip]"
+FORMER_NOMAD_DUCHY_NAME_ADJ: "[attacker.GetCulture.GetNameNoTooltip]"
+overrunning_gain_titular_duchy_tt: "Ottieni un [titular_title|E] di [title_tier|E] [duchy|E]"
+overrunning_vassals_gain_titles_duchy_tt: "Le [counties|E] vengono distribuite tra [vassals|E] [obedient|E], della stessa [culture|E] o che approvano [attacker.GetShortUIName]"
  
  overrunning_war_white_peace_desc_attacker: "Perdi un po’ di [GetLocalPlayerLegitimacyTextIcon][legitimacy|E] e @dread_icon![dread|E]."
  overrunning_war_white_peace_desc: "[attacker.GetShortUIName|U] perde un po’ di [attacker.GetLegitimacyType.GetTextIcon][legitimacy|E] e @dread_icon![dread|E]."

@@ -406,7 +406,7 @@ meritocratic_bureaucracy_2_effects_not_in_prev: "$EFFECT_LIST_BULLET$#indent_new
 meritocratic_bureaucracy_3: "Mandato divino"
 meritocratic_bureaucracy_3_effects: "$EFFECT_LIST_BULLET$#indent_newline:3 I [vassals|E] che non siano [governor|E] non possono mai dichiarare [war|E]#!"
  
-CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Hai cambiato di recente [meritocratic_bureaucracy|E]. Potrai cambiarla di nuovo dopo [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperia l_bureaucracy_cooldown') )]"
+CONFUCIAN_BUREAUCRACY_IS_ON_COOLDOWN: "Hai cambiato di recente la [meritocratic_bureaucracy|E]. Potrà essere cambiata di nuovo dopo [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'imperial_bureaucracy_cooldown') )]"
  # Japanese bureauracy
 japanese_bureaucracy: "[japanese_bureaucracy|E]"
 japanese_bureaucracy_0: "Governatori autonomi"

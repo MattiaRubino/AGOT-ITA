@@ -54,6 +54,7 @@
  fur_color_pink:0 "rosa"
  
  cat_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_cat_name' )]"
+cat_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_cat_name' )]"
  cat_name_possessive:1 "di [ROOT.Char.Custom( 'CatStoryName' )]"
  cat_name_mittens_possessive:0 "di Muffola"
  cat_name_paws_possessive:0 "di Zampe"
@@ -73,8 +74,13 @@
  name_tail_of_city: "Coda di [ROOT.Var('cat_city').Province.GetNameNoTooltip]"
  name_tigon: "Tigre" 
  passed_cat_name: "[ROOT.Char.GetLocalizedText( 'deceased_story_cycle_cat_name' )]"
+name_lil_city_all: "[Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+name_pride_of_city_all: "Orgoglio di [Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+name_tail_of_city_all: "Coda di [Story.GetOwner.MakeScope.Var('cat_city').Province.GetNameNoTooltip]"
+passed_cat_name_all: "[Story.GetOwner.GetLocalizedText( 'deceased_story_cycle_cat_name' )]"
 
  dog_name:1 "[ROOT.Char.GetLocalizedText( 'story_cycle_dog_name' )]"
+dog_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_dog_name' )]"
  dog_name_possessive:2 "di [ROOT.Char.Custom( 'DogStoryName' )]"
  dog_name_amiable:0 "Amabile"
  dog_name_nosewise:0 "Nasofino"
@@ -85,6 +91,7 @@
  dog_name_snow:0 "Neve"
 
  eagle_name: "[ROOT.Char.GetLocalizedText( 'story_cycle_eagle_name' )]"
+eagle_name_all: "[Story.GetOwner.GetLocalizedText( 'story_cycle_eagle_name' )]"
  eagle_name_possessive: "di [ROOT.Char.Custom('EagleStoryName')]" #controllare
  eagle_name_lyra: "Lyra"
  eagle_name_astana: "Astana"

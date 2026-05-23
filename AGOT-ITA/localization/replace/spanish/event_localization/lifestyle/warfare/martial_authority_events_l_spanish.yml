@@ -38,7 +38,7 @@ martial_authority.2042.desc: 0 "I miei appelli a mettere da parte le nostre dive
  martial_authority.2050.desc.ending:0 "Potrebbe servire come mio braccio destro e assumere un ruolo più attivo nell'amministrazione del/della mio/a [ROOT.Char.Custom('GetRealmOrDomicile')|l]?"
  martial_authority.2050.a:0 "Si, [right_hand_person.GetSheHe] mi servirà bene!"
  martial_authority.2050.a.tt:1 "Passerai più tempo insieme a [right_hand_person.GetShortUIName]"
- martial_authority.2050.b:1 "Il mio [marshal.Custom2('RelationToMeShort', ROOT.Char)] [marshal.GetFirstNameNoTooltip] può occuparsi di questi problemi."
+martial_authority.2050.b: 1 "[Select_CString(marshal.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))] [marshal.GetFirstNameNoTooltip] può gestire quei problemi."
  martial_authority.2050.c:0 "Posso gestire tutto da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] se mi impegno di più!"
  martial_authority.2050.toast.title:0 "[right_hand_person.GetShortUIName] è ora al tuo servizio come braccio destro [right_hand_person.GetWomanMan]"
 

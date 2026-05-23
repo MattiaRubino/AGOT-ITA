@@ -14,7 +14,7 @@ tgp_japan_yearly_events.0001.b.flavor: "...ma il dono perfetto per me!"
 tgp_japan_yearly_events.0001.c: "Questi mercanti arraffoni sono sfiancanti."
 UCHIWA_GLOSS: "An elegant, round hand-fan from Tang Dynasty (618-907 AD) China, which found popularity among the Japanese nobility as a result of trade missions with China. They were often associated with summer and femininity. Their popularity and beautiful designs resulted in sumptuary laws being passed to restrict their decoration."
 FUROSHIKI_GLOSS: "A decorative and functional cloth. Literally "bath spread", from furo or "bath" and shiki as "spread". The term originates from nobles visiting the bathhouse and packing their belongings in a cloth decorated with their family crest."
- 
+
  #Artifact
   uchiwa: "Uchiwa"
   uchiwa_desc: "Motivi delicati adornano questo ventaglio artigianale, realizzato in bambù e carta."
@@ -132,7 +132,7 @@ tgp_japan_yearly_events.1000.desc: "Una pioggerella leggera ci accompagna mentre
   tgp_japan_yearly_events.1020.t_siren: "La melodia di un Oni"
   tgp_japan_yearly_events.1020.t_garden: "La testa fiorita"
   tgp_japan_yearly_events.1020.t_shadow: "La profondità della mia ombra"
-  tgp_japan_yearly_events.1020.desc_siren: "Una melodia struggente mi richiama dal sonno. Una donna, pallida ed elegante, fluttua sopra di me, cantando di un cuore spezzato.\n\nNel tentare di toccarla, la sua immagine svanisce. Al riemergere della coscienza, l’angoscia di questa donna onirica e l’amore che avrebbe potuto essere continuano a perseguitarmi."
+tgp_japan_yearly_events.1020.desc_siren: "Una melodia inquietante mi richiama dal sonno. Una donna, pallida ed elegante, fluttua sopra di me, cantando di un cuore spezzato.\n\nAllungare la mano fa dissolvere la sua immagine. Mentre riprendo coscienza, l'angoscia di questa donna onirica e del suo amore che avrebbe potuto essere mi perseguitano."
   tgp_japan_yearly_events.1020.a_siren: "L’amore di cui canta, devo averlo!"
   tgp_japan_yearly_events.1020.b_siren: "Una tale bellezza va condivisa, diffondiamo il suo canto per tutto il reame."
   tgp_japan_yearly_events.1020.desc_garden: "Passeggiando nel giardino, noto un fiore esotico.\n\nMentre ne respiro il profumo, una brezza mi avvolge come un lieve sussurro; alzo lo sguardo e il sole mi colpisce dritto negli occhi. Ritorno con lo sguardo al fiore e vedo una testa grottesca che mi ghigna contro. Sbatto le palpebre e il volto è scomparso."
@@ -215,7 +215,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1080.tt_secret: "Rivela un [secret|E] casuale da uno dei tuoi [courtiers|E]"
   tgp_japan_yearly_events.1080.tt_family: "Ogni [courtier|E] che sia membro della famiglia:\n$BULLET$Ottiene [GetModifier('tgp_scheme_wary_modifier').GetNameWithTooltip] per #V 3 anni#!"
   tgp_japan_yearly_events.1080.c: "Non potrebbe farlo altrove?!"
- 
+
   tgp_japan_yearly_events.1090.t: "Un’eredità sterile"
   tgp_japan_yearly_events.1090.desc_intro_dead: "Sono [Select_CString(ROOT.Char.IsFemale,'sopravvissuta','sopravvissuto')] a tutta la mia prole e tutti i miei discendenti riposano nella terra."
   tgp_japan_yearly_events.1090.desc_intro_none: "Nonostante la mia lunga vita, non sono riuscito a mettere al mondo alcun figlio."
@@ -271,18 +271,18 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1130.poet_critical: "Diventa una poetessa in salute"
   tgp_japan_yearly_events.1130.poet: "Diventa una poetessa"
   tgp_japan_yearly_events.1130.nice_try: "Fa progressi nella scrittura"
-  tgp_japan_yearly_events.1130.b: "Sciocchezze! Comportati come [Select_CString(poet_daughter.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMeShort', poet_daughter)] di [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]!"
+tgp_japan_yearly_events.1130.b: "«Queste sono sciocchezze! Comportati come [Select_CString(poet_daughter.IsFemale,'la','il')] [ROOT.Char.Custom2('RelationToMeShort', poet_daughter)] di [ROOT.Char.Custom('IT_NAM_COL2')][ROOT.Char.GetTitleAsNameNoTooltip]!»"
   tgp_learning_poetry_modifier: "Apprendere la poesia"
   tgp_learning_poetry_modifier_desc: "Questo personaggio sta esercitando i propri versi"
 
   tgp_japan_yearly_events.1140.t: "Fermati sulla via del clan"
   tgp_japan_yearly_events.1140.desc: "Attraversando le terre di [local_county.GetNameNoTier], il nostro cammino viene bloccato da un gruppo di uomini armati.\n\n«Per conto di [local_ruler.GetName] devo riscuotere un piccolo pedaggio», dice [toll_warrior.GetName]. Notando la mia perplessità, aggiunge: «Queste non sono più strade imperiali. Qui vige solo la volontà di [local_ruler.Custom('IT_NAM_COL2')][local_ruler.GetTitleAsName]»."
   tgp_japan_yearly_events.1140.a: "Lasciate che riscuota il pedaggio, ma me ne ricorderò."
-  tgp_japan_yearly_events.1140.b: "Ma lo sapete chi sono?!"
+tgp_japan_yearly_events.1140.b: "«Sai chi sono io?!»"
   tgp_japan_yearly_events.1140.b.tt: "Cerchi di fare leva sul rispetto di [toll_warrior.GetNameNoTooltip] per il rango"
   tgp_japan_yearly_events.1140.tt.success: "Ti guadagni il favore dei guerrieri"
   tgp_japan_yearly_events.1140.tt.failure: "Sei costrett[Select_CString(ROOT.Char.IsFemale,'a','o')] a cercare un’altra via"
-  tgp_japan_yearly_events.1140.c: "Non pagherò una sola moneta al vostro «[local_ruler.GetTitleAsNameNoTooltip]»!"
+tgp_japan_yearly_events.1140.c: "«Non pagherò una sola moneta al tuo «[local_ruler.Custom('IT_NAM_COL4')][local_ruler.GetTitleAsNameNoTooltip]»!»"
 
   tgp_japan_yearly_events.1150.t: "Avvistamento del sovrano"
   tgp_japan_yearly_events.1150.desc: "I miei cortigiani mi informano che [emperor.Custom('IT_NAM_COL3')][emperor.GetTitleAsNameNoTooltip], [emperor.GetFirstName], sta viaggiando nelle mie terre.\n\n«[emperor.Custom('IT_NAM_COL3')][emperor.GetTitleAsNameNoTooltip] a [emperor_location.GetNameNoTooltip]? Che fortuna! È raro avere un accesso così ravvicinato all’[emperor.Custom('FormOfAddressForLiege')]».\n\nUn’occasione ideale per inviargli un messaggio..."
@@ -367,7 +367,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   house_relation_quarrel_reason_cadet_branch_permission_desc: "Hai ignorato le preoccupazioni di [contester.GetTitledFirstNamePossessive]"
 
   tgp_japan_yearly_events.1225.t: "Una vita poetica"
-  tgp_japan_yearly_events.1225.desc.intro.influencer: "Il/la mio/mia [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('poet_influencer'))] stamani ha una luce negli occhi. Sempre premuros[Select_CString(SCOPE.sC('poet_influencer').IsFemale,'a','o')] verso il mio miglioramento, si lancia in una recitazione appassionata.\n\n"
+tgp_japan_yearly_events.1225.desc.intro.influencer: "[Select_CString(poet_influencer.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('poet_influencer'))] ha un luccichio negli occhi questa mattina. Sempre desideros[Select_CString(poet_influencer.IsFemale,'a','o')] del mio miglioramento, [Select_CString(poet_influencer.IsFemale,'lei','lui')] si lancia in un'appassionata recitazione.\n\n"
   tgp_japan_yearly_events.1225.desc.intro: "Mentre sfoglio testi per migliorarmi, m’imbatto in un passaggio che cattura l’attenzione."
   tgp_japan_yearly_events.1225.desc: "#EMP «Il seme della poesia [ROOT.Char.GetTopLiege.GetCulture.GetNameNoTooltip] giace nei cuori di tutti. Se nutrito, fiorirà in foglie di diecimila parole.\n\nQueste parole possono trarre le piccole cose che vediamo e udiamo e dare loro il potere di muovere cielo e terra, scuotere i sentimenti degli dèi e degli spiriti invisibili, mitigare le relazioni tra uomini e donne e placare i cuori di feroci guerrieri!»#!\n\n«Essere poeti è vivere, e vivendo si diventa poeti migliori.»"
   tgp_japan_yearly_events.1225.a: "Allora inizierò a vivere!"
@@ -388,7 +388,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1261.b: "Meglio scambiarci poesie, non..."
   tgp_japan_yearly_events.1261.c: "Non renderò pubblica l’inadeguata ars amatoria [top_cuckold.GetTitleAsNamePossessiveNoTooltip]."
   tgp_japan_yearly_events.1261.d: "Divertiamoci comunque!"
- 
+
   tgp_japan_yearly_events.1262.t: "$tgp_japan_yearly_events.1225.t$: uno scambio di versi"
   tgp_japan_yearly_events.1262.desc.intro: "Molti versi potenti si scoprono respirando l’aria della notte. Mentre medito su "
   tgp_japan_yearly_events.1262.inspo: "una forza che trascende me stesso,"
@@ -396,8 +396,8 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1262.desc: "inciampo d’un tratto nella seducente poeta [local_poet.GetName] che recita un verso:\n\n#EMP «Tra i [local_poet_spot.Custom('GetTerrainType')] silenziosi,\n\nattendo il suono dei tuoi passi,\n\nnel [local_poet_spot.Custom('RoamingLegendaryBeastProvinceWeather')] della sera.»#!\n\nCogliendo la mia disposizione poetica, [local_poet.GetName] mi fa cenno di unirmi nell’ombra. Potrebbe essere un invito a impegnarsi in "
   tgp_japan_yearly_events.1262.japan.outro: "[Glossary('renga', 'RENGA_GLOSS')]"
   tgp_japan_yearly_events.1262.outro: "uno scambio poetico"
-  tgp_japan_yearly_events.1262.japan.outro.outro: "o il suo sguardo, simile a quello di una [local_poet.Custom('VenomousCreature')], presagisce qualcosa di più licenzioso?"
- 
+tgp_japan_yearly_events.1262.japan.outro.outro: "o lo sguardo simile a un[local_poet.Custom('DE_PRO_PER_P_3P_G')][local_poet.Custom('VenomousCreature')] di [Select_CString(local_poet.IsFemale,'lei','lui')] presagisce qualcosa di più lascivo?"
+
   tgp_japan_yearly_events.1262.a: "Ho proprio il verso!"
   tgp_japan_yearly_events.1262.a.flavor: "#EMP «Il vento porta la tua voce,\n\nsoffice come il sospiro delle foglie che cadono,\n\nsotto cieli autunnali.»#!"
   tgp_japan_yearly_events.1262.b: "Scambiamoci più che parole..."
@@ -415,7 +415,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1263.c: "E se i petali schiacciati avessero un altro uso?"
   tgp_japan_yearly_events.1263.c.poisonous: "#EMP Doni di [rural_beauty.GetFaith.DeathDeityName]...#!"
   tgp_japan_yearly_events.1263.c.medicinal: "#EMP Doni di [rural_beauty.GetFaith.HealthGodName]...#!"
- 
+
   tgp_japan_yearly_events.1270.t: "$tgp_japan_yearly_events.1225.t$: Mille foglie immortali"
   tgp_japan_yearly_events.1270.desc: "Benché tutti nasciamo con semi di poesia nel cuore, i miei sono stati nutriti dal sole amoroso in cui ho cercato di crogiolarmi e dalle dolci acque della morte che ci avvolge tutti.\n\nCiò è culminato nella creazione di #EMP $poetic_life_artifact_name$#!, che sarà di certo un pilastro della cultura [ROOT.Char.GetTopLiege.GetCulture.GetNameNoTooltip].\n\nTutti ricorderanno quando, "
   tgp_japan_yearly_events.1270.desc.love_memory_1: "#EMP [love_memory_1.GetDescription]#!, "
@@ -452,7 +452,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1180.a: "Mi lascerò guidare dalla sua stabilità."
   tgp_japan_yearly_events.1180.b: "[ROOT.Char.GetFaith.FertilityGodName] è onorato dall’albero: curatelo bene."
   tgp_japan_yearly_events.1180.c: "Vorrei occuparmi io della sua forma."
- 
+
   tgp_japan_yearly_events.1190.t: "In lotta con i miei doveri"
   tgp_japan_yearly_events.1190.desc_annoyed: "Il chiacchiericcio di corte e i lamenti dei signori mi irritano, e l’ultima cosa a cui penso sono le liti dei comuni cittadini."
   tgp_japan_yearly_events.1020.desc_drunk: "Bevo a grandi sorsi [ROOT.Char.Custom('RegionalAlcoholicDrink')], ma offre scarso conforto. Per quanto deplorevole, adempiere ai miei compiti da ubriac[Select_CString(ROOT.Char.IsFemale,'a','o')] è diventato una seconda natura."
@@ -496,7 +496,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   tgp_japan_yearly_events.1240.a: "Procurate[Select_CString(traveler.IsFemale,'le','gli')] un tutore, per favore!"
   tgp_japan_yearly_events.1240.b: "Ah! È stata una bella risata."
   tgp_japan_yearly_events.1240.c: "Vediamo se riesco a spiegarlo nella tua lingua..."
- 
+
   artifact_fertility_gain_2_modifier: "Fertilità"
   artifact_powerful_vassal_opinion_5_modifier: "$artifact_powerful_vassal_opinion_1_modifier$"
   artifact_monthly_prestige_add_3_modifier: "$artifact_monthly_prestige_add_1_modifier$"
@@ -508,7 +508,7 @@ tgp_japan_yearly_events.1071.desc_yokai: ""Molti nella zona hanno riferito avvis
   artifact_kakejiku_scroll_sword_desc: "$artifact_kakejiku_scroll_desc$ una spada incantata, che solo i guerrieri più onorevoli possono brandire.\n\n#weak Un ciliegio fiorisce su uno stagno immobile, e sotto di esso una lama nel fodero...#!"
 
   tgp_japan_yearly_events.1250.t: "Una storia per i secoli"
-  tgp_japan_yearly_events.1250.desc: "[scroll_gifter.GetName] avanza recando un lungo oggetto avvolto. «[scroll_gifter.Custom2('RelationToMeShort', ROOT.Char)|U], ho un dono per la tua unione», dice [scroll_gifter.GetNameNoTooltip] presentando una pergamena. «Una [Glossary( 'Pergamena kakejiku', 'KAKEJIKU_GLOSS' )], con la prosa del più fine dei poeti: possa il suo significato sostenerti quando i tempi si faranno duri»."
+tgp_japan_yearly_events.1250.desc: "[scroll_gifter.GetName] si fa avanti, portando un lungo oggetto avvolto. «[Select_CString(scroll_gifter.IsFemale,'Mia','Mio')] [scroll_gifter.Custom2('RelationToMeShort', ROOT.Char)], ho un dono per la vostra unione», dice [scroll_gifter.GetNameNoTooltip], presentando un rotolo. «Un [Glossary( 'Rotolo Kakejiku', 'KAKEJIKU_GLOSS' )], con prosa del più raffinato poeta: possiate ricordarne il significato quando i tempi si faranno duri.»"
   tgp_japan_yearly_events.1250.a: "Appendila sopra il letto nuziale."
   tgp_japan_yearly_events.1250.b: "Esponila a corte, dove tutti possano vederla."
   tgp_japan_yearly_events.1250.c: "Conservala al sicuro, perché i nostri discendenti possano leggerla."
