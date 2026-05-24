@@ -1,0 +1,12 @@
+﻿l_spanish:
+  death_management.killer.witnessed.enemy_dragon:0 "Nessuno poteva opporsi alla forza di [battle_death_killer.GetFirstName]. Cavalcat[Select_CString(battle_death_killer_rider.IsFemale,'a','o')] da [battle_death_killer_rider.Custom('IT_NAM_COL3')][battle_death_killer_rider.GetTitledFirstName], squarciò le linee nemiche, e [dead_character.GetFirstNameNoTooltip] fu una delle sue molte vittime. "
+  death_management.killer.witnessed.friendly_dragon:0 "Nessuno poteva opporsi al terrore di [battle_death_killer.GetFirstName]. Cavalcat[Select_CString(battle_death_killer_rider.IsFemale,'a','o')] da [battle_death_killer_rider.Custom('IT_NAM_COL3')][battle_death_killer_rider.GetTitledFirstName], squarciò le nostre linee, e [dead_character.GetFirstNameNoTooltip] fu tra i molti che caddero nel fuoco e nelle fiamme. "
+  death_management.killer.witnessed.your_killer_dragon:0 "Nessuno poteva opporsi alla forza di [battle_death_killer.GetFirstName] mentre squarciavo il campo di battaglia in groppa a lui. Mentre ordino a [battle_death_killer.GetFirstName] di attaccare, il mio sguardo coglie d'un tratto [dead_character.Custom('IT_NAM_COL3')][dead_character.GetTitledFirstName] proprio davanti a noi, dritto sulla linea di fuoco."
+  death_management.killer_dragon:0 "[Select_CString(dead_character.IsFemale,'Ella','Egli')|U] fu un[dead_character.Custom('DE_PRO_PER_P_3P_G')] tra i molti che caddero dinanzi a [battle_death_killer.GetFirstName], drago di [battle_death_killer_rider.Custom('IT_NAM_COL2')][battle_death_killer_rider.GetTitledFirstName].'#!"
+
+  death_management.1200.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] è mort[Select_CString(battle_death_killer_rider.IsFemale,'a','o')] [battle_death_killer_rider.GetWomanMan]! Mort[Select_CString(battle_death_killer_rider.IsFemale,'a','o')]!"
+  death_management.1201.a_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] non se la caverà!"
+  death_management.1202.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] pagherà."
+  death_management.1205.b_dragon:0 "[battle_death_killer_rider.GetFirstNameNoTooltip] la pagherà per questo!"
+  death_management.1206.c_dragon:2 "Il mio #EMP eroe!#! Manderò a [battle_death_killer_rider.GetFirstNameNoTooltip] un[ROOT.Char.Custom('DE_PRO_PER_P_3P_G')] [ROOT.Char.GetCurrentLocation.Custom('get_region_flower_type')]!"
+  death_management.1207.b_dragon:0 "...ma nemmeno [battle_death_killer_rider.GetFirstNameNoTooltip] lo è!"

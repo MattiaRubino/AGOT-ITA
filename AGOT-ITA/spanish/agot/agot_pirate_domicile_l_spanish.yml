@@ -1,0 +1,82 @@
+﻿l_spanish:
+
+  agot_pirate_ship_domicile_type:0 "$game_concept_agot_landless_pirate_domicile$"
+  agot_pirate_ship_domicile_title:0 "[CHARACTER.GetFirstNamePossessiveNoTooltip] $agot_pirate_ship_domicile_type$"
+  agot_pirate_ship_domicile_type_tooltip:0 "$agot_pirate_ship_domicile_type$"
+  agot_pirate_ship_move_desc:0 "Sposta la tua $agot_pirate_ship_domicile_type$ in un altro luogo."
+
+  game_concept_agot_landless_pirate_domicile:0 "Nave Pirata"
+  game_concept_agot_landless_pirate_domiciles:0 "Navi Pirata"
+  game_concept_agot_landless_pirate_domicile_desc:0 "Le $game_concept_agot_landless_pirate_domiciles$ sono un [domicile|E] esclusivo della [government_form|E] [pirate_govt|E].\n\nLe $game_concept_agot_landless_pirate_domiciles$ sono utilizzate sia da [characters|e] con terre sia da quelli senza terre. I pirati con terre non possono spostare la propria $game_concept_agot_landless_pirate_domicile$ al di fuori della propria capitale, mentre i pirati senza terre possono spostare la propria $game_concept_agot_landless_pirate_domicile$ soltanto tra [pirate_den_holdings|E], [settlement_holdings|E] e [wilderness_holdings|E].\n\nQuando i pirati senza terre spostano le loro $game_concept_agot_landless_pirate_domiciles$ in un nuovo $game_concept_pirate_den$, devono pagare una tassa d'attracco una tantum, una tassa annuale, e saranno tenuti a unirsi al detentore della [county|e] in ogni guerra difensiva. I pirati con terre possono impostare l'intensità di queste tasse portuali tramite le [laws|E]."
+
+  agot_cannot_become_adventurer_as_pirate_with_valid_relocation_target:0 "Non deve avere alcuna destinazione di viaggio valida come possessore di [agot_landless_pirate_domicile|e] senza terre"
+
+  game_concept_pirate_dominate_title:0 "Dominare un Titolo"
+  game_concept_pirate_domination_war:0 "Guerra di Dominazione Pirata"
+  game_concept_pirate_dominate_title_desc:0 "I pirati che vogliono ottenere un [title|E] di [title_tier|E] superiore devono combattere gli abitanti locali di una regione per quel titolo.\n\nSe qualcuno detiene il titolo in questione, inizieranno una guerra contro quel bersaglio per usurparglielo. Se nessuno detiene il titolo in questione, combatteranno invece contro ogni singolo non-[tributary|E] e non-[ally|E] nell'area [de_jure|E] del titolo.\n\nIn caso di vittoria, l'aggressore otterrà il titolo in questione e tutti i difensori diverranno suoi Tributari. In caso di sconfitta, l'aggressore pagherà [gold_i][gold|E] al difensore e perderà una notevole quantità di [dread_i][dread|E].\n\nSe chi prende la [decision|E] detiene l'intera area De Jure, otterrà semplicemente il titolo immediatamente, poiché non vi sono difensori da combattere."
+
+  pirate_domination_war_holder_custom_tooltip:0 "Avvia una [pirate_domination_war|E] contro [main_defender.GetShortUIName] per [title_scope.GetName]#weak (@soldier_icon![main_defender.MakeScope.ScriptValue('dominate_title_current_ally_strength')|N0])#!"
+  pirate_domination_war_no_holder_custom_tooltip:0 "Avvia una [pirate_domination_war|E] contro [main_defender.GetShortUIName] per [title_scope.GetName]\n\t$BULLET$Ogni [holder|E] di [county|E] [de_jure|E] di [title_scope.GetName] che non sia [tributary|E] né [ally|E] si unirà a [main_defender.GetShortUIName] come difensore #weak (@soldier_icon![root_scope.MakeScope.ScriptValue('dominate_title_current_enemy_strength')|N0])#!"
+
+  agot_raid_pirate_domicile:0 "Razzieggia la $agot_pirate_ship_domicile_type$"
+  agot_raid_pirate_domicile_desc:0 "[SCHEME.GetTargetCharacter.GetShortUIName] si fa troppo audace: una razzia rimetterà [Select_CString(SCHEME.GetTargetCharacter.IsFemale,'lei','lui')] al [Select_CString(SCHEME.GetTargetCharacter.IsFemale,'suo','suo')] posto."
+  agot_raid_pirate_domicile_desc_general:0 "$agot_raid_pirate_domicile$ è un [hostile_scheme|E] che mira a razziare la [agot_landless_pirate_domicile|E] di un altro pirata. Si basa sull'[intrigue|E] e può reclutare [agents|E].\n\nUn $agot_raid_pirate_domicile$ riuscito può portare al furto dell'[gold|E] e degli [artifacts|E] del bersaglio, oltre che a danni alla sua [agot_landless_pirate_domicile|E], e perfino alla morte dei suoi cortigiani."
+
+  agot_raid_pirate_domicile_action:0 "$raid_estate_action$"
+  start_pirate_raid_domicile_interaction:0 "Avvia una Razzia della Nave Pirata"
+  start_pirate_raid_domicile_interaction_desc:0 "Tenta di razziare la [agot_landless_pirate_domicile|E] di [recipient.GetName]"
+  start_pirate_raid_domicile_notification:0 "$agot_raid_pirate_domicile$"
+
+  agot_raid_pirate_kill_courtiers_tt:0 "I membri della [recipient.Custom('GetCourt')] di [recipient.GetFirstNamePossessive] potrebbero essere uccisi"
+  agot_raid_pirate_destroy_buildings_tt:0 "Un edificio della [agot_landless_pirate_domicile|E] di [recipient.GetFirstNamePossessiveNoTooltip] potrebbe essere distrutto o danneggiato"
+  agot_raid_pirate_ship_gain_coin_tt:0 "Otterrai @gold_icon![gold|E]"
+  agot_raid_pirate_ship_gain_dread_tt:0 "Otterrai @dread_icon![dread|E]"
+  agot_raid_pirate_ship_gain_artifacts_tt:0 "Potresti saccheggiare @artifact_icon![artifacts|E]"
+
+  scheme_target_not_agot_pirate:0 "[target.GetShortUIName] non possiede una [agot_landless_pirate_domicile|E]"
+  scheme_owner_not_agot_pirate:0 "Non possiedi una [agot_landless_pirate_domicile|E]"
+  scheme_target_not_alive:0 "[target.GetShortUIName] non è in vita!"
+
+  agot_raid_pirate_domicile_invalidated_title:0 "@scheme_icon! Il Complotto per Razzieggiare la Nave Pirata Termina"
+
+  AGOT_RAID_PIRATE_DOMICILE_SAME_COUNTY:0 "La [agot_landless_pirate_domicile|E] di [target.GetShortUINamePossessive] e quella di [owner.GetShortUINamePossessive] si trovano nella stessa contea: $VALUE|+=0$"
+  OWNER_DOMICILE_FORCASTLE_DESC:0 "Livello di [GetDomicileBuilding('agot_forecastle_01').GetName] di [target.GetDomicile.GetName]: $VALUE|+=0$"
+  RAID_PIRATE_SHIP_IN_SUBREALM_DESC:0 "La [agot_landless_pirate_domicile|E] di [target.GetShortUINamePossessive] si trova nel tuo [realm|E]: $VALUE|+=0$"
+  RAID_PIRATE_SHIP_IN_HIGH_PORT_RATE_DESC:0 "La [agot_landless_pirate_domicile|E] di [target.GetShortUINamePossessive] è attraccata in un [realm|E] con un [pirate_port_rate|E] $pirate_tax_rate_04$: $VALUE|+=0$"
+  RAID_PIRATE_SHIP_ENDURING_HARDSHIPS_PERK_DESC:0 "[target.GetShortUINamePossessive] possiede [GetPerk('enduring_hardships_perk').GetName(GetNullCharacter)]: $VALUE|+=0$"
+
+  game_concept_pirate_port_rates:0 "Tariffe Portuali Pirata"
+  game_concept_pirate_port_rate:0 "Tariffa Portuale Pirata"
+  game_concept_pirate_port_rates_desc:0 "Le $game_concept_pirate_port_rates$ consistono di due tipi di tariffe in @gold_icon! che le [agot_landless_pirate_domiciles|E] devono pagare quando giungono in un luogo detenuto da governanti [pirate_govt|E].\n\nLa prima tariffa è la #bold tassa d'attracco una tantum#!, che un Pirata Senza Terre deve pagare immediatamente entrando in un nuovo [pirate_den_holding|E]. La seconda è la #bold tassa d'attracco annuale#!, che deve essere pagata ogni anno fintanto che il pirata rimane in quel luogo.\n\nI Pirati con Terre che governano la contea possono modificare queste tariffe tramite le [laws|E]."
+
+  game_concept_pirate_ship_designated_heir:0 "Erede Designato della $game_concept_agot_landless_pirate_domicile$"
+  game_concept_pirate_ship_designated_heirs:0 "Eredi Designati della [agot_landless_pirate_domicile|E]"
+  game_concept_pirate_ship_designated_heir_desc:0 "Un $game_concept_pirate_ship_designated_heir$ è un [character|E] designato a ereditare una [agot_landless_pirate_domicile|E].\n\nNon deve necessariamente essere imparentato con l'attuale Capitano della $game_concept_agot_landless_pirate_domicile$, ma deve essere un cortigiano di quel personaggio. Soltanto un [ruler|E] [pirate_govt|E] senza terre può designare un $game_concept_pirate_ship_designated_heir$."
+
+  agot_pirate_events.8032.desc:0 "All'alba, finalmente, giungono notizie dalla nave pirata di [target.GetFirstNamePossessive], ancorata a [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], insieme alla conferma del nostro successo!\n\nI [target.Custom('InsultNounPlural')] furono colti completamente alla sprovvista"
+  agot_pirate_events.8032.kill:0 "e molti degli uomini di [target.GetFirstNamePossessiveNoTooltip] giacciono morti: i superstiti dovranno convivere con questo fallimento..."
+  agot_pirate_events.8032.fallback:0 "e sono stati abbattuti, sotto gli occhi di tutti!"
+  agot_pirate_events.8034.t:0 "Nave Pirata Razziata"
+
+  agot_pirate_events.8034.desc:0 "All'alba, voci concitate di una razzia contro la nave pirata a [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip] giungono ben presto fino a me,"
+  agot_pirate_events.8034.kill:0 "\n\nMi dicono che parecchi dei miei cortigiani sono stati uccisi nell'attacco, massacrati come bestie dai miei nemici..."
+  agot_pirate_events.8034.discovered:0 "\n\nDopo l'accaduto, tutti concordano che sia chiaramente opera di [owner.GetName]..."
+
+  agot_pirate_events.8033.desc:0 "All'alba, infine, giungono notizie dalla nave pirata di [target.GetFirstNamePossessive] a [target_domicile.GetLocation.GetBaronyNameExplicitlyNoTooltip], ma non sono quelle che avremmo voluto udire...\n\nI [target.Custom('InsultNounPlural')] erano in qualche modo pronti all'attacco e hanno sventato l'assalto prima che i nostri uomini potessero arrecare alcun danno."
+  agot_pirate_events.8033.captured:0 "\n\nA peggiorare le cose, pare che [Select_CString(captured.IsFemale,'la mia','il mio')] [owner.Custom2('RelationToMeShort', SCOPE.sC('captured'))], [captured.Custom('IT_NAM_COL3')][captured.GetTitledFirstName], sia stat[Select_CString(captured.IsFemale,'a','o')] catturat[Select_CString(captured.IsFemale,'a','o')] nella razzia..."
+  agot_pirate_events.8033.fallback:0 "\n\nAlmeno possiamo trarre sollievo dal fatto che l'unica cosa perduta sia stato il mio prezioso tempo..."
+
+  create_pirate_ruler_designer:0 "Crea il tuo Pirata Senza Terre"
+  create_pirate_ruler_designer_tt:0 "Crea un pirata senza terre nella provincia capitale del personaggio selezionato."
+  create_pirate_ruler_designer_must_be_pirate_start_tt:0 "@warning_icon! #warning Puoi creare un pirata senza terre soltanto nel territorio di un personaggio pirata già esistente#!"
+  move_pirate_domicile_rules_tt:0 "Puoi spostare il tuo [domicile|E] soltanto verso tane di pirati costiere, oppure verso contee selvagge e di insediamento in una regione di pirateria tradizionale."
+
+  trait_viking_is_corsair:0 "Corsaro"
+
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_1:0 "[raids|E] e [sieges|E] ostili hanno una probabilità leggermente minore di catturare come [prisoners|E] i personaggi che si trovano nella [agot_landless_pirate_domicile|E]"
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_2:0 "[raids|E] e [sieges|E] ostili hanno una probabilità minore di catturare come [prisoners|E] i personaggi che si trovano nella [agot_landless_pirate_domicile|E]"
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_pirate_3:0 "[raids|E] e [sieges|E] ostili hanno una probabilità molto minore di catturare come [prisoners|E] i personaggi che si trovano nella [agot_landless_pirate_domicile|E]"
+
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_1:0 "[raids|E] e [sieges|E] ostili hanno una probabilità leggermente minore di catturare come [prisoners|E] i personaggi che si trovano nella [estate|E]"
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_2:0 "[raids|E] e [sieges|E] ostili hanno una probabilità minore di catturare come [prisoners|E] i personaggi che si trovano nella [estate|E]"
+  domicile_building_parameter_raids_less_likely_to_make_prisoners_sl_3:0 "[raids|E] e [sieges|E] ostili hanno una probabilità molto minore di catturare come [prisoners|E] i personaggi che si trovano nella [estate|E]"

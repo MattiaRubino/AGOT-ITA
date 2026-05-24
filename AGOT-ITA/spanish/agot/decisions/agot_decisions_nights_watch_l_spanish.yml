@@ -1,0 +1,76 @@
+﻿l_spanish:
+ #Marked for Review
+
+restore_the_nights_watch: 0 "Ripristina i Guardiani della Notte"
+restore_the_nights_watch_desc: 0 "Sin dalla loro distruzione, le nostre mura e il nostro popolo sono rimasti sotto la minaccia di selvaggi e altre creature empie annidate nell'estremo nord. Dobbiamo riportare in vita i Guardiani della Notte affinché l'ordine sia ristabilito nel nord e le nostre donne e i nostri bambini possano dormire al sicuro di notte."
+restore_the_nights_watch_tooltip: 0 "Dobbiamo riportare in vita i Guardiani della Notte affinché l'ordine sia ristabilito nel nord e le nostre donne e i nostri bambini possano dormire al sicuro di notte."
+restore_the_nights_watch.tooltip.1: 0 "Un nuovo Lord Comandante sarà trovato per detenere e amministrare la Bariera."
+restore_the_nights_watch.tooltip.2: 0 "#N Perderai le terre attorno alla Bariera! #!"
+restore_the_nights_watch_confirm: 0 "Per il Reame!"
+
+dissolve_the_nights_watch: 0 "Sciogli i Guardiani della Notte"
+dissolve_the_nights_watch_desc: 0 "Il nostro popolo è stato minacciato dai Guardiani della Notte e dalla loro Bariera per troppo tempo! Dopo aver preso il controllo della Bariera, è tempo di porre finalmente fine alla confraternita nera e concedere al nostro popolo la libertà e la pace di cui è stato derubato per migliaia di anni."
+dissolve_the_nights_watch_tooltip: 0 "Il dominio dei Guardiani della Notte finirà."
+dissolve_the_nights_watch_confirm: 0 "Per il Popolo!"
+
+rebuild_nights_watch_fort: 0 "Ricostruisci un forte sulla Bariera"
+rebuild_nights_watch_fort_desc: 0 "Per secoli, l'antico ordine dei Guardiani della Notte è andato deteriorandosi. Ciò ha lasciato i numerosi forti che costeggiano la Bariera in balia dei danni del tempo. Dato il recente miglioramento delle finanze dei Guardiani, molti ritengono che sia tempo di ricostruire ciò che è andato perduto."
+rebuild_nights_watch_fort_tooltip: 0 "Ripristina un forte lungo la Bariera."
+rebuild_nights_watch_fort_confirm: 0 "Portatemi il Primo Costruttore!"
+
+ #Desert the Night's Watch Decision for First Ranger
+ desert_the_nw:0 "$game_concept_agot_desert_nw$"
+desert_the_nw_desc: 0 "La Bariera ha preso molto e dato poco. Disertare i Guardiani della Notte significa rinnegare i miei voti, i miei fratelli e la sicurezza del dovere, ma la libertà giace oltre la Bariera, se oso rivendicarla."
+desert_the_nw_tooltip: 0 "Diserterai il [nw_govt|E]"
+desert_the_nw_confirm: 0 "Diserta i Guardiani"
+
+reclaim_brandons_gift_decision: 0 "Rivendica il Dono di Brandon"
+reclaim_brandons_gift_decision_desc: 0 "Le terre del Dono di Brandon un tempo giuravano fedeltà al Nord invece che ai Guardiani della Notte. È tempo di rivendicare le nostre terre legittime e innalzare nuovi lord per sviluppare le terre che i Guardiani hanno malgovernato."
+reclaim_brandons_gift_decision_tooltip: 0 "Rivendica il Dono di Brandon"
+reclaim_gift_decision.requirements: 0 "Una delle seguenti condizioni deve essere valida:\n$EFFECT_LIST_BULLET$Sei alleato dei Guardiani della Notte\n$EFFECT_LIST_BULLET$Hai il tratto [GetPerk('diplomat_perk').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$Il Lord Comandante dei Guardiani della Notte ha 100 di opinione su di te"
+ reclaim_brandons_gift_decision_confirm:0 "$reclaim_brandons_gift_decision_tooltip$"
+
+reclaim_gift_decision: 0 "Rivendica il Nuovo Dono"
+reclaim_gift_decision_desc: 0 "Le terre del Nuovo Dono un tempo giuravano fedeltà al Nord invece che ai Guardiani della Notte. È tempo di rivendicare le nostre terre legittime e innalzare nuovi lord per sviluppare le terre che i Guardiani hanno malgovernato."
+reclaim_gift_decision_tooltip: 0 "Rivendica il Nuovo Dono"
+ reclaim_gift_decision_confirm:0 "$reclaim_gift_decision_tooltip$"
+reclaim_gift_decision_desc_effect: 0 "A [GetTitleByKey('k_the_wall').GetHolder.GetName] sarà inviata una proposta riguardante la restituzione [GetTitleByKey('d_new_gift').Custom('IT_COU_COL2')][GetTitleByKey('d_new_gift').GetNameNoTier] al Nord."
+
+reclaim_brandons_gift_decision_desc_effect: 0 "A [GetTitleByKey('k_the_wall').GetHolder.GetName] sarà inviata una proposta riguardante la restituzione [GetTitleByKey('d_brandons_gift').Custom('IT_COU_COL2')][GetTitleByKey('d_brandons_gift').GetNameNoTier] al Nord."
+reclaim_gift_decision_desc_use_hook_tt: 0 "Il tuo [hook|e] sul tuo [top_liege|E] verrà usato."
+
+agot_nights_watch.3000.t: 0 "Il Nuovo Dono"
+agot_nights_watch.3000.desc: 0 "[winterfell_petitioner.GetName] ha chiesto che restituiamo il Nuovo Dono al Nord, in cambio di una grande somma d'oro. Quattro nuovi lord saranno innalzati in queste terre, ma giureranno fedeltà al Nord, ponendo fine per la prima volta dopo generazioni al dominio dei Guardiani della Notte su quelle terre."
+agot_nights_watch.3000.desc_brandons_gift: 0 "[winterfell_petitioner.GetName] ha chiesto che restituiamo il Dono di Brandon al Nord, in cambio di una grande somma d'oro. Tre nuovi lord saranno innalzati in queste terre, ma giureranno fedeltà al Nord, ponendo fine per la prima volta dopo generazioni al dominio dei Guardiani della Notte su quelle terre."
+agot_nights_watch.3000.a: 0 "Accetto, il Nord può riavere la sua terra."
+agot_nights_watch.3000.b: 0 "Rifiuto. La terra è proprietà dei Guardiani della Notte."
+agot_nights_watch.3001.t: 0 "Il Dono: richiesta accolta"
+agot_nights_watch.3001.desc: 0 "[nw_lc.GetName] ha accettato di restituire il Dono al dominio del Nord.\n\nOra è tempo di nominare i nuovi lord che si insedieranno nelle contee della regione."
+agot_nights_watch.3001.a: 0 "Sceglierò personalmente i nuovi lord."
+agot_nights_watch.3001.b: 0 "Assegna le terre a chiunque."
+agot_nights_watch.3003.t: 0 "Nuovi lord del Nuovo Dono"
+agot_nights_watch.3003.desc: 0 "È tempo di selezionare un lord di [new_gift_county_to_give_away.GetNameNoTier]."
+agot_nights_watch.3003.a: 0 "Questa persona andrà bene."
+agot_nights_watch.3003.b: 0 "In realtà, concedi il titolo a una persona casuale."
+nw_proposal_rejected: 0 "Proposta rifiutata"
+
+agot_nights_watch.3004.t: 0 "Doni rivendicati"
+agot_nights_watch.3004.desc: 0 "Il Nuovo Dono è stato restituito al dominio del Nord dopo anni di governo da parte dei Guardiani della Notte. [winterfell_petitioner.GetName] ha innalzato i seguenti lord per popolare le terre:\n\n$BULLET$[norlinton_holder.GetFirstName] [norlinton_holder.GetHouse.GetName] di [GetTitleByKey('c_norlinton').GetNameNoTier]\n$BULLET$[boreharrow_holder.GetFirstName] [boreharrow_holder.GetHouse.GetName] di [GetTitleByKey('c_boreharrow').GetNameNoTier]\n$BULLET$[whitecross_holder.GetFirstName] [whitecross_holder.GetHouse.GetName] di [GetTitleByKey('c_whitecross').GetNameNoTier]\n$BULLET$[giantsbeard_holder.GetFirstName] [giantsbeard_holder.GetHouse.GetName] di [GetTitleByKey('c_giantsbeard').GetNameNoTier]"
+agot_nights_watch.3004.desc_brandons_gift: 0 "Il Dono di Brandon è stato restituito al dominio del Nord dopo anni di governo da parte dei Guardiani della Notte. [winterfell_petitioner.GetName] ha innalzato i seguenti lord per popolare le terre:\n\n$BULLET$[weatherback_ridge_holder.GetFirstName] [weatherback_ridge_holder.GetHouse.GetName] di [GetTitleByKey('c_weatherback_ridge').GetNameNoTier]\n$BULLET$[moles_town_holder.GetFirstName] [moles_town_holder.GetHouse.GetName] di [GetTitleByKey('c_moles_town').GetNameNoTier]\n$BULLET$[hoarburn_holder.GetFirstName] [hoarburn_holder.GetHouse.GetName] di [GetTitleByKey('c_hoarburn').GetNameNoTier]"
+agot_nights_watch.3004.a: 0 "Le mie gesta gioveranno al Nord per le generazioni a venire."
+
+agot_nights_watch.holding_conversion_tt: 0 "[new_gift_county_to_give_away.GetNameNoTier] sarà convertita in un [castle_holding|E]"
+agot_nights_watch.new_capital_tt: 0 "[new_capital.GetName] diventerà la capitale di [new_gift_county_to_give_away.GetNameNoTier]."
+
+donate_land_to_nw_decision_desc: 0 "Deteniamo alcune delle terre storiche dei Guardiani della Notte. Forse restituire loro la terra può rafforzare la loro posizione."
+donate_land_to_nw_decision_tooltip: 0 "Restituisci la terra!"
+donate_land_to_nw_decision: 0 "Restituisci le terre storiche ai Guardiani della Notte"
+donate_land_to_nw_decision_confirm: 0 "Restituisci la terra!"
+
+brandons_gift_will_be_returned_to_nw_tt: 0 "Ogni contea nel [GetTitleByKey('d_brandons_gift').GetName] sarà concessa a [GetTitleByKey('k_the_wall').GetHolder.GetName]"
+new_gift_will_be_returned_to_nw_tt: 0 "Ogni contea nel [GetTitleByKey('d_new_gift').GetName] sarà concessa a [GetTitleByKey('k_the_wall').GetHolder.GetName]"
+
+agot_nights_watch.3005.t: 0 "Territorio restituito"
+agot_nights_watch.3005.desc: 0 "Benché il Nord avesse rivendicato il Nuovo Dono, ora lo ha generosamente restituito al controllo dei Guardiani della Notte.\n\n[GetTitleByKey('c_norlinton').GetNameNoTier], [GetTitleByKey('c_boreharrow').GetNameNoTier], [GetTitleByKey('c_whitecross').GetNameNoTier] e [GetTitleByKey('c_giantsbeard').GetNameNoTier] sono ora di nuovo proprietà dei Guardiani della Notte!"
+agot_nights_watch.3005.desc_brandons_gift: 0 "Benché il Nord avesse rivendicato il Dono di Brandon, ora lo ha generosamente restituito al controllo dei Guardiani della Notte.\n\n[GetTitleByKey('c_weatherback_ridge').GetNameNoTier], [GetTitleByKey('c_moles_town').GetNameNoTier] e [GetTitleByKey('c_hoarburn').GetNameNoTier] sono ora di nuovo proprietà dei Guardiani della Notte!"
+agot_nights_watch.3005.a: 0 "Non possiamo sprecare questa generosità."
