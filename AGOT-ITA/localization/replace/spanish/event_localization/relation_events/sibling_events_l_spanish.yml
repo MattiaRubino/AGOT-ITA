@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  sibling.0001.t:0 "Solo di Diritto"
  sibling.0001.desc:0 "[sibling.GetTitledFirstName] è venuto a richiedere un'udienza ufficiale con me!\n\n"Caro [sibling.Custom2('RelationToMe' , ROOT.GetCharacter )], vi ho servito lealmente. Non è ora che io sia debitamente ricompensato per il mio buon lavoro?""
  sibling.0001.a:0 "Ti concedo un titolo e una terra tutta tua!"
@@ -17,7 +16,7 @@
  sibling.0003.desc:1 "Mi[sibling.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetFirstName], è venut[sibling.Custom('DE_PRO_DEM')] da me, con i titoli delle sue nuove terre.\n\n"[sibling.Custom2('RelationToMe' , ROOT.Char )|U]! che questi doni ci leghino per sempre come compagni così come siamo legati dal sangue!""
  sibling.0003.a:0 "Per la famiglia e il reame!"
 
- sibling.0004.t:0 "Mi[sibling.Custom('DE_END_PRO_S_N')] [sibling.Custom('SisterBrother')|U] e [vassal.Custom('DE_ART_DEF_P_A')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('vassal') )|U]""
+ sibling.0004.t:0 "Mi[sibling.Custom('DE_END_PRO_S_N')] [sibling.Custom('SisterBrother')|U] e [vassal.Custom('DE_ART_DEF_P_A')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('vassal') )|U]"
  sibling.0004.opening:0 "[vassal.GetTitledFirstName] è venuto ancora una volta a lamentarsi di mi[ROOT.Char.Custom('DE_PRO_DEM')] [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName]."
  sibling.0004.fallback:0 "\n\nSemplicemente non riescono ad andare d'accordo, e questa volta sembra che uno di loro si sia spinto troppo oltre."
  sibling.0004.a:0 "Mi[sibling.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] agisce per conto mio."

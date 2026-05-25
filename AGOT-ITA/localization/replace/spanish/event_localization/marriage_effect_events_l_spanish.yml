@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  marriage_effect.0001.t:0 "Fare ciò che è giusto"
  marriage_effect.0001.desc.multiple:0 "Finalmente le cose sono come avrebbero sempre dovuto essere. Il segreto che aleggia sui miei figli non può più farci del male, ora che il loro padre [new_spouse.GetTitledFirstName] ed io siamo legalmente sposati."
  marriage_effect.0001.desc.child:0 "Ho passato molte notti insonni a preoccuparmi di mi[illegitimate_child.Custom('DE_END_PRO_S_N')] [illegitimate_child.Custom('GetDaughterSon')] [illegitimate_child.GetTitledFirstName] e di cosa ci accadrebbe se venisse fuori la verità sui suoi genitori.\n\nOra che suo padre [new_spouse.GetTitledFirstName] ed io siamo legittimamente sposati, le mie vecchie paure possono finalmente scomparire."
@@ -9,7 +8,7 @@
  marriage_effect.0002.desc.multiple:0 "Finalmente le cose sono come avrebbero sempre dovuto essere. Il segreto che aleggia sui miei figli non può più fare del male a loro o alla loro madre, [real_mother.GetTitledFirstName], ora che siamo legalmente sposati."
  marriage_effect.0002.desc.child:0 "Ho passato molte notti insonni a preoccuparmi di mi[illegitimate_child.Custom('DE_END_PRO_S_N')] [illegitimate_child.Custom('GetDaughterSon')] [illegitimate_child.GetTitledFirstName] e di cosa accadrebbe a [illegitimate_child.GetHerHim] se venisse fuori la verità sulla sua parentela.\n\nOra che sua madre [real_mother.GetTitledFirstName] ed io siamo legittimamente sposati, le mie vecchie paure possono finalmente svanire."
  marriage_effect.0002.desc.pregnancy:0 "Dal giorno in cui ho scoperto che [real_mother.GetTitledFirstName] era incinta di nostro figlio, mi sono preoccupato moltissimo per il futuro del bambino. Ora che siamo legalmente sposati, posso finalmente smettere di preoccuparmi."
- marriage_effect.0002.desc.pregnancy_not_knowing:0 "[real_mother.Custom('REL_TO_ME')|U][real_mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi si avvicina con una mano sulla pancia.\n\n "Non te l'ho detto prima, ma...la creatura dentro di me è tua. Ora che siamo legittimamente sposati, questo segreto non può più farci del male."
+ marriage_effect.0002.desc.pregnancy_not_knowing:0 "[real_mother.Custom('REL_TO_ME')|U][real_mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi si avvicina con una mano sulla pancia.\n\n «Non te l'ho detto prima, ma...la creatura dentro di me è tua. Ora che siamo legittimamente sposati, questo segreto non può più farci del male.»"
  marriage_effect.0001.a_not_knowing:0 "Oh, io...io sono contento."
 
  marriage_effect.0003.desc.pregnancy:0 "Dal giorno in cui ho scoperto che la mia [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_mother') )] [real_mother.GetTitledFirstName] era incinta di [new_spouse.GetTitledFirstName], ho tenuto il tuo segreto rinchiuso nel mio cuore. Ora che sono legittimamente sposati posso finalmente rilassarmi."

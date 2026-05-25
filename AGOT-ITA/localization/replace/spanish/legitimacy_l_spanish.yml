@@ -4,11 +4,9 @@
  default_legitimacy_level_4_flavor: "Legittimo"
  default_legitimacy_level_5_flavor: "Vero"
  #End AGOT modifiche
-
 #start AGOT Disabled
  # legitimacy_on_entered_lost_mandate: "$legitimacy_on_level_entered$@warning_icon! #X Attiva «$catalyst_hegemon_lost_mandate_of_heaven$», che sposterà il [dynastic_cycle|E] nella [situation_dynastic_cycle_phase|E] [GetSituationType('dynastic_cycle').GetPhaseType('situation_dynastic_cycle_phase_chaos').GetName]#!\n"
 #end AGOT Disabled
-
 
  default_legitimacy_level_0: "Governo [Concept( 'legitimacy', 'Illegittimo' )|E]"
  default_legitimacy_level_1: "[legitimacy|E] $LEVEL|V:roman$"

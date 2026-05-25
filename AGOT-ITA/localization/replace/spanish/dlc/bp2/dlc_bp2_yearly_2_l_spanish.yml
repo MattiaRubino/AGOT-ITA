@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  
  bp2_yearly.2000.t: "Seguendo le loro orme"
  bp2_yearly.2000.desc_dynasty: ""… e così, car[ROOT.Char.Custom('DE_END_PRO_S_N')] [story_teller.Custom2( 'RelationToMeShort', ROOT.Char )], nacque la grande casata [ROOT.Char.GetHouse.GetBaseName|U]! [root_house_founder.Custom('DE_ART_DEF_P_D')] tu[root_house_founder.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMeShort', root_house_founder )], [root_house_founder.Custom('IT_NAM_COL3')|U][root_house_founder.GetTitledFirstName|l], era celebre per essere [target_trait.GetName( ROOT.Char )|l]".\n\n[story_teller.Custom('DE_ART_DEF_P_D')] mi[story_teller.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMeShort', story_teller )], [story_teller.Custom('IT_NAM_COL3')][story_teller.GetTitledFirstName|l], conclude il racconto delle origini ancestrali della nostra casata. Ama insegnarmi la storia di [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], ma oggi la nostra conversazione è stata piena di racconti ispiratori [Select_CString(root_house_founder.IsFemale,'sulla mia','sul mio')] [ROOT.Char.Custom2( 'RelationToMeShort', root_house_founder )], [Select_CString(root_house_founder.IsFemale,'fondatrice','fondatore')] della nostra casata."
@@ -104,17 +103,17 @@ bp2_yearly.2015.desc: "«Non sarò mai libero da quel [bully.Custom2('InsultNoun
 
  bp2_yearly.2019.t: "Eccentricità"
 bp2_yearly.2019.desc.intro: "Il/la mio/a [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], [target_councilor.GetTitledFirstName], si avvicina a me e al mio amico [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip] mentre stiamo conversando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U],» chiede [target_councilor.GetFirstNameNoTooltip] aggrottando la fronte pensieroso/a, «se potessi concedermi un momento, vorrei discutere di "
- bp2_yearly.2019.desc.chaplain: "dello stato dei [ROOT.Char.Custom('GetFaithTemple')] del regno.""
- bp2_yearly.2019.desc.chaplain_unlanded: "dello stato del santuario di famiglia della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip].""
- bp2_yearly.2019.desc.steward: "delle nostre strategie per la riscossione delle tasse.""
- bp2_yearly.2019.desc.steward_unlanded: "delle nostre strategie per le finanze della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip].""
- bp2_yearly.2019.desc.marshal: "dei regimi di addestramento per le nuove reclute.""
- bp2_yearly.2019.desc.marshal_unlanded: "dei regimi di addestramento per le nuove reclute.""
- bp2_yearly.2019.desc.spymaster: "dell'inserimento di alcuni agenti chiave nelle corti straniere.""
- bp2_yearly.2019.desc.spymaster_unlanded: "del dispiegamento di alcuni agenti chiave in tutto il regno.""
- bp2_yearly.2019.desc.chancellor: "delle nostre relazioni con i signori vicini.""
- bp2_yearly.2019.desc.chancellor_unlanded: "delle nostre relazioni con le casate vicine.""
- bp2_yearly.2019.desc.kurultai: "il benessere della nostra mandria."" #controllare
+ bp2_yearly.2019.desc.chaplain: "dello stato dei [ROOT.Char.Custom('GetFaithTemple')] del regno."
+ bp2_yearly.2019.desc.chaplain_unlanded: "dello stato del santuario di famiglia della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip]."
+ bp2_yearly.2019.desc.steward: "delle nostre strategie per la riscossione delle tasse."
+ bp2_yearly.2019.desc.steward_unlanded: "delle nostre strategie per le finanze della casata [ROOT.Char.GetHouse.GetBaseNameNoTooltip]."
+ bp2_yearly.2019.desc.marshal: "dei regimi di addestramento per le nuove reclute."
+ bp2_yearly.2019.desc.marshal_unlanded: "dei regimi di addestramento per le nuove reclute."
+ bp2_yearly.2019.desc.spymaster: "dell'inserimento di alcuni agenti chiave nelle corti straniere."
+ bp2_yearly.2019.desc.spymaster_unlanded: "del dispiegamento di alcuni agenti chiave in tutto il regno."
+ bp2_yearly.2019.desc.chancellor: "delle nostre relazioni con i signori vicini."
+ bp2_yearly.2019.desc.chancellor_unlanded: "delle nostre relazioni con le casate vicine."
+ bp2_yearly.2019.desc.kurultai: "il benessere della nostra mandria." #controllare
 bp2_yearly.2019.desc.outro: "\n\n«Certo!» rispondo. «Vieni, [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]. Vorrei sentire anche il tuo parere su queste questioni».\n\n«M-ma, [ROOT.Char.Custom('FormOfAddressForLiege')],» [target_councilor.GetFirstNameNoTooltip] si incupisce, «qui non c’è anima viva oltre a noi due...»"
  bp2_yearly.2019.a: "Perchè? Ovvio che ci sia qualcuno! [ROOT.Char.Custom('GetSheHeOpposite')|U] è [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [Select_CString( ROOT.Char.IsFemale, 'consigliere', 'consigliera' )] di maggior fiducia!"
  bp2_yearly.2019.a.tt: "Accetti con le braccia aperte la tua relazione con [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"

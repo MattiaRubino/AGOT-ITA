@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  physician_epidemic_events.1000.t: "Trattamento Poco Ortodosso"
 physician_epidemic_events.1000.desc: "Il[Select_CString(physician.IsFemale,'a',' ')] [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] e [zealous_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)] sono ai ferri corti su come trattare la diffusione di [epidemic_scope.GetName].\n\n«Sono un[Select_CString(physician.IsFemale,'a',' ')] medico!» insiste Talāra. «Lasciate che estirpi questa piaga!»\n\n«Eresia!» ringhia Mahakala. «Dobbiamo ungere i morti e dare loro i giusti riti [zealous_courtier.GetFaith.GetAdjective].»"
  physician_epidemic_events.1000.a: "Forse dovremmo semplicemente tenere i corpi lontani dai vivi."
@@ -12,12 +11,12 @@ physician_epidemic_events.1010.desc: "Mentre [epidemic_scope.GetName] si diffond
 physician_epidemic_events.1010.a: "Chiudete le strade. In quarantena i malati."
  physician_epidemic_events.1010.b: "Questa è una misura troppo estrema."
  physician_epidemic_events.1020.t: "[epidemic.GetNameNoTooltip|U]: Prevenzione Precoce"
- physician_epidemic_events.1020.start.desc: "La luce fioca e tremolante dell'infermeria di [physician.GetFirstNamePossessive] illumina la scena, mentre il medico elabora un piano d'attacco.\n\n"Quelli affetti da [epidemic.GetName]"
+ physician_epidemic_events.1020.start.desc: "La luce fioca e tremolante dell'infermeria di [physician.GetFirstNamePossessive] illumina la scena, mentre il medico elabora un piano d'attacco.\n\nQuelli affetti da [epidemic.GetName]"
  missing_epidemic: "si contorcono in agonia"
  physician_epidemic_events.1020.start.desc2: "come non avevo mai visto fare prima d'ora."
- physician_epidemic_events.1020.safe_recommendation.desc: "Il mio consiglio come professionista è di adottare un approccio leggero per prevenire la diffusione. Dopo tutto, non vogliamo danneggiare l'economia.""
- physician_epidemic_events.1020.risky_recommendation.desc: "Questa epidemia rischia di destabilizzare l'intero regno, la nostra gente e i nostri raccolti saranno decimati se non interveniamo radicalmente.""
- physician_epidemic_events.1020.mystic_recommendation.desc: "Questa epidemia ci è stata mandata dal [physician.GetFaith.DevilName], ed è solo pensando fuori dagli schemi della medicina tradizionale che possiamo sperare di annullare questa maledizione!""
+ physician_epidemic_events.1020.safe_recommendation.desc: "Il mio consiglio come professionista è di adottare un approccio leggero per prevenire la diffusione. Dopo tutto, non vogliamo danneggiare l'economia."
+ physician_epidemic_events.1020.risky_recommendation.desc: "Questa epidemia rischia di destabilizzare l'intero regno, la nostra gente e i nostri raccolti saranno decimati se non interveniamo radicalmente."
+ physician_epidemic_events.1020.mystic_recommendation.desc: "Questa epidemia ci è stata mandata dal [physician.GetFaith.DevilName], ed è solo pensando fuori dagli schemi della medicina tradizionale che possiamo sperare di annullare questa maledizione!"
  physician_epidemic_events.1020.end.desc: "\n\nIn definitiva, la strategia esatta per prevenire la diffusione di questa epidemia spetta a me."
  physician_epidemic_events.1020.a: "Un approccio delicato è la cosa migliore."
  physician_epidemic_events.1020.b: "Sono richieste misure disperate."

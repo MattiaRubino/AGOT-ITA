@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
   tgp_china_ministry.0001.t: "$great_project_type_grand_campaign_project$: Avanti"
   tgp_china_ministry.0001.desc: "[great_project.GetName] è in corso. L’orgoglio e le ambizioni di [owner.GetName] sono in gioco.\n\n"È un grande onore far parte della storia che si sta facendo." [contributor.GetName] esclama con orgoglio. "La nostra vittoria su [defender.GetName] sarà rapida e diverrà tema di poemi futuri. Presto tutto [target_title.GetName] sarà sotto il Cielo!""
   tgp_china_ministry.0001.a: "Che [GetTitleByKey('h_china').GetNameNoTooltip] cresca!"
@@ -27,7 +26,7 @@ tgp_china_ministry.0006.opening: "[founder.Custom2('AppropriateGreetingPositive'
  
   tgp_china_ministry.0100.t: "Il Tesoro [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
   tgp_china_ministry.0100.intro: "È giunta l’ora di rivedere il bilancio del [ROOT.Char.Custom('GetRealmRank')]."
-  tgp_china_ministry.0100.steward_desc: "[steward.GetShortUIName] sta davanti a me, la fronte corrugata, con il registro in mano. Una piccola schiera di aiutanti [Select_CString(steward.IsFemale,'le','gli')] sta dietro, carica di pergamene, tomi e note fiscali.\n\n"[ ROOT.Char.Custom('FormOfAddressForLiege')|U ]. #EMP Dobbiamo#! esaminare le spese e preparare un nuovo bilancio per il tesoro. Temo che la questione non possa attendere."
+  tgp_china_ministry.0100.steward_desc: "[steward.GetShortUIName] sta davanti a me, la fronte corrugata, con il registro in mano. Una piccola schiera di aiutanti [Select_CString(steward.IsFemale,'le','gli')] sta dietro, carica di pergamene, tomi e note fiscali.\n\n«[ ROOT.Char.Custom('FormOfAddressForLiege')|U ]. #EMP Dobbiamo#! esaminare le spese e preparare un nuovo bilancio per il tesoro. Temo che la questione non possa attendere.»"
   tgp_china_ministry.0100.solo_desc: "Mi trovo circondat[Select_CString(ROOT.Char.IsFemale,'a','o')] da una piccola schiera di scrivani, carichi di pergamene, tomi e note fiscali. Tutti attendono che io termini la revisione.\n\n"
   tgp_china_ministry.0100.income_desc: "Le nostre entrate attuali superano di gran lunga le spese."
   tgp_china_ministry.0100.deficit_desc: "Le nostre spese sono troppo elevate e il tesoro crollerà senza interventi."
@@ -36,7 +35,7 @@ tgp_china_ministry.0006.opening: "[founder.Custom2('AppropriateGreetingPositive'
   tgp_china_ministry.0100.b: "Mantieni le stesse assegnazioni."
   tgp_china_ministry.0100.c: "Mi fido del tuo giudizio in merito."
   tgp_china_ministry.0100.a_tooltip: "Potrai scegliere un [treasury_budget|E] fra diverse opzioni"
-  single_quotation_desc: """
+  single_quotation_desc: ""
  
   tgp_china_ministry.0101.desc: "Davanti a me giacciono diversi documenti con proposte, ognuno traccia una rotta diversa per il tesoro: dove spendere e dove stringere la borsa.\n\nQuale scelgo?"
   tgp_china_ministry.0101.a: "I salari devono essere la nostra priorità."

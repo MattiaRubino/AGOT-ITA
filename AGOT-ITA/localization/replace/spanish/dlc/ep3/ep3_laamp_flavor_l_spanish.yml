@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ep3_laamp_flavor.0001.t1: "Mangiatori di carogne"
  ep3_laamp_flavor.0001.t2: "Mangiare i corvi"
  ep3_laamp_flavor.0001.desc1: "Avvoltoi volteggiano sopra di noi mentre il sole cocente infierisce sul mio stomaco vuoto. Frugo tra le razioni rimaste: ci restano solo gallette dure, e anche quelle stanno rapidamente finendo. Dovremo rifornirci presto o affrontare la fame.\n\nHo esposto la nostra situazione disperata agli altri. Nessuna delle opzioni sembrava allettante, per usare un eufemismo. Flettendo il braccio dell'arco, [vulture_shooter.GetFirstName] si offre volontari[vulture_shooter.Custom('DE_END_PRO_S_N')] per abbattere alcuni degli avvoltoi e rifornire le nostre scarse provviste."
@@ -96,7 +95,7 @@ ep3_camp_temperament.0010.desc.intro: "La pioggia ha spinto la maggior parte dei
  ep3_determined_modifier_desc: "Questo personaggio è determinato a riscattare il proprio nome, costi quel che costi."
  
  ep3_camp_temperament.0020.t: "Voci di corridoio"
-ep3_camp_temperament.0020.desc: "La porta della mia tenda si apre e [secret_giver.Custom('IT_NAM_COL3')][secret_giver.GetTitledFirstName] si para dinanzi a me. Con un lieve inchino, [Select_CString(secret_giver.IsFemale,'lei','lui')] inizia: «Mi scuso per l’interruzione, [ROOT.Char.Custom('FormOfAddressForLiege')], ma porto notizie che potrebbero interessarti».\n\n«Mi stavo riposando alla [ROOT.Char.Custom('GetPubName')], bevendo con un gruppo che si è rivelato essere servitori [secret_owner.Custom('IT_NAM_COL2')][secret_owner.GetTitledFirstName].»\n\n«Non ebbero remore a parlare del loro signore. “Che ne è di [Select_CString(secret_owner.IsFemale,'lei','lui')]?", ho chiesto, e sono riuscit[Select_CString(secret_giver.IsFemale,'a','o')] a conoscere un segreto a tuo beneficio.»"
+ep3_camp_temperament.0020.desc: "La porta della mia tenda si apre e [secret_giver.Custom('IT_NAM_COL3')][secret_giver.GetTitledFirstName] si para dinanzi a me. Con un lieve inchino, [Select_CString(secret_giver.IsFemale,'lei','lui')] inizia: «Mi scuso per l’interruzione, [ROOT.Char.Custom('FormOfAddressForLiege')], ma porto notizie che potrebbero interessarti».\n\n«Mi stavo riposando alla [ROOT.Char.Custom('GetPubName')], bevendo con un gruppo che si è rivelato essere servitori [secret_owner.Custom('IT_NAM_COL2')][secret_owner.GetTitledFirstName].»\n\n«Non ebbero remore a parlare del loro signore. “Che ne è di [Select_CString(secret_owner.IsFemale,'lei','lui')]?, ho chiesto, e sono riuscit[Select_CString(secret_giver.IsFemale,'a','o')] a conoscere un segreto a tuo beneficio.»"
  ep3_camp_temperament.0020.a: ""Un segreto darebbe vita a una storia eccellente….""
  ep3_camp_temperament.0020.b: ""Avete fatto un ottimo lavoro.""
  ep3_camp_temperament.0020.c: ""Cosa ci facevate alla taverna…?.""
@@ -107,9 +106,9 @@ ep3_camp_temperament.0020.desc: "La porta della mia tenda si apre e [secret_give
  ep3_inspired_by_life_desc: "Questo personaggio usa i segreti che conosce per scrivere storie affascinanti."
  
  ep3_camp_temperament.0030.t: "Ammutinamento!"
- ep3_camp_temperament.0030.desc.intro: ""Ah, [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstName|l], che onore avervi con noi stasera", mi saluta [cocky_follower.Custom('IT_NAM_COL3')][cocky_follower.GetTitledFirstName|l] quando mi avvicino al fuoco. Soltanto [cocky_follower.GetSheHe] continua a bere accanto alle fiamme. "Vi prego", dice indicando un tronco accanto a sé, e aspetta che mi sieda prima di continuare:\n\n"Non sembra andare bene, vero? L’intero accampamento sembra infuriato con voi e forse c’è un motivo per questo,"
- ep3_camp_temperament.0030.desc.no_food: "quando il cibo scarseggia… non si sa mai.""
- ep3_camp_temperament.0030.desc.other: "non trovate?.""
+ ep3_camp_temperament.0030.desc.intro: "Ah, [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstName|l], che onore avervi con noi stasera, mi saluta [cocky_follower.Custom('IT_NAM_COL3')][cocky_follower.GetTitledFirstName|l] quando mi avvicino al fuoco. Soltanto [cocky_follower.GetSheHe] continua a bere accanto alle fiamme. Vi prego, dice indicando un tronco accanto a sé, e aspetta che mi sieda prima di continuare:\n\nNon sembra andare bene, vero? L’intero accampamento sembra infuriato con voi e forse c’è un motivo per questo,"
+ ep3_camp_temperament.0030.desc.no_food: "quando il cibo scarseggia… non si sa mai."
+ ep3_camp_temperament.0030.desc.other: "non trovate?."
  ep3_camp_temperament.0030.desc.outro: "\n\n"Sarebbe un peccato se qualcuno… approfittasse della situazione.""
  ep3_camp_temperament.0030.a: ""In realtà… è stata… tutta colpa [bus_follower.Custom('IT_NAM_COL2')][bus_follower.GetShortUINameNoTooltip]!.""
  ep3_camp_temperament.0030.b: ""Adesso vedrai!.""

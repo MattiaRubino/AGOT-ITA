@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ### SETUP
  activity_pilgrimage:0 "Pellegrinaggio"
  activity_pilgrimage_desc:0 "$game_concept_pilgrimage_desc$"
@@ -347,7 +346,7 @@ pilgrimage.2002.desc: "Tra i miei compagni pellegrini c’è un [heathen_hater.G
 pilgrimage.2005.outro: "fra risate sguaiate.\n\nQuando [rude_pilgrim.GetSheHe] nota la mia esitazione, il narratore mi guarda rassicurante: «Non temete, [ROOT.Char.Custom('FormOfAddressForLiege')] — si parla di certo di qualche #EMP altro#! nobile altezzoso!»"
  pilgrimage.2005.a:0 ""Davvero? Ora dimmi di più sul[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip].""
  pilgrimage.2005.a.flavor:0 "Mi siedo accanto al fuoco."
- pilgrimage.2005.b:0 ""Guardie! Prendete la mia frusta."
+ pilgrimage.2005.b:0 "Guardie! Prendete la mia frusta."
  pilgrimage.2005.c:0 "Forse è giunta l'ora che trovi altri con i quali viaggiare."
  #You have gotten lost
  pilgrimage.2006.t:1 "$pilgrimage_header$ La Via Panoramica"
@@ -390,7 +389,7 @@ pilgrimage.2008.desc: "Pare che questo viaggio non mi giovi. Forse sono le terre
  pilgrimage.2012.desc:1 "Non riesco a ricordare cosa sia successo dopo essere entrat[ROOT.Char.Custom('DE_END_PRO_S_N')] nella tenda [2010_mystic.Custom('DE_PRO_PER_P_3P_A')] mistic[2010_mystic.Custom('DE_END_PRO_S_N')]. Tutto ciò che ricordo sono delle immagini vaghe e un forte senso di stordimento.\n\nOra mi chiedo se [2010_mystic.GetSheHe] sia mai stat[2010_mystic.Custom('DE_END_PRO_S_N')] qui..."
  pilgrimage.2012.a:1 "[2010_mystic.GetSheHe|U] aveva davvero un sacco di strane idee."
  #Outcome of engaging
- pilgrimage.2013.desc:1 "Dopo aver seguito le istruzioni di [2010_mystic.GetTitledFirstName], posso vedere tutto molto più chiaramente. Riesco a #EMP sentirLo#!!" [ROOT.Char.GetFaith.PantheonTerm|U], il mondo, tutto scorre attraverso il mio corpo. Attraverso la mia anima.\n\nQuando riemergo dalla tenda, ore dopo, ho una nuova comprensione di me stesso e della vita."
+ pilgrimage.2013.desc:1 "Dopo aver seguito le istruzioni di [2010_mystic.GetTitledFirstName], posso vedere tutto molto più chiaramente. Riesco a #EMP sentirLo#!! [ROOT.Char.GetFaith.PantheonTerm|U], il mondo, tutto scorre attraverso il mio corpo. Attraverso la mia anima.\n\nQuando riemergo dalla tenda, ore dopo, ho una nuova comprensione di me stesso e della vita."
  pilgrimage.2013.a:0 "Prima ero ciec[ROOT.Char.Custom('DE_END_PRO_S_N')], ora vedo."
  #Outcome of sleeping
  pilgrimage.2014.desc:1 "Quando mi sveglio dopo essermi addormentat[ROOT.Char.Custom('DE_END_PRO_S_N')] nella tenda di [2010_mystic.GetTitledFirstName], mi ritrovo rannicchiat[ROOT.Char.Custom('DE_END_PRO_S_N')] sul terreno; la tenda è svanita, sparita nel nulla. Sono stati i miei servitori a svegliarmi, ma [2010_mystic.Custom('DE_PRO_PER_P_3P_A')] mistic[2010_mystic.Custom('DE_END_PRO_S_N')] non c'è più traccia.\n\nQuantomeno il sonno è stato rinvigorente!"
@@ -433,7 +432,7 @@ pilgrimage.2008.desc: "Pare che questo viaggio non mi giovi. Forse sono le terre
  #Sea: Encounter a massive rainbow
  pilgrimage.2030.t:0 "$pilgrimage_header$ Fenomeni Atmosferici"
 pilgrimage.2030.desc: "Attraversando il mare verso la nostra meta in [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], resto costantemente stupito dalla sua vastità e dai suoi capricci [ROOT.Char.Custom('GetWickedDangerous')].\n\nAppena superata una tempesta la notte scorsa, stamane ci accoglie un magnifico arcobaleno che si tende da orizzonte a orizzonte.\n\nSento alcuni degli altri pellegrini contemplarne la grandiosità, definendo la scena #EMP divina#! e #EMP un segno di [ROOT.Char.GetFaith.HighGodName]#!."
- pilgrimage.2030.a:0 ""#EMP Veramente...#!"
+ pilgrimage.2030.a:0 "#EMP Veramente...#!"
  pilgrimage.2030.a.flavor:0 "Il divino può aver creato la pioggia, ma gli arcobaleni sono, prima di tutto, un fenomeno meteorologico."
  pilgrimage.2030.b:0 "Sì! Sentite la presenza di [ROOT.Char.GetFaith.HighGodName]!"
  pilgrimage.2030.b.flavor:0 "Sicuramente qualcosa di così bello #EMP deve#! essere opera del divino!"
@@ -530,9 +529,9 @@ pilgrimage.2501.desc.sin.generous: "\n\nPer quanto miserevole appaia quell’inf
  pilgrimage.2501.c.arrogant:0 "Osi toccare i miei vestiti, straccion[beggar.Custom('DE_END_ADJ_IND_S_A')]!?"
  #Beggar wants another favor for their sister
  pilgrimage.2502.t:0 "$pilgrimage.2501.t$"
- pilgrimage.2502.desc.gave:0 ""Sì! Sì, grazie [ROOT.Char.Custom('LadyLordWomanMan')], grazie...a [ROOT.Char.GetFaith.HighGodName], vero? Quindi rendo grazie anche a [ROOT.Char.GetFaith.HighGodName]! Ma... oh [ROOT.Char.Custom('DE_END_PRO_S_N')] generos[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('LadyLordWomanMan')], potrei chiedervi un altro favore?"
- pilgrimage.2502.desc.refused:0 ""No! No [ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('LadyLordWomanMan')], vi prego di avere pietà!"
- pilgrimage.2502.desc.end:0 "Mia sorella è molto malata e ha un disperato bisogno di medicine! Il vostro denaro potrebbe salvarle la vita, per favore! Vi saremo molto grat[beggar.Custom('DE_END_NOU_S_G')]!""
+ pilgrimage.2502.desc.gave:0 "Sì! Sì, grazie [ROOT.Char.Custom('LadyLordWomanMan')], grazie...a [ROOT.Char.GetFaith.HighGodName], vero? Quindi rendo grazie anche a [ROOT.Char.GetFaith.HighGodName]! Ma... oh [ROOT.Char.Custom('DE_END_PRO_S_N')] generos[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('LadyLordWomanMan')], potrei chiedervi un altro favore?"
+ pilgrimage.2502.desc.refused:0 "No! No [ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('LadyLordWomanMan')], vi prego di avere pietà!"
+ pilgrimage.2502.desc.end:0 "Mia sorella è molto malata e ha un disperato bisogno di medicine! Il vostro denaro potrebbe salvarle la vita, per favore! Vi saremo molto grat[beggar.Custom('DE_END_NOU_S_G')]!"
  pilgrimage.2502.a:0 "Eh... sì. Va bene. Per le medicine."
  pilgrimage.2502.b: "No, non posso! Non è #EMP giusto#!!"
  pilgrimage.2502.c.gave: "No, ho fatto abbastanza!"
@@ -624,26 +623,30 @@ pilgrimage.3004.desc: "Mentre il mio seguito attraversa una cittadina noto una f
  pilgrimage.3301.a:0 "Posso farlo, almeno per questo viaggio."
  pilgrimage.3301.b:0 "Ma la mia tenda, le mie coperte? È troppo. Non sono pronto!"
  pilgrimage.3301.c:0 "Ah, ma è contrario a Ṛta che [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] viaggi nell'austerità."
+
+#The Wisdom of Goats
  pilgrimage.3302.t: "$pilgrimage_header$ Saggezza dalle capre"
  pilgrimage.3302.desc: "Quando entrai per la prima volta nei selvaggi [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] di [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier], pensai che il nostro viaggio attraverso il passo sarebbe stato indolore. Dopo ore di faticosa ascesa, mi ricordo che dovrei accogliere le prove del mio Yatra.\n\nMi fermo ad asciugarmi il sudore dalla fronte e resto colpito dalla vista di capre selvatiche in piedi sul fianco quasi verticale del [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')].\n\nUn[Select_CString(mountain_local.IsFemale,'a','')] [mountain_local.GetWomanMan] del luogo, avvizzit[Select_CString(mountain_local.IsFemale,'a','o')], si volge verso di me,\n\n«Quelle capre avide si arrampicano solo per leccare il sale.»"
  pilgrimage.3302.a: "Dovrebbero rinunciare alla loro ricerca di gratificazione!"
  pilgrimage.3302.b: "Se solo potessi essere così incrollabile nella mia ascesa..."
  pilgrimage.3302.c: "Quel sale dovrebbe essere mio!"
  pilgrimage.3302.c.flavor: "Raccogli il sale per commerciarlo."
+
+ #Kalama Sutta
  pilgrimage.3303.t: "$pilgrimage_header$ Sutta di [place_to_teach.GetBaronyNameExplicitlyNoTooltip]"
  pilgrimage.3303.desc: "Passando per [place_to_teach.GetBaronyNameExplicitlyNoTooltip], alcuni locali, guidati da [wisdom_seeker.GetName], si avvicinano, con i volti dipinti dalla confusione.\n\n«Venerabile [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsName], vi sono [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] che visitano [place_to_teach.GetBaronyNameExplicitlyNoTooltip]. Esaltano la virtù della loro dottrina, mentre verso le credenze altrui appaiono come [ROOT.Char.Custom('RegionalOnlyFerociousAnimalPlural')] e le fanno a pezzi. Poi, altri [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] vengono in visita e, a loro volta, disprezzano e vituperano la dottrina del gruppo precedente.\n\nSiamo consumati dall'incertezza, il dubbio bussa ogni giorno alla nostra porta. Quali di questi reverendi [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] hanno detto il vero e quali il falso?»"
  pilgrimage.3303.a: "Non seguite ragionamenti capziosi, ma la via di [ROOT.Char.GetFaith.HighGodName]!"
  pilgrimage.3303.b: "Delle sorgenti da cui bevete, quale vi dà forza?"
  pilgrimage.3303.b.flavor: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] troverà col tempo il giusto modo di pensare."
 
- ### Dharmic Pilgrimage Journey Events
- #Brahmacharya Challenged
- pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
- pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
- pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
- pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
- pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana."
- BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."
+### Dharmic Pilgrimage Journey Events
+#Brahmacharya Challenged
+pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
+pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
+pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
+pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
+pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana."
+BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."
  ###Hajj Arrival Event
  #Entering state of Ihram
  pilgrimage.3101.t:1 "Ihram"
@@ -662,7 +665,7 @@ pilgrimage.3004.desc: "Mentre il mio seguito attraversa una cittadina noto una f
  #The Mystic is there!
  pilgrimage.4002.desc:1 "Sono finalmente qui, anima e corpo, alla fine del mio grande pellegrinaggio. E chi avrei potuto incontrare in questo luogo se non ([2010_mystic.Custom('DE_ART_DEF_P_D')]) [2010_mystic.GetTitledFirstName|l], [Select_CString(2010_mystic.IsFemale,'cercatrice','cercatore')] della vera conoscenza del divino?\n\n"Guardati intorno, [ROOT.Char.GetFirstNameNoTooltip]!". [2010_mystic.Custom('DE_ART_IND_A')|U] dice. "Questa gloria non è forse quella che ti avevo esattamente descritto io?""
  pilgrimage.4002.a:0 "È proprio così, amic[2010_mystic.Custom('DE_END_PRO_S_N')] mi[2010_mystic.Custom('DE_END_PRO_S_N')]!"
- pilgrimage.4002.a_cynical:0 ""È... qualcosa di unico, questo è sicuro."
+ pilgrimage.4002.a_cynical:0 "È... qualcosa di unico, questo è sicuro."
  pilgrimage.4002.b:1 "Oh sì, mi piace quello che vedo."
  #Obligatory Pilgrimage Skip Destination Event
  pilgrimage.4010.t: "Niente di nuovo..."
@@ -890,7 +893,7 @@ pilgrimage.6770.desc.intro: "Mentre giro tra le bancarelle del mercato — evita
  pilgrimage.6770.desc.buddhist:0 "[SCOPE.Custom('BuddhismRelicName')|U]!"
  pilgrimage.6770.desc.judaism:0 "[SCOPE.Custom('JudaismRelicName')|U]!"
  pilgrimage.6770.desc.fallback:0 "[merchant_relic.GetName|U]!"
- pilgrimage.6770.desc.outro:0 "Trovata in questo santuario molto sacro, solo pochi giorni fa!""
+ pilgrimage.6770.desc.outro:0 "Trovata in questo santuario molto sacro, solo pochi giorni fa!"
  pilgrimage.6770.a:0 "Deve essere #EMP mia#!."
  pilgrimage.6770.b:0 ""Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che non vorrai vendere una reliquia per un 'avido' prezzo...""
  pilgrimage.6770.b.success:0 "[relic_merchant.GetShortUIName] riduce il prezzo"
@@ -912,7 +915,7 @@ pilgrimage.6770.desc.intro: "Mentre giro tra le bancarelle del mercato — evita
  generic_cp_discount: "Riduzione Contrattuale"
  #Meet local guru - trait flipping event
  pilgrimage.6790.t:0 "Un Risveglio Spirituale a [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]"
- pilgrimage.6790.desc:0 ""[spiritual_mentor.GetSheHe|U] è [spiritual_mentor.Custom('DE_ART_DEF_P_A')] miglior [spiritual_mentor.GetWomanMan] di tutta la terra. Trascorre ogni giorno a guardia del luogo sacro, ad ogni veglia ritorna al suo accampamento, alla periferia della città, e prega fino all'alba finchè la luna non scompare.\n\nFaccio un respiro profondo prima di avvicinarmi al falò dove [spiritual_mentor.GetSheHe] riposa, dopo aver sentito parlare a lungo dei suoi prodigi.\n\n"Ti stavo aspettando", dice [spiritual_mentor.GetSheHe] guardandomi direttamente negli occhi, "e lo stava facendo anche [spiritual_mentor.GetFaith.HighGodName]. Sei pront[ROOT.Char.Custom('DE_END_PRO_S_N')] ad abbandonare le tue abitudini [ROOT.Char.Custom('SinfulTrait')|l]?""
+ pilgrimage.6790.desc:0 "[spiritual_mentor.GetSheHe|U] è [spiritual_mentor.Custom('DE_ART_DEF_P_A')] miglior [spiritual_mentor.GetWomanMan] di tutta la terra. Trascorre ogni giorno a guardia del luogo sacro, ad ogni veglia ritorna al suo accampamento, alla periferia della città, e prega fino all'alba finchè la luna non scompare.\n\nFaccio un respiro profondo prima di avvicinarmi al falò dove [spiritual_mentor.GetSheHe] riposa, dopo aver sentito parlare a lungo dei suoi prodigi.\n\nTi stavo aspettando, dice [spiritual_mentor.GetSheHe] guardandomi direttamente negli occhi, e lo stava facendo anche [spiritual_mentor.GetFaith.HighGodName]. Sei pront[ROOT.Char.Custom('DE_END_PRO_S_N')] ad abbandonare le tue abitudini [ROOT.Char.Custom('SinfulTrait')|l]?"
  pilgrimage.6790.a:0 ""Lo sono. Lo #EMP sono#!""
  pilgrimage.6790.b:0 ""Sono più interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] ai tuoi insegnamenti""
  pilgrimage.6790.c:0 ""Non ho proprio bisogno di cambiare #EMP nulla#! di me stess[ROOT.Char.Custom('DE_END_PRO_S_N')].""

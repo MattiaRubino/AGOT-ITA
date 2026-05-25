@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
   TOTAL_MERIT: "Totale [merit|E]: $VALUE|V0$"
   MERIT_EFFECTS_BREAKDOWN: "#S Effetti:#![AddTextIf( Not( StringIsEmpty(GetMeritLevelEffects( Character.GetMeritLevel )) ), '\n' )][GetMeritLevelEffects( Character.GetMeritLevel )]"
 MERIT_PROGRESSBAR_MARKER_TOOLTIP: "#T [GetMeritLevelNameNoTooltip( ComplexBarItem.GetIndex )]#!\nRichiede [GetMeritLevelThreshold( ComplexBarItem.GetIndex )|V^] $game_concept_merit$\n\n[GetMeritModifierByLevel( ComplexBarItem.GetIndex ).GetDescWithBulletPointEffects][AddTextIf( GreaterThan_int32( ComplexBarItem.GetIndex, '(int32)1' ), '\n' )]$BULLET$[movement_power|E]: [movement_power_i] [Multiply_int32( ComplexBarItem.GetIndex, '(int32)10' )|+=0]\n[GetMaxAppointmentRankDescription( 'merit', ComplexBarItem.GetIndex )][Character.GetMeritLevelDescription( ComplexBarItem.GetIndex )]"

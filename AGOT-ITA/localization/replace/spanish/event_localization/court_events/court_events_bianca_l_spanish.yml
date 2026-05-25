@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  # Sus about a budding friend(?)ship
  court.3000.t:0 "Diffida dell'Amicizia"
  court.3000.desc.opening:0 "L'ansia mi stringe lo stomaco, mentre la gelosia mostra la sua brutta faccia. Sospiro e fisso la causa del mio tormento.\n\n"
@@ -55,11 +54,11 @@
 
  #Latrine disaster events
  court.3020.t:0 "Un Odore Disgustoso"
- court.3020.desc.opening:1 ""[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. Ve ne prego, una parola."\n\nIl mio [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], mi si avvicina durante una breve pausa mentre disbrigo gli affari di corte. Mi indica un punto meno affollato della stanza e io [latrine_chancellor.Custom('DE_PRO_POS_P_3P')] seguo lì.\n\n"Sono preoccupat[latrine_chancellor.Custom('DE_END_PRO_S_N')] per lo stato "
+ court.3020.desc.opening:1 "[ROOT.Char.Custom2('RelationToMeAddress', latrine_chancellor)|U]. Ve ne prego, una parola.\n\nIl mio [latrine_chancellor.GetCouncilTitle], [latrine_chancellor.GetTitledFirstName], mi si avvicina durante una breve pausa mentre disbrigo gli affari di corte. Mi indica un punto meno affollato della stanza e io [latrine_chancellor.Custom('DE_PRO_POS_P_3P')] seguo lì.\n\nSono preoccupat[latrine_chancellor.Custom('DE_END_PRO_S_N')] per lo stato "
  court.3020.desc.castle:0 "del castello di [capital.GetNameNoTooltip]."
  court.3020.desc.city:0 "del Palazzo Comunale di [capital.GetNameNoTooltip]."
  court.3020.desc.temple:0 "della Casa di Culto di [capital.GetNameNoTooltip]."
- court.3020.desc.ending:0 "Mentre tenevamo una riunione in una delle stanze, tutti abbiamo avvertito un... odore terribile! Doveva provenire dalle latrine del piano inferiore. Vi imploro di valutare il pagamento per i lavori di sistemazione delle parti trascurate dell'edificio"."
+ court.3020.desc.ending:0 "Mentre tenevamo una riunione in una delle stanze, tutti abbiamo avvertito un... odore terribile! Doveva provenire dalle latrine del piano inferiore. Vi imploro di valutare il pagamento per i lavori di sistemazione delle parti trascurate dell'edificio."
  court.3020.a:0 "Mi assicurerò che il problema venga risolto il prima possibile."
  court.3020.b:0 "Il mio [latrine_steward.GetCouncilTitle] è in grado di gestire il problema."
  court.3020.b.success:0 "[latrine_steward.GetFirstName] sa mercanteggiare bene e ti fa risparmiare del denaro."

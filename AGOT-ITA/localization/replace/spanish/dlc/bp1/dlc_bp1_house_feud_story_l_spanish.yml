@@ -218,7 +218,7 @@ bp1_house_feud.7000.desc: 1 "Dopo molte fatiche, abbiamo infine strappato [house
  bp1_house_feud.7002.t:0 "$story_cycle_house_feud_title$: Un Incontro con il Destino"
  bp1_house_feud.7002.opening:0 "[house_feud_attacker.GetTitledFirstName], l'insensibile tortura[house_feud_attacker.Custom('DE_END_NOU_S_GS_N')] [house_feud_victim.Custom('DE_PRO_PER_P_3P_A')] mi[house_feud_victim.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('house_feud_victim'))], [house_feud_victim.GetTitledFirstName], ha subito la stessa sorte per mano nostra!"
  bp1_house_feud.7002.opening_self:0 "[house_feud_attacker.GetTitledFirstName], [house_feud_attacker.Custom('DE_ART_DEF_P_A')] mi[house_feud_attacker.Custom('DE_END_PRO_S_N')] insensibile torturatore/trice, ha subito la stessa sorte per mano mia!"
- bp1_house_feud.7002.desc:1 "\n\nOra che la violazione originaria contro la Casata [ROOT.Char.GetHouse.GetBaseName] è stata vendicata, emerge la questione di quanto a lungo continueremo a far guerra alla famiglia [house_feud_attacker.GetHouse.GetBaseName]...""
+ bp1_house_feud.7002.desc:1 "\n\nOra che la violazione originaria contro la Casata [ROOT.Char.GetHouse.GetBaseName] è stata vendicata, emerge la questione di quanto a lungo continueremo a far guerra alla famiglia [house_feud_attacker.GetHouse.GetBaseName]..."
  bp1_house_feud.7002.a:0 "C'è ancora molto da fare."
  bp1_house_feud.7002.b:0 "Abbiamo vinto."
  bp1_house_feud.7003.t:0 "$story_cycle_house_feud_title$: Un Incontro Del Destino"
@@ -371,7 +371,7 @@ house_feud_raid_estate_flavor: "[ROOT.Var('house_feud_house_2_first_head').Char.
  house_feud_balance_even:0 "è #V in parità#! con"
  house_feud_balance_good:0 "sta #positive_value vincendo#! contro"
  house_feud_balance_excellent:1 "è molto #positive_value avanti#! rispetto a"
- house_feud_starts_flavor_tt:0 "Iniziata perché [house_feud_story.Custom('GetFamilyFeudShortFlavor')]""
+ house_feud_starts_flavor_tt:0 "Iniziata perché [house_feud_story.Custom('GetFamilyFeudShortFlavor')]"
  # Game Concept
  game_concept_house_feud:0 "Faida"
  game_concept_house_feuds: "Faide"

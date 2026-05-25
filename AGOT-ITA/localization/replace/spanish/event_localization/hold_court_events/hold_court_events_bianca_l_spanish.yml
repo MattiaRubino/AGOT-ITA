@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  # 
  hold_court.3000.t:0 "Una Festa In Tuo Nome"
  hold_court.3000.desc.opening:0 "[feast_vassal.Custom('DE_ART_DEF_P_D')] [feast_vassal.GetTitledFirstName] si avvicina con una postura più eretta del solito e con l’aria di chi è visibilmente desideros[feast_vassal.Custom('DE_END_PRO_S_N')] di parlare.\n\n"
@@ -20,10 +19,10 @@ hold_court.3000.desc.dislikes: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')].
  hold_court.3001.b:0 "Un'altra coppa in suo nome!"
 
  hold_court.3010.t:0 "Un Insolito Predicatore"
- hold_court.3010.desc.opening:0 ""[ROOT.Char.Custom2('RelationToMeAddress', religious_vassal)|U]", la voce [religious_vassal.Custom('REL_TO_ME3')][religious_vassal.GetTitledFirstNamePossessive] è severa. "Chiedo di avviare un'indagine su un famigerato predicatore che si trova a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Vedete, questo predicatore è... be'... "
+ hold_court.3010.desc.opening:0 "[ROOT.Char.Custom2('RelationToMeAddress', religious_vassal)|U], la voce [religious_vassal.Custom('REL_TO_ME3')][religious_vassal.GetTitledFirstNamePossessive] è severa. Chiedo di avviare un'indagine su un famigerato predicatore che si trova a [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]. Vedete, questo predicatore è... be'... "
  hold_court.3010.desc.preacher_gender:0 "È un[unconventional_preacher.Custom('DE_PRO_POS_P_2P')] #EMP [unconventional_preacher.GetWomanMan]!#! "
  #hold_court.3010.desc.preacher_marriage: "The problem with this preacher is that [unconventional_preacher.GetSheHe] married to someone else than [ROOT.Char.GetFaith.HighGodName]!" 
- hold_court.3010.desc.closing:0 "Questa cosa non è in accordo con la nostra fede!"\n\n[tolerant_vassal.Custom('DE_ART_DEF_P_D')] [tolerant_vassal.GetTitledFirstName] interviene nel discorso di [religious_vassal.GetFirstNamePossessiveNoTooltip] alzando una mano e facendo un passo avanti. "[ROOT.Char.Custom2('RelationToMeAddress', tolerant_vassal)|U], sebbene l'affermazione di [religious_vassal.GetFirstNameNoTooltip] sia corretta, quello è #EMP l'unico#! difetto di quest[unconventional_preacher.Custom('DE_END_PRO_S_N')] predica[unconventional_preacher.Custom('DE_END_NOU_S_GS_N')]. Ogni cosa che [unconventional_preacher.Custom('DE_ART_IND_A')] insegna è in accordo con la nostra fede.""
+ hold_court.3010.desc.closing:0 "Questa cosa non è in accordo con la nostra fede!\n\n[tolerant_vassal.Custom('DE_ART_DEF_P_D')] [tolerant_vassal.GetTitledFirstName] interviene nel discorso di [religious_vassal.GetFirstNamePossessiveNoTooltip] alzando una mano e facendo un passo avanti. [ROOT.Char.Custom2('RelationToMeAddress', tolerant_vassal)|U], sebbene l'affermazione di [religious_vassal.GetFirstNameNoTooltip] sia corretta, quello è #EMP l'unico#! difetto di quest[unconventional_preacher.Custom('DE_END_PRO_S_N')] predica[unconventional_preacher.Custom('DE_END_NOU_S_GS_N')]. Ogni cosa che [unconventional_preacher.Custom('DE_ART_IND_A')] insegna è in accordo con la nostra fede."
  hold_court.3010.a:1 "[Select_CString(unconventional_preacher.IsFemale,'Questa predicatrice','Questo predicatore')] deve unirsi alla mia corte!"
  hold_court.3010.b:1 "Fate sparire [Select_CString(unconventional_preacher.IsFemale,'questa predicatrice','questo predicatore')] dalla mia vista!"
  hold_court.3010.c:1 "Desidero impiegare quest[unconventional_preacher.Custom('DE_END_PRO_S_N')] predica[unconventional_preacher.Custom('DE_END_NOU_S_GS_N')] come mi[unconventional_preacher.Custom('DE_END_PRO_S_N')] $high_almoner_court_position$."
@@ -57,7 +56,7 @@ hold_court.3020.desc: 0 "Un contadino avanza portando una petizione. «[ROOT.Cha
  generic_cp_discount_tt: "Dare un impiego per questa  [court_position|E] costerà il #P 50%#! in meno"
 
  hold_court.3060.t:0 "Affrontare la Corruzione"
- hold_court.3060.desc.opening:0 "([county_petitioner.Custom('DE_ART_DEF_P_D')]) mi[county_petitioner.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('county_petitioner'))], [county_petitioner.Custom('DE_ART_DEF_P_A')] [county_petitioner.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('county_petitioner'))] prima di farsi avanti per esporre la sua richiesta. "[ROOT.Char.Custom2('RelationToMeAddress', county_petitioner)|U], necessito del vostro aiuto per combattere il problema "
+ hold_court.3060.desc.opening:0 "([county_petitioner.Custom('DE_ART_DEF_P_D')]) mi[county_petitioner.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('county_petitioner'))], [county_petitioner.Custom('DE_ART_DEF_P_A')] [county_petitioner.GetTitledFirstName], [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('county_petitioner'))] prima di farsi avanti per esporre la sua richiesta. [ROOT.Char.Custom2('RelationToMeAddress', county_petitioner)|U], necessito del vostro aiuto per combattere il problema "
  hold_court.3060.desc.thieves:0 "dei ladri che stanno derubando la gente di [corrupt_county.GetNameNoTier]!"
  hold_court.3060.desc.bandits:0 " dei banditi che tormentano il povero popolo di [corrupt_county.GetNameNoTier]!"
  hold_court.3060.desc.tax:0 "della riscossione delle tasse che non sta funzionando in [corrupt_county.GetNameNoTier]!"

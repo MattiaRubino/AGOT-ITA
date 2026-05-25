@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  #The Peak of Elegance
  court_events.3000.t: "Il Massimo dell'Eleganza"
  court_events.3000.desc: "[chancellor.Custom2('MyCharacterIntroduction',ROOT.Char)|U] e [steward.Custom2('MyCharacterIntroduction',ROOT.Char)] sembrano essere di buon umore oggi.\n\n"Si unisca a noi, [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]!" esclama [chancellor.GetFirstNameNoTooltip]. "Stavamo parlando di qualcosa che potrebbe interessarvi. I vostri investimenti per promuovere e mantenere la moda [ROOT.Char.GetCulture.GetNameNoTooltip] come il vero culmine dell'eleganza, stanno dando i loro frutti!\n\n"I sovrani stranieri la ammirano e la invidiano, ma [steward.GetFirstNameNoTooltip] ed io non riusciamo a trovare un accordo sul modo migliore per capitalizzare la vostra reputazione."
@@ -17,9 +16,9 @@ court_events.3010.desc: "«Ti supplico, [ROOT.Char.Custom2('RelationToMeAddress'
  court_events.3010.c.tt: "Quando la tua zuppa ha sempre lo stesso sapore e aspetto ogni giorno, è molto più difficile che qualcuno possa avvelenarla senza essere notato!"
  # What's in a Bed?
  court_events.3020.t: "Cosa C'è in un Letto?"
- court_events.3020.desc: "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha un'aria particolarmente [Select_CString(courtier.IsFemale,'negativa','negativo')] oggi.\n\n"Viviamo come animali in questa corte! O peggio, come #EMP contadini!#! Le stanze sono affollate, intere famiglie si ammucchiano nello stesso letto, vasi da notte scartati ovunque; ci rotoliamo e ci crogioliamo nella nostra sporcizia e nel nostro odore..."
- court_events.3020.desc_physician: "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] interviene: "Anche i miasmi contribuiscono alle epidemie!"
- court_events.3020.desc_architect: "\n\n""Ci deve essere qualcosa che possiamo fare" interviene [architect.Custom2('MyCharacterIntroduction', ROOT.Char)]."
+ court_events.3020.desc: "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha un'aria particolarmente [Select_CString(courtier.IsFemale,'negativa','negativo')] oggi.\n\nViviamo come animali in questa corte! O peggio, come #EMP contadini!#! Le stanze sono affollate, intere famiglie si ammucchiano nello stesso letto, vasi da notte scartati ovunque; ci rotoliamo e ci crogioliamo nella nostra sporcizia e nel nostro odore..."
+ court_events.3020.desc_physician: "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] interviene: Anche i miasmi contribuiscono alle epidemie!"
+ court_events.3020.desc_architect: "\n\nCi deve essere qualcosa che possiamo fare interviene [architect.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  court_events.3020.a: "Meritiamo di meglio."
  court_events.3020.b: "Serve un esperto: [expert.GetFirstNameNoTooltip]!"
  court_events.3020.c: "[architect.GetFirstNameNoTooltip] e [physician.GetFirstNameNoTooltip], trovate una soluzione!"
@@ -28,7 +27,7 @@ court_events.3010.desc: "«Ti supplico, [ROOT.Char.Custom2('RelationToMeAddress'
  cheaper_lodgings_for_15_years_1: "Gli $court_lodging_standards_middling$ costano il #P 25%#! in meno per 15 anni"
  #It Came to Me in a Dream
  court_events.3030.t: "Mi è Apparso in Sogno"
- court_events.3030.desc: "" Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! Permettetemi di esprimere tutta la mia gratitudine per la vostra generosità, portandovi buone notizie! " esclama [inspiration_owner.GetTitledFirstName] mentre si affretta verso di me.\n\n"Mi sono godut[inspiration_owner.Custom('DE_END_PRO_S_N')] appieno i quartieri che mi avete assegnato. Sono così spaziosi che posso camminare mentre penso e lavorare indisturbat[inspiration_owner.Custom('DE_END_PRO_S_N')] a mio piacimento; la vista sul giardino è incredibilmente ispiratrice; e il letto — oh, il letto! — è così comodo che mi sembra di dormire su una nuvola! Difatti, un'ispirazione divina per migliorare il vostro [inspiration_owner.Custom('GetInspirationTypeObject')] mi è venuta proprio mentre dormivo. Devo tornare subito al lavoro!"
+ court_events.3030.desc: " Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]! Permettetemi di esprimere tutta la mia gratitudine per la vostra generosità, portandovi buone notizie!  esclama [inspiration_owner.GetTitledFirstName] mentre si affretta verso di me.\n\nMi sono godut[inspiration_owner.Custom('DE_END_PRO_S_N')] appieno i quartieri che mi avete assegnato. Sono così spaziosi che posso camminare mentre penso e lavorare indisturbat[inspiration_owner.Custom('DE_END_PRO_S_N')] a mio piacimento; la vista sul giardino è incredibilmente ispiratrice; e il letto — oh, il letto! — è così comodo che mi sembra di dormire su una nuvola! Difatti, un'ispirazione divina per migliorare il vostro [inspiration_owner.Custom('GetInspirationTypeObject')] mi è venuta proprio mentre dormivo. Devo tornare subito al lavoro!"
  court_events.3030.a: "Che ne dici di un letto ancora migliore?"
  court_events.3030.b: "Sono davvero liet[ROOT.Char.Custom('DE_END_PRO_S_N')] di sentirlo!"
  #Empty Court
@@ -58,7 +57,7 @@ court_events.3060.desc: "Dovunque mi volti, scorgo persone con i miei colori: co
  court_events.3060.b: "Mettiamoli a lavorare!"
  # Rags and not Riches?
  court_events.3070.t: "Stracci e non Ricchezze?"
-court_events.3070.desc: "Durante i suoi viaggi, [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName] si ritrova in visita alla mia corte. Finora, non è rimast[Select_CString(guest.IsFemale,'a','o')] impressionat[Select_CString(guest.IsFemale,'a','o')].\n\n«Ah, capisco, questa sarebbe “moda" da queste parti… Perdonami, [ROOT.Char.Custom('FormOfAddressForLiege')], ma fatico a distinguerti dai tuoi servitori, tanto è modesto il tuo abito! Forse potrei darti qualche consiglio, se lo consenti?»"
+court_events.3070.desc: "Durante i suoi viaggi, [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName] si ritrova in visita alla mia corte. Finora, non è rimast[Select_CString(guest.IsFemale,'a','o')] impressionat[Select_CString(guest.IsFemale,'a','o')].\n\n«Ah, capisco, questa sarebbe “moda da queste parti… Perdonami, [ROOT.Char.Custom('FormOfAddressForLiege')], ma fatico a distinguerti dai tuoi servitori, tanto è modesto il tuo abito! Forse potrei darti qualche consiglio, se lo consenti?»"
  court_events.3070.a: "Vediamo cosa avete da offrirmi."
  court_events.3070.b: "Ho abbracciato l'umiltà. Dovreste provarlo anche voi."
  court_events.3070.c: "#EMP Come osi?!#!"
@@ -86,7 +85,7 @@ court_events.3070.desc: "Durante i suoi viaggi, [guest.Custom('IT_NAM_COL3')][gu
  court_events.3092.a: "Te lo meriti, [Select_CString(child.IsFemale,'figlia mia','figlio mio')]!"
  # A Language for the X's Court
  court_events.3100.t: "Una Lingua per la Corte di un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNamePossessiveNoTooltip|U]"
- court_events.3100.desc: ""[Select_CString(ROOT.Char.IsFemale,'Mia','Mio')] temibile [ROOT.Char.GetTitleAsNameNoTooltip], il vostro potere e la vostra gloria sono incontestabili, ma i vostri cortigiani non si sentono ascoltati perché non parlate la loro stessa lingua", inizia nervosamente [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n« Forse imparare la lingua [ROOT.Char.GetCourtLanguage.GetName|l] vi avvicinerà a loro? Posso offrirvi il mio umile aiuto, se lo desiderate.""
+ court_events.3100.desc: "[Select_CString(ROOT.Char.IsFemale,'Mia','Mio')] temibile [ROOT.Char.GetTitleAsNameNoTooltip], il vostro potere e la vostra gloria sono incontestabili, ma i vostri cortigiani non si sentono ascoltati perché non parlate la loro stessa lingua, inizia nervosamente [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n« Forse imparare la lingua [ROOT.Char.GetCourtLanguage.GetName|l] vi avvicinerà a loro? Posso offrirvi il mio umile aiuto, se lo desiderate."
  court_events.3100.a: "Forse dovrei cominciare a studiare."
  court_events.3100.b: "Istruitemi, [linguist.GetFirstNameNoTooltip]!"
  court_events.3100.c: "Non ho tempo per queste sciocchezze."

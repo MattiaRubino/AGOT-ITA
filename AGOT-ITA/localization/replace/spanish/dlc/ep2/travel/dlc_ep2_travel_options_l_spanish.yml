@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  
  travel_walking_modifier:0 "Camminare"
  travel_walking_modifier_desc:0 "Sei senza cavalcature e stai raggiungendo la tua destinazione a piedi"
@@ -51,7 +50,7 @@ desert_warrior_recruited.tt: 0 "Una guida con il tratto [GetTrait('desert_warrio
  court_physician_option_tt: "Devi impiegare un [GetCourtPositionType('court_physician_court_position').GetName] idoneo al viaggio"
 
  cultural_ambassador_option:0 "Assumi Ambasciatore Culturale"
- cultural_ambassador_option_desc:0 ""Assumi qualcuno che funga da Ambasciatore Culturale durante il tuo viaggio per diffondere informazioni sulla tua cultura in tutte le baronie che attraversi."
+ cultural_ambassador_option_desc:0 "Assumi qualcuno che funga da Ambasciatore Culturale durante il tuo viaggio per diffondere informazioni sulla tua cultura in tutte le baronie che attraversi."
  cultural_ambassador_recruited.t:0 "Assunto Ambasciatore Culturale"
 cultural_ambassador_recruited.tt: 0 "Un Ambasciatore Culturale con alta [diplomacy|E] sarà reclutato nel tuo seguito $temporary_travel_character_limit_tt$"
 
@@ -140,7 +139,7 @@ adventurers_make_local_deals_option.tt: "Attraversando una [barony|E], ottieni i
 ep3_travel_option_events.0001.person_haggler_camp_officer: "«Sono [local_character.GetFullName], [Select_CString(local_character.IsFemale,'la carceriera','il carceriere')] — lavoro nelle prigioni di [location.GetNameNoTooltip], dove mi occupo dei prigionieri. Contratto per la loro libertà, poi li nutro, li pulisco, li vesto e li trasporto ogni volta che si paga il riscatto.»\n\n"
  ep3_travel_option_events.0001.camp_cook_camp_officer: ""Salve [ROOT.Char.Custom('RomanticComplimentNoun')], Avete fame? Io sono un cuoco, lavoravo nella taverna locale. Non credereste mai a quello che posso fare con [local_character.Custom('RegionalRootVegetablePlural')] e [local_character.Custom('GetRandomRegionalSmallGame')]! Ma quanto mi piacerebbe lavorare con ingredienti più esotici..."\n\n"
  ep3_travel_option_events.0001.master_bard_camp_officer: ""Saluti, il mio nome è il [local_character.Custom('ComplimentAdjective')] [local_character.GetFullName]! Suono e canto nelle taverne locali, ma la voglia di viaggiare mi riempie il cuore! Ho bisogno di fuggire da questo posto e di andare dove la mia musica possa essere udita dal mondo!"\n\n"
-ep3_travel_option_events.0001.stooge_camp_officer: "«Sono stufo di farmi prendere a calci come un cane! Qui nessuno mi rispetta, tutti ridono appena si pronuncia “[local_character.GetFullName]", sciocchi! [local_character.Custom2('InsultNoun', ROOT.Char)|U]s! [ROOT.Char.Custom2('InsultNoun', ROOT.Char)|U]s! #EMP Gaaaah, mi infurio — devo andarmene!#!»\n\n"
+ep3_travel_option_events.0001.stooge_camp_officer: "«Sono stufo di farmi prendere a calci come un cane! Qui nessuno mi rispetta, tutti ridono appena si pronuncia “[local_character.GetFullName], sciocchi! [local_character.Custom2('InsultNoun', ROOT.Char)|U]s! [ROOT.Char.Custom2('InsultNoun', ROOT.Char)|U]s! #EMP Gaaaah, mi infurio — devo andarmene!#!»\n\n"
  ep3_travel_option_events.0001.master_of_arms_camp_officer: ""Attenzione! Io sono [local_character.GetFullName], il capitano della guardia della guarnigione di [location.GetNameNoTooltip]. Preparo i giovani guerrieri e organizzo i turni delle guardie. Tutti si affidano a me per sapere cosa fare."\n\n"
  ep3_travel_option_events.0001.light_cavalry_captain_camp_officer: ""[local_character.GetFaith.HighGodName|U] sia con voi, io sono [local_character.GetFullName]. Sono [Select_CString(local_character.IsFemale,'una esploratrice','un esploratore')] e [Select_CString(local_character.IsFemale,'una messaggera','un messaggero')] — il mio cuore appartiene alla natura selvaggia, lontano dal rumore delle città e dei villaggi."\n\n"
  ep3_travel_option_events.0001.camelry_captain_camp_officer: ""I cammelli sono la mia vita. Li ho cavalcati in battaglia innumerevoli volte, e nessuno ha potuto opporsi ai 'Cammelli Conquistatori di [local_character.GetFullName]'. Desidero vedere di nuovo il mondo, desidero tornare a scoprirlo ancora!"\n\n"

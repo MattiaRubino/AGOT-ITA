@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  
  travel_events_bp3.1.t: "Le Stagioni del Cambiamento" #questo è il dlc Wandering Nobles
 travel_events_bp3.1.desc: "Mentre ci prepariamo a partire al mattino, vedo il/la mio/a [ROOT.Char.Custom2('RelationToMeShort', friendly_character)] [friendly_character.GetFirstName] in piedi, sol[Select_CString(friendly_character.IsFemale,'a','o')] fuori dal campo. M’avvicino per parlargli/le e noto un cambio nel vento.\n\n"
@@ -41,14 +40,14 @@ travel_events_bp3.10.desc.pilgrims: "Sembrano un gruppo di pellegrini smarriti, 
  holy_knights_travel_modifier_desc: "Questo seguito è protetto da un gruppo di valorosi cavalieri."
 
  travel_events_bp3.15.t: "Le Canzoni di [liege.GetTitledFirstNameNoTooltip]"
- travel_events_bp3.15.desc: "Mentre attraversiamo la periferia di [location.GetName], improvvisamente vediamo un[bard_character.Custom('DE_PRO_POS_P_2P')] [bard_character.GetWomanMan] gioviale in lontananza. Salta, balla, canta per conto suo, sembra proprio [Select_CString(bard_character.IsFemale,'una tipa','un tipo')] interessante.\n\n"Vi andrebbe di ascoltare qualche mia canzone su "
+ travel_events_bp3.15.desc: "Mentre attraversiamo la periferia di [location.GetName], improvvisamente vediamo un[bard_character.Custom('DE_PRO_POS_P_2P')] [bard_character.GetWomanMan] gioviale in lontananza. Salta, balla, canta per conto suo, sembra proprio [Select_CString(bard_character.IsFemale,'una tipa','un tipo')] interessante.\n\nVi andrebbe di ascoltare qualche mia canzone su "
  travel_events_bp3.15.desc.murderer: "#emp '[liege.GetFirstName], la rana tirannica [liege.GetCulture.GetName]'#!"
  travel_events_bp3.15.desc.lustful.man: "#emp '[liege.GetFirstName], il puttaniere di [liege.GetPrimaryTitle.GetName]#!'"
  travel_events_bp3.15.desc.lustful.woman: "#emp '[liege.GetFirstName], la prostituta di [liege.GetPrimaryTitle.GetName]#!'"
  travel_events_bp3.15.desc.gluttonous: "#emp '[liege.GetFirstName] [Select_CString( liege.IsFemale, 'la scrofa', 'il maiale' )] della corte [liege.GetCulture.GetName]'#!"
  travel_events_bp3.15.desc.fool: "#emp '[liege.GetFirstName], [Select_CString( liege.IsFemale, 'la sempliciotta', 'il sempliciotto' )] di [liege.GetPrimaryTitle.GetName]'#!"
  travel_events_bp3.15.desc.craven: "#emp '[liege.GetFirstName], [liege.Custom('IT_NAM_COL3')][liege.GetTitleAsNameNoTooltip] debole di cuore'#!"
- travel_events_bp3.15.desc.outro: "?!" urla verso di noi non appena ci avviciniamo a distanza di sicurezza. Prima che potessimo rispondere, [bard_character.Custom('DE_ART_IND_A')] inizia a cantare un'allegra melodia sulle depravazioni [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstNameNoTooltip]."
+ travel_events_bp3.15.desc.outro: "?! urla verso di noi non appena ci avviciniamo a distanza di sicurezza. Prima che potessimo rispondere, [bard_character.Custom('DE_ART_IND_A')] inizia a cantare un'allegra melodia sulle depravazioni [liege.Custom('IT_NAM_COL2')][liege.GetTitledFirstNameNoTooltip]."
  travel_events_bp3.15.a: ""Dimmi di più su [liege.GetTitleAsNameNoTooltip].""
  travel_events_bp3.15.a.tt: "Puoi apprendere uno dei seguenti [secrets|E] di [liege.GetFirstName]"
  travel_events_bp3.15.b: ""Sembri un[bard_character.Custom('DE_PRO_POS_P_2P')] [bard_character.GetWomanMan] interessante, ti piacerebbe unirti a me?""
@@ -102,7 +101,7 @@ travel_events_bp3.35.outro.martial_gender: "e commenta con un sorriso ironico: �
  knight_teacher_modifier_desc: "Un vecchio cavaliere che ha passato la vita a combattere e a insegnare agli altri.\n\nMigliora l'[education|E] del [ward|E]"
 
  travel_events_bp3.40.t: "Il Torneo Marziale"
- travel_events_bp3.40.desc: "Mentre attraversiamo il mercato di [ROOT.Char.GetCurrentLocation.GetName] sentiamo un forte grido e ci imbattiamo in una rissa in corso fra due [soldier_character.GetWomenMen], osservata attentamente da un gruppo di persone.\n\nLa folla esulta fragorosamente quando uno di loro viene sbalzato da terra, piantando il viso solennemente nella polvere, concludendo così l'incontro.\n\n""Chi è il prossimo?!" urla l[soldier_character.Custom('DE_PRO_PER_S_3P_N')][soldier_character.GetWomanMan] rivolgendosi alla folla, e i suoi occhi si posano sul nostro gruppo."
+ travel_events_bp3.40.desc: "Mentre attraversiamo il mercato di [ROOT.Char.GetCurrentLocation.GetName] sentiamo un forte grido e ci imbattiamo in una rissa in corso fra due [soldier_character.GetWomenMen], osservata attentamente da un gruppo di persone.\n\nLa folla esulta fragorosamente quando uno di loro viene sbalzato da terra, piantando il viso solennemente nella polvere, concludendo così l'incontro.\n\nChi è il prossimo?! urla l[soldier_character.Custom('DE_PRO_PER_S_3P_N')][soldier_character.GetWomanMan] rivolgendosi alla folla, e i suoi occhi si posano sul nostro gruppo."
  travel_events_bp3.40.outro.challenger: "Al mio fianco, [challenger_character.GetTitledFirstName] sbuffa in risposta alla sfida."
  travel_events_bp3.40.fallback: "Sul suo viso si apre un ghigno maligno mentre ci guarda."
  travel_events_bp3.40.a: ""Lo farò io.""
@@ -263,10 +262,10 @@ travel_events_bp3.105.desc.physician: "[lifestyle_character.GetSheHe|U] spesso a
  bp3_skill_travel_skill_learn_fail: "Non ci riesco proprio"
 
  travel_events_bp3.110.t: "A cuore aperto"
- travel_events_bp3.110.desc.intro: "Molto dopo che la maggior parte è andata a dormire, sono ancora sedut[Select_CString(ROOT.Char.IsFemale,'a','o')] accanto al fuoco. "Che c’è che non va?" chiede [friend_character.GetFirstName] sedendosi accanto a me, con un’espressione preoccupata sul suo volto.\n\nAll’inizio non so cosa dire, ma appena comincio a parlare tutto esce naturalmente: lo stress, le preoccupazioni, i problemi quotidiani. "Continuo a pensare a "
+ travel_events_bp3.110.desc.intro: "Molto dopo che la maggior parte è andata a dormire, sono ancora sedut[Select_CString(ROOT.Char.IsFemale,'a','o')] accanto al fuoco. Che c’è che non va? chiede [friend_character.GetFirstName] sedendosi accanto a me, con un’espressione preoccupata sul suo volto.\n\nAll’inizio non so cosa dire, ma appena comincio a parlare tutto esce naturalmente: lo stress, le preoccupazioni, i problemi quotidiani. Continuo a pensare a "
  travel_events_bp3.110.desc.negative_memory: "quando [negative_memory.GetDescription]. "
  travel_events_bp3.110.desc.fallback: "tutte le decisioni prese ultimamente. "
- travel_events_bp3.110.desc.outro: "Non posso fare a meno di chiedermi se avrei dovuto agire diversamente.""
+ travel_events_bp3.110.desc.outro: "Non posso fare a meno di chiedermi se avrei dovuto agire diversamente."
  travel_events_bp3.110.a: ""E tu, invece?""
  travel_events_bp3.110.a.flavor: "Forse ascoltare i suoi problemi alleggerirà il mio fardello?"
  travel_events_bp3.110.b: ""Non crederesti a quello che devo affrontare..."" 

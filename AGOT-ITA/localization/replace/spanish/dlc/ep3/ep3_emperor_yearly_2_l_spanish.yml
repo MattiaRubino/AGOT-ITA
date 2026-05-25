@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  # X Reconquered
  ep3_emperor_yearly.2000.t: "La riconquista [county.Custom('IT_COU_COL')][county.GetNameNoTierNoTooltip]"
  ep3_emperor_yearly.2000.desc_intro: "Le splendenti armate dei Romani marciano di nuovo nelle terre che i nostri antenati occupavano. E tutta la gloria per averlo reso possibile è mia."
@@ -81,8 +80,8 @@
  ep3_emperor_yearly.2050.a: "Avanti, verso la gloria eterna!"
  # The Queen of Cities
  ep3_emperor_yearly.2060.t: "La regina delle città"
- ep3_emperor_yearly.2060.desc: "Il viso di [2060_councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] esprime della speranza, mentre mi si avvicina.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], come certamente saprete, l'anniversario della fondazione della nostra gloriosa regina delle città, [queen_city.GetNameNoTier], cade l'11 maggio, molto prima di quanto si possa pensare! La popolazione mormora e si lamenta perché da anni non viene festeggiato.\n\n"Dovremmo organizzare dei festeggiamenti degni della grande città di Costantino?""
- ep3_emperor_yearly.2060.desc_century: "[2060_councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina a grandi passi.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], come certamente saprete, l'anniversario della fondazione della nostra gloriosa regina delle città, [queen_city.GetNameNoTier], segnerà il #EMP centenario#! dal remoto 324 d.C., quando Costantino il Grande la scelse come sua nuova Roma.\n\n"È l'occasione perfetta per una grande festa come nessun'altra! La gente vi amerà e la storia ricorderà il vostro contributo.""
+ ep3_emperor_yearly.2060.desc: "Il viso di [2060_councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] esprime della speranza, mentre mi si avvicina.\n\nMi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], come certamente saprete, l'anniversario della fondazione della nostra gloriosa regina delle città, [queen_city.GetNameNoTier], cade l'11 maggio, molto prima di quanto si possa pensare! La popolazione mormora e si lamenta perché da anni non viene festeggiato.\n\nDovremmo organizzare dei festeggiamenti degni della grande città di Costantino?"
+ ep3_emperor_yearly.2060.desc_century: "[2060_councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] si avvicina a grandi passi.\n\nMi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], come certamente saprete, l'anniversario della fondazione della nostra gloriosa regina delle città, [queen_city.GetNameNoTier], segnerà il #EMP centenario#! dal remoto 324 d.C., quando Costantino il Grande la scelse come sua nuova Roma.\n\nÈ l'occasione perfetta per una grande festa come nessun'altra! La gente vi amerà e la storia ricorderà il vostro contributo."
  ep3_emperor_yearly.2060.a: "Solo la più grande delle celebrazioni sarà accettabile!"
  ep3_emperor_yearly.2060.b: "Allora sarà opportuno celebrare una grande festa!"
  ep3_emperor_yearly.2060.c: "I festeggiamenti dovranno aspettare."
@@ -103,7 +102,7 @@
  # A School for the People
  ep3_emperor_yearly.2080.t: "Una scuola per il popolo"
 ep3_emperor_yearly.2080.desc: "[school_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] prende la parola, scegliendo le sue parole con misurata grazia,\n\n«Il popolo di [school_county.GetNameNoTier] ha notato gli investimenti riversati nel tuo recente programma edilizio. Sebbene tutti siano, com'è ovvio, orgogliosi della crescita della nostra amata città, alcuni interventi sono destinati a risuonare di più presso i tuoi sudditi, alti e bassi.»"
- ep3_emperor_yearly.2080.desc_byz: "\n\nVi consiglierei di costruire una scuola finanziata dall'Impero gestita da alcuni stimati [Glossary( 'grammatikos', 'GRAMMATIKOS_GLOSS' )]; più le persone comuni saranno istruite, più è probabile che si uniscano alle file dell'amministrazione imperiale. Una manna per noi e un miglioramento della condizione sociale per loro!""
+ ep3_emperor_yearly.2080.desc_byz: "\n\nVi consiglierei di costruire una scuola finanziata dall'Impero gestita da alcuni stimati [Glossary( 'grammatikos', 'GRAMMATIKOS_GLOSS' )]; più le persone comuni saranno istruite, più è probabile che si uniscano alle file dell'amministrazione imperiale. Una manna per noi e un miglioramento della condizione sociale per loro!"
  ep3_emperor_yearly.2080.desc_gen: "\n\nPer esempio, finanziando una scuola dove persone di ogni estrazione sociale possano studiare per entrare nell'amministrazione imperiale!"
  ep3_emperor_yearly.2080.a: "Una burocrazia bene oliata ha sempre bisogno di nuovi funzionari."
  ep3_emperor_yearly.2080.a.tt: "Raccoglierai i frutti quando la costruzione della scuola sarà terminata, tra 5 anni."
@@ -144,7 +143,7 @@ ep3_emperor_yearly.2100.desc: "[chancellor.Custom2('MyCharacterIntroduction', RO
  ep3_emperor_yearly.2110.c: "Sono i [merchant.GetCulture.GetCollectiveNounNoTooltip] che dovrebbero imparare le usanze della Capitale."
  # Foreign Pretentiousness
  ep3_emperor_yearly.2120.t: "Pretesa straniera"
- ep3_emperor_yearly.2120.desc: "[complainer.Custom('IT_NAM_COL3')|U][complainer.GetTitledFirstName] sembra piuttosto infastidit[complainer.Custom('DE_END_PRO_S_N')] da qualcosa.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|U], la corte è in fermento a causa dell'indignazione nei confronti di [the_byz.Custom2('YourCharacterIntroduction', ROOT.Char)]! Il suo comportamento arrogante è sotto gli occhi di tutti e, dal suo arrivo, ha introdotto a corte usanze particolarmente #EMP lussuose#!: cena con forchette d'oro, rifiuta di lavarsi insieme a noi, profuma la sua stanza con erbe sospette e indossa abiti di seta peccaminosamente morbidi!\n\n"Dovete porre fine a questa follia, prima che la sua corruzione morale si diffonda!""
+ ep3_emperor_yearly.2120.desc: "[complainer.Custom('IT_NAM_COL3')|U][complainer.GetTitledFirstName] sembra piuttosto infastidit[complainer.Custom('DE_END_PRO_S_N')] da qualcosa.\n\nMi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip|U], la corte è in fermento a causa dell'indignazione nei confronti di [the_byz.Custom2('YourCharacterIntroduction', ROOT.Char)]! Il suo comportamento arrogante è sotto gli occhi di tutti e, dal suo arrivo, ha introdotto a corte usanze particolarmente #EMP lussuose#!: cena con forchette d'oro, rifiuta di lavarsi insieme a noi, profuma la sua stanza con erbe sospette e indossa abiti di seta peccaminosamente morbidi!\n\nDovete porre fine a questa follia, prima che la sua corruzione morale si diffonda!"
  ep3_emperor_yearly.2120.a: "Dovremmo tutti prendere esempio da [the_byz.GetFirstNameNoTooltip]!"
  ep3_emperor_yearly.2120.b: "Non tollereremo queste assurdità straniere."
  ep3_emperor_yearly.2120.c: "Sinceramente? Di tutto ciò non importa a nessuno."
@@ -233,7 +232,7 @@ ep3_emperor_yearly.2170.desc: "[our_county.GetNameNoTier] è una zona difficile,
  # The Emperor's Gold
  ep3_emperor_yearly.2200.t: "L'oro dell'Imperatore"
  ep3_emperor_yearly.2200.desc: "Se mai c'è stato qualcuno assolutamente indegno di sedere sul trono imperiale, questi è senz'altro [liege.GetFirstName].\n\nTutte le nostre tasse finiscono nelle tasche di [Select_CString(liege.IsFemale,'quella parassita','quel parassita')] che risiede a [capital.GetNameNoTier], mentre [governorship.Custom('IT_COU_COL4')][governorship.GetName] langue in povertà. A meno che...\n\nLe nostre tasse #EMP non devono#! più finire lì. Potrei farne certo un uso migliore..."
-ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName] è del tutto [Select_CString(liege.IsFemale,'indegna','indegno')] di guidare [ceremonial_monarch.Custom('IT_NAM_COL3')][ceremonial_monarch.GetTitleAsName]!\n\n[governorship.GetName] pena e soffre, e tutte le nostre tasse vanno al poltrone di [capital.GetNameNoTier]. A meno che...\n\nLe nostre tasse non #EMP devono#! andare lì; potrei farne un uso ben migliore...""
+ep3_emperor_yearly.2200.desc.c_monarch: "[liege.GetTitledFirstName] è del tutto [Select_CString(liege.IsFemale,'indegna','indegno')] di guidare [ceremonial_monarch.Custom('IT_NAM_COL3')][ceremonial_monarch.GetTitleAsName]!\n\n[governorship.GetName] pena e soffre, e tutte le nostre tasse vanno al poltrone di [capital.GetNameNoTier]. A meno che...\n\nLe nostre tasse non #EMP devono#! andare lì; potrei farne un uso ben migliore..."
  ep3_emperor_yearly.2200.a: "[liege.GetSheHe|U] non merita il nostro oro."
  ep3_emperor_yearly.2200.b: "La mia lealtà è verso [ROOT.Char.GetTopLiege.GetPrimaryTitle.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip], non verso [ROOT.Char.GetTopLiege.Custom('IT_NAM_COL3')][ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip]."
  ep3_emperor_yearly.2200.a.tt: "Lealtà Indegna"
@@ -316,9 +315,9 @@ ep3_emperor_yearly.2240.desc_outro: "\n\n[Select_CString(the_scholar.IsFemale,'L
  # Heresy Brewing
  ep3_emperor_yearly.2330.t: "L'Eresia Si Diffonde"
  ep3_emperor_yearly.2330.desc: "È innegabile. La fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_NAM_COL2')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] sta affrontando una crisi.\n\n"
- ep3_emperor_yearly.2330.desc_hof: "[hof.Custom('IT_NAM_COL3')|U][hof.GetTitledFirstName|U] si è unit[hof.Custom('DE_END_PRO_S_N')] a me oggi per discutere di una questione molto seria: la crisi della fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip].\n\n"Non potete negarlo, [ROOT.Char.GetFirstNameNoTooltip]! Lo vedete anche voi!"
- ep3_emperor_yearly.2330.desc_end: "I segni sono ovunque: le persone vivono nel peccato, il [ROOT.Char.GetFaith.ReligiousText] viene dimenticato e disatteso e le eresie proliferano in ogni angolo!""
- ep3_emperor_yearly.2330.desc_end_hof: "I poteri laici e religiosi devono unirsi per salvare la brava gente [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip].""
+ ep3_emperor_yearly.2330.desc_hof: "[hof.Custom('IT_NAM_COL3')|U][hof.GetTitledFirstName|U] si è unit[hof.Custom('DE_END_PRO_S_N')] a me oggi per discutere di una questione molto seria: la crisi della fede ufficiale [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTooltip].\n\nNon potete negarlo, [ROOT.Char.GetFirstNameNoTooltip]! Lo vedete anche voi!"
+ ep3_emperor_yearly.2330.desc_end: "I segni sono ovunque: le persone vivono nel peccato, il [ROOT.Char.GetFaith.ReligiousText] viene dimenticato e disatteso e le eresie proliferano in ogni angolo!"
+ ep3_emperor_yearly.2330.desc_end_hof: "I poteri laici e religiosi devono unirsi per salvare la brava gente [ROOT.Char.GetPrimaryTitle.Custom('IT_COU_COL')][ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]."
  ep3_emperor_yearly.2330.a: "Dobbiamo fare qualcosa!"
  ep3_emperor_yearly.2330.a.tt: "Investirò nella promozione della vera fede tra la gente!"
  ep3_emperor_yearly.2330.b: "Probabilmente va bene così..."

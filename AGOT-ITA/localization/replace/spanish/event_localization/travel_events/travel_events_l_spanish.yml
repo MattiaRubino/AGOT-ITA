@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 #Travel Flavor Events
 
 # Travel event prefix
@@ -7,11 +6,11 @@
 
 # Travel Death Events 
  travel_events.0010.t:0 "Fine della Strada"
- travel_events.0010.intro:0 "Sono sedut[ROOT.Char.Custom('DE_END_PRO_S_N')] a tavola, sto per interrompere il mio digiuno, ma la fame si è dileguata. C'è qualcosa che non va e ne ho la conferma quando ([messenger.Custom('DE_ART_DEF_P_A')]) mio/a [ROOT.Char.Custom2('RelationToMe',messenger)], [messenger.GetFirstNameNoTooltip], mi si avvicina cupamente.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], nella notte è giunto un messaggero con una terribile notizia," dice con tono sommesso.\n\n"Ho paura... ho paura che, almeno a quanto è riportato nella missiva, che vostr[predecessor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe',predecessor)], [predecessor.Custom('DE_ART_DEF_P_A')] [predecessor.GetTitledFirstNameNoTooltip], [predecessor.GetDeathReason]. "
+ travel_events.0010.intro:0 "Sono sedut[ROOT.Char.Custom('DE_END_PRO_S_N')] a tavola, sto per interrompere il mio digiuno, ma la fame si è dileguata. C'è qualcosa che non va e ne ho la conferma quando ([messenger.Custom('DE_ART_DEF_P_A')]) mio/a [ROOT.Char.Custom2('RelationToMe',messenger)], [messenger.GetFirstNameNoTooltip], mi si avvicina cupamente.\n\n«Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip], nella notte è giunto un messaggero con una terribile notizia,» dice con tono sommesso.\n\n«Ho paura... ho paura che, almeno a quanto è riportato nella missiva, che vostr[predecessor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe',predecessor)], [predecessor.Custom('DE_ART_DEF_P_A')] [predecessor.GetTitledFirstNameNoTooltip], [predecessor.GetDeathReason]. "
  travel_events.0010.to_activity:0 "[predecessor.Custom('DE_ART_IND_A')|U] era a [predecessor_location.GetName] sulla via per andare a [travel_destination.GetNameNoTooltip] "
  travel_events.0010.at_destination:0 "[predecessor.Custom('DE_ART_IND_A')|U] era a [predecessor_location.GetName] "
  travel_events.0010.from_activity:0 "[predecessor.Custom('DE_ART_IND_A')|U] era diretto a casa, nella provincia di [predecessor_location.GetName] dopo aver visitato [travel_destination.GetNameNoTooltip] "
- travel_events.0010.desc:0 "$travel_events.0011.desc$""
+ travel_events.0010.desc:0 "$travel_events.0011.desc$"
  travel_events.0010.a:0 "[predecessor.Custom('DE_ART_IND_A')|U] non meritava di morire così lontano da casa..."
 
  travel_events.0011.desc_opening:0 "[messenger.Custom2('AppropriateGreeting', ROOT.Char)]"
@@ -61,10 +60,10 @@ travel_events.1003.desc: 1 "Siamo rimasti sulla strada un po’ troppo a lungo e
  travel_events.1005.b:0 "Non vale la pena di correre il rischio."
 
  travel_events.4000.t:0 "Dei Viaggi a Venire"
- travel_events.4000.desc.intro:0 "In viaggio attraverso [ROOT.Char.GetCurrentLocation.GetName], passo accanto ad una tenda dall'aspetto particolare, aperta e con un occupante dall'aspetto ancora più particolare.\n\n"Entrate, o potente [ROOT.Char.GetTitleAsNameNoTooltip|U]."
+ travel_events.4000.desc.intro:0 "In viaggio attraverso [ROOT.Char.GetCurrentLocation.GetName], passo accanto ad una tenda dall'aspetto particolare, aperta e con un occupante dall'aspetto ancora più particolare.\n\n«Entrate, o potente [ROOT.Char.GetTitleAsNameNoTooltip|U]."
  travel_events.4000.desc.mid.long_to_go:0 "Posso affermare che avete ancora molta strada da percorrere,"
  travel_events.4000.desc.mid.travelled_far:0 "Vedo che siete venut[ROOT.Char.Custom('DE_END_PRO_S_N')] da molto lontano,"
- travel_events.4000.desc.outro:0 "e posso offrirvi una visione sui vostri viaggi futuri, per un modesto compenso."\n\nL[mystic_scope.Custom('DE_END_PRO_S_N')] stran[mystic_scope.Custom('DE_END_PRO_S_N')] [mystic_scope.GetWomanMan] ha suscitato l'interesse del mio seguito, ma sono dispost[ROOT.Char.Custom('DE_END_PRO_S_N')] a pagare per questa "visione"?"
+ travel_events.4000.desc.outro:0 "e posso offrirvi una visione sui vostri viaggi futuri, per un modesto compenso.»\n\nL[mystic_scope.Custom('DE_END_PRO_S_N')] stran[mystic_scope.Custom('DE_END_PRO_S_N')] [mystic_scope.GetWomanMan] ha suscitato l'interesse del mio seguito, ma sono dispost[ROOT.Char.Custom('DE_END_PRO_S_N')] a pagare per questa “visione”?"
  travel_events.4000.a:0 "Dimmi il mio futuro, saggi[mystic_scope.Custom('DE_END_PRO_S_N')]."
  travel_events.4000.b:0 "Venite a sperimentare il futuro #EMP insieme#! a me."
  travel_events.4000.c:0 "Non sono interessat[ROOT.Char.Custom('DE_END_PRO_S_N')]."

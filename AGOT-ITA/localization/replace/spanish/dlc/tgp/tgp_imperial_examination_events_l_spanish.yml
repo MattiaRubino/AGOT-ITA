@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  ### ARRIVAL EVENTS ###
  #Entrant
   imperial_examination.1000.t: "Arrivo degli esaminandi"
@@ -114,7 +113,7 @@ imperial_examination.1002.a.tt: "[candidate.GetFirstNameNoTooltip] avrà più op
   imperial_examination.2030.desc.open: "«Come prevedibile, con così tanti esaminandi, diversi popolani tentano di essere all’altezza»"
   imperial_examination.2030.desc.restricted: "«Nonostante il limite all’accesso del pubblico, ogni tanto qualche popolano riesce comunque a intrufolarsi all’esame»"
   imperial_examination.2030.desc.exclusive: "«[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] generos[Select_CString(ROOT.Char.IsFemale,'a','o')], mi vergogno ad ammettere che un plebeo senza nome è riuscito in qualche modo a entrare nelle sale d’esame, sperando di dimostrarsi all’altezza»"
-  imperial_examination.2030.desc.outro: "mi informa l’esaminatore [examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName], guardando il cortile dalla finestra. \n\n[examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName] indica un giovane [promising_lowborn.GetWomanMan], che pare impegnat[Select_CString(promising_lowborn.IsFemale,'a','o')] in una discussione accesa con due nobili. \n\n"“[promising_lowborn.Custom('IT_NAM_COL3')][promising_lowborn.GetTitledFirstName]" è il [Select_CString(promising_lowborn.IsFemale,'suo','suo')] nome. Malgrado i modi ruvidi di [promising_lowborn.Custom('IT_NAM_COL2')][promising_lowborn.GetTitledFirstName], devo ammettere che [Select_CString(promising_lowborn.IsFemale,'lei','lui')] mostra un potenziale eccezionale.""
+  imperial_examination.2030.desc.outro: "mi informa l’esaminatore [examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName], guardando il cortile dalla finestra. \n\n[examiner.Custom('IT_NAM_COL3')][examiner.GetTitledFirstName] indica un giovane [promising_lowborn.GetWomanMan], che pare impegnat[Select_CString(promising_lowborn.IsFemale,'a','o')] in una discussione accesa con due nobili. \n\n«[promising_lowborn.Custom('IT_NAM_COL3')][promising_lowborn.GetTitledFirstName]» è il [Select_CString(promising_lowborn.IsFemale,'suo','suo')] nome. Malgrado i modi ruvidi di [promising_lowborn.Custom('IT_NAM_COL2')][promising_lowborn.GetTitledFirstName], devo ammettere che [Select_CString(promising_lowborn.IsFemale,'lei','lui')] mostra un potenziale eccezionale.»"
   imperial_examination.2030.a: "Nessun semplice comuneo metterà in ombra la mia stirpe!"
   imperial_examination.2030.a.tt: "[dynasty_member.Custom('IT_NAM_COL3')][dynasty_member.GetTitledFirstName] ha #BOL aumentato#! la probabilità di #BOL riuscire#! grazie a [exam_advantage|E]"
   imperial_examination.2030.b: "Terrò d’occhio quest[promising_lowborn.Custom('DE_PRO_PER_S_3P_N')]."
@@ -181,7 +180,7 @@ imperial_examination.3007.a.success_tooltip_first: "#weak Per superare l’Esame
  ### ENTRANT EVENTS ###
  #Hire a stand-in to take the exam for you
   imperial_examination.4000.t: "Con un piccolo aiuto"
-  imperial_examination.4000.desc: "Lettere, simboli... Quando chiudo gli occhi posso figurarmi frammenti dei passi che ho studiato tutto il giorno. Ogni tratto di pennello sembra fluttuare nel buio, eppure il significato mi sfugge. Avrò il tempo di padroneggiare tutte le interpretazioni necessarie?\n\nUn altro esaminando si accosta a me, con le sue vesti che sfiorano le mie. ""Non giova alla mente vegliare tutta la notte per una sola prova. Hai tutta la vita per imparare. Lascia che sostenga l’esame al posto tuo, e riposa il capo stanco.""""
+  imperial_examination.4000.desc: "Lettere, simboli... Quando chiudo gli occhi posso figurarmi frammenti dei passi che ho studiato tutto il giorno. Ogni tratto di pennello sembra fluttuare nel buio, eppure il significato mi sfugge. Avrò il tempo di padroneggiare tutte le interpretazioni necessarie?\n\nUn altro esaminando si accosta a me, con le sue vesti che sfiorano le mie. «Non giova alla mente vegliare tutta la notte per una sola prova. Hai tutta la vita per imparare. Lascia che sostenga l’esame al posto tuo, e riposa il capo stanco.»"
   imperial_examination.4000.a: "Ho #EMP davvero#! bisogno di tutto l’aiuto possibile..."
   imperial_examination.4000.b: "No, è sbagliato."
   imperial_examination.4000.b.cheater: "Ha senso..."
@@ -197,7 +196,7 @@ imperial_examination.3007.a.success_tooltip_first: "#weak Per superare l’Esame
   imperial_examination.4020.b: "Non posso continuare così."
  #Study with a friend
   imperial_examination.4030.t: "... dai miei amici"
-  imperial_examination.4030.desc: ""[ ROOT.Char.Custom('IT_NAM_COL3') ][ ROOT.Char.GetTitledFirstNameNoTooltip ]! Come va? Ti va di unirti a me per altri preparativi all’esame?"" [Select_CString(friendly_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friendly_entrant'))], [friendly_entrant.Custom('IT_NAM_COL3')][friendly_entrant.GetTitledFirstName], mi fa cenno dal suo comodo sedile un po’ più all’interno della sala.\n\nDavanti a [Select_CString(friendly_entrant.IsFemale,'lei','lui')] c’è un tavolo ricolmo di pennelli di calligrafia ad asciugare e decine di tomi di poesia."
+  imperial_examination.4030.desc: "«[ ROOT.Char.Custom('IT_NAM_COL3') ][ ROOT.Char.GetTitledFirstNameNoTooltip ]! Come va? Ti va di unirti a me per altri preparativi all’esame?» [Select_CString(friendly_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friendly_entrant'))], [friendly_entrant.Custom('IT_NAM_COL3')][friendly_entrant.GetTitledFirstName], mi fa cenno dal suo comodo sedile un po’ più all’interno della sala.\n\nDavanti a [Select_CString(friendly_entrant.IsFemale,'lei','lui')] c’è un tavolo ricolmo di pennelli di calligrafia ad asciugare e decine di tomi di poesia."
   imperial_examination.4030.outro: "\n\nMi fermo un istante a considerare la proposta. Studiare insieme #EMP avrebbe#! i suoi vantaggi..."
   imperial_examination.4030.outro.lover: "\n\nÈ sempre stat[Select_CString(friendly_entrant.IsFemale,'a','o')] così #EMP seducente#!?"
   imperial_examination.4030.a: ""Da dove cominciamo?""
@@ -205,7 +204,7 @@ imperial_examination.3007.a.success_tooltip_first: "#weak Per superare l’Esame
   imperial_examination.4030.c: ""Ho da essere altrove.""
 
   imperial_examination.4050.t: "Baijiu a tarda notte"
-  imperial_examination.4050.desc: ""Un paio di noi sta pensando di condividere una bottiglia di baijiu. Ti unirai a noi, vero?"" chiede [Select_CString(friendly_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friendly_entrant'))], [friendly_entrant.Custom('IT_NAM_COL3')][friendly_entrant.GetTitledFirstName], chiamandomi mentre sto accanto a uno stagno nel cortile, ammirando come la luce del sole accarezza le squame dei pesci."
+  imperial_examination.4050.desc: "«Un paio di noi sta pensando di condividere una bottiglia di baijiu. Ti unirai a noi, vero?» chiede [Select_CString(friendly_entrant.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friendly_entrant'))], [friendly_entrant.Custom('IT_NAM_COL3')][friendly_entrant.GetTitledFirstName], chiamandomi mentre sto accanto a uno stagno nel cortile, ammirando come la luce del sole accarezza le squame dei pesci."
   imperial_examination.4050.a: "Conosco il gioco da bevuta perfetto!"
   imperial_examination.4050.b: "Preferirei godermi un momento da soli con te."
   imperial_examination.4050.c: "Devo essere altrove."

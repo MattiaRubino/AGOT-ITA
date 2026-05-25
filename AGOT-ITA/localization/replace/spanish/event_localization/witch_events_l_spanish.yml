@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  witch.1001.message:0 "Induzione alla Stregoneria"
  child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] è convinto"
  child_witch_conversion_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] è dubbioso"
@@ -50,12 +49,12 @@
  witch.2004.start.desc:0 "[target.GetFirstName] si desta dal sonno mentre io [SelectLocalization( IsLandlessAdventurer(target), 'witch.2004.start_target_laamp', 'witch.2004.start_target_landed')]. "Chi va là?" chiede, con voce incerta.\n\n"Il mio nome non ha importanza. Sono qui al servizio di [owner.GetFaith.WitchGodName]."\n\n"
  witch.2004.start_target_landed: "passo attraverso una finestra"
  witch.2004.start_target_laamp: "striscio nella tenda"
- witch.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] sbatte le palpebre. "[ROOT.Char.GetFirstNameNoTooltip], sei tu? '[owner.GetFaith.WitchGodName|U]'? Cos'è questa assurdità?!"
+ witch.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] sbatte le palpebre. «[ROOT.Char.GetFirstNameNoTooltip], sei tu? '[owner.GetFaith.WitchGodName|U]'? Cos'è questa assurdità?!"
  witch.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] si precipita fuori dal letto, raggiungendo qualcosa sul comodino. Probabilmente niente di buono. "Non voglio avere niente a che fare con te o con le fandonie! Vattene, demone!" grida [target.GetFirstNameNoTooltip], e così assecondo la sua richiesta."
  witch.2004.a:0 "[target.Custom('GetChamber')] sbagliata, scusa!"
 witch.2005.toast: "Strega Scoperta"
 
- witch.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], sei tu? '[owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] sentiranno parlare della tue bestemmie!""
+ witch.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], sei tu? '[owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] sentiranno parlare della tue bestemmie!»"
  witch.2005.a:0 "Per favore, non è come pensi!"
  witch.2005.a.tt:0 "In realtà, potrebbe essere #EMP exactly#! come pensa..."
 

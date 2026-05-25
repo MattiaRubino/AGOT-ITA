@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  # Maintenance etc
  activity_camp_party: "Festa nel Campo"
  activity_camp_party_desc: "Organizza una piccola festa nel tuo campo, finanziata da [gold_i][gold|E] ma influenzata dalle scorte di [provisions_i][provisions|E]. Tra gli invitati vi saranno tutti coloro che sono presenti nel campo, oltre alla possibilità di invitare i governanti locali.\n\nLe Feste da Campo offrono l'opportunità di stringere amicizia con i propri seguaci, ottenere dei [task_contracts|E] speciali, e gestire lo [stress|E]."
@@ -16,7 +15,7 @@
  camp_party_completed_log_entry_effect_title: "$activity_camp_party$ Completed"
  camp_party_100_contracts_get: "Hai ottenuto #value 2#! nuovi [task_contracts|E]"
  camp_party_75_contracts_get: "Hai ottenuto un nuovo [task_contract|E]"
- activity_camp_party_guest_help_text: "Tutti nel campo dovrebbero ragionevolmente aspettarsi di partecipare a un evento di sfrenata baldoria e celebrazione.\n\n"Tutti i membri del campo dovrebbero ragionevolmente partecipare a questo evento di divertimento e celebrazione.\n\nIl governante locale potrebbe essere invitato come Ospite d'Onore, ma attenzione: quelli di un certo [rank|E] probabilmente considereranno la loro presenza al di sotto della loro sensibilità."
+ activity_camp_party_guest_help_text: "Tutti nel campo dovrebbero ragionevolmente aspettarsi di partecipare a un evento di sfrenata baldoria e celebrazione.\n\nTutti i membri del campo dovrebbero ragionevolmente partecipare a questo evento di divertimento e celebrazione.\n\nIl governante locale potrebbe essere invitato come Ospite d'Onore, ma attenzione: quelli di un certo [rank|E] probabilmente considereranno la loro presenza al di sotto della loro sensibilità."
 
  activity_invite_rule_followers: "Seguaci"
  activity_invite_rule_local_lord: "Governante Locale"
@@ -131,14 +130,14 @@ activity_camp_party_special_type_bar_segment_tt_3: "#t Giubilante#!\n#ts Puntegg
  ep3_camp_party.1010.t: "Mettere alla Prova il Tuo Ingegno"
  ep3_camp_party.1010.desc: "Sospetto che il sorriso sornione di [riddler.GetFirstName] oltre il bordo della sua tazza sia di cattivo auspicio.\n\n"Coragggio venite [ROOT.Char.GetFirstNameNoTooltip]. Vediamo se la vostra mente è ancora così acuta dopo tutti questi giorni di viaggio!" dice [riddler.GetSheHe|U] muovendo la coppa con un gesto di sfida. "Un indovinello, forse?" Senza aspettare il mio consenso, [riddler.GetSheHe] inizia."
 ep3_camp_party.1010.desc_riddle_01: "\n\n#EMP «Strappato dal grembo di mia madre,\npercosso e bruciato,\ndivento un assassino assetato di sangue.»"
- ep3_camp_party.1010.desc_riddle_02: "\n\n#EMP "Sono a volte giallo e a volte bianco,\nMetà di me è scura e l'altra è luminosa.#!"
- ep3_camp_party.1010.desc_riddle_03: "\n\n#EMP "Ho quattro gambe,\neppure non riesco a camminare.#!"
- ep3_camp_party.1010.desc_riddle_04: "\n\n#EMP "Ho un occhio solo,\neppure non riesco a vedere.#!"
- ep3_camp_party.1010.desc_riddle_05: "\n\n#EMP "Sono una stanza,\nma non ho né porte né finestre.#!"
- ep3_camp_party.1010.desc_riddle_06: "\n\n#EMP "Posso essere catturato,\nma non posso essere lanciato.#!"
- ep3_camp_party.1010.desc_riddle_07: "\n\n#EMP "I poveri mi hanno,\nI ricchi hanno bisogno di me,\nSe mi mangiate, perirete.#!"
- ep3_camp_party.1010.desc_riddle_08: "\n\n#EMP "Sono facile da raggiungere,\nma difficile da abbandonare.#!"
- ep3_camp_party.1010.desc_outro: "\nCosa sono?"#!"
+ ep3_camp_party.1010.desc_riddle_02: "\n\n#EMP Sono a volte giallo e a volte bianco,\nMetà di me è scura e l'altra è luminosa.#!"
+ ep3_camp_party.1010.desc_riddle_03: "\n\n#EMP Ho quattro gambe,\neppure non riesco a camminare.#!"
+ ep3_camp_party.1010.desc_riddle_04: "\n\n#EMP Ho un occhio solo,\neppure non riesco a vedere.#!"
+ ep3_camp_party.1010.desc_riddle_05: "\n\n#EMP Sono una stanza,\nma non ho né porte né finestre.#!"
+ ep3_camp_party.1010.desc_riddle_06: "\n\n#EMP Posso essere catturato,\nma non posso essere lanciato.#!"
+ ep3_camp_party.1010.desc_riddle_07: "\n\n#EMP I poveri mi hanno,\nI ricchi hanno bisogno di me,\nSe mi mangiate, perirete.#!"
+ ep3_camp_party.1010.desc_riddle_08: "\n\n#EMP Sono facile da raggiungere,\nma difficile da abbandonare.#!"
+ ep3_camp_party.1010.desc_outro: "\nCosa sono?#!"
  ep3_camp_party.1010.a: ""Facile. La risposta è '[ROOT.Char.Custom('GetCampPartyRiddleAnswer')]'.""
  ep3_camp_party.1010.b: "Forse la risposta è..."
  ep3_camp_party.1010.b.success: "Hai indovinato"

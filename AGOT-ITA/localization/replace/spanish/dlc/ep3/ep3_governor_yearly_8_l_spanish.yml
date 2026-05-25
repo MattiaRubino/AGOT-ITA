@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ep3_governor_yearly.8010.opening: "[governor.Custom2('AppropriateGreeting', ROOT.Char)]"
  ep3_governor_yearly.8010.desc: "Nobilissim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip], vedo un’opportunità per promuovere tanto gli interessi della casata [ROOT.Char.GetHouse.GetBaseName] quanto quelli della mia casata [governor.GetHouse.GetBaseName].\n\nIn cambio di"
  ep3_governor_yearly.8010.hook: "una promessa a cui potrei ricorrere in futuro,"
@@ -146,9 +145,9 @@ ep3_governor_yearly.8100.desc: "Tra i messaggi giunti oggi da [ROOT.Char.GetTopL
  ep3_governor_yearly.8140.d: "È un peccato, ma non posso fare nulla."
 
  ep3_governor_yearly.8150.t: "Ribollire"
- ep3_governor_yearly.8150.desc: "Il malcontento dilaga in [rebel_county.GetNameNoTier], e la gente diventa sempre più irrequieta. Perderei molto prestigio se il/la mio/a [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] fosse minacciato da un’insurrezione...\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))], [marshal.GetFirstName], legge stancamente rapporti di armi rubate dagli arsenali municipali, tasse trattenute e attacchi a pattuglie ignare.\n\n"Qualcosa #EMP deve#! essere fatto riguardo a questi"
- ep3_governor_yearly.8150.culture: "sobillatori [targeting_faction.MakeScope.Var('faction_culture').Culture.GetName]!""
- ep3_governor_yearly.8150.faith: "zeloti [targeting_faction.MakeScope.Var('faction_faith').Faith.GetName]!""
+ ep3_governor_yearly.8150.desc: "Il malcontento dilaga in [rebel_county.GetNameNoTier], e la gente diventa sempre più irrequieta. Perderei molto prestigio se il/la mio/a [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] fosse minacciato da un’insurrezione...\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('marshal'))], [marshal.GetFirstName], legge stancamente rapporti di armi rubate dagli arsenali municipali, tasse trattenute e attacchi a pattuglie ignare.\n\nQualcosa #EMP deve#! essere fatto riguardo a questi"
+ ep3_governor_yearly.8150.culture: "sobillatori [targeting_faction.MakeScope.Var('faction_culture').Culture.GetName]!"
+ ep3_governor_yearly.8150.faith: "zeloti [targeting_faction.MakeScope.Var('faction_faith').Faith.GetName]!"
 ep3_governor_yearly.8150.peasant: "«maledetti contadini, [ROOT.Char.GetTitleAsNameNoTooltip]!»,"
  ep3_governor_yearly_8150.end: "ringhia [marshal.GetSheHe]."
  ep3_governor_yearly.8150.a: "Basta neutralizzare la testa del serpente, [marshal.GetFirstNameNoTooltip]."
@@ -163,9 +162,9 @@ ep3_governor_yearly.8150.peasant: "«maledetti contadini, [ROOT.Char.GetTitleAsN
  cultural_acceptance_ep3_governor_yearly_8150_crackdown: "Un [governor|E] ha represso i ribelli locali"
 
  ep3_governor_yearly.8160.t: "Accesso Equo"
- ep3_governor_yearly.8160.desc: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] è una terra di molti popoli e molte confessioni. In quanto [ROOT.Char.GetTitleAsNameNoTooltip] del [ROOT.Char.GetPrimaryTitle.GetAdjective] [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], sono responsabile di forestieri ed eretici, così come dei [ROOT.Char.GetTopLiege.GetCulture.GetCollectiveNounNoTooltip].\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [councillor.GetFirstName], non ha esitazioni nell’affermare che: "la burocrazia è dominio"
- ep3_governor_yearly.8160.culture_end: "e qualsiasi richiesta di maggiore partecipazione dei [minority_county.GetCountyData.GetCulture.GetCollectiveNounNoTooltip] deve essere soffocata!""
- ep3_governor_yearly.8160.faith_end: "e qualsiasi richiesta di maggiore partecipazione dei [minority_county.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] [councillor.Custom2('GetUnbelieverTerm', administrator)] deve essere soffocata!""
+ ep3_governor_yearly.8160.desc: "[ROOT.Char.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] è una terra di molti popoli e molte confessioni. In quanto [ROOT.Char.GetTitleAsNameNoTooltip] del [ROOT.Char.GetPrimaryTitle.GetAdjective] [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], sono responsabile di forestieri ed eretici, così come dei [ROOT.Char.GetTopLiege.GetCulture.GetCollectiveNounNoTooltip].\n\nIl mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [councillor.GetFirstName], non ha esitazioni nell’affermare che: la burocrazia è dominio"
+ ep3_governor_yearly.8160.culture_end: "e qualsiasi richiesta di maggiore partecipazione dei [minority_county.GetCountyData.GetCulture.GetCollectiveNounNoTooltip] deve essere soffocata!"
+ ep3_governor_yearly.8160.faith_end: "e qualsiasi richiesta di maggiore partecipazione dei [minority_county.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip] [councillor.Custom2('GetUnbelieverTerm', administrator)] deve essere soffocata!"
  ep3_governor_yearly.8160.a: "Una rete più grande cattura più pesci."
  ep3_governor_yearly.8160.b: "Hai ragione, devono conoscere il loro posto."
  ep3_governor_yearly.8160.culture_county_tt: "Ogni [county|E] [minority_county.GetCountyData.GetCulture.GetName]"

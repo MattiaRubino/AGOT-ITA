@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ###################
  # Standard Events #
  ###################
@@ -96,7 +95,7 @@ diplomacy_family.2101.desc: 0 "[family_1.Custom2('MyCharacterIntroduction', ROOT
  diplomacy_family.2101.a.tt:1 "Cerchi di interrompere il loro litigio"
  diplomacy_family.2101.b:0 "Lasci che risolvano da soli le loro questioni."
 
- diplomacy_family.2102.desc:0 "Mentre entro nella [ROOT.Char.Custom('GetRoom')] [family_1.GetFirstName] si volta verso di me. "Sono liet[family_1.Custom('DE_END_PRO_S_N')] che voi siate qui, [ROOT.Char.GetFirstNameNoTooltip]. Non vi andrebbe di far ragionare [family_2.Custom2('YourCharacterIntroduction', ROOT.Char)]?"
+ diplomacy_family.2102.desc:0 "Mentre entro nella [ROOT.Char.Custom('GetRoom')] [family_1.GetFirstName] si volta verso di me. «Sono liet[family_1.Custom('DE_END_PRO_S_N')] che voi siate qui, [ROOT.Char.GetFirstNameNoTooltip]. Non vi andrebbe di far ragionare [family_2.Custom2('YourCharacterIntroduction', ROOT.Char)]?"
  diplomacy_family.2102.a:0 "Si, vergognati [family_2.GetFirstNameNoTooltip]!"
  diplomacy_family.2102.b:0 "Sei tu nel torto qui, [family_1.GetFirstNameNoTooltip]."
  diplomacy_family.2102.c:0 "Vi state entrambi comportando come due bambini petulanti!"
@@ -180,18 +179,18 @@ diplomacy_family.2253.desc.b: 0 "Il mio piano ha funzionato alla perfezione! [lo
  diplomacy_family.2301.desc:0 "È stato un compito difficile ottenere qualcosa da quella testa dura di [bad_relative.GetFirstNamePossessive] , ma in qualche modo ci sono riuscit[ROOT.Char.Custom('DE_END_PRO_S_N')]. Perlomeno adesso [bad_relative.GetSheHe] non è più una delusione totale..."
  diplomacy_family.2301.a:0 "Ho fatto quel che potevo."
 
- ##################
+ ################## 
  # Special Events #
  ##################
 
  #Successor's Squabble — Resolve a dispute between your heir and a powerful vassal, by Sean Hughes
  diplomacy_family_special.2200.t:0 "Litigio di Successione"
- diplomacy_family_special.2200.desc:2 "Mi sto rilassando nel mio [ROOT.Char.Custom('ResidenceBuilding')] alla fine della giornata quando [heir.Custom('REL_TO_ME')][heir.Custom2('MyCharacterIntroduction', ROOT.Char)] entra, visibilmente angosciat[heir.Custom('DE_END_PRO_S_N')].\n\n"[vassal.Custom2('YourCharacterIntroduction', ROOT.Char)|U] è un tale fastidio!" esclama. "[vassal.GetSheHe|U] continua a parlare di come non sono adatto a succederti. [vassal.GetSheHe|U] pensa che io sia troppo [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')] per essere il prossimo"
+ diplomacy_family_special.2200.desc:2 "Mi sto rilassando nel mio [ROOT.Char.Custom('ResidenceBuilding')] alla fine della giornata quando [heir.Custom('REL_TO_ME')][heir.Custom2('MyCharacterIntroduction', ROOT.Char)] entra, visibilmente angosciat[heir.Custom('DE_END_PRO_S_N')].\n\n«[vassal.Custom2('YourCharacterIntroduction', ROOT.Char)|U] è un tale fastidio!» esclama. «[vassal.GetSheHe|U] continua a parlare di come non sono adatto a succederti. [vassal.GetSheHe|U] pensa che io sia troppo [SCOPE.Custom('PersonalityGetTraitDescriptionFromFlag')] per essere il prossimo"
  diplomacy_family_special.2200.same_title.desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
  diplomacy_family_special.2200.same_sex_title.desc:0 "$diplomacy_family_special.2200.same_title.desc$"
  diplomacy_family_special.2200.opposite_sex_title.desc:0 "[ROOT.Char.GetPrimarySpouse.GetTitleAsNameNoTooltip]"
  diplomacy_family_special.2200.ruler.desc:0 "[ROOT.Char.GetTitleAsNameNoTooltip]"
- diplomacy_family_special.2200.end.desc:0 "di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!""
+ diplomacy_family_special.2200.end.desc:0 "di [ROOT.Char.GetPrimaryTitle.GetNameNoTier]!»"
  diplomacy_family_special.2200.a:0 "Vieni a sederti con me, discuteremo di questo argomento."
  diplomacy_family_special.2200.a.tt:0 "Aiuterò [heir.GetFirstNameNoTooltip] a trovare un modo per rispondere alle critiche"
  diplomacy_family_special.2200.b:0 "Ne parlerò con [vassal.GetTitledFirstNameNoTooltip] di questo."

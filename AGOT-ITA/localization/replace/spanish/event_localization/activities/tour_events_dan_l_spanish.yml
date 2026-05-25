@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  tour_travel.3000.t:0 "Niente [ROOT.Char.GetFaith.HouseOfWorshipPlural|U]?"
  tour_travel.3000.desc:0 "Visito un villaggio mentre viaggio attraverso [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] e trascorrono un po' di tempo a discutere di questioni di culto locale con [Select_CString(pious_peasant.IsFemale,'una popolana particolarmente pia','un popolano particolarmente pio')] di nome [pious_peasant.GetName].\n\n"Non abbiamo nemmeno un/una [ROOT.Char.GetFaith.HouseOfWorship], qui. Dobbiamo viaggiare per giorni se vogliamo mettere piede in una casa di [ROOT.Char.GetFaith.HighGodName|U].""
  tour_travel.3000.a:0 "Potremmo aiutare a costruire un/una semplice [ROOT.Char.GetFaith.HouseOfWorship]."
@@ -58,7 +57,7 @@ tour_travel.3002.desc: 0 "«Il mio [widow_peasant.Custom2( 'RelationToMeShort', 
  tour_travel.3020.d:0 "Dovrei riposare un po'..."
 
  tour_travel.3030.t:0 "La Verità"
- tour_travel.3030.desc:1 "Ci avviciniamo a un borgo dove [Select_CString(wrongfully_accused.IsFemale, 'una donna disperata è in catene', 'un uomo disperato è in catene')] davanti a una forca, mentre una folla si raduna lì davanti.\n\n"[recipient.Custom('IT_NAM_COL3')|U][ROOT.Char.GetTitleAsNameNoTooltip]! È [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]!" urla qualcuno. È allora che [accused_partner.Custom('DE_PRO_POS_P_2P')] contadin[accused_partner.Custom('DE_END_PRO_S_N')] si fa largo tra la folla e in lacrime corre verso di me: "Vi supplico! Mi[wrongfully_accused.Custom('DE_END_PRO_S_N')] [wrongfully_accused.Custom('WifeHusband')] è innocente!"
+ tour_travel.3030.desc:1 "Ci avviciniamo a un borgo dove [Select_CString(wrongfully_accused.IsFemale, 'una donna disperata è in catene', 'un uomo disperato è in catene')] davanti a una forca, mentre una folla si raduna lì davanti.\n\n[recipient.Custom('IT_NAM_COL3')|U][ROOT.Char.GetTitleAsNameNoTooltip]! È [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]! urla qualcuno. È allora che [accused_partner.Custom('DE_PRO_POS_P_2P')] contadin[accused_partner.Custom('DE_END_PRO_S_N')] si fa largo tra la folla e in lacrime corre verso di me: Vi supplico! Mi[wrongfully_accused.Custom('DE_END_PRO_S_N')] [wrongfully_accused.Custom('WifeHusband')] è innocente!"
 tour_travel.3030.framed: "«[wrongfully_accused.GetSheHe|U] non l’ha fatto, [ROOT.Char.Custom('FormOfAddressForLiege')]! Lo so!»"
  tour_travel.3030.pinned:1 ""Queste canaglie scaricano il peso dei loro peccati sugli altri!""
  tour_travel.3030.wrongful:1 ""È tutto falso! Non c'è nemmeno un testimone!""

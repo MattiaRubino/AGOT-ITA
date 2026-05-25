@@ -5,7 +5,6 @@
 
  #End AGOT modifiche
 
-
  # TAVERN
  ep2_locale_events.1000.t:0 "$tournament_locale_tavern$: Un Altro Giro"
  ep2_locale_events.1000.independent:0 "Un grande scroscio di risate erompe dal tavolo [drinking_leader.Custom('IT_NAM_COL2')][drinking_leader.GetTitledFirstName] nell'angolo della taverna."
@@ -36,7 +35,7 @@
  ep2_locale_events.1011.t:0 "$tournament_locale_tavern$: Primo Round"
  ep2_locale_events.1011.opening:0 "I dadi tintinnano e rimbalzano nelle loro tazze prima che entrambi li sbattiamo sul tavolo. Sollevo il lato della tazza più vicino a me, coprendo accuratamente il contenuto\n\n#BOL [ROOT.Var('root_dice_1').GetValue|0]#!. Scruto [gambler.GetFirstName] da vicino, alla ricerca di indizi."
  ep2_locale_events.1011.tell.good:0 "\n\nÈ un leggero movimento verso l'alto del labbro di [gambler.GetFirstNamePossessiveNoTooltip] quello che vedo? È sparito quasi subito, ma il più piccolo tentennamento può tradire la più profonda delle verità..."
- ep2_locale_events.1011.tell.bad:0 "\n\nGli occhi di [gambler.GetFirstNameNoTooltip] tremano verso il basso, una, due volte. Per poi tornare alla normalita subito dopo, ma il più piccolo tentennamento può tradire la più profonda delle verità...""
+ ep2_locale_events.1011.tell.bad:0 "\n\nGli occhi di [gambler.GetFirstNameNoTooltip] tremano verso il basso, una, due volte. Per poi tornare alla normalita subito dopo, ma il più piccolo tentennamento può tradire la più profonda delle verità..."
  ep2_locale_events.1011.average:0 "\n\nLe mani di [gambler.GetFirstNameNoTooltip] tremano leggermente e io apro la bocca in modo trionfale, ma i suoi occhi hanno una sorta di scintillio. Il tremore era un indizio? Lo erano gli occhi? È utile tutto questo?"
  ep2_locale_events.1011.deceitful:0 "\n\nGli occhi di [gambler.GetFirstNameNoTooltip] fissano nei miei, senza un guizzo di emozione sul suo volto. Interrompo lo sguardo e osservo allora il linguaggio del corpo, ma è come se [gambler.GetSheHe] fosse una statua."
  ep2_locale_events.1011.a:0 "Il mio lancio è... più alto!"
@@ -45,7 +44,7 @@
  ep2_locale_events.1012.t:0 "$tournament_locale_tavern$: Secondo Round"
  ep2_locale_events.1012.opening.win:0 "Scopriamo i nostri dadi. Ci vuole un istante perché entrambi ci accorgiamo che ho vinto!\n\n"Ah! Ho indovinato! Il primo turno è mio!" Le labbra di [gambler.GetFirstName] sorridono, ma non raggiungono gli occhi. "Prossimo Round!" I dadi tintinnano ancora una volta nelle tazze."
  ep2_locale_events.1012.opening.lose:0 "Scopriamo i nostri dadi. Entrambi ci mettiamo un istante per capire che ho perso. [gambler.GetFirstName] sorride orgoglioso.\n\n"Sfortuna! Sembra che mi sia sbagliat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Prossimo giro!" I dadi tintinnano ancora una volta nelle tazze."
- ep2_locale_events.1012.opening.draw:0 "Scopriamo i nostri dadi. Mentre le tazze scompaiono, ci vuole solo un attimo per calcolare che i numeri erano uguali.\n\n""Bene, allora. Questo lo consideriamo un pareggio." La delusione di [gambler.GetFirstNamePossessive] è evidente. "Prossimo Round!" I dadi tintinnano ancora una volta nelle tazze."
+ ep2_locale_events.1012.opening.draw:0 "Scopriamo i nostri dadi. Mentre le tazze scompaiono, ci vuole solo un attimo per calcolare che i numeri erano uguali.\n\nBene, allora. Questo lo consideriamo un pareggio. La delusione di [gambler.GetFirstNamePossessive] è evidente. Prossimo Round! I dadi tintinnano ancora una volta nelle tazze."
  ep2_locale_events.1012.dice_reveal:0 "\n\nSollevo il lato della tazza più vicino a me. Le piccole incisioni sul dado rivelano il numero: #BOL [ROOT.Var('root_dice_2').GetValue|0]#!. Appoggio di nuovo la tazza sul tavolo e guardo in alto."
  ep2_locale_events.1012.tell.good:0 "\n\n[gambler.GetFirstName] batte le dita sul tavolo. L'inclinazione della testa verso il soffitto è una sottile allusione? Certamente  [gambler.GetSheHe] sembra essere sedut[gambler.Custom('DE_END_PRO_S_N')] più erett[gambler.Custom('DE_END_PRO_S_N')] di prima..."
  ep2_locale_events.1012.tell.bad:0 "\n\nUn leggero restringimento degli occhi, un piccolo spostamento del peso. [gambler.GetFirstName] sta nascondendo qualcosa. Forse quel tiro non è molto alto..."
@@ -109,7 +108,7 @@ ep2_locale_events.1050.desc: "Sono appena entrat[Select_CString(ROOT.Char.IsFema
  ep2_locale_events.1501.c:0 "Forse dovrei andarmene."
 
  ep2_locale_events.1510.t:0 "$tournament_locale_religious_building$: Baldoria Sacrilega"
- ep2_locale_events.1510.desc:0 ""Mentre il silenzio cala sugli adoratori riuniti per la cerimonia quotidiana, la calma viene improvvisamente rotta da un rapido avvicinarsi di urla e grida.\n\nLa porta si apre e una dozzina di festaioli ridenti entrano nella [ROOT.Char.GetFaith.HouseOfWorship],"
+ ep2_locale_events.1510.desc:0 "Mentre il silenzio cala sugli adoratori riuniti per la cerimonia quotidiana, la calma viene improvvisamente rotta da un rapido avvicinarsi di urla e grida.\n\nLa porta si apre e una dozzina di festaioli ridenti entrano nella [ROOT.Char.GetFaith.HouseOfWorship],"
  ep2_locale_events.1510.alcohol:0 "boccali e barili in mano."
  ep2_locale_events.1510.hashish:0 "accompagnati da un forte odore di hashish."
  ep2_locale_events.1510.closing:0 "\n\n[instigator_scope.GetTitledFirstName], chiaramente l'istigatore, sorride stupidamente "Cosa succede qui?! Dov'è la musica?"\n\n[tournament_priest.GetFirstName] osserva, congelato nell'incredulità e nell'orrore."
@@ -119,7 +118,7 @@ ep2_locale_events.1050.desc: "Sono appena entrat[Select_CString(ROOT.Char.IsFema
  ep2_locale_events.1510.d:0 "Fuori di qui, adorabili zoticoni."
  # ARMORER
  ep2_locale_events.2001.t:1 "$tournament_locale_armorer$: Gloria o Efficienza?"
- ep2_locale_events.2001.desc:0 "Poso la mia [improve_armour.GetName] sul bancone, e [tournament_armorer.GetFirstName] ci passa sopra una mano.\n\n"È in pessime condizioni. È passato un po' di tempo dall'ultima volta che hai fatto controllare la tua armatura, vero?" [tournament_armorer.GetSheHe|U] sospira e dà un'occhiata ai progetti incompiuti che [tournament_armorer.Custom('DE_PRO_POS_P_3P')] attendono.\n\n"Forse basta lucidarlo per farlo brillare o oliarlo per renderlo funzionale. Cosa vuoi fare?"
+ ep2_locale_events.2001.desc:0 "Poso la mia [improve_armour.GetName] sul bancone, e [tournament_armorer.GetFirstName] ci passa sopra una mano.\n\nÈ in pessime condizioni. È passato un po' di tempo dall'ultima volta che hai fatto controllare la tua armatura, vero? [tournament_armorer.GetSheHe|U] sospira e dà un'occhiata ai progetti incompiuti che [tournament_armorer.Custom('DE_PRO_POS_P_3P')] attendono.\n\nForse basta lucidarlo per farlo brillare o oliarlo per renderlo funzionale. Cosa vuoi fare?"
  ep2_locale_events.2001.a:0 "Lucidatelo per farla brillare come uno specchio!!"
  ep2_locale_events.2001.a.tt:0 "[improve_armour.GetName] guadagna un modificatore [prestige|E]"
  ep2_locale_events.2001.b:0 "Preferisco che sia oliato e revisionato."
@@ -520,7 +519,7 @@ ep2_locale_events.3010.desc: "Appena metto piede nel campo, mi accoglie un odore
  
  ep2_locale_events.4540.t:0 "Sulla Lama"
  ep2_locale_events.4540.desc.intro:0 ""Che magnifico lavoro ha fatto [weaponsmith.GetFirstName]!", sento un cavaliere dire con orgoglio, uscendo dalla fucina. La lama scintillante riflette il sole come un lago cristallino.\n\nSpingo la porta e vengo accolto da una fiamma che divampa."
- ep2_locale_events.4540.desc.contestant:0 ""Hai intenzione di gareggiare così?" chiede l'armaiolo, indicando la mia arma, [my_weapon.GetNameNoTooltip|l], che pende dalla mia cintura"."
+ ep2_locale_events.4540.desc.contestant:0 "Hai intenzione di gareggiare così? chiede l'armaiolo, indicando la mia arma, [my_weapon.GetNameNoTooltip|l], che pende dalla mia cintura."
  ep2_locale_events.4540.desc.fallback:0 "Anche se questa volta non gareggerò, non dovrei ignorare il talento di questo artigiano."
  ep2_locale_events.4540.desc.outro:0 "\n\n"Se tu hai l'oro, io ho l'acciaio.""
  ep2_locale_events.4540.a:0 ""Rendere più letale.""
@@ -590,7 +589,7 @@ ep2_locale_events.4530.desc: "Dall’altro lato della strada scorgo il dolce tre
  ep2_locale_events.5030.t:0 "Una Nuova Assunzione"
  ep2_locale_events.5030.desc.intro:1 "Gli scudieri ridono e scherzano mentre lucidano elmi e stemmi. Uno di loro sbuffa così forte da sembrare un maiale, e gli altri lo seguono subito. I loro [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] oziano nelle vicinanze.\n\nTra di loro intravedo [poached_councillor.GetTitledFirstName] [councillor_employer.Custom('DE_ART_DEF_P_D')] consigliere [councillor_employer.GetTitledFirstNamePossessive] . "
  ep2_locale_events.5030.desc.contestant:0 " Le sue capacità sono state molto apprezzate e il nome di risuona come uno dei possibili vincitori."
- ep2_locale_events.5030.desc.fallback:0 "Le sue azioni non sono passate inosservate e il lavoro che ha fatto per la casa del suo signore è più che impressionante"."
+ ep2_locale_events.5030.desc.fallback:0 "Le sue azioni non sono passate inosservate e il lavoro che ha fatto per la casa del suo signore è più che impressionante."
  ep2_locale_events.5030.desc.outro:0 "\n\nPotrei convincerl[poached_councillor.Custom('DE_END_PRO_S_N')] a entrare nel mio consiglio."
  ep2_locale_events.5030.a:0 "L'oro è la tentazione più grande."
  ep2_locale_events.5030.b:0 ""Un abile [Select_CString(poached_councillor.IsFemale,'donna','uomo')] merita un abile signore. Oppure nessun signore.""

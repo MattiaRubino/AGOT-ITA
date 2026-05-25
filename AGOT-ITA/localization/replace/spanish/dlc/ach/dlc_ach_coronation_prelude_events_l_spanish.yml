@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  prelude_events.0001.t: "Una mano amica"
 prelude_events.0001.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstName], ho udito dalla bocca del rispettabile [regent.Custom('IT_NAM_COL3')][regent.GetTitledFirstName], il tuo buon reggente, che sei pien[Select_CString(ROOT.Char.IsFemale,'a','o')] di promesse." dice [guest.GetShortUIName], [guest.Custom('quirk_pos_pp')]. "[guest.Custom2('DescriptorPositive', ROOT.Char)|U] e [guest.Custom2('DescriptorPositive', ROOT.Char)], [Select_CString(ROOT.Char.IsFemale,'la migliore','il migliore')] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] che potremmo mai sperare di avere!""
  prelude_events.0001.a: ""Fantastico! [regent.GetSheHe|U] sta facendo tutto il lavoro al posto mio!""

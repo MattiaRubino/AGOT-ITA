@@ -121,7 +121,6 @@
  fp2_yearly.4010.a:0 "Forse si trattava di tombe... per antichi re?"
 
  #End AGOT modifiche
-
 #start AGOT Disabled
  # fp2_yearly.4008.desc.basque.a:0 ""...the Aatxe is a cave spirit who is most often seen in the beastly form of a red bull, protecting people from baleful influences and attacking thieves.""
  # fp2_yearly.4008.desc.basque.b:0 ""...the Gaueko is a night-spirit. He refuses to allow humans to work outside after dusk, and any displays of nocturnal bravado — such as boasting of not fearing the dark — will draw his ire.""
@@ -137,7 +136,6 @@
  # fp2_yearly.4008.desc.spain.b:0 ""...Mouros are ancient beings of great power who have lived here since the beginning of the world. Great metalsmiths, the Mouros are rarely seen above-ground. Their maidens are enchanted shapeshifters of great beauty who guard the passages underground.""
  # fp2_yearly.4008.desc.spain.c: "«… le Anjana sono fate buone e gentili che si prendono cura delle foreste. Con pupille nere e ali sottili come il velo, soccorrono gli animali feriti e i viandanti smarriti. Camminano così leggere che i ramoscelli non si spezzano sotto il loro peso. Se trovi uno dei loro petali di rosa variopinti potresti essere felice fino alla morte»."
 #end AGOT Disabled
-
 
  # dlc_fp2_flavor_events_oltner
  rice_fields_modifier:0 "Risaie"
@@ -235,6 +233,12 @@
  fp2_struggle.0051.c.refuses_to_engage:0 "fp2_struggle.0051.c.refuses_to_engage"
 
  ##### Intro #####
+ fp2_struggle.0501.t:1 "La $iberian_struggle$"
+ fp2_struggle.0501.desc:1 "La penisola iberica è in fermento per un conflitto che nasce dal suo storico passato. Gli stranieri ne bramano la terra e le grandi potenze musulmane e cristiane cercano di influenzare il suo popolo. Ma saranno coloro che vivono e muoiono sul suo suolo a determinare il suo destino.\n\n"
+ fp2_struggle.0501.desc.involved:0 "Non mi lascerò sfuggire la visione della mia patria. In nome di [ROOT.Char.GetFaith.HighGodName], la Casata [ROOT.Char.GetHouse.GetNameNoTooltip] supererà la tempesta e vedrà la mia volontà compiuta.\n\n"
+ fp2_struggle.0501.desc.interloper:0 "È giunto per me il momento di prendere in mano la situazione e il mio destino. Vedo tutti i pezzi disposti sulla scacchiera. Conosco la strada da percorrere e nulla potrà fermare la Casata [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
+ fp2_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
+ fp2_struggle.0501.a:0 "Prendi in mano il destino!"
 
  ##### Hostility #####
  # Struggle Ender
@@ -383,7 +387,7 @@ fp2_struggle.1001.desc: "[expectant_courtier.Custom('IT_NAM_COL3')][expectant_co
  fp2_struggle.1010.swordsmith_leaves:0 "[great_swordsmith.GetNameNoTooltip] si reca presso un'altra corte."
 
  
- fp2_struggle.1011.t:1 ""La Lama di [blacksmith_county.GetNameNoTierNoTooltip]"
+ fp2_struggle.1011.t:1 "La Lama di [blacksmith_county.GetNameNoTierNoTooltip]"
  fp2_struggle.1011.u:0 "Well, #italic Anima di Ferro#! ovviamente."
  fp2_struggle.1011.v:0 "Mi piace #italic Mistletoe#!..."
  fp2_struggle.1011.swordsmith_leaves:0 "Il suo lavoro è completo, [great_swordsmith.GetName] lascia la tua corte"
@@ -465,10 +469,10 @@ fp2_yearly.8001.desc: "[Select_CString(commoner_enthusiast.IsFemale,'La mia','Il
  fp2_flavor.8001_vassal_opinion:0 "I vassalli che sono gelosi del loro privilegio non apprezzeranno questa situazione."
 
  fp2_yearly.8000.t:0 "L'Incendio dei Vigneti"
- fp2_yearly.8000.desc_muslim_opening:0 "Il vino pregiato prodotto in Iberia è stato a lungo apprezzato dai fedeli che si sono stabiliti qui. Eppure il [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] ha deciso di porre fine a tutto questo.\n\n"Il vino", il suo emissario [hof_emissary.GetTitledFirstName] dichiara, "è certamente #italic haram#!, e non si può più tollerare né la sua produzione né il suo consumo. È quindi necessario dare fuoco ai vigneti di [vineyard_county.GetName]."
- fp2_yearly.8000.desc_jewish_opening:0 "Il vino pregiato prodotto in Iberia è stato a lungo apprezzato dai fedeli che si sono stabiliti qui. Eppure il [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] ha deciso di porre fine a tutto questo.\n\n"Il vino", il suo emissario [hof_emissary.GetTitledFirstName] dichiara, "non è certamente kosher, e non si può più tollerare né la sua produzione né il suo consumo. È quindi necessario dare fuoco ai vigneti di [vineyard_county.GetName]."
- fp2_yearly.8000.desc_jerez:0 "Ma poiché la tua città di [jerez_vineyards.GetNameNoTier] ha i più grandi vigneti di tutta l'Iberia, capiamo la gravità del tuo sacrificio, e il [vinoclast_caliph.GetTitleTierName] non lo dimenticherà. Tuttavia, i vigneti devono bruciare!""
- fp2_yearly.8000.desc_not_jerez:0 "Il [vinoclast_caliph.GetTitleTierName] comprende l'angoscia che questo può causare ai vostri viticoltori, ma pensa a tutta la terra che libererai per scopi migliori e più giusti! I vigneti devono essere distrutti.""
+ fp2_yearly.8000.desc_muslim_opening:0 "Il vino pregiato prodotto in Iberia è stato a lungo apprezzato dai fedeli che si sono stabiliti qui. Eppure il [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] ha deciso di porre fine a tutto questo.\n\nIl vino, il suo emissario [hof_emissary.GetTitledFirstName] dichiara, è certamente #italic haram#!, e non si può più tollerare né la sua produzione né il suo consumo. È quindi necessario dare fuoco ai vigneti di [vineyard_county.GetName]."
+ fp2_yearly.8000.desc_jewish_opening:0 "Il vino pregiato prodotto in Iberia è stato a lungo apprezzato dai fedeli che si sono stabiliti qui. Eppure il [vinoclast_caliph.GetTitleTierName] [vinoclast_caliph.GetFirstName] ha deciso di porre fine a tutto questo.\n\nIl vino, il suo emissario [hof_emissary.GetTitledFirstName] dichiara, non è certamente kosher, e non si può più tollerare né la sua produzione né il suo consumo. È quindi necessario dare fuoco ai vigneti di [vineyard_county.GetName]."
+ fp2_yearly.8000.desc_jerez:0 "Ma poiché la tua città di [jerez_vineyards.GetNameNoTier] ha i più grandi vigneti di tutta l'Iberia, capiamo la gravità del tuo sacrificio, e il [vinoclast_caliph.GetTitleTierName] non lo dimenticherà. Tuttavia, i vigneti devono bruciare!"
+ fp2_yearly.8000.desc_not_jerez:0 "Il [vinoclast_caliph.GetTitleTierName] comprende l'angoscia che questo può causare ai vostri viticoltori, ma pensa a tutta la terra che libererai per scopi migliori e più giusti! I vigneti devono essere distrutti."
  fp2_yearly.8000.a:0 "Distruggere il vino pregiato? Il [vinoclast_caliph.GetTitleTierName] è impazzito?"
  fp2_yearly.8000.b:0 "Li ridurrò in cenere!"
  fp2_yearly.8000.c:0 "No, devo proteggere i viticoltori."
@@ -564,7 +568,7 @@ fp2_struggle.3001.desc: "[struggle_3001_steward.Custom2('MyCharacterIntroduction
  fp2_struggle.2000.f.notif:0 "Indulgenza nei Confronti dei Commercianti Stranieri"
  fp2_struggle.2000.f.notif.desc:0 "Le violazioni del mercato sono aumentate solo ora che il muḥtasib ha smesso di far rispettare i regolamenti"
  fp2_struggle.2001.t:0 "Il Villaggio Abbandonato"
- fp2_struggle.2001.desc:0 "Mentre faccio il giro delle terre del mio [ROOT.GetCharacter.Custom('FortifiedBuilding')], un anziano contadino mi si avvicina.\n\n"Grande Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], vi prego di avere pietà di noi e di salvare il nostro villaggio dalla tirannia di [fp2_2001_desperate_county.GetHolder.GetName]". [fp2_2001_desperate_county.GetHolder.GetSheHe|U] ha trascurato il nostro insediamento per troppo tempo. Il popolo desidera un nuovo sovrano, desidera voi, Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].""
+ fp2_struggle.2001.desc:0 "Mentre faccio il giro delle terre del mio [ROOT.GetCharacter.Custom('FortifiedBuilding')], un anziano contadino mi si avvicina.\n\nGrande Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], vi prego di avere pietà di noi e di salvare il nostro villaggio dalla tirannia di [fp2_2001_desperate_county.GetHolder.GetName]. [fp2_2001_desperate_county.GetHolder.GetSheHe|U] ha trascurato il nostro insediamento per troppo tempo. Il popolo desidera un nuovo sovrano, desidera voi, Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]."
  fp2_struggle.2001.desc.extra.a:0 "[fp2_2001_desperate_county.GetName] appartiene al tuo alleato, [fp2_2001_desperate_county.GetHolder.GetName]. Fornire ai ribelli supporto militare sarebbe un atto di aggressione.\n\n"
  fp2_struggle.2001.desc.extra.b:0 "[fp2_2001_desperate_county.GetHolder.GetName], che detiene [fp2_2001_desperate_county.GetName], ha una tregua in corso con te. Aiutare i contadini sarebbe una violazione di questo accordo."
  fp2_struggle.2001.a:0 "Avete la mia parola, [fp2_2001_desperate_county.GetNameNoTierNoTooltip] sarà liberato/a!"
@@ -603,9 +607,9 @@ fp2_struggle.3001.desc: "[struggle_3001_steward.Custom2('MyCharacterIntroduction
  fp2_struggle.2003.e.notif.b:0 "La Provocazione dei Contadini Finisce in Tragedia"
  fp2_struggle.2003.e.notif.b.desc:0 "La gente del posto ha chiesto ai mercenari di andarsene, ma questa è stata la provocazione necessaria per attaccare."
  fp2_struggle.2007.t:0 "Un castello Degno dell'Iberia"
- fp2_struggle.2007.desc.main:1 "sono maturi per lo sviluppo," afferma il mio [fp2_2007_scoped_steward.GetCouncilTitleFirstName]. "Con il vostro finanziamento, potremmo proteggere [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] contro i nostri nemici in attesa, a un costo #emphasis notevolmente#! ridotto. [2007_vassal_sponsor.GetTitledFirstName] ha presentato una petizione per un [ROOT.Char.Custom('FortifiedBuilding')] nello stile della fede [fp2_2007_foreign_faith.GetAdjective] da costruire su di esso, offrendo un po' dei suoi stessi soldi nel tentativo di influenzare la vostra opinione. Tuttavia, gli altri vassalli chiedono che vi atteniate allo stile degli architetti di fede [ROOT.Char.GetFaith.GetAdjective]. Indipendentemente da chi sceglierete, questa sarà un'occasione d'oro per rafforzare il regno nel suo complesso." L'unico problema è #EMP chi#! sarà scelto per questa lucrosa opportunità..."
- fp2_struggle.2007.desc.a:0 ""Le tue terre $fp2_struggle.2007.desc.main$"
- fp2_struggle.2007.desc.b:0 ""Le terre di [fp2_2007_castle_holder.GetTitledFirstName] $fp2_struggle.2007.desc.main$"
+ fp2_struggle.2007.desc.main:1 "sono maturi per lo sviluppo, afferma il mio [fp2_2007_scoped_steward.GetCouncilTitleFirstName]. Con il vostro finanziamento, potremmo proteggere [fp2_2007_free_real_estate.GetCounty.GetTitle.GetNameNoTier] contro i nostri nemici in attesa, a un costo #emphasis notevolmente#! ridotto. [2007_vassal_sponsor.GetTitledFirstName] ha presentato una petizione per un [ROOT.Char.Custom('FortifiedBuilding')] nello stile della fede [fp2_2007_foreign_faith.GetAdjective] da costruire su di esso, offrendo un po' dei suoi stessi soldi nel tentativo di influenzare la vostra opinione. Tuttavia, gli altri vassalli chiedono che vi atteniate allo stile degli architetti di fede [ROOT.Char.GetFaith.GetAdjective]. Indipendentemente da chi sceglierete, questa sarà un'occasione d'oro per rafforzare il regno nel suo complesso. L'unico problema è #EMP chi#! sarà scelto per questa lucrosa opportunità..."
+ fp2_struggle.2007.desc.a:0 "Le tue terre $fp2_struggle.2007.desc.main$"
+ fp2_struggle.2007.desc.b:0 "Le terre di [fp2_2007_castle_holder.GetTitledFirstName] $fp2_struggle.2007.desc.main$"
  fp2_struggle.2007.a:0 "Assumerò l'architetto di fede [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]."
  fp2_struggle.2007.a.castile:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip]? [fp2_2007_foreign_faith.GetAdjectiveNoTooltip]? Viglio un architetto [fp2_2007_allegedprotocastilean.GetNameNoTooltip]!"
  fp2_struggle.2007.a.notif:0 "La costruzione di un castello inizierà a [fp2_2007_free_real_estate.GetName]."
@@ -691,8 +695,8 @@ fp2_struggle.2016.a: "Mi hanno raggirat[Select_CString(ROOT.Char.IsFemale,'a','o
  fp2_struggle.2018.t.outcome.c:0 "Un Periodo Poco Piacevole"
  fp2_struggle.2018.desc.desc_combat_clarification:0 "Nella mia mente, le nostre spade si sono scontrate, in una feroce battaglia di analisi strategica e di cruda determinazione.\n\nStavamo semplicemente muovendo dei pezzi su una scacchiera, ma l'intensa concentrazione ha fatto sì che la stanza e la scacchiera svanissero nell'etere, lasciandoci su un campo di battaglia creato dalla nostra immaginazione; mossa dopo mossa si avvicina sempre di più alla vittoria, combattendo ferocemente per ogni pedone...\n\n"
  fp2_struggle.2018.desc.desc_intro:0 "Mentre i minuti diventano ore e il crepuscolo segna la fine del nostro tempo insieme, [fp2_2017_gamervassal.GetFirstNameNoTooltip] commenta... "
- fp2_struggle.2018.desc.good_intro_match:0 ""Ah, splendida partita!"
- fp2_struggle.2018.desc.bad_intro_match:0 ""Ugh, che partita... Dovresti allenarti più spesso, le tue mosse erano semplici e prevedibili, non c'è gusto a giocare contro un avversario che non sa difendersi. "
+ fp2_struggle.2018.desc.good_intro_match:0 "Ah, splendida partita!"
+ fp2_struggle.2018.desc.bad_intro_match:0 "Ugh, che partita... Dovresti allenarti più spesso, le tue mosse erano semplici e prevedibili, non c'è gusto a giocare contro un avversario che non sa difendersi. "
  fp2_struggle.2018.desc.fought_hard:0 "$fp2_struggle.2018.desc.good_intro_match$ Di sicuro hai lottato con le unghie e con i denti, lo rispetto."
  fp2_struggle.2018.desc.was_creative:0 "$fp2_struggle.2018.desc.good_intro_match$ Mi hai colto di sorpresa con quell'apertura dell'ippopotamo sul lato del re, che mossa audace! "
  fp2_struggle.2018.desc.match_end_win:0 "E avete vinto anche voi e con merito! "
@@ -702,11 +706,11 @@ fp2_struggle.2016.a: "Mi hanno raggirat[Select_CString(ROOT.Char.IsFemale,'a','o
  fp2_struggle.2018.desc.social_pre_intro_crit:0 "[fp2_2017_gamervassal.GetFirstName] è stat[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] completamente assort[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] dalla conversazione e si è impegnat[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] in ogni momento, discutendo con grande passione gli argomenti trattati."
  fp2_struggle.2018.desc.social_pre_intro_good:0 "[fp2_2017_gamervassal.GetFirstName] stava chiaramente apprezzando la conversazione e l'ospitalità.\n\n"
  fp2_struggle.2018.desc.social_pre_intro_bad:0 "[fp2_2017_gamervassal.GetFirstName] è stat[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] annoiat[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] e distratt[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] per tutto il tempo...\n\n"
- fp2_struggle.2018.desc.social_intro:0 ""Credo di aver bevuto abbastanza. "
+ fp2_struggle.2018.desc.social_intro:0 "Credo di aver bevuto abbastanza. "
  fp2_struggle.2018.desc.social_good:0 "Il/La [ROOT.Char.Custom('GetExpensiveDrink_Singular')] era ottimo/a, grazie. "
- fp2_struggle.2018.desc.outcome_0:0 "Mi sono divertit[ROOT.Char.Custom('DE_END_PRO_S_N')] molto, dovrei venire a trovarvi più spesso!""
- fp2_struggle.2018.desc.outcome_1:0 "È stato divertente, forse tornerò a trovarvi qualche volta.""
- fp2_struggle.2018.desc.outcome_2:0 "Devo andare, mi[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] [SCOPE.sC('fp2_2017_gamervassal').Custom2('RelationToMe', SCOPE.sC('fp2_2017_questgiver'))] probabilmente sente la mia mancanza. Arrivederci, [ROOT.Char.GetFirstNameNoTooltip].""
+ fp2_struggle.2018.desc.outcome_0:0 "Mi sono divertit[ROOT.Char.Custom('DE_END_PRO_S_N')] molto, dovrei venire a trovarvi più spesso!"
+ fp2_struggle.2018.desc.outcome_1:0 "È stato divertente, forse tornerò a trovarvi qualche volta."
+ fp2_struggle.2018.desc.outcome_2:0 "Devo andare, mi[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')] [SCOPE.sC('fp2_2017_gamervassal').Custom2('RelationToMe', SCOPE.sC('fp2_2017_questgiver'))] probabilmente sente la mia mancanza. Arrivederci, [ROOT.Char.GetFirstNameNoTooltip]."
  fp2_struggle.2018.a:0 "Vittoria! L'ho battut[fp2_2017_gamervassal.Custom('DE_END_PRO_S_N')]!"
  fp2_struggle.2018.b:0 "Non siamo diventati amici, ma ci siamo divertiti!"
  fp2_struggle.2018.c:0 "Uh, non è andata bene..."
@@ -717,11 +721,11 @@ fp2_struggle.2016.a: "Mi hanno raggirat[Select_CString(ROOT.Char.IsFemale,'a','o
  fp2_struggle.2020.c.desc:0 "Con il cuore pesante, ti liberi del desiderio dell'horchata, guadagnando notorietà per aver resistito a una grande tentazione."
  fp2_struggle.2020.d:0 "Finanzia la coltivazione di altre zigole dolci nei campi."
  fp2_struggle.2021.t:0 "Il Ritorno del Re dei Ladri"
- fp2_struggle.2021.desc:0 ""Salve [ROOT.Char.GetFirstName], Scommetto che non ti aspettavi di rivedermi. "
- fp2_struggle.2021.desc.alt.cutout:0 "Soprattutto dopo aver distrutto la mia organizzazione anni fa. Ma rompere qualcosa è facile come rimetterlo insieme e non voglio giocare ancora al gatto e al topo. Concedimi un passaggio sicuro per [fp2_2021_old_napoly.GetNameNoTier] e non dovrai più vedermi, la gilda sarà ricostruita lontano da te e dalle tue ricchezze.""
- fp2_struggle.2021.desc.alt.paidoff:0 "Soprattutto quando abbiamo fatto un patto per non disturbarti oltre. Ma il mio borsello comincia a sentirsi di nuovo troppo leggero per essere comodo. Questo può essere un terreno fertile per il crimine, ma non per organizzarlo. Desidero trasferire i miei agenti e me me stesso a [fp2_2021_old_napoly.GetNameNoTier], concedici un passaggio sicuro e non dovrai più preoccuparti di noi.""
- fp2_struggle.2021.desc.alt.work:0 "Ma mi è piaciuto lavorare con te l'ultima volta, e sono a corto di [ROOT.Char.GetWomenMen] fidat[ROOT.Char.Custom('DE_END_NOU_S_G')]. Desidero ritirarmi ora che sono in vantaggio, puoi garantirmi un passaggio sicuro per [fp2_2021_old_napoly.GetNameNoTier]?""
- fp2_struggle.2021.desc.alt.behead:0 "Non sono qui per vendicarmi [fp2_2009_garduna_young_thief.GetFirstName], ma per ritirarmi. Quella era una testa di troppo e so fin troppo bene che la mia potrebbe essere la prossima. Concedimi un passaggio sicuro per adare a [fp2_2021_old_napoly.GetNameNoTier] e non mi vedrai mai più. Non c'è bisogno che questo incontro finisca in uno spargimento di sangue.""
+ fp2_struggle.2021.desc:0 "Salve [ROOT.Char.GetFirstName], Scommetto che non ti aspettavi di rivedermi. "
+ fp2_struggle.2021.desc.alt.cutout:0 "Soprattutto dopo aver distrutto la mia organizzazione anni fa. Ma rompere qualcosa è facile come rimetterlo insieme e non voglio giocare ancora al gatto e al topo. Concedimi un passaggio sicuro per [fp2_2021_old_napoly.GetNameNoTier] e non dovrai più vedermi, la gilda sarà ricostruita lontano da te e dalle tue ricchezze."
+ fp2_struggle.2021.desc.alt.paidoff:0 "Soprattutto quando abbiamo fatto un patto per non disturbarti oltre. Ma il mio borsello comincia a sentirsi di nuovo troppo leggero per essere comodo. Questo può essere un terreno fertile per il crimine, ma non per organizzarlo. Desidero trasferire i miei agenti e me me stesso a [fp2_2021_old_napoly.GetNameNoTier], concedici un passaggio sicuro e non dovrai più preoccuparti di noi."
+ fp2_struggle.2021.desc.alt.work:0 "Ma mi è piaciuto lavorare con te l'ultima volta, e sono a corto di [ROOT.Char.GetWomenMen] fidat[ROOT.Char.Custom('DE_END_NOU_S_G')]. Desidero ritirarmi ora che sono in vantaggio, puoi garantirmi un passaggio sicuro per [fp2_2021_old_napoly.GetNameNoTier]?"
+ fp2_struggle.2021.desc.alt.behead:0 "Non sono qui per vendicarmi [fp2_2009_garduna_young_thief.GetFirstName], ma per ritirarmi. Quella era una testa di troppo e so fin troppo bene che la mia potrebbe essere la prossima. Concedimi un passaggio sicuro per adare a [fp2_2021_old_napoly.GetNameNoTier] e non mi vedrai mai più. Non c'è bisogno che questo incontro finisca in uno spargimento di sangue."
  fp2_struggle.2021.desc.outro:1 "Dice [fp2_2009_garduna_guild_master.GetFullNameNicknamed], mentre stringe nervosamente un sacchetto di monete in una mano e un'arma celata nell'altra."
  fp2_struggle.2021.a:0 ""Molto bene, ti aiuterò a partire per l'Italia.""
  fp2_struggle.2021.a.alt:0 ""Che ne dici, invece, di ritirarti in Italia?""

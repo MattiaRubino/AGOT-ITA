@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  #Visit Local Settlement
  ep3_laamp_decision_event.return.tt: "Ritorni al/alla [THIS.Char.Custom('GetMainsquareCommons')]" #sono state modificate le stringhe 276,277,291
 
@@ -168,12 +167,12 @@ ep3_laamp_decision_event.1000.desc_outro_returned_partner_generic_01: "\n\n[visi
  ep3_laamp_decision_event.1010.desc_returned: "Con la bancarella ancora traboccante di articoli, il mercante di rifornimenti [laamp_supply_merchant.GetFirstName] raccoglie un [ROOT.Char.Custom('RegionalRootVegetable')] caduto dal bancone.\n\nAlzo appena le sopracciglia verso di [laamp_supply_merchant.GetSheHe] per segnalare il mio ritorno, e"
  ep3_laamp_decision_event.1010.desc_reused_merchant_reaction_01: "[laamp_supply_merchant.GetSheHe] mi squadra con aria piacevolmente sorpresa:"
  ep3_laamp_decision_event.1010.desc_reused_merchant_reaction_02: "[laamp_supply_merchant.GetSheHe] sembra sinceramente un po’ [Select_CString(laamp_supply_merchant.IsFemale,'colta','colto')] di sorpresa nel vedermi:"
- ep3_laamp_decision_event.1010.desc_reused_merchant_intro: ""Un cliente di ritorno!"
+ ep3_laamp_decision_event.1010.desc_reused_merchant_intro: "Un cliente di ritorno!"
  ep3_laamp_decision_event.1010.desc_reused_merchant_01: "Che gioia per gli occhi stanchi!"
  ep3_laamp_decision_event.1010.desc_reused_merchant_02: "Non ti è bastato, eh!"
  ep3_laamp_decision_event.1010.desc_reused_merchant_03: "Non ci posso credere!"
- ep3_laamp_decision_event.1010.desc_reused_merchant_outro_01: "Cosa desideri?""
- ep3_laamp_decision_event.1010.desc_reused_merchant_outro_02: "Che cosa sarà?""
+ ep3_laamp_decision_event.1010.desc_reused_merchant_outro_01: "Cosa desideri?"
+ ep3_laamp_decision_event.1010.desc_reused_merchant_outro_02: "Che cosa sarà?"
  ep3_laamp_decision_event.1010.desc_trait_gregarious_new: "[laamp_supply_merchant.GetSheHe] si illumina mentre mi rivolge un sorriso amichevole: "
  ep3_laamp_decision_event.1010.desc_trait_gregarious_return: "[laamp_supply_merchant.GetSheHe] mi rivolge un altro sorriso cordiale: "
  ep3_laamp_decision_event.1010.desc_trait_callous_new: "[laamp_supply_merchant.GetSheHe] a malapena mi guarda mentre mi si rivolge: "
@@ -562,7 +561,7 @@ ep3_laamp_decision_event.1033.desc_returned_outro_01: "\n\nQuando mi notano, si 
  ep3_laamp_decision_event.1037.desc_reused_thief: "$ep3_laamp_decision_event.1037.desc_intro$.$ep3_laamp_decision_event.1037.desc_reused_thief_outro$"
  ep3_laamp_decision_event.1037.desc_nomad_reused_thief: "$ep3_laamp_decision_event.1037.desc_nomad_intro$.$ep3_laamp_decision_event.1037.desc_reused_thief_outro$"
 
- ep3_laamp_decision_event.1037.desc_noble: "...e poi c’è la tassa di #EMP seduta#!," commenta il furfante [visiting_location.GetCounty.GetCulture.GetNameNoTooltip] con un sorriso ironico, mentre [ROOT.Char.GetSheHe] indica la sedia della figura incappucciata. "È un altro po’ d’oro, di certo."\n\nL[laamp_hooded_figure.Custom('DE_PRO_PER_S_3P_N')][laamp_hooded_figure.GetWomanMan] [Select_CString(laamp_hooded_figure.IsFemale,'incappucciata','incappucciato')] si alza di scatto e, mentre il cappuccio cade, riconosco [Select_CString(laamp_hooded_figure.IsFemale,'la','lo')] nientemeno che come [laamp_hooded_figure.GetName]: "È un oltraggio!" esclama [laamp_hooded_figure.GetTitleAsNameNoTooltip], visibilmente turbato.\n\n"Non costringermi a chiedere ai miei #EMP soci in affari#!" minaccia il furfante, e la situazione si fa sempre più tesa."
+ ep3_laamp_decision_event.1037.desc_noble: "...e poi c’è la tassa di #EMP seduta#!, commenta il furfante [visiting_location.GetCounty.GetCulture.GetNameNoTooltip] con un sorriso ironico, mentre [ROOT.Char.GetSheHe] indica la sedia della figura incappucciata. È un altro po’ d’oro, di certo.\n\nL[laamp_hooded_figure.Custom('DE_PRO_PER_S_3P_N')][laamp_hooded_figure.GetWomanMan] [Select_CString(laamp_hooded_figure.IsFemale,'incappucciata','incappucciato')] si alza di scatto e, mentre il cappuccio cade, riconosco [Select_CString(laamp_hooded_figure.IsFemale,'la','lo')] nientemeno che come [laamp_hooded_figure.GetName]: È un oltraggio! esclama [laamp_hooded_figure.GetTitleAsNameNoTooltip], visibilmente turbato.\n\nNon costringermi a chiedere ai miei #EMP soci in affari#! minaccia il furfante, e la situazione si fa sempre più tesa."
  ep3_laamp_decision_event.1037.desc: "$ep3_laamp_decision_event.1037.desc_intro$$ep3_laamp_decision_event.1037.desc_outro$"
  ep3_laamp_decision_event.1037.desc_nomad: "$ep3_laamp_decision_event.1037.desc_nomad_intro$$ep3_laamp_decision_event.1037.desc_outro$"
 ep3_laamp_decision_event.1037.desc_outro: ": «Suppongo che mi riconosciate dalla mia fama?» #EMP Il [laamp_hooded_figure.Custom2('CriminalAdjective', ROOT.Char)] e [laamp_hooded_figure.Custom2('CriminalCrierInsult', ROOT.Char)] criminale [laamp_hooded_figure.GetFirstNameNoTooltip]!#!»\n\n«...Ho #EMP intenerito#! persone per insulti più lievi. Ora che cosa volete?» [laamp_hooded_figure.GetFirstNamePossessive] sguardo si fissa su di me, mentre [Select_CString(laamp_hooded_figure.IsFemale,'lei','lui')] alza un sopracciglio inquisitore."

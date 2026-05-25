@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  #A spouse/consort attempts to influence you into changing your heir
  bp1_yearly.2020.t:0 "Grandi Aspettative"
  bp1_yearly.2020.desc:0 "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] mi si avvicina con un sorriso amichevole. "Amore mio! Hai visto come sta diventando regale il nostro [bp1_yearly_2020_child_to_become_heir.GetFirstName]? [bp1_yearly_2020_child_to_become_heir.GetSheHe|U] potrebbe tranquillamente governare questo Paese con una mano legata dietro la schiena. E giuro su [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] che [bp1_yearly_2020_child_to_become_heir.GetSheHe] ti renderebbe davvero orgoglios[ROOT.Char.Custom('DE_END_PRO_S_N')]."\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] mi lancia un'occhiata in tralice. "Naturalmente, se c'è qualcosa che posso fare per renderti l'idea più allettante... sono sicur[bp1_yearly_2020_influencing_partner.Custom('DE_END_PRO_S_N')] che me lo faresti sapere e potremmo trovare una sorta di accordo mi[ROOT.Char.Custom('DE_END_PRO_S_N')] car[ROOT.Char.Custom('DE_END_PRO_S_N')] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]." Un sorriso ironico indugia sulle sue labbra.\n\n#EMP Qualsiasi cosa#!, ha detto?"
@@ -100,7 +99,7 @@ bp1_yearly.2040.desc: 0 "[bp1_yearly_2040_upset_consort.Custom('IT_NAM_COL3')][b
  bp1_yearly.2050.t:0 "Uno Studio sulla [bp1_yearly_2050_first_consort.Custom('SisterhoodBrotherhood')|U]"
  bp1_yearly.2050.desc_intro:0 "[bp1_yearly_2050_first_consort.Custom('DE_PRO_POS_S_1P')|U] mi[bp1_yearly_2050_first_consort.Custom('DE_ART_IND_G')] consorti mi avvicinano durante la mia passeggiata pomeridiana."
  bp1_yearly.2050.desc_intro_paranoid:0 "[bp1_yearly_2050_first_consort.Custom('DE_PRO_POS_S_1P')|U] mi[bp1_yearly_2050_first_consort.Custom('DE_ART_IND_G')] consorti mi tendono un'imboscata durante la mia passeggiata pomeridiana."
- bp1_yearly.2050.desc:0 "\n\n"Da un po' di tempo ci stiamo consultando fra noi, [ROOT.Char.GetTitledFirstName].\nVorremmo restituire qualcosa alla comunità e, sotto la guida di [highest_consort_skill_person.GetFirstName], vorremmo iscriverci, assieme ad altre persone, "
+ bp1_yearly.2050.desc:0 "\n\nDa un po' di tempo ci stiamo consultando fra noi, [ROOT.Char.GetTitledFirstName].\nVorremmo restituire qualcosa alla comunità e, sotto la guida di [highest_consort_skill_person.GetFirstName], vorremmo iscriverci, assieme ad altre persone, "
  bp1_yearly.2050.desc_diplomacy:0 "a un programma di studi riguardanti la diplomazia e l'arte del rinfoderare la spada."
  bp1_yearly.2050.desc_martial:0 "a un programma di studi riguardanti l'arte marziale e della forza bruta."
  bp1_yearly.2050.desc_stewardship:0 "a un programma di studi riguardanti l'amministrazione e l'arte del gestire un dominio."
@@ -121,12 +120,12 @@ bp1_yearly.2040.desc: 0 "[bp1_yearly_2040_upset_consort.Custom('IT_NAM_COL3')][b
  bp1_yearly.2050.d_tt:0 "Sarà meglio non incoraggiare questa iniziativa."
  #Friendly consorts want to tutor other consort's child
  bp1_yearly.2060.t:0 "Ci Vuole un Villaggio Intero"
- bp1_yearly.2060.desc_intro:0 "Ho notato che, di recente, [bp1_yearly_2060_first_consort.Custom('DE_ART_DEF_P_A')] [bp1_yearly_2060_first_consort.GetTitledFirstName] e [bp1_yearly_2060_second_consort.Custom('DE_ART_DEF_P_A')] [bp1_yearly_2060_second_consort.GetTitledFirstName] passano molto tempo insieme. Questa mattina, il duo viene a trovarmi, con una palese eccitazione all'idea di qualcosa.\n\n"[ROOT.Char.GetTitledFirstName]! [bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] e io abbiamo particolarmente legato grazie al nostro comune interesse per "
- bp1_yearly.2060.desc_diplomacy:1 "la diplomazia e i metodi per conciliare le diatribe,""
- bp1_yearly.2060.desc_martial:1 "le arti marziali e la scienza del combattimento,""
- bp1_yearly.2060.desc_stewardship:0 "l'economia e le abilità amministrative,""
- bp1_yearly.2060.desc_intrigue:1 "l'intrigo e i sotterfugi a corte,""
- bp1_yearly.2060.desc_learning:1 "l'apprendimento e il nostro amore per il sapere,""
+ bp1_yearly.2060.desc_intro:0 "Ho notato che, di recente, [bp1_yearly_2060_first_consort.Custom('DE_ART_DEF_P_A')] [bp1_yearly_2060_first_consort.GetTitledFirstName] e [bp1_yearly_2060_second_consort.Custom('DE_ART_DEF_P_A')] [bp1_yearly_2060_second_consort.GetTitledFirstName] passano molto tempo insieme. Questa mattina, il duo viene a trovarmi, con una palese eccitazione all'idea di qualcosa.\n\n[ROOT.Char.GetTitledFirstName]! [bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] e io abbiamo particolarmente legato grazie al nostro comune interesse per "
+ bp1_yearly.2060.desc_diplomacy:1 "la diplomazia e i metodi per conciliare le diatribe,"
+ bp1_yearly.2060.desc_martial:1 "le arti marziali e la scienza del combattimento,"
+ bp1_yearly.2060.desc_stewardship:0 "l'economia e le abilità amministrative,"
+ bp1_yearly.2060.desc_intrigue:1 "l'intrigo e i sotterfugi a corte,"
+ bp1_yearly.2060.desc_learning:1 "l'apprendimento e il nostro amore per il sapere,"
  bp1_yearly.2060.desc_outro:1 " spiega [bp1_yearly_2060_first_consort.GetFirstNameNoTooltip].\n\n[bp1_yearly_2060_second_consort.GetFirstNameNoTooltip] si fa poi avanti: "Mi[bp1_yearly_2060_target_child.Custom('DE_END_PRO_S_N')] [bp1_yearly_2060_second_consort.Custom2('RelationToMeShort', bp1_yearly_2060_target_child)] [bp1_yearly_2060_target_child.GetFirstNameNoTooltip] ha dato prova di essere molto promettente in questo campo e vorremmo dar[bp1_yearly_2060_target_child.Custom('DE_PRO_DEM')] delle lezioni private!""
  bp1_yearly.2060.a:0 "Questa mi sembra un'ottima idea!"
  bp1_yearly.2060.a_paranoid:0 "Se proprio insistete."

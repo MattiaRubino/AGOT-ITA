@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  #Wordplay of the word "shiki" in Japanese meaning "spread"
   tgp_japan_yearly_events.0001.t: "Spargere gioia"
 tgp_japan_yearly_events.0001.desc: "Benché sia in confidenza con [ROOT.Char.Custom2('RelationToMe', gift_receiver)], [gift_receiver.GetFirstName], non posso fare a meno di notare che [Select_CString(gift_receiver.IsFemale,'lei','lui')] sorride meno del solito. Detesterei pensare che sia a causa mia!\n\nMentre passo in rassegna le delizie del mercato, m’imbatto in un venditore che propone una varietà di eleganti [Glossary( 'uchiwa', 'UCHIWA_GLOSS' )]. Insiste:\n\n"Avvolgi questo nel tuo [Glossary( 'furoshiki', 'FUROSHIKI_GLOSS' )] e chi lo riceverà capirà che desideri diffondere gioia!""
@@ -69,7 +68,7 @@ tgp_japan_yearly_events.0021.a: "Offro un po’ di sakè."
 HANAMI_GLOSS: "#bold Hanami#! - "flower viewing", a Japanese tradition inherited from China of admiring plum blossoms. Over time and with poetic influences such as the Tale of Genji, by the Heian period the focus had shifted toward prioritizing cherry blossoms."
 
   tgp_japan_yearly_events.0026.t: "Racconti dei Tengu"
-tgp_japan_yearly_events.0026.desc: "La voce inconfondibile di [ROOT.Char.Custom2('RelationToMe', rumormonger)] [rumormonger.GetTitledFirstName] rimbomba da una taverna, seguita dalle risate intrise di sakè di [ROOT.Char.Custom2('RelationToMeShort', gossiper)] [gossiper.GetTitledFirstName].\n\n"Per tutte le nostre indomite terre selvagge si aggira il [Glossary( 'Tengu', 'TENGU_GLOSS' )]! Un mostro coperto di piume, il cui temperamento è feroce quanto la sua maestria con la spada. Questo spirito malvagio condanna tutto ciò che è sacro!\n\nBevendo un altro sorso del suo sakè, "Eppure si dice che chi saprà dimostrarsi degno agli occhi della bestia sarà ricompensato con un’arte marziale sopraffina. Ma, guardando questo mare di codardi, sono certo che sia una causa persa!""
+tgp_japan_yearly_events.0026.desc: "La voce inconfondibile di [ROOT.Char.Custom2('RelationToMe', rumormonger)] [rumormonger.GetTitledFirstName] rimbomba da una taverna, seguita dalle risate intrise di sakè di [ROOT.Char.Custom2('RelationToMeShort', gossiper)] [gossiper.GetTitledFirstName].\n\n«Per tutte le nostre indomite terre selvagge si aggira il [Glossary( 'Tengu', 'TENGU_GLOSS' )]! Un mostro coperto di piume, il cui temperamento è feroce quanto la sua maestria con la spada. Questo spirito malvagio condanna tutto ciò che è sacro!»\n\nBevendo un altro sorso del suo sakè, «Eppure si dice che chi saprà dimostrarsi degno agli occhi della bestia sarà ricompensato con un’arte marziale sopraffina. Ma, guardando questo mare di codardi, sono certo che sia una causa persa!»"
   tgp_japan_yearly_events.0026.a: "Mi chiedo se sia vero."
 tgp_japan_yearly_events.0026.a.tt: "La prossima volta che viaggerò tra montagne o foreste, terrò gli occhi aperti per questa misteriosa creatura."
 tgp_japan_yearly_events.0026.b: "Sono solo farneticazioni da ubriachi..."
@@ -401,7 +400,7 @@ tgp_japan_yearly_events.1262.japan.outro.outro: "o lo sguardo simile a un[local_
   tgp_japan_yearly_events.1262.a: "Ho proprio il verso!"
   tgp_japan_yearly_events.1262.a.flavor: "#EMP «Il vento porta la tua voce,\n\nsoffice come il sospiro delle foglie che cadono,\n\nsotto cieli autunnali.»#!"
   tgp_japan_yearly_events.1262.b: "Scambiamoci più che parole..."
-  tgp_japan_yearly_events.1262.b.flavor: "Nella notte le nostre voci riecheggeranno innumerevoli “versi"."
+  tgp_japan_yearly_events.1262.b.flavor: "Nella notte le nostre voci riecheggeranno innumerevoli “versi”."
   tgp_japan_yearly_events.1262.c: "Oppure [Select_CString( local_poet.IsFemale, 'è un’assassina', 'è un assassino' )]?!"
   MONONOAWARE_GLOSS: "Una disposizione d’animo cui si accede componendo poesia nel Giappone Heian. Si coltiva una sensibilità emotiva intensa ma temperata, focalizzata sulla bellezza effimera e su un nostalgico riconoscimento della tirannia del tempo."
   RENGA_GLOSS: "La «poesia concatenata» giapponese è una forma in cui più poeti contribuiscono con strofe alternate."

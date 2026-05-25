@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 #Travel Danger Events
 #Land: Beast of the wild
  travel_danger_events.6000.t:0 "$travel_danger_prefix$ Una Belva Spaventosa!"
@@ -7,7 +6,7 @@
  travel_danger_events.6000.desc.again:0 "Percorro lentamente il sentiero di [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')], in maniera cauta dopo il mio ultimo incontro con una fiera selvatica. Mi si stringe il cuore quando sento un [ROOT.Char.Custom('GetAnimalSound')] provenire da un gruppo di [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] — [ROOT.Char.GetFaith.FateGodName] mi prende in giro! Un esemplare di [ROOT.Char.Custom('GetAnimalType')]!"
  travel_danger_events.6000.desc.seriously:0 "Intimoriti dalla nostra recente sfortuna, attraversiamo i sentieri del/della [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')] con la massima cautela. Proprio quando stavo proprio cominciando a rilassare un [ROOT.Char.Custom('GetAnimalSound')] sovviene da un gruppo di [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')]! Un maledetto esemplare di [ROOT.Char.Custom('GetAnimalType')]!"
  travel_danger_events.6000.body:0 "\n\nL'animale [ROOT.Char.Custom('GetAnimalColor')] con le sue [ROOT.Char.Custom('GetAnimalChargePresent')] ci sbarra il percorso, imprimendo nel terreno le grandi impronte delle sue [ROOT.Char.Custom('GetAnimalTrackPlural')]. Come se non bastasse, vi è anche un [ROOT.Char.GetCurrentLocation.Custom('GetRandomAppropriateTree')] sul lato, a bloccarci completamente la strada per [destination.GetBaronyNameExplicitlyNoTooltip]."
- travel_danger_events.6000.victim:0 "\n\n[beast_victim.GetFirstName] sussurra, "Guardate che #EMP [ROOT.Char.Custom('GetAnimalDanger')]#!..."
+ travel_danger_events.6000.victim:0 "\n\n[beast_victim.GetFirstName] sussurra, Guardate che #EMP [ROOT.Char.Custom('GetAnimalDanger')]#!..."
  travel_danger_events.6000.a:0 "Fatevi da parte, ci penso io!"
  travel_danger_events.6000.a_again:0 "Ti mando a conoscere l'altra bestia!"
  travel_danger_events.6000.a_seriously:0 "Lasciami #EMP PASSARE#!!"

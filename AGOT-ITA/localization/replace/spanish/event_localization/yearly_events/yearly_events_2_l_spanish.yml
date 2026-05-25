@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  yearly.1001.t: "Sguardi velati"
  yearly.1001.start.desc: "Quando i miei occhi incrociano quelli di [married_seducer.GetFirstName] per quella che dev’essere la ventesima volta questa sera, capisco che non me lo sto immaginando. Persino dall’estremità opposta della tavola avverto il suo sguardo, rovente come il sole di mezzogiorno.\n\n[married_seducer.GetSheHe|U] mi desidera"
  yearly.1001.end_hesitation.desc: "e sento il corpo rispondere, risvegliarsi. Ma [seducer_spouse.Custom('IT_NAM_COL3')][seducer_spouse.GetTitledFirstName|l], [seducer_spouse.GetWifeHusband] nonchè [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('seducer_spouse'))], è qui con noi questa sera…"
@@ -31,7 +30,7 @@
  yearly.1010.t: "Fuga nella notte"
  yearly.1010.start.desc: "Appena entro nelle [ROOT.Char.Custom('GetChamberPlural')] [abductee.Custom('IT_NAM_COL2')][abductee.GetTitledFirstName|l], la prima cosa che vedo è una guardia accasciata in un angolo. La seconda, un taglio netto e rosso alla gola. Ma ([abductee.Custom('DE_ART_DEF_P_A')]) mi[abductee.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('abductee'))] non è da nessuna parte!\n\n"
  yearly.1010.friend.desc: "[hunter.Custom('IT_NAM_COL3')][hunter.GetTitledFirstName] entra nella [ROOT.Char.Custom('GetRoom')] con un arco a tracolla. «Mi dispiace, [Select_CString(ROOT.Char.IsFemale, 'vecchia amica', 'vecchio amico')]. [abductor.Custom('IT_NAM_COL3')][abductor.GetTitledFirstName|l] l'ha rapit[abductee.Custom('DE_END_PRO_S_N')].»"
- yearly.1010.marshal.desc: "([hunter.Custom('DE_ART_DEF_P_A')|U]) mi[hunter.Custom('DE_END_PRO_S_N')][ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hunter'))] entra nella [ROOT.Char.Custom('GetRoom')] con un arco a tracolla. «La guardia sopravvissuta sostiene che sia stat[abductor.Custom('DE_END_PRO_S_N')] [abductor.Custom('IT_NAM_COL3')][abductor.GetTitledFirstName|l] a rapir[abductee.Custom('DE_PRO_POS_P_3P')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('GetCourtOwner')].""
+ yearly.1010.marshal.desc: "([hunter.Custom('DE_ART_DEF_P_A')|U]) mi[hunter.Custom('DE_END_PRO_S_N')][ROOT.Char.Custom2('RelationToMe', SCOPE.sC('hunter'))] entra nella [ROOT.Char.Custom('GetRoom')] con un arco a tracolla. «La guardia sopravvissuta sostiene che sia stat[abductor.Custom('DE_END_PRO_S_N')] [abductor.Custom('IT_NAM_COL3')][abductor.GetTitledFirstName|l] a rapir[abductee.Custom('DE_PRO_POS_P_3P')], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('GetCourtOwner')]."
  yearly.1010.end.desc: "I segugi e [dummy_gender.GetWomenMen] sono pronti. Ordini?»"
  yearly.1010.abduction.tt: "[abductee.Custom('DE_ART_DEF_P_D')] [abductee.GetTitledFirstName] è stat[abductee.Custom('DE_END_PRO_S_N')] rapit[abductee.Custom('DE_END_PRO_S_N')] [abductor.Custom('IT_NAM_COL5')][abductor.GetTitledFirstName|l]."
  yearly.1010.friend.tt: "([hunter.Custom('DE_ART_DEF_P_A')|U]) mi[hunter.Custom('DE_END_PRO_S_N')][ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hunter'))], [hunter.Custom('IT_NAM_COL3')][hunter.GetTitledFirstName|l], è qui per aiutare."
@@ -43,7 +42,7 @@ yearly.1010.b: 0 "Voglio quel[Select_CString(abductor.IsFemale,'la','lo')] [abdu
  yearly_1010_save_abductee_random_list_effect.success.tt: "[abductee.GetShortUIName|U] viene salvat[abductee.Custom('DE_END_PRO_S_N')]"
  yearly_1010_save_abductee_random_list_effect.failure.tt: "[abductor.GetShortUIName|U] rapisce [abductee.GetShortUIName]"
  
- yearly.1011.desc: "«E ([abductee.Custom('DE_ART_DEF_P_A')]) tu[abductee.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('abductee'))]?», chiede [SCOPE.sC('hunter').GetFirstName]. «La guardia ha solo udito qualcosa. Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che ci sia una buona spiegazione, ma sappi che alcuni credono se ne sia andat[ROOT.Char.Custom('DE_END_PRO_S_N')] di sua spontanea volontà…"."
+ yearly.1011.desc: "«E ([abductee.Custom('DE_ART_DEF_P_A')]) tu[abductee.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('abductee'))]?», chiede [SCOPE.sC('hunter').GetFirstName]. «La guardia ha solo udito qualcosa. Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che ci sia una buona spiegazione, ma sappi che alcuni credono se ne sia andat[ROOT.Char.Custom('DE_END_PRO_S_N')] di sua spontanea volontà…."
  yearly.1011.a: "Sciocchezze. Difendi [abductee.GetFirstNameNoTooltip] anche a costo della vita."
  yearly.1011.b: "[abductee.Custom('DE_PRO_POS_P_3P')|E] voglio in catene."
  yearly.1011.c: "Tagliate[abductee.Custom('DE_PRO_DEM')] la gola e seppellite il corpo."

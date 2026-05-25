@@ -135,7 +135,7 @@ health.1011.court_physician.desc: 0 "\n\n«[ROOT.Char.Custom('FormOfAddressForLi
 
  # Recover from diseases, by Mathilda Bjarnehed
  health.1101.t:1 "[SCOPE.Custom('EventTitleDisease')]: Il Vecchio Me"
- health.1101.desc:1 "Quando mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] questa mattina e ho osservato i primi raggi del sole filtrare attraverso la mia finestra, mi ci è voluto un momento per rendermi conto di aver dormito profondamente per la prima volta da settimane. Mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] senza tossire una sola volta!"\n\nIl percorso per rimettermi totalmente in salute è stato lungo ma, ora, finalmente, mi ritrovo di nuovo nel suo caldo abbraccio."
+ health.1101.desc:1 "Quando mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] questa mattina e ho osservato i primi raggi del sole filtrare attraverso la mia finestra, mi ci è voluto un momento per rendermi conto di aver dormito profondamente per la prima volta da settimane. Mi sono svegliat[ROOT.Char.Custom('DE_END_PRO_S_N')] senza tossire una sola volta!»\n\nIl percorso per rimettermi totalmente in salute è stato lungo ma, ora, finalmente, mi ritrovo di nuovo nel suo caldo abbraccio."
  health.1101.a:0 "Sono content[ROOT.Char.Custom('DE_END_PRO_S_N')] di stare di nuovo bene."
 
  health.1102.t:1 "[SCOPE.Custom('EventTitleDisease')]: Le Forze stanno Tornando"
@@ -299,7 +299,7 @@ health.3101.start.desc: 0 "Il cupo odore di tinture ribollenti e unguenti pestat
  health.3101.safe_recommendation.desc:0 "Anche se sono abbastanza cert[physician.Custom('DE_END_PRO_S_N')] che una semplice tintura possa essere sufficiente,"
  health.3101.risky_recommendation.desc:0 "Consiglierei misure drastiche, ma"
  health.3101.mystic_recommendation.desc:0 "Se posso essere così audace, vorrei raccomandare un ... trattamento alternativo. Ma"
- health.3101.end.desc:1 "la scelta è tua e tua soltanto." dice [physician.GetSheHe|U] con una smorfia.\n\n"Non sarà piacevole.""
+ health.3101.end.desc:1 "la scelta è tua e tua soltanto.» dice [physician.GetSheHe|U] con una smorfia.\n\n«Non sarà piacevole.»"
  health.3101.a:0 "Non fare più di quanto sia necessario."
  health.3101.b:0 "È troppo tardi per essere prudenti!"
  health.3101.c:0 "Sono dispost[ROOT.Char.Custom('DE_END_PRO_S_N')] a... provare cose nuove."
@@ -456,14 +456,14 @@ health.3200.end.desc: 0 "\n\n[Select_CString(physician.IsFemale,'La medica','Il 
  health.4000.wounded.desc:0 "e [sick_character.GetSheHe] sta chiaramente soffrendo. Il tormento è sopportabile, ma i mali del corpo non devono essere presi alla leggera."
  health.4000.a:0 "Non c'è niente che si possa fare."
 
- health.4001.start.desc:0 ""È giunto il momento di curare le tue ferite."
+ health.4001.start.desc:0 "«È giunto il momento di curare le tue ferite."
  health.4001.safe_recommendation.desc:0 "Sono certo che un semplice trattamento sarà sufficiente, ma"
  health.4001.gangrene.desc:0 "Dato che la morte si sta già diffondendo attraverso la carne, temo di dover raccomandare un misura... #EMP drastica#!, ma"
  health.4001.infection.desc:0 "Poiché la ferita è infetta, devo raccomandare misure drastiche, ma"
  health.4001.risky_recommendation.desc:0 "Raccomando misure drastiche, ma"
 
- health.4002.start.desc:0 ""È giunto il momento di curare [sick_character.GetFirstName]."
- health.4002.start.desc_sick_physician:0 ""È giunto il momento di curarmi."
+ health.4002.start.desc:0 "È giunto il momento di curare [sick_character.GetFirstName]."
+ health.4002.start.desc_sick_physician:0 "È giunto il momento di curarmi."
 
  health.4101.t:1 "$health_wounded_title$ Guarigione"
  health.4101.desc_infection:0 "Quando [physician.GetFirstName] ha iniziato a mischiare delicatamente erbe e miele insieme, ho pensato che stesse scherzando - sicuramente quella sostanza non poteva aiutarmi. Quando ha applicato l'impiastro sulla mia ferita dolorante"

@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
   tgp_travel_events.0025.t: "Prima la famiglia"
   tgp_travel_events.0025.desc: "«Mio [ROOT.Char.GetTitleAsNameNoTooltip], desidero ammirare i panorami! Non mi lasceresti stare davanti con il mio carro? La mia visuale è terribilmente ostruita dietro al tuo», mi chiede [spouse.Custom('IT_NAM_COL3')][spouse.GetTitledFirstName] durante una sosta a [ROOT.Char.GetCurrentLocation.GetName]. Soffoca uno sbadiglio dietro la mano e mi guarda con occhi assonnati. \n\nPrima che abbia il tempo di rispondere, interviene [crusty_person.Custom('IT_NAM_COL3')][crusty_person.GetTitledFirstName] con un sorriso stucchevole. «Di certo non dobbiamo dimenticare l’ordine che un coniuge perbene deve osservare. Il decoro impone che [Select_CString(spouse.IsFemale,'la tua','il tuo')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('spouse'))] resti al posto a [Select_CString(spouse.IsFemale,'lei','lui')] assegnato.»"
   tgp_travel_events.0025.a: "Come [spouse.Custom('IT_NAM_COL3')][spouse.GetTitleAsNameNoTooltip] desidera."

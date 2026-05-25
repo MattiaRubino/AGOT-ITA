@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
 # Travel Danger Event Prefix
  travel_danger_prefix:0 "Pericolo:"
 
@@ -34,7 +33,7 @@ travel_danger_events.1000.desc: 0 "La strada è diventata incredibilmente collin
  travel_danger_events.1002.b.failure.desc:0 "$travel_danger_events.1002.a.failure.desc$"
  travel_danger_events.1002.c:0 ""Guardie! Occupatevi di questi zotici!""
  travel_danger_events.1002.c.tt:0 "Mandi le guardie dell'[travel_option|E] a prendersi cura dei furfanti"
- travel_danger_events.1002.d:0 ""E se invece vi pagassi per guidarci attraverso tutte le montagne?"
+ travel_danger_events.1002.d:0 "E se invece vi pagassi per guidarci attraverso tutte le montagne?"
  travel_danger_events.1002.e:0 "È il loro territorio..."
 
  travel_danger_events.1003.t:1 "$travel_danger_prefix$ Terreno Fangoso"
@@ -139,9 +138,9 @@ travel_danger_events.1009.desc: 0 "L’esile [zombie.GetWomanMan] copre in frett
  travel_danger_events.1011.c_frostbite_treatment_none_failure:0 "Questa volta [frostbite_victim.GetSheHe] starà bene, dobbiamo andare ora!"
 
  travel_danger_events.1012.t:0 "$travel_danger_prefix$ Frutto Tentatore"
- travel_danger_events.1012.desc:0 "La nostra strada ci porta attraverso zone pericolose di [ROOT.Char.GetCurrentLocation.GetName]. Mentre perlustro il terreno per individuare eventuali pericoli, un fruscio di cespugli attira la mia attenzione: potrebbe essere un animale selvatico? Mentre mi preparo all'impatto, [poisonous_plant_eater.GetFirstName] salta fuori dal cespuglio, con una pianta in mano.\n\n"Mi hai spaventat[ROOT.Char.Custom('DE_END_PRO_S_N')], [poisonous_plant_eater.GetFirstNameNoTooltip]! Comunque, fammi vedere cos'hai trovato, una specie di frutto?"
- travel_danger_events.1012.desc_food_taster:0 "$travel_danger_events.1012.desc$ Dovremmo chiedere a [food_taster.GetFirstName]."\n\n"Devo dire che è una prelibatezza insolita e nulla fa pensare ad un immediato pericolo, tuttavia..." "Allora si può mangiare tranquillamente!" interiviene rapidamente [poisonous_plant_eater.GetFirstNameNoTooltip]."
- travel_danger_events.1012.desc_unknown:0 "$travel_danger_events.1012.desc$" Esclamo.\n\n"Sì! Ha un aspetto e un odore #EMP così delizioso#!, mi chiedo come sarà il sapore. Che ne dite se ne prendessi solo un piccolo morso?" risponde."
+ travel_danger_events.1012.desc:0 "La nostra strada ci porta attraverso zone pericolose di [ROOT.Char.GetCurrentLocation.GetName]. Mentre perlustro il terreno per individuare eventuali pericoli, un fruscio di cespugli attira la mia attenzione: potrebbe essere un animale selvatico? Mentre mi preparo all'impatto, [poisonous_plant_eater.GetFirstName] salta fuori dal cespuglio, con una pianta in mano.\n\n«Mi hai spaventat[ROOT.Char.Custom('DE_END_PRO_S_N')], [poisonous_plant_eater.GetFirstNameNoTooltip]! Comunque, fammi vedere cos'hai trovato, una specie di frutto?»"
+ travel_danger_events.1012.desc_food_taster:0 "$travel_danger_events.1012.desc$ Dovremmo chiedere a [food_taster.GetFirstName].»\n\n«Devo dire che è una prelibatezza insolita e nulla fa pensare ad un immediato pericolo, tuttavia...» «Allora si può mangiare tranquillamente!» interiviene rapidamente [poisonous_plant_eater.GetFirstNameNoTooltip]."
+ travel_danger_events.1012.desc_unknown:0 "$travel_danger_events.1012.desc$» Esclamo.\n\n«Sì! Ha un aspetto e un odore #EMP così delizioso#!, mi chiedo come sarà il sapore. Che ne dite se ne prendessi solo un piccolo morso?» risponde."
  travel_danger_events.1012.desc_again:0 "Ancora una volta la strada da percorrere è pericolosa, quindi per sicurezza dobbiamo fermarci per la notte. Mentre gli altri preparano l'accampamento, sorprendo [poisonous_plant_eater.GetFirstName] a prendere un altro frutto sconosciuto.\n\n"Ammiro la tua curiosità, [poisonous_plant_eater.GetFirstNameNoTooltip]."\n\n Io sorrido, ma [poisonous_plant_eater.GetSheHe] mi lancia invece uno sguardo malizioso, poi sbotta:\n\n"Mi dispiace [poisonous_plant_eater.Custom2('RelationToMe', ROOT.Char)] mi[ROOT.Char.Custom('DE_END_PRO_S_N')], ma non riesco a trattenermi!" mentre prova ad affondare i denti nel frutto."
  travel_danger_events.1012.a:0 ""Aspetta, e se il frutto fosse velenoso?!""
  travel_danger_events.1012.a_again:0 ""Smettila di metterti #EMP qualsiasi cosa#! in bocca!""

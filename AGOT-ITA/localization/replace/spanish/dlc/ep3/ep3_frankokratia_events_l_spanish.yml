@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
 ep3_frankokratia_events.0001.t: "L'ingiusta espropriazione"
 
 ep3_frankokratia_events.0001.crusader_intro: "Noi pellegrini armati verso le terre oltremare abbiamo incaricato [financier.GetPrimaryTitle.GetNameNoTier] di costruire le nostre navi... un’impresa assai costosa, e votata a un’impresa incerta."
@@ -97,9 +96,9 @@ ep3_frankokratia_events.0031.a: "Sta... davvero accadendo?"
 ep3_frankokratia_events.0041.t: "Tutte le Ricchezze dell’Impero"
 ep3_frankokratia_events.0041.intro_constantinople: "Nel giubilo fragoroso, [Select_CString(claimant.IsFemale,'la nostra protetta','il nostro protetto')] [claimant.GetFirstName] passa tra le possenti porte di [claimant.GetCapitalLocation.GetTitle.GetNameNoTier]. Sotto le grandi cupole e i celesti [Glossary( 'seraphim', 'SERAPHIM_GLOSS')] della Hagia Sophia, [claimant.Custom('DE_ART_IND_A')] viene infine [Select_CString(claimant.IsFemale,'investita','investito')] come [claimant.GetTitleAsNameNoTooltip]. Quanto è radiosa la nostra gioia, quanto assoluto il nostro stupore!\n\nMentre vengo freddamente condott[Select_CString(ROOT.Char.IsFemale,'a','o')] nel [Glossary( 'Blachernae Palace', 'BLACHERNAE_PALACE_GLOSS')]"
 ep3_frankokratia_events.0041.intro_generic: "Nel giubilo fragoroso, [Select_CString(claimant.IsFemale,'la nostra protetta','il nostro protetto')] [claimant.GetFirstName] passa tra le possenti porte di [claimant.GetCapitalLocation.GetTitle.GetNameNoTier]. Sotto le grandi cupole e i celesti [Glossary( 'seraphim', 'SERAPHIM_GLOSS')] della chiesa imperiale, [claimant.Custom('DE_ART_IND_A')] viene infine [Select_CString(claimant.IsFemale,'investita','investito')] come [claimant.GetTitleAsNameNoTooltip].Quanto è radiosa la nostra gioia, quanto assoluto il nostro stupore!\n\nMentre vengo freddamente condott[Select_CString(ROOT.Char.IsFemale,'a','o')] in un palazzo imperiale"
-ep3_frankokratia_events.0041.desc: "e costrett[Select_CString(ROOT.Char.IsFemale,'a','o')] a subire infinite cerimonie, un sentimento piuttosto diverso mi assale...\n\n"Il mio predecessore," spiega [claimant.GetTitledFirstNameNoTooltip], "portò via gran parte del tesoro quando fuggì. "
-ep3_frankokratia_events.0041.trying_to_pay: "Per quanto ci sforziamo, l’Impero può offrirvi Crociati solo un #EMP parziale#! compenso.""
-ep3_frankokratia_events.0041.not_trying_to_pay: "Voi Crociati non potete essere pagati quanto promesso, ma piuttosto... possiamo pagarvi #EMP molto#!, #EMP molto#! meno.""
+ep3_frankokratia_events.0041.desc: "e costrett[Select_CString(ROOT.Char.IsFemale,'a','o')] a subire infinite cerimonie, un sentimento piuttosto diverso mi assale...\n\nIl mio predecessore, spiega [claimant.GetTitledFirstNameNoTooltip], portò via gran parte del tesoro quando fuggì. "
+ep3_frankokratia_events.0041.trying_to_pay: "Per quanto ci sforziamo, l’Impero può offrirvi Crociati solo un #EMP parziale#! compenso."
+ep3_frankokratia_events.0041.not_trying_to_pay: "Voi Crociati non potete essere pagati quanto promesso, ma piuttosto... possiamo pagarvi #EMP molto#!, #EMP molto#! meno."
 SERAPHIM_GLOSS: "Un ordine di esseri celesti presenti in tutte le fedi abramitiche; nel Cristianesimo, i #bold serafini#! sono alati sei volte e appartengono al più alto ordine angelico."
 BLACHERNAE_PALACE_GLOSS: "Costruito vicino alle Mura Teodosiane intorno al 500 d.C., questo complesso palaziale terrazzato fu usato sempre più nel Medioevo come principale residenza imperiale."
 ep3_frankokratia_events.0041.a: "Allora dobbiamo #EMP prendere#! ciò che ci spetta."

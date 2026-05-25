@@ -59,13 +59,11 @@
   building_city_04_desc:0 "Questa grande città è nota in lungo e in largo per le abbondanti opportunità che custodisce — si dice che persino il più umile contadino possa trovarvi fortuna. Le case costeggiano le strade fin dove arriva lo sguardo, con carri e animali intenti a trasportare merci ovunque si guardi."
 
  #End AGOT modifiche
-
 #start AGOT Disabled
   # powder_magazine_1_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_1')|0]#!"
   # powder_magazine_2_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_2')|0]#!"
   # powder_magazine_3_effect_desc: "$unlocks_building_desc$Limite di reclutamento per [gunpowder|E] [men_at_arms|E]: #P +[EmptyScope.ScriptValue('gunpowder_building_limit_bonus_3')|0]#!"
 #end AGOT Disabled
-
 
   BUILDING_DEBUG_KEY: "#D DEBUG KEY:#! [BUILDING.GetKey]"
 BUILDING_DEBUG_FULL: "#D CHIAVE E DESCRIZIONE DEBUG:#!\n[Building.GetKey]\n[Building.GetDescKey]"
@@ -1110,6 +1108,7 @@ building_holy_site_japanese_temple_01: "Grande santuario"
   mines_roco_effect_desc:0 "$unlocks_building_desc$Incremento di Qualità delle [inspirations|E] Finanziate di #V Artigianato#!, #V Armi#!, #V Armature#!, e #V Fabbri#!"
   royal_garden_effect_desc:0 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'royal_garden_effect_toto_desc', 'blank_line' )]"
   leisure_palace_effect_desc:1 "[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'leisure_palace_effect_toto_desc', 'feast_cost_discount_max_desc' )]"
+wedding_bonus_effect: "Ricompense aumentate per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] ospitate in questo [holding|E]"
   royal_garden_effect_toto_desc:1 "$unlocks_building_desc$Maggiori Ricompense per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] Organizzate in questo [holding|E]"
   dragon_kiln_effect_desc: "Aumento di [opinion|E] da $gift_interaction|V$: #P +50%#!"
   leisure_palace_effect_toto_desc:1 "$feast_cost_discount_max_desc$\nMaggiori Ricompense per le [activities|E] [GetActivityType('activity_wedding').GetTextIcon][GetActivityType('activity_wedding').GetName] Organizzate in questo [holding|E]"
@@ -1177,7 +1176,7 @@ building_holy_site_japanese_temple_01: "Grande santuario"
  #building_rammelsberg_mines_08_desc:0 "$building_type_rammelsberg_mines_01_desc$"
 
   building_type_falun_mines_01:0 "Le Miniere del Falun"
-  building_type_falun_mines_01_desc:1 "Anche conosciuta come “Stora Kopparberget" #italic (la Grande Montagna di Rame)#! questa miniera produce grandi quantità di rame."
+  building_type_falun_mines_01_desc:1 "Anche conosciuta come “Stora Kopparberget #italic (la Grande Montagna di Rame)#! questa miniera produce grandi quantità di rame."
   building_falun_mines_01:1 "Insediamento Minerario del Falun"
   building_falun_mines_01_desc:1 "$building_rammelsberg_mines_01_desc$"
   building_falun_mines_02:1 "Miniere del Falun"

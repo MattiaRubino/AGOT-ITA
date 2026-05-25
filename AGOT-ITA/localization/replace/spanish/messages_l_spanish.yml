@@ -505,7 +505,7 @@ msg_start_diarchy_title: 0 "Inizio della [LEFT_CHARACTER.GetDiarchyTypeNameNoToo
 msg_inherit_diarchy_title: 0 "Eredit[Select_CString(LEFT_CHARACTER.IsFemale,'ata','ato')] [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')|U] [LEFT_CHARACTER.GetDiarchyTypeNameNoTooltip]"
  on_entered_diarchy.notification.vassal.t:0 "Il Signore è Entrato nella [ROOT.Char.GetDiarchyTypeNameNoTooltip]"
  on_entered_diarchy.notification.vassal.t.higher_liege:0 "L'Alto Signore è Entrato nella [ROOT.Char.GetDiarchyTypeNameNoTooltip]"
- on_entered_diarchy.notification.vassal.desc:1 "[ROOT.Char.GetShortUIName|U] adesso [Concept( 'sharing_power', 'Condivide il Potere' )|E] in [ROOT.Char.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [ROOT.Char.GetDiarchyTypeName] con [ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_ART_DEF_P_A')] su[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_END_PRO_S_N')]/[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Char.GetDiarchy.GetDiarch.Self)], [ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName]""
+ on_entered_diarchy.notification.vassal.desc:1 "[ROOT.Char.GetShortUIName|U] adesso [Concept( 'sharing_power', 'Condivide il Potere' )|E] in [ROOT.Char.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [ROOT.Char.GetDiarchyTypeName] con [ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_ART_DEF_P_A')] su[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_END_PRO_S_N')]/[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.GetDiarchy.GetDiarch.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', ROOT.Char.GetDiarchy.GetDiarch.Self)], [ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName]"
  on_entered_diarchy.notification.vassal.desc.outro.child:0 "poiché è un [child|E]"
  on_entered_diarchy.notification.vassal.desc.outro.incapable:0 "poiché è [GetTrait('incapable').GetName(GetNullCharacter)]"
  on_entered_diarchy.notification.vassal.desc.outro.imprisonment:0 "poiché è tenuto/a prigioniero/a all'estero"
@@ -615,7 +615,7 @@ msg_great_project_completed_desc: "[GreatProject.GetName] è stato completato co
  
  msg_admin_title_lost_house.tt: "Membro della Casata Perde un Incarico"
  msg_admin_title_lost_investor.tt: "Il Candidato Sostenuto Perde un Incarico"
- msg_admin_title_lost_foe.tt: ""Il Candidato Opposto Perde un Incarico"
+ msg_admin_title_lost_foe.tt: "Il Candidato Opposto Perde un Incarico"
  msg_admin_title_lost.desc: "[Select_CString(title_loser.IsFemale,'La tua','Il tuo')] [GetPlayer.Custom2('RelationToMeShort', SCOPE.sC('title_loser'))], [title_loser.GetShortUIName|U], non governa più [title.GetName]"
  
  msg_estate_damaged.title: "$game_concept_estate$ Damaged"

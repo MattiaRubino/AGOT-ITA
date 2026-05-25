@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 #Travel Flavor Events
 #Good omen? - Encounter a duck
  travel_events.2000.t:0 "Un'Anatra?"
@@ -58,7 +57,7 @@ travel_events.2002.desc: 0 "Il corteo si è fermato a un tiro di schioppo da [RO
  travel_events.2003.t:0 "Studio Marziale"
  travel_events.2003.intro:0 "[local_captain.GetFirstName], il capitano locale, e alcuni dei suoi ufficiali mi salutano quando il mio seguito entra negli accampamenti militari di [ROOT.Char.GetCurrentLocation.GetName]."
  travel_events.2003.desc_barracks:0 "Smonto rapidamente, desideros[ROOT.Char.Custom('DE_END_PRO_S_N')] di ispezionare la caserma locale, decisamente piena di attività."
- travel_events.2003.desc_regiment:0 "Osservo brevemente il terreno del reggimento e poi smonto, gruppi di soldati sono impegnati in piani di battaglia.""
+ travel_events.2003.desc_regiment:0 "Osservo brevemente il terreno del reggimento e poi smonto, gruppi di soldati sono impegnati in piani di battaglia."
  travel_events.2003.desc_camp:1 "Quando [local_captain.GetSheHe] si allontana, smonto rapidamente e l[local_captain.Custom('DE_END_PRO_S_N')] seguo attraverso le ultime macchine d'assedio."
 travel_events.2003.outro: 0 "\n\nAnnuisco, apprezzando il caos organizzato che sto osservando.\n"Ora, che cosa vorrebbe fare [ROOT.Char.Custom('FormOfAddressForLiege')]?" [local_captain.GetFirstNameNoTooltip] mi guarda con aspettativa."
  travel_events.2003.a:0 "Non mi dispiacerebbe un po' d'addestramento!"
@@ -321,7 +320,7 @@ travel_events.2017.desc: 0 "Mentre percorriamo i corridoi del maniero di [ROOT.C
 
 #Resolution: You were joshed / You found a bauble / You survived the murder attempt / You came back from the mendicant
  travel_events.2022.t:0 "$travel_events.haunted_manor.t$: San[ROOT.Char.Custom('DE_END_PRO_S_N')] e Salv[ROOT.Char.Custom('DE_END_PRO_S_N')]"
- travel_events.2022.desc_pack:0 ""Mentre attraversiamo un arcata per entrare nella stanza successiva, una grande forma ci piomba addosso all'improvviso. L'intero gruppo sussulta e strilla.\n\nAlzando lo sguardo, la figura scura sembra essere uno scheletro, avvolto in un lenzuolo scuro. Mi acciglio mentre [estate_character.GetTitledFirstName|U] ride.\n\n"Avreste dovuto vedere le vostre facce", esclama [estate_character.GetTitledFirstName|U], [entourage_member_one.GetTitledFirstName], è visibilmente agitat[entourage_member_one.Custom('DE_END_PRO_S_N')] e si avvicina a [estate_character.GetTitledFirstNameNoTooltip] con una mano alzata."
+ travel_events.2022.desc_pack:0 "Mentre attraversiamo un arcata per entrare nella stanza successiva, una grande forma ci piomba addosso all'improvviso. L'intero gruppo sussulta e strilla.\n\nAlzando lo sguardo, la figura scura sembra essere uno scheletro, avvolto in un lenzuolo scuro. Mi acciglio mentre [estate_character.GetTitledFirstName|U] ride.\n\n«Avreste dovuto vedere le vostre facce», esclama [estate_character.GetTitledFirstName|U], [entourage_member_one.GetTitledFirstName], è visibilmente agitat[entourage_member_one.Custom('DE_END_PRO_S_N')] e si avvicina a [estate_character.GetTitledFirstNameNoTooltip] con una mano alzata."
  travel_events.2022.desc_murder:0 "Sconvolt[ROOT.Char.Custom('DE_END_PRO_S_N')] per essere appena sfuggit[ROOT.Char.Custom('DE_END_PRO_S_N')] a un assassino, barcollo in piedi. #EMP Cosa è successo?#!\n\nTremando, risalgo la scala e torno nel corridoio verso la sala da pranzo. Lo stress viene presto sostituito dalla rabbia.#EMP Era [estate_character.GetTitledFirstName]?#!\n\nQuando finalmente raggiungo il gruppo riunito, noto a malapena lo scheletro coperto da un lenzuolo che pende dall'arcata della stanza.\n\nCon gli occhi pieni di rabbia, guardo [estate_character.GetFirstNameNoTooltip], che mi guarda confus[estate_character.Custom('DE_END_PRO_S_N')]."
 travel_events.2022.desc_mendicant: 0 "Uscito dagli alloggi del mendicante, seguo facilmente il frastuono fino alla sala principale.\n\nIl gruppo sembra agitato ma sollevato, e vedo una sagoma scura penzolare dall’arco sopra di loro. [estate_character.Custom('IT_NAM_COL3')][estate_character.GetTitledFirstName|U] si volta di scatto e sobbalza leggermente alla mia vista.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Eri via da sol[Select_CString(ROOT.Char.IsFemale,'a','o')]? Non è sicuro, lo sai!" [Select_CString(estate_character.IsFemale,'Lei','Lui')] socchiude gli occhi."
  travel_events.2022.desc_mendicant_recruit:0 "Io e [mendicant_character.Custom('DE_ART_DEF_P_A')] mi[mendicant_character.Custom('DE_END_PRO_S_N')] nuov[mendicant_character.Custom('DE_END_PRO_S_N')] compagn[mendicant_character.Custom('DE_END_PRO_S_N')], [mendicant_character.GetTitledFirstName], lasciamo i suoi alloggi e raggiungiamo il gruppo nella sala principale.\n\n[mendicant_character.GetFirstNameNoTooltip] quando nota lo scheletro coperto da un lenzuolo appeso su una delle arcate della stanza attraverso il quale il gruppo deve essere passato, sbuffa,  facendo sì che la nostra guida [estate_character.GetTitledFirstName], si giri.\n\nI suoi occhi si allargano mentre guarda [mendicant_character.GetFirstNameNoTooltip]. "Chi è #EMP quest[mendicant_character.Custom('DE_END_PRO_S_N')]!#! [Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], non potete andarvene così, non è sicuro!""
@@ -449,7 +448,7 @@ travel_events.2033.desc_intro: 0 "Non appena entriamo nelle riserve di caccia di
  travel_events.2034.t:0 "Ciò che si semina..."
  travel_events.2034.desc_intro:0 "Il giorno comincia ad albeggiare sul nostro accampamento di [ROOT.Char.GetCurrentLocation.GetName]. Sbadiglio e mi stiracchio dolcemente, rotolando su un fianco.\n\nSonnecchiando mi alzo e mi avvicino all'apertura della tenda per respirare l'aria fresca del mattino. Improvvisamente mi si rizzano i peli sulla nuca "
  travel_events.2034.desc:0 "e con la coda dell'occhio scorgo [vengeful_prisoner.GetTitledFirstName], che si avvicina a me con il coltello in mano.\n\n[vengeful_prisoner.GetSheHe|U] sorride ironicamente. "[ROOT.Char.GetTitledFirstNameNoTooltip|U], è un piacere rivederti. Questa volta sarò #EMP io#! a dare la caccia all'uomo". Sbatto le palpebre, momentaneamente stordit[ROOT.Char.Custom('DE_END_PRO_S_N')]."
- travel_events.2034.desc_long_time:0 ""Con la coda dell'occhio, vedo [Select_CString(vengeful_prisoner.IsFemale,'una donna','un uomo')], con un coltello in mano.\n\n[vengeful_prisoner.GetSheHe|U] sorride ironicamente. "Non ti ricordi di me, vero? Beh, io mi ricordo di #EMP te#!, [ROOT.Char.GetTitledFirstNameNoTooltip] e delle tue #EMP sadistiche#! pratiche di caccia all'uomo". Mi torna in mente un vago ricordo. [Select_CString(vengeful_prisoner.IsFemale,'La prigioniera evasa','Il prigioniero evaso')] #EMP [vengeful_prisoner.GetTitledFirstName]#!...?"
+ travel_events.2034.desc_long_time:0 "Con la coda dell'occhio, vedo [Select_CString(vengeful_prisoner.IsFemale,'una donna','un uomo')], con un coltello in mano.\n\n[vengeful_prisoner.GetSheHe|U] sorride ironicamente. «Non ti ricordi di me, vero? Beh, io mi ricordo di #EMP te#!, [ROOT.Char.GetTitledFirstNameNoTooltip] e delle tue #EMP sadistiche#! pratiche di caccia all'uomo.» Mi torna in mente un vago ricordo. [Select_CString(vengeful_prisoner.IsFemale,'La prigioniera evasa','Il prigioniero evaso')] #EMP [vengeful_prisoner.GetTitledFirstName]#!...?"
  travel_events.2034.a:0 "Non sei obbligat[vengeful_prisoner.Custom('DE_END_PRO_S_N')] a farlo!"
  travel_events.2034.a_overpowered_desc:0 "Ho sopraffatto [vengeful_prisoner.GetShortUIName]"
  travel_events.2034.a_overpowered_effect:0 "Sei tu a decidere il destino di [vengeful_prisoner.GetTitledFirstName] "
@@ -479,9 +478,9 @@ travel_events.2035.desc: 0 "[vengeful_prisoner.Custom('IT_NAM_COL3')][vengeful_p
 
 #Visit some hunting grounds - Sadistic county holder is manhunting
  travel_events.2037.t:0 "Il cacciatore di uomini"
- travel_events.2037.desc:0 "Incontriamo [2037_county_liege.Custom('DE_ART_DEF_P_A')] [2037_county_liege.GetTitledFirstName], il sovrano di [ROOT.Char.GetCurrentLocation.GetName], e il suo seguito nella riserva di caccia locale.\n\nDopo uno scambio di saluti cortesi, [2037_county_liege.GetSheHe] mi guarda con un sorriso malizioso: "Vorresti unirti a me per il più nobile degli sport, "
- travel_events.2037.desc_child:0 "piccol[ROOT.Char.Custom('DE_END_PRO_S_N')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]?" "
- travel_events.2037.desc_adult:0 "mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [2037_county_liege.Custom2('RelationToMeShort', ROOT.Char)]?" "
+ travel_events.2037.desc:0 "Incontriamo [2037_county_liege.Custom('DE_ART_DEF_P_A')] [2037_county_liege.GetTitledFirstName], il sovrano di [ROOT.Char.GetCurrentLocation.GetName], e il suo seguito nella riserva di caccia locale.\n\nDopo uno scambio di saluti cortesi, [2037_county_liege.GetSheHe] mi guarda con un sorriso malizioso: «Vorresti unirti a me per il più nobile degli sport, "
+ travel_events.2037.desc_child:0 "piccol[ROOT.Char.Custom('DE_END_PRO_S_N')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]?» "
+ travel_events.2037.desc_adult:0 "mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [2037_county_liege.Custom2('RelationToMeShort', ROOT.Char)]?» "
  travel_events.2037.desc_segway:1 "[2037_county_liege.GetSheHe] fa un cenno [Select_CString(2037_manhunt_prisoner.IsFemale,'alla prigioniera','al prigioniero')] in catene ai margini della foresta."
  travel_events.2037.desc_outro_segway_adult:1 "\n\nMi rendo conto fin troppo presto a quale #EMP sport#! [2037_county_liege.GetSheHe] si riferisce."
  travel_events.2037.desc_outro_child:1 "\n\nLa mia curiosità è decisamente stuzzicata. Che gioco potrebbe mai essere questo... ?\n\nMentre rifletto sulla proposta, noto che [entourage_character.Custom('DE_ART_DEF_P_A')] mi[entourage_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_character'))] [entourage_character.GetTitledFirstName] cerca la mia attenzione e scuote cautamente la testa."
@@ -493,7 +492,7 @@ travel_events.2035.desc: 0 "[vengeful_prisoner.Custom('IT_NAM_COL3')][vengeful_p
  travel_events.2037.a_your_kill.desc:1 "Dai la caccia e uccidi [2037_manhunt_prisoner.GetShortUIName]"
  travel_events.2037.a_their_kill.tt:0 "[2037_county_liege.GetShortUINameNoTooltip] dà il colpo di grazia"
  travel_events.2037.a_their_kill.desc:1 "[2037_manhunt_prisoner.GetShortUIName] viene cacciat[2037_manhunt_prisoner.Custom('DE_END_PRO_S_N')] e uccis[2037_manhunt_prisoner.Custom('DE_END_PRO_S_N')] da [2037_county_liege.GetShortUIName]"
- travel_events.2037.b:0 ""Potrei trovare qualche utilità per [Select_CString(2037_manhunt_prisoner.IsFemale,'la prigioniera','il prigioniero')], se non vi dispiace."
+ travel_events.2037.b:0 "«Potrei trovare qualche utilità per [Select_CString(2037_manhunt_prisoner.IsFemale,'la prigioniera','il prigioniero')], se non vi dispiace."
  travel_events.2037.b_child:0 "Preferirei che [2037_manhunt_prisoner.GetFirstNameNoTooltip] venisse con me."
  travel_events.2037.c:0 "Sei impazzito?"
  travel_events.2037.c_child:0 "No. Questo sembra un gioco malvagio."
@@ -525,7 +524,7 @@ travel_events.2035.desc: 0 "[vengeful_prisoner.Custom('IT_NAM_COL3')][vengeful_p
  travel_events.2040.t:0 "Una pausa"
  travel_events.2040.intro:0 "Una notte, mentre siamo seduti accanto al fuoco, alzo lo sguardo e mi rendo conto di essere solo con [2037_manhunt_prisoner.GetTitledFirstName]. Le fiamme si riflettono nei suoi occhi, mentre [2037_manhunt_prisoner.GetSheHe] mi fissa.\n\n"
  travel_events.2040.desc_child:0 ""Perché quell'orribile [Select_CString(2037_county_liege.IsFemale,'donna','uomo')]] ha cercato di ucciderti prima?" dissi con un filo di voce. [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] esita per un attimo, poi distoglie lo sguardo mentre risponde:"
- travel_events.2040.desc:0 "Non ho mai chiesto veramente a [2037_manhunt_prisoner.GetSheHe] perché mi avesse imprigionato", Mi rendo conto. Poi, come se [2037_manhunt_prisoner.GetSheHe] mi avesse letto nel pensiero, [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] borbotta:"
+ travel_events.2040.desc:0 "Non ho mai chiesto veramente a [2037_manhunt_prisoner.GetSheHe] perché mi avesse imprigionato», mi rendo conto. Poi, come se [2037_manhunt_prisoner.GetSheHe] mi avesse letto nel pensiero, [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] borbotta:"
  travel_events.2040.outro:0 "\n\n"Era come se la sua carne urlasse per essere liberata, capisci?" Nella sua voce si percepisce un'inquietante nostalgia."
  travel_events.2040.a:0 "...è molto filosofico."
  travel_events.2040.a_child:0 "Anch'io ho fatto cose brutte."
@@ -603,13 +602,13 @@ travel_events.2035.desc: 0 "[vengeful_prisoner.Custom('IT_NAM_COL3')][vengeful_p
  travel_events.2102.desc_negative:0 "\n\nSarebbe assurdo da parte mia aspettarmi supporto da qualcuno come [visiting_ruler.GetFirstNameNoTooltip] e dalla sua razza. Che tu sia maledett[visiting_ruler.Custom('DE_END_PRO_S_N')]."
  travel_events.2102.desc_positive:0 "\n\nCome ha potuto...? Mi... aspettavo di più da [visiting_ruler.GetSheHe]. I miei occhi sono socchiusi mentre il bruciore di questo tradimento mi ferisce più di quanto potrebbe fare una lama."
  travel_events.2102.desc_default:0 "\n\n[visiting_ruler.GetSheHe|U] ha assistito agli eventi in corso senza aiutarmi nel momento del bisogno? Questa presa di posizione e questo mancato coinvolgimento dimostra effettivamente di chi ci si può fidare e chi di no."
- travel_events.2102.a:0 ""Questo mostra la personalità [visiting_ruler.Custom('InsultAdjectiveGeneric')] [visiting_ruler.GetTitledFirstNamePossessiveNoTooltip] ."
+ travel_events.2102.a:0 "«Questo mostra la personalità [visiting_ruler.Custom('InsultAdjectiveGeneric')] [visiting_ruler.GetTitledFirstNamePossessiveNoTooltip]."
 
 #Visiting Ruler: Letter event - Target Ruler knows you what you did (or rather, didn't do)
  travel_events.2103.t:0 "[murder_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
  travel_events.2103.desc_intro:0 "[murder_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]"
  travel_events.2103.desc_negative:0 "\n\nNon mi aspettavo altro da te che il desiderio di vedermi esalare l'ultimo respiro nelle terre selvaggie di [ROOT.Var('assassination_location').GetProvince.GetName].\n\nAssaporerò davvero il giorno in cui la scintilla della vita lascerà finalmente quei pozzi neri che tu consideri occhi, mi[murder_target.Custom('DE_END_PRO_S_N')] [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))] [visiting_ruler.Custom('InsultAdjectiveGeneric')]."
- travel_events.2103.desc_positive:0 "\n\nCome hai potuto, mi[murder_target.Custom('DE_END_PRO_S_N')] [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]? Come hai potuto abbandonarmi al mio destino nel bel mezzo del [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]? Me ne ricorderò, puoi starne certo"."
+ travel_events.2103.desc_positive:0 "\n\nCome hai potuto, mi[murder_target.Custom('DE_END_PRO_S_N')] [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]? Come hai potuto abbandonarmi al mio destino nel bel mezzo del [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName]? Me ne ricorderò, puoi starne certo.»"
  travel_events.2103.desc_default:0 "\n\n[ROOT.Char.GetTitledFirstName], mi aspetto la normale decenza umana e il rispetto per la vita come ogni persona buona e fedele. Abbandonarmi al mio destino nel bel mezzo del [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l] di [ROOT.Var('assassination_location').GetProvince.GetName] dimostra purtroppo che non sei [Select_CString(ROOT.Char.IsFemale,'una vera timorata di Dio','un vero timorato di Dio')].  Me ne ricorderò."
  travel_events.2103.a:0 "Beh, è #EMP sopravvissuto#! dopo tutto."
 
@@ -640,7 +639,7 @@ travel_events.2035.desc: 0 "[vengeful_prisoner.Custom('IT_NAM_COL3')][vengeful_p
  travel_events.2107.desc_intro_jungle:0 "La giungla è calda e umida, come al solito, e dalla sacralità del mio rifugio, guardo in alto verso gli alberi di [holding_location.GetName] per scorgere i colorati uccelli che nidificano sopra di me. Con la coda dell'occhio, noto un gruppo di viaggiatori che avanza nel sottobosco a nord. "
  travel_events.2107.desc_intro:0 "Il cielo è praticamente privo di nuvole mentre trascorro il pomeriggio nella periferia di [holding_location.GetName]. Mentre torno indietro, noto un gruppo di viaggiatori che si sta facendo strada a fatica fuori dai confini della città. "
  travel_events.2107.desc_segway:0 "\n\nGuardando meglio, mi rendo conto che il capo del gruppo non è altri che [travelling_ruler.GetTitledFirstName] e il suo seguito. Studiando casualmente i loro movimenti, alzo istintivamente lo sguardo quando una folla di cavalieri si avvicina rapidamente al gruppo pacifico.\n\nQuando i cavalieri si avvicinano, iniziano ad alzare le armi. "
- travel_events.2107.desc_outro_negative:0 ""Sarà interessante."
+ travel_events.2107.desc_outro_negative:0 "«Sarà interessante."
  travel_events.2107.desc_outro_positive:0 "Devo fare qualcosa!"
  travel_events.2107.desc_outro_family:0 "Il sangue è più denso dell'acqua, o così si dice?"
  travel_events.2107.desc_outro:0 "I viaggiatori stanno chiaramente per essere assaliti, nelle #EMP mie#! terre."

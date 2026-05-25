@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
 #Grotesque Events
  travel_events.3000.t:0 "Creature grottesche"
 travel_events.3000.desc: 1 "Raramente ho visto [traveller_monk.Custom2('MyCharacterIntroduction', ROOT.Char)] tanto eccit[Select_CString(traveller_monk.IsFemale,'a','o')]. I [Select_CString(traveller_monk.IsFemale,'suoi','suoi')] occhi sembrano divorare un libro riccamente adorno — a volte riesco a sbirciare le mappe al suo interno.\n\nUna mattina, [Select_CString(traveller_monk.IsFemale,'lei','lui')] finalmente mi si avvicina per parlarmi delle [Select_CString(traveller_monk.IsFemale,'sue','sue')] scoperte:\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], corrono voci che le terre di [ROOT.Char.GetCurrentLocation.GetName] siano dimora di genti straordinarie! Si dice che i/le [ROOT.Char.Custom('GetGrotesquePlural')] si aggirino per queste città.""
@@ -109,9 +108,9 @@ travel_events.3001.desc.outro: 2 "\n\nQuando arriviamo a [grotesque_place.GetNam
  more_men_modifier:0 "Assistente marziale"
  
  travel_events.3021.t:0 "Sulle questioni religiose"
- travel_events.3021.intro:0 ""Ah, eccovi qui!" [foreign_ruler.GetTitledFirstName] fa un gesto affinché io mi avvicini a [foreign_ruler.GetSheHe] nel momento in cui entro nella sala del trono.\n\n"Vi stavamo aspettando! [foreign_theologian.GetTitledFirstName] è [Select_CString(foreign_theologian.IsFemale,'la mia cortigiana più virtuosa','il mio cortigiano più virtuoso')] e mi piacerebbe davvero ascoltare entrambi discutere di questioni più elevate."
- travel_events.3021.different_faiths:0 "Ditemi, perché dovremmo considerare [ROOT.Char.GetFaith.GetName] più vero di [foreign_theologian.GetFaith.GetName]?""
- travel_events.3021.same_faith:0 "Parliamo della natura di [ROOT.Char.GetFaith.HighGodName].""
+ travel_events.3021.intro:0 "«Ah, eccovi qui!» [foreign_ruler.GetTitledFirstName] fa un gesto affinché io mi avvicini a [foreign_ruler.GetSheHe] nel momento in cui entro nella sala del trono.\n\n«Vi stavamo aspettando! [foreign_theologian.GetTitledFirstName] è [Select_CString(foreign_theologian.IsFemale,'la mia cortigiana più virtuosa','il mio cortigiano più virtuoso')] e mi piacerebbe davvero ascoltare entrambi discutere di questioni più elevate."
+ travel_events.3021.different_faiths:0 "Ditemi, perché dovremmo considerare [ROOT.Char.GetFaith.GetName] più vero di [foreign_theologian.GetFaith.GetName]?»"
+ travel_events.3021.same_faith:0 "Parliamo della natura di [ROOT.Char.GetFaith.HighGodName].»"
  travel_events.3021.a:0 "Accetto volentieri questa sfida."
  travel_events.3021.a.success:0 "Convinci [foreign_theologian.GetTitledFirstNameNoTooltip] in un duello dialettico"
  travel_events.3021.a.failure:0 "[foreign_theologian.GetTitledFirstNameNoTooltip] presenta un'argomentazione più solida"
@@ -195,7 +194,7 @@ travel_events.3060.desc.travel_leader: "\n\n"Attento, [ROOT.Char.Custom('FormOfA
  
  #Bandit event
  travel_events.3070.t:1 "$travel_danger_prefix$ Banditi sul ponte"
- travel_events.3070.desc:0 "La voce tenue del fiume che seguiamo da un po' di tempo diventa ora più forte. Alcuni membri del seguito parlano di fare una breve sosta, di prendere un po' d'acqua fresca, di riposare i piedi.\n\nQuando il sentiero gira, c'è un ponte di pietra. Un paio di uomini si appoggiano con le spalle al parapetto del ponte; uno colpisce l'altro sul fianco e indica il nostro gruppo. Un[bandit_scope.Custom('DE_PRO_POS_P_2P')] terz[bandit_scope.Custom('DE_END_PRO_S_N')] [bandit_scope.GetWomanMan] si affaccia dalla riva, un'altr[bandit_scope.Custom('DE_END_PRO_S_N')] ancora ci guarda dopo aver sputato nel fiume.\n\n"Questo è un ponte a pedaggio" dice [bandit_scope.GetSheHe].""
+ travel_events.3070.desc:0 "La voce tenue del fiume che seguiamo da un po' di tempo diventa ora più forte. Alcuni membri del seguito parlano di fare una breve sosta, di prendere un po' d'acqua fresca, di riposare i piedi.\n\nQuando il sentiero gira, c'è un ponte di pietra. Un paio di uomini si appoggiano con le spalle al parapetto del ponte; uno colpisce l'altro sul fianco e indica il nostro gruppo. Un[bandit_scope.Custom('DE_PRO_POS_P_2P')] terz[bandit_scope.Custom('DE_END_PRO_S_N')] [bandit_scope.GetWomanMan] si affaccia dalla riva, un'altr[bandit_scope.Custom('DE_END_PRO_S_N')] ancora ci guarda dopo aver sputato nel fiume.\n\n«Questo è un ponte a pedaggio» dice [bandit_scope.GetSheHe]."
  travel_events.3070.a:0 "Capisco."
  travel_events.3070.b:0 "È coraggioso da parte tua suggerirlo. [knight_scope.GetTitledFirstNameNoTooltip], fagli vedere."
  travel_events.3070.b.success:0 "[knight_scope.GetShortUINameNoTooltip] batte i banditi"
@@ -277,7 +276,7 @@ building_temple_monastery: "monastero"
  tour_travel.3110.c:0 ""Niente mi renderebbe più felice! Ho persino portato il mio $court_jester_court_position$.""
  
  tour_travel.3111.t:0 "Una sosta lungo il cammino: Il banchetto"
- tour_travel.3111.desc_intro:0 "Le lampade a olio diffondono una luce così fioca da sfiorare l'impercettibile. Un vecchio servitore ci porta del pesce, senza aromi.\n\n[ghino_di_tacco_scope.GetTitledFirstNameNoTooltip] pare fin troppo nervoso: parla delle difficoltà di governare una terra tanto povera, dalla tassazione impossibile. "L'ultimo sacerdote che abbiamo avuto se n'è andato dopo appena un paio di mesi", borbotta [ghino_di_tacco_scope.GetSheHe], accantonando il vino annacquato.\n\n""
+ tour_travel.3111.desc_intro:0 "Le lampade a olio diffondono una luce così fioca da sfiorare l'impercettibile. Un vecchio servitore ci porta del pesce, senza aromi.\n\n[ghino_di_tacco_scope.GetTitledFirstNameNoTooltip] pare fin troppo nervoso: parla delle difficoltà di governare una terra tanto povera, dalla tassazione impossibile. «L'ultimo sacerdote che abbiamo avuto se n'è andato dopo appena un paio di mesi», borbotta [ghino_di_tacco_scope.GetSheHe], accantonando il vino annacquato.\n\n"
  tour_travel.3111.desc_breaking_down:0 "[ghino_di_tacco_scope.Custom('DE_ART_IND_A')|U] scoppia, subito dopo, in un pianto dirotto, nascondendo il viso tra le mani.. "Io... devo essere onesto con voi. La mia intenzione nell'invitarti qui era quella di derubarvi, car[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]. Spero che possiate perdonarmi.""
  tour_travel.3111.desc_committed:0 "[ghino_di_tacco_scope.Custom('DE_ART_IND_A')|U] si scusa prontamente mentre mi urta accidentalmente sulla strada che porta alla latrina."
  tour_travel.3111.a:1 ""Tieni, prendi questo e non rubare mai più.""

@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 bp2_yearly.6000.t: "Non è il modo di fare della cultura [ROOT.Char.GetCulture.GetNameNoTooltip]"
 bp2_yearly.6000.desc.intro: "Mentre [Select_CString(hosted_child.IsFemale,'mia','mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hosted_child'))] [hosted_child.GetName] si presenta, [tutor.GetName] fa il reseconto di una settimana di insegnamento fallimentare e frustrazioni."
 
@@ -12,7 +11,7 @@ bp2_yearly.6000.desc.fault.egalitarian_no_culture: "\n\n"[hosted_child.GetSheHe|
 bp2_yearly.6000.desc.fault.spiritual: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] si ferma forse a ringraziare per la provvidenza del suo cibo? Invoca il divino in cerca di aiuto? No! È [Select_CString(hosted_child.IsFemale,'stata cresciuta','stato cresciuto')] per una vita senza rispetto.""
 bp2_yearly.6000.desc.fault.stoic: "\n\n"[Select_CString(hosted_child.IsFemale,'La bambina','Il bambino')] arriccia il naso di fronte alla bellezza della nostra terra natia. [hosted_child.GetSheHe|U] disprezza il bisogno di combattere, di difendere la nostra gente! È [Select_CString(hosted_child.IsFemale,'stata educata','stato educato')] al meschino interesse personale.""
 
-bp2_yearly.6000.desc.mid: "\n\nL'ira di [lTutor.GetFirstNamePossessiveNoTooltip] è rivolta contro [Select_CString(childs_home_liege.IsFemale,'la','il')] [hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))] [Select_CString(hosted_child.IsFemale,'della bambina','del bambino')].\n\n"Vi è forse"
+bp2_yearly.6000.desc.mid: "\n\nL'ira di [lTutor.GetFirstNamePossessiveNoTooltip] è rivolta contro [Select_CString(childs_home_liege.IsFemale,'la','il')] [hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))] [Select_CString(hosted_child.IsFemale,'della bambina','del bambino')].\n\nVi è forse"
 
 bp2_yearly.6000.desc.value.bellicose: "fuoco e ardore"
 bp2_yearly.6000.desc.value.bureaucratic: "buon senso"
@@ -22,7 +21,7 @@ bp2_yearly.6000.desc.value.egalitarian: "grazia sociale"
 bp2_yearly.6000.desc.value.spiritual: "rispetto per i nostri riti sacri"
 bp2_yearly.6000.desc.value.stoic: "senso del dovere verso il suo popolo"
 
-bp2_yearly.6000.desc.outro: "in [childs_home_liege.GetTitledFirstName]? Come possono degli adeguati giovani di cultura [ROOT.Char.GetCulture.GetNameNoTooltip] provenire da una tale corte, dove non vengono istruiti sulle nostre tradizioni?""
+bp2_yearly.6000.desc.outro: "in [childs_home_liege.GetTitledFirstName]? Come possono degli adeguati giovani di cultura [ROOT.Char.GetCulture.GetNameNoTooltip] provenire da una tale corte, dove non vengono istruiti sulle nostre tradizioni?"
 
 bp2_yearly.6000.a: "Tutti sapranno del disprezzo [childs_home_liege.Custom('IT_NAM_COL2')][childs_home_liege.GetTitleAsNamePossessiveNoTooltip]!"
 bp2_yearly.6000.a.tt: "Difendi la causa [Select_CString(hosted_child.IsFemale,'della povera','del povero')] giovane [hosted_child.GetFirstNameNoTooltip], vittima dell’apatia [Select_CString(childs_home_liege.IsFemale,'della sua','del suo')] [hosted_child.Custom2('RelationToMeShort', SCOPE.sC('childs_home_liege'))] verso le nostre usanze."
@@ -84,9 +83,9 @@ rejecting_stoic_ways_modifier: "Rifiuto delle Vie Stoiche"
 rejecting_stoic_ways_modifier_desc: "$rejecting_bellicose_ways_modifier_desc$"
 
 bp2_yearly.6010.t: "Nessun[Select_CString(sad_boi.IsFemale,'a','')] [sad_boi.GetWomanMan|U] [Select_CString(sad_boi.IsFemale,'imprigionata','Imprigionato')]"
-bp2_yearly.6010.desc: ""#EMP Ho tanti amici, i loro doni sono pochi...#!" canta [sad_boi.GetFirstName], la voce incrinata dall’emozione.\n\n[sad_boi.Custom('DE_ART_DEF_P_D')] mi[sad_boi.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] getta via il suo strumento, gridando: "Basta con [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
-bp2_yearly.6010.adult: "È priva di ogni comodità."\n\nLanciandomi uno sguardo carico di disprezzo, [sad_boi.GetSheHe] aggiunge: "Questa canzone sarà il mio appello di aiuto in questa triste prigionia. Qualche soldo... se il mio popolo ancora si cura di me...""
-bp2_yearly.6010.child: "Sono così infelice qui."\n\nGuardandomi con gli occhi colmi di lacrime, [Select_CString(sad_boi.IsFemale,'la bambina','il bambino')] aggiunge: "Ascoltando questa canzone, la mia famiglia si commuoverà! Mi manderanno qualcosa per rendere sopportabile il mio #EMP esilio#!, se... ancora si curano di me...""
+bp2_yearly.6010.desc: "#EMP Ho tanti amici, i loro doni sono pochi...#! canta [sad_boi.GetFirstName], la voce incrinata dall’emozione.\n\n[sad_boi.Custom('DE_ART_DEF_P_D')] mi[sad_boi.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sad_boi'))] getta via il suo strumento, gridando: Basta con [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]!"
+bp2_yearly.6010.adult: "È priva di ogni comodità.\n\nLanciandomi uno sguardo carico di disprezzo, [sad_boi.GetSheHe] aggiunge: Questa canzone sarà il mio appello di aiuto in questa triste prigionia. Qualche soldo... se il mio popolo ancora si cura di me..."
+bp2_yearly.6010.child: "Sono così infelice qui.\n\nGuardandomi con gli occhi colmi di lacrime, [Select_CString(sad_boi.IsFemale,'la bambina','il bambino')] aggiunge: Ascoltando questa canzone, la mia famiglia si commuoverà! Mi manderanno qualcosa per rendere sopportabile il mio #EMP esilio#!, se... ancora si curano di me..."
 bp2_yearly.6010.outro: "\n\n[Select_CString(sad_boi.IsFemale,'Lei','Lui')] riprende ancora una volta la mesta melodia, con una patria lontana negli occhi."
 bp2_yearly.6010.a: "Sì, vediamo quale "carità" riusciranno a racimolare..."
 bp2_yearly.6010.a.tt: "...per la mia borsa."
@@ -590,7 +589,7 @@ bp2_yearly.6203.keep: "Ma non sono più il vostro ostaggio."
  lavish_care_modifier_desc: "Questo personaggio è viziato da dozzine di servitori raffinati, vivendo tra lusso e comodità."
 
  trained_by_the_uncivilized_modifier: "Addestrato da Genti Rustiche"
- trained_by_the_uncivilized_modifier_desc: "Come ostaggio, questo personaggio ha appreso i modi e i metodi rustici di una cultura considerata “inferiore"."
+ trained_by_the_uncivilized_modifier_desc: "Come ostaggio, questo personaggio ha appreso i modi e i metodi rustici di una cultura considerata “inferiore."
  cultural_acceptance_hostage_exchange: "Contatto tramite ostaggi prestigiosi"
 
  united_family_modifier: "Famiglia Unita"

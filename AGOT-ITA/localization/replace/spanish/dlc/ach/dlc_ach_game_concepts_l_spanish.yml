@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  game_concept_coronation: "Incoronazione"
  game_concept_coronations: "Incoronazioni"
  game_concept_coronation_desc: "L’Incoronazione è un’[activity|E] in cui un [ruler|E] invita [vassals|E], pari e [guests|E] da ogni dove ad assistere alla sua ascesa al trono.\n\nL’Incoronazione si presenta in due forme: un’Incoronazione regolare e un’[anointment|E], con quest’ultima che offre ricompense migliori, ma a costi maggiori.\n\nRicompense attese:\n$activity_coronation_host_desc$"
@@ -23,7 +22,7 @@
  game_concept_coronation_anointment: "Unzione"
  game_concept_anointment: "$game_concept_coronation_anointment$"
  game_concept_anointments: "Unzioni"
- game_concept_coronation_anointment_desc: "L'unzione è un tipo di [coronation|E], in cui il [ruler|E] cerca la benedizione del [head_of_faith|E] per sancire la propria ascesa al trono. In alcune fedi questo è necessario per essere davvero considerat[Select_CString(ROOT.Char.IsFemale,'a','o')] un legittimo governante delle proprie terre.\n\nPer assicurarsi il sostegno del proprio Capo della Fede, l’organizzatore può usare l’[interaction|E] [anointment_request|E]."
+ game_concept_coronation_anointment_desc: "L’unzione è un tipo di [coronation|E], in cui il [ruler|E] cerca la benedizione del [head_of_faith|E] per sancire la propria ascesa al trono. In alcune fedi questo è necessario per essere davvero considerat[Select_CString(ROOT.Char.IsFemale,'a','o')] un [Concept( 'legitimate', 'legittimo' )|E] governante delle proprie terre.\n\nPer assicurarsi il sostegno del proprio Capo della Fede, l’[Concept( 'host', 'organizzatore' )|E] può usare l’[interaction|E] [anointment_request|E]."
 
  game_concept_anointment_request: "Richiedi Unzione"
  game_concept_request_anointment: "$game_concept_anointment_request$"

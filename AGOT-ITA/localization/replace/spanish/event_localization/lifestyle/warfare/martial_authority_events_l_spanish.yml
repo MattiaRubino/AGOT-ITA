@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  # Mercenaries are being assholes at an inn, by Linnéa Thimrén
  martial_authority.1031.t:0 "Clemenza per i Mercenari"
 martial_authority.1031.desc: 0 "Il trambusto di una locanda, un buon [ROOT.Char.Custom('RegionalAlcoholicDrink')], una sera calma dopo una lunga giornata di addestramento... La mia coppa viene rovesciata da un mercenario barcollante colpito da un pugno, e ogni speranza di riposo si riversa sul pavimento insieme al mio liquore.\n\n«Per favore, [ROOT.Char.Custom('FormOfAddressForLiege')].» Implora l’oste: «I teppisti di [scoped_mercenary.GetFirstName] mi stanno prosciugando le botti da giorni senza pagare! E le loro risse spaventano personale e clienti!»"
@@ -75,7 +74,7 @@ martial_authority.2053.toast: 0 "La mia mano destra [right_hand_person.GetWomanM
  martial_authority_special.1100.c:0 "Fate di [officer.GetSheHe|U] un esempio."
  martial_authority_special.1100.d:0 "Sgattaiola via e prenditi il merito dell'idea del soldato."
 
- martial_authority_special.1101.desc:0 "Il mio addestramento mi è utile. Pochi istanti dopo, prendo [officer.GetTitledFirstName] per il braccio. "Che questa sia una lezione" affermo ad alta voce, affinché tutti possano sentire. "Il tuo [ROOT.Char.GetTitleTierName] non vede di buon occhio gli sciocchi di vedute ristrette. Non importa il loro rango."
+ martial_authority_special.1101.desc:0 "Il mio addestramento mi è utile. Pochi istanti dopo, prendo [officer.GetTitledFirstName] per il braccio. «Che questa sia una lezione» affermo ad alta voce, affinché tutti possano sentire. «Il tuo [ROOT.Char.GetTitleTierName] non vede di buon occhio gli sciocchi di vedute ristrette. Non importa il loro rango.»"
 
 martial_authority_special.1101.end.desc: 0 "\n\nIl soldato traspare gratitudine. «Grazie, [ROOT.Char.Custom('FormOfAddressForLiege')]. Non avrai mai [Select_CString(soldier_friend.IsFemale,'una servitrice','un servitore')] più fedele di [soldier_friend.GetFullNameNoTooltip]»."
  martial_authority_special.1101.a:0 "Adotta la strategia di [soldier_friend.GetFirstNamePossessiveNoTooltip]."

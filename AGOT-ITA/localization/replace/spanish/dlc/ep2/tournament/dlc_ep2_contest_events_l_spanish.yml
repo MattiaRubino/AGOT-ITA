@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ##### CONTEST #####
 
  ### SHARED
@@ -18,8 +17,8 @@
  contest_events_closing_marriage_wedding_host: "\n\n""Seguendo la propria decisione, come [Select_CString(host.IsFemale,'vincitrice','vincitore')], [host.GetTitledFirstNameNoTooltip|l] ha sposato il suo [host.Custom2('RelationToMeShort', marriage_prize)], [marriage_prize.GetFirstName]!"
  contest_events_closing_marriage_wedding: "\n\n""Come promesso, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] ha dato la mano di [marriage_prize.GetFirstName], il [host.Custom2('RelationToMeShort', marriage_prize)], in sposa a [contest_winner.GetFirstNameNoTooltip]!"
  contest_events_closing_marriage_betrothal_host: "\n\n""Seguendo la propria decisione, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] ha promesso il suo [host.Custom2('RelationToMeShort', marriage_prize)], [marriage_prize.GetFirstName], al vincitore!"
- contest_events_closing_marriage_betrothal: "\n\n""Come promesso, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] ha offerto il suo [host.Custom2('RelationToMeShort', marriage_prize)], [marriage_prize.GetFirstName], in fidanzamento a [contest_winner.GetFirstNameNoTooltip]!""
- contest_events_closing_marriage_reneged_winner: "\n\n"[host.Custom('IT_NAM_COL3')|U][host.GetTitledFirstNameNoTooltip|l] ha scandalosamente rifiutato di adempiere al premio promesso, concedere la mano del suo [host.Custom2('RelationToMe', marriage_prize)], [marriage_prize.GetFirstName], in matrimonio! Questo può essere considerato solo un insulto ai vincitori!"
+ contest_events_closing_marriage_betrothal: "\n\nCome promesso, [host.Custom('IT_NAM_COL3')][host.GetTitledFirstNameNoTooltip|l] ha offerto il suo [host.Custom2('RelationToMeShort', marriage_prize)], [marriage_prize.GetFirstName], in fidanzamento a [contest_winner.GetFirstNameNoTooltip]!"
+ contest_events_closing_marriage_reneged_winner: "\n\n[host.Custom('IT_NAM_COL3')|U][host.GetTitledFirstNameNoTooltip|l] ha scandalosamente rifiutato di adempiere al premio promesso, concedere la mano del suo [host.Custom2('RelationToMe', marriage_prize)], [marriage_prize.GetFirstName], in matrimonio! Questo può essere considerato solo un insulto ai vincitori!"
  contest_events_closing_marriage_invalid_slots: "$contest_events_closing_marriage_invalid$ Dopo tutto, un[contest_winner.Custom('DE_PRO_POS_P_2P')] [contest_winner.GetWomanMan] non ha bisogno di tanti partner."
  contest_events_closing_marriage_invalid_family: "$contest_events_closing_marriage_invalid$ Non sarebbe opportuno che un[marriage_prize.Custom('DE_PRO_POS_P_2P')] [marriage_prize.GetWomanMan] sposare il suo [marriage_prize.Custom2('RelationToMeShort', contest_winner)]."
  contest_events_closing_marriage_invalid: "\n\nSi vede che la fortuna ha deciso che il premio promesso [host.Custom('IT_NAM_COL2')][host.GetTitledFirstName|l], il [host.Custom2('RelationToMeShort', marriage_prize)], [marriage_prize.GetFirstName], non ci sarà."
@@ -592,7 +591,7 @@ contest_events.0810.a.bad_win: "Che [contest_winner.Custom2('InsultNoun', ROOT.C
  contest_events.0873.ptv_fallback: "La posizione sulla scacchiera continua a diventare sempre più contorta e in qualche modo più semplice, dato che i possibili percorsi e stratagemmi vengono bloccati."
  contest_events.0873.spectator: "\n\nLe sopracciglia si aggrottano mentre il gioco avanza inesorabilmente e gli spettatori restano in silenzio per non distrarre i concorrenti o, peggio ancora, per non rivelare una possibile mossa che avvantaggerebbe il loro favorito."
  contest_events.0873.final: "Il tintinnio dei pezzi accelera, la tensione è al massimo. La partita finale è iniziata."
- contest_events.0873.winner_start: "Diventa presto chiaro che [versus_contestant.GetFirstName] non sarà in grado di recuperare"."
+ contest_events.0873.winner_start: "Diventa presto chiaro che [versus_contestant.GetFirstName] non sarà in grado di recuperare."
  contest_events.0873.loser_start: "Pochi istanti dopo, mi rendo finalmente conto di quanto sia pericolosa la mia posizione: [versus_contestant.GetFirstName] mi ha attirat[ROOT.Char.Custom('DE_END_PRO_S_N')] in una trappola con maestria!!"
  contest_events.0873.winner_surprise: "[versus_contestant.GetSheHe|U] cadde nella mia trappola, ignar[versus_contestant.Custom('DE_END_PRO_S_N')] del mio finale accuratamente pianificato. Con un gesto disinvolto, muovo un'ultima pedina sulla scacchiera."
  contest_events.0873.winner_grind: "Continuo a pressarlo mentre mi muovo inesorabilmente verso la vittoria, indebolendo la sua posizione lentamente ma inesorabilmente."
@@ -822,12 +821,12 @@ contest_events.3000.b: 0 "«[contestant_1.GetFirstNameNoTooltip]! Come hai potut
 
  ### RECITAL ###
  contest_events.5000.t: "Un spettacolo vivace"
- contest_events.5000.desc: "[enemy.GetFirstName] mi rivolge un sorriso arrogante mentre sale sul podio, e presto scopro perché. Il primo verso è un grave insulto nei miei confronti, e il resto lo segue a ruota! \n\nIl suono degli applausi e dei fischi della folla mi riempie le orecchie. Non ho altra scelta che vendicarmi con una mia poesia. L'incipit è di fondamentale importanza.\n\n"#POE è pur vero che [enemy.GetFirstName] è un mago dei versi! Ma..."
- contest_events.5000.shagged_your_mum: "#POE ...ho dormito con sua madre.""
- contest_events.5000.shagged_your_dad: "#POE ..ho dormito con suo padre.""
- contest_events.5000.licentious: "#POE ...[enemy.GetSheHe] si abbandona a piaceri perversi.""
- contest_events.5000.stupid: "#POE  ...[enemy.GetSheHe] ha la mente di un lombrico.""
- contest_events.5000.ugly: "#POE ...la sua bruttezza congelerebbe gli inferi.""
+ contest_events.5000.desc: "[enemy.GetFirstName] mi rivolge un sorriso arrogante mentre sale sul podio, e presto scopro perché. Il primo verso è un grave insulto nei miei confronti, e il resto lo segue a ruota! \n\nIl suono degli applausi e dei fischi della folla mi riempie le orecchie. Non ho altra scelta che vendicarmi con una mia poesia. L'incipit è di fondamentale importanza.\n\n#POE è pur vero che [enemy.GetFirstName] è un mago dei versi! Ma..."
+ contest_events.5000.shagged_your_mum: "#POE ...ho dormito con sua madre."
+ contest_events.5000.shagged_your_dad: "#POE ..ho dormito con suo padre."
+ contest_events.5000.licentious: "#POE ...[enemy.GetSheHe] si abbandona a piaceri perversi."
+ contest_events.5000.stupid: "#POE  ...[enemy.GetSheHe] ha la mente di un lombrico."
+ contest_events.5000.ugly: "#POE ...la sua bruttezza congelerebbe gli inferi."
  contest_events.5000.success: "La tua poesia conquista la folla"
  contest_events.5000.failure: "La tua poesia è inefficace"
  contest_events.5010.t: "Perso nella traduzione"

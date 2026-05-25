@@ -1421,7 +1421,7 @@ CHANGE_COUNTY_CONTROL_THIRD_PAST_NEG: "Il [control|E] in [TITLE.GetName] è dimi
 
  ASSIGN_COUNCILLOR_TYPE:1 "Assegna [TARGET_CHARACTER.GetUIName] come suo $TYPE|V$"
 
- FIRE_COUNCILLOR:1 "Licenzia [TARGET_CHARACTER.GetUIName] dal suo [council|E]""
+ FIRE_COUNCILLOR:1 "Licenzia [TARGET_CHARACTER.GetUIName] dal suo [council|E]"
  FIRED_FROM_MY_COUNCIL:1 "[TARGET_CHARACTER.GetUIName] è lincenziato dal tuo [council|E]"
  FIRE_COUNCILLOR_TT:1 "#T Licenzia [ACTIVE_COUNCIL_TASK.GetCouncillor.GetUIName] dal [council|E]#!"
  SET_COUNCIL_TASK_EFFECT:0 "Inizia l'incarico $TYPE|V$"
@@ -2188,7 +2188,7 @@ SKILL_POINT_FROM_ME_TORTURING_GAIN_CHANCE: "Quando [torture|E] qualcuno:\n$TAB$#
 
  unlocks_board_games_interaction_effect:0 "Sblocca l'[interaction|E] $challenge_to_2p_chess_interaction$, che ti permette di giocare partite amichevoli con altri [characters|E]"
 
- EACH_FRIEND_ADDS_STRESS_REDUCTION:3 "Ogni [friend|E] fornisce: [stress_gain_i]#P -5%#! al Guadagno di [stress|E] (Fino ad un Massimo di [EmptyScope.ScriptValue('confidants_max')|0])""
+ EACH_FRIEND_ADDS_STRESS_REDUCTION:3 "Ogni [friend|E] fornisce: [stress_gain_i]#P -5%#! al Guadagno di [stress|E] (Fino ad un Massimo di [EmptyScope.ScriptValue('confidants_max')|0])"
 
  CHILDREN_ARE_BORN_WITH_EXTRA_STATS:0 "I Figli ricevono #P da 1#! a #P 3#! punti [skill|E] extra"
 

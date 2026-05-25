@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  activity_roaming: "Escursione"
  activity_roaming_desc: "Parti per una spedizione solitaria negli angoli nascosti del regno. Questa avventura offre una pausa dalle pressioni della vita di corte, offrendoti l'opportunità di riposare un po' tra le foreste secolari e le dolci colline."
  activity_roaming_host_desc: "$BULLET_WITH_TAB$[opinion_i|E][opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress_loss|E]\n$BULLET_WITH_TAB$[prestige_experience_i|E][prestige_experience|E]\n$BULLET_WITH_TAB$Possibilità di guadagnare il [trait|E] [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] oppure [trait_level_track_xp|E]"
@@ -185,7 +184,7 @@ roaming_intro_second_half_generic: "Finalmente posso lasciarmi alle spalle tutte
  bp3_roaming.0100.c.win: "Ho una conversazione fruttuosa con [ancient_traveler.GetNameNoTooltip]"
  bp3_roaming.0100.c.neutral: "Convinco [ancient_traveler.GetNameNoTooltip] ad unirsi alla mia corte"
  bp3_roaming.0100.c.loss: "[ancient_traveler.GetNameNoTooltip|U] non è interessat[ancient_traveler.Custom('DE_END_PRO_S_N')] a parlare"
- bp3_roaming.0100.d: ""E non appena ho distolto lo sguardo per un secondo, [ancient_traveler.GetSheHe] è semplicemente scompars[ancient_traveler.Custom('DE_END_PRO_S_N')]..."
+ bp3_roaming.0100.d: "E non appena ho distolto lo sguardo per un secondo, [ancient_traveler.GetSheHe] è semplicemente scompars[ancient_traveler.Custom('DE_END_PRO_S_N')]..."
 
  roaming_pondering_stone_mystic_key_title: "Rivelazioni"
  roaming_pondering_stone_mystic_key: "[Select_CString(host.IsLocalPlayer,'Tu',host.GetShortUIName)] [Select_CString( host.IsLocalPlayer, 'hai', 'ha' )] avuto diverse rivelazioni mentre [Select_CString( host.IsLocalPlayer, 'eri', 'era' )] sedut[host.Custom('DE_END_PRO_S_N')] nel territorio di [activity.GetCurrentPhase.GetLocation.Custom('HoldingNoHoldingTerrainRoaming')]."
@@ -425,7 +424,7 @@ roaming_intro_second_half_generic: "Finalmente posso lasciarmi alle spalle tutte
 
  # APAs
  roaming_fame_very_small_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia da raccontare.#!""
- roaming_fame_small_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una bella storia da raccontare!"#!""
+ roaming_fame_small_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: #EMP Sarà una bella storia da raccontare!#!"
  roaming_fame_medium_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia memorabile da raccontare!#!""
  roaming_fame_high_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una grande storia da raccontare!#!""
  roaming_fame_very_high_tt: "[perk|E] [GetPerk('roaming_perk').GetName( GetNullCharacter )]: "#EMP Sarà una storia fantastica da raccontare!#!""

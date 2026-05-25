@@ -9,7 +9,7 @@
  #End AGOT modifiche
 
  marshal_task.0301.t:0 "Comandante Promosso"
- marshal_task.0301.desc:0 "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], ha messo in mostra una nuova promettente recluta.\n\n"[commander.GetSheHe|U] potrebbe non essere di nobile retaggio come voi, [councillor.Custom2('RelationToMe', ROOT.Char)], ma giuro sul mio nome che [commander.GetTitledFirstName] è qualcuno che vorreste al vostro fianco."
+ marshal_task.0301.desc:0 "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], ha messo in mostra una nuova promettente recluta.\n\n[commander.GetSheHe|U] potrebbe non essere di nobile retaggio come voi, [councillor.Custom2('RelationToMe', ROOT.Char)], ma giuro sul mio nome che [commander.GetTitledFirstName] è qualcuno che vorreste al vostro fianco."
  marshal_task.0301.a:0 "Molto bene, [commander.GetFirstNameNoTooltip] mi servirà."
  marshal_task.0301.b:0 "Porta questa feccia fuori dal mio [ROOT.Char.Custom('ResidenceBuilding')]!"
  
@@ -84,7 +84,7 @@
  marshal_task.2003.ending:0 "\n\nIl mio [councillor.GetCouncilTitle] ha chiamato subito un medico, ma [commander.GetFirstName] si è dissanguato in pochi istanti."
  marshal_task.2003.a:0 "Una tragica perdita per il mio esercito."
 
- marshal_task.2101.desc:0 "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], è venuto da me con una proposta.\n\n"Ho notato che [commander.GetTitledFirstName] condivide una grande quantità del medesimo potenziale per [commander.Custom('CommanderTraitSkillDescription')] che [teacher.GetTitledFirstName] aveva una volta. Credo che [commander.GetFirstName] possa imparare molto dal dedito insegnamento di [teacher.GetFirstName]."
+ marshal_task.2101.desc:0 "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], è venuto da me con una proposta.\n\nHo notato che [commander.GetTitledFirstName] condivide una grande quantità del medesimo potenziale per [commander.Custom('CommanderTraitSkillDescription')] che [teacher.GetTitledFirstName] aveva una volta. Credo che [commander.GetFirstName] possa imparare molto dal dedito insegnamento di [teacher.GetFirstName]."
  marshal_task.2101.a:0 "Fa in modo che accada."
 marshal_task.2101.b: 0 "[commander.GetFirstNameNoTooltip] dovrebbe concentrarsi di più sul combattimento personale!"
 

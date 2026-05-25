@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  hold_court.7000.t: "Un'Equa Ripartizione"
 hold_court.7000.desc: "[local_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] vaga per la corte, con gli occhi che ammirano avidamente le ricchezze che ci si può permettere nella capitale.\n\n«Non è un segreto che [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip|U] sia l'invidia del mondo, [ROOT.Char.Custom('FormOfAddressForLiege')], ma non tutto il tuo reame è così fortunato. A [low_dev_county.GetNameNoTier], per esempio, i campi sono brulli e quasi senza anime a lavorarli. Non sarebbe magnifico se l'intero reame fosse splendido quanto [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip|U]?»"
  hold_court.7000.a: ""Lo sarebbe, sì"."
@@ -21,11 +20,11 @@ hold_court.7010.desc: "[friendly_neighbour.Custom2('MyCharacterIntroduction', RO
  hc_7010_tolerance: "Matrimonio Tollerante"
  hc_7010_tolerance_desc: "Questo personaggio ha recentemente fatto sposare un suo familiare con un membro di un’altra fede per diffondere sentimenti di tolleranza all'interno delle sue terre."
  hold_court.7020.t: "Lo Scudo della fede [ROOT.Char.GetFaith.GetNameNoTooltip]"
- hold_court.7020.desc.intro: "Oggi [same_faith_friend.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è [Select_CString(personaggio.IsFemale,'entrata','entrato')] nella mia corte con al suo seguito una processione di [ROOT.Char.GetFaith.PriestNeuterPlural] alquanto cupa, intonando preghiere [ROOT.Char.GetFaith.GetAdherentNamePlural] tradizionali.\n\n"[Select_CString(ROOT.Char.IsFemale,'Esimia','Esimio')] [ROOT.Char.GetTitleAsNameNoTooltip|l], voi ed io sappiamo bene quanto le nostre antiche tradizioni siano minacciate."
+ hold_court.7020.desc.intro: "Oggi [same_faith_friend.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è [Select_CString(personaggio.IsFemale,'entrata','entrato')] nella mia corte con al suo seguito una processione di [ROOT.Char.GetFaith.PriestNeuterPlural] alquanto cupa, intonando preghiere [ROOT.Char.GetFaith.GetAdherentNamePlural] tradizionali.\n\n[Select_CString(ROOT.Char.IsFemale,'Esimia','Esimio')] [ROOT.Char.GetTitleAsNameNoTooltip|l], voi ed io sappiamo bene quanto le nostre antiche tradizioni siano minacciate."
  hold_court.7020.desc.mid.oppression: "[threatening_ruler.GetName] ha sottomesso innumerevoli seguaci di [ROOT.Char.GetFaith.HighGodName|U] e il rischio di conversioni forzate aumenta giorno dopo giorno."
  hold_court.7020.desc.mid.recent_war: "Le vostre terre sono state profanate dalla mano [threatening_ruler.GetPrimaryTitle.GetAdjectiveNoTooltip] e i templi di [ROOT.Char.GetFaith.HighGodNamePossessive] sono stati incendiati."
  hold_court.7020.desc.mid.holy_site: "I nostri luoghi sacri sono fuori dalla nostra portata e temo che i fedeli non potranno mai visitare i siti scelti da [ROOT.Char.GetFaith.HighGodName] in questa terra."
- hold_court.7020.desc.outro: "Mi è abbastanza chiaro il fatto che sia necessario organizzare la nostra fede affinché le antiche tradizioni sopravvivano all’assalto della fede [threatening_ruler.GetFaith.GetReligion.GetName|l]"."
+ hold_court.7020.desc.outro: "Mi è abbastanza chiaro il fatto che sia necessario organizzare la nostra fede affinché le antiche tradizioni sopravvivano all’assalto della fede [threatening_ruler.GetFaith.GetReligion.GetName|l]."
  hold_court.7020.a: ""Per resistere, dobbiamo cambiare"."
  hold_court.7020.b: ""Restate saldi, non dobbiamo sacrificare le nostre tradizioni"."
  hold_court.7020.c: ""Uniti potremo preservare per sempre le antiche tradizioni"."

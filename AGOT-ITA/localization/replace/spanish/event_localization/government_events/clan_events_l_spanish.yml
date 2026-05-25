@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  clan.1001.t:0 "Il Figlio promesso"
 clan.1001.desc: 0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] e [Select_CString(vassal.IsFemale,'la sua','il suo')] [vassal_child.Custom('GetDaughterSon')] [vassal_child.Custom('IT_NAM_COL3')][vassal_child.GetTitledFirstName] si avvicinano a me.\n\n«La mancanza di un’alleanza tra noi è vergognosa, [ROOT.Char.Custom('FormOfAddressForLiege')]. Che [child.Custom('IT_NAM_COL3')][child.GetTitledFirstName] sposi [Select_CString(vassal_child.IsFemale,'mia','mio')] [vassal_child.Custom('GetDaughterSon')] e si rimettano a posto le cose!»"
  clan.1001.a:0 "Hai ragione, si sposeranno!"
@@ -10,12 +9,12 @@ clan.1001.desc: 0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] e [S
  clan.1002.b:0 "Non sono affari vostri."
 
  clan.1011.t:0 "Senza un'Alleanza"
- clan.1011.desc_opening:0 ""Non posso fare a meno di notare il nepotismo con cui trattate [allied_vassal.Custom('DE_ART_DEF_P_A')] [allied_vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]."\n\n[vassal.Custom('DE_ART_DEF_P_D')] [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è venut[vassal.Custom('DE_END_PRO_S_N')] a cercarmi, tentando di risolvere ciò che [vassal.GetSheHe] percepisce come un'offesa; non avendo un'alleanza con [vassal.GetSheHe].\n\n"Una vostra concessione calmerebbe il mio temperamento. Diciamo..."
- clan.1011.desc_army:0 "la competenza del vostro [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] per alcuni anni!""
- clan.1011.desc_prestige:0 "Far giungere buone parole alle orecchie giuste.""
- clan.1011.desc_diplomacy:0 "lezioni di arte diplomatica.""
- clan.1011.desc_prowess:0 "istruzioni in combattimento!""
- clan.1011.desc_fallback:0 "oro.""
+ clan.1011.desc_opening:0 "«Non posso fare a meno di notare il nepotismo con cui trattate [allied_vassal.Custom('DE_ART_DEF_P_A')] [allied_vassal.Custom2('YourCharacterIntroduction', ROOT.Char)], mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].»\n\n[vassal.Custom('DE_ART_DEF_P_D')] [vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è venut[vassal.Custom('DE_END_PRO_S_N')] a cercarmi, tentando di risolvere ciò che [vassal.GetSheHe] percepisce come un'offesa; non avendo un'alleanza con [vassal.GetSheHe].\n\n«Una vostra concessione calmerebbe il mio temperamento. Diciamo..."
+ clan.1011.desc_army:0 "la competenza del vostro [councillor.GetCouncilTitle] [councillor.GetTitledFirstName] per alcuni anni!»"
+ clan.1011.desc_prestige:0 "Far giungere buone parole alle orecchie giuste.»"
+ clan.1011.desc_diplomacy:0 "lezioni di arte diplomatica.»"
+ clan.1011.desc_prowess:0 "istruzioni in combattimento!»"
+ clan.1011.desc_fallback:0 "oro.»"
  clan.1011.army:0 "[councillor.Custom('DE_ART_DEF_P_D')] mi[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetCouncilTitle] [councillor.GetFirstNameNoTooltip] vi farà da tutor."
  clan.1011.tt:0 "#F Prendere o lasciare#!"
  clan.1011.prestige:0 "Parlerò bene di voi."

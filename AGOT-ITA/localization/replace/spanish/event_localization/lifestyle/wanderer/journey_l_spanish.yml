@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  journey_events.10.t: "Un Compagno per Attività all'Aperto"
 journey_events.10.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho notato che hai urgente bisogno di un compagno di viaggio." sento dire al/la mi[Select_CString(provider_character.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], [provider_character.GetFirstName], mentre entra nel mio studio. [Select_CString(provider_character.IsFemale,'Lei','Lui')|U] mi lancia uno sguardo d’intesa: "Oggi è passata per [ROOT.Char.GetCapitalLocation.GetName] una carovana di mercanti e ho visto che avevano una grande scelta di animali in vendita."\n\nQuando chiedo maggiori dettagli, [Select_CString(provider_character.IsFemale,'lei','lui')] menziona cani, cavalli e falconi di ogni dimensione che [Select_CString(provider_character.IsFemale,'lei','lui')] ha visto. Riflettendoci, penso che forse un compagno per i miei viaggi è proprio ciò che mi serve."
  journey_events.10.a: "Un vero e proprio cavallo da guerra sarebbe perfetto."

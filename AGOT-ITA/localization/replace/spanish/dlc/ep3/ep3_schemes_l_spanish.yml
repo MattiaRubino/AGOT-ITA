@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  #Slander
  slander: "Calunnia"
  slander_action: "Calunniare"
@@ -149,8 +148,8 @@ SCHEME_TARGET_IS_A_HEGEMONY: "[target.GetName] è un'[hegemony|E]: $VALUE|+0=$"
  # Depose
  depose: "Deporre"
  depose_action: "Deporre"
- depose_desc_general: "In un complotto di Deposizione, cospiri per rovesciare l'imperatore e sostituirlo con un candidato più adatto: #EMP te.#!"
- depose_desc: "Orchestrerò una serie di manovre per minare l'autorità e la legittimità di [SCHEME.GetTargetCharacter.GetShortUIName], con l'obiettivo di rimuoverl[SCHEME.GetTargetCharacter.Custom('DE_END_PRO_S_N')] dal trono del nostro impero."
+ depose_desc_general: "In a Depose scheme, you conspire to overthrow the emperor and replace them with a more suitable candidate: #EMP you.#!"
+depose_desc: "Orchestrerò una serie di manovre per minare l'autorità e la legittimità di [SCHEME.GetTargetCharacter.GetShortUIName], con l'obiettivo di rimuovere [Select_CString(SCHEME.GetTargetCharacter.IsFemale,'lei','lui')] dal trono del nostro impero."
  DEPOSE_SUCCESS_DESC: "Con astuzia senza pari, hai spodestato [SCHEME.GetTargetCharacter.GetShortUIName] dal trono, cambiando il corso della storia. L'impero è sull'orlo di una nuova alba, in attesa del[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] su[ROOT.Char.Custom('DE_END_PRO_S_N')] prossim[ROOT.Char.Custom('DE_END_PRO_S_N')] sovran[ROOT.Char.Custom('DE_END_PRO_S_N')]."
  depose_invalidated_title: "@scheme_icon! Il Complotto Deporre termina"
 

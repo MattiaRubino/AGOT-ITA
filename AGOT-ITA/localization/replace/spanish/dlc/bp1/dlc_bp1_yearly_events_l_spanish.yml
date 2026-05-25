@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  #Purchase a gift for your partner(s)
  bp1_yearly.2000.t: "Un Regalo Adatto a…"
  bp1_yearly.2000.desc.intro: "Il trambusto è evidente tra le botteghe dei mercanti ambulanti. Le bancarelle provvisorie sono colme fino all’orlo e traboccano di ogni sorta di cianfrusaglie. "
@@ -358,9 +357,9 @@ bp1_yearly.5728.a: 0 "Allora brucialo, [rival_burner.Custom2('InsultNoun', ROOT.
 
  # Coveted Claim
  bp1_yearly.8000.t:0 "Una Rivendicazione Pericolosa"
- bp1_yearly.8000.desc:0 "[bp1_8000_informer.GetTitledFirstName], ([bp1_8000_informer.Custom('DE_ART_DEF_P_A')]) mi[bp1_8000_informer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_informer'))], ha mostrato per tutto il giorno una certa inquietudine, come se cercasse le parole giuste per confidarmi qualcosa.\n\nInfine, mentre ci avviamo per la cena, [bp1_8000_informer.GetSheHe] inizia timidamente a parlare: "[bp1_8000_informer.Custom2('RelationToMeShort', ROOT.Char)|U] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]..."
- bp1_yearly.8000.desc_vassal:0 "dicono che [bp1_8000_new_rival.GetTitledFirstName], ([bp1_8000_new_rival.Custom('DE_ART_DEF_P_A')]) vostr[bp1_8000_new_rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_new_rival'))], dia sempre maggior credito alle sue presunte rivendicazioni sulle vostre terre...""
- bp1_yearly.8000.desc_foreign:1 "ho sentito dire che [bp1_8000_new_rival.GetFirstName], [bp1_8000_new_rival.Custom('IT_NAM_COL3')][bp1_8000_new_rival.GetTitleAsNameNoTooltip] di [bp1_8000_new_rival.GetPrimaryTitle.GetBaseNameNoTier], vi abbia ormai preso come bersaglio sul quale riversare tutta la sua ostilità...""
+ bp1_yearly.8000.desc:0 "[bp1_8000_informer.GetTitledFirstName], ([bp1_8000_informer.Custom('DE_ART_DEF_P_A')]) mi[bp1_8000_informer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_informer'))], ha mostrato per tutto il giorno una certa inquietudine, come se cercasse le parole giuste per confidarmi qualcosa.\n\nInfine, mentre ci avviamo per la cena, [bp1_8000_informer.GetSheHe] inizia timidamente a parlare: [bp1_8000_informer.Custom2('RelationToMeShort', ROOT.Char)|U] mi[ROOT.Char.Custom('DE_END_PRO_S_N')]..."
+ bp1_yearly.8000.desc_vassal:0 "dicono che [bp1_8000_new_rival.GetTitledFirstName], ([bp1_8000_new_rival.Custom('DE_ART_DEF_P_A')]) vostr[bp1_8000_new_rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('bp1_8000_new_rival'))], dia sempre maggior credito alle sue presunte rivendicazioni sulle vostre terre..."
+ bp1_yearly.8000.desc_foreign:1 "ho sentito dire che [bp1_8000_new_rival.GetFirstName], [bp1_8000_new_rival.Custom('IT_NAM_COL3')][bp1_8000_new_rival.GetTitleAsNameNoTooltip] di [bp1_8000_new_rival.GetPrimaryTitle.GetBaseNameNoTier], vi abbia ormai preso come bersaglio sul quale riversare tutta la sua ostilità..."
  bp1_yearly.8000.desc_single:0 "\n\n"[bp1_8000_new_rival.GetSheHe|U] vi definisce apertamente come 'illegittim[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] di [bp1_8000_claimed_title.GetNameNoTier]', che giorno dopo giorno usurpa le sue terre e le rendite che [bp1_8000_new_rival.Custom('DE_PRO_DEM')] spettano.""
  bp1_yearly.8000.desc_multi:0 "\n\n"[bp1_8000_new_rival.GetSheHe|U] sostiene di subire un torto personale dal fatto che continuiate a regnare sui suoi legittimi domini, in particolare su [bp1_8000_claimed_title.GetNameNoTier].""
 bp1_yearly.8000.a: 0 "Ah! Quel velenoso [bp1_8000_new_rival.Custom2('InsultNoun', ROOT.Char)]!"
@@ -392,7 +391,7 @@ bp1_yearly.8020.desc: 0 "Ho sentito delle vostre dispute con quell[Select_CStrin
  bp1_yearly.8020.d:0 "Voi non siete mi[bp1_8020_friend.Custom('DE_END_PRO_S_N')] amic[bp1_8020_friend.Custom('DE_END_PRO_S_N')], [bp1_8020_friend.GetFirstNameNoTooltip]."
  # Diametrically Opposed
  bp1_yearly.8040.t:0 "Diametricalmente Opposti"
- bp1_yearly.8040.desc.opening:0 "[bp1_yearly_8040_friend.Custom('DE_ART_DEF_P_D')] mi[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] buon[bp1_yearly_8040_friend.Custom('DE_PRO_POS_P_2P')] amic[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')], [bp1_yearly_8040_friend.GetTitledFirstName], da qualche giorno si comporta in maniera un po' strana con me, evitando ogni sera il mio invito a cena.\n\nOggi mi trova da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] nella mia [ROOT.Char.Custom('GetChamber')]. "[ROOT.Char.GetFirstNameNoTooltip], mi dispiace, ma come vostr[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] amic[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] devo dirvelo."\n\n"Si tratta"
+ bp1_yearly.8040.desc.opening:0 "[bp1_yearly_8040_friend.Custom('DE_ART_DEF_P_D')] mi[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] buon[bp1_yearly_8040_friend.Custom('DE_PRO_POS_P_2P')] amic[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')], [bp1_yearly_8040_friend.GetTitledFirstName], da qualche giorno si comporta in maniera un po' strana con me, evitando ogni sera il mio invito a cena.\n\nOggi mi trova da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] nella mia [ROOT.Char.Custom('GetChamber')]. [ROOT.Char.GetFirstNameNoTooltip], mi dispiace, ma come vostr[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] amic[bp1_yearly_8040_friend.Custom('DE_END_PRO_S_N')] devo dirvelo.\n\nSi tratta"
  bp1_yearly.8040.desc.diligent:0 "dei vostri affari e della vostra continua esigenza di ottenere dei risultati."
  bp1_yearly.8040.desc.brave:0 "della vostra eccessiva audacia che vi porta a prendere anche dei rischi inutili."
  bp1_yearly.8040.desc.just:0 "dei vostri meticolosi giudizi e analisi delle prove."
@@ -417,7 +416,7 @@ bp1_yearly.8020.desc: 0 "Ho sentito delle vostre dispute con quell[Select_CStrin
  bp1_yearly.8040.desc.patient:0 "della vostra eccessiva prudenza e mancanza di reazioni disinvolte davanti agli eventi."
  bp1_yearly.8040.desc.content:0 "della vostra mancanza di volontà nell'avere successo e nel riuscire a far meglio dei vostri pari."
  bp1_yearly.8040.desc.ambitious:0 "del vostro incessante bisogno di andare avanti senza porvi un obiettivo."
- bp1_yearly.8040.desc.closing:0 "Tutto ciò vi mette in cattiva luce. Sicuramente capirete che non è un bene per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] comportarsi in tal modo.""
+ bp1_yearly.8040.desc.closing:0 "Tutto ciò vi mette in cattiva luce. Sicuramente capirete che non è un bene per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] comportarsi in tal modo."
  bp1_yearly.8040.a:0 "Come #EMP osate#! parlarmi in questo modo? Andatevene immediatamente!"
  bp1_yearly.8040.a.lazy:0 "Possiamo parlarne più tardi?"
  bp1_yearly.8040.a.diligent:0 "Devo solo finire ciò che sto facendo, poi ne parleremo."
@@ -492,9 +491,9 @@ bp1_yearly.8061.a: 0 "«[battle_rival_winner.Custom2('InsultAdjective', ROOT.Cha
 bp1_yearly.8062.a: 0 "«[battle_rival_winner.Custom2('InsultNoun', ROOT.Char)]!»"
  # Feudal Favoritism
  bp1_yearly.8070.t:0 "Favoritismo di [ROOT.Char.GetGovernment.GetNameNoTooltip]"
- bp1_yearly.8070.opening:0 "[claim_vassal.Custom('IT_NAM_COL3')|U][claim_vassal.GetTitledFirstName] è stat[claim_vassal.Custom('DE_END_PRO_S_N')] silenziosamente agitat[claim_vassal.Custom('DE_END_PRO_S_N')] per tutta la sera, ma alla fine scoppia quando prendo il [ROOT.Char.Custom('GetExpensiveMealAlt')].\n\n"Io non riesco proprio a capire il perché abbiate concesso il [claim_title.GetName] [favorite_vassal.Custom('IT_NAM_COL4')][favorite_vassal.GetTitledFirstName]."
- bp1_yearly.8070.strength_strong:0 "La mia legittima rivendicazione di queste terre è riconosciuta da tutti!"\n\n"
- bp1_yearly.8070.strength_weak:0 "Queste terre mi appartengono di diritto!"\n\n"
+ bp1_yearly.8070.opening:0 "[claim_vassal.Custom('IT_NAM_COL3')|U][claim_vassal.GetTitledFirstName] è stat[claim_vassal.Custom('DE_END_PRO_S_N')] silenziosamente agitat[claim_vassal.Custom('DE_END_PRO_S_N')] per tutta la sera, ma alla fine scoppia quando prendo il [ROOT.Char.Custom('GetExpensiveMealAlt')].\n\nIo non riesco proprio a capire il perché abbiate concesso il [claim_title.GetName] [favorite_vassal.Custom('IT_NAM_COL4')][favorite_vassal.GetTitledFirstName]."
+ bp1_yearly.8070.strength_strong:0 "La mia legittima rivendicazione di queste terre è riconosciuta da tutti!\n\n"
+ bp1_yearly.8070.strength_weak:0 "Queste terre mi appartengono di diritto!\n\n"
  bp1_yearly.8070.claim:0 ""Perché avete favorito [favorite_vassal.GetSheHe] con queste terre e non me? Non sono forse stato un vassallo fedele?""
  bp1_yearly.8070.lowborn:0 ""L'ascesa di quest[favorite_vassal.Custom('DE_END_PRO_S_N')] arrivista di umili origini al mio posto è un insulto nei miei confronti!""
  bp1_yearly.8070.other:0 ""Quale grave offesa vi ho arrecato perché mi trattiate in modo così ignobile?""
@@ -511,11 +510,11 @@ bp1_yearly.8062.a: 0 "«[battle_rival_winner.Custom2('InsultNoun', ROOT.Char)]!�
  bp1_yearly.8100.t:0 "Favorito Impopolare"
  bp1_yearly.8100.joke:1 "Sto ancora ridendo per una battuta che [sycophant_scope.Custom('DE_ART_DEF_P_A')] mi[sycophant_scope.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetFirstName], ha fatto questa mattina durante la seduta del consiglio, quando [jealous_scope.GetTitledFirstName] mi afferra per un braccio."
  bp1_yearly.8100.thighs:0 "Sono pers[ROOT.Char.Custom('DE_END_PRO_S_N')] nei miei pensieri, fantasticando sulle cosce tanto ben proporzionate del[sycophant_scope.Custom('DE_END_ADJ_NUL_S_N')] mi[sycophant_scope.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetTitledFirstName], quando sento [jealous_scope.GetTitledFirstName] tossire proprio dietro di me."
- bp1_yearly.8100.desc:0 "\n\n"[jealous_scope.Custom2('RelationToMe', ROOT.Char)|U], avevo intenzione di parlarvi."
- bp1_yearly.8100.lover_known:0 "La vostra... predilezione per [sycophant_scope.GetFirstNameNoTooltip] è evidente e solleva, ehm... domande sulle vostre ragioni."\n\n"
- bp1_yearly.8100.lover_secret:0 "Io, e altri a corte, non riusciamo a capire il perché concediate a [sycophant_scope.GetSheHe] tanti onori e responsabilità. Uno stimato nobile del regno vi sarebbe cercamente più utile."\n\n"
- bp1_yearly.8100.lover:0 "So che provate... molto affetto per [sycophant_scope.GetSheHe], ma davvero vi sembra il caso di affidargli un posto in consiglio?"\n\n"
- bp1_yearly.8100.friend:0 "Capisco che siate amici intimi, ma c'è chi pensa che [sycophant_scope.Custom('DE_PRO_POS_P_3P')] mettiate davanti a consiglieri più meritevoli."\n\n"
+ bp1_yearly.8100.desc:0 "\n\n[jealous_scope.Custom2('RelationToMe', ROOT.Char)|U], avevo intenzione di parlarvi."
+ bp1_yearly.8100.lover_known:0 "La vostra... predilezione per [sycophant_scope.GetFirstNameNoTooltip] è evidente e solleva, ehm... domande sulle vostre ragioni.\n\n"
+ bp1_yearly.8100.lover_secret:0 "Io, e altri a corte, non riusciamo a capire il perché concediate a [sycophant_scope.GetSheHe] tanti onori e responsabilità. Uno stimato nobile del regno vi sarebbe cercamente più utile.\n\n"
+ bp1_yearly.8100.lover:0 "So che provate... molto affetto per [sycophant_scope.GetSheHe], ma davvero vi sembra il caso di affidargli un posto in consiglio?\n\n"
+ bp1_yearly.8100.friend:0 "Capisco che siate amici intimi, ma c'è chi pensa che [sycophant_scope.Custom('DE_PRO_POS_P_3P')] mettiate davanti a consiglieri più meritevoli.\n\n"
  bp1_yearly.8100.faction:0 ""Per essere chiari, se questi affronti non verranno riparati, solo [jealous_scope.GetFaith.HighGodName] sa cosa potrà accadere a [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]...""
 bp1_yearly.8100.hostile: 0 "«Voglio dire, non sai che [sycophant_scope.GetWomanMan] [sycophant_scope.Custom2('InsultAdjective', SCOPE.sC('jealous_scope'))] [sycophant_scope.Custom2('InsultNoun', SCOPE.sC('jealous_scope'))] [Select_CString(sycophant_scope.IsFemale,'sia','sia')]?»"
  bp1_yearly.8100.lowborn:0 ""Non è opportuno porre l'opinione di un popolano al di sopra, ma nemmeno alla pari, di quella di un appartenente all'alta nobiltà del regno.""
@@ -543,7 +542,7 @@ bp1_yearly.8100.hostile: 0 "«Voglio dire, non sai che [sycophant_scope.GetWoman
  bp1_yearly.8100.knowledgeable:0 "Mi trovo ad annuire, concordando con [sycophant_scope.Custom('DE_ART_DEF_P_A')] mi[sycophant_scope.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetTitledFirstName]. [sycophant_scope.GetSheHe|U] è molto preparat[sycophant_scope.Custom('DE_END_PRO_S_N')], sono davvero felice di poter contare su un[sycophant_scope.Custom('DE_PRO_POS_P_2P')] consiglier[sycophant_scope.Custom('DE_END_ADJ_IND_S_A')] tanto fidat[sycophant_scope.Custom('DE_END_PRO_S_N')] e capace. [jealous_scope.GetTitledFirstName] la pensa chiaramente in maniera diversa."
  # Sycophant's secret
  bp1_yearly.8110.t:0 "Il Segreto di [sycophant_scope.GetFirstNameNoTooltip]"
-bp1_yearly.8110.desc: 0 "Mentre passeggio in silenzio prima del “secondo sonno", distratt[Select_CString(ROOT.Char.IsFemale,'a','o')] dai pensieri per i begli occhi del[Select_CString(sycophant_scope.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetTitledFirstNamePossessive], scorgo la figura familiare di [revealer_scope.GetTitledFirstNamePossessive] avvicinarsi.\n\n«Ah, [ROOT.Char.Custom('FormOfAddressForLiege')]... Non riuscivo a spiegarmi la grande stima che avete mostrato per [sycophant_scope.GetFirstNameNoTooltip] — #EMP fino ad ora#!.»\n\n"
+bp1_yearly.8110.desc: 0 "Mentre passeggio in silenzio prima del “secondo sonno, distratt[Select_CString(ROOT.Char.IsFemale,'a','o')] dai pensieri per i begli occhi del[Select_CString(sycophant_scope.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetTitledFirstNamePossessive], scorgo la figura familiare di [revealer_scope.GetTitledFirstNamePossessive] avvicinarsi.\n\n«Ah, [ROOT.Char.Custom('FormOfAddressForLiege')]... Non riuscivo a spiegarmi la grande stima che avete mostrato per [sycophant_scope.GetFirstNameNoTooltip] — #EMP fino ad ora#!.»\n\n"
  bp1_yearly.8110.known_secret_homosexual:0 ""Fate spazio nella vostra cerchia ristretta a un vassallo più meritevole, oppure sarò costrett[revealer_scope.Custom('DE_END_PRO_S_N')] a portare alla luce il vostro rapporto... contro natura.""
  bp1_yearly.8110.known_secret_adulterer:0 ""Rimuovetel[sycophant_scope.Custom('DE_END_PRO_S_N')] dal consiglio, oppure il vostro empio adulterio sarà noto a tutti.""
 bp1_yearly.8110.known_secret_other: 0 "«Rimuovete dal vostro consiglio quella piantagrane [sycophant_scope.Custom2('InsultAdjective', SCOPE.sC('revealer_scope'))], o sarò costrett[Select_CString(revealer_scope.IsFemale,'a','o')] a rendere pubblica la vostra relazione.»"
@@ -689,8 +688,8 @@ bp1_yearly.8160.desc: 0 "[Select_CString(sycophant_scope.IsFemale,'La mia','Il m
  # Sycophant's rewards
  bp1_yearly.8191.t:0 "Le Ricompense di [sycophant_scope.GetFirstNameNoTooltip]"
 bp1_yearly.8191.opening: 0 "Un’altra interminabile riunione del consiglio trascina, finché le mie orecchie non si drizzano alla voce soave del[Select_CString(sycophant_scope.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', sycophant_scope)], [sycophant_scope.GetFirstNamePossessive].\n\n«Affari urgenti, [ROOT.Char.Custom('FormOfAddressForLiege')], "
- bp1_yearly.8191.taken:0 "il Paese ha un estremo bisogno di un [sycophant_scope.Custom('GetTargetCourtPosition')|l] capace. Di qualcuno che si occupi adeguatamente di [sycophant_scope.Custom('GetTargetCourtPositionDesc')]... un compito nel quale [old_holder.GetTitledFirstName] ha del tutto #EMP fallito#!.""
- bp1_yearly.8191.open:0 "il Paese ha un estremo bisogno di un [sycophant_scope.Custom('GetTargetCourtPosition')|l] capace. Di qualcuno che si occupi adeguatamente di [sycophant_scope.Custom('GetTargetCourtPositionDesc')]...""
+ bp1_yearly.8191.taken:0 "il Paese ha un estremo bisogno di un [sycophant_scope.Custom('GetTargetCourtPosition')|l] capace. Di qualcuno che si occupi adeguatamente di [sycophant_scope.Custom('GetTargetCourtPositionDesc')]... un compito nel quale [old_holder.GetTitledFirstName] ha del tutto #EMP fallito#!."
+ bp1_yearly.8191.open:0 "il Paese ha un estremo bisogno di un [sycophant_scope.Custom('GetTargetCourtPosition')|l] capace. Di qualcuno che si occupi adeguatamente di [sycophant_scope.Custom('GetTargetCourtPositionDesc')]..."
  bp1_yearly.8191.arrogant:0 "\n\nCon gesti teatrali, [sycophant_scope.GetSheHe] esclama: "Lasciate che me ne occupi io mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], questo genere di incarico richiede una certa eleganza.""
  bp1_yearly.8191.other:0 "\n\nMettendosi la mano sul cuore, [sycophant_scope.GetSheHe] esclama: "Certamente, #EMP Io#! sarei dispost[sycophant_scope.Custom('DE_END_PRO_S_N')] ad assumere questo importante onere, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')].""
  bp1_yearly.8191.desc:0 "\n\n[annoyed_scope.GetTitledFirstName] è chiaramente fumante di rabbia."

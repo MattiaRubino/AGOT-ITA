@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 elder_events.1000.t: "Un tempo mi conoscevi"
 elder_events.1000.desc: "«[confusion_target.GetFirstName], mi[confusion_target.Custom('DE_END_ADJ_NUL_S_N')] car[confusion_target.Custom('DE_END_ADJ_NUL_S_N')] [elder.Custom2('RelationToMeShort', SCOPE.sC('confusion_target'))] — è bello vederti!» [Select_CString(elder.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elder'))] [elder.GetFirstName] mi guarda negli occhi, con un lampo d'incertezza dietro il suo sorriso. «Sei sempre stat[Select_CString(confusion_target.IsFemale,'a','o')] [confusion_target.Custom('ComplimentAdjective')]. Per questo amo te più di tutti.»\n\nNella sua [GetTrait('withering_mind').GetName( GetNullCharacter )], oggi sono [Select_CString(confusion_target.IsFemale,'mia','mio')] [confusion_target.Custom('SisterBrother')]...\n\nDomani, potrei essere un estraneo."
 elder_events.1000.a: "Ti prego, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elder'))] — sono [ROOT.Char.GetFirstNameNoTooltip]!"

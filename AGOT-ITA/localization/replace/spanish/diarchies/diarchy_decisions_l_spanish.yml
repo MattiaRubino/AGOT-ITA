@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ##################################################
  # #Misc
  
@@ -7,7 +6,7 @@
  ##################################################
  # #Attempt to Overthrow Liege
  diarch_attempt_to_overthrow_liege:0 "Tenta di Rovesciare il Signore"
- diarch_attempt_to_overthrow_liege_desc:0 ""Il nostro presunto "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"#! [ROOT.Char.GetLiege.GetFirstNameNoTooltip]  non può governare senza di #EMP me#! — - ma io potrei certamente governare senza di #EMP [ROOT.Char.GetLiege.GetSheHe]#!.Tutto ciò di cui ho bisogno è il tacito sostegno di un numero sufficiente di potenti Signori del regno, di alcuni soldati fedeli e di un'opportunità..."
+ diarch_attempt_to_overthrow_liege_desc:0 "Il nostro presunto [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]#! [ROOT.Char.GetLiege.GetFirstNameNoTooltip]  non può governare senza di #EMP me#! — - ma io potrei certamente governare senza di #EMP [ROOT.Char.GetLiege.GetSheHe]#!.Tutto ciò di cui ho bisogno è il tacito sostegno di un numero sufficiente di potenti Signori del regno, di alcuni soldati fedeli e di un'opportunità..."
  diarch_attempt_to_overthrow_liege_tooltip:0 "Lancia un colpo di stato per prendere i [titles|E] del tuo [liege|E] senza una [war|E]"
  diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support:0 "Attualmente hai potenzialmente il supporto di [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] [Concept( 'powerful_vassal', 'vassalli potenti' )|E] eleggibili #weak (incluso te stesso)#! nella tua cospirazione, su un [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] rischiesti"
  diarch_attempt_to_overthrow_liege_bypass: "Hai già gettato le basi per un simile tentativo"

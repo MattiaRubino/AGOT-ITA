@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  #start AGOT modifiche
  fp3_clan.8003_ending: "«Queste erano le parole di [righteous_caliph.GetTitleTierName]», dichiara poi [Select_CString(hof_emissary.IsFemale,'lei','lui')], «e [Select_CString(righteous_caliph.IsFemale,'lei','lui')] ha deciso di concederti un grande onore. Il tuo nome sarà letto durante le preghiere settimanali, nella stessa [caliphal_location.GetName]. Tutto ciò che [righteous_caliph.GetTitleTierName] chiede in cambio è che tu non dimentichi la sua benevolenza nell'accordarti questo favore...»\n\nLa sua voce si spegne, come a voler sottolineare un significato nascosto in quelle parole."
  #End AGOT modifiche
@@ -11,7 +10,7 @@
 
 #Usury against Unity, by Ola Jentzsch 
  fp3_clan.8000.t: "L'Usuraio Contro l'Unità"
- fp3_clan.8000.desc: "[concerned_one.Custom('IT_NAM_COL3')|U][concerned_one.GetName] si avvicina a me, apparentemente preoccupat[concerned_one.Custom('DE_END_PRO_S_N')]. "Ho sentito dire che [usurer.Custom('IT_NAM_COL3')][usurer.GetTitledFirstName] presta denaro ai cortigiani che ne sono a corto e che approfitti delle loro disgrazie applicando tassi di interesse esorbitanti. Tutti dicono che è [Select_CString( usurer.IsFemale, 'un'usuraia', 'un usuraio' )] e pensano che dovrebbe essere richiamat[usurer.Custom('DE_END_PRO_S_N')] all'ordine".\n\nQuando chiedo conto al[usurer.Custom('DE_END_ADJ_NUL_S_N')] mi[usurer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('usurer'))] di queste accuse, [usurer.GetSheHe] si difende con veemenza. "È una pura calunnia! Alcuni amici mi hanno chiesto un aiuto finanziario, è vero, ma non ho avuto cattive intenzioni, né ho chiesto d'interessi più di quanto fosse giusto.\n\nLa verità è che [concerned_one.Custom('IT_NAM_COL3')][concerned_one.GetTitledFirstNameNoTooltip] mi deve dei soldi, ecco perché si sta intromettendo in queste faccende.""
+ fp3_clan.8000.desc: "[actor.GetFirstName] è giunt[actor.Custom('DE_END_PRO_S_N')] a [target.GetBaseNameNoTierNoTooltip], luogo dell'incontro, nella speranza di convincere [recipient.GetFirstName] a sposarl[actor.Custom('DE_END_PRO_S_N')].\n\n[actor.GetSheHe|U] entra nel cortile con un sorriso educato e un dono simbolico. [recipient.GetFirstName] lo accoglie con cortesia, ma senza entusiasmo. L'incontro procede con decoro formale, eppure la risposta è chiara.\n\nLa proposta è stata rifiutata."
  fp3_clan.8000.a: "Un po' di tempo nelle segrete vi schiarirà le idee, [usurer.GetFirstName]."
  fp3_clan.8000.b: "Condividete i vostri guadagni illeciti e tutto verrà dimenticato."
  fp3_clan.8000.c: "Risolvete la questione tra di voi."
@@ -39,7 +38,7 @@ fp3_clan.8001_generic_fallback: "Sebbene non sia chiaro cosa sia accaduto, entra
 
  #Bonds of Faith, by Ola Jentzsch 
  fp3_clan.8002.t: "Legami di Fede"
-fp3_clan.8002.desc: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», dice esitante il/la mio/a [chaplain.GetCouncilTitle] [chaplain.GetFirstName], «dobbiamo parlare di questioni spirituali». Fa una pausa per assicurarsi che siamo soli.\n\n«Ho sentito [clan_member.GetName] mormorare di quanto raramente visiti la [ROOT.Char.GetFaith.HouseOfWorship].\n\nNon mi permetterei di speculare sul tuo rapporto personale con il divino, o [ROOT.Char.GetTitleTierName]. Ma quanto #EMP appari#! pio è essenziale per coloro che governi»."
+fp3_clan.8002.desc: "La lettera è giunta da [actor.GetTitledFirstName]. Le sue parole sono ornate, rispettose e piene di promesse di fedeltà.\n\n[actor.GetSheHe|U] chiede la mano di [recipient.GetFirstName] e spera che la nostra casata accolga favorevolmente l'unione."
  fp3_clan.8002.a: "Forse non ho frequentato abbastanza i luoghi sacri e ho trascurato i miei doveri?"
  fp3_clan.8002.b: "Farò una donazione alla [ROOT.Char.GetFaith.HouseOfWorship] della città."
  fp3_clan.8002.c: "Che quegli stupidi gonzi credano pure che m'importi ciò che pensano."
@@ -61,7 +60,7 @@ fp3_clan.8002.desc: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», dice esi
 
  #Bonds of Fear, by Ola Jentzsch
  fp3_clan.8004.t: "Le Catene della Paura"
- fp3_clan.8004.desc: "[murder_enthusiast.Custom('DE_ART_DEF_P_D')] mi[murder_enthusiast.Custom('DE_END_PRO_S_N')] [murder_enthusiast.Custom('GetCouncilOrCourtPosition')] [murder_enthusiast.GetFirstName] mi ha chiesto un incontro privato. Sembrava davvero preoccupat[murder_enthusiast.Custom('DE_END_PRO_S_N')].\n\n"Ascoltatemi, oh [ROOT.Char.GetTitleTierName]», dice, quasi sussurrando. "[clan_member.Custom('IT_NAM_COL3')|U][clan_member.GetName] sta tramando qualcosa, probabilmente una nuova cospirazione contro di voi. Forse, potrebbe essere il momento giusto per agire contro qualcuno vicino a [clan_member.GetSheHe], per mandare un messaggio. Si dice che uno dei suoi servitori abbia conquistato i suoi favori...""
+ fp3_clan.8004.desc: "La notizia corre rapidamente attraverso il campo: [actor.GetTitledFirstName] è stat[actor.Custom('DE_END_PRO_S_N')] respint[actor.Custom('DE_END_PRO_S_N')] da [recipient.GetTitledFirstName].\n\nNonostante il tono cortese della proposta, il rifiuto pubblico ha ferito l'orgoglio di [actor.GetTitledFirstNameNoTooltip]."
  fp3_clan.8004.a: "Capisco. Fatelo, ma con molta discrezione."
  fp3_clan.8004.b: "La discrezione non è necessaria, uccidete questo servitore e tanti saluti."
  fp3_clan.8004.c: "No, è una pessima idea. Non riparliamone mai più."
@@ -94,7 +93,7 @@ fp3_clan.8006.desc: "[paranoia_enthusiast.GetName], [paranoia_enthusiast.Custom(
 
  #Bleeding Them Dry, by Ola Jentzsch
  fp3_clan.8008.t: "Fino all'Osso"
-fp3_clan.8008.desc: "Ultimamente il mio spietato esattore, [ambitious_tax_collector.GetName], ha passato molto tempo immers[Select_CString(ambitious_tax_collector.IsFemale,'a','o')] nei propri pensieri. Ma qualcosa sembra essersi finalmente concretizzato, perché mi cerca.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], i tuoi vassalli escogitano ogni sorta di giustificazione per non pagare quanto dovrebbero. Ma posso produrre anch'io… #italic giustificazioni#!…»\n\nMostra un documento dall'aria antica: «Questa pergamena dimostra che [Select_CString(beleaguered_clan_member.IsFemale,'la tua','il tuo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('beleaguered_clan_member'))], [beleaguered_clan_member.Custom('IT_NAM_COL3')][beleaguered_clan_member.GetTitledFirstName], ti deve più di quanto si credesse. E ne ho anche per gli altri tuoi sudditi…»"
+fp3_clan.8008.desc: "La tensione tra [actor.GetTitledFirstName] e [recipient.GetTitledFirstName] è peggiorata apertamente dopo il rifiuto della proposta matrimoniale.\n\nCiò che era iniziato come una trattativa fra casate si è trasformato in un affronto personale. Gli uomini di [actor.GetFirstNameNoTooltip] parlano già di onore offeso e vendetta."
  fp3_clan.8008.a: "Più ne trovate, meglio è!"
  fp3_clan.8008.b: "Concentriamoci [beleaguered_clan_member.Custom('IT_NAM_COL')][beleaguered_clan_member.GetTitledFirstNameNoTooltip]."
  fp3_clan.8008.c: "Non permetterò che l'avidità crei divisioni nella mia casata."
@@ -162,11 +161,11 @@ fp3_clan.8012.desc: "«Talvolta, [ROOT.Char.Custom('FormOfAddressForLiege')], ca
 
  fp3_clan.8016.t: "Scompiglio Nel Hammam"
 fp3_clan.8016.opening_desc: "Mentre mi godo un bagno rilassante con il/la mio/a [chaplain.GetCouncilTitle], [chaplain.GetFirstName], all'improvviso affronta un tema più serio.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», sussurra, «ieri notte [scandalous_clan_member.GetName] era qui, nelle terme, con un seguito di mascalzoni non rasati"
- fp3_clan.8016.deviant_desc: ", pervertiti e un asino."
+ fp3_clan.8016.deviant_desc: "Si dice che [scandalous_clan_member.GetSheHe] sia stat[scandalous_clan_member.Custom('DE_END_PRO_S_N')] coinvolt[scandalous_clan_member.Custom('DE_END_PRO_S_N')] in pratiche indegne e ripugnanti."
  fp3_clan.8016.drunkard_desc: ",ubriachi e libertini."
  fp3_clan.8016.rakish_desc: ", prostitute e depravati."
  fp3_clan.8016.hashishiyah_desc: "e criminali storditi dalle droghe."
- fp3_clan.8016.ending_desc: "Si sono quindi dedicati a atti che a malapena oserei descrivere e si sono rifiutati di andarsene quando è stato loro chiesto. E non è certo la prima volta che [scandalous_clan_member.GetFirstNameNoTooltip] si comporta in questo modo". [chaplain.GetFirstNameNoTooltip] fa una pausa, con aria preoccupata.\n\n"Dovreste condannare pubblicamente il suo comportamento, prima che le sue inclinazioni portino il discredito su tutta la vostra casata.""
+ fp3_clan.8016.ending_desc: "Si sono quindi dedicati a atti che a malapena oserei descrivere e si sono rifiutati di andarsene quando è stato loro chiesto. E non è certo la prima volta che [scandalous_clan_member.GetFirstNameNoTooltip] si comporta in questo modo. [chaplain.GetFirstNameNoTooltip] fa una pausa, con aria preoccupata.\n\nDovreste condannare pubblicamente il suo comportamento, prima che le sue inclinazioni portino il discredito su tutta la vostra casata."
  fp3_clan.8016.a: "Va bene, l[scandalous_clan_member.Custom('DE_END_PRO_S_N')] rimprovererò"
  fp3_clan.8016.b: "No, sostengo sempre i membri della mia famiglia, a prescindere dai divertimenti che si concedono."
 

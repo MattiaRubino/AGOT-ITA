@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
   tgp_japan_general.8800.t: "L[ROOT.Char.GetConfederation.GetName] si espande"
   tgp_japan_general.8800.desc: "Le mie forze possono andare fiere, avendomi servito, insieme a [attacker.GetConfederation.GetName], contro [war_loser.GetTitledFirstName]. Il [target_title.GetName] è confiscato, e spetta a me conferirlo.\n\nSarebbe prudente assicurare che queste terre restino a un fidato e leale vassallo domestico, che ascolterà le mie parole e potrà essere chiamat[Select_CString(fallback_1.IsFemale,'a','o')] in futuro."
   tgp_japan_general.8800.a: "[Select_CString(family_1.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('family_1') )], [family_1.GetFirstNameNoTooltip], governer[Select_CString(family_1.IsFemale,'à','à')] bene."

@@ -92,8 +92,8 @@
  seduce_outcome.2304.b:0 "Unirsi solo per separarsi: fa tutto parte della vita."
 
  seduce_outcome.2305.t:0 "La Lettera D'Amore"
- seduce_outcome.2305.desc_opening:0 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"
- seduce_outcome.2305.desc_ending:0 ""\n\nNon appena ho letto la lettera inviatami da [target.GetFirstName], mi sono avviat[ROOT.Char.Custom('DE_END_PRO_S_N')] verso i suoi alloggi."
+ seduce_outcome.2305.desc_opening:0 "[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"
+ seduce_outcome.2305.desc_ending:0 "\n\nNon appena ho letto la lettera inviatami da [target.GetFirstName], mi sono avviat[ROOT.Char.Custom('DE_END_PRO_S_N')] verso i suoi alloggi."
  seduce_outcome.2305.a:0 "Le mie azioni risponderanno alle sue parole!"
  seduce_outcome.2305.a_terrible:0 "#F O piuttosto al significato dietro le sue parole: quella poesia era terribile!#!"
  seduce_outcome.2305.a_okay:0 "#F E compenseranno a ciò che mancava!#!"
@@ -233,7 +233,7 @@ seduce_outcome.4900.a.family: 0 "Come hai chiamato [Select_CString(target.IsFema
  seduce_outcome.8103.desc:0 ""Mi disgusti, [owner.GetFirstNameNoTooltip]. Sono tu[target.Custom('DE_END_PRO_S_N')] [owner.Custom2('RelationToMe', SCOPE.sC('target') )] per l'amor di [ROOT.Char.GetFaith.HighGodNamePossessive]! Porterò alla luce le tue grottesche perversioni, fidati della mia parola!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] palesando il suo disprezzo per le mie avances romantiche."
  seduce_outcome.8103.a:0 "Faresti questo al[owner.Custom('DE_END_ADJ_NUL_S_N')] tu[owner.Custom('DE_END_PRO_S_N')] stess[owner.Custom('DE_END_PRO_S_N')] [target.Custom2('RelationToMe', SCOPE.sC('owner') )]?!"
 
- seduce_outcome.4100.desc:0 "Durante una passeggiata, vedo [target.GetFirstName] che mi fa cenno a distanza. Io vado, e dopo aver[target.Custom('DE_PRO_POS_P_3P')] raggiunt[target.Custom('DE_END_PRO_S_N')], ci nascondiamo fuori dalla vista degli altri. Esploriamo avidamente i nostri corpi e vengo spazzat[ROOT.Char.Custom('DE_END_PRO_S_N')] via da una tempesta di baci ardenti e sospiri senza fiato. All'improvviso, [target.GetFirstNameNoTooltip] interrompe il nostro bacio mettendomi un dito sulle labbra.\n\n "È stato divertente", dice [target.GetSheHe] con voce spensierata mentre si allontana, "ma sono stanc[ROOT.Char.Custom('DE_END_PRO_S_N')] di questo gioco, è ora che "
- seduce_outcome.4100.desc_married:0 "Riprendo la responsabilità che ho come [target_spouse.GetTitledFirstNamePossessive] [target_spouse.Custom2('RelationToMeShort', target)].""
- seduce_outcome.4100.desc_fallback:0 "Mi concentro sugli obiettivi che mi sono prefissat[ROOT.Char.Custom('DE_END_PRO_S_N')].""
+ seduce_outcome.4100.desc:0 "Durante una passeggiata, vedo [target.GetFirstName] che mi fa cenno a distanza. Io vado, e dopo aver[target.Custom('DE_PRO_POS_P_3P')] raggiunt[target.Custom('DE_END_PRO_S_N')], ci nascondiamo fuori dalla vista degli altri. Esploriamo avidamente i nostri corpi e vengo spazzat[ROOT.Char.Custom('DE_END_PRO_S_N')] via da una tempesta di baci ardenti e sospiri senza fiato. All'improvviso, [target.GetFirstNameNoTooltip] interrompe il nostro bacio mettendomi un dito sulle labbra.\n\n È stato divertente, dice [target.GetSheHe] con voce spensierata mentre si allontana, ma sono stanc[ROOT.Char.Custom('DE_END_PRO_S_N')] di questo gioco, è ora che "
+ seduce_outcome.4100.desc_married:0 "Riprendo la responsabilità che ho come [target_spouse.GetTitledFirstNamePossessive] [target_spouse.Custom2('RelationToMeShort', target)]."
+ seduce_outcome.4100.desc_fallback:0 "Mi concentro sugli obiettivi che mi sono prefissat[ROOT.Char.Custom('DE_END_PRO_S_N')]."
  seduce_outcome.4100.a:0 ""Aspetta, non era così che sarebbe dovuta andare!""

@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  #Travel City Events
  #Generic:
  travel_city_companion_impressed:0 "\n\n[Select_CString(sightseeing_companion.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] mormora al mio orecchio mentre contempla questo spettacolo erudito: “Potrei davvero trascorrere una vita qui, [ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U]”\n"
@@ -12,7 +11,6 @@
  travel_city_contemplated_religion_tooltip:0 "Trascorro del tempo a contemplare la natura di Cristo"
  travel_city_religious_mystic:0 "Entro in contatto con il lato mistico della mia fede"
  travel_city_contemplated_life_and_death_companion:0 "[sightseeing_companion.GetName] e io discutiamo della vita e della morte"
-
  travel_city_option_learn_local_history:0 "Devo saperne di più sulla città che era un tempo."
  travel_city_duel_history_fail:0 "[sightseeing_companion.GetName] non riesce a insegnarmi la storia di [city_province.GetNameNoTooltip]"
  travel_city_duel_teaching_fail_no_companion:0 "Non riesco a imparare nulla di utile a [city_province.GetNameNoTooltip]"
@@ -76,7 +74,7 @@
  travel_city_constantinople_intro_sea: "Quando sbarchiamo nel porto di [Glossary( 'Prosphorion', 'PROSPHORION_GLOSS')] siamo stupiti dalle dimensioni di [city_province.GetBaronyNameExplicitlyNoTooltip], avendo visto da lontano torri, cupole e mura di cinta.\n\n"
  travel_city_constantinople_augustaion: "A metà giornata ci riposiamo nella calura accanto a un curioso edificio nella piazza mozzafiato di [Glossary( 'Augustaion', 'AUGUSTAION_GLOSS')]. La struttura ospita una pietra miliare d'oro che, secondo gli abitanti del luogo, segna il centro del mondo."
  travel_city_center_of_the_world_reflection: "\n\nCircondati da edifici monumentali, non è difficile credere alle loro affermazioni. La mia esistenza sembra improvvisamente meno significativa."
- travel_city_companion_center_of_the_world_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], questo è un luogo diverso da qualsiasi altro in cui siate stati. Ci troviamo di fronte a più di un millennio di storia""
+ travel_city_companion_center_of_the_world_reflection:0 "\n\n“[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], questo è un luogo diverso da qualsiasi altro in cui siate stati. Ci troviamo di fronte a più di un millennio di storia”"
  AUGUSTAION_GLOSS: "L'Augustaion è la piazza che si trova appena fuori dalla porta Chalke dell'area imperiale di Costantinopoli. All'estremità della piazza si trova il  [Glossary( 'Milion', 'MILION_GLOSS' )], prima dell'Ippodromo e ai lati si trovano i bagni monumentali di Zeuxippos e la Cattedrale di Santa Sofia."
  travel_city_constantinople_aqueduct_valens: "Spinti dalla curiosità seguiamo un [Glossary( 'enorme acquedotto', 'AQUEDUCT_OF_VALENS_GLOSS' )] fino all'ingresso di una cisterna sotterranea. Una guardia ci dice che è stata l'approvvigionamento idrico della città per generazioni e si offre di mostrarci l'enorme interno per una piccola somma.\n"
  travel_city_option_study_aqueducts: "Dobbiamo tracciare e documentare queste profondità."

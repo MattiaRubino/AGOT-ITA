@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  mpo_events_ariana.0001.t: "Avvistamento del Nido"
  mpo_events_ariana.0001.desc: "Sulla via del ritorno verso l’accampamento, noto un piccolo nido, sebbene non si veda alcun uccello nei paraggi. È fatto di ramoscelli ed erba, e sembra in buone condizioni.\n\nOsservandolo più da vicino, ci sono due aquilotti all’interno, abbastanza grandi da sopravvivere senza la madre per un po’, ma ancora troppo giovani per lunghi viaggi all’orizzonte. L’opportunità di"
  mpo_events_ariana.0001.desc_had_story: "avere di nuovo un’aquila come compagna è allettante, ma devo essere caut[ROOT.Char.Custom('DE_END_PRO_S_N')]: so quanto possano essere imprevedibili queste creature."
@@ -58,9 +57,9 @@
  mpo_events_ariana.0010.d_failure: "[converting_heir.GetFirstNameNoTooltip] resta ferm[converting_heir.Custom('DE_END_PRO_S_N')] nel diventare di fede [new_faith.GetAdjectiveNoTooltip]"
 
  mpo_events_ariana.0020.t: "Inaffidabile"
- mpo_events_ariana.0020.desc_intro: "[worried_spouse.GetName] irrompe nella mia stanza e sbotta: "Sapevi che [sus_councillor.GetName] è un[sus_councillor.Custom('DE_PRO_POS_P_2P')] [councillor_culture.GetName]?"\n\nPrima che io possa formulare una risposta, [worried_spouse.GetSheHe] incalza: "Non riesco a concepire"
- mpo_events_ariana.0020.desc_marshal: "che il mio esercito sia guidato da un[sus_councillor.Custom('DE_PRO_POS_P_2P')] [councillor_culture.GetNameNoTooltip], preferirei stare dall’altra parte del campo di battaglia. Eppure, [sus_councillor.GetSheHe] continua ad aggirarsi nei nostri campi d’addestramento?""
- mpo_events_ariana.0020.desc_spymaster: "di permettere a un[sus_councillor.Custom('DE_PRO_POS_P_2P')] subdol[sus_councillor.Custom('DE_END_PRO_S_N')] [councillor_culture.GetNameNoTooltip] di far parte del mio circolo, figuriamoci di avere accesso alle nostre operazioni segrete. Mi fido più di un serpente che di [sus_councillor.GetHerHim].""
+ mpo_events_ariana.0020.desc_intro: "[worried_spouse.GetName] irrompe nella mia stanza e sbotta: «Sapevi che [sus_councillor.GetName] è un[sus_councillor.Custom('DE_PRO_POS_P_2P')] [councillor_culture.GetName]?»\n\nPrima che io possa formulare una risposta, [worried_spouse.GetSheHe] incalza: «Non riesco a concepire"
+ mpo_events_ariana.0020.desc_marshal: "che il mio esercito sia guidato da un[sus_councillor.Custom('DE_PRO_POS_P_2P')] [councillor_culture.GetNameNoTooltip], preferirei stare dall’altra parte del campo di battaglia. Eppure, [sus_councillor.GetSheHe] continua ad aggirarsi nei nostri campi d’addestramento?»"
+ mpo_events_ariana.0020.desc_spymaster: "di permettere a un[sus_councillor.Custom('DE_PRO_POS_P_2P')] subdol[sus_councillor.Custom('DE_END_PRO_S_N')] [councillor_culture.GetNameNoTooltip] di far parte del mio circolo, figuriamoci di avere accesso alle nostre operazioni segrete. Mi fido più di un serpente che di [Select_CString(sus_councillor.IsFemale,'lei','lui')].»"
 mpo_events_ariana.0020.desc_end: "Per quanto le esagerazioni di [worried_spouse.GetFirstNamePossessiveNoTooltip] possano sembrare eccessive, è risaputo che alcuni [councillor_culture.GetCollectiveNounNoTooltip] [sus_councillor.Custom('mpo_yearly_ethos')]\n\n«Ti prego…» [Select_CString(worried_spouse.IsFemale,'implora','implora')], «ti supplico, non permettere che [sus_councillor.GetHerHis] [sus_councillor.Custom2('InsultBehavior', SCOPE.sC('worried_spouse'))] continuino nelle nostre sale. Non si può sapere cosa potrebbe fare.»"
  mpo_yearly_bellicose: "sono troppo impulsivi, per una vendetta che forse nemmeno esiste."
  mpo_yearly_stoic: "non verserebbero una lacrima, nemmeno per la morte dei propri cari."
@@ -241,9 +240,9 @@ mpo_events_ariana.0081.desc_outro: "Sono rapit[Select_CString(ROOT.Char.IsFemale
 
  mpo_events_ariana.0110.t: "Terra Ribelle"
  mpo_events_ariana.0110.desc: ""[ROOT.Char.GetTitleAsNameNoTooltip], ho udito i sussurri degli spiriti," dice [Select_CString(astrologer.IsFemale, 'la mia astrologa', 'il mio astrologo')], [astrologer.GetFirstName]. "[ROOT.Char.GetFaith.HighGodNameSheHe|U] avverte dei pericoli che ti attendono, a meno che tu non tenga la tua gente lontana da [current_capital.GetNameNoTier]."\n\n"
- mpo_events_ariana.0110.desc_fertility: ""Poiché le tue mandrie non possono pascolare qui, sarebbe una cattiva sorte consumare i tuoi pasti in questo luogo."
- mpo_events_ariana.0110.desc_opinion: ""La gente qui non ti ama più come un tempo, e la loro malizia avvelena la terra."
- mpo_events_ariana.0110.desc_ending: "Ti consiglio di spostare la tua yurta a [new_capital.GetNameNoTier], dove potresti trovare prosperità.""
+ mpo_events_ariana.0110.desc_fertility: "«Poiché le tue mandrie non possono pascolare qui, sarebbe una cattiva sorte consumare i tuoi pasti in questo luogo."
+ mpo_events_ariana.0110.desc_opinion: "«La gente qui non ti ama più come un tempo, e la loro malizia avvelena la terra."
+ mpo_events_ariana.0110.desc_ending: "Ti consiglio di spostare la tua yurta a [new_capital.GetNameNoTier], dove potresti trovare prosperità.»"
  mpo_events_ariana.0110.a: "[ROOT.Char.GetFaith.HighGodName] non mente. Dobbiamo trasferirci."
  mpo_events_ariana.0110.b: "Sciocchezze, [current_capital.GetNameNoTierNoTooltip] è la mia casa."
  mpo_events_ariana.0110.c_cynical: "[ROOT.Char.GetFaith.HighGodName] non è [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip]. Io lo sono!"

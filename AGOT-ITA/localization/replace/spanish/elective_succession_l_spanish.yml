@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 #Feudal Elective AI behavior
  tooltip_feudal_elector_vote_myself:0 "Mi piace il potere: $VALUE|=+0$"
  tooltip_feudal_elector_vote_not_myself:0 "Non mi piace il potere: $VALUE|=+0$"
@@ -182,7 +181,7 @@
  tooltip_scandinavian_elector_vote_prowess:0 "[candidate.GetSheHe|U] è un[candidate.Custom('DE_PRO_POS_P_2P')] guerrier[candidate.Custom('DE_END_PRO_S_N')] di grande [prowess|E]: $VALUE|=+0$"
 
  #Tribal Elective
- tooltip_tribal_elective_development: ""[development|E] totale, modificato dalla [faith|E] e dall'[heritage|E]: $VALUE|=+0$"
+ tooltip_tribal_elective_development: "[development|E] totale, modificato dalla [faith|E] e dall'[heritage|E]: $VALUE|=+0$"
  tooltip_tribal_elective_capital_opinion: "[county_opinion|E] della Capitale: $VALUE|=+0$"
  tooltip_tribal_elector_vote_elder: "[candidate.GetSheHe|U] è [Select_CString(candidate.IsFemale,'una venerabile anziana','un venerabile anziano')]: $VALUE|=+0$"
  tooltip_tribal_elector_vote_stranger: "[candidate.GetSheHe|U] non è della mia tribù: $VALUE|=+0$"

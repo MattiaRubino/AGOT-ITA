@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 #Travel Start Events
 #Generic start (no activity)
  travel_start_event.1000.t_murder:0 "Un Inizio Raccapricciante"
@@ -65,7 +64,7 @@ travel_start_event.1030.desc_host_wedding: 0 "Il[Select_CString(host.IsFemale,'l
  travel_start_event.1030.desc_host_wedding_default:0 "e il matrimonio dovrebbe, come la maggior parte dei matrimoni, essere divertente."
 
  travel_start_event.1030.desc_host_wedding_outro_negative:0 "\n\nChe la loro unione sia marcia come un pesce di un mese e se non altro, potrò abusare dell'ospitalità [host.Custom('IT_NAM_COL2')][host.GetTitledFirstNamePossessiveNoTooltip] per godermi un po' di buon cibo e bevande."
- travel_start_event.1030.desc_host_wedding_outro_positive:0 "\n\n"Che il vostro matrimonio sia fruttuoso come il raccolto in autunno e due volte più dolce."
+ travel_start_event.1030.desc_host_wedding_outro_positive:0 "\n\n«Che il vostro matrimonio sia fruttuoso come il raccolto in autunno e due volte più dolce."
  travel_start_event.1030.desc_host_wedding_outro_default:0 "\n\nNon vedo l'ora di rilassarmi e di godermi i festeggiamenti che accompagnano una simile occasione."
 
  ##Wedding
@@ -89,7 +88,7 @@ travel_start_event.1030.desc_my_wedding: 0 "$travel_start_event.1000.intro_my_ac
  
  travel_start_event.1030.desc_my_wedding_outro_sick:0 "\n\nAnche se la mia salute è fragile, mi impegnerò sempre affinché tutti gli ospiti siano stupiti e si sentano coccolati."
  travel_start_event.1030.desc_my_wedding_outro_negative:0 "\n\nÈ meglio che la coppia felice sia grata."
- travel_start_event.1030.desc_my_wedding_outro_positive:0 "\n\nNon potrei essere più entusiasta di vedere questi due finire insieme"."
+ travel_start_event.1030.desc_my_wedding_outro_positive:0 "\n\nNon potrei essere più entusiasta di vedere questi due finire insieme.»"
  travel_start_event.1030.desc_my_wedding_outro_default:0 "\n\nSarà una cerimonia bellissima e i nostri ospiti dovranno rimanere a bocca aperta."
 
 
@@ -207,7 +206,7 @@ YATRA_GLOSS: "Sanscrito per «viaggio, processione». I partecipanti a tali pell
  ##My Witch Ritual
  travel_start_event.1080.desc_my_witch_ritual:0 "$travel_start_event.1000.intro_my_activity$"
  travel_start_event.1080.desc_my_witch_ritual_learned:0 "\n\nEssendo un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] potente [ROOT.Char.Custom('MagicUserTerm')], mi assicurerò di dispensare le mie conoscenze ai miei confratelli in modo che tutti noi possiamo vivere in modo più consapevole."
- travel_start_event.1080.desc_my_witch_ritual_mystic:0 "\n\n"Come mistic[ROOT.Char.Custom('DE_END_PRO_S_N')] e veggente, prevedo buone cose nel nostro futuro e la mia saggezza dovrebbe essere molto apprezzata dai miei confratelli nella celebrazione del nostro [ROOT.Char.GetFaith.WitchGodMistressMaster]."
+ travel_start_event.1080.desc_my_witch_ritual_mystic:0 "\n\n«Come mistic[ROOT.Char.Custom('DE_END_PRO_S_N')] e veggente, prevedo buone cose nel nostro futuro e la mia saggezza dovrebbe essere molto apprezzata dai miei confratelli nella celebrazione del nostro [ROOT.Char.GetFaith.WitchGodMistressMaster]."
  travel_start_event.1080.desc_my_witch_ritual_health:0 "\n\nConoscendo il corpo e le malattie, i miei insegnamenti dovrebbero permettere anche al resto dei miei confratelli di vivere a lungo e in salute."
  travel_start_event.1080.desc_my_witch_ritual_default:0 "\n\nSarò un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] grande ospite per tutte le mie sorelle e i miei fratelli che hanno viaggiato da vicino e da lontano per riunirsi, legarsi e celebrare il nostro [ROOT.Char.GetFaith.WitchGodMistressMaster]!"
  travel_start_event.1080.desc_sick_my_witch_ritual_outro:0 "$travel_start_event.1080.desc_sick_witch_ritual_outro$"

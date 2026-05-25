@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 aspect_upgrade_event_header: "Aspetto di [ROOT.Char.Custom('GetAspectNoun')|U]:"
 tgp_east_asia_mandala_events.1000.t: "$aspect_upgrade_event_header$ Ascesa"
 tgp_east_asia_mandala_events.1000.t.final: "$aspect_upgrade_event_header$ Trascendenza"
@@ -27,7 +26,7 @@ mandala_descendant_from_aspect_of_creation_modifier_desc: "Questo personaggio è
 mandala_aspect_of_serenity_devotion.tt: "Ottieni #P [EmptyScope.ScriptValue('num_years_of_peace_devotion')]#! [piety_experience|E] per ogni anno di [war|E] non offensiva #WEAK (Attualmente #P [THIS.Char.MakeScope.ScriptValue('num_years_of_peace_devotion_payout')]#! [piety_experience|E])#!"
 
 mandala_forged_from_aspect_of_destruction.tt: "Tutti i tuoi [THIS.Char.Custom('KnightCulturePlural')]"
-mandala_forged_from_aspect_of_destruction_modifier: "Forgiato dalla Distruzione"
+mandala_forged_from_aspect_of_destruction_modifier: "Forgiat[Select_CString(ROOT.Char.IsFemale,'a','o')] dalla Distruzione"
 mandala_forged_from_aspect_of_destruction_modifier_desc: "Questo personaggio ha servito come cavaliere al seguito di un Aspetto della Distruzione asceso."
 
 mandala_aspect_of_trickery_devotion.tt: "Ottieni #P [EmptyScope.ScriptValue('num_years_of_peace_devotion')]#! [piety_experience|E] per ogni [scheme|E] riuscito finora #WEAK (Attualmente #P [THIS.Char.MakeScope.ScriptValue('num_successful_schemes_devotion_payout')]#! [piety_experience|E])#!"

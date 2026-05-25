@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
 ##############
 ## CAT
 ##############
@@ -55,10 +54,10 @@ pet_animal.0103.desc: 0 "Mentre cammino all’aperto, mi si para davanti la vist
  pet_animal.0108.t:0 "[receiver.Custom('CatStoryName')]: La vita senza di te"
  pet_animal.0108.t_dead:0 "La vita senza di te"
  pet_animal.0108.desc_opening:0 "Visito [receiver.Custom('DE_ART_DEF_P_A')] mi[receiver.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] per vedere come se la sta passando [receiver.Custom('CatStoryName')] sotto le sue cure.\n\n"
- pet_animal.0108.desc_alive_landed:0 "[receiver.GetSheHe|U] mi incontra fuori dal suo [receiver.Custom('ResidenceBuilding')], il gatto [receiver.Custom('CatFurColor')] tra le sue braccia. "[receiver.Custom('CatStorySheHe')|U] sta bene –"
- pet_animal.0108.desc_alive:0 "[receiver.GetSheHe|U] mi incontra fuori, il gatto [receiver.Custom('CatFurColor')] nelle [receiver.GetHerHis] braccia. "[receiver.Custom('CatStorySheHe')|U] sta bene, "
- pet_animal.0108.desc_alive_1:0 "[receiver.Custom('DE_END_PRO_P_A')] piace cacciare gli uccelli del posto!""
- pet_animal.0108.desc_alive_2:0 "[receiver.Custom('DE_END_PRO_P_A')] piace provare a spennare i polli!""
+ pet_animal.0108.desc_alive_landed:0 "[receiver.GetSheHe|U] mi incontra fuori dal suo [receiver.Custom('ResidenceBuilding')], il gatto [receiver.Custom('CatFurColor')] tra le sue braccia. [receiver.Custom('CatStorySheHe')|U] sta bene –"
+ pet_animal.0108.desc_alive:0 "[receiver.GetSheHe|U] mi incontra fuori, il gatto [receiver.Custom('CatFurColor')] nelle [receiver.GetHerHis] braccia. [receiver.Custom('CatStorySheHe')|U] sta bene, "
+ pet_animal.0108.desc_alive_1:0 "[receiver.Custom('DE_END_PRO_P_A')] piace cacciare gli uccelli del posto!"
+ pet_animal.0108.desc_alive_2:0 "[receiver.Custom('DE_END_PRO_P_A')] piace provare a spennare i polli!"
  pet_animal.0108.desc_dead_opening:1 "Visito [receiver.Custom('DE_ART_DEF_P_A')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] per vedere come se la sta passando il gatto sotto le sue cure.\n\n"
  pet_animal.0108.desc_dead_landed:0 "[receiver.GetSheHe|U] mi incontra fuori dal suo [receiver.Custom('ResidenceBuilding')], non si intravede nessun gatto."
  pet_animal.0108.desc_dead:0 "[receiver.GetSheHe|U] mi incontra fuori, non si intravede nessun gatto."
@@ -234,10 +233,10 @@ every_councillor: 0 "Ogni [councillor|E]"
 
  pet_animal.1192.t:0 "[receiver.Custom('DogStoryName')]: La Vita Senza Di Te"
  pet_animal.1192.desc_opening:0 "Faccio visita al[receiver.Custom('DE_END_ADJ_NUL_S_N')] mi[receiver.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('receiver'))] [receiver.GetTitledFirstName] per vedere come se la passa [receiver.Custom('DogStoryName')] sotto le sue cure.\n\n"
- pet_animal.1192.desc_alive_landed:0 "[receiver.GetSheHe|U] mi incontra all'esterno del suo [receiver.Custom('ResidenceBuilding')], il cane [receiver.Custom('DogFurColor')] al suo fianco. "[receiver.Custom('DogStorySheHe')|U] se la sta passando bene –"
- pet_animal.1192.desc_alive:0 "[receiver.GetSheHe|U] mi incontra all'esterno, il cane [receiver.Custom('DogFurColor')] al suo fianco. "[receiver.Custom('DogStorySheHe')|U] se la sta passando bene –"
- pet_animal.1192.desc_alive_1:0 "[receiver.Custom('DogStorySheHe')] gli piace inseguire le galline !""
- pet_animal.1192.desc_alive_2:0 "[receiver.Custom('DogStorySheHe')] adora seguire i cavalli in giro!""
+ pet_animal.1192.desc_alive_landed:0 "[receiver.GetSheHe|U] mi incontra all'esterno del suo [receiver.Custom('ResidenceBuilding')], il cane [receiver.Custom('DogFurColor')] al suo fianco. [receiver.Custom('DogStorySheHe')|U] se la sta passando bene –"
+ pet_animal.1192.desc_alive:0 "[receiver.GetSheHe|U] mi incontra all'esterno, il cane [receiver.Custom('DogFurColor')] al suo fianco. [receiver.Custom('DogStorySheHe')|U] se la sta passando bene –"
+ pet_animal.1192.desc_alive_1:0 "[receiver.Custom('DogStorySheHe')] gli piace inseguire le galline !"
+ pet_animal.1192.desc_alive_2:0 "[receiver.Custom('DogStorySheHe')] adora seguire i cavalli in giro!"
  pet_animal.1192.desc:0 "[receiver.GetSheHe|U] mi incontra all'esterno del suo [receiver.Custom('ResidenceBuilding')], nessun cane nei paraggi. "Oh, [receiver.Custom('DogStorySheHe')] deve essere fuori a giocare da qualche parte..."\n\n[receiver.GetSheHe|U] guarda dappertutto tranne che a me."
  pet_animal.1192.a:0 "Sono sollevato!"
  pet_animal.1192.b:0 "Dove è [receiver.Custom('DogStoryName')]?!"

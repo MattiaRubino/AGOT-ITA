@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  GetMongolHonorific_dreaded: "temibile"
  GetMongolHonorific_dreadful: "terribile"
  GetMongolHonorific_mighty: "possente"
@@ -219,9 +218,9 @@ nomad_events.0100.desc: "«Ci credi, [ROOT.Char.GetTitleAsNameNoTooltip]?!» [va
  friend_cute_memory_corresponding: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'Tu', TARGET_CHARACTER.GetShortUIName)] e [CHARACTER.GetShortUIName] [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'avete', 'hanno')] ricordato insieme un bel momento, molti anni dopo."
  
  nomad_events.0200.t: "Nei Miei Sogni"
- nomad_events.0200.desc.intro: "[courtier.Custom('IT_NAM_COL3')][courtier.GetTitledFirstName] si siede accanto a me mentre finisco il mio [Glossary( 'boal', 'BOL_GLOSS')]. Con gli occhi fissi sulle fiamme, [courtier.GetSheHe] inizia a parlare:\n\n"Ho fatto un sogno la scorsa notte. Un falco bianco è sceso"
- nomad_events.0200.desc.good: "dalla luna e si è posato sulla tua mano. L’ha accesa con il fuoco ed è volato via.""
- nomad_events.0200.desc.bad: "dal sole ed è stato divorato da un cane selvatico. Il suo corpo giaceva in una pozza di sangue.""
+ nomad_events.0200.desc.intro: "[courtier.Custom('IT_NAM_COL3')][courtier.GetTitledFirstName] si siede accanto a me mentre finisco il mio [Glossary( 'boal', 'BOL_GLOSS')]. Con gli occhi fissi sulle fiamme, [courtier.GetSheHe] inizia a parlare:\n\n«Ho fatto un sogno la scorsa notte. Un falco bianco è sceso"
+ nomad_events.0200.desc.good: "dalla luna e si è posato sulla tua mano. L’ha accesa con il fuoco ed è volato via.»"
+ nomad_events.0200.desc.bad: "dal sole ed è stato divorato da un cane selvatico. Il suo corpo giaceva in una pozza di sangue.»"
  nomad_events.0200.desc.outro: "\n\nIl calore del fuoco sembra aumentato. La mia fronte gronda di sudore."
  nomad_events.0200.a: ""Inciderò il mio destino sulle ossa dei caduti.""
  nomad_events.0200.b: ""Ti prego, scopri cosa significa.""
@@ -292,9 +291,9 @@ nomad_events.0100.desc: "«Ci credi, [ROOT.Char.GetTitleAsNameNoTooltip]?!» [va
  mpo_nomad_events.1080.t: "Il Portatore del Cangue"
  mpo_nomad_events.1080.desc_high_intro: "[neighbor_ruler.Custom('IT_NAM_COL3')][neighbor_ruler.GetTitledFirstName], la cui yurta sorge nella vicina [neighbor_county.GetBaseNameNoTier], cavalca nei miei pascoli senza permesso. E, come lupi sulla preda, i miei cavalieri circondano il suo gruppo armato.\n\n"Grande [ROOT.Char.GetTitleAsNameNoTooltip]!""
  mpo_nomad_events.1080.desc_low_intro: "[neighbor_ruler.Custom('IT_NAM_COL3')][neighbor_ruler.GetTitledFirstName], che governa nella vicina [neighbor_county.GetNameNoTier], cavalca nei miei pascoli. Al suono degli allarmi, raduno i miei [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] e incontro il suo gruppo armato.\n\n"Tu — [ROOT.Char.GetTitleAsNameNoTooltip]!""
- mpo_nomad_events.1080.desc_1: "saluta [neighbor_ruler.GetFirstNameNoTooltip], "Stiamo dando la caccia a"
+ mpo_nomad_events.1080.desc_1: "saluta [neighbor_ruler.GetFirstNameNoTooltip], «Stiamo dando la caccia a"
  mpo_nomad_events.1080.criminal: "un[escaped_warrior.Custom('DE_PRO_POS_P_2P')] criminale"
- mpo_nomad_events.1080.desc_2: "che è fuggit[escaped_warrior.Custom('DE_END_PRO_S_N')] nei tuoi territori di [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l]. Anche indossando il [Glossary( 'cangue', 'CANGUE_GLOSS' )] della punizione, quest[escaped_warrior.Custom('DE_END_PRO_S_N')] [escaped_warrior.GetFirstName] si arrampica come una capra; anche senza dormire, [escaped_warrior.GetSheHe] riesce a sfuggire ai miei inseguitori.\n\nLa nostra preda è nel tuo territorio, [ROOT.Char.GetTitleAsNameNoTooltip] — ti unirai alla caccia?""
+ mpo_nomad_events.1080.desc_2: "che è fuggit[escaped_warrior.Custom('DE_END_PRO_S_N')] nei tuoi territori di [ROOT.Char.GetCapitalLocation.GetTerrain.GetNameNoTooltip|l]. Anche indossando il [Glossary( 'cangue', 'CANGUE_GLOSS' )] della punizione, quest[escaped_warrior.Custom('DE_END_PRO_S_N')] [escaped_warrior.GetFirstName] si arrampica come una capra; anche senza dormire, [escaped_warrior.GetSheHe] riesce a sfuggire ai miei inseguitori.\n\nLa nostra preda è nel tuo territorio, [ROOT.Char.GetTitleAsNameNoTooltip] — ti unirai alla caccia?»"
  CANGUE_GLOSS: "Uno strumento di punizione usato nelle steppe e in Asia orientale. Il #G cangue#! è un pesante giogo di legno fissato sulle spalle. Portato per giorni o settimane, sfianca, umilia, ostacola i movimenti e può persino causare fame impedendo al portatore di nutrirsi."
 
  mpo_nomad_events.1080.a: "Quest[escaped_warrior.Custom('DE_END_PRO_S_N')] fuggitiv[escaped_warrior.Custom('DE_END_PRO_S_N')] sembra abile e capace..."

@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  # Story Cycle
  admin_eunuch_header: "Eunuco Eminente:"
  admin_eunuch_upgrade_modifier_tt: "#weak I [modifiers|E]  sono migliorati#!"
@@ -22,11 +21,11 @@ ep3_story_cycle_admin_eunuch.2010.desc: "Il mio eunuco, [eunuch.Custom('IT_NAM_C
  ep3_story_cycle_admin_eunuch.2010.b: "Le disposizioni attuali sono adeguate."
 
  ep3_story_cycle_admin_eunuch.2015.t: "$admin_eunuch_header$ Condividere il Carico"
- ep3_story_cycle_admin_eunuch.2015.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], è stato di grande aiuto negli ultimi tempi, accollandosi molti degli odiosi fardelli del mio regno.\n\nMentre ci affanniamo tra pile di documenti, bruciando le scorte di cera del palazzo con una pressione dopo l'altra del mio sigillo imperiale, [eunuch.GetSheHe] si propone con dolcezza, "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], "
+ ep3_story_cycle_admin_eunuch.2015.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], è stato di grande aiuto negli ultimi tempi, accollandosi molti degli odiosi fardelli del mio regno.\n\nMentre ci affanniamo tra pile di documenti, bruciando le scorte di cera del palazzo con una pressione dopo l'altra del mio sigillo imperiale, [eunuch.GetSheHe] si propone con dolcezza, Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], "
  ep3_story_cycle_admin_eunuch.2015.war: "il vostro tempo e la vostra attenzione sono tassati dalla guerra,"
  ep3_story_cycle_admin_eunuch.2015.hunter: "non avete tempo per la vostra caccia al tesoro,"
  ep3_story_cycle_admin_eunuch.2015.fallback: "siete così tanto tassati dalle incombenze dello Stato,"
- ep3_story_cycle_admin_eunuch.2015.outro: "e non sarebbe un problema per me sollevarla da queste noiose responsabilità...""
+ ep3_story_cycle_admin_eunuch.2015.outro: "e non sarebbe un problema per me sollevarla da queste noiose responsabilità..."
  ep3_story_cycle_admin_eunuch.2015.a: "Siete di grande aiuto, [eunuch.GetFirstNameNoTooltip]."
  ep3_story_cycle_admin_eunuch.2015.b: "Riesco a gestire le cose benissimo."
 
@@ -55,7 +54,7 @@ ep3_story_cycle_admin_eunuch.2010.desc: "Il mio eunuco, [eunuch.Custom('IT_NAM_C
  ep3_story_cycle_admin_eunuch.2031.b: "Suvvia, questa è una proposta #EMP azzardata#!..."
 
  ep3_story_cycle_admin_eunuch.2040.t: "$admin_eunuch_header$ Posto a Tavola"
- ep3_story_cycle_admin_eunuch.2040.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], mi mette alle strette mentre sfoglio le missive, Ah, [ROOT.Char.GetTitleAsNameNoTooltip]!" [eunuch.GetSheHe] squittisce, chiudendo delicatamente la porta. "Un momento del vostro tempo?"\n\n"Mi addolora vedere il lavoro del vostro consiglio ostacolato dai suoi... becchini." Alzo un sopracciglio.\n\n[eunuch.GetSheHe|U] si schiarisce la gola, "Sarei felicissimo di assumermi alcune responsabilità e di curare i vostri interessi e quelli del [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], più da vicino.""
+ ep3_story_cycle_admin_eunuch.2040.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], mi mette alle strette mentre sfoglio le missive, Ah, [ROOT.Char.GetTitleAsNameNoTooltip]! [eunuch.GetSheHe] squittisce, chiudendo delicatamente la porta. Un momento del vostro tempo?\n\nMi addolora vedere il lavoro del vostro consiglio ostacolato dai suoi... becchini. Alzo un sopracciglio.\n\n[eunuch.GetSheHe|U] si schiarisce la gola, Sarei felicissimo di assumermi alcune responsabilità e di curare i vostri interessi e quelli del [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip], più da vicino."
  ep3_story_cycle_admin_eunuch.2040.a: "Un'idea eccellente, [eunuch.GetFirstNameNoTooltip], inizia subito."
  ep3_story_cycle_admin_eunuch.2040.b: "Non vorrei che ti distraessi dagli altri compiti."
  ep3_story_cycle_admin_eunuch.2040.a.toast: "Nomina del Consiglio"
@@ -109,7 +108,7 @@ ep3_story_cycle_admin_eunuch.2052.desc: "Il mio eunuco, [eunuch.Custom('IT_NAM_C
  ep3_story_cycle_admin_eunuch.2061.b: "Non sono convinto..."
 
  ep3_story_cycle_admin_eunuch.2070.t: "$admin_eunuch_header$ Ascesa Sociale"
- ep3_story_cycle_admin_eunuch.2070.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], appare davanti a me, con un membro della sua famiglia al seguito. "[ROOT.Char.GetTitleAsNameNoTooltip]!" [eunuch.GetSheHe] ride, "\n\n"Mio [eunuch.Custom2('RelationToMeShort', SCOPE.sC('eunuch_marry'))], [eunuch_marry.GetTitledFirstName], qui, sarebbe [Select_CString(eunuch_marry.IsFemale,'una sposa','uno sposo')] #EMP molto#! adatto per il tuo [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('emperor_marry'))], [emperor_marry.GetTitledFirstName], Sono sicuramente d'accordo!"\n\nCon una precisione quasi eccessiva, l[eunuch_marry.Custom('DE_PRO_PER_S_3P_N')][eunuch_marry.GetWomanMan] si presenta con orgoglio al mio cospetto."
+ ep3_story_cycle_admin_eunuch.2070.desc: "Il mio eunuco, [eunuch.GetTitledFirstName], appare davanti a me, con un membro della sua famiglia al seguito. [ROOT.Char.GetTitleAsNameNoTooltip]! [eunuch.GetSheHe] ride, \n\nMio [eunuch.Custom2('RelationToMeShort', SCOPE.sC('eunuch_marry'))], [eunuch_marry.GetTitledFirstName], qui, sarebbe [Select_CString(eunuch_marry.IsFemale,'una sposa','uno sposo')] #EMP molto#! adatto per il tuo [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('emperor_marry'))], [emperor_marry.GetTitledFirstName], Sono sicuramente d'accordo!\n\nCon una precisione quasi eccessiva, l[eunuch_marry.Custom('DE_PRO_PER_S_3P_N')][eunuch_marry.GetWomanMan] si presenta con orgoglio al mio cospetto."
  ep3_story_cycle_admin_eunuch.2070.a: "[eunuch_marry.GetFirstNameNoTooltip] è un ottimo abbinamento per [emperor_marry.GetFirstNameNoTooltip]!"
  ep3_story_cycle_admin_eunuch.2070.b: "Non credo..."
 
@@ -144,7 +143,7 @@ ep3_story_cycle_admin_eunuch.4000.c: "Quell[spouse.Custom('DE_PRO_PER_S_3P_N')] 
  ep3_story_cycle_admin_eunuch.4010.d: "Forse non sarebbe #EMP così#! male?"
 
  ep3_story_cycle_admin_eunuch.5000.t: "$admin_eunuch_header$ Creare Nemici"
- ep3_story_cycle_admin_eunuch.5000.desc: "Mi[whinger.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('whinger'))], [whinger.GetTitledFirstName], entra nel mio studio pieno di boria, scrutando la stanza. Finalmente [whinger.GetSheHe] si avvicina, sospirando, "Bene, quella creatura #EMP immonda#! non è qui!"\n\nRifletto un attimo su chi possa essere, ma non ce n'è bisogno. "[whinger.Custom2('RelationToMeShort', ROOT.Char)|U]! #EMP Dovete#! fare qualcosa per quell'eunuco, [eunuch.GetFirstName]! [eunuch.GetSheHe|U] ha un dito in ogni torta e un orecchio in ogni latrina. Ve lo dico io, [eunuch.GetSheHe] non sta tramando nulla di buono!"
+ ep3_story_cycle_admin_eunuch.5000.desc: "Mi[whinger.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('whinger'))], [whinger.GetTitledFirstName], entra nel mio studio pieno di boria, scrutando la stanza. Finalmente [whinger.GetSheHe] si avvicina, sospirando, Bene, quella creatura #EMP immonda#! non è qui!\n\nRifletto un attimo su chi possa essere, ma non ce n'è bisogno. [whinger.Custom2('RelationToMeShort', ROOT.Char)|U]! #EMP Dovete#! fare qualcosa per quell'eunuco, [eunuch.GetFirstName]! [eunuch.GetSheHe|U] ha un dito in ogni torta e un orecchio in ogni latrina. Ve lo dico io, [eunuch.GetSheHe] non sta tramando nulla di buono!"
  ep3_story_cycle_admin_eunuch.5000.a: "Oh, non essere ridicolo! [eunuch.GetSheHe|U] è un servitore fedele."
  ep3_story_cycle_admin_eunuch.5000.b: "Forse hai ragione..."
 

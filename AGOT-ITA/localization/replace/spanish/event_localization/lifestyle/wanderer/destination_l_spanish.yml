@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  destination_events.10.t: "Girovag[provider_character.Custom('DE_END_PRO_S_N')] Espert[provider_character.Custom('DE_END_PRO_S_N')]"
 destination_events.10.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]", esordisce mi[Select_CString(provider_character.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('provider_character'))], [provider_character.GetFirstName], entrando nel mio studio. «Di recente ho avuto a che fare con [Select_CString( travel_leader_character.IsFemale, 'una capocarovana', 'un capocarovana' )] che potrebbe interessare i tuoi viaggi. [Select_CString(travel_leader_character.IsFemale,'Lei','Lui')|U] ha viaggiato in lungo e in largo e ha l’esperienza che cercavamo».\n\nAbbiamo avuto difficoltà a trovare qualcuno che sovrintendesse ai miei viaggi, quindi forse è una buona occasione?"
  destination_events.10.a: "Assumiamo allora quest[provider_character.Custom('DE_END_PRO_S_N')] girovag[provider_character.Custom('DE_END_PRO_S_N')]."

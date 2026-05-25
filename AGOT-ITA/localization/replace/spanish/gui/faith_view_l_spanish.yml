@@ -89,7 +89,7 @@ FAITH_REFORM_BUTTON_TOOLTIP: 0 "#T Riforma Fede#!\n[FaithCreationWindow.GetCreat
  FAITH_CREATION_CREATE:1 "Crea Fede"
  FAITH_CREATION_REFORM:1 "Riforma la Fede"
  FAITH_CONVERSION_CONVERT:1 "Convertiti alla Fede"
- FAITH_MUST_BE_DIFFERENT_FROM_OLD:0 "@warning_icon! #X La nuova [faith|E] e quella vecchia non possono avere gli stessi [core_tenets|E] e le stesse [doctrines|E]#!" [GetHostilityLevelName( FaithConversionWindow.GetHostilityLevel )]"
+ FAITH_MUST_BE_DIFFERENT_FROM_OLD:0 "@warning_icon! #X La nuova [faith|E] e quella vecchia non possono avere gli stessi [core_tenets|E] e le stesse [doctrines|E]#! [GetHostilityLevelName( FaithConversionWindow.GetHostilityLevel )]"
 FAITH_MANDALA_MONOTHEIST_WARNING: "@alert_icon! #alert_trial Convertire alla [faith|E] $doctrine_monotheist_name$ ti farà abbandonare la forma [mandala_government|E]#!"
  FAITH_CREATION_TOTAL_COST:1 "Costo: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyCost]"
  FAITH_CONVERSION_TOTAL_COST:1 "Costo toale: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyCost]"

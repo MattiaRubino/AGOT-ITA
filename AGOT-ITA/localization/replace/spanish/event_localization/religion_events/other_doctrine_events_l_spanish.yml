@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  #False conversion events.
  false_conversion.0020.t:0 "Cripto-[old_faith.GetNameNoTooltip]"
  false_conversion.0020.desc:0 "Nella mia vita pubblica seguo la Fede [ROOT.Char.GetFaith.GetAdjective] alla lettera. Ne sottoscrivo i valori, leggo i Test Sacri, e mi reco a pregare nelle [ROOT.Char.GetFaith.HouseOfWorshipPlural].\n\nA porte chiuse, tuttavia, faccio fatica ad abbandonare gli insegnamenti [old_faith.GetAdherentNamePluralNoTooltip], e una parte di me desidera ardenetemente praticare apertamente i vecchi metodi.\n\nForse ora è il momento di riaffermare la mia identità di [old_faith.GetAdherentNameNoTooltip], portando con me quanti più possibili altri aderenti segreti e convertiti di recente?"
@@ -103,7 +102,7 @@ false_conversion.2001.desc_outro: "\n\nProprio mentre mi chiedo come potrò anda
  convert_to_crypto_religion_desc_general:0 "Insegna ad un bersaglio a diventare un credente segreto della fede [CHARACTER.GetSecretFaith.GetName]."
  convert_to_crypto_religion_action:0 "Conversione"
  convert_to_crypto_religion_interaction_notification:0 "$convert_to_crypto_religion_interaction_key$"
- convert_to_crypto_religion_scheme_invalidated_title:0 "@scheme_icon! "$convert_to_crypto_religion$ Scheme Ends"
+ convert_to_crypto_religion_scheme_invalidated_title:0 "@scheme_icon! $convert_to_crypto_religion$ Scheme Ends"
  convert_to_crypto_religion_general_desc:0 "Un [scheme|E] per introdurre un bersaglio ad una fede segreta nella speranza di far crescere la congregazione segreta del capo."
  convert_to_crypto_religion_no_more_secret:0 "Non pratico più la fede Crypto-[CHARACTER.GetSecretFaith.GetName]."
  convert_to_crypto_religion_invalid:0 "Non posso più convertire [target.GetShortUIName|U] alla fede Crypto-[CHARACTER.GetSecretFaith.GetName]." 

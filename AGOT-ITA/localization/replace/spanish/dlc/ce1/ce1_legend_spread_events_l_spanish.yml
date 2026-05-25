@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  legend_debug.0001.desc: "#D Questo è un evento di debug#!"
 
  legend_spread_events.0001.t: "Voci innocenti"
@@ -26,10 +25,10 @@ legend_spread_events.0001.desc: "[ROOT.Char.Custom2('RelationToMeShort', SCOPE.s
  legends_dragon_slayer_desc: "Questo personaggio sostiene di aver dato la caccia a un drago."
 
  legend_spread_events.0020.t: "Voci di Corridoio"
- legend_spread_events.0020.desc.intro: "Mentre scendo le scale e attraverso il cortile, raggiungo uno dei corridoi da cui la servitù è solita sorvegliare i bambini.\n\nMa non sono loro che trovo. La voce di [courtier.GetTitledFirstName] mi raggiunge, forte e chiara, e mi nascondo tra i pilastri di pietra:\n\n"Che cosa ha fatto davvero [protagonist.GetTitledFirstName]? C'era qualcuno di noi lì a vedere la sua cosiddetta #EMP leggenda#! che"
+ legend_spread_events.0020.desc.intro: "Mentre scendo le scale e attraverso il cortile, raggiungo uno dei corridoi da cui la servitù è solita sorvegliare i bambini.\n\nMa non sono loro che trovo. La voce di [courtier.GetTitledFirstName] mi raggiunge, forte e chiara, e mi nascondo tra i pilastri di pietra:\n\nChe cosa ha fatto davvero [protagonist.GetTitledFirstName]? C'era qualcuno di noi lì a vedere la sua cosiddetta #EMP leggenda#! che"
  legend_spread_events.0020.desc.you_protag: "[ROOT.Char.GetSheHe]"
  legend_spread_events.0020.desc.other_protag: "[ROOT.Char.GetTitledFirstName]"
- legend_spread_events.0020.desc.outro: "ora ci fa cantare con tanto orgoglio?""
+ legend_spread_events.0020.desc.outro: "ora ci fa cantare con tanto orgoglio?"
  legend_spread_events.0020.a: "[courtier.GetSheHe|U] può parlare quanto vuole. Nelle segrete."
  legend_spread_events.0020.b: ""Voi, là!""
  legend_spread_events.0020.b.tt.success: "[courtier.GetShortUINameNoTooltip] si scusa"
@@ -60,7 +59,7 @@ legend_spread_events.0030.desc.intro: "«Dunque ditemi, [ROOT.Char.Custom('FormO
 legend_spread_events.0040.desc.intro: "«Ah, come splende amabilmente la luce in questa [SelectLocalization(IsLandlessAdventurer(ROOT.Char),'room_command_tent','room_throne_room')] stamane, [ROOT.Char.Custom('FormOfAddressForLiege')]», dice il[Select_CString(chronicler.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('chronicler'))] [chronicler.GetFirstName], passeggiando nella mia [ROOT.Char.Custom('GetRoom')].\n\n«Mi ricorda proprio il giorno in cui il fato decise di iniziare"
  legend_spread_events.0040.desc.you_protag: "la vostra leggenda... vi ricordate quanto siete stat[ROOT.Char.Custom('DE_END_PRO_S_N')] generos[ROOT.Char.Custom('DE_END_PRO_S_N')],"
  legend_spread_events.0040.desc.other_protag: "La leggenda di [protagonist.GetTitledFirstName]... vi ricordate quanto fosse generos[protagonist.Custom('DE_END_PRO_S_N')],"
- legend_spread_events.0040.desc.outro: "ascoltando le suppliche disperate di quel contadino?" dice [chronicler.GetSheHe], facendo un eloquente occhiolino."
+ legend_spread_events.0040.desc.outro: "ascoltando le suppliche disperate di quel contadino? dice [chronicler.GetSheHe], facendo un eloquente occhiolino."
  legend_spread_events.0040.a: ""Potrei #EMP mai#! ascoltare un contadino?""
  legend_spread_events.0040.b: ""Ah, che anima pia sono!""
  legend_spread_events.0040.b.tt.success: "La tua pietà è impressionante"
@@ -76,10 +75,10 @@ legend_spread_events.0050.desc: "«#EMP E [Select_CString(ROOT.Legend.GetProtago
  legend_spread_events.0050.c: ""L'ho fatto per me stess[ROOT.Char.Custom('DE_END_PRO_S_N')].""
 
  legend_spread_events.0060.t: "Più Mito che Leggenda"
- legend_spread_events.0060.desc.intro: ""Una parola, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]," dice [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))] [courtier.GetFirstName] avvicinandosi a me con un'espressione preoccupata sul volto. "Si tratta "
+ legend_spread_events.0060.desc.intro: "Una parola, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')], dice [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('courtier'))] [courtier.GetFirstName] avvicinandosi a me con un'espressione preoccupata sul volto. Si tratta "
  legend_spread_events.0060.desc.you_protag: "della vostra leggenda"
  legend_spread_events.0060.desc.other_protag: "della leggenda di [ROOT.Legend.GetProtagonist.GetShortUIName]"
- legend_spread_events.0060.desc.outro: "...[bad_vassal.Custom('IT_NAM_COL3')][bad_vassal.GetTitledFirstName] è stat[bad_vassal.Custom('DE_END_PRO_S_N')] udit[bad_vassal.Custom('DE_END_PRO_S_N')] mentre la metteva in dubbio e il pettegolezzo di corte ha iniziato a circolare"\n\n"Se non [bad_vassal.Custom('DE_PRO_POS_P_3P')] fermerete in tempo, temo che ogni contadino di questo regno crederà che sia una bugia.""
+ legend_spread_events.0060.desc.outro: "...[bad_vassal.Custom('IT_NAM_COL3')][bad_vassal.GetTitledFirstName] è stat[bad_vassal.Custom('DE_END_PRO_S_N')] udit[bad_vassal.Custom('DE_END_PRO_S_N')] mentre la metteva in dubbio e il pettegolezzo di corte ha iniziato a circolare\n\nSe non [bad_vassal.Custom('DE_PRO_POS_P_3P')] fermerete in tempo, temo che ogni contadino di questo regno crederà che sia una bugia."
 legend_spread_events.0060.a: "«Quel fastidioso [bad_vassal.Custom2('InsultNoun', ROOT.Char)]...»"
  legend_spread_events.0060.b: "La mia parola è più forte della sua."
  legend_spread_events.0060.b.tt.success: "Le persone ti credono"
@@ -206,9 +205,9 @@ legend_spread_events.5050.desc: "Avrei dovuto fiutare guai quando [chronicler.Ge
  5055_every_culture_vassal: "Ogni vassallo di [culture|E] [vassal1.GetCulture.GetName] e [vassal2.GetCulture.GetName]"
 
  legend_spread_events.5060.t: "Visioni Sacre"
- legend_spread_events.5060.opening: ""Sapete, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]," [chronicler.GetFirstName] inizia esitante mentre ci muoviamo nel [ROOT.Char.Custom('GetCourtyard')], "Esito a menzionarlo, ma i devoti vorranno sapere come avete perso"
- legend_spread_events.5060.one_eyed: "il vostro occhio.""
- legend_spread_events.5060.blind: "i vostri occhi.""
+ legend_spread_events.5060.opening: "Sapete, mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip], [chronicler.GetFirstName] inizia esitante mentre ci muoviamo nel [ROOT.Char.Custom('GetCourtyard')], Esito a menzionarlo, ma i devoti vorranno sapere come avete perso"
+ legend_spread_events.5060.one_eyed: "il vostro occhio."
+ legend_spread_events.5060.blind: "i vostri occhi."
  legend_spread_events.5060.ending: "\n\nMi fermo. Il tremore nella voce di [chronicler.GetFirstNameNoTooltip] implica più peso alla questione di quanto realmente ne necessiti. Eppure, rifletto, sentendo i canti distanti dei [ROOT.Char.GetFaith.PriestNeuterPlural] portati dal vento...\n\nForse è il momento di sfruttare questa maledizione per trarne finalmente beneficio?"
  legend_spread_events.5060.a: ""[ROOT.Char.GetFaith.HighGodName] è venuto da me, e la visione mi ha reso ciec[ROOT.Char.Custom('DE_END_PRO_S_N')]!""
  legend_spread_events.5060.b: ""[ROOT.Char.GetFaith.HighGodName] me ne ha privat[ROOT.Char.Custom('DE_END_PRO_S_N')] così che potessi dimostrare la mia devozione!""
@@ -278,7 +277,7 @@ legend_spread_events.5216.desc: "Giocherello con una freccia sfuggita da una far
  legend_spread_events.5216.c: "In realtà era solo un allenamento."
 
  legend_spread_events.5220.t: "Trappole della Natura"
- legend_spread_events.5220.desc.start: "[chronicler.GetFirstName] mi guarda pensieros[chronicler.Custom('DE_END_PRO_S_N')].\n\n"Ho sentito dire che durante i vostri viaggi avete incontrato una serie di sfide." Il mio cauto cenno sembra incoraggiar[chronicler.DE_PRO_POS_P_3P]. "Ho sentito che siete quasi cadut[ROOT.Char.Custom('DE_END_PRO_S_N')] vittima di"
+ legend_spread_events.5220.desc.start: "[chronicler.GetFirstName] mi guarda pensieros[chronicler.Custom('DE_END_PRO_S_N')].\n\nHo sentito dire che durante i vostri viaggi avete incontrato una serie di sfide. Il mio cauto cenno sembra incoraggiar[chronicler.DE_PRO_POS_P_3P]. Ho sentito che siete quasi cadut[ROOT.Char.Custom('DE_END_PRO_S_N')] vittima di"
  legend_spread_events.5220.desc.wet: "una palude puzzolente e risucchiante. "
  legend_spread_events.5220.desc.dry: "una distesa di sabbie mobili risucchianti. "
  legend_spread_events.5220.desc.ending: ""Hanno detto che avete dovuto lottare per liberarvi, che se la vostra forza fosse venuta meno sareste perit[ROOT.Char.Custom('DE_END_PRO_S_N')]!" dice guardardomi con aspettativa."
@@ -305,7 +304,7 @@ legend_spread_events.5216.desc: "Giocherello con una freccia sfuggita da una far
  legend_spread_events.5230.d: "Penso che fossero semplici banditi."
 
  legend_spread_events.5235.t: "Uno contro Uno"
- legend_spread_events.5235.desc: "Sto raccontando le mie imprese in battaglia a [chronicler.GetFirstName] quando [chronicler.GetSheHe] mi interrompe bruscamente.\n\n""Allora è tutto vero? Avete ucciso il vile comandante nemico in combattimento singolo?" I suoi occhi brillano di aspettativa. Chiaramente questa è una di quelle storie diffuse per passaparola.\n\nEro davvero lì in battaglia, ma la confusione del corpo a corpo rende possibile praticamente qualsiasi evento..."
+ legend_spread_events.5235.desc: "Sto raccontando le mie imprese in battaglia a [chronicler.GetFirstName] quando [chronicler.GetSheHe] mi interrompe bruscamente.\n\nAllora è tutto vero? Avete ucciso il vile comandante nemico in combattimento singolo? I suoi occhi brillano di aspettativa. Chiaramente questa è una di quelle storie diffuse per passaparola.\n\nEro davvero lì in battaglia, ma la confusione del corpo a corpo rende possibile praticamente qualsiasi evento..."
  legend_spread_events.5235.a: "E' morto con onore per mia mano."
  legend_spread_events.5235.b: "Non importa il braccio di chi ha vibrato il colpo fatale."
 
@@ -318,7 +317,7 @@ legend_spread_events.5216.desc: "Giocherello con una freccia sfuggita da una far
  legend_spread_events.5240.c: "...non soffermiamoci su questo."
 
  legend_spread_events.5245.t: "Colpo Schiacciante"
- legend_spread_events.5245.desc: "Più tempo con [chronicler.GetFirstName] significa più tempo passato a rivedere tediamente una passata battaglia affinché possa essere riconosciuta la mia leggenda. [chronicler.GetSheHe|U] nota il mio disinteresse e tenta una tattica diversa.\n\n"Ora, quando il fianco sinistro del nemico crollò e noi facemmo strage nella loro retroguardia," inizia [chronicler.GetSheHe], "è proprio vero che siete stat[ROOT.Char.Custom('DE_END_PRO_S_N')] voi a guidare quell'attacco sul fianco? Un vero colpo di genio!"
+ legend_spread_events.5245.desc: "Più tempo con [chronicler.GetFirstName] significa più tempo passato a rivedere tediamente una passata battaglia affinché possa essere riconosciuta la mia leggenda. [chronicler.GetSheHe|U] nota il mio disinteresse e tenta una tattica diversa.\n\nOra, quando il fianco sinistro del nemico crollò e noi facemmo strage nella loro retroguardia, inizia [chronicler.GetSheHe], è proprio vero che siete stat[ROOT.Char.Custom('DE_END_PRO_S_N')] voi a guidare quell'attacco sul fianco? Un vero colpo di genio!"
  legend_spread_events.5245.a: ""Sì. Molti sono morti sotto le nostre lame.""
  legend_spread_events.5245.b: ""In realtà, ho guidato il colpo decisivo dal centro.""
  legend_spread_events.5245.c: "Ho solo supervisionato la battaglia."
@@ -447,7 +446,7 @@ legend_spread_events.5255.desc: "«A sentir raccontare le vostre battaglie, [ROO
  legend_spread_events.8004.desc: "Io e il mio seguito abbiamo perlustrato queste rovine come meglio non si poteva, eppure non è stata trovata alcuna traccia di questo presunto tomo. Tuttavia, tra le macerie giacciono numerosi oggetti di grande interesse, alcuni dei quali sono stati realizzati senza alcun dubbio da mani di cultura [promoted_legend.GetProperty('culture').Culture.GetName].\n\nRaccolgo di un piccolo animale scolpito nella pietra e mi preparo a ritornare a casa."
  legend_spread_events.8004.a: "Almeno non è stata una totale perdita di tempo."
  legend_spread_events.8010.t: "Una Strana Figura"
-legend_spread_events.8010.desc: "Ci fermiamo a riposare lungo la strada. Il mio seguito circonda una radura, s’affretta a vigilare contro i banditi e a raccogliere provviste, lasciandomi per un attimo a me stess[Select_CString(ROOT.Char.IsFemale,'a','o')]. Il vento spegne il mio fuoco scoppiettante come soffio una candela. Sento qualcosa alle spalle, e mi volto per vedere uno sconosciut[Select_CString(challenger.IsFemale,'a','o')] che si è introdott[Select_CString(challenger.IsFemale,'a','o')] nel mio campo. [challenger.GetSheHe|U] sogghigna con noncuranza come se [challenger.GetSheHe] fosse sempre stat[Select_CString(challenger.IsFemale,'a','o')] lì.\n\n«Che giornata fortunata per imbattersi nella “leggenda" [ROOT.Char.GetNameNoTooltip] in persona». [Select_CString(challenger.IsFemale,'Mi mostra','Mi mostra')] la [Select_CString(challenger.IsFemale,'sua','sua')] arma. «Dimostra di essere una leggenda, [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('challenger'))].»"
+legend_spread_events.8010.desc: "Ci fermiamo a riposare lungo la strada. Il mio seguito circonda una radura, s’affretta a vigilare contro i banditi e a raccogliere provviste, lasciandomi per un attimo a me stess[Select_CString(ROOT.Char.IsFemale,'a','o')]. Il vento spegne il mio fuoco scoppiettante come soffio una candela. Sento qualcosa alle spalle, e mi volto per vedere uno sconosciut[Select_CString(challenger.IsFemale,'a','o')] che si è introdott[Select_CString(challenger.IsFemale,'a','o')] nel mio campo. [challenger.GetSheHe|U] sogghigna con noncuranza come se [challenger.GetSheHe] fosse sempre stat[Select_CString(challenger.IsFemale,'a','o')] lì.\n\n«Che giornata fortunata per imbattersi nella “leggenda [ROOT.Char.GetNameNoTooltip] in persona». [Select_CString(challenger.IsFemale,'Mi mostra','Mi mostra')] la [Select_CString(challenger.IsFemale,'sua','sua')] arma. «Dimostra di essere una leggenda, [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('challenger'))].»"
  legend_spread_events.8010.a: ""La nostra battaglia sarà leggendaria.""
  legend_spread_events.8010.b: ""Guardie!""
  legend_spread_events.8012.t: "Le Leggende Muoiono"
@@ -808,7 +807,7 @@ legend_spread_events.5410.desc: "Sempre più [ROOT.Char.Custom('GetWritingMateri
  legend_chapter_sea_monsters: "I viaggi di [ROOT.Legend.GetProtagonist.GetFirstName] l[ROOT.Legend.GetProtagonist.Custom('DE_END_PRO_S_N')] portarono a viaggiare attraverso i mari, e vide davvero spettacoli terrificanti. Giganteschi mostri marini che si contorcevano li assalirono da tutti i lati, e solo l'abile navigazione di [ROOT.Legend.GetProtagonist.GetFirstName] riportò tutti a casa sani e salvi."
 
  legend_spread_events.5415.t: "Gente Comune?"
- legend_spread_events.5415.desc: "Mentre la straordinaria storia di [ROOT.Char.GetPromotedLegend.GetName] continua a diffondersi, sempre più persone, provenienti da ogni strato della società, hanno iniziato a intrecciare i propri obiettivi nel suo ricco arazzo. Così almeno racconta [chronicler.GetFirstName].\n\n"Ci sono nobili convinti che tale storia sancisca il loro innegabile diritto a governare," riflette [chronicler.GetSheHe], "ma basta entrare in una taverna locale per trovarla gremita di uomini e donne che sostengono che questa leggenda appartenga alla gente comune del paese e ai loro modi onesti e laboriosi."
+ legend_spread_events.5415.desc: "Mentre la straordinaria storia di [ROOT.Char.GetPromotedLegend.GetName] continua a diffondersi, sempre più persone, provenienti da ogni strato della società, hanno iniziato a intrecciare i propri obiettivi nel suo ricco arazzo. Così almeno racconta [chronicler.GetFirstName].\n\nCi sono nobili convinti che tale storia sancisca il loro innegabile diritto a governare, riflette [chronicler.GetSheHe], ma basta entrare in una taverna locale per trovarla gremita di uomini e donne che sostengono che questa leggenda appartenga alla gente comune del paese e ai loro modi onesti e laboriosi."
  legend_spread_events.5415.a: "È #EMP chiaramente#! una storia di nobili."
  legend_spread_events.5415.b: "Ovviamente riguarda la gente comune!"
  legend_spread_events.5415.c: "Chiaramente è una storia su [protagonist.GetFirstNameNoTooltip], e nessun altro!"

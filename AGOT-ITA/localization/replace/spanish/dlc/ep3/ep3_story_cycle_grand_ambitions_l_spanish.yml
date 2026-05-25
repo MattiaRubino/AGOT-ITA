@@ -1,6 +1,5 @@
 ﻿l_spanish:
 
-
  grand_ambitions_header: "Grandi ambizioni"
 
 # Starting Event: Powerful Family Coup (grand_ambitions.0001)
@@ -31,7 +30,7 @@
  grand_ambitions.0100.c: "non venderò le ossa del mio [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]!"
 
  grand_ambitions.0110.t: "$grand_ambitions_header$: chiamata alle armi"
- grand_ambitions.0110.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi informa: I ricchi mecenati si stanno unendo alla nostra causa e i soldati, stanchi del regno [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsNameNoTooltip|l], e sono pronti a unirsi a noi"\n\nQuesti sostenitori, dai loro tesori ai cuori dei più coraggiosi, segnano un punto di svolta. I nostri ranghi sono pronti a crescere e le nostre risorse sono pronte ad espandersi. Questo momento non è solo una testimonianza della rettitudine della mia causa, ma anche una chiara indicazione: l'ora della guerra si sta avvicinando sempre di più."
+ grand_ambitions.0110.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi informa: I ricchi mecenati si stanno unendo alla nostra causa e i soldati, stanchi del regno [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsNameNoTooltip|l], e sono pronti a unirsi a noi\n\nQuesti sostenitori, dai loro tesori ai cuori dei più coraggiosi, segnano un punto di svolta. I nostri ranghi sono pronti a crescere e le nostre risorse sono pronte ad espandersi. Questo momento non è solo una testimonianza della rettitudine della mia causa, ma anche una chiara indicazione: l'ora della guerra si sta avvicinando sempre di più."
  grand_ambitions.0110.a: "Mettiamo questi soldati al lavoro."
  grand_ambitions.0110.b: "Con questo afflusso di oro saremo in grado di sovvenzionare i costi di reclutamento."
  grand_ambitions.0110.c: "non permetterò a chiunque di unirsi alla mia causa!"
@@ -47,7 +46,7 @@
  grand_ambitions.0130.desc.intro: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )], [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName], mi propone di estendere il mio complotto contro [target_char.Custom('IT_NAM_COL3')][target_char.GetFirstName|l].\n\n"
  grand_ambitions.0130.desc.legitimacy.6: ""Il popolo ama il suo [target_char.GetTitleAsNameNoTooltip|l]", esordisce, "ma l'amore è una cosa fragile e paranoica. Se si lavora abbastanza duramente, può trasformarsi in paura del tradimento e, da lì, in odio.""
  grand_ambitions.0130.desc.legitimacy.5: ""Il popolo acclama il suo [target_char.GetTitleAsNameNoTooltip|l]", esordisce, "ma quanti di loro si prenderebbero una coltellata per [target_char.GetSheHe]? Le parole giuste nelle orecchie giuste e qualche moneta in più nel prezzo del pane fanno sempre impazzire le masse.""
- grand_ambitions.0130.desc.legitimacy.4: ""La fede del popolo nel suo [target_char.GetTitleAsNameNoTooltip|l] è salda", esordisce, "o almeno così pensano... Le masse sono sempre volubili. Con abbastanza lavoro, puoi comprare la loro fedeltà, anche se solo per una notte."
+ grand_ambitions.0130.desc.legitimacy.4: "La fede del popolo nel suo [target_char.GetTitleAsNameNoTooltip|l] è salda, esordisce, o almeno così pensano... Le masse sono sempre volubili. Con abbastanza lavoro, puoi comprare la loro fedeltà, anche se solo per una notte."
  grand_ambitions.0130.desc.legitimacy.3: ""La fede del popolo in [target_char.GetTitleAsNameNoTooltip|l] non è incrollabile", esordisce [interlocutor.GetSheHe] "Non ci vorrebbe tanto #EMP per minarla#! perché la popolazione affondi in un mare di odio.""
  grand_ambitions.0130.desc.legitimacy.2: ""La fede del popolo in [target_char.GetTitleAsNameNoTooltip|l] si sta indebolendo", esordisce. "Con poco più di un soffio potremmo accendere le scintille del loro malcontento e trasformarle in un fuoco feroce.""
  grand_ambitions.0130.desc.legitimacy.1: ""Il popolo non ha un briciolo di fede [Select_CString(target_char.IsFemale,'nella falsa','nel falso')] [target_char.GetTitleAsNameNoTooltip|l]," esordisce. "La loro furia è potente, ma non è incanalata; dobbiamo solo dare loro il più piccolo suggerimento sulla direzione da prendere..."."
@@ -70,14 +69,14 @@
 grand_ambitions.0131.d: "Maledizione a quel [schemer.Custom2('InsultAdjective', ROOT.Char)] [schemer.Custom2('InsultNoun', ROOT.Char)]..."
 
  grand_ambitions.0140.t: "$grand_ambitions_header$ altr[target_gov.Custom('DE_END_PRO_S_N')] [target_gov.GetTitleAsNameNoTooltip|l]"
- grand_ambitions.0140.desc: ""Ho detto di non essere disturbat[ROOT.Char.Custom('DE_END_PRO_S_N')]!" grido quando la porta del mio studio si apre. Ma sotto l'architrave c'è [Select_CString( target_gov.IsFemale, 'una ospite inattesa', 'un ospite inatteso' )]: [target_gov.GetFirstName] [target_gov.Custom('IT_NAM_COL3')][target_gov.GetTitleAsNameNoTooltip|l] da [target_gov.GetPrimaryTitle.GetNameNoTier].\n\n"Perdonami se ti disturbo, [ROOT.Char.GetFirstNameNoTooltip], ma sono venuto a offrirti il mio sostegno."
+ grand_ambitions.0140.desc: "Ho detto di non essere disturbat[ROOT.Char.Custom('DE_END_PRO_S_N')]! grido quando la porta del mio studio si apre. Ma sotto l'architrave c'è [Select_CString( target_gov.IsFemale, 'una ospite inattesa', 'un ospite inatteso' )]: [target_gov.GetFirstName] [target_gov.Custom('IT_NAM_COL3')][target_gov.GetTitleAsNameNoTooltip|l] da [target_gov.GetPrimaryTitle.GetNameNoTier].\n\nPerdonami se ti disturbo, [ROOT.Char.GetFirstNameNoTooltip], ma sono venuto a offrirti il mio sostegno."
  grand_ambitions.0140.faction: "Desidero unirmi ai vostri sforzi per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitleAsName|l]."
- grand_ambitions.0140.no_faction: "So che stai radunando le tue forze qui a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], preparandoti a deporre [target_char.GetTitleAsName|l]"."
+ grand_ambitions.0140.no_faction: "So che stai radunando le tue forze qui a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], preparandoti a deporre [target_char.GetTitleAsName|l]."
  grand_ambitions.0140.a: "Più siamo meglio è."
  grand_ambitions.0140.b: "Non ho bisogno del tuo aiuto."
 
  grand_ambitions.0150.t: "$grand_ambitions_header$: Un Agente aggiuntivo"
- grand_ambitions.0150.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] avanza; la gravità della nostra impresa si riflette nei suoi tratti. "I nostri piani per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l] continuano a ritmo serrato", recita solennemente. Ogni sua parola porta con sé il peso della nostra cospirazione.\n\n"Ma il nostro progetto potrebbe ancora fallire senza un numero sufficiente di alleati in posizioni chiave. Un agente in più ci aiuterebbe a garantire il successo."
+ grand_ambitions.0150.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] avanza; la gravità della nostra impresa si riflette nei suoi tratti. I nostri piani per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l] continuano a ritmo serrato, recita solennemente. Ogni sua parola porta con sé il peso della nostra cospirazione.\n\nMa il nostro progetto potrebbe ancora fallire senza un numero sufficiente di alleati in posizioni chiave. Un agente in più ci aiuterebbe a garantire il successo."
  grand_ambitions.0150.a: "Un abile infiltrato accelererebbe sicuramente il complotto."
  grand_ambitions.0150.b: "Utilizziamo un'esca che garantisca la nostra segretezza."
  grand_ambitions.0150.c: "Sarebbe bello avere qualcuno a corte che esalti le mie virtù."
@@ -97,13 +96,13 @@ grand_ambitions.0131.d: "Maledizione a quel [schemer.Custom2('InsultAdjective', 
  grand_ambitions.0155.d: "Nessuna di queste persone è accettabile."
 
  grand_ambitions.0160.t: "$grand_ambitions_header$ Trame e Sotterfugi"
- grand_ambitions.0160.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] si avvicina con la notizia del nostro piano per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l]. "Le basi per la nostra grande ambizione sono state gettate", esordisce, con voce ferma e sicura.\n\n"Abbiamo alleati in alto e in basso, tutti pronti a fare la loro parte nel nostro grande progetto. In chi dobbiamo riporre la nostra fiducia?"
+ grand_ambitions.0160.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] si avvicina con la notizia del nostro piano per deporre [target_char.Custom('IT_NAM_COL3')][target_char.GetTitledFirstName|l]. Le basi per la nostra grande ambizione sono state gettate, esordisce, con voce ferma e sicura.\n\nAbbiamo alleati in alto e in basso, tutti pronti a fare la loro parte nel nostro grande progetto. In chi dobbiamo riporre la nostra fiducia?"
  grand_ambitions.0160.a: "I funzionari di palazzo saranno alleati fondamentali."
  grand_ambitions.0160.b: "I commercianti porteranno le nostre parole in modo rapido e sicuro."
  grand_ambitions.0160.c: "Gli scribi imperiali si assicureranno che non veniamo scoperti."
 
  grand_ambitions.0170.t: "$grand_ambitions_header$: Una Potente Alleanza"
- grand_ambitions.0170.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi si avvicina con moderata urgenza.\n\n"Una proposta", esordisce, "dal capo di una delle più illustri famiglie di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]. Ha sentito parlare delle nostre aspirazioni e vede un'opportunità di mutuo beneficio". Srotola una pergamena, il sigillo della casata [powerful_house.GetName].\n\n"Il loro sostegno potrebbe far pendere la bilancia a nostro favore. Tuttavia, questo sostegno ha un prezzo: un compenso commisurato al pericolo che corri."
+ grand_ambitions.0170.desc: "[interlocutor.Custom('DE_ART_DEF_P_A')|U] mi[interlocutor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2( 'RelationToMe', interlocutor )] [interlocutor.Custom('IT_NAM_COL3')][interlocutor.GetFirstName] mi si avvicina con moderata urgenza.\n\nUna proposta, esordisce, dal capo di una delle più illustri famiglie di [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetTierAsNameNoTooltip|l]. Ha sentito parlare delle nostre aspirazioni e vede un'opportunità di mutuo beneficio. Srotola una pergamena, il sigillo della casata [powerful_house.GetName].\n\nIl loro sostegno potrebbe far pendere la bilancia a nostro favore. Tuttavia, questo sostegno ha un prezzo: un compenso commisurato al pericolo che corri."
  grand_ambitions.0170.a: "Soddisferemo il tuo prezzo, costi quel che costi."
  grand_ambitions.0170.b: "Saranno legati a noi con la promessa di una futura ricompensa."
  grand_ambitions.0170.c: "Uniamo le nostre case in una sacra unione."

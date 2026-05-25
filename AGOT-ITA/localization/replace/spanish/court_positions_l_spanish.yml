@@ -22,13 +22,11 @@
  executioner_court_position_desc:1 "I boia sono responsabili delle esecuzioni pubbliche di tutti i nemici del trono. Alcuni lo chiamerebbero un onore, altri un fardello."
 
  #End AGOT modifiche
-
 #start AGOT Disabled
   # court_position_poet_is_advancement: "Membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
   # court_position_liege_is_advancement: "Il signore è membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
   # court_position_varangian_trait: "[GetTrait('varangian').GetName( ROOT.Char )]"
 #end AGOT Disabled
-
 
   APPOINT_COURT_POSITION_VIEW_select_character_header: "Nomina [AppointCourtPositionView.GetPositionName]"
 APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY: "Salario: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]"

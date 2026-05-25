@@ -21,7 +21,7 @@
  tournament_events.0100.desc:0 "Il torneo è finalmente alle porte!\n\n"
  tournament_events.0100.host:0 "Molti sono accorsi nelle mie terre a [activity.GetCurrentPhase.GetLocation.GetName], desiderosi di dimostrare il proprio valore o semplicemente di godersi lo spettacolo."
  tournament_events.0100.contestant:0 "Come molti altri che sono accorsi a [activity.GetCurrentPhase.GetLocation.GetName], Come molti altri che attendono con impazienza le gare a venire, io mi dedico alla socializzazione e alla preparazione del mio equipaggiamento."
- tournament_events.0100.spectator:0 ""Molti sono accorsi nelle terre di [host.GetTitledFirstName] a [activity.GetCurrentPhase.GetLocation.GetName], sia per comptere, sia come me, per essere intrattenuti."
+ tournament_events.0100.spectator:0 "Molti sono accorsi nelle terre di [host.GetTitledFirstName] a [activity.GetCurrentPhase.GetLocation.GetName], sia per comptere, sia come me, per essere intrattenuti."
  tournament_events.0100.closing:1 "\n\nIl sole si alza nel cielo e le ombre si accorciano. Se devo competere nella competizione [activity.GetCurrentPhase.GetPhase.GetName], devo fare in modo di qualificarmi. Presto inizierà."
  tournament_events.0100.a:0 "Non c'è tempo da perdere!"
 
@@ -385,7 +385,7 @@ tournament_events.1332.desc: 0 "Vedo [powerful_vassal.GetFirstName] avvicinarsi 
  tournament_events.1401.b:0 "Va bene, passate pure."
 
  tournament_events.1402.t:1 "$tournament_header$ Agevolazioni Sprecate"
- tournament_events.1402.desc:0 "La gara di fronte a me sta raggiungendo un crescendo, i partecipanti sono in parità. Afferro la ringhiera di legno davanti a me e urlo il mio apprezzamento insieme al resto della folla. L'urlo, però, si trasforma rapidamente in un grido strozzato quando sento qualcosa che mi cola lungo la schiena. Una specie di liquido... qualcosa in qualche modo sia caldo #EMP che#! freddo?\n\nMi giro sui talloni e mi trovo di fronte a [drinking_spectator.GetFirstName], con il suo calice che ondeggia con i resti della bevanda non identificata che sta scendendo lungo la mia schiena.\n\n"Allora, guardate dove andate!" bofonchia [drinking_spectator.GetSheHe], gesticolando in modo accusatorio verso di me con il calice. "Dovreste stare più attent[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
+ tournament_events.1402.desc:0 "La gara di fronte a me sta raggiungendo un crescendo, i partecipanti sono in parità. Afferro la ringhiera di legno davanti a me e urlo il mio apprezzamento insieme al resto della folla. L'urlo, però, si trasforma rapidamente in un grido strozzato quando sento qualcosa che mi cola lungo la schiena. Una specie di liquido... qualcosa in qualche modo sia caldo #EMP che#! freddo?\n\nMi giro sui talloni e mi trovo di fronte a [drinking_spectator.GetFirstName], con il suo calice che ondeggia con i resti della bevanda non identificata che sta scendendo lungo la mia schiena.\n\nAllora, guardate dove andate! bofonchia [drinking_spectator.GetSheHe], gesticolando in modo accusatorio verso di me con il calice. Dovreste stare più attent[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
  tournament_events.1402.a:0 "Che ne dite se ne compro un altro per entrambi?"
 tournament_events.1402.b: 0 "Guardie! Portate via [Select_CString(drinking_spectator.IsFemale,'questa','questo')] [drinking_spectator.Custom2('InsultAdjective', ROOT.Char)] [drinking_spectator.Custom2('InsultNoun', ROOT.Char)] dalla mia vista!"
  tournament_events.1402.c:0 "Avete ragione. Errore mio!"

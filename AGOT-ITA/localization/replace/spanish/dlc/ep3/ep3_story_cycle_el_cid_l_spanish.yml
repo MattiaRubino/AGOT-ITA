@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  cid_loyalty_counter_positive: "Questo #positive_value dimostrerà#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"
  cid_loyalty_counter_very_positive: "Questo #positive_value dimostrerà chiaramente#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"
  cid_loyalty_counter_negative: "Questo #negative_value metterà in discussione#! la [cid_loyalty|E] verso [liege.Custom('DE_ART_DEF_P_A')] [liege.GetTitleAsNameNoTooltip]"
@@ -39,9 +38,9 @@
  cid_1010_no_invite_var_desc: "L'hai bandit[recipient.Custom('DE_END_PRO_S_N')]: $VALUE|=+0$"
  
  cid.1020.t: "$cid_exile_title$ Addio, [Select_CString(spouse.IsFemale,'mia cara','mio caro')]"
- cid.1020.desc.intro: "[spouse.GetFirstName] si getta sui gradini davanti all'altare e prega con fervore [spouse.GetFaith.HighGodName] perché mi protegga dal male.\n\nIo l[spouse.Custom('DE_END_ADJ_DEF_S_N')]abbraccio e [spouse.GetSheHe] bacia la mia mano, con le lacrime agli occhi, come fuori di sé per il dolore.\n\n"Solo [ROOT.Char.GetFaith.HighGodName] sa se ci vedremo di nuovo," dico, "qui sarete più al sicuro. Non posso sottoporvi a ciò che"
- cid.0001.desc.children: "mi attende. Bambini... fate i bravi.""
- cid.0001.desc.no_children: "mi attende.""
+ cid.1020.desc.intro: "[spouse.GetFirstName] si getta sui gradini davanti all'altare e prega con fervore [spouse.GetFaith.HighGodName] perché mi protegga dal male.\n\nIo l[spouse.Custom('DE_END_ADJ_DEF_S_N')]abbraccio e [spouse.GetSheHe] bacia la mia mano, con le lacrime agli occhi, come fuori di sé per il dolore.\n\nSolo [ROOT.Char.GetFaith.HighGodName] sa se ci vedremo di nuovo, dico, qui sarete più al sicuro. Non posso sottoporvi a ciò che"
+ cid.0001.desc.children: "mi attende. Bambini... fate i bravi."
+ cid.0001.desc.no_children: "mi attende."
  cid.1020.a: ""[my_priest.GetFirstNameNoTooltip], forse potete intercedere voi a nostro favore?""
  cid.1020.b: ""Che l'attesa sia breve.""
  cid.1020.b.flavor: "#EMP Si staccarono gli uni dagli altri come l'unghia dalla carne.#!"

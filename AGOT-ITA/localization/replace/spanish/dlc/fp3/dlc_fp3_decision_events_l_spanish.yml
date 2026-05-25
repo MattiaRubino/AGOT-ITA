@@ -1,5 +1,4 @@
 ﻿l_spanish:
-
  ##################################################
  # STRUGGLE EVENTS 
  ##################################################
@@ -345,17 +344,17 @@ fp3_misc_decisions.0027.c.trigger: "Le tue [skills|E] combinate devono essere su
  fp3_misc_decisions.0027.c.tt: "Questa opzione è disponibile perché le tue [skills|El] complessive sono maggiori rispetto a quelle di [recipient.GetFirstNameNoTooltip]"
  fp3_misc_decisions.0027.d: "Su, [recipient.GetFirstNameNoTooltip], fatevi da parte."
  
- fp3_misc_decisions.0028.desc: "[actor.GetFirstName] è arrivat[actor.Custom('DE_END_PRO_S_N')] a [duel_location.GetBaseNameNoTierNoTooltip], luogo del duello, per esprimere la sua fallace logica riguardo il perché [actor.GetSheHe] dovrebbe essere il capo della casata [actor.GetHouse.GetBaseName]. L'educazione mi obbliga ad abbracciarl[actor.Custom('DE_END_PRO_S_N')] prima che inizi a parlare.\n\n[actor.GetSheHe|U] racconta la storia della casata, dai tempi [actor.GetHouse.GetFounder.Custom('IT_NAM_COL3')][actor.GetHouse.GetFounder.GetTitledFirstName] fino ai giorni nostri, e attendo pazientemente che raggiunga il momento cruciale della sua argomentazione.\n\nInfine, ecco: "[actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))|U]..."
+ fp3_misc_decisions.0028.desc: "[actor.GetFirstName] è arrivat[actor.Custom('DE_END_PRO_S_N')] a [duel_location.GetBaseNameNoTierNoTooltip], luogo del duello, per esprimere la sua fallace logica riguardo il perché [actor.GetSheHe] dovrebbe essere il capo della casata [actor.GetHouse.GetBaseName]. L'educazione mi obbliga ad abbracciarl[actor.Custom('DE_END_PRO_S_N')] prima che inizi a parlare.\n\n[actor.GetSheHe|U] racconta la storia della casata, dai tempi [actor.GetHouse.GetFounder.Custom('IT_NAM_COL3')][actor.GetHouse.GetFounder.GetTitledFirstName] fino ai giorni nostri, e attendo pazientemente che raggiunga il momento cruciale della sua argomentazione.\n\nInfine, ecco: [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))|U]..."
 fp3_misc_decisions.0028.desc.founder: "[actor.GetFirstName] è arrivat[Select_CString(actor.IsFemale,'a','o')] a [duel_location.GetBaseNameNoTierNoTooltip] per esporre la sua logica capziosa e assumere la guida della casata [actor.GetHouse.GetBaseName]. Sono abbastanza educat[Select_CString(recipient.IsFemale,'a','o')] da abbracciar[Select_CString(actor.IsFemale,'la','lo')] prima del colloquio.\n\nParla della storia della nostra casata, dai lontani antenati a oggi, e attendo con pazienza il punto cruciale del suo argomento.\n\nAlla fine arriva: «[actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))|U]…»"
- fp3_misc_decisions.0028.sick: "$fp3_misc_decisions.0027.a.sick$" Quindi il problema è la mia salute? $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.old: "$fp3_misc_decisions.0027.a.old$" Quindi il problema è la mia età? $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.young: "$fp3_misc_decisions.0027.a.young$" Quindi il problema è che sono troppo giovane? $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.vassal: "$fp3_misc_decisions.0027.b.vassal$" Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.tier: "$fp3_misc_decisions.0027.b.tier$" Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.military: "$fp3_misc_decisions.0027.b.military$" Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.dread: "$fp3_misc_decisions.0027.b.dread$" Che faccia tosta! Tuttavia... $fp3_misc_decisions.0028.perhaps$"
- fp3_misc_decisions.0028.skill: "$fp3_misc_decisions.0027.c$"\n\nMa io non sono incapace!... No?"
- fp3_misc_decisions.0028.fallback: "$fp3_misc_decisions.0027.a.sick$" È davvero tutto ciò che ha da dire?"
+ fp3_misc_decisions.0028.sick: "$fp3_misc_decisions.0027.a.sick$ Quindi il problema è la mia salute? $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.old: "$fp3_misc_decisions.0027.a.old$ Quindi il problema è la mia età? $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.young: "$fp3_misc_decisions.0027.a.young$ Quindi il problema è che sono troppo giovane? $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.vassal: "$fp3_misc_decisions.0027.b.vassal$ Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.tier: "$fp3_misc_decisions.0027.b.tier$ Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.military: "$fp3_misc_decisions.0027.b.military$ Questo non posso negarlo. $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.dread: "$fp3_misc_decisions.0027.b.dread$ Che faccia tosta! Tuttavia... $fp3_misc_decisions.0028.perhaps$"
+ fp3_misc_decisions.0028.skill: "$fp3_misc_decisions.0027.c$\n\nMa io non sono incapace!... No?"
+ fp3_misc_decisions.0028.fallback: "$fp3_misc_decisions.0027.a.sick$ È davvero tutto ciò che ha da dire?"
  fp3_misc_decisions.0028.perhaps: "Forse ha ragione."
  fp3_misc_decisions.0028.bargain.tt: "Se [actor.Custom('IT_NAM_COL3')][actor.GetShortUIName] accetta:"
 
