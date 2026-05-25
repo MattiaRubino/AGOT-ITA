@@ -309,13 +309,13 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 		trigger = {
 			AND = { 
 					primary_title.tier < tier_kingdom
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iberian
+					culture = { has_cultural_pillar = heritage_iberian }
 					has_government = feudal_government
 					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_principe #PRINCIPE
 		trigger = { # Prince
@@ -341,7 +341,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_base #CONTE/PRINCIPE VESCOVO
 		trigger = {
@@ -360,12 +360,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_base_f #CONTESSA
 		trigger = {
@@ -385,17 +385,17 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_norse_special #CONTE/PRINCIPE VESCOVO
 		trigger = {
 				primary_title.tier = tier_county
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 				is_female = no
 				OR = {
 					has_government = feudal_government
@@ -407,12 +407,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_norse_special_f #CONTESSA
 		trigger = {
@@ -420,7 +420,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					primary_title.tier = tier_county
 					any_spouse = {
 					primary_title.tier = tier_county
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 						}
 					}
 				is_female = yes
@@ -430,12 +430,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_base_r #SINDACO/BARONE/WALI/THANE/REEVE
 		trigger = {
@@ -448,7 +448,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					is_female = no
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_base_rf #BARONESSA
 		trigger = {
@@ -461,7 +461,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					is_female = yes
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_english #EARL
 		trigger = {
@@ -473,11 +473,11 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:norse
 					}
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_english_f #CONTESSA
 		trigger = {
@@ -486,7 +486,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					any_spouse = {
 					primary_title.tier = tier_county
 					NOT = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 							}
 						}
 					}
@@ -498,7 +498,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_tribal #CAPO/CAPO DONNA
 		trigger = {
@@ -521,15 +521,15 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				primary_title.tier = tier_county
 				has_government = clan_government
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+					culture = { has_cultural_pillar = heritage_iranian }
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_islam_f #SCEICCA
 		trigger = {
@@ -541,10 +541,10 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				has_government = clan_government
 				is_female = yes
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_gaelic #MORMAER
 		trigger = {
@@ -559,7 +559,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_gaelic #BANMORMAER
 		trigger = {
@@ -577,8 +577,8 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				}
 			}
 
-###DUCHI/RE###			
-						
+###DUCHI/RE###
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_i_base #IMPERATORE/IMPERATRICE
 		trigger = {
@@ -587,12 +587,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					has_government = feudal_government
 					}
 				NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					faith = faith:orthodox
+					has_title = title:e_hre
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_i_base_hre #KAISER
 		trigger = {
@@ -600,10 +600,10 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_i_base_hre_f #KAISERIN
 		trigger = {
@@ -611,16 +611,16 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					primary_title.tier = tier_empire
 					any_spouse = {
 					primary_title.tier = tier_empire
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 						}
 					}
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_i_ortox #BASILEUS
 		trigger = {
@@ -629,10 +629,10 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					has_government = feudal_government
 					}
 					is_female = no
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_i_ortox_f #BASILISSA
 		trigger = {
@@ -646,10 +646,10 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					has_government = feudal_government
 					}
 					is_female = yes
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_base #RE/PAPA
 		trigger = {
@@ -661,27 +661,27 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_indu #MAHARAJA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = feudal_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion hinduism_religion
+				religion = religion:hinduism_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_otox #PATRIARCA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = theocracy_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+				faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_islam #SULTANO/CALIFFO
 		trigger = {
@@ -693,7 +693,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_base_f #REGINA
 		trigger = {
@@ -709,7 +709,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_r_islam_f #SULTANA/CALIFFA
 		trigger = {
@@ -725,7 +725,7 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_base #DUCA
 		trigger = {
@@ -740,12 +740,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_base_f #DUCHESSA
 		trigger = {
@@ -765,12 +765,12 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_english #PICCOLO RE
 		trigger = {
@@ -782,11 +782,11 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					}
 				OR = {
 					culture = culture:anglo_saxon
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_english_f #PICCOLA REGINA
 		trigger = {
@@ -804,11 +804,11 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				OR = {
 					culture = culture:anglo_saxon
 					culture = culture:norse
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_norse #JARL
 		trigger = {
@@ -833,13 +833,13 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				has_government = tribal_government
 				}
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_islam_f #EMIRA
 		trigger = {
@@ -847,9 +847,9 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 					primary_title.tier = tier_duchy
 					any_spouse = {
 					primary_title.tier = tier_duchy
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 							}
 						}
 					}
@@ -859,11 +859,11 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				}
 				is_female = yes
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL_d_general #GRANDE CAPO/GRANDE CAPO DONNA
 		trigger = {
@@ -876,14 +876,14 @@ IT_NAM_COL = { #SUL/SULLA/SULLO
 				has_government = tribal_government
 				}
 			}
-			
+
 	}
-	
-###########################################################	
-	
+
+###########################################################
+
 IT_NAM_COL2 = { #DEL/DELLA/DELLO
 	type = character
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_no_title #NESSUN TITOLO
 		trigger = {
@@ -895,19 +895,19 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_infante #INFANTE
 		trigger = {
-			AND = { 
+			AND = {
 					primary_title.tier < tier_kingdom
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iberian
+					culture = { has_cultural_pillar = heritage_iberian }
 					has_government = feudal_government
 					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_principe #PRINCIPE
 		trigger = { # Prince
@@ -933,7 +933,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_base #CONTE/PRINCIPE VESCOVO
 		trigger = {
@@ -952,12 +952,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_base_f #CONTESSA
 		trigger = {
@@ -977,17 +977,17 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_norse_special #CONTE/PRINCIPE VESCOVO
 		trigger = {
 				primary_title.tier = tier_county
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 				is_female = no
 				OR = {
 					has_government = feudal_government
@@ -999,12 +999,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_norse_special_f #CONTESSA
 		trigger = {
@@ -1012,7 +1012,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					primary_title.tier = tier_county
 					any_spouse = {
 					primary_title.tier = tier_county
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 						}
 					}
 				is_female = yes
@@ -1022,12 +1022,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_base_r #SINDACO/BARONE/WALI/THANE/REEVE
 		trigger = {
@@ -1040,7 +1040,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					is_female = no
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_base_rf #BARONESSA
 		trigger = {
@@ -1053,7 +1053,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					is_female = yes
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_english #EARL
 		trigger = {
@@ -1065,11 +1065,11 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:norse
 					}
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_english_f #CONTESSA
 		trigger = {
@@ -1078,7 +1078,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					any_spouse = {
 					primary_title.tier = tier_county
 					NOT = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 							}
 						}
 					}
@@ -1090,7 +1090,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_tribal #CAPO/CAPO DONNA
 		trigger = {
@@ -1113,15 +1113,15 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				primary_title.tier = tier_county
 				has_government = clan_government
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+					culture = { has_cultural_pillar = heritage_iranian }
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_islam_f #SCEICCA
 		trigger = {
@@ -1133,10 +1133,10 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				has_government = clan_government
 				is_female = yes
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_gaelic #MORMAER
 		trigger = {
@@ -1151,7 +1151,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_gaelic #BANMORMAER
 		trigger = {
@@ -1169,8 +1169,8 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				}
 			}
 
-###DUCHI/RE###			
-						
+###DUCHI/RE###
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_i_base #IMPERATORE/IMPERATRICE
 		trigger = {
@@ -1179,12 +1179,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					has_government = feudal_government
 					}
 				NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					faith = faith:orthodox
+					has_title = title:e_hre
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_i_base_hre #KAISER
 		trigger = {
@@ -1192,10 +1192,10 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_i_base_hre_f #KAISERIN
 		trigger = {
@@ -1203,16 +1203,16 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					primary_title.tier = tier_empire
 					any_spouse = {
 					primary_title.tier = tier_empire
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 						}
 					}
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_i_ortox #BASILEUS
 		trigger = {
@@ -1221,10 +1221,10 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					has_government = feudal_government
 					}
 					is_female = no
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_i_ortox_f #BASILISSA
 		trigger = {
@@ -1238,10 +1238,10 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					has_government = feudal_government
 					}
 					is_female = yes
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_base #RE/PAPA
 		trigger = {
@@ -1253,17 +1253,17 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_indu #MAHARAJA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = feudal_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion hinduism_religion
+				religion = religion:hinduism_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_islam #SULTANO/CALIFFO
 		trigger = {
@@ -1275,17 +1275,17 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_otox #PATRIARCA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = theocracy_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+				faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_base_f #REGINA
 		trigger = {
@@ -1301,7 +1301,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_r_islam_f #SULTANA/CALIFFA
 		trigger = {
@@ -1317,7 +1317,7 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_base #DUCA
 		trigger = {
@@ -1332,12 +1332,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_base_f #DUCHESSA
 		trigger = {
@@ -1357,12 +1357,12 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_english #PICCOLO RE
 		trigger = {
@@ -1374,11 +1374,11 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					}
 				OR = {
 					culture = culture:anglo_saxon
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_english_f #PICCOLA REGINA
 		trigger = {
@@ -1396,11 +1396,11 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				OR = {
 					culture = culture:anglo_saxon
 					culture = culture:norse
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_norse #JARL
 		trigger = {
@@ -1425,13 +1425,13 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				has_government = tribal_government
 				}
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_islam_f #EMIRA
 		trigger = {
@@ -1439,9 +1439,9 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 					primary_title.tier = tier_duchy
 					any_spouse = {
 					primary_title.tier = tier_duchy
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 							}
 						}
 					}
@@ -1451,11 +1451,11 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				}
 				is_female = yes
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL2_d_general #GRANDE CAPO/GRANDE CAPO DONNA
 		trigger = {
@@ -1468,14 +1468,14 @@ IT_NAM_COL2 = { #DEL/DELLA/DELLO
 				has_government = tribal_government
 				}
 			}
-			
+
 	}
-	
+
 #############################################################
-	
+
 IT_NAM_COL3 = { #IL/LA/LO
 	type = character
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_no_title #NESSUN TITOLO
 		trigger = {
@@ -1487,19 +1487,19 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_infante #INFANTE
 		trigger = {
-			AND = { 
+			AND = {
 					primary_title.tier < tier_kingdom
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iberian
+					culture = { has_cultural_pillar = heritage_iberian }
 					has_government = feudal_government
 					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_principe #PRINCIPE
 		trigger = { # Prince
@@ -1525,7 +1525,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_base #CONTE/PRINCIPE VESCOVO
 		trigger = {
@@ -1544,12 +1544,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_base_f #CONTESSA
 		trigger = {
@@ -1569,17 +1569,17 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_norse_special #CONTE/PRINCIPE VESCOVO
 		trigger = {
 				primary_title.tier = tier_county
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 				is_female = no
 				OR = {
 					has_government = feudal_government
@@ -1591,12 +1591,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_norse_special_f #CONTESSA
 		trigger = {
@@ -1604,9 +1604,9 @@ IT_NAM_COL3 = { #IL/LA/LO
 					primary_title.tier = tier_county
 					any_spouse = {
 					primary_title.tier = tier_county
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 						}
-					}			
+					}
 				is_female = yes
 				has_government = feudal_government
 				NOT = {
@@ -1614,12 +1614,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_base_r #SINDACO/BARONE/WALI/THANE/REEVE
 		trigger = {
@@ -1632,7 +1632,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					is_female = no
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_base_rf #BARONESSA
 		trigger = {
@@ -1645,7 +1645,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					is_female = yes
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_english #EARL
 		trigger = {
@@ -1657,11 +1657,11 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:norse
 					}
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_english_f #CONTESSA
 		trigger = {
@@ -1670,7 +1670,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					any_spouse = {
 					primary_title.tier = tier_county
 					NOT = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 							}
 						}
 					}
@@ -1682,7 +1682,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_tribal #CAPO/CAPO DONNA
 		trigger = {
@@ -1705,15 +1705,15 @@ IT_NAM_COL3 = { #IL/LA/LO
 				primary_title.tier = tier_county
 				has_government = clan_government
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+					culture = { has_cultural_pillar = heritage_iranian }
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_islam_f #SCEICCA
 		trigger = {
@@ -1725,10 +1725,10 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				has_government = clan_government
 				is_female = yes
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_gaelic #MORMAER
 		trigger = {
@@ -1743,7 +1743,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_gaelic #BANMORMAER
 		trigger = {
@@ -1761,8 +1761,8 @@ IT_NAM_COL3 = { #IL/LA/LO
 				}
 			}
 
-###DUCHI/RE###			
-						
+###DUCHI/RE###
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_i_base #IMPERATORE/IMPERATRICE
 		trigger = {
@@ -1771,12 +1771,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 				NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					faith = faith:orthodox
+					has_title = title:e_hre
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_i_base_hre #KAISER
 		trigger = {
@@ -1784,10 +1784,10 @@ IT_NAM_COL3 = { #IL/LA/LO
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_i_base_hre_f #KAISERIN
 		trigger = {
@@ -1795,16 +1795,16 @@ IT_NAM_COL3 = { #IL/LA/LO
 					primary_title.tier = tier_empire
 					any_spouse = {
 					primary_title.tier = tier_empire
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 						}
 					}
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_i_ortox #BASILEUS
 		trigger = {
@@ -1813,10 +1813,10 @@ IT_NAM_COL3 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 					is_female = no
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_i_ortox_f #BASILISSA
 		trigger = {
@@ -1830,10 +1830,10 @@ IT_NAM_COL3 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 					is_female = yes
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_base #RE/PAPA
 		trigger = {
@@ -1845,17 +1845,17 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_indu #MAHARAJA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = feudal_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion hinduism_religion
+				religion = religion:hinduism_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_base_f #REGINA
 		trigger = {
@@ -1871,7 +1871,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_islam #SULTANO/CALIFFO
 		trigger = {
@@ -1883,17 +1883,17 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_otox #PATRIARCA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = theocracy_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+				faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_r_islam_f #SULTANA/CALIFFA
 		trigger = {
@@ -1909,7 +1909,7 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_base #DUCA
 		trigger = {
@@ -1924,12 +1924,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_base_f #DUCHESSA
 		trigger = {
@@ -1949,12 +1949,12 @@ IT_NAM_COL3 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_english #PICCOLO RE
 		trigger = {
@@ -1966,11 +1966,11 @@ IT_NAM_COL3 = { #IL/LA/LO
 					}
 				OR = {
 					culture = culture:anglo_saxon
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_english_f #PICCOLA REGINA
 		trigger = {
@@ -1988,11 +1988,11 @@ IT_NAM_COL3 = { #IL/LA/LO
 				OR = {
 					culture = culture:anglo_saxon
 					culture = culture:norse
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_norse #JARL
 		trigger = {
@@ -2017,13 +2017,13 @@ IT_NAM_COL3 = { #IL/LA/LO
 				has_government = tribal_government
 				}
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_islam_f #EMIRA
 		trigger = {
@@ -2031,9 +2031,9 @@ IT_NAM_COL3 = { #IL/LA/LO
 					primary_title.tier = tier_duchy
 					any_spouse = {
 					primary_title.tier = tier_duchy
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 							}
 						}
 					}
@@ -2043,11 +2043,11 @@ IT_NAM_COL3 = { #IL/LA/LO
 				}
 				is_female = yes
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL3_d_general #GRANDE CAPO/GRANDE CAPO DONNA
 		trigger = {
@@ -2060,15 +2060,15 @@ IT_NAM_COL3 = { #IL/LA/LO
 				has_government = tribal_government
 				}
 			}
-			
-	}
-	
 
-###########################################################	
-	
+	}
+
+
+###########################################################
+
 IT_NAM_COL4 = { #AL/ALLA/ALLO
 	type = character
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_no_title #NESSUN TITOLO
 		trigger = {
@@ -2080,19 +2080,19 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_infante #INFANTE
 		trigger = {
-			AND = { 
+			AND = {
 					primary_title.tier < tier_kingdom
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iberian
+					culture = { has_cultural_pillar = heritage_iberian }
 					has_government = feudal_government
 					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_principe #PRINCIPE
 		trigger = { # Prince
@@ -2118,7 +2118,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_base #CONTE/PRINCIPE VESCOVO
 		trigger = {
@@ -2137,12 +2137,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_base_f #CONTESSA
 		trigger = {
@@ -2162,17 +2162,17 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_norse_special #CONTE/PRINCIPE VESCOVO
 		trigger = {
 				primary_title.tier = tier_county
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 				is_female = no
 				OR = {
 					has_government = feudal_government
@@ -2184,12 +2184,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_norse_special_f #CONTESSA
 		trigger = {
@@ -2197,9 +2197,9 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					primary_title.tier = tier_county
 					any_spouse = {
 					primary_title.tier = tier_county
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 						}
-					}		
+					}
 				is_female = yes
 				has_government = feudal_government
 				NOT = {
@@ -2207,12 +2207,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_base_r #SINDACO/BARONE/WALI/THANE/REEVE
 		trigger = {
@@ -2225,7 +2225,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					is_female = no
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_base_rf #BARONESSA
 		trigger = {
@@ -2238,7 +2238,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					is_female = yes
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_english #EARL
 		trigger = {
@@ -2250,11 +2250,11 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:norse
 					}
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_english_f #CONTESSA
 		trigger = {
@@ -2263,7 +2263,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					any_spouse = {
 					primary_title.tier = tier_county
 					NOT = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 							}
 						}
 					}
@@ -2275,7 +2275,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_tribal #CAPO/CAPO DONNA
 		trigger = {
@@ -2298,15 +2298,15 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				primary_title.tier = tier_county
 				has_government = clan_government
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+					culture = { has_cultural_pillar = heritage_iranian }
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_islam_f #SCEICCA
 		trigger = {
@@ -2318,10 +2318,10 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				has_government = clan_government
 				is_female = yes
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_gaelic #MORMAER
 		trigger = {
@@ -2336,7 +2336,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_gaelic #BANMORMAER
 		trigger = {
@@ -2354,8 +2354,8 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				}
 			}
 
-###DUCHI/RE###			
-						
+###DUCHI/RE###
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_i_base #IMPERATORE/IMPERATRICE
 		trigger = {
@@ -2364,12 +2364,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					has_government = feudal_government
 					}
 				NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					faith = faith:orthodox
+					has_title = title:e_hre
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_i_base_hre #KAISER
 		trigger = {
@@ -2377,10 +2377,10 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_i_base_hre_f #KAISERIN
 		trigger = {
@@ -2388,16 +2388,16 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					primary_title.tier = tier_empire
 					any_spouse = {
 					primary_title.tier = tier_empire
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 						}
 					}
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_i_ortox #BASILEUS
 		trigger = {
@@ -2406,10 +2406,10 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					has_government = feudal_government
 					}
 					is_female = no
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_i_ortox_f #BASILISSA
 		trigger = {
@@ -2423,10 +2423,10 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					has_government = feudal_government
 					}
 					is_female = yes
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_base #RE/PAPA
 		trigger = {
@@ -2438,17 +2438,17 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_indu #MAHARAJA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = feudal_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion hinduism_religion
+				religion = religion:hinduism_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_base_f #REGINA
 		trigger = {
@@ -2464,17 +2464,17 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_otox #PATRIARCA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = theocracy_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+				faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_islam #SULTANO/CALIFFO
 		trigger = {
@@ -2486,7 +2486,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_r_islam_f #SULTANA/CALIFFA
 		trigger = {
@@ -2502,7 +2502,7 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_base #DUCA
 		trigger = {
@@ -2517,12 +2517,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_base_f #DUCHESSA
 		trigger = {
@@ -2542,12 +2542,12 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_english #PICCOLO RE
 		trigger = {
@@ -2559,11 +2559,11 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					}
 				OR = {
 					culture = culture:anglo_saxon
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_english_f #PICCOLA REGINA
 		trigger = {
@@ -2581,11 +2581,11 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				OR = {
 					culture = culture:anglo_saxon
 					culture = culture:norse
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_norse #JARL
 		trigger = {
@@ -2610,13 +2610,13 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				has_government = tribal_government
 				}
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_islam_f #EMIRA
 		trigger = {
@@ -2624,9 +2624,9 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 					primary_title.tier = tier_duchy
 					any_spouse = {
 					primary_title.tier = tier_duchy
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 							}
 						}
 					}
@@ -2636,11 +2636,11 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				}
 				is_female = yes
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL4_d_general #GRANDE CAPO/GRANDE CAPO DONNA
 		trigger = {
@@ -2653,14 +2653,14 @@ IT_NAM_COL4 = { #AL/ALLA/ALLO
 				has_government = tribal_government
 				}
 			}
-			
+
 	}
 
 ###########################################################
 
 IT_NAM_COL5 = { #IL/LA/LO
 	type = character
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_no_title #NESSUN TITOLO
 		trigger = {
@@ -2672,19 +2672,19 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_infante #INFANTE
 		trigger = {
-			AND = { 
+			AND = {
 					primary_title.tier < tier_kingdom
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iberian
+					culture = { has_cultural_pillar = heritage_iberian }
 					has_government = feudal_government
 					any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_principe #PRINCIPE
 		trigger = { # Prince
@@ -2710,7 +2710,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 			any_parent = { even_if_dead = yes primary_title.tier >= tier_kingdom }
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_base #CONTE/PRINCIPE VESCOVO
 		trigger = {
@@ -2729,12 +2729,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_base_f #CONTESSA
 		trigger = {
@@ -2754,17 +2754,17 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_norse_special #CONTE/PRINCIPE VESCOVO
 		trigger = {
 				primary_title.tier = tier_county
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 				is_female = no
 				OR = {
 					has_government = feudal_government
@@ -2776,12 +2776,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_norse_special_f #CONTESSA
 		trigger = {
@@ -2789,9 +2789,9 @@ IT_NAM_COL5 = { #IL/LA/LO
 					primary_title.tier = tier_county
 					any_spouse = {
 					primary_title.tier = tier_county
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+					primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 						}
-					}	
+					}
 				is_female = yes
 				has_government = feudal_government
 				NOT = {
@@ -2799,12 +2799,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_base_r #SINDACO/BARONE/WALI/THANE/REEVE
 		trigger = {
@@ -2817,7 +2817,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					is_female = no
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_base_rf #BARONESSA
 		trigger = {
@@ -2830,7 +2830,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					is_female = yes
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_english #EARL
 		trigger = {
@@ -2842,11 +2842,11 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:norse
 					}
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+				primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_english_f #CONTESSA
 		trigger = {
@@ -2855,7 +2855,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					any_spouse = {
 					primary_title.tier = tier_county
 					NOT = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla title e_france
+						primary_title = { target_is_de_jure_liege_or_above = title:e_france }
 							}
 						}
 					}
@@ -2867,7 +2867,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_tribal #CAPO/CAPO DONNA
 		trigger = {
@@ -2890,15 +2890,15 @@ IT_NAM_COL5 = { #IL/LA/LO
 				primary_title.tier = tier_county
 				has_government = clan_government
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+					culture = { has_cultural_pillar = heritage_iranian }
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_islam_f #SCEICCA
 		trigger = {
@@ -2910,10 +2910,10 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				has_government = clan_government
 				is_female = yes
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_gaelic #MORMAER
 		trigger = {
@@ -2928,7 +2928,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_gaelic #BANMORMAER
 		trigger = {
@@ -2946,8 +2946,8 @@ IT_NAM_COL5 = { #IL/LA/LO
 				}
 			}
 
-###DUCHI/RE###			
-						
+###DUCHI/RE###
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_i_base #IMPERATORE/IMPERATRICE
 		trigger = {
@@ -2956,12 +2956,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 				NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					faith = faith:orthodox
+					has_title = title:e_hre
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_i_base_hre #KAISER
 		trigger = {
@@ -2969,10 +2969,10 @@ IT_NAM_COL5 = { #IL/LA/LO
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_i_base_hre_f #KAISERIN
 		trigger = {
@@ -2980,16 +2980,16 @@ IT_NAM_COL5 = { #IL/LA/LO
 					primary_title.tier = tier_empire
 					any_spouse = {
 					primary_title.tier = tier_empire
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 						}
 					}
 				OR = {
 					has_government = feudal_government
 					}
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_hre
+					has_title = title:e_hre
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_i_ortox #BASILEUS
 		trigger = {
@@ -2998,10 +2998,10 @@ IT_NAM_COL5 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 					is_female = no
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_i_ortox_f #BASILISSA
 		trigger = {
@@ -3015,10 +3015,10 @@ IT_NAM_COL5 = { #IL/LA/LO
 					has_government = feudal_government
 					}
 					is_female = yes
-					always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+					faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_base #RE/PAPA
 		trigger = {
@@ -3030,17 +3030,17 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_indu #MAHARAJA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = feudal_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion hinduism_religion
+				religion = religion:hinduism_religion
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_base_f #REGINA
 		trigger = {
@@ -3056,7 +3056,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_islam #SULTANO/CALIFFO
 		trigger = {
@@ -3068,7 +3068,7 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_islam_f #SULTANA/CALIFFA
 		trigger = {
@@ -3084,17 +3084,17 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_r_otox #PATRIARCA
 		trigger = {
 				primary_title.tier = tier_kingdom
 				is_female = no
 				has_government = theocracy_government
-				always = no # AGOT-ITA surgical: disabled missing vanilla faith orthodox
+				faith = faith:orthodox
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_base #DUCA
 		trigger = {
@@ -3109,12 +3109,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_base_f #DUCHESSA
 		trigger = {
@@ -3134,12 +3134,12 @@ IT_NAM_COL5 = { #IL/LA/LO
 					culture = culture:pictish
 					culture = culture:irish
 					culture = culture:welsh
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_english #PICCOLO RE
 		trigger = {
@@ -3151,11 +3151,11 @@ IT_NAM_COL5 = { #IL/LA/LO
 					}
 				OR = {
 					culture = culture:anglo_saxon
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_english_f #PICCOLA REGINA
 		trigger = {
@@ -3173,11 +3173,11 @@ IT_NAM_COL5 = { #IL/LA/LO
 				OR = {
 					culture = culture:anglo_saxon
 					culture = culture:norse
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_norse #JARL
 		trigger = {
@@ -3202,13 +3202,13 @@ IT_NAM_COL5 = { #IL/LA/LO
 				has_government = tribal_government
 				}
 				is_female = no
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_islam_f #EMIRA
 		trigger = {
@@ -3216,9 +3216,9 @@ IT_NAM_COL5 = { #IL/LA/LO
 					primary_title.tier = tier_duchy
 					any_spouse = {
 					primary_title.tier = tier_duchy
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+					culture = { has_cultural_pillar = heritage_indo_aryan }
 							}
 						}
 					}
@@ -3228,11 +3228,11 @@ IT_NAM_COL5 = { #IL/LA/LO
 				}
 				is_female = yes
 				NOT = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_indo_aryan
+				culture = { has_cultural_pillar = heritage_indo_aryan }
 					}
 				}
 			}
-			
+
 	text = {
 		localization_key = CustomLoc_IT_NAM_COL5_d_general #GRANDE CAPO/GRANDE CAPO DONNA
 		trigger = {
@@ -3245,14 +3245,14 @@ IT_NAM_COL5 = { #IL/LA/LO
 				has_government = tribal_government
 				}
 			}
-			
+
 	}
-	
-#####################################################################	
+
+#####################################################################
 
 IT_COU_COL = { #DELLA/DELLO
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_r_base #REGNO/SULTANATO
 		trigger = {
@@ -3267,7 +3267,7 @@ IT_COU_COL = { #DELLA/DELLO
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_base #CONTEA
 		trigger = {
@@ -3287,23 +3287,23 @@ IT_COU_COL = { #DELLA/DELLO
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_sardi #LORDSHIP
 		trigger = {
@@ -3311,27 +3311,27 @@ IT_COU_COL = { #DELLA/DELLO
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_gaelic #EARLDOM
 		trigger = {
@@ -3346,7 +3346,7 @@ IT_COU_COL = { #DELLA/DELLO
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_islam #SCEICCATO
 		trigger = {
@@ -3354,7 +3354,7 @@ IT_COU_COL = { #DELLA/DELLO
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -3363,7 +3363,7 @@ IT_COU_COL = { #DELLA/DELLO
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_persia #VILAYAH
 		trigger = {
@@ -3371,33 +3371,33 @@ IT_COU_COL = { #DELLA/DELLO
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
-					}				
+					religion = religion:christianity_religion
+					}
 			exists = holder
 					holder = {
 			has_government = tribal_government
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_norse2
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -3411,7 +3411,7 @@ IT_COU_COL = { #DELLA/DELLO
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_morma #MORMAERDOM
 		trigger = {
@@ -3419,14 +3419,14 @@ IT_COU_COL = { #DELLA/DELLO
 					OR = {
 					culture = culture:pictish
 					culture = culture:gaelic
-					}				
+					}
 			exists = holder
 					holder = {
 			has_government = tribal_government
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_d_base #DUCATO
 		trigger = {
@@ -3435,14 +3435,14 @@ IT_COU_COL = { #DELLA/DELLO
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_d_islam #EMIRATO
 		trigger = {
@@ -3452,11 +3452,11 @@ IT_COU_COL = { #DELLA/DELLO
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_d_norse #JARLDOM
 		trigger = {
@@ -3467,7 +3467,7 @@ IT_COU_COL = { #DELLA/DELLO
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL_i_base #IMPERO
 		trigger = {
@@ -3478,7 +3478,7 @@ IT_COU_COL = { #DELLA/DELLO
 
 IT_COU_COL2 = { #NELLA/NEL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_r_base #REGNO/SULTANATO
 		trigger = {
@@ -3493,7 +3493,7 @@ IT_COU_COL2 = { #NELLA/NEL
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_base #CONTEA
 		trigger = {
@@ -3513,23 +3513,23 @@ IT_COU_COL2 = { #NELLA/NEL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_sardi #LORDSHIP
 		trigger = {
@@ -3537,27 +3537,27 @@ IT_COU_COL2 = { #NELLA/NEL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_gaelic #EARLDOM
 		trigger = {
@@ -3565,14 +3565,14 @@ IT_COU_COL2 = { #NELLA/NEL
 				OR = {
 					culture = culture:gaelic
 					culture = culture:scottish
-					}				
+					}
 			exists = holder
 					holder = {
 			has_government = feudal_government
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_islam #SCEICCATO
 		trigger = {
@@ -3580,7 +3580,7 @@ IT_COU_COL2 = { #NELLA/NEL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -3589,7 +3589,7 @@ IT_COU_COL2 = { #NELLA/NEL
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_persia #VILAYAH
 		trigger = {
@@ -3597,19 +3597,19 @@ IT_COU_COL2 = { #NELLA/NEL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -3617,13 +3617,13 @@ IT_COU_COL2 = { #NELLA/NEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -3637,7 +3637,7 @@ IT_COU_COL2 = { #NELLA/NEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_morma #MORMAERDOM
 		trigger = {
@@ -3652,7 +3652,7 @@ IT_COU_COL2 = { #NELLA/NEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_d_base #DUCATO
 		trigger = {
@@ -3661,14 +3661,14 @@ IT_COU_COL2 = { #NELLA/NEL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_d_islam #EMIRATO
 		trigger = {
@@ -3678,11 +3678,11 @@ IT_COU_COL2 = { #NELLA/NEL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL2_d_norse #JARLDOM
 		trigger = {
@@ -3697,7 +3697,7 @@ IT_COU_COL2 = { #NELLA/NEL
 
 IT_COU_COL3 = { #SULLA/SUL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_r_base #REGNO/SULTANATO
 		trigger = {
@@ -3712,7 +3712,7 @@ IT_COU_COL3 = { #SULLA/SUL
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_base #CONTEA
 		trigger = {
@@ -3732,23 +3732,23 @@ IT_COU_COL3 = { #SULLA/SUL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_sardi #LORDSHIP
 		trigger = {
@@ -3756,27 +3756,27 @@ IT_COU_COL3 = { #SULLA/SUL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_gaelic #EARLDOM
 		trigger = {
@@ -3791,7 +3791,7 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_islam #SCEICCATO
 		trigger = {
@@ -3799,7 +3799,7 @@ IT_COU_COL3 = { #SULLA/SUL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -3808,7 +3808,7 @@ IT_COU_COL3 = { #SULLA/SUL
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_persia #VILAYAH
 		trigger = {
@@ -3816,19 +3816,19 @@ IT_COU_COL3 = { #SULLA/SUL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -3836,13 +3836,13 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -3856,7 +3856,7 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_morma #MORMAERDOM
 		trigger = {
@@ -3871,7 +3871,7 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_d_base #DUCATO
 		trigger = {
@@ -3880,14 +3880,14 @@ IT_COU_COL3 = { #SULLA/SUL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_d_islam #EMIRATO
 		trigger = {
@@ -3897,11 +3897,11 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_d_norse #JARLDOM
 		trigger = {
@@ -3912,7 +3912,7 @@ IT_COU_COL3 = { #SULLA/SUL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL3_pv #PRINCIPATO VESCOVILE
 		trigger = {
@@ -3920,8 +3920,8 @@ IT_COU_COL3 = { #SULLA/SUL
 				exists = holder
 					holder = {
 					top_liege = {
-						always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
-						has_government = theocracy_government 
+						has_religion = religion:christianity_religion
+						has_government = theocracy_government
 					}
 				}
 			}
@@ -3930,7 +3930,7 @@ IT_COU_COL3 = { #SULLA/SUL
 
 IT_COU_COL4 = { #LA/IL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_r_base #REGNO/SULTANATO
 		trigger = {
@@ -3945,7 +3945,7 @@ IT_COU_COL4 = { #LA/IL
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_base #CONTEA
 		trigger = {
@@ -3965,23 +3965,23 @@ IT_COU_COL4 = { #LA/IL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
-						}					
+					has_religion = religion:islam_religion
+						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_sardi #LORDSHIP
 		trigger = {
@@ -3989,27 +3989,27 @@ IT_COU_COL4 = { #LA/IL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_gaelic #EARLDOM
 		trigger = {
@@ -4024,7 +4024,7 @@ IT_COU_COL4 = { #LA/IL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_islam #SCEICCATO
 		trigger = {
@@ -4032,7 +4032,7 @@ IT_COU_COL4 = { #LA/IL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -4041,7 +4041,7 @@ IT_COU_COL4 = { #LA/IL
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_persia #VILAYAH
 		trigger = {
@@ -4049,19 +4049,19 @@ IT_COU_COL4 = { #LA/IL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -4069,13 +4069,13 @@ IT_COU_COL4 = { #LA/IL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -4089,7 +4089,7 @@ IT_COU_COL4 = { #LA/IL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_morma #MORMAERDOM
 		trigger = {
@@ -4104,7 +4104,7 @@ IT_COU_COL4 = { #LA/IL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_d_base #DUCATO
 		trigger = {
@@ -4113,14 +4113,14 @@ IT_COU_COL4 = { #LA/IL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_d_islam #EMIRATO
 		trigger = {
@@ -4130,11 +4130,11 @@ IT_COU_COL4 = { #LA/IL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL4_d_norse #JARLDOM
 		trigger = {
@@ -4149,7 +4149,7 @@ IT_COU_COL4 = { #LA/IL
 
 IT_COU_COL5 = { #DALLA/DAL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_r_base #REGNO/SULTANATO
 		trigger = {
@@ -4164,7 +4164,7 @@ IT_COU_COL5 = { #DALLA/DAL
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_base #CONTEA
 		trigger = {
@@ -4184,23 +4184,23 @@ IT_COU_COL5 = { #DALLA/DAL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_sardi #LORDSHIP
 		trigger = {
@@ -4208,27 +4208,27 @@ IT_COU_COL5 = { #DALLA/DAL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_gaelic #EARLDOM
 		trigger = {
@@ -4236,14 +4236,14 @@ IT_COU_COL5 = { #DALLA/DAL
 				OR = {
 					culture = culture:gaelic
 					culture = culture:scottish
-					}				
+					}
 			exists = holder
 					holder = {
 			has_government = feudal_government
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_islam #SCEICCATO
 		trigger = {
@@ -4251,7 +4251,7 @@ IT_COU_COL5 = { #DALLA/DAL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -4260,7 +4260,7 @@ IT_COU_COL5 = { #DALLA/DAL
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_persia #VILAYAH
 		trigger = {
@@ -4268,19 +4268,19 @@ IT_COU_COL5 = { #DALLA/DAL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -4288,13 +4288,13 @@ IT_COU_COL5 = { #DALLA/DAL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -4308,7 +4308,7 @@ IT_COU_COL5 = { #DALLA/DAL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_morma #MORMAERDOM
 		trigger = {
@@ -4323,7 +4323,7 @@ IT_COU_COL5 = { #DALLA/DAL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_d_base #DUCATO
 		trigger = {
@@ -4332,14 +4332,14 @@ IT_COU_COL5 = { #DALLA/DAL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_d_islam #EMIRATO
 		trigger = {
@@ -4349,11 +4349,11 @@ IT_COU_COL5 = { #DALLA/DAL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL5_d_norse #JARLDOM
 		trigger = {
@@ -4368,7 +4368,7 @@ IT_COU_COL5 = { #DALLA/DAL
 
 IT_COU_COL7 = { #ALLA/AL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_r_base #REGNO/SULTANATO
 		trigger = {
@@ -4383,7 +4383,7 @@ IT_COU_COL7 = { #ALLA/AL
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_base #CONTEA
 		trigger = {
@@ -4403,23 +4403,23 @@ IT_COU_COL7 = { #ALLA/AL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_sardi #LORDSHIP
 		trigger = {
@@ -4427,27 +4427,27 @@ IT_COU_COL7 = { #ALLA/AL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_gaelic #EARLDOM
 		trigger = {
@@ -4462,7 +4462,7 @@ IT_COU_COL7 = { #ALLA/AL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_islam #SCEICCATO
 		trigger = {
@@ -4470,7 +4470,7 @@ IT_COU_COL7 = { #ALLA/AL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -4479,7 +4479,7 @@ IT_COU_COL7 = { #ALLA/AL
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_persia #VILAYAH
 		trigger = {
@@ -4487,19 +4487,19 @@ IT_COU_COL7 = { #ALLA/AL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -4507,13 +4507,13 @@ IT_COU_COL7 = { #ALLA/AL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -4527,7 +4527,7 @@ IT_COU_COL7 = { #ALLA/AL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_morma #MORMAERDOM
 		trigger = {
@@ -4542,7 +4542,7 @@ IT_COU_COL7 = { #ALLA/AL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_d_base #DUCATO
 		trigger = {
@@ -4551,14 +4551,14 @@ IT_COU_COL7 = { #ALLA/AL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_d_islam #EMIRATO
 		trigger = {
@@ -4568,11 +4568,11 @@ IT_COU_COL7 = { #ALLA/AL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL7_d_norse #JARLDOM
 		trigger = {
@@ -4587,7 +4587,7 @@ IT_COU_COL7 = { #ALLA/AL
 
 IT_COU_COL8 = { #DELLA/DEL
 	type = landed_title
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_r_base #REGNO/SULTANATO
 		trigger = {
@@ -4602,7 +4602,7 @@ IT_COU_COL8 = { #DELLA/DEL
 					}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_base #CONTEA
 		trigger = {
@@ -4622,23 +4622,23 @@ IT_COU_COL8 = { #DELLA/DEL
 					culture = culture:welsh
 					culture = culture:cumbrian
 					culture = culture:assyrian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_arabic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_balto_finnic
-					always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_turkic
+					culture = { has_cultural_pillar = heritage_arabic }
+					culture = { has_cultural_pillar = heritage_iranian }
+					culture = { has_cultural_pillar = heritage_balto_finnic }
+					culture = { has_cultural_pillar = heritage_turkic }
 						}
 					NOR = {
-					has_government = tribal_government 
-					has_government = theocracy_government 
+					has_government = tribal_government
+					has_government = theocracy_government
 						}
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 						}
 					}
 				}
 			}
 		}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_sardi #LORDSHIP
 		trigger = {
@@ -4646,27 +4646,27 @@ IT_COU_COL8 = { #DELLA/DEL
 					exists = holder
 					holder = {
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title k_wales
-					culture = culture:sardinian	
+					primary_title = { target_is_de_jure_liege_or_above = title:k_wales }
+					culture = culture:sardinian
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_english #EARLDOM
 		trigger = {
-				tier = tier_county	
+				tier = tier_county
 					exists = holder
 					holder = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla title e_britannia
+					primary_title = { target_is_de_jure_liege_or_above = title:e_britannia }
 					NOT = {
 					has_government = tribal_government
 						}
 					}
 				}
 			}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_gaelic #EARLDOM
 		trigger = {
@@ -4681,7 +4681,7 @@ IT_COU_COL8 = { #DELLA/DEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_islam #SCEICCATO
 		trigger = {
@@ -4689,7 +4689,7 @@ IT_COU_COL8 = { #DELLA/DEL
 				exists = holder
 					holder = {
 					top_liege = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+					has_religion = religion:islam_religion
 					OR = {
 					has_government = feudal_government
 					has_government = clan_government
@@ -4698,7 +4698,7 @@ IT_COU_COL8 = { #DELLA/DEL
 				}
 			}
 		}
-		
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_persia #VILAYAH
 		trigger = {
@@ -4706,19 +4706,19 @@ IT_COU_COL8 = { #DELLA/DEL
 			exists = holder
 					holder = {
 			top_liege = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla cultural pillar heritage_iranian
+			culture = { has_cultural_pillar = heritage_iranian }
 			has_government = clan_government
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_norse #DOMINIO
 		trigger = {
 				tier = tier_county
 					NOT = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 			exists = holder
 					holder = {
@@ -4726,13 +4726,13 @@ IT_COU_COL8 = { #DELLA/DEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_norse2 #DOMINIO
 		trigger = {
 				tier = tier_county
 					OR = {
-					always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
+					religion = religion:christianity_religion
 					}
 					NOT = {
 					OR = {
@@ -4746,7 +4746,7 @@ IT_COU_COL8 = { #DELLA/DEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_morma #MORMAERDOM
 		trigger = {
@@ -4761,7 +4761,7 @@ IT_COU_COL8 = { #DELLA/DEL
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_d_base #DUCATO
 		trigger = {
@@ -4770,14 +4770,14 @@ IT_COU_COL8 = { #DELLA/DEL
 					holder = {
 			NOT = {
 				OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 				has_culture = culture:norse
 					}
 				}
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_d_islam #EMIRATO
 		trigger = {
@@ -4787,11 +4787,11 @@ IT_COU_COL8 = { #DELLA/DEL
 			}
 			exists = holder
 					holder = {
-			always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+			has_religion = religion:islam_religion
 			}
 		}
 	}
-	
+
 	text = {
 		localization_key = CustomLoc_IT_COU_COL8_d_norse #JARLDOM
 		trigger = {
@@ -5610,7 +5610,7 @@ FR_RelationToMe_OnA = {
 		trigger = {
 			scope:second = {
 				is_female = yes
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -5623,7 +5623,7 @@ FR_RelationToMe_OnA = {
 		trigger = {
 			scope:second = {
 				is_female = no
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -5830,7 +5830,7 @@ FR_RelationToMe_OnA = {
 		localization_key = CustomLoc_FR_OnA_Relation_councillor_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 				is_councillor_of = root
 			}
 		}
@@ -5840,7 +5840,7 @@ FR_RelationToMe_OnA = {
 		localization_key = CustomLoc_FR_OnA_Relation_councillor_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 				is_councillor_of = root
 			}
 		}
@@ -5866,7 +5866,7 @@ FR_RelationToMe_OnA = {
 		localization_key = CustomLoc_FR_OnA_Relation_vassal_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -5878,7 +5878,7 @@ FR_RelationToMe_OnA = {
 		localization_key = CustomLoc_FR_OnA_Relation_vassal_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -6869,7 +6869,7 @@ FR_RelationToMe_OnA2 = {
 		trigger = {
 			scope:second = {
 				is_female = yes
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -6882,7 +6882,7 @@ FR_RelationToMe_OnA2 = {
 		trigger = {
 			scope:second = {
 				is_female = no
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -7089,7 +7089,7 @@ FR_RelationToMe_OnA2 = {
 		localization_key = CustomLoc_FR_OnA2_Relation_councillor_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 				is_councillor_of = root
 			}
 		}
@@ -7099,7 +7099,7 @@ FR_RelationToMe_OnA2 = {
 		localization_key = CustomLoc_FR_OnA2_Relation_councillor_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 				is_councillor_of = root
 			}
 		}
@@ -7125,7 +7125,7 @@ FR_RelationToMe_OnA2 = {
 		localization_key = CustomLoc_FR_OnA2_Relation_vassal_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -7137,7 +7137,7 @@ FR_RelationToMe_OnA2 = {
 		localization_key = CustomLoc_FR_OnA2_Relation_vassal_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -8128,7 +8128,7 @@ FR_RelationToMe_OnA3 = {
 		trigger = {
 			scope:second = {
 				is_female = yes
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -8141,7 +8141,7 @@ FR_RelationToMe_OnA3 = {
 		trigger = {
 			scope:second = {
 				is_female = no
-				has_relation_rival = root				
+				has_relation_rival = root
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -8348,7 +8348,7 @@ FR_RelationToMe_OnA3 = {
 		localization_key = CustomLoc_FR_OnA3_Relation_councillor_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 				is_councillor_of = root
 			}
 		}
@@ -8358,7 +8358,7 @@ FR_RelationToMe_OnA3 = {
 		localization_key = CustomLoc_FR_OnA3_Relation_councillor_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 				is_councillor_of = root
 			}
 		}
@@ -8384,7 +8384,7 @@ FR_RelationToMe_OnA3 = {
 		localization_key = CustomLoc_FR_OnA3_Relation_vassal_female
 		trigger = {
 			scope:second = {
-				is_female = yes			
+				is_female = yes
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -8396,7 +8396,7 @@ FR_RelationToMe_OnA3 = {
 		localization_key = CustomLoc_FR_OnA3_Relation_vassal_male
 		trigger = {
 			scope:second = {
-				is_female = no				
+				is_female = no
 			}
 			any_vassal_or_below = {
 				this = scope:second
@@ -8587,10 +8587,10 @@ DE_DELLA_RELIGION = { #del/della
 	log_loc_errors = no
 	text = {
 		localization_key = CustomLoc_DE_DELLA_RELIGION_della
-		trigger = { 
-			OR = {	
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion christianity_religion
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion judaism_religion
+		trigger = {
+			OR = {
+				has_religion = religion:christianity_religion
+				has_religion = religion:judaism_religion
 			}
 		}
 	}
@@ -8599,7 +8599,7 @@ DE_DELLA_RELIGION = { #del/della
 		localization_key = CustomLoc_DE_DELLA_RELIGION_del
 		trigger = {
 			OR = {
-				always = no # AGOT-ITA surgical: disabled missing vanilla religion islam_religion
+				has_religion = religion:islam_religion
 			}
 		}
 	}
