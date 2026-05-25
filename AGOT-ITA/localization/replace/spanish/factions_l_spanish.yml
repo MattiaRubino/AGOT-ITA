@@ -455,8 +455,8 @@ peasant_troops_name: "Milizia di [ROOT.Char.GetCurrentLocation.GetName]"
 border_war_increased_peasant_discontent: "[GetLaw('top_liege_not_redirected_to_border_wars_law').GetName]: $VALUE|0+=$"
 instability_increased_peasant_discontent: "[dynastic_cycle_era_type_unstable|E]: $VALUE|0+=$"
 trait_track_peasant_leader: "Notorietà"
-trait_track_peasant_leader_desc: "Infame e temut[Select_CString(ROOT.Char.IsFemale,'a','o')] tra i nobili, venerat[Select_CString(ROOT.Char.IsFemale,'a','o')] e idolatrat[Select_CString(ROOT.Char.IsFemale,'a','o')] nei racconti popolari."
-can_join_escalated_peasant_faction_tt: "Hai il [trait|E] [GetTrait('peasant_leader').GetName( GetNullCharacter )] oppure il tuo [domicile|E] ha una [GetDomicileBuilding('east_asian_peasant_quarters_03').GetName] o un [domicile_building_upgrade|E] superiore del [domicile_building|E] [GetDomicileBuilding('east_asian_estate_main_01').GetName]"
+ trait_track_peasant_leader_desc:0 "Figura infame e temuta tra i nobili, venerata e idolatrata nei racconti popolari."
+ can_join_escalated_peasant_faction_tt: "Hai il [trait|E] [GetTrait('peasant_leader').GetName( GetNullCharacter )] oppure il tuo [domicile|E] ha una [GetDomicileBuilding('east_asian_peasant_quarters_03').GetName] o un [domicile_building_upgrade|E] superiore del [domicile_building|E] [GetDomicileBuilding('east_asian_estate_main_01').GetName]"
  
  FACTION_REASON_DETRACTOR: "[coronation_detractor|E]: $VALUE|+0=$"
 
