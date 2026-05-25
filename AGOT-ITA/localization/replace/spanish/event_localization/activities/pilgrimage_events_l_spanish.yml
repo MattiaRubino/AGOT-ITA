@@ -619,45 +619,41 @@ pilgrimage.3004.desc: "Mentre il mio seguito attraversa una cittadina noto una f
 
  ###Buddhist Pilgrimage Journey Events
  #Critical Wanderer
- pilgrimage.3301.t:0 "$pilgrimage_header$ Bhikkhu Critico"
- pilgrimage.3301.desc:0 "Lungo il sentiero del pellegrino vedo molti viandanti, sono coloro che hanno abbandonato il mondo mondano e si sono liberati da tutti i beni terreni.\n\nOggi un anziano viandante sta camminando di fianco a me e guardando il mio seguito esclama: "Portate troppe cose con voi. Per raggiungere l'illuminazione, dovete abbandonare i vostri beni mondani come ho fatton io, e viaggiare con nient'altro che i semplici vesti.""
- pilgrimage.3301.a:0 "In fondo posso farcela, almeno per questo viaggio."
+ pilgrimage.3301.t:0 "$pilgrimage_header$ Bhikkhu critico"
+ pilgrimage.3301.desc:0 "Lungo il sentiero dei pellegrini vedo molti viandanti, coloro che hanno abbandonato il mondo e si sono liberati da ogni attaccamento terreno.\n\nOggi un anziano viandante osserva il mio seguito mentre [Select_CString(wanderer.IsFemale,'lei','lui')] cammina al mio fianco. «Porti troppo con te. Per raggiungere l'illuminazione, devi liberarti dei tuoi beni terreni come ho fatto io, e viaggiare con nulla addosso se non semplici vesti.»"
+ pilgrimage.3301.a:0 "Posso farlo, almeno per questo viaggio."
  pilgrimage.3301.b:0 "Ma la mia tenda, le mie coperte? È troppo. Non sono pronto!"
- pilgrimage.3301.c:0 "Ah, ma è contrario alla Rita (Ordine Cosmico) per un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetTitleAsNameNoTooltip] viaggiare in austerità."
+ pilgrimage.3301.c:0 "Ah, ma è contrario a Ṛta che [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] viaggi nell'austerità."
+ pilgrimage.3302.t: "$pilgrimage_header$ Saggezza dalle capre"
+ pilgrimage.3302.desc: "Quando entrai per la prima volta nei selvaggi [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] di [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier], pensai che il nostro viaggio attraverso il passo sarebbe stato indolore. Dopo ore di faticosa ascesa, mi ricordo che dovrei accogliere le prove del mio Yatra.\n\nMi fermo ad asciugarmi il sudore dalla fronte e resto colpito dalla vista di capre selvatiche in piedi sul fianco quasi verticale del [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')].\n\nUn[Select_CString(mountain_local.IsFemale,'a','')] [mountain_local.GetWomanMan] del luogo, avvizzit[Select_CString(mountain_local.IsFemale,'a','o')], si volge verso di me,\n\n«Quelle capre avide si arrampicano solo per leccare il sale.»"
+ pilgrimage.3302.a: "Dovrebbero rinunciare alla loro ricerca di gratificazione!"
+ pilgrimage.3302.b: "Se solo potessi essere così incrollabile nella mia ascesa..."
+ pilgrimage.3302.c: "Quel sale dovrebbe essere mio!"
+ pilgrimage.3302.c.flavor: "Raccogli il sale per commerciarlo."
+ pilgrimage.3303.t: "$pilgrimage_header$ Sutta di [place_to_teach.GetBaronyNameExplicitlyNoTooltip]"
+ pilgrimage.3303.desc: "Passando per [place_to_teach.GetBaronyNameExplicitlyNoTooltip], alcuni locali, guidati da [wisdom_seeker.GetName], si avvicinano, con i volti dipinti dalla confusione.\n\n«Venerabile [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsName], vi sono [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] che visitano [place_to_teach.GetBaronyNameExplicitlyNoTooltip]. Esaltano la virtù della loro dottrina, mentre verso le credenze altrui appaiono come [ROOT.Char.Custom('RegionalOnlyFerociousAnimalPlural')] e le fanno a pezzi. Poi, altri [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] vengono in visita e, a loro volta, disprezzano e vituperano la dottrina del gruppo precedente.\n\nSiamo consumati dall'incertezza, il dubbio bussa ogni giorno alla nostra porta. Quali di questi reverendi [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] hanno detto il vero e quali il falso?»"
+ pilgrimage.3303.a: "Non seguite ragionamenti capziosi, ma la via di [ROOT.Char.GetFaith.HighGodName]!"
+ pilgrimage.3303.b: "Delle sorgenti da cui bevete, quale vi dà forza?"
+ pilgrimage.3303.b.flavor: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] troverà col tempo il giusto modo di pensare."
 
-#The Wisdom of Goats
-pilgrimage.3302.t: "$pilgrimage_header$ la sabiduría de las cabras"
-pilgrimage.3302.desc: "Cuando entramos en los/las [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTypePlural')] agrestes de [ROOT.Char.GetCurrentLocation.GetCounty.GetTitle.GetNameNoTier], pensé que nuestro recorrido por el paso sería sencillo. Tras horas de ascenso extenuante, se me recuerda que he de dar la bienvenida a las tribulaciones de mi yatra.\n\nMe paro a quitarme el sudor de la frente y me pasmo al ver cabras silvestres de pie sobre la pendiente casi vertical del/de la [ROOT.Char.GetCurrentLocation.Custom('GetTerrainType')].\n\nUn[mountain_local.Custom('DE_PRO_PER_P_3P_G')] [mountain_local.GetWomanMan] local arrugad[mountain_local.Custom('ES_OA')] se vuelve hacia mí.\n\n«Esas cabras glotonas solo suben para lamer la sal»."
-pilgrimage.3302.a: "¡Deberían abandonar su búsqueda de gratificación!"
-pilgrimage.3302.b: "Si pudiera ser igual de firme en mi ascenso…"
-pilgrimage.3302.c: "¡Esa sal ha de ser mía!"
-pilgrimage.3302.c.flavor: "Recoges la sal para comerciar."
-
- #Kalama Sutta
-pilgrimage.3303.t: "$pilgrimage_header$ sutra de [place_to_teach.GetBaronyNameExplicitlyNoTooltip]"
-pilgrimage.3303.desc: "Al pasar por [place_to_teach.GetBaronyNameExplicitlyNoTooltip], algunos lugareños, con [wisdom_seeker.GetName] a la cabeza, se acercan con la confusión dibujada en sus rostros.\n\n«Venerable [ROOT.Char.GetTitleAsName|l], hay [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] que visitan [place_to_teach.GetBaronyNameExplicitlyNoTooltip]. Ensalzan la virtud de su doctrina, mientras que con las creencias de otros se asemejan a [ROOT.Char.Custom('RegionalOnlyFerociousAnimalPlural')] y las hacen pedazos. Después, otros [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] acudirán y despreciarán y vilipendiarán la doctrina del grupo anterior.\n\nNos consume la incertidumbre, la duda llega a diario a nuestra puerta. ¿Cuáles de estos reverendos [place_to_teach.GetCounty.GetFaith.PriestNeuterPlural] dicen la verdad y cuáles mienten?»."
-pilgrimage.3303.a: "¡No sigáis ningún razonamiento engañoso, sino el camino de [ROOT.Char.GetFaith.HighGodName]!"
-pilgrimage.3303.b: "De las fuentes de las que bebéis, ¿cuál os da fuerza?"
-pilgrimage.3303.b.flavor: "[ROOT.Char.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip] encontrará el pensamiento correcto en su momento."
-
-### Dharmic Pilgrimage Journey Events
-#Brahmacharya Challenged
-pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
-pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
-pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
-pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
-pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana."
-BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."
+ ### Dharmic Pilgrimage Journey Events
+ #Brahmacharya Challenged
+ pilgrimage.3401.t: "$pilgrimage_header$ brahmacharia desafiada"
+ pilgrimage.3401.desc: "Nuestra yatra nos ha llevado a orillas de [body_of_water.GetName]. Sus aguas relucen como hebras de pan de oro al sol de la tarde, incitándonos a bañarnos.\n\nMi mirada se desvía a otr[bather.Custom('ES_OA')] de mis compañer[bather.Custom('ES_OA')]s yatri, [bather.GetName], su cuerpo desnudo solo vestido con el centelleo del agua.\n\nSi bien durante la [ROOT.Char.GetInvolvedActivity.GetShortName|l] se supone que hemos de adoptar una [Glossary('brahmacharia', 'BRAHMACHARAYA_GLOSS')] cuasi monástica, abstenerse de pensamientos e impulsos lujuriosos…"
+ pilgrimage.3401.a: "Con il desiderio a guidarmi, mi immergo nella bellezza di [bather.GetFirstNamePossessiveNoTooltip]."
+ pilgrimage.3401.b: "Me introduzco en el agua fría, mis pasiones quedan extinguidas."
+ pilgrimage.3401.b.flavor: "Un paso más cerca del nirvana."
+ BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o llevar un estilo de vida que conduzca a la búsqueda del conocimiento sagrado y la liberación espiritual. Esto en parte se consigue luchando por llegar a un estado libre de deseo."
  ###Hajj Arrival Event
  #Entering state of Ihram
- pilgrimage.3101.t:1 "Ihram
+ pilgrimage.3101.t:1 "Ihram"
  pilgrimage.3101.desc:1 "Avvicinandomi alla Mecca, mi trovo ora davanti alla Mīqāt, il confine tra gli spazi sacri della Mecca e il mondo esterno.\n\nDa questo momento in poi devo entrare in uno stato di Ihram, sottoponendomi alla purificazione rituale e indossando solo gli abiti prescritti. Dovrò anche astenermi da atti sessuali, parolacce e pensieri arroganti o sgarbati."
  pilgrimage.3101.a:0 "Mi impegnerò nell'Ihram con la massima dedizione."
  pilgrimage.3101.b:0 "Ehh... nessuno si accorgerà se sbaglio."
 
  ###Generic Pilgrimage Destination Events
  #Standard arrival
- pilgrimage.4001.t:0 "L'Arrivo
+ pilgrimage.4001.t:0 "L'Arrivo"
  pilgrimage.4001.desc:1 "Sono finalmente qui, anima e corpo, nella grande [ROOT.Char.GetFaith.HouseOfWorship] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip].\n\nQuando il [ROOT.Char.GetFaith.BishopNeuter] mi benedice, rifletto su tutto ciò che è dovuto accadere affinché [ROOT.Char.GetFaith.PantheonTerm] mi portasse qui, in questo preciso momento nel tempo."
  pilgrimage.4001.cynical_end:0 "\n\nE' stato un lungo viaggio."
  pilgrimage.4001.a:0 "Ho percorso il sacro itinerario."
@@ -706,7 +702,7 @@ BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o 
  pilgrimage.5021.desc:0 "Finalmente mi trovo sulle colline fuori Costantinopoli, uno splendente gioiello di civiltà che risuona con la gloria dell'Impero Romano. È davvero che vale la pena visitare!\n\nVicino il centro città si può ammirare la Basilica di Santa Sofia, il grande centro di culto, da molti considerato il capolavoro dell'architettura bizantina.\n\nNon è l'unica meraviglia qui presente e, mentre guardo la città, mi stupisco delle glorie della creazione di [ROOT.Char.GetFaith.CreatorNamePossessive]."
  #Alexandria
  pilgrimage.5031.t:0 "Alessandria!"
- pilgrimage.5031.desc:0 "Sono finalmente arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] ad Alessandria, la patria del monachesimo cristiano. I primi monaci ed eremiti iniziarono i loro viaggi nelle caverne del deserto intorno alla città, che vengono utilizzate ancora oggi.\n\nSebbene non sia famosa come Gerusalemme o Roma, Alessandria ha una lunga storia in quanto importante centro di teologia e cultura. Anche dopo secoli di occupazione islamica, le enclave cristiane all’interno della città mantengono ancora forte la loro fede.”
+ pilgrimage.5031.desc:0 "Sono finalmente arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] ad Alessandria, la patria del monachesimo cristiano. I primi monaci ed eremiti iniziarono i loro viaggi nelle caverne del deserto intorno alla città, che vengono utilizzate ancora oggi.\n\nSebbene non sia famosa come Gerusalemme o Roma, Alessandria ha una lunga storia in quanto importante centro di teologia e cultura. Anche dopo secoli di occupazione islamica, le enclave cristiane all’interno della città mantengono ancora forte la loro fede."
  ###Jewish
  #Mount Sinai
  pilgrimage.5101.t:0 "Sinai e Horeb"
@@ -720,26 +716,26 @@ BRAHMACHARAYA_GLOSS: "«Practicar la conducta de un brahmán» en sánscrito, o 
  pilgrimage.5301.t:0 "Varanasi"
  pilgrimage.5301.desc:0 "Finalmente sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] a Varanasi. Fondata dal dio Shiva in tempi antichi, la grande città attrae pellegrini da ogni luogo.\n\nNon si recano qui esclusivamente pellegrini Indù, essendo la città anche vicina al luogo in cui Gautama Buddha insegnò per la prima volta ai suoi discepoli.\n\nPotendo ammirare in prima persona quest'amalgama di fedeli e quindi di conoscenze che ne derivano, mi rendo consapevole del fatto che viviamo tutti insieme in questo mondo."
  #Ayodhya
- pilgrimage.5311.t:0 "Ayodhya
+ pilgrimage.5311.t:0 "Ayodhya"
  pilgrimage.5311.desc:1 "Finalmente sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] ad Ayodhya, luogo di nascita del Dio Rama e ambientazione del grande poema epico Ramayana. In quanto incarnazione di Vishnu, la nascita e la morte di Rama sono considerate un brillante esempio del dharma in azione.\n\nTrovarmi nel sito del Ramayana, una storia che ha ispirato generazioni di Indù, mi fa chiedere quale impronta potrà lasciare mai la mia eredità nella storia del mondo..."
  #Mathura
- pilgrimage.5321.t:0 "Mathura
+ pilgrimage.5321.t:0 "Mathura"
  pilgrimage.5321.desc:0 "Sono finalmente arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] a Mathura, la mia destinazione. È qui che nacque il dio Krishna, la divinità della compassione, dell'amore e della tenerezza.\n\nGuardandomi intorno, posso vedere nei pellegrini tutti quegli aspetti che sono impersonificati dal dio, venuti qui per adorarlo nel complesso templare di Krishna Janmasthan, una delle più splendenti e grandiose opere di architettura religiosa mai realizzate fino ad ora."
  #Haridwar
  pilgrimage.5331.t:0 "Haridwar"
  pilgrimage.5331.desc:0 "Finalmente sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] alla sorgente del sacro fiume Gange, Haridwar.\n\nLa città è stata costruita sul luogo esatto dove la stessa dea Ganga discese quando il Signore Shiva liberò il potente fiume direttamente dalle sue ciocche di capelli.\n\nConosciuta per la sua capacità di purificare via i peccati, i pellegrini di tutto il mondo accorrono su queste sponde per bagnarsi nelle acque del fiume. Ora anch'io potrò essere un[ROOT.Char.Custom('DE_END_PRO_S_N')] di loro."
  #Kanchipuram
- pilgrimage.5341.t:0 "Kanchipuram
+ pilgrimage.5341.t:0 "Kanchipuram"
  pilgrimage.5341.desc:1 "Finalmente sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] a Kanchipuram, sede del tempio Kamakshi Amman.\n\nDedicato alla dea madre, questo tempio è noto per essere luogo di pace e prosperità e rimane uno dei sette siti più sacri per gli Induisti.. "
  #Ujjayini
- pilgrimage.5351.t:0 "Ujjayini
+ pilgrimage.5351.t:0 "Ujjayini"
  pilgrimage.5351.desc:0 "Arrivando nell'antica città di Ujjain, inizio a dirigermi verso il Jyotirlinga di Mahakaleshwar.\n\nDedicata al Signore Shiva nella sua incarnazione di Mahakaleshwar, la città è stata, per lungo tempo, sia centro di pellegrinaggio sia centro amministrativo, divenendo una grande metropoli vivace e pulsante grazie al grande afflusso di fedeli.\n\nDopo essere giunt[ROOT.Char.Custom('DE_END_PRO_S_N')] al grande tempio, chiedo la benedizione del [ROOT.Char.GetFaith.BishopNeuter], affinchè purifichi la mia anima dai suoi peccati."
  #Dwarka
  pilgrimage.5361.t: "Dwarka"
  pilgrimage.5361.desc: "Finalmente sono alle soglie della Città Porta, Dwarka, uno dei luoghi più grandiosi dell'Induismo. Secondo la leggenda, Krishna, l'incarnazione di Vishnu, raccolse grandissime porzioni di terra dal mare stesso per poter costruire qui la città. Da allora, la città è cresciuta notevolmente, diventando un centro religioso ed economico che attrae pellegrini da ogni dove... ed anch'io sono tra questi."
  ###Buddhism
  #Bodh Gaya
- pilgrimage.5401.t:0 "Bodh Gaya
+ pilgrimage.5401.t:0 "Bodh Gaya"
  pilgrimage.5401.desc:0 "Sono arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] nel luogo più sacro del mondo per i buddisti: Bodh Gaya è il luogo in cui [ROOT.Char.GetFaith.HighGodName] ha raggiunto l'illuminazione sotto l'albero della Bodhi.\n\nIn seguito a tale evento, intorno all'albero sacro è stato costruito l'elaborato Tempio Mahabodi, e i pellegrini di tutto il mondo accorrono qui per conoscere la storia di [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] e celebrare la sua vita."
  #Kushinagar
  pilgrimage.5411.t:0 "Kushinagar"

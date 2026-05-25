@@ -1,4 +1,9 @@
 ﻿l_spanish:
+ #start AGOT modofiche
+ child_personality.7010.desc:0 "«Ascoltate le mie parole, bambini. Oggi vi parlerò di [ROOT.Char.GetFaith.HighGodName], di [ROOT.Char.GetFaith.PositiveAfterLife], di [ROOT.Char.GetFaith.NegativeAfterLife], e persino di #EMP [ROOT.Char.GetFaith.DevilName]#! [ROOT.Char.GetFaith.DevilHerselfHimself]!» esclama [sermon_priest.Custom('AgotGetPriestFirstName')], con il fervore che arde nei suoi occhi.\n\nIo e gli altri bambini restiamo incantati dal suo sermone; chi avrebbe mai detto che il [ROOT.Char.GetFaith.ReligiousText] potesse essere così #EMP affascinante!#!\n\nQuando il sermone finisce, devo dire a [sermon_priest.Custom('AgotGetPriestFirstNameNoTooltip')] cosa ne penso."
+ child_personality.7010.a:0 "«La mia fede in [ROOT.Char.GetFaith.HighGodName|U] non vacillerà #EMP mai#!, [sermon_priest.Custom('AgotGetPriestFirstNameNoTooltip')]!»"
+ child_personality.7011.desc:0 "Oggi [sermon_priest.Custom('AgotGetPriestFirstName')] ha tenuto un sermone infuocato per tutti i bambini della corte, e pare che fossero incantati mentre [Select_CString(sermon_priest.IsFemale,'lei','lui')] leggeva con zelo dal [sermon_priest.GetFaith.ReligiousText].\n\n[Select_CString(child.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] "
+ #End AGOT modifiche
 
  child_personality.7000.t:0 "Il barile rubato"
  child_personality.7000.desc:0 ""Guarda cosa ho trovato, [child.GetFirstNameNoTooltip] – un intero barile di [ROOT.GetCharacter.Custom('RegionalAlcoholicDrink')]! L'ho preso mentre i cuochi non guardavano." mi dice [other_child.GetFirstName], con uno sguardo diabolico negli occhi.\n\n"Cosa stai aspettando? Beviamolo tutto prima che qualcuno si accorga che è sparito!" esclama [other_child.GetSheHe|U].\n\nUn'offerta allettante... ma è giusto farlo?"
@@ -19,12 +24,9 @@
  spoilsport_opinion:0 "Viziat[child.Custom('DE_END_PRO_S_N')]"
  
  child_personality.7010.t:0 "Il sermone"
- child_personality.7010.desc:0 ""Ascoltate le mie parole, bambini. Oggi vi parlerò di [ROOT.Char.GetFaith.HighGodName], del [ROOT.Char.GetFaith.PositiveAfterLife], dell'[ROOT.Char.GetFaith.NegativeAfterLife], e persino di #EMP [ROOT.Char.GetFaith.DevilName]#! [ROOT.Char.GetFaith.DevilHerselfHimself]!" esclama [sermon_priest.GetFirstName], con il fervore che arde nei suoi occhi.\n\nIo e gli altri bambini siamo incantati dal sermone di [sermon_priest.GetFirstNameNoTooltip], chi poteva immaginare che il/la [ROOT.Char.GetFaith.ReligiousText] potesse essere così #EMP affascinante!#!\n\nAl termine del sermone, devo comunicare a [sermon_priest.GetFirstNameNoTooltip] i miei pensieri."
- child_personality.7010.a:0 ""La mia fede in [ROOT.Char.GetFaith.HighGodName|U] #EMP non#! vaccillerà mai, [sermon_priest.GetFirstNameNoTooltip]!""
  child_personality.7010.b:0 ""Cos'era quella storia del #EMP 'Diritto divino [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.Custom('GetQueenKing')]#!?""
  child_personality.7010.c:0 ""Questo '[ROOT.Char.GetFaith.DevilName]' sembra #EMP ambizioso/a!#!""
  child_personality.7011.t:0 "$child_personality.7010.t$"
- child_personality.7011.desc:0 "Oggi [sermon_priest.GetFirstName] ha tenuto un acceso sermone per tutti i bambini della corte, i quali erano apparentemente incantati mentre egli leggeva con zelo dal/dalla [sermon_priest.GetFaith.ReligiousText].\n\nMi[child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] "
  child_personality.zealous.desc:0 "sembrava averlo preso a cuore, forse un po' #EMP troppo#!. [child.GetSheHe|U] da allora ha perseguitato i domestici per ore, sottolineando i modi in cui avrebbero potuto essere [child.GetFaith.GetAdherentNamePlural] migliori..."
  child_personality.ambitious.desc:0 "sembra ormai cert[child.Custom('DE_END_PRO_S_N')] di essere destinat[child.Custom('DE_END_PRO_S_N')]  alla grandezza, sostenendo che [child.GetFaith.HighGodName] l[child.Custom('DE_END_PRO_S_N')] supporta indiscutibilmente."
 child_personality.sadistic.desc: 0 "continua a dirmi quanto [Select_CString(child.IsFemale,'lei','lui')] abbia apprezzato i passi su #EMP [child.GetFaith.DevilName]#!, e come [child.GetFaith.DevilSheHe] sia qualcuno i cui ideali [Select_CString(child.IsFemale,'lei','lui')] aspirerà a emulare..."

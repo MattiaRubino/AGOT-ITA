@@ -39,7 +39,7 @@ WAR_BREAKING_TRUCE: "@warning_icon! #X Dichiarare guerra romperà la [truce|E]!#
  WAR_ATTACKING_OWN_VASSAL:1 "@warning_icon! #X Non puoi dichiarare guerra ai tuoi vassalli#!"
  WAR_ATTACKING_SUB_VASSAL_IN_SAME_REALM:1 "@warning_icon! #X [recipient.GetShortUIName] non ha il tuo stesso Signore#!"
  WAR_SCORE_THEIR_LEADER_CAPTURED:1 "[war_leader|E] Nemico Catturato"
- WAR_SCORE_MY_LEADER_CAPTURED:1 "[war_leader|E] Catturato
+ WAR_SCORE_MY_LEADER_CAPTURED:1 "[war_leader|E] Catturato"
  WAR_SCORE_WE_CAPTURED_SPOUSE:0 "Coniuge Catturato"
  WAR_SCORE_THEY_CAPTURED_SPOUSE:0 "Coniuge Catturato"
  WAR_SCORE_WE_CAPTURED_VASSAL:0 "Vassallo Diretto del Nemico Catturato"
@@ -568,7 +568,6 @@ STRUGGLE_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')][struggle_conquest_c
  STRUGGLE_COUNTY_CB_NAME:1 "[struggle_conquest|E]"
  county_struggle_cb:0 "[struggle_conquest|E]"
  county_struggle_cb_victory_desc_opm_attacker:0 "[vassalize|E|U] il [title|E] conteso, distruggendo ogni [titles|E] che ha una [title_tier|E] uguale o superiore alla tua."
-county_struggle_cb_victory_desc_opm: 0 "Il [holder|E] del [titlepossessive|E] conteso viene vassallizzato da [attacker.GetShortUIName]"
  county_struggle_cb_victory_desc_attacker:0 "$county_conquest_cb_victory_desc_attacker$"
  county_struggle_cb_victory_desc:0 "$county_conquest_cb_victory_desc$"
  county_struggle_cb_white_peace_desc_defender:0 "$county_conquest_cb_white_peace_desc_defender$"

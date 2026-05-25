@@ -341,7 +341,6 @@ game_concept_hegemon_desc: "Un $game_concept_hegemon$ è un [ruler|E] il cui [pr
  game_concept_culture_i: "@culture_icon!"
  game_concept_religion:0 "Religione"
  game_concept_religions:0 "Religioni"
-game_concept_religion_desc: "Una $game_concept_religion$ può consistere di molte diverse denominazioni, chiamate [faiths|E]. Le religioni, a loro volta, appartengono a una di quattro grandi [religious_families|E]: [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName], [GetReligionFamily('rf_sinitic').GetName] o [GetReligionFamily('rf_pagan').GetName]."
  game_concept_heresy:0 "Eresia"
  game_concept_heresies:0 "Eresie"
  game_concept_heresy_desc:0 "Quando il [fervor|E] di una [faith|E] è basso, un focolaio di Eresia potrebbe comparire. Quando ciò accade, un [ruler|E] della Fede dal basso-Fervore si convertirà ad un'altra Fede, diventando un [GetTrait('heresiarch').GetName( GetNullCharacter )]. Essi a quel punto diffonderanno la loro nuova Fede ai propri [counties|E] e [vassals|E].\n\nSe un focolaio è minore, si fermerà lì. Se è un focolaio maggiore, più governanti della stessa zona si convertiranno. Se ti trovi in quell'area, anche tu avrai la possibilità di convertirti, qualora lo desiderassi."
@@ -2166,7 +2165,6 @@ game_concept_tributary_contract_desc: "Il $game_concept_tributary_contract$ dete
  house_unity_decrease_examples: "\n$EFFECT_LIST_BULLET$ $revoke_title_interaction$\n$EFFECT_LIST_BULLET$ $declare_war_interaction$\n$EFFECT_LIST_BULLET$ $imprison_interaction$\n$EFFECT_LIST_BULLET$ $move_to_dungeon_interaction$\n$EFFECT_LIST_BULLET$ $force_join_faction_interaction$\n$EFFECT_LIST_BULLET$ $disinherit_interaction$\n$EFFECT_LIST_BULLET$ $denounce_interaction$\n$EFFECT_LIST_BULLET$ $expose_secret_interaction$\n$EFFECT_LIST_BULLET$ $blackmail_interaction$\n$EFFECT_LIST_BULLET$ $break_betrothal_interaction$\n$EFFECT_LIST_BULLET$ $join_independence_faction_interaction$\n$EFFECT_LIST_BULLET$ $sumptuary_law_debate_interaction$\n$EFFECT_LIST_BULLET$ $vassal_claim_liege_title_interaction$"
 
  game_concept_dreams: "Sogni"
- game_concept_dreams_desc: "I personaggi che seguono una fede con il principio della divinazione possono occasionalmente avere dei sogni. Questi sogni possono essere interpretati da un mistico con esiti molteplici, sia positivi che negativi."
 
  game_concept_board_game_type_go:0 "Go"
  game_concept_board_game_type_go_desc:0 "$game_concept_board_game_type_desc_guts$\n\nIn $game_concept_board_game_type_go$:\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [martial|E]\n$EFFECT_LIST_BULLET$ [martial|E] $game_concept_board_game_type_counters$ [intrigue|E]\n$EFFECT_LIST_BULLET$ [intrigue|E] $game_concept_board_game_type_counters$ [learning|E]"
@@ -2402,7 +2400,7 @@ game_concept_ai_pious_builder_personality_desc: "Un $game_concept_ai_pious_build
 game_concept_ai_pious_builder_personality_desc_or_mandala: "o [mandala|E] "
  game_concept_ai_warlike_personality:0 "Bellicoso"
 game_concept_ai_warlike_personality_desc: "Un [ruler|E] $game_concept_ai_warlike_personality$ vuole essere sempre pronto a dichiarare [war|E]. Metterà da parte [gold|E] per la [war|E] prima di investirlo nello sviluppo del proprio [realm|E]. Se un $game_concept_ai_warlike_personality$ resta in pace per un lungo periodo, userà l’oro della cassa di guerra per costruire [buildings|E].\n\nI sovrani bellicosi sono più inclini a creare e promuovere [legends|E] eroiche.\n\nSovrani audaci e avidi tendono a essere Bellicosi.\nTratti comuni includono [GetTrait('wrathful').GetName( GetNullCharacter )], [GetTrait('impatient').GetName( GetNullCharacter )], [GetTrait('sadistic').GetName( GetNullCharacter )], [GetTrait('ambitious').GetName( GetNullCharacter )], [GetTrait('vengeful').GetName( GetNullCharacter )], [GetTrait('irritable').GetName( GetNullCharacter )] e [GetTrait('zealous').GetName( GetNullCharacter )]."
- game_concept_ai_cautious_personality:0 "Cauto
+ game_concept_ai_cautious_personality:0 "Cauto"
 game_concept_ai_cautious_personality_desc: "Un [ruler|E] $game_concept_ai_cautious_personality$ vuole essere preparato a subire una dichiarazione di [war|E]. È relativamente restio a dichiarare [wars|E] offensive e preferisce accumulare lentamente. Mantiene una riserva di [gold|E] per difendersi e investe in [buildings|E] e [men_at_arms|E] per sentirsi al sicuro.\n\nI sovrani cauti sono meno inclini a creare e promuovere [legends|E].\n\nSovrani riservati e prudenti tendono a essere $game_concept_ai_cautious_personality$.\nTratti comuni includono [GetTrait('patient').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )], [GetTrait('craven').GetName( GetNullCharacter )], [GetTrait('paranoid').GetName( GetNullCharacter )] e [GetTrait('content').GetName( GetNullCharacter )]. Non saranno mai [GetTrait('fickle').GetName( GetNullCharacter )]."
  game_concept_ai_conqueror_personality: "Conquistatore"
  game_concept_ai_conquerors_personality: "Conquistatori"
@@ -2474,17 +2472,13 @@ game_concept_trait_level_track_xp_desc: 1 "È necessaria esperienza per avanzare
 game_concept_accolade_possessive: "dell'Encomio"
  game_concept_accolades:0 "Encomi"
 game_concept_acclaimed: "Acclamato"
-game_concept_accolade_desc: 5 "Gli Encomi sono onori concessi ai [knights|E] dal loro [liege|E].\n\nIl Cavaliere che detiene un Encomio diventa un [acclaimed_knight|E].\n\nMan mano che il Cavaliere Acclamato ottiene [glory|E], l'Attitudine dei suoi [accolade_squires|E] aumenta (migliorando la [accolade_succession|E]) e può ottenere [accolade_ranks|E]. Questi permettono di sbloccare più [accolade_types|E], offrendo bonus più potenti.\n\nQuando un Cavaliere Acclamato muore, avviene la [accolade_succession|E] e il cavaliere viene immediatamente sostituito da un successore le cui abilità sono modificate dall'Attitudine degli [accolade_squires|E].\n\nLe [innovations|e] e i [title_tiers|e] più alti consentono ai [rulers|E] di possedere più Encomi contemporaneamente."
 
 game_concept_acclaimed_knight_possessive: "del Cavaliere Acclamato"
-game_concept_acclaimed_knight_desc: 1 "Il [knight|E] che detiene un [accolade|E].\n\nPer essere un Cavaliere Acclamato, un Cavaliere deve essere [unlanded|E] o un [baron|E], con almeno [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V] o più [prowess|E]. Un Cavaliere Acclamato deve essere idoneo ad almeno un [accolade_type|E] che non sia già posseduto da un altro dei Cavalieri Acclamati del suo [liege|e].\n\nI Cavalieri Acclamati hanno meno probabilità di essere uccisi o fatti prigionieri in battaglia. Possono migliorare la loro [glory|E] principalmente combattendo [wars|E] e partecipando ad [activities|E] come [GetActivityType( 'activity_tournament' ).GetName].\n\nI Cavalieri Acclamati possono talvolta ottenere [skills|E] e [traits|E] legati agli Attributi del loro Encomio"
 
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
-game_concept_accolade_type_desc: 1 "Un [accolade|E] possiede fino a #value 3#! Attributi, che forniscono bonus crescenti man mano che vengono sbloccati i loro livelli superiori. Ogni Attributo ha #value 3#! Livelli. Quando un Encomio aumenta il proprio [accolade_rank|E], il suo proprietario può aumentare il livello di un Attributo esistente oppure aggiungere un nuovo Attributo all'Encomio. Tuttavia, l'[acclaimed_knight|E] deve soddisfare i requisiti di qualsiasi nuovo Attributo.\n\nOgni [knight|E] è idoneo solo a determinati Attributi, che possono basarsi su [traits|E], [skills|E] o sblocchi esperienziali ottenuti servendo come Cavaliere.\n\nOgni Encomio deve avere Attributi unici: un Signore #high non può#! duplicare Attributi tra Encomi. Ogni Encomio può inoltre specializzarsi in un solo Attributo di tipo [men_at_arms|E], fino a #value 1#!."
 
  game_concept_accolade_succession:0 "Successione dell'Encomio"
-game_concept_accolade_succession_desc: 1 "La Successione dell'Encomio avviene quando l'[acclaimed_knight|e] di un [accolade_possessive|E] muore o diventa non valido.\n\nIl precedente Cavaliere Acclamato viene immediatamente sostituito. I giovani [courtiers|E] e [knights|E] addestrati grazie all'Attitudine degli [accolade_squires|E] dell'Encomio sono favoriti per primi come Successori; poi altri cavalieri, altri cortigiani, vagabondi e infine [characters|E] appena creati. In base all'Attitudine degli [accolade_squires|E] dell'Encomio, il nuovo Cavaliere riceverà maggiore [prowess_skill|E], [martial_skill|E], [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )] e forse altre [skills|E].\n\nDopo la Successione dell'Encomio, può andare perduta una piccola quantità di [glory|E] e l'Attitudine degli Scudieri dell'Encomio viene reimpostata per riflettere le abilità e l'esperienza del suo nuovo Cavaliere Acclamato\n\nLa morte del Cavaliere Acclamato in battaglia, in duello o in altro modo onorevole annullerà la perdita di Gloria e migliorerà gli Scudieri dell'Encomio."
 
  game_concept_accolade_rank:0 "Rango dell'Encomio"
  game_concept_accolade_ranks:0 "Ranghi dell'Encomio"
@@ -2492,7 +2486,6 @@ game_concept_accolade_succession_desc: 1 "La Successione dell'Encomio avviene qu
 game_concept_accolade_rank_desc: 1 "Un [accolade|e] possiede #value 6#! Ranghi progressivi che permettono al suo proprietario di sbloccare e migliorare i bonus degli [accolade_type|e], come i [knight_army_modifiers|e].\n\nOttenere [glory|E] sblocca ciascun Rango, mentre perdere Gloria può farli decadere. Quando un Encomio perde un Rango, un livello di un [accolade_type|E] viene disabilitato. Recuperare il Rango ripristinerà l'Attributo e il suo bonus."
 
  game_concept_glory:0 "Gloria"
-game_concept_glory_desc: 1 "La Gloria di un [accolade_possessive|E] aumenta il suo [accolade_rank|E].\n\nLa Gloria viene ottenuta dall'[acclaimed_knight|E] vincendo [battles|E], sconfiggendo guerrieri, gareggiando nei [contests|E] di [GetActivityType( 'activity_tournament' ).GetName] e partecipando ad [activities|E].\n\nTuttavia, la Gloria dell'Encomio diminuisce quando il Cavaliere Acclamato è coinvolto in battaglie perse, e può anche ridursi alla [accolade_succession|E] se il Cavaliere Acclamato non è morto in battaglia, in duello o in qualche altro modo onorevole."
 
 game_concept_accolade_squires: "Scudieri"
 game_concept_accolade_squire: "Scudiero"
@@ -2579,7 +2572,6 @@ game_concept_legitimacy_desc_mandala: "\n\nI [rulers|E] del [GetGovernment( 'man
  game_concept_legitimacy_expectations_desc: "$game_concept_expected_legitimacy_desc$"
  
  game_concept_initial_legitimacy: "Legittimità Iniziale"
- game_concept_initial_legitimacy_desc: "La $game_concept_legitimacy$ che un [character|E] ha quando ottiene delle terre.\n\nÈ calcolata in base al [dynasty_prestige_level|E], relazione con il proprio predecessore, [court_grandeur|E], genere, se si è dei bastardi, gli anni come [ruler|E], ai [dynasty_perk|E] sulla [legitimacy|E], [diplomacy|E], [virtues|E], [sins|E] e altri [traits|E] speciali, come [GetTrait('sayyid').GetName( GetNullCharacter )], [GetTrait('diplomat').GetName( GetNullCharacter )] e [GetTrait('just').GetName( GetNullCharacter )].\n\nGli [heirs|E] erediteranno [GetDefine( 'NCharacter', 'LEGITIMACY_INHERITED' )|V%^] della $game_concept_legitimacy$ del precedente governante se erediteranno un [title|E] di [title_tier|E] più alto."
  
  game_concept_court_position_task_short: "Incarico"
  game_concept_court_position_task_short_desc: "$game_concept_court_position_task_desc$"

@@ -550,7 +550,7 @@ diarchy.8041.a: "Arrogante [actor.Custom2('InsultNoun', ROOT.Char)]!"
  diarch_attempt_to_overthrow_liege.event.t:0 "Un colpo di stato atteso da tempo:"
  diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate:0 "\n\n"[liege.GetFirstName]!" urla [usurper.GetFirstNameNoTooltip], "Vi dichiaro [Select_CString(liege.IsFemale,'una','un')] pretendente, [Select_CString(liege.IsFemale,'indegna','indegno')] del vostro trono! Consegnatelo [Select_CString(usurper.IsFemale,'alla vera sovrana','al vero sovrano')] del regno. #EMP Io.#!"\n\nDiversi cavalieri di rango inferiore cercano di ostacolare la sua avanzata, ma vengono sventrati in breve tempo."
 
- #	Diplomacy: You attempt to bloodlessly coup your liege.
+ # Diplomacy: You attempt to bloodlessly coup your liege.
  diarchy.9001.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Lingue argentate"
  diarchy.9001.desc.intro:0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] irrompe nella mia sala del trono. Alle sue spalle c'è un'orda di uomini e donne di corte, ognuno dei quali brandisce un'arma con la calma di chi sa che la minaccia è sufficiente... $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9001.desc.proxy.none:0 "$diarchy.9011.desc.proxy.none$"
@@ -569,7 +569,7 @@ diarchy.8041.a: "Arrogante [actor.Custom2('InsultNoun', ROOT.Char)]!"
  diarchy.9001.d.tt.win:0 "I soldati leali arrivano e sopraffanno i cospiratori"
  diarchy.9001.d.tt.loss:0 "I tuoi ultimi potenziali difensori vengono facilmente uccisi"
 
- #	Diplomacy: Usurper won, liege-side.
+ # Diplomacy: Usurper won, liege-side.
  diarchy.9002.t:0 "$diarchy.9001.t$"
  diarchy.9002.desc.intro:0 "Sono perdut[ROOT.Char.Custom('DE_END_PRO_S_N')]. Assolutamente, assolutamente perdut[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\n"
  diarchy.9002.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] ha fatto del suo meglio, ma le argomentazioni di [usurper.GetFirstName] erano fluide e ben preparate. I voltagabbana sono rimasti fedeli [Select_CString(usurper.IsFemale,'alla loro padrona','al loro padrone')], e la mia corte ha fatto un passo indietro per consentir[usurper.Custom('DE_PRO_DEM')] di accedere senza impedimenti."
@@ -580,7 +580,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9002.a:0 "Ho la mia libertà, ma poco altro."
  diarchy.9002.b:0 "Il mio destino. Sono perdut[ROOT.Char.Custom('DE_END_PRO_S_N')]."
 
- #	Diplomacy: Usurper won, usurper-side.
+ # Diplomacy: Usurper won, usurper-side.
  diarchy.9003.t:0 "$diarchy.9001.t$"
  diarchy.9003.desc.intro:0 "È finita. Ora comando completamente, e da sol[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\n"
  diarchy.9003.desc.proxy.proxy_fought:0 "Non appena siamo entrati nella sala, [usurper.GetTitleAsNameNoTooltip] [liege.GetFirstName] ha mandato il suo lacchè, [proxy.Custom2('MyCharacterIntroduction', ROOT.Char)], ad infrangere la risolutezza della mia cricca. Abbiamo lottato con parole spietate come un pugnale, ma alla fine, tutti hanno potuto constatare che la corte era con me."
@@ -591,7 +591,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9003.a:0 "E tutto questo senza spargere una sola goccia di sangue sul #EMP mio#! trono!"
  diarchy.9003.a.some_blood:0 "Ed eccomi qui, a cercare di evitare lo spargimento di sangue."
 
- #	Diplomacy: Liege won, liege-side.
+ # Diplomacy: Liege won, liege-side.
  diarchy.9004.t:0 "$diarchy.9001.t$"
  diarchy.9004.desc.proxy.proxy_fought:0 "Non appena [proxy.GetTitledFirstName] inizia a parlare, i traditori iniziano a scomparire.\n\nUnificati più dalla brama di potere ad ogni costo che da seri concetti di lealtà, non ci vuole molto perché la cusa di [usurper.GetTitledFirstName] si sveli davanti ai suoi occhi."
  diarchy.9004.desc.proxy.self_fought:0 "Le mie parole vanno a segno rapidamente, ogni battuta formulata con cura scioglie i legami di avidità e ambizione che sono l'unica cosa che lega insieme la colazione di [usurper.GetTitledFirstName].\n\nSenza unità, la loro causa è persa, e i voltagabbana e i mercenari cominciano ad allontanarsi da [usurper.GetFirstNameNoTooltip] in massa."
@@ -599,7 +599,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9004.desc.outro:0 "\n\nMi concedo un sorrisetto mentre le guardie l[usurper.Custom('DE_END_PRO_S_N')] arrestano, e faccio un cenno affinché portino via [Select_CString(usurper.IsFemale,'la bastarda','il bastardo')]."
  diarchy.9004.a:0 "Che piccol[usurper.Custom('DE_END_PRO_S_N')] tradi[usurper.Custom('DE_END_NOU_S_GS_N')] sprezzante."
 
- #	Diplomacy: Liege won, usurper-side.
+ # Diplomacy: Liege won, usurper-side.
  diarchy.9005.t:0 "$diarchy.9001.t$"
  diarchy.9005.desc.intro:0 "Ho fallito. Ho fallito totalmente.\n\nEppure, tutto era iniziato così bene!"
  diarchy.9005.desc.proxy.proxy_fought:0 "[liege.Custom('IT_NAM_COL3')|U][liege.GetTitledFirstName] chiamava freneticamente [proxy.Custom('IT_NAM_COL3')][proxy.GetTitledFirstName] chiedendo il suo aiuto, mentre la mia cricca si schierava compatta alle mie spalle, determinata e fiduciosa.\n\nPoi [Select_CString(proxy.IsFemale, 'quella maledetta cancelliera', 'quel maledetto cancelliere')] ha aperto bocca e tutto è andato a rotoli. Uno dopo l'altro, i nobili che mi sostenevano mi hanno abbandonat[usurper.Custom('DE_END_PRO_S_N')], finché rimasi da sol[usurper.Custom('DE_END_PRO_S_N')]. Tutti i miei piani, pazientemente elaborati, sono crollati.\n\nAl termine di tutto ciò, le guardie mi hanno subito arrestat[usurper.Custom('DE_END_PRO_S_N')]."
@@ -608,7 +608,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9005.desc.outro:0 "\n\nIronia della sorte, la mia unica speranza risiede nella misericordia [Select_CString(usurper.IsFemale,'della Signora','del Signore')] di cui ho tentato di usurpare il titolo. Possa [usurper.GetFaith.FateGodName] avere pietà di me."
  diarchy.9005.a:0 "Tutti i miei piani sono andati in fumo!"
 
- #	Intrigue: You attempt to coup your liege with just a little bloodshed, threatened and actual.
+ # Intrigue: You attempt to coup your liege with just a little bloodshed, threatened and actual.
  diarchy.9011.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Pugnali Affilati"
  diarchy.9011.desc.intro:0 "[usurper.Custom('DE_ART_DEF_P_D')][usurper.Custom2('MyCharacterIntroduction', ROOT.Char)] irrompe nella mia sala del trono. Dietro di lui c'è una folla di piccoli cortigiani, mercenari e tagliagole con pugnali e spade in mano. Non sono certo venuti per parlare. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9011.desc.proxy.none:0 "Mi guardo intorno, cercando il sostegno dei miei consiglieri. Non c'è nessuno, o quanto meno nessuno qualificato e disposto a parlare a mio nome."
@@ -627,7 +627,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9011.d.tt.win:0 "$diarchy.9001.d.tt.win$"
  diarchy.9011.d.tt.loss:0 "$diarchy.9001.d.tt.loss$"
 
-#	Intrigue: Usurper won, liege-side.
+# Intrigue: Usurper won, liege-side.
  diarchy.9012.t:0 "$diarchy.9011.t$"
  diarchy.9012.desc.intro:0 "$diarchy.9002.desc.intro$"
  diarchy.9012.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] si fa avanti a nome mio e [proxy.GetSheHe] e [usurper.GetFirstName] si scambiano frecciatine a destra e a manca, ma senza successo. [usurper.Custom('DE_ART_DEF_P_D')] bastard[usurper.Custom('DE_END_PRO_S_N')] ha pensato ad ogni evenienza facendo leva su ogni bustarella versata, ogni gancio disponibile. Finalmente, [proxy.GetFirstNameNoTooltip] si avventa su [usurper.GetFirstNameNoTooltip], ma viene placcato a terra dalla sua cricca."
@@ -638,7 +638,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
  diarchy.9012.a:0 "Non potete farlo! Io sono [usurper.Custom('IT_NAM_COL3')][usurper.GetTitleAsNameNoTooltip]! #EMP [usurper.Custom('IT_NAM_COL3')][usurper.GetTitleAsNameNoTooltip]!"
  diarchy.9012.b:0 "$diarchy.9002.b$"
 
-#	Intrigue: Usurper won, usurper-side.
+# Intrigue: Usurper won, usurper-side.
  diarchy.9013.t:0 "$diarchy.9011.t$"
  diarchy.9013.desc.intro:0 "$diarchy.9003.desc.intro$"
  diarchy.9013.desc.proxy.proxy_fought:0 "[liege.GetFirstName] ha mandato il suo lacchè, [proxy.GetTitledFirstName], per allontanare i miei cospiratori da me. Abbiamo discusso verbalmente per qualche minuto prima che l[proxy.Custom('DE_PRO_PER_S_3P_N')][proxy.GetWomanMan] esasperat[proxy.Custom('DE_END_PRO_S_N')] cercasse di lanciarsi verso di me, ma è stat[proxy.Custom('DE_END_PRO_S_N')] bloccat[proxy.Custom('DE_END_PRO_S_N')] da uno dei miei mercenari.\n\n[liege.Custom('DE_ART_DEF_P_D')] [Select_CString(liege.IsFemale,'nostra precedente Signora era troppo scioccata','nostro precedente Signore era troppo scioccato')] per opporre una seria resistenza mentre [liege.Custom('DE_PRO_DEM')] mettevamo le catene."
@@ -648,7 +648,7 @@ diarchy.9002.desc.scuffled: 0 "Invoco aiuto, ma i pochi soldati che arrivano ven
 diarchy.9013.desc.outro: 0 "\n\nCon l’opposizione morta o imprigionata, e [usurper.Custom('IT_NAM_COL3')][usurper.GetTitleAsNameNoTooltip] sotto chiave, il futuro appare radioso."
  diarchy.9013.a:0 "Un nuovo trono e un nuovo ostaggio: mi sento già al sicuro."
 
-#	Intrigue: Liege won, liege-side.
+# Intrigue: Liege won, liege-side.
  diarchy.9014.t:0 "$diarchy.9011.t$"
  diarchy.9014.desc.proxy.proxy_fought:0 "Poche parole ben selezionate di [proxy.GetFirstName] e di $diarchy.9014.desc.proxy.self_fought$"
  diarchy.9014.desc.proxy.self_fought:0 "La festa presuntuosa di [usurper.GetTitledFirstName] si disintegra in pochi istanti.\n\nCome ogni nido di vipere, vogliono affondare le loro zanne l'uno nell'altro quasi quanto in me, e non ci vuole molto perché alcuni disertino o comincino a lottare tra loro.\n\nIl sorriso di [usurper.GetFirstNameNoTooltip] vacilla mentre [usurper.GetSheHe] si rende conto che il potenziale colpo di stato è già fallito."
@@ -656,7 +656,7 @@ diarchy.9013.desc.outro: 0 "\n\nCon l’opposizione morta o imprigionata, e [usu
  diarchy.9014.desc.outro:0 "\n\nQuando le mie guardie si muovono per catturarl[usurper.Custom('DE_END_PRO_S_N')], [usurper.GetSheHe] si lascia prendere. Poiché la sua cospirazione si è dissolta, qualsiasi altra soluzione sarebbe un suicidio."
  diarchy.9014.a:0 "Deciderò cosa farne di #EMP voi#! più tardi."
 
-#	Intrigue: Liege won, usurper-side.
+# Intrigue: Liege won, usurper-side.
  diarchy.9015.t:0 "$diarchy.9011.t$"
  diarchy.9015.desc.intro:0 "$diarchy.9005.desc.intro$"
  diarchy.9015.desc.proxy.proxy_fought:0 "eravamo forti, eravamo uniti, eravamo pronti per le giuste ricompense che la nostra pianificazione ci avrebbe riservato. Fino a quando [Select_CString(proxy.IsFemale,'quella maledetta','quel maledetto')] [proxy.GetTitledFirstName] non si è [Select_CString(proxy.IsFemale,'fatta','fatto')] avanti per difendere [Select_CString(liege.IsFemale,'la sua ottusa Signora','il suo ottuso Signore')]. Io... non ero preparat[ROOT.Char.Custom('DE_END_PRO_S_N')] alle argomentazioni che ha esposto, ai buchi che ha aperto nelle mie attente trame. Mi hanno abbandonat[ROOT.Char.Custom('DE_END_PRO_S_N')]. Mi hanno abbandonat[ROOT.Char.Custom('DE_END_PRO_S_N')] tutti."
@@ -665,7 +665,7 @@ diarchy.9013.desc.outro: 0 "\n\nCon l’opposizione morta o imprigionata, e [usu
  diarchy.9015.desc.outro:0 "\n\nMentre la cospirazione si disintegra intorno a me, non faccio alcuna resistenza quando le guardie si muovono per mettermi le catene. Sono fortunat[ROOT.Char.Custom('DE_END_PRO_S_N')] a non essere giustiziat[ROOT.Char.Custom('DE_END_PRO_S_N')] seduta stante."
  diarchy.9015.a:0 "Tutto questo #EMP lavoro#!. Sprecato."
 
- #	Prowess: You try to slaughter your way to power.
+ # Prowess: You try to slaughter your way to power.
  diarchy.9021.t:0 "$diarch_attempt_to_overthrow_liege.event.t$ Spade scintillanti"
 diarchy.9021.desc.intro: 0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Char)|U] irrompe nella mia sala del trono, scortat[Select_CString(usurper.IsFemale,'a','o')] da un codazzo di spade a pagamento, mercenari e voltagabbana. Armi sguainate e pronti a passare per la spada quanti sarà necessario, il loro scopo sanguinoso brilla negli occhi. $diarch_attempt_to_overthrow_liege.desc.coup_start_boilerplate$"
  diarchy.9021.desc.proxy.none:0 "$diarchy.9011.desc.proxy.none$"
@@ -683,7 +683,7 @@ diarchy.9021.desc.intro: 0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Cha
  diarchy.9021.d.tt.win:0 "$diarchy.9001.d.tt.win$"
  diarchy.9021.d.tt.loss:0 "$diarchy.9001.d.tt.loss$"
 
- #	Prowess: Usurper won, liege-side.
+ # Prowess: Usurper won, liege-side.
  diarchy.9022.t:0 "$diarchy.9021.t$"
  diarchy.9022.desc.intro:0 "$diarchy.9002.desc.intro$"
  diarchy.9022.desc.proxy.proxy_fought:0 "[proxy.GetTitledFirstName] ha dato il meglio di sé nello scontro, ma [usurper.GetFirstName] l[proxy.Custom('DE_PRO_PER_S_3P_N')]ha massacrat[proxy.Custom('DE_END_PRO_S_N')] lo stesso. Io... non riesco a credere che un[proxy.Custom('DE_PRO_POS_P_2P')] tale [proxy.GetWomanMan] abbia dato la sua vita per me per... #EMP inutilmente#!."
@@ -694,7 +694,7 @@ diarchy.9021.desc.intro: 0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Cha
  diarchy.9022.a:0 "Andrete direttamente all'[liege.GetFaith.random_NegativeAfterLife] per questo, [usurper.GetFirstNameNoTooltip]."
  diarchy.9022.b:0 "$diarchy.9002.b$"
 
- #	Prowess: Usurper won, usurper-side.
+ # Prowess: Usurper won, usurper-side.
  diarchy.9023.t:0 "$diarchy.9021.t$"
  diarchy.9023.desc.intro:0 "$diarchy.9003.desc.intro$"
  diarchy.9023.desc.proxy.proxy_fought:0 "Il cadavere di [proxy.GetTitledFirstName] si accascia. Alla violenza bisogna rispondere con la violenza e [liege.GetFirstName] ha scelto il suo destino.\n\nMentre [usurper.Custom('IT_NAM_COL3')][usurper.GetTitleAsNameNoTooltip] è ancora stordit[usurper.Custom('DE_END_PRO_S_N')] dalla morte del suo campione, avanzo e affondo [usurper.Custom('signature_weapon')] nella sua gola.\n\nLa sua morte non è la più veloce, ma neanche così lenta. La corte ed io l[liege.Custom('DE_END_PRO_S_N')] guardiamo morire in silenzio, e dopodiché l[liege.Custom('DE_END_PRO_S_N')] scaravento giù dal trono."
@@ -705,7 +705,7 @@ diarchy.9021.desc.intro: 0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Cha
  diarchy.9023.a:0 "Una manciata di morti qui salverà vite in tutto/a [usurper.GetPrimaryTitle.Custom('IT_COU_COL4')][usurper.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]."
  diarchy.9023.a.liege_survives:0 "Inizierò il mio regno con un atteggiamento magnanimo."
 
- #	Prowess: Liege won, liege-side.
+ # Prowess: Liege won, liege-side.
  diarchy.9024.t:0 "$diarchy.9021.t$"
  diarchy.9024.desc.proxy.proxy_fought:0 "Purtroppo, sono un po' troppo lontan[ROOT.Char.Custom('DE_END_PRO_S_N')] da [usurper.GetTitledFirstName] per sentire la sua maledizione in punto di morte, ma ho comunque il piacere di vederl[usurper.Custom('DE_END_PRO_S_N')] spirare.\n\n[proxy.GetTitledFirstName] ha combattuto bene al mio servizio, massacrando [proxy.Custom('DE_END_PRO_S_N')] tradi[proxy.Custom('DE_END_NOU_S_GS_N')] che si trova ai piedi del mio trono con una facilità disarmante. L'atto infonde risolutezza nelle mie guardie e manda in frantumi la cricca dei cospiratori, e ciò che segue sono alcuni minuti di cruento spargimento di sangue mentre i ribelli vengono abbattuti uno ad uno."
  diarchy.9024.desc.proxy.self_fought:0 "Il cadavere di [usurper.GetTitledFirstName] giace a pezzi davanti a me, massacrato dalla mia stessa mano.\n\nIn preda a un panico cieco, la cricca dei cospiratori si frantuma e tenta di fuggire, ma le mie guardie, confortate dal mio successo, si lanciano in mezzo a loro. Seguono alcuni minuti di cruento spargimento di sangue, con i ribelli abbattuti uno ad uno."
@@ -713,7 +713,7 @@ diarchy.9021.desc.intro: 0 "[usurper.Custom2('MyCharacterIntroduction', ROOT.Cha
  diarchy.9024.desc.outro:0 "\n\nMi aspetto che la notizia si diffonda presto nel resto di [liege.GetPrimaryTitle.GetTierAsName], e spero che questo serva da lezione ai futuri aspiranti usurpatori."
  diarchy.9024.a:0 "[Select_CString(usurper.IsFemale,'Abbattuta come la cagna rognosa','Abbattuto come il cane rognoso')] che era."
 
- #	Prowess: Liege won, usurper-side.
+ # Prowess: Liege won, usurper-side.
  diarchy.9025.t:0 "$diarchy.9021.t$"
  diarchy.9025.desc:0 "Quasi subito dopo aver fatto irruzione nella sala del trono, un urlo di panico proveniente [liege.Custom('IT_NAM_COL5')][liege.GetTitledFirstName] attira nella stanza un fiume incontenibile di cavalieri armati, desiderosi di morire per il loro [liege.Custom('MistressMaster')].\n\nIo e la mia cricca ci facciamo largo tra le carcasse che stanno per arrivare, ma sono troppe. Dobbiamo ritirarci, tornare indietro, per [usurper.GetFaith.FateGodName], ma sono dietro di noi. Non... non c'è via d'uscita.\n\nNo, no, #EMP no!#! Tanta pianificazione, tanti sforzi, tutti inutili!"
  diarchy.9025.a:0 "Non sarebbe dovuta finire così-#BER AAARGGH!#!"

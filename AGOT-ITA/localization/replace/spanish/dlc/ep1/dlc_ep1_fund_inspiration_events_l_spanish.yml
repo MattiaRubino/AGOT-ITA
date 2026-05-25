@@ -2,7 +2,7 @@
  #start AGOT modofiche
  fund_inspiration.6503.t:0 "$fund_inspiration.title$ Sussurri Antichi"
  fund_inspiration.6503.desc:0 "\n\n'Ho esplorato un antico tumulo funerario, forse risalente all'Era dell'Alba. Centinaia di cavalli da tempo periti, imbalsamati, preservati e fissati alle pareti per rimanere in piedi, ciascuno con la propria stanza. Era una stalla per i dannati, perduta nel tempo.\n\n'Consapevole del mio dovere di cercare conoscenza per il nostro regno, ho considerato di rubare una reliquia dalla tomba quando la mia guida non guardava, per portarla a voi."
- 
+ fund_inspiration.6400.desc:0 "Durante una visita alla taverna di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], scorgo uno degli avventori al centro di ogni attenzione.\n\n[Select_CString(inspiration_owner.IsFemale,'Lei','Lui')] è più segn[Select_CString(inspiration_owner.IsFemale,'ata','ato')] dal tempo rispetto agli altri avventori, e puzza come se fosse lì da un'eternità. Con mio orrore, riconosco il mio avventuriero, [inspiration_owner.Custom('IT_NAM_COL3')][inspiration_owner.GetTitledFirstName], che sembra non essere riuscit[Select_CString(inspiration_owner.IsFemale,'a','o')] a lasciare la patria dopo mesi di finanziamenti!\n\n«E per la mia prossima impresa, berrò tutto l'Arbor in un solo sorso!» [Select_CString(inspiration_owner.IsFemale,'lei','lui')] si scola prontamente un intero calice di vino rosso, e le acclamazioni risuonano nella sala da bere."
  #End AGOT modifiche
 
  fund_inspiration.9999.t:0 "Stimolo all'Ispirazione"
@@ -195,7 +195,7 @@ fund_inspiration.0081.desc: 0 "«Non vi pentirete di sostenermi, [ROOT.Char.Cust
  fund_inspiration.0091.tooltip_crossbow.tt: "Ottieni una balestra al termine dell’[inspiration|E]"
 
 ##########################
-#	INSPIRATION COMPLETED
+# INSPIRATION COMPLETED
  fund_inspiration.1001.t:0 "Ispirazione Realizzata"
 fund_inspiration.1001.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]!» [inspiration_owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] si avvicina con un ampio sorriso. «Ho faticato giorni e notti, e finalmente ho concluso il mio lavoro!»\n\n[inspiration_owner.GetSheHe|U] mi porge un oggetto avvolto in un panno e, quando sollevo la stoffa, i miei occhi si spalancano.\n\n"
  fund_inspiration.1001.a:0 "È adorabile!"
@@ -822,7 +822,6 @@ fund_inspiration.6300.homosexual_desc: "«Ah, [ROOT.Char.Custom('FormOfAddressFo
  fund_inspiration.6301.b:0 "Che bruci il mondo, organizzerò una lettura!"
 # Adventurer hasn't actually gone on the adventure!
  fund_inspiration.6400.t:1 "$fund_inspiration.title$ Giro dei Pub"
- fund_inspiration.6400.desc:0 "Durante una visita alla taverna di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], spio uno dei clienti al centro di tutte le attenzioni.\n\n[inspiration_owner.GetSheHe|U] è più brizzolato del resto dei clienti, e puzza come se fosse lì da un'eternità. Con orrore, riconosco il mio avventuriero, [inspiration_owner.GetTitledFirstName], che sembra non essere uscito dalla patria dopo mesi di finanziamenti!\n\n"E per il mio prossimo viaggio, attraverserò il Mar Rosso in un solo sorso!" e prontamente si scola un intero bicchiere di vino rosso e il tifo risuona nella sala da mescita."
  fund_inspiration.6400.a:0 "Esci di qui e vattene!"
  fund_inspiration.6400.b:0 "Ciarlatano! Ho finito di pagarti da bere!"
  fund_inspiration.6400.a.success:0 "Convinci l'avventurier[inspiration_owner.Custom('DE_END_PRO_S_N')] a rimettersi in sesto"

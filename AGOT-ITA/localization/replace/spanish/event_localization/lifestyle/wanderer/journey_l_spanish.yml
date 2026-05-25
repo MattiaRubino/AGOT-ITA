@@ -96,9 +96,9 @@ journey_events.40.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]", mi si 
  journey_pauper_king_modifier: "Re dei Poveri"
  journey_pauper_king_modifier_desc: "Sembra che questo personaggio sia particolarmente popolare tra i suoi contadini e servi, grazie alle numerose storie sulle sue amichevoli frequentazioni dei membri delle classi inferiori."
 
- journey_events.53.desc: "Ordino un giro dopo l'altro, finché tutti si addormentano o vanno a casa. Alla fine, 
- journey_events.53.a: "Hmm, mi chiedo quando l'ha capito che sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile."
- journey_events.53.a.tt: "È ora di tornare a casa, prima che qualcuno si preoccupi troppo della mia assenza."
+ journey_events.53.desc: "Ordino un giro dopo l'altro finché tutti non sono svenuti o tornati a casa. Alla fine, solo [local_gambler.GetFirstNameNoTooltip] e io siamo ancora seduti al tavolo. [Select_CString(local_gambler.IsFemale,'Lei','Lui')] alla fine riesce a malapena a stare sedut[Select_CString(local_gambler.IsFemale,'a','o')], ma mi lancia comunque uno sguardo strabico.\n\n«Sai, non sei poi così male per essere [Select_CString(ROOT.Char.IsFemale,'una nobile','un nobile')].» mormora infine [Select_CString(local_gambler.IsFemale,'lei','lui')], prima che la sua testa colpisca il tavolo e anche [Select_CString(local_gambler.IsFemale,'lei','lui')] perda i sensi."
+ journey_events.53.a: "Ah, mi chiedo quando [Select_CString(local_gambler.IsFemale,'lei','lui')] l'abbia capito."
+ journey_events.53.a.tt: "È ora di tornare a casa, prima che qualcuno si preoccupi troppo per la mia assenza."
 
 journey_events.54.desc: "All’inizio, le tensioni sono alte. Ma dopo aver raccontato le mie storie di viaggio e ordinato vari giri da bere, sento la gente rilassarsi. Dopo un po’, nella taverna regna un’atmosfera lieta e la gente mi rivolge ogni sorta di domanda.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], se posso permettermi…» comincia con cautela [local_gambler.GetFirstNameNoTooltip], «Qui a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] abbiamo una milizia locale e saremmo lieti di servirti più direttamente».\n\nMalgrado i miei tentativi di respingerli, insistono nell’offerta. Quando l’oste alla fine chiude il banco, sembrano tutti di ottimo umore mentre defluiscono lentamente verso l’uscita."
  journey_events.54.a: "Una serata davvero produttiva!"

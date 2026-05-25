@@ -1381,14 +1381,14 @@ soulmate_festival_reason_corresponding: 0 "[CHARACTER.GetShortUIName|U] conquist
  rival_crows_feet:0 "[CHARACTER.GetTitledFirstName|U] ha sabotato i tentativi di [TARGET_CHARACTER.GetTitledFirstNamePossessive] di imparare la lingua [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
  rival_crows_feet_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha sabotato i tentativi di [CHARACTER.GetTitledFirstNamePossessive] di imparare la lingua [TARGET_CHARACTER_2.GetCulture.GetLanguage.GetName]."
 
- rival_dead_child:0 "[CHARACTER.GetTitledFirstName|U] non ha permesso a [TARGET_CHARACTER.GetTitledFirstName] di vendicarsi su un bambino."
- rival_dead_child_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] non ha permesso a [CHARACTER.GetTitledFirstName] di vendicarsi su un bambino."
+ rival_dead_child:0 "[CHARACTER.GetShortUIName|U] non permise a [TARGET_CHARACTER.GetShortUIName] di vendicarsi di un bambino."
+ rival_dead_child_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] non permise a [CHARACTER.GetShortUIName] di vendicarsi di un bambino."
 
- rival_defrauded_realm:1 "[TARGET_CHARACTER.GetTitledFirstName|U] è [Select_CString(TARGET_CHARACTER.IsFemale,'stata colta','stato colto')] da [CHARACTER.GetTitledFirstName] mentre tentava di frodare il reame."
- rival_defrauded_realm_corresponding:1 "[CHARACTER.GetTitledFirstName|U] è [Select_CS_]()_
+ rival_defrauded_realm:1 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, Select_CString(TARGET_CHARACTER.IsFemale, 'sei stata sorpresa', 'sei stato sorpreso' ), Select_CString(TARGET_CHARACTER.IsFemale, 'è stata sorpresa', 'è stato sorpreso' ))] da [CHARACTER.GetShortUIName] mentre tentava di frodare il reame."
+ rival_defrauded_realm_corresponding:1 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsLocalPlayer, Select_CString(CHARACTER.IsFemale, 'sei stata sorpresa', 'sei stato sorpreso' ), Select_CString(CHARACTER.IsFemale, 'è stata sorpresa', 'è stato sorpreso' ))] da [TARGET_CHARACTER.GetShortUIName] mentre tentava di frodare il reame."
 
- rival_deposed_for_cat:0 "[CHARACTER.GetTitledFirstName|U] ha insistito che [TARGET_CHARACTER.GetTitledFirstName] cedesse il cuscino di [TARGET_CHARACTER.GetTitledFirstNamePossessive] a un gatto."
- rival_deposed_for_cat_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha insistito che [CHARACTER.GetTitledFirstName] cedesse il cuscino di [CHARACTER.GetTitledFirstNamePossessive] a un gatto."
+ rival_deposed_for_cat:0 "[CHARACTER.GetShortUIName|U] insistette perché [TARGET_CHARACTER.GetShortUIName] cedesse il cuscino di [TARGET_CHARACTER.GetShortUIName] a un gatto."
+ rival_deposed_for_cat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] insistette perché [CHARACTER.GetShortUIName] cedesse il cuscino di [CHARACTER.GetShortUIName] a un gatto."
 
  rival_didnt_get_lewd_humor:0 "[CHARACTER.GetTitledFirstName|U] ha dovuto spiegare una barzelletta oscena a [TARGET_CHARACTER.GetTitledFirstName]."
  rival_didnt_get_lewd_humor_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha dovuto spiegare una barzelletta oscena a [CHARACTER.GetTitledFirstName]."

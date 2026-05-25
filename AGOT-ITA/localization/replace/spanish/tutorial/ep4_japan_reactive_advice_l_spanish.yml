@@ -57,7 +57,7 @@
   ra_soryo_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
 
   ra_soryo_regional_dominion: "$reactive_advice_soryo_intro_NAME$"
-ra_soryo_regional_dominion_desc: "La prima [decision|E] a cui puntare è “$tgp_japan_assert_regional_dominion_government_decision|V$”.\n\nTi consente di conquistare il [duchy|E] della tua regione. Sebbene non sia richiesto per diventare [shogun|E], è un utile trampolino."
+ra_soryo_regional_dominion_desc: "La prima [decision|E] a cui puntare è “$tgp_japan_assert_regional_dominion_government_decision|V$".\n\nTi consente di conquistare il [duchy|E] della tua regione. Sebbene non sia richiesto per diventare [shogun|E], è un utile trampolino."
 
   ra_soryo_shogunate: "$reactive_advice_soryo_intro_NAME$"
   ra_soryo_shogunate_desc: "La [decision|E] effettiva per diventare [shogun|E] è '$tgp_japan_become_shogun_decision_TUTORIAL|V$'.\n\nTuttavia, per anche solo considerarla, devi prima essere il [ceremonial_regent|E]."
@@ -123,7 +123,7 @@ ra_soryo_bloc_leader_expanding_desc: "Un [bloc|E] forte è composto da molte [ho
   ra_become_shogun_open_decisions_prompt: "$TUTORIAL_OPEN_DECISION_PANEL_PROMPT$"
 
   ra_become_shogun_decision: "$reactive_advice_soryo_regent_become_shogun_NAME$"
-ra_become_shogun_decision_desc: "“$tgp_japan_become_shogun_decision_TUTORIAL|V$” è la [decision|E] da promulgare per diventare [shogun|E].\n\nTuttavia, per riuscirci, ci sono tre grandi ostacoli da superare:\n$EFFECT_LIST_BULLET$Promulgare la [law|E] [GetLaw('japanese_bureaucracy_2').GetName]\n$EFFECT_LIST_BULLET$Avere un [prestige_level|E] pari o superiore a [prestige_i][GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$Avere un [legitimacy_level|E] maggiore o uguale a #V 4#!"
+ra_become_shogun_decision_desc: "“$tgp_japan_become_shogun_decision_TUTORIAL|V$" è la [decision|E] da promulgare per diventare [shogun|E].\n\nTuttavia, per riuscirci, ci sono tre grandi ostacoli da superare:\n$EFFECT_LIST_BULLET$Promulgare la [law|E] [GetLaw('japanese_bureaucracy_2').GetName]\n$EFFECT_LIST_BULLET$Avere un [prestige_level|E] pari o superiore a [prestige_i][GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$Avere un [legitimacy_level|E] maggiore o uguale a #V 4#!"
 
   ra_become_shogun_open_laws: "$reactive_advice_soryo_regent_become_shogun_NAME$"
   ra_become_shogun_open_laws_desc: "Qui puoi gradualmente adottare un'amministrazione più restrittiva. Per diventare [shogun|E], ti serve almeno la [law|E] [GetLaw('japanese_bureaucracy_2').GetName].\n\nTieni presente che ciò costa [prestige|E] e riduce l'[opinion|E] che i [vassals|E] hanno di te."

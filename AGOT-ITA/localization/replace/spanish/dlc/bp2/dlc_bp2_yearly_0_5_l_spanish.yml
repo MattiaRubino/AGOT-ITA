@@ -1,5 +1,10 @@
 ﻿l_spanish:
 
+  #start AGOT modofiche
+  bp2_yearly.0641.desc.intro.request_boilerplate: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], in quanto vostro [ROOT.Char.GetDiarchTitle], ho bisogno di un po' di autorità in più per occuparmi di una questione di una certa importanza.»"
+  #End AGOT modifiche
+
+
  ##################################################
  # #Misc
  teeming_horde_of_cats_modifier: "Orda brulicante di gatti" 
@@ -162,8 +167,7 @@
  bp2_yearly.0631.c.bossy: "Non portare i tuoi problemi personali a #EMP me#!."
 
  bp2_yearly.0641.t: "Quid Pro Quo" 
-bp2_yearly.0641.desc.intro.request_boilerplate: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U] e [ROOT.Char.GetTitleAsNameNoTooltip], in qualità di [ROOT.Char.GetDiarchTitle], avrei bisogno di un po’ più di autorità per occuparmi di una questione importante.»"
- bp2_yearly.0641.desc.intro.tribal: "Un anziano declamatore di leggi segue [regent.Custom2('MyCharacterIntroduction', ROOT.Char)] mentre entra nel piccolo studio.\n\n$bp2_yearly.0641.desc.intro.request_boilerplate$ Questo testimone verificherà il tuo giuramento.\n\n" 
+ bp2_yearly.0641.desc.intro.tribal: "Un anziano declamatore di leggi segue [regent.Custom2('MyCharacterIntroduction', ROOT.Char)] mentre entra nel piccolo studio.\n\n$bp2_yearly.0641.desc.intro.request_boilerplate$ Questo testimone verificherà il tuo giuramento.\n\n"
  bp2_yearly.0641.desc.intro.fallback: "[regent.Custom2('MyCharacterIntroduction', ROOT.Char)|U] entra con sicurezza nel piccolo studio, stringendo un fascio di pergamene.\n\n$bp2_yearly.0641.desc.intro.request_boilerplate$ Saresti così gentile da firmare e sigillare questi documenti?\n\n" 
  bp2_yearly.0641.desc.midtro: ""Ovviamente, non ti farei mai delle richieste a mani vuote! Per questo piccolo favore, io" 
  bp2_yearly.0641.desc.vs_courtly: "parlerò con i tuoi vassalli più sofisticati, assicurandomi che tu rimanga nelle loro grazie"." 

@@ -119,6 +119,7 @@
  fp2_yearly.4004.desc:0 "Sto attraversando la mia sala del trono quando una rissa in fondo attira la mia attenzione. Un[mozarab_wanderer.Custom('DE_PRO_POS_P_2P')] [mozarab_wanderer.GetWomanMan] robust[mozarab_wanderer.Custom('DE_END_PRO_S_N')] viene attaccat[mozarab_wanderer.Custom('DE_END_PRO_S_N')] dalle mie guardie, ma le loro armi cadono a terra in un batter d'occhio. L[mozarab_wanderer.Custom('DE_END_PRO_S_N')] stranier[mozarab_wanderer.Custom('DE_END_PRO_S_N')] agita la spada in segno di saluto verso di me.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] Signor[ROOT.Char.Custom('DE_END_ADJ_IND_S_A')]", inizia [mozarab_wanderer.GetSheHe] mentre io faccio cenno affinché arrivino altre guardie, "Mi ritrovo senza un signore da servire, e a giudicare dalla tua protezione qui, potrebbe esservi utile il mio aiuto."\n\nDalla croce che [mozarab_wanderer.Custom('DE_ART_IND_A')] porta attorno al collo, deduco che [mozarab_wanderer.GetSheHe] è un[mozarab_wanderer.Custom('DE_PRO_POS_P_2P')] [mozarab_wanderer.GetFaith.GetAdherentName]."
  fp2_yearly.4006.desc:0 "È una persona coraggiosa quella che oserebbe fermarmi mentre sto lasciando la [ROOT.Char.GetFaith.HouseOfWorship] dopo il mio culto quotidiano, ma un tale [mozarab_priest.GetWomanMan] ha proprio provato a farlo. Notando con una certa diffidenza la stella a sette punte appesa al suo collo, [mozarab_priest.GetSheHe] inizia a parlare.\n\n"Mia [ROOT.Char.GetLadyLord], ti chiedo solo un minuto del tuo tempo. Tutto ciò che voglio è che i fedeli possano adorare in una [mozarab_priest.GetFaith.HouseOfWorship], come tutti i buoni seguaci di [mozarab_priest.GetFaith.HighGodName] dovrebbero fare!" Il nervoso sacerdote si ferma e mi guarda supplichevolmente.\n\nPermettere ai [mozarab_priest.GetFaith.GetAdherentNamePlural] di costruire luoghi di culto potrebbe rendere più difficile la loro conversione, ma forse un po' di clemenza potrebbe aiutare la coesione del mio regno?"
  fp2_yearly.4010.a:0 "Forse si trattava di tombe... per antichi re?"
+
  #End AGOT modifiche
 
  # dlc_fp2_flavor_events_oltner
@@ -136,8 +137,8 @@
  fp2_flavor.0001.c.failure:0 "[rice_propagator.GetFirstNameNoTooltip] è furios[rice_propagator.Custom('DE_END_PRO_S_N')]"
 
  # fp2_struggle_events
-	##################################################
- 	# #Misc
+ ##################################################
+  # #Misc
  fp2_struggle.0011.t:0 "fp2_struggle.0011.t"
  fp2_struggle.0011.desc.intro:0 "fp2_struggle.0011.desc.intro"
  fp2_struggle.0011.desc.personality:0 "fp2_struggle.0011.desc.personality"
@@ -216,7 +217,7 @@
  fp2_struggle.0051.c:0 "fp2_struggle.0051.c"
  fp2_struggle.0051.c.refuses_to_engage:0 "fp2_struggle.0051.c.refuses_to_engage"
 
-	##### Intro #####
+ ##### Intro #####
  fp2_struggle.0501.t:1 "La $iberian_struggle$"
  fp2_struggle.0501.desc:1 "La penisola iberica è in fermento per un conflitto che nasce dal suo storico passato. Gli stranieri ne bramano la terra e le grandi potenze musulmane e cristiane cercano di influenzare il suo popolo. Ma saranno coloro che vivono e muoiono sul suo suolo a determinare il suo destino.\n\n"
  fp2_struggle.0501.desc.involved:0 "Non mi lascerò sfuggire la visione della mia patria. In nome di [ROOT.Char.GetFaith.HighGodName], la Casata [ROOT.Char.GetHouse.GetNameNoTooltip] supererà la tempesta e vedrà la mia volontà compiuta.\n\n"
@@ -224,21 +225,21 @@
  fp2_struggle.0501.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
  fp2_struggle.0501.a:0 "Prendi in mano il destino!"
 
-	##### Hostility #####
-	# Struggle Ender
+ ##### Hostility #####
+ # Struggle Ender
  fp2_struggle.0900.a:0 "Questa sarà una terra di [ROOT.Char.GetFaith.HighGodNameAlternate]!"
-	# Other Players
+ # Other Players
  fp2_struggle.0910.a:0 "Non finisce qui."
  fp2_struggle.0910.b:0 "Molto interessante."
-	##### Compromise #####
-	# Struggle Ender
+ ##### Compromise #####
+ # Struggle Ender
  fp2_struggle.0901.a:0 "È la scelta migliore."
  fp2_struggle.0901.tt:0 "[THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier] è diventato un [empire|E] [de_jure|E]"
-	# Other Players
-	##### Conciliation #####
-	# Struggle Ender
+ # Other Players
+ ##### Conciliation #####
+ # Struggle Ender
  fp2_struggle.0902.a:0 "Invia gli araldi."
-	# Other Players
+ # Other Players
  fp2_struggle.0912.a:0 "Una sorpresa, certamente."
 
  # fp2_event_dan
@@ -362,7 +363,6 @@ fp2_struggle.1001.desc: "[expectant_courtier.Custom('IT_NAM_COL3')][expectant_co
  fp2_struggle.1001.physician_imprisoned:0 "[great_physician.GetFirstName] viene imprigionat[great_physician.Custom('DE_END_PRO_S_N')] da [neighboring_ruler.GetName], per alcuni motivi."
 
  fp2_struggle.1010.t:0 "Anima di Ferro"
-fp2_struggle.1010.desc: "Alla mia corte è arrivat[Select_CString(great_swordsmith.IsFemale,'a','o')] [great_swordsmith.GetName], [great_swordsmith.GetWomanMan] che sostiene di essere un[Select_CString(great_swordsmith.IsFemale,'a',' ')] maestr[Select_CString(great_swordsmith.IsFemale,'a','o')] fabbr[Select_CString(great_swordsmith.IsFemale,'a','o')] di spade che ha viaggiato in lungo e in largo.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», dice, «la mia famiglia forgia spade a [toledo_holding.GetNameNoTierNoTooltip] fin dai tempi antichi e un tempo realizzava #italic falcate#! per gli eserciti di Cartagine. Nessuna lega è forte quanto quella prodotta in Iberia, e io posso perfezionarla. Posso fabbricare le armi migliori al mondo, ma in cambio devi darmi il comando della corporazione dei fabbri di [blacksmith_county.GetNameNoTierNoTooltip]. Allora vedranno che sono sempre stat[Select_CString(great_swordsmith.IsFemale,'a','o')] migliore di loro!»"
  fp2_struggle.1010.b:1 "Qualsiasi conoscenza tu abbia, ti costringerò a rivelarmela..."
  fp2_struggle.1010.c:1 "L'avrai, se creerai spade per i miei eserciti."
  fp2_struggle.1010.paranoid_rivals:1 "Armare i tuoi soldati potrebbe preoccupare alcuni sovrani confinanti."
@@ -630,7 +630,7 @@ fp2_struggle.3001.desc: "[struggle_3001_steward.Custom2('MyCharacterIntroduction
  fp2_struggle.2009.d.flavor.st:0 "Paghi la gilda dei ladri affinché lasci le tue terre"
  fp2_struggle.2009.e:0 "Regalerò la tua testa mozzata a [fp2_2009_involved_ruler.GetTitledFirstNameNoTooltip]."
  fp2_struggle.2009.e.a:0 "La gilda dei ladri può vendicarsi destabilizzando una contea a caso."
-	# Note to spanish translators: please translate this as "Cazando a la Martes Foina", saying Garduña is too blatant.
+ # Note to spanish translators: please translate this as "Cazando a la Martes Foina", saying Garduña is too blatant.
  fp2_struggle.2010.t:0 "Caccia alla Faina"
  fp2_struggle.2010.desc:0 "Dopo aver viaggiato fino a [fp2_2009_involved_capital_county.GetNameNoTierNoTooltip], entro in una chiesa abbandonata. [fp2_2009_garduna_guild_master.GetNameNoTooltip] aspettava il mio arrivo.\n\n"[ROOT.Char.GetFirstNameNoTooltip], presumo? Il/La tuo/a [ROOT.Char.Custom('signature_weapon')] mi dice che non siete qui per propormi un affare. Ma i ladri sono più vicini ai mercanti che ai soldati. Potremmo andarcene entrambi soddisfatti se mi pagate. Allora non avrò più nulla a che fare con il vostro [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip].""
  fp2_struggle.2010.b:0 "Preparatevi a essere decapitato/a, serpente!"
@@ -935,7 +935,6 @@ fp2_yearly.4003.a: "Contatterò i guerrieri sacri di [ho_province.GetProvince.Ge
  fp2_yearly.4003.c:0 "[ROOT.Char.GetFaith.HighGodName] aiuta chi si aiuta da solo..."
  fp2_yearly.4003.tt:0 "L'[holy_order|E] locale pattuglierà la strada nella loro contea."
  fp2_yearly.4004.t:0 "Il Maestro Errante"
-fp2_yearly.4004.desc: "Sto attraversando l'aula quando una colluttazione in fondo attira la mia attenzione. Un[mozarab_wanderer.GetWomanMan] di corporatura robusta viene circondat[Select_CString(mozarab_wanderer.IsFemale,'a','o')] dalle mie guardie, ma in un batter d'occhio le loro armi tintinnano a terra. Lo sconosciut[Select_CString(mozarab_wanderer.IsFemale,'a','o')] fa un cenno con la spada in mio saluto.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», comincia mentre faccio cenno alle guardie di arretrare, «non ho un signore cui servire e, a giudicare dalla tua protezione qui, potresti aver bisogno del mio aiuto».\n\nDalla croce che porta al collo deduco che sia [mozarab_wanderer.GetFaith.GetAdherentName]."
  fp2_yearly.4004.a:0 "Per un[mozarab_wanderer.Custom('DE_PRO_POS_P_2P')] [mozarab_wanderer.GetWomanMan] del tuo talento? Assolutamente!"
  fp2_yearly.4004.b:0 "Preferirei che i miei cavalieri fossero [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] piuttosto."
  fp2_yearly.4004.c:0 "Vattene, pagan[mozarab_wanderer.Custom('DE_END_PRO_S_N')]!"
@@ -952,7 +951,6 @@ fp2_yearly.4005.desc: "È insolito, dunque, vedere uno dei loro mercanti locali 
  fp2_yearly.4005.b:0 "Non vi permetterò di contaminare le mie città!"
 
  fp2_yearly.4006.t:0 "Architetto di [ROOT.Char.GetFaith.HighGodName]"
-fp2_yearly.4006.desc: "Ci vuole coraggio per fermarmi mentre esco dalla [ROOT.Char.GetFaith.HouseOfWorship] dopo il culto quotidiano, ma un[mozarab_priest.GetWomanMan] ha fatto proprio questo. Osservo con sospetto il crocifisso che gli pende dal collo mentre prende la parola.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], chiedo solo un minuto del tuo tempo. Desidero soltanto che il mio gregge possa pregare in una [mozarab_priest.GetFaith.HouseOfWorship], come dovrebbero fare tutti i buoni seguaci di [mozarab_priest.GetFaith.HighGodName]!» Il sacerdote, nervoso, si ferma e mi guarda supplichevole.\n\nPermettere ai [mozarab_priest.GetFaith.GetAdherentNamePlural] di edificare luoghi di culto renderebbe più difficile convertirli, ma forse un po' di indulgenza aiuterebbe la coesione del mio reame."
  fp2_yearly.4006.a:0 "Hai il mio consenso. Costruite la vostra [mozarab_priest.GetFaith.HouseOfWorshipPlural]."
  fp2_yearly.4006.b:0 "Non costruirete #EMP mai#! quelle baracche pagane nella mia terra!"
  fp2_yearly.4007.t:0 "Osserva e Troverai"

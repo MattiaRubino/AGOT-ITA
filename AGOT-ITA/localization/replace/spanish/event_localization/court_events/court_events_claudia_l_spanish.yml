@@ -7,7 +7,8 @@
  court.6050.desc_generic:0 "È chiaramente un testo licenzioso, pieno di tentazioni sensuali, seduzioni terrene e seni morbidi..."
  court.6050.desc_ending:0 "\n\nRimango in silenzio mentre rifletto sulla probabile reazione di [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], e [courtier.GetFirstNameNoTooltip] mi fissa con apprensione."
  court.6060.desc_opening:1 "Tutto a un tratto, il [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] e [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] irrompono nella sala del trono, bisticciando.\n\n"Il vino offende [ROOT.Char.GetFaith.HighGodName]! #EMP Deve#! essere evitato!" stride [court_chaplain.GetFirstNameNoTooltip].\n\n"Un po' di vino è salutare per il corpo!" replica [court_physician.GetFirstNameNoTooltip]."
- 
+ court.6020.desc_chaplain:0 "\n\nSecondo [[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)],"
+
  #End AGOT modifiche
 
 
@@ -67,7 +68,6 @@ court.6003.d: 0 "Hai fatto del tuo meglio, [spymaster.GetTitledFirstNameNoToolti
  #Possession at Court
  court.6020.t:0 "Posseduto a Corte"
  court.6020.desc_opening:1 "La condizione di [possessed_char.GetTitledFirstNamePossessive] è tanto misteriosa quanto spaventosa."
- court.6020.desc_chaplain:0 "\n\nSecondo [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetTitledFirstName],"
  court.6020.desc_no_chaplain:0 "\n\nÈ opinione comune che"
  court.6020.desc_middle:1 "un essere oscuro alberga nel suo corpo e, occasionalmente, si manifesta con incontrollabile potere; tuttavia, la frequenza e l'intensità di questi episodi sta destando preoccupazione tra i miei devoti cortigiani. [court_chaplain.Custom('DE_ART_IND_D')] teme che la presenza del male prenda il controllo e diffonda il chaos e la morte tra di noi."
  court.6020.desc_physician:0 "\n\n[court_physician.GetTitledFirstName] mi rassicura che"

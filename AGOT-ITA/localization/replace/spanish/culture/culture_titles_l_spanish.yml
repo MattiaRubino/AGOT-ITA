@@ -76,7 +76,13 @@
  duchess_landless_adventurer_camp_explorers: "[Character.Custom('AgotExplorerCamp')|U]"
  duchess_landless_adventurer_camp_brigands: "[Character.Custom('AgotBrigandCamp')|U]"
  duchess_landless_adventurer_camp_legitimists: "[Character.Custom('AgotLegitimistCamp')|U]"
- 
+  prince_empire:0 "Principe"
+ princess_empire:0 "Principessa"
+  duke_landless_adventurer_male_camp: "[Character.Custom('AgotDefaultCamp')|U]"
+ duke_landless_adventurer_female_camp: "[Character.Custom('AgotDefaultCamp')|U]"
+  spouse_landless_adventurer_male: "[Character.Custom('AgotSpouseCamp')|U]"
+ spouse_landless_adventurer_holder_female: "[Character.Custom('AgotSpouseCamp')|U]"
+
  #End AGOT modifiche
 
 
@@ -1038,8 +1044,7 @@
  prince_muslim_female_dravidian_group_empire:0 "$prince_female_iranian_group_empire$"
 
 ## Imperial Prince ##
- prince_empire:0 "Principe"
- princess_empire:0 "Principessa"
+
 
  ## Carthaginian Princess and Princess ##
 
@@ -1328,26 +1333,9 @@ co_ruler_actual: "[Character.Custom('IT_NAM_COL3')][Character.GetLiegeEvenWhenDe
 
  custom_imperator_caesar_augustus: "Imperatore Caesar Augustus"
 
- ### Landless Adventurer Camps 
- duke_landless_adventurer_male_camp: "Capitano"
- duke_landless_adventurer_female_camp: "Capitano"
+ ### Landless Adventurer Camps
  duchy_landless_adventurer_camp: "Campo"
- spouse_landless_adventurer_male: "Maestro"
- spouse_landless_adventurer_holder_female: "Maestra"
 
- duke_landless_adventurer_camp_mercenaries: "Capitano"
- duke_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
- duke_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
- duke_landless_adventurer_camp_explorers: "Capo"
- duke_landless_adventurer_camp_brigands: "Capo"
- duke_landless_adventurer_camp_legitimists: "Signor[Character.Custom('DE_END_ADJ_IND_S_A')]"
-
- duchess_landless_adventurer_camp_mercenaries: "Capitano"
- duchess_landless_adventurer_camp_wanderers: "[Character.Custom('MistressMaster')|U]"
- duchess_landless_adventurer_camp_scholars: "[Character.Custom('MistressMaster')|U]"
- duchess_landless_adventurer_camp_explorers: "Capo"
- duchess_landless_adventurer_camp_brigands: "Capo"
- duchess_landless_adventurer_camp_legitimists: "[Character.GetLadyLord|U]"
 
  ### Estates
  spouse_estate_holder_male: "Signore"

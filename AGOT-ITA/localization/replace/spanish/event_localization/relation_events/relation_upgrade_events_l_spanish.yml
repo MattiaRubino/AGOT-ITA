@@ -51,7 +51,7 @@
 # relation_upgrade.1001-1999
 
 # Attending a Terrible Party
-#	Initial Event:
+# Initial Event:
  relation_upgrade.1001.t:0 "Una Notte da Dimenticare"
  relation_upgrade.1001.desc.intro:0 "Per [ROOT.GetCharacter.GetFaith.HighGodName], questa festa è #EMP noiosa#!! [terrible_party_host.GetFirstName] è [terrible_party_host.Custom('DE_ART_DEF_P_A')] peggior organizza[terrible_party_host.Custom('DE_END_NOU_S_GS_N')] che il mondo abbia mai #EMP visto#!. Come può un[ROOT.GetCharacter.Custom('DE_PRO_POS_P_2P')] comune mortale sopportare una tale celebrazione della mediocrità?\n\nDistolgo lo sguardo guardando altrove nella stanza, in cerca di un diversivo, qualsiasi diversivo."
  relation_upgrade.1001.desc.friend:0 "[potential_friend.GetFirstName] mi saluta amichevolmente da un balcone vicino."
@@ -76,7 +76,7 @@
  relation_upgrade.1001.h.list:0 "$relation_upgrade.1001.d.tt_success.list$"
  relation_upgrade.1001.i:0 "Sgattaiola via silenziosamente."
 
-#	Follow-Up, Friend:
+# Follow-Up, Friend:
  relation_upgrade.1002.t:0 "$relation_upgrade.1001.t$: Ovunque Ma non Qui"
  relation_upgrade.1002.desc:0 "Sono rimasto bloccato a questa festa penosa (in cui [terrible_party_host.GetFirstName] ha fallito più o meno sotto ogni punto di vista) per ore ed #EMP ore#!, a salutare con la mano tutti quelli che passavano.\n\nL'idea di gettarmi da questo balcone comincia ad essere allettante, quando sento un colpetto sulla spalla.\n\n"Scusami, [potential_friend.GetFirstNameNoTooltip]?" dice [party_root.GetTitledFirstName], "ti va di fare una passeggiata?""
  relation_upgrade.1002.a:0 "[ROOT.GetCharacter.GetFaith.HighGodName], si, ovunque tranne che qui!"
@@ -86,7 +86,7 @@
  relation_upgrade.1002.c:0 "Con #EMP te#!? Sei la persona più noiosa qui!"
  relation_upgrade.1002.c.tt:0 "[potential_friend.GetFirstNameNoTooltip] invece ti calunnia"
 
-#	Follow-Up, Lover:
+# Follow-Up, Lover:
  relation_upgrade.1003.t:0 "$relation_upgrade.1001.t$: Camminare al Chiaro di Luna"
  relation_upgrade.1003.desc:0 "Non ho idea di come [terrible_party_host.GetFirstName] mi abbia convinto a partecipare alla sua terribile e squallida festa. Posso solo pensare che deve essere stato un momento di follia, o forse anche la promessa che [party_root.GetTitledFirstName] sarebbe potuto essere presente.\n\nSono passato davanti a [party_root.GetSheHe] la sera prima, ma [party_root.GetSheHe] non sembra aver notato il mio deliberato sospiro di solitudine. O almeno, non ha risp-\n\n"Mi[potential_lover.Custom('DE_END_PRO_S_N')] car[potential_lover.Custom('DE_END_PRO_S_N')] [potential_lover.GetFirstNameNoTooltip]! Ti va una passeggiata al chiaro di luna?""
  relation_upgrade.1003.a:0 "[party_root.GetFirstNameNoTooltip], pensavo che non me l'avresti mai chiesto"
@@ -97,7 +97,7 @@
  relation_upgrade.1003.c:0 "No. Al momento non accetto pretendenti."
  relation_upgrade.1003.c.tt:0 "[potential_lover.GetFirstNameNoTooltip] non ti dà nessuna risposta"
 
-#	Follow-Up, Rival:
+# Follow-Up, Rival:
  relation_upgrade.1004.t:0 "$relation_upgrade.1001.t$: Stridio Interminabile"
  relation_upgrade.1004.desc:0 "Per [ROOT.GetCharacter.GetFaith.HighGodName], [terrible_party_host.GetFirstName] non è minimamente in grado di organizzare un banchetto! Niente musica, cibo insipido, nessun ballo, poca luce, e ha invitato quel bastardo, [party_root.GetTitledFirstName]!\n\n"$relation_upgrade.1001.c$" Urla chiaramente l'irritante [party_root.GetWomanMan] dall'altra parte della stanza, attirando l'attenzione dell'intero gruppo di ospiti addormentati, palesemente intent[party_root.Custom('DE_END_PRO_S_N')] a rendermi partecipe della sua opinione."
  relation_upgrade.1004.a:0 "Oh, vuoi sapere qual è #EMP realmente#! la verità, furfante?"
@@ -106,7 +106,7 @@
  relation_upgrade.1004.b.tt:0 "[potential_rival.GetFirstNameNoTooltip] si rifiuta di abbassarsi al tuo livello"
  relation_upgrade.1004.c:0 "Forse... Forse, invece, potremmo essere amici?"
 
-#	Other:
+# Other:
  aloof_but_alluring_modifier:0 "Distaccato ma Seducente"
  aloof_but_alluring_modifier_desc:0 "Con questo personaggio sembra impossibile parlare, eppure cela un innegabile fascino..."
  inured_to_boredom_modifier:0 "Abituato alla Noia"

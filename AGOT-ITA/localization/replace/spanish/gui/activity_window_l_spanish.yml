@@ -67,14 +67,14 @@ ACTIVITY_GUEST_LIST_INVITING_OVER_MAX: 0 "@alert_icon! #alert_trial Sono stati i
  activity_waiting_for_guests:0 "In attesa degli [activity_guests|E], [Activity.GetNumWaitingForCharacters] rimanenti"
  activity_waiting_for_phase:0 "In attesa dell'inizio un'Attività: [Activity.GetCurrentPhase.GetPhase.GetName]"
 
- activity_travel_state_short:0 "[Concept( 'travel', 'In Viaggio' )|E]"
- activity_travel_state_full:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] [Concept( 'travel', 'In Viaggio' )|E] per l'Attivita [Activity.GetShortNameNoTooltip]" 
- activity_passive_state_short:0 "Attesa"
- activity_passive_state_full:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] [SelectLocalization( Or( Activity.GetType.IsOpenInvite, EqualTo_int32( Activity.GetNumWaitingForCharacters, '(int32)0') ), 'activity_waiting_for_phase', 'activity_waiting_for_guests' )]
+ activity_travel_state_short:0 "[Concept( 'travel', 'In viaggio' )|E]"
+ activity_travel_state_full:0 "[Character.GetUIName|U] [Select_CString(Character.IsLocalPlayer,'sei','è')] in [Concept( 'travel', 'viaggio' )|E] verso [Activity.GetShortNameNoTooltip]"
+ activity_passive_state_short:0 "In attesa"
+ activity_passive_state_full:0 "[Character.GetUIName|U] [Select_CString(Character.IsLocalPlayer,'sei','è')] [SelectLocalization( Or( Activity.GetType.IsOpenInvite, EqualTo_int32( Activity.GetNumWaitingForCharacters, '(int32)0') ), 'activity_waiting_for_phase', 'activity_waiting_for_guests' )]"
  activity_active_state_short:0 "Impegnato"
- activity_active_state_full:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] impegnato nell'Attività [Activity.GetCurrentPhase.GetPhase.GetName]"
- activity_uninvolved_state_short:0 "Non Coinvolto"
- activity_uninvolved_state_full:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] Non [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] coinvolto nel [Activity.GetCurrentPhase.GetPhase.GetName]"
+ activity_active_state_full:0 "[Character.GetUIName|U] [Select_CString(Character.IsLocalPlayer,'sei','è')] impegnat[Select_CString(Character.IsFemale,'a','o')] nella fase [Activity.GetCurrentPhase.GetPhase.GetName]"
+ activity_uninvolved_state_short:0 "Non coinvolto"
+ activity_uninvolved_state_full:0 "[Character.GetUIName|U] [Select_CString(Character.IsLocalPlayer,'non sei','non è')] coinvolt[Select_CString(Character.IsFemale,'a','o')] nella fase [Activity.GetCurrentPhase.GetPhase.GetName]"
 
  activity_travel_state_verb:0 "[Concept( 'travel', 'In Viaggio' )|E]"
  activity_passive_state_verb:0 "Arrivato"

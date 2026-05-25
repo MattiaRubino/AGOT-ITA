@@ -355,9 +355,6 @@ domicile_building_parameter_increased_gardener_aptitude_6: "[GetCourtPositionTyp
  domicile_building_parameter_cheaper_grain_fields_buildings_2: "Costo degli [buildings|E] della [estate|E] di tipo Campo di Grano #P -25%#!"
  domicile_building_parameter_cheaper_grain_fields_buildings_3: "Costo degli [buildings|E] della [estate|E] di tipo Campo di Grano #P -35%#!"
  domicile_building_parameter_reduce_success_of_raid_estate: "Ogni livello di questo edificio riduce sempre più la probabilità di successo degli [schemes|E] [GetScheme('raid_estate').GetTypeName]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_1: "Le [raids|E] ostili e gli [sieges|E] hanno una probabilità leggermente inferiore di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_2: "Le [raids|E] ostili e gli [sieges|E] hanno meno probabilità di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
- domicile_building_parameter_raids_less_likely_to_make_prisoners_3: "Le [raids|E] ostili e gli [sieges|E] hanno molte meno probabilità di fare [prisoners|E] i personaggi che si trovano nella [estate|E]"
  estate_has_kennels: "[GetDomicileBuilding('stable_kennel_04').GetName]"
  domicile_building_parameter_kennels_more_successful_hunts_1: "[GetActivityType('activity_hunt').GetName] Probabilità di Successo di Base: #P +[EmptyScope.ScriptValue('kennels_more_successful_hunts_1_value')|0]#!"
  domicile_building_parameter_kennels_more_successful_hunts_2: "[GetActivityType('activity_hunt').GetName] Probabilità di Successo di Base: #P +[EmptyScope.ScriptValue('kennels_more_successful_hunts_2_value')|0]#!"
@@ -657,7 +654,7 @@ proving_grounds_life_in_the_saddle_horse_archers_tt: "Devi avere almeno un [regi
  domicile_building_parameter_camp_improved_learning_contract_success_desc: "[domicile_building|E] $baggage_train_ascetics_domicile_building$: $VALUE|+=0$"
  domicile_building_parameter_camp_pleasure_tent_recruitment_events: "Consente di reclutare occasionalmente personaggi interessanti"
  domicile_building_parameter_camp_unlocks_camp_cook_officer: "Sblocca l'[officer|E] [GetCourtPositionType('camp_cook_camp_officer').GetName()]"
- domicile_building_parameter_camp_unlocks_poisoner_scheme_agents: "I [schemes|E] per [GetScheme('murder').GetTypeName] iniziano con uno slot libero per l'[agent|E] #high $agent_poisoner$#!" #controllare
+ domicile_building_parameter_camp_unlocks_poisoner_scheme_agents: "[GetScheme('murder').GetTypeName] [schemes|E] iniziano con uno slot [agent|E] #high $agent_poisoner$#! gratuito"
  domicile_building_parameter_camp_unlocks_camp_party_decision: "Sblocca la [decision|E] [GetDecisionWithKey('hold_camp_party_decision').GetName]"
  domicile_building_parameter_camp_improved_camp_party_activity_gains: "Migliora i risultati dell'[activity|E] [GetActivityType( 'activity_camp_party').GetName]"
  domicile_building_parameter_camp_unlocks_hearty_meal_decision: "Sblocca la [decision|E] [GetDecisionWithKey('eat_hearty_meal_decision').GetName]"

@@ -11,6 +11,9 @@
  culture_in_non_sedentary_geographical_region_trigger_desc:0 "La [culture|E] non è presente nella regione [GetGeographicalRegion('world_essos_great_grass_sea').GetName]"
  culture_in_farmlands_or_floodplains_terrain_desc:0 "La [culture|E] non è presente in alcuna [county|E] con terreno [terrain|E] Prateria o Pianura Alluvionale"
  culture_in_farmlands_or_floodplains_terrain_count_desc:0 "La [culture|E] non è presente in almeno #V 5#! [counties|E] con terreno [terrain|E] Prateria o Pianura Alluvionale"
+ tradition_republican_legacy_name:0 "Eredità del Feudo Franco"
+ tradition_republican_legacy_desc:1 "Questa cultura ha una lunga storia di appartenenza al Feudo Franco, dove le classi urbane sono importanti quanto i proprietari terrieri rurali."
+ culture_parameter_piety_gain_on_building_complete_in_forest_taiga:2 "Ottieni [piety_i][piety|E] al completamento di [buildings|E] in [holdings|E] con [terrain|E] #V Foresta#!, #V Giungla#!, #V $cloudforest$#!, #V Taiga#! o #V $taiga_bog$#!"
  #End AGOT modifiche
 
  # Ethoses
@@ -76,8 +79,6 @@
   tradition_adaptive_skirmishing_desc:0 "Questa cultura sa come schierare efficacemente gli schermagliatori in qualsiasi ambiente."
   tradition_formation_fighting_name:0 "Lotta in Formazione"
   tradition_formation_fighting_desc:0 "Questa cultura sa come creare sinergia tra diversi tipi di unità, attraverso l'uso di formazioni protettive efficienti."
-  tradition_republican_legacy_name:0 "Eredità Repubblicana"
-  tradition_republican_legacy_desc:1 "Questa cultura ha una lunga storia di valori repubblicani, dove le classi sociali cittadine sono importanti quanto i proprietari terrieri rurali."
   tradition_hereditary_hierarchy_name:0 "Gerarchia Ereditaria"
   tradition_hereditary_hierarchy_desc:0 "È radicata in questa cultura la convinzione che l'autorità si trasmette per sangue, che la nobiltà è legata alla pietra dei castelli e che la struttura feudale è incrollabile. Non dimenticano facilmente coloro che infrangono il codice feudale."
   tradition_theocratic_autonomy_name:0 "Autonomia Teocratica"
@@ -748,9 +749,9 @@ culture_parameter_less_likely_to_gain_elder_health_traits: "Gli [elder_traits|E]
   culture_parameter_number_of_consorts_kingdom: "I sovrani del rango di [kingdom|E], se consentito dalla [gender_law|E], possono avere fino a $VALUE|V0$ [concubines|E]"
   culture_parameter_number_of_consorts_empire: "I sovrani del rango di [empire|E], se consentito dalla [gender_law|E], possono avere fino a $VALUE|V0$ [concubines|E]"
   culture_parameter_number_of_consorts_hegemony: "I sovrani del rango di [hegemony|E], se consentito dalla [gender_law|E], possono avere fino a $VALUE|V0$ [concubines|E]"
-culture_parameter_poet_trait_gives_bonuses: 0 "Il [trait|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] ha bonus aggiuntivi"
-culture_parameter_poet_trait_more_common: 0 "Il [trait|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] è più comune"
-  culture_parameter_piety_gain_on_building_complete_in_forest_taiga:2 "Ottieni [piety_i][piety|E] costruendo [buildings|E] nei [holdings|E] con [terrain|E] #V Foresta#!, #V Giungla#! o #V Taiga#! "
+  culture_parameter_poet_trait_gives_bonuses: 0 "Il [trait|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] ha bonus aggiuntivi"
+  culture_parameter_poet_trait_more_common: 0 "Il [trait|E] [GetTrait('lifestyle_poet').GetName( GetNullCharacter )] è più comune"
+
   culture_parameter_piety_gain_on_building_complete_in_mountains:1 "Ottieni [piety_i][piety|E] costruendo [buildings|E] nei [holdings|E] con [terrain|E] #V Montagne#! o #V Montagna Desertica#!"
   culture_parameter_can_duel_rivals:0 "$UNLOCKS_ABILITY_TO_DUEL_RIVALS$"
   culture_parameter_cannot_fire_court_chaplain:0 "Non puoi licenziare il tuo [court_chaplain|E]"
@@ -1550,13 +1551,10 @@ unlock_maa_mangudai_name: "[GetCultureTradition('tradition_mpo_wolves_of_the_dee
   culture_parameter_permafrost_unlock_tribal_building: "I miglioramenti a un [building|e] [tribal|e] non richiedono [innovations|E] nelle [counties|e] di questa [culture|e] che hanno il [modifier|e] #V $mpo_siberian_permafrost_modifier$#!"
   culture_parameter_permafrost_cannot_become_feudal: "Non puoi prendere le [decisions|e] #V Adotta Metodi Feudali#! e #V Adotta Metodi Feudali Tramite [Concept('liege',Select_CString(ROOT.Char.GetLiege.IsFemale,'la Signora','il Signore'))|e]#!"
   culture_parameter_permafrost_modifier_mechanic: "Le [counties|e] di questa [culture|e] iniziano con il [modifier|e] #V $mpo_siberian_permafrost_modifier$#! che riduce lo [development|e] e il [control|e]. Se il [holder|e] e la [county|e] hanno una [culture|e] con questa [culture_tradition|E], il [modifier|e] #V $mpo_siberian_permafrost_modifier$#! non riduce il [control|e] e fornisce bonus."
-culture_parameter_permafrost_modifier_removal_condition: "Il [modifier|E] #V $mpo_siberian_permafrost_modifier$#! può essere rimosso tramite la [decision|E] #V $expand_the_steppe_decision_generic$#!, l'[interaction|E] #V $feudalize_holding_interaction$#! o l'[interaction|E] #V $demand_admin_interaction$#!"
   permafrost_modifier_removal_desc: "Rimuove il [modifier|e] #V $mpo_siberian_permafrost_modifier$#! da ogni [county|e] in cui è presente"
   culture_parameter_martial_traits_give_out_hcav_bonus: "I [traits|e] [GetTrait('gallant').GetName( GetNullCharacter )], [GetTrait('overseer').GetName( GetNullCharacter )] e [GetTrait('strategist').GetName( GetNullCharacter )] forniscono bonus agli [men_at_arms|E] della [heavy_cavalry|E]"
   culture_parameter_stewardship_traits_give_out_cav_bonus: "I [traits|e] [GetTrait('avaricious').GetName( GetNullCharacter )], [GetTrait('architect').GetName( GetNullCharacter )] e [GetTrait('administrator').GetName( GetNullCharacter )] forniscono bonus agli [men_at_arms|E] della [light_cavalry|E], della [heavy_cavalry|E] e degli [archer_cavalry|E]"
 
-  mpo_siberian_permafrost_modifier: "Permafrost Siberiano"
-mpo_siberian_permafrost_modifier_desc: "Suolo congelato da millenni, nessun accesso alle acque sotterranee, vegetazione rada. Il terreno muta ogni anno a causa di ripetuti disgeli e ricongelamenti. Per fare proprie queste terre, coloro che vivono qui avranno bisogno di secoli per adattarsi. Tutti gli altri, e tutto il resto, periranno e si uniranno agli antichi morti sotto il ghiaccio.\n\n#weak Questo modificatore può essere rimosso tramite l'[interaction|E] #V $feudalize_holding_interaction$#! o #V $demand_admin_interaction$#!, oppure dopo aver conquistato l'intero Nord con la [decision|E] #V $expand_the_steppe_decision_generic$#! per la regione #V $dlc_mpo_steppe_siberia_further_expansion_tooltip$#!#!\n\n"
 
   mpo_siberian_permafrost_modifier_bad: "$mpo_siberian_permafrost_modifier$"
 mpo_siberian_permafrost_modifier_bad_desc: "$mpo_siberian_permafrost_modifier_desc$"

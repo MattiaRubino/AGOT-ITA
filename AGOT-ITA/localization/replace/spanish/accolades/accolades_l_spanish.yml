@@ -6,6 +6,13 @@
  ACCOLADE_KNIGHT_MODIFIERS:0 "#S Modificatori del Capitano:#!"
  accolade_charmer_party_modifier_desc:0 "Il capitano più lascivo di questo personaggio sta trascinando la tavola d'onore verso una licenziosa allegria."
  accolade_charmer_party_high_modifier_desc:0 "Il capitano dongiovanni di questo personaggio guida la tavola d'onore in ardenti dissolutezze."
+
+ ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME: "#T Attitudine delle Reclute:#!"
+vanguard_attribute.unlock_tt_2: "Uno dei seguenti:\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede l'[innovation|E] #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! oppure #V $innovation_legionnaires$#!\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede [GetCultureTradition('tradition_fp1_coastal_warriors').GetName], [GetCultureTradition('tradition_hird').GetName] oppure una [culture_tradition|E]"
+lancer_attribute.unlock_tt_2: "Uno dei seguenti:\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede l'[innovation|E] #V $innovation_arched_saddle$#! oppure #V $innovation_valets$#!\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] oppure [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName] [culture_tradition|E]"
+accolade_squire_training.t: "[accolade.GetNameNoTooltip] addestra una Recluta"
+message_filter_accolade_squire_training: "Capitano Acclamato addestra una Recluta"
+message_filter_accolade_knight_training: "Capitano Acclamato migliora le abilità"
  #End AGOT modifiche
 
  ACCOLADE_ADJECTIVE_NOUN:0 "$NOUN$ $ADJECTIVE$"
@@ -109,7 +116,6 @@ ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TITLE: "Aggiungi attributo"
 ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_TEXT: "[ACCOLADE.GetName] ottiene l'attributo [AccoladeType.GetName]"
 ADD_NEW_ACCOLADE_TYPE_CONFIRM_TEXT_ACCEPT: "Conferma"
 RENAME_ACCOLADE: "#T Personalizza nome dell'encomio#!\n#I Clicca per rinominare l'encomio#!"
-ACCOLADE_SQUIRE_QUALITY_BREAKDOWN_NAME: "#T Attitudine degli scudieri:#!"
 
 ACCOLADE_SQUIRE_QUALITY_0: "#N @aptitude:1:inherit_color!Patetica#!"
 ACCOLADE_SQUIRE_QUALITY_1: "#N @aptitude:2:inherit_color!Inetta#!"
@@ -760,11 +766,9 @@ outrider_attribute.unlock_tt: "Una di queste:\n$EFFECT_LIST_BULLET$Il [acclaimed
 outrider_attribute.battle_message_tt: "[acclaimed_knight.GetName] si è distint[Select_CString(acclaimed_knight.IsFemale,'a','o')] guidando cavalleria leggera in battaglia e può essere [acclaimed|E] come [GetAccoladeType('outrider_attribute').GetName]"
 
 vanguard_attribute.unlock_tt: "Una di queste:\n$EFFECT_LIST_BULLET$Il [acclaimed_knight|E] è [GetTrait('strong').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$Il [acclaimed_knight|E] è [GetTrait('athletic').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$Il [acclaimed_knight|E] ha [GetTrait('physique_good_1').GetName( GetNullCharacter )], [GetTrait('physique_good_2').GetName( GetNullCharacter )] o [GetTrait('physique_good_3').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$La [trait_level_track_xp|E] a Piedi di [GetTrait('tourney_participant').GetName( GetNullCharacter )] [acclaimed_knight_possessive|E] è #V 30#! o superiore\n$EFFECT_LIST_BULLET$Può diventare disponibile quando il [acclaimed_knight|E] combatte una [battle|E] insieme a qualsiasi [men_at_arms|E] [heavy_infantry|E]"
-vanguard_attribute.unlock_tt_2: "Una di queste:\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede l'[innovation|E] #V $innovation_quilted_armor$#!, #V $innovation_sarawit$#! o #V $innovation_legionnaires$#!\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede la [culture_tradition|E] [GetCultureTradition('tradition_fp1_coastal_warriors').GetName], [GetCultureTradition('tradition_hird').GetName], [GetCultureTradition('tradition_futuwaa').GetName], [GetCultureTradition('tradition_druzhina').GetName], [GetCultureTradition('tradition_khadga_puja').GetName], [GetCultureTradition('tradition_garuda_warriors').GetName], [GetCultureTradition('tradition_himalayan_settlers').GetName], [GetCultureTradition('tradition_mubarizuns').GetName], [GetCultureTradition('tradition_burman_royal_army').GetName] o [GetCultureTradition('tradition_mountaineer_ruralism').GetName]"
 vanguard_attribute.battle_message_tt: "[acclaimed_knight.GetName] si è distint[Select_CString(acclaimed_knight.IsFemale,'a','o')] guidando fanteria pesante in battaglia e può essere [acclaimed|E] come [GetAccoladeType('vanguard_attribute').GetName]"
 
 lancer_attribute.unlock_tt: "Una di queste:\n$EFFECT_LIST_BULLET$Il [acclaimed_knight|E] è [GetTrait('aggressive_attacker').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$La [trait_level_track_xp|E] a Cavallo di [GetTrait('tourney_participant').GetName( GetNullCharacter )] [acclaimed_knight_possessive|E] è #V 30#! o superiore\n$EFFECT_LIST_BULLET$Può diventare disponibile quando il [acclaimed_knight|E] combatte una [battle|E] insieme a qualsiasi [men_at_arms|E] [heavy_cavalry|E]"
-lancer_attribute.unlock_tt_2: "Una di queste:\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede l'[innovation|E] #V $innovation_arched_saddle$#! o #V $innovation_valets$#!\n$EFFECT_LIST_BULLET$La [culture|E] [acclaimed_knight_possessive|E] possiede la [culture_tradition|E] [GetCultureTradition('tradition_caucasian_wolves').GetName], [GetCultureTradition('tradition_roman_legacy').GetName], [GetCultureTradition('tradition_ep3_audacious_cadets').GetName] o [GetCultureTradition('tradition_ep3_imperial_tagmata').GetName]"
 lancer_attribute.battle_message_tt: "[acclaimed_knight.GetName] si è distint[Select_CString(acclaimed_knight.IsFemale,'a','o')] guidando cavalleria pesante in battaglia e può essere [acclaimed|E] come [GetAccoladeType('lancer_attribute').GetName]"
 
 crossbowmen_attribute.unlock_tt: "Una di queste:\n$EFFECT_LIST_BULLET$Il [acclaimed_knight|E] è [GetTrait('cautious_leader').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$La [trait_level_track_xp|E] d'Arco di [GetTrait('tourney_participant').GetName( GetNullCharacter )] [acclaimed_knight_possessive|E] è #V 30#! o superiore\n$EFFECT_LIST_BULLET$Può diventare disponibile quando il [acclaimed_knight|E] combatte una [battle|E] insieme a qualsiasi [men_at_arms|E] [GetMaA('crossbowmen').GetName]"
@@ -811,11 +815,8 @@ SQUIRES_HASTILUDES_VALUE_BOW: "[trait_level_track_xp|E] d'Arco di [GetTrait('tou
 SQUIRES_OWN_CHILD: "Il figlio [acclaimed_knight_possessive|E] è un [accolade_squire|E] o un [knight|E]"
 SQUIRES_RESPECTED_ELDER: "Anzianità [acclaimed_knight_possessive|E]"
 
-accolade_squire_training.t: "[accolade.GetNameNoTooltip] addestra uno scudiero"
 accolade_squire_training.desc: "[squire.GetFirstName] si è addestrat[Select_CString(squire.IsFemale,'a','o')] come [type.GetName]"
 accolade_knight_training.t: "[accolade.GetNameNoTooltip] migliora"
 accolade_knight_training.desc: "Il tuo [acclaimed_knight|E] ha guadagnato esperienza come [type.GetName]"
 
-message_filter_accolade_squire_training: "Il Cavaliere Acclamato addestra uno scudiero"
-message_filter_accolade_knight_training: "Il Cavaliere Acclamato migliora le abilità"
 accolade_education_tt: "Diventa più probabile ottenere @skill_prowess_icon![prowess|E] e altre [skills|E] o [traits|E] legate all'[accolade|E] di [guardian.GetShortUINamePossessive], [guardian.GetAcclaimedAccolade.GetName]"

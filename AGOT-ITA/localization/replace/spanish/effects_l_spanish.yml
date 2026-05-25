@@ -635,9 +635,6 @@ I_GOT_BETROTHED_MATRILINEAL_EFFECT: "Sei diventato [betrothed|E] [matrilineally|
  REMOVED_MY_TRAIT:2 "Hai perso il [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
  REMOVED_THEIR_TRAIT:1 "[CHARACTER.GetShortUIName|U] ha perso il [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
 
-ADD_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
-ADD_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla tua [CHARACTER.Custom('GetCourtConcept')]"
-ADD_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si unirà alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
 ADDED_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
 ADDED_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla tua [CHARACTER.Custom('GetCourtConcept')]"
 ADDED_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] si è unito alla [CHARACTER.Custom('GetCourtConcept')] di [CHARACTER.GetShortUINamePossessive]"
@@ -1039,7 +1036,7 @@ THEY_LOST_ELDER: "[TARGET_CHARACTER.GetShortUIName|U] non è più [CHARACTER.Get
  VARIABLE_CHALLENGE_MULTI: "Sfida Combinata $VARIABLE_LIST$"
  SKILL_AND_VARIABLE_CHALLENGE: "Sfida Combinata $SKILL_LIST$ e $VARIABLE_LIST$"
 
- I_ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$
+ I_ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
  THEY_ENTERED_CHALLENGE_EFFECT:2 "[CHARACTER.GetShortUIName|U]:\n $SKILL_CHALLENGE$"
  ENTERED_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
  I_ENTER_CHALLENGE_EFFECT:2 "$SKILL_CHALLENGE$"
@@ -2213,7 +2210,7 @@ EACH_LIVING_CHILD_ADDS_RANDOM_SKILL_POINT: "Ogni figlio vivente ti dà #P 1#! pu
  mandala_sound_foundations_perk_effect_third: "$mandala_sound_foundations_perk_effect_global$"
 
  OFFER_VASSALIZATION_ACCEPTANCE_INCREASE:0 "Consenso all'[Concept( 'offer_vassalization', 'Offerta di Vassallizazione' )|E]: #P +[EmptyScope.ScriptValue('true_ruler_value')|0]#!"
- OFFER_TRIBUTARIZATION_ACCEPTANCE_INCREASE: "Accettazione della richiesta come [tributary|E]: #P +[EmptyScope.ScriptValue('true_ruler_value')|0]#!" #controllare
+ OFFER_TRIBUTARIZATION_ACCEPTANCE_INCREASE: "Accettazione della richiesta come [tributary|E]: #P +[EmptyScope.ScriptValue('true_ruler_value')|0]#!"
  OFFER_CONFEDERATION_ACCEPTANCE_INCREASE: "Accettazione della proposta di [confederation|E]: #P +[EmptyScope.ScriptValue('true_ruler_value')|0]#!"
 
  REDUCED_CHANCE_OF_BEING_WOUNDED_KILLED_OR_IMPRISONED_IN_BATTLE:1 "[command_modifier_i|E]Riduce i rischi dell'essere [Concept( 'commanding', 'al comando' )|E] degli [armies|E]"

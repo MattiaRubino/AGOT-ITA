@@ -110,11 +110,11 @@ agent_events.2011.a: "Quel/la piccol[Select_CString(relation.IsFemale,'a','o')] 
  agent_events.3001.c: ""Piuttosto, [relation.GetFirstNameNoTooltip], passate più tempo con me.""
  agent_events.3001.d: ""Riposatevi un po', [relation.GetFirstNameNoTooltip], avete fatto già abbastanza.""
 
- agent_events.3011.t: "Per Mio Interesse"
- agent_events.3011.desc: ""#EMP Per favore#!, [ROOT.Char.GetFirstNameNoTooltip], ascoltatemi. Voi state lavorando troppo, è come se questo [scheme.Custom('GetSchemeContract')] vi stia consumando!" si lamenta [relation.Custom2('MyCharacterIntroduction', ROOT.Char)] per l'ennesima volta.\n\nNon lo nego, ultimamente sono stato impegnat[ROOT.Char.Custom('DE_END_PRO_S_N')] molto più del solito, ma non più del necessario.\n\nTuttavia, la preoccupazione che si legge nel volto di [relation.GetFirstNameNoTooltip] mi dice che forse ho davvero esagerato."
- agent_events.3011.a: "Voi dite? D'accordo!"
- agent_events.3011.b: "Un[relation.Custom('DE_PRO_POS_P_2P')]
- agent_events.3011.c: "Non abbiamo altra scelta, [relation.GetFirstNameNoTooltip]..."
+ agent_events.3011.t: "Per il mio bene"
+ agent_events.3011.desc: "«#EMP Ti prego#!, [ROOT.Char.GetFirstNameNoTooltip]. Lavori troppo, è come se questo [scheme.Custom('GetSchemeContract')] ti stesse consumando!» si lamenta [relation.Custom2('MyCharacterIntroduction', ROOT.Char)], per quella che sembra la centesima volta.\n\nDi recente sono #EMP [Select_CString(ROOT.Char.IsFemale,'stata','stato')]#! diligente, non lo nego, ma non più del necessario, di certo.\n\nL'espressione smunta e preoccupata [relation.Custom('MaskFace_BehindAcross')] [relation.GetFirstNamePossessiveNoTooltip] [relation.Custom('MaskFace')] mi dice che forse non è così."
+ agent_events.3011.a: "Per te? Naturalmente!"
+ agent_events.3011.b: "[Select_CString(relation.IsFemale,'Una vera','Un vero')] [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('relation'))] non mi chiederebbe questo."
+ agent_events.3011.c: "L'unica via d'uscita è andare fino in fondo, [relation.GetFirstNameNoTooltip]..."
 
  agent_events.3021.t: "Una Famiglia Unita"
  agent_events.3021.desc: "È un po' strano che [relation.Custom2('MyCharacterIntroduction', ROOT.Char)] e io siamo [Select_CString(And(ROOT.Char.IsFemale, relation.IsFemale),'state riunite','stati riuniti')] a tal modo a causa di questo [scheme.Custom('GetSchemeContract')] nei confronti di [scheme.GetName].\n\nTuttavia, mi piace il fatto che lavoriamo insieme su un compito comune, verso il medesimo obiettivo. Siamo meno spesso in errore e più spesso ottenuamo risultati. Inolre, abbiamo sempre qualcosa di cui parlare.\n\nSono felice di averl[relation.Custom('DE_END_PRO_S_N')]
