@@ -44,7 +44,11 @@
  game_concept_knight_army_modifier:0 "Modificatore dell'Esercito del Capitano"
  game_concept_knight_army_modifiers:0 "Modificatori dell'Esercito del Capitano"
  game_concept_knight_army_modifier_desc:0 "Un effetto applicato a qualunque [army|e] che #high includa#! il relativo [acclaimed_knight|e].\n\nPerché si applichi il Modificatore dell'Esercito del Capitano, il [knight|e] #high non deve necessariamente#! essere il [commander|e] di quell'Esercito."
- 
+ game_concept_era_desc:1 "Le [innovations|E] possono essere scoperte solo se la [culture|E] ha raggiunto l'Era richiesta. L'Era successiva può iniziare solo dopo un certo anno e se almeno il #V 50%#! delle Innovazioni dell'Era precedente è stato scoperto.\n\nI governanti con [tribal_government|E] e [nomadic_government|E] possono usare soltanto le Innovazioni $culture_era_tribal$."
+ game_concept_acclaimed_knight_possessive: "del Capitano Acclamato"
+ game_concept_accolade_squires: "Reclute"
+ game_concept_accolade_squire: "Recluta"
+ game_concept_accolade_squires_desc: "Ogni [accolade|E] possiede una metrica di Attitudine delle $game_concept_accolade_squires$, che modifica i [traits|E] e le [skills|E] — principalmente [prowess_skill|E], [martial_skill|E] e [trait_level_track_xp|E] del [trait|E] [GetTrait('tourney_participant').GetName( GetNullCharacter )] — del suo prossimo [acclaimed_knight|E].\n\nVi sono 5 livelli di Attitudine per le $game_concept_accolade_squires$:\n$EFFECT_LIST_BULLET$Valide\n$EFFECT_LIST_BULLET$Capaci\n$EFFECT_LIST_BULLET$Inesperte\n$EFFECT_LIST_BULLET$Inette\n$EFFECT_LIST_BULLET$Patetiche\n\nAvere un'Attitudine da Inesperte o superiore farà sì che il Capitano Acclamato influenzi sporadicamente i [traits|E] e le [skills|E] dei giovani [courtiers|E] di genere marziale, dando loro priorità nell'assumere l'Encomio al momento della [accolade_succession|E]\n\nLe $game_concept_accolade_squires$ vengono migliorate principalmente dal guadagno di [glory|E], ma anche da:\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del Capitano Acclamato\n$EFFECT_LIST_BULLET$La [martial_skill|E] del Capitano Acclamato\n$EFFECT_LIST_BULLET$Il Capitano Acclamato che ottiene [trait_level_track_xp|E] per [GetTrait('tourney_participant').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$Il Capitano Acclamato che ottiene [trait_level_track_xp|E] per [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$La [martial_skill|E] del [liege|E] dell'Encomio\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del [liege|E] dell'Encomio\n\nOgni [accolade_succession|E] azzera le $game_concept_accolade_squires$ dell'Encomio."
  #End AGOT modifiche
 
  test_text_to_use_explanation:0 "La parola [primary_title|E] è un concetto di gioco."
@@ -1419,7 +1423,6 @@ game_concept_title_rank_desc: 0 "Equivalente personale del [title_tier|E], il $g
  game_concept_embarking_desc:1 "Un [army|E] si imbarcherà automaticamente in una [fleet|E] quando gli verrà dato un ordine di movimento in una Zona del Mare, o quando non vi sarà una via di terra per raggiungere la [barony|E] bersaglio.\n\nImbarcare un esercito costa una somma d'[gold|E], a simboleggiare l'approvvigionamento e la costruzione di navi. Per ogni #V 100#! uomini che si imbarcano, bisogna pagare #V [GetDefine('NFleet', 'EMBARK_GOLD_COST_PER_HUNDRED')|0]#! [gold_i]."
  game_concept_era:0 "Era"
  game_concept_eras:0 "Ere"
- game_concept_era_desc:1 "Le [innovations|E] possono essere scoperte solo se la [culture|E] ha raggiunto l'Era richiesta. L'Era successiva può iniziare solo dopo aver passato un certo anno, e se sono state scoperte almeno il #V 50%#! delle Innovazioni della precedente Erea.\n\nI governanti con un [tribal_government|E] e un [nomadic_government|E] possono fare uso solo delle Innovazioni dell'Era Tribale."
  game_concept_innovation:0 "Innovazione"
  game_concept_innovations:0 "Innovazioni"
 game_concept_innovation_desc: 0 "Le Innovazioni sono tecnologie e altri progressi che avvantaggiano tutti i personaggi di una certa [culture|E]. Le Innovazioni sono raggruppate nelle [eras|E] in cui possono essere scoperte.\n\nAttraverso il contatto con Culture confinanti, ogni Cultura è sempre [spread|E] verso una specifica Innovazione che verrà scoperta molto più rapidamente.\n\nInoltre, il [culture_head|E] può impostare un’altra (o la stessa) Innovazione come [cultural_fascination|E] per un ulteriore impulso."
@@ -2473,7 +2476,6 @@ game_concept_accolade_possessive: "dell'Encomio"
  game_concept_accolades:0 "Encomi"
 game_concept_acclaimed: "Acclamato"
 
-game_concept_acclaimed_knight_possessive: "del Cavaliere Acclamato"
 
  game_concept_accolade_type:0 "Attributo dell'Encomio"
  game_concept_accolade_types:0 "Attributi dell'Encomio"
@@ -2486,10 +2488,6 @@ game_concept_acclaimed_knight_possessive: "del Cavaliere Acclamato"
 game_concept_accolade_rank_desc: 1 "Un [accolade|e] possiede #value 6#! Ranghi progressivi che permettono al suo proprietario di sbloccare e migliorare i bonus degli [accolade_type|e], come i [knight_army_modifiers|e].\n\nOttenere [glory|E] sblocca ciascun Rango, mentre perdere Gloria può farli decadere. Quando un Encomio perde un Rango, un livello di un [accolade_type|E] viene disabilitato. Recuperare il Rango ripristinerà l'Attributo e il suo bonus."
 
  game_concept_glory:0 "Gloria"
-
-game_concept_accolade_squires: "Scudieri"
-game_concept_accolade_squire: "Scudiero"
-game_concept_accolade_squires_desc: "Ogni [accolade|E] possiede un indicatore di Attitudine degli Scudieri, che modifica i [traits|E] e le [skills|E] (principalmente [prowess_skill|E], [martial_skill|E] e la [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )]) del suo prossimo [acclaimed_knight|E].\n\nEsistono 5 livelli di Attitudine per gli Scudieri:\n$EFFECT_LIST_BULLET$Compiuta\n$EFFECT_LIST_BULLET$Capace\n$EFFECT_LIST_BULLET$Inesperta\n$EFFECT_LIST_BULLET$Inetta\n$EFFECT_LIST_BULLET$Patetica\n\nAvere un'Attitudine Inesperta o superiore farà sì che il Cavaliere Acclamato influenzi sporadicamente i [traits|E] e le [skills|E] dei giovani [courtiers|E] di genere marziale, dando loro priorità nell'assumere l'Encomio al momento della [accolade_succession|E]\n\nGli Scudieri migliorano principalmente tramite il guadagno di [glory|E], ma anche tramite:\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$La [martial_skill|E] del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$Il guadagno di [trait_level_track_xp|E] di [GetTrait('tourney_participant').GetName( GetNullCharacter )] da parte del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$Il guadagno di [trait_level_track_xp|E] di [GetTrait('lifestyle_blademaster').GetName( GetNullCharacter )] da parte del Cavaliere Acclamato\n$EFFECT_LIST_BULLET$La [martial_skill|E] del [liege|E] dell'Encomio\n$EFFECT_LIST_BULLET$La [prowess_skill|E] del [liege|E] dell'Encomio\n\nOgni [accolade_succession|E] reimposta gli Scudieri dell'Encomio."
 
  game_concept_tax_collector: "Esattore delle Tasse"
  game_concept_tax_collector_desc: "Un $game_concept_tax_collector$ permette alle [tax_jurisdictions|E] di funzionare.\n\nLa loro [aptitude|E] determina la quantità di [taxes|E] e [levies|E] che riscuotono per il loro [liege|E]."

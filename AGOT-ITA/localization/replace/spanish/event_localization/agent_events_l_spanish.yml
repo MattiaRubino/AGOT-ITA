@@ -116,9 +116,9 @@ agent_events.2011.a: "Quel/la piccol[Select_CString(relation.IsFemale,'a','o')] 
  agent_events.3011.b: "[Select_CString(relation.IsFemale,'Una vera','Un vero')] [ROOT.Char.Custom2('RelationToMeShort',SCOPE.sC('relation'))] non mi chiederebbe questo."
  agent_events.3011.c: "L'unica via d'uscita è andare fino in fondo, [relation.GetFirstNameNoTooltip]..."
 
- agent_events.3021.t: "Una Famiglia Unita"
- agent_events.3021.desc: "È un po' strano che [relation.Custom2('MyCharacterIntroduction', ROOT.Char)] e io siamo [Select_CString(And(ROOT.Char.IsFemale, relation.IsFemale),'state riunite','stati riuniti')] a tal modo a causa di questo [scheme.Custom('GetSchemeContract')] nei confronti di [scheme.GetName].\n\nTuttavia, mi piace il fatto che lavoriamo insieme su un compito comune, verso il medesimo obiettivo. Siamo meno spesso in errore e più spesso ottenuamo risultati. Inolre, abbiamo sempre qualcosa di cui parlare.\n\nSono felice di averl[relation.Custom('DE_END_PRO_S_N')]
- agent_events.3021.a: "Felicità familiare..."
+ agent_events.3021.t: "La famiglia che resta unita"
+ agent_events.3021.desc: "È un po' strano che [relation.Custom2('MyCharacterIntroduction', ROOT.Char)] e io veniamo riuniti così per questo [scheme.Custom('GetSchemeContract')] volto a [scheme.GetName].\n\nEppure, c'è gioia da trovare in un compito comune, nel lavorare insieme verso un obiettivo. Le frustrazioni condivise si attenuano, i trionfi si moltiplicano, e c'è sempre qualcosa di cui parlare.\n\nSono lieto di aver coinvolt[Select_CString(relation.IsFemale,'a','o')] [Select_CString(relation.IsFemale,'lei','lui')] in questa impresa."
+ agent_events.3021.a: "Beatitudine familiare..."
 
  agent_events.3031.t: "Controversie"
  agent_events.3031.desc: ""Per [relation.GetFaith.HealthGodName], siete ancora [Select_CString(ROOT.Char.IsFemale,'la mia','il mio')] [relation.Custom2('RelationToMeShort',ROOT.Char)]? In questi giorni, il solo vedervi mi irrita a morte!" esclama [relation.GetFirstName].\n\nQuesta discussione è abbastanza tipica delle nostre interazioni degli ultimi tempi. Siamo costantemente ai ferri corti riguardo i nostri piani e i nostri metodi, interpretiamo le osservazioni dell'altro nel modo peggiore possibile e il minimo disaccordo si trasforma in una diatriba che dura ore.\n\nQualunque accordo avessi sperato di instaurare coinvolgendol[relation.Custom('DE_END_PRO_S_N')] in questo [scheme.Custom('GetSchemeContract')] sembra del tutto illusorio."
