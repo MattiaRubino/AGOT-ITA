@@ -1,4 +1,4 @@
-version="5.00"
+version="5.02"
 tags={
 	"Translation"
     "ita"
@@ -6,5 +6,5 @@ tags={
     "traduzione"
 }
 name="AGOT-ITA"
-supported_version="1.*.*.*"
+supported_version="1.19.0.5"
 remote_file_id="3312224934"

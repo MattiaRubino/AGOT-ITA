@@ -82,11 +82,11 @@ CHARACTER_FIRSTNAME_POSSESSIVE_TOOLTIP: 0 "#ONCLICK:CHARACTER,[CHARACTER.GetID] 
  # Tyrion Lannister, 'the Imp'
   CHARACTER_FIRSTNAME_SURNAME_NICKNAME_TOOLTIP:0 "#ONCLICK:CHARACTER,[CHARACTER.GetID] #TOOLTIP:CHARACTER,[CHARACTER.GetID] #L $CHARACTER_FIRSTNAME_SURNAME_NICKNAME$#!#!#!"
  
-  AGOT_TITLE_SCOPE_NAME:0 "[title_scope.GetNameNoTierNoTooltip]"
-  TITLE_SUFFIX:0 " #medium di [TARGET_TITLE.GetNameNoTierNoTooltip]#!"
-  TITLE_SUFFIX_NO_FORMAT:0 " di [TARGET_TITLE.GetNameNoTierNoTooltip]"
-  PAST_TITLE_SUFFIX:0 " #medium di [TARGET_TITLE.GetNameNoTierNoTooltip]#!"
-  PAST_TITLE_SUFFIX_NO_FORMAT:0 " di [TARGET_TITLE.GetNameNoTierNoTooltip]"
+ AGOT_TITLE_SCOPE_NAME:0 "[title_scope.GetNameNoTierNoTooltip]"
+ TITLE_SUFFIX:0 " #medium of [title_suffix_scope.GetNameNoTierNoTooltip]#!"
+ TITLE_SUFFIX_NO_FORMAT:0 " of [title_suffix_scope.GetNameNoTierNoTooltip]"
+ PAST_TITLE_SUFFIX:0 " #medium of [TARGET_TITLE.GetNameNoTierNoTooltip]#!"
+ PAST_TITLE_SUFFIX_NO_FORMAT:0 " of [TARGET_TITLE.GetNameNoTierNoTooltip]"
  
 AGOTGetTitleDowager: 0 "[Localize(get_title_dowager)][Localize(get_title)]"
 AGOTGetTitleRegent: 0 "[Localize(get_title)][Localize(get_title_regent)]"
@@ -130,8 +130,7 @@ LADY_SCION: 0 "Lady"
   BASTARD_SURNAME_STONE:0 " Stone"
   BASTARD_SURNAME_STORM:0 " Storm"
   BASTARD_SURNAME_WATERS:0 " Waters"
- #REGULAR_SURNAME:0 " [CHARACTER.GetHouse.GetBaseNameNoTooltip]"
-  REGULAR_SURNAME:0 " [CHARACTER.GetHouse.GetBaseNameNoTooltip]"
+  REGULAR_SURNAME:0 " [ROOT.Char.GetHouse.GetBaseNameNoTooltip]"
 
   BASTARD_BORN: "Bastardo"
   TWIN_BORN:0 "Gemello"

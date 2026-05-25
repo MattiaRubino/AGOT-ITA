@@ -3,7 +3,7 @@
  ### Wolf Den ###
 
   agot_colonization_events.1001.t:0 "[obstacle_province.GetNameNoTooltip]: Affrontare i lupi"
-  agot_colonization_events.1001.desc:0 "I miei esploratori setacciano da giorni [obstacle_province.Custom('TerrainTypeProvince')] di [obstacle_province.GetName].\n\nLa maggior parte è tornata a mani vuote; alcuni non sono tornati affatto. Comincio a domandarmi se questa presunta tana dei lupi esista davvero, o se i lupi che si aggirano per queste terre siano frutto di qualche magia o diavoleria.\n\nInfine, il mio ultimo esploratore si presenta al mio cospetto, con gli abiti laceri e lo sguardo scosso.\n\n"Mio [ROOT.Char.GetLadyLord], l'ho trovata! La tana è ben celata nelle profondità di [obstacle_province.Custom('TerrainTypeProvince')], e i lupi là sono molti e feroci.\""
+  agot_colonization_events.1001.desc:0 "I miei esploratori setacciano da giorni [obstacle_province.Custom('TerrainTypeProvince')] di [obstacle_province.GetName].\n\nLa maggior parte è tornata a mani vuote; alcuni non sono tornati affatto. Comincio a domandarmi se questa presunta tana dei lupi esista davvero, o se i lupi che si aggirano per queste terre siano frutto di qualche magia o diavoleria.\n\nInfine, il mio ultimo esploratore si presenta al mio cospetto, con gli abiti laceri e lo sguardo scosso.\n\n"Mio [ROOT.Char.GetLadyLord], l'ho trovata! La tana è ben celata nelle profondità di [obstacle_province.Custom('TerrainTypeProvince')], e i lupi là sono molti e feroci.""
   agot_colonization_events.1001.a:0 "Me ne occuperò io stesso."
   agot_colonization_events.1001.a.duel_success:0 "Sconfiggi i lupi"
   agot_colonization_events.1001.a.duel_failure:0 "VienI sopraffatt[Select_CString(CHARACTER.IsFemale,'a','o')] dai lupi"
@@ -73,7 +73,7 @@
   agot_colonization_events.1006.b.duel_failure:0 "La tana dei lupi resiste"
 
   agot_colonization_events.1007.t:0 "[obstacle_province.GetNameNoTooltip]: Ululati dalle colline"
-  agot_colonization_events.1007.desc:0 "Un messaggero giunge alla mia corte recando notizie dall'insediamento di [obstacle_province.GetName]. Le nuove sono buone, eppure, quando il messaggero conclude il suo rapporto, riporta una richiesta da parte dei villani: sebbene abbiano scacciato la maggior parte dei lupi dall'insediamento, un branco considerevole permane ancora sulle colline a qualche miglio dal villaggio. Chiedono il mio aiuto per distruggerli una volta per tutte.\n\nIl mio [steward.Custom('GetCouncilOrCourtPosition')] interviene: "Se i lupi sono stati davvero ricacciati sulle colline, a miglia dall'insediamento, credo vi sia poco bisogno che ci intromettiamo. I lupi finiranno per andarsene da soli.\""
+  agot_colonization_events.1007.desc:0 "Un messaggero giunge alla mia corte recando notizie dall'insediamento di [obstacle_province.GetName]. Le nuove sono buone, eppure, quando il messaggero conclude il suo rapporto, riporta una richiesta da parte dei villani: sebbene abbiano scacciato la maggior parte dei lupi dall'insediamento, un branco considerevole permane ancora sulle colline a qualche miglio dal villaggio. Chiedono il mio aiuto per distruggerli una volta per tutte.\n\nIl mio [steward.Custom('GetCouncilOrCourtPosition')] interviene: "Se i lupi sono stati davvero ricacciati sulle colline, a miglia dall'insediamento, credo vi sia poco bisogno che ci intromettiamo. I lupi finiranno per andarsene da soli.""
   agot_colonization_events.1007.a:0 "Non correremo rischi. Invierò l'aiuto necessario."
   agot_colonization_events.1007.b:0 "Devo dar ragione a [steward.GetFirstName], i lupi ormai rappresentano poca minaccia."
   agot_colonization_events.1007.success.toast.t:0 "I lupi si disperdono naturalmente"
@@ -379,7 +379,7 @@
   agot_colonization_events.1503.b.duel_failure:0 "I tuoi soldati cadono in una trappola. Pochi tornano vivi"
   agot_colonization_events.1503.c:0 "Offrite moneta perché se ne vadano."
   agot_colonization_events.1503.c.duel_success:0 "Prendono l'oro e svaniscono nelle nebbie"
-  agot_colonization_events.1503.c.duel_failure:0 "Prendono l'oro e ti ringraziano per la tua "donazione\""
+  agot_colonization_events.1503.c.duel_failure:0 "Prendono l'oro e ti ringraziano per la tua "donazione""
   agot_colonization_events.1503.d:0 "Se li lasciamo in pace, certo faranno lo stesso..."
   agot_colonization_events.1503.success.toast.t:0 "Residui pirati eliminati"
   agot_colonization_events.1503.failure.toast.t:0 "I residui pirati permangono"

@@ -138,8 +138,8 @@ TAX_SLOT_OVERVIEW_WINDOW_HEADER: "Le tue [tax_jurisdictions|E]"
 TAX_SLOT_OVERVIEW_WINDOW_TOTAL_CONTRIBUTION: "Contributo Totale:"
 TAX_SLOT_OVERVIEW_WINDOW_DESC: "Assegna i [vassals|E] del tuo [clan|E] alle [tax_jurisdictions|E] per gestire il loro contributo. Gli [tax_collector|E] e i [tax_decrees|E] di ogni giurisdizione determineranno quanto saranno tassati i [vassals|E]."
 
-TAX_SLOT_OVERVIEW_WINDOW_TAX_SLOTS_WARNING: "Hai [Character.GetTaxSlotsWithoutTaxCollectorCount] [untaxed_jurisdictions|E]"
-TAX_SLOT_OVERVIEW_WINDOW_UNASSIGNED_VASSALS_WARNING: "Hai [Character.GetUntaxedJurisdictionCount] [unassigned_vassals|E]"
+TAX_SLOT_OVERVIEW_WINDOW_TAX_SLOTS_WARNING: "Hai [Character.GetUntaxedJurisdictionCount] [untaxed_jurisdictions|E]"
+TAX_SLOT_OVERVIEW_WINDOW_UNASSIGNED_VASSALS_WARNING: "Hai [Character.GetUnassignedVassalsCount] [unassigned_vassals|E]"
 TAX_SLOT_OVERVIEW_WINDOW_TOTAL_SUB_HEADER: "Giurisdizioni fiscali #medium [GetDataModelSize( ValueBreakdown.GetSubValues )]/[Character.GetMaxTaxSlotsCount]#!"
 TAX_SLOT_OVERVIEW_WINDOW_RETURN_BUTTON: "Ritorna al Regno"
 
