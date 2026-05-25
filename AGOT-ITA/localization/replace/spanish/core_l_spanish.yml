@@ -1,5 +1,5 @@
 ﻿l_spanish:
- #start AGOT modofiche
+ #start AGOT modifiche
  CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
  CHARACTER_DEBUG_TOOLTIP:2 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], ID Storico: [CHARACTER.GetHistoryId|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilità: [CHARACTER.GetFertility|%0V], Salute: [CHARACTER.GetHealth|1V], Stress: [CHARACTER.GetStress|0V]\nPeso Base: [CHARACTER.GetBaseWeight], Peso Target: [CHARACTER.GetTargetWeight], Peso Attuale: [CHARACTER.GetCurrentWeight]\n"
  LOADSCREEN_INITIALIZING_GAME:0 "Volando attraverso Westeros..."

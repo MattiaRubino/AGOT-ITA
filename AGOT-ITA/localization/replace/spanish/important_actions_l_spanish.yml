@@ -1,7 +1,12 @@
 ﻿l_spanish:
- #start AGOT modofiche
+ #start AGOT modifiche
  action_empty_accolade_slot_unimportant:1 "@warning_icon! #X Il Capitano potrebbe anche essere un Successore valido per un'Accolade esistente"
  action_empty_accolade_slot_click:0 "#I Clicca per visualizzare i tuoi Capitani#!"
+ action_send_child_to_university_desc:1 "Puoi mandare tuo figlio all'Università\n\n#help Nel tuo [realm|E] esiste un [building|E] di un [holy_site|E], come [GetBuilding('holy_site_cathedral_01').GetName], oppure il [building|E] [GetBuilding('generic_university').GetName]! Mandare lì un figlio per la sua educazione è vantaggioso, poiché migliorerà il suo [education_trait|E] quando diventerà [adult|E].\n\nTuttavia, potresti già avere in mente un [guardian|E] specifico.#!"
+ action_send_guardian_to_university_desc:0 "Puoi mandare tuo figlio all'Università\n\n#help Nel [realm|E] del bambino esiste un [building|E] di un [holy_site|E], come [GetBuilding('holy_site_cathedral_01').GetName], oppure il [building|E] [GetBuilding('generic_university').GetName]! Mandare lì un figlio per la sua educazione è vantaggioso, poiché migliorerà il suo [education_trait|E] quando diventerà [adult|E].\n\nTuttavia, ha bisogno di un [guardian|E] che lo guidi.#!"
+ action_accolade_can_spend_attribute_click: "#I Clicca per visualizzare i Capitani#!"
+ action_can_train_knights_contract: "Puoi addestrare Capitani per completare il Contratto"
+
  #End AGOT modifiche
 
  IMPORTANT_ACTION_CLICK_TO_HIDE:0 "#I Clicca per nascondere tutto#!"
@@ -366,13 +371,11 @@ action_in_treasury_debt_click: "$action_in_debt_click$"
  action_send_child_to_university:1 "@child_icon! Manda Figlio all'Università"
  action_send_child_to_university_label:1 "@child_icon! Manda Figlio all'Università"
  action_send_child_to_university_click:1 "#I Clicca per inviare tuo figlio all'Università#!"
-action_send_child_to_university_desc: 1 "Puoi mandare tuo figlio all'Università\n\n#help Nel tuo [realm|E] esiste un [building|E] di [holy_site|E], come [GetBuilding('holy_site_cathedral_01').GetName], un [building|E] [GetBuilding('generic_university').GetName] o la [realm_capital|E] di [GetTitleByKey('h_china').GetName]! Mandarvi un figlio per la sua istruzione è vantaggioso, poiché migliorerà il suo [education_trait|E] quando diventerà [adult|E].\n\nTuttavia, potresti avere già in mente un [guardian|E] specifico.#!"
  action_send_child_to_university_unimportant:1 "@warning_icon! #X Non hai abbastanza [gold|E] per pagare l'educazione#!"
 
  action_send_guardian_to_university:0 "$action_send_child_to_university$"
  action_send_guardian_to_university_label:0 "$action_send_child_to_university_label$"
  action_send_guardian_to_university_click:1 "$action_send_child_to_university_click$"
-action_send_guardian_to_university_desc: 0 "Puoi mandare tuo figlio all'Università\n\n#help Nel [realm|E] del figlio esiste un [building|E] di [holy_site|E], come [GetBuilding('holy_site_cathedral_01').GetName], un [building|E] [GetBuilding('generic_university').GetName] o la [realm_capital|E] di [GetTitleByKey('h_china').GetName]! Mandarvi un figlio per la sua istruzione è vantaggioso, poiché migliorerà il suo [education_trait|E] quando diventerà [adult|E].\n\nTuttavia, avrà bisogno di un [guardian|E] che lo guidi.#!"
  action_send_guardian_to_university_unimportant:0 "$action_send_child_to_university_unimportant$"
 
  action_send_child_to_your_university:0 "$action_send_child_to_university$"
@@ -723,7 +726,6 @@ action_accolade_can_spend_attribute: "@acclaimed_knight_icon! L'[accolade|e] pu�
 action_accolade_can_spend_attribute_label: "@acclaimed_knight_icon! [recipient.GetNameNoTooltip] può essere migliorato"
 action_accolade_can_spend_attribute_desc: "[recipient.GetName] ha almeno un [accolade_type|e] disponibile.$action_accolade_can_spend_attribute_HELP$"
 action_accolade_can_spend_attribute_HELP: "\n\n#help [recipient.GetNameNoTooltip] ha ottenuto abbastanza [glory|e] da aumentare il proprio [accolade_rank|e], ottenendo lo sblocco di un [accolade_type|e] aggiuntivo."
-action_accolade_can_spend_attribute_click: "#I Clicca per visualizzare i Cavalieri#!"
 action_accolade_can_spend_attribute_combined_label: 0 "@acclaimed_knight_icon! [recipient.GetNameNoTooltip] può essere migliorato"
 action_accolade_can_spend_attribute_combined_group_label: 0 "@acclaimed_knight_icon! Puoi migliorare gli Encomi"
 action_accolade_can_spend_attribute_combined_group_name: 0 "@acclaimed_knight_icon! Gli [accolades|e] possono essere migliorati"
@@ -898,7 +900,6 @@ action_can_start_join_war_contract_label: "@war_icon! Puoi unirti alla guerra [t
  action_can_start_join_war_contract_click: "#I Clicca per unirti a una guerra#!"
  action_can_start_join_war_contract_combined_group_label: "Puoi Unirti alle Guerre per Completare i Contratti"
  action_can_start_join_war_contract_combined_label: "$action_can_start_join_war_contract_label$"
- action_can_train_knights_contract: "Puoi addestrare i Cavalieri per completare il Contratto"
  action_can_train_knights_contract_label: "Puoi addestrare i [recipient.Custom('KnightCulturePlural')] di [recipient.GetShortUIName]"
  action_can_train_knights_contract_desc: "$task_contract_train_knight_interaction_desc$"
  action_can_train_knights_contract_click: "#I Clicca per aprire l'interazione di un personaggio#!"

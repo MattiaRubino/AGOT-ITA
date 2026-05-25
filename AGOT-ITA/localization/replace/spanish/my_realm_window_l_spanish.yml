@@ -1,9 +1,10 @@
 ﻿l_spanish:
- #start AGOT modofiche
+ #start AGOT modifiche
  MY_REALM_WINDOW_LAWS_PROVINCIAL_LAWS_DESC: "Solo il [top_liege|E] può modificare le leggi Provinciali"
  MY_REALM_ADMIN_LAWS_HEADER: "Governo di [GetPlayer.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]"
  MY_REALM_WINDOW_LINE_OF_SUCCESSION_ORDERED_NAME: "#bold [LineOfSuccessionItem.GetOrder|V]#!  #high [Character.Custom('AGOTCustomGetTitledFullNameDynasty')]#!, "
- 
+ MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetShortUIName]"
+ MY_REALM_WINDOW_LIEGE_NAME: "[liege|E] : [Character.GetShortUIName]"
  #End AGOT modifiche
 
  MY_REALM_WINDOW_TITLE:0 "Il Mio Regno"
@@ -306,8 +307,6 @@ MY_REALM_WINDOW_SUBJECT_STANDING_TT: "[SubjectContract.GetSubject.Custom('Subjec
  is_kurultai_succession_chaotic_empty_kurultai: "$is_kurultai_succession_chaotic_empty_kurultai_none$ #weak ([root_scope.MakeScope.ScriptValue('mpo_missing_kurultai_value')|V0])#!"
  is_kurultai_succession_chaotic_empty_kurultai_none: "You have empty positions in your [kurultai|E]"
 
-MY_REALM_WINDOW_SUZERAIN_NAME: "[suzerain|E] : [Character.GetSuzerain.GetShortUIName]"
-MY_REALM_WINDOW_LIEGE_NAME: "[liege|E] : [Character.GetLiege.GetShortUIName]"
 
 SUBJECT_CONTRACT_OBLIGATIONS_TITLE_BARTER_GOODS: "Beni di Baratto"
 CANT_CHANGE_LAW_TOOLTIP: "Nessuna [succession_laws|E] aggiuntiva disponibile"

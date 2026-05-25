@@ -2,6 +2,8 @@
  #start AGOT modifiche
  HOUSE_VIEW_FOUNDED:0 "Fondata nel $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$ da [AGOTGetFullName(DynastyHouse.GetFounder)]"
  HOUSE_LIST_FOUNDATION:0 "Fondata nel $YEAR_SEL_DYNFOUND$ $ERA_SEL_DYNFOUND$"
+ DYNASTY_HOUSE_TT_HEAD_OF_HOUSE:1 "[house_head|E]: [AGOTGetName(DynastyHouse.GetHeadOfHouse)|V]"
+ HOUSE_LIST_HEAD:0 "[house_head|E]: [AGOTGetLongUIName(DynastyHouse.GetHeadOfHouse)]"
  #End AGOT modifiche
 
  DYNASTY_VIEW_CONCEPT:3 "[dynasty|E] della Casata [DynastyHouse.GetBaseNameNoTooltip]"
@@ -39,7 +41,6 @@ HOUSE_VIEW_DOMICILE_LOCATION: "Posizione: [Domicile.GetLocation.GetBaronyNameExp
  HOUSE_VIEW_MOTTO:1 ""[DynastyHouse.GetMotto]""
  HOUSE_VIEW_PLAYER_IS_MEMBER:1 "La Tua [house|E]"
 HOUSE_VIEW_NON_PLAYER_MEMBER: "Casata di [Character.GetShortUIName|U]"
- DYNASTY_HOUSE_TT_HEAD_OF_HOUSE:1 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.LocalPlayerString( 'Tu', 'Loc_FR_du_GetName' )]"
  DYNASTY_HOUSE_TT_DYNASTY:0 "[dynasty|E]: [DynastyHouse.GetDynasty.GetBaseName]"
  DYNASTY_HOUSE_TT_DYNASTY_LEVEL:0 "[dynasty_prestige_level|E]: [DynastyHouse.GetDynasty.GetPrestigeLevelName]"
  DYNASTY_HOUSE_TT_LIVING_MEMBERS:0 "Membri in Vita: [DynastyHouse.GetNumberOfMembers|V]"
@@ -73,7 +74,6 @@ DYNASTY_PRESTIGE_LEVEL_EFFECT: 1 "• I figli nascono con [prestige_i]$BIRTH|V0$
  HOUSE_LIST_FOUNDING:0 "Casata Fondatrice"
  HOUSE_LIST_CADET:0 "[cadet_branch|E]"
  HOUSE_LIST_MEMBERS:0 "Membri in vita: [DynastyHouse.GetNumberOfMembers]"
- HOUSE_LIST_HEAD:0 "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetName]"
  HOUSE_MODIFIERS:1 "Modificatori della Casata:"
  DYNASTY_MODIFIERS:1 "Modificatori della Dinastia:"
  HOUSE_UNITY_MODIFIERS: "Modificatori:"

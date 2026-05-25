@@ -1,5 +1,5 @@
 ﻿l_spanish:
- #start AGOT modofiche
+ #start AGOT modifiche
  child_personality.7010.desc:0 "«Ascoltate le mie parole, bambini. Oggi vi parlerò di [ROOT.Char.GetFaith.HighGodName], di [ROOT.Char.GetFaith.PositiveAfterLife], di [ROOT.Char.GetFaith.NegativeAfterLife], e persino di #EMP [ROOT.Char.GetFaith.DevilName]#! [ROOT.Char.GetFaith.DevilHerselfHimself]!» esclama [sermon_priest.Custom('AgotGetPriestFirstName')], con il fervore che arde nei suoi occhi.\n\nIo e gli altri bambini restiamo incantati dal suo sermone; chi avrebbe mai detto che il [ROOT.Char.GetFaith.ReligiousText] potesse essere così #EMP affascinante!#!\n\nQuando il sermone finisce, devo dire a [sermon_priest.Custom('AgotGetPriestFirstNameNoTooltip')] cosa ne penso."
  child_personality.7010.a:0 "«La mia fede in [ROOT.Char.GetFaith.HighGodName|U] non vacillerà #EMP mai#!, [sermon_priest.Custom('AgotGetPriestFirstNameNoTooltip')]!»"
  child_personality.7011.desc:0 "Oggi [sermon_priest.Custom('AgotGetPriestFirstName')] ha tenuto un sermone infuocato per tutti i bambini della corte, e pare che fossero incantati mentre [Select_CString(sermon_priest.IsFemale,'lei','lui')] leggeva con zelo dal [sermon_priest.GetFaith.ReligiousText].\n\n[Select_CString(child.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] "

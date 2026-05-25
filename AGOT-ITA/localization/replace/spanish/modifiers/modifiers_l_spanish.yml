@@ -12,6 +12,8 @@
  farmlands_tax_mult:0 "$MOD_TAX_MULT$ nelle Praterie"
  farmlands_levy_size:0 "$MOD_LEVY_SIZE$ nelle Praterie"
  farmlands_supply_limit_mult:0 "$MOD_SUPPLY_LIMIT_MULT$ nelle Praterie"
+ farmlands_fertility_growth_add: "Crescita della [county_fertility|E] nei Prati [terrain|E]"
+ farmlands_fertility_decline_add: "Declino della [county_fertility|E] nei Prati [terrain|E]"
  #End AGOT modifiche
 
  MOD_DIPLOMACY:0 "[diplomacy|E]"
@@ -1715,9 +1717,7 @@ terraced_hills_barter_goods_mult: "[barter_goods|E] in [GetTerrain( 'terraced_hi
  plains_fertility_decline_add: "[county_fertility|E] Decline in Plains [terrain|E]"
  plains_fertility_decline_mult: "$plains_fertility_decline_add$"
 
- farmlands_fertility_growth_add: "[county_fertility|E] Growth in Farmlands [terrain|E]"
  farmlands_fertility_growth_mult: "$farmlands_fertility_growth_add$"
- farmlands_fertility_decline_add: "[county_fertility|E] Decline in Farmlands [terrain|E]"
  farmlands_fertility_decline_mult: "$farmlands_fertility_decline_add$"
 
  hills_fertility_growth_add: "[county_fertility|E] Growth in Hills [terrain|E]"

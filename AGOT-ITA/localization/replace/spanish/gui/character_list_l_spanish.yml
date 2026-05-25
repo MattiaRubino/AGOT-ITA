@@ -1,4 +1,9 @@
 ﻿l_spanish:
+ #start AGOT modifiche
+ CHARACTER_FINDER_NAME: "[AGOTGetLongUINameNoTooltip(Character)|UV]"
+ CHARACTER_FINDER_NAME_RELATION: "[AGOTGetUINameNoTooltip(Character)|UV] • [Character.GetRelationToString( GetPlayer )]"
+ #End AGOT modifiche
+
 
  age_filter_category:0 "Età"
  adult_filter:0 "Adulti"
@@ -304,6 +309,3 @@ steppe_admin_government_filter_option_desc: "Mostra solo personaggi con [steppe_
 meritocratic_government_filter_option_desc: "Mostra solo personaggi con [meritocratic|E] [government|E]"
 japan_administrative_government_filter_option_desc: "Mostra solo personaggi con [japan_administrative|E] [government|E]"
 japan_feudal_government_filter_option_desc: "Mostra solo personaggi con [japan_feudal|E] [government|E]"
-
-CHARACTER_FINDER_NAME: "[Character.GetUINameNoTooltip|U]"
-CHARACTER_FINDER_NAME_RELATION: "[Character.GetShortUINameNoTooltip|U] • [Character.GetRelationToString( GetPlayer )]"
