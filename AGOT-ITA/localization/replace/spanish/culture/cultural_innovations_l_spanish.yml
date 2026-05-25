@@ -17,6 +17,11 @@
  
  #End AGOT modifiche
 
+#start AGOT Disabled
+  # culture_parameter_silk_road_innovation_parameter: "Può essere acquisita come potenziale [cultural_fascination|E] solo tramite [GetCulturePillar('heritage_chinese').GetName] [heritage|E], la [GetCultureTradition('tradition_sinophilic').GetName] [tradition|E] o la [silk_road|E]"
+#end AGOT Disabled
+
+
   cb_discount_prestige_10:1 "Costo in [prestige|E] per il [casus_belli|E]: #P -10%#![prestige_i]"
   cb_discount_piety_10:1 "Costo in [piety|E] per il [casus_belli|E]: #P -10%#![piety_i]"
   individual_county_de_jure_cb:0 "[county|E] [de_jure|E] Individuale"
@@ -385,7 +390,6 @@ innovation_ermine_cloaks_desc: "Chiunque può rivendicare un titolo, ma per esse
  # The Silk Road #
  #################
 
-  culture_parameter_silk_road_innovation_parameter: "Può essere acquisita come potenziale [cultural_fascination|E] solo tramite [GetCulturePillar('heritage_chinese').GetName] [heritage|E], la [GetCultureTradition('tradition_sinophilic').GetName] [tradition|E] o la [silk_road|E]"
 
   innovation_fire_medicine: "Medicina di fuoco"
   innovation_fire_medicine_desc: "Indagare i misteri della vita può talvolta portare a scoperte che generano solo morte. La medicina di fuoco, una potente combinazione di zolfo, salnitro e materiale combustibile, crea una fiamma letale che brucia con furia, quasi esplosiva."

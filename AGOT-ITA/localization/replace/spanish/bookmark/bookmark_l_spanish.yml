@@ -1,11 +1,7 @@
 ﻿l_spanish:
  #start AGOT modofiche
  CHALLENGE_CHARACTER_SUGGESTION: "#high;bold [Glossary( 'Sala dei Volti', 'FACE_OF_THE_WEEK_GLOSS' )]#!"
- BOOKMARK_CHARACTER_TITLE_TYPE:0 "[BookmarkCharacter.GetTitleTierName] "[BookmarkCharacter.GetTitleName]" #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
- BOOKMARK_CHARACTER_TITLE_TYPE_NOMAD_HIGH_CHIEFTAIN: "$duke_tribal_male$ "[BookmarkCharacter.GetTitleName]" #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
- BOOKMARK_CHARACTER_TITLE_TYPE_NOMAD_CHIEFTAIN_OR_KHAN: "[SelectLocalization(EqualTo_int32( BookmarkCharacter.GetTier, '(int32)3'), '$count_tribal_male|q$', '$king_feudal_male_altaic_group|q$' )] "[BookmarkCharacter.GetTitleName]" #weak [BookmarkCharacter.GetGovernmentType.GetNameWithIcon]#!"
  BOOKMARK_CHARACTER_TITLE_DATA:0 "[primary_title|E]: #V [BOOKMARK_CHARACTER.GetTitleTierName|U] '[BOOKMARK_CHARACTER.GetTitleName]'#!"
- NOMAD_BOOKMARK_CHARACTER_TITLE_CHIEFTAIN_OR_KHAN: "[SelectLocalization(EqualTo_int32( BookmarkCharacter.GetTier, '(int32)3'), '$count_tribal_male|q$', '$king_feudal_male_altaic_group|q$' )] "[BookmarkCharacter.GetTitleName]""
  BOOKMARK_SUBHEADING_DEFAULT: "[BookmarkCharacter.GetTitleTierName] "[BookmarkCharacter.GetTitleName]""
  BOOKMARK_SUBHEADING_DEFAULT_WITH_THE: "[BookmarkCharacter.GetTitleTierName] "[BookmarkCharacter.GetTitleName]""
  BOOKMARK_SUBHEADING_ADVENTURER: "Il [BookmarkCharacter.GetTitleName]"

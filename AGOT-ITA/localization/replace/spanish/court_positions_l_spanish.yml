@@ -23,6 +23,13 @@
 
  #End AGOT modifiche
 
+#start AGOT Disabled
+  # court_position_poet_is_advancement: "Membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
+  # court_position_liege_is_advancement: "Il signore è membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
+  # court_position_varangian_trait: "[GetTrait('varangian').GetName( ROOT.Char )]"
+#end AGOT Disabled
+
+
   APPOINT_COURT_POSITION_VIEW_select_character_header: "Nomina [AppointCourtPositionView.GetPositionName]"
 APPOINT_COURT_POSITION_VIEW_EMPLOYER_SALARY: "Salario: [CourtPositionType.GetEmployerSalaryTextFor( Character.Self )|V]"
 APPOINT_COURT_POSITION_VIEW_EMPLOYEE_SALARY: "Salario: [CourtPositionType.GetEmployeeSalaryTextFor( Character.Self )|V]"
@@ -382,8 +389,6 @@ court_position_no_poet_trait: "Non #bold possiede#! il [trait|E] [GetTrait('life
   court_position_tgp_dynasty_legacy: "[GetDynastyPerk( 'tgp_chinese_legacy_5' ).GetName]"
   court_position_surveyor_trait: "[GetTrait('lifestyle_surveyor').GetName( ROOT.Char )]"
 
-  court_position_poet_is_advancement: "Membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
-  court_position_liege_is_advancement: "Il signore è membro di [GetSituation('dynastic_cycle').GetTopParticipantGroupByKey( 'advancement_movement' ).GetName]"
   court_position_tradition_poetry:0 "[culture_tradition|E] $tradition_poetry_name$"
   court_position_tradition_horse_lords:0 "[culture_tradition|E] $tradition_horse_lords_name$"
   court_position_tradition_caravaneers:0 "[culture_tradition|E] $tradition_caravaneers_name$"
@@ -504,8 +509,6 @@ champion_improve_self_fallback_tt: "Ogni mese questo personaggio ha la possibili
   food_taster_court_position_desc:1 "Un $food_taster_court_position$ ha il solenne dovere di assicurarsi che il piatto del suo signore non venga mai toccato dal veleno, e se qualche polvere o liquido nefasto dovesse comunque entrare nel pasto... Beh, è per questo che l'assaggiatore deve assaggiare il cibo prima che inizi il pasto."
   lady_in_waiting_court_position:0 "Dama di Compagnia"
 
-  executioner_court_position:0 "Boia"
-  executioner_court_position_desc:1 "I boia sono criminali che, in cambio della loro libertà, devono giustiziare tutti i nemici del trono. Alcuni lo chiamano un onore, altri un peso."
   executioner_terrify_court: "Terrorizzare la Corte"
   executioner_terrify_court_desc: "Questo personaggio viene fatto sfilare a corte per assicurarsi che tutti sappiano di essere a un solo passo dal ceppo."
 
@@ -624,7 +627,6 @@ wet_nurse_instill_virtue_fallback_tt: "I [children|E] a [court|E] possono ottene
   charioteer_training_tt: "Il $charioteer_court_position$ guadagnerà gradualmente esperienza per il suo [trait|e] di #high auriga#!"
 
   court_position_fickle: "[GetTrait('fickle').GetName( ROOT.Char )]"
-  court_position_varangian_trait: "[GetTrait('varangian').GetName( ROOT.Char )]"
   court_position_hird: "La sua [culture|e] ha la [tradition|e] della [GetCultureTradition('tradition_hird').GetName]"
   court_position_fp1_performative_honour: "La sua [culture|e] ha la [tradition|E] della [GetCultureTradition('tradition_fp1_performative_honour').GetName]"
 
