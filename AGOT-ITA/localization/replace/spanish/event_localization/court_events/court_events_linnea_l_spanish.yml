@@ -9,7 +9,7 @@
  court.5001.d:0 "Ha bisogno di un incarico che [friend.Custom('DE_PRO_POS_P_3P')] tenga occupat[friend.Custom('DE_END_PRO_S_N')]."
 
  court.5010.t:0 "Il Fantasma"
-court.5010.desc: 0 "Sempre più servitori dagli occhi sgranati vengono da me, sostenendo di aver visto [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)] aggirarsi per i corridoi.\n\n«[Select_CString(family_member.IsFemale,'Lei','Lui')|U] non trova pace, [ROOT.Char.Custom('FormOfAddressForLiege')]. Per questo vaga nel luogo della sua fine!»"
+court.5010.desc:0 "Sempre più servitori dagli occhi sgranati vengono da me, sostenendo di aver visto [family_member.Custom2('MyCharacterIntroduction', ROOT.Char)] aggirarsi per i corridoi.\n\n«[Select_CString(family_member.IsFemale,'Lei','Lui')|U] non trova pace, [ROOT.Char.Custom('FormOfAddressForLiege')]. Per questo vaga nel luogo della sua fine!»"
  court.5010.a:0 "Basta con queste idiozie, [family_member.GetSheHe] è mort[family_member.Custom('DE_END_PRO_S_N')] e sepolt[family_member.Custom('DE_END_PRO_S_N')]!"
  court.5010.b:0 "È un onore che ci faccia visita, non disturbatel[family_member.Custom('DE_END_PRO_S_N')]."
  court.5010.c:0 "Chiederò a qualcuno di indagare."
@@ -71,7 +71,7 @@ court.5010.desc: 0 "Sempre più servitori dagli occhi sgranati vengono da me, so
  court.5042.a:0 "Era solo uno scherzo!"
 
  court.5050.t:0 "Un Cortigiano Disprezzato"
-court.5050.desc: 2 "«Perché onorare quell[Select_CString(courtier_given_title.IsFemale,'a','o')] [courtier_given_title.Custom2('InsultNoun', SCOPE.sC('courtier'))] [courtier_given_title.Custom('IT_NAM_COL3')][courtier_given_title.GetTitledFirstName] con una carica a corte e non me?»\n\n[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è furios[Select_CString(courtier.IsFemale,'a','o')]. Pare che [Select_CString(courtier.IsFemale,'fosse certa','fosse certo')] che l’onore sarebbe toccato a [Select_CString(courtier.IsFemale,'lei','lui')] e a nessun altro."
+court.5050.desc:2 "«Perché onorare quell[Select_CString(courtier_given_title.IsFemale,'a','o')] [courtier_given_title.Custom2('InsultNoun', SCOPE.sC('courtier'))] [courtier_given_title.Custom('IT_NAM_COL3')][courtier_given_title.GetTitledFirstName] con una carica a corte e non me?»\n\n[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] è furios[Select_CString(courtier.IsFemale,'a','o')]. Pare che [Select_CString(courtier.IsFemale,'fosse certa','fosse certo')] che l’onore sarebbe toccato a [Select_CString(courtier.IsFemale,'lei','lui')] e a nessun altro."
  court.5050.a:0 "Oh, ma smettetela!"
  court.5050.b:1 "Avete ragione, meritate senz'altro una posizione a corte."
  court.5050.c:0 "Se avete intenzione di farmi divertire così, dovrei iniziare a pagarvi!"
@@ -84,7 +84,7 @@ court.5050.desc: 2 "«Perché onorare quell[Select_CString(courtier_given_title.
 
  court.5056.desc_opening:1 "[painter.Custom2('MyCharacterIntroduction', ROOT.Char)|U] il talento con il pennello cresce con ogni anno che passa; e così fa il suo interesse e la sua competenza in altre aree.\n\n"
  court.5056.desc_family:1 "«Grazie per aver creduto in me, [painter.Custom2('RelationToMeShort', ROOT.Char )]."
-court.5056.desc: 0 "«Grazie per aver creduto in me e nel mio talento, [ROOT.Char.Custom('FormOfAddressForLiege')]."
+court.5056.desc:0 "«Grazie per aver creduto in me e nel mio talento, [ROOT.Char.Custom('FormOfAddressForLiege')]."
  court.5056.desc_ending:1 "Ho un nuovo progetto che vorrei iniziare, forse siete interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] ad essere di nuovo [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] benefat[ROOT.Char.Custom('DE_END_NOU_S_GS_N')]?»"
  court.5056.a:1 "Ma certo!"
  court.5056.b:0 "Ora sei abbastanza grande da trovare la tua strada nella vita."
@@ -96,7 +96,7 @@ court.5056.desc: 0 "«Grazie per aver creduto in me e nel mio talento, [ROOT.Cha
  court.5060.t:0 "Il galante $knight_culture_player_no_tooltip$"
  court.5060.desc:0 "[knight.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha eccelso durante le nostre recenti battaglie e la mia corte è in fermento per l'eccitazione; che $knight_culture_player_no_tooltip_lowercase$ realizzato, che modello di comportamento, che #EMP [knight.GetWomanMan]#!!\n\nCon tutte le lodi che piovono su di [knight.GetHerHim] è chiaro che ci si aspetti che io l[knight.Custom('DE_END_PRO_S_N')] ricompensi ufficialmente in qualche maniera."
  court.5060.a:0 "Ehh... parlerò bene di [knight.GetHerHim]."
-court.5060.b: 0 "[knight.GetFirstNameNoTooltip] [Select_CString(knight.IsFemale,'è la nuova','è il nuovo')] [knight.GetLadyLord] del [title_to_grant.GetNameNoTooltip]!"
+court.5060.b:0 "[knight.GetFirstNameNoTooltip] [Select_CString(knight.IsFemale,'è la nuova','è il nuovo')] [knight.GetLadyLord] del [title_to_grant.GetNameNoTooltip]!"
  court.5060.c:0 "Una stirpe di $knight_culture_player_no_tooltip_lowercase$ degnissima di lode!"
  court.5060.d.champion:0 "[knight.GetSheHe|U] servirà come mio $champion_court_position$!"
  court.5060.d.bodyguard:0 "[knight.GetSheHe|U] servirà come mio $bodyguard_court_position$!"
@@ -110,8 +110,8 @@ court.5060.b: 0 "[knight.GetFirstNameNoTooltip] [Select_CString(knight.IsFemale,
 
  court.5075.t:0 "Due Palafreni"
  court.5075.desc_opening:0 "[neighbor.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi ha fatto un regalo graziosissimo: una coppia di buona razza, una giumenta e uno stallone!\n\n"
-court.5075.desc_horse_master: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», [master_of_the_horse.Custom2('MyCharacterIntroduction', ROOT.Char)] mi fa cenno di avvicinarmi al/la [dummy_gender.Custom('HorseMareStallion')]."
-court.5075.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», il mio maestro di scuderia mi fa cenno di avvicinarmi al/la [dummy_gender.Custom('HorseMareStallion')]."
+court.5075.desc_horse_master:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», [master_of_the_horse.Custom2('MyCharacterIntroduction', ROOT.Char)] mi fa cenno di avvicinarmi al/la [dummy_gender.Custom('HorseMareStallion')]."
+court.5075.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», il mio maestro di scuderia mi fa cenno di avvicinarmi al/la [dummy_gender.Custom('HorseMareStallion')]."
  court.5075.desc_ending:0 ""Guardate questi muscoli... E quei quarti posteriori! Questo cavallo servirebbe bene in guerra.""
  court.5075.a:0 "Serviranno i signori e le signore di corte."
  court.5075.b:0 "E potremo vendere entrambi a buon prezzo!"

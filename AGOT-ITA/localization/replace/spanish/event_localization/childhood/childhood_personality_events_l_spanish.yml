@@ -54,7 +54,7 @@
 
  child_personality.0008.t:0 "Una Festa per i Sensi"
  child_personality.0008.desc:0 "Essere ad una festa suscita una miriade di sensazioni. La gente parla, l'odore di ogni tipo di cibo mi riempie la testa. Gli ospiti indossano abiti bellissimi, i servitori portano piatti a non finire e...\n"
-child_personality.0008.serving_wench: 0 "\nChe significava quel cenno d'occhio della serva poco fa?"
+child_personality.0008.serving_wench:0 "\nChe significava quel cenno d'occhio della serva poco fa?"
  child_personality.0008.servant_boy:0 "\nQual era il significato dell'occhiolino di quel servo?"
  child_personality.0008.desc_not_server:1 "\nNon riesco a capacitarmi di quanto tutto sia impressionante! Che meravigliosa dimostrazione di potenza."
  child_personality.0008.a:0 "È tutto fantastico!"
@@ -90,8 +90,8 @@ child_personality.0008.serving_wench: 0 "\nChe significava quel cenno d'occhio d
 
  child_personality.0021.t:0 "Personalità Emergente"
  child_personality.0021.desc:0 "Una delle poche consolazioni della mia prigionia è guardare le persone, anche se attraverso le sbarre"
-child_personality.0021.serving_wench: 0 "– ogni mattina spero di riuscire a gettare anche solo uno sguardo a quella bella serva."
-child_personality.0021.servant_boy: 0 "– ogni mattina spero di riuscire a gettare anche solo uno sguardo a quel bel servitore."
+child_personality.0021.serving_wench:0 "– ogni mattina spero di riuscire a gettare anche solo uno sguardo a quella bella serva."
+child_personality.0021.servant_boy:0 "– ogni mattina spero di riuscire a gettare anche solo uno sguardo a quel bel servitore."
  child_personality.0021.desc_no_gender:0 "– ogni mattina spero di poter dare anche una sola occhiata a quei servi bellissimi."
  child_personality.0021.a:0 "La mia immaginazione farà il resto..."
 
@@ -101,7 +101,7 @@ child_personality.0021.servant_boy: 0 "– ogni mattina spero di riuscire a gett
  child_personality.0023.desc:0 "Non so mai quando riceverò il prossimo pasto, quindi, quando mi viene dato un piatto divoro tutto ciò che c'è senza esitazione, indipendentemente dalla quantità.\n\nSolo quando sono sazio mi sento a mio agio."
  child_personality.0023.a:0 "È una delle poche gioie che ho!"
 
-child_personality.0024.desc: 0 "Non so mai quando avrò il prossimo pasto, così quando mi viene dato un piatto mi impongo di razionare il cibo e accontentarmi di ciò che ricevo.\n\nAll'inizio è stato difficile, ma ora mi viene naturale."
+child_personality.0024.desc:0 "Non so mai quando avrò il prossimo pasto, così quando mi viene dato un piatto mi impongo di razionare il cibo e accontentarmi di ciò che ricevo.\n\nAll'inizio è stato difficile, ma ora mi viene naturale."
  child_personality.0024.a:0 "La moderazione è la chiave."
 
  child_personality.0025.desc:0 "Un cucchiaio gettato via, un sassolino luccicante, un piatto rotto ... Una volta mi sarei fatto beffe di simili ninnoli, ma mi sono reso conto che nulla è davvero inutile!"
@@ -116,7 +116,7 @@ child_personality.0024.desc: 0 "Non so mai quando avrò il prossimo pasto, così
  child_personality.0028.desc:0 "Dietro qeuste sbarre, i miei giorni si susseguono indistintamente. Mi sveglio, cammino, - e si spera - mangio...\n\nPer riempire le mie giornate con qualcosa ho imparato ad assegnarmi dei compiti e portarli a termine."
  child_personality.0028.a:0 "La diligenza è la chiave!"
 
-child_personality.0029.desc: 0 "Le guardie smorfiose che seguono ogni mio passo, l'[imprisoner.Custom2('InsultAdjective', ROOT.Char)] [imprisoner.Custom2('InsultNoun', ROOT.Char)] [imprisoner.Custom('IT_NAM_COL3')][imprisoner.GetTitledFirstName] che mi tiene rinchius[Select_CString(ROOT.Char.IsFemale,'a','o')], i ratti che sgusciano negli angoli bui... Dentro di me cresce una rabbia che si fa più forte ogni giorno che passa!"
+child_personality.0029.desc:0 "Le guardie smorfiose che seguono ogni mio passo, l'[imprisoner.Custom2('InsultAdjective', ROOT.Char)] [imprisoner.Custom2('InsultNoun', ROOT.Char)] [imprisoner.Custom('IT_NAM_COL3')][imprisoner.GetTitledFirstName] che mi tiene rinchius[Select_CString(ROOT.Char.IsFemale,'a','o')], i ratti che sgusciano negli angoli bui... Dentro di me cresce una rabbia che si fa più forte ogni giorno che passa!"
  child_personality.0029.a:0 "Io ... solo ... ARGH!"
 
  child_personality.0030.desc:0 "C'è poco che possa fare cambiare la mia situazione, sia quotidianamente che in senso lato. C'è poco da fare e poco da dire."
@@ -359,7 +359,7 @@ child_personality.0029.desc: 0 "Le guardie smorfiose che seguono ogni mio passo,
  child_personality.111.fickle_change:0 "Dovrei insegnar[child.Custom('DE_PRO_DEM')] ad avere un modo di pensare più flessibile."
  child_personality.111.trusting_change:0 "[child.GetFirstNameNoTooltip] deve imparare a prendermi in parola."
  child_personality.1121.t:0 "Sgusciare Via"
-child_personality.1122.t: 0 "Solitudine nella sala"
+child_personality.1122.t:0 "Solitudine nella sala"
  child_personality.1123.t:0 "Il Piccolo Buongustaio"
  child_personality.112.desc:0 "[child.GetTitledFirstName] sembra aver passato un momento difficile durante il nostro ultimo banchetto."
  child_personality.112.impatient:0 "È subito sgattaiolat[child.Custom('DE_END_PRO_S_N')] fuori e non è stat[child.Custom('DE_END_PRO_S_N')] più vist[child.Custom('DE_END_PRO_S_N')] per tutto il resto della serata."
@@ -393,7 +393,7 @@ child_personality.1122.t: 0 "Solitudine nella sala"
  child_personality.2005.desc:0 "[child.GetTitledFirstName] mi ha chiesto di giocare ed uscire insieme così tante volte, che alla fine ho dovuto chiarire che non ne avevo alcuna intenzione.\n\nSconsolat[child.Custom('DE_END_PRO_S_N')] all'inizio, ben presto è diventato evidente che non avrebbe rinunciato a cercare di piacermi."
  child_personality.2005.a:0 "[child.GetSheHe|U] avrebbe già dovuto smetterla!"
  child_personality.2005.b:0 "È carino che [child.GetSheHe] non si arrenda."
-child_personality.2005.c: 0 "[child.GetFirstNameNoTooltip]? Chi è?"
+child_personality.2005.c:0 "[child.GetFirstNameNoTooltip]? Chi è?"
 
  child_personality.2006.t:0 "Il Mio Salvatore"
  child_personality.2006.opening:0 "Stavo cercando di insegnare agli altri bambini quello che so di Dio quando hanno iniziato a prendermi in giro e ad alzare i pugni contro di me."
@@ -542,7 +542,7 @@ child_personality.2005.c: 0 "[child.GetFirstNameNoTooltip]? Chi è?"
  child_personality.9900.gregarious.desc:0 "una persona molto bravo a fare nuove amicizie,"
  child_personality.9900.ambitious.desc:0 "una persona destinata alla grandezza,"
  child_personality.9900.just.desc:0 "una persona corretta ed imparziale,"
-child_personality.9900.zealous.desc: 1 "un[Select_CString(child.IsFemale,'a','')] fedele seguace di [child.GetFaith.GetNameNoTooltip],"
+child_personality.9900.zealous.desc:1 "un[Select_CString(child.IsFemale,'a','')] fedele seguace di [child.GetFaith.GetNameNoTooltip],"
  child_personality.9900.compassionate.desc:0 "un anima gentile e cortese,"
  child_personality.9900.stubborn.desc:0 "una persona che non si arrende facilmente,"
  child_personality.9900.forgiving.desc:0 "una persona che non serba rancore,"
@@ -559,7 +559,7 @@ child_personality.9900.zealous.desc: 1 "un[Select_CString(child.IsFemale,'a','')
  child_personality.9900.sinful.gregarious.desc:0 "fin troppo amichevole,"
  child_personality.9900.sinful.ambitious.desc:0 "sempre a domandare nuovi giocattoli con cui giocare,"
  child_personality.9900.sinful.just.desc:0 "una persona convinta di essere migliore degli altri,"
-child_personality.9900.sinful.zealous.desc: 1 "un[Select_CString(child.IsFemale,'a','')] seguace ottus[Select_CString(child.IsFemale,'a','o')] di [child.GetFaith.GetNameNoTooltip],"
+child_personality.9900.sinful.zealous.desc:1 "un[Select_CString(child.IsFemale,'a','')] seguace ottus[Select_CString(child.IsFemale,'a','o')] di [child.GetFaith.GetNameNoTooltip],"
  child_personality.9900.sinful.compassionate.desc:0 "una persona accecata dall'empatia,"
  child_personality.9900.sinful.stubborn.desc:0 "una persona risolutamente testarda,"
  child_personality.9900.sinful.forgiving.desc:0 "una persona fin troppo pronta a perdonare,"

@@ -143,7 +143,7 @@
  game_concept_strong_vassals:0 "Vassalli Potenti"
  game_concept_strong_vassal_desc:0 "Un $game_concept_strong_vassal$ è un [vassal|E] che si avvicina o supera il proprio [liege|E] in potere, incorrendo in una penalità di [opinion|E]. #weak Vedono il loro signore come debole e inadatto a regnare il reame.#!"
  game_concept_domain_limit:0 "Limite del Dominio"
-game_concept_domain_limit_desc: 0 "Il $game_concept_domain_limit$ determina quante [holdings|E] puoi legalmente possedere nel tuo [domain|E]. Il $game_concept_domain_limit$ è influenzato da molti fattori, come la tua [succession_law|E] e il rango del tuo [primary_title|E].\n\nSebbene tu possa superare il tuo $game_concept_domain_limit$, farlo ridurrà il tuo [income|E] e le [opinions|E] dei [vassal|E]."
+game_concept_domain_limit_desc:0 "Il $game_concept_domain_limit$ determina quante [holdings|E] puoi legalmente possedere nel tuo [domain|E]. Il $game_concept_domain_limit$ è influenzato da molti fattori, come la tua [succession_law|E] e il rango del tuo [primary_title|E].\n\nSebbene tu possa superare il tuo $game_concept_domain_limit$, farlo ridurrà il tuo [income|E] e le [opinions|E] dei [vassal|E]."
  game_concept_vassal_limit:0 "Limite dei Vassalli"
  game_concept_vassal_limit_desc:2 "Il $game_concept_vassal_limit$ determina quanti [direct_vassals|E] tu possa avere legalmente (escludendo i vassalli del livello-[barony|E]).\n\nSebbene tu possa andare oltre il tuo $game_concept_vassal_limit$, fare ciò ridurrà le [taxes|E] e le [levies|E] che ricevi dai tuoi vassalli, e potrebbe essere meglio eseguire il [transferring|E] di alcuni vassalli per rimanere sotto il limite."
  game_concept_leasing:0 "Affitto"
@@ -208,7 +208,7 @@ game_concept_player_heir_desc: "Il $game_concept_player_heir$ è l'[heir|E] con 
 game_concept_law_desc: "Le Leggi di un [realm|E] determinano come quel Reame è strutturato.\n\nLa più fondamentale è la [crown_authority|E] del reame (o [tribal_authority|E] per le [tribes|E], [imperial_bureaucracy|E] per gli [administrative|E] e [nomadic_authority|E] per i [nomads|E]), poiché queste Leggi regolano come [lieges|E] e [vassals|E] interagiscono abitualmente.\n\nPur avendo meno impatto sulla vita quotidiana dei [rulers|E] di un reame, le [succession_laws|E] e le [title_laws|E] restano fondamentali da considerare per la [succession|E]."
  game_concept_succession_law:0 "Legge di Successione"
  game_concept_succession_laws:0 "Leggi per la Successione"
-game_concept_succession_law_desc: 2 "Ogni [ruler|E] ha una Legge di Successione principale che determina che cosa accade ai [titles|E] alla [succession|E].\n\nInoltre, un titolo individuale può talvolta avere una propria [title_succession|E] che prevale su quella predefinita. Per esempio, il Sacro Romano Impero può essere elettivo anche se l’imperatore ha la Partizione come Legge di Successione principale.\n\nPuoi cambiare la Legge di Successione solo al livello appropriato di [crown_authority|E]."
+game_concept_succession_law_desc:2 "Ogni [ruler|E] ha una Legge di Successione principale che determina che cosa accade ai [titles|E] alla [succession|E].\n\nInoltre, un titolo individuale può talvolta avere una propria [title_succession|E] che prevale su quella predefinita. Per esempio, il Sacro Romano Impero può essere elettivo anche se l’imperatore ha la Partizione come Legge di Successione principale.\n\nPuoi cambiare la Legge di Successione solo al livello appropriato di [crown_authority|E]."
  game_concept_religious_head_succession_law:0 "Legge di Successione del Capo della Fede"
  game_concept_religious_head_succession_law_short:0 "Legge del Capo della Fede"
  game_concept_religious_head_succession_laws:0 "Legge di Successione del Capo della Fede"
@@ -380,7 +380,7 @@ game_concept_hegemon_desc: "Un $game_concept_hegemon$ è un [ruler|E] il cui [pr
  game_concept_liege_desc:0 "Un $game_concept_liege$ è un [ruler|E] con almeno un [vassal|E]. I signori possono essere a loro volta Vassalli di Governanti di rango ancora più alto, e così via."
  game_concept_rightful_liege:0 "Signore di Diritto"
  game_concept_rightful_liege_desc:1 "$game_concept_rightful_liege_desc_part1$\n\n$game_concept_rightful_liege_desc_part2$"
-game_concept_rightful_liege_desc_part1: 1 "Il $game_concept_rightful_liege$ di un [vassal|E] è il [ruler|E] che detiene il [liege|E] [title|E] diretto [de_jure|E] del [primary_title|E] del $game_concept_vassal$. Se un $game_concept_vassal$ non dipende dal proprio $game_concept_rightful_liege$, contribuirà con meno [taxes|E] e [levies|E] e subirà anche una penalità di [opinion|E] verso il proprio $game_concept_liege$. Detenere un $game_concept_title$ di [title_tier|E] superiore del medesimo $game_concept_de_jure$ riduce le penalità.\n\nFanno eccezione i [dukes|E] che fanno parte della gerarchia [de_jure|E] di un [empire|E] e sono vassalli diretti del loro $game_concept_emperor$, i quali contribuiscono comunque pienamente, come se l’$game_concept_emperor$ detenesse il loro $game_concept_de_jure$ $game_concept_kingdom$ $game_concept_title$."
+game_concept_rightful_liege_desc_part1:1 "Il $game_concept_rightful_liege$ di un [vassal|E] è il [ruler|E] che detiene il [liege|E] [title|E] diretto [de_jure|E] del [primary_title|E] del $game_concept_vassal$. Se un $game_concept_vassal$ non dipende dal proprio $game_concept_rightful_liege$, contribuirà con meno [taxes|E] e [levies|E] e subirà anche una penalità di [opinion|E] verso il proprio $game_concept_liege$. Detenere un $game_concept_title$ di [title_tier|E] superiore del medesimo $game_concept_de_jure$ riduce le penalità.\n\nFanno eccezione i [dukes|E] che fanno parte della gerarchia [de_jure|E] di un [empire|E] e sono vassalli diretti del loro $game_concept_emperor$, i quali contribuiscono comunque pienamente, come se l’$game_concept_emperor$ detenesse il loro $game_concept_de_jure$ $game_concept_kingdom$ $game_concept_title$."
  game_concept_rightful_liege_desc_part2:0 "#weak Esempio: Il Conte di $c_dunbar$ è un vassallo diretto del Re d'$k_england$. Poiché il Re non è né Duca di $d_lothian$, Re di $k_scotland$, o Imperatore di $e_britannia$, il Conte di $c_dunbar$ contribuisce solo con una piccola quantità di tasse e leve.\n\nIl Conte di $c_norfolk$ è inoltre un vassallo diretto del Re d'$k_england$. Il Re non detiene il Ducato di $d_norfolk$, pertanto anche il Conte contribuisce con meno tasse e leve. Tuttavia, poiché l'$k_england$ è il Regno De Jure di $c_norfolk$, il Conte di $c_norfolk$ fornisce comunque al Re un numero significativamente maggiore di tasse e leve rispetto a quanto faccia il Conte di $c_dunbar$.#!"
  game_concept_megaduke_penalty:0 "Sovraestensione"
  game_concept_megaduke_penalty_desc:1 "Quando hai più di [GetDefine('NCharacter', 'MAX_COUNTIES_IN_REALM_AS_DUKE')] [counties|E] nel tuo [realm|E] in quanto [duke|E], subisci una Penalità per la $game_concept_megaduke_penalty$, la quale riduce le entrate derivanti dalle [taxes|E].\n\nOttenene il [rank|E] di [king|E] o [emperor|E] rimuove questa penalità."
@@ -578,8 +578,8 @@ game_concept_house_head_desc: "Ogni [house|E] all’interno di una [dynasty|E] h
  game_concept_concubinage:0 "Concubinato"
  game_concept_concubine:0 "Concubina"
  game_concept_concubines:0 "Concubine"
-game_concept_concubine_male: 0 "Concubino"
-game_concept_concubine_female: 0 "Concubina"
+game_concept_concubine_male:0 "Concubino"
+game_concept_concubine_female:0 "Concubina"
  game_concept_concubinage_desc:0 "Una Concubina è una condizione inferiore a quella di [spouse|E], permesso nelle [faiths|E] con la [doctrine|E] [GetFaithDoctrine('doctrine_concubines').GetBaseName].\n\nA differenza del [marriage|E], il Concubinaggio non produce [alliances|E]. Le Concubine possono inoltre essere messe da parte secondo la propria volontà, senza le complicazioni di un [divorce|E]. I figli delle Concubine sono considerati [legitimate|E].\n\nIl Concubinaggio si esclude a vicenda con la [GetFaithDoctrine('doctrine_polygamy').GetBaseName]."
  game_concept_bastard:0 "Bastardo"
  game_concept_bastards:0 "Bastardi"
@@ -765,7 +765,7 @@ game_concept_fort_level_desc: "Alcune [holdings|E] sono fortificate e devono ess
  game_concept_stewardship:0 "Amministrazione"
  game_concept_stewardship_i:0 "@skill_stewardship_icon!"
  game_concept_stewardship_skill:0 "Abilità Amministrativa"
-game_concept_stewardship_skill_desc: 1 "$game_concept_stewardship$ è una [skill|E] che aiuta i [rulers|E] a gestire i propri [domains|E]. Aumenta direttamente la [taxation|E], rendendola un'abilità molto utile per tutti i governanti.\n\nIl [lifestyle|E] corrispondente è lo [stewardship_lifestyle|E]."
+game_concept_stewardship_skill_desc:1 "$game_concept_stewardship$ è una [skill|E] che aiuta i [rulers|E] a gestire i propri [domains|E]. Aumenta direttamente la [taxation|E], rendendola un'abilità molto utile per tutti i governanti.\n\nIl [lifestyle|E] corrispondente è lo [stewardship_lifestyle|E]."
  game_concept_intrigue:0 "Intrigo"
  game_concept_intrigue_i:0 "@skill_intrigue_icon!"
  game_concept_intrigue_skill:0 "Abilità d'Intrigo"
@@ -1398,7 +1398,7 @@ game_concept_court_desc: "Ogni [ruler|E] ha una $game_concept_court$, composta d
  game_concept_title_ranks:0 "Ranghi"
  game_concept_ranks:0 "Ranghi"
 game_concept_title_tier_desc: "Equivalente territoriale del [rank|E] del titolo, il $game_concept_title_tier$ determina la posizione di un [title|E] nella gerarchia di gioco.\n\nTutti i Titoli hanno un Grado, che determina il grado più alto di [vassals|E] che il [holder|E] può avere.\n\n[hegemony|E] > [empire|E] > [kingdom|E] > [duchy|E] > [county|E] > [barony|E]."
-game_concept_title_rank_desc: 0 "Equivalente personale del [title_tier|E], il $game_concept_title_rank$ determina la posizione di un [ruler|E] nella gerarchia del gioco.\n\nTutti i Gradi di Titolo hanno un Rango associato, che determina il Rango massimo dei [vassals|E] che il [holder|E] può avere.\n\n[hegemon|E] > [emperor|E] > [king|E] > [duke|E] > [count|E] > [baron|E]."
+game_concept_title_rank_desc:0 "Equivalente personale del [title_tier|E], il $game_concept_title_rank$ determina la posizione di un [ruler|E] nella gerarchia del gioco.\n\nTutti i Gradi di Titolo hanno un Rango associato, che determina il Rango massimo dei [vassals|E] che il [holder|E] può avere.\n\n[hegemon|E] > [emperor|E] > [king|E] > [duke|E] > [count|E] > [baron|E]."
  game_concept_clergy:0 "Clero"
  game_concept_clergy_desc:1 "[court_chaplains|E], [realm_priests|E], i Governanti [Concept( 'theocratic', 'teocratici' )|E], e chiunque abbia il tratto [GetTrait('devoted').GetName( GetNullCharacter )] vengono considerati membri del Clero.\n\nLe [doctrines|E] della [faith|E] determinano chi possa essere un membro del Clero, e se i membri del clero possano sposarsi, ereditare terre, ecc."
  game_concept_church_property:0 "Possedimenti della Chiesa"
@@ -1423,10 +1423,10 @@ game_concept_title_rank_desc: 0 "Equivalente personale del [title_tier|E], il $g
  game_concept_eras:0 "Ere"
  game_concept_innovation:0 "Innovazione"
  game_concept_innovations:0 "Innovazioni"
-game_concept_innovation_desc: 0 "Le Innovazioni sono tecnologie e altri progressi che avvantaggiano tutti i personaggi di una certa [culture|E]. Le Innovazioni sono raggruppate nelle [eras|E] in cui possono essere scoperte.\n\nAttraverso il contatto con Culture confinanti, ogni Cultura è sempre [spread|E] verso una specifica Innovazione che verrà scoperta molto più rapidamente.\n\nInoltre, il [culture_head|E] può impostare un’altra (o la stessa) Innovazione come [cultural_fascination|E] per un ulteriore impulso."
+game_concept_innovation_desc:0 "Le Innovazioni sono tecnologie e altri progressi che avvantaggiano tutti i personaggi di una certa [culture|E]. Le Innovazioni sono raggruppate nelle [eras|E] in cui possono essere scoperte.\n\nAttraverso il contatto con Culture confinanti, ogni Cultura è sempre [spread|E] verso una specifica Innovazione che verrà scoperta molto più rapidamente.\n\nInoltre, il [culture_head|E] può impostare un’altra (o la stessa) Innovazione come [cultural_fascination|E] per un ulteriore impulso."
  game_concept_cultural_fascination:0 "Fascinazione Culturale"
  game_concept_fascination:0 "Fascinazione"
-game_concept_cultural_fascination_desc: 0 "Ogni cultura è sempre affascinata da una specifica [innovation|E], il che aumenta enormemente la velocità di scoperta a un ritmo che dipende dalle [skills|E] dell’attuale [culture_head|E]. Ogni Innovazione beneficia di un’Abilità specifica.\n\nIl Capo Cultura può cambiare liberamente la Fascinazione Culturale."
+game_concept_cultural_fascination_desc:0 "Ogni cultura è sempre affascinata da una specifica [innovation|E], il che aumenta enormemente la velocità di scoperta a un ritmo che dipende dalle [skills|E] dell’attuale [culture_head|E]. Ogni Innovazione beneficia di un’Abilità specifica.\n\nIl Capo Cultura può cambiare liberamente la Fascinazione Culturale."
  game_concept_cultural_spread: "Cultural Spread"
  game_concept_spread: "Spread"
 game_concept_cultural_spread_desc: "Il contatto con altre [cultures|E] che hanno [innovations|E] non ancora scoperte farà sì che una di quelle $game_concept_innovations$ venga scoperta più rapidamente. Tra le [cultures|E] idonee sarà selezionata quella con la [cultural_acceptance|E] più alta per diffondere i progressi dell'[innovation|E]."
@@ -1972,11 +1972,11 @@ game_concept_command_modifiers: "Modificatori al comando"
  game_concept_physical_trait_desc:1 "Un [trait|E] che descrive l'aspetto fisico, legato all'apparenza o al comportamento, e al livello di intelletto che ha un personaggio. Molte caratteristiche fisiche condizionano quanto siano [Concept( 'attracted', 'attratti' )|E] da lui gli altri personaggi.\n\nQuesto tratto è spesso [congenital|E], pertanto è ottenuto alla nascita ed è permanente."
 
  game_concept_fame_trait:0 "Tratto della Fama"
-game_concept_fame_traits: 0 "Tratti di Fama"
+game_concept_fame_traits:0 "Tratti di Fama"
  game_concept_fame_trait_desc:1 "Un $game_concept_fame_trait$ è un [trait|E] speciale ottenuto tramite specifiche circostanze e che condiziona l'[opinion|E] degli altri. Si possono ottenere questi tratti come risultato di un'azione positiva, o quando i [secrets|E] oscuri di qualcuno vengono esposti. Oppure come risultato delle circostanze della nascita di qualcuno."
 
  game_concept_health_trait:0 "Tratto della Salute"
-game_concept_health_trait_desc: 1 "Un $game_concept_health_trait$ è un [trait|E] che influenza direttamente la [health|E] fisica e mentale di un individuo, come le [diseases|E]. Anche i tratti temporanei che influenzano le capacità corporee, come gravidanze e ferite, rientrano in questa categoria.\n\nI [characters|E] anziani possono ottenere [Concept( 'elder_traits', 'Tratti da Anziano' )|E]."
+game_concept_health_trait_desc:1 "Un $game_concept_health_trait$ è un [trait|E] che influenza direttamente la [health|E] fisica e mentale di un individuo, come le [diseases|E]. Anche i tratti temporanei che influenzano le capacità corporee, come gravidanze e ferite, rientrano in questa categoria.\n\nI [characters|E] anziani possono ottenere [Concept( 'elder_traits', 'Tratti da Anziano' )|E]."
 
  game_concept_modifier_contribution:0 "Contributo"
  game_concept_modifier_contributions:0 "Contributi"
@@ -2001,8 +2001,8 @@ game_concept_health_trait_desc: 1 "Un $game_concept_health_trait$ è un [trait|E
  game_concept_personalities:0 "Personalità"
  game_concept_personality_desc:1 "I Personaggi agiranno contro di te e contro gli altri in base alla loro Personalità, che è principalmente determinata dai loro [personality_traits|E]."
  
-game_concept_economical_archetype: 0 "Archetipo Economico"
-game_concept_economical_archetype_desc: 0 "L'Archetipo Economico di un [rulerpossessive|E] influenza il modo in cui decide di spendere il proprio [gold_i][gold|E]. Si basa in larga parte sui suoi [traits|E].\n\n#low Gli Archetipi Economici sono:#!\n$EFFECT_LIST_BULLET$[ai_warlike_personality|E]\n$EFFECT_LIST_BULLET$[ai_cautious_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_boom_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_unpredictable_personality|E]\n$EFFECT_LIST_BULLET$[ai_conqueror_personality|E]"
+game_concept_economical_archetype:0 "Archetipo Economico"
+game_concept_economical_archetype_desc:0 "L'Archetipo Economico di un [rulerpossessive|E] influenza il modo in cui decide di spendere il proprio [gold_i][gold|E]. Si basa in larga parte sui suoi [traits|E].\n\n#low Gli Archetipi Economici sono:#!\n$EFFECT_LIST_BULLET$[ai_warlike_personality|E]\n$EFFECT_LIST_BULLET$[ai_cautious_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_boom_personality|E]\n$EFFECT_LIST_BULLET$[ai_economical_unpredictable_personality|E]\n$EFFECT_LIST_BULLET$[ai_conqueror_personality|E]"
  
  game_concept_gift:0 "Dono"
  game_concept_gifts:0 "Doni"
@@ -2107,7 +2107,7 @@ game_concept_economical_archetype_desc: 0 "L'Archetipo Economico di un [rulerpos
 
  game_concept_vassal_contract:0 "Contratto del Vassallo"
  game_concept_vassal_contracts:0 "Contratti dei Vassalli"
-game_concept_vassal_contract_desc: 0 "I $game_concept_vassal_contracts$ determinano le [obligations|E] tra un [vassal|E] e il suo [liege|E].\n\nI vassalli delle $game_concept_government_forms$ [feudal|E], [clan|E], [administrative|E] e [nomadic|E] hanno accesso a diverse [obligations|E], negoziate individualmente per ciascun Vassallo.\n\nTutti i Vassalli pagano al proprio Signore una percentuale dei loro [taxes|E] e [levies|E] totali, in base alle loro [obligations|E]. #EMP Questi [modifier_contributions|E] possono a loro volta essere modificati da opzioni di «postilla» come [GetSubjectContractType( 'fortification_rights' ).GetObligationName( 'fortification_rights_granted' )].#!\n\nAlcuni Patti speciali sono limitati a determinati Ranghi:\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )|V] e [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )|V]: [duke|E] e superiori\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_palatinate' )|V]: [count|E] e superiori\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )|V]: solo [count|E]\n\n#weak Nota: le [obligations|E] dei [governor|E] sono anche note come [province_administrations|E].#!"
+game_concept_vassal_contract_desc:0 "I $game_concept_vassal_contracts$ determinano le [obligations|E] tra un [vassal|E] e il suo [liege|E].\n\nI vassalli delle $game_concept_government_forms$ [feudal|E], [clan|E], [administrative|E] e [nomadic|E] hanno accesso a diverse [obligations|E], negoziate individualmente per ciascun Vassallo.\n\nTutti i Vassalli pagano al proprio Signore una percentuale dei loro [taxes|E] e [levies|E] totali, in base alle loro [obligations|E]. #EMP Questi [modifier_contributions|E] possono a loro volta essere modificati da opzioni di «postilla» come [GetSubjectContractType( 'fortification_rights' ).GetObligationName( 'fortification_rights_granted' )].#!\n\nAlcuni Patti speciali sono limitati a determinati Ranghi:\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_march' )|V] e [GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_scutage' )|V]: [duke|E] e superiori\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_palatinate' )|V]: [count|E] e superiori\n$EFFECT_LIST_BULLET$[GetSubjectContractType( 'special_contract' ).GetObligationName( 'special_contract_castellan' )|V]: solo [count|E]\n\n#weak Nota: le [obligations|E] dei [governor|E] sono anche note come [province_administrations|E].#!"
 
  game_concept_vassal_directive: "Direttiva del Vassallo"
  game_concept_vassal_directives: "Direttive del Vassallo"
@@ -2175,7 +2175,7 @@ game_concept_tributary_contract_desc: "Il $game_concept_tributary_contract$ dete
 #### DIARCHY/REGENCIES
  game_concept_strife:0 "Conflittualità"
  game_concept_strife_opinion:0 "Opinione per la Conflittualità"
-game_concept_strife_desc: 2 "$game_concept_strife$ è una penalità di [opinion|E] tra [vassals|E] pari grado.\n\nIl conflitto avviene quando un suddito del [liege|E] intraprende un’azione contro un altro [vassal|E]. Per esempio, il $game_concept_diarch$ usa i propri [diarch_powers|E], oppure negli eventi di [mandate|E], poiché il $game_concept_diarch$ non ha la stessa autorità del proprio [liege|E]"
+game_concept_strife_desc:2 "$game_concept_strife$ è una penalità di [opinion|E] tra [vassals|E] pari grado.\n\nIl conflitto avviene quando un suddito del [liege|E] intraprende un’azione contro un altro [vassal|E]. Per esempio, il $game_concept_diarch$ usa i propri [diarch_powers|E], oppure negli eventi di [mandate|E], poiché il $game_concept_diarch$ non ha la stessa autorità del proprio [liege|E]"
 
  game_concept_diarchy:0 "Condivisione del Potere"
  game_concept_diarchies:0 "Condivisione del Potere"
@@ -2411,9 +2411,9 @@ game_concept_ai_economical_boom_personality_desc: "Un $game_concept_ai_economica
 game_concept_ai_economical_unpredictable_personality_desc: "Un [ruler|E] $game_concept_ai_economical_unpredictable_personality$ non possiede [traits|E] che lo spingano verso uno specifico Archetipo Economico e può scegliere qualsiasi strategia.\n\nPuò decidere di investire temporaneamente molto nei [buildings|E] come una [ai_economical_boom_personality|E], oppure sviluppare lentamente il proprio [realm|E] mantenendo una riserva di [gold|E]. Va in [war|E] a un ritmo regolare."
 
  game_concept_trait_level_track:1 "Percorso del Tratto"
-game_concept_trait_level_track_desc: 1 "Alcuni [traits|E] offrono vari percorsi, ciascuno dei quali modificherà il Tratto in modi diversi.\n\nOttenere [trait_level_track_xp|E] è necessario per avanzare lungo un percorso."
+game_concept_trait_level_track_desc:1 "Alcuni [traits|E] offrono vari percorsi, ciascuno dei quali modificherà il Tratto in modi diversi.\n\nOttenere [trait_level_track_xp|E] è necessario per avanzare lungo un percorso."
  game_concept_trait_level_track_xp:1 "Esperienza del Tratto"
-game_concept_trait_level_track_xp_desc: 1 "È necessaria esperienza per avanzare lungo una [trait_level_track|E] e modificare i bonus forniti dal [trait|E]."
+game_concept_trait_level_track_xp_desc:1 "È necessaria esperienza per avanzare lungo una [trait_level_track|E] e modificare i bonus forniti dal [trait|E]."
  
  game_concept_hunt_sighting:0 "Avvistamento di Caccia"
  game_concept_hunt_sightings:0 "Avvistamenti di Caccia"
@@ -2482,7 +2482,7 @@ game_concept_acclaimed: "Acclamato"
  game_concept_accolade_rank:0 "Rango dell'Encomio"
  game_concept_accolade_ranks:0 "Ranghi dell'Encomio"
  game_concept_accolade_rank_short:0 "Rango"
-game_concept_accolade_rank_desc: 1 "Un [accolade|e] possiede #value 6#! Ranghi progressivi che permettono al suo proprietario di sbloccare e migliorare i bonus degli [accolade_type|e], come i [knight_army_modifiers|e].\n\nOttenere [glory|E] sblocca ciascun Rango, mentre perdere Gloria può farli decadere. Quando un Encomio perde un Rango, un livello di un [accolade_type|E] viene disabilitato. Recuperare il Rango ripristinerà l'Attributo e il suo bonus."
+game_concept_accolade_rank_desc:1 "Un [accolade|e] possiede #value 6#! Ranghi progressivi che permettono al suo proprietario di sbloccare e migliorare i bonus degli [accolade_type|e], come i [knight_army_modifiers|e].\n\nOttenere [glory|E] sblocca ciascun Rango, mentre perdere Gloria può farli decadere. Quando un Encomio perde un Rango, un livello di un [accolade_type|E] viene disabilitato. Recuperare il Rango ripristinerà l'Attributo e il suo bonus."
 
  game_concept_glory:0 "Gloria"
 
@@ -2515,7 +2515,7 @@ game_concept_accolade_rank_desc: 1 "Un [accolade|e] possiede #value 6#! Ranghi p
  game_concept_unassigned_vassal_desc: "I $game_concept_unassigned_vassals$ sono [vassals|E] del [clan|E] che non sono stati assegnati ad una [tax_jurisdiction|E] come [taxpayers|E], e pertanto non contribuiscono in [taxes|E] o [levies|E].\n\nUna volta assegnati a una $game_concept_tax_jurisdiction$ con un [tax_collector|E], inzieranno a pagare mensilmente."
 
  game_concept_retinue_maa:0 "Seguito di Uomini d'Arme"
-game_concept_retinue_maa_desc: 0 "Alcuni [accolade_types|E] danno accesso a [men_at_arms|E] speciali. Vengono sbloccati possedendo un [acclaimed_knight|E] con progressi nella [trait_level_track|E] rilevante di [GetTrait('tourney_participant').GetName( GetNullCharacter )] o con un [commander_trait|E] rilevante.\n\nI $game_concept_men_at_arms$ del seguito sono limitati a un solo [regiment|E]. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$."
+game_concept_retinue_maa_desc:0 "Alcuni [accolade_types|E] danno accesso a [men_at_arms|E] speciali. Vengono sbloccati possedendo un [acclaimed_knight|E] con progressi nella [trait_level_track|E] rilevante di [GetTrait('tourney_participant').GetName( GetNullCharacter )] o con un [commander_trait|E] rilevante.\n\nI $game_concept_men_at_arms$ del seguito sono limitati a un solo [regiment|E]. Sono due volte più efficaci nel contrastare altri $game_concept_men_at_arms$."
 
 
  game_concept_piety_level_impact:0 "Impatto del livello di devozione"

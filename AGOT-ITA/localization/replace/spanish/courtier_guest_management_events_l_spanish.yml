@@ -1,9 +1,9 @@
 ﻿l_spanish:
 courtier_guest_management.0001.t: 4 "[SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))|U] lascia la tua [liege.Custom('GetCourt')|U]"
-courtier_guest_management.desc: 0 "Il/la [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [Select_CString(CHARACTER.IsLocalPlayer,'tuo','di')] [child.GetShortUIName] non ha motivo di restare nella tua [liege.Custom('GetCourtConcept')] e presto partirà"
+courtier_guest_management.desc:0 "Il/la [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('child'))] [Select_CString(CHARACTER.IsLocalPlayer,'tuo','di')] [child.GetShortUIName] non ha motivo di restare nella tua [liege.Custom('GetCourtConcept')] e presto partirà"
 
-courtier_guest_management.0500.t: 0 "[SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))|U] lascia la tua [liege.Custom('GetCourt')|U]"
-courtier_guest_management.0500.desc: 0 "Il/la [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName], non ha motivo di restare nella tua [liege.Custom('GetCourtConcept')] e presto partirà con la [Select_CString(guest.IsFemale,'sua','sua')] famiglia"
+courtier_guest_management.0500.t:0 "[SCOPE.sC('host').Custom2('RelationToMeShort', SCOPE.sC('guest'))|U] lascia la tua [liege.Custom('GetCourt')|U]"
+courtier_guest_management.0500.desc:0 "Il/la [SCOPE.sC('liege').Custom2('RelationToMeShort', SCOPE.sC('guest'))], [guest.Custom('IT_NAM_COL3')][guest.GetTitledFirstName], non ha motivo di restare nella tua [liege.Custom('GetCourtConcept')] e presto partirà con la [Select_CString(guest.IsFemale,'sua','sua')] famiglia"
 
  courtier_guest_management.0102.t:0 "La Mia Ultima Possibilità"
  courtier_guest_management.0102.desc:0 "[courtier.GetTitledFirstName] ha deciso che il suo tempo in [capital.GetNameNoTierNoTooltip] è giunto al termine. I servi hanno impacchettato le sue cose e [courtier.GetSheHe] ha fatto i suoi saluti.\n\nInsieme a [courtier.GetTitledFirstNameNoTooltip] se ne va anche la sua rivendicazione su [courtier_claim.GetName]. Se voglio insistere e farl[courtier.Custom('DE_END_PRO_S_N')] diventare  mio vassallo, questa è l'ultima possibilità per farl[courtier.Custom('DE_END_PRO_S_N')] restare."

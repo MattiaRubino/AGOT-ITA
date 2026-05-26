@@ -9,8 +9,8 @@
  #Same religion/culture notifications
  councillor_spouse_learning.1003.religion.desc:0 "Il Coniuge media con i Sudditi di Fede [councillor.GetFaith.GetAdjectiveNoTooltip] "
  councillor_spouse_learning.1003.culture.desc:0 "Il Coniuge media con i Sudditi [councillor.GetCulture.GetNameNoTooltip] "
-councillor_spouse_learning.1301.t: 1 "[councillor.GetCouncilTitle]: Influenza la Conversione Religiosa"
-councillor_spouse_learning.1302.t: 1 "[councillor.GetCouncilTitle]: Influenza la Conversione Culturale"
+councillor_spouse_learning.1301.t:1 "[councillor.GetCouncilTitle]: Influenza la Conversione Religiosa"
+councillor_spouse_learning.1302.t:1 "[councillor.GetCouncilTitle]: Influenza la Conversione Culturale"
  councillor_spouse_learning.1303.desc:0 "Il Coniuge è il Benefattore dei Teologi"
 
  #General learning notifications
@@ -25,7 +25,7 @@ councillor_spouse_learning.1302.t: 1 "[councillor.GetCouncilTitle]: Influenza la
  add_patronage_spouse_education_points_child_effect.desc:0 "C'è una probabilità maggiore che mi[patronage_student.Custom('DE_END_PRO_S_N')] [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], riceva una buona [education|E] grazie alla tutela di [councillor.GetTitledFirstNamePossessive]."
  
  #Events
-councillor_spouse_learning.2601.t: 1 "[councillor.GetCouncilTitle]: Ulteriore Istruzione"
+councillor_spouse_learning.2601.t:1 "[councillor.GetCouncilTitle]: Ulteriore Istruzione"
  councillor_spouse_learning.2601.not_scholarly.desc:0 ""Non ti farebbe male leggere un libro una volta ogni tanto," mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], l[councillor.Custom('DE_END_PRO_S_N')] studios[councillor.Custom('DE_END_PRO_S_N')] [councillor.GetTitledFirstName], me lo dice spesso. [councillor.GetSheHe|U] si è offert[councillor.Custom('DE_END_PRO_S_N')] di essere mi[councillor.Custom('DE_END_PRO_S_N')] insegnante, se avessi bisogno di un po' di aiuto per iniziare."
  councillor_spouse_learning.2601.scholarly.desc:0 "Ogni volta che mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] mi trova chino su un tomo, [councillor.GetSheHe] si eccita visibilmente.\n\n"Vuoi qualche aiuto per i tuoi studi? Qualcuno con cui scambiare idee e pareri, o magari qualche nuovo tomo? Ho recentemente acquistato un volume con un'eccellente analisi su [ROOT.Char.Custom('education_conversation_subject')]!""
  councillor_spouse_learning.2601.a:0 "Sì, apprezzerei la tua guida."
@@ -36,8 +36,8 @@ councillor_spouse_learning.2601.t: 1 "[councillor.GetCouncilTitle]: Ulteriore Is
  councillor_spouse_learning_2601_tutoring_effect.success:0 "La comprensione di [THIS.Char.GetTitledFirstNameNoTooltip|U] riguardo la materia [THIS.Char.Custom('education_focus')] aumentata"
  
 
-councillor_spouse_learning.2001.faith.t: 1 "[councillor.GetCouncilTitle]: Dissidenti [councillor.GetFaith.GetAdjectiveNoTooltip]"
-councillor_spouse_learning.2001.culture.t: 1 "[councillor.GetCouncilTitle]: Dissidenti [councillor.GetCulture.GetNameNoTooltip]"
+councillor_spouse_learning.2001.faith.t:1 "[councillor.GetCouncilTitle]: Dissidenti [councillor.GetFaith.GetAdjectiveNoTooltip]"
+councillor_spouse_learning.2001.culture.t:1 "[councillor.GetCouncilTitle]: Dissidenti [councillor.GetCulture.GetNameNoTooltip]"
  councillor_spouse_learning.2001.start.desc:0 "[faction_leader.GetTitledFirstName] e il suo simpatizzante"
  councillor_spouse_learning.2001.faith.desc:0 "[councillor.GetFaith.GetAdjectiveNoTooltip]"
  councillor_spouse_learning.2001.culture.desc:0 "[councillor.GetCulture.GetNameNoTooltip]"
@@ -53,7 +53,7 @@ councillor_spouse_learning.2001.culture.t: 1 "[councillor.GetCouncilTitle]: Diss
  councillor_spouse_learning.2001.b:0 "Fai si che [faction_member_1.GetTitledFirstNameNoTooltip] lasci la fazione."
  councillor_spouse_learning.2001.c:0 "Convinci [faction_member_2.GetTitledFirstNameNoTooltip] a restarmi leale."
 
-councillor_spouse_learning.2301.t: 1 "[councillor.GetCouncilTitle]: Un Potere Superiore"
+councillor_spouse_learning.2301.t:1 "[councillor.GetCouncilTitle]: Un Potere Superiore"
  councillor_spouse_learning.2301.desc:0 "Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] è diventat[councillor.Custom('DE_END_PRO_S_N')] una figura molto nota nel mondo religioso. Il suo patrocinio agli studiosi [councillor.GetFaith.GetAdjectiveNoTooltip], ai [councillor.GetFaith.HouseOfWorshipPlural], e agli ordini hanno attirato perfino l'attenzione di [religious_head.GetTitledFirstName].\n\nLa gratitudine del [religious_head.GetTitleAsNamePossessiveNoTooltip] porta grandi benefici. Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] si è offert[ROOT.Char.Custom('DE_END_PRO_S_N')] di contattarl[religious_head.Custom('DE_END_PRO_S_N')] in mia vece."
  councillor_spouse_learning.2301.a:0 "Puoi fare le presentazioni?"
  councillor_spouse_learning.2301.a.success:0 "Ho stretto amicizia con [religious_head.GetTitledFirstName]."
@@ -61,7 +61,7 @@ councillor_spouse_learning.2301.t: 1 "[councillor.GetCouncilTitle]: Un Potere Su
  councillor_spouse_learning.2301.c:0 "Questa è la mia occasione per essere accolto di nuovo nella santa comunità!"
  councillor_spouse_learning.2301.d:0 "Fai che [religious_head.GetHerHim] sappia: tutto ciò che facciamo, lo facciamo per [councillor.GetFaith.HighGodName]."
 
-councillor_spouse_learning.2602.t: 1 "[councillor.GetCouncilTitle]: Ampliare gli Orizzonti"
+councillor_spouse_learning.2602.t:1 "[councillor.GetCouncilTitle]: Ampliare gli Orizzonti"
  councillor_spouse_learning.2602.not_root.desc:0 "Mentre [student.Custom('DE_ART_DEF_P_A')] mi[student.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] certamente conoscerà una cosa o due riguardo [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] pensa che sia arrivato il momento per di ampliare i suoi orizzonti.\n\n"Potrei acquistare nuovi tomi, assegnarli alcuni incarichi, aiutarl[student.Custom('DE_END_PRO_S_N')] un po' nello studio. Quale argomento pensi che gioverebbe maggiormente a [student.GetFirstNameNoTooltip]?""
  councillor_spouse_learning.2602.root.desc:0 ""Mentre tu sai una cosa o due riguardo [student.Custom('highest_skill_noun')], lo [student.GetTitleTierName] di [student.GetPrimaryTitle.GetNameNoTierNoTooltip] dovrebbe possedere un'ampia gamma di abilità," dice mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"Potrei acquistare nuovi tomi, assegnarti alcuni incarichi, aiutarti un po' nello studio. A quale argomento sei più interessato?""
  councillor_spouse_learning.2602.a:0 "Diplomazia."
@@ -75,8 +75,8 @@ councillor_spouse_learning.2602.t: 1 "[councillor.GetCouncilTitle]: Ampliare gli
 
 
 
-councillor_spouse_learning.2603.t: 1 "[councillor.GetCouncilTitle]: All'Altezza del Compito"
-councillor_spouse_learning.2603.desc: 0 "Alcuni dei miei consiglieri credono che il compito spetti loro per solo diritto di sangue o influenza. Sbagliano. Mi aspetto risultati, e spesso resto deluso.\n\nDopo una lunga giornata, mi sto lamentando con [councillor.GetFirstName] quando [Select_CString(councillor.IsFemale,'mi interrompe','mi interrompe')]. "Lascia che faccia qualcosa in merito, [ROOT.Char.GetWifeHusband]. Qualche lezione potrebbe affilarne l'ingegno.""
+councillor_spouse_learning.2603.t:1 "[councillor.GetCouncilTitle]: All'Altezza del Compito"
+councillor_spouse_learning.2603.desc:0 "Alcuni dei miei consiglieri credono che il compito spetti loro per solo diritto di sangue o influenza. Sbagliano. Mi aspetto risultati, e spesso resto deluso.\n\nDopo una lunga giornata, mi sto lamentando con [councillor.GetFirstName] quando [Select_CString(councillor.IsFemale,'mi interrompe','mi interrompe')]. "Lascia che faccia qualcosa in merito, [ROOT.Char.GetWifeHusband]. Qualche lezione potrebbe affilarne l'ingegno.""
  councillor_spouse_learning.2603.a:0 "Al [chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] farebbe comodo un insegnante privato."
  councillor_spouse_learning.2603.b:0 "Il [marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] trarrebbe vantaggio dal tuo aiuto."
  councillor_spouse_learning.2603.c:0 "Dai qualche lezione al mio [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."

@@ -23,8 +23,8 @@
  intrigue_scheme_ongoing.1004.toast.failure:0 "[agent_in_question.GetFirstNameNoTooltip] viene scopert[agent_in_question.Custom('DE_END_PRO_S_N')]"
 
  intrigue_scheme_ongoing.1006.t:0 "Ripulire"
-intrigue_scheme_ongoing.1006.desc: 0 "Naturalmente quell[Select_CString(agent_in_question.IsFemale,'a','o')] [agent_in_question.Custom2('InsultAdjective', ROOT.Char)] [agent_in_question.Custom('IT_NAM_COL3')][agent_in_question.GetTitledFirstName] avrebbe causato problemi.\n\n[agent_in_question.GetSheHe|U] non prende le dovute precauzioni quando si muove a corte di [scheme.GetTargetCharacter.Custom('IT_NAM_COL2')][scheme.GetTargetCharacter.GetTitledFirstName] e il [scheme.GetTargetCharacter.Custom('IT_NAM_COL3')][scheme.GetTargetCharacter.GetTitleAsNameNoTooltip] sta iniziando ad accorgersene. È solo questione di tempo prima che [Select_CString(agent_in_question.IsFemale,'venga scoperta','venga scoperto')]!"
-intrigue_scheme_ongoing.1006.elope.desc: 0 "Naturalmente quell[Select_CString(agent_in_question.IsFemale,'a','o')] [agent_in_question.Custom2('InsultAdjective', ROOT.Char)] [agent_in_question.Custom('IT_NAM_COL3')][agent_in_question.GetTitledFirstName] avrebbe causato problemi.\n\n[agent_in_question.GetSheHe|U] non prende le dovute precauzioni quando si muove a corte di [scheme.GetTargetCharacter.Custom('IT_NAM_COL2')][scheme.GetTargetCharacter.GetTitledFirstName] e [scheme.GetTargetCharacter.GetLiege.Custom2('HerHisCharacterIntroduction', scheme.GetTargetCharacter)] sta iniziando ad accorgersene. È solo questione di tempo prima che [agent_in_question.GetFirstNameNoTooltip] sia scopert[Select_CString(agent_in_question.IsFemale,'a','o')]!"
+intrigue_scheme_ongoing.1006.desc:0 "Naturalmente quell[Select_CString(agent_in_question.IsFemale,'a','o')] [agent_in_question.Custom2('InsultAdjective', ROOT.Char)] [agent_in_question.Custom('IT_NAM_COL3')][agent_in_question.GetTitledFirstName] avrebbe causato problemi.\n\n[agent_in_question.GetSheHe|U] non prende le dovute precauzioni quando si muove a corte di [scheme.GetTargetCharacter.Custom('IT_NAM_COL2')][scheme.GetTargetCharacter.GetTitledFirstName] e il [scheme.GetTargetCharacter.Custom('IT_NAM_COL3')][scheme.GetTargetCharacter.GetTitleAsNameNoTooltip] sta iniziando ad accorgersene. È solo questione di tempo prima che [Select_CString(agent_in_question.IsFemale,'venga scoperta','venga scoperto')]!"
+intrigue_scheme_ongoing.1006.elope.desc:0 "Naturalmente quell[Select_CString(agent_in_question.IsFemale,'a','o')] [agent_in_question.Custom2('InsultAdjective', ROOT.Char)] [agent_in_question.Custom('IT_NAM_COL3')][agent_in_question.GetTitledFirstName] avrebbe causato problemi.\n\n[agent_in_question.GetSheHe|U] non prende le dovute precauzioni quando si muove a corte di [scheme.GetTargetCharacter.Custom('IT_NAM_COL2')][scheme.GetTargetCharacter.GetTitledFirstName] e [scheme.GetTargetCharacter.GetLiege.Custom2('HerHisCharacterIntroduction', scheme.GetTargetCharacter)] sta iniziando ad accorgersene. È solo questione di tempo prima che [agent_in_question.GetFirstNameNoTooltip] sia scopert[Select_CString(agent_in_question.IsFemale,'a','o')]!"
  intrigue_scheme_ongoing.1006.a.success:0 "[agent_in_question.GetFirstNameNoTooltip] resta nascost[agent_in_question.Custom('DE_END_PRO_S_N')]"
  intrigue_scheme_ongoing.1006.a.failure:0 "[agent_in_question.GetFirstNameNoTooltip] viene scopert[agent_in_question.Custom('DE_END_PRO_S_N')]"
  intrigue_scheme_ongoing.1006.a:0 "Le tracce di qualcuno che si intrufola, metteranno sicuramente in tensione [scheme.GetTargetCharacter.GetFirstNameNoTooltip]!"
@@ -41,7 +41,7 @@ intrigue_scheme_ongoing.1006.elope.desc: 0 "Naturalmente quell[Select_CString(ag
  intrigue_scheme_ongoing.1008.a.success:0 "[agent.GetFirstNameNoTooltip] rimane inosservat[agent.Custom('DE_END_PRO_S_N')]"
  intrigue_scheme_ongoing.1008.a.failure:0 "[agent.GetFirstNameNoTooltip] è stat[agent_in_question.Custom('DE_END_PRO_S_N')] scopert[agent_in_question.Custom('DE_END_PRO_S_N')]"
  intrigue_scheme_ongoing.1008.b:0 "Le tracce che portano a me devono sparire. Ora."
-intrigue_scheme_ongoing.1008.c: 1 "Rendo grazie a [ROOT.Char.GetFaith.HighGodNameAlternate] che [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstNameNoTooltip] è lì e può intervenire."
+intrigue_scheme_ongoing.1008.c:1 "Rendo grazie a [ROOT.Char.GetFaith.HighGodNameAlternate] che [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstNameNoTooltip] è lì e può intervenire."
 
  intrigue_scheme_ongoing.1009.t:0 "Aiuto"
  intrigue_scheme_ongoing.1009.desc:1 "[potential_agent.GetTitledFirstName] è venuto da me con uno sguardo determinato negli occhi.\n\n"Mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [potential_agent.Custom2('RelationToMe', ROOT.Char)], sono stat[potential_agent.Custom('DE_END_PRO_S_N')] riluttante ad unirmi ai tuoi piani contro il mio [potential_agent.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName], ma sento che è ora di fidarmi del vostro giudizio in questa faccenda.""
@@ -98,7 +98,7 @@ intrigue_scheme_ongoing.1008.c: 1 "Rendo grazie a [ROOT.Char.GetFaith.HighGodNam
  intrigue_scheme_ongoing.3003.e:0 "Chiedi al tuo $master_of_hunt_court_position$ [hunter.GetTitledFirstNameNoTooltip]."
 
  intrigue_scheme_ongoing.3004.t:0 "La Mappa"
-intrigue_scheme_ongoing.3004.desc: 0 "Le mie spie mi hanno informato di un[Select_CString(hunter.IsFemale,'a','o')] cacciator[Select_CString(hunter.IsFemale,'a','e')] che sta facendo baccano alla taverna locale. [Select_CString(hunter.IsFemale,'Ha','Ha')] speso grandi somme di monete e si vanta a gran voce dell’ottimo affare concluso con «un[Select_CString(owner.IsFemale,'’',' ')]elegante [owner.GetLadyLord] di perle e seta».\n\nA quanto pare [Select_CString(hunter.IsFemale,'ha disegnato','ha disegnato')] una mappa della [defender.Custom('TerrainType')] locale per un[Select_CString(owner.IsFemale,'a',' ')] nobil[Select_CString(owner.IsFemale,'donna','uomo')] sconosciut[Select_CString(owner.IsFemale,'a','o')]. Le spie credono che [owner.Custom('IT_NAM_COL3')][owner.GetLadyLord] stia tramando contro di me o contro uno dei miei sudditi."
+intrigue_scheme_ongoing.3004.desc:0 "Le mie spie mi hanno informato di un[Select_CString(hunter.IsFemale,'a','o')] cacciator[Select_CString(hunter.IsFemale,'a','e')] che sta facendo baccano alla taverna locale. [Select_CString(hunter.IsFemale,'Ha','Ha')] speso grandi somme di monete e si vanta a gran voce dell’ottimo affare concluso con «un[Select_CString(owner.IsFemale,'’',' ')]elegante [owner.GetLadyLord] di perle e seta».\n\nA quanto pare [Select_CString(hunter.IsFemale,'ha disegnato','ha disegnato')] una mappa della [defender.Custom('TerrainType')] locale per un[Select_CString(owner.IsFemale,'a',' ')] nobil[Select_CString(owner.IsFemale,'donna','uomo')] sconosciut[Select_CString(owner.IsFemale,'a','o')]. Le spie credono che [owner.Custom('IT_NAM_COL3')][owner.GetLadyLord] stia tramando contro di me o contro uno dei miei sudditi."
  intrigue_scheme_ongoing.3004.a:0 "Grazie per averlo portato alla mia attenzione."
  intrigue_scheme_ongoing.3004.b:0 "Il posto di quell'idiota è nelle mie segrete!"
  intrigue_scheme_ongoing.3004.c:0 "Portatemel[hunter.Custom('DE_END_PRO_S_N')]. Penso di potergli rinfrescare la memoria..."
@@ -120,7 +120,7 @@ intrigue_scheme_ongoing.3004.desc: 0 "Le mie spie mi hanno informato di un[Selec
  intrigue_scheme_ongoing.4001.t:0 "Un Adulto Responsabile"
  intrigue_scheme_ongoing.4001.desc:0 "[agent_in_question.GetTitledFirstName] mi ha detto che a [agent_in_question.GetSheHe] è stato chiesto di occuparsi di un gruppo di bambini che giocano a corte.\nPer fortuna, questo include [scheme.GetTargetCharacter.GetTitledFirstName].\n\nQuesta è una grande opportunità per far sì che [agent_in_question.GetTitledFirstName] porti avanti le cose."
  intrigue_scheme_ongoing.4001.a:0 "Insegna loro l'abitudine di giocare lontano da occhi vigili."
-intrigue_scheme_ongoing.4001.b: 0 "Cerca di farti amico [scheme.GetTargetCharacter.Custom('IT_NAM_COL3')][scheme.GetTargetCharacter.GetTitledFirstNameNoTooltip]. Fai in modo che si fidi di te."
+intrigue_scheme_ongoing.4001.b:0 "Cerca di farti amico [scheme.GetTargetCharacter.Custom('IT_NAM_COL3')][scheme.GetTargetCharacter.GetTitledFirstNameNoTooltip]. Fai in modo che si fidi di te."
 
  intrigue_scheme_ongoing.4002.t:0 "L'Ingenuità dei Bambini"
  intrigue_scheme_ongoing.4002.desc:0 "[target.GetTitledFirstName] non riesce nemmeno a concepire che qualcuno potrebbe architettare piani disonesti, nonostante la corte tumultuosa che [target.Custom('DE_PRO_POS_P_3P')] circorda.\n\nParlando con [scheme.GetTargetCharacter.GetSheHe], sembra che si fidi di me!"
@@ -133,7 +133,7 @@ intrigue_scheme_ongoing.4001.b: 0 "Cerca di farti amico [scheme.GetTargetCharact
  intrigue_scheme_ongoing.4003.b:0 "Ridurrò tranquillamente il loro coinvolgimento nel mio complotto."
 
  intrigue_scheme_ongoing.5001.t:0 "Prurito per una Distrazione"
-intrigue_scheme_ongoing.5001.desc: 0 "Mi viene condott[Select_CString(servant.IsFemale,'a','o')] la/le [servant.GetWomanMan] incaricat[Select_CString(servant.IsFemale,'a','o')] di lavare le vesti delle guardie di [target.Custom('IT_NAM_COL2')][target.GetTitledFirstName]. Nessuno noterà [Select_CString(servant.IsFemale,'lei','lui')] che manomette i loro indumenti, e se si potesse nascondere qualcosa che distragga le guardie...\n\n«Cosa desideri da me, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
+intrigue_scheme_ongoing.5001.desc:0 "Mi viene condott[Select_CString(servant.IsFemale,'a','o')] la/le [servant.GetWomanMan] incaricat[Select_CString(servant.IsFemale,'a','o')] di lavare le vesti delle guardie di [target.Custom('IT_NAM_COL2')][target.GetTitledFirstName]. Nessuno noterà [Select_CString(servant.IsFemale,'lei','lui')] che manomette i loro indumenti, e se si potesse nascondere qualcosa che distragga le guardie...\n\n«Cosa desideri da me, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
  intrigue_scheme_ongoing.5001.a:0 "Voglio che polverizzate molto bene con la rosa sui fianchi..."
  intrigue_scheme_ongoing.5001.b:0 "Fate dei buchi nei loro vestiti. In aree improprie."
 
@@ -157,7 +157,7 @@ intrigue_scheme_ongoing.5001.desc: 0 "Mi viene condott[Select_CString(servant.Is
  intrigue_scheme_ongoing.5004.a:0 "Beh... grazie?"
 
  intrigue_scheme_ongoing.5005.t:0 "Tutto Ciò che Luccica"
-intrigue_scheme_ongoing.5005.desc: 0 "Il mio [spymaster.GetCouncilTitle], [spymaster.Custom('IT_NAM_COL3')][spymaster.GetTitledFirstName], si avvicina con un ghigno maligno.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], questa borsa contiene una polvere di somma perfidia. Se cosparsa su qualcosa, poniamo un dono per [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName], non lascia traccia ma affligge chiunque la tocchi con debolezza e cattivi umori.»"
+intrigue_scheme_ongoing.5005.desc:0 "Il mio [spymaster.GetCouncilTitle], [spymaster.Custom('IT_NAM_COL3')][spymaster.GetTitledFirstName], si avvicina con un ghigno maligno.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], questa borsa contiene una polvere di somma perfidia. Se cosparsa su qualcosa, poniamo un dono per [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName], non lascia traccia ma affligge chiunque la tocchi con debolezza e cattivi umori.»"
  intrigue_scheme_ongoing.5005.a:0 "Bene, bene, bene... Direi che [target.GetSheHe|U] si merita un regalo."
  intrigue_scheme_ongoing.5005.b:0 "[target.GetSheHe|U] non avrà il mio oro!"
 
@@ -171,7 +171,7 @@ intrigue_scheme_ongoing.5005.desc: 0 "Il mio [spymaster.GetCouncilTitle], [spyma
  intrigue_scheme_ongoing.5007.a:0 "Cosa potrebbe avere... L'oro velenoso!"
  intrigue_scheme_ongoing.5007.a.tt:0 "[ROOT.Char.GetFaith.HighGodName] aiutal[poisoned.Custom('DE_END_PRO_S_N')]!"
 
-intrigue_scheme_ongoing.5008.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], i miei umori sono sbilanciati da quando ti ho aiutato a impacchettare quel dono per [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName]... Temo che la sozzura dell’oro abbia contagiato anche me.»"
+intrigue_scheme_ongoing.5008.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], i miei umori sono sbilanciati da quando ti ho aiutato a impacchettare quel dono per [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName]... Temo che la sozzura dell’oro abbia contagiato anche me.»"
  intrigue_scheme_ongoing.5008.a:0 "Dannazione."
 
  intrigue_scheme_ongoing.5009.t:0 "Il Tunnel"
@@ -210,7 +210,7 @@ intrigue_scheme_ongoing.5008.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege
  intrigue_scheme_ongoing.5015.b:0 "Credo sia meglio che me ne liberi..."
 
  intrigue_scheme_ongoing.5016.t:0 "Il Potere delle Parole"
-intrigue_scheme_ongoing.5016.desc: 0 "[servant.Custom('IT_NAM_COL3')][servant.GetTitledFirstName] sta davanti a me, servitor[Select_CString(servant.IsFemale,'e','e')] del[Select_CString(target.IsFemale,'la','')][target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName].\n\n«Ora, voglio che tu faccia qualcosa per me... E verrai, ovviamente, ragionevolmente ricompensat[Select_CString(servant.IsFemale,'a','o')].»"
+intrigue_scheme_ongoing.5016.desc:0 "[servant.Custom('IT_NAM_COL3')][servant.GetTitledFirstName] sta davanti a me, servitor[Select_CString(servant.IsFemale,'e','e')] del[Select_CString(target.IsFemale,'la','')][target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName].\n\n«Ora, voglio che tu faccia qualcosa per me... E verrai, ovviamente, ragionevolmente ricompensat[Select_CString(servant.IsFemale,'a','o')].»"
  intrigue_scheme_ongoing.5016.a:0 "Le parole sussurrate possono far cadere il [target.GetTitleAsNameNoTooltip]!"
  intrigue_scheme_ongoing_5016_every_courtier:0 "Ogni cortigiano e ospite che non sia un agente"
  intrigue_scheme_ongoing.5016.b:0 "Tieni aperte le porte del [target.Custom('ResidenceBuilding')] per me."
@@ -218,14 +218,14 @@ intrigue_scheme_ongoing.5016.desc: 0 "[servant.Custom('IT_NAM_COL3')][servant.Ge
  intrigue_scheme_ongoing.5016.c_woman:0 "Non importa. Torna dalla tua padrona."
 
  intrigue_scheme_ongoing.5017.t:0 "[target.Custom2('RelationToMe', SCOPE.sC('spouse'))|U] Ingenuo"
-intrigue_scheme_ongoing.5017.desc: 0 "A stento contengo la gioia quando trovo [spouse.Custom('IT_NAM_COL3')][spouse.GetTitledFirstName], [target.Custom('IT_NAM_COL2')][target.GetTitledFirstName] [target.Custom2('RelationToMe', SCOPE.sC('spouse'))], ad attendermi con un piccolo seguito. Se riuscissi a ottenere l’aiuto di #EMP [Select_CString(spouse.IsFemale,'lei','lui')]#! per il mio intrigo...\n\n«Mi hanno detto che volevi vedermi, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
-intrigue_scheme_ongoing.5017.a: 1 "[Select_CString(spouse.IsFemale,'La tua','Il tuo')] [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] ti ha chiamato [spouse.Custom2('InsultAdjectiveArticle', ROOT.Char)] [spouse.Custom2('InsultNoun', ROOT.Char)]."
+intrigue_scheme_ongoing.5017.desc:0 "A stento contengo la gioia quando trovo [spouse.Custom('IT_NAM_COL3')][spouse.GetTitledFirstName], [target.Custom('IT_NAM_COL2')][target.GetTitledFirstName] [target.Custom2('RelationToMe', SCOPE.sC('spouse'))], ad attendermi con un piccolo seguito. Se riuscissi a ottenere l’aiuto di #EMP [Select_CString(spouse.IsFemale,'lei','lui')]#! per il mio intrigo...\n\n«Mi hanno detto che volevi vedermi, [ROOT.Char.Custom('FormOfAddressForLiege')]?»"
+intrigue_scheme_ongoing.5017.a:1 "[Select_CString(spouse.IsFemale,'La tua','Il tuo')] [spouse.Custom2('RelationToMe', SCOPE.sC('target'))] ti ha chiamato [spouse.Custom2('InsultAdjectiveArticle', ROOT.Char)] [spouse.Custom2('InsultNoun', ROOT.Char)]."
  intrigue_scheme_ongoing.5017.a.success:0 "[spouse.GetTitledFirstNameNoTooltip] mi crede"
  intrigue_scheme_ongoing.5017.a.failure:0 "Il [target.GetTitleAsNameNoTooltip] l[spouse.Custom('DE_END_PRO_S_N')] convince che è una menzogna"
  intrigue_scheme_ongoing.5017.b:0 "Per favore, parlami del tuo [target.Custom('ResidenceBuilding')]!"
 
  intrigue_scheme_ongoing.5018.t:0 "Seguaci dell'Accampamento"
-intrigue_scheme_ongoing.5018.desc: 0 "[target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] è in guerra.\n\nAl momento [Select_CString(target.IsFemale,'è accampata','è accampato')] in [location.GetName], e le mie fonti dicono che presto [Select_CString(target.IsFemale,'accoglierà','accoglierà')] nuovi seguaci del campo: un’occasione perfetta per introdurre alcuni dei miei nei [Select_CString(target.IsFemale,'suoi','suoi')] ranghi!"
+intrigue_scheme_ongoing.5018.desc:0 "[target.Custom2('InsultAdjective', ROOT.Char)] [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] è in guerra.\n\nAl momento [Select_CString(target.IsFemale,'è accampata','è accampato')] in [location.GetName], e le mie fonti dicono che presto [Select_CString(target.IsFemale,'accoglierà','accoglierà')] nuovi seguaci del campo: un’occasione perfetta per introdurre alcuni dei miei nei [Select_CString(target.IsFemale,'suoi','suoi')] ranghi!"
  intrigue_scheme_ongoing.5018.a:0 "Nascosti in mezzo la folla, mi riferiranno."
  intrigue_scheme_ongoing.5018.b:0 "Farina, grano, carne... Bruciatela."
  intrigue_scheme_ongoing.5018.msg.t:0 "Rifornimenti bruciati in un incidente"

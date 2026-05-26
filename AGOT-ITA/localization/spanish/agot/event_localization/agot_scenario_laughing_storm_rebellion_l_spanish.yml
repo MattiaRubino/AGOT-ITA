@@ -13,7 +13,7 @@
  #The King's Trouble
  ### POV: Aegon V
  ### Bookmark starter event
- #### Triggers: 0003
+ #### Triggers:0003
   agot_laughing_storm_rebellion.0002.t:0 "Una Tempesta all'Orizzonte"
   agot_laughing_storm_rebellion.0002.desc:0 "Il peso della corona non è mai stato così gravoso. Mio figlio, [duncansmall.GetTitledFirstNameNicknamed], ha infranto una promessa di nozze, rinnegando [cassandra.GetFullName] per [jenny.GetFirstNameNicknamed].\n\nL’ira di [lyonel.GetFullNameNicknamed] ora minaccia il reame. Ha reclamato l'indipendenza dal Trono di Spade, pronto a gettare i Sette Regni nella guerra per riscattare l'onore della sua casata. Come re, devo agire con prontezza per evitare il disastro.\n\nUna proposta di Singolar Tenzone tra [lyonel.GetTitledFirstNameNoTooltip] e [duncantall.GetTitledFirstName] 'il Gigante' potrebbe offrire una via alla pace. È una scommessa, ma potrebbe salvare il reame da uno spargimento di sangue inutile."
   agot_laughing_storm_rebellion.0002.a:0 "Che sia il Lord Comandante a decidere."
@@ -21,8 +21,8 @@
  #The King's Offer
  ### POV: Lyonel
  ### Pre-event for the Lyonel v Duncan Tall duel.
- #### Option A: will lead to duel (Triggers: 0004)
- #### Option B: might lead to immediate war of independence (Triggers: 0025)
+ #### Option A: will lead to duel (Triggers:0004)
+ #### Option B: might lead to immediate war of independence (Triggers:0025)
   agot_laughing_storm_rebellion.0003.t:0 "Il Duello dell'Onore"
   agot_laughing_storm_rebellion.0003.desc:0 "Un corvo giunge con la proposta del re: risolvere il conflitto con un singolo duello, una Singolar Tenzone contro [duncantall.GetTitledFirstName] 'il Gigante'. Ricordo le battaglie combattute insieme — un tempo compagni, ora forse nemici. Questo duello è più di una prova di spade; è una battaglia per l’onore, per l’anima stessa della Casa [lyonel.GetHouse.GetBaseName].\n\nRifiutare significherebbe indipendenza, ma a quale prezzo? È giunta l’ora di decidere il nostro destino."
   agot_laughing_storm_rebellion.0003.a:0 "Sia il volere degli dèi a guidarci; risolviamo questo con la #bold Singolar Tenzone#!."
@@ -53,7 +53,7 @@
  #Lyonel Lost
  ### POV: Aegon V
  ### Post-duel event.
- #### Triggers: 0010 (regardless the selected option)
+ #### Triggers:0010 (regardless the selected option)
   agot_laughing_storm_rebellion.0008.t:0 "La Misericordia del Re"
   agot_laughing_storm_rebellion.0008.desc:0 "[lyonel.GetFullNameNicknamed] si presenta dinanzi a me, sconfitto ma non spezzato. Nonostante la sua disfatta contro [duncantall.GetTitledFirstName], la tensione nel reame persiste. In quanto re, comprendo il bisogno di pace e stabilità. Una punizione severa potrebbe riaccendere le fiamme della ribellione, ma la clemenza potrebbe invece sanare la frattura.\n\nPer preservare quest’equilibrio fragile, valuto l’idea di proporre un’alleanza matrimoniale che leghi i Baratheon più saldamente al Trono di Spade.\n\nDevo offrire la mano di mia figlia al figlio di costui, o limitarmi a pretendere rinnovata fedeltà senza ulteriori concessioni?"
   agot_laughing_storm_rebellion.0008.a:0 "Offro la mano di Rhaelle a suo figlio."
@@ -63,7 +63,7 @@
  #Lyonel Lost - Lyonel died
  ### POV: Aegon V
  ### Post-duel event.
- #### Triggers: 0031
+ #### Triggers:0031
   agot_laughing_storm_rebellion.0009.t:0 "La Fine della Tempesta"
   agot_laughing_storm_rebellion.0009.desc:0 "[lyonel.GetFullNameNicknamed] ha trovato la morte nella Singolar Tenzone contro [duncantall.GetTitledFirstName]. La sua sfida e il suo coraggio, un tempo minaccia temibile, sono ora ridotti al silenzio. La ribellione che rischiava di lacerare il reame è cessata con la caduta del suo condottiero.\n\nIl prezzo della pace è stato alto, e gli echi di questo conflitto riecheggeranno a lungo nelle cronache della storia. Con le Terre della Tempesta ormai domate, il reame può cominciare a guarire, ma l’ombra di questi eventi incomberà sul Trono di Spade per generazioni."
   agot_laughing_storm_rebellion.0009.a:0 "Ha combattuto, ha perso, e ora riposa."
@@ -71,9 +71,9 @@
  #A new betrothal
  ### POV: Lyonel
  ### Betrothal offer from Egg
- #### Option A: Leads to betrothal (Triggers: 0028)
- #### Option B: Leads to end of story (Triggers: 0030)
- #### Option C: Leads to end of story (Triggers: 0030)
+ #### Option A: Leads to betrothal (Triggers:0028)
+ #### Option B: Leads to end of story (Triggers:0030)
+ #### Option C: Leads to end of story (Triggers:0030)
   agot_laughing_storm_rebellion.0010.t:0 "Le Conseguenze della Tempesta"
   agot_laughing_storm_rebellion.0010.betrothal.desc:0 "Dopo la mia sconfitta nella Singolar Tenzone, [aegonv.GetTitledFirstNameRegnal] tende un ramoscello d'ulivo, offrendo in sposa sua figlia, [targ_betrothed.GetTitledFirstNamePossessive], a mio figlio, [bara_betrothed.GetTitledFirstName]. Questo gesto, volto a sanare la frattura tra la Casa [lyonel.GetHouse.GetBaseName] e il Trono di Spade, porta con sé il peso della speranza di pace e unità.\n\nL’onore della mia casa potrebbe così essere riscattato attraverso questa unione, forgiando un legame che potrebbe garantire un futuro stabile alle Terre della Tempesta."
   agot_laughing_storm_rebellion.0010.nobetrothal.desc:0 "Dopo la mia sconfitta nella Singolar Tenzone, il silenzio proveniente dal Trono di Spade è assordante. [aegonv.GetTitledFirstNameRegnal] non offre alcuna mano in matrimonio, nessun gesto di pace, solo la fredda realtà della mia sconfitta.\n\nL’onore della Casa [lyonel.GetHouse.GetBaseName] resta macchiato, e il futuro delle Terre della Tempesta è incerto. Resto solo, a riflettere sui prossimi passi per la mia casata, sapendo che il cammino sarà arduo e che l’ombra di questa disfatta si stenderà lunga sul nostro destino."
@@ -88,7 +88,7 @@
  #Jaehaerys & Shaera
  ### POV: Jaehaerys Targaryen
  ### Breaking betrothals between Jaeharys+Celia Tully and Shaera+Luthor Tyrell
- #### Option A: Parents notified about the breakup (Triggers: 0013)
+ #### Option A: Parents notified about the breakup (Triggers:0013)
  #### Option B: End of story
   agot_laughing_storm_rebellion.0011.t:0 "Il Dilemma del Cuore"
   agot_laughing_storm_rebellion.0011.desc:0 "Le azioni di mio fratello maggiore [duncansmall.GetFirstName] hanno risvegliato pensieri profondi in me. La sua scelta di abbandonare [cassandra.GetTitledFirstName] per [jenny.GetFirstNameNicknamed], seguendo il richiamo del vero amore, mi ha spinto a interrogarmi sul mio stesso destino. Legato in matrimonio con [celia.GetTitledFirstName], il mio cuore anela a [shaera.GetFirstName], il mio vero amore.\n\nIl peso del dovere e il richiamo dell’amore si contendono la mia anima. Devo seguire le orme di mio fratello e inseguire ciò che davvero desidero, o restare fedele ai voti pronunciati?"
@@ -98,7 +98,7 @@
  #Daeron
  ### POV: Daeron Targaryen
  ### Breaking betrothal between Daeron+Olenna Redwyne
- #### Option A: Parents notified about the breakup (Triggers: 0014)
+ #### Option A: Parents notified about the breakup (Triggers:0014)
  #### Option B: End of story
   agot_laughing_storm_rebellion.0012.t:0 "Dubbi sul Cammino"
   agot_laughing_storm_rebellion.0012.desc:0 "Osservando le scelte dei miei fratelli maggiori, che hanno seguito il cuore rompendo legami per amore, mi trovo in profonda agitazione. Legato a un imminente matrimonio con [olenna.GetTitledFirstName], una fanciulla che conosco a malapena, il dubbio offusca i miei pensieri. [olenna.GetTitledFirstName] può anche apparire gentile, ma mente e cuore sono altrove.\n\nLe aspettative del dovere gravano su di me, ma il desiderio di vera felicità mi chiama. Devo aprirmi un mio sentiero e cercare l’amore, o restare fedele agli obblighi che mi sono stati imposti?"
@@ -121,7 +121,7 @@
  ### POV: Egg, Runceford Redwyne
  ### Daeron+Olenna Redwyne broke up
  #### Option A (only for Egg): End of story
- #### Option B (only for Runceford if Luthor Tyrell is NOT betrothed): Luthor and Olenna betrothal might happen (Triggers: 0015)
+ #### Option B (only for Runceford if Luthor Tyrell is NOT betrothed): Luthor and Olenna betrothal might happen (Triggers:0015)
  #### Option C (only for Runceford if Luthor Tyrell is betrothed): End of story
   agot_laughing_storm_rebellion.0014.t:0 "Promessa Infranta"
   agot_laughing_storm_rebellion.0014.desc:0 "La notizia giunge con amarezza. [daeron.GetTitledFirstName] ha rotto il fidanzamento con [olenna.GetTitledFirstName], accantonando i piani pazientemente tessuti per la loro unione. Questo sviluppo inatteso è quanto mai sfortunato, e porta con sé delusione e incertezza.\n\nLe ripercussioni di questa promessa infranta si faranno sentire in entrambe le casate, mettendo alla prova alleanze e aspettative."
@@ -133,8 +133,8 @@
  #Luthor + Olenna = ?
  ### POV: Garlan Tyrell
  ### Betrothal offer from Runceford Redwyne
- #### Option A: Agrees to the betrothal (Triggers: 0016)
- #### Option B: Refuses the betrothal (Triggers: 0018)
+ #### Option A: Agrees to the betrothal (Triggers:0016)
+ #### Option B: Refuses the betrothal (Triggers:0018)
   agot_laughing_storm_rebellion.0015.t:0 "Una Nuova Proposta"
   agot_laughing_storm_rebellion.0015.desc:0 "Dopo che [daeron.GetTitledFirstName] ha rotto il fidanzamento con [olenna.GetTitledFirstName], suo padre [runceford.GetTitledFirstName] mi ha presentato una nuova proposta: un’unione tra [olenna.GetTitledFirstName] e mio figlio, [luthor.GetTitledFirstName].\n\nQuest’alleanza potrebbe rivelarsi molto vantaggiosa, rafforzando i legami e consolidando il futuro della Casa [garlan.GetHouse.GetBaseName]. È un’opportunità che merita seria riflessione."
   agot_laughing_storm_rebellion.0015.a:0 "Questa unione porterà benefici alla nostra casata."
@@ -143,8 +143,8 @@
  #Luthor + Olenna = betrothal
  ### POV: Runceford Redwyne
  ### Betrothal between Olenna and Luthor
- #### Option A: Final confirmation on the betrothal (Triggers: 0017)
- #### Option B: Refuses the betrothal (Triggers: 0018)
+ #### Option A: Final confirmation on the betrothal (Triggers:0017)
+ #### Option B: Refuses the betrothal (Triggers:0018)
   agot_laughing_storm_rebellion.0016.t:0 "La Decisione di un Padre"
   agot_laughing_storm_rebellion.0016.desc:0 "[garlan.GetTitledFirstName] ha accettato l’offerta di unire in matrimonio [olenna.GetTitledFirstName] e [luthor.GetTitledFirstName]. Quest’alleanza promette grandi benefici e rafforzerà i legami tra le nostre casate. Tuttavia, come padre di [olenna.GetFirstNamePossessiveNoTooltip], è mio dovere assicurarmi che quest’unione sia anche nel suo interesse.\n\nLa decisione finale spetta a me, e dovrò ponderare con attenzione i vantaggi per la nostra famiglia rispetto alla felicità futura di mia figlia."
   agot_laughing_storm_rebellion.0016.a:0 "Procediamo con il fidanzamento."
@@ -173,8 +173,8 @@
  #Lyonel Won
  ### POV: Lyonel
  ### Lyonel beats Duncan Tall in the duel
- #### Option A: Lyonel remains a vassal if Egg agrees to sending Duncan Targaryen to the wall and a marriage between Rhaella and Ormund Baratheon (or Herbert if Ormund died somehow) (Triggers: 0021)
- #### Option B: Declares independence (Triggers: 0026)
+ #### Option A: Lyonel remains a vassal if Egg agrees to sending Duncan Targaryen to the wall and a marriage between Rhaella and Ormund Baratheon (or Herbert if Ormund died somehow) (Triggers:0021)
+ #### Option B: Declares independence (Triggers:0026)
   agot_laughing_storm_rebellion.0020.t:0 "La Vittoria della Tempesta"
   agot_laughing_storm_rebellion.0020.desc:0 "La Singolar Tenzone è conclusa, e [duncantall.GetTitledFirstName] giace sconfitto per mia mano. L'onore della Casa [lyonel.GetHouse.GetBaseName] è stato ristabilito, e il brivido della vittoria scorre nelle mie vene. Ora, mi trovo a un bivio.\n\n"
   agot_laughing_storm_rebellion.0020.desc.both:0 "Posso scegliere di restare indipendente, tracciando un sentiero mio, libero dal giogo del Trono di Spade. In alternativa, potrei giurare nuovamente fedeltà, ma solo a patto di un nuovo fidanzamento da parte di [aegonv.GetTitledFirstNameRegnal] e dell'esilio di [duncansmall.GetTitledFirstNameNicknamed] alla Barriera."
@@ -188,8 +188,8 @@
  #Lyonel Won
  ### POV: Aegon V
  ### Lyonel demanded to send Prince Duncan to the wall and a marriage between Rhaella and Ormund Baratheon in order for him to remain loyal
- #### Option A: Demand refused - might lead to the break of betrothals (Triggers: 0013, 0014, 0023, 0024 and 0032)
- #### Option B: Demand accepted (Triggers: 0028)
+ #### Option A: Demand refused - might lead to the break of betrothals (Triggers:0013, 0014, 0023, 0024 and 0032)
+ #### Option B: Demand accepted (Triggers:0028)
   agot_laughing_storm_rebellion.0021.t:0 "Le Richieste della Tempesta"
   agot_laughing_storm_rebellion.0021.no_demand.t:0 "La Vittoria della Tempesta"
   agot_laughing_storm_rebellion.0021.desc:0 "[lyonel.GetFullNameNicknamed] è uscito vittorioso dalla Singolar Tenzone, sconfiggendo [duncantall.GetTitledFirstName].\n\n"
@@ -237,8 +237,8 @@
  #Lyonel refused the trial
  ### POV: Aegon V
  ### Lyoned refused the trial
- #### Option A: Leads to war (Triggers: 0027)
- #### Option B: Grant him independence anyway (Triggers: 0026)
+ #### Option A: Leads to war (Triggers:0027)
+ #### Option B: Grant him independence anyway (Triggers:0026)
   agot_laughing_storm_rebellion.0025.t:0 "Il Dilemma del Re"
   agot_laughing_storm_rebellion.0025.desc:0 "[lyonel.GetTitledFirstName] ha rifiutato la Singolar Tenzone contro [duncantall.GetTitledFirstName], un gesto che non mi aspettavo. Questo colpo di scena mi pone davanti a una scelta difficile.\n\nDovrei concedergli l'indipendenza che reclama, correndo il rischio di creare un pericoloso precedente, oppure far rispettare le conseguenze della sua ribellione, pur sapendo che ciò potrebbe gettare il reame nel caos? Il destino delle Terre della Tempesta e la stabilità del Trono di Spade sono appesi a un filo."
   agot_laughing_storm_rebellion.0025.a:0 "Dovrà affrontare le conseguenze."
@@ -247,7 +247,7 @@
  #The Storm King
  ### POV: Lyonel
  ### The Stormlands became independent
- #### Option A: Leads to end of story (Triggers: 0029)
+ #### Option A: Leads to end of story (Triggers:0029)
   agot_laughing_storm_rebellion.0026.t:0 "Il Re della Tempesta"
   agot_laughing_storm_rebellion.0026.desc:0 "La vittoria è nostra. Abbiamo conquistato la nostra indipendenza, e le Terre della Tempesta torneranno a governarsi da sole, come fecero un tempo i Durrandon. I nostri stendardi sventolano fieri, proclamando la nostra sovranità e il ritorno dei nostri antichi diritti.\n\nL’onore della Casa [lyonel.GetHouse.GetBaseName] è stato restaurato, e siamo pronti a forgiare il nostro destino, liberi dal giogo del Trono di Spade. Che tutti sappiano: il Re della Tempesta regna."
   agot_laughing_storm_rebellion.0026.a:0 "Gloria alle Terre della Tempesta!"
@@ -255,7 +255,7 @@
  #The Early War
  ### POV: Lyonel
  ### Pre-War event
- #### Option A: Leads to war (Triggers: 0024)
+ #### Option A: Leads to war (Triggers:0024)
   agot_laughing_storm_rebellion.0027.t:0 "La Tempesta che si Raduna"
   agot_laughing_storm_rebellion.0027.desc:0 "Avendo rifiutato la Singolar Tenzone, ora mi trovo sull'orlo della guerra. La tensione è palpabile, e le Terre della Tempesta si preparano al conflitto che incombe. Per assicurare la nostra indipendenza e difendere il nostro onore, dovrò cercare alleati disposti a combattere al nostro fianco contro l'ira del Trono di Spade.\n\nLa strada sarà ardua, ma con il sostegno dei fedeli, potremo affrontare ogni tempesta."
   agot_laughing_storm_rebellion.0027.a:0 "Radunate gli alleati."
@@ -263,7 +263,7 @@
  #Fin
  ### POV: Lyonel
  ### Everything goes back to normal (canon-ish timeline)
- #### Option A: Leads to end of story (Triggers: 0030)
+ #### Option A: Leads to end of story (Triggers:0030)
   agot_laughing_storm_rebellion.0028.t:0 "La Pace Ritrovata"
   agot_laughing_storm_rebellion.0028.desc:0 "Dopo un periodo di lotte, un nuovo fidanzamento è stato disposto dal re, e la pace è di nuovo a portata di mano. Le Terre della Tempesta possono ora guardare al futuro con speranza, il nostro onore salvo e i legami col Trono di Spade rinsaldati.\n\nQuesta alleanza promette stabilità e unità rinnovata, permettendoci di concentrarci sulla prosperità e sul benessere del nostro popolo."
   agot_laughing_storm_rebellion.0028.desc.no_betrothal:0 "Dopo un periodo di lotte, la pace è di nuovo a portata di mano. Le Terre della Tempesta possono ora guardare al futuro con speranza, il nostro onore salvo e i legami col Trono di Spade rinsaldati.\n\nQuesta alleanza promette stabilità e unità rinnovata, permettendoci di concentrarci sulla prosperità e sul benessere del nostro popolo."
@@ -376,7 +376,7 @@
  #Maelys Challenging Daemon
  ### POV: Maelys the Monstrous
  ### Triggers in the future. Challenging the ruler of the Golden Company to take over the leadership
- #### Option A: Initiate duel against GC ruler (Triggers: 0101 or 0102)
+ #### Option A: Initiate duel against GC ruler (Triggers:0101 or 0102)
  #### Option B: End of story
   agot_laughing_storm_rebellion.0100.t:0 "Sfida per la Leadership"
   agot_laughing_storm_rebellion.0100.desc:0 "Ho osservato [daemonbf_lsr.GetTitledFirstNameNicknamed] lottare troppo a lungo con il peso della guida. È giunto il momento di agire. Sfiderò Daemon in duello per il diritto di comandare.\n\nSolo attraverso forza e determinazione potremo assicurarci il futuro e reclamare ciò che ci spetta di diritto."
@@ -386,7 +386,7 @@
  #the duel
  ### POV: GC Ruler
  ### Duel to death event (triggers if the GC ruler is adult)
- #### Option A: Duel (Triggers: 0104)
+ #### Option A: Duel (Triggers:0104)
   agot_laughing_storm_rebellion.0101.t:0 "Duello per il Dominio"
   agot_laughing_storm_rebellion.0101.desc:0 "[maelysbf_lsr.GetTitledFirstNameNicknamed] ha messo in discussione la mia leadership, deciso a prendere il comando. Rifiutare questo duello significherebbe perdere il rispetto e la lealtà del mio popolo. È giunto il momento di difendere il mio diritto a regnare e dimostrare la mia forza.\n\nDevo accettare questa sfida e affrontare [maelysbf_lsr.GetFirstNameNoTooltip] in combattimento per garantire il mio posto e il futuro della nostra causa."
   agot_laughing_storm_rebellion.0101.a:0 "Che il duello cominci."
@@ -446,8 +446,8 @@
  #Tytos: Seduction Outcome
  ### POV: Tytos Lannister
  ### Ellyn's seduction attempt
- #### Option A: Remain loyal to current wife (Triggers: 0302)
- #### Option B: Ellyn becomes lover (Triggers: 0303)
+ #### Option A: Remain loyal to current wife (Triggers:0302)
+ #### Option B: Ellyn becomes lover (Triggers:0303)
   agot_laughing_storm_rebellion.0301.t:0 "La Tentazione del Leone"
   agot_laughing_storm_rebellion.0301.desc:0 "[ellyn.GetFirstName] è vicina, le sue parole dolci come miele, i suoi occhi pieni di promesse, di ciò che è stato e potrebbe essere ancora. L’aria tra noi si fa densa, la sua mano sfiora la mia, il suo tocco brucia attraverso le fredde mura di Castel Granito.\n\n[jeyne.GetFirstName]... mia moglie, il mio dovere. Ma Ellyn, col suo fuoco, la sua ambizione... risveglia qualcosa in me, qualcosa di pericoloso. Devo voltarle le spalle, o lasciare che la fiamma ci consumi entrambi?"
   agot_laughing_storm_rebellion.0301.a:0 "Jeyne è mia moglie, il mio onore è con lei."
@@ -474,9 +474,9 @@
  #Tytos: Keeping it as secret, or request divorce from father
  ### POV: Tytos Lannister
  ### Ellyn suggested that we shoud marry
- #### Option A: Relationship remains a secret (Triggers: 0311)
- #### Option B: Request divorce from father (Triggers: 0305)
- #### Option C: Request divorce from the High Septon (Triggers: 0306) (only if Tytos already became LP)
+ #### Option A: Relationship remains a secret (Triggers:0311)
+ #### Option B: Request divorce from father (Triggers:0305)
+ #### Option C: Request divorce from the High Septon (Triggers:0306) (only if Tytos already became LP)
   agot_laughing_storm_rebellion.0304.t:0 "Il Dilemma del Leone"
   agot_laughing_storm_rebellion.0304.desc:0 "Il desiderio di [ellyn.GetFirstNamePossessive] arde con forza, ma la via che ci attende è colma di insidie. [jeyne.GetFirstName] è ancora mia moglie, e sebbene potremmo tenere segreta la nostra relazione, i segreti non restano tali a lungo nei corridoi di Castel Granito.\n\nSolo l’Alto Septon ha il potere di sciogliere i miei voti con Jeyne e concedermi la libertà di sposare Ellyn. Ma una tale richiesta non è senza conseguenze. Continuare a nasconderci... o fare un passo audace verso un nuovo futuro?"
   agot_laughing_storm_rebellion.0304.a:0 "Per ora, resterà un segreto."
@@ -486,7 +486,7 @@
  #Gerold: Requests divorce from the High Septon
  ### POV: Gerold Lannister
  ### Tytos asked me to grant divorce
- #### Option A: I ask the High Septon for permission (Triggers: 0306)
+ #### Option A: I ask the High Septon for permission (Triggers:0306)
   agot_laughing_storm_rebellion.0305.t:0 "Il Peso di un Padre"
   agot_laughing_storm_rebellion.0305.desc:0 "[tytos.GetFirstName], mio figlio, si presenta dinanzi a me parlando di amore e di [ellyn.GetFirstName]. Vuole ripudiare [jeyne.GetFirstName], sua moglie, e sposare la vedova di suo fratello. Va contro le nostre tradizioni, contro l’ordine che i Lannister hanno sempre difeso. Eppure, il suo cuore è deciso, e forse una via c’è.\n\nL’Alto Septon potrebbe essere persuaso, se io stesso sostenessi la richiesta con il peso della nostra casata."
   agot_laughing_storm_rebellion.0305.a:0 "Scriverò all’Alto Septon."
@@ -494,9 +494,9 @@
  #Gerold: High Septon asks money for the divorce -> Pay or Refuse
  ### POV: Gerold Lannister OR Tytos Lannister
  ### The High Septon's reply. Desc depends on if the High Septon is greedy.
- #### Option A: No Divorce (Triggers: 0308) (Only if the High septon is not Greedy)
- #### Option B: Bribe the High Septon (Triggers: 0310)
- #### Option C: Can't afford the divorce (Triggers: 0307)
+ #### Option A: No Divorce (Triggers:0308) (Only if the High septon is not Greedy)
+ #### Option B: Bribe the High Septon (Triggers:0310)
+ #### Option C: Can't afford the divorce (Triggers:0307)
   agot_laughing_storm_rebellion.0306.t:0 "Il Giudizio dell’Alto Septon"
   agot_laughing_storm_rebellion.0306.desc:0 "Giunge la risposta dell’Alto Septon, intrisa del peso delle leggi divine e degli uomini. Scrive che questo divorzio sarebbe una grave offesa ai sacri vincoli del matrimonio."
   agot_laughing_storm_rebellion.0306.greedy.desc:0 "\n\nEppure, verso la fine della lettera, il tono cambia. Un sussurro tra le righe. Forse, con una giusta prova di gratitudine, il suo cuore potrebbe ammorbidirsi. Corre voce che non disdegni l’oro, se offerto con garbo.\n\nOra la scelta spetta a me. Lasciare andare la questione o pagare il prezzo per ottenere la sua benedizione."
@@ -508,8 +508,8 @@
  #Roger: If Gerold resued the payment -> Pay or Refuse
  ### POV: Roger Reyne
  ### Gerold/Tytos couldn't afford the bribery, so i pay the sum to bribe the High Septon
- #### Option A: Not bribing the High Septon (Triggers: 0308)
- #### Option B: Bribe the High Septon (Triggers: 0310)
+ #### Option A: Not bribing the High Septon (Triggers:0308)
+ #### Option B: Bribe the High Septon (Triggers:0310)
   agot_laughing_storm_rebellion.0307.t:0 "Il Dilemma di un Fratello"
   agot_laughing_storm_rebellion.0307.desc:0 "[gerold.GetFirstName] ha cercato la benedizione dell’Alto Septon affinché [tytos.GetFirstName] possa ripudiare [jeyne.GetFirstName] e sposare [ellyn.GetFirstName], ma la benedizione è stata negata… a meno che l’oro non possa mutare la decisione.\n\nStranamente, nonostante la ricchezza dei Lannister, Tytos non ha pagato il prezzo richiesto. Ora, le speranze di [ellyn.GetFirstNamePossessiveNoTooltip] vacillano, e lei si rivolge a me, suo fratello, in cerca d’aiuto.\n\nVorrei vederla tornare al potere, ma il prezzo non è cosa da poco, nemmeno per Castamere."
   agot_laughing_storm_rebellion.0307.a:0 "Il prezzo è troppo alto, anche per Ellyn."
@@ -518,8 +518,8 @@
  #Tytos and Ellyn: Noone funded the divorce -> Keep the secret, or elope
  ### POV: Tytos Lannister
  ### Noone granted us divorce
- #### Option A: Leads to end of story (Triggers: 0311)
- #### Option B: We marry anyway (Triggers: 0309 and 0310)
+ #### Option A: Leads to end of story (Triggers:0311)
+ #### Option B: We marry anyway (Triggers:0309 and 0310)
   agot_laughing_storm_rebellion.0308.t:0 "Legati dalla Legge, Lacerati dal Desiderio"
   agot_laughing_storm_rebellion.0308.desc:0 "Sembra non esistere via legale per ottenere il mio divorzio, nessuna benedizione dell’Alto Septon che possa sciogliermi dai voti con [jeyne.GetFirstName]. Gli dèi e gli uomini entrambi ci ostacolano, eppure il mio cuore continua a battere per [ellyn.GetFirstName].\n\nLa tradizione potrà incatenarci, ma l’amore non si arrende così facilmente."
   agot_laughing_storm_rebellion.0308.a:0 "Potremo amarci comunque, a dispetto della legge."
@@ -568,7 +568,7 @@
  #Aegon V: Dark Sister
  ### POV: Aegon V
  ### Triggers in the future. Ask Bloodraven to give me back Dark Sister.
- #### Option A: Ask for the sword (Triggers: 0402)
+ #### Option A: Ask for the sword (Triggers:0402)
  #### Option B: Do not ask for the sword
   agot_laughing_storm_rebellion.0401.t:0 "Sorella Oscura"
   agot_laughing_storm_rebellion.0401.desc:0 "Sono passati anni da quando ho mandato [bloodraven.GetTitledFirstName] alla Barriera, e con lui è andata la spada in acciaio di Valyria, [dark_sister_sword.GetName]. Una lama tanto antica e potente quanto Sorella Oscura appartiene al Trono, non al gelo del Nord.\n\nPosso inviare parola a Brynden, offrendogli una fortuna in oro affinché la restituisca al suo posto legittimo: il Trono di Spade."
@@ -578,8 +578,8 @@
  #Bloodraven: Aegon V wants Dark Sister LETTER
  ### POV: Bloodraven
  ### Eggs asked for Dark Sister.
- #### Option A: Do not give the sword to Egg (Triggers: 0404)
- #### Option B: Give the sword to Egg (Triggers: 0403)
+ #### Option A: Do not give the sword to Egg (Triggers:0404)
+ #### Option B: Give the sword to Egg (Triggers:0403)
   agot_laughing_storm_rebellion.0402.opening:0 "A [bloodraven.GetTitledFirstNameNoTooltip]"
   agot_laughing_storm_rebellion.0402.desc:0 "Ti scrivo non come tuo re, ma come discendente del sangue della Vecchia Valyria, chiedendoti di restituire ciò che appartiene al Trono. [dark_sister_sword.GetName], la spada delle leggende, una lama che ha conosciuto sangue e gloria nelle mani dei nostri avi, non dovrebbe marcire oltre la Barriera.\n\nTi offro una somma d'oro pari al suo peso e al suo valore, perché possa tornare là dove appartiene. Che ne dici, Brynden? Onorerai la nostra casa e restituirai Sorella Oscura, o la lascerai perdersi tra i ghiacci?"
   agot_laughing_storm_rebellion.0402.a:0 "Sorella Oscura resterà con me."
@@ -604,7 +604,7 @@
  #Bloodraven: Following my dreams
  ### POV: Bloodraven
  ### Vision/Dream/Flashback event.
- #### Option A: Travel northwards (leads to end of story. Triggers: 0421).
+ #### Option A: Travel northwards (leads to end of story. Triggers:0421).
  #### Option B: End of vision story.
   agot_laughing_storm_rebellion.0420.t:0 "Il Richiamo Oltre la Barriera"
   agot_laughing_storm_rebellion.0420.desc:0 "Le visioni si fanno più intense: l’albero, il gelo, i sussurri strani che sembrano chiamare da oltre la Barriera. Ora li sento chiaramente, qualcosa là fuori mi attira. Il vento che ulula nella notte sembra una voce, che mi invita a scoprire cosa si cela oltre i confini del mondo conosciuto.\n\nTutto mi dice che è pericoloso, forse una trappola, ma il richiamo è irresistibile. La Barriera è tutto ciò che mi separa dal mio destino. Non posso ignorare questa sensazione."

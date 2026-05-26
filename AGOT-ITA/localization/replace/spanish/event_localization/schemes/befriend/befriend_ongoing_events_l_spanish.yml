@@ -295,7 +295,7 @@
  befriend_ongoing.5004.t:0 "Amicizia: Non Tra i Suoi Gusti"
  befriend_ongoing.5004.desc:0 "Niente mi tira su di morale come il [ROOT.Char.Custom('FavoriteTreat')], ho già l'acquolina in bocca. Quindi ho disposto al cuoco di prepararne un piatto [target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName] come prova delle mie buone intenzioni.\n\nTuttavia il gesto si è rivelato un disastro, poiché [target.GetSheHe] ha ordinato che un servo lo buttasse via senza nemmeno averlo prima assaggiato..."
  befriend_ongoing.5004.a:0 "Mi scuserò per i miei eccessi."
-befriend_ongoing.5004.b: 0 "Che [target.Custom2('InsultNoun', ROOT.Char)] ingrat[Select_CString(target.IsFemale,'a','o')]!"
+befriend_ongoing.5004.b:0 "Che [target.Custom2('InsultNoun', ROOT.Char)] ingrat[Select_CString(target.IsFemale,'a','o')]!"
  
  befriend_ongoing.5005.t:0 "Amicizia: Chiamata all'Azione"
  befriend_ongoing.5005.desc:0 "Sto cercando di farmi capire meglio d[target.Custom('DE_END_ADJ_DEF_P_A')] [target.GetTitledFirstName], ma il risutato delle mie azione è che riesco a capirl[target.Custom('DE_PRO_POS_P_3P')] sempre meno. Dov'è la sua guida, la sua l'ambizione? Sembra come se [target.GetSheHe] non si preoccupasse minimanente di niente di ciò che accade."
@@ -418,7 +418,7 @@ befriend_ongoing.5004.b: 0 "Che [target.Custom2('InsultNoun', ROOT.Char)] ingrat
  befriend_ongoing.9001.b:0 "Temo che non sia il momento giusto..."
 
  befriend_ongoing.9100.t:0 "Amicizia: Relazioni d'Intralcio"
-befriend_ongoing.9100.desc: 0 "Ho appena ricevuto notizie quanto mai inquietanti! [Select_CString(scoped_rival.IsFemale,'La mia','Il mio')] [scoped_rival.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival'))], [scoped_rival.Custom('IT_NAM_COL3')][scoped_rival.GetTitledFirstName], ha diffuso false dicerie su di me a [target.GetFirstName], sostenendo che il mio desiderio di guadagnarmi la fiducia di [target.GetFirstName] non sia che un cinico tentativo di sfruttarl[Select_CString(target.IsFemale,'a','o')]."
+befriend_ongoing.9100.desc:0 "Ho appena ricevuto notizie quanto mai inquietanti! [Select_CString(scoped_rival.IsFemale,'La mia','Il mio')] [scoped_rival.Custom2('InsultAdjective', ROOT.Char)] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('scoped_rival'))], [scoped_rival.Custom('IT_NAM_COL3')][scoped_rival.GetTitledFirstName], ha diffuso false dicerie su di me a [target.GetFirstName], sostenendo che il mio desiderio di guadagnarmi la fiducia di [target.GetFirstName] non sia che un cinico tentativo di sfruttarl[Select_CString(target.IsFemale,'a','o')]."
  befriend_ongoing.9100.a:0 "Assurdo! Nessuno crederebbe a tali menzogne."
  befriend_ongoing.9100.b:0 "Non [scoped_rival.Custom('DE_PRO_DEM')] permetterò di infangare il mio buon nome!"
  befriend_ongoing.9100.b.success.desc.tt:0 "convinco [target.GetFirstNameNoTooltip]"

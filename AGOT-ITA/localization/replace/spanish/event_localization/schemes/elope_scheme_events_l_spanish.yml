@@ -36,7 +36,7 @@
  elope.1002.unapologetic_relationship.desc:0 ""Me ne sono andat[target.Custom('DE_END_PRO_S_N')] per sposare [owner.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. Non cercarmi — preferirei morire che essere tu[ROOT.Char.Custom('DE_END_PRO_S_N')] di nuovo!""
  elope.1002.unapologetic_family.desc:0 ""Se davvero hai amato [ROOT.Char.Custom('DE_ART_DEF_P_A')] tu[ROOT.Char.Custom('DE_END_PRO_S_N')] stess[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort' , target)], avresti voluto vedermi felice. Ma poiché tieni così poco a me, me ne sono andat[target.Custom('DE_END_PRO_S_N')] per seguire il mio cuore. Sposerò [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] e non c'è nulla che tu possa fare per fermarmi!""
  elope.1002.a.fallback:0 "Come ha potuto?"
-elope.1002.a.vengeful: 0 "Quell[Select_CString(target.IsFemale,'a','o')] [target.Custom2('InsultNounSexual', ROOT.Char)] traditrice/traditore otterrà ciò che merita!"
+elope.1002.a.vengeful:0 "Quell[Select_CString(target.IsFemale,'a','o')] [target.Custom2('InsultNounSexual', ROOT.Char)] traditrice/traditore otterrà ciò che merita!"
  elope.1002.a.compassionate:0 "Spero che [target.GetSheHe] sarà felice, qualsiasi cosa accada."
  
  #Success event for relatives of target and owner
@@ -59,7 +59,7 @@ elope.1002.a.vengeful: 0 "Quell[Select_CString(target.IsFemale,'a','o')] [target
 
  elope.1012.t:0 "Una Fuga Fallita"
  elope.1012.desc:0 "Un tentativo di fuga con [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] è stato sventato! Il capitano della guardia mi informa che [owner.Custom2('YourCharacterIntroduction', ROOT.Char)] stava pianificando di rapir[target.Custom('DE_PRO_POS_P_3P')] per sposar[target.Custom('DE_PRO_POS_P_3P')] in segreto.\n\nCome se non fosse abbastanza, delle lettere trovate nelle stanze di [target.GetFirstNamePossessiveNoTooltip] indicano che [target.GetSheHe] fosse implicata nell'intera faccenda!"
-elope.1012.a: 0 "Quel[Select_CString(owner.IsFemale,'la','lo')] [owner.Custom2('InsultNounSexual', ROOT.Char)] [owner.Custom2('InsultAdjective', ROOT.Char)] non avrà mai [Select_CString(ROOT.GetCharacter.IsFemale,'la mia','il mio')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))]!"
+elope.1012.a:0 "Quel[Select_CString(owner.IsFemale,'la','lo')] [owner.Custom2('InsultNounSexual', ROOT.Char)] [owner.Custom2('InsultAdjective', ROOT.Char)] non avrà mai [Select_CString(ROOT.GetCharacter.IsFemale,'la mia','il mio')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('target'))]!"
  elope.1012.b:0 "Tradimento! Imprigiona [target.GetFirstNameNoTooltip], #EMP all'istante!#!"
  elope.1012.c:0 "Li farò soffrire, ricorda queste mie parole!"
  elope.1012.d:0 "Questa cosa mi sta facendo venire il mal di testa..."

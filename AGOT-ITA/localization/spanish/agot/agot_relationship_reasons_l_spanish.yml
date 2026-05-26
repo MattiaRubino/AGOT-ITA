@@ -18,14 +18,14 @@
 friend_business_associate: "[TARGET_CHARACTER.GetShortUIName|U] è un fidato 'socio d'affari' di [CHARACTER.GetShortUIName]."
 friend_business_associate_corresponding: "[CHARACTER.GetShortUIName] è un fidato 'socio d'affari' di [TARGET_CHARACTER.GetShortUIName]."
 
-friend_fought_for_me_in_a_trial_of_seven: 0 "[TARGET_CHARACTER.GetShortUIName|U] si è schierat[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
-friend_fought_for_me_in_a_trial_of_seven_corresponding: 0 "[CHARACTER.GetShortUIName|U] si è schierat[Select_CString(CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [TARGET_CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
+friend_fought_for_me_in_a_trial_of_seven:0 "[TARGET_CHARACTER.GetShortUIName|U] si è schierat[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
+friend_fought_for_me_in_a_trial_of_seven_corresponding:0 "[CHARACTER.GetShortUIName|U] si è schierat[Select_CString(CHARACTER.IsFemale,'a','o')] in difesa dei diritti di [TARGET_CHARACTER.GetShortUINamePossessive] in una Prova dei Sette."
 
  #Lover reasons
   lover_widowed_brothel:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
   lover_widowed_brothel_corresponding:0 "Dopo la morte del suo amato, [CHARACTER.GetShortUINamePossessive] ha trovato conforto tra le braccia di [TARGET_CHARACTER.GetShortUIName], un'amante di [TARGET_CHARACTER.Custom('GirlBoy')] proveniente da [PROVINCE.GetName]."
-lover_muse: 0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
-lover_muse_corresponding: 0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
+lover_muse:0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
+lover_muse_corresponding:0 "Durante la festa del Giorno della Vergine, [CHARACTER.GetShortUIName] stava ascoltando i cantori quando rimase ammirat[Select_CString(CHARACTER.IsFemale,'a','o')] alla vista di [TARGET_CHARACTER.GetShortUIName], [Select_CString(TARGET_CHARACTER.IsFemale,'una semplice cantante','un semplice cantore')]"
 
  #Grudge Reasons
   grudge_maidenvault_desc:0 "[CHARACTER.GetShortUIName|U] ha nutrito rancore verso [TARGET_CHARACTER.GetShortUIName] dopo aver trascorso molti anni rinchiuso nella Rocca delle Fanciulle."

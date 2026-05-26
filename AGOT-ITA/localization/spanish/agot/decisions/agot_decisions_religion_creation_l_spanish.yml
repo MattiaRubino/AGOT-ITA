@@ -11,9 +11,9 @@
   agot_create_dorne_old_gods_decision_confirm:0 "Per Duna e Sabbia..."
   agot_create_dorne_old_gods_decision_desc:0 "Giuro la mia fede su terra e acqua, bronzo e ferro, su duna e sabbia: guiderò i fedeli dei Vecchi Dei in [GetGeographicalRegion('world_westeros_dorne').GetName] e vedrò i biancospini fiorire dai Monti Rossi al Braccio Spezzato."
   agot_create_dorne_old_gods_decision_tooltip:0 "Convertiti a una nuova fede dei Vecchi Dei basata sulla cultura di Dorne"
-agot_create_dorne_old_gods_effect: 0 "Tutte le contee e i sovrani nel tuo reame che seguono [GetReligionByKey('the_pact_religion').GetName] nella [region|E] di [GetGeographicalRegion('world_westeros_dorne').GetName] si convertiranno a [GetFaithByKey('old_gods_dns').GetName]. Anche altre contee e sovrani che seguono [GetReligionByKey('the_pact_religion').GetNameNoTooltip] nella regione potrebbero convertirsi."
-pact_present_in_dorne_realm: 0 "Almeno sei contee nel tuo reame, nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName], devono seguire [GetReligionByKey('the_pact_religion').GetName]"
-pact_present_in_dorne_region: 0 "Almeno otto contee nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
+agot_create_dorne_old_gods_effect:0 "Tutte le contee e i sovrani nel tuo reame che seguono [GetReligionByKey('the_pact_religion').GetName] nella [region|E] di [GetGeographicalRegion('world_westeros_dorne').GetName] si convertiranno a [GetFaithByKey('old_gods_dns').GetName]. Anche altre contee e sovrani che seguono [GetReligionByKey('the_pact_religion').GetNameNoTooltip] nella regione potrebbero convertirsi."
+pact_present_in_dorne_realm:0 "Almeno sei contee nel tuo reame, nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName], devono seguire [GetReligionByKey('the_pact_religion').GetName]"
+pact_present_in_dorne_region:0 "Almeno otto contee nella regione di [GetGeographicalRegion('world_westeros_dorne').GetName] devono seguire [GetReligionByKey('the_pact_religion').GetName]"
 
   agot_create_crownlands_old_gods_decision:0 "Divergi ai Vecchi Dei delle Terre della Corona"
   agot_create_crownlands_old_gods_decision_confirm:0 "Per Fumo e Sale..."
@@ -80,4 +80,4 @@ pact_present_in_dorne_region: 0 "Almeno otto contee nella regione di [GetGeograp
   agot_create_fots_sands_decision_desc:0 "L’Alto Septon e i Più Devoti non sono altro che burattini del Trono di Spade e di Alto Giardino! I Sette sono giusti e veri, ma i loro sedicenti predicatori non lo sono. Guiderò i fedeli verso un nuovo giorno sotto il sole del deserto!"
   agot_create_fots_sands_decision_tooltip:0 "Convertiti a una nuova Fede dei Sette basata sulla cultura di Dorne"
   agot_create_fots_sands_effect:0 "Tutte le contee e i sovrani del tuo dominio che seguono [GetReligionByKey('the_seven_religion').GetName] si convertiranno a [GetFaithByKey('fots_sands').GetName]."
-attacked_by_iron_throne_or_reach: 0 "Sei stato attaccato in guerra da [GetTitleByKey('h_the_iron_throne').GetNameNoTier] o da [GetTitleByKey('e_the_reach').GetNameNoTier]"
+attacked_by_iron_throne_or_reach:0 "Sei stato attaccato in guerra da [GetTitleByKey('h_the_iron_throne').GetNameNoTier] o da [GetTitleByKey('e_the_reach').GetNameNoTier]"

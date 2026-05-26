@@ -74,7 +74,7 @@
  stress_threshold.1502.intro.desc:0 "Perché devo #EMP sempre#! fare tutto da sol[ROOT.Char.Custom('DE_END_PRO_S_N')]? Come ci si può aspettare che io gestisca gli affari di [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] quando metà della mia [ROOT.Char.Custom('GetCourt')|l] è incapace di seguire i miei ordini, e l'altra metà neanche li capisce?"
  stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.GetFirstName], in particolare, è diventat[scoped_courtier.Custom('DE_END_PRO_S_N')] insopportabile negli ultimi tempi. Riesco a malapena a tollerare il suo chiacchiericcio incessante."
  stress_threshold.1502.nocourtier.desc:0 ""
-stress_threshold.1502.a: 0 "Non sei altro che un[scoped_courtier.Custom2('InsultAdjective', ROOT.Char)] [scoped_courtier.Custom2('InsultNoun', ROOT.Char)]!"
+stress_threshold.1502.a:0 "Non sei altro che un[scoped_courtier.Custom2('InsultAdjective', ROOT.Char)] [scoped_courtier.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.1502.b:0 "Carceriere! Prendimi un altro prigioniero!"
  stress_threshold.1502.c:0 ""Perché dovete essere tutti degli #EMP idioti#! incompetenti!!?""
  stress_threshold.1502.d:0 "Una visita nelle [ROOT.Char.Custom('GetDungeon')] mi schiarirà l amente..." #controllare se il codice significa SEGRETE
@@ -179,7 +179,7 @@ stress_threshold.1602.burdened.effect: "Se lascio vagare i pensieri, l’ansia s
 
  stress_threshold.2201.t:0 "Crollo Mentale: Rabbia Ribollente"
 stress_threshold.2201.desc.insult_adventurer: "«Potrai pure essere il mio [ROOT.Char.Custom('GetCourtier')], [character_to_yell_at.GetFirstName], ma sei anche un[character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!»\n\n"
-stress_threshold.2201.desc.insult: 0 "«Potrai pure essere [character_to_yell_at.GetTitleAsName], [character_to_yell_at.GetFirstName], ma sei anche un[character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!»\n\n"
+stress_threshold.2201.desc.insult:0 "«Potrai pure essere [character_to_yell_at.GetTitleAsName], [character_to_yell_at.GetFirstName], ma sei anche un[character_to_yell_at.Custom2('InsultAdjectiveArticle', ROOT.Char)] [character_to_yell_at.Custom2('InsultNoun', ROOT.Char)]!»\n\n"
  stress_threshold.2201.desc:0 "Esito non appena vedo lo sguardo sulla faccia [Select_CString(character_to_yell_at.IsFemale,'della mia','del mio')] [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], ma... mi sento così #EMP arrabbiat[ROOT.Char.Custom('DE_END_PRO_S_N')]#! tutto il tempo e tutti cercano la mia ira–\n\n"
  stress_threshold.2201.desc_liege:0 "Cosa ti è preso, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Questo comportamento è inaccettabile."
  stress_threshold.2201.desc_vassal:0 "Mio signore, qual è il significato di questo comportamento?!"
@@ -198,7 +198,7 @@ stress_threshold.2201.desc.insult: 0 "«Potrai pure essere [character_to_yell_at
  stress_threshold.2202.desc:0 "[stress_character.Custom('DE_ART_IND_A')|U] è stat[stress_character.Custom('DE_END_PRO_S_N')] parecchio sotto stress ultimamente, ma"
  stress_threshold.2202.desc.rival:0 "quando [stress_character.Custom('DE_PRO_DEM')] sono state chieste spiegazioni, ha raddoppiato gli insulti."
  stress_threshold.2202.desc.other:0 "per comportarsi così..."
-stress_threshold.2202.a: 0 "Renderò pan per focaccia, [stress_character.Custom2('InsultNoun', ROOT.Char)]!"
+stress_threshold.2202.a:0 "Renderò pan per focaccia, [stress_character.Custom2('InsultNoun', ROOT.Char)]!"
  stress_threshold.2202.b:0 "Che anche [stress_character.GetSheHe] si arrabbi... è rilassante."
 
  # Level 3 Stress Events
@@ -221,8 +221,8 @@ stress_threshold.2202.a: 0 "Renderò pan per focaccia, [stress_character.Custom2
  stress_threshold.3201.depressed.gain:0 "Che importanza ha? Mi arrendo."
  stress_threshold.3201.depressed.effect:0 "È tutto inutile comunque..."
  stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Aiutami ti prego.""
-stress_threshold.3201.wrathful.gain: 0 "«No, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], #EMP non#! sto affatto bene!»"
-stress_threshold.3201.wrathful.effect: 0 "«Ti farò vedere chi sta #EMP bene#!, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]!»"
+stress_threshold.3201.wrathful.gain:0 "«No, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)], #EMP non#! sto affatto bene!»"
+stress_threshold.3201.wrathful.effect:0 "«Ti farò vedere chi sta #EMP bene#!, [vassal.Custom2('InsultAdjective', ROOT.Char)] [vassal.Custom2('InsultNoun', ROOT.Char)]!»"
  stress_threshold.3201.wrathful.effect.success:0 "Picchi [vassal.GetTitledFirstName]"
  stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] ti affronta"
 

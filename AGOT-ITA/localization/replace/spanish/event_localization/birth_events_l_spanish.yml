@@ -23,9 +23,9 @@ msg_royal_child_born_toast_desc_father: "[non_royal_parent.GetTitledFirstName] h
  birth.1001.daughters.t:0 "Le Mie Figlie"
  birth.1001.sons.t:0 "I Miei Figli"
  birth.1001.children.t:0 "I Miei Bambini"
-birth.1001.first_birth_good.desc: 0 "Quando è iniziata la prima contrazione, un grande senso di calma mi ha avvolta/o. Non c’era spazio per le preoccupazioni di prima: stavo per compiere uno dei più grandi miracoli della vita. Dopo una lunga ma gloriosa fatica, ho dato alla luce"
+birth.1001.first_birth_good.desc:0 "Quando è iniziata la prima contrazione, un grande senso di calma mi ha avvolta/o. Non c’era spazio per le preoccupazioni di prima: stavo per compiere uno dei più grandi miracoli della vita. Dopo una lunga ma gloriosa fatica, ho dato alla luce"
  birth.1001.first_birth_scary.desc:0 "Ho parlato con innumerevoli madri e ostetriche e ho preso a cuore i loro consigli. Tuttavia, quando è arrivato il mio momento, ho capito che nessun tipo di preparazione sarebbe mai stata sufficiente.\n\nI dolori erano strazianti e temevo per la mia vita. Ma ce l'ho fatta, ed ora ho"
-birth.1001.many_births.desc: 0 "A ogni parto diventa un po’ più facile, eppure non smetto mai di stupirmi dell’intensità dell’esperienza e della mia forza. Ancora una volta ho portato nuova vita in questo mondo, nella forma di"
+birth.1001.many_births.desc:0 "A ogni parto diventa un po’ più facile, eppure non smetto mai di stupirmi dell’intensità dell’esperienza e della mia forza. Ancora una volta ho portato nuova vita in questo mondo, nella forma di"
  birth.1001.not_first_birth.desc:0 "Il mio sollievo è grande e la mia gioia ancora maggiore! Ho partorito"
  birth.1001.sondaughter.desc:0 "un[child.Custom('DE_PRO_POS_P_2P')] [child.Custom('GetDaughterSon')] perfett[child.Custom('DE_END_PRO_S_N')]!\n\n"
  birth.1001.daughters.desc:0 "due bambine perfette!\n\n"
@@ -88,10 +88,10 @@ birth.1001.many_births.desc: 0 "A ogni parto diventa un po’ più facile, eppur
  birth.1006.b:0 "Il mondo saprà di mi[child.Custom('DE_END_PRO_S_N')] figli[child.Custom('DE_END_PRO_S_N')]!"
  birth.1006.bastard_explanation:0 "Hai appreso della nascita di [child.GetFirstName], la madre, [mother.GetShortUIName] ottiene il Segreto [secret.GetName]"
 
-birth.1010.t: 0 "Figlio/a del mio sangue"
-birth.1010.t_twins: 0 "Figli del mio sangue"
-birth.1010.desc.twin: 0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dato alla luce due [child.Custom('TwinDaughtersSonsChildren')]!\n\nPoiché i piccoli appartengono alla dinastia [ROOT.Char.GetDynasty.GetName], dovrebbero ricevere nomi degni della loro eredità."
-birth.1010.desc: 0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dato alla luce un[child.Custom('GetDaughterSon')]!\n\nPoiché la creatura è frutto dell’albero dei [ROOT.Char.GetDynasty.GetName], [Select_CString(child.IsFemale,'dovrebbe ricevere un nome degno della','dovrebbe ricevere un nome degno del')] [Select_CString(child.IsFemale,'sua','suo')] lignaggio."
+birth.1010.t:0 "Figlio/a del mio sangue"
+birth.1010.t_twins:0 "Figli del mio sangue"
+birth.1010.desc.twin:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dato alla luce due [child.Custom('TwinDaughtersSonsChildren')]!\n\nPoiché i piccoli appartengono alla dinastia [ROOT.Char.GetDynasty.GetName], dovrebbero ricevere nomi degni della loro eredità."
+birth.1010.desc:0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha dato alla luce un[child.Custom('GetDaughterSon')]!\n\nPoiché la creatura è frutto dell’albero dei [ROOT.Char.GetDynasty.GetName], [Select_CString(child.IsFemale,'dovrebbe ricevere un nome degno della','dovrebbe ricevere un nome degno del')] [Select_CString(child.IsFemale,'sua','suo')] lignaggio."
 
  birth.1100.title:0 "Nascita di [child.Custom('GetTaltosTerm')]"
  birth.1100.message:0 "I [child.Custom('DefaultPriestTitlePlural')] hanno identificato [child.Custom('REL_TO_ME')][child.Custom2('MyCharacterIntroduction', ROOT.Char)] come un [child.Custom('GetTaltosTerm')].\n\nScelto da [child.GetFaith.PantheonTerm] per uno scopo misterioso, cosa riserva il futuro di questo bambino?"
@@ -148,11 +148,11 @@ birth.1010.desc: 0 "[mother.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha 
  every_child_adult_non_bastard:0 "Tutti i miei figli adulti non bastardi"
 
  birth.3001.t:0 "Cullato dalla Morte"
-birth.3001.desc_other_child: 0 "«Ancora una spinta, [ROOT.Char.Custom('FormOfAddressForLiege')]! Il bambino/la bambina è quasi qui!» Un urlo mi sfugge dalle labbra mentre spingo per l’ultima volta. Il dolore è ovunque, troppo, soverchiante... e poi, è finita. Io... ce l’ho fatta.\n\n«[Select_CString(dummy_gender.IsFemale,'Sta','Sta')] bene?» A stento riconosco la mia voce. «[Select_CString(dummy_gender.IsFemale,'Sta','Sta')]... è un[dummy_gender.Custom('GirlBoy')]?»\n\nLa levatrice non mi risponde, nemmeno mi guarda. No, ha occhi solo per il neonato immobile tra le sue braccia."
+birth.3001.desc_other_child:0 "«Ancora una spinta, [ROOT.Char.Custom('FormOfAddressForLiege')]! Il bambino/la bambina è quasi qui!» Un urlo mi sfugge dalle labbra mentre spingo per l’ultima volta. Il dolore è ovunque, troppo, soverchiante... e poi, è finita. Io... ce l’ho fatta.\n\n«[Select_CString(dummy_gender.IsFemale,'Sta','Sta')] bene?» A stento riconosco la mia voce. «[Select_CString(dummy_gender.IsFemale,'Sta','Sta')]... è un[dummy_gender.Custom('GirlBoy')]?»\n\nLa levatrice non mi risponde, nemmeno mi guarda. No, ha occhi solo per il neonato immobile tra le sue braccia."
  birth.3001.a:1 "Non è ... Perché non respira?! #EMP Fai qualcosa!#!"
  birth.3001.a.tt:1 "@death_icon! Tu[dummy_gender.Custom('DE_END_PRO_S_N')] [dummy_gender.Custom('DaughterSon')] è nat[dummy_gender.Custom('DE_END_PRO_S_N')] mort[dummy_gender.Custom('DE_END_PRO_S_N')]"
 
-birth.3002.desc: 0 "Quando la [ROOT.Char.Custom('GetDoor')] della [ROOT.Char.Custom('GetChamber')] del parto si apre, non sono accolto da levatrici sorridenti e un neonato piangente, ma dai laceranti lamenti di [mother.GetTitledFirstNamePossessive].\n\n«Mi dispiace tanto, [ROOT.Char.Custom('FormOfAddressForLiege')].» La levatrice non mi guarda negli occhi. Nelle sue braccia c’è un piccolo fagotto coperto. «[dummy_gender.Custom('DaughterSon')]... [Select_CString(dummy_gender.IsFemale,'Lei','Lui')] è in [ROOT.Char.GetFaith.PositiveAfterLife] ora.»"
+birth.3002.desc:0 "Quando la [ROOT.Char.Custom('GetDoor')] della [ROOT.Char.Custom('GetChamber')] del parto si apre, non sono accolto da levatrici sorridenti e un neonato piangente, ma dai laceranti lamenti di [mother.GetTitledFirstNamePossessive].\n\n«Mi dispiace tanto, [ROOT.Char.Custom('FormOfAddressForLiege')].» La levatrice non mi guarda negli occhi. Nelle sue braccia c’è un piccolo fagotto coperto. «[dummy_gender.Custom('DaughterSon')]... [Select_CString(dummy_gender.IsFemale,'Lei','Lui')] è in [ROOT.Char.GetFaith.PositiveAfterLife] ora.»"
  birth.3002.a:0 "Mi[dummy_gender.Custom('DE_END_PRO_S_N')] [dummy_gender.Custom('DaughterSon')]? In... in [ROOT.Char.GetFaith.PositiveAfterLife]?"
 
  birth.3011.desc_twin:0 "I gemelli sono perfetti. I loro visini, il loro odore... Vorrei rimanere in questo momento per sempre, ma l'ostetrica me li lascia tenere solo per pochi respiri. Cerco di protestare quando me li toglie, ma le mie braccia sono deboli e faccio fatica a trovare le parole.\n\n"Non preoccupatevi, [Select_CString(ROOT.Char.IsFemale,'mia','mio')] [ROOT.Char.GetTitleAsNameNoTooltip]. [Select_CString(child.IsFemale,'Le vostre','I vostri')] [child.Custom('TwinDaughtersSonsChildren')] sono forti e in salute. Siete voi la nostra preoccupazione adesso."\n\n"
@@ -162,7 +162,7 @@ birth.3002.desc: 0 "Quando la [ROOT.Char.Custom('GetDoor')] della [ROOT.Char.Cus
  birth.3011.twin.a:1 "Please... Their names..."
  birth.3011.a:0 "Please... [child.GetHerHis|U] name..."
 
-birth.3012.start.desc: 0 "Quando la levatrice finalmente esce dalla [ROOT.Char.Custom('GetChamber')] del parto con un fagotto che piange piano tra le braccia, un’ondata di sollievo mi pervade.\n\nPoi vedo la sua espressione.\n\n«Mi dispiace, [ROOT.Char.Custom('FormOfAddressForLiege')]. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]...» Le mancano le parole, ma il tono dice tutto.\n\nUna vita si è spenta, ma"
+birth.3012.start.desc:0 "Quando la levatrice finalmente esce dalla [ROOT.Char.Custom('GetChamber')] del parto con un fagotto che piange piano tra le braccia, un’ondata di sollievo mi pervade.\n\nPoi vedo la sua espressione.\n\n«Mi dispiace, [ROOT.Char.Custom('FormOfAddressForLiege')]. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]...» Le mancano le parole, ma il tono dice tutto.\n\nUna vita si è spenta, ma"
  birth.3012.desc_twin:0 "two new lives have just begun. I must stay strong for my [child.Custom('TwinDaughtersSonsChildren')]."
  birth.3012.desc:0 "a new one has just begun. I must stay strong for my [child.Custom('DaughterSon')]."
  birth.3012.a:0 "Such tragic beginnings..."
@@ -171,7 +171,7 @@ birth.3012.start.desc: 0 "Quando la levatrice finalmente esce dalla [ROOT.Char.C
  birth.3021.a:0 "Why... is... [dummy_gender.GetSheHe]..."
 
 
-birth.3022.desc: 0 "Mentre aspetto fuori dalla [ROOT.Char.Custom('GetChamber')] del parto, ogni minuto sembra un’eternità. Le urla di [mother.GetFirstNamePossessive] sono cessate, senza che il pianto di un neonato le sostituisca. Qualcosa non va; lo sento nelle ossa.\n\nSi apre la [ROOT.Char.Custom('GetDoor')]. L’orrenda espressione della levatrice conferma tutti i miei timori.\n\n«Mi dispiace immensamente, [ROOT.Char.Custom('FormOfAddressForLiege')]. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]... [dummy_gender.Custom('DaughterSon')]... Entrambi sono ora in [ROOT.Char.GetFaith.PositiveAfterLife].»"
+birth.3022.desc:0 "Mentre aspetto fuori dalla [ROOT.Char.Custom('GetChamber')] del parto, ogni minuto sembra un’eternità. Le urla di [mother.GetFirstNamePossessive] sono cessate, senza che il pianto di un neonato le sostituisca. Qualcosa non va; lo sento nelle ossa.\n\nSi apre la [ROOT.Char.Custom('GetDoor')]. L’orrenda espressione della levatrice conferma tutti i miei timori.\n\n«Mi dispiace immensamente, [ROOT.Char.Custom('FormOfAddressForLiege')]. [mother.GetLadyLord|U] [mother.GetFirstNameNoTooltip]... [dummy_gender.Custom('DaughterSon')]... Entrambi sono ora in [ROOT.Char.GetFaith.PositiveAfterLife].»"
  birth.3022.a:0 "Perché, [ROOT.Char.GetFaith.FertilityGodName|U]?! Cosa ho fatto per meritarmi questo?"
  birth.3022.a.buddhism:0 "Cosa abbiamo fatto per meritarci questo?!"
 
@@ -179,7 +179,7 @@ birth.3022.desc: 0 "Mentre aspetto fuori dalla [ROOT.Char.Custom('GetChamber')] 
  birth.3031.start.desc:0 "Tutti i bambini piangono, ma con [child.Custom('DE_ART_DEF_P_A')] piccol[child.Custom('DE_END_PRO_S_N')] [child.GetFirstName] non c'è fine alle lacrime. Desidero disperatamente che la levatrice allevi le mie preoccupazioni, ma la sua fronte corrugata peggiora le cose.\n\n"
  birth.3031.princessprince.desc:0 "[child.Custom('DE_ART_DEF_P_D')] piccol[child.Custom('DE_END_PRO_S_N')] Signor[child.Custom('DE_END_ADJ_IND_S_A')]"
  birth.3031.daughterson.desc:0 "Tu[child.Custom('DE_END_PRO_S_N')] [child.Custom('DaughterSon')]"
-birth.3031.end.desc: 0 "non sta prendendo peso come [Select_CString(child.IsFemale,'dovrebbe','dovrebbe')]. Ce ne prenderemo cura al meglio, [ROOT.Char.Custom('FormOfAddressForLiege')], ma alla fine la [Select_CString(child.IsFemale,'sua','sua')] vita è nelle mani di [ROOT.Char.GetFaith.FateGodNamePossessive]."
+birth.3031.end.desc:0 "non sta prendendo peso come [Select_CString(child.IsFemale,'dovrebbe','dovrebbe')]. Ce ne prenderemo cura al meglio, [ROOT.Char.Custom('FormOfAddressForLiege')], ma alla fine la [Select_CString(child.IsFemale,'sua','sua')] vita è nelle mani di [ROOT.Char.GetFaith.FateGodNamePossessive]."
  birth.3031.a:0 "Shhh, [child.GetFirstNameNoTooltip]! Per favore, non piangere!"
 
  birth.3034.t:0 "Crescere Forte"

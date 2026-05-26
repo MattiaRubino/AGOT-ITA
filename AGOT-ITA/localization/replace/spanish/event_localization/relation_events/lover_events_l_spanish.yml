@@ -79,7 +79,7 @@
 
  lover.0201.t:0 "Fine di Una Relazione"
  lover.0201.desc:0 ""Sono così felice che tu capisca perché deve essere così", mi dice [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] amante.\n\nOh, [breaker.GetFirstName], mi piacerebbe averlo fatto! Prima sussurri tutte quelle parole dolci, e ora te ne vai?"
-lover.0201.other_lover: 0 "\n\nÈ proprio [other_lover.Custom2('InsultNounSexual', ROOT.Char)], non è così?!"
+lover.0201.other_lover:0 "\n\nÈ proprio [other_lover.Custom2('InsultNounSexual', ROOT.Char)], non è così?!"
  lover.0201.a:0 "Non è così che avrebbe dovuto essere."
 
  lover.0202.t:0 "[ROOT.Char.Custom('DE_ART_DEF_P_D')] mi[breaker.Custom('DE_END_PRO_S_N')] stess[breaker.Custom('DE_END_PRO_S_N')] [breaker.Custom('WifeHusband')]"
@@ -91,8 +91,8 @@ lover.0201.other_lover: 0 "\n\nÈ proprio [other_lover.Custom2('InsultNounSexual
  lover.0203.a:0 "Sì, sì, è un vero peccato. Adesso vattene."
 
  lover.0204.t:0 "Un[lover.Custom('DE_PRO_POS_P_2P')] [lover.Custom('WomanManGirlBoy')] Disprezzat[lover.Custom('DE_END_PRO_S_N')]"
-lover.0204.desc: 0 "«Come osi! Come osi lasciarmi, e per quel/ quella [other_lover.Custom2('InsultNounSexual', SCOPE.sC('lover'))], per giunta!»\n\nLe voci corrono rapide e la reazione drammatica di [lover.GetFirstName] mi viene ora rappresentata davanti agli occhi. È chiaro che [Select_CString(lover.IsFemale,'lei','lui')] nutre cattivi sentimenti nei miei confronti e potrebbe cercare vendetta, a torto o a ragione."
-lover.0204.a: 0 "[breaker.GetFirstNameNoTooltip] ha scelto me. Fattene una ragione."
+lover.0204.desc:0 "«Come osi! Come osi lasciarmi, e per quel/ quella [other_lover.Custom2('InsultNounSexual', SCOPE.sC('lover'))], per giunta!»\n\nLe voci corrono rapide e la reazione drammatica di [lover.GetFirstName] mi viene ora rappresentata davanti agli occhi. È chiaro che [Select_CString(lover.IsFemale,'lei','lui')] nutre cattivi sentimenti nei miei confronti e potrebbe cercare vendetta, a torto o a ragione."
+lover.0204.a:0 "[breaker.GetFirstNameNoTooltip] ha scelto me. Fattene una ragione."
 
  # Ask lover to be exclusive (lover -> soulmate)
  lover.3111.t:0 "Io Sol[ROOT.Char.Custom('DE_END_PRO_S_N')] E Unic[ROOT.Char.Custom('DE_END_PRO_S_N')]"
@@ -252,7 +252,7 @@ lover.0204.a: 0 "[breaker.GetFirstNameNoTooltip] ha scelto me. Fattene una ragio
 
 
  lover.3201.t:0 "Il Regalo Perfetto"
-lover.3201.desc: 0 "Guardando il/la perfetto/a [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('lover'))] e immaginando il sorriso di [lover.GetTitledFirstNamePossessive] riesco a malapena a trattenermi.\n\n«È squisito. Non sei d’accordo, [ROOT.Char.Custom('FormOfAddressForLiege')]?» Il vecchio mercante indica il/la [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('lover'))] strizzando l’occhio. «Il dono perfetto per la persona amata.»"
+lover.3201.desc:0 "Guardando il/la perfetto/a [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('lover'))] e immaginando il sorriso di [lover.GetTitledFirstNamePossessive] riesco a malapena a trattenermi.\n\n«È squisito. Non sei d’accordo, [ROOT.Char.Custom('FormOfAddressForLiege')]?» Il vecchio mercante indica il/la [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('lover'))] strizzando l’occhio. «Il dono perfetto per la persona amata.»"
  lover.3201.a:0 "Questo va bene. Per favore la impacchetti bene."
  lover.3201.b:0 "Lo è davvero. Ne prendo dieci!"
  lover.3201.c:0 "Questa spazzatura? Neanche per sogno."
@@ -363,7 +363,7 @@ lover.3201.desc: 0 "Guardando il/la perfetto/a [ROOT.Char.Custom2('LoverSeductio
 
  lover.3216.desc:0 "Un[lover.Custom('DE_PRO_POS_P_2P')] [lover.Custom('MusicalPerformer')] è arrivat[lover.Custom('DE_END_PRO_S_N')] a corte, ufficialmente per intrattenere e divertire, ma ben presto mi avvicina per rivelarmi il vero motivo della sua visita."
  lover.3216.desc_fancy_troubadour:0 "Un[lover.Custom('DE_PRO_POS_P_2P')] [lover.Custom('MusicalPerformer')] è arrivat[lover.Custom('DE_END_PRO_S_N')] a corte, cantando con una voce adatta al divino e pronunciando una prosa fluida come un fiume. Ben presto mi avvicina per rivelarmi il vero motivo della sua visita."
-lover.3216.desc_ending: 0 "\n\n«Mi manda [original_lover.Custom('IT_NAM_COL3')][original_lover.GetTitledFirstName] per assicurarti il [Select_CString(original_lover.IsFemale,'suo','suo')] amore ed esibirmi per te, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
+lover.3216.desc_ending:0 "\n\n«Mi manda [original_lover.Custom('IT_NAM_COL3')][original_lover.GetTitledFirstName] per assicurarti il [Select_CString(original_lover.IsFemale,'suo','suo')] amore ed esibirmi per te, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
  lover.3216.a:0 "Che bello!"
  lover.3216.b:0 "Perché mai [original_lover.Custom('DE_ART_IND_A')] dovrebbe mandare qualcun altr[original_lover.Custom('DE_END_PRO_S_N')] a corteggiarmi al posto suo?!"
 
@@ -414,16 +414,16 @@ lover.3216.desc_ending: 0 "\n\n«Mi manda [original_lover.Custom('IT_NAM_COL3')]
  lover.7002.t:0 "[proposing_friend.Custom('DE_ART_DEF_P_D')] mi[proposing_friend.Custom('DE_END_PRO_S_N')] [proposing_friend.Custom2('ComplimentAdjective', ROOT.Char)|U] Amic[proposing_friend.Custom('DE_END_PRO_S_N')]"
  lover.7002.desc:0 "Sedut[proposing_friend.Custom('DE_END_PRO_S_N')] al fianco di [proposing_friend.GetTitledFirstNamePossessive], parlando di [ROOT.Char.Custom('subject_of_interest')], vedere i suoi occhi su di me mentre sorrido... All'improvviso la tensione è palpabile, e stando al suo rossore non sono l'unic[ROOT.Char.Custom('DE_END_PRO_S_N')] a percepirlo."
 
-lover.7003.t: 0 "Il/la rivale [potential_lover.Custom2('InsultAdjective', ROOT.Char)|U]"
+lover.7003.t:0 "Il/la rivale [potential_lover.Custom2('InsultAdjective', ROOT.Char)|U]"
  lover.7003.desc:0 "[potential_lover.GetTitledFirstName] lancia un'altra occhiata a [potential_lover.Custom('herhis_subject_of_interest')], e io, lasciando vagare la mente, non posso fare a meno di notare che [potential_lover.GetSheHe] in realtà è un[potential_lover.Custom('DE_PRO_POS_P_2P')] [potential_lover.GetWomanMan] alquanto [potential_lover.Custom2('ComplimentAdjective', ROOT. Char)].\n\nLa tensione tra noi non è una novità, ma quando i nostri occhi si incontrano sento il mio cuore battere per qualcosa di diverso dall'odio..."
-lover.7003.a: 0 "Che incantesimo mi ha gettato quell[Select_CString(potential_lover.IsFemale,'a','o')] [potential_lover.Custom2('InsultNoun', ROOT.Char)]?!"
+lover.7003.a:0 "Che incantesimo mi ha gettato quell[Select_CString(potential_lover.IsFemale,'a','o')] [potential_lover.Custom2('InsultNoun', ROOT.Char)]?!"
  lover.7003.a.tt:0 "#F Devo indagare ulteriormente su questa strana sensazione...#!"
  lover.7003.b:0 "Dev'essere disgusto quel che sento."
 
-lover.7004.t: 0 "Il/la rivale [proposing_rival.Custom2('InsultAdjective', ROOT.Char)|U]"
+lover.7004.t:0 "Il/la rivale [proposing_rival.Custom2('InsultAdjective', ROOT.Char)|U]"
  lover.7004.desc_opening:0 "Nel bel mezzo di una discussione coinvolgente su [ROOT.Char.Custom('subject_of_interest')] vedo [proposing_rival.GetTitledFirstName] dall'altra parte della [ROOT.Char.Custom('GetRoom')], accigliat[proposing_rival.Custom('DE_END_PRO_S_N')].\n\n"
  lover.7004.desc_potential_lover_is_go:0 "Quando i nostri occhi si incontrano, [proposing_rival.GetSheHe], con mia sorpresa, sorride [proposing_rival.Custom('quirk_pos_adverb')]. È sempre stat[proposing_rival.Custom('DE_END_PRO_S_N')] un[proposing_rival.Custom('DE_PRO_POS_P_2P')] [proposing_rival.GetWomanMan] [proposing_rival.Custom2('ComplimentAdjective', ROOT.Char)]?"
-lover.7004.desc_not: 0 "Quando i nostri sguardi si incrociano, [Select_CString(proposing_rival.IsFemale,'lei','lui')] aggrotta la fronte e distoglie subito gli occhi: [Select_CString(proposing_rival.IsFemale,'una','un')] [proposing_rival.Custom2('InsultNoun', ROOT.Char)] come al solito!"
+lover.7004.desc_not:0 "Quando i nostri sguardi si incrociano, [Select_CString(proposing_rival.IsFemale,'lei','lui')] aggrotta la fronte e distoglie subito gli occhi: [Select_CString(proposing_rival.IsFemale,'una','un')] [proposing_rival.Custom2('InsultNoun', ROOT.Char)] come al solito!"
  lover.7004.a:0 "Ricambio il sorriso...?"
  lover.7004.a.tt:0 "#F Cos'è questo fremito improvviso nel mio cuore?#!"
  lover.7004.b:0 "Ew, lasciami in pace [proposing_rival.GetFirstNameNoTooltip]."

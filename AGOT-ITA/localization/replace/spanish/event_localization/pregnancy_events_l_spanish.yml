@@ -1,10 +1,10 @@
 ﻿l_spanish:
  pregnancy.1001.t:0 "Gravidanza!"
-pregnancy.1001.d: 0 "Un bambino cresce nel mio grembo. [Select_CString(real_father.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstNameNoTooltip], ne sarà [Select_CString(real_father.IsFemale,'orgogliosa','orgoglioso')]!"
+pregnancy.1001.d:0 "Un bambino cresce nel mio grembo. [Select_CString(real_father.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('real_father'))], [real_father.GetTitledFirstNameNoTooltip], ne sarà [Select_CString(real_father.IsFemale,'orgogliosa','orgoglioso')]!"
  pregnancy.1001.a:0 "Bene!"
 
  pregnancy.1002.t:0 "Gravidanza!"
-pregnancy.1002.d: 0 "Il fato mi sorride! [Select_CString(mother.IsFemale,'Mia','Mio')] [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstNameNoTooltip], porta in grembo il mio bambino!"
+pregnancy.1002.d:0 "Il fato mi sorride! [Select_CString(mother.IsFemale,'Mia','Mio')] [spouse.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstNameNoTooltip], porta in grembo il mio bambino!"
  pregnancy.1002.a:0 "Non vedo l'ora di tenere il bambino tra le mie braccia!"
 
  pregnancy.1101.t.dead:0 "La Vita Va Avanti"
@@ -170,5 +170,5 @@ pregnancy.1002.d: 0 "Il fato mi sorride! [Select_CString(mother.IsFemale,'Mia','
  
  # For polyamorous faith reveal
  pregnancy.6999.t:0 "Da Un Altro Uomo"
-pregnancy.6999.desc: 1 "[Select_CString(mother.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha fatto sapere che [Select_CString(mother.IsFemale,'è','è')] incint[Select_CString(mother.IsFemale,'a','o')] del figlio di [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\nAnche se il bambino non è mio, sono pur sempre [Select_CString(mother.IsFemale,'il','la')] [ROOT.Char.Custom('WifeHusband')] di [Select_CString(mother.IsFemale,'lei','lui')], ed è mio dovere prendermi cura di [Select_CString(mother.IsFemale,'lei','lui')] nei mesi a venire."
+pregnancy.6999.desc:1 "[Select_CString(mother.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mother'))], [mother.GetTitledFirstName], ha fatto sapere che [Select_CString(mother.IsFemale,'è','è')] incint[Select_CString(mother.IsFemale,'a','o')] del figlio di [real_father.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\nAnche se il bambino non è mio, sono pur sempre [Select_CString(mother.IsFemale,'il','la')] [ROOT.Char.Custom('WifeHusband')] di [Select_CString(mother.IsFemale,'lei','lui')], ed è mio dovere prendermi cura di [Select_CString(mother.IsFemale,'lei','lui')] nei mesi a venire."
  pregnancy.6999.a:1 "Un dovere a cui adempirò."

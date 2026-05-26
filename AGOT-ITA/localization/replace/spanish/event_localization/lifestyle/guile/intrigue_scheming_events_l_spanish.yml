@@ -5,13 +5,13 @@
 
 # Play Robin Hood, by Linnéa Thimrén
  intrigue_scheming.1001.t:0 "Lamentele"
-intrigue_scheming.1001.desc: 0 "«Quelle risorse servono alle truppe! Se un piccolo villaggio in [county.GetNameNoTier] deve patire la fame—»\n\nLa disputa accesa fra i miei consiglieri mi segue fuori dalla sala e [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], rappresentante di [county.GetNameNoTierNoTooltip], mi saluta con occhi stanchi mentre mi avvicino."
+intrigue_scheming.1001.desc:0 "«Quelle risorse servono alle truppe! Se un piccolo villaggio in [county.GetNameNoTier] deve patire la fame—»\n\nLa disputa accesa fra i miei consiglieri mi segue fuori dalla sala e [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], rappresentante di [county.GetNameNoTierNoTooltip], mi saluta con occhi stanchi mentre mi avvicino."
  intrigue_scheming.1001.a:0 "Tieni. Questo decreto li costringerà a lasciarti in pace."
  intrigue_scheming.1001.b:0 "Che importanza ha un singolo villaggio quando si guarda al quadro generale?"
 
 # Invent code for messages, by Linnéa Thimrén
  intrigue_scheming.1011.t:0 "La Segretezza è Importante"
-intrigue_scheming.1011.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]!»\nMi volto e vedo [council_member.Custom('IT_NAM_COL4')][council_member.GetTitledFirstName] correre verso di me senza fiato. «È stato trovato un altro messaggero morto, [ROOT.Char.Custom('FormOfAddressForLiege')]. Borsa e lettera sono state rubate.»\n\nTerza volta quest’anno; l’irritazione diventa preoccupazione. E se i nostri nemici stessero leggendo la corrispondenza fra me e i miei agenti?"
+intrigue_scheming.1011.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]!»\nMi volto e vedo [council_member.Custom('IT_NAM_COL4')][council_member.GetTitledFirstName] correre verso di me senza fiato. «È stato trovato un altro messaggero morto, [ROOT.Char.Custom('FormOfAddressForLiege')]. Borsa e lettera sono state rubate.»\n\nTerza volta quest’anno; l’irritazione diventa preoccupazione. E se i nostri nemici stessero leggendo la corrispondenza fra me e i miei agenti?"
  intrigue_scheming.1011.a:0 "Trova un crittografo e inizia subito!"
  intrigue_scheming.1011.a.flavor:0 "Lavorerò insieme al crittografo per sviluppare un codice."
  intrigue_scheming.1011.b:0 "Devo essere più vigile in futuro."
@@ -53,7 +53,7 @@ intrigue_scheming.1011.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]!
 
 # Meet a merchant from a far away land, by Linnéa Thimrén
  intrigue_scheming.1401.t:0 "Informazioni Venute da Lontano"
-intrigue_scheming.1401.desc_opening: 0 "Visitando il mercato locale, un mercante di terre lontane attira la mia attenzione.\n\n«Avvicinati, [ROOT.Char.Custom('FormOfAddressForLiege')]! Ammira tesori mai visti prima in queste contrade!»"
+intrigue_scheming.1401.desc_opening:0 "Visitando il mercato locale, un mercante di terre lontane attira la mia attenzione.\n\n«Avvicinati, [ROOT.Char.Custom('FormOfAddressForLiege')]! Ammira tesori mai visti prima in queste contrade!»"
  intrigue_scheming.1401.desc1:0 "È stato tutt'altro che facile portare queste gemme fuori dal paese. Ho dovuto tenere un occhio aperto mentre dormivo, costantemente."
  intrigue_scheming.1401.desc2:0 "Sono appena sgattaiolat[dummy_gender.Custom('DE_END_PRO_S_N')] davanti alle guardie incaricate di proteggere queste bellezze. La mia conoscenza della natura umana è incredibile."
  intrigue_scheming.1401.desc3:0 "Ho dovuto mimetizzarmi con la popolazione per far uscire queste bellezze, un'esperienza davvero straziante."
@@ -75,25 +75,25 @@ intrigue_scheming.1401.desc_opening: 0 "Visitando il mercato locale, un mercante
  
 # Gain Intrigue Mentor, by Linnéa Thimrén
  intrigue_scheming.2001.t:0 "Il Maestro"
-intrigue_scheming.2001.desc: 0 "«Ho notato il tuo interesse per le arti del… sotterfugio, [ROOT.Char.Custom('FormOfAddressForLiege')]. Potrei aiutarti a imparare ancora di più.»\n\n[Select_CString(future_mentor.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('future_mentor') )] [future_mentor.Custom('IT_NAM_COL3')][future_mentor.GetTitledFirstName] sorride [future_mentor.Custom('quirk_pos_adverb')] mentre [Select_CString(future_mentor.IsFemale,'si unisce','si unisce')] a me in [SelectLocalization( IsLandlessAdventurer(ROOT.Char),ROOT.Char.Custom('GetRandomCampBuilding'),'i miei giardini')]. [Select_CString(future_mentor.IsFemale,'È','È')] famoso quanto si può esserlo con tali competenze, e #EMP vorrei#! approfondire la mia conoscenza dell’intrigo."
+intrigue_scheming.2001.desc:0 "«Ho notato il tuo interesse per le arti del… sotterfugio, [ROOT.Char.Custom('FormOfAddressForLiege')]. Potrei aiutarti a imparare ancora di più.»\n\n[Select_CString(future_mentor.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('future_mentor') )] [future_mentor.Custom('IT_NAM_COL3')][future_mentor.GetTitledFirstName] sorride [future_mentor.Custom('quirk_pos_adverb')] mentre [Select_CString(future_mentor.IsFemale,'si unisce','si unisce')] a me in [SelectLocalization( IsLandlessAdventurer(ROOT.Char),ROOT.Char.Custom('GetRandomCampBuilding'),'i miei giardini')]. [Select_CString(future_mentor.IsFemale,'È','È')] famoso quanto si può esserlo con tali competenze, e #EMP vorrei#! approfondire la mia conoscenza dell’intrigo."
  intrigue_scheming.2001.a:0 ""Mostrami la strada.""
  intrigue_scheming.2001.b:0 "Sarebbe ingenuo fidarsi di qualcuno con le sue capacità."
 
 # Sneaky person seeks you out (might be an agent), by Linnéa Thimrén
  intrigue_scheming.2101.t:0 "Prospettive Intriganti"
-intrigue_scheming.2101.desc: 0 "«Mi è giunta voce, [ROOT.Char.Custom('FormOfAddressForLiege')], che potresti aver bisogno di qualcuno dei miei… talenti.» La mia nuov[Select_CString(sneaky_person.IsFemale,'a','o')] conoscenz[Select_CString(sneaky_person.IsFemale,'a','o')] [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName] si avvicina sorridendo.\n\n«Se i miei servigi potessero esserti utili, non esitare a richiederli.»"
+intrigue_scheming.2101.desc:0 "«Mi è giunta voce, [ROOT.Char.Custom('FormOfAddressForLiege')], che potresti aver bisogno di qualcuno dei miei… talenti.» La mia nuov[Select_CString(sneaky_person.IsFemale,'a','o')] conoscenz[Select_CString(sneaky_person.IsFemale,'a','o')] [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName] si avvicina sorridendo.\n\n«Se i miei servigi potessero esserti utili, non esitare a richiederli.»"
  intrigue_scheming.2101.a:0 "Potresti davvero servirmi."
  intrigue_scheming.2101.b:0 "Non sei adatto a questo compito."
 
  intrigue_scheming.2102.t:0 "Il Fedele [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )|U]"
-intrigue_scheming.2102.desc: 0 "Resto nelle ombre del [ROOT.Char.Custom('GetCourtyard')], osservando il mio[Select_CString(sneaky_person.IsFemale,'a','o')] nuov[Select_CString(sneaky_person.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )], [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName], svanire nella notte.\n\nUn’altra sera, un altro incontro misterioso, e la mia diffidenza verso quell[Select_CString(sneaky_person.IsFemale,'a','o')] [sneaky_person.GetWomanMan] cresce ancora."
+intrigue_scheming.2102.desc:0 "Resto nelle ombre del [ROOT.Char.Custom('GetCourtyard')], osservando il mio[Select_CString(sneaky_person.IsFemale,'a','o')] nuov[Select_CString(sneaky_person.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )], [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName], svanire nella notte.\n\nUn’altra sera, un altro incontro misterioso, e la mia diffidenza verso quell[Select_CString(sneaky_person.IsFemale,'a','o')] [sneaky_person.GetWomanMan] cresce ancora."
  intrigue_scheming.2102.a:0 "[sneaky_person.GetFirstNameNoTooltip], che cosa stai facendo?!"
  intrigue_scheming.2102.a.tt:1 "[sneaky_person.GetSheHe|U] non nota nulla della tua indagine"
  intrigue_scheming.2102.b.tt:1 "[sneaky_person.GetSheHe|U] si rende conto che stai indagando sulla sua persona"
  intrigue_scheming.2102.b:0 "Oh, probabilmente non è niente."
 
  intrigue_scheming.2103.desc_not_noticed:0 ""[sneaky_person.GetSheHe|U] sta lavorando per [sneaky_person.Custom('DE_ART_DEF_P_A')] [sneaky_person_scheme_owner.GetTitledFirstName]?!"\n\nNelle/negli [ROOT.Char.Custom('GetChamberPlural')] del[sneaky_person.Custom('DE_END_ADJ_NUL_S_N')] [sneaky_person.GetTitledFirstName] trovo una lettera che non lascia spazio a incomprensioni. [sneaky_person.GetSheHe|U] ha complottato contro di me, recitando il ruolo di leale [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sneaky_person') )] solo per mantenere le apparenze."
-intrigue_scheming.2103.desc_noticed: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa posso fare per te?»\n\nMalgrado ogni sforzo, [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName] non pare avere nulla di sinistro, salvo [Select_CString(sneaky_person.IsFemale,'i suoi','i suoi')] strani abiti notturni."
+intrigue_scheming.2103.desc_noticed:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cosa posso fare per te?»\n\nMalgrado ogni sforzo, [sneaky_person.Custom('IT_NAM_COL3')][sneaky_person.GetTitledFirstName] non pare avere nulla di sinistro, salvo [Select_CString(sneaky_person.IsFemale,'i suoi','i suoi')] strani abiti notturni."
  intrigue_scheming.2103.a:0 "Nelle segrete con [sneaky_person.GetHerHim]!"
  intrigue_scheming.2103.b:0 "Buttal[sneaky_person.Custom('DE_END_PRO_S_N')] fuori."
  intrigue_scheming.2103.c:0 "Abbiamo tutti le nostre... #EMP esigenze#! suppongo."
@@ -159,7 +159,7 @@ intrigue_scheming.2103.desc_noticed: 0 "«[ROOT.Char.Custom('FormOfAddressForLie
  intrigue_scheming.3041.b.failure:0 "[liege_target.GetFirstNameNoTooltip] non è intimidito"
  intrigue_scheming.3041.c:0 "Non ho bisogno di aiuto per raggiungere i miei scopi."
 
-intrigue_scheming.3042.desc: 0 "[liege_target.Custom('IT_NAM_COL3')][liege_target.GetTitledFirstName] appare inorridit[Select_CString(liege_target.IsFemale,'a','o')], come se il tradimento di [vassal_target.GetTitledFirstNamePossessive] fosse una #EMP completa#! sorpresa. «Sei disposto a sostenere qualunque pretesa di quell… quel [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('liege_target'))]?!»\n\n[vassal_target.GetFirstName] fa la parte con severi cenni del capo, come previsto. Sorrido al mio prossimo pedone. «E non credere nemmeno per un istante che [Select_CString(vassal_target.IsFemale,'sia','sia')] sol[Select_CString(vassal_target.IsFemale,'a','o')].»"
+intrigue_scheming.3042.desc:0 "[liege_target.Custom('IT_NAM_COL3')][liege_target.GetTitledFirstName] appare inorridit[Select_CString(liege_target.IsFemale,'a','o')], come se il tradimento di [vassal_target.GetTitledFirstNamePossessive] fosse una #EMP completa#! sorpresa. «Sei disposto a sostenere qualunque pretesa di quell… quel [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('liege_target'))]?!»\n\n[vassal_target.GetFirstName] fa la parte con severi cenni del capo, come previsto. Sorrido al mio prossimo pedone. «E non credere nemmeno per un istante che [Select_CString(vassal_target.IsFemale,'sia','sia')] sol[Select_CString(vassal_target.IsFemale,'a','o')].»"
  intrigue_scheming.3042.a:0 "Ora, vorrei che tu..."
 
  intrigue_scheming.3043.desc:0 ""Non credere che possa essere costrett[liege_target.Custom('DE_END_PRO_S_N')] così facilmente!" dichiara [liege_target.Custom('DE_ART_DEF_P_A')] [liege_target.GetTitledFirstName]. [vassal_target.Custom('DE_ART_DEF_P_A')] [vassal_target.GetTitledFirstName] sembra ritirarsi, non riponendo più la fiducia che [vassal_target.GetSheHe] mi aveva offerto per sostenere le mie richieste.\n\n[liege_target.Custom('DE_ART_DEF_P_D')] [liege_target.GetTitleTierName] vanifica le mie ultime speranze. "I miei [liege_target.Custom('GetFollowerOrVassalPlural')] conoscono il loro posto." [vassal_target.GetFirstName] lo conferma con il suo silenzio."
@@ -179,7 +179,7 @@ intrigue_scheming.3042.desc: 0 "[liege_target.Custom('IT_NAM_COL3')][liege_targe
  intrigue_scheming.3061.t:0 "Retaggio Confuso"
  intrigue_scheming.3061.desc:0 "Per giorni sono stat[ROOT.Char.Custom('DE_END_PRO_S_N')] ossessionat[ROOT.Char.Custom('DE_END_PRO_S_N')] dal lignaggio [target.GetDynasty.GetBaseName], e ora ne sono cert[ROOT.Char.Custom('DE_END_PRO_S_N')]. Non è possibile che [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] possa provare definitivamente la paternità del suo [target.Custom2('RelationToMe', SCOPE.sC('heir'))], [heir.GetTitledFirstName]!\n\nDove mancano le prove, le prove possono essere piantate... È tempo per me di scrivere una nuova verità sulle origini di [heir.GetFirstNamePossessive]!"
  intrigue_scheming.3061.a:0 "[new_father.GetFirstName] sarebbe un padre eccellente."
-intrigue_scheming.3061.b: 0 "[Select_CString(mother.IsFemale,'La mia','Il mio')] [mother.GetTitledFirstNameNoTooltip] si è unita con un servitore?! Che vergogna!"
+intrigue_scheming.3061.b:0 "[Select_CString(mother.IsFemale,'La mia','Il mio')] [mother.GetTitledFirstNameNoTooltip] si è unita con un servitore?! Che vergogna!"
  intrigue_scheming.3061.c:0 "Ed io avrò il ruolo da protagonista!"
  intrigue_scheming.3061.d:0 "Tutta questa storia dinastica potrebbe rivelarsi utile per qualcos'altro."
  intrigue_scheming.3061.success:0 "Nuove Prove"
@@ -364,7 +364,7 @@ intrigue_scheming.3061.b: 0 "[Select_CString(mother.IsFemale,'La mia','Il mio')]
  intrigue_scheming_special.1303.desc_sneak_win_spy:0 "Riesco a seguire [sneaky_courtier.GetSheHe] senza far rumore, e mentre ci avviciniamo alle mie stanze private posso sentire il mio battito aumentare.\n\nPresto il clic della serratura delle mie stanze private riecheggia nel corridoio."
  intrigue_scheming_special.1303.desc_sneak_fail:0 "Seguo [sneaky_courtier.GetTitledFirstName], inosservat[ROOT.Char.Custom('DE_END_PRO_S_N')], e mentre ci avviciniamo alle mie stanze private e ai giardini del [ROOT.Char.Custom('FortifiedBuilding')] il mio battito cardiaco aumenta. Cosa ci fa [sneaky_courtier.GetSheHe] qui? Senza accorgemene, spingo un vaso che decora il corridoio e questo si schianta sul pavimento.\n\nIl clamore che segue quasi copre i suoi passi frettolosi mentre svaniscono nel corridoio, e [sneaky_courtier.GetSheHe] si perde presto nella notte."
  intrigue_scheming_special.1303.a:0 "Affronta[sneaky_courtier.Custom('DE_PRO_POS_P_3P')]!"
-intrigue_scheming_special.1303.b: 0 "Dovrò tenere gli occhi aperti."
+intrigue_scheming_special.1303.b:0 "Dovrò tenere gli occhi aperti."
  intrigue_scheming_special.1303.c:0 "Bene, oggi #EMP è#! una bellissima serata."
  intrigue_scheming_special.1303.c.tt:1 "Hai messo a tacere i tuoi sospetti e questa è stata una lezione preziosa.\n"
  intrigue_scheming_special.1303.d:0 "Ho notato i segni presto, però!"

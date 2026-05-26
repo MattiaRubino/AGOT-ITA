@@ -58,7 +58,7 @@ travel_start_event.1000.take_test_tt: "Poiché i [landed|E] [governors|E] non po
  
 
  ##Host Wedding
-travel_start_event.1030.desc_host_wedding: 0 "Il[Select_CString(host.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName] sta ospitando [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ed è giunta l’ora di partire.\n\n[Select_CString(host.IsFemale,'Lei','Lui')|U] entrerà in [host.Custom('GetCulturallyAppropriateMarriageReference')] con [host_spouse_to_be.Custom('IT_NAM_COL3')][host_spouse_to_be.GetTitledFirstName]"
+travel_start_event.1030.desc_host_wedding:0 "Il[Select_CString(host.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName] sta ospitando [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ed è giunta l’ora di partire.\n\n[Select_CString(host.IsFemale,'Lei','Lui')|U] entrerà in [host.Custom('GetCulturallyAppropriateMarriageReference')] con [host_spouse_to_be.Custom('IT_NAM_COL3')][host_spouse_to_be.GetTitledFirstName]"
  travel_start_event.1030.desc_host_wedding_negative:0 "e io sarò lì a prenderli in giro."
  travel_start_event.1030.desc_host_wedding_positive:0 "e io sarò lì, per celebrare la loro unione."
  travel_start_event.1030.desc_host_wedding_default:0 "e il matrimonio dovrebbe, come la maggior parte dei matrimoni, essere divertente."
@@ -68,7 +68,7 @@ travel_start_event.1030.desc_host_wedding: 0 "Il[Select_CString(host.IsFemale,'l
  travel_start_event.1030.desc_host_wedding_outro_default:0 "\n\nNon vedo l'ora di rilassarmi e di godermi i festeggiamenti che accompagnano una simile occasione."
 
  ##Wedding
-travel_start_event.1030.desc_wedding: 1 "Il[Select_CString(host.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName] sta ospitando un[a ROOT.Char.GetInvolvedActivity.GetShortName] a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ed è giunta l’ora di partire.\n\nLa cerimonia unirà [host.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] [first_spouse.Custom('IT_NAM_COL3')][first_spouse.GetTitledFirstName] e [host.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] [second_spouse.Custom('IT_NAM_COL3')][second_spouse.GetTitledFirstName] in [host.Custom('GetCulturallyAppropriateMarriageReference')]."
+travel_start_event.1030.desc_wedding:1 "Il[Select_CString(host.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('host'))] [host.Custom('IT_NAM_COL3')][host.GetTitledFirstName] sta ospitando un[a ROOT.Char.GetInvolvedActivity.GetShortName] a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName] ed è giunta l’ora di partire.\n\nLa cerimonia unirà [host.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] [first_spouse.Custom('IT_NAM_COL3')][first_spouse.GetTitledFirstName] e [host.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] [second_spouse.Custom('IT_NAM_COL3')][second_spouse.GetTitledFirstName] in [host.Custom('GetCulturallyAppropriateMarriageReference')]."
 
  travel_start_event.1030.desc_wedding_outro_sick:0 "\n\nAnche se la mia salute sta cedendo, attendo comunque questo evento per potermi rilassare e apprezzare i festeggiamenti."
  travel_start_event.1030.desc_wedding_outro_negative:0 "$travel_start_event.1040.desc_feast_outro_negative$"
@@ -84,7 +84,7 @@ travel_start_event.1030.desc_wedding: 1 "Il[Select_CString(host.IsFemale,'la mia
  travel_start_event.1030.desc_my_spouse_wedding_outro_default:0 "\n\nSono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che mi piacerà molto passare il resto della mia vita con [CHARACTER.Custom('IT_NAM_COL3')][my_spouse_to_be.GetTitledFirstNameNoTooltip]."
  
  ##My Wedding
-travel_start_event.1030.desc_my_wedding: 0 "$travel_start_event.1000.intro_my_activity$\n\nUniremo in [ROOT.Char.Custom('GetCulturallyAppropriateMarriageReference')] il[Select_CString(first_spouse.IsFemale,'la','lo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] [first_spouse.Custom('IT_NAM_COL3')][first_spouse.GetTitledFirstName] e il[Select_CString(second_spouse.IsFemale,'la','lo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] [second_spouse.Custom('IT_NAM_COL3')][second_spouse.GetTitledFirstName], a beneficio di tutte le parti coinvolte."
+travel_start_event.1030.desc_my_wedding:0 "$travel_start_event.1000.intro_my_activity$\n\nUniremo in [ROOT.Char.Custom('GetCulturallyAppropriateMarriageReference')] il[Select_CString(first_spouse.IsFemale,'la','lo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('first_spouse'))] [first_spouse.Custom('IT_NAM_COL3')][first_spouse.GetTitledFirstName] e il[Select_CString(second_spouse.IsFemale,'la','lo')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('second_spouse'))] [second_spouse.Custom('IT_NAM_COL3')][second_spouse.GetTitledFirstName], a beneficio di tutte le parti coinvolte."
  
  travel_start_event.1030.desc_my_wedding_outro_sick:0 "\n\nAnche se la mia salute è fragile, mi impegnerò sempre affinché tutti gli ospiti siano stupiti e si sentano coccolati."
  travel_start_event.1030.desc_my_wedding_outro_negative:0 "\n\nÈ meglio che la coppia felice sia grata."
@@ -113,7 +113,7 @@ travel_start_event.1030.desc_my_wedding: 0 "$travel_start_event.1000.intro_my_ac
  travel_start_event.1040.desc_my_feast_celebration_host:2 "\n\nLa [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] è in mio onore per celebrare le mie magnifiche conquiste e imprese."
  travel_start_event.1040.desc_my_feast_celebration:0 "\n\nQuesto [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] è in onore [celebratory_guest.Custom('IT_NAM_COL2')][celebratory_guest.GetTitledFirstName], una persona davvero notevole che merita un'onorificenza molto speciale."
  travel_start_event.1040.desc_my_feast_outro_sick:0 "\n\nUltimamente non mi sento molto bene, ma queste feste mi tireranno sicuramente su."
-travel_start_event.1040.desc_my_feast_outro_extrovert: 1 "\n\nMi assicurerò che questo [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] sia un evento da ricordare, di cui si parlerà per anni."
+travel_start_event.1040.desc_my_feast_outro_extrovert:1 "\n\nMi assicurerò che questo [ROOT.Char.GetInvolvedActivity.GetShortNameNoTooltip|l] sia un evento da ricordare, di cui si parlerà per anni."
  travel_start_event.1040.desc_my_feast_outro_introvert:0 "\n\n travel_start_event.1040.desc_my_feast_outro_introvert:0 "\n\nSebbene non mi interessi particolarmente questo tipo di eventi, ogni tanto sono un male necessario."
  travel_start_event.1040.desc_my_feast_outro:0 "\n\nNon vedo l'ora di fare un buon banchetto e di sfogarmi un po'!"
 
@@ -225,10 +225,10 @@ travel_start_event.1100.desc_exam_martial: "le strategie di guerra, quindi ho pa
  ##My Imperial Examination
 travel_start_event.1100.desc_my_exam_imperial: "$travel_start_event.1000.intro_my_activity$\n\nIn quanto [ROOT.Char.GetTitleAsName], mi aspetto di vedere studiosi virtuosi da ogni angolo del reame, in gara per dimostrare di essere degni di governare tutti coloro che volgono lo sguardo ai cieli."
 travel_start_event.1100.desc_my_exam_local: "$travel_start_event.1000.intro_my_activity$\n\nMi aspetto che i più capaci cittadini si uniscano prontamente a me in [location.GetName], pronti a dimostrare il proprio valore."
-travel_start_event.1100.desc_sick_exam_outro: 0 "\n\nMalgrado il mio corpo malato, non vorrei perdermi questo evento."
+travel_start_event.1100.desc_sick_exam_outro:0 "\n\nMalgrado il mio corpo malato, non vorrei perdermi questo evento."
 travel_start_event.1100.desc_exam_wrong_gender: "\n\nSo che la mia presenza a questo esame verrà messa in discussione, ma #EMP mi guadagnerò#! il merito."
 travel_start_event.1100.desc_exam_outro: "\n\nMi chiedo se riuscirò a emergere sugli altri."
-travel_start_event.1100.desc_my_exam_outro: 0 "\n\nChi spiccherà sugli altri, mi domando?"
+travel_start_event.1100.desc_my_exam_outro:0 "\n\nChi spiccherà sugli altri, mi domando?"
 wrong_examination_gender_tt: "@warning_icon! #X A causa delle [gender_law|E] del reame#!"
  
 tgp_wrong_examination_gender_female_modifier: "Partecipazione riprovata"

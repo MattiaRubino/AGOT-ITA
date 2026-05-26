@@ -250,17 +250,17 @@
 
  # Eustace is confronted by Dunk
  # Available scopes: dunk/rohanne
-agot_scenario_ats.4020.t: 0 "Il Leone Colpevole"
-agot_scenario_ats.4020.desc: 0 "Odo il cavallo di [dunk.Custom('IT_NAM_COL2')][dunk.GetTitledFirstName] avvicinarsi a Standfast mentre attendo accanto al fuoco. Dal fremito di frustrazione nel [Select_CString(dunk.IsFemale,'respiro di lei','respiro di lui')] e dal battere dei [Select_CString(dunk.IsFemale,'suoi','suoi')] passi capisco che non è andata bene. [Select_CString(dunk.IsFemale,'Lei','Lui')] raggiunge la cima delle scale e, nel giro di pochi istanti, mi accusa di tradimento.\n\n"Avete detto di aver combattuto per il re!" esclama [Select_CString(dunk.IsFemale,'lei','lui')]. "E così feci; combattei per il Re che Portava la Spada." La mia risposta mi travolge con un'ondata di crepacuore. #italic Se solo Fireball fosse vissuto, se solo Daemon avesse abbattuto Gwayne Corbray, se solo avesse preso Weeping Ridge, se solo i miei figli...#!\n\nMa ormai è troppo tardi, e poco posso fare per impedire a [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] di uscire furibond[Select_CString(dunk.IsFemale,'a','o')] dalla stanza e scendere le scale, lasciandomi ancora una volta solo con le mie reliquie."
-agot_scenario_ats.4020.a: 0 "Se solo..."
-agot_scenario_ats.4020.a.tt: 0 "Ti riposerai per la notte"
+agot_scenario_ats.4020.t:0 "Il Leone Colpevole"
+agot_scenario_ats.4020.desc:0 "Odo il cavallo di [dunk.Custom('IT_NAM_COL2')][dunk.GetTitledFirstName] avvicinarsi a Standfast mentre attendo accanto al fuoco. Dal fremito di frustrazione nel [Select_CString(dunk.IsFemale,'respiro di lei','respiro di lui')] e dal battere dei [Select_CString(dunk.IsFemale,'suoi','suoi')] passi capisco che non è andata bene. [Select_CString(dunk.IsFemale,'Lei','Lui')] raggiunge la cima delle scale e, nel giro di pochi istanti, mi accusa di tradimento.\n\n"Avete detto di aver combattuto per il re!" esclama [Select_CString(dunk.IsFemale,'lei','lui')]. "E così feci; combattei per il Re che Portava la Spada." La mia risposta mi travolge con un'ondata di crepacuore. #italic Se solo Fireball fosse vissuto, se solo Daemon avesse abbattuto Gwayne Corbray, se solo avesse preso Weeping Ridge, se solo i miei figli...#!\n\nMa ormai è troppo tardi, e poco posso fare per impedire a [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNoTooltip] di uscire furibond[Select_CString(dunk.IsFemale,'a','o')] dalla stanza e scendere le scale, lasciandomi ancora una volta solo con le mie reliquie."
+agot_scenario_ats.4020.a:0 "Se solo..."
+agot_scenario_ats.4020.a.tt:0 "Ti riposerai per la notte"
 
  # Eustace sees wat's wood fire
  # Available scope: wats_wood
-agot_scenario_ats.4021.t: 0 "Un Cielo in Fiamme"
-agot_scenario_ats.4021.desc: 0 "Dopo che la Vedova Rossa ebbe respinto la mia precedente offerta, tornai a cavallo verso casa in malinconico silenzio, dirigendomi subito ai miei alloggi nella speranza di dimenticare le umiliazioni del giorno prima. Nel pieno del riposo notturno, l'aspra luce arancio-rossa dell'alba mi desta dal sonno. Mi strofino la stanchezza dagli occhi, scostando l'antico calice da cui avevo bevuto la notte scorsa. Sbircio dalla finestra orientale e trovo ad accogliermi il blu scuro della notte. Confuso, mi volto di nuovo verso il sole che sorge e mi rendo conto che non è affatto il sole.\n\nFumo che si attorciglia e fiamme furiose avvolgono il Bosco di Wat, mentre i servitori ai piedi di Standfast si precipitano a prendere acqua dai pozzi nel caso l'incendio si propaghi. In un istante comprendo; è stata la Vedova Rossa.\n\nOra non ho altra scelta che combattere o incontrarla sul campo per trattare. Non vi può essere alcuna via di mezzo."
-agot_scenario_ats.4021.a: 0 "Presto cavalcheremo... in un modo o nell'altro."
-agot_scenario_ats.4021.a.tt: 0 "Presto deciderai come procedere"
+agot_scenario_ats.4021.t:0 "Un Cielo in Fiamme"
+agot_scenario_ats.4021.desc:0 "Dopo che la Vedova Rossa ebbe respinto la mia precedente offerta, tornai a cavallo verso casa in malinconico silenzio, dirigendomi subito ai miei alloggi nella speranza di dimenticare le umiliazioni del giorno prima. Nel pieno del riposo notturno, l'aspra luce arancio-rossa dell'alba mi desta dal sonno. Mi strofino la stanchezza dagli occhi, scostando l'antico calice da cui avevo bevuto la notte scorsa. Sbircio dalla finestra orientale e trovo ad accogliermi il blu scuro della notte. Confuso, mi volto di nuovo verso il sole che sorge e mi rendo conto che non è affatto il sole.\n\nFumo che si attorciglia e fiamme furiose avvolgono il Bosco di Wat, mentre i servitori ai piedi di Standfast si precipitano a prendere acqua dai pozzi nel caso l'incendio si propaghi. In un istante comprendo; è stata la Vedova Rossa.\n\nOra non ho altra scelta che combattere o incontrarla sul campo per trattare. Non vi può essere alcuna via di mezzo."
+agot_scenario_ats.4021.a:0 "Presto cavalcheremo... in un modo o nell'altro."
+agot_scenario_ats.4021.a.tt:0 "Presto deciderai come procedere"
 
  ##########
  #  Dunk  #
@@ -268,31 +268,31 @@ agot_scenario_ats.4021.a.tt: 0 "Presto deciderai come procedere"
 
  # Dunk confronts Eustace
  # Available Scopes: eustace/egg
-agot_scenario_ats.4030.t: 0 "Le Menzogne del Leone"
-agot_scenario_ats.4030.desc: 0 "Il viaggio di ritorno da Coldmoat è silenzioso. Lo trascorro in preda all'ira, sconvolto dal fatto che il signore cui servo abbia combattuto per il Drago Nero. Ser [eustace.GetFirstName] aveva sempre detto di aver servito il Re. Non disse mai quale. Egg la sente allo stesso modo; suo padre aveva contribuito a spezzare l'esercito del Drago Nero al Campo dell'Erba Rossa, solo per servire poi uno dei suoi cavalieri. #italic Dunk il Tronfio, spesso come le mura d'un castello...#!\n\nAl nostro arrivo ordino a Egg di occuparsi dei cavalli e salgo battendo i piedi fino alla cima della torre, affrontando Ser [eustace.GetFirstNameNoTooltip] in un impeto d'ira. "Siete un traditore", dico con sicurezza, ma mi viene ricordato che le cose sono di rado così semplici.\n\n"Se il Drago Nero avesse vinto, ci chiamerebbero lealisti, e i sostenitori di Daeron il Falsonato sarebbero i traditori", fa notare [eustace.GetFirstNameNoTooltip]. Ora devo scegliere: restare con un traditore e portare tutto questo fino in fondo, o tornare alle siepi."
+agot_scenario_ats.4030.t:0 "Le Menzogne del Leone"
+agot_scenario_ats.4030.desc:0 "Il viaggio di ritorno da Coldmoat è silenzioso. Lo trascorro in preda all'ira, sconvolto dal fatto che il signore cui servo abbia combattuto per il Drago Nero. Ser [eustace.GetFirstName] aveva sempre detto di aver servito il Re. Non disse mai quale. Egg la sente allo stesso modo; suo padre aveva contribuito a spezzare l'esercito del Drago Nero al Campo dell'Erba Rossa, solo per servire poi uno dei suoi cavalieri. #italic Dunk il Tronfio, spesso come le mura d'un castello...#!\n\nAl nostro arrivo ordino a Egg di occuparsi dei cavalli e salgo battendo i piedi fino alla cima della torre, affrontando Ser [eustace.GetFirstNameNoTooltip] in un impeto d'ira. "Siete un traditore", dico con sicurezza, ma mi viene ricordato che le cose sono di rado così semplici.\n\n"Se il Drago Nero avesse vinto, ci chiamerebbero lealisti, e i sostenitori di Daeron il Falsonato sarebbero i traditori", fa notare [eustace.GetFirstNameNoTooltip]. Ora devo scegliere: restare con un traditore e portare tutto questo fino in fondo, o tornare alle siepi."
  # Dunk decides to leave
-agot_scenario_ats.4030.a: 0 "Dobbiamo andarcene; non posso servire un traditore."
-agot_scenario_ats.4030.a.tt: 0 "Pianificherai di andartene non appena ti sarà possibile"
+agot_scenario_ats.4030.a:0 "Dobbiamo andarcene; non posso servire un traditore."
+agot_scenario_ats.4030.a.tt:0 "Pianificherai di andartene non appena ti sarà possibile"
  # Dunk decides to stay
-agot_scenario_ats.4030.b: 0 "Drago Nero o Rosso, ho giurato di servire."
-agot_scenario_ats.4030.b.tt: 0 "Deciderai di restare a Standfast"
+agot_scenario_ats.4030.b:0 "Drago Nero o Rosso, ho giurato di servire."
+agot_scenario_ats.4030.b.tt:0 "Deciderai di restare a Standfast"
 
  # Dunk sees wat's wood fire as he sleeps, triggered loc for whether its his last night or not
  # Available scopes: rohanne/egg/wats_wood
-agot_scenario_ats.4031.t: 0 "Un Cielo in Fiamme"
-agot_scenario_ats.4031.desc: 0 "Mentre riposo nella cantina sotto Coldmoat, con in mente un sogno piacevole, un improvviso trambusto mi costringe a balzare sveglio. Egg sta già aspettando, e insieme ci precipitiamo su per le scale seguendo il breve corteo di servitori e di coscritti contadini del luogo, fino al cortile.\n\nUn incendio furioso divora il cielo mentre il Bosco di Wat brucia; la siccità ha inaridito alberi ed erbe selvatiche, diffondendo il fuoco ben oltre un normale incendio boschivo. Tutti si precipitano al pozzo, radunando secchi e preparandosi a respingere le fiamme.\n\nAl mattino il bosco è annerito e in rovina, e molti raccolti sono perduti."
+agot_scenario_ats.4031.t:0 "Un Cielo in Fiamme"
+agot_scenario_ats.4031.desc:0 "Mentre riposo nella cantina sotto Coldmoat, con in mente un sogno piacevole, un improvviso trambusto mi costringe a balzare sveglio. Egg sta già aspettando, e insieme ci precipitiamo su per le scale seguendo il breve corteo di servitori e di coscritti contadini del luogo, fino al cortile.\n\nUn incendio furioso divora il cielo mentre il Bosco di Wat brucia; la siccità ha inaridito alberi ed erbe selvatiche, diffondendo il fuoco ben oltre un normale incendio boschivo. Tutti si precipitano al pozzo, radunando secchi e preparandosi a respingere le fiamme.\n\nAl mattino il bosco è annerito e in rovina, e molti raccolti sono perduti."
  # Dunk decided to leave, now chooses to stay
-agot_scenario_ats.4031.a: 0 "Fuoco e spada... devo restare."
-agot_scenario_ats.4031.a.tt: 0 "Resterai per vedere come andrà a finire"
+agot_scenario_ats.4031.a:0 "Fuoco e spada... devo restare."
+agot_scenario_ats.4031.a.tt:0 "Resterai per vedere come andrà a finire"
  # Dunk decided to stay
-agot_scenario_ats.4031.b: 0 "Questo non cambia nulla, devo restare."
-agot_scenario_ats.4031.b.tt: 0 "Resterai per vedere come andrà a finire"
+agot_scenario_ats.4031.b:0 "Questo non cambia nulla, devo restare."
+agot_scenario_ats.4031.b.tt:0 "Resterai per vedere come andrà a finire"
  # Dunk decided to leave, still leaves
-agot_scenario_ats.4031.c: 0 "Non servirò questo traditore."
-agot_scenario_ats.4031.c.tt: 0 "Ti lascerai il conflitto alle spalle"
+agot_scenario_ats.4031.c:0 "Non servirò questo traditore."
+agot_scenario_ats.4031.c.tt:0 "Ti lascerai il conflitto alle spalle"
  # Cover if Dunk didn't confront Eustace because Eustace went to Coldmoat
-agot_scenario_ats.4031.d: 0 "Questo porterà a uno scontro, di eserciti o di cavalieri."
-agot_scenario_ats.4031.d.tt: 0 "Dovrai essere pronto a combattere"
+agot_scenario_ats.4031.d:0 "Questo porterà a uno scontro, di eserciti o di cavalieri."
+agot_scenario_ats.4031.d.tt:0 "Dovrai essere pronto a combattere"
 
  ###### Stage 4 events ######
 
@@ -302,7 +302,7 @@ agot_scenario_ats.4031.d.tt: 0 "Dovrai essere pronto a combattere"
 
  # Rohanne can decide whether to start a war or meet Eustace or Eustace and Dunk depending at the river
  # Available scopes: dunk/eustace/wats_wood
-agot_scenario_ats.5010.t: 0 "Tra le Ceneri"
+agot_scenario_ats.5010.t:0 "Tra le Ceneri"
   agot_scenario_ats.5010.desc.dunkstayed:0 "I miei esploratori riferiscono che Ser [eustace.GetFirstName] sta radunando le [Select_CString(eustace.IsFemale,'sue truppe','sue truppe')] e i [Select_CString(eustace.IsFemale,'suoi cavalieri erranti','suoi cavalieri erranti')] sulla scia dell'incendio nel Bosco di Wat. Ho due strade dinanzi a me: marciare su Standfast e fare guerra, oppure incontrarli al torrente che ci separa e accettare un parlamento.\n\nVi è poco onore nel fare guerra adesso, ma potrei impadronirmi di Standfast prima che [Select_CString(eustace.IsFemale,'lei','lui')] abbia il tempo di reagire.\n\nUn parlamento mi offrirebbe la possibilità di chiedere un Singolar Tenzone e, forse, di liberarmi del Longinch, soprattutto se [dunk.Custom('IT_NAM_COL3')][dunk.GetTitledFirstNameNicknamed] fosse disposto a combattere. In ogni caso, i miei cavalieri attendono la mia decisione."
   agot_scenario_ats.5010.desc.dunkleft:0 "I miei esploratori riferiscono che Ser [eustace.GetFirstName] sta radunando le [Select_CString(eustace.IsFemale,'sue truppe','sue truppe')] e i [Select_CString(eustace.IsFemale,'suoi cavalieri erranti','suoi cavalieri erranti')] sulla scia dell'incendio in [wats_wood]. Ho due strade dinanzi a me: marciare su Standfast e fare guerra, oppure incontrarli al torrente che ci separa e accettare un parlamento.\n\nVi è poco onore nel fare guerra adesso, ma potrei impadronirmi di Standfast prima che [Select_CString(eustace.IsFemale,'lei','lui')] abbia il tempo di reagire.\n\nUn parlamento mi offrirebbe la possibilità di chiedere un Singolar Tenzone e, forse, di liberarmi del Longinch. In ogni caso, i miei cavalieri attendono la mia decisione."
  # Rohanne decides to meet Dunk and Eustace

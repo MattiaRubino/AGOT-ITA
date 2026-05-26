@@ -394,8 +394,8 @@ friend_eradication_save: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetSh
  friend_treated_wounds:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha curato le ferite di [CHARACTER.GetTitledFirstNamePossessive]."
  friend_treated_wounds_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha curato le ferite di [TARGET_CHARACTER.GetTitledFirstNamePossessive]."
  
-friend_child_special_attention: 0 "[CHARACTER.GetShortUIName|U] prestò molta attenzione all'educazione di [TARGET_CHARACTER.GetShortUINamePossessive]."
-friend_child_special_attention_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] prestò molta attenzione all'educazione di [CHARACTER.GetShortUINamePossessive]."
+friend_child_special_attention:0 "[CHARACTER.GetShortUIName|U] prestò molta attenzione all'educazione di [TARGET_CHARACTER.GetShortUINamePossessive]."
+friend_child_special_attention_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] prestò molta attenzione all'educazione di [CHARACTER.GetShortUINamePossessive]."
  
  friend_wnight_homosexual:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha confessato a [CHARACTER.GetTitledFirstName] il proprio orientamento sessuale durante la loro prima notte di nozze."
  friend_wnight_homosexual_corresponding: "[CHARACTER.GetTitledFirstName|U] ha confessato a [TARGET_CHARACTER.GetTitledFirstName] il proprio orientamento sessuale durante la loro prima notte di nozze."
@@ -513,8 +513,8 @@ friend_child_special_attention_corresponding: 0 "[TARGET_CHARACTER.GetShortUINam
  
  lover_court_visit_seduction:0 "[CHARACTER.GetTitledFirstName|U] ha sedotto [TARGET_CHARACTER.GetTitledFirstName] durante una visita alla corte di [TARGET_CHARACTER_2.GetTitledFirstNamePossessive]."
  lover_court_visit_seduction_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha sedotto [CHARACTER.GetTitledFirstName] durante una visita alla corte di [TARGET_CHARACTER_2.GetTitledFirstNamePossessive]."
-lover_hawk_visit_seduction: 0 "[CHARACTER.GetShortUIName|U] fece l'amore con [TARGET_CHARACTER.GetShortUIName] in una notte al chiaro di luna."
-lover_hawk_visit_seduction_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] fece l'amore con [CHARACTER.GetShortUIName] in una notte al chiaro di luna."
+lover_hawk_visit_seduction:0 "[CHARACTER.GetShortUIName|U] fece l'amore con [TARGET_CHARACTER.GetShortUIName] in una notte al chiaro di luna."
+lover_hawk_visit_seduction_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] fece l'amore con [CHARACTER.GetShortUIName] in una notte al chiaro di luna."
  
  lover_temujin_borte: "[CHARACTER.GetTitledFirstName|U] ha salvato e confortato [TARGET_CHARACTER.GetTitledFirstName] dopo che [TARGET_CHARACTER.GetTitledFirstName] era [Select_CString(TARGET_CHARACTER.IsFemale,'stata rapita','stato rapito')]."
  lover_temujin_borte_corresponding: "[TARGET_CHARACTER.GetTitledFirstName|U] ha salvato e confortato [CHARACTER.GetTitledFirstName] dopo che [CHARACTER.GetTitledFirstName] era [Select_CString(CHARACTER.IsFemale,'stata rapita','stato rapito')]."
@@ -715,8 +715,8 @@ lover_hawk_visit_seduction_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U]
  rival_grave_insult:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'stata gravemente insultata','stato gravemente insultato')] da [TARGET_CHARACTER.GetTitledFirstName]."
  rival_grave_insult_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] è [Select_CString(TARGET_CHARACTER.IsFemale,'stata gravemente insultata','stato gravemente insultato')] da [CHARACTER.GetTitledFirstName]."
  
-rival_roughed_up_child: 0 "Da bambin[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')], [TARGET_CHARACTER.GetShortUIName|U] uccise per errore [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.Custom('GetDaughterSon')] di [CHARACTER.GetShortUINameNoTooltip]."
-rival_roughed_up_child_corresponding: 0 "Da bambin[Select_CString(CHARACTER.IsFemale,'a','o')], [CHARACTER.GetShortUIName|U] uccise per errore [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.Custom('GetDaughterSon')] di [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+rival_roughed_up_child:0 "Da bambin[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')], [TARGET_CHARACTER.GetShortUIName|U] uccise per errore [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.Custom('GetDaughterSon')] di [CHARACTER.GetShortUINameNoTooltip]."
+rival_roughed_up_child_corresponding:0 "Da bambin[Select_CString(CHARACTER.IsFemale,'a','o')], [CHARACTER.GetShortUIName|U] uccise per errore [TARGET_CHARACTER_2.GetShortUIName], [TARGET_CHARACTER_2.Custom('GetDaughterSon')] di [TARGET_CHARACTER.GetShortUINameNoTooltip]."
  
  rival_was_imprisoned_by_parent:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'stata imprigionata','stato imprigionato')] da [TARGET_CHARACTER.GetTitledFirstName] da [Select_CString(CHARACTER.IsFemale,'bambina','bambino')]."
  rival_was_imprisoned_by_parent_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] è [Select_CString(TARGET_CHARACTER.IsFemale,'stata imprigionata','stato imprigionato')] da [CHARACTER.GetTitledFirstName] da [Select_CString(TARGET_CHARACTER.IsFemale,'bambina','bambino')]."
@@ -775,7 +775,7 @@ rival_roughed_up_child_corresponding: 0 "Da bambin[Select_CString(CHARACTER.IsFe
  rival_bad_chemistry:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] non sono mai riusciti ad andare d'accordo."
  
  rival_no_longer_nemesis:0 "[CHARACTER.GetTitledFirstName|U] era [Select_CString(CHARACTER.IsFemale,'la Nemica giurata','il Nemico giurato')] di [TARGET_CHARACTER.GetTitledFirstName]."
-rival_no_longer_nemesis_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] fu in passato la Nemesi giurata di [CHARACTER.GetShortUIName]."
+rival_no_longer_nemesis_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] fu in passato la Nemesi giurata di [CHARACTER.GetShortUIName]."
  
  rival_left_out_of_chronicle:0 "[CHARACTER.GetTitledFirstName|U] ha trascurato di menzionare i successi di [TARGET_CHARACTER.GetTitledFirstName] in una cronaca familiare."
  rival_left_out_of_chronicle_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha trascurato di menzionare i successi di [CHARACTER.GetTitledFirstName] in una cronaca familiare."
@@ -1035,7 +1035,7 @@ rival_no_longer_nemesis_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] fu
  rival_house_feud_feud_lives_on_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] ha odiato [CHARACTER.GetTitledFirstName] fin da quando [CHARACTER.GetTitledFirstName] è diventato capo della Casa [CHARACTER.GetDynastyHouseName].\nQuesto è stato conseguenza di una faida tra Casa [CHARACTER.GetDynastyHouseName] e [TARGET_CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_no_longer_nemesis:1 "[CHARACTER.GetTitledFirstName|U] ha smesso di considerare [TARGET_CHARACTER.GetTitledFirstName] un nemico giurato dopo la fine della faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
-rival_house_feud_no_longer_nemesis_corresponding: 1 "[TARGET_CHARACTER.GetShortUIName|U] smise di considerare [CHARACTER.GetShortUIName] una nemesi quando terminò la faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
+rival_house_feud_no_longer_nemesis_corresponding:1 "[TARGET_CHARACTER.GetShortUIName|U] smise di considerare [CHARACTER.GetShortUIName] una nemesi quando terminò la faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
  
  rival_house_feud_start_of_feud:1 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] sono diventati rivali quando è scoppiata una faida tra Casa [CHARACTER.GetDynastyHouseName] e Casa [TARGET_CHARACTER.GetDynastyHouseName]."
  rival_house_feud_start_of_feud_corresponding:1 "[TARGET_CHARACTER.GetTitledFirstName|U] e [CHARACTER.GetTitledFirstName] sono diventati rivali quando è scoppiata una faida tra Casa [TARGET_CHARACTER.GetDynastyHouseName] e Casa [CHARACTER.GetDynastyHouseName]."
@@ -1125,7 +1125,7 @@ lover_seduction_rival_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] ha sed
  nemesis_elopement:0 "[TARGET_CHARACTER.GetTitledFirstName|U] è [Select_CString(TARGET_CHARACTER.IsFemale,'fuggita','fuggito')] con un amante, provocando l’ira eterna di [CHARACTER.GetTitledFirstName]."
  nemesis_elopement_corresponding:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'fuggita','fuggito')] con un amante, provocando l’ira eterna di [TARGET_CHARACTER.GetTitledFirstName]."
 
-nemesis_house_feud: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] sono impegnati in una faida brutale."
+nemesis_house_feud:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] sono impegnati in una faida brutale."
 
  nemesis_artifact_defaced:0 "Durante un banchetto, [TARGET_CHARACTER.GetTitledFirstName|U] ha deturpato un manufatto appartenente a [CHARACTER.GetTitledFirstName], guadagnandosi la sua eterna inimicizia."
  nemesis_artifact_defaced_corresponding:0 "Durante un banchetto, [CHARACTER.GetTitledFirstName|U] ha deturpato un manufatto appartenente a [TARGET_CHARACTER.GetTitledFirstName], guadagnandosi la sua eterna inimicizia."
@@ -1164,7 +1164,7 @@ nemesis_house_feud: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShort
  nemesis_rival_bedded_child_corresponding:0 "In un atto di vendetta, [CHARACTER.GetTitledFirstName|U] si è unito carnalmente al figlio di [TARGET_CHARACTER.GetTitledFirstNamePossessive]."
 
  nemesis_rival_gains_nemesis:0 "[CHARACTER.GetTitledFirstName|U] ha ricevuto una lettera insultante da [TARGET_CHARACTER.GetTitledFirstName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetTitledFirstName]."
-nemesis_rival_gains_nemesis_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] ricevette una lettera insultante da [CHARACTER.GetShortUIName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetShortUIName]."
+nemesis_rival_gains_nemesis_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ricevette una lettera insultante da [CHARACTER.GetShortUIName], sebbene fosse originariamente destinata a [TARGET_CHARACTER_2.GetShortUIName]."
  
  nemesis_monarch_of_grim_and_grievance:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'stata incoronata','stato incoronato')] da [TARGET_CHARACTER.GetTitledFirstName] come la persona meno attraente del reame."
  nemesis_monarch_of_grim_and_grievance_corresponding:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha incoronato [CHARACTER.GetTitledFirstName] come la persona meno attraente del reame."
@@ -1227,8 +1227,8 @@ nemesis_rival_gains_nemesis_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U
  soulmate_won_love_in_duel_2:0 "[TARGET_CHARACTER.GetTitledFirstName|U] ha conquistato il cuore di [CHARACTER.GetTitledFirstNamePossessive] duellando e uccidendo un amante rivale."
  soulmate_won_love_in_duel_2_corresponding:0 "[CHARACTER.GetTitledFirstName|U] ha conquistato il cuore di [TARGET_CHARACTER.GetTitledFirstNamePossessive] duellando e uccidendo un amante rivale."
 
-soulmate_festival_reason: 0 "[TARGET_CHARACTER.GetShortUIName|U] conquistò il cuore di [CHARACTER.GetShortUINamePossessive] augurando un amore eterno."
-soulmate_festival_reason_corresponding: 0 "[CHARACTER.GetShortUIName|U] conquistò il cuore di [TARGET_CHARACTER.GetShortUINamePossessive] augurando un amore eterno."
+soulmate_festival_reason:0 "[TARGET_CHARACTER.GetShortUIName|U] conquistò il cuore di [CHARACTER.GetShortUINamePossessive] augurando un amore eterno."
+soulmate_festival_reason_corresponding:0 "[CHARACTER.GetShortUIName|U] conquistò il cuore di [TARGET_CHARACTER.GetShortUINamePossessive] augurando un amore eterno."
  
  soulmate_professed_love:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] hanno dichiarato eterno amore reciproco."
  
@@ -2002,7 +2002,7 @@ soulmate_festival_reason_corresponding: 0 "[CHARACTER.GetShortUIName|U] conquist
  friend_granted_title_corresponding:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] sono diventati amici dopo che [TARGET_CHARACTER.GetTitledFirstNameNoTooltip] ha concesso a [CHARACTER.GetTitledFirstNameNoTooltip] uno dei suoi titoli."
 
 friend_renga_poetry: "[TARGET_CHARACTER.GetShortUIName|U] scambiò versi profondi con [CHARACTER.GetShortUIName]."
-friend_renga_poetry_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] scambiò versi profondi con [CHARACTER.GetShortUIName]."
+friend_renga_poetry_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] scambiò versi profondi con [CHARACTER.GetShortUIName]."
 
  friend_invited_to_hunt:0 "[CHARACTER.GetTitledFirstName|U] e [TARGET_CHARACTER.GetTitledFirstName] hanno condiviso l’emozione della caccia."
 
@@ -2321,7 +2321,7 @@ friend_renga_poetry_corresponding: 0 "[TARGET_CHARACTER.GetShortUIName|U] scambi
  rival_upstaged_at_sea:0 "[TARGET_CHARACTER.GetTitledFirstName|U] è [Select_CString(TARGET_CHARACTER.IsFemale,'stata umiliata','stato umiliato')] da [CHARACTER.GetTitledFirstName] per le sue inferiori capacità di navigazione"
  rival_upstaged_at_sea_corresponding:0 "[CHARACTER.GetTitledFirstName|U] è [Select_CString(CHARACTER.IsFemale,'stata umiliata','stato umiliato')] da [TARGET_CHARACTER.GetTitledFirstName] per le sue inferiori capacità di navigazione"
 
-friend_adopted: 0 "[CHARACTER.GetShortUIName|U] adottò [TARGET_CHARACTER.GetShortUIName] come [CharYourHerHis( CHARACTER )] [TARGET_CHARACTER.Custom('GetDaughterSon')]"
+friend_adopted:0 "[CHARACTER.GetShortUIName|U] adottò [TARGET_CHARACTER.GetShortUIName] come [CharYourHerHis( CHARACTER )] [TARGET_CHARACTER.Custom('GetDaughterSon')]"
 friend_adopted_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] adottò [CHARACTER.GetShortUIName] come [CharYourHerHis( TARGET_CHARACTER )] [CHARACTER.Custom('GetDaughterSon')]"
 
  lover_first_sight:0 "[CHARACTER.GetTitledFirstName|U] si è innamorato di [TARGET_CHARACTER.GetTitledFirstName] a prima vista"
@@ -3431,11 +3431,11 @@ nemesis_poached_disciple: "[CHARACTER.GetShortUIName|U] giurò vendetta eterna d
 friend_stepped_aside: "[CHARACTER.GetShortUIName|U] si fece da parte affinché [TARGET_CHARACTER.GetShortUIName] cogliesse un'opportunità."
 friend_stepped_aside_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] ha colto un’opportunità perché [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsFemale,'si è fatta','si è fatto' )] da parte."
 
-friend_fix_mentorship: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero amici dopo che [CHARACTER.GetShortUINameNoTooltip] riparò una frattura nella relazione di [TARGET_CHARACTER.GetShortUIName] con un discepolo."
-friend_fix_mentorship_corresponding: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString( And( CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale ), 'amiche', 'amici' )] dopo che [CHARACTER.GetShortUINameNoTooltip] sanò una frattura nel suo rapporto con un discepolo."
+friend_fix_mentorship:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero amici dopo che [CHARACTER.GetShortUINameNoTooltip] riparò una frattura nella relazione di [TARGET_CHARACTER.GetShortUIName] con un discepolo."
+friend_fix_mentorship_corresponding:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString( And( CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale ), 'amiche', 'amici' )] dopo che [CHARACTER.GetShortUINameNoTooltip] sanò una frattura nel suo rapporto con un discepolo."
 
-friend_fix_discipleship: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero amici dopo che [CHARACTER.GetShortUINameNoTooltip] riparò una frattura nella relazione di [TARGET_CHARACTER.GetShortUIName] con il [TARGET_CHARACTER.GetHerHis] mentore."
-friend_fix_discipleship_corresponding: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString( And( CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale ), 'amiche', 'amici' )] dopo che [CHARACTER.GetShortUINameNoTooltip] sanò una frattura nel suo rapporto con il suo mentore."
+friend_fix_discipleship:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero amici dopo che [CHARACTER.GetShortUINameNoTooltip] riparò una frattura nella relazione di [TARGET_CHARACTER.GetShortUIName] con il [TARGET_CHARACTER.GetHerHis] mentore."
+friend_fix_discipleship_corresponding:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString( And( CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale ), 'amiche', 'amici' )] dopo che [CHARACTER.GetShortUINameNoTooltip] sanò una frattura nel suo rapporto con il suo mentore."
 
 rival_mocked_noble: "[TARGET_CHARACTER.GetShortUIName|U] derise il tentativo di adulazione dei nobili di [CHARACTER.GetShortUINamePossessive]."
 
@@ -3450,6 +3450,6 @@ friend_praised_poetry: "[CHARACTER.GetShortUINameNoTooltip] lodò l'esecuzione d
 friend_drinking_tea: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] legarono davanti a una tazza di tè."
 friend_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] legarono durante un festival"
 lover_courtiers_bonded_on_festival: "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] condivisero una notte di passione durante un festival"
-rival_courtiers_friction_on_festival: 0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString(And(CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale),'nemiche giurate','nemici giurati')] durante un festival"
+rival_courtiers_friction_on_festival:0 "[CHARACTER.GetShortUIName|U] e [TARGET_CHARACTER.GetShortUIName] divennero [Select_CString(And(CHARACTER.IsFemale, TARGET_CHARACTER.IsFemale),'nemiche giurate','nemici giurati')] durante un festival"
 
 friend_supported_child: "[CHARACTER.GetShortUINameNoTooltip] ha incoraggiato [TARGET_CHARACTER.GetShortUIName|U] mentre si esercitava nel tiro con l'arco."

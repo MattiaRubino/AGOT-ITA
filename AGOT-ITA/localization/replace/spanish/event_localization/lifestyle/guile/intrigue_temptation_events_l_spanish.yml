@@ -34,7 +34,7 @@
  intrigue_temptation_special.1003.personality_success.desc:0 "Come sospettavo, preferisce quelli di temperamento simile al suo."
  intrigue_temptation_special.1003.personality_failure.desc:0 "Mi sono sbagliat[ROOT.Char.Custom('DE_END_PRO_S_N')]. [wants_love.GetSheHe|U] sembra preoccuparsi poco della sua personalità. [wants_love.GetSheHe|U] deve preferire il potere o il fascino in un partner."
  intrigue_temptation_special.1003.sex_appeal_success.desc:0 "[wants_love.GetSheHe|U] è attratt[wants_love.Custom('DE_END_PRO_S_N')], come una falena dalla fiamma, da quelli di grande carisma e bellezza."
-intrigue_temptation_special.1003.sex_appeal_failure.desc: 0 "Mi sbagliavo: [wants_love.GetSheHe|U] non pare distinguere fra chi nasce avvenente e chi è dimesso. A [Select_CString(wants_love.IsFemale,'lei','lui')] importa di più la personalità… o il potere."
+intrigue_temptation_special.1003.sex_appeal_failure.desc:0 "Mi sbagliavo: [wants_love.GetSheHe|U] non pare distinguere fra chi nasce avvenente e chi è dimesso. A [Select_CString(wants_love.IsFemale,'lei','lui')] importa di più la personalità… o il potere."
  intrigue_temptation_special.1003.power_success.desc:0 "Come supponevo, preferisce la compagnia dei signori e delle signore più influenti a corte."
  intrigue_temptation_special.1003.power_failure.desc:0 "Mi sono sbagliat[ROOT.Char.Custom('DE_END_PRO_S_N')]. [wants_love.GetSheHe|U] interagisce con persone sia di alto che di basso rango. Deve essere qualche altro elemento oltre al potere che l[wants_love.Custom('DE_END_PRO_S_N')] intriga – una personalità che [wants_love.Custom('DE_PRO_DEM')] corrisponda o qualcuno dall'aspetto elegante, forse?"
  intrigue_temptation_special.1003.end.desc:0 "\n\nOra che conosco un po' meglio i desideri di [wants_love.GetFirstNamePossessiveNoTooltip], ho fatto una lista di potenziali incontri. Chi tra loro sarebbe più affine a [ROOT.GetCharacter.Custom2('RelationToMe' , wants_love )]?"
@@ -95,7 +95,7 @@ intrigue_temptation_special.1003.sex_appeal_failure.desc: 0 "Mi sbagliavo: [want
  
  #Guest, by Alexander Oltner
  intrigue_temptation.3000.t:0 "Un Dolce Addio"
-intrigue_temptation.3000.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], è… era… voglio dire, è stato un piacere essere ospit[Select_CString(guest_lover.IsFemale,'a','o')] qui a [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]…» balbetta [guest_lover.GetFirstName], mentre [Select_CString(guest_lover.IsFemale,'si prepara','si prepara')] a partire.\n\n«Ho potuto incontrare #emphasis te#!. Solo questo è valso il soggiorno. Ma ti prego… passeresti una notte di passione con me, prima che io parta?»\n\n[guest_lover.GetFirstName] è cadut[Select_CString(guest_lover.IsFemale,'a','o')] nella mia sottile manipolazione! Ora, come sfruttare al meglio l’occasione?"
+intrigue_temptation.3000.desc:1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], è… era… voglio dire, è stato un piacere essere ospit[Select_CString(guest_lover.IsFemale,'a','o')] qui a [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]…» balbetta [guest_lover.GetFirstName], mentre [Select_CString(guest_lover.IsFemale,'si prepara','si prepara')] a partire.\n\n«Ho potuto incontrare #emphasis te#!. Solo questo è valso il soggiorno. Ma ti prego… passeresti una notte di passione con me, prima che io parta?»\n\n[guest_lover.GetFirstName] è cadut[Select_CString(guest_lover.IsFemale,'a','o')] nella mia sottile manipolazione! Ora, come sfruttare al meglio l’occasione?"
  intrigue_temptation.3000.a:0 "Si, amore mio, farei #emphasis qualsiasi cosa#! per te!"
  intrigue_temptation.3000.b:0 "Allora, cara, quelle voci sul mio vassallo?"
  intrigue_temptation.3000.c:0 "Tesoro, parleresti con [guest_lovers_friend.GetFirstName]?"
@@ -138,10 +138,10 @@ intrigue_temptation.3000.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U
  intrigue_temptation.3020.a.tt:0 "Faccio tirare fuori i ritratti"
 
  intrigue_temptation.3021.beauty.desc:0 "Molti mi hanno detto che [potential_date.Custom('REL_TO_ME')][potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)] è una gioia per gli occhi! Mi chiedo se il suo ritratto [potential_date.Custom('DE_PRO_DEM')] renda giustizia?"
-intrigue_temptation.3021.generic1.desc: 0 "Che mi dici di [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]? [potential_date.GetSheHe|U] è not[Select_CString(potential_date.IsFemale,'a','o')] per essere un[Select_CString(potential_date.IsFemale,'a','')] [potential_date.GetWomanMan] molto [potential_date.Custom('ComplimentAdjective')]. Tuttavia ho anche sentito che può essere piuttosto [potential_date.Custom2('InsultAdjective', ROOT.Char)]…"
+intrigue_temptation.3021.generic1.desc:0 "Che mi dici di [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]? [potential_date.GetSheHe|U] è not[Select_CString(potential_date.IsFemale,'a','o')] per essere un[Select_CString(potential_date.IsFemale,'a','')] [potential_date.GetWomanMan] molto [potential_date.Custom('ComplimentAdjective')]. Tuttavia ho anche sentito che può essere piuttosto [potential_date.Custom2('InsultAdjective', ROOT.Char)]…"
  intrigue_temptation.3021.generic2.desc:0 "Ah, [potential_date.Custom('DE_ART_DEF_P_A')] [potential_date.Custom('ComplimentAdjective')] [potential_date.GetFullName]! Mi chiedo se faremo un buon incontro?"
  intrigue_temptation.3021.ugly.desc:0 "Questo deve essere [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Il suo ritratto è certamente ben fatto, ma ho sentito che potrebbe non essere molto somigliante..."
-intrigue_temptation.3021.generic3.desc: 0 "Questo ritratto non raffigura altri che [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Si dice che [Select_CString(potential_date.IsFemale,'sia','sia')] [potential_date.Custom('ComplimentAdjective')], ma ho anche udito voci sulla [Select_CString(potential_date.IsFemale,'sua','sua')] indole [potential_date.Custom2('InsultAdjective', ROOT.Char)]…"
+intrigue_temptation.3021.generic3.desc:0 "Questo ritratto non raffigura altri che [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Si dice che [Select_CString(potential_date.IsFemale,'sia','sia')] [potential_date.Custom('ComplimentAdjective')], ma ho anche udito voci sulla [Select_CString(potential_date.IsFemale,'sua','sua')] indole [potential_date.Custom2('InsultAdjective', ROOT.Char)]…"
  intrigue_temptation.3021.generic4.desc:0 "Ah, [potential_date.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Potrebbe essere [potential_date.GetSheHe] la persona giusta?"
  intrigue_temptation.3021.arrogant.desc:0 "[potential_date.Custom('REL_TO_ME')|U][potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi ha spedito una scatola con #EMP [ROOT.Char.Custom('ThreeToTwelve')]#! ritratti. Sono tutti uguali...?"
  intrigue_temptation.3021.impatient.desc:0 "[potential_date.Custom('REL_TO_ME')|U][potential_date.Custom2('MyCharacterIntroduction', ROOT.Char)|U] mi ha spedito molti ritratti negli anni. L'ultima è arrivato con in allegato una nota piuttosto impaziente."
@@ -163,7 +163,7 @@ intrigue_temptation.3021.generic3.desc: 0 "Questo ritratto non raffigura altri c
  intrigue_temptation.3021.c.tt:0 "Scarta il ritratto di [potential_date.GetShortUINamePossessive]"
  every_approved_date:0 "Tutt[potential_date.Custom('DE_END_NOU_S_G')] quell[potential_date.Custom('DE_END_NOU_S_G')] di cui ho conservato il ritratto"
  intrigue_temptation.3021.d:0 "Non c'è speranza! Che idea terribile."
-intrigue_temptation.3021.d.tt: 0 "Riponi i ritratti nei depositi"
+intrigue_temptation.3021.d.tt:0 "Riponi i ritratti nei depositi"
 
  intrigue_temptation.3022.desc:0 "È stato estenuante, ma stranamente coinvolgente! Ora che ho fatto la mia selezione, posso tirare fuori la mia penna d'oca e scrivere dei bei versi."
  intrigue_temptation.3022.a:0 "Mi interessa solo [favorite.Custom('RomanticComplimentAdjective')] [favorite.GetFirstNameNoTooltip]."
@@ -182,7 +182,7 @@ intrigue_temptation.3021.d.tt: 0 "Riponi i ritratti nei depositi"
  intrigue_temptation.3024.desc:0 "[answering_date.Custom2('love_letter', ROOT.Char)]"
  intrigue_temptation.3024.a:0 "Eccellente!"
 
-intrigue_temptation.3025.t: 0 "Al[Select_CString(ROOT.Char.IsFemale,'la','')] doppiogiochista, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('favorite'))] [ROOT.Char.GetTitledFirstNameNoTooltip],"
+intrigue_temptation.3025.t:0 "Al[Select_CString(ROOT.Char.IsFemale,'la','')] doppiogiochista, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('favorite'))] [ROOT.Char.GetTitledFirstNameNoTooltip],"
  intrigue_temptation.3025.desc:0 "Due settimane fa, ho ricevuto una tua lettera. Il nome sulla busta era il mio, ma il verso all'interno era dedicato a [lower_left_portrait.GetTitledFirstName]. [lower_left_portrait.Custom('DE_PRO_DEM')] ho scritto, e mi ha risposto che anche [lower_left_portrait.GetSheHe] ha ricevuto una poesia — la stessa, in effetti — ma era destinata ad un altr[lower_right_portrait.Custom('DE_END_PRO_S_N')] [lower_right_portrait.GetWomanMan]!\n\nQuesto è il più spregevole, sordido e piccolo complotto di cui abbia mai sentito parlare. Non scriverci mai più!"
  intrigue_temptation.3025.a:0 "Oh. Questo è... imbarazzante."
 

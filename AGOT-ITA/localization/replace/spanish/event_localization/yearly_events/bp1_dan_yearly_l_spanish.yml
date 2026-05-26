@@ -1,6 +1,6 @@
 ﻿l_spanish:
  bp1_yearly.7000.t:0 "Interruzione del Digiuno Con Un Amico"
-bp1_yearly.7000.desc: 1 "Sono in cammino verso il[ROOT.Char.GetFaith.HouseOfWorship] quando incontro il[Select_CString(distraction_friend.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', distraction_friend)] [distraction_friend.Custom('IT_NAM_COL3')][distraction_friend.GetTitledFirstName], che porta una piccola sacca. Guardandosi attorno, [Select_CString(distraction_friend.IsFemale,'lei','lui')] la apre con aria cospiratoria, rivelando ogni sorta di vivande e bevande.\n\n«È una giornata splendida, vieni fuori a fare un picnic mattutino con me», dice [Select_CString(distraction_friend.IsFemale,'lei','lui')|U].\n\nMentre inizio a protestare che sono diretto al[ROOT.Char.GetFaith.HouseOfWorship], [distraction_friend.GetFirstNameNoTooltip] mi interrompe:\n\n«[ROOT.Char.GetFaith.HighGodName] sarà ancora lì più tardi, ma questi [ROOT.Char.Custom('GetExpensiveDessert')] no.»"
+bp1_yearly.7000.desc:1 "Sono in cammino verso il[ROOT.Char.GetFaith.HouseOfWorship] quando incontro il[Select_CString(distraction_friend.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', distraction_friend)] [distraction_friend.Custom('IT_NAM_COL3')][distraction_friend.GetTitledFirstName], che porta una piccola sacca. Guardandosi attorno, [Select_CString(distraction_friend.IsFemale,'lei','lui')] la apre con aria cospiratoria, rivelando ogni sorta di vivande e bevande.\n\n«È una giornata splendida, vieni fuori a fare un picnic mattutino con me», dice [Select_CString(distraction_friend.IsFemale,'lei','lui')|U].\n\nMentre inizio a protestare che sono diretto al[ROOT.Char.GetFaith.HouseOfWorship], [distraction_friend.GetFirstNameNoTooltip] mi interrompe:\n\n«[ROOT.Char.GetFaith.HighGodName] sarà ancora lì più tardi, ma questi [ROOT.Char.Custom('GetExpensiveDessert')] no.»"
  bp1_yearly.7000.a:0 "[ROOT.Char.GetFaith.HighGodName] è più importante della colazione."
  bp1_yearly.7000.b:0 "Il vero peccato sarebbe quello di lasciarsi sfuggire questa opportunità."
  
@@ -57,8 +57,8 @@ bp1_yearly.7000.desc: 1 "Sono in cammino verso il[ROOT.Char.GetFaith.HouseOfWors
  bp1_yearly.7005.a.returned_artifact:0 "Il manufatto preso in prestito viene restituito."
  
  bp1_yearly.7006.t:0 "$bp1_yearly.7005.t$"
-bp1_yearly.7006.desc: 0 "[borrowing_friend.GetName] si avvicina a testa bassa. «Ti prego, non irritarti».\n\nMi conduce al mio [borrowed_artifact.GetName], che vedo essere gravemente danneggiato.\n\n «Mi dispiace, è stato un incidente...» [borrowing_friend.GetFirstNameNoTooltip] sembra sinceramente afflitt[Select_CString(borrowing_friend.IsFemale,'a','o')]."
-bp1_yearly.7006.a: 0 "Sei un[borrowing_friend.Custom('DE_PRO_PER_P_3P_G')] [borrowing_friend.Custom2('InsultNoun', ROOT.Char)] assoluto."
+bp1_yearly.7006.desc:0 "[borrowing_friend.GetName] si avvicina a testa bassa. «Ti prego, non irritarti».\n\nMi conduce al mio [borrowed_artifact.GetName], che vedo essere gravemente danneggiato.\n\n «Mi dispiace, è stato un incidente...» [borrowing_friend.GetFirstNameNoTooltip] sembra sinceramente afflitt[Select_CString(borrowing_friend.IsFemale,'a','o')]."
+bp1_yearly.7006.a:0 "Sei un[borrowing_friend.Custom('DE_PRO_PER_P_3P_G')] [borrowing_friend.Custom2('InsultNoun', ROOT.Char)] assoluto."
  bp1_yearly.7006.b:0 "Gli incidenti capitano."
  
  bp1_yearly.7005.a.tt:0 "Il tuo manufatto potrebbe essersi danneggiato."
@@ -68,11 +68,11 @@ bp1_yearly.7006.a: 0 "Sei un[borrowing_friend.Custom('DE_PRO_PER_P_3P_G')] [borr
  bp1_yearly.7007.a:0 "È meraviglioso!"
  bp1_yearly.7007.b:0 "Hai alterato [ROOT.Char.Custom('DE_ART_DEF_P_A')] mi[ROOT.Char.Custom('DE_END_PRO_S_N')] [borrowed_artifact.GetNameNoTooltip]?"
  
-didnt_trust_friend_opinion: 0 "Non Si È Fidato di Me"
-trusted_friend_opinion: 0 "Si È Fidato di Me"
-forgave_me_opinion: 0 "Mi Ha Perdonato"
-improved_artifact_opinion: 0 "Ha Migliorato il Mio Manufatto"
-messed_with_artifact_opinion: 0 "Ha Manomesso il Mio Manufatto"
+didnt_trust_friend_opinion:0 "Non Si È Fidato di Me"
+trusted_friend_opinion:0 "Si È Fidato di Me"
+forgave_me_opinion:0 "Mi Ha Perdonato"
+improved_artifact_opinion:0 "Ha Migliorato il Mio Manufatto"
+messed_with_artifact_opinion:0 "Ha Manomesso il Mio Manufatto"
  
  bp1_yearly.7010.t:1 "Una Prova di Fedeltà"
  bp1_yearly.7010.desc:2 "Non riesco a smettere di pensare a dove risieda la lealtà di [tested_friend.GetFirstName]. [tested_friend.Custom('DE_ART_IND_A')|U] è un ver[tested_friend.Custom('DE_END_PRO_S_N')] amic[tested_friend.Custom('DE_END_PRO_S_N')], o solo un sicofante?\n\nForse una piccola prova mi tranquillizzerà...\n\nUno dei miei agenti, un falso segreto e un regalo anonimo. Cosa [tested_friend.Custom('DE_PRO_DEM')] farebbe tradire la mia fiducia?"
@@ -174,13 +174,13 @@ messed_with_artifact_opinion: 0 "Ha Manomesso il Mio Manufatto"
  bp1_yearly.7030.b:1 "Ricomponiti, [dead_friend_spouse.GetFirstNameNoTooltip]!"
   
  bp1_yearly.7100.t:0 "Disgustoso da Detestare"
-bp1_yearly.7100.desc: 0 "Un attimo prima passeggiavo al sole per [owned_county.GetName], quello dopo sono copert[Select_CString(ROOT.Char.IsFemale,'a','o')] di escrementi e mi rotolo nel fango. Dopo essermi furiosamente tolto gli escrementi dagli [ROOT.Char.Custom('EyeEyes')], individuo il colpevole senza fatica.\n\n«[potential_nemesis.Custom('IT_NAM_COL3')][potential_nemesis.GetTitledFirstName] ti manda i suoi saluti!» urla il contadino sporto dalla finestra prima di darsi alla fuga.\n\nCerco pateticamente di lavare un capo a me particolarmente caro in un ruscello vicino, ma è chiaro che non si può salvare."
+bp1_yearly.7100.desc:0 "Un attimo prima passeggiavo al sole per [owned_county.GetName], quello dopo sono copert[Select_CString(ROOT.Char.IsFemale,'a','o')] di escrementi e mi rotolo nel fango. Dopo essermi furiosamente tolto gli escrementi dagli [ROOT.Char.Custom('EyeEyes')], individuo il colpevole senza fatica.\n\n«[potential_nemesis.Custom('IT_NAM_COL3')][potential_nemesis.GetTitledFirstName] ti manda i suoi saluti!» urla il contadino sporto dalla finestra prima di darsi alla fuga.\n\nCerco pateticamente di lavare un capo a me particolarmente caro in un ruscello vicino, ma è chiaro che non si può salvare."
  bp1_yearly.7100.a:0 "Adesso è #EMP personale...#!"
  bp1_yearly.7100.b:0 "Mi pulirò con il suo sangue!"
-bp1_yearly.7100.c: 0 "Ricorda le mie parole, [potential_nemesis.GetFirstNameNoTooltip]: questo sarà ripagato."
+bp1_yearly.7100.c:0 "Ricorda le mie parole, [potential_nemesis.GetFirstNameNoTooltip]: questo sarà ripagato."
  bp1_yearly.7100.d:0 "La vendetta non è da me..."
  bp1_yearly.7100.c.tt:0 "L'amato gatto di [potential_nemesis.GetFirstNamePossessiveNoTooltip] si aggirava qui intorno poco fa..."
-bp1_yearly.7100.e: 0 "Terrò da parte questi abiti... per dopo."
+bp1_yearly.7100.e:0 "Terrò da parte questi abiti... per dopo."
  focused_on_revenge_modifier:0 "Concentrato sulla Vendetta"
  focused_on_revenge_modifier_desc:0 "Questo personaggio si concentra esclusivamente sulla scomparsa dei suoi rivali, ignorando molte delle sue responsabilità."
  vengeful_opinion:0 "Vendicativo"

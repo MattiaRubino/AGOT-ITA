@@ -29,9 +29,9 @@
  #Letter event - Spouse is captured or killed by your rival
  bp1_yearly.2022.t:0 "[bp1_yearly_2020_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
  bp1_yearly.2022.desc_intro:0 "[bp1_yearly_2020_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]"
-bp1_yearly.2022.desc_imprisoned: 0 "\n\nHo in mio possesso un individuo che giura che tu non abbia avuto alcun ruolo nel #EMP tentativo di assassinio#! alla mia vita da parte di [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))]. Non credo a quell’infido [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))].\n\nConsiderati avvertit[Select_CString(ROOT.Char.IsFemale,'a','o')]."
-bp1_yearly.2022.desc_dead: 0 "\n\nNon crederesti a ciò che mi è capitato l’altro giorno. Un[Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'a','o')] [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))] malvagi[Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'a','o')] ha attentato alla mia vita, ma [bp1_yearly_2020_influencing_partner.GetFaith.HighGodName] era con me e mi ha protett[Select_CString(ROOT.Char.IsFemale,'a','o')]. Di contro, tengo [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'la sua','il suo')] testa come ornamento nel mio studio personale.\n\nConsiderati avvertit[Select_CString(ROOT.Char.IsFemale,'a','o')]."
-bp1_yearly.2022.a_imprisoned: 0 "Quel #EMP [bp1_yearly_2020_target.Custom2('InsultNoun', ROOT.Char)]#!!"
+bp1_yearly.2022.desc_imprisoned:0 "\n\nHo in mio possesso un individuo che giura che tu non abbia avuto alcun ruolo nel #EMP tentativo di assassinio#! alla mia vita da parte di [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))]. Non credo a quell’infido [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))].\n\nConsiderati avvertit[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+bp1_yearly.2022.desc_dead:0 "\n\nNon crederesti a ciò che mi è capitato l’altro giorno. Un[Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'a','o')] [bp1_yearly_2020_influencing_partner.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2020_target'))] malvagi[Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'a','o')] ha attentato alla mia vita, ma [bp1_yearly_2020_influencing_partner.GetFaith.HighGodName] era con me e mi ha protett[Select_CString(ROOT.Char.IsFemale,'a','o')]. Di contro, tengo [Select_CString(bp1_yearly_2020_influencing_partner.IsFemale,'la sua','il suo')] testa come ornamento nel mio studio personale.\n\nConsiderati avvertit[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+bp1_yearly.2022.a_imprisoned:0 "Quel #EMP [bp1_yearly_2020_target.Custom2('InsultNoun', ROOT.Char)]#!!"
  bp1_yearly.2022.b_dead:0 "Cosa? No! Non può essere! [bp1_yearly_2020_influencing_partner.GetTitledFirstNameNoTooltip]..."
  #Concluding event
  bp1_yearly.2023.t:0 "Salutate Tutti [ROOT.Char.Custom('DE_ART_DEF_P_D')] [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip]"
@@ -77,7 +77,7 @@ bp1_yearly.2022.a_imprisoned: 0 "Quel #EMP [bp1_yearly_2020_target.Custom2('Insu
  bp1_yearly.2030.tt_nothing:0 "La loro relazione prosegue senza entusiasmo"
  #Consort is upset with other consort
  bp1_yearly.2040.t:0 "Dispute Domestiche"
-bp1_yearly.2040.desc: 0 "[bp1_yearly_2040_upset_consort.Custom('IT_NAM_COL3')][bp1_yearly_2040_upset_consort.GetTitledFirstName] irrompe nel mio [ROOT.Char.Custom('GetRoom')], fumante come una pentola in ebollizione. Il calore che sprigiona [Select_CString(bp1_yearly_2040_upset_consort.IsFemale,'lei','lui')] è un poco intimidatorio.\n\n"Questo è #EMP INACCETTABILE#!, il modo in cui [Select_CString(bp1_yearly_2040_target_consort.IsFemale,'lei','lui')], [Select_CString(bp1_yearly_2040_target_consort.IsFemale,'lei','lui')]... argh! [bp1_yearly_2040_target_consort.GetFirstName] è un[Select_CString(bp1_yearly_2040_target_consort.IsFemale,'a','o')] #EMP [bp1_yearly_2040_target_consort.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2040_upset_consort'))]#!!" [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip] agita furiosamente [Select_CString(bp1_yearly_2040_upset_consort.IsFemale,'le','le')] braccia. "Non puoi fare #EMP qualcosa#!?!""
+bp1_yearly.2040.desc:0 "[bp1_yearly_2040_upset_consort.Custom('IT_NAM_COL3')][bp1_yearly_2040_upset_consort.GetTitledFirstName] irrompe nel mio [ROOT.Char.Custom('GetRoom')], fumante come una pentola in ebollizione. Il calore che sprigiona [Select_CString(bp1_yearly_2040_upset_consort.IsFemale,'lei','lui')] è un poco intimidatorio.\n\n"Questo è #EMP INACCETTABILE#!, il modo in cui [Select_CString(bp1_yearly_2040_target_consort.IsFemale,'lei','lui')], [Select_CString(bp1_yearly_2040_target_consort.IsFemale,'lei','lui')]... argh! [bp1_yearly_2040_target_consort.GetFirstName] è un[Select_CString(bp1_yearly_2040_target_consort.IsFemale,'a','o')] #EMP [bp1_yearly_2040_target_consort.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2040_upset_consort'))]#!!" [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip] agita furiosamente [Select_CString(bp1_yearly_2040_upset_consort.IsFemale,'le','le')] braccia. "Non puoi fare #EMP qualcosa#!?!""
  bp1_yearly.2040.desc_paranoia:0 "\n\nDato lo stato d'animo di [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip], non posso essere cert[ROOT.Char.Custom('DE_END_PRO_S_N')] che qualcosa sia #EMP effettivamente#! accaduto."
  bp1_yearly.2040.desc_default:0 "\n\nÈ chiaro che qualcosa di storto sia accaduto."
  bp1_yearly.2040.desc_outro:0 "Devo procedere con cautela."
@@ -145,8 +145,8 @@ bp1_yearly.2040.desc: 0 "[bp1_yearly_2040_upset_consort.Custom('IT_NAM_COL3')][b
  bp1_yearly.2070.c:0 "Sappiamo entrambi che è meglio così."
  bp1_yearly.2070.c_tt:0 "Questo mondo è un posto terribile."
 
-primary_heir_replaced_opinion: 0 "Rimosso come Erede"
-parent_primary_heir_replaced_opinion: 0 "Figlio Rimosso come Erede"
+primary_heir_replaced_opinion:0 "Rimosso come Erede"
+parent_primary_heir_replaced_opinion:0 "Figlio Rimosso come Erede"
 
  bp1_yearly_2023_honorable_modifier:0 "Onorevole"
  bp1_yearly_2023_honorable_modifier_desc:0 "Questo personaggio ha onorevolmente rispettato il desiderio del suo partner."

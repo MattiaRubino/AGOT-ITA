@@ -103,7 +103,7 @@
  
  martial_chivalry.2013.t:0 "Umiliazione Sanguinosa"
  martial_chivalry.2013.end.desc:0 "Attraverso l'aiuto di uno sporco trucco, [challenger.GetFirstName] ottiene un vantaggio iniziale. Non c'è tempo per obiettare, né voglio comportarmi come un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] pazzoide. Ma non posso lasciarl[challenger.Custom('DE_END_PRO_S_N')] andare e la mia frustrazione mi fa perdere l'equilibrio. Tento un affondo sconsiderato e il mio avversario mi scaraventa a terra."
-martial_chivalry.2013.a: 0 "Quel [challenger.Custom2('InsultNoun', ROOT.Char)] spregevole!"
+martial_chivalry.2013.a:0 "Quel [challenger.Custom2('InsultNoun', ROOT.Char)] spregevole!"
  
  martial_chivalry.2014.t:0 "Contro Ogni Previsione"
  martial_chivalry.2014.desc:0 "A giudicare dalle esclamazioni della folla, stentano a credere ai loro occhi mentre mi allontano dalla [challenger.Custom('signature_weapon')] di [challenger.GetFirstNamePossessive] e l[challenger.Custom('DE_END_PRO_S_N')] disarmo in un unico, rapido movimento. So che è stata una mossa pericolosa, ma a volte bisogna correre grandi rischi per ottenere gloriose vittorie."
@@ -201,7 +201,7 @@ martial_chivalry.2013.a: 0 "Quel [challenger.Custom2('InsultNoun', ROOT.Char)] s
  martial_chivalry_special.1601.b:0 "Un destriero così bello avrà un prezzo molto alto."
  martial_chivalry_special.1601.c:0 "Il mio stalliere imparerà molto domandolo."
  martial_chivalry_special.1601.a.tt:1 "Il cavallo potrebbe diventare il tuo destriero"
-martial_chivalry_special.1601.d: 0 "Non è [m_horse.Custom('IT_NAM_COL3')][m_horse.GetTitledFirstNameNoTooltip] l’esperto di cavalli?"
+martial_chivalry_special.1601.d:0 "Non è [m_horse.Custom('IT_NAM_COL3')][m_horse.GetTitledFirstNameNoTooltip] l’esperto di cavalli?"
  martial_chivalry_special.1601.d.tt:0 "Il tuo $master_of_horse_court_position$ cercherà di domare l'animale. Se ci riesce, il cavallo diverrà il tuo destriero."
 
  martial_chivalry_special.1603.desc:1 "Il cavallo immobilizza le orecchie mentre mi avvicino, il suo disprezzo per me è cristallino. Questo primo incontro è importante per guadagnarmi la sua fiducia e il suo rispetto, e devo decidere come procedere."
@@ -224,11 +224,11 @@ martial_chivalry_special.1601.d: 0 "Non è [m_horse.Custom('IT_NAM_COL3')][m_hor
  martial_chivalry_special.1604.failure:0 "Il tuo $master_of_horse_court_position$ non è riuscito a domare il cavallo."
  
  martial_chivalry.5000.t:0 "Voci Infondate"
-martial_chivalry.5000.intro: 0 "Non molto dopo il tramonto, [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] mi raggiunge mentre vado alla mia camera.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], la tua galanteria è nota e ammirata tra i tuoi vassalli, ma tale portamento di corte tende ad attirare reazioni invidiose. Proprio ora sussurrano che tu abbia altre, più lubrich[e] intenzioni.»"
+martial_chivalry.5000.intro:0 "Non molto dopo il tramonto, [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] mi raggiunge mentre vado alla mia camera.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], la tua galanteria è nota e ammirata tra i tuoi vassalli, ma tale portamento di corte tende ad attirare reazioni invidiose. Proprio ora sussurrano che tu abbia altre, più lubrich[e] intenzioni.»"
  martial_chivalry.5000.desc.lustful:0 "\n\nAnche se non l'ammetterò mai, la verità è che non sono lontani dai loro sospetti..."
  martial_chivalry.5000.desc.honest_chaste:0 "\n\nCome si può credere che io potrei avere un comportamento tanto vergognoso?"
  martial_chivalry.5000.desc.fallback:0 "\n\nSollevo un sopraciglio... se fosse tutto qui, [spymaster.GetSheHe] non sembrerebbe tanto preoccupat[spymaster.Custom('DE_END_PRO_S_N')]."
-martial_chivalry.5000.desc.outro: 0 "\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], circolano voci che tu sia... #EMP coinvolt[Select_CString(ROOT.Char.IsFemale,'a','o')#!] con [my_liege.GetShortUINamePossessive] coniuge.»"
+martial_chivalry.5000.desc.outro:0 "\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], circolano voci che tu sia... #EMP coinvolt[Select_CString(ROOT.Char.IsFemale,'a','o')#!] con [my_liege.GetShortUINamePossessive] coniuge.»"
  martial_chivalry.5000.a:0 "Negherò immediatamente tali accuse!"
  martial_chivalry.5000.a.success:0 "Riesci a convincere [my_liege.GetFirstNameNoTooltip] delle tue oneste intenzioni"
  martial_chivalry.5000.a.failure:0 "[my_liege.GetFirstNameNoTooltip] è ancora sospettoso nei tuoi confronti"
@@ -274,7 +274,7 @@ martial_chivalry.5000.desc.outro: 0 "\n\n«[ROOT.Char.Custom('FormOfAddressForLi
  martial_chivalry.6002.c:0 "Questa falsa idolatria finirà nel fuoco!"
  
  martial_chivalry.6003.t:0 "Nella [church_province.GetTerrain.GetNameNoTooltip]: Chi È Là...?"
-martial_chivalry.6003.desc_intro: 0 "La sagoma appare così all’improvviso da sembrare quasi sospetta. [Select_CString(dummy_attracted_gender.IsFemale,'Il suo','Il suo')] volto riflette la luce del tramonto e riesce a renderla fredda.\n\n"
+martial_chivalry.6003.desc_intro:0 "La sagoma appare così all’improvviso da sembrare quasi sospetta. [Select_CString(dummy_attracted_gender.IsFemale,'Il suo','Il suo')] volto riflette la luce del tramonto e riesce a renderla fredda.\n\n"
  martial_chivalry.6003.desc_ugly:0 ""Oh... voi... Mi aspettavo un #EMP valoroso#! cavaliere..."\n\n[dummy_attracted_gender.GetSheHe|U] si copre il naso con un fazzoletto bianco.\n\n"Ma andrete bene comunque. Potete riportarmi al castello?""
  martial_chivalry.6003.desc_pretty:0 ""Ah, valoroso cavaliere, siete finalmente venuto in mio soccorso? Sareste così gentile da riportarmi al castello?"\n\nLa sua voce è così rilassante e i suoi gesti mostrano sollievo."
  martial_chivalry.6003.a:0 "Non abbandonerò mai un[dummy_attracted_gender.Custom('DE_PRO_PER_P_3P_G')]innocente che ha bisogno di me."

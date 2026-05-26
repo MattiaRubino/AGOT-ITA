@@ -8,8 +8,8 @@
  SEND_POEM_STRIFE:0 "Un'opera sulla Discordia"
  SEND_POEM_INCOMPETENCE:0 "Un'opera che descrive in dettaglio la sua incompentenza"
 
-send_poem_interaction.success: 0 "La poesia è lodata"
-send_poem_interaction.failure: 0 "La poesia è derisa"
+send_poem_interaction.success:0 "La poesia è lodata"
+send_poem_interaction.failure:0 "La poesia è derisa"
 
  trait_specific_interactions.000.generate_poem:1 "#POE [actor.Custom('GeneratePoem_Title')]#!\n[actor.Custom('GeneratePoem_Intro_Rhyming')]\n[actor.Custom('GeneratePoem_Outro_Rhyming')]"
  trait_specific_interactions.000.intro.part1:0 "L'ultimo lavoro di/del[actor.Custom('DE_END_ADJ_NUL_S_N')] mi[actor.Custom('DE_END_PRO_S_N')] [recipient.Custom2('RelationToMe', SCOPE.sC('actor'))], [actor.GetTitledFirstName], ha spopolato a [actor.Custom('GetCourt')] negli ultimi tempi:"

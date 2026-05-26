@@ -1,6 +1,6 @@
 ﻿l_spanish:
  chancellor_task.0991_end_desc:0 "L'opinione di [target_character.GetTitledFirstNamePossessiveNoTooltip] nei tuoi confronti non aumenterà oltre."
-chancellor_task.0991_increase_desc: 0 "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstNameNoTooltip] è rimast[Select_CString(target_character.IsFemale,'a','o')] colpit[Select_CString(target_character.IsFemale,'a','o')] e onorat[Select_CString(target_character.IsFemale,'a','o')] per il favore che [Select_CString(target_character.IsFemale,'le','gli')] hai concesso."
+chancellor_task.0991_increase_desc:0 "[target_character.Custom('IT_NAM_COL3')][target_character.GetTitledFirstNameNoTooltip] è rimast[Select_CString(target_character.IsFemale,'a','o')] colpit[Select_CString(target_character.IsFemale,'a','o')] e onorat[Select_CString(target_character.IsFemale,'a','o')] per il favore che [Select_CString(target_character.IsFemale,'le','gli')] hai concesso."
 
  chancellor_task.1001.t:0 "Un Nuovo Pretendente"
  chancellor_task.1001.desc:0 "Tra tutte le buffonate a cui io abbia mai dovuto assistere...\n\nNegli inutili tentativi da parte [councillor.Custom('IT_NAM_COL2')][councillor.GetTitledFirstName] di migliorare le mie relazioni con i miei vicini, il mio [councillor.GetCouncilTitle] buono a nulla ha riconosciuto ufficialmente la rivendicazione [neighboring_ruler.Custom('IT_NAM_COL2')][neighboring_ruler.GetTitledFirstName] [target_county.Custom('IT_COU_COL3')][target_county.GetName]"
@@ -23,10 +23,10 @@ chancellor_task.0991_increase_desc: 0 "[target_character.Custom('IT_NAM_COL3')][
  chancellor_task.1102.a:0 "Un lavoro fantastico, [councillor.GetFirstNameNoTooltip]!"
 
  chancellor_task.1103.opening:0 "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
-chancellor_task.1103.desc: 0 "Ho corrisposto con il tuo [councillor.GetCouncilTitle], [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], e devo dire che ho iniziato a vederti sotto una nuova luce.\n\nForse sei persino qualcuno che un giorno sarei orgoglioso di chiamare amico."
+chancellor_task.1103.desc:0 "Ho corrisposto con il tuo [councillor.GetCouncilTitle], [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], e devo dire che ho iniziato a vederti sotto una nuova luce.\n\nForse sei persino qualcuno che un giorno sarei orgoglioso di chiamare amico."
  chancellor_task.1103.a:0 "Oggi la vostra lingua d'argento sta splendendo, [councillor.GetFirstNameNoTooltip]!"
 
-chancellor_task.1103.message: 0 "[councillor.GetCouncilTitle] impressiona un vicino"
+chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] impressiona un vicino"
 
  chancellor_task.2001.t:0 "Resistenza Locale"
  chancellor_task.2001.desc:0 "Mio onorato [councillor.Custom2('RelationToMe', ROOT.Char)],\nNonostante i miei tentativi di riorganizzare [county.Custom('IT_COU_COL4')][county.GetName] stiano procedendo a buon ritmo, non tutti sono proprio convinti dei benefici.\nSembra che abbia offeso molti governatori e anziani dei villaggi. In effetti, credo di averli offesi tutti."
@@ -74,7 +74,7 @@ chancellor_task.1103.message: 0 "[councillor.GetCouncilTitle] impressiona un vic
  chancellor_task.3101.c:0 "Che continuino a risolvere le loro divergenze."
  chancellor_task.3101.c.tt:0 "La guerra tra [attacker_vassal.GetFirstNameNoTooltip] e [defender_vassal.GetFirstNameNoTooltip] continua"
 
-chancellor_task.3102.desc: 0 "Ho scoperto che il contratto di [vassal.GetTitledFirstNamePossessive] obbliga [Select_CString(vassal.IsFemale,'lei','lui')] a più di quanto hai riscosso."
+chancellor_task.3102.desc:0 "Ho scoperto che il contratto di [vassal.GetTitledFirstNamePossessive] obbliga [Select_CString(vassal.IsFemale,'lei','lui')] a più di quanto hai riscosso."
  chancellor_task.3102.a:0 "˜È tempo di rimediare a questo errore!"
  chancellor_task.3102.c:1 "Lascerò scorrere. Per questa volta..."
 
@@ -83,7 +83,7 @@ chancellor_task.3102.desc: 0 "Ho scoperto che il contratto di [vassal.GetTitledF
  chancellor_task.3003.a:0 "È come se il potere mi stesse scappando dalle mani."
  chancellor_task.3003.notification:0 "[councillor.GetCouncilTitle] non riesce a gestire i vassalli"
 
-chancellor_task.3103.desc: 0 "Ospito il tuo [councillor.GetCouncilTitle], [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], già da diverse settimane, e [Select_CString(councillor.IsFemale,'lei','lui')] mi ha aiutato a vedere davvero lo splendore del reame sotto il tuo governo.\n\nMi onora servirti come vassallo!"
+chancellor_task.3103.desc:0 "Ospito il tuo [councillor.GetCouncilTitle], [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstName], già da diverse settimane, e [Select_CString(councillor.IsFemale,'lei','lui')] mi ha aiutato a vedere davvero lo splendore del reame sotto il tuo governo.\n\nMi onora servirti come vassallo!"
  chancellor_task.3103.a:0 "È una benedizione avere dei servitori così grati."
 
  chancellor_task.3104.desc:0 "Ho scoperto vecchi trattati riguardanti il titolo [vassal.Custom('DE_PRO_PER_P_3P_A')] [primary_title.GetName]. Se necessario, si potrebbe far si che [vassal.Custom('DE_ART_DEF_P_A')] [vassal.GetTitledFirstName] sia ancora più equ[vassal.Custom('DE_END_PRO_S_N')] di prima, riguardo alla sua eventuale eredità."

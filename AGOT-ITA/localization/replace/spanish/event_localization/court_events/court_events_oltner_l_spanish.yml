@@ -1,8 +1,8 @@
 ﻿l_spanish:
  court.9000.t:0 "La Dichiarazione di un Cavaliere"
  court.9000.desc:0 "Mentre cammino verso il mio trono, sento il mio $knight_culture_player_no_tooltip_lowercase$ [flirty_knight.GetFirstName] declamare qualcosa a mi[flirty_spouse.Custom('DE_END_PRO_S_N')] [flirty_spouse.GetWifeHusband], [flirty_spouse.GetFirstName].\n\n"[flirty_knight.Custom('GeneratePoem_Intro_Rhyming')]\n[flirty_knight.Custom('GeneratePoem_Outro_Rhyming')]"\n\nSta recitando una poesia romantica? A #EMP mi[flirty_spouse.Custom('DE_END_PRO_S_N')]#! [flirty_spouse.GetWifeHusband]!?"
-court.9000.a: 0 "[flirty_knight.GetFirstNameNoTooltip], [flirty_knight.Custom2('InsultNounSexual', ROOT.Char)]! In prigione!"
-court.9000.b: 0 "[flirty_spouse.GetFirstNameNoTooltip]! Allontanati da [flirty_knight.GetHerHim], [flirty_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
+court.9000.a:0 "[flirty_knight.GetFirstNameNoTooltip], [flirty_knight.Custom2('InsultNounSexual', ROOT.Char)]! In prigione!"
+court.9000.b:0 "[flirty_spouse.GetFirstNameNoTooltip]! Allontanati da [flirty_knight.GetHerHim], [flirty_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
  court.9000.c:0 "Ah, l'amore cortese! Che questa meravigliosa poesia riecheggi nelle sale!"
  court_9000_a_tt:0 "Se qualcosa sta accadendo tra [flirty_spouse.GetFirstName] e [flirty_knight.GetFirstName], finisce qui\n"
  court_9000_b_tt:0 "Se qualcosa sta accadendo tra [flirty_spouse.GetFirstName] e [flirty_knight.GetFirstName], è probabile che finisca\n"
@@ -38,12 +38,12 @@ court.9000.b: 0 "[flirty_spouse.GetFirstNameNoTooltip]! Allontanati da [flirty_k
  court.9200.c:0 "Sarebbe scortese disturbarli mentre mangiano!"
  
  court.9300.t:0 "Eccesso di Indulgenza"
-court.9300.desc: 0 "«M… mio [ROOT.Char.GetTitleTierName]. Il/La [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('overindulger_target'))] [overindulger_target.GetFirstName], [overindulger_target.GetSheHe]… #EMP non smette di divorare [overindulger_target.Custom('GetExpensiveDessert')]!#!» balbetta il/la mi[Select_CString(worried_courtier.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort',worried_courtier)] [worried_courtier.GetFirstName].\n\nProprio allora vedo [overindulger_target.GetFirstNameNoTooltip] uscire dalla dispensa con una pila di [overindulger_target.Custom('GetExpensiveDessert')] stretta tra le braccia.\n\n«Succede qualcosa, mio signore/mia signora?» dice [overindulger_target.GetFirstNameNoTooltip] [overindulger_target.Custom('quirk_neg_pp')]."
-court.9300.a: 0 "#EMP Hai mangiato i dolci reali [overindulger_target.Custom('GetExpensiveDessert')]!?#!"
+court.9300.desc:0 "«M… mio [ROOT.Char.GetTitleTierName]. Il/La [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('overindulger_target'))] [overindulger_target.GetFirstName], [overindulger_target.GetSheHe]… #EMP non smette di divorare [overindulger_target.Custom('GetExpensiveDessert')]!#!» balbetta il/la mi[Select_CString(worried_courtier.IsFemale,'a','o')] [ROOT.Char.Custom2('RelationToMeShort',worried_courtier)] [worried_courtier.GetFirstName].\n\nProprio allora vedo [overindulger_target.GetFirstNameNoTooltip] uscire dalla dispensa con una pila di [overindulger_target.Custom('GetExpensiveDessert')] stretta tra le braccia.\n\n«Succede qualcosa, mio signore/mia signora?» dice [overindulger_target.GetFirstNameNoTooltip] [overindulger_target.Custom('quirk_neg_pp')]."
+court.9300.a:0 "#EMP Hai mangiato i dolci reali [overindulger_target.Custom('GetExpensiveDessert')]!?#!"
  court.9300.b:0 "In nome di [ROOT.Char.GetFaith.HighGodName], [overindulger_target.GetWomanMan]! Ricomponiti!"
  court.9300.c:0 "Oh, sarà #EMP meglio#! che tu paghi per quello."
  court.9300.d:0 "D'ora in avanti sei bandit[overindulger_target.Custom('DE_END_PRO_S_N')] dalla dispensa..."
-court.9300.b.success: 0 "Convince [overindulger_target.GetFirstNameNoTooltip] a lasciar perdere i [overindulger_target.Custom('GetExpensiveDessert')] e a risarcirti"
+court.9300.b.success:0 "Convince [overindulger_target.GetFirstNameNoTooltip] a lasciar perdere i [overindulger_target.Custom('GetExpensiveDessert')] e a risarcirti"
  court.9300.b.failure:0 "[overindulger_target.GetFirstNameNoTooltip] non si lascia dissuadere e rifiuta di ripagarti"
  
  court.9400.t:0 "Scherzi a Base di Torte"

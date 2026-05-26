@@ -38,14 +38,14 @@
  adultery.0006.apologetic_end.desc:0 "È successo una sola volta, lo giuro!»"
  adultery.0006.unapologetic_end.desc:0 "È successo una sola volta, ma fidati delle mie parole. Lo rifarei volentieri."
 
-adultery.0006.a: 0 "Tutti conosceranno il tuo tradimento, [lover_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
+adultery.0006.a:0 "Tutti conosceranno il tuo tradimento, [lover_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
  adultery.0006.b:0 "Ti perdono. Per questa volta."
  adultery.0006.c:0 "Se non posso più fidarmi di [lover_spouse.GetHerHim], cosa ci rimane?"
 
  adultery.0007.start.desc:0 "I miei dubbi non erano infondati. Ho trovato le prove dell'infedeltà di [lover_spouse.GetFirstNamePossessiveNoTooltip]!\n\n"
-adultery.0007.lover_my.desc: 0 "Il[Select_CString(lover_spouse.IsFemale,'la','')] bugiard[Select_CString(lover_spouse.IsFemale,'a','o')] [lover_spouse.Custom2('InsultNoun', ROOT.Char)] ha accolto [sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] nel [Select_CString(lover_spouse.IsFemale,'suo','suo')] letto."
+adultery.0007.lover_my.desc:0 "Il[Select_CString(lover_spouse.IsFemale,'la','')] bugiard[Select_CString(lover_spouse.IsFemale,'a','o')] [lover_spouse.Custom2('InsultNoun', ROOT.Char)] ha accolto [sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] nel [Select_CString(lover_spouse.IsFemale,'suo','suo')] letto."
 
-adultery.0007.lover_herhis.desc: 0 "Il[Select_CString(lover_spouse.IsFemale,'la','')] bugiard[Select_CString(lover_spouse.IsFemale,'a','o')] [lover_spouse.Custom2('InsultNoun', ROOT.Char)] ha accolto [sex_partner.Custom2('HerHisCharacterIntroduction', lover_spouse)] nel [Select_CString(lover_spouse.IsFemale,'suo','suo')] letto."
+adultery.0007.lover_herhis.desc:0 "Il[Select_CString(lover_spouse.IsFemale,'la','')] bugiard[Select_CString(lover_spouse.IsFemale,'a','o')] [lover_spouse.Custom2('InsultNoun', ROOT.Char)] ha accolto [sex_partner.Custom2('HerHisCharacterIntroduction', lover_spouse)] nel [Select_CString(lover_spouse.IsFemale,'suo','suo')] letto."
  adultery.0007.male_lover.desc:0 "[lover_spouse.Custom('DE_ART_IND_D')] ha macchiato se stess[lover_spouse.Custom('DE_END_PRO_S_N')] con un umile plebeo, un uomo di nessuna importanza."
  adultery.0007.female_lover.desc:0 "[lover_spouse.Custom('DE_ART_IND_D')] ha macchiato se stess[lover_spouse.Custom('DE_END_PRO_S_N')] con una umile plebea, una donna di nessuna importanza."
  adultery.0007.end.desc:0 "Per quanto ne so, è successo solo una volta. È un misero conforto di fronte al suo tradimento..."
@@ -204,6 +204,6 @@ adultery.0007.lover_herhis.desc: 0 "Il[Select_CString(lover_spouse.IsFemale,'la'
  adultery.4001.privy.desc:0 "Nel fetore oscuro della latrina, nientemeno, se si vuole credere ai pettegolezzi!"
  adultery.4001.end.desc:0 "\n\nQuando mi confronto con [adultery_spouse.GetFirstName], [adultery_spouse.GetSheHe] insiste sul fatto che "è successo solo una volta" – come se questo cancellasse il suo tradimento!"
  adultery.4001.a:0 "Come posso fidarmi di nuovo di [adultery_spouse.GetHerHim]?"
-adultery.4001.b: 0 "Guardie! Arrestat[Select_CString(adultery_spouse.IsFemale,'e','e')] quell[Select_CString(adultery_spouse.IsFemale,'a','o')] infam[Select_CString(adultery_spouse.IsFemale,'a','o')] [adultery_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
+adultery.4001.b:0 "Guardie! Arrestat[Select_CString(adultery_spouse.IsFemale,'e','e')] quell[Select_CString(adultery_spouse.IsFemale,'a','o')] infam[Select_CString(adultery_spouse.IsFemale,'a','o')] [adultery_spouse.Custom2('InsultNounSexual', ROOT.Char)]!"
  adultery.4001.b2:0 "Te ne pentirai! Guardie!"
  adultery.4001.c:0 "In un modo o nell'altro, devo cercare di perdonare."

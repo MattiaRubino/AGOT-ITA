@@ -99,7 +99,7 @@
 
  prison.9499.t:0 "Fuga!"
  prison.9499.desc_house_arrest:0 "[escapee.Custom('DE_ART_DEF_P_D')] mi[escapee.Custom('DE_END_PRO_S_N')] prigionier[escapee.Custom('DE_END_PRO_S_N')], [escapee.Custom('IT_NAM_COL3')][escapee.GetTitledFirstName], è fuggit[escapee.Custom('DE_END_PRO_S_N')] dalla prigione!"
-prison.9499.desc_dungeon: 0 "Il mio prigionier[Select_CString(escapee.IsFemale,'a','o')], [escapee.GetTitledFirstName], è fuggito!"
+prison.9499.desc_dungeon:0 "Il mio prigionier[Select_CString(escapee.IsFemale,'a','o')], [escapee.GetTitledFirstName], è fuggito!"
  prison.9499.desc_ending:0 "\n\nLe guardie non hanno nulla da dire in loro difesa, ma tanto il danno è già fatto."
  prison.9499.a:0 "Che tu sia maledett[escapee.Custom('DE_END_PRO_S_N')], [escapee.GetFirstNameNoTooltip]!"
 
@@ -118,7 +118,7 @@ prison.9499.desc_dungeon: 0 "Il mio prigionier[Select_CString(escapee.IsFemale,'
  prison.9503.t:0 "Tradimento"
  prison.9503.desc:0 "[Select_CString(prison_friend.IsFemale,'La mia compagna','Il mio compagno')] di prigionia [prison_friend.GetTitledFirstName] e io abbiamo passato molte notti a pianificare la nostra fuga.\n\nMentre faccio un gran baccano [prison_friend.GetSheHe] si tiene [Select_CString(prison_friend.IsFemale,'pronta','pronto')] vicino alla porta. La guardia la apre, e io sorrido, ora [prison_friend.GetFirstNameNoTooltip] attaccherà da dietro e... e la porta si chiude dietro la guardia. [prison_friend.GetTitledFirstNameNoTooltip] scompare nella notte, [Select_CString(prison_friend.IsFemale,'indisturbata','indisturbato')], mentre tutte le guardie convergono su di me."
  prison.9503.a:0 "Beh, perlomeno [prison_friend.GetSheHe] è uscit[prison_friend.Custom('DE_END_PRO_S_N')]..."
-prison.9503.b: 0 "[prison_friend.Custom2('InsultAdjective', ROOT.Char)] [prison_friend.Custom2('InsultNoun', ROOT.Char)] mi ha tradito!"
+prison.9503.b:0 "[prison_friend.Custom2('InsultAdjective', ROOT.Char)] [prison_friend.Custom2('InsultNoun', ROOT.Char)] mi ha tradito!"
 
  prison.9504.t:0 "Il Mio Compagno di Prigione"
  prison.9504.desc:0 "Ho passato molte ore a pianificare la mia fuga, e mentre percorro un corridoio buio nel cuore della notte non posso fare a meno di sorridere. Potrebbe funzionare! La guardia è neutralizzata, la via...\n\n«[ROOT.Char.GetFirstNameNoTooltip] sta scappando! Guardie!» #EMP Guardie!#!» La voce stridula del[prison_rival.Custom('DE_END_ADJ_NUL_S_N')] mi[prison_rival.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('prison_rival'))] [prison_rival.GetTitledFirstName] rompe il silenzio, e presto sono circondato da guardie armate e arrabbiate."

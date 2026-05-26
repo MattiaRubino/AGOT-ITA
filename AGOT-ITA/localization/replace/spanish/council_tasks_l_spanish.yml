@@ -8,7 +8,7 @@
  task_manage_guards_disorganized:0 "\n$EFFECT_LIST_BULLET$#N Guardie della Casata Disorganizzate#!"
  #End AGOT modifiche
 
-ACTIVE_COUNCIL_TASK_TT: 2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFemale,'La mia','Il mio')] [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] ha l'incarico di [ActiveCouncilTask.GetTaskType.GetName|V]"
+ACTIVE_COUNCIL_TASK_TT:2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFemale,'La mia','Il mio')] [ActiveCouncilTask.GetPositionType.GetNameForPlayer] [ActiveCouncilTask.GetCouncillor.GetFirstName|V] ha l'incarico di [ActiveCouncilTask.GetTaskType.GetName|V]"
  ACTIVE_COUNCIL_TASK_FROZEN_TT:1 "#T [ActiveCouncilTask.GetTaskType.GetName|V] #!\n@warning_icon! #X Assegna un personaggio a questa posizione nel consiglio per continuare a procedere con l'incarico#!"
  POTENTIAL_COUNCIL_TASK_TT:2 "[ActiveCouncilTask.GetCouncillor.GetUIName] sarà assegnato a [ActiveCouncilTask.GetTaskType.GetName|V]"
  COUNCIL_TASK_TT:0 "#T [ActiveCouncilTask.GetTaskType.GetName]#!\n[SelectLocalization( GuiPotentialCouncilTask.IsActive, 'ACTIVE_COUNCIL_TASK_TT', 'POTENTIAL_COUNCIL_TASK_TT' )]"
@@ -243,8 +243,8 @@ ACTIVE_COUNCIL_TASK_TT: 2 "[Select_CString(ActiveCouncilTask.GetCouncillor.IsFem
  task_support_schemes:0 "Supporta i Complotti"
  task_support_schemes_effect_desc:0 "[councillor.GetModifierDescForTask('task_support_schemes')]"
  task_support_schemes_base_desc:3 "[scheme_speed_single|E] [hostile_scheme|E]: @scheme_phase_duration_icon!#P [SCOPE.ScriptValue('spymaster_espionage_modifier_final_scale')|0]#!\n$TAB$[intrigue_i] [intrigue|E] del [councillor|E]: #P [SCOPE.ScriptValue('spymaster_espionage_modifier_base_scale')|0] giorni#!"
-task_support_schemes_legacy_bonus_desc: 0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P [SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
-task_support_schemes_family_business_bonus_desc: 0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P [SCOPE.ScriptValue('spymaster_espionage_family_business_bonus')|P1]#!"
+task_support_schemes_legacy_bonus_desc:0 "\n$TAB$[GetDynastyPerk('erudition_legacy_5').GetName]: #P [SCOPE.ScriptValue('spymaster_espionage_legacy_bonus')|P1]#!"
+task_support_schemes_family_business_bonus_desc:0 "\n$TAB$$tradition_family_entrepreneurship_name$: #P [SCOPE.ScriptValue('spymaster_espionage_family_business_bonus')|P1]#!"
 task_support_schemes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_member_desc$: #P [SCOPE.ScriptValue('spymaster_espionage_consulted_house_bonus')|P]%#!"
  spymaster_espionage_court_type_bonus_desc:0 "\n$TAB$$court_intrigue$: #P [SCOPE.ScriptValue('spymaster_espionage_court_type_bonus')|P1]#!"
  task_support_schemes_success_chance_base_desc:2 "\n[success_chance|E] del [hostile_scheme|E]: @scheme_success_icon!#P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_total')|P1%/]#!\n$TAB$Base: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_base')|P1%/]#!\n$TAB$[intrigue_i] [intrigue|E] del [councillor|E]: #P +[SCOPE.ScriptValue('spymaster_espionage_success_chance_modifier_base_scale')|P1%/]#!"
@@ -367,7 +367,7 @@ task_support_schemes_consulted_house_bonus_desc: "\n$TAB$$unity_consulted_house_
  task_fabricate_claim_desc_not_adjacent:0 "\n$TAB$Rivendicare contea non adiacente — moltiplicato per: #N $BREAKDOWN_MULTIPLICATION_PREFIX$#![SCOPE.ScriptValue('court_chaplain_fabricate_claim_not_adjacent_penalty')|-1]"
 
  task_conversion:0 "Converti la Fede nella Contea"
-task_conversion_effect_desc: 1 "#S Al #V 100%#!#!:\n$TAB$La [county|E] cambierà [faith|E] in[councillor.GetFaith.GetTextIcon][councillor.GetFaith.GetName]"
+task_conversion_effect_desc:1 "#S Al #V 100%#!#!:\n$TAB$La [county|E] cambierà [faith|E] in[councillor.GetFaith.GetTextIcon][councillor.GetFaith.GetName]"
  task_conversion_china_effect_desc: "#S At #V 100%#!#!:\n$TAB$The [county|E] cambierà [faith|E] in [councillor.GetLiege.GetFaith.GetTextIcon][councillor.GetLiege.GetFaith.GetName]"
  task_conversion_development_loss_desc: "\n#indent_newline:4 $TAB$La [county|E] perderà [development_i]#N 1#! [development|E], più[development_i]#N 1#! ogni #V 10#! di sviluppo esistente#!"
  task_conversion_opinion_gain:0 "\n$EFFECT_LIST_BULLET$#P Aumento dell'Opinione della Contea#!"

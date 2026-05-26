@@ -46,7 +46,7 @@
  ACTIVITY_GUEST_LIST_INFO_REGULAR:0 "Invita gli [activity_guests|E] utilizzando le Categorie Ospiti"
  ACTIVITY_GUEST_LIST_INFO_SPECIAL:0 "Seleziona un ospite per renderlo [ActivityGuestListWindow.GetSelectingSpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )]"
  ACTIVITY_GUEST_LIST_INVITE_GROUP:0 "Categorie Ospiti"
-ACTIVITY_GUEST_LIST_INVITING_OVER_MAX: 0 "@alert_icon! #alert_trial Sono stati invitati più di [ActivityGuestListWindow.GetMaxNumGuests|V] ospiti. Alcuni sceglieranno di rifiutare l’invito#!"
+ACTIVITY_GUEST_LIST_INVITING_OVER_MAX:0 "@alert_icon! #alert_trial Sono stati invitati più di [ActivityGuestListWindow.GetMaxNumGuests|V] ospiti. Alcuni sceglieranno di rifiutare l’invito#!"
  ACTIVITY_GUEST_LIST_SPECIAL_GUEST_TT:0 "#T [ActivitySpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )]#!\n[ActivitySpecialGuest.GetType.GetDescriptionIfHost( ActivityGuestListWindow.GetHost )]\n[ConcatIfNeitherEmpty('On invitation:\n', ActivityGuestListWindow.GetSpecialGuestOnInviteEffectDesc( ActivitySpecialGuest.Self ) )]"
  ACTIVITY_SPECIAL_GUESTS_DEFAULT:0 "Ospiti Speciali"
  ACTIVITY_SPECIAL_GUESTS:0 "[ActivityType.GetLocalizedTextWithFallback( 'special_guests', 'ACTIVITY_SPECIAL_GUESTS_DEFAULT' )]"
@@ -94,7 +94,7 @@ ACTIVITY_GUEST_LIST_INVITING_OVER_MAX: 0 "@alert_icon! #alert_trial Sono stati i
  ACTIVITY_INVOLVED_SPECIAL_GUEST_hud:0 "#T Attività Coinvolta#!\n[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] un [activity_attending|E][Activity.GetNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$ as the [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )].\n[Character.GetActivityStateText( 'full' )]."
  ACTIVITY_INVITED_SPECIAL_GUEST_hud:0 "#T Attività Coinvolta#!\n[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] invitato come [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )] a [Activity.GetNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$."
  ACTIVITY_INVOLVED_GUEST_hud:0 "#T Attività Coinvolta#!\n[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Sei', 'è' )] un [activity_attending|E] [Activity.GetNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]."
-ACTIVITY_INVITED_GUEST_hud: 0 "#T Attività con invito#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'sei', 'è' )] ha ricevuto un invito a [Activity.GetNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$.\n\n#I Clicca per vedere l’Attività#!"
+ACTIVITY_INVITED_GUEST_hud:0 "#T Attività con invito#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'sei', 'è' )] ha ricevuto un invito a [Activity.GetNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$.\n\n#I Clicca per vedere l’Attività#!"
  ACTIVITY_UNINVOLVED_hud:0 "#T Attività#!\n[Activity.GetHost.GetUIName] ospita un [Activity.GetShortName] in $ACTIVITY_CURRENT_LOCATION$."
 
  ACTIVITY_INVOLVED_HOST_tooltip:0 "[Select_CString(Character.IsLocalPlayer,'',Character.GetShortUIName)] [Select_CString( Character.IsLocalPlayer, 'Stai', 'sta' )] ospitando l'Attività [Activity.GetShortNameNoTooltip] in $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]."
@@ -123,7 +123,7 @@ ACTIVITY_INVITED_GUEST_hud: 0 "#T Attività con invito#!\n[Character.GetUIName|U
  activity_window_character_student: "Studente\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_teacher: "Insegnante\n[Character.GetShortUINameNoTooltip|U]"
 
-ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: 0 "#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|^V]#!"
+ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP:0 "#ts Punteggio: [ActivityWindow.GetSpecialProgressValue|^V]#!"
 
  ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP:1 "#T [ActivityPhase.GetName]#!\nUltima azione: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] giorni prima della prossima possibilità di una [activity_phase_action|E].\n\n[ActivityPhase.GetDescription]"
  ACTIVITY_PULSE_ACTION_NONE:0 "Nessuno"

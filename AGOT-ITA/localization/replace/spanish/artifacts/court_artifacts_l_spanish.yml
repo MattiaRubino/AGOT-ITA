@@ -122,9 +122,9 @@
  artifact_wall_cid_sword_name:0 "Tizona"
  artifact_wall_el_cids_sword:1 "Si tratta di una spada lunga un metro che porta l'iscrizione "Tizona". Si dice che sia stata vinta dal suo precedente proprietario dal famoso signore della guerra El Cid, la sola presenza della spada evoca sentimenti di timore marziale."
 
-artifact_radzig_kobyla_longsword_name: 0 "Spada lunga di Radzig Kobyla"
-artifact_henrys_longsword_name: 0 "Spada lunga di Henry"
-artifact_radzig_kobyla_longsword_description: 0 "Si dice che la spada sia stata forgiata per un «Sir Radzig Kobyla» e che sia stata ritenuta perduta per lungo tempo, finché non fu recuperata da un certo uomo affamato nella sua cerca di vendetta."
+artifact_radzig_kobyla_longsword_name:0 "Spada lunga di Radzig Kobyla"
+artifact_henrys_longsword_name:0 "Spada lunga di Henry"
+artifact_radzig_kobyla_longsword_description:0 "Si dice che la spada sia stata forgiata per un «Sir Radzig Kobyla» e che sia stata ritenuta perduta per lungo tempo, finché non fu recuperata da un certo uomo affamato nella sua cerca di vendetta."
 
  artifact_wall_sword_muhammad_name:1 "Spada di Maometto"
  artifact_wall_sword_muhammad:0 "Una delle nove spade originali del Profeta Maometto. Questa è la [SCOPE.Custom('MuhammadSword')]."
@@ -586,7 +586,7 @@ artifact_sword_goujian_purity: "[gujian_sword.GetDesc]\n\nSi ritiene che questa 
  feature_book_title_soulmate:0 "Devozione $artifact_name_prefix_artifact_scope$"
  feature_book_topic_soulmate:0 "Un manoscritto [Artifact.GetOwner.Custom('ArtifactWealth')|U] e coloratamente illuminato che [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] trasmette la devozione che [Artifact.GetOwner.GetTitledFirstName] sente nei confronti di [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName], immortalando il loro amore."
  feature_book_title_nemesis:0 "L'odio imperituro di [Artifact.GetOwner.GetTitledFirstName]"
-feature_book_topic_nemesis: 0 "Manoscritto [Artifact.GetOwner.Custom('ArtifactArticleWealth')] [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] che trasmette l’odio che [Artifact.GetOwner.Custom('IT_NAM_COL3')][Artifact.GetOwner.GetTitleAsName] prova per [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – chiamand[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'ola','olo')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultAdjectiveArticle', ROOT.Char)] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultNoun', ROOT.Char)] tra molte altre cose. Il testo è minuziosamente illustrato per ritrarre quell[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'a','o')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetWomanMan] nel maggior numero possibile di situazioni poco lusinghiere."
+feature_book_topic_nemesis:0 "Manoscritto [Artifact.GetOwner.Custom('ArtifactArticleWealth')] [Artifact.GetOwner.Custom('ArtifactAdverbBookContentQuality')] che trasmette l’odio che [Artifact.GetOwner.Custom('IT_NAM_COL3')][Artifact.GetOwner.GetTitleAsName] prova per [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetTitledFirstName] – chiamand[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'ola','olo')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultAdjectiveArticle', ROOT.Char)] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.Custom2('InsultNoun', ROOT.Char)] tra molte altre cose. Il testo è minuziosamente illustrato per ritrarre quell[Select_CString(Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.IsFemale,'a','o')] [Artifact.GetOwner.MakeScope.Var('book_topic_relationship').Char.GetWomanMan] nel maggior numero possibile di situazioni poco lusinghiere."
  
 # mystical animal
  feature_book_title_mystical_animal:0 "Il [Artifact.GetOwner.Custom('GetAnimalType')|U] bianco"

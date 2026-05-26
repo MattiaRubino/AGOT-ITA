@@ -6,7 +6,7 @@
 
  #Empty Granaries
  hold_court.6000.t:0 "Granai vuoti"
-hold_court.6000.desc_intro: 0 "Davanti a me sta [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)], con il capo chino.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [6000_province.GetNameNoTooltip] è stat[Select_CString(6000_poor.IsFemale,'a','o')] duramente colpit[Select_CString(6000_poor.IsFemale,'a','o')] dalla recente"
+hold_court.6000.desc_intro:0 "Davanti a me sta [6000_poor.Custom2('MyCharacterIntroduction', ROOT.Char)], con il capo chino.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], [6000_province.GetNameNoTooltip] è stat[Select_CString(6000_poor.IsFemale,'a','o')] duramente colpit[Select_CString(6000_poor.IsFemale,'a','o')] dalla recente"
  hold_court.6000.desc_occupation:0 "dalla recente occupazione nemica."
  hold_court.6000.desc_raiding:0 "dalla recente razzia e saccheggio."
  hold_court.6000.desc_epidemics:1 "dalle recenti epidemie."
@@ -21,7 +21,7 @@ hold_court.6000.desc_intro: 0 "Davanti a me sta [6000_poor.Custom2('MyCharacterI
  hold_court.6000.d:0 "Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che puoi farcela con le tue forze."
  #From Beyond the Border
  hold_court.6030.t:0 "Da oltre il confine"
-hold_court.6030.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], vengo dalla comunità religiosa di [6030_church.GetName], nel [6030_border.GetName].\n\n«Là, saggi e pii [6030_monk.GetWomenMen] raccolgono e preservano da secoli il sapere tradizionale della cultura [6030_monk.GetCulture.GetName]. In segno di buona volontà ti offro questa preziosa antologia di testi [6030_monk.GetCulture.GetNameNoTooltip] tradotti nella tua lingua.\n\n«Speriamo che tu l’accetti e ottenga una nuova prospettiva sul nostro popolo.»"
+hold_court.6030.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], vengo dalla comunità religiosa di [6030_church.GetName], nel [6030_border.GetName].\n\n«Là, saggi e pii [6030_monk.GetWomenMen] raccolgono e preservano da secoli il sapere tradizionale della cultura [6030_monk.GetCulture.GetName]. In segno di buona volontà ti offro questa preziosa antologia di testi [6030_monk.GetCulture.GetNameNoTooltip] tradotti nella tua lingua.\n\n«Speriamo che tu l’accetti e ottenga una nuova prospettiva sul nostro popolo.»"
  hold_court.6030.a:0 "Accetto con gratitudine."
  hold_court.6030.b:0 "Per favore, rimani e insegnami di più!"
  hold_court.6030.b.tt.2:0 "Tutti i sovrani della cultura [6030_monk.GetCulture.GetName]"
@@ -30,16 +30,16 @@ hold_court.6030.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], vengo 
  hold_court.6030.d.tt:0 "Tutti i tuoi vassalli di cultura [6030_monk.GetCulture.GetName]"
  #A Lost Treasure
  hold_court.6040.t:0 "Un Tesoro Perduto"
-hold_court.6040.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], rappresento la comunità religiosa di [6040_church.GetName].\n\n«Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro curioso. La coperta è polverosa, la legatura fragile e le pagine ingiallite dal tempo, ma contiene disegni insoliti e la scrittura è ignota perfino ai nostri [6040_monk.GetFaith.PriestNeuterPlural].\n\n«Siamo certi che sia unico al mondo, un antico scrigno di conoscenza, un vero tesoro! Per questo te lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], o le memorie della creazione del mondo!»"
+hold_court.6040.desc:1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], rappresento la comunità religiosa di [6040_church.GetName].\n\n«Rovistando nel nostro modesto archivio, ci siamo imbattuti in un libro curioso. La coperta è polverosa, la legatura fragile e le pagine ingiallite dal tempo, ma contiene disegni insoliti e la scrittura è ignota perfino ai nostri [6040_monk.GetFaith.PriestNeuterPlural].\n\n«Siamo certi che sia unico al mondo, un antico scrigno di conoscenza, un vero tesoro! Per questo te lo offriamo. Forse è la copia originale del testamento di [6040_monk.GetFaith.HighGodName], o le memorie della creazione del mondo!»"
  hold_court.6040.a:0 "Grazie, lo aggiungerò alla mia collezione."
  hold_court.6040.b:0 "#EMP Affascinante!#! Chiamate il mio antiquario!"
  hold_court.6040.b.tt:0 "Il tuo antiquario non ci capisce niente"
-hold_court_6040_b_fake: 1 "Il libro è una falsificazione malfatta — senza valore e inutile"
+hold_court_6040_b_fake:1 "Il libro è una falsificazione malfatta — senza valore e inutile"
  hold_court_6040_b_generic:0 "Il libro è effettivamente antico, ma è solo un [6040_monk.Custom('GetOldBook')]."
  hold_court_6040_b_clueless:0 "Nemmeno il tuo antiquario può far luce sulle origini e lo scopo del libro"
  hold_court_6040_b_artifact:0 "Il libro è un'antica e preziosa copia di un capolavoro!"
  hold_court.6040.c:0 "Fammi dare un'occhiata al libro, #EMP adesso#!!"
-hold_court.6040.c.tt: 1 "È una falsificazione malfatta!"
+hold_court.6040.c.tt:1 "È una falsificazione malfatta!"
  hold_court.6040.c.tt.2:0 "Tl libro rimane un mistero per te"
  hold_court.6040.c.tt.3:0 "È un bel manoscritto, ma niente di speciale"
  hold_court.6040.c.tt.4:0 "È un testo raro e prezioso"

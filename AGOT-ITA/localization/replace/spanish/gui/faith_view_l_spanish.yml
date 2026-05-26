@@ -50,7 +50,7 @@ FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[Faith
  DOCTRINE_BLOCKS_FAITH_CREATION:0 "@warning_icon! #X [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )] non è permessa#!"
  CANNOT_CREATE_FAITH_IN_OBSERVE_MODE:0 "@warning_icon! #X Devi giocare come un personaggio#!"
  FAITH_CREATION_BUTTON_TOOLTIP:1 "#T Crea Fede#!\n[Select_CString( FaithCreationWindow.CanCreateFaith, '#I Clicca per Creare la Fede#!', FaithCreationWindow.GetCreationBlockers )]"
-FAITH_REFORM_BUTTON_TOOLTIP: 0 "#T Riforma Fede#!\n[FaithCreationWindow.GetCreationBlockers]\n\n#I Clicca per Riformare la Fede#!"
+FAITH_REFORM_BUTTON_TOOLTIP:0 "#T Riforma Fede#!\n[FaithCreationWindow.GetCreationBlockers]\n\n#I Clicca per Riformare la Fede#!"
  FAITH_CONVERSION_SAME_FAITH:0 "Sto gia seguendo la Fede [FAITH.GetAdjective]"
  CREATE_REFORM_FAITH_TEXT:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE', 'CREATE_FAITH_WINDOW_TITLE' )]"
  CREATE_REFORM_FAITH_TOOLTIP:0 "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"

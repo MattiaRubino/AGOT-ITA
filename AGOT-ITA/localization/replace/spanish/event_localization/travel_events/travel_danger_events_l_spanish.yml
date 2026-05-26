@@ -9,8 +9,8 @@
 #travel_danger_events.0001.b: "Fight"
 
 # Hills Terrain
-travel_danger_events.1000.t: 1 "$travel_danger_prefix$ Montagne dai monticelli di talpa"
-travel_danger_events.1000.desc: 0 "La strada è diventata incredibilmente collinare nelle ultime ore e tutti iniziano a stancarsi. Non vedendo la fine delle colline, [Select_CString(travel_leader.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] si avvicina e dice:\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], le nostre cavalcature non possono reggere così ancora a lungo. Quei poveri animali hanno bisogno di una pausa o temo che crolleranno! Dobbiamo fermarci a riposare!"\n\n[Select_CString(travel_leader.IsFemale,'Lei','Lui')] sa bene che ciò ritarderà il nostro viaggio verso [destination.GetName]..."
+travel_danger_events.1000.t:1 "$travel_danger_prefix$ Montagne dai monticelli di talpa"
+travel_danger_events.1000.desc:0 "La strada è diventata incredibilmente collinare nelle ultime ore e tutti iniziano a stancarsi. Non vedendo la fine delle colline, [Select_CString(travel_leader.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] si avvicina e dice:\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], le nostre cavalcature non possono reggere così ancora a lungo. Quei poveri animali hanno bisogno di una pausa o temo che crolleranno! Dobbiamo fermarci a riposare!"\n\n[Select_CString(travel_leader.IsFemale,'Lei','Lui')] sa bene che ciò ritarderà il nostro viaggio verso [destination.GetName]..."
  travel_danger_events.1000.a:0 "[travel_leader.GetSheHe|U] ha ragione. Sarebbe saggio riposarci un po'."
  travel_danger_events.1000.b:0 ""Non ammetto ritardi. Andiamo avanti!""
 
@@ -83,7 +83,7 @@ travel_danger_events.1000.desc: 0 "La strada è diventata incredibilmente collin
  travel_danger_events.1008.bad_intentions:0 "[zombie.GetFirstNameNoTooltip] ha intenzioni oscure"
 
  travel_danger_events.1009.t:0 "$travel_danger_events.1008.t$, Buone Intenzioni"
-travel_danger_events.1009.desc: 0 "L’esile [zombie.GetWomanMan] copre in fretta la distanza tra noi, ignorando le decine di corpi che punteggiano il terreno. [Select_CString(zombie.IsFemale,'Lei','Lui')] china il capo e mi si rivolge:\n\n "[ROOT.Char.Custom('FormOfAddressForLiege')|U], la mia casa è stata ridotta in cenere e il mio sostentamento mi è stato strappato. Mi affido alla tua misericordia. #EMP Ti prego, aiutami!#!""
+travel_danger_events.1009.desc:0 "L’esile [zombie.GetWomanMan] copre in fretta la distanza tra noi, ignorando le decine di corpi che punteggiano il terreno. [Select_CString(zombie.IsFemale,'Lei','Lui')] china il capo e mi si rivolge:\n\n "[ROOT.Char.Custom('FormOfAddressForLiege')|U], la mia casa è stata ridotta in cenere e il mio sostentamento mi è stato strappato. Mi affido alla tua misericordia. #EMP Ti prego, aiutami!#!""
  travel_danger_events.1009.a:0 ""Pover[zombie.Custom('DE_END_PRO_S_N')] disgraziat[zombie.Custom('DE_END_PRO_S_N')]...""
  travel_danger_events.1009.b:0 "#EMP Uccidetel[zombie.Custom('DE_END_PRO_S_N')] e basta!#!"
  travel_danger_events.1009.c:0 ""Vi prenderò sotto la mia protezione!""

@@ -77,7 +77,7 @@
  
  #Lady-in-waiting 
  court.3030.t:0 "Esigente per la Moda"
-court.3030.desc.intro: 0 "Sempre attenta, la mia $lady_in_waiting_court_position$, [fussy_liw.GetFirstName], mi sta alle calcagna per assicurarsi che mi comporti e mi presenti a corte in modo consono.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Per favore, resta ferm[Select_CString(ROOT.Char.IsFemale,'a','o')] un momento che ti sistemi le vesti!»\n\n"
+court.3030.desc.intro:0 "Sempre attenta, la mia $lady_in_waiting_court_position$, [fussy_liw.GetFirstName], mi sta alle calcagna per assicurarsi che mi comporti e mi presenti a corte in modo consono.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Per favore, resta ferm[Select_CString(ROOT.Char.IsFemale,'a','o')] un momento che ti sistemi le vesti!»\n\n"
  court.3030.desc.lovers:1 "Istintivamente, al suo tocco mi appoggio, prima di ricompormi quando realizzo che siamo in pubblico. Benché non sia raro che la mia carissima [fussy_liw.GetFirstNameNoTooltip] sia così pignola coi miei abiti,"
  court.3030.desc.generic:1 "[fussy_liw.GetFirstNameNoTooltip] sembra non far caso al fatto che ci troviamo in pubblico mentre sistema il mio abito,"
  court.3030.desc.ending:0 "non posso fare a meno di sentirmi come se mi trattasse come un chiassoso bambino!\n\nMentre rimugino silenziosamente queste considerazioni, noto che intorno a noi abbiamo degli spettatori che bisbigliano fra loro e sento allora il bisogno di farmi sentire!"
@@ -87,11 +87,11 @@ court.3030.desc.intro: 0 "Sempre attenta, la mia $lady_in_waiting_court_position
  court.3030.d:0 ""Non è necessaria alcuna modifica al mio abito"."
  
  court.3031.t:0 "Appianare le Cose"
-court.3031.desc: 0 "Mentre, in un raro momento di calma alla mia corte, osservo la gente in silenzio, [Select_CString(liw.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liw'))], [liw.GetFirstName], si avvicina.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi concedi un momento?»\n\n[Select_CString(liw.IsFemale,'Lei','Lui')] [liw.Custom('quirk_pos_present')] in attesa del mio permesso. Faccio un cenno a [Select_CString(liw.IsFemale,'lei','lui')] di continuare.\n\n«Nel mio lavoro ho un’ottima impressione di ciò che la gente pensa e di cosa la muove. Con queste conoscenze posso cercare di appianare i contrasti con un gruppo di tuo interesse: che ne dici?»"
+court.3031.desc:0 "Mentre, in un raro momento di calma alla mia corte, osservo la gente in silenzio, [Select_CString(liw.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('liw'))], [liw.GetFirstName], si avvicina.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi concedi un momento?»\n\n[Select_CString(liw.IsFemale,'Lei','Lui')] [liw.Custom('quirk_pos_present')] in attesa del mio permesso. Faccio un cenno a [Select_CString(liw.IsFemale,'lei','lui')] di continuare.\n\n«Nel mio lavoro ho un’ottima impressione di ciò che la gente pensa e di cosa la muove. Con queste conoscenze posso cercare di appianare i contrasti con un gruppo di tuo interesse: che ne dici?»"
  court.3031.a:0 "Migliora la mia posizione con i miei vassalli delle minoranze."
  court.3031.b:0 "Metti una buona parola per me tra i baroni."
-court.3031.c: 0 "Desidero instaurare un rapporto migliore con i [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
-every_culture_county_3031: 0 "Ogni [county|E] del [realm|E] di [culture|E] [reference_county.GetCulture.GetName]"
+court.3031.c:0 "Desidero instaurare un rapporto migliore con i [reference_county.GetProvince.GetCounty.GetCulture.GetCollectiveNounNoTooltip]."
+every_culture_county_3031:0 "Ogni [county|E] del [realm|E] di [culture|E] [reference_county.GetCulture.GetName]"
  court.3031.d:0 "Non m'interessa ciò che pensano gli altri."
 
  #Homesickness
@@ -128,12 +128,12 @@ every_culture_county_3031: 0 "Ogni [county|E] del [realm|E] di [culture|E] [refe
  court.3070.desc.opening_lodging:0 "godere dei sontuosi letti come tutti gli altri ospiti."
  court.3070.desc.opening_fashion:0 "vestire come [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip] per un giorno, come qualsiasi altro ospite."
  court.3070.desc.opening_servants:0 "essere trattato come [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip] per un giorno, come tutti gli altri ospiti."
-court.3070.desc.middle: 1 "\n\nSbigottit[Select_CString(ROOT.Char.IsFemale,'a','o')], riesco a rispondere: «Sono il #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!…!»\n\nIl sangue abbandona il volto di [court_enjoyer.GetFirstNameNoTooltip] e comincia a balbettare.\n\n«Le mie più sincere scuse, [ROOT.Char.Custom('FormOfAddressForLiege')]! G-giuro che non sono qui solo per approfittarmi delle tue ricchezze e "
+court.3070.desc.middle:1 "\n\nSbigottit[Select_CString(ROOT.Char.IsFemale,'a','o')], riesco a rispondere: «Sono il #EMP [ROOT.Char.GetTitleAsNameNoTooltip]#!…!»\n\nIl sangue abbandona il volto di [court_enjoyer.GetFirstNameNoTooltip] e comincia a balbettare.\n\n«Le mie più sincere scuse, [ROOT.Char.Custom('FormOfAddressForLiege')]! G-giuro che non sono qui solo per approfittarmi delle tue ricchezze e "
  court.3070.desc.closing_food:0 "mangiare come [ROOT.Char.Custom('DE_ART_DEF_P_A')] [ROOT.Char.GetTitleAsNameNoTooltip]!"
  court.3070.desc.closing_lodging:0 "soggiornare nel migliore alloggio del regno!"
  court.3070.desc.closing_fashion:0 "circondarmi delle persone più alla moda del regno!"
  court.3070.desc.closing_servants:0 "avere servitori che si occupino di ogni mio bisogno durante il mio breve soggiorno!"
-court.3070.desc.closing: 0 "Lo giuro! È solo che… si parla più della reputazione della tua corte che del tuo aspetto, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
+court.3070.desc.closing:0 "Lo giuro! È solo che… si parla più della reputazione della tua corte che del tuo aspetto, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
  court.3070.a:0 "Forse si ricorderanno anche di me se farò di te un esempio!"
  court.3070.b:0 "Spargete la voce che io sono un ospite molto accogliente."
  court.3070.c:0 "Farò fare agli ospiti un test obbligatorio, che dovranno superare se vorranno stare qui."

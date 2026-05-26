@@ -24,7 +24,7 @@
  childhood.0004.b:0 "Mi piace molto giocare con [friend.GetHerHim]!"
  childhood.0004.c:0 "Un amic[friend.Custom('DE_END_PRO_S_N')] migliore di [friend.GetHerHim] è difficile da trovare!"
  childhood.0004.a_alt:0 "Facciamo un giuramento: amici #EMP per sempre!#!"
-childhood.0004.c_alt: 0 "Sei un #EMP pazzo#! a fidarti di me, #EMP [child.Custom2('InsultNoun', ROOT.Char)]#!"
+childhood.0004.c_alt:0 "Sei un #EMP pazzo#! a fidarti di me, #EMP [child.Custom2('InsultNoun', ROOT.Char)]#!"
  childhood.0004.d:0 "...rivuoi #EMP indietro#! il/la [friend.Custom('child_favorite_toy')]? Neanche per sogno!"
 
  childhood.0006.t:0 "Attenzioni Indesiderate"
@@ -34,7 +34,7 @@ childhood.0004.c_alt: 0 "Sei un #EMP pazzo#! a fidarti di me, #EMP [child.Custom
  childhood.0006.quiet:0 "Passa di nascosto, dandomi addosso quando nessuno vede."
  childhood.0006.nice:0 "Tutti credono che [bully.GetSheHe|U] sia un[bully.Custom('DE_END_PRO_S_N')] sant[bully.Custom('DE_END_PRO_S_N')], ma mi sbeffeggia per ogni mio picccolo errore."
  childhood.0006.fallback:0 "Non perde occasione per spiarmi e prendermi in giro."
-childhood.0006.toy: 0 "E non solo... [Select_CString(bully.IsFemale,'ha','ha')] rotto il mio [ROOT.Char.Custom('child_favorite_toy')] preferito, quel/lla #EMP [bully.Custom2('InsultNoun', ROOT.Char)]#!"
+childhood.0006.toy:0 "E non solo... [Select_CString(bully.IsFemale,'ha','ha')] rotto il mio [ROOT.Char.Custom('child_favorite_toy')] preferito, quel/lla #EMP [bully.Custom2('InsultNoun', ROOT.Char)]#!"
  childhood.0006.end:0 "Non riesco a fermare [bully.GetTitledFirstName], in nessun modo!"
  childhood.0006.a:0 "[bully.GetSheHe|U] è [bully.Custom('DE_ART_DEF_P_A')] peggiore!"
  childhood.0006.b:0 "Grrr... Ti picchierò fino allo sfinimento!"
@@ -67,8 +67,8 @@ childhood.0006.toy: 0 "E non solo... [Select_CString(bully.IsFemale,'ha','ha')] 
 
  childhood.0012.t:0 "Ricevere Attenzioni"
  childhood.0012.desc:0 "Mentre stavo giocando con [crush_holder.GetTitledFirstName] l'altro giorno [crush_holder.GetSheHe] è stat[crush_holder.Custom('DE_END_PRO_S_N')] insolitamente premuros[crush_holder.Custom('DE_END_PRO_S_N')] nei miei confronti. Non mi sono mai sentito così nei confronti di [crush_holder.GetHerHim] prima d'ora, forse è qualcosa di più di un'amicizia."
-childhood.0012.a: 0 "[crush_holder.Custom('IT_NAM_COL3')][crush_holder.GetTitledFirstNameNoTooltip], credo che tu mi piaccia!"
-childhood.0012.b: 0 "[crush_holder.Custom('IT_NAM_COL3')][crush_holder.GetTitledFirstNameNoTooltip] non è altro che un’amic[Select_CString(crush_holder.IsFemale,'a','o')]."
+childhood.0012.a:0 "[crush_holder.Custom('IT_NAM_COL3')][crush_holder.GetTitledFirstNameNoTooltip], credo che tu mi piaccia!"
+childhood.0012.b:0 "[crush_holder.Custom('IT_NAM_COL3')][crush_holder.GetTitledFirstNameNoTooltip] non è altro che un’amic[Select_CString(crush_holder.IsFemale,'a','o')]."
 
  childhood.0013.t:0 "Rapporti d'Amicizia"
  childhood.0013.desc:0 "Ultimamente io e [child.GetTitledFirstName] stiamo trascorrendo molto tempo insieme.\n\n"
@@ -95,7 +95,7 @@ childhood.0012.b: 0 "[crush_holder.Custom('IT_NAM_COL3')][crush_holder.GetTitled
  childhood.0911.opening:0 "Mi domando se [victim.GetTitledFirstName] ricordi quello che ha dovuto subire per mano mia quando eravamo giovani."
  childhood.0911.desc1:0 "\n\nAdesso che [victim.GetSheHe] sta crescendo, devo lasciarmi quelle ragazzate alle spalle e concentrarmi su altro."
  childhood.0911.desc2:0 "Ricorderò sempre la sua faccia quando ho distrutto la sua [victim.Custom('child_favorite_toy')], è stato esilarante!\n\nTuttavia, adesso che [victim.GetSheHe] sta crescendo, devo lasciarmi quelle ragazzate alle spalle e concentrarmi su altro."
-childhood.0911.a: 0 "A presto, [victim.Custom('IT_NAM_COL3')][victim.GetTitledFirstNameNoTooltip]."
+childhood.0911.a:0 "A presto, [victim.Custom('IT_NAM_COL3')][victim.GetTitledFirstNameNoTooltip]."
 
  childhood.0998.t:0 "Sentimenti Maturi"
  childhood.0998.desc:0 "Ricordo con affetto i bei tempi trascorsi con [crush.GetTitledFirstName] da bambini.\n\n[crush.GetSheHe|U] sarà sempre speciale per me, anche se crescendo fra di noi non ci sarà nulla!"
@@ -189,7 +189,7 @@ childhood.0911.a: 0 "A presto, [victim.Custom('IT_NAM_COL3')][victim.GetTitledFi
  childhood.1008.3:0 "Proprio mentre stava per prendere un boccone di pane a colazione [victim.Custom('DE_PRO_DEM')] ho dato un colpetto sulla schiena. Il miscuglio sputato sul tavolo è stato abbastanza disgustoso, ma il suono che ha fatto era esilarante!"
  childhood.1008.a:0 "Mi ha aiutato a sfogarmi!"
  childhood.1008.b:0 "E poi, a seguire, il buon vecchio pestaggio!"
-childhood.1008.c: 0 "[extra_bully.GetFirstNameNoTooltip]! Aiutami a prendermela con quel[victim.Custom('DE_END_ADJ_NUL_S_N')] [victim.Custom2('InsultNoun', ROOT.Char)] [victim.Custom2('InsultAdjective', ROOT.Char)]!"
+childhood.1008.c:0 "[extra_bully.GetFirstNameNoTooltip]! Aiutami a prendermela con quel[victim.Custom('DE_END_ADJ_NUL_S_N')] [victim.Custom2('InsultNoun', ROOT.Char)] [victim.Custom2('InsultAdjective', ROOT.Char)]!"
 
  childhood.1009.t:0 "La Preoccupazione di un Amico"
  childhood.1009.opening:0 "Con [friend.GetTitledFirstName] ho una buona amicizia. [friend.GetSheHe|U] ha notao che qualcosa mi turbava, e mi ha convinto a condividere i miei pensieri con [friend.GetHerHim].\n\n"
@@ -335,9 +335,9 @@ childhood.1008.c: 0 "[extra_bully.GetFirstNameNoTooltip]! Aiutami a prendermela 
  learn_language_ongoing.2100.a.failure:0 "Non riesci ad apprendere la lingua [educator.GetFirstNamePossessiveNoTooltip]"
 
  childhood.2200.t:0 "Parli il mio gergo?"
-childhood.2200.desc: 0 "Mentre seguo [educator.GetNameNoTooltip], sento [Select_CString(educator.IsFemale,'lei','lui')] parlare nella lingua di corte che mi circonda, e stranamente sto iniziando a capirla. Se mi impegno, potrei diventare esperto nella nostra lingua di corte!"
+childhood.2200.desc:0 "Mentre seguo [educator.GetNameNoTooltip], sento [Select_CString(educator.IsFemale,'lei','lui')] parlare nella lingua di corte che mi circonda, e stranamente sto iniziando a capirla. Se mi impegno, potrei diventare esperto nella nostra lingua di corte!"
  childhood.2200.a:0 "Posso parlare proprio come gli adulti!"
-childhood.2200.b: 2 "È una noia, parla in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]!"
+childhood.2200.b:2 "È una noia, parla in [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]!"
 
  childhood.2300.t:0 "La Lingua nel mio Albero Genealogico"
  childhood.2300.desc:0 "Mi[parent.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))] occasionalmente inserisce una parola della lingua [parent.GetCulture.GetLanguage.GetName] qui e lì, e mi ritrovo a capire meglio la lingua. Sono sicuro che, se mi impegnerò, potrò diventare abbastanza abile da poter parlare con mi[parent.Custom('DE_END_PRO_S_N')] [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('parent'))] in un modo nuovo!"
@@ -351,7 +351,7 @@ childhood.2200.b: 2 "È una noia, parla in [ROOT.Char.GetCulture.GetLanguage.Get
  childhood.2400.a.zealous:0 "Cancellerò questi dubbi dalla vostra mente."
  childhood.2400.a.toast.succ:0 "[questioning_ward.GetTitledFirstName] è convinto dalla tua fede"
  childhood.2400.a.toast.fail:0 "[questioning_ward.GetTitledFirstName] nutre ancora dei dubbi"
-childhood.2400.b: 0 "[Select_CString(realm_priest.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('realm_priest'))|U] [realm_priest.GetFirstNameNoTooltip] può rispondere meglio a queste domande."
+childhood.2400.b:0 "[Select_CString(realm_priest.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('realm_priest'))|U] [realm_priest.GetFirstNameNoTooltip] può rispondere meglio a queste domande."
  childhood.2400.b.toast.succ:0 "[ROOT.Char.Custom('MyPriestTitle')|U] [realm_priest.GetFirstName] ha convinto [questioning_ward.GetTitledFirstName]"
  childhood.2400.b.toast.fail:0 "[ROOT.Char.Custom('MyPriestTitle')|U] [realm_priest.GetFirstName] non è riuscito a convincere [questioning_ward.GetTitledFirstName]"
  childhood.2400.c:0 "In effetti, #EMP non#! avete tutti i torti..."

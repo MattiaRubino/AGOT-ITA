@@ -118,16 +118,16 @@
   agot_knighthood.0801.a:0 "Sì!"
   agot_knighthood.0801.b:0 "No!"
 
-agot_knighthood.0802.opening: 0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)],"
+agot_knighthood.0802.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)],"
   agot_knighthood.0802.desc:0 "Ti ordino ufficialmente di prendere [squire.GetName] come tuo scudiero! Spero che tu insegni a [squire.GetName] cosa significa essere un cavaliere!"
   agot_knighthood.0802.a:0 "Ho ricevuto l'ordine."
 
  # Other Events
 
-agot_knighthood.0820.t: 0 "Un cavaliere ha bisogno di uno scudiero"
-agot_knighthood.0820.desc: 0 "Mentre esploro i terreni, un bambino piccolo mi si avvicina.\n\n"Mio [ROOT.Char.GetLadyLord]," esordisce [Select_CString(wannabe_squire.IsFemale,'lei','lui')], "fate parte del torneo a [tournament_province.GetName], non è vero?"\n\n"Sì, ma cosa importa a te, [wannabe_squire.Custom('GirlBoy')]?" rispondo, interrompendo la mia esplorazione dei terreni per occuparmi del bambino.\n\n"Portatemi con voi, mio [ROOT.Char.GetLadyLord]," dice [Select_CString(wannabe_squire.IsFemale,'lei','lui')]. "Un cavaliere ha bisogno di uno scudiero, e io potrei servirvi al torneo... so come strigliare e sellare i cavalli, cucinare, e posso armarvi e vestirvi d'armatura quando sarà il momento della vostra giostra, ser.""
-agot_knighthood.0820.a: 0 "Ho davvero bisogno di uno scudiero per il torneo, ma farai meglio ad ascoltarmi."
-agot_knighthood.0820.b: 0 "Vattene, non ho bisogno di te."
+agot_knighthood.0820.t:0 "Un cavaliere ha bisogno di uno scudiero"
+agot_knighthood.0820.desc:0 "Mentre esploro i terreni, un bambino piccolo mi si avvicina.\n\n"Mio [ROOT.Char.GetLadyLord]," esordisce [Select_CString(wannabe_squire.IsFemale,'lei','lui')], "fate parte del torneo a [tournament_province.GetName], non è vero?"\n\n"Sì, ma cosa importa a te, [wannabe_squire.Custom('GirlBoy')]?" rispondo, interrompendo la mia esplorazione dei terreni per occuparmi del bambino.\n\n"Portatemi con voi, mio [ROOT.Char.GetLadyLord]," dice [Select_CString(wannabe_squire.IsFemale,'lei','lui')]. "Un cavaliere ha bisogno di uno scudiero, e io potrei servirvi al torneo... so come strigliare e sellare i cavalli, cucinare, e posso armarvi e vestirvi d'armatura quando sarà il momento della vostra giostra, ser.""
+agot_knighthood.0820.a:0 "Ho davvero bisogno di uno scudiero per il torneo, ma farai meglio ad ascoltarmi."
+agot_knighthood.0820.b:0 "Vattene, non ho bisogno di te."
 
  ##LOC KEYS FOR KNIGHTING
 

@@ -15,7 +15,7 @@
 
  travel_events.0011.desc_opening:0 "[messenger.Custom2('AppropriateGreeting', ROOT.Char)]"
  travel_events.0011.intro:0 "Mi dispiace scrivervi per darvi una notizia così triste, ma ci è appena giusta voce che vostr[predecessor.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe',predecessor)], [predecessor.GetTitledFirstNameNoTooltip], [predecessor.GetDeathReason].\n\n"
-travel_events.0011.desc: 0 "quando [Select_CString(predecessor.IsFemale,'è morta','è morto')]. Le mie più sincere condoglianze, [ROOT.Char.Custom('FormOfAddressForLiege')]."
+travel_events.0011.desc:0 "quando [Select_CString(predecessor.IsFemale,'è morta','è morto')]. Le mie più sincere condoglianze, [ROOT.Char.Custom('FormOfAddressForLiege')]."
 
 #Travel lifestyle trait adoption
  travel_events.0050.t:0 "Il Richiamo della Strada"
@@ -46,7 +46,7 @@ travel_events.0011.desc: 0 "quando [Select_CString(predecessor.IsFemale,'è mort
 
 #Bandit attack
  travel_events.1003.t:0 "$travel_danger_prefix$ Esattori di Pedaggi"
-travel_events.1003.desc: 1 "Siamo rimasti sulla strada un po’ troppo a lungo e il sole inizia a calare sotto l’orizzonte. Dal paesaggio circostante affiorano sagome che si fondono in figure armate e minacciose. \n\n "Questa strada ha un pedaggio, pagate" dice il più grosso e, francamente, il più brutto della banda.\n\n[Select_CString(travel_leader.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] fa un passo avanti con l’arma alzata e mi guarda in cerca d’istruzioni."
+travel_events.1003.desc:1 "Siamo rimasti sulla strada un po’ troppo a lungo e il sole inizia a calare sotto l’orizzonte. Dal paesaggio circostante affiorano sagome che si fondono in figure armate e minacciose. \n\n "Questa strada ha un pedaggio, pagate" dice il più grosso e, francamente, il più brutto della banda.\n\n[Select_CString(travel_leader.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('travel_leader'))] [travel_leader.GetFirstName] fa un passo avanti con l’arma alzata e mi guarda in cerca d’istruzioni."
 
  travel_events.1003.a:0 "Ah naturalmente, il pedaggio."
  travel_events.1003.b:0 "Forse accettate il pagamento con il sangue?"
@@ -78,7 +78,7 @@ travel_events.1003.desc: 1 "Siamo rimasti sulla strada un po’ troppo a lungo e
  travel_events.4001.c:0 "Tornate nei bassifondi da dove siete venut[loyal_fan_scope.Custom('DE_END_PRO_S_N')]."
 
  travel_events.4002.t:0 "[local_beauty_scope.GetWomenMen|U] [local_beauty_scope.GetCulture.GetCollectiveNoun]"
-travel_events.4002.desc: 0 "Ho visto il mondo e contemplato molte meraviglie nei miei viaggi, ma mai ho visto bellezze come quelle che ho trovato in [ROOT.Char.GetCurrentLocation.GetName]. Davvero, [local_beauty_scope.GetCulture.GetName] [local_beauty_scope.GetWomenMen] sono una spanna sopra gli altri.\n\nUn esemplare particolarmente affascinante ha recentemente catturato la mia attenzione, un[Select_CString(local_beauty_scope.IsFemale,'a','o')] [local_beauty_scope.GetWomanMan] di nome [local_beauty_scope.GetName].\n\nUn[Select_CString(local_beauty_scope.IsFemale,'a','o')] grazios[Select_CString(local_beauty_scope.IsFemale,'a','o')] [local_beauty_scope.Custom('LoverPetName')], troppo piacevole ai miei occhi perché [Select_CString(local_beauty_scope.IsFemale,'passi','passi')] i [Select_CString(local_beauty_scope.IsFemale,'suoi','suoi')] giorni a sgobbare in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]."
+travel_events.4002.desc:0 "Ho visto il mondo e contemplato molte meraviglie nei miei viaggi, ma mai ho visto bellezze come quelle che ho trovato in [ROOT.Char.GetCurrentLocation.GetName]. Davvero, [local_beauty_scope.GetCulture.GetName] [local_beauty_scope.GetWomenMen] sono una spanna sopra gli altri.\n\nUn esemplare particolarmente affascinante ha recentemente catturato la mia attenzione, un[Select_CString(local_beauty_scope.IsFemale,'a','o')] [local_beauty_scope.GetWomanMan] di nome [local_beauty_scope.GetName].\n\nUn[Select_CString(local_beauty_scope.IsFemale,'a','o')] grazios[Select_CString(local_beauty_scope.IsFemale,'a','o')] [local_beauty_scope.Custom('LoverPetName')], troppo piacevole ai miei occhi perché [Select_CString(local_beauty_scope.IsFemale,'passi','passi')] i [Select_CString(local_beauty_scope.IsFemale,'suoi','suoi')] giorni a sgobbare in [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]."
  travel_events.4002.a:0 "[local_beauty_scope.Custom('DE_ART_DEF_P_D')] mi[local_beauty_scope.Custom('DE_END_PRO_S_N')] nuov[local_beauty_scope.Custom('DE_END_PRO_S_N')] amante."
  travel_events.4002.b:0 "[local_beauty_scope.Custom('DE_ART_IND_A')|U] deve restare al mio fianco per sempre."
  travel_events.4002.c:0 "Dobbiamo sposarci immediatamente!"
@@ -109,7 +109,7 @@ travel_events.4002.desc: 0 "Ho visto il mondo e contemplato molte meraviglie nei
  travel_events.4005.c:0 "Purtroppo non posso giustificare una spesa così sconsiderata."
 
  travel_events.4006.t:0 "Un Ladro Alato"
-travel_events.4006.desc: 0 "Un urlo improvviso mi strappa al mio rilassante viaggio sul grande mare blu! Corro ai depositi sottocoperta e rabbrividisco nel trovare un [ROOT.Char.Custom('GetRandomMigratoryBird')] accanto ai resti a brandelli delle nostre scorte, le piume tese sul ventre sudicio e gonfio.\n\nAccecato dall’ira, avrei potuto uccidere lì per lì la ripugnante minaccia alata, ma vengo fermat[Select_CString(ROOT.Char.IsFemale,'a','o')] da [superstituous_caravan_member.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Altolà! Ferma la mano, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('superstitious_caravan_member'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('superstitious_caravan_member'))]! Non sai che porta sfortuna uccidere un uccello in mare?""
+travel_events.4006.desc:0 "Un urlo improvviso mi strappa al mio rilassante viaggio sul grande mare blu! Corro ai depositi sottocoperta e rabbrividisco nel trovare un [ROOT.Char.Custom('GetRandomMigratoryBird')] accanto ai resti a brandelli delle nostre scorte, le piume tese sul ventre sudicio e gonfio.\n\nAccecato dall’ira, avrei potuto uccidere lì per lì la ripugnante minaccia alata, ma vengo fermat[Select_CString(ROOT.Char.IsFemale,'a','o')] da [superstituous_caravan_member.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Altolà! Ferma la mano, [ROOT.Char.Custom2('InsultAdjective', SCOPE.sC('superstitious_caravan_member'))] [ROOT.Char.Custom2('InsultNoun', SCOPE.sC('superstitious_caravan_member'))]! Non sai che porta sfortuna uccidere un uccello in mare?""
  travel_events.4006.a:0 "Avrò pietà."
  travel_events.4006.b:0 "Niente mi impedirà di uccidere questo maledetto uccellaccio!"
 
@@ -197,7 +197,7 @@ travel_events.4006.desc: 0 "Un urlo improvviso mi strappa al mio rilassante viag
  travel_events.4018.d:0 "Un bel rogo di eretici è d'obbligo!"
 
  travel_events.4019.t:0 "Un'umile prelibatezza"
-travel_events.4019.desc: 0 "Nel nostro passaggio per [ROOT.Char.GetCurrentLocation.GetName], pare che ci siamo imbattuti in un mercato alimentare locale! Ovunque, contadini e nobili di ogni cultura e lingua si accalcano attorno a banchi di cibi esotici, e l’aria è satura di fragranze che non avrei mai immaginato.\n\nIl mio naso è attirato da una bancarella umile colma di un piatto che potevo solo sognare. Mi ridesta dalla trance la presa esitante di [pompous_courtier.GetName].\n\n"Non sprecare il palato con questa sbobba, [ROOT.Char.Custom('FormOfAddressForLiege')]. I [ROOT.Char.Custom('GetLocalStreetFoodPlural')|U] sono per i contadini, a casa abbiamo cibi ben più raffinati.""
+travel_events.4019.desc:0 "Nel nostro passaggio per [ROOT.Char.GetCurrentLocation.GetName], pare che ci siamo imbattuti in un mercato alimentare locale! Ovunque, contadini e nobili di ogni cultura e lingua si accalcano attorno a banchi di cibi esotici, e l’aria è satura di fragranze che non avrei mai immaginato.\n\nIl mio naso è attirato da una bancarella umile colma di un piatto che potevo solo sognare. Mi ridesta dalla trance la presa esitante di [pompous_courtier.GetName].\n\n"Non sprecare il palato con questa sbobba, [ROOT.Char.Custom('FormOfAddressForLiege')]. I [ROOT.Char.Custom('GetLocalStreetFoodPlural')|U] sono per i contadini, a casa abbiamo cibi ben più raffinati.""
  travel_events.4019.a:0 "Sono [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip] e voglio assaggiare il/la [ROOT.Char.Custom('GetLocalStreetFood')]!"
  travel.good_food:0 "Il cibo era fantastico"
  travel.bad_food:0 "Il cibo era disgustoso"
@@ -221,7 +221,7 @@ travel_events.4019.desc: 0 "Nel nostro passaggio per [ROOT.Char.GetCurrentLocati
  travel_events.4021.a:0 "Devo semplicemente distogliere lo sguardo."
  travel_events.4021.a.sadist:0 "Cercherò di non perdermi nemmeno un momento!"
  travel_events.4021.b:0 "Forse posso comprare la libertà di quest[sacrificed_person_scope.Custom('DE_END_PRO_S_N')] disgraziat[sacrificed_person_scope.Custom('DE_END_PRO_S_N')]!"
-travel_events.4021.c: 0 "Fermi! Prendete invece [rival_to_sacrifice.GetNameNoTooltip]!"
+travel_events.4021.c:0 "Fermi! Prendete invece [rival_to_sacrifice.GetNameNoTooltip]!"
 
  travel_events.4022.t:0 "L'Albero Sacro"
  travel_events.4022.desc:1 "Mi hanno detto che la natura è venerata qui a [ROOT.Char.GetCurrentLocation.GetName] come un'estensione della volontà di [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.PantheonTerm].\n\nOsserviamo gli abitanti del luogo mentre adornano un vecchio albero con materiali pregiati e gioielli, come se lo stessero corteggiando. Molti del mio seguito si accontentano di guardare da lontano, ma io mi sento in dovere di fare qualcosa di più..."
@@ -242,15 +242,15 @@ travel_events.4021.c: 0 "Fermi! Prendete invece [rival_to_sacrifice.GetNameNoToo
  travel_events.4023.desc.outro:0 "mentre trascorro sempre più tempo a [prester_john_scope.GetPrimaryTitle.GetNameNoTierNoTooltip], sono sempre più convint[ROOT.Char.Custom('DE_END_PRO_S_N')] che [prester_john_scope.GetName] sia quest[prester_john_scope.Custom('DE_END_PRO_S_N')] leggendari[prester_john_scope.Custom('DE_END_PRO_S_N')] [prester_john_scope.GetTitleAsNameNoTooltip]!"
  travel_events.4023.a:0 "Devo incontrar[prester_john_scope.Custom('DE_PRO_POS_P_3P')] subito!"
  travel_events.4023.b:0 "A [prester_john_scope.GetSheHe] deve essere ricordato il suo dovere di combattere l'eresia!"
-travel_events.4023.c: 0 "[prester_john_scope.GetFaith.GetNameNoTooltip] non è che una mera perversione di [ROOT.Char.GetFaith.GetNameNoTooltip]!"
+travel_events.4023.c:0 "[prester_john_scope.GetFaith.GetNameNoTooltip] non è che una mera perversione di [ROOT.Char.GetFaith.GetNameNoTooltip]!"
  travel_events.4023.d:0 "Affascinante. Proseguiamo."
 
  travel_events.4024.t:0 "Un [ROOT.Char.GetFaith.GetReligion.GetAdherentNameNoTooltip|U] straniero"
  travel_events.4024.desc.intro:0 "Ho ricevuto una lettera scritta in una lingua esotica da qualcuno che sostiene di essere un[foreign_visitor.Custom('DE_PRO_POS_P_2P')] lontan[foreign_visitor.Custom('DE_END_PRO_S_N')] [foreign_visitor.GetTitleAsNameNoTooltip], guida dei "[foreign_visitor.GetFaith.GetAdherentNamePluralNoTooltip]", un lontano gruppo di [ROOT.Char.GetFaith.GetReligion.GetAdherentNameNoTooltip]."
-travel_events.4024.desc.mid: 0 "\n\n[Select_CString(foreign_visitor.IsFemale,'Lei','Lui')] sostiene che io sia una figura leggendaria per questi [foreign_visitor.GetFaith.GetAdherentNamePluralNoTooltip], un vero [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip|U] assediat[Select_CString(ROOT.Char.IsFemale,'a','o')] da [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')]."
+travel_events.4024.desc.mid:0 "\n\n[Select_CString(foreign_visitor.IsFemale,'Lei','Lui')] sostiene che io sia una figura leggendaria per questi [foreign_visitor.GetFaith.GetAdherentNamePluralNoTooltip], un vero [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitleAsNameNoTooltip|U] assediat[Select_CString(ROOT.Char.IsFemale,'a','o')] da [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')]."
  travel_events.4024.a:0 "Anche [foreign_visitor.GetSheHe] sarà una figura leggendaria per noi!"
-travel_events.4024.b: 0 "[foreign_visitor.GetFaith.GetNameNoTooltip]? Sembra eresia!"
-travel_events.4024.c: 0 "Forse [chaplain_scope.GetNameNoTooltip] potrà istruirli sui precetti di [ROOT.Char.GetFaith.GetName]!"
+travel_events.4024.b:0 "[foreign_visitor.GetFaith.GetNameNoTooltip]? Sembra eresia!"
+travel_events.4024.c:0 "Forse [chaplain_scope.GetNameNoTooltip] potrà istruirli sui precetti di [ROOT.Char.GetFaith.GetName]!"
  travel.gift_from_john:0 "Un dono da parte di [prester_john_scope.GetName]"
  travel_events.4024.d:0 "Che bello..."
  travel.turned_away_from_john:0 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] respint[ROOT.Char.Custom('DE_END_PRO_S_N')]"
@@ -328,7 +328,7 @@ travel_events.4024.c: 0 "Forse [chaplain_scope.GetNameNoTooltip] potrà istruirl
  travel.beaten_by_locals:0 "Sei stat[ROOT.Char.Custom('DE_END_PRO_S_N')] fermat[ROOT.Char.Custom('DE_END_PRO_S_N')] dalla gente del posto"
  
  travel_events.4034.t:0 "Dalle ceneri ai tesori"
-travel_events.4034.desc.intro: 0 "La malvagia [witch_scope.Custom('MagicUserTerm')] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] è stata giustamente bruciata per i [Select_CString(witch_scope.IsFemale,'suoi','suoi')] crimini contro [ROOT.Char.GetFaith.HighGodName] e, mentre il fumo si dirada, vedo che quell[Select_CString(witch_scope.IsFemale,'a','o')] [witch_scope.Custom2('InsultAdjective', ROOT.Char)] [witch_scope.GetWomanMan] ha lasciato qualcosa dietro di sé.\n\n"
+travel_events.4034.desc.intro:0 "La malvagia [witch_scope.Custom('MagicUserTerm')] di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] è stata giustamente bruciata per i [Select_CString(witch_scope.IsFemale,'suoi','suoi')] crimini contro [ROOT.Char.GetFaith.HighGodName] e, mentre il fumo si dirada, vedo che quell[Select_CString(witch_scope.IsFemale,'a','o')] [witch_scope.Custom2('InsultAdjective', ROOT.Char)] [witch_scope.GetWomanMan] ha lasciato qualcosa dietro di sé.\n\n"
  travel_events.4034.desc.mid.bones:0 "Tra le ceneri sono sepolte le sue ossa, conservate immacolate nonostante l'intensità delle fiamme. Senza dubbio si è trattato di un ultimo atto di turpe magia."
  travel_events.4034.desc.mid:0 "Tra le ceneri brilla un oggetto meraviglioso, miracolosamente risparmiato dalle intense fiamme. Forse è un dono di [ROOT.Char.GetFaith.HighGodName] per il mio servizio, o qualche atto finale di magia da parte [Select_CString(witch_scope.IsFemale, 'della nefanda strega', del nefando stregone)]."
  travel_events.4034.desc.outro:0 "Il manufatto viene recuperato dalle ceneri e ripulito da un membro del mio seguito, per essere mio per sempre."
@@ -353,12 +353,12 @@ travel_events.4034.desc.intro: 0 "La malvagia [witch_scope.Custom('MagicUserTerm
  travel_events.4036.c:0 "Non mi interessano la roba [ROOT.Char.GetCurrentLocation.GetCounty.GetCulture.GetNameNoTooltip]."
  
  travel_events.4037.t:0 "[ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip] e [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetNameNoTooltip]"
-travel_events.4037.desc: 0 "Avevo sentito dire che la gente di [ROOT.Char.GetCurrentLocation.GetCounty.GetName] pratica [ROOT.Char.GetFaith.GetReligion.GetName] insieme alle proprie credenze [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective], e ora che sono qui scorgo ovunque quell’intreccio religioso.\n\nUn/una contadin[Select_CString(fanboy_character_scope.IsFemale,'a','o')] bizzarr[Select_CString(fanboy_character_scope.IsFemale,'a','o')] ed entusiast[Select_CString(fanboy_character_scope.IsFemale,'a','o')] che si fa chiamare [fanboy_character_scope.GetFirstName] si avvicina con fervore al mio seguito e inizia a studiare con vigore la nostra iconografia religiosa.\n\n"Per [fanboy_character_scope.GetFaith.HighGodName], un gruppo di [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] qui, di tutti i luoghi! Dimmi, [ROOT.Char.Custom('FormOfAddressForLiege')], ci insegneresti le vie di culto [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]?""
+travel_events.4037.desc:0 "Avevo sentito dire che la gente di [ROOT.Char.GetCurrentLocation.GetCounty.GetName] pratica [ROOT.Char.GetFaith.GetReligion.GetName] insieme alle proprie credenze [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective], e ora che sono qui scorgo ovunque quell’intreccio religioso.\n\nUn/una contadin[Select_CString(fanboy_character_scope.IsFemale,'a','o')] bizzarr[Select_CString(fanboy_character_scope.IsFemale,'a','o')] ed entusiast[Select_CString(fanboy_character_scope.IsFemale,'a','o')] che si fa chiamare [fanboy_character_scope.GetFirstName] si avvicina con fervore al mio seguito e inizia a studiare con vigore la nostra iconografia religiosa.\n\n"Per [fanboy_character_scope.GetFaith.HighGodName], un gruppo di [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] qui, di tutti i luoghi! Dimmi, [ROOT.Char.Custom('FormOfAddressForLiege')], ci insegneresti le vie di culto [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]?""
  travel_events.4037.a:0 "Gliele insegnerò!"
  travel.good_cermon:0 "Hai recitato un buon sermone"
  travel.bad_cermon:0 "Hai recitato un pessimo sermone"
  travel_events.4037.b:0 "Sono più interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] a conoscere la fede [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective]."
-travel_events.4037.c: 0 "Lontano, [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')]!"
+travel_events.4037.c:0 "Lontano, [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')]!"
 
  travel_events.4038.t:0 "[ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdherentNamePluralNoTooltip] in Mezzo a Noi"
  travel_events.4038.desc:0 "Nella fede [ROOT.Char.GetFaith.GetAdjective], osserviamo i nostri rituali e le nostre credenze, ma continuiamo a considerare la fede [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetReligion.GetName] al di sopra di tutte le altre religioni ed esprimiamo una parentela per le loro credenze.\n\nÈ abbastanza comune che i [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] pretichino la fede [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetReligion.GetNameNoTooltip] in combinazione con il culto tradizionale [ROOT.Char.GetFaith.GetAdjectiveNoTooltip], e ora che sono qui a [ROOT.Char.GetCurrentLocation.GetCounty.GetName] ho l'opportunità di assistere a un sermone e di imparare tutto sulla fede [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.GetAdjective]."

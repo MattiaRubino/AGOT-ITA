@@ -17,7 +17,7 @@
  steward_task.0003.a:0 "Che tu sia maledett[previous_owner.Custom('DE_END_PRO_S_N')], [previous_owner.GetFirstNameNoTooltip]!"
 
  steward_task.1101.t:0 "Tassazione Migliorata"
-steward_task.1101.desc: 0 "Mentre [Select_CString(councillor.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] sciorina feudo dopo feudo, il loro valore e i tributi pagati, [Select_CString(councillor.IsFemale,'la','lo')] fermo quando all'improvviso sento una somma che #EMP deve#! essere un errore.\n"Quanti denari hai portato dalla [county.GetName]?!"\n\n[councillor.GetFirstName] sorride. "Pensavo ti avrebbe fatto piacere saperlo, [ROOT.Char.Custom('FormOfAddressForLiege')].""
+steward_task.1101.desc:0 "Mentre [Select_CString(councillor.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] sciorina feudo dopo feudo, il loro valore e i tributi pagati, [Select_CString(councillor.IsFemale,'la','lo')] fermo quando all'improvviso sento una somma che #EMP deve#! essere un errore.\n"Quanti denari hai portato dalla [county.GetName]?!"\n\n[councillor.GetFirstName] sorride. "Pensavo ti avrebbe fatto piacere saperlo, [ROOT.Char.Custom('FormOfAddressForLiege')].""
  steward_task.1101.a:2 "In nome di [ROOT.Char.GetFaith.WealthGodName], certo che ne sono lieto!"
  steward_task.1101.b:0 "Ahaha! Giorno di paga!"
  steward_task.1101.notification:0 "Tasse Aggiuntive" 
@@ -103,7 +103,7 @@ steward_task.1101.desc: 0 "Mentre [Select_CString(councillor.IsFemale,'la mia','
 
  steward_task.3001.t:0 "Resistenza ai Coloni"
  steward_task.3001.desc:0 "Molti dei nuovi coloni [ROOT.Char.GetCulture.GetName] [county.Custom('IT_COU_COL2')][county.GetName] hanno avuto difficoltà. Lì i coloni, non solo sono ignorati dalle loro comunità, ma ci sono stati attacchi contro diverse fattorie!"
-steward_task.3001.a: 0 "I coloni [ROOT.Char.GetCulture.GetNameNoTooltip] devono essere rispettati!"
+steward_task.3001.a:0 "I coloni [ROOT.Char.GetCulture.GetNameNoTooltip] devono essere rispettati!"
  steward_task.3001.notification:0 "Resistenza ai Coloni"
 
  steward_task.3002.t:0 "Resistenza all'amministrazione"
@@ -113,7 +113,7 @@ steward_task.3001.a: 0 "I coloni [ROOT.Char.GetCulture.GetNameNoTooltip] devono 
  
  steward_task.3101.t:0 "Amministrazione Benvoluta"
  steward_task.3101.desc:0 "Il mio [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], ha lavorato per stabilire un'amministrazione basata sui principi della cultura [ROOT.Char.GetCulture.GetName] [county.Custom('IT_COU_COL2')][county.GetName].\n\nI suoi sforzi sembrano essere stati ben accolti tra la gente del posto, poiché la loro vita sta diventando più facile e più sicura."
-steward_task.3101.a: 0 "Ho fatto bene a riporre fiducia in [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstNameNoTooltip]!"
+steward_task.3101.a:0 "Ho fatto bene a riporre fiducia in [councillor.Custom('IT_NAM_COL3')][councillor.GetTitledFirstNameNoTooltip]!"
  steward_task.3101.notification:0 "L'Amministrazione [ROOT.Char.GetCulture] è Benvoluta"
 
  steward_task.3102.t:0 "Gestione Apprezzata"

@@ -288,7 +288,7 @@
 
  harm.0621.t.prefix:0 "Ubriac[ROOT.Char.Custom('DE_END_PRO_S_N')]"
  harm.0621.t:0 "$harm.0621.t.prefix$: Un momento di allegria"
-harm.0621.desc: 0 "Un’altra notte, un’altra pinta, è ciò che dico sempre! E c’è #EMP sempre#! un’altra notte!\n\nLa piccola taverna di [ROOT.Char.GetCurrentLocation.GetName] mi gira attorno, un offuscato montaggio di volti e gesti. Un’altra! Un’altra… questo… questo tavolo è difficile da lasciare. Come faccio ad alzarmi?\n\nCome faccio a… Ops, sono cadut— aah, per [ROOT.Char.GetFaith.HealthGodName], la testa…"
+harm.0621.desc:0 "Un’altra notte, un’altra pinta, è ciò che dico sempre! E c’è #EMP sempre#! un’altra notte!\n\nLa piccola taverna di [ROOT.Char.GetCurrentLocation.GetName] mi gira attorno, un offuscato montaggio di volti e gesti. Un’altra! Un’altra… questo… questo tavolo è difficile da lasciare. Come faccio ad alzarmi?\n\nCome faccio a… Ops, sono cadut— aah, per [ROOT.Char.GetFaith.HealthGodName], la testa…"
  harm.0621.a:0 "*HIC*... *hic*... ..."
  harm.0621.a.tt.success:0 "$harm.0000.tt.incapable.success$"
  harm.0621.a.tt.failure:0 "$harm.0000.tt.incapable.failure$"
@@ -314,7 +314,7 @@ harm.0621.desc: 0 "Un’altra notte, un’altra pinta, è ciò che dico sempre! 
  harm.0631.c.tt.failure:0 "$harm.0000.tt.incapable.failure$"
 
  harm.0632.t:0 "$harm.0631.t.prefix$: Dolce musica"
-harm.0632.desc: 0 "Per tutte le stelle del firmamento, [bonker.GetFirstName] accende in me i fuochi più ardenti dell’amore. Nessun[Select_CString(bonker.IsFemale,'a','o')] [bonker.GetWomanMan] è in grado di darmi un’esperienza tanto selvaggia, una notte tanto piacevole quanto [Select_CString(bonker.IsFemale,'lei','lui')], e in questo istante non mi viene in mente\n\n...\n\nnessun[Select_CString(bonker.IsFemale,'a','o')] con cui vorrei essere al suo posto."
+harm.0632.desc:0 "Per tutte le stelle del firmamento, [bonker.GetFirstName] accende in me i fuochi più ardenti dell’amore. Nessun[Select_CString(bonker.IsFemale,'a','o')] [bonker.GetWomanMan] è in grado di darmi un’esperienza tanto selvaggia, una notte tanto piacevole quanto [Select_CString(bonker.IsFemale,'lei','lui')], e in questo istante non mi viene in mente\n\n...\n\nnessun[Select_CString(bonker.IsFemale,'a','o')] con cui vorrei essere al suo posto."
  harm.0632.a:0 "[bonker.GetFirstNameNoTooltip] mi fa sentire così #EMP viv[ROOT.Char.Custom('DE_END_PRO_S_N')]#!."
  harm.0632.a.tt:0 "#WEAK Davvero molto, molto viv[ROOT.Char.Custom('DE_END_PRO_S_N')]...#!"
 
@@ -465,7 +465,7 @@ harm.0632.desc: 0 "Per tutte le stelle del firmamento, [bonker.GetFirstName] acc
  harm.1071.c.tt.failure:0 "$harm.0000.tt.death.failure$"
 
  harm.1072.t:0 "$harm.1071.t.prefix$: Un Piccolo Disaccordo"
-harm.1072.desc: 0 "«E un’altra cosa, [other.Custom2('InsultAdjective', SCOPE.sC('killer'))] [other.Custom2('InsultNoun', SCOPE.sC('killer'))]», strilla [killer.Custom('IT_NAM_COL3')][killer.GetTitledFirstName], inveendo contro [other.Custom('IT_NAM_COL4')][other.GetTitledFirstName] in quella che dev’essere almeno la loro terza lite urlata della giornata.\n\nIgnoro i loro battibecchi, nonostante il baccano, e tiro dritto. I due litigano costantemente e, per quanto rumorosi, sono in fin dei conti innocui.\n\nHo ben altro di cui preoccuparmi che di qualche scaramuccia tra i miei [ROOT.Char.Custom('GetCourtierPlural')|l]."
+harm.1072.desc:0 "«E un’altra cosa, [other.Custom2('InsultAdjective', SCOPE.sC('killer'))] [other.Custom2('InsultNoun', SCOPE.sC('killer'))]», strilla [killer.Custom('IT_NAM_COL3')][killer.GetTitledFirstName], inveendo contro [other.Custom('IT_NAM_COL4')][other.GetTitledFirstName] in quella che dev’essere almeno la loro terza lite urlata della giornata.\n\nIgnoro i loro battibecchi, nonostante il baccano, e tiro dritto. I due litigano costantemente e, per quanto rumorosi, sono in fin dei conti innocui.\n\nHo ben altro di cui preoccuparmi che di qualche scaramuccia tra i miei [ROOT.Char.Custom('GetCourtierPlural')|l]."
  harm.1072.a:0 "Un altro giorno emozionante a [ROOT.Char.Custom('GetCourt')|l], eh?"
  harm.1072.a.tt:0 "#WEAK È una questione tra loro...#!"
 
@@ -505,7 +505,7 @@ harm.1072.desc: 0 "«E un’altra cosa, [other.Custom2('InsultAdjective', SCOPE.
 
  harm.1101.t.prefix:0 "Un insediamento vivace"
  harm.1101.t:0 "$harm.1101.t.prefix$: Attenzione!"
-harm.1101.desc: 0 "Ancora una volta cavalco per le strade di [ROOT.Char.GetCurrentLocation.GetName], con il mio seguito che porta fiero il mio stendardo dietro di me. Una piccola commissione in città richiedeva la mia attenzione, così ne abbiamo fatto una giornata intera, ma desidero i comfort di casa.\n\nQuando giungiamo a un incrocio, vengo distratt[Select_CString(ROOT.Char.IsFemale,'a','o')] dai risolini di un gruppo di giovani impressionati, e non sento il rumore del carro sferragliante che corre verso di me finché il suo conducente non grida allarmato."
+harm.1101.desc:0 "Ancora una volta cavalco per le strade di [ROOT.Char.GetCurrentLocation.GetName], con il mio seguito che porta fiero il mio stendardo dietro di me. Una piccola commissione in città richiedeva la mia attenzione, così ne abbiamo fatto una giornata intera, ma desidero i comfort di casa.\n\nQuando giungiamo a un incrocio, vengo distratt[Select_CString(ROOT.Char.IsFemale,'a','o')] dai risolini di un gruppo di giovani impressionati, e non sento il rumore del carro sferragliante che corre verso di me finché il suo conducente non grida allarmato."
  harm.1101.a:0 "Cerca di spostarti."
  harm.1101.a.tt.success:0 "Uno schianto tremendo e uno straziante lamento alle tue spalle"
  harm.1101.a.tt.failure:0 "Il mondo è una macchia di legno frantumato e membra spezzate."

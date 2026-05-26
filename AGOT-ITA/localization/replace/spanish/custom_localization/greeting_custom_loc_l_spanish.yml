@@ -13,7 +13,7 @@
 greeting_liege_liked_regent: "Saluti, [second.Custom('ComplimentAdjective')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
  greeting_liege_dislike:0 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] mi[second.Custom('DE_END_PRO_S_N')] Signor[second.Custom('DE_PRO_PER_S_3P_G')],"
 greeting_liege_dislike_regent: "Saluti, [second.Custom('ComplimentAdjective')] [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
-greeting_liege_fallback: 0 "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],"
+greeting_liege_fallback:0 "[ROOT.Char.Custom2('GreetingToLiegeNeutral', second)],"
 greeting_liege_neutral: "Saluti, [Select_CString(second.IsFemale,'mia','mio')] [second.GetLadyLord],"
 greeting_liege_neutral_regent: "Saluti, [ROOT.Char.GetTopLiege.GetTitleAsNameNoTooltip],"
 
@@ -27,7 +27,7 @@ greeting_ceremonial_liege_fallback: "Saluti, [second.GetTitledFirstNameNoTooltip
  greeting_vassal_liked:0 "I miei omaggi, mio [second.Custom('ComplimentAdjective')] vassallo,"
 greeting_vassal_liked_regent: "Saluti, [second.Custom('ComplimentAdjective')] [Select_CString(second.IsFemale,'suddita','suddito')] [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],"
 greeting_vassal_liked_ceremonial_liege: "[Select_CString(ROOT.Char.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] [second.Custom2('ComplimentAdjective', ROOT.Char)],"
-greeting_vassal_dislike: 1 "Al/Alla [Select_CString(second.IsFemale,'mia vasalla','mio vassallo')] [second.Custom2('InsultAdjective', ROOT.Char)],"
+greeting_vassal_dislike:1 "Al/Alla [Select_CString(second.IsFemale,'mia vasalla','mio vassallo')] [second.Custom2('InsultAdjective', ROOT.Char)],"
 greeting_vassal_dislike_regent: "[second.Custom2('InsultAdjective', ROOT.Char)|U] [Select_CString(second.IsFemale,'suddita','suddito')] [ROOT.Char.Custom('DE_PRO_PER_P_3P_A')] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')],"
 greeting_vassal_dislike_ceremonial_liege: "[Select_CString(ROOT.Char.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom('GetCeremonialLiegeOrLiegeTitle')] [second.Custom2('InsultAdjective', ROOT.Char)],"
 greeting_vassal_fallback: "[ROOT.Char.Custom2('GreetingToVassalNeutral', second)]"
@@ -41,11 +41,11 @@ greeting_vassal_neutral_ceremonial_liege: "[Select_CString(ROOT.Char.IsFemale,'L
  greeting_family_fallback:1 "I miei omaggi [ROOT.Char.Custom2('RelationToMeShort', second)],"
  
  greeting_foreign_ruler:1 "I miei omaggi [second.GetNameNoTooltip],"
-greeting_foreign_ruler_negative: 1 "A[second.Custom('DE_END_ADJ_DEF_P_A')] [second.Custom2('InsultAdjective', ROOT.Char)] [second.GetTitledFirstNameNoTooltip],"
+greeting_foreign_ruler_negative:1 "A[second.Custom('DE_END_ADJ_DEF_P_A')] [second.Custom2('InsultAdjective', ROOT.Char)] [second.GetTitledFirstNameNoTooltip],"
  greeting_foreign_ruler_positive:1 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip],"
 
  greeting_generic:1 "I miei omaggi [second.GetNameNoTooltip],"
-greeting_generic_negative: 0 "A [second.GetFirstNameNoTooltip], così [second.Custom2('InsultAdjective', ROOT.Char)],"
+greeting_generic_negative:0 "A [second.GetFirstNameNoTooltip], così [second.Custom2('InsultAdjective', ROOT.Char)],"
  greeting_generic_positive:0 "Al[second.Custom('DE_END_ADJ_NUL_S_N')] [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip],"
 
  greeting_appropriate_positive_liege:1 "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]"

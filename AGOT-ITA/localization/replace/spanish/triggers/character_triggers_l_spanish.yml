@@ -34,12 +34,12 @@ not_has_treasury_global: "Non ha [treasury|E]"
  PRESTIGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] ha [prestige_i]$NUM|V0$"
  NOT_PRESTIGE_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] non ha [prestige_i]$NUM|V0$"
 
-TREASURY_TRIGGER_GLOBAL: 0 "Ha [treasury_i]$NUM|V0$"
-NOT_TREASURY_TRIGGER_GLOBAL: 0 "Non ha [treasury_i]$NUM|V0$"
-TREASURY_TRIGGER_FIRST: 1 "Hai [treasury_i]$NUM|V0$"
-NOT_TREASURY_TRIGGER_FIRST: 1 "Non #bold hai#! [treasury_i]$NUM|V0$"
-TREASURY_TRIGGER_THIRD: 0 "[CHARACTER.GetShortUIName|U] ha [treasury_i]$NUM|V0$"
-NOT_TREASURY_TRIGGER_THIRD: 0 "[CHARACTER.GetShortUIName|U] non ha [treasury_i]$NUM|V0$"
+TREASURY_TRIGGER_GLOBAL:0 "Ha [treasury_i]$NUM|V0$"
+NOT_TREASURY_TRIGGER_GLOBAL:0 "Non ha [treasury_i]$NUM|V0$"
+TREASURY_TRIGGER_FIRST:1 "Hai [treasury_i]$NUM|V0$"
+NOT_TREASURY_TRIGGER_FIRST:1 "Non #bold hai#! [treasury_i]$NUM|V0$"
+TREASURY_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] ha [treasury_i]$NUM|V0$"
+NOT_TREASURY_TRIGGER_THIRD:0 "[CHARACTER.GetShortUIName|U] non ha [treasury_i]$NUM|V0$"
  
  HAS_HERD_TRIGGER: "Ha [herd_i]$NUM|V0$"
  NOT_HAS_HERD_TRIGGER: "Non ha [herd_i]$NUM|V0$"
@@ -95,12 +95,12 @@ NOT_NONE_HAS_TRAIT_TRIGGER: "Non #bold hanno#! il [trait|E]: [TRAIT.GetName( Get
  HAS_TRAIT_GROUP_TRIGGER_NONE:0 "Ha un Tratto della categoria [TRAIT_GROUP.GetName]"
  NOT_HAS_TRAIT_GROUP_TRIGGER_NONE: "#bold Non#! ha un Tratto del gruppo [TRAIT_GROUP.GetName]"
 
-HAS_CHARACTER_MODIFIER_TRIGGER: 0 "Ha il [modifier|E]: $MODIFIER|V$"
-NOT_HAS_CHARACTER_MODIFIER_TRIGGER: 0 "Non #bold ha#! il [modifier|E]: $MODIFIER|V$"
-I_HAVE_CHARACTER_MODIFIER_TRIGGER: 1 "Hai il [modifier|E]: $MODIFIER|V$"
-NOT_I_HAVE_CHARACTER_MODIFIER_TRIGGER: 1 "Non #bold hai#! il [modifier|E]: $MODIFIER|V$"
-THEY_HAVE_CHARACTER_MODIFIER_TRIGGER: 0 "[CHARACTER.GetShortUIName|U] ha il [modifier|E]: $MODIFIER|V$"
-NOT_THEY_HAVE_CHARACTER_MODIFIER_TRIGGER: 0 "[CHARACTER.GetShortUIName|U] non #bold ha#! il [modifier|E]: $MODIFIER|V$"
+HAS_CHARACTER_MODIFIER_TRIGGER:0 "Ha il [modifier|E]: $MODIFIER|V$"
+NOT_HAS_CHARACTER_MODIFIER_TRIGGER:0 "Non #bold ha#! il [modifier|E]: $MODIFIER|V$"
+I_HAVE_CHARACTER_MODIFIER_TRIGGER:1 "Hai il [modifier|E]: $MODIFIER|V$"
+NOT_I_HAVE_CHARACTER_MODIFIER_TRIGGER:1 "Non #bold hai#! il [modifier|E]: $MODIFIER|V$"
+THEY_HAVE_CHARACTER_MODIFIER_TRIGGER:0 "[CHARACTER.GetShortUIName|U] ha il [modifier|E]: $MODIFIER|V$"
+NOT_THEY_HAVE_CHARACTER_MODIFIER_TRIGGER:0 "[CHARACTER.GetShortUIName|U] non #bold ha#! il [modifier|E]: $MODIFIER|V$"
 
  HAS_OPINION:0 "Ha almeno $NUM|V$ [opinion|E] di [TARGET_CHARACTER.GetShortUIName]"
  I_HAVE_OPINION:1 "Tu hai almeno $NUM|V$ [opinion|E] di [TARGET_CHARACTER.GetShortUIName]"
@@ -406,12 +406,12 @@ NOT_NONE_ARE_LANDLESS_ADVENTURER_TRIGGER: "Non #bold sono#! un [adventurer|E]"
  HAS_HOOK_FROM_SECRET_FIRST:1 "Tu hai una [hook|E] based on [SECRET.GetName]"
  HAS_HOOK_FROM_SECRET_THIRD:0 "[CHARACTER.GetUIName] ha una [hook|E] based on [SECRET.GetName]"
 
-HAS_REALM_LAW_TRIGGER: 0 "Ha la [law|E] [LAW.GetName|V]"
-NOT_HAS_REALM_LAW_TRIGGER: 0 "Non ha la [law|E] [LAW.GetName|V]"
-I_HAVE_REALM_LAW_TRIGGER: 1 "Hai la [law|E] [LAW.GetName|V]"
-NOT_I_HAVE_REALM_LAW_TRIGGER: 1 "Non #bold hai#! la [law|E] [LAW.GetName|V]"
-THEY_HAVE_REALM_LAW_TRIGGER: 0 "[CHARACTER.GetUIName|U] ha la [law|E] [LAW.GetName|V]"
-NOT_THEY_HAVE_REALM_LAW_TRIGGER: 0 "[CHARACTER.GetUIName|U] non ha la [law|E] [LAW.GetName|V]"
+HAS_REALM_LAW_TRIGGER:0 "Ha la [law|E] [LAW.GetName|V]"
+NOT_HAS_REALM_LAW_TRIGGER:0 "Non ha la [law|E] [LAW.GetName|V]"
+I_HAVE_REALM_LAW_TRIGGER:1 "Hai la [law|E] [LAW.GetName|V]"
+NOT_I_HAVE_REALM_LAW_TRIGGER:1 "Non #bold hai#! la [law|E] [LAW.GetName|V]"
+THEY_HAVE_REALM_LAW_TRIGGER:0 "[CHARACTER.GetUIName|U] ha la [law|E] [LAW.GetName|V]"
+NOT_THEY_HAVE_REALM_LAW_TRIGGER:0 "[CHARACTER.GetUIName|U] non ha la [law|E] [LAW.GetName|V]"
 
  CLAIMANT_ALREADY_PRESSING_THEIR_CLAIM_THIRD:1 "[CHARACTER.GetShortUIName] è già in [war|E], sta esercitando la sua [claim|E] su [TARGET_TITLE.GetName]"
  CLAIMANT_TITLES_HELD_BY_ATTACKER_VASSALS_FIRST:0 "Questo [title|E] è detenuto dal tuo [vassal|E], e deve essere [revoked|E]"
@@ -422,7 +422,7 @@ NOT_THEY_HAVE_REALM_LAW_TRIGGER: 0 "[CHARACTER.GetUIName|U] non ha la [law|E] [L
 
  CLAIMANT_IS_ATTACKER_OR_SAME_DYNASTY:1 "[TARGET_CHARACTER.GetShortUIName] non è il [claimant|E], né appartiene alla [dynasty|E] del pretendente"
 
-BYZANTINE_CLAIMANT_IS_DISFIGURED: 2 "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] sfigurat[Select_CString(CHARACTER.IsFemale,'a','o')] o deformat[Select_CString(CHARACTER.IsFemale,'a','o')]"
+BYZANTINE_CLAIMANT_IS_DISFIGURED:2 "[CHARACTER.GetShortUIName|U] [CharAreIs(CHARACTER)] sfigurat[Select_CString(CHARACTER.IsFemale,'a','o')] o deformat[Select_CString(CHARACTER.IsFemale,'a','o')]"
 
  BYZANTINE_CLAIMANT_IS_CELIBATE:2 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] non [Select_CString( CHARACTER.IsLocalPlayer, 'puoi', 'può' )] avere come bersaglio i titoli appartenenti ai personaggi della [culture|E] [TARGET_CHARACTER.GetCulture.GetName] perché non [Select_CString( CHARACTER.IsLocalPlayer, 'puoi', 'può' )] avere figli"
 
@@ -758,7 +758,7 @@ IS_CLOSE_OR_EXTENDED_FAMILY_OF_CHARACTER:0 "Fa parte dei [close_family|E] o dell
 
  HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Il Titolo più alto detenuto è di [rank|E] $COMPARATOR$ $TIER|U$"
  CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Il [title|E] di [rank|E] più alto in possesso di [CHARACTER.GetShortUIName] è $COMPARATOR$ $TIER|U$"
-NOT_CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER: 1 "Il [title|E] di grado più alto detenuto da [CHARACTER.GetShortUINamePossessive] #bold non#! è $COMPARATOR$ $TIER|U$ [rank|E]"
+NOT_CHARACTERS_HIGHEST_HELD_TITLE_TIER_IS_TIER:1 "Il [title|E] di grado più alto detenuto da [CHARACTER.GetShortUINamePossessive] #bold non#! è $COMPARATOR$ $TIER|U$ [rank|E]"
  NOT_MY_HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Il [title|E] più alto che possiedi #bold non è#! di [rank|E] $COMPARATOR$ $TIER|U$"
  MY_HIGHEST_HELD_TITLE_TIER_IS_TIER:0 "Il [title|E] più alto che detieni è di [rank|E] $COMPARATOR$ $TIER|U$"
 
@@ -897,8 +897,8 @@ THEIR_AGE_IS_NOT_LESS_THAN: "[CHARACTER.GetShortUIName|U] ha almeno $NUM|V0$ ann
 
  WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[CHARACTER.GetWomenMen|U] sono autorizzati ad essere combattenti nella fede [TARGET_CHARACTER.GetFaith.GetName]"
  WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_FAITH:0 "[CHARACTER.GetWomenMen|U] #bold non#! sono autorizzati ad essere combattenti nella fede [TARGET_CHARACTER.GetFaith.GetName]"
-WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: 0 "La [culture|E] [CHARACTER.GetCulture.GetName] consente a [TARGET_CHARACTER.GetWomenMen] di essere combattenti"
-WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: 0 "La [culture|E] [CHARACTER.GetCulture.GetName] #bold non#! consente a [TARGET_CHARACTER.GetWomenMen] di essere combattenti"
+WOMENMEN_ARE_ALLOWED_TO_BE_WARRIORS_IN_CULTURE:0 "La [culture|E] [CHARACTER.GetCulture.GetName] consente a [TARGET_CHARACTER.GetWomenMen] di essere combattenti"
+WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE:0 "La [culture|E] [CHARACTER.GetCulture.GetName] #bold non#! consente a [TARGET_CHARACTER.GetWomenMen] di essere combattenti"
  NONE_ARE_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: "La sua [culture|E] gli consente di essere combattenti"
  NONE_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: "La sua [culture|E] #bold non#! gli consente di essere combattenti"
 
@@ -947,7 +947,7 @@ WOMENMEN_ARE_NOT_ALLOWED_TO_BE_WARRIORS_IN_CULTURE: 0 "La [culture|E] [CHARACTER
  CANNOT_BE_ORDERED_TO_FIND_SECRETS_AT_OWN_COURT:0 "Ad un Maestro delle Spie non può essere ordinato di cercare Segreti nella propria corte"
 
  CANNOT_BE_ORDERED_TO_LIKE_YOU_MORE:0 "Non si può ordinare ad un Cancelliere di aumentare la propria opinione su di te"
-CANNOT_BE_ORDERED_TO_LIKE_THEMSELVES_MORE: 0 "A un Cancelliere non si può ordinare di aumentare la propria opinione di sé"
+CANNOT_BE_ORDERED_TO_LIKE_THEMSELVES_MORE:0 "A un Cancelliere non si può ordinare di aumentare la propria opinione di sé"
 
  EAGER_FOR_MORE_VASSALS:0 "[CHARACTER.GetShortUIName|U] accettà sempre di ottenere più potere"
 

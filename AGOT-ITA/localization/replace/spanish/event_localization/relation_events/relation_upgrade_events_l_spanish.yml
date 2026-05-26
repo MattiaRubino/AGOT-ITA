@@ -114,7 +114,7 @@
 # relation_upgrade.2001-2999
 
  relation_upgrade.2101.t:0 "Relazioni Malsane"
-relation_upgrade.2101.desc_opening: 0 "[ROOT.Char.Custom('FormOfAddressForLiege')|U], il male è contagioso, sta’ attent[Select_CString(ROOT.Char.IsFemale,'a','o')]!\n\n"
+relation_upgrade.2101.desc_opening:0 "[ROOT.Char.Custom('FormOfAddressForLiege')|U], il male è contagioso, sta’ attent[Select_CString(ROOT.Char.IsFemale,'a','o')]!\n\n"
  relation_upgrade.2101.desc_opening_physician:0 "Il mio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('physician'))] [physician.GetTitledFirstName] mi trattiene; il corpo malato di un plebeo, "
  relation_upgrade.2101.desc_opening_other:0 "Il corpo malato di un plebeo, "
  relation_upgrade.2101.desc_bubonic_plague:0 "ricoperto di grandi bolle che perdono pus e sangue, "
@@ -173,7 +173,7 @@ relation_upgrade.2101.desc_opening: 0 "[ROOT.Char.Custom('FormOfAddressForLiege'
  relation_upgrade.2004.a:0 "È stato stupido per me fare tali supposizioni..."
  
  relation_upgrade.3000.t:0 "Odio che Sboccia"
-relation_upgrade.3000.desc: 0 "Quel/ quella [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] [rival_to_be.Custom2('InsultNoun', ROOT.Char)] [rival_to_be.GetFirstName] mi fa ribollire il sangue! Come può [ROOT.GetCharacter.GetFaith.HighGodName] aver ritenuto opportuno maledire la terra con i/le [rival_to_be.Custom2('InsultNounPlural', ROOT.Char)] [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] di [rival_to_be.GetFirstNameNoTooltip]?! No, è evidente: [Select_CString(rival_to_be.IsFemale,'lei','lui')] è parente di [ROOT.GetCharacter.GetFaith.DevilNamePossessive]. [Select_CString(rival_to_be.IsFemale,'Lei','Lui')|U] è peggio d’una piaga purulenta e di locuste fameliche.\n\nNon sopporto #EMP il solo pensiero#! di respirare la stessa aria [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] di [Select_CString(rival_to_be.IsFemale,'lei','lui')]! Devo fare qualcosa, devo agire.\n\nLa mia sanità mentale dipende da questo."
+relation_upgrade.3000.desc:0 "Quel/ quella [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] [rival_to_be.Custom2('InsultNoun', ROOT.Char)] [rival_to_be.GetFirstName] mi fa ribollire il sangue! Come può [ROOT.GetCharacter.GetFaith.HighGodName] aver ritenuto opportuno maledire la terra con i/le [rival_to_be.Custom2('InsultNounPlural', ROOT.Char)] [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] di [rival_to_be.GetFirstNameNoTooltip]?! No, è evidente: [Select_CString(rival_to_be.IsFemale,'lei','lui')] è parente di [ROOT.GetCharacter.GetFaith.DevilNamePossessive]. [Select_CString(rival_to_be.IsFemale,'Lei','Lui')|U] è peggio d’una piaga purulenta e di locuste fameliche.\n\nNon sopporto #EMP il solo pensiero#! di respirare la stessa aria [rival_to_be.Custom2('InsultAdjective', ROOT.Char)] di [Select_CString(rival_to_be.IsFemale,'lei','lui')]! Devo fare qualcosa, devo agire.\n\nLa mia sanità mentale dipende da questo."
  relation_upgrade.3000.a:0 "Non riposerò finché [rival_to_be.GetFirstNameNoTooltip] non sarà mort[rival_to_be.Custom('DE_END_PRO_S_N')] e seppellit[rival_to_be.Custom('DE_END_PRO_S_N')]..."
  relation_upgrade.3000.b:0 "No! Non posso permettere che la vendetta domini la mia vita!"
  

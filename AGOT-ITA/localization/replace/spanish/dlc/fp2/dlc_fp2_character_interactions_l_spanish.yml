@@ -104,7 +104,7 @@ bargain_fealty_interaction_neighbor_tt: "[recipient.GetShortUIName|U] deve esser
  OA_AI_DEFENSIVE_WAR_REASON:0 "[recipient.GetShortUIName|U] si sta difendendo: $VALUE|=+0$"
  OA_AI_FAILURE_REASON:0 "I fallimenti passati di [actor.GetShortUIName|U] come contraente: $VALUE|=+0$"
  OA_AI_LOYALTY_TOWARDS_ALLIES_REASON:0 "Lealtà verso l'[ally|E]: $VALUE|=+0$"
-contract_assistance_interaction_condition_tt: 1 "Se il [war_contribution|E] [TARGET_CHARACTER.GetShortUINamePossessive] è almeno [TARGET_CHARACTER.MakeScope.ScriptValue('saved_contribution_value')|Z0] quando la [war|E] termina:"
+contract_assistance_interaction_condition_tt:1 "Se il [war_contribution|E] [TARGET_CHARACTER.GetShortUINamePossessive] è almeno [TARGET_CHARACTER.MakeScope.ScriptValue('saved_contribution_value')|Z0] quando la [war|E] termina:"
  contract_assistance_war_msg_title:0 "$contract_assistance_interaction$: La Guerra Termina"
  contract_assistance_war_msg_hirer_paid_desc:1 "Hai pagato [contract_assistance_helper.GetShortUIName] per l'[Concept( 'contract_assistance', 'Assistenza' )|E], perché il suo [war_contribution|E] era almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0]"
  contract_assistance_war_msg_helper_paid_desc:1 "Sei stato pagato da [contract_assistance_hirer.GetShortUIName] per l'[Concept( 'contract_assistance', 'Assistenza' )|E], perché il tuo [war_contribution|E] era almeno [SCOPE.ScriptValue('saved_contribution_value')|Z0]"

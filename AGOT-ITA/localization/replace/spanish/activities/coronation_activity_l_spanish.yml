@@ -148,12 +148,12 @@ coronation_no_crown_or_regalia_trigger: "La tua fede richiede un [artifact|E] Co
  ## Widget
  # Right-hand Side
 SUPPORTER_WINDOW_OTHER_LABEL: "Altri sostenitori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'supporter' ) ), '(int32)3' )]"
-SUPPORTER_WINDOW_OTHER_LABEL_NONE: "Altri sostenitori: 0"
+SUPPORTER_WINDOW_OTHER_LABEL_NONE: "Altri sostenitori:0"
 SUPPORTER_WINDOW_OTHER_LABEL_HOVER: "#T Sostenitori#!\n$game_concept_coronation_supporter_desc$\n\n"
  SUPPORTER_WINDOW_LABEL: "Grandi Sostenitori"
  SUPPORTER_WINDOW_LABEL_HOVER: "#T $SUPPORTER_WINDOW_LABEL$#!\nSono i [coronation_supporters|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_supporter_desc$"
 DETRACTOR_WINDOW_OTHER_LABEL: "Altri detrattori: [Subtract_int32( GetDataModelSize( ActivityWindow.GetCurrentPhaseGuestSubset( 'detractor' ) ), '(int32)3' )]"
-DETRACTOR_WINDOW_OTHER_LABEL_NONE: "Altri detrattori: 0"
+DETRACTOR_WINDOW_OTHER_LABEL_NONE: "Altri detrattori:0"
 DETRACTOR_WINDOW_OTHER_LABEL_HOVER: "#T Detrattori#!\n$game_concept_coronation_detractor_desc$"
  DETRACTOR_WINDOW_LABEL: "Grandi detrattori"
  DETRACTOR_WINDOW_LABEL_HOVER: "#T $DETRACTOR_WINDOW_LABEL$#!\nSono i [coronation_detractors|E] dell'#V incoronazione#! che incidono maggiormente sulla [coronation_magnificence|lE].\n\n$game_concept_coronation_detractor_desc$"

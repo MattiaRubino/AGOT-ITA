@@ -65,7 +65,7 @@
 
  tribal.1101.t:0 "Holmgang"
  tribal.1101.desc:0 "Il mio rivale [rival.GetTitledFirstName] alza lo sguardo mentre entro nel corridoio. [victim.GetTitledFirstName] – la mia #EMP [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('victim'))]#! – giace insanguinato ai suoi piedi.\n\n"Ah, [ROOT.Char.GetFirstNameNoTooltip]. Ti stavo solo lasciando un messaggio!"\n\n[victim.GetFirstNameNoTooltip] è ancora vivo, basandomi sui suoi gemiti di dolore, ma chissà fino a che punto [rival.GetFirstNameNoTooltip] si sarebbe spinto se non lo avessi fermato?"
-tribal.1101.a: 0 "Vile [rival.Custom2('InsultNoun', ROOT.Char)]! Ti sfido a holmgang!"
+tribal.1101.a:0 "Vile [rival.Custom2('InsultNoun', ROOT.Char)]! Ti sfido a holmgang!"
  tribal.1101.a_success:0 "Hai vinto"
  tribal.1101.a_failure:0 "[rival.GetSheHe|U] vince"
  tribal.1101.b:0 "Affronterai [friend.GetFirstNameNoTooltip] in un holmgang!"
@@ -132,7 +132,7 @@ tribal.1101.a: 0 "Vile [rival.Custom2('InsultNoun', ROOT.Char)]! Ti sfido a holm
  tribal.1204.b:0 "Vincerò la prossima volta!"
 
  tribal.1301.t:0 "Incontro Fatale"
-tribal.1301.desc: 0 "Sto visitando uno dei piccoli fiumi vicino a [capital.GetName]. Mentre sto per placare la sete, un[Select_CString(peasant.IsFemale,'a','o')] [peasant.GetWomanMan] del luogo si piazza risolutamente tra me e il fiume — che ardire!\n\nProprio quando sto per ordinare di allontanar[Select_CString(peasant.IsFemale,'la','lo')], prende la parola: «C’è un coccodrillo nell’acqua, [ROOT.Char.Custom('FormOfAddressForLiege')].»\n\n[Select_CString(peasant.IsFemale,'Lei','Lui')|U]… [Select_CString(peasant.IsFemale,'mi stava','mi stava')] #EMP proteggendo#!?"
+tribal.1301.desc:0 "Sto visitando uno dei piccoli fiumi vicino a [capital.GetName]. Mentre sto per placare la sete, un[Select_CString(peasant.IsFemale,'a','o')] [peasant.GetWomanMan] del luogo si piazza risolutamente tra me e il fiume — che ardire!\n\nProprio quando sto per ordinare di allontanar[Select_CString(peasant.IsFemale,'la','lo')], prende la parola: «C’è un coccodrillo nell’acqua, [ROOT.Char.Custom('FormOfAddressForLiege')].»\n\n[Select_CString(peasant.IsFemale,'Lei','Lui')|U]… [Select_CString(peasant.IsFemale,'mi stava','mi stava')] #EMP proteggendo#!?"
  tribal.1301.a:0 "Grazie! Di qua, per il tuo villaggio."
  tribal.1301.b:0 "Potrebbe farmi comodo un[peasant.Custom('DE_PRO_POS_P_2P')] [peasant.GetWomanMan] come te."
  tribal.1301.c:0 "Un coccodrillo? Pft! Non ho visto nessun coccodrillo."
@@ -143,7 +143,7 @@ tribal.1301.desc: 0 "Sto visitando uno dei piccoli fiumi vicino a [capital.GetNa
  tribal.1302.a:0 "AAAAH!! TOGLIETELO!"
 
  tribal.1303.t:0 "L'Oasi"
-tribal.1303.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», [councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] mi si avvicina. «È stata scoperta un’oasi vicino a [capital.GetName]. Cosa vuoi che faccia?»\n\nUn’oasi! Fonte d’acqua e di vita… o di denaro."
+tribal.1303.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», [councillor.Custom2('MyCharacterIntroduction', ROOT.Char)] mi si avvicina. «È stata scoperta un’oasi vicino a [capital.GetName]. Cosa vuoi che faccia?»\n\nUn’oasi! Fonte d’acqua e di vita… o di denaro."
  tribal.1303.a:0 "Porterà prosperità – irrigazione!"
  tribal.1303.b:0 "Utilizzatela per l'irrigazione, ma non gratuitamente."
  tribal.1303.c:0 "Lasciate che i contadini la utilizzino al meglio."

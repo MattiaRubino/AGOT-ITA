@@ -68,18 +68,18 @@
  activity_system.1011.desc:0 "[host.Custom('DE_ART_DEF_P_D')] mi[host.Custom('DE_END_PRO_S_N')] Signor[host.Custom('DE_END_ADJ_IND_S_A')], [host.GetNameRegnal], si è liberato della sua spoglia mortale mentre era in viaggio per il regno. Tragicamente, [host.GetDeathReason].\n\nIl resto del Viaggio è stato cancellato mentre il seguito di [host.GetFirstNameNoTooltip] inizia il suo addolorato ritorno a casa, potando il corpo al suo luogo di riposo eterno."
 
 # Host has joined a war and has the opportunity to cancel the activity 
-activity_system.0300.t: 0 "La guerra non aspetta nessuno"
+activity_system.0300.t:0 "La guerra non aspetta nessuno"
  activity_system.0300.desc.intro.traveling:0 "Il fragore dei corni di guerra mi ha raggiunto anche qui a [target_activity_location.GetName] mentre sono viaggio per partecipare a [target_activity_type.GetNameNoTooltip] in [target_activity_location.GetName]. "
  activity_system.0300.desc.intro.activity:0 "Il fragore dei corni di guerra mi ha raggiunto anche qui a [target_activity_location.GetName] mentre sono nel mezzo di [target_activity_type.GetNameNoTooltip] in qualità di organizzatore."
  activity_system.0300.desc.attacker:1 "Mi sono unit[ROOT.Char.Custom('DE_END_PRO_S_N')] al combattimento contro [war_opponent.GetNameRegnal|U]."
-activity_system.0300.desc.defender: 0 "Quel [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal|U] mi ha dichiarato guerra!\n\n"
+activity_system.0300.desc.defender:0 "Quel [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal|U] mi ha dichiarato guerra!\n\n"
  activity_system.0300.desc.outro:0 "I preparativi per ospitare questo evento [target_activity_type.GetNameNoTooltip] sono stati molto intensi e sono riluttante a mandare a casa i miei ospiti. L'importanza di questo conflitto non deve comunque essere sottovalutata.\n\nForse sarebbe meglio focalizzare tutti i miei sforzi nei preparativi per la guerra..."
  activity_system.0300.a:0 "Posso gestire le cose da qui."
  activity_system.0300.b:0 "Questa guerra richiede tutta la mia attenzione."
  activity_system.0300.b.tt.cost:0 "Alcuni costi possono essere recuperati"
 
  activity_system.0301.t:0 "[target_activity_type.GetNameNoTooltip] Cancellato"
-activity_system.0301.desc: 0 "#EMP «Alla guerra! Alla guerra!»#! gridano i [knights|l] di [target_activity_host.GetTitledFirstNamePossessive], galoppando con corni che ruggiscono e stendardi che lampeggiano vividi nel cielo.\n\nPare che quel [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal] non abbia alcun riguardo per il nostro [target_activity_type.GetNameNoTooltip]! L'evento dev'essere cancellato, poiché il/la [target_activity_host.GetTitleAsNameNoTooltip] convoca le leve e prega [target_activity_host.GetFaith.WarGodName] per la vittoria.\n\nUn [target_activity_type.GetNameNoTooltip] è un nobile e degno svago, ma la chiamata alle armi risuona più forte di ogni altra."
+activity_system.0301.desc:0 "#EMP «Alla guerra! Alla guerra!»#! gridano i [knights|l] di [target_activity_host.GetTitledFirstNamePossessive], galoppando con corni che ruggiscono e stendardi che lampeggiano vividi nel cielo.\n\nPare che quel [war_opponent.Custom2('InsultNoun', ROOT.Char)] [war_opponent.GetNameRegnal] non abbia alcun riguardo per il nostro [target_activity_type.GetNameNoTooltip]! L'evento dev'essere cancellato, poiché il/la [target_activity_host.GetTitleAsNameNoTooltip] convoca le leve e prega [target_activity_host.GetFaith.WarGodName] per la vittoria.\n\nUn [target_activity_type.GetNameNoTooltip] è un nobile e degno svago, ma la chiamata alle armi risuona più forte di ogni altra."
  activity_system.0301.a:0 "Che farsa..."
 
 activity_system.0310.desc.primary_defender: "[attacker.Custom('IT_NAM_COL3')][attacker.GetTitledFirstName|U], vile, mi ha dichiarato guerra!"
@@ -130,8 +130,8 @@ activity_system.0310.desc.random_defender: "Sono stat[Select_CString(ROOT.Char.I
  hold_standard_activity_option_hunt_desc:0 "$activity_hunt$"
  hold_standard_activity_option_pilgrimage:0 "$activity_pilgrimage$"
  hold_standard_activity_option_pilgrimage_desc:0 "$activity_pilgrimage$"
-hold_standard_activity_option_play_date: 0 "$activity_playdate$"
-hold_standard_activity_option_play_date_desc: 0 "$activity_playdate$"
+hold_standard_activity_option_play_date:0 "$activity_playdate$"
+hold_standard_activity_option_play_date_desc:0 "$activity_playdate$"
  hold_standard_activity_option_witch_ritual:0 "$activity_witch_ritual$"
  hold_standard_activity_option_witch_ritual_desc:0 "$activity_witch_ritual$"
 

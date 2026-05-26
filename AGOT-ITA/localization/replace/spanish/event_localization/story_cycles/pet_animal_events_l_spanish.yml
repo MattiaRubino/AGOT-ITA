@@ -16,7 +16,7 @@
  pet_animal.0101.a_male:0 "Grazie, gentile signore!"
 
  pet_animal.0103.t:0 "[ROOT.Char.Custom('CatStoryName')]: Vassallo Incantato"
-pet_animal.0103.desc: 0 "Mentre cammino all’aperto, mi si para davanti la vista del[Select_CString(vassal.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName], accucci[Select_CString(vassal.IsFemale,'ata','ato')] accanto al mio gatto [ROOT.Char.Custom('CatStoryName')], accarezzandone teneramente la testa.\n\n«È proprio un bel gatto, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
+pet_animal.0103.desc:0 "Mentre cammino all’aperto, mi si para davanti la vista del[Select_CString(vassal.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName], accucci[Select_CString(vassal.IsFemale,'ata','ato')] accanto al mio gatto [ROOT.Char.Custom('CatStoryName')], accarezzandone teneramente la testa.\n\n«È proprio un bel gatto, [ROOT.Char.Custom('FormOfAddressForLiege')].»"
  pet_animal.0103.a:0 "Sei molto perspicace!"
 
  pet_animal.0104.t:0 "[ROOT.Char.Custom('CatStoryName')]: Comfort delle fusa"
@@ -161,7 +161,7 @@ pet_animal.0205.desc: "Mi siedo e faccio cenno al consiglio di fare lo stesso. L
  pet_animal.1106.a:0 "Che fortuna! Grazie mille!"
 
  pet_animal.1107.t:0 "[ROOT.Char.Custom('DogStoryName')]: Vassallo Affascinato"
-pet_animal.1107.desc: 0 "Mi imbatto nel[Select_CString(vassal.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName], accucci[Select_CString(vassal.IsFemale,'ata','ato')] accanto al mio cane [ROOT.Char.Custom('DogStoryName')], grattandogli vigorosamente la pancia.\n\n«Questo tuo cane è proprio un incanto, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
+pet_animal.1107.desc:0 "Mi imbatto nel[Select_CString(vassal.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))], [vassal.Custom('IT_NAM_COL3')][vassal.GetTitledFirstName], accucci[Select_CString(vassal.IsFemale,'ata','ato')] accanto al mio cane [ROOT.Char.Custom('DogStoryName')], grattandogli vigorosamente la pancia.\n\n«Questo tuo cane è proprio un incanto, [ROOT.Char.Custom('FormOfAddressForLiege')]!»"
  pet_animal.1107.a_female:0 "È una brava ragazza!"
  pet_animal.1107.a_male:0 "È un bravo ragazzo!"
 
@@ -192,7 +192,7 @@ pet_animal.1107.desc: 0 "Mi imbatto nel[Select_CString(vassal.IsFemale,'la mia',
  pet_animal.1113.a:1 "[ROOT.Char.Custom('DogStorySheHe')|U] si unirà a me."
  pet_animal.1113.a_success:1 "[ROOT.Char.Custom('DogStoryName')]"
  pet_animal.1113.a_success.tt:0 "Non succede nulla di male"
-every_councillor: 0 "Ogni [councillor|E]"
+every_councillor:0 "Ogni [councillor|E]"
  pet_animal.1113.a_failure:1 "[ROOT.Char.Custom('DogStoryName')] fa tutto tranne che"
  pet_animal.1113.a_failure.tt:0 "Qualcosa di male... accade"
  pet_animal.1113.b:1 "Non c'è posto per un cane in una riunione del consiglio."
@@ -304,7 +304,7 @@ every_councillor: 0 "Ogni [councillor|E]"
 
  pet_animal.6003.desc:0 "Mentre cammino all'aperto vedo [ROOT.Char.Custom('DogStoryName')] correre verso di me, trasportando un bastone tra le fauci. Suppongo di poter dedicare qualche minuto per giocare con [ROOT.Char.Custom('DogStoryHerHim')]. Si, potrebbe essere rilassante.\n\n#EMP Aspetta un minuto, che cos'è questo?#!\n\nMentre mi chino a raccogliere il bastone, vedo che non si tratta affatto di un bastone, ma di una #EMP rivendicazione [target_county.Custom('IT_COU_COL3')][target_county.GetName]!#! Come diavolo hai fatto a prenderla, [ROOT.Char.Custom('DogStoryName')]!?"
  pet_animal.6003.a:0 "Brav[DogStoryGirlBoy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('DogStoryGirlBoy')], [ROOT.Char.Custom('DogStoryName')]. #EMP Brav[DogStoryGirlBoy.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom('DogStoryGirlBoy')]!#!"
-pet_animal.6003.b: 0 "[neighboring_ruler.Custom('IT_NAM_COL3')][neighboring_ruler.GetTitledFirstNameNoTooltip] sarà al colmo della gioia nel riavere questo!"
+pet_animal.6003.b:0 "[neighboring_ruler.Custom('IT_NAM_COL3')][neighboring_ruler.GetTitledFirstNameNoTooltip] sarà al colmo della gioia nel riavere questo!"
 
  pet_animal.6004.desc:0 "Trovo [ROOT.Char.Custom('DogStoryName')] fuori, sonnecchiante al sole. Mi accovaccio accanto a [ROOT.Char.Custom('DogStorySheHe')] e lascio correre la mia mano sul suo pelo [ROOT.Char.Custom('DogFurColor')], e–\n\nIl mio unico avvertimento è un basso ringhio e un bagliore di denti prima che senta qualcosa #EMP strapparsi#! nel mio braccio. Mi ritraggo prima che [ROOT.Char.Custom('DogStorySheHe')] possa scagliarsi di nuovo su di me, ma il dolore...!"
  pet_animal.6004.a:0 "Deve... deve essere stato un errore!"

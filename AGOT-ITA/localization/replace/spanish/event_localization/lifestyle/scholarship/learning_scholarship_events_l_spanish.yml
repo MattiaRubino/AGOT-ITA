@@ -37,7 +37,7 @@
 
 # Learn to read, by Linnéa Thimrén
  learning_scholarship.1101.t:0 "Mancanza di Alfabetizzazione"
-learning_scholarship.1101.desc: 1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi è giunto all’orecchio che potresti necessitare di un po’ di istruzione nell’arte del… decifrare la scrittura» dice [bishop.Custom2('MyCharacterIntroduction', ROOT.Char), presentandomi una pergamena.\n\n«Se aggrad[Select_CString(ROOT.Char.IsFemale,'a','a')] al mio [ROOT.Char.GetLadyLord], sarei liet[Select_CString(bishop.IsFemale,'a','o')] di istruirti; ho qui il testo perfetto.»"
+learning_scholarship.1101.desc:1 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], mi è giunto all’orecchio che potresti necessitare di un po’ di istruzione nell’arte del… decifrare la scrittura» dice [bishop.Custom2('MyCharacterIntroduction', ROOT.Char), presentandomi una pergamena.\n\n«Se aggrad[Select_CString(ROOT.Char.IsFemale,'a','a')] al mio [ROOT.Char.GetLadyLord], sarei liet[Select_CString(bishop.IsFemale,'a','o')] di istruirti; ho qui il testo perfetto.»"
  learning_scholarship.1101.a:0 "Il... r-re ha-aveva una grande corona..."
  learning_scholarship.1101.b:0 "Sono un abile lettore!"
 
@@ -111,16 +111,16 @@ ZEALOTRY: "Fanatismo"
  learning_scholarship_special.2012.c:0 "Ti andrebbe di mostrarmelo, vecchio amico?"
  learning_scholarship_special.2012.c.friendship_tooltip:0 "Questa opzione è disponibile grazie all'amicizia con [realm_priest.GetFirstNameNoTooltip]"
 
-learning_scholarship_special.2013.desc: 0 "Mi stanno rileggendo le note della mia traduzione di [ROOT.Char.Custom('TranslationBook')] quando, di colpo, comprendo. «Scribi! Aggiungete il seguente commento…»"
+learning_scholarship_special.2013.desc:0 "Mi stanno rileggendo le note della mia traduzione di [ROOT.Char.Custom('TranslationBook')] quando, di colpo, comprendo. «Scribi! Aggiungete il seguente commento…»"
  learning_scholarship_special.2013.a:0 ""Diversamente da [ROOT.Char.GetFaith.ReligiousText], questo libro lo postula...""
  learning_scholarship_special.2013.b:0 ""Come evidente dalla volontà di [ROOT.Char.GetFaith.HighGodName]...""
 
-learning_scholarship_special.2014.desc: 0 "Mi stanno rileggendo le note della mia traduzione di [ROOT.Char.Custom('TranslationBook')] quando…\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]? Vi prego di perdonarmi, ma… vi siete addormentat[Select_CString(ROOT.Char.IsFemale,'a','o')]?!»\n\nPer il cielo, questo “classico” è ciarpame assoluto!"
+learning_scholarship_special.2014.desc:0 "Mi stanno rileggendo le note della mia traduzione di [ROOT.Char.Custom('TranslationBook')] quando…\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]? Vi prego di perdonarmi, ma… vi siete addormentat[Select_CString(ROOT.Char.IsFemale,'a','o')]?!»\n\nPer il cielo, questo “classico” è ciarpame assoluto!"
  learning_scholarship_special.2014.a:0 "Ciononostante, mi sforzerò di continuare!"
  learning_scholarship_special.2014.b:0 "I miei scribi possono assumersi maggiori responsabilità."
  learning_scholarship_special.2014.c:0 "Ho bisogno di una pausa da tutto questo."
 
-learning_scholarship_special.2015.desc: 0 "Mi ritrovo a lavorare alla traduzione di [ROOT.Char.Custom('TranslationBook')] per ore alla luce tremolante di una candela. Spesso a malapena noto il tempo che passa. I miei scribi però me lo rammentano.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], dev’essere passata la mezzanotte. Non è tempo di riposare?»"
+learning_scholarship_special.2015.desc:0 "Mi ritrovo a lavorare alla traduzione di [ROOT.Char.Custom('TranslationBook')] per ore alla luce tremolante di una candela. Spesso a malapena noto il tempo che passa. I miei scribi però me lo rammentano.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], dev’essere passata la mezzanotte. Non è tempo di riposare?»"
  learning_scholarship_special.2015.a:0 ""No, dobbiamo andare avanti fin quando non mi sentirò soddisfatt[ROOT.Char.Custom('DE_END_PRO_S_N')]!""
  learning_scholarship_special.2015.b:0 ""Si, dormire un po' ci farà bene.""
  learning_scholarship_special.2015.c:0 ""Potete continuare a lavorare mentre io riposo.""
@@ -201,7 +201,7 @@ learning_scholarship_special.2015.desc: 0 "Mi ritrovo a lavorare alla traduzione
  learning_scholarship_special.3099.termination.desc.incapable:0 "Non posso continuare i miei esperimenti con la trasmutazione mentre sono incapace."
  
  #Dear god, go outside by Isabella Welch
-learning_scholarship.4000.t: 1 "Vai fuori!"
+learning_scholarship.4000.t:1 "Vai fuori!"
  learning_scholarship.4000.desc:0 "È tardi, e mi sto gustando un avvincente trattato di grammatica classica. Proprio mentre sto iniziando a ridacchiare per alcune note deliziosamente sprezzanti scritte sul margine, lasciate dal lettore precedente, mi[spouse_uninterested_in_study.Custom('DE_END_PRO_S_N')] [spouse_uninterested_in_study.GetWifeHusband] entra nella [ROOT.Char.Custom('GetRoom')].\n\n"Sei un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] senza spina dorsale! Non ti importa di nulla a parte i tuoi studi, leggi da sol[ROOT.Char.Custom('DE_END_PRO_S_N')] in casa dal tramonto all'alba. Stacca le tue mani da quelle pergamene polverose, o non ti azzardare a venire nel mio letto stanotte.""
  learning_scholarship.4000.a:0 "Come desideri."
  learning_scholarship.4000.b:0 "Forse potremmo leggere degli estratti insieme d'ora in avanti."

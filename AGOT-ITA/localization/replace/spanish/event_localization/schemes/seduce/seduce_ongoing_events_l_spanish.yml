@@ -113,7 +113,7 @@
  seduce_ongoing.1203.desc:0 "Un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] sart[ROOT.Char.Custom('DE_END_PRO_S_N')] è arrivat[ROOT.Char.Custom('DE_END_PRO_S_N')] a corte appositamente per fornirmi qualsiasi nuovo capo d'abbigliamento io desideri. Ora che il suo lavoro è ultimato, devo dire che [ROOT.Char.GetSheHe] è anche davvero molto abile!"
  seduce_ongoing.1203.a:0 "Mi sento splendid[ROOT.Char.Custom('DE_END_PRO_S_N')]!"
 
-seduce_ongoing.1303.desc: 0 "Un sarto è giunto per fornirmi qualunque nuovo abito io desideri. Ben presto si è spaventato per l’offesa quando mi sono chiest[Select_CString(ROOT.Char.IsFemale,'a','o')] che cosa non andasse con i miei vecchi vestiti."
+seduce_ongoing.1303.desc:0 "Un sarto è giunto per fornirmi qualunque nuovo abito io desideri. Ben presto si è spaventato per l’offesa quando mi sono chiest[Select_CString(ROOT.Char.IsFemale,'a','o')] che cosa non andasse con i miei vecchi vestiti."
  seduce_ongoing.1303.a:0 "Almeno posso vendere questi brutti stracci che ha cercato di farmi indossare."
 
  seduce_ongoing.1204.desc:0 "Quasi stento a crederci mentre scarto la confezione in pelle. Il tomo all'interno deve essere vecchio di un secolo, se non di più, scritto con cura, decorato e rilegato da mani antiche."
@@ -159,7 +159,7 @@ seduce_ongoing.1303.desc: 0 "Un sarto è giunto per fornirmi qualunque nuovo abi
  seduce_ongoing.1211.desc:0 "L'esposizione floreale è mozzafiato, e da quando i contadini hanno finito di piantarla in giardino, le passeggiate lì sono diventate molto più popolari."
  seduce_ongoing.1211.a:0 "Non immaginavo che questo tipo di bellezza mi avrebbe toccato in questo modo."
 
-seduce_ongoing.1311.desc: 0 ""Dunque non vuoi che li piantiamo, [ROOT.Char.Custom('FormOfAddressForLiege')]?" I contadini stanno davanti a me, con terra che cola dalle casse appese ai gioghi. La composizione floreale che portano appare logora e malconcia."
+seduce_ongoing.1311.desc:0 ""Dunque non vuoi che li piantiamo, [ROOT.Char.Custom('FormOfAddressForLiege')]?" I contadini stanno davanti a me, con terra che cola dalle casse appese ai gioghi. La composizione floreale che portano appare logora e malconcia."
  seduce_ongoing.1311.a:0 "Non voglio niente del genere nel mio giardino."
 
  seduce_ongoing.1212.desc:0 "[owner.GetFirstName] mi ha inviato un regalo, un fazzoletto con lo stemma dei [owner.GetDynasty.GetBaseName].\n\nSarà certamente interessante vedere quale reazione susciterà negli altri quando mettero l'emblema di [owner.GetTitlePossessive] così in bella mostra."
@@ -256,7 +256,7 @@ seduce_ongoing.1311.desc: 0 ""Dunque non vuoi che li piantiamo, [ROOT.Char.Custo
  seduce_ongoing.1703.tax_season:0 "\n\nSebbene l'incontro fosse necessario, mi sono divertito molto di più nel sedermi dentro e discutere i miei piani per la prossima stagione fiscale con [owner.GetFirstName]. A cosa può servire un esercito dopotutto, se non si hanno i mezzi per sostenerlo, come puntualizzato da [owner.GetSheHe]."
  seduce_ongoing.1703.trap:0 "\n\nGuardare i guerrieri novizi è stato necessario, ma poco interessante, perciò ho apprezzato quando [owner.GetFirstName] ha suggerito una piccola, divertente distrazione. Il far versare ad un paggio sangue di maiale sul terreno dietro gli abbeveratoi ha terrorizzato alcuni dei cavalli meno addestrati, e diversi cavalieri sono stati scaraventati al suolo, mentre i restanti hanno faticato a rimanere in sella!"
  seduce_ongoing.1703.fallback:0 "\n\nSebbene guardare i guerrieri novizi sia solitamente tedioso, [owner.GetFirstName] ha fatto passare l'intera giornata in un attimo."
-seduce_ongoing.1703.a: 1 "Devo ringraziare [owner.GetFirstNameNoTooltip] per la [Select_CString(owner.IsFemale,'sua','sua')] visita."
+seduce_ongoing.1703.a:1 "Devo ringraziare [owner.GetFirstNameNoTooltip] per la [Select_CString(owner.IsFemale,'sua','sua')] visita."
 
  seduce_ongoing.1704.duel:0 "\n\n[owner.GetSheHe|U] ha insistito affinché ci sfidassimo simulando una giostra di fronte ai guerrieri novizi, ma non avevo intenzione di mettermi in imbarazzo in quel modo. [owner.GetFirstName] sembrava sconsolat[owner.Custom('DE_END_PRO_S_N')], ma io avevo cose migliori da fare piuttosto che passare il tempo a confrontarmi con [owner.GetSheHe]."
  seduce_ongoing.1704.strategy:0 "\n\n[owner.GetSheHe|U] mi ha chiesto di fare una passeggiata sui bastioni, a discutere di idee per le strategie, ma mi sono trovato a rifiutare un cattivo suggerimento dopo l'altro. Forse [owner.GetFirstName] dovrebbe limitarsi alle questioni di cui capisce qualcosa..."
@@ -330,7 +330,7 @@ seduce_ongoing.1703.a: 1 "Devo ringraziare [owner.GetFirstNameNoTooltip] per la 
 
  seduce_ongoing.3002.desc:1 "Mi[close_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('close_character'))], [close_character.GetTitledFirstName], ultimamente mi racconta di quanto [close_character.Custom('DE_ART_IND_A')] sia impressionat[close_character.Custom('DE_END_PRO_S_N')] dalla generosità di [owner.GetTitledFirstName].\n\nA quanto pare si è fatt[owner.Custom('DE_END_PRO_S_N')] avanti quando [close_character.GetSheHe] ne aveva più bisogno."
  seduce_ongoing.3002.a:0 "Forse l'ho sottovalutat[owner.Custom('DE_END_PRO_S_N')]?"
-seduce_ongoing.3002.b: 1 "[owner.GetFirstNameNoTooltip] che aiuta [close_character.GetFirstNameNoTooltip]? In un certo senso notevole."
+seduce_ongoing.3002.b:1 "[owner.GetFirstNameNoTooltip] che aiuta [close_character.GetFirstNameNoTooltip]? In un certo senso notevole."
 
  seduce_ongoing.3003.desc:0 "Al nostro prossimo incontro, [target.GetFirstName] mi rivolge un sorriso più ampio del solito.\n\n"[close_character.GetFirstName] mi ha raccontat[close_character.Custom('DE_END_PRO_S_N')] di come l'hai aiutat[close_character.Custom('DE_END_PRO_S_N')], e volevo ringraziarti.""
  seduce_ongoing.3003.a:0 "Qualsiasi cosa per [close_character.Custom('DE_ART_DEF_P_A')] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] di [target.GetFirstNamePossessiveNoTooltip]."
@@ -352,8 +352,8 @@ seduce_ongoing.3002.b: 1 "[owner.GetFirstNameNoTooltip] che aiuta [close_charact
  seduce_ongoing.4002.desc.court_musician:0 "\n\nMentre il [ROOT.Char.Custom('MusicalPerformer')] assieme al [GetCourtPositionType('court_physician_court_position').GetName()] [court_musician.GetName] di [owner.GetTitledFirstName] iniziano l'ennesima strofa, io cerco di non far trasparire troppo la mia ammirazione mentre ascolto le geta di [owner.GetFirstNameNoTooltip]."
  seduce_ongoing.4002.a:0 "[owner.GetTitledFirstNameNoTooltip] ha davvero superat[owner.Custom('DE_END_PRO_S_N')] se stess[owner.Custom('DE_END_PRO_S_N')]."
 
-seduce_ongoing.4003.desc: 1 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] attacca un’ennesima strofa, esco dalla sala imbarazzat[Select_CString(ROOT.Char.IsFemale,'a','o')]. Ogni singola canzone è una dedica a me da parte di [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName]!"
-seduce_ongoing.4003.desc.court_musician: 0 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] insieme con il [GetCourtPositionType('court_physician_court_position').GetName()] [court_musician.GetName] di [owner.Custom('IT_NAM_COL2')][owner.GetTitledFirstNamePossessive] attacca un’altra strofa, esco dalla sala, vergognos[Select_CString(ROOT.Char.IsFemale,'a','o')]. [owner.GetFirstNameNoTooltip] ha forse mandato il [GetCourtPositionType('court_physician_court_position').GetName()] solo per far decantare [Select_CString(owner.IsFemale,'se stessa','se stesso')]!?"
+seduce_ongoing.4003.desc:1 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] attacca un’ennesima strofa, esco dalla sala imbarazzat[Select_CString(ROOT.Char.IsFemale,'a','o')]. Ogni singola canzone è una dedica a me da parte di [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName]!"
+seduce_ongoing.4003.desc.court_musician:0 "\n\nQuando il [ROOT.Char.Custom('MusicalPerformer')] insieme con il [GetCourtPositionType('court_physician_court_position').GetName()] [court_musician.GetName] di [owner.Custom('IT_NAM_COL2')][owner.GetTitledFirstNamePossessive] attacca un’altra strofa, esco dalla sala, vergognos[Select_CString(ROOT.Char.IsFemale,'a','o')]. [owner.GetFirstNameNoTooltip] ha forse mandato il [GetCourtPositionType('court_physician_court_position').GetName()] solo per far decantare [Select_CString(owner.IsFemale,'se stessa','se stesso')]!?"
  seduce_ongoing.4003.a:0 "Che faccia tosta!"
 
  seduce_ongoing.4004.desc:1 "Grazie per il dono musicale. L'esibizione di [target.Custom('MusicalPerformerPossessive')] è stata molto apprezzata! Ho sempre saputo che voi siete un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] dal gusto impeccabile."
@@ -367,7 +367,7 @@ seduce_ongoing.4003.desc.court_musician: 0 "\n\nQuando il [ROOT.Char.Custom('Mus
  seduce_ongoing.4005.a:0 "Non è ciò che volevo!"
 
  seduce_ongoing.4006.desc:0 "Mentre il [ROOT.Char.Custom('MusicalPerformer')] continua a pronunciare strofe d'amore e desiderio, io cerco di non mostrare al resto della corte quanto mi senta lusingat[ROOT.Char.Custom('DE_END_PRO_S_N')].\n\nSebbene [owner.GetSheHe] si sia celat[owner.Custom('DE_END_PRO_S_N')] dietro alla metafora e all'allegoria, so che questa è una dedica da parte di [owner.GetTitledFirstName] nei miei confronti."
-seduce_ongoing.4006.a: 0 "Sai come attirare la mia attenzione, [owner.GetFirstNameNoTooltip]."
+seduce_ongoing.4006.a:0 "Sai come attirare la mia attenzione, [owner.GetFirstNameNoTooltip]."
 
  seduce_ongoing.4007.desc:0 "Forse la mia dedica al[target.Custom('DE_END_ADJ_NUL_S_N')] Signor[target.Custom('DE_END_ADJ_IND_S_A')] [target.GetFirstName] è stata un po' troppo velata... [target.GetSheHe|U] sembra non averla notata affatto."
  seduce_ongoing.4007.a:0 "Che fatica inutile."
@@ -456,7 +456,7 @@ seduce_ongoing.4006.a: 0 "Sai come attirare la mia attenzione, [owner.GetFirstNa
  seduce_ongoing.5001.desc_ending:0 "\n\nLe ostilità tra di noi ribolliscono come al solito, ma ho un piano su come domare i sentimenti tempestosi che ci portiamo dietro l'un l'altro..."
  seduce_ongoing.5001.a:0 "Qual è il tuo pensiero a proposito di [ROOT.GetCharacter.Custom('education_conversation_subject')]?"
  seduce_ongoing.5001.a.tt:0 "#F Fai appello al lato intellettuale di [target.GetFirstNamePossessiveNoTooltip]#!"
-seduce_ongoing.5001.b: 0 "Riguardo a quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstNameNoTooltip]..."
+seduce_ongoing.5001.b:0 "Riguardo a quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstNameNoTooltip]..."
  seduce_ongoing.5001.b.tt:0 "#F Fai appello al lato malvagio di [target.GetFirstNamePossessiveNoTooltip] prendendo in giro [mocked_courtier.GetTitledFirstNameNoTooltip] insieme a [target.GetSheHe]#!"
  seduce_ongoing.5001.c_tier_down:0 "La domanda è cos'è che #EMP io#! posso fare per #EMP te#!, mi[target.Custom('DE_END_PRO_S_N')] Signor[target.Custom('DE_END_ADJ_IND_S_A')]."
  seduce_ongoing.5001.c_tier_up:0 "Il piacere è tutto mio, mi[target.Custom('DE_END_PRO_S_N')] Signor[target.Custom('DE_END_ADJ_IND_S_A')]. Dovremmo porvi rimedio."
@@ -465,16 +465,16 @@ seduce_ongoing.5001.b: 0 "Riguardo a quell[Select_CString(mocked_courtier.IsFema
  
 
  seduce_ongoing.5003.t:0 "[owner.Custom('DE_ART_DEF_P_D')] mi[owner.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('owner'))|U] Rivale"
-seduce_ongoing.5003.opening: 0 "A ogni passo che [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName] compie verso di me sento l’umore precipitare. Che cosa vorrà ora quel [owner.Custom2('InsultNoun', ROOT.Char)]?\n\n"
+seduce_ongoing.5003.opening:0 "A ogni passo che [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName] compie verso di me sento l’umore precipitare. Che cosa vorrà ora quel [owner.Custom2('InsultNoun', ROOT.Char)]?\n\n"
  seduce_ongoing.5003.conversation:0 "Con mia sorpresa [owner.GetSheHe] mi ha impegnato in una discussione su [ROOT.GetCharacter.Custom('education_conversation_subject')], e nonostante il mio iniziale riserbo riguardante la sua compagnia l'ho trovata molto interessante!"
-seduce_ongoing.5003.mockery: 0 ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Non crederai a ciò che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] ha fatto oggi!"\nCon mia sorpresa ci intrattenemmo in una conversazione piuttosto piacevole sui molti difetti [mocked_courtier.GetFirstNamePossessive]."
+seduce_ongoing.5003.mockery:0 ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Non crederai a ciò che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] ha fatto oggi!"\nCon mia sorpresa ci intrattenemmo in una conversazione piuttosto piacevole sui molti difetti [mocked_courtier.GetFirstNamePossessive]."
  seduce_ongoing.5003.bodily:0 "Nulla avrebbe potuto prepararmi alla tentazione della sua la sua carne nuda quando [owner.GetSheHe] ha rimosso la sua [owner.Custom('GetUpperClothingArticle')]."
  seduce_ongoing.5003.fallback:0 "Con mia grande sorpresa abbiamo trascorso una serata piuttosto piacevole, ridendo degli argomenti più mondani e passeggiando insieme nei giardini."
  seduce_ongoing.5003.a:0 "Mai prima d'ora avevo compreso quanto [owner.GetSheHe] fosse #EMP piacevole#!!"
 
-seduce_ongoing.5004.opening: 0 "A ogni passo che [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName] compie verso di me sento l’umore precipitare. Che cosa vorrà ora quel [owner.Custom2('InsultNoun', ROOT.Char)]?\n\n"
+seduce_ongoing.5004.opening:0 "A ogni passo che [owner.Custom('IT_NAM_COL3')][owner.GetTitledFirstName] compie verso di me sento l’umore precipitare. Che cosa vorrà ora quel [owner.Custom2('InsultNoun', ROOT.Char)]?\n\n"
  seduce_ongoing.5004.conversation:0 ""Riguardo all'argomento: [owner.Custom('education_conversation_subject')]..."\n\nNon so perché [owner.GetSheHe] abbia immaginato che io sarei stato interessat[ROOT.Char.Custom('DE_END_PRO_S_N')] all'argomento, ma ben presto l'ho reso chiaro, senza ombra di dubbio."
-seduce_ongoing.5004.mockery: 0 ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Non crederai a ciò che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] ha fatto oggi!"\n\nNon riesco a immaginare cosa abbia spinto [Select_CString(owner.IsFemale,'lei','lui')] a diffamare [mocked_courtier.Custom('IT_NAM_COL3')][mocked_courtier.GetTitledFirstName] davanti a me, ma [Select_CString(owner.IsFemale,'non si è','non si è')] fermat[Select_CString(owner.IsFemale,'a','o')] in tempo."
+seduce_ongoing.5004.mockery:0 ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Non crederai a ciò che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', SCOPE.sC('owner'))] [mocked_courtier.GetFirstName] ha fatto oggi!"\n\nNon riesco a immaginare cosa abbia spinto [Select_CString(owner.IsFemale,'lei','lui')] a diffamare [mocked_courtier.Custom('IT_NAM_COL3')][mocked_courtier.GetTitledFirstName] davanti a me, ma [Select_CString(owner.IsFemale,'non si è','non si è')] fermat[Select_CString(owner.IsFemale,'a','o')] in tempo."
  seduce_ongoing.5004.bodily:0 "Mentre [owner.GetSheHe] si avvicina a me in modo imbarazzante e si scopre in modo suggestivo il suo [owner.Custom('GetUpperClothingArticle')], io velocemente mi faccio indietro."
  seduce_ongoing.5004.fallback:0 "A quanto pare [owner.GetSheHe] si è mess[owner.Custom('DE_END_PRO_S_N')] in testa di trascorrere la giornata con me, perché [owner.GetSheHe] rifiuta di andarsene prima che io abbia manifestato chiaramente il mio disgusto per la sua presenza."
  seduce_ongoing.5004.a:0 "Un incontro spiacevole come al solito!"
@@ -487,10 +487,10 @@ seduce_ongoing.5004.mockery: 0 ""[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.Get
  seduce_ongoing.5005.a:0 "[target.Custom('DE_PRO_DEM')] dimostrerò che bella compagnia posso essere!"
 
  seduce_ongoing.5006.conversation:0 "Dopo circa un ora di conversazione imbarazzante [target.GetFirstName] sembra più annoiato di quanto [target.Custom('DE_PRO_POS_P_3P')] abbia mai visto. Quando cambio argomento da [target.Custom('herhis_subject_of_interest')] a [ROOT.GetCharacter.Custom('education_conversation_subject')] [target.GetSheHe] [target.Custom('quirk_neg_present')] e si scusa."
-seduce_ongoing.5006.mockery: 0 "«[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Riesci a credere che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] abbia davvero…»\n\nMi zittisco in fretta mentre il disprezzo sul volto di [target.GetFirstNamePossessive] cresce sempre più."
+seduce_ongoing.5006.mockery:0 "«[ROOT.Char.Custom('IT_NAM_COL3')][ROOT.Char.GetTitledFirstNameNoTooltip]! Riesci a credere che quell[Select_CString(mocked_courtier.IsFemale,'a','o')] [mocked_courtier.Custom2('InsultNoun', ROOT.Char)] [mocked_courtier.GetFirstName] abbia davvero…»\n\nMi zittisco in fretta mentre il disprezzo sul volto di [target.GetFirstNamePossessive] cresce sempre più."
  seduce_ongoing.5006.bodily:0 "Mentre mi avvicino a [target.GetFirstName], sorridendo [ROOT.Char.Custom('quirk_pos_adverb')] e sollevando suggestivamente la mia [ROOT.Char.Custom('GetUpperClothingArticle')], [target.GetSheHe] si allontana rapidamente con uno sguardo di puro disgusto."
  seduce_ongoing.5006.fallback:0 "Mentre annaspo nel tentativo di trovare un terreno comune con [target.GetFirstName], il suo disprezzo si accentua ogni minuto di più.\n\nBen presto [target.GetSheHe] si scusa e rifugge la mia compagnia andandosene."
-seduce_ongoing.5006.a: 0 "Perché sto cercando di portare a letto un[Select_CString(target.IsFemale,'a','o')] [target.Custom2('InsultNounSexual', ROOT.Char)]?!"
+seduce_ongoing.5006.a:0 "Perché sto cercando di portare a letto un[Select_CString(target.IsFemale,'a','o')] [target.Custom2('InsultNounSexual', ROOT.Char)]?!"
 
  seduce_ongoing.5011.t:0 "Attrazioni Aggravanti"
  seduce_ongoing.5011.desc:0 "Pochi riescono a provocarmi come [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName], e non appena restiamo soli, [target.GetSheHe] mi insulta stringendomi la mano. Io, naturalmente, rispondo in modo gentile.\n\nDevo ammettere che l'emozione — sia per la lotta che per la vicinanza ad un altro possente, corpo sudato — è sufficiente per infiammare il mio sangue. E ben presto non potevo dire se stavo davvero cercando di batter[target.Custom('DE_PRO_POS_P_3P')], o se stavo solo tirando fuori l'alterco......"
@@ -516,7 +516,7 @@ seduce_ongoing.5006.a: 0 "Perché sto cercando di portare a letto un[Select_CStr
 
  seduce_ongoing.5016.desc:0 "[target.GetTitledFirstName] ed io finiamo a terra, litigando come [target.Custom('GirlsBoysChildren')], e i nostri cipigli si trasformano presto in sorrisi.\n\nQuando gli offro una mano, [target.GetSheHe] la prende e fa un cenno di ringraziamento."
 
-seduce_ongoing.5017.desc: 0 "[target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] e io finiamo a terra, a darcele come piccoli [target.Custom('GirlsBoysChildren')], e il [Select_CString(target.IsFemale,'suo','suo')] cipiglio ben presto si tramuta in una smorfia che s’inasprisce quando mi rialzo davanti a [Select_CString(target.IsFemale,'lei','lui')].\n\n"Nemmeno ad aiutarmi ad alzarmi... Non avrei dovuto aspettarmi altro da un[Select_CString(owner.IsFemale,'a','o')] [owner.Custom2('InsultNoun', ROOT.Char)].""
+seduce_ongoing.5017.desc:0 "[target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] e io finiamo a terra, a darcele come piccoli [target.Custom('GirlsBoysChildren')], e il [Select_CString(target.IsFemale,'suo','suo')] cipiglio ben presto si tramuta in una smorfia che s’inasprisce quando mi rialzo davanti a [Select_CString(target.IsFemale,'lei','lui')].\n\n"Nemmeno ad aiutarmi ad alzarmi... Non avrei dovuto aspettarmi altro da un[Select_CString(owner.IsFemale,'a','o')] [owner.Custom2('InsultNoun', ROOT.Char)].""
 
  seduce_ongoing.5018.desc:0 "Pochi riescono a provocarmi come [owner.GetTitledFirstName], e appena ci ritroviamo da soli, iniziamo ad insultarci e ad alzare le mani l'uno sull'altro.\n\nDopo una breve esitazione da parte sua prendo il sopravvento nell'alterco, e non posso fare a meno di rallegrarmi ad averl[owner.Custom('DE_END_PRO_S_N')] alla mia mercé così, ansimante e sottomess[owner.Custom('DE_END_PRO_S_N')]."
  seduce_ongoing.5018.a:0 "Rannicchiarti davanti a me ti si addice!"
@@ -563,7 +563,7 @@ seduce_ongoing.5017.desc: 0 "[target.Custom('IT_NAM_COL3')][target.GetTitledFirs
  seduce_ongoing.5201.c:0 "Non metterò a repentaglio questo momento."
 
 
-seduce_ongoing.5202.desc: 0 "Mentre [Select_CString(SCOPE.sC('owner').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] e io percorriamo il/la [court_location.Custom('BaronyTownType')] di [court_location.GetNameNoTier] inciampiamo in una piazza con una graziosa fontana.\n\n"Gettiamo una moneta insieme, [ROOT.Char.Custom('FormOfAddressForLiege')]? Si dice che porti romance...""
+seduce_ongoing.5202.desc:0 "Mentre [Select_CString(SCOPE.sC('owner').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] e io percorriamo il/la [court_location.Custom('BaronyTownType')] di [court_location.GetNameNoTier] inciampiamo in una piazza con una graziosa fontana.\n\n"Gettiamo una moneta insieme, [ROOT.Char.Custom('FormOfAddressForLiege')]? Si dice che porti romance...""
  seduce_ongoing.5202.a:0 "Facciamo tre, per aumentare la fortuna!"
  seduce_ongoing.5202.b:0 "Sembra qualcosa da fare in coppia, non per amici."
 
@@ -592,7 +592,7 @@ seduce_ongoing.5202.desc: 0 "Mentre [Select_CString(SCOPE.sC('owner').IsFemale,'
  seduce_ongoing.5301.c.tt:0 "#F Ci saranno altre volte. [target.Custom('DE_ART_DEF_P_A')] mi[target.Custom('DE_END_PRO_S_N')] [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] non andrà da nessuna parte.#!"
  seduce_ongoing.5301.success_tt:0 "Se [target.GetFirstName] ricambia le mie effusioni:"
 
-seduce_ongoing.5302.desc: 0 "Sembra così giusto che all'inizio nemmeno me ne accorgo, ma mentre sediamo davanti al camino, [Select_CString(owner.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] mi stringe la mano con un'intensità che va ben oltre le rassicurazioni di un[owner.Custom('DE_PRO_PER_P_3P_G')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nSento il polso di [Select_CString(owner.IsFemale,'lei','lui')] accelerare di desiderio."
+seduce_ongoing.5302.desc:0 "Sembra così giusto che all'inizio nemmeno me ne accorgo, ma mentre sediamo davanti al camino, [Select_CString(owner.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] mi stringe la mano con un'intensità che va ben oltre le rassicurazioni di un[owner.Custom('DE_PRO_PER_P_3P_G')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nSento il polso di [Select_CString(owner.IsFemale,'lei','lui')] accelerare di desiderio."
  seduce_ongoing.5302.a:0 "Mi rifiuto di credere che ciò che sento sia sbagliato."
  seduce_ongoing.5302.b:0 "Sono lusingat[ROOT.Char.Custom('DE_END_PRO_S_N')] dall'attenzione, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], ma no."
 

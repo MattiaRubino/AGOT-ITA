@@ -133,7 +133,7 @@
 
  ### COURT CHAPLAIN WANTS TO TREAT YOU ###
  trait_specific_ongoing.2015.t:0 "In nome di [ROOT.Char.GetFaith.HighGodName] guarisci"
-trait_specific_ongoing.2015.desc: 0 "Le colonne del [ROOT.Char.GetFaith.HouseOfWorship] iniziano a piegarsi quando mi coglie un altro episodio. Non emetto suono, ma so che [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] capisce che qualcosa non va.\n\nDopo [ROOT.Char.Custom('GetReligiousRite')], si avvicina con espressione preoccupata. «Devono essere [ROOT.Char.GetFaith.DevilName] e i [ROOT.Char.GetFaith.DevilHerHis] sgherri a impossessarsi del tuo corpo, [ROOT.Char.Custom('FormOfAddressForLiege')]. Devi rivolgerti a [ROOT.Char.GetFaith.HighGodName] per la salvezza, prima che sia troppo tardi!»"
+trait_specific_ongoing.2015.desc:0 "Le colonne del [ROOT.Char.GetFaith.HouseOfWorship] iniziano a piegarsi quando mi coglie un altro episodio. Non emetto suono, ma so che [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] capisce che qualcosa non va.\n\nDopo [ROOT.Char.Custom('GetReligiousRite')], si avvicina con espressione preoccupata. «Devono essere [ROOT.Char.GetFaith.DevilName] e i [ROOT.Char.GetFaith.DevilHerHis] sgherri a impossessarsi del tuo corpo, [ROOT.Char.Custom('FormOfAddressForLiege')]. Devi rivolgerti a [ROOT.Char.GetFaith.HighGodName] per la salvezza, prima che sia troppo tardi!»"
  trait_specific_ongoing.2015.physician.desc:0 "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] deve averl[chaplain.Custom('DE_END_PRO_S_N')] sentito. "Ciò di cui [ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] ha bisogno è pace e tranquillità, non minacce di dannazione!""
  trait_specific_ongoing.2015.a:0 "Pregherò perché le tenebre se ne vadano."
  trait_specific_ongoing.2015.a.success:0 "Le preghiere sono efficaci"
@@ -197,13 +197,13 @@ trait_specific_ongoing.2015.desc: 0 "Le colonne del [ROOT.Char.GetFaith.HouseOfW
 
 
  trait_specific_ongoing.3001.t:0 "La Miseria Ama la Compagnia"
-trait_specific_ongoing.3001.desc: 0 "[Select_CString(sympathetic_character.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sympathetic_character') )] [sympathetic_character.Custom('IT_NAM_COL3')][sympathetic_character.GetTitledFirstName] mi si avvicina mentre concludo il mio discorso alla [ROOT.Char.Custom('GetCourt')], con la gente che ancora si attarda.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho sentito che anche tu soffri di periodi di... malinconia. Forse potremmo parlare delle nostre esperienze?»"
+trait_specific_ongoing.3001.desc:0 "[Select_CString(sympathetic_character.IsFemale,'La mia','Il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('sympathetic_character') )] [sympathetic_character.Custom('IT_NAM_COL3')][sympathetic_character.GetTitledFirstName] mi si avvicina mentre concludo il mio discorso alla [ROOT.Char.Custom('GetCourt')], con la gente che ancora si attarda.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], ho sentito che anche tu soffri di periodi di... malinconia. Forse potremmo parlare delle nostre esperienze?»"
  trait_specific_ongoing.3001.a:0 "Vieni, abbiamo molto di cui parlare."
  trait_specific_ongoing.3001.b:0 "Non ho problemi del genere! Di che stai parlando?!"
  trait_specific_ongoing.3001.b.tt:0 "Ahaha... ha."
 
  trait_specific_ongoing.3002.t:0 "Soluzioni a Lungo Termine"
-trait_specific_ongoing.3002.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», una sera mi si avvicina [Select_CString(court_physician.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))], [court_physician.Custom('IT_NAM_COL3')][court_physician.GetTitledFirstName]. «Ho alcuni rimedi che potremmo provare per la tua ostinata malinconia. Potrebbe peggiorare un poco prima di migliorare, ma vale la pena tentare!»"
+trait_specific_ongoing.3002.desc:0 "«[ROOT.Char.Custom('FormOfAddressForLiege')|U]», una sera mi si avvicina [Select_CString(court_physician.IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_physician'))], [court_physician.Custom('IT_NAM_COL3')][court_physician.GetTitledFirstName]. «Ho alcuni rimedi che potremmo provare per la tua ostinata malinconia. Potrebbe peggiorare un poco prima di migliorare, ma vale la pena tentare!»"
  trait_specific_ongoing.3002.a:0 "Farei qualsiasi cosa per liberarmene."
  trait_specific_ongoing.3002.b:0 "Ho solo bisogno di un lungo sonnellino. Oppure tre."
 
@@ -240,7 +240,7 @@ trait_specific_ongoing.3002.desc: 0 "«[ROOT.Char.Custom('FormOfAddressForLiege'
  trait_specific_ongoing.3015.book.desc:0 "mi rendo conto di aver dimenticato il libro che [unsympathetic.GetSheHe] mi ha prestato,"
  trait_specific_ongoing.3015.end.desc:0 "so esattamente come reagirà.\n\n"Perché sono ancora sorpreso," dice [unsympathetic.GetTitledFirstNameNoTooltip] con un sospiro, e il mio cuore sprofonda. "
  trait_specific_ongoing.3015.a:0 "Dimostrerò che ha torto!"
-trait_specific_ongoing.3015.b: 0 "«Taci, [unsympathetic.Custom2('InsultNoun', ROOT.Char)] [unsympathetic.Custom2('InsultAdjective', ROOT.Char)]!»"
+trait_specific_ongoing.3015.b:0 "«Taci, [unsympathetic.Custom2('InsultNoun', ROOT.Char)] [unsympathetic.Custom2('InsultAdjective', ROOT.Char)]!»"
  trait_specific_ongoing.3015.c:0 "[unsympathetic.GetSheHe|U] ha ragione. Sono inutile..."
  trait_specific_ongoing.3015.a.success:0 "Ho superato la mia letargia"
  trait_specific_ongoing.3015.a.neutral:0 "Sono ancora stanco"

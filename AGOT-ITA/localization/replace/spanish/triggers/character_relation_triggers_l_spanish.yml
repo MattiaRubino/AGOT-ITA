@@ -23,12 +23,12 @@
  IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] è alleato con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
  NOT_IS_ALLIED_IN_WAR_THIRD:0 "[CHARACTER.GetShortUIName|V] #bold non#! è alleato con [TARGET_CHARACTER.GetShortUIName|V] in una [war|E]"
 
-THEY_ARE_LIEGE_OR_ABOVE: 0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] o superiore"
-NOT_THEY_ARE_LIEGE_OR_ABOVE: 0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold non#! [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] o superiore"
-THEY_ARE_MY_LIEGE_OR_ABOVE: 1 "[TARGET_CHARACTER.GetShortUIName|V] è il tuo [liege|E] o superiore"
-NOT_THEY_ARE_MY_LIEGE_OR_ABOVE: 0 "[TARGET_CHARACTER.GetShortUIName|V] è #bold non#! il tuo [liege|E] o superiore"
-THEY_ARE_THEIR_LIEGE_OR_ABOVE: 0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [liege|E] o superiore"
-NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE: 0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold non#! [CHARACTER.GetShortUINamePossessive] [liege|E] o superiore"
+THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] o superiore"
+NOT_THEY_ARE_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold non#! [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive|V] [liege|E] o superiore"
+THEY_ARE_MY_LIEGE_OR_ABOVE:1 "[TARGET_CHARACTER.GetShortUIName|V] è il tuo [liege|E] o superiore"
+NOT_THEY_ARE_MY_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] è #bold non#! il tuo [liege|E] o superiore"
+THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] [CHARACTER.GetShortUINamePossessive] [liege|E] o superiore"
+NOT_THEY_ARE_THEIR_LIEGE_OR_ABOVE:0 "[TARGET_CHARACTER.GetShortUIName|V] [CharAreIs(TARGET_CHARACTER)] #bold non#! [CHARACTER.GetShortUINamePossessive] [liege|E] o superiore"
 
  THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [suzerain|E] o superiore"
  NOT_THEY_ARE_TRIBUTARY_OF_SUZERAIN_OR_ABOVE: "[Select_CString(TARGET_CHARACTER.IsLocalPlayer,'Tu',TARGET_CHARACTER.GetShortUIName)] #bold non#! [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'sei', 'è' )] un [suzerain|E] o superiore"
@@ -72,7 +72,7 @@ NOT_THEY_ARE_VASSAL_OR_BELOW: "[TARGET_CHARACTER.GetShortUIName|VU] [CharAreIs(T
  NUM_OF_RELATION_BEST_FRIEND_TRIGGER:1 "Il numero di [best_friend|E] è $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_CRUSH_TRIGGER:1 "Il numero di [crushes|E] è $COMPARATOR$ $NUM|V0$"
  NUM_OF_RELATION_SOULMATE_TRIGGER:1 "Il numero di [soulmates|E] è $COMPARATOR$ $NUM|V0$"
-HAS_RELATION_POSSIBLE_PARENT_OF_TARGET: 0 "Potrebbe essere il genitore di [TARGET_CHARACTER.GetShortUIName]"
+HAS_RELATION_POSSIBLE_PARENT_OF_TARGET:0 "Potrebbe essere il genitore di [TARGET_CHARACTER.GetShortUIName]"
  HAS_RELATION_BLOOD_BROTHER_WITH_TARGET: "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] fratelli di sangue"
 
  HAS_RELATION_NEMESIS_WITH_TARGET:0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] e [TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'siete', 'sono' )] [nemeses|E]"

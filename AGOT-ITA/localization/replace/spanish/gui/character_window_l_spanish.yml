@@ -101,8 +101,8 @@ CV_TRAITS_HIDE_TT: "#I Clicca per nascondere gli elementi espansi dei [traits|E]
  CRUSHES_LABEL:0 "Cotte"
  BULLIES_LABEL:0 "Bulli"
  VICTIMS_LABEL:0 "Vittime"
-DISCIPLE_LABEL: 0 "Discepoli #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'disciple' ) ) )]/[Character.MakeScope().ScriptValue('disciples_limit_value')])#!"
-ELDER_LABEL: 0 "Anziano"
+DISCIPLE_LABEL:0 "Discepoli #weak ([GetDataModelSize( CharacterWindow.GetRelationsOfType( GetRelation( 'disciple' ) ) )]/[Character.MakeScope().ScriptValue('disciples_limit_value')])#!"
+ELDER_LABEL:0 "Anziano"
  CV_SECRETS_HEADER:0 "I [secrets|E] di [CharacterWindow.GetCharacter.GetNamePossessive|U] "
  CV_KNOWN_SECRETS_HEADER:0 "[secrets|E] conosciuti da [CharacterWindow.GetCharacter.GetNameOrMe]"
  CV_HOOKS_HEADER:1 "I tuoi [hooks|E]"
@@ -199,7 +199,7 @@ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Il tuo [realm_priest|E] #emphasis non#
 
  CV_CHILDREN_HEADING:0 "Figli #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
  CV_SIBLINGS_HEADING:0 "Fratelli e Sorelle #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
-CV_CONCUBINES_HEADING: 0 "Concubine #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!"
+CV_CONCUBINES_HEADING:0 "Concubine #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!"
  CHARACTER_RELATION_COMBINE:0 "$FIRST$ • $SECOND$"
 
  FAITH_CHARACTER_WINDOW:0 "[Faith.GetAdherentNameNoTooltip]"

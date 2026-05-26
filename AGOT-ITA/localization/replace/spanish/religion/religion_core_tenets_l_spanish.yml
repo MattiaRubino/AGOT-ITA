@@ -178,7 +178,7 @@ doctrine_parameter_piety_from_festivals_active_auh: "Ospitare [GetActivityType('
  tenet_esotericism_name:0 "Esoterismo"
  tenet_esotericism_kabbalah:0 "Kabbalah"
  tenet_esotericism_desc:0 "I grandi misteri del divino possono essere al di là della comprensione mortale, ma questo non è un pretesto per l'ignoranza. La loro stessa esistenza ci obbliga a cercare la conoscenza e la comprensione del mondo che ci circonda."
-doctrine_parameter_tenet_esotericism_mystic_education: 2 "I bambini con il [education_focus|E] di [learning|E] possono ottenere il tratto [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] se riescono bene negli studi"
+doctrine_parameter_tenet_esotericism_mystic_education:2 "I bambini con il [education_focus|E] di [learning|E] possono ottenere il tratto [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )] se riescono bene negli studi"
  tenet_esotericism_kabbalah_desc:0 "Gli insegnamenti della Kabbalah portano alla comprensione dei mortali la relazione tra il Dio eterno, la natura dell'infinito conosciuta come Ein Sof, e la creazione di Dio. La Kabbalah costituisce la base di tutto il misticismo ebraico e i praticanti della Kabbalah spesso si confrontano con altre scuole ebraiche."
  tenet_religious_kabbalah_cost_tooltip:0 "Kabbalah: #P -10%#!"
 
@@ -294,7 +294,7 @@ doctrine_parameter_immaterial_harmony_buddhist_take_vows: "Le [faiths|E] [GetRel
  sinitic_syncretic_actor_opinion_active_county_opinion_name:0 "$faith_syncretic_popular_opinion_active_control$"
 
 tenet_eastern_syncretism_name: "Sincretismo $rf_eastern$"
-tenet_eastern_syncretism_desc: 0 "C'è qualcosa da imparare dal modo in cui le diverse religioni dharmiche si tollerano a vicenda. Potrebbero non seguire la vera fede, ma ciò non le rende malvagie."
+tenet_eastern_syncretism_desc:0 "C'è qualcosa da imparare dal modo in cui le diverse religioni dharmiche si tollerano a vicenda. Potrebbero non seguire la vera fede, ma ciò non le rende malvagie."
 doctrine_parameter_hostility_override_eastern_hostility_doctrine: "Le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName] sono considerate soltanto [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
 doctrine_parameter_is_eastern_faith_bilateral_loc_override: "Considera le [faiths|E] della famiglia [GetReligionFamily('rf_eastern').GetName] — e viene considerata dalle $rf_eastern$ $game_concept_faiths$ — come [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
@@ -304,16 +304,16 @@ doctrine_parameter_eastern_syncretic_actor_opinion_active: "Bonus reciproco di [
  doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "Bonus d'[opinion|E] reciproco di [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] che hanno il [core_tenet|E] $tenet_eastern_syncretism_name$ "
  doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
 
-tenet_sinitic_syncretism_name: 0 "Sincretismo sinitico"
-tenet_sinitic_syncretism_desc: 0 "Possiamo imparare dalle antiche religioni sinitiche. Nel corso dei secoli e dei millenni hanno ispirato una vita retta e buoni costumi."
-doctrine_parameter_hostility_override_sinitic_hostility_doctrine: 1 "Le [faiths|E] sinitiche sono considerate solo [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+tenet_sinitic_syncretism_name:0 "Sincretismo sinitico"
+tenet_sinitic_syncretism_desc:0 "Possiamo imparare dalle antiche religioni sinitiche. Nel corso dei secoli e dei millenni hanno ispirato una vita retta e buoni costumi."
+doctrine_parameter_hostility_override_sinitic_hostility_doctrine:1 "Le [faiths|E] sinitiche sono considerate solo [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
  #Instead, add these doctrine parameters to appropriate tenets (presently Dharmic Syncretism).
-doctrine_parameter_is_sinitic_faith_bilateral_loc_override: 0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
-doctrine_parameter_hostility_override_special_doctrine_is_sinitic_faith: 0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
-doctrine_parameter_sinitic_syncretic_actor_opinion_active: 0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] sinitiche"
-doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active: 0 ""
-doctrine_parameter_sinitic_syncretic_recipient_opinion_active: 0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] che hanno il [core_tenet|E] $tenet_sinitic_syncretism_name$"
-doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active: 0 ""
+doctrine_parameter_is_sinitic_faith_bilateral_loc_override:0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_hostility_override_special_doctrine_is_sinitic_faith:0 "Considera le [faiths|E] sinitiche, ed è considerata dalle [faiths|E] sinitiche, [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] invece di $hostility_evil_tooltippable$"
+doctrine_parameter_sinitic_syncretic_actor_opinion_active:0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] sinitiche"
+doctrine_parameter_opinion_of_sinitic_syncretic_recipient_opinion_active:0 ""
+doctrine_parameter_sinitic_syncretic_recipient_opinion_active:0 "Bonus di [opinion|E] reciproco pari a [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] con le [faiths|E] che hanno il [core_tenet|E] $tenet_sinitic_syncretism_name$"
+doctrine_parameter_opinion_of_sinitic_syncretic_actor_opinion_active:0 ""
 
  tenet_unreformed_syncretism_name:0 "Tradizioni Popolari Sincretiche"
  tenet_unreformed_syncretism_desc:0 "Chi siamo noi per dire agli altri che le loro tradizioni sono false? Non spetta a noi dar loro lezioni sui costumi che praticano da secoli: invece, dovremmo imparare tranquillamente sui loro modi."

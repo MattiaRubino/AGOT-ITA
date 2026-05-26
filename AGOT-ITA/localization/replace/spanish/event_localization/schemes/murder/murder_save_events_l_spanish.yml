@@ -8,7 +8,7 @@
 
  murder_save.0001.t:1 "$murder_save_header$ Sventato dall' Amore"
  murder_save.0001.opening:1 "Il mio tentativo di uccidere [target.Custom('DE_ART_DEF_P_A')] [target.GetTitledFirstName] è stato vanificato!\n\nL'assassino si è fatto strada verso gli alloggi [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma l[target.Custom('DE_END_PRO_S_N')] ha trovat[target.Custom('DE_END_PRO_S_N')] in compagnia"
-murder_save.0001.rel_to_me: 0 " — [Select_CString(SCOPE.sC('lover').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — "
+murder_save.0001.rel_to_me:0 " — [Select_CString(SCOPE.sC('lover').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — "
  murder_save.0001.end:0 "[lover.Custom('DE_ART_DEF_P_D')] [lover.GetTitledFirstName], l'amante!\n\n[lover.GetFirstName] si precipita in aiuto di [target.GetFirstName], lo scontro finisce e sia [lover.GetHerHim]] che l'assassino giacciono a terra senza vita."
  murder_save.0001.a:0 "Non [target.Custom('DE_PRO_POS_S_3P')] prenderò mai adesso."
  murder_save.0001.b:0 "Ho bisogno di un nuovo piano..."
@@ -20,7 +20,7 @@ murder_save.0001.rel_to_me: 0 " — [Select_CString(SCOPE.sC('lover').IsFemale,'
 
  murder_save.0002.t:2 "$murder_save_header$ Amore [SCOPE.Custom('VenomousCreatureAttackPlural')|U]"
  murder_save.0002.opening:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] è ancora in vita!\n\nIl [SCOPE.Custom('VenomousCreature')] è stato messo nel letto [target.Custom('DE_PRO_PER_P_3P_A')] [target.GetTitleTierName], ma ha colpito il bersaglio sbagliato! Invece è"
-murder_save.0002.rel_to_me: 0 " — [Select_CString(SCOPE.sC('lover').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — "
+murder_save.0002.rel_to_me:0 " — [Select_CString(SCOPE.sC('lover').IsFemale,'la mia','il mio')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))] — "
  murder_save.0002.end:0 "[lover.GetTitledFirstName], [lover.Custom('DE_ART_DEF_P_D')] [target.GetHerHis] amante, giace a terra morto!"
 
  murder_save.1002.desc:1 ""Torna a letto, [lover.Custom('LoverPetName')] mi[lover.Custom('DE_END_PRO_S_N')]..."\n\nSto per giacere con [lover.Custom('DE_ART_DEF_P_A')] mi[lover.Custom('DE_END_PRO_S_N')] amante quando [lover.GetSheHe] inizia ad urlare."Cosa c'è?!". La mia domanda trova risposta non appena [lover.GetSheHe] si contorce e si agita abbastanza da rivelare una creatura velenosa che striscia tra le lenzuola. All' arrivo di un medico, [lover.GetFirstName] è già diventat[lover.Custom('DE_END_PRO_S_N')] rigid[lover.Custom('DE_END_PRO_S_N')] e congelat[lover.Custom('DE_END_PRO_S_N')], anche a me si gela il sangue nelle vene. Ero io l'obbiettivo di quella bestia."

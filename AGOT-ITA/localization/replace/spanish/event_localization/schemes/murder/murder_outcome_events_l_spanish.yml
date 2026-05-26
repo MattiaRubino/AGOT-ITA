@@ -50,7 +50,7 @@
  murder_outcome.1007.desc_ending_travel:0 "\n\nSarebbe una tragedia se i miei agenti inzuppassero il legno della nave con del liquido infiammabile e, fuggendo con l'unica barca, la incendiassero... assicurando così la morte di [target.GetFirstNamePossessive] e di tutto il suo seguito."
  murder_outcome.1007.a:0 "Metti in azione il piano."
 
-murder_outcome.1008.t: 0 "Sorso di Vita"
+murder_outcome.1008.t:0 "Sorso di Vita"
  murder_outcome.1008.desc:0 "I miei agenti hanno acquisito una polvere discreta che non lascia traccia quando viene disciolta nella bevanda. I servitori incaricati di riempire e maneggiare la coppa di [target.GetTitledFirstNamePossessive] sono stati corrotti per guardare dall'altra parte e tutto ciò che rimane da fare è dare la mia approvazione per introdurre il veleno nella sua prossima bevanda rinfrescante."
  murder_outcome.1008.a:0 "Un brindisi alla salute di [target.GetShortUINamePossessiveNoTooltip]!"
 
@@ -99,10 +99,10 @@ murder_outcome.1008.t: 0 "Sorso di Vita"
  murder_outcome.1401.b:0 "No, mi sembra sbagliato."
 
  murder_outcome.2000.t:0 "Uno Scherzo del Destino"
-murder_outcome.2000.desc: 0 "Mentre preparo tutto il necessario per la dipartita [target.Custom('IT_NAM_COL2')][target.GetTitledFirstNamePossessive] vengo interrotto da un paggio. Quel [owner.Custom2('InsultNoun', ROOT.Char)] se n’è andato e ci è riuscito senza il mio aiuto!"
+murder_outcome.2000.desc:0 "Mentre preparo tutto il necessario per la dipartita [target.Custom('IT_NAM_COL2')][target.GetTitledFirstNamePossessive] vengo interrotto da un paggio. Quel [owner.Custom2('InsultNoun', ROOT.Char)] se n’è andato e ci è riuscito senza il mio aiuto!"
  murder_outcome.2000.a:0 "[ROOT.Char.GetFaith.DevilName|U] doveva essere impaziente di avere la sua compagnia!"
  murder_outcome.2000.a.tt:0 "[target.GetTitledFirstName] [target.GetDeathReason]"
-murder_outcome.2500.desc: 0 "Mentre continuo i preparativi per organizzare un incontro tra [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] e [ROOT.Char.GetFaith.DevilName|U], vengo interrotto da un paggio. Quel [owner.Custom2('InsultNoun', ROOT.Char)] è partito lontano ed è ormai fuori dalla mia portata! "
+murder_outcome.2500.desc:0 "Mentre continuo i preparativi per organizzare un incontro tra [target.Custom('IT_NAM_COL3')][target.GetTitledFirstName] e [ROOT.Char.GetFaith.DevilName|U], vengo interrotto da un paggio. Quel [owner.Custom2('InsultNoun', ROOT.Char)] è partito lontano ed è ormai fuori dalla mia portata! "
  murder_outcome.2500.a:0 "Potrai anche essere sfuggito a me, ma non puoi sfuggire alla morte!"
 
  murder_outcome.2001.t:0 "Assassino!"
@@ -280,8 +280,8 @@ murder_outcome.2500.desc: 0 "Mentre continuo i preparativi per organizzare un in
  murder_outcome.4005.a.discovered:0 "Sempre fidarsi della folla quando si vuol prendere la decisione sbagliata."
 
  murder_outcome.4006.desc:0 "[target.Custom('DE_ART_DEF_P_D')] [target.GetTitledFirstName] mi ha seguito volentieri in cantina, ubriaco di allegria e di vino.\n\nDopo molti bicchieri di vino "buono" si è addormentat[target.Custom('DE_END_PRO_S_N')], ma prima che potessi finire di murare l'uscita sono entrati alcuni domestici.\n\n"
-murder_outcome.4006.scheme_owner_known: 0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! E [target.Custom('IT_NAM_COL3')][target.GetTitledFirstNameNoTooltip]? E un muro a metà che [Select_CString(target.IsFemale,'la','lo')] rinchiude... Oh no.""
-murder_outcome.4006.scheme_unkown: 0 ""Ah, pare che [target.Custom('IT_NAM_COL3')][target.GetTitledFirstNameNoTooltip] si sia addormentat[Select_CString(target.IsFemale,'a','o')] nel mezzo del tuo progetto. Possiamo aiutarti a scortar[Select_CString(target.IsFemale,'la','lo')] in una camera da letto, [ROOT.Char.Custom('FormOfAddressForLiege')]?""
+murder_outcome.4006.scheme_owner_known:0 ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]! E [target.Custom('IT_NAM_COL3')][target.GetTitledFirstNameNoTooltip]? E un muro a metà che [Select_CString(target.IsFemale,'la','lo')] rinchiude... Oh no.""
+murder_outcome.4006.scheme_unkown:0 ""Ah, pare che [target.Custom('IT_NAM_COL3')][target.GetTitledFirstNameNoTooltip] si sia addormentat[Select_CString(target.IsFemale,'a','o')] nel mezzo del tuo progetto. Possiamo aiutarti a scortar[Select_CString(target.IsFemale,'la','lo')] in una camera da letto, [ROOT.Char.Custom('FormOfAddressForLiege')]?""
  murder_outcome.4006.a.discovered:0 "Io... Sto solo facendo dei lavori di ristrutturazione!"
  murder_outcome.4006.a:0 "...Sì, grazie per l'aiuto."
 
@@ -298,7 +298,7 @@ murder_outcome.4006.scheme_unkown: 0 ""Ah, pare che [target.Custom('IT_NAM_COL3'
  murder_outcome.4008.a:0 "La prossima volta i suoi servitori sapranno che non è il caso di immischiarsi!"
 
  murder_outcome.4201.t:0 "Il Sentiero Verso Casa"
-murder_outcome.4201.opening: 0 "\n\n[assassin.Custom('IT_NAM_COL3')][assassin.GetTitledFirstName] [Select_CString(target.IsFemale,'la','lo')] lasciò al suo destino, sol[Select_CString(target.IsFemale,'a','o')] nella natura selvaggia.\n\nTuttavia, al ritorno a corte per comunicare la terribile notizia del fanciullo perduto, [target.GetFirstName] stava già aspettando nella sala e chiese a [assassin.GetFirstName] se potevano giocare ancora!"
+murder_outcome.4201.opening:0 "\n\n[assassin.Custom('IT_NAM_COL3')][assassin.GetTitledFirstName] [Select_CString(target.IsFemale,'la','lo')] lasciò al suo destino, sol[Select_CString(target.IsFemale,'a','o')] nella natura selvaggia.\n\nTuttavia, al ritorno a corte per comunicare la terribile notizia del fanciullo perduto, [target.GetFirstName] stava già aspettando nella sala e chiese a [assassin.GetFirstName] se potevano giocare ancora!"
  murder_outcome.4201.scheme_owner_known:0 "[assassin.GetFirstNameNoTooltip] è stat[assassin.Custom('DE_END_PRO_S_N')] opportunamente interrogat[assassin.Custom('DE_END_PRO_S_N')], e il mio piano rivelato!"
  murder_outcome.4201.scheme_unknown:0 "É sufficiente sapere che [assassin.GetFirstNameNoTooltip] è ora tenuto sotto stretta sorveglianza."
  murder_outcome.4201.a.discovered:0 "Beh... È stato un tentato omicidio, o un tentativo di #EMP misericordia#!?"
@@ -394,7 +394,7 @@ murder_outcome.4201.opening: 0 "\n\n[assassin.Custom('IT_NAM_COL3')][assassin.Ge
  murder_outcome.5002.creepy_crawly_end:0 "Il veleno della creatura si è diffuso con una sensazione di bruciore in tutto il corpo, ma ho chiamato subito il mio medico. É stata un'impresa dolorosa, ma mentre il sole sorgeva, il dolore del veleno cominciava finalmente a scomparire."
  murder_outcome.5002.riled_up_mob:0 "Stavo cavalcando per le strade di [home_province.GetNameNoTier.] quando una folla di contadini urlanti e agitati si è radunata al mio seguito. Per fortuna le mie guardie non hanno esitato ad iniziare ad abbatterli a destra e a manca, mentre io tornavo verso il [ROOT.Char.Custom('ResidenceBuilding')]."
  murder_outcome.5002.bricked:0 "Yesterday I attended some local celebrations in the [home_province.GetName] and spent a delightful evening drunk on merriment and wine.\n\nAs I wake in the morning with a huge hangover and no recollection of where I am and how I got there, I find myself in what appears to be a damp cellar with a freshly built wall #EMP almost#! covering the only exit. Someone meant to bury me here!"
-murder_outcome.5002.poisoned_drink: 0 "Durante la cena un servitore irrompe nella stanza e mi schiaffeggia il calice di mano #EMP proprio#! mentre sto per sorseggiare!\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], è veleno! Una delle sguattere... Perdonala, ne ha assaggiato un sorso e... è... è morta!""
+murder_outcome.5002.poisoned_drink:0 "Durante la cena un servitore irrompe nella stanza e mi schiaffeggia il calice di mano #EMP proprio#! mentre sto per sorseggiare!\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], è veleno! Una delle sguattere... Perdonala, ne ha assaggiato un sorso e... è... è morta!""
  murder_outcome.5002.lured_into_forest:0 "[assassin.GetFirstName] lured me into the forest to play, but then [assassin.GetSheHe] hid and never emerged!\n\nAfter crying, stumbling across branches, and shouting for help until my throat feels raw, I suddenly find my way out of the woods and home to safety."
  murder_outcome.5002.stab_infant:0 "Lights shifting. Familiar faces, unfamiliar faces. Sounds I know, and sounds I don't know. A sharp, cold sound makes my ears ache, and I start crying.\n\nThen I hear a woman sobbing, large and adult. Voices screaming, panicky. Then I am left alone."
  murder_outcome.5002.infant_creepy_crawly:0 "Una morbida coperta sotto di me, e una calda coperta sopra. Mi sto quasi addormentando quando provo una sensazione curiosa, come se qualcosa si muovesse sul mio corpo. Un dolore improvviso mi assale il braccio e inizio a piangere.\n\n Riesco a sentire un uomo, da vicino, e all'improvviso sento molte voci, sollevate in allarme. Mentre le voci si affievoliscono, il dolore al braccio si affievolisce, e presto mi addormento."
@@ -406,7 +406,7 @@ murder_outcome.5002.poisoned_drink: 0 "Durante la cena un servitore irrompe nell
  murder_outcome.5002.beat_to_death_in_dungeon:0 "Quando la porta della mia cella si è aperta, ho osato sperare per un momento di essere liberato. Tuttavia, le figure mascherate che sono entrate hanno presto infranto la mia speranza, e hanno iniziato a picchiarmi ferocemente.\n\n Anche se detesto dirlo, è stato solo l'arrivo accidentale, ma tempestivo, delle mie guardie a salvarmi la vita.."
  murder_outcome.5002.unwelcome_guest_house_arrest:0 "Supposedly an old friend was waiting in my chambers, so I am quite surprised when I am met with a hooded figure — a remarkably unfamiliar and suspicious figure.\n\nTherefore, as soon as a a hidden dagger makes its appearance, I'm ready to run for the door, shouting for the guards. They are waiting just outside the room, so I assume they didn't trust the foreigner either, luckily for me."
  murder_outcome.5002.strangle_incapable:0 "Is the world still out there? I cannot feel time passing. Is that pain in my... chest? Or... throat? Is this even my own body? Is that night falling on the gray clouds of my mind? It is so hard to focus.\n\nAre there presences around me? I cannot hear, but it #EMP feels#! as if someone is shouting. Then, once again, there is only silence."
-murder_outcome.5002.schemer_known: 0 "\n\nSenza dubbio è opera di quell[owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)], [owner_to_reveal.Custom('IT_NAM_COL3')][owner_to_reveal.GetTitledFirstName]!"
+murder_outcome.5002.schemer_known:0 "\n\nSenza dubbio è opera di quell[owner.Custom2('InsultAdjective', ROOT.Char)] [owner.Custom2('InsultNoun', ROOT.Char)], [owner_to_reveal.Custom('IT_NAM_COL3')][owner_to_reveal.GetTitledFirstName]!"
  murder_outcome.5002.will_find_out:0 "Scoprirò chi è stato l'artefice di tutto questo!"
  murder_outcome.5002.revenge_will_be_had:0 "Si pentirà di averlo fatto!"
  murder_outcome.5002.child:0 "Quale adulto sarebbe così crudele?"

@@ -40,7 +40,7 @@
 
  # War Profiteering, by Isabella Welch
  stewardship_wealth.1022.t:0 "Saccheggio Sacro"
-stewardship_wealth.1022.desc: 0 "Il mio [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], [church_burner.GetName] si avvicina a me, porgendomi un resoconto gioioso dal [Select_CString(church_burner.IsFemale,'suo','suo')] seguito:\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], dopo la tua saggia decisione di lasciare a noi la gestione dei fondi di guerra, abbiamo condotto il saccheggio più fruttuoso che [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] abbia mai visto! Abbiamo razziato decine di pecore, trafugato centinaia di gingilli e persino dato alle fiamme [ROOT.Char.GetFaith.HouseOfWorship] con dentro un migliaio di persone!»"
+stewardship_wealth.1022.desc:0 "Il mio [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], [church_burner.GetName] si avvicina a me, porgendomi un resoconto gioioso dal [Select_CString(church_burner.IsFemale,'suo','suo')] seguito:\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], dopo la tua saggia decisione di lasciare a noi la gestione dei fondi di guerra, abbiamo condotto il saccheggio più fruttuoso che [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier] abbia mai visto! Abbiamo razziato decine di pecore, trafugato centinaia di gingilli e persino dato alle fiamme [ROOT.Char.GetFaith.HouseOfWorship] con dentro un migliaio di persone!»"
  stewardship_wealth.1022.a:0 "Le nostre casse ne avevano bisogno... cercate solo di non rifarlo."
  stewardship_wealth.1022.b:0 "Non sarò visto come un macellaio! Li spenderemo in risarcimenti."
  stewardship_wealth.1022.c:0 "Ottimo lavoro! Continueremo a fare come ci aggrada."
@@ -66,7 +66,7 @@ stewardship_wealth.1022.desc: 0 "Il mio [GetPlayer.Custom( 'KnightCultureNoToolt
 
  # Buy some cows, by Linnéa Thimrén
  stewardship_wealth.5001.t:0 "La Fiera delle Fiere"
-stewardship_wealth.5001.desc: 0 "Come pagamento aggiuntivo in un recente scambio mi ritrovo in possesso di una grande mandria di bestiame.\n\nMi hanno assicurato che gli animali sono di altissima qualità, ma resta la questione di cosa farne."
+stewardship_wealth.5001.desc:0 "Come pagamento aggiuntivo in un recente scambio mi ritrovo in possesso di una grande mandria di bestiame.\n\nMi hanno assicurato che gli animali sono di altissima qualità, ma resta la questione di cosa farne."
  stewardship_wealth.5001.a:0 "[capital.GetNameNoTierNoTooltip] prospererà grazie al gregge."
  stewardship_wealth.5001.b:0 "È una bella mandria, ma potrebbe essere più grande..."
  stewardship_wealth.5001.b.message_1:0 "Il mio progetto di allevamento ha avuto successo"
@@ -100,7 +100,7 @@ stewardship_wealth.5001.desc: 0 "Come pagamento aggiuntivo in un recente scambio
 
 #Roadside Stall selling carvings by Daniel Moore
  stewardship_wealth.6001.t:0 "Bancarella sulla Strada"
-stewardship_wealth.6001.desc: 0 "Mentre attraverso il/la [stall_county.Custom('TerrainTypeCountyScope')] della [stall_county.GetName], trovo una bancarella di fortuna a lato del sentiero.\n\nQuando mi fermo a dare un’occhiata, un contadino di nome [stall_owner.GetFirstName] scatta in azione, cercando di convincermi a comprare una delle piccole statuette di [stall_owner.GetFaith.ReligiousSymbol] che [Select_CString(stall_owner.IsFemale,'lei','lui')] ha in vendita.\n\n«Le faccio a mano, [ROOT.Char.Custom('FormOfAddressForLiege')]; ognuna mi richiede ore di lavoro.»"
+stewardship_wealth.6001.desc:0 "Mentre attraverso il/la [stall_county.Custom('TerrainTypeCountyScope')] della [stall_county.GetName], trovo una bancarella di fortuna a lato del sentiero.\n\nQuando mi fermo a dare un’occhiata, un contadino di nome [stall_owner.GetFirstName] scatta in azione, cercando di convincermi a comprare una delle piccole statuette di [stall_owner.GetFaith.ReligiousSymbol] che [Select_CString(stall_owner.IsFemale,'lei','lui')] ha in vendita.\n\n«Le faccio a mano, [ROOT.Char.Custom('FormOfAddressForLiege')]; ognuna mi richiede ore di lavoro.»"
  stewardship_wealth.6001.a:0 "Ne comprerò una."
  stewardship_wealth.6001.a.tt_high:0 "Ottieni una statuetta di alta qualità"
  stewardship_wealth.6001.a.tt_low:0 "Ottieni una statuetta di bassa qualità"
@@ -114,7 +114,7 @@ stewardship_wealth.6001.desc: 0 "Mentre attraverso il/la [stall_county.Custom('T
  stewardship_wealth.7000.t:0 "Amministrazione Disonesta"
  stewardship_wealth.7000.desc:0 "Con gran compiacimento, il mio $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName] sbatte un sacco rigonfio proprio davanti a me.\n\n"Guardate", dice.\n\nIo svuoto immediatamente il suo contenuto sul tavolo: metalli preziosi, cimeli e gingilli.\n\n"Ho #EMP convinto#! alcuni popolani di [victim.GetTitledFirstNamePossessive]" sorride [enforcer.GetFirstNameNoTooltip], "le loro tasse erano destinate a te, mio Signore."\n\nÈ un discreto guadagno! E, ancora meglio, posso solo immaginare lo sguardo segnato d'ira sul volto [victim.Custom('DE_PRO_PER_P_3P_A')] detestabile [victim.GetTitleAsNamePossessiveNoTooltip]."
 
-stewardship_wealth.7000.a: 0 "Guai a [victim.GetFirstNameNoTooltip], [victim.Custom2('InsultAdjective', ROOT.Char)]!"
+stewardship_wealth.7000.a:0 "Guai a [victim.GetFirstNameNoTooltip], [victim.Custom2('InsultAdjective', ROOT.Char)]!"
  stewardship_wealth.7000.b:0 "Posso giustificare questa esazione."
  stewardship_wealth.7000.b.tt:0 "Capro espiatorio, confondere la verità, piccoli rimborsi: qualsiasi cosa pur di smorzare le accuse di tirannia"
  stewardship_wealth.7000.c:0 "Prendete questo gioiello in premio e portatemene di più."
@@ -135,7 +135,7 @@ stewardship_wealth.7000.a: 0 "Guai a [victim.GetFirstNameNoTooltip], [victim.Cus
  stewardship_wealth.7001.b.tt:0 "Esenta le vittime di [thieving_rival.GetFirstNameNoTooltip] dalla tassazione"
 
  stewardship_wealth.2000.t:0 "Valutando le Opportunità"
-stewardship_wealth.2000.desc: 0 "Cammino per le strade di [loc_capital_county.GetNameNoTier] con il mio [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], in cerca di occasioni per rimpinguare un tesoro un po’ vuoto. Quando raggiungiamo le sale di pesatura del mercato, [loc_steward.GetFirstName] prende a parlare a voce bassa:\n\n«Possiamo ottenere più entrate in silenzio, se diventiamo… #EMP creativi #!con le imposte sulle merci portate qui. Posso procurare un altro set di pietre da bilancia, lievemente ritoccate nel peso, ma identiche nell’aspetto. Così, per le stesse merci, i mercanti ci pagheranno di più! Nessuno dovrebbe sospettare nulla!\n\nSe lo desideri, possiamo cambiare i pesi e guardare il denaro fluire nei tuoi forzieri!»"
+stewardship_wealth.2000.desc:0 "Cammino per le strade di [loc_capital_county.GetNameNoTier] con il mio [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], in cerca di occasioni per rimpinguare un tesoro un po’ vuoto. Quando raggiungiamo le sale di pesatura del mercato, [loc_steward.GetFirstName] prende a parlare a voce bassa:\n\n«Possiamo ottenere più entrate in silenzio, se diventiamo… #EMP creativi #!con le imposte sulle merci portate qui. Posso procurare un altro set di pietre da bilancia, lievemente ritoccate nel peso, ma identiche nell’aspetto. Così, per le stesse merci, i mercanti ci pagheranno di più! Nessuno dovrebbe sospettare nulla!\n\nSe lo desideri, possiamo cambiare i pesi e guardare il denaro fluire nei tuoi forzieri!»"
  stewardship_wealth.2000.a:0 "Sostituiremo le pietre questa notte stessa."
  stewardship_wealth.2000.a.tt.success:0 "Le pietre vengono sostituite senza che nessuno se ne accorga"
  stewardship_wealth.2000.a.tt.failure:0 "Il tuo complotto viene scoperto"
