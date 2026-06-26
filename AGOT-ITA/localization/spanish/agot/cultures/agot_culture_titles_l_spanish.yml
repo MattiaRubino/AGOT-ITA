@@ -20,6 +20,8 @@ lord_paramount:0 "Lord Protettore"
 lady_paramount:0 "Lady Protettrice"
 lord_non_paramount:0 "Lord"
 lady_non_paramount:0 "Lady"
+landed_knight_warden: 0 "Custode"
+landed_knight_master: 0 "Maestro"
 princess_mother:0 "Principessa Madre"
 queen_mother_default:0 "Regina Madre"
 empress_mother_default:0 "Imperatrice Madre"
@@ -45,6 +47,14 @@ king_claimant_feudal_laamp_female_default:0 "Regina"
 emperor_blackfyre_rebellion_male:0 "Re"
 emperor_blackfyre_rebellion_female:0 "Regina"
 empire_blackfyre_rebellion:0 "Regno"
+
+ # Landed Knights
+landed_knight_male_knight_duchy: 0 "Ser"
+landed_knight_male_duchy: 0 "Custode"
+landed_knight_male_knight_county: 0 "Ser"
+landed_knight_male_county: 0 "Custode"
+landed_knight_male_barony_ser: 0 "Ser"
+landed_knight_male_barony_master: 0 "Maestro"
 
  #Overrides
  barony_override_male:0 "$AGOT_FULL_TITLE_OVERRIDE$"
@@ -136,9 +146,17 @@ hegemony_pirate:0 "Impero Pirata"
   prince_admiral:0 "Principe-Ammiraglio"
   princess_admiral:0 "Principessa-Ammiraglio"
 
- #Wolfswood Clansman Master Title
-  wolfswood_clansman_master_male:0 "Maestro"
-  wolfswood_clansman_master_female:0 "Maestra"
+ #Wolfswood Clansman Master Titles
+wolfswood_clansman_master_male_duchy: 0 "Maestro"
+wolfswood_clansman_master_female_duchy: 0 "Maestra"
+wolfswood_clansman_master_male_county: 0 "Maestro"
+wolfswood_clansman_master_female_county: 0 "Maestra"
+
+ #Ironborn Master Title
+ironborn_master_male_duchy: 0 "Maestro"
+ironborn_master_female_duchy: 0 "Maestra"
+ironborn_master_male_county: 0 "Maestro"
+ironborn_master_female_county: 0 "Maestro"
 
  #Riverlands
   e_the_riverlands_old:0 "I Fiumi e le Colline"
@@ -156,12 +174,15 @@ emperor_female_beyond_the_wall:0 "Regina oltre la Bariera"
  #King Flavourisation
   king_stormlands:0 "Re della Tempesta"
   queen_stormlands:0 "Regina della Tempesta"
+queen_stormland_spouse: 0 "Regina della Tempesta"
   king_north:0 "Re"
   queen_north:0 "Regina"
+queen_north_spouse: 0 "Regina"
   good_queen:0 "'Buona Regina'"
   bad_queen:0 "'Regina Cattiva'"
   king_riverlands:0 "Re dei Fiumi"
   queen_riverlands:0 "Regina dei Fiumi"
+queen_riverlands_spouse: 0 "Regina dei Fiumi"
   king_wall:0 "Re della Notte"
   queen_wall:0 "Regina della Notte"
 

@@ -77,7 +77,7 @@
   agot_hatching_success_guest:0 "[host.GetName] ha avuto successo nella schiusura del suo uovo di drago!"
   agot_hatching_fail:0 "Il tuo uovo di drago non si è schiuso."
   agot_hatching_fail_guest:0 "[host.GetName] non è riuscito a schiudere il suo uovo di drago."
-  hatching_cannot_be_held:0 "A causa degli eventi attuali, un'attività di schiusura non può essere tenuta fino al 1° del Dodicesimo Mese, 268 A.C."
+hatching_cannot_be_held: 0 "A causa degli eventi attuali, non è possibile tenere un'attività di schiusa fino al 1º giorno della Dodicesima Luna, 268 A.C."
 
  # Events
   agot_dragon_hatching.0001.t:0 "Preparativi"
@@ -530,7 +530,7 @@
   agot_dragon_egg_cradling.2012.a.tt:0 "[child_1.GetNameNoTooltip] inizierà a crescere con il [my_egg.GetName]. [child_2.GetNameNoTooltip] inizierà a crescere con il [parent_two_egg.GetName]."
   agot_dragon_egg_cradling.2012.b:0 "Io fornirò un uovo a [child_2.GetNameNoTooltip], [other_parent.GetTitledFirstNameNoTooltip] a [child_1.GetNameNoTooltip]."
   agot_dragon_egg_cradling.2012.b.tt:0 "[child_1.GetNameNoTooltip] inizierà a crescere con il [parent_two_egg.GetName]. [child_2.GetNameNoTooltip] inizierà a crescere con il [my_egg.GetName]."
-  agot_dragon_egg_cradling.2012.c:0 "Nessuno dei due riceverà un uovo."
+agot_dragon_egg_cradling.2012.c: 0 "Nessuno dei due riceverà un uovo."
 
   agot_dragon_egg_cradling.child_cradle_title:0 "[child.GetName] Inizia a Crescere con un Uovo"
   agot_dragon_egg_cradling.child_cradle_desc:0 "[child.GetNameNoTooltip] ha iniziato a crescere con un uovo di [spouse.GetTitledFirstName]."
@@ -550,7 +550,7 @@
   agot_dragon_egg_cradling_birth.0004.a:0 "Chi è un bravo [dragon.Custom('DragonGirlBoy')]?"
 
   agot_dragon_egg_cradling_birth.0010.t:0 "[dragon.GetNameNoTooltip], il Drago"
-  agot_dragon_egg_cradling_birth.0010.desc.intro:0 "L'uovo che [child.GetNamePossessive] ha cullato si è finalmente schiuso! [child.GetNameNoTooltip] e il suo drago [dragon.Custom('GetDragonColorFull')] sono inseparabili, ed è tutto ciò di cui [child.GetSheHe] parla."
+agot_dragon_egg_cradling_birth.0010.desc.intro: 0 "L'uovo che [child.GetNamePossessive] cullava si è finalmente schiuso! [child.GetNameNoTooltip] e il suo drago [dragon.Custom('GetDragonColorFull')] sono divenuti inseparabili, e [Select_CString(child.IsFemale,'lei','lui')] non parla d'altro."
   agot_dragon_egg_cradling_birth.0010.desc.child:0 "Oggi [child.GetNameNoTooltip], mi[child.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))], ha fatto una dichiarazione sorprendente. Mentre parlavamo del drago, [child.GetSheHe] ha audacemente interrotto con '#italic il suo nooome#! è [dragon.GetName]!' "
   agot_dragon_egg_cradling_birth.0010.desc.courtier:0 "Oggi [child.GetNameNoTooltip], il mio cortigiano, ha fatto una dichiarazione sorprendente. Mentre parlavamo del drago con il bambino, [child.GetSheHe] ha audacemente interrotto con '#italic il suo nooome#! è [dragon.GetName]!' "
   agot_dragon_egg_cradling_birth.0010.a:0 "[dragon.GetNameNoTooltip], che nome appropriato."

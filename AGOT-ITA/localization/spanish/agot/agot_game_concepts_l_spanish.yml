@@ -25,6 +25,11 @@
   game_concept_agot_legitimate_house_iron_price:0 "Il Prezzo del Ferro"
   game_concept_agot_legitimate_house_iron_price_desc:0 "Gli Uomini di Ferro credono che solo chi ha la forza per prendere una corona meriti di indossarla. Danno meno peso alle antiche stirpi del continente, e si affezionano a una nuova [agot_legitimate_house|E] più rapidamente rispetto ad altri regni."
 
+ ## Landed Knights
+game_concept_agot_landed_knight: 0 "Piccola Nobiltà Terriera"
+game_concept_agot_landed_knights: 0 "Piccola Nobiltà Terriera"
+game_concept_agot_landed_knight_desc: 0 "La $game_concept_agot_landed_knights$ è composta da [characters|E] che detengono una rocca e le terre a essa annesse al servizio del loro signore [liege|E]. Sebbene la loro posizione sia ereditaria, e la $game_concept_agot_landed_knights$ possa comandare i propri contadini e uomini d'arme, essi restano il rango più basso della nobiltà di Westeros — non proprio lord — e spesso soffrono della mancanza di [prestige|E] che accompagna tale condizione.\n\nNon hanno il diritto di giustiziare prigionieri senza il permesso del loro signore, e sono spesso trascurati nei matrimoni a favore della nobiltà superiore.\n\nNel Nord e nelle Isole di Ferro, sono più comunemente noti come 'Maestro'. Nel sud, sono di solito chiamati 'Ser', o 'Custode' se privi di cavalleria formale."
+
  ## Kingsguard
   game_concept_lord_commander:0 "Comandante della Guardia Reale"
   game_concept_lord_commander_desc:0 "Il $game_concept_lord_commander$ è il [councillor|E] responsabile della difesa personale della famiglia reale, guidando un piccolo contingente di [knights|E] d'élite che li proteggono con la loro vita."
@@ -97,7 +102,7 @@ game_concept_additional_settlement_upkeep_desc: "Il Mantenimento Aggiuntivo indi
   game_concept_bastard_branch:0 "Ramo Bastardo"
   game_concept_bastard_houses:0 "Rami Bastardi"
   game_concept_bastard_branches:0 "Rami Bastardi"
-  game_concept_bastard_house_desc:0 "I membri [bastard|E] creano la propria [house|E] quando hanno prole. Tali rami secondari funzionano come [cadet_branches|E], agendo come un ramo separato all'interno della più grande dinastia."
+game_concept_bastard_house_desc: 0 "I membri [bastard|E] creano la propria [house|E] quando hanno discendenza. Tali casate derivate funzionano come [cadet_branches|E] — agendo come un ramo separato all'interno della dinastia più ampia."
 
   game_concept_reaving:0 "Razzia"
   game_concept_reaving_desc:1 "Un'[activity|E] in cui i governanti intraprendono una spedizione per saccheggiare una costa vicina.\n\nLo scopo principale di questa attività è saccheggiare [gold|E].\n\nUn [ruler|E] inviterà i suoi parenti stretti, [courtiers|E], [guests|E] e [vassals|E]."
@@ -331,7 +336,7 @@ game_concept_agot_spoils_of_war_desc: "$game_concept_agot_spoils_of_war$ è un e
 game_concept_agot_mega_wars: "Megaguerra"
 game_concept_agot_mega_wars_desc: "Una megaguerra è un conflitto su vasta scala all'interno di un grande reame, e può essere di gravità minore o maggiore: i possenti imperi cadranno in una guerra [Concept('agot_major_mw', 'major')|E], mentre altri precipiteranno in una [Concept('agot_minor_mw', 'minor')|E]. L'impatto della guerra è considerato così severo che ogni partecipante deve scegliere una fazione o, se si tratta di una guerra [Concept('agot_major_mw', 'major')|E], restare neutrale.\nAlla fine della guerra, la fazione vincitrice ottiene opzioni più ampie riguardo alla punizione degli sconfitti."
 game_concept_agot_major_mw: "Megaguerra Maggiore"
-game_concept_agot_major_mw_desc: "In una [Concept('agot_mega_wars', 'Megaguerra')|E] maggiore, il reame viene diviso in tre tipi di partecipanti: [Concept('agot_loyalists', 'Lealisti')|E], [Concept('agot_neutrals', 'Neutrali')|E], [Concept('agot_rebels', 'Ribelli')|E].\nDurante la guerra, i neutrali possono comunque scegliere una fazione e non sono vincolati alla loro decisione iniziale."
+game_concept_agot_major_mw_desc: 0 "In una grande [Concept('agot_mega_wars', 'Mega Guerra')|E] il reame viene diviso in tre tipi di partecipanti: [Concept('agot_loyalists', 'Lealisti')|E], [Concept('agot_neutrals', 'Neutrali')|E], [Concept('agot_rebels', 'Ribelli')|E].\nDurante la guerra, i neutrali potrebbero comunque scegliere una fazione e non sono vincolati alla loro decisione iniziale."
 game_concept_agot_minor_mw: "Megaguerra Minore"
 game_concept_agot_minor_mw_desc: "In una [Concept('agot_mega_wars', 'Megaguerra')|E] minore, il reame viene diviso soltanto in due tipi di partecipanti: [Concept('agot_loyalists', 'Lealisti')|E] e [Concept('agot_rebels', 'Ribelli')|E]."
 game_concept_agot_loyalists: "Lealisti"

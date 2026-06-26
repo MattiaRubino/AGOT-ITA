@@ -1,9 +1,9 @@
 ﻿l_spanish:
   nw_petition_supplies_army_mod: "Confratelli Ben Riforniti"
   nw_petition_supplies_normal_mod: "Avamposti Minori Ben Riforniti"
-  nw_petition_persuation_succeds: "Riesci a persuadere [nw_petition_target.GetTitledFirstNameNoTooltip]"
+nw_petition_persuasion_succeeds: "Riesci a persuadere [nw_petition_target.Custom('IT_NAM_COL4')][nw_petition_target.GetTitledFirstNameNoTooltip]"
   nw_petition_persuasion_fail: "Non riesci a persuadere [nw_petition_target.GetTitledFirstNameNoTooltip]"
-  nw_petition_persuation_player_target: "Tenterai di persuadere [nw_petition_target.GetTitledFirstName]"
+nw_petition_persuasion_player_target: "Tenterai di persuadere [nw_petition_target.Custom('IT_NAM_COL4')][nw_petition_target.GetTitledFirstName]"
 
  # NIGHTSWATCH ENVOY START
   agot_nw_petition_events.01.t:0 "Un Emissario ai Sette Regni"
@@ -130,7 +130,7 @@ agot_nw_petition_events.1002.desc.c: "Uno strano viandante giunge alla mia corte
   agot_nw_petition_events.1002.b:0 "Hm, potrei accettare... se i Guardiani possono soddisfare una mia richiesta."
   nw_ruler_select_condition:0 "Accetti la supplica dei Guardiani della Notte, con riserva."
   agot_nw_petition_events.1002.c:0 "Har! Chiedete aiuto per tenere d'occhio snark e grumkin?"
-  nw_ruler_petition_inital_reject:0 "Rifiuti la supplica dei Guardiani della Notte."
+nw_ruler_petition_initial_reject: 0 "Respingi la petizione dei Guardiani della Notte."
 
   agot_nw_petition_events.1003.t:0 "Un Emissario dei Guardiani della Notte"
   agot_nw_petition_events.1003.desc:0 ""Benché sia onorato di ospitare un fratello dei Guardiani della Notte, davvero," inizio con un sorriso furbo. "Uno come te deve sapere il peso di ciò che chiedi. Perché altrimenti il Lord Comandante avrebbe mandato un emissario invece che un corvo?"\n\nA quelle parole, [nw_petition_envoy.GetTitledFirstName] sembra comprendere il senso. "Se dovessi accettare questa supplica dei Guardiani della Notte, avrei bisogno di #italic qualcosa#! in cambio...""

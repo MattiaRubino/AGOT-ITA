@@ -427,7 +427,7 @@
  ###########################
 
  ## Rhaegar can decide who he marries on his own
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0300.t:0 "Il Futuro della Casa Targaryen"
   agot_scenario_dd.0300.desc.start:0 "Con mio padre e Tywin scomparsi, spetta a me decidere le migliori alleanze per proteggere la nostra casa. Devo sposarmi, anche se non è una decisione da prendere alla leggera. Sto per scegliere una Regina per i Sette Regni; devo considerare attentamente questa scelta.\n\n"
  # Each option alone
@@ -474,7 +474,7 @@
  ############################
 
  ## Tywin asks Rhaegar to marry Cersei
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0301.t:0 "$agot_scenario_dd.0300.t$"
   agot_scenario_dd.0301.desc:0 "La pressione su di me affinché mi sposi è già iniziata. [tywin.GetTitledFirstName] mi ha offerto sua figlia come sposa. Nessuno potrebbe negare la sua bellezza, né la forza della Casa Lannister, anche se c'è un'ambizione fredda nei suoi occhi che mi dà incubi di un regno in fiamme."
 
@@ -484,7 +484,7 @@
   agot_scenario_dd.0301.b.tt:0 "Cercherai un'altra sposa."
 
  ## Rhaegar can decide who he marries after refusing Tywin
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0302.t:0 "$agot_scenario_dd.0300.t$"
   agot_scenario_dd.0302.desc.start:0 "Avendo rifiutato l'offerta di Tywin, devo trovare un'altra sposa. Devo considerare bene la mia scelta.\n\n"
   agot_scenario_dd.0302.desc.finish:0 "\n\nCome dovrei decidere?"
@@ -503,7 +503,7 @@
  ############################
 
  ## Aerys can decide who Rhaegar marries on his own
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0305.t:0 "$agot_scenario_dd.0300.t$"
   agot_scenario_dd.0305.desc.start:0 "Con Tywin fuori dai giochi, sono libero dai suoi intrighi e piani. Posso scegliere un matrimonio per [bachelor.GetTitledFirstName] che si adatti ai miei desideri. Ora non resta che fare la scelta.\n\n"
  # Each option alone
@@ -550,7 +550,7 @@
  #############################
 
  ## Tywin asks Aerys to marry Rhaegar to Cersei
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0310.t:0 "$agot_scenario_dd.0300.t$"
   agot_scenario_dd.0310.desc:0 "Chi dovrei far sposare a [bachelor.GetTitledFirstName]? [tywin.GetTitledFirstName] desidera unire le nostre case, offrendo sua figlia [cersei.GetName] in matrimonio a mio figlio. Con tutto ciò che è accaduto, non posso fare a meno di temere che stia tramando di usurparmi. Piazzare sua figlia accanto al prossimo re prima di sbattermi fuori dalla porta.\n\nTuttavia, devo considerare seriamente la sua proposta."
 
@@ -560,7 +560,7 @@
   agot_scenario_dd.0310.b.tt:0 "Rhaegar cercherà un'altra sposa."
 
  ## Aerys can decide who Rhaegar marries after refusing Tywin
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)
   agot_scenario_dd.0311.t:0 "$agot_scenario_dd.0300.t$"
   agot_scenario_dd.0311.desc.start:0 "Ora che ho rifiutato la richiesta di [tywin.GetTitledFirstNamePossessive], dovrò trovare un'altra sposa per [bachelor.GetTitledFirstName].\n\n"
   agot_scenario_dd.0311.desc.finish:0 "\n\nDevo decidere presto."
@@ -573,7 +573,7 @@
   agot_scenario_dd.0311.d.tt:0 "Troverai un altro coniuge per il tuo erede."
 
  ## Rhaegar can decide if he agrees to the chosen spouse
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)/bachelorette
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)/bachelorette
   agot_scenario_dd.0315.t.c:0 "La Leonessa e il Drago"
   agot_scenario_dd.0315.t.l:0 "La Lupa del Nord"
   agot_scenario_dd.0315.t.e:0 "Il Sole e la Lancia"
@@ -601,7 +601,7 @@
   agot_scenario_dd.0315.e.tt:0 "Sfiderai tuo padre e cercherai da solo una consorte"
 
  ## Aerys gets the news that Rhaegar thinks his choice is bad and he should feel bad
- # availabe scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)/bachelorette
+ # available scopes: tywin/cersei/lyanna/elia/ashara/bachelor(to be betrothed)/bachelorette
   agot_scenario_dd.0316.t:0 "Il Principe Ribelle"
 
   agot_scenario_dd.0316.desc:0 "Notizie giungono da Roccia del Drago; mio figlio Rhaegar ha rifiutato il fidanzamento che avevo negoziato con cura con [bachelorette.GetName]. Non solo è un grave insulto alla promessa sposa e alla sua Casa, ma anche una palese sfida alla mia volontà di re. Già lo sospettavo di tramare contro di me, forse persino di volere il trono… e con questa ribellione, il sospetto si fa certezza.\n\nNon posso fare altro che accettare la sua decisione… e tenerlo d’occhio."

@@ -15,3 +15,10 @@
   agot_dragonstone.0008.desc:0 "Per consuetudine e per diritto, l’erede al Trono di Spade deve prima temprarsi a Roccia del Drago. Oggi, quel manto passa a [heir.GetFirstName], che ora governa come [heir.Custom('GetPrincessPrince')] di Roccia del Drago, come fecero coloro che vennero prima di lui. Un assaggio di comando, un presagio di ciò che l’attende — un giorno, quando il mio tempo sarà giunto al termine, [heir.GetSheHe] erediterà più di questo antico seggio; [heir.GetSheHe] erediterà il reame intero.\n\nGli occhi della corte ora si volgono verso di lui, scrutando e giudicando. Dimostrerà [heir.GetSheHe] di essere degno del fardello che un giorno dovrà portare?"
   agot_dragonstone.0008.a:0 "Il suo cammino è tracciato — sarà il tempo a rivelare il resto."
   agot_dragonstone.0008.b:0 "Mi chiedo che tipo di sovrano diventerà."
+
+agot_dragonstone.0009.t: 0 "Diseredat[Select_CString(ROOT.Char.IsFemale,'a','o')]"
+agot_dragonstone.0009.desc: 0 "[monarch.GetName] ha emanato un decreto reale che mi disereda!\n\nA peggiorare le cose, [Select_CString(monarch.IsFemale,'lei','lui')] mi ha ordinato di restituire Roccia del Drago alla corona, poiché appartiene all'erede del Trono di Spade."
+agot_dragonstone.0009.a: 0 "[Select_CString(monarch.IsFemale,'Lei','Lui')] può tenersi Roccia del Drago, ma sarò io a decidere il mio destino."
+agot_dragonstone.0009.b: 0 "Che umiliazione. Devo obbedire e tornare a corte."
+agot_dragonstone.0009.c: 0 "Ora devo affrontare le conseguenze dell'essere stat[Select_CString(ROOT.Char.IsFemale,'a','o')] diseredat[Select_CString(ROOT.Char.IsFemale,'a','o')]."
+agot_dragonstone.0009.c_tt: 0 "@warning_icon! #warning Questo porterà a una fine della partita!#!"

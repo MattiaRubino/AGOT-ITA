@@ -91,6 +91,21 @@
   agot_stripped_knighthood_desc_second_perspective_1:0 "Hai privato [knight.GetTitledFirstName] del suo Cavalierato come punizione"
   agot_stripped_knighthood_desc_third_perspective_1:0 "[owner.GetName] ha privato [knight.GetTitledFirstName] del suo Cavalierato come punizione"
 
+agot_was_stripped_of_lordship: 0 "È stat[Select_CString(CHARACTER.IsFemale,'a','o')] privat[Select_CString(CHARACTER.IsFemale,'a','o')] della signoria"
+agot_was_stripped_of_lordship_desc_1: 0 "Sono stat[Select_CString(ROOT.Char.IsFemale,'a','o')] privat[Select_CString(ROOT.Char.IsFemale,'a','o')] della mia signoria da [STRIPPER.Custom('IT_NAM_COL5')][STRIPPER.GetTitledFirstName]"
+agot_was_stripped_of_lordship_desc_second_perspective_1: 0 "Sei stat[Select_CString(ROOT.Char.IsFemale,'a','o')] privat[Select_CString(ROOT.Char.IsFemale,'a','o')] della tua signoria da [STRIPPER.Custom('IT_NAM_COL5')][STRIPPER.GetTitledFirstName]"
+agot_was_stripped_of_lordship_desc_third_perspective_1: 0 "[owner.GetName] è stat[Select_CString(owner.IsFemale,'a','o')] privat[Select_CString(owner.IsFemale,'a','o')] della signoria da [STRIPPER.Custom('IT_NAM_COL5')][STRIPPER.GetTitledFirstName]"
+
+agot_stripped_lordship: 0 "Ha privato un altro della signoria"
+agot_stripped_lordship_desc_1: 0 "Ho privato [LORD.Custom('IT_NAM_COL4')][LORD.GetTitledFirstName] della sua signoria"
+agot_stripped_lordship_desc_second_perspective_1: 0 "Hai privato [LORD.Custom('IT_NAM_COL4')][LORD.GetTitledFirstName] della sua signoria"
+agot_stripped_lordship_desc_third_perspective_1: 0 "[owner.GetName] ha privato [LORD.Custom('IT_NAM_COL4')][LORD.GetTitledFirstName] della sua signoria"
+
+agot_was_granted_a_lordship: 0 "Ha ricevuto una signoria"
+agot_was_granted_a_lordship_desc_1: 0 "Ho ricevuto una signoria da [LORD.Custom('IT_NAM_COL5')][LORD.GetTitledFirstName]"
+agot_was_granted_a_lordship_desc_second_perspective_1: 0 "Hai ricevuto una signoria da [LORD.Custom('IT_NAM_COL5')][LORD.GetTitledFirstName]"
+agot_was_granted_a_lordship_desc_third_perspective_1: 0 "[owner.GetName] ha ricevuto una signoria da [LORD.Custom('IT_NAM_COL5')][LORD.GetTitledFirstName]"
+
   agot_joined_nightswatch:0 "Entrato nei Guardiani della Notte"
   agot_joined_nightswatch_desc_1:0 "Sono stato reclutato  nei Guardiani della Notte sotto il comando di [commander.GetTitledFirstName]"
   agot_joined_nightswatch_desc_second_perspective_1:0 "Sono stato reclutato nei Guardiani della Notte sotto il comando di [commander.GetTitledFirstName]"

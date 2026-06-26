@@ -40,7 +40,8 @@ pirates_must_use_decision_to_colonize:0 "I Pirati senza Terre devono usare la [d
 
  ##Return Settlement Holding to Wilderness
   return_settlement_county_to_wilderness:0 "Abbandonare questo [settlement_holding|E]"
-  return_settlement_county_to_wilderness_desc:0 "Distruggi tutti gli [buildings|E] in questo [holding|E] e riconvertilo in un [wilderness_holding|E]."
+return_settlement_county_to_wilderness_desc_one_province: 0 "Restituisci questo [holding|E] a [wilderness_holding|E], distruggendo tutti gli [buildings|E]."
+return_settlement_county_to_wilderness_desc: 0 "Restituisci questa [county|E] a [wilderness_holding|E], distruggendo tutti gli [buildings|E] e le baronie aggiuntive."
   return_settlement_county_to_wilderness_notification:0 "[settlement_holding|E] abbandonato"
 return_settlement_to_wilderness_cannot_be_your_primary_title: "Non può essere il tuo [primary_title|E]"
 
@@ -51,7 +52,8 @@ return_settlement_to_wilderness_cannot_be_your_primary_title: "Non può essere i
 
  ##Colonize Pirate Den Holding
   colonize_pirate_den_interaction:0 "Colonizzare"
-  colonize_pirate_den_interaction_desc:0 "Distruggi tutti gli [buildings|E] in questo [holding|E] e convertilo in un [settlement_holding|E]."
+colonize_pirate_den_interaction_desc: 0 "Distruggi tutti gli [buildings|E] in tutti gli [holdings|E] di questa contea e convertili in [settlement_holdings|E]."
+colonize_pirate_den_interaction_desc_one_province: 0 "Distruggi tutti gli [buildings|E] in questa baronia e convertila in un [settlement_holding|E]."
   colonize_pirate_den_interaction_notification:0 "Possedimento colonizzato"
 
   support_colonize_pirate_den_interaction:0 "Aiutare la colonizzazione"
@@ -73,6 +75,7 @@ county_must_be_coastal:0 "La contea di questo possedimento dev'essere costiera"
   two_or_fewer_blockers_remain_in_settlement:0 "In questo [settlement_holding|E] restano più di due [colonization_blockers|E]"
   has_fully_upgraded_settlement_holding:0 "L'[building|E] del [settlement_holding|E] non è completamente potenziato"
   NOT_MUST_NOT_HAVE_BLOCKERS_TRIGGER:0 "La provincia contiene uno o più [colonization_blockers|E]"
+capital_province_is_settlement: 0 "La [county_capital|E] è un [settlement|E]"
 
   settlement_holding_limit:0 "#size:18 #bold [ongoing_colonies|E]: [Character.MakeScope.Var('num_settled_wilderness').GetValue]/[Character.MakeScope.ScriptValue('settlement_title_tier_limit')] [holdings|E]#!#!\nInsediamento: [Character.MakeScope.Var('num_settled_wilderness').GetValue]\n\n#size:16 #italic [settlement_holding_limit|E]: #high [Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!#!#!\n[title_tier|E] principale: #P +[Character.MakeScope.ScriptValue('settlement_title_tier_limit')]#!"
 

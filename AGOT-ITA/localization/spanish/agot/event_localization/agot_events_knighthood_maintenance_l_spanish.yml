@@ -74,9 +74,9 @@ agot_knighthood_maintenance.0501.opening:0 "[my_relation.Custom2('AppropriateGre
   agot_knighthood_maintenance.0501.a:0 "Molto bene..."
 
   agot_knighthood_maintenance.0550.t:0 "Lo Scudiero Torna a Casa"
-  agot_knighthood_maintenance.0550.desc:0 "Ho richiamato mio figlio, [cancelled_squire_child.GetUIName], dall'istruzione di [childs_knight.GetUINamePossessive].\n\nPertanto, è giunto il momento per [cancelled_squire_child.GetUIName] di smettere di essere uno scudiero."
+agot_knighthood_maintenance.0550.desc: 0 "Ho richiamato mi[Select_CString(cancelled_squire_child.IsFemale,'a figlia','o figlio')], [cancelled_squire_child.GetUIName], dalla tutela di [childs_knight.GetUINamePossessive].\n\nPertanto, è tempo che [cancelled_squire_child.GetUINameNoTooltip] smetta di essere scudiero."
   agot_knighthood_maintenance.0550.a:0 "Cesseranno di essere uno scudiero, almeno per ora."
 
   agot_knighthood_maintenance.0551.opening:0 "Al cavaliere di mio figlio,"
-  agot_knighthood_maintenance.0551.desc:0 "Per questioni legate alla mia casa, devo richiamare [cancelled_squire_child.GetName] alla mia corte, cancellando così la tua istruzione cavalleresca su di loro."
+agot_knighthood_maintenance.0551.desc: 0 "Per questioni vicine alla mia casa, devo richiamare [cancelled_squire_child.GetName] alla mia corte, ponendo così fine alla tua tutela cavalleresca nei suoi confronti."
   agot_knighthood_maintenance.0551.a:0 "È un peccato."

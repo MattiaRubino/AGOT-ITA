@@ -628,9 +628,13 @@ building_agot_amber_collection_08_desc:1 "Questo luogo serve da una delle capita
  building_agot_dragonmont_01_desc:0 "$building_type_agot_dragonmont_01_desc$"
 
  building_type_agot_spicetown_01:0 "Spicetown"
- building_type_agot_spicetown_01_desc:0 "Una volta il cuore di Driftmark, Spicetown era seconda solo ad Approdo del Re come principale porto della Baia delle Acque Nere."
+building_type_agot_spicetown_01_desc: 0 "Cuore finanziario di Driftmark, Città delle Spezie rivaleggia con tutte le più grandi città di Westeros, salvo le maggiori, per commercio e prosperità."
  building_agot_spicetown_01:0 "Porto del Serpente del Mare"
  building_agot_spicetown_01_desc:0 "Sotto Corlys Velaryon il porto di Spicetown superò Duskendale e tutti gli altri porti della Baia delle Acque Nere, escluso Approdo del Re. Navi provenienti da tutta Westeros, dalle Città Libere e persino dalle Porte di Giada possono essere trovate lì."
+ building_type_agot_spicetown_generic_01:0 "$building_type_agot_spicetown_01$"
+ building_type_agot_spicetown_generic_01_desc:0 "$building_type_agot_spicetown_01_desc$"
+building_agot_spicetown_generic_01: 0 "Porto delle Spezie"
+building_agot_spicetown_generic_01_desc: 0 "Cercando di superare ogni altro porto della Baia delle Acque Nere, i signori di Driftmark hanno costruito un grande porto destinato a cercare le spezie dell'estremo oriente oltre le Porte di Giada."
  building_type_agot_ruins_spicetown_01:0 "$building_type_agot_spicetown_01$"
  building_type_agot_ruins_spicetown_01_desc:0 "$building_type_agot_spicetown_01_desc$"
  building_agot_ruins_spicetown_01:0 "Rovine di Spicetown"
@@ -641,7 +645,7 @@ building_agot_amber_collection_08_desc:1 "Questo luogo serve da una delle capita
  building_type_agot_hightide_01:0 "Alta Marea"
  building_type_agot_hightide_01_desc:0 "La nuova sede della Casa Velaryon, da qui il Signore delle Maree porterà prosperità a Driftmark."
  building_agot_hightide_01:0 "Sala delle Maree"
- building_agot_hightide_01_desc:0 "Quando la Casa Velaryon trasferì la propria sede, non badò a spese. Tetti di argento battuto, alte torri e una sala grandiosa quanto qualsiasi altra nel regno. Nessuno può dubitare della prosperità di Driftmark e dei suoi padroni dopo averla vista."
+building_agot_hightide_01_desc: 0 "Cercando una dimora più grandiosa, i signori di Driftmark non hanno badato a spese per la Sala delle Maree. Tetti d'argento battuto, alte torri e una sala grande quanto qualsiasi altra nel reame. Nessuno può dubitare della prosperità di Driftmark e dei suoi padroni dopo averla vista.""
  building_type_agot_ruins_hightide_01:0 "Alta Marea"
  building_type_agot_ruins_hightide_01_desc:0 "L'altra sede della Casa Velaryon su Driftmark, costruita da Corlys Velaryon, fu distrutta dalla Triarchia durante la Danza."
  building_agot_ruins_hightide_01:0 "Rovine di Alta Marea"
@@ -731,6 +735,10 @@ building_agot_amber_collection_08_desc:1 "Questo luogo serve da una delle capita
  building_agot_bitterbridge_01_desc:0 "Il Ponte di Pietra della Casa Caswell è da lungo tempo un punto focale economico, essendo il principale modo per attraversare il Mander se non si desidera utilizzare barche."
  building_agot_bitterbridge_02:0 "Pontedolce"
  building_agot_bitterbridge_02_desc:0 "Nella Rivolta dei Militanti della Fede, la Battaglia del Ponte di Pietra fu così terribile che il Mander scorreva rosso di sangue, e le inimicizie create quel giorno fecero sì che tutti coloro che vi combatterono si riferissero al ponte con un nuovo nome; il Pontedolce."
+ building_type_agot_bitterbridge_original_01:0 "$building_type_agot_bitterbridge_01$"
+ building_type_got_bitterbridge_original_01_desc:0 "$building_type_agot_bitterbridge_01_desc$"
+ building_got_bitterbridge_original_01:0 "$building_agot_bitterbridge_01$"
+ building_got_bitterbridge_original_01_desc:0 "$building_agot_bitterbridge_01_desc$"
 
  building_type_agot_red_lake_01:0 "Lago Rosso"
  building_type_agot_red_lake_01_desc:0 "La dimora della Casa Crane nel Nord della Terra."
@@ -1333,6 +1341,11 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
  building_agot_oldcastle_01:0 "$building_type_agot_oldcastle_01$"
  building_agot_oldcastle_01_desc:0 "$building_type_agot_oldcastle_01_desc$"
 
+building_type_agot_dead_goose_tree_01: 0 "Tumulo Grigio"
+building_type_agot_dead_goose_tree_01_desc: 0 "Il castello di Tumulo Grigio sorge nelle Terre dei Tumuli occidentali, dimora di un popolo quieto, seppur peculiare."
+building_agot_dead_goose_tree_01: 0 "Albero dell'Oca Morta"
+building_agot_dead_goose_tree_01_desc: 0 "L'Albero dell'Oca Morta, noto anche come Albero Accigliato, è uno dei molti alberi-diga che punteggiano il Nord. Eppure, a differenza dei suoi simili, tra i suoi rami si trovano spesso i resti di oche morte. Quando si chiede spiegazione alla gente del luogo, essa racconta una storia secondo cui l'Albero, con il suo volto accigliato, un tempo litigò con una grande oca. Discussero giorno e notte, anche se su cosa non è più ricordato. Alla fine, l'Albero Accigliato squarciò l'oca in due con i suoi rami, e continua a fare lo stesso con qualunque oca abbastanza stolta da avvicinarglisi ancora oggi."
+
  # Dorne Special Buildings
  building_type_sunspear_01:0 "Lancia del Sole"
  building_type_sunspear_01_desc:0 "Lancia del Sole è la sede ancestrale di Casa Nymeros Martell. Come gli stessi dorniani, il castello è una mescolanza di elementi rhoynar e andali. Accanto all'antico mastio andalo chiamato Sandship si ergono le Torri del Sole e della Lancia, entrambe costruite in stile rhoynish. La Torre del Sole è il luogo da cui il Principe o la Principessa di Dorne governa dai propri troni gemelli, uno recante un sole e l'altro una lancia."
@@ -1504,7 +1517,7 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
  building_agot_waxley_candlery_01_desc:0 "$building_type_agot_waxley_candlery_01_desc$"
 
  building_type_agot_sunrise_keep_01:0 "Torrione dell'Alba"
- building_type_agot_sunrise_keep_01_desc:0 "Costruito là dove le pendici delle Montagne della Luna incontrano le rive del Morso, il formidabile Torrione dell'Alba controlla il passaggio attraverso il Taglio, l'accesso meno battuto alla Valle di Arryn."
+building_type_agot_sunrise_keep_01_desc: 0 "Costruita dove i pendii delle Montagne della Luna incontrano le rive del Morso, la formidabile Fortezza dell'Alba controlla il passaggio attraverso il Taglio, l'ingresso meno battuto alla Valle di Arryn."
  building_agot_sunrise_keep_01:0 "$building_type_agot_sunrise_keep_01$"
  building_agot_sunrise_keep_01_desc:0 "$building_type_agot_sunrise_keep_01_desc$"
 
@@ -1537,9 +1550,15 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
 
  # Iron Islands Special Buildings
  building_type_pyke_01:0 "Pyke"
- building_type_pyke_01_desc:0 "Pyke è un antico castello. Le scogliere su cui è stato costruito Pyke sono da tempo erose dal mare, e ora le torri del castello si ergono su tre isole e dozzine di formazioni rocciose marine. Il Grande Forte è la sede della Sedia di Pietra, il trono dei governanti delle Isole di Ferro, una posizione attualmente detenuta dalla Casa Greyjoy."
- building_pyke_01:0 "$building_type_pyke_01$"
- building_pyke_01_desc:0 "$building_type_pyke_01_desc$"
+building_type_pyke_01_desc: 0 "Pyke è un castello antico. Le scogliere su cui Pyke fu costruito sono state da lungo tempo erose dal mare, e ora le torri del castello sorgono su tre isole e decine di faraglioni. La Grande Fortezza ospita il Trono del Mare, il seggio dei sovrani delle Isole di Ferro, occupato più spesso dalla Casa Greyjoy."
+building_pyke_01: 0 "La Grande Fortezza"
+building_pyke_01_desc: 0 "La Grande Fortezza di Pyke è la prima delle tre fortezze e si trova sull'isolotto più grande. È collegata alla terraferma da un grande ponte di pietra e alla Fortezza degli Ospiti da un camminamento coperto in pietra. Entro le sue mura sorgono la Grande Sala e lo stesso Trono del Mare."
+building_pyke_02: 0 "La Fortezza Insanguinata"
+building_pyke_02_desc: 0 "La Fortezza degli Ospiti, o più comunemente la Fortezza Insanguinata, è la seconda delle tre fortezze. Si guadagnò il suo cupo nome dopo il massacro dei figli di Bernarr II Justman, Re dei Fiumi, entro le sue mura."
+building_pyke_03: 0 "La Fortezza delle Cucine"
+building_pyke_03_desc: 0 "La Fortezza delle Cucine, essendo la più lontana dalla riva, non è leggendaria quanto le altre due. Ospita le cucine che assicurano ai guerrieri di Pyke cibo e prontezza per le razzie."
+ building_pyke_04:0 "$building_type_pyke_01$"
+ building_pyke_04_desc:0 "$building_type_pyke_01_desc$"
 
  building_type_holy_site_naggas_hill_01:0 "Collina di Nagga"
  building_type_holy_site_naggas_hill_01_desc:0 "Sormontata dalle ossa del grande drago marino Nagga, la Collina di Nagga era dove il leggendario Re Grigio aveva la sua sala e dove gli Uomini di Ferro si sono incontrati per secoli per tenere i kingsmoot e scegliere i loro governanti."
@@ -1984,7 +2003,7 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
  building_agot_hugor_hill_01_desc:0 "$building_type_agot_hugor_hill_01_desc$"
 
  building_type_agot_godworf_01:0 "Godworf"
- building_type_agot_godworf_01_desc:0 "Un antico porto nella parte settentrionale del Mare Stretto, si ritiene che Godworf fosse il porto principale degli Andali nelle loro invasioni di Westeros, ed è ancora rifugio per chi navighi il Mare Stretto."
+building_type_agot_godworf_01_desc: 0 "Antico porto sulle coste settentrionali del Mare Stretto, si ritiene che Godworf sia stato il principale porto degli Andali durante le loro invasioni di Westeros, e rimane un rifugio per coloro che solcano le sue acque."
  building_agot_godworf_01:0 "Porto degli Dei"
  building_agot_godworf_01_desc:0 "$building_type_agot_godworf_01_desc$"
 
@@ -2400,6 +2419,10 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
  agot_ships_hold_06_domicile_building:0 "Sterminata Stiva di Bordo"
  agot_ships_hold_06_domicile_building_desc:0 "$agot_ships_hold_01_domicile_building_desc$"
 
+agot_pirate_diving_bell_domicile_building: 0 "Campana Subacquea"
+agot_pirate_diving_bell_domicile_building_desc: 0 "La nave è stata dotata di una campana subacquea, permettendo agli equipaggi di raggiungere il fondale oceanico in cerca di tesori perduti."
+domicile_building_parameter_diving_bell_pirate_ship: 0 "Sblocca l'[activity|E] [GetActivityType('activity_agot_sailing').GetName] $agot_sailing_type_treasure$"
+
  # Farm Buildings
  building_type_agot_urban_farms_01:0 "Panetterie"
  building_type_agot_urban_farms_01_desc:0 "Il cuore pulsante della città non è il castello, né la fucina, ma la panetteria."
@@ -2476,6 +2499,11 @@ building_agot_dunstonbury_01_desc:0 "Dunstonbury, l'antico seggio di Casa Mander
  funeral_cost_discount_max_desc:0 "Costi ridotti per l'ospitalità [GetActivityType('activity_funeral').GetTextIcon][GetActivityType('activity_funeral').GetName]"
  agot_weeping_tower_02_effect_desc:0 "$funeral_cost_discount_max_desc$in questo [holding|E]: [EmptyScope.ScriptValue('tournament_activity_cost_max_discount_value')|P0%]"
  ironoaks_effect_desc:0 "$feast_cost_discount_max_desc$"
+agot_sailing_activity_cost_discount_minor_desc: 0 "$unlocks_building_desc$Costo ridotto per organizzare [GetActivityType('activity_agot_sailing').GetTextIcon][GetActivityType('activity_agot_sailing').GetName] in questo [holding|E]: #P -10%#!\n"
+agot_sailing_activity_cost_discount_medium_desc: 0 "$unlocks_building_desc$Costo ridotto per organizzare [GetActivityType('activity_agot_sailing').GetTextIcon][GetActivityType('activity_agot_sailing').GetName] in questo [holding|E]: #P -20%#!\n"
+agot_sailing_activity_cost_discount_major_desc: 0 "$unlocks_building_desc$Costo ridotto per organizzare [GetActivityType('activity_agot_sailing').GetTextIcon][GetActivityType('activity_agot_sailing').GetName] in questo [holding|E]: #P -30%#!\n"
+agot_sailing_activity_cost_discount_max_desc: 0 "$unlocks_building_desc$Costo ridotto per organizzare [GetActivityType('activity_agot_sailing').GetTextIcon][GetActivityType('activity_agot_sailing').GetName] in questo [holding|E]: #P -40%#!\n"
+agot_sailing_activity_cost_discount_special_desc: 0 "$unlocks_building_desc$Costo ridotto per organizzare [GetActivityType('activity_agot_sailing').GetTextIcon][GetActivityType('activity_agot_sailing').GetName] in questo [holding|E]: #P -40%#!\n"
 
  #AGOT Building Requirements
  SPECIAL_BUILDING_NOT_ENABLED_WHILE_NOT_HUMAN:0 "Il possessore dev'essere umano"

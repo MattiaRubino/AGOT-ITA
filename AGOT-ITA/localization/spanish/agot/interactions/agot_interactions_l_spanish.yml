@@ -116,6 +116,29 @@ agot_remove_taken_face_interaction:0 "Rimuovi volto"
 agot_remove_taken_face_interaction_desc:0 "È tempo di mettere da parte questo volto e tornare al tuo aspetto originario."
 agot_remove_taken_face_interaction.same_gender.tt:0 "Indossi il volto di un personaggio dello stesso genere del tuo personaggio originale."
 
+agot_grant_lordship_interaction: 0 "Eleva a Signoria"
+agot_grant_lordship_interaction_desc: 0 "Concedi una signoria a [recipient.GetShortUIName], elevando [Select_CString(recipient.IsFemale,'lei','lui')] dallo status di [agot_landed_knight|E]"
+
+accepted_lordship_interaction_tt: 0 "[recipient.GetShortUIName] ha accettato la tua offerta di signoria"
+rejected_lordship_interaction_tt: 0 "[recipient.GetShortUIName] ha rifiutato la tua offerta di signoria"
+accepted_request_for_lordship_interaction_tt: 0 "[recipient.GetShortUIName] ha accettato la tua richiesta di signoria"
+declined_request_for_lordship_interaction_tt: 0 "[recipient.GetShortUIName] ha rifiutato la tua richiesta di signoria"
+
+agot_offer_of_lordship: 0 "Offri Signoria"
+AGOT_OFFER_LORDSHIP_NOTIFICATION: 0 "Mi hai servito a lungo e fedelmente, [recipient.GetFirstNameNicknamedNoTooltipRegnal], e desidero vederti elevat[Select_CString(recipient.IsFemale,'a','o')] a [recipient.GetLadyLord]. Accetti un simile onore?"
+
+agot_request_for_lordship: 0 "Richiedi Signoria"
+AGOT_REQUEST_FOR_LORDSHIP_NOTIFICATION: 0 "La nostra Casa ha governato le vostre terre in vostra vece con giustizia e fedeltà, e crediamo sia tempo di essere ricompensati con l'elevazione del nostro status."
+
+agot_request_lordship_interaction: 0 "Richiedi Signoria"
+agot_request_lordship_interaction_desc: 0 "Richiedi che [recipient.GetShortUIName] ti conceda una signoria, elevandoti dallo status di [agot_landed_knight|E]"
+
+agot_strip_lordship: 0 "Revoca Signoria"
+agot_release_strip_lordship_send_to_nw: 0 "Non puoi privare [TARGET_CHARACTER.GetShortUINameNoTooltip] della sua signoria e mandarl[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] ai Guardiani della Notte allo stesso tempo"
+agot_release_strip_lordship_banish: 0 "Non puoi privare [TARGET_CHARACTER.GetShortUINameNoTooltip] della sua signoria e bandirl[Select_CString(TARGET_CHARACTER.IsFemale,'a','o')] allo stesso tempo"
+
+AGOT_LANDED_KNIGHT_NO_MODIFY_SPECIAL: 0 "La signoria deve essere concessa tramite [interactions|E]!"
+
 agot_expel_landless_pirate:0 "Scaccia Pirata"
 agot_expel_landless_pirate_desc:0 "Esigerai che [recipient.GetShortUINameNoTooltip] sposti altrove il [agot_landless_pirate_domicile|E] di [Select_CString(recipient.IsFemale,'lei','lui')]."
 agot_pirate_will_be_expelled_tt:0 "[recipient.GetShortUINameNoTooltip] deciderà se restare illegalmente nel tuo porto oppure fuggire."

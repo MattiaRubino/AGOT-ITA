@@ -1,0 +1,24 @@
+﻿l_spanish:
+ SELECT_CHARACTER_ON_MAP:0 "Scegli un personaggio sulla mappa."
+ #AGOT Modified
+ #PICK_ANY_CHARACTER:5 "Play as any Ruler in #bold [GameSetup.GetSelectedBookmark.GetDate.GetYear]#!, or #bold create your own!#!"
+ PICK_ANY_CHARACTER:0 "Gioca con un Sovrano nel #bold $YEAR_SEL_SR$ $ERA_SEL_SR$#! o #bold crea il tuo!#!"
+ BOOKMARK_DISABLED:0 "Questo indicatore è disabilitato"
+ BOOKMARK_NOT_PICKED_CHARACTER:0 "Scegli un personaggio dai preferiti prima di iniziare il gioco. Oppure scegli liberamente facendo clic su "Scegli un personaggio"."
+ SINGLEPLAYER:0 "Giocatore singolo"
+
+ GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "Benvenuto su Crusader Kings III"
+ GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III è un gioco di strategia profonda di dinastie e intrighi!"
+ GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "Se sei nuovo nel mondo di Crusader Kings, ti consigliamo caldamente di seguire il tutorial. Traduzione AGOT-ITA di MTA"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER: "$GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA$"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER: "L’Irlanda è divisa tra numerosi piccoli re e signori feudali.\n\nCome [BookmarkCharacter.GetName|V] di [BookmarkCharacter.GetTitleName], guida la tua Dinastia, unisci le terre e diventa Re d’Irlanda!"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER: "Nella burocrazia imperiale cinese, solo i più meritevoli vengono scelti come governatori.\n\n[BookmarkCharacter.GetName|V] ha il potenziale per essere sia un brillante poeta sia un abile burocrate. Forse un giorno i suoi discendenti governeranno tutta la Cina?"
+GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER_EXTRA: "[SelectLocalization( BookmarkCharacter.GetGovernmentType.IsType( 'celestial_government' ), 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_CHINESE_RULER', 'GAMESETUP_TUTORIAL_PROMPT_ABOUT_IRISH_CHARACTER' )]"
+GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Impara il gioco come [BookmarkCharacter.GetName]"
+
+ GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "Forse più tardi"
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"
+GAMESETUP_PLAY_TUTORIAL:0 "Avvia il tutorial"
+ GAMESETUP_GAME_INFO:0 "Informazioni di gioco"
+ 
+ 

@@ -67,7 +67,7 @@ free_city_election_succession_law_effects:0 "\n#V Con $free_city_election_succes
  # Pirates
   pirate_government_with_icon:0 "@naval_administration! $pirate_government$"
   pirate_government:0 "Capitaneria Pirata"
-  pirate_government_desc:0 "Una forma di governo per lo più irregolare, dove fuorilegge, esiliati, mercenari e cercatori di gloria si uniscono sotto il comando di un Capitano. Meno organizzati e più imprevedibili di altri, i Pirati si nominano tra loro – o da soli – per il ruolo di Capitano. Tuttavia, non è raro che pirati insoddisfatti del risultato si separino per cercare gloria da soli."
+pirate_government_desc: 0 "\nUna forma di governo per lo più irregolare, in cui fuorilegge, esuli, mercenari e coloro che cercano di conquistare gloria si sono riuniti sotto un Capitano. Essendo relativamente più disorganizzati e imprevedibili degli altri, i Pirati nominano a vicenda, o se stessi, alla posizione di Capitano. Tuttavia, è comune vedere Pirati scontenti dell'esito del voto separarsi e tentare di ottenere gloria per conto proprio."
   pirate_government_adjective:0 "Pirata"
   pirate_government_realm:0 "Dominio Pirata"
   pirate_government_filter_option:0 "$game_concept_pirate_govt$"
@@ -90,6 +90,7 @@ government_is_pirate_without_landless_dlc:0 "Il tipo di [government|E] è [GetGo
   pirate_government_vassals_label:0 ""
  #agot_pirate_gov_succ_block:0 "Unlocks special Pirate Succession [succession_law|E]. Blocks other [succession_laws|E]\n$EFFECT_LIST_BULLET$ If [heir|E] is too weak the [realm|E] will collapse upon [ruler|E] [character_death_death|E]"
   agot_pirate_gov_succ_block:0 "Sblocca una successione pirata speciale [succession_law|E]. Blocca le altre [succession_laws|E]"
+agot_pirate_sailing_requirements: 0 "Può organizzare un'[activity|E] [GetActivityType('activity_agot_sailing').GetName] da qualsiasi provincia costiera all'interno del proprio reame"
   agot_unlocks_conquest_cb:0 "Sblocca il [casus_belli|E] di Conquista"
 
  # Silent Sister

@@ -1,0 +1,52 @@
+﻿l_spanish:
+ bell_special_yearly.1000.t:0 "La Campana di [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+ #AGOT Modified
+ #bell_special_yearly.1000.desc:0 "My [steward.GetCouncilTitle] [steward.GetFirstName] has suggested I survey a nearby abandoned church from the time of the Visigoths.\n\nAmidst the barrel-vaulted ceiling and the horseshoe arches, there is a once-beauteous bell tower, with several ruined bells missing their clappers.\n\nAs I wander through the ruin, I hear a clattering of hooves. Peering through a hole, I see [faction_member_1.GetTitledFirstName] is approaching. Might [faction_member_1.GetSheHe] think this place could be a hideout for his traitorous faction?"
+ bell_special_yearly.1000.desc:0 "Il mio [steward.GetCouncilTitle] [steward.GetFirstName] mi ha suggerito di fare un sopralluogo in una tenuta abbandonata nelle vicinanze, risalente all'epoca degli Andali.\n\nTra le volte a botte e gli archi a ferro di cavallo, c'è un campanile un tempo bellissimo, con diverse campane in rovina prive del batacchio.\n\nMentre mi aggiro tra le rovine, sento uno sferragliare di zoccoli. Sbirciando attraverso un buco, vedo [faction_member_1.Custom('DE_END_PRO_S_N')] [faction_member_1.GetTitledFirstName] che si sta avvicinando. Forse pensa che questo posto possa essere un nascondiglio per la sua fazione traditrice?"
+ # [faction_member_1_faction.GetName]
+ bell_special_yearly.1000.a:0 "Potrei uccidererl[faction_member_1.Custom('DE_END_PRO_S_N')] senza che nessuno ci veda!"
+ bell_special_yearly.1000.a.tt:0 "Ti avvicini di soppiatto a [faction_member_1.GetTitledFirstName] e cerchi di uccidererl[faction_member_1.Custom('DE_END_PRO_S_N')]"
+ bell_special_yearly.1000.b:0 "Dovrei sgattaiolare via in silenzio."
+
+ #AGOT Modified
+ #bell_special_yearly.1500.desc:0 "I hide in the church antechamber, and can her only the thudding of my murderous heart, and [faction_member_1.GetTitledFirstNamePossessive] footsteps.\n\nAs [faction_member_1.GetSheHe] steps into the room, I strike [faction_member_1.GetHerHis] head with a piece of debris, and [faction_member_1.GetSheHe] is knocked to the ground.\n\nAs I strike again and again, a fleeting fancy clouds my blood-tinted visions. A dream of this old bell-tower making music again, with all of my foes' heads as the clappers."
+ bell_special_yearly.1500.desc:0 "Mi nascondo nell'anticamera della septa e riesco a sentire solo il tonfo del mio cuore omicida, e i suoi passi.\n\nQuando [faction_member_1.Custom('DE_ART_IND_A')] entra nella stanza, l[faction_member_1.Custom('DE_END_PRO_S_N')] colpisco alla testa col frammento di un detrito, e [faction_member_1.GetSheHe] cade a terra.\n\nMentre colpisco ancora e ancora, una fantasia fugace offusca le mie visioni tinte di sangue. Sogno che questo vecchio campanile torni a suonare, con le teste di tutti i miei nemici come battacchi."
+ bell_special_yearly.1500.a:0 "Un altro sciocco ribelle si unirà all'orchestra!"
+ bell_special_yearly.1500.a.tt:0 "Cerchi un'altra vittima."
+ bell_special_yearly.1500.discovery.tt:0 "Le possibilità di essere scoperti aumentano"
+ bell_special_yearly.1500.b:0 "Dovrei tornare a casa e riposare."
+ bell_special_yearly.1500.b.tt:0 "Smetti di accumulare teste per la campana."
+
+ bell_special_yearly.2000.desc:1 "Esigo che [faction_member_2.Custom('DE_ART_DEF_P_A')] ripugnante [faction_member_2.GetTitledFirstName] visiti il mio [ROOT.Char.Custom('FortifiedBuilding')] ed io mi travesto da trovatore. In costume, declamo '[ROOT.Char.GetTitledFirstName] vi chiede di ascoltare questa nuova meravigliosa composizione inventata qui nella capitale!'\n\nUna volta che [faction_member_2.GetSheHe] si trova all'interno, l[faction_member_2.Custom('DE_END_PRO_S_N')] costringo ad entrare in una camera da sol[faction_member_2.Custom('DE_END_PRO_S_N')]. Lì recito la più banale delle #italic cansò#! che riesco a fare, per ore, finché la canaglia non si addormenta.\n\nLavoro rapidamente: strangolo il mio nemico con una delle corde di liuto, nascondo la testa [Select_CString(ROOT.Char.IsFemale,'sotto il mio vestito','nel mio mantello')], e scappo via per i corridoi prima che qualcuno possa battere ciglio."
+ bell_special_yearly.2000.a:0 "La Campana non ha ancora abbastanza teste!"
+ bell_special_yearly.2000.b:0 "Questo è un crimine perfetto: non dovrei rischiare che si irrigidisca."
+
+#Dropping an organ out of a window
+ bell_special_yearly.3000.desc:0 "Ho imposto una visita regale al [faction_member_3.GetTitledFirstNamePossessive] [faction_member_3.Custom('FortifiedBuilding')] con il pretesto di cercare di dissipare la tensione con la sua fazione ribelle. Durante una pausa delle nostre trattative, esamino le sue stanze della musica, e chiedo di essere lasciato in pace a suonare.\n\nLa sala della musica ha una grande finestra sopra il giardino del [faction_member_3.Custom('FortifiedBuilding')] — che ha vicino un grande organo a canne. Il momento è troppo perfetto.\n\nMentre [faction_member_3.GetFirstNameNoTooltip] si affaccia sotto la finestra per prendersi un momento di sollievo, io spingo l'organo. Si muove nell'aria e lo/la schiaccia sotto di sé. Ridacchiando, mi affretto a raccogliere la testa prima che la sua morte venga notata."
+ bell_special_yearly.3000.a:0 "La Campana sarà magnifica!"
+ bell_special_yearly.3000.b:0 "Gli incidenti bizzarri agli organi accadono ogni giorno."
+
+#[faction_member_3_faction.GetName]
+ bell_special_yearly.4000.desc:0 "Mi attardo nel mio giardino, giocando distrattamente con le rose, staccando le loro teste una ad una.\n\nMi chiedo cosa fare del mio campanile. Sarà mai destinato a funzionare?"
+ bell_special_yearly.4000.desc_discoverer:0 "\n\nMentre ci rimurgino sopra, noto che [bell_discoverer.GetTitledFirstName], uno degli zotici che ancora piangono una vittima delle sparizioni, mi fissa in giardino. Ridacchio, e quasi mi viene voglia di dirglielo sul momento."
+ #AGOT Modified
+ #bell_special_yearly.4000.a:0 "I should put on a grand concert at the church!"
+ bell_special_yearly.4000.a:0 "Dovrei organizzare un grande concerto nel Tempio!"
+ bell_special_yearly.4000.a.tt:0 "Tutti vengono a conoscenza delle tue uccisioni."
+ bell_special_yearly.4000.b:0 "Nessuno deve sapere dei miei intrattenimenti privati."
+ bell_discovery_success_effect:0 "La Campana è tenuta segreta"
+ bell_discovery_failure_effect:0 "La Campana viene scoperta"
+
+
+ #AGOT Modified
+ #bell_special_yearly.5000.desc:0 "I ride out one night to visit my bell and bask in its resplendent villainy. To my surprise, there are torches flickering already as I enter the ruin.\n\nAt first, I imagine the ghosts of the Visigoths are displeased I have defiled their church, but then [bell_discoverer.GetTitledFirstName] pulls back a hood. "I feel I have traveled to [bell_discoverer.GetFaith.NegativeAfterLife] and will be there all my life, after uncovering the abomination you have wrought. You shall join your victims, creature!"\n\nI am briefly aware of a slice of steel through my neck, and then nothing at all."
+ bell_special_yearly.5000.desc:0 "Una notte esco a cavallo per visitare la mia campana e crogiolarmi nella sua splendente malvagità. Con mia grande sorpresa, quando entro nella rovina ci sono già delle torce che tremolano.\n\nIn un primo momento, immagino che i fantasmi degli Andali siano dispiaciuti che io abbia contaminato il loro tempio, ma poi [bell_discoverer.GetTitledFirstName] tira indietro il cappuccio. "Sento di aver viaggiato fino a [bell_discoverer.GetFaith.NegativeAfterLife] e ci resterò per tutta la vita, dopo aver scoperto l'abominio che avete compiuto. Ti unirai alle tue vittime, creatura!"\n\nPer breve istante mi accorgo di una lama d'acciaio che mi attraversa il collo, e poi più nulla."
+bell_special_yearly.5000.a:0 "Suona per me, [bell_discoverer.Custom('IT_NAM_COL3')][bell_discoverer.GetTitledFirstNameNoTooltip]."
+
+
+ #AGOT Modified
+ # bell_special_yearly.6000.desc:0 "A concert is held in the Visigothic ruin for all my court, promising a night of music in an old candlelit church.\n\nThe usual fare with minstrels proceeds while a few guests complain of the peculiar smell. We enjoy some light tunes with flutes and plucked strings, and the pieces become more mournful as the night goes on.\n\nAt the finale, servants follow my command to rush and ring the bells in time with the last song. The screams of my courtiers join the voice of the choir as all behold my rattling, chiming heads!"
+ bell_special_yearly.6000.desc:0 "Nella rovina Andala si tiene un concerto per tutta la mia corte, che promette una notte di musica in un antico tempio a lume di candela.\n\nLa solita musica dei menestrelli prosegue, mentre alcuni ospiti si lamentano dell'odore particolare. Godiamo di alcuni brani leggeri con flauti e corde pizzicate, e i pezzi diventano più struggenti con il trascorrere della notte.\n\nAl termine, i servitori seguono il mio ordine di accorrere e suonare le campane a tempo con l'ultima canzone. Le urla dei miei cortigiani si uniscono alla voce del coro mentre tutti vedono le mie teste sferraglianti e rintoccanti!"
+ bell_special_yearly.6000.a:0 "Che musica!"
+ bell_special_yearly.6000.b:0 "Il resto di voi si unirà a loro, se mi sfidate!"
+

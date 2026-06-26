@@ -2,8 +2,8 @@
 
  # Guest offers to share rumors from a nearby foreign realm.
   agot_hold_court.1001.t:0 "$hold_court_header$ Una Proposta Suprema"
-  agot_hold_court.1001.desc:0 "[paramount_petitioner.Custom('DE_ART_DEF_P_D')] mi[paramount_petitioner.Custom('DE_END_PRO_S_N')] vassall[paramount_petitioner.Custom('DE_END_PRO_S_N')] [paramount_petitioner.GetTitledFirstName] si avvicina al mio trono e fa un profondo inchino.\n\n"Saluti, vostra maestà. Il [paramount_title.GetName] non ha un sovrano indipendente dalla corona. Desidero propormi per governare questa regione in vostro nome.""
-  agot_hold_court.1001.a:0 "Sovrintenderai [paramount_title.GetName] per me."
+agot_hold_court.1001.desc: 0 "[Select_CString(paramount_petitioner.IsFemale,'La mia vassalla','Il mio vassallo')], [paramount_petitioner.Custom('IT_NAM_COL3')][paramount_petitioner.GetTitledFirstName], si avvicina al mio trono e si inchina profondamente.\n\n«Salute, vostra maestà. [paramount_title.Custom('IT_COU_COL3')][paramount_title.GetName] non ha alcun titolare separato dalla corona. Desidero propormi per governare questa regione in vostro nome.»"
+agot_hold_court.1001.a: 0 "Tu sovrintenderai [paramount_title.Custom('IT_COU_COL4')][paramount_title.GetName] per me."
   agot_hold_court.1001.b:0 "Avete sbagliato! Non si ottiene nulla! Buona giornata, ser!"
 
   agot_hold_court.1011.t:0 "$hold_court_header$ Confini Sanguinolenti"

@@ -22,12 +22,15 @@ culture_parameter_ethos_fervent_same_faith_increased_vassalization_acceptance_tt
   culture_parameter_can_recruit_forder_specialist:0 "Sblocca una [decision|E] per reclutare [commanders|E] con il [GetTrait('forder').GetName( GetNullCharacter )] [traits|E]"
 culture_parameter_can_have_paramours:0 "I personaggi possono avere un [agot_paramour|E]"
   culture_parameter_the_mark_trait_gives_bonuses:0 "#italic Figli delle Onde#!: Il [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] fornisce bonus aggiuntivi"
+culture_parameter_sailor_traits_more_xp: 0 "I [characters|E] ottengono più [trait_level_track_xp|E] per [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)]"
+culture_parameter_more_frequent_maritime_hunts: 0 "Intervallo tra le [activities|E] [GetActivityType('activity_agot_sailing').GetName]: #P -50% #!"
+culture_parameter_ironborn_raiding_sailing: 0 "Ottiene [trait_level_track_xp|E] per [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )] razziando nelle contee costiere"
+culture_parameter_ironborn_sailing_requirements: 0 "Può organizzare un'[activity|E] [GetActivityType('activity_agot_sailing').GetName] da qualsiasi provincia costiera all'interno del proprio reame"
 culture_parameter_cheaper_tour_activity:0 "L'attività [GetActivityType( 'activity_tour' ).GetName] costa il #P 10%#! in meno"
 cheaper_tour_activity_discount:0 "[GetPlayer.GetCulture.GetName] [culture|E]"
 culture_parameter_hunts_cd_ten_percent_quicker:0 "Ritardo tra le [activities|E] [GetActivityType('activity_hunt').GetName]: #P -10% #!"
 culture_parameter_more_likely_to_steal_artifacts:0 "I membri di questa cultura hanno maggiori probabilità di rubare [artifacts|E] in battaglie o razzie"
 culture_parameter_immune_to_all_diseases_except_greyscale:0 "I membri di questa cultura sono immuni a tutte le malattie tranne la [GetTrait('greyscale').GetName( GetNullCharacter )], con cui nascono sempre"
-
 
  #Child Traits
   culture_parameter_bossy_trait_more_common:0 "[children|E] hanno più probabilità di ottenere il tratto [GetTrait('bossy').GetName( GetNullCharacter )]"
@@ -44,6 +47,7 @@ culture_parameter_greensight_more_common:0 "Il [trait|E] [GetTrait('greensight')
 culture_parameter_fashionable_trait_more_common:0 "Il [trait|E] [GetTrait('fashionable').GetName( GetNullCharacter )] è più comune"
 culture_parameter_possessed_trait_more_common:0 "Il [trait|E] [GetTrait('possessed_1').GetName( GetNullCharacter )] è più comune"
 culture_parameter_deceitful_trait_more_common:0 "Il [trait|E] [GetTrait('deceitful').GetName( GetNullCharacter )] è più comune"
+culture_parameter_gregarious_trait_more_common: 0 "Il [trait|E] [GetTrait('gregarious').GetName( GetNullCharacter )] è più comune"
 
  #Commander Traits
   culture_parameter_organizer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('organizer').GetName( GetNullCharacter )] è più comune"
@@ -74,6 +78,7 @@ culture_parameter_vengeful_trait_more_valued:0 "Il [trait|E] [GetTrait('vengeful
 culture_parameter_strong_trait_more_valued:0 "Il [trait|E] [GetTrait('strong').GetName( GetNullCharacter )] è più apprezzato"
 culture_parameter_arrogant_trait_more_valued:0 "Il [trait|E] [GetTrait('arrogant').GetName( GetNullCharacter )] è più apprezzato"
 culture_parameter_reaver_trait_more_valued:0 "Il [trait|E] [GetTrait('reaver').GetName( GetNullCharacter )] è più apprezzato"
+culture_parameter_reveler_traits_increased_opinion: 0 "I [traits|E] [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] sono più apprezzati"
 
  #Trait Looked Down Upon
   culture_parameter_slave_master_trait_looked_down_upon:0 "Il tratto [GetTrait('slave_master').GetName( GetNullCharacter )] è disprezzato"
@@ -91,6 +96,7 @@ culture_parameter_disloyal_looked_down_upon:0 "Il [trait|E] [GetTrait('disloyal'
 culture_parameter_dull_trait_looked_down_upon:0 "Il [trait|E] [GetTrait('dull').GetName(GetNullCharacter)] è disprezzato"
 culture_parameter_eunuch_trait_is_looked_down_upon:0 "I [traits|E] [GetTrait('eunuch_1').GetName(GetNullCharacter)] e [GetTrait('beardless_eunuch').GetName(GetNullCharacter)] sono disprezzati"
 culture_parameter_impatient_trait_is_looked_down_upon:0 "Il [trait|E] [GetTrait('impatient').GetName(GetNullCharacter)] è disprezzato"
+culture_parameter_sadistic_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('sadistic').GetName(GetNullCharacter)] è malvisto"
 
  #Wanderers Extra Skills
   culture_parameter_wanderers_gain_extra_learning_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nel sapere, come [learning|E] o [lifestyle_traits|E]"
@@ -113,11 +119,17 @@ culture_parameter_better_barracks_bonuses:0 "La catena di [buildings|E] #V $buil
 culture_parameter_better_orchard_bonuses:0 "La linea di [buildings|E] #V $building_type_orchards_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_better_caravanserai_bonuses:0 "La linea di [buildings|E] #V $building_type_caravanserai_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_better_gathering_hall_bonuses:0 "La linea di [buildings|E] #V $building_type_longhouses_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_guild_bonuses: 0 "La serie di [buildings|E] #V $building_type_guild_halls_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_better_mine_bonuses:0 "Le linee di [buildings|E] #V $building_type_agot_gold_mines_01$#! e #V $building_type_agot_silver_mines_01$#! hanno bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_watermills_without_innovations_unlock:0 "La catena di [buildings|E] #V $building_type_watermills_01$#! non richiede innovazioni per essere costruita"
 culture_parameter_piety_per_blacksmith_level:0 "Ottieni #10% più [piety|E] mensile per ogni livello di #V $building_type_blacksmiths_01$"
 culture_parameter_piety_gain_on_building_complete:0 "Ottieni [piety|E] quando viene costruito un [building|E]"
 culture_parameter_control_gain_on_building_complete:0 "Ottieni #P 15#! [control|E] quando viene costruito un [building|E] #weak (fino a una volta l'anno)#!"
+culture_parameter_minor_development_gain_on_building_complete: 0 "Ottieni #V 10#! [development_growth|E] quando viene costruito un [building|E] #weak (fino a una volta l'anno)#!"
+culture_parameter_ironborn_great_fleet_bonuses: 0 "La serie di [great_projects|E] #V $building_type_agot_great_fleet_01$#! ha bonus aggiuntivi quando è detenuta da sovrani di questa [culture|E]"
+culture_parameter_better_watchtower_bonuses: 0 "La serie di [buildings|E] #V $building_type_watchtowers_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_monastic_school_bonuses: 0 "La serie di [buildings|E] #V $building_type_monastic_schools_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+culture_parameter_better_scriptorium_bonuses: 0 "La serie di [buildings|E] #V $building_type_scriptorium_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 
  #Naming
 culture_parameter_uses_generic_milk_names:0 "I personaggi di questa cultura usano [agot_milk_names|E] per i neonati"
@@ -156,20 +168,11 @@ tradition_agot_vale_andal_heritage_desc:0 "Gli Andali provengono dall'Essos sett
 tradition_agot_valeman_finger_name:0 "Umile Servizio"
 tradition_agot_valeman_finger_desc:0 "Le Dita sono un luogo tetro e battuto dal vento, tanto assalite dalle raffiche del gelido nord che ben poca vegetazione cresce presso le loro estremità. Per la piccola gente vi sono pochi mezzi di sostentamento oltre alla pastorizia, poiché vi è scarsa terra da rendere coltivabile. Così gli uomini delle Dita vivono vite modeste, e i caprai e i mezzadri trovano una certa contentezza nella loro casa spietata."
 
-tradition_agot_honeywiner_name:0 "Dolci e Soavi"
-tradition_agot_honeywiner_desc:0 "Gli uomini dello Honeywine e delle terre circostanti sono tra i più prosperi di tutto Westeros. Con terre fertili e la grande città di Oldtown, molto commercio scorre lungo il fiume che dà il nome al popolo. Con la Cittadella e il Tempio Stellato, la regione è un bastione del sapere a Westeros, tanto che perfino molti popolani sanno leggere e scrivere."
-
 tradition_agot_valeman_upper_name:0 "Molto in Alto"
 tradition_agot_valeman_upper_desc:0 "Separati dai loro parenti che dimorano nelle fertili valli della Valle, gli uomini che vivono sulle alture delle Montagne della Luna sono gente assai più rude e tenace. In tempo di guerra sono loro a presidiare le prime linee di difesa contro le incursioni esterne e, vivendo ad alta quota, sono anche coloro che più devono affrontare le scorrerie dei Clanici delle Montagne."
 
-tradition_agot_reachman_name:0 "Gloria di Mano Verde"
-tradition_agot_reachman_desc:0 "L'Altopiano è una terra prospera e fertile costruita sulle spalle della piccola gente laboriosa. È anche una terra di famiglie con alcune delle radici più antiche di Westeros, risalenti al mitico Garth Mano Verde, dal quale la maggior parte delle illustri famiglie dell'Altopiano afferma di discendere. Con così tante famiglie che aspirano all'eminenza in una terra ricca, i legami che le uniscono sono più forti e importanti che altrove a Westeros."
-
 tradition_agot_riverlands_name:0 "Ricompense del Fiume"
 tradition_agot_riverlands_desc:0 "Gli Uomini delle Terre dei Fiumi sono spesso stretti tra i poteri che li circondano, eppure tendono a prosperare quando hanno un re forte tutto loro. Il Tridente e i suoi affluenti plasmano le loro vite più di ogni altra cosa, ed è da queste acque che traggono prosperità."
-
-tradition_agot_shieldman_name:0 "Guardiani del Mander"
-tradition_agot_shieldman_desc:0 "Così chiamate per la loro funzione primaria di scudo contro gli attacchi degli Uomini di Ferro, le Isole Scudo sono un insieme di quattro isole dell'Altopiano ben fortificate, governate da quattro diverse casate. Popolo leale, sebbene per certi versi isolato, gli abitanti delle Isole Scudo sono noti per il loro temperamento robusto e il loro senso del dovere. Le isole sono celebri per i loro fuochi di segnalazione, che gli anziani nelle torri di guardia accendono da isola a isola per diffondere l'avviso dell'arrivo delle navi lunghe agli insediamenti dell'interno. Più di ogni altra cosa, coloro che provengono dalle Isole Scudo si considerano la prima linea di difesa navale."
 
 tradition_agot_stormlands_name:0 "Simili al loro Tempo"
 tradition_agot_stormlands_desc:0 "Gli uomini delle Terre della Tempesta sono gente robusta, ben nota per la propria inclinazione marziale e per la rapidità con cui si adira. Gli uomini e le donne delle Terre della Tempesta hanno resistito all'ira degli uomini, della natura e perfino degli stessi dèi, e non solo sono rimasti, ma hanno prosperato."
@@ -179,9 +182,6 @@ tradition_agot_marches_desc:0 "Le Terre Basse di Dorne sono da lungo tempo il cr
 
 tradition_agot_vale_name:0 "Montagna e Valle"
 tradition_agot_vale_desc:0 "L'antico regno degli Arryn è dominato dalle Montagne della Luna e dalle valli che si snodano tra esse, soprattutto la Valle di Arryn. Questi due elementi hanno isolato dal resto di Westeros i popoli che vivono a oriente e, al contempo, li hanno uniti."
-
-tradition_agot_vineman_name:0 "Vino, Donne e Canto"
-tradition_agot_vineman_desc:0 "Fin dalla venuta di Gilbert delle Vigne, gli uomini dell'Arbor conoscono una sola cosa: il vino. I vigneti dell'Arbor sono leggendari a Westeros e oltre per la qualità del vino che producono, e molti mercanti e marinai gettano l'ancora a Ryamsport per comprare i migliori rossi dell'Arbor."
 
 tradition_agot_north_name:0 "Legati da Bronzo e Ferro"
 tradition_agot_north_desc:0 "I Northrons, uomini e donne che chiamano il Nord casa, sono un popolo austero e tenace. Uniti migliaia di anni fa dal Lupo Affamato, questi popoli sono vari quanto le terre che abitano, eppure tutti sono vincolati dagli antichi giuramenti."
@@ -200,6 +200,9 @@ tradition_agot_dorne_desc:0 "Gli uomini di Dorne sono un popolo distinto dal res
 
 tradition_agot_dorne_rhoynish_heritage_name:0 "Figli di Madre Rhoyne"
 tradition_agot_dorne_rhoynish_heritage_desc:0 "La civiltà rhoynish è antica e illustre. Così profonda è la storia dei Rhoynar che alcuni attribuiscono loro l'insegnamento agli Andali della forgiatura e della lavorazione del ferro. Provenienti dalle città-stato lungo il fiume Rhoyne, i Rhoynar venerano numerosi dèi del fiume e hanno anche una speciale affinità con ogni sorta d'imbarcazione, dai piccoli battelli da pesca alle oscene chiatte da piacere. La cultura rhoynish è notevolmente diversa da quella andala, con l'eredità eguale come norma tanto per le donne quanto per gli uomini, e con l'accettazione delle relazioni tra persone dello stesso sesso. I Rhoynar sono noti per l'amore verso l'arte e la musica, il che potrebbe spiegare in parte perché alcune pratiche culturali rhoynish si diffusero così rapidamente a Dorne quando i Rhoynar vi giunsero."
+
+tradition_agot_reach_name: 0 "Frutti del Verde"
+tradition_agot_reach_desc: 0 "L'Altopiano è vasto e prospero, sede delle più grandi fattorie e dei più ampi campi di Westeros — una terra d'abbondanza. La sua gente è celebre per i propri cavalieri e la propria cavalleria, nonché per la sua antica inimicizia con gli uomini di Dorne."
 
 tradition_agot_wildling_name:0 "Feroci, Selvaggi e Bruti"
 tradition_agot_wildling_desc:0 "Laddove la maggior parte dei popoli e delle società progredisce e cresce, vi sono gruppi che rifiutano di piegarsi al progresso, come dimostrano i numerosi Bruti di Westeros. La maggior parte di essi si trova oltre la Bariera, ma gruppi se ne trovano anche nelle Montagne della Luna. Questi gruppi tribali sono feroci, sebbene poco sviluppati, e possono diventare una minaccia se numerosi."
@@ -515,3 +518,15 @@ tradition_agot_the_sorrows_desc:0 "#italic “Era un luogo malvagio, pregno di d
 
 tradition_agot_stonemen_name:0 "Baciati dal Grigio"
 tradition_agot_stonemen_desc:0 "#italic “Il Principe dei Dolori non concede il suo bacio grigio alla leggera.”#!"
+
+tradition_agot_mandermen_name: 0 "Guidati dalla Mano"
+tradition_agot_mandermen_desc: 0 "#italic “L'Altopiano vero e proprio, una vasta distesa di campi e fattorie, laghi e fiumi, colline e boschi e prati fragranti, mulini e miniere, punteggiata da piccoli villaggi, floride cittadine di mercato e antichi castelli, che si estende dalle Isole dello Scudo nel Mare del Tramonto, risalendo la foce del Mander, oltre Alto Giardino, fino al Lago Rosso, a Boscorosso e Ponteamaro, sino a Tumbleton e alle sorgenti del Mander.”#!"
+
+tradition_agot_honeywiner_name: 0 "Con Pensiero e Fede"
+tradition_agot_honeywiner_desc: 0 "#italic “Nessuna storia dell'Altopiano è completa senza uno sguardo a Vecchia Città, la più grandiosa e antica delle città, ancora la più ricca, vasta e bella di tutto Westeros, anche se Approdo del Re l'ha superata come la più popolosa.”#!"
+
+tradition_agot_shieldmen_name: 0 "Scudi nella Nebbia"
+tradition_agot_shieldmen_desc: 0 "#italic “Il colpo più decisivo fu sferrato da Re Garth VII, Manodorata, Re dell'Altopiano, quando scacciò gli uomini di ferro dalle Isole Nebbiose, le ribattezzò Isole dello Scudo e le ripopolò con i propri guerrieri più feroci e i migliori uomini di mare per difendere la foce del Mander.”#!"
+
+tradition_agot_arbormen_name: 0 "Con il Vino nelle Nostre Vele"
+tradition_agot_arbormen_desc: 0 "#italic “... per un'altra coppa di vino, un'annata dorata dell'Arbor, fruttata e ricca.”#!"

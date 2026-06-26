@@ -45,8 +45,8 @@ COURT_POSITION_APPOINT_NAME_DISPLAY:0 "[AGOTGetLongUINameNoTooltip(Character)|V]
 COOLTIP_CHARACTER_NAME_DISPLAY:0 "[AGOTGetLongUINameNoTooltip(Character)]#medium , [Character.GetAge]#!"
 LIST_CHARACTER_NAME_DISPLAY:0 "[AGOTGetLongUINameNoTooltip(Character)|V]"
   AGOT_CANNOT_HIRE_MENATARMS:0 "#T Crea un nuovo [men_at_arms|E] [regiment|E]#!\n[MilitaryItem.GetMaACanBeCreatedTooltip]\n@warning_icon! #X Non puoi arruolare uomini d'arme mentre sei soggetto al [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] #!"
-  AGOT_HIRE_MERCENARIES_TOOLTIP:0 "#T [MercenaryCompany.GetName] #!\n#I Clicca per vedere i dettagli#![SelectLocalization(GetScriptedGui('agot_can_hire_mercenaries').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End), '', 'AGOT_HIRE_MERCENARIES_ADD')]"
-  AGOT_HIRE_MERCENARIES_ADD:0 "\n\n@warning_icon! #X Non puoi assoldare mercenari mentre sei soggetto al [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] #!"
+AGOT_HIRE_MERCENARIES_TOOLTIP: 0 "#T [MercenaryCompany.GetName] #!\n#I Clicca per visualizzare i dettagli#![SelectLocalization(GetScriptedGui('agot_can_hire_mercenaries').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).AddScope('merc_company', MercenaryCompany.GetHomeCounty.MakeScope).End), '', 'AGOT_HIRE_MERCENARIES_ADD')]"
+AGOT_HIRE_MERCENARIES_ADD: 0 "\n\n@warning_icon! #X Non puoi assoldare mercenari per uno dei seguenti motivi:\n\n$EFFECT_LIST_BULLET$Non puoi essere soggetto al [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$Non puoi assoldare mercenari da Oltre la Barriera come sovrano westerosi #!"
 
 TITLE_VIEW_TITLE_HISTORY_LABEL_NON_PIRATE_SHIP:0 "Storia di [Title.GetBaseName]"
 TITLE_VIEW_TITLE_HISTORY_LABEL_PIRATE_SHIP:0 "Storia di [Title.GetName]"

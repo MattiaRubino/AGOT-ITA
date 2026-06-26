@@ -30,7 +30,7 @@ weirwood_meditate_decision_confirm:0 "Gli alberi mi chiamano"
   gardener_revival_desc:0 "Molte casate sono dette discendere dal leggendario Garth Greenhand, nessuna più prestigiosa di Casa Gardener. L'ultimo Re Gardener Mern IX e i suoi parenti furono bruciati vivi al Campo di Fuoco nel 1 AC, ponendo fine alla dinastia Gardener. Le loro terre furono date a Casa Tyrell che aveva servito fedelmente come loro amministratori. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
   gardener_revival_decision_confirm:0 "L'Albero Più Alto"
   durrandon_revival_decision:0 "Risuscitare Casa Durrandon"
-  durrandon_revival_desc:0 "Nell'Età degli Eroi, il leggendario Re Durran Godsgrief eresse il castello Capo Tempesta e fondò il Regno delle Terre della Tempesta, cementando così il dominio di Casa Durrandon. Secoli dopo, il suo discendente Argilac l'Arrogante perse il suo regno e la sua vita — le sue terre e sua figlia date a Lord Orys Baratheon, ponendo fine alla dinastia Durrandon. Forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo."
+durrandon_revival_desc: 0 "Nell'Età degli Eroi, il leggendario Re Durran Dolore degli Dei eresse il castello di Capo Tempesta e fondò il Regno delle Terre della Tempesta, consolidando così il dominio della Casa Durrandon. Secoli dopo, il suo discendente Argilac l'Arrogante perse il suo regno e la vita — le sue terre e sua figlia furono date a Lord Orys Baratheon, ponendo fine alla dinastia Durrandon. Forse è tempo di riportare in vita questa [dynasty|E] un tempo grande, con me come suo capo."
   durrandon_revival_decision_confirm:0 "Nostra è la furia"
   stark_revival_decision:0 "Risuscitare Casa Stark"
   stark_revival_desc:0 "Per destino e sfortuna, l'antica casa di Bran il Costruttore è estinta, ponendo fine a migliaia di anni di dominio degli Stark a Grande Inverno. Ho riconquistato Grande Inverno — forse è il momento di riportare in vita questa antica [dynasty|E], con me stesso come capo... Perché deve sempre esserci uno Stark a Grande Inverno."
@@ -85,11 +85,12 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
 
   reforge_valyrian_steel_decision:0 "Riforgiare Lama in Acciaio di Valyria"
   reforge_valyrian_steel_decision_desc:0 "Desidero forgiare una nuova lama secondo le mie idee"
-  reforge_valyrian_steel_decision.tt:0 "Inizierai il processo di riforgiare una lama in acciaio di Valyria in tuo possesso"
+reforge_valyrian_steel_decision.tt: 0 "Inizierai il processo di riforgiatura di una lama d'acciaio di Valyria in tuo possesso"
   reforge_valyrian_steel_decision_confirm:0 "Chiamate lo speziale!"
-  reforge_valyrian_steel_decision_tooltip:0 "Inizierai il processo di riforgiare una lama in acciaio di Valyria in tuo possesso"
+reforge_valyrian_steel_decision_tooltip: 0 "Inizierai il processo di riforgiatura di una lama d'acciaio di Valyria in tuo possesso"
   reforge_valyrian_steel_excellent_aptitude:0 "Il tuo $court_smith_court_position$ deve avere un’attitudine di livello #V Eccellente#!, con conoscenze nella riforgiatura dell’Acciaio di Valyria o appartenere a una fede con il precetto [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
   reforge_valyrian_steel_additional_requirements:0 "Al tuo $court_smith_court_position$ serve o la sapienza di riforgiare l’Acciaio di Valyria o una fede col tenet [GetFaithDoctrine('tenet_blood_magic_steel').GetBaseName]"
+reforge_longthorn_good_aptitude: 0 "Il tuo $court_smith_court_position$ deve avere un'attitudine #V Buona#!"
 
  #Dawn
   claim_dawn_unworthy_decision:0 "Rivendica Alba"
@@ -110,8 +111,11 @@ agot_events_generic.0030.b: "Spero che il tuo sedere petulante si tagli sul Tron
  #Longthorn
 decision_reforge_longthorn:0 "Restaura Longthorn"
 decision_reforge_longthorn_desc:0 "La lama di Longthorn sopravvive, poiché l'acciaio di Valyria resiste persino al fuoco di drago. Eppure la nostra casata giurò solennemente che non sarebbe stata riforgiata finché Alto Giardino non fosse stato riconquistato e Casa Gardener restituita alla gloria."
-decision_reforge_longthorn_tooltip:0 "Farai riforgiare la tua lama ancestrale, Longthorn, in una spada utilizzabile"
+decision_reforge_longthorn_tooltip: 0 "Farai riforgiare la lama di Lungaspina in una spada utilizzabile"
 decision_reforge_longthorn_confirm:0 "Chiamate i fabbri!"
+
+decision_reforge_longthorn_alt: 0 "Restaura Lungaspina"
+decision_reforge_longthorn_desc_alt: 0 "La lama di Lungaspina sopravvive, poiché l'acciaio di Valyria resiste persino al fuoco di drago. Sarà infine restaurata alla sua antica gloria, restituendole il suo splendore remoto."
 
  #Retrieve Hidden Artifact
   retrieve_hidden_artifact_decision:0 "Recupera l'artefatto nascosto"
@@ -213,7 +217,7 @@ agot_minor_decisions_events.0005.desc:0 "#italic [ROOT.Char.GetFullNameNicknamed
 agot_minor_decisions_events.0005.a:0 "Vattene, barbiere!"
 
 recruit_forder_specialist_decision:0 "Recluta uno specialista dei guadi"
-recruit_forder_specialist_decision_desc:0 "Recluta un comandante che non solo sappia attraversare efficacemente i fiumi, ma sia anche un abile combattente nel farlo."
+recruit_forder_specialist_decision_desc: 0 "Recluta un Comandante che non solo sappia come attraversare efficacemente i fiumi, ma sia anche un abile combattente quando lo fa."
 recruit_forder_specialist_decision_tooltip:0 "Un comandante con il tratto Forder si unirà alla tua corte."
 recruit_forder_specialist_decision_confirm:0 "Spero di trovarne uno"
 
