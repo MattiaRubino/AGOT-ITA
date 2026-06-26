@@ -558,7 +558,6 @@ relation_suzerain_possessive: "del suzerano"
  HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[Select_CString(second.IsFemale,'la sua','il suo')] [second.Custom2('RelationToMe', ROOT.Char)] [AGOTGetTitledFirstName(ROOT.Char)]"
  #AGOT Modified
  #HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[second.GetHerHis] [second.Custom2('RelationToMe', ROOT.Char)] [ROOT.Char.GetTitledFirstName]"
- HerHisCharacterIntroductionNoComma_herhis_relation_titledfirstname:0 "[Select_CString(second.IsFemale,'la sua','il suo')] [second.Custom2('RelationToMe', ROOT.Char)] [AGOTGetTitledFirstName(ROOT.Char)]"
  #AGOT Modified
  #HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_primaryspouse:0 "[ROOT.Char.GetTitledFirstName], the [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] of [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)]"
  HerHisCharacterIntroductionNoComma_the_relation_of_HerHisCharacterIntroductionNoComma_primaryspouse:0 "[AGOTGetTitledFirstName(ROOT.Char)], [Select_CString(ROOT.Char.IsFemale,'la','il')] [ROOT.Char.GetPrimarySpouse.Custom2('RelationToMe', ROOT.Char)] di [ROOT.Char.GetPrimarySpouse.Custom2('HerHisCharacterIntroductionNoComma', second)]"
