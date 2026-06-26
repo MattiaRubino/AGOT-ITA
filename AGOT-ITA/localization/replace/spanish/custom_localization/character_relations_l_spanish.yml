@@ -45,7 +45,7 @@
  OPINION_DEFENDING_ME_IN_CLAIM_WAR:0 "[liege|e] sta difendendo il mio titolo contro un pretendente"
  OPINION_POWERFUL_VASSAL_WITHOUT_COUNCIL_POSITION:0 "Vuole sedere nel consiglio"
  OPINION_CULTURAL_ACCEPTANCE:0 "[cultural_acceptance|E]"
- CULTURAL_ACCEPTANCE_KNOWS_LANGUAGE:1 "[GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] in meno poiché [TARGET_CHARACTER.GetName] può parlare la lingua [CHARACTER.GetCulture.GetLanguage.GetName]"
+ CULTURAL_ACCEPTANCE_KNOWS_LANGUAGE:1 "[GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] in meno poiché [TARGET_CHARACTER.GetShortUIName] può parlare la lingua [CHARACTER.GetCulture.GetLanguage.GetName]"
  OPINION_SAME_DYNASTY:0 "Stessa [dynasty|E]"
  OPINION_INFIDEL:0 "[religion|E] differente"
  OPINION_HERETIC:0 "[faith|E] differente"

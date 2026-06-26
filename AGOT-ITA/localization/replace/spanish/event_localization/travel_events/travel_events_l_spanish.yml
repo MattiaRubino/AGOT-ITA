@@ -39,10 +39,10 @@ travel_events.0011.desc:0 "quando [Select_CString(predecessor.IsFemale,'è morta
  travel_events.1002.title:0 "$travel_events.1001.title$"
  travel_events.1002.desc:0 "Mentre passiamo oltre, [shoeless_peasant.Custom('DE_ART_DEF_P_A')] contadin[shoeless_peasant.Custom('DE_END_PRO_S_N')] afferra i miei vestiti con le sue mani sudice e mi guarda dritto negli occhi.\n\n"Questo non è un comportamento che si addice ad un [ROOT.Char.GetTitleAsNameNoTooltip|U], non credete? Se aveste saputo chi ero, non mi avreste lasciato proseguire in questo modo!"\n\n[shoeless_peasant.Custom('DE_ART_IND_A')|U] si rivela essere un[shoeless_peasant.Custom('DE_END_PRO_S_N')] nobile della casata [shoeless_peasant.GetDynastyName] e sembra che ora nutra nei miei confronti il massimo disprezzo."
  travel_events.1002.a:0 "Come potevo saperlo?"
- friend_showed_charity:0 "[CHARACTER.GetName|U] ha mostrato a [TARGET_CHARACTER.GetName] grande carità"
- friend_showed_charity_corresponding:0 "[TARGET_CHARACTER.GetName|U] ha mostrato a [CHARACTER.GetName] grande carità"
- rival_ungenerous:0 "[CHARACTER.GetName|U] si è rifiutat[CHARACTER.Custom('DE_END_PRO_S_N')] di aiutare [TARGET_CHARACTER.GetName] nel momento del bisogno"
- rival_ungenerous_corresponding:0 "[TARGET_CHARACTER.GetName|U] si è rifiutat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] di aiutare [CHARACTER.GetName] nel momento del bisogno"
+ friend_showed_charity:0 "[CHARACTER.GetShortUIName|U] ha mostrato a [TARGET_CHARACTER.GetShortUIName] grande carità"
+ friend_showed_charity_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] ha mostrato a [CHARACTER.GetShortUIName] grande carità"
+ rival_ungenerous:0 "[CHARACTER.GetShortUIName|U] si è rifiutat[CHARACTER.Custom('DE_END_PRO_S_N')] di aiutare [TARGET_CHARACTER.GetShortUIName] nel momento del bisogno"
+ rival_ungenerous_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] si è rifiutat[TARGET_CHARACTER.Custom('DE_END_PRO_S_N')] di aiutare [CHARACTER.GetShortUIName] nel momento del bisogno"
 
 #Bandit attack
  travel_events.1003.t:0 "$travel_danger_prefix$ Esattori di Pedaggi"
