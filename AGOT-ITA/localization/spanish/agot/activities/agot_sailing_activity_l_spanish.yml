@@ -1,0 +1,141 @@
+﻿l_spanish:
+
+ ########################
+ ### SAILING ACTIVITY ###
+ ########################
+
+activity_agot_sailing: 0 "Viaggio per mare"
+ activity_agot_sailing_host_an_a:0 "$host_activity_a$"
+activity_agot_sailing_desc: 0 "I misteri e le avventure del selvaggio mare aperto mi chiamano! Chi sono io per ignorare il loro richiamo?"
+activity_agot_sailing_destination_selection: 0 "Il luogo da cui inizierai il tuo viaggio oceanico!"
+activity_agot_sailing_selection_tooltip: 0 "Salpa in mare aperto\n\nRicompense previste:\n$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[gold_i] [gold|E]\n$BULLET_WITH_TAB$[stress_loss_i][stress_loss|E]"
+activity_agot_sailing_host_desc: 0 "\n$BULLET_WITH_TAB$Puoi ottenere [legitimacy_i] [legitimacy|E]\n$BULLET_WITH_TAB$I partecipanti possono ottenere [prestige_i|E] [prestige|E]\n$BULLET_WITH_TAB$I partecipanti possono ottenere [gold_i] [gold|E]\n$BULLET_WITH_TAB$I partecipanti possono perdere [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$I partecipanti possono ottenere [artifacts|E] rari\n"
+activity_agot_sailing_guest_desc: 0 "\n$BULLET_WITH_TAB$I partecipanti possono ottenere [prestige_i|E] [prestige|E]\n$BULLET_WITH_TAB$I partecipanti possono ottenere [gold_i] [gold|E]\n$BULLET_WITH_TAB$I partecipanti possono perdere [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$I partecipanti possono ottenere [artifacts|E] rari\n"
+activity_sailing_desc_trait: 0 "$BULLET_WITH_TAB$I partecipanti possono ottenere il [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )] [trait|E]\n"
+activity_sailing_desc_trait_xp: 0 "$BULLET_WITH_TAB$I partecipanti possono ottenere [trait_level_track_xp|E] da [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )]\n"
+activity_agot_sailing_province_desc: 0 "Salperai dal porto di [ROOT.Province.GetName]\n"
+activity_agot_sailing_hunt_province_desc: 0 "con l'intento di cacciare una creatura del mare\n"
+activity_agot_sailing_raid_province_desc: 0 "con l'intento di compiere un'incursione marittima\n"
+activity_agot_sailing_valyria_province_desc: 0 "con l'intento di raggiungere Valyria\n"
+activity_agot_sailing_treasure_province_desc: 0 "con l'intento di cercare tesori in una nave affondata\n"
+activity_agot_sailing_conclusion_desc: 0 "Il tuo viaggio per mare ti riporta in porto"
+activity_agot_sailing_predicted_cost: 0 "Il costo di un viaggio è influenzato principalmente dalle [activity_options|E]"
+
+agot_sailing_type_hunt: 0 "Caccia marittima"
+agot_sailing_type_hunt_desc: 0 "$EFFECT_LIST_BULLET$Scegli una preda fra diverse creature marine\n$EFFECT_LIST_BULLET$Aumenta la [trait_level_track_xp|E] di [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )]\n\n#weak Prepara il tuo arpione e parti a caccia delle molte creature del mare!#!"
+
+agot_sailing_type_raid: 0 "Incursione marittima"
+agot_sailing_type_raid_desc: 0 "$EFFECT_LIST_BULLET$Lancia incursioni contro insediamenti costieri o navi di passaggio\n$EFFECT_LIST_BULLET$Aumenta la [trait_level_track_xp|E] di [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )]\n\n#weak L'oceano offre molte avventure. Parti a tormentare le coste dei tuoi nemici per ottenere infamia e bottino!#!"
+agot_can_raid: 0 "La tua cultura, la tua fede o il tuo governo devono permettere le razzie"
+
+agot_sailing_type_valyria: 0 "Viaggio a Valyria"
+agot_sailing_type_valyria_desc: 0 "$EFFECT_LIST_BULLET$Affronta il Mare Fumante per esplorare le rovine di Valyria\n$EFFECT_LIST_BULLET$Aumenta la [trait_level_track_xp|E] di [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )]\n\n@warning_icon! #X Questo è un viaggio pericoloso, e una tomba d'acqua potrebbe attendere chi è impreparato#!\n\n#weak Molti hanno fatto vela verso le rovine di Valyria. Pochi sono vissuti abbastanza da rivedere le proprie coste.#!"
+agot_sailing_type_treasure: 0 "Spedizione di recupero"
+agot_sailing_type_treasure_desc: 0 "$EFFECT_LIST_BULLET$ Cerca tesori perduti nascosti sotto le onde\n$EFFECT_LIST_BULLET$Aumenta la [trait_level_track_xp|E] di [GetTrait('lifestyle_mariner').GetName( GetNullCharacter )]\n\n#weak Una nave è affondata nelle profondità del mare; qui si può trovare un tesoro.#!"
+
+gain_sailing_xp_intent: 0 "Ottieni esperienza nautica"
+gain_sailing_xp_intent_desc: 0 "Concentrerai i tuoi sforzi sul migliorare il [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]."
+intent_xp_success_tt: 0 "Sei riuscito a migliorare il [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]."
+intent_xp_fail_tt: 0 "Non sei riuscito a migliorare il [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]."
+
+agot_sailing_option_ship_choice: 0 "Imbarcazione"
+
+agot_sailing_charter: 0 "Nave noleggiata"
+agot_sailing_charter_desc: 0 "#weak Effettua un pagamento una tantum per noleggiare una nave.#!"
+ agot_sailing_charter_ship:0 "$agot_sailing_charter$"
+
+agot_sailing_small_ship: 0 "Nave personale"
+agot_sailing_small_ship_desc: 0 "#weak Paga per la costruzione di una nave personale per il viaggio, oppure usa la tua.#!"
+ agot_sailing_select_small_ship:0 "$agot_sailing_small_ship$"
+
+agot_sailing_big_ship: 0 "Grande nave ammiraglia"
+agot_sailing_big_ship_desc: 0 "#weak Paga per la costruzione di una grande nave ammiraglia per il viaggio, oppure usa la tua.#!"
+ agot_sailing_select_big_ship:0 "$agot_sailing_big_ship$"
+
+agot_sailing_option_guests: 0 "Passeggeri"
+
+agot_sailing_guests_none: 0 "Nessuno"
+agot_sailing_guests_none_desc: 0 "#weak Nessun passeggero aggiuntivo può accompagnarti nel viaggio.#!"
+agot_sailing_guests_none_amount: 0 "Nessun passeggero aggiuntivo"
+
+agot_sailing_guests_few: 0 "Pochi"
+agot_sailing_guests_few_desc: 0 "#weak Solo pochi passeggeri possono accompagnarti nel viaggio.#!"
+agot_sailing_guests_few_amount: 0 "Pochi passeggeri"
+
+agot_sailing_guests_many: 0 "Molti"
+agot_sailing_guests_many_desc: 0 "#weak Molti passeggeri aggiuntivi possono accompagnarti nel viaggio.#!"
+agot_sailing_guests_many_amount: 0 "Molti passeggeri"
+
+agot_sailing_province_requirement_landless: 0 "Non è una [province|E] costiera abitata entro la tua portata diplomatica"
+agot_sailing_province_requirement_landed: 0 "Non è una contea costiera con un porto commerciale o un edificio portuale speciale"
+realm_is_isolated: 0 "I porti sono attualmente chiusi a causa della pestilenza"
+
+agot_sailing_phase: 0 "Fase di navigazione"
+agot_sailing_phase_desc: 0 "Parti per un viaggio per mare in mare aperto."
+
+agot_sailing_completed_log_title: 0 "Viaggio per mare concluso"
+gained_sailor_trait_log_title: 0 "Ottenuto il @sailor_trait_icon! [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]"
+gained_sailor_xp_log_title: 0 "Ottenuta @sailor_trait_icon! [trait_level_track_xp|E] di [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)]"
+
+sailing_had_sexual_encounter_title: 0 "Incontri romantici"
+sailing_gained_concubine_log_title: 0 "Seguaci ottenuti"
+
+gained_sailor_trait_log: 0 "[host.GetName] ha ottenuto il @sailor_trait_icon! [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]"
+gained_sailor_xp_log: 0 "[host.GetName] ha ottenuto [trait_level_track_xp|E] per il @sailor_trait_icon! [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]"
+
+TRAVEL_NAME_FOR_activity_agot_sailing: 0 "$activity_agot_sailing$ di [Character.GetFirstNamePossessiveNoTooltip]"
+
+TRAVELING_TO_VALYRIA: 0 "Stai viaggiando verso Valyria"
+
+NEED_A_SHIP_FOR_RAID: 0 "Devi possedere una nave per intraprendere un'incursione"
+
+SAILING_VALYRIA_HEALTHY: 0 "Non sei abbastanza in salute per un viaggio così pericoloso"
+
+SAILING_VALYRIA_EXPERIENCED: 0 "Devi avere almeno 50 [trait_level_track_xp|E] nel [GetTrait('lifestyle_mariner').GetName(GetNullCharacter)] [trait|E]"
+
+ATTEMPTED_VALYRIA: 0 "Potrai viaggiare di nuovo verso Valyria il #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'attempted_valyria') )]#!"
+
+NEED_A_SHIP_FOR_VALYRIA: 0 "Devi possedere una nave per viaggiare verso Valyria"
+
+LANDED_COOLDOWN: 0 "Potrai salpare di nuovo il #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( GetPlayer.MakeScope, 'sailed_recently') )]#!"
+
+agot_sailing_landed_diving: 0 "Devi possedere una nave equipaggiata con una campana subacquea"
+
+agot_sailing_landless_diving: 0 "Devi possedere un [GetDomicileBuilding('agot_pirate_diving_bell').GetName]"
+
+agot_sailing_location_requirements: 0 "Devi possedere una mappa del tesoro o conoscere il luogo di un relitto"
+
+HAS_TRADEPORT: 0 "Devi avere un porto commerciale o un edificio portuale speciale nel tuo dominio"
+
+OWNING_SMALL_PIRATE_SHIP: 0 "Devi possedere un [GetDomicileBuilding('agot_pirate_ship_main_05').GetName]"
+
+OWNING_BIG_SHIP: 0 "Possiedi una nave, usa $agot_sailing_big_ship$"
+sailing_owns_big_ship_desc: 0 "La tua [house|E] possiede una grande nave ammiraglia."
+owns_big_ship: 0 "Grande nave ammiraglia"
+owns_big_ship_desc: 0 ""
+owns_big_ship_diving: 0 "Grande nave ammiraglia con campana subacquea"
+owns_big_ship_diving_desc: 0 ""
+
+OWNING_SMALL_SHIP: 0 "Possiedi una nave, usa $agot_sailing_small_ship$"
+sailing_owns_small_ship_desc: 0 "La tua [house|E] possiede una nave personale."
+owns_small_ship: 0 "Nave personale"
+owns_small_ship_desc: 0 ""
+owns_small_ship_diving: 0 "Nave personale con campana subacquea"
+owns_small_ship_diving_desc: 0 ""
+
+opinion_attended_sailing_trip_guest: 0 "Mi ha invitato a un viaggio per mare"
+opinion_attended_sailing_trip_host: 0 "Ha preso parte al mio viaggio per mare"
+
+activity_agot_sailing_province_desc_common_tradeport_minor: 0 "#P + $building_type_common_tradeport_01$#! ([building|E])\n"
+activity_agot_sailing_province_desc_common_tradeport_medium: 0 "#P ++ $building_type_common_tradeport_01$#! ([building|E])\n"
+activity_agot_sailing_province_desc_common_tradeport_major: 0 "#P +++ $building_type_common_tradeport_01$#! ([building|E])\n"
+activity_agot_sailing_province_desc_common_tradeport_max: 0 "#P ++++ $building_type_common_tradeport_01$#! ([building|E])\n"
+activity_agot_sailing_province_desc_special_building: 0 "#P ++++ Edificio speciale#! ([building|E])\n"
+activity_agot_sailing_province_desc_great_fleet: 0 "#P ++++ $building_type_agot_great_fleet_01$#! ([building|E])\n"
+activity_agot_sailing_harbormaster_court_position_apptitude_check_3: 0 "Capitano del Porto discreto\n"
+activity_agot_sailing_harbormaster_court_position_apptitude_check_4: 0 "Capitano del Porto efficiente\n"
+activity_agot_sailing_harbormaster_court_position_apptitude_check_5: 0 "Capitano del Porto esperto\n"
+activity_agot_sailing_province_desc_sunken_ship: 0 "#P +++ $sunken_ship_sighted$#! ([building|E])\n"
+
+ACTIVITY_GUEST_OPTION_VALYRIA: 0 "Valyria [Select_CString(ROOT.Char.IsFemale,'le','gli')] pare pericolosa: $VALUE|=+0$"
+ACTIVITY_GUEST_OPTION_SAILOR_REASON: 0 "Ha il tratto [GetTrait('lifestyle_mariner').GetName( ROOT.Char.Self )]: $VALUE|=+0$"

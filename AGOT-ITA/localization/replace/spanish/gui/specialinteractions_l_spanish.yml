@@ -4,6 +4,7 @@
  MARRIAGE_INBREEDING_RISK_WE: "Siamo imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i nostri figli siano [Concept( 'inbred', 'Endogamici' )|E]"
  MARRIAGE_INBREEDING_THEY: "Sono imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i loro figli siano [Concept( 'inbred', 'Endogamici' )|E]"
  MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'sei', 'è' )] disperat[Select_CString(secondary_recipient.IsFemale,'a','o')] a sposarsi: $VALUE|+=0$"
+ expected_to_pay_tribute: "Ci si aspetterà che [SCOPE.sC('tributary_loc').GetShortUIName|U] [travel|E] a [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] per pagare tributo a [SCOPE.sC('suzerain_loc').GetPrimaryTitle.GetBaseNameNoTierNoTooltip] con regolarità"
  #End AGOT modifiche
 
  INHERITABLE_TRAITS:1 "[congenital_traits|E]"
@@ -116,7 +117,6 @@ low_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSub
 normal_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_normal' )]"
 high_hegemonic_tribute_prestige: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'hegemonic_tribute_prestige' ).GetObligationName( 'hegemonic_prestige_transfer_high' )]"
 
-expected_to_pay_tribute: "Ci si aspetterà che [SCOPE.sC('tributary_loc').GetShortUIName|U] [travel|E] a [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] per $tribute_mission_decision_china$ con regolarità"
 
  low_nomad_tribute_herd: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'nomad_government_herd' ).GetObligationName( 'herd_tax_low' )]"
  normal_nomad_tribute_herd: "$tributary_contract_starts_with_common$ [GetSubjectContractType( 'nomad_government_herd' ).GetObligationName( 'herd_tax_normal' )]"
