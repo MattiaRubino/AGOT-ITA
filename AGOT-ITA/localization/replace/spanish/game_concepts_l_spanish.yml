@@ -9,6 +9,7 @@
  game_concept_cultural_acceptance_baseline_desc:1 "L'[cultural_acceptance|E] ha un valore di base verso il quale decadrà se superato. Il valore di base dipende da:\n$EFFECT_LIST_BULLET$Shared [heritage|E]\n$EFFECT_LIST_BULLET$[language|E] condivisa\n$EFFECT_LIST_BULLET$[faith|E] e [religion|E] condivise, specialmente se [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName]\n$EFFECT_LIST_BULLET$[ethos|E] condivisi all'interno della stessa [region|E]"
  game_concept_language:0 "Lingua"
  game_concept_languages:0 "Lingue"
+ game_concept_complete_control_region_desc:0 "Questa condizione è soddisfatta quando tutte le [counties|E] nella [region|E] bersaglio sono detenute dal sovrano o dai suoi [vassals|E], nessuno dei suoi possedimenti è un [settlement_holdings|E], e nessuna delle sue Contee è occupata da eserciti ostili."
  game_concept_language_desc:3 "Una lingua è il [culture_pillar|E] che determina quale lingua parla la popolazione di una [culture|E]. $game_concept_cultures$ che parlano la stessa lingua guadagnano un bonus permanente al loro [cultural_acceptance_baseline|E].\n\nUn [character|E] può conoscere una o più Lingue. Conoscere una lingua riduce di metà la penalità di [opinion|E] per l'[cultural_acceptance|E] verso quei Personaggi e [counties|E] che parlano quella Lingua. Scoraggia inoltre le [faction_independence|E] e le [claimant_factions|E].\n\nI personaggi possono imparare altre lingue usando il [scheme|E] [GetScheme('learn_language').GetTypeName]. I personaggi possono imparare tranquillamente nuove lingue fino al loro [language_limit|E]."
  game_concept_language_limit:1 "Limite di Lingue Straniere"
  game_concept_language_limit_desc:1 "Puoi ricordare agevolmente solo una certa quantità di [languages|E]. Se si supera questo limite, si dovrà dimenticare una Lingua o soffrire di [stress|E].\n\nLa lingua parlata dalla tua [culture|E] non conta per questo limite.\n\nIl limite è determinato da:\n$EFFECT_LIST_BULLET$Tutti hanno una base di #V 1#!\n$EFFECT_LIST_BULLET$Ogni [EmptyScope.ScriptValue('language_learning_divide_value')|V0] punto di [learning_i][learning|E] aumenta questo valore di #V 1#!\n$EFFECT_LIST_BULLET$Il [perk|E] [GetPerk('open_minded_perk').GetName(GetPlayer)] aumenta questo valore di #V 2#!\n$EFFECT_LIST_BULLET$Il [perk|E] [GetPerk('smooth_operator_perk').GetName(GetPlayer)] aumenta questo valore di #V 1#!\n$EFFECT_LIST_BULLET$Il [dynasty_perk|E] [GetDynastyPerk('ep1_culture_legacy_1').GetName] aumenta questo valore di #V 1#!"
@@ -32,7 +33,7 @@
  game_concept_theocracy_desc:0 "$game_concept_theocracy$ è una [government_form|E] non giocabile, disponibile per alcune [faiths|E] a seconda delle [doctrines|E]. Di norma è guidata da un[head_of_faith|E] o da un[realm_priest|E] [landed|E]."
  game_concept_head_of_faith_desc:0 "Un $game_concept_head_of_faith$ è il leader formale di una [faith|E]. I poteri e la natura del $game_concept_head_of_faith$ dipendono dalle [doctrines|E] della Fede.\n\nAlcune Fedi hanno un [spiritual_head_of_faith|E] #weak (es. l'Alto Septon)#!, altre un [temporal_head_of_faith|E] #weak (es. Magnar dei Thenn)#!, e altre ancora non hanno affatto un $game_concept_head_of_faith$."
  game_concept_unreformed_pagan_combat_bonus_desc:1 "Le [faiths|E] con dottrina [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] ottengono un [advantage|E] in [battle|E] nelle [counties|E] della loro fede."
- 
+ game_concept_complete_control_desc:2 "Questa condizione è soddisfatta quando tutti i [titles|E] vassalli [de_jure|E] del titolo bersaglio sono detenuti dal [ruler|E] o dai suoi [vassals|E], nessuno dei suoi possedimenti è un [settlement_holdings|E], e nessuna delle sue Contee è [occupied|E] da [armies|E] ostili."
  game_concept_accolade_desc:5 "Le [accolades|E] sono onori conferiti ai [knights|E] dal loro [liege|E].\n\nIl Capitano che detiene una Accolade diventa un [acclaimed_knight|E].\n\nMan mano che il Capitano Acclamato accumula [glory|E], il [accolade_rank|E] dei suoi [accolade_types|E] aumenta, offrendo bonus più forti al suo Signore.\n\nQuando i Capitani Acclamati muoiono, vengono sostituiti tramite [accolade_succession|E].\n\nLe [innovations|e] e i [title_tiers|e] più elevati consentono ai [rulers|E] di avere più Accolades contemporaneamente."
  game_concept_acclaimed_knight:0 "Capitano Acclamato"
  game_concept_acclaimed_knights:0 "Capitani Acclamati"
@@ -1468,11 +1469,9 @@ game_concept_cultural_spread_desc: "Il contatto con altre [cultures|E] che hanno
  game_concept_completely_controlled:0 "Completamente Controllato"
 
  game_concept_complete_control:0 "Controllo Completo"
- game_concept_complete_control_desc:2 "Questa condizione si ha quando tutti i [titles|E] [de_jure|E] al di sotto del titolo bersaglio sono detenuti dal [ruler|E] o dai suoi [vassals|E] e nessuna delle sue Contee è [Concept( 'occupied', 'occupata' )|E] da [armies|E] ostili."
  game_concept_complete_control_region:0 "Controllo Completo"
  game_concept_completely_controls_region:0 "Controlli Completamente"
  game_concept_completely_control_region:0 "Controllo Completamente"
- game_concept_complete_control_region_desc:0 "Questa condizione è soddisfatta quando tutte le [counties|E] nella [region|E] bersaglio sono detenute dal governante o dai suoi [vassals|E] e nessuna delle sue Contee sono occupate da eserciti ostili."
  game_concept_region:0 "Regione"
  game_concept_regions:0 "Regione"
  game_concept_region_desc:0 "Una regione costituisce una specifica area geografica nella mappa. A differenza dei territori [de_jure|E], le regioni non sono mai soggetti a cambiamenti."

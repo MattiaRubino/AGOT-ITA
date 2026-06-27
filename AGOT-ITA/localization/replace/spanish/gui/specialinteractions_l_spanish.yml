@@ -4,7 +4,7 @@
  MARRIAGE_INBREEDING_RISK_WE: "Siamo imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i nostri figli siano [Concept( 'inbred', 'Endogamici' )|E]"
  MARRIAGE_INBREEDING_THEY: "Sono imparentati e c'è un\n [MatchOffer.GetInbreedingChance|V%^1] di rischio che i loro figli siano [Concept( 'inbred', 'Endogamici' )|E]"
  MARRIAGE_DESPERATION:2 "[secondary_recipient.GetShortUINameNoTooltip|U] [Select_CString( secondary_recipient.IsLocalPlayer, 'sei', 'è' )] disperat[Select_CString(secondary_recipient.IsFemale,'a','o')] a sposarsi: $VALUE|+=0$"
- expected_to_pay_tribute: "Ci si aspetterà che [SCOPE.sC('tributary_loc').GetShortUIName|U] [travel|E] a [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] per pagare tributo a [SCOPE.sC('suzerain_loc').GetPrimaryTitle.GetBaseNameNoTierNoTooltip] con regolarità"
+ expected_to_pay_tribute: "[SCOPE.sC('tributary_loc').GetShortUIName|U] dovrà [travel|E] fino a [SCOPE.sC('suzerain_loc').GetCapitalLocation.GetName] per versare regolarmente tributo a [SCOPE.sC('suzerain_loc').GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
  #End AGOT modifiche
 
  INHERITABLE_TRAITS:1 "[congenital_traits|E]"

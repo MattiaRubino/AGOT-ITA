@@ -56,7 +56,7 @@
  leave_faction_with_cooldown_effect_first.tt:2 "Non potrai unirti ad un'altra [faction|E] ostile per #V $VALUE|0$ anni#!"
  leave_faction_with_cooldown_effect_global.tt:0 "Non può unirsi ad un'altra [faction|E] ostile per #V $VALUE|0$ anni#!" 
  ATTACKING_TRIBUTARY: "\n#S Attaccare un [tributary|E] romperà il [tributary_contract|E]#!"
- 
+ CHEAPER_HUNTS_AND_FEASTS:1 "Costo di [GetActivityType('activity_hunt').GetName], [GetActivityType('activity_feast').GetName] e [GetActivityType('activity_agot_sailing').GetName]: [gold_i]#P -30%#!"
  #End AGOT modifiche
 
  CHARACTER_DEATH_EFFECT:1 "@death_icon! Muore"
@@ -2311,7 +2311,6 @@ removes_directive_refusal_perk_effect_third: "$removes_directive_refusal_perk_ef
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "Può reclutare le [GetMaA('house_guard').GetName] come [men_at_arms|E]"
  HOUSE_GUARD_DESCRIPTION:0 "#weak Può essere reclutato un solo reggimento della Guardia della Casata#!"
 
- CHEAPER_HUNTS_AND_FEASTS:1 "Costo di [GetActivityType('activity_hunt').GetName] e [GetActivityType('activity_feast').GetName]: [gold_i]#P -30%#!"
 
  MARRIAGE_ACCEPTANCE_LEGACY_FOR_SELF:0 "Accettazione del [marriage|E]: #P +[EmptyScope.ScriptValue('glory_legacy_1_marriage_acceptance')|0]#!"
  FEWER_FACTIONS_LEGACY:0 "I [vassals|E] sono meno propensi a unirsi alle [claimant_factions|E] e alle [liberty_factions|E]#!"

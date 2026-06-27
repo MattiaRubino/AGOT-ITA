@@ -14,6 +14,7 @@
  tradition_republican_legacy_name:0 "Eredità del Feudo Franco"
  tradition_republican_legacy_desc:1 "Questa cultura ha una lunga storia di appartenenza al Feudo Franco, dove le classi urbane sono importanti quanto i proprietari terrieri rurali."
  culture_parameter_piety_gain_on_building_complete_in_forest_taiga:2 "Ottieni [piety_i][piety|E] al completamento di [buildings|E] in [holdings|E] con [terrain|E] #V Foresta#!, #V Giungla#!, #V $cloudforest$#!, #V Taiga#! o #V $taiga_bog$#!"
+ can_appoint_chief_eunuch_name_tt: "La [culture|E] [THIS.GetCharacter.GetCulture.GetName] possiede una delle seguenti [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t"
  #End AGOT modifiche
 
  # Ethoses
@@ -1477,7 +1478,6 @@ culture_parameter_allows_noble_family_adoption: "[house_heads|E] di [noble_famil
 tradition_brewery_desc: "Questa cultura considera la produzione e il consumo di alcol un elemento importante sia nelle festività sia nella vita quotidiana."
   culture_in_farm_or_mansion_count_desc: "La [culture|E] non è presente in almeno #V 5#! [counties|E] con l'[building|E] #color_white $building_type_cereal_fields_01$#! o #color_white $building_type_farm_estates_01$#!"
 
-can_appoint_chief_eunuch_name_tt: "[THIS.GetCharacter.GetCulture.GetName] [culture|E] ha una delle seguenti [traditions|E]:\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_court_eunuchs').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_byzantine_succession').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_ep3_palace_politics').GetName]\n\t$EFFECT_LIST_BULLET$[GetCultureTradition('tradition_tgp_court_machinations').GetName]"
 
 #MPO
   tradition_mpo_iron_cavalry_name: "Cavalleria di Ferro"
