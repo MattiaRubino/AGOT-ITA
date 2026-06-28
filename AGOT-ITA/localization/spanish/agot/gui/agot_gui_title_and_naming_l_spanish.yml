@@ -82,11 +82,11 @@
  # Tyrion Lannister, 'the Imp'
  CHARACTER_FIRSTNAME_SURNAME_NICKNAME_TOOLTIP:0 "#ONCLICK:CHARACTER,[CHARACTER.GetID] #TOOLTIP:CHARACTER,[CHARACTER.GetID] #L $CHARACTER_FIRSTNAME_SURNAME_NICKNAME$#!#!#!"
  
- AGOT_TITLE_SCOPE_NAME:0 "[title_scope.GetNameNoTierNoTooltip]"
- TITLE_SUFFIX:0 " #medium of [title_suffix_scope.GetNameNoTierNoTooltip]#!"
- TITLE_SUFFIX_NO_FORMAT:0 " of [title_suffix_scope.GetNameNoTierNoTooltip]"
- PAST_TITLE_SUFFIX:0 " #medium of [TARGET_TITLE.GetNameNoTierNoTooltip]#!"
- PAST_TITLE_SUFFIX_NO_FORMAT:0 " of [TARGET_TITLE.GetNameNoTierNoTooltip]"
+ AGOT_TITLE_SCOPE_NAME:0 "'[title_scope.GetNameNoTierNoTooltip]'"
+ TITLE_SUFFIX:0 " #medium - '[title_suffix_scope.GetNameNoTierNoTooltip]'#!"
+ TITLE_SUFFIX_NO_FORMAT:0 " - '[title_suffix_scope.GetNameNoTierNoTooltip]'"
+ PAST_TITLE_SUFFIX:0 " #medium - '[TARGET_TITLE.GetNameNoTierNoTooltip]'#!"
+ PAST_TITLE_SUFFIX_NO_FORMAT:0 " - '[TARGET_TITLE.GetNameNoTierNoTooltip]'"
  
  AGOTGetTitleDowager:0 "[Localize(get_title_dowager)][Localize(get_title)]"
  AGOTGetTitleRegent:0 "[Localize(get_title)][Localize(get_title_regent)]"

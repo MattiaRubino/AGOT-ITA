@@ -184,7 +184,9 @@ types Lists
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
 
-								margin_left = 10
+								#AGOT Modified
+								# margin_left = 10
+								margin_left = 5
 
 								min_width = 320
 								max_width = 320
@@ -195,12 +197,16 @@ types Lists
 									autoresize = no
 									alwaystransparent = yes
 
-									text = "[Character.LocalPlayerString( 'Tu', 'Loc_FR_le_GetShortUIName_U' )]" ### ITA  TWR
+									#AGOT Modified
+									# text = "[Character.GetUINameNoTooltip|U]"
+									text = "LIST_CHARACTER_NAME_DISPLAY"
 								}
 
 								hbox = {
 									layoutpolicy_horizontal = expanding
 									layoutpolicy_vertical = expanding
+									#AGOT Added
+									margin_top = -8
 
 									using = character_age_or_death_text
 									blockoverride "list_layout" {}
@@ -245,6 +251,8 @@ types Lists
 										widget_skill_item_no_icon = {}
 									}
 								}
+								#AGOT Added
+								agot_lists_trait_box = {}
 
 								expand = {}
 							}
@@ -332,12 +340,13 @@ types Lists
 									}
 								}
 								
-								block "traits_grid" {
-									# Traits
-									fixedgrid_traits_list = {
-										name = "traits_grid"
-									}
-								}
+								#AGOT Disabled; moved above
+								# block "traits_grid" {
+									# # Traits
+									# fixedgrid_traits_list = {
+										# name = "traits_grid"
+									# }
+								# }
 
 								vbox = {
 									datacontext = "[CharacterListItem.GetCharacter]"
@@ -348,6 +357,8 @@ types Lists
 								block "bottom_right_box"
 								{
 									hbox = {
+										#AGOT Added
+										layoutpolicy_horizontal = expanding
 										margin_right = 8
 										# Realm
 										widget = {
@@ -404,6 +415,8 @@ types Lists
 												tooltip = "CHARACTER_LIST_CLAIM_TOOLTIP"
 											}
 										}
+										#AGOT Added
+										hbox = { layoutpolicy_horizontal = expanding }
 									}
 								}
 							}
@@ -422,14 +435,15 @@ types Lists
 									expand = {}
 
 									hbox = {
-										background = {
-											margin_top = 8
-											margin_left = 12
-											margin_bottom = 2
+										#AGOT Disabled; fugly
+										# background = {
+											# margin_top = 8
+											# margin_left = 12
+											# margin_bottom = 2
 
-											using = Background_Area_Light
-											using = Mask_Rough_Edges
-										}
+											# using = Background_Area_Light
+											# using = Mask_Rough_Edges
+										# }
 
 										block "button_box_content" {}
 									}
@@ -547,7 +561,9 @@ types Lists
 									text_single = {
 										using = Font_Size_Medium
 										align = nobaseline
-										text = "[Character.GetUINameNoTooltip|U]"
+										#AGOT Modified
+										# text = "[Character.GetUINameNoTooltip|U]"
+										text = "[AGOTGetLongUINameNoTooltip(Character)|UV]"
 										fontsize_min = 14
 										block "character_name_width" {
 											max_width = 300
@@ -566,6 +582,8 @@ types Lists
 											}
 
 											text_single = {
+												#AGOT Added
+												using = visible_if_not_dragon
 												name = "character_relation"
 												text = "[Character.GetRelationToString( GetPlayer )]"
 												tooltip = "EXTENDED_RELATIONS_TOOLTIP"
@@ -574,6 +592,13 @@ types Lists
 												fontsize_min = 14
 												max_width = 180
 											}
+											#AGOT Added
+											agot_dragonrider_list_relation = {}
+											agot_bonded_list_relation = {}
+											agot_host_list_relation = {}
+											agot_owned_list_relation = {}
+											agot_freedom_list_relation = {}
+											agot_wild_list_relation = {}
 										}
 									}
 
@@ -585,7 +610,14 @@ types Lists
 							}
 
 							# Skills
-							hbox_skills_grid = {}
+							#AGOT Modified
+							# hbox_skills_grid = {}
+							hbox_skills_grid = { using = visible_if_not_dragon }
+							#AGOT Added
+							agot_lists_dragon_size_text = {}
+							agot_lists_dragon_combat_text = {}
+							agot_lists_dragon_dread_text = {}
+							agot_lists_dragon_temper_text = {}
 						}
 
 						### BOTTOM ROW ###
@@ -606,8 +638,15 @@ types Lists
 									# Dynasty
 									widget = {
 										size = { 45 40 }
+										#AGOT Added
+										agot_lists_dragon_host_coa = {}
+										agot_lists_dragon_bonded_coa = {}
+										agot_lists_dragon_rider_coa = {}
+										agot_lists_dragon_roaming_coa = {}
 
 										coa_house_small = {
+											#AGOT Added
+											using = visible_if_not_dragon
 											datacontext = "[Character.GetHouse]"
 											parentanchor = center
 											scale = 0.7
@@ -695,6 +734,8 @@ types Lists
 
 										# Religion and culture
 										hbox = {
+											#AGOT Added
+											using = visible_if_not_dragon
 											layoutpolicy_horizontal = expanding
 											layoutpolicy_vertical = expanding
 											margin_left = 8
@@ -1462,14 +1503,23 @@ types Lists
 						name = "name"
 						layoutpolicy_horizontal = expanding
 						autoresize = no
-						text = "[Character.GetUINameNoTooltip]"
+						#AGOT Modified
+						# text = "[Character.GetUINameNoTooltip]"
+						text = "LIST_CHARACTER_NAME_DISPLAY"
 						using = Font_Size_Medium
 						align = nobaseline
 						fontsize_min = 14
 						margin_right = 10
 					}
 
-					hbox_skills_grid = {}
+					#AGOT Modified
+					# hbox_skills_grid = {}
+					hbox_skills_grid = { using = visible_if_not_dragon }
+					#AGOT Added
+					agot_lists_dragon_size_text = {}
+					agot_lists_dragon_combat_text = {}
+					agot_lists_dragon_dread_text = {}
+					agot_lists_dragon_temper_text = {}
 				}
 
 				vbox = {
@@ -1498,7 +1548,9 @@ types Lists
 							default_format = "#low"
 							align = nobaseline
 							max_width = 370
-							visible = "[Not(Character.IsHostage)]"
+							#AGOT Modified
+							# visible = "[Not(Character.IsHostage)]"
+							visible = "[And(Not(Character.IsHostage), Not(IsCharacterDragon))]"
 
 							block "description_relation_text" {
 								text = "[Character.GetRelationToString( CharacterWindow.GetCourtOwner )]"
@@ -1511,6 +1563,13 @@ types Lists
 								alpha = 0.5
 							}
 						}
+						#AGOT Added
+						agot_dragonrider_courtier_list_relation = {}
+						agot_bonded_courtier_list_relation = {}
+						agot_host_courtier_list_relation = {}
+						agot_owned_courtier_list_relation = {}
+						agot_freedom_courtier_list_relation = {}
+						agot_wild_courtier_list_relation = {}
 
 						text_single = {
 							name = "relation_to_court_hostage"
@@ -1576,8 +1635,15 @@ types Lists
 						widget = {
 							layoutpolicy_vertical = expanding
 							size = { 45 40 }
+							#AGOT Added
+							agot_lists_dragon_host_coa = {}
+							agot_lists_dragon_bonded_coa = {}
+							agot_lists_dragon_rider_coa = {}
+							agot_lists_dragon_roaming_coa = {}
 
 							coa_house_small = {
+								#AGOT Added
+								using = visible_if_not_dragon
 								datacontext = "[Character.GetHouse]"
 								parentanchor = center
 								scale = 0.7
@@ -1672,6 +1738,8 @@ types Lists
 						divider_light = {
 							layoutpolicy_vertical = expanding
 							alpha = 0.5
+							#AGOT Added
+							using = visible_if_not_dragon
 						}
 
 						hbox = {
@@ -1690,6 +1758,8 @@ types Lists
 
 						hbox = {
 							margin_right = 5
+							#AGOT Added
+							using = visible_if_not_dragon
 
 							button_religion_icon = {
 								datacontext = "[Character.GetFaith]"
@@ -1712,7 +1782,9 @@ types Lists
 
 								text_single = {
 									layoutpolicy_horizontal = expanding
-									min_width = 60
+									#AGOT Modified
+									# min_width = 60
+									min_width = 50
 									align = center|nobaseline
 									autoresize = no
 									text = "CULTURE_LISTS_WINDOW"
@@ -1741,7 +1813,9 @@ types Lists
 
 				text_single = {
 					layoutpolicy_horizontal = expanding
-					text = "[Character.GetUINameNoTooltip|U]"
+					#AGOT Modified
+					# text = "[Character.GetUINameNoTooltip|U]"
+					text = "LIST_CHARACTER_NAME_DISPLAY"
 					using = Font_Size_Medium
 					autoresize = no
 					fontsize_min = 13
@@ -2061,7 +2135,9 @@ types Lists
 		spacing = 5
 
 		widget = {
-			visible = "[Or( SubjectContractGroup.IsType('feudal_vassal'), SubjectContractGroup.IsType('mandala_vassal') )]"
+			#AGOT Modified
+			# visible = "[Or( SubjectContractGroup.IsType('feudal_vassal'), SubjectContractGroup.IsType('mandala_vassal') )]"
+			visible = "[Or(Or(SubjectContractGroup.IsType('feudal_vassal'), SubjectContractGroup.IsType('mandala_vassal')), SubjectContractGroup.IsType('lp_feudal_vassal'))]"
 			size = { 40 40 }
 
 			button_round = {

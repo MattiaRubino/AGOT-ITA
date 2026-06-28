@@ -45,7 +45,9 @@ window = {
 
 					blockoverride "header_text"
 					{
-						text = "COUNCIL_WINDOW_TITLE"
+						#AGOT Modified
+						# text = "COUNCIL_WINDOW_TITLE"
+						text = "AGOT_COUNCIL_TITLE_CUSLOC"
 					}
 
 					blockoverride "button_close"
@@ -53,6 +55,8 @@ window = {
 						onclick = "[CouncilWindow.Close]"
 					}
 				}
+				#AGOT Added; kingsguard support
+				agot_kingsguard_council_tabs_hbox = {}
 
 				# two tabs hbox: your council and liege council
 				hbox = {
@@ -60,12 +64,16 @@ window = {
 					visible = "[And( Not( GetPlayer.IsIndependentRuler ), Not( CouncilWindow.CanShowTopLiegeTab ) )]"
 
 					button_tab = {
-						down = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						#AGOT Modified
+						# down = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						down = "[And(And(CouncilWindow.IsPlayerCouncilShown, Not(GetVariableSystem.Exists('diarchy_tab'))), GetVariableSystem.HasValue('council_tabs', 'my_council'))]"
 						onclick = "[CouncilWindow.SetPlayerCouncil]"
 						onclick = "[GetVariableSystem.Clear( 'diarchy_tab' )]"
 						shortcut = "tab_1"
 
 						alwaystransparent = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						#AGOT Added
+						onclick = "[GetVariableSystem.Set('council_tabs', 'my_council')]"
 
 						blockoverride "tab_label"
 						{
@@ -88,6 +96,9 @@ window = {
 						onclick = "[CouncilWindow.SetLiegeCouncil]"
 						onclick = "[GetVariableSystem.Clear( 'diarchy_tab' )]"
 						shortcut = "tab_2"
+						#AGOT Added; Clear Main Council
+						onclick = "[GetVariableSystem.Clear('council_tabs')]"
+						visible = "[Not(IsNWAdventurer(GetPlayer))]"
 
 						alwaystransparent = "[And( CouncilWindow.IsLiegeCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
 
@@ -113,10 +124,14 @@ window = {
 					visible = "[CouncilWindow.CanShowTopLiegeTab]"
 
 					button_tab = {
-						down = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						#AGOT Modified
+						# down = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						down = "[And(And(CouncilWindow.IsPlayerCouncilShown, Not(GetVariableSystem.Exists('diarchy_tab'))), GetVariableSystem.HasValue('council_tabs', 'my_council'))]"
 						onclick = "[CouncilWindow.SetPlayerCouncil]"
 						onclick = "[GetVariableSystem.Clear( 'diarchy_tab' )]"
 						shortcut = "tab_1"
+						#AGOT Added
+						onclick = "[GetVariableSystem.Set('council_tabs', 'my_council')]"
 
 						alwaystransparent = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
 
@@ -141,6 +156,8 @@ window = {
 						onclick = "[CouncilWindow.SetLiegeCouncil]"
 						onclick = "[GetVariableSystem.Clear( 'diarchy_tab' )]"
 						shortcut = "tab_2"
+						#AGOT Added; Clear Main Council
+						onclick = "[GetVariableSystem.Clear('council_tabs')]"
 
 						alwaystransparent = "[And( CouncilWindow.IsLiegeCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
 						
@@ -165,6 +182,8 @@ window = {
 						onclick = "[CouncilWindow.SetTopLiegeCouncil]"
 						onclick = "[GetVariableSystem.Clear( 'diarchy_tab' )]"
 						shortcut = "tab_3"
+						#AGOT Added; Clear Main Council
+						onclick = "[GetVariableSystem.Clear('council_tabs')]"
 
 						alwaystransparent = "[And( CouncilWindow.IsTopLiegeCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
 
@@ -188,9 +207,18 @@ window = {
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 
+					#AGOT Added; to scrollbox_content
+					scrollbox = {
+					size = { 102% 100% }
+					position = { -10 0 }
+
+					blockoverride "scrollbox_content"
+					{
 					vbox_council_layout = {
 						name = "my_council"
-						visible = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						#AGOT Modified; Prevents Council Doubling Up
+						# visible = "[And( CouncilWindow.IsPlayerCouncilShown, Not( GetVariableSystem.Exists( 'diarchy_tab' ) ) )]"
+						visible = "[GetVariableSystem.HasValue('council_tabs', 'my_council')]"
 
 						using = Animation_Tab_Switch
 					}
@@ -201,6 +229,10 @@ window = {
 
 						using = Animation_Tab_Switch
 					}
+						#AGOT Added; Kingsguard Tab
+						agot_kingsguard_tab_layout = {}
+						}
+					}#
 				}
 			}
 		}
@@ -352,7 +384,9 @@ types CouncilWindow
 		vbox = {
 			visible = "[CouncilTaskType.IsPercentageTask]"
 			layoutpolicy_horizontal = expanding
-			margin = { 5 3 }
+			#AGOT Modified
+			# margin = { 5 3 }
+			margin = { 5 -5 }
 
 			text_single = {
 				name = "location"
@@ -389,7 +423,9 @@ types CouncilWindow
 		vbox = {
 			visible = "[And(And( CouncilTaskType.IsValueTask, Not( ActiveCouncilTask.IsFrozen ) ), Not(GuiCouncilPosition.ArePotentialTasksVisible))]"
 			layoutpolicy_horizontal = expanding
-			margin = { 5 3 }
+			#AGOT Modified
+			# margin = { 5 3 }
+			margin = { 5 -5 }
 
 			text_single = {
 				name = "location"
@@ -423,10 +459,14 @@ types CouncilWindow
 				}
 			}
 		}
+		#AGOT Added: Show target court also for infinite tasks (e.g. Bodyguard)
+		agot_kingsguard_council_task_target = {}
 	}
 
 	type widget_councillor_item = widget {
-		size = { 260 250 }
+		#AGOT Modified; controls Size of Councillor Boxes
+		# size = { 260 250 }
+		size = { 260 280 }
 
 		state = {
 			name = _mouse_hierarchy_enter
@@ -464,7 +504,9 @@ types CouncilWindow
 				datacontext = "[ActiveCouncilTask.GetCouncillor]"
 				visible = "[Character.IsValid]"
 				parentanchor = bottom
-				position = { 15 4 }
+				#AGOT Modified
+				# position = { 15 4 }
+				position = { 0 20 }
 
 				blockoverride "portrait_button_no_character_text"
 				{
@@ -649,7 +691,11 @@ types CouncilWindow
 
 					text_single = {
 						layoutpolicy_horizontal = expanding
-						text = "[Character.LocalPlayerString( 'Tu', 'Loc_FR_le_GetShortUIName' )]" ### ITA TWR
+						#AGOT Modified
+						# text = "[Character.GetShortUINameNoTooltip|U]"
+						raw_text = "[AGOTGetNameNoTooltip(Character)]"
+						#AGOT Added
+						visible = "[Character.IsValid]"
 						default_format = "#high"
 						align = nobaseline
 						autoresize = no
@@ -1294,6 +1340,19 @@ types CouncilTaskTypes
 			datacontext = "[CouncilWindow]"
 			maximumsize = { -1 932 }
 			spacing = 5
+			#AGOT Added; margin and background
+			margin_bottom = 2
+			background = {
+				using = Background_Frame
+				margin_top = 5
+				margin_left = -5
+				margin_bottom = 3
+				using = Color_Grey
+
+				spriteType = Corneredtiled
+				spriteborder = { 7 7 }
+				alpha = 0.7
+			}
 
 			hbox = { # Vizier/Spouse + Spymaster/Court Chaplain
 				layoutpolicy_horizontal = expanding
@@ -1319,6 +1378,9 @@ types CouncilTaskTypes
 						fittype = centercrop
 						using = Mask_Rough_Edges
 						alpha = 0.8
+						#AGOT Added
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background = {
@@ -1398,7 +1460,9 @@ types CouncilTaskTypes
 					datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
 					datacontext = "[ActiveCouncilTask.GetPositionType]"
 					datacontext = "[ActiveCouncilTask.GetCouncillor]"
-					visible = "[Not( CouncilOwnerHasVizier )]"
+					#AGOT Modified
+					# visible = "[Not( CouncilOwnerHasVizier )]"
+					visible = "[And(Not(CouncilOwnerHasVizier), Or(And(CouncilWindow.IsLiegeCouncilShown, GetScriptedGui('agot_spouse_position_valid').IsShown(GuiScope.SetRoot(GetPlayer.GetLiege.MakeScope).End)), GetScriptedGui('agot_spouse_position_valid').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)))]"
 
 					blockoverride "skill_visible" {
 						visible = no
@@ -1410,6 +1474,9 @@ types CouncilTaskTypes
 						fittype = centercrop
 						using = Mask_Rough_Edges
 						alpha = 0.8
+						#AGOT Added
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background =  {
@@ -1540,32 +1607,39 @@ types CouncilTaskTypes
 					}
 				}
 
-				widget_councillor_item = { # Court Chaplain
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					datacontext = "[CouncilWindow.GetCouncillor('councillor_court_chaplain')]"
-					datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
-					datacontext = "[ActiveCouncilTask.GetPositionType]"
-					datacontext = "[ActiveCouncilTask.GetCouncillor]"
-					name = "tutorial_court_chaplain"
+				#AGOT Modified; Moved Into Admiral Chaplain Insert
+				# widget_councillor_item = {
+					# layoutpolicy_horizontal = expanding
+					# layoutpolicy_vertical = expanding
+					# datacontext = "[CouncilWindow.GetCouncillor('councillor_court_chaplain')]"
+					# datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
+					# datacontext = "[ActiveCouncilTask.GetPositionType]"
+					# datacontext = "[ActiveCouncilTask.GetCouncillor]"
+					# name = "tutorial_court_chaplain"
 
-					visible = "[Not( CouncilOwnerNomadic )]"
+					# visible = "[Not( CouncilOwnerNomadic )]"
 
-					datacontext = "[GetIllustration( 'character_religion_interior' )]"
+					# datacontext = "[GetIllustration( 'character_religion_interior' )]"
 
-					background =  {
-						texture = "[Illustration.GetTexture( ActiveCouncilTask.GetCouncillor.MakeScope )]"
-						fittype = centercrop
-						alpha = 0.7
-						using = Mask_Rough_Edges
-					}
+					# background =  {
+						# texture = "[Illustration.GetTexture( ActiveCouncilTask.GetCouncillor.MakeScope )]"
+						# fittype = centercrop
+						# alpha = 0.7
+						# using = Mask_Rough_Edges
+					# }
 
-					background = {
-						texture = "gfx/interface/component_masks/mask_vignette.dds"
-						color = { 0.15 0.15 0.15 1 }
-						alpha = 0.3
-					}
-				}
+					# background = {
+						# texture = "gfx/interface/component_masks/mask_vignette.dds"
+						# color = { 0.15 0.15 0.15 1 }
+						# alpha = 0.3
+					# }
+				# }
+				#AGOT Added; Night's Watch Personal Steward - Merge with Diarchy Later
+				agot_nw_personal_steward_insert = {}
+				#AGOT Added; Castellan
+				agot_castellan_insert = {}
+				#AGOT Added; First Ranger Council
+				agot_ranger_one_insert = {}
 			}
 
 			hbox = { # Chancellor + Steward
@@ -1584,13 +1658,18 @@ types CouncilTaskTypes
 					datacontext = "[ActiveCouncilTask.GetPositionType]"
 					datacontext = "[ActiveCouncilTask.GetCouncillor]"
 
-					visible = "[Not( CouncilOwnerNomadic )]"
+					#AGOT Modified
+					# visible = "[Not( CouncilOwnerNomadic )]"
+					visible = "[And(Not(CouncilOwnerNomadic), Not(IsNWAdventurer(GetPlayer)))]"
 
 					background =  {
 						texture = "gfx/interface/skinned/illustrations/council/bg_council_chancellor.dds"
 						fittype = centercrop
 						alpha = 0.6
 						using = Mask_Rough_Edges
+						#AGOT Added
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background = {
@@ -1607,12 +1686,17 @@ types CouncilTaskTypes
 					datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
 					datacontext = "[ActiveCouncilTask.GetPositionType]"
 					datacontext = "[ActiveCouncilTask.GetCouncillor]"
+					#AGOT Added
+					visible = "[And(Not(CouncilOwnerNomadic), Not(IsNWAdventurer(GetPlayer)))]"
 
 					background =  {
 						texture = "gfx/interface/skinned/illustrations/council/bg_council_steward.dds"
 						fittype = centercrop
 						using = Mask_Rough_Edges
 						alpha = 0.7
+						#AGOT Added; for Scrollwheel
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background = {
@@ -1621,6 +1705,8 @@ types CouncilTaskTypes
 						alpha = 0.3
 					}
 				}
+				#AGOT Added; First Ranger Council
+				agot_ranger_two_insert = {}
 			}
 
 			hbox = { # Marshal + Spymaster
@@ -1639,12 +1725,17 @@ types CouncilTaskTypes
 					datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
 					datacontext = "[ActiveCouncilTask.GetPositionType]"
 					datacontext = "[ActiveCouncilTask.GetCouncillor]"
+					#AGOT Added
+					visible = "[Not(IsNWAdventurer(GetPlayer))]"
 
 					background =  {
 						texture = "gfx/interface/skinned/illustrations/council/bg_council_marshal.dds"
 						fittype = centercrop
 						using = Mask_Rough_Edges
 						alpha = 0.7
+						#AGOT Added
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background = {
@@ -1661,12 +1752,17 @@ types CouncilTaskTypes
 					datacontext = "[GuiCouncilPosition.GetActiveCouncilTask]"
 					datacontext = "[ActiveCouncilTask.GetPositionType]"
 					datacontext = "[ActiveCouncilTask.GetCouncillor]"
+					#AGOT Added
+					visible = "[Not(IsNWAdventurer(GetPlayer))]"
 
 					background =  {
 						texture = "gfx/interface/skinned/illustrations/council/bg_council_spymaster.dds"
 						fittype = centercrop
 						using = Mask_Rough_Edges
 						alpha = 0.7
+						#AGOT Added
+						margin_bottom = 20
+						margin_right = 5
 					}
 
 					background = {
@@ -1675,6 +1771,9 @@ types CouncilTaskTypes
 						alpha = 0.3
 					}
 				}
+				#AGOT Added; First Ranger Council
+				agot_ranger_three_insert = {}
+				agot_ranger_four_insert = {}
 			}
 
 			vbox = {
@@ -1715,6 +1814,11 @@ types CouncilTaskTypes
 					}
 				}
 			}
+			#AGOT Added; Extra Councillors and Squish
+			agot_admiral_chaplain_insert = {}
+			expand = {}
+			expand = {}
+			expand = {}
 		}
 
 		### MINISTRY

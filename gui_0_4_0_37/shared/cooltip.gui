@@ -450,6 +450,8 @@ container = {
 	alwaystransparent = no
 
 	container_character_tooltip = {}
+	#AGOT Added
+	container_dragon_character_tooltip = {}
 }
 
 
@@ -764,26 +766,32 @@ types GameTooltipTypes
 									margin_top = 3
 
 									portrait_opinion = {
-										visible = "[And( Character.IsAlive, Not( Character.IsPlayer ) )]"
+										#AGOT Modified
+										# visible = "[And( Character.IsAlive, Not( Character.IsPlayer ) )]"
+										visible = "[And(And(Character.IsAlive, Not(IsCharacterDragon)), Not(Character.IsPlayer))]"
 									}
 
 									expand = {}
 								}
 
 								spacer = {
-									visible = "[And( Character.IsAlive, Not( Character.IsPlayer ) )]"
+									#AGOT Modified
+									# visible = "[And( Character.IsAlive, Not( Character.IsPlayer ) )]"
+									visible = "[And(And(Character.IsAlive, Not(IsCharacterDragon)), Not(Character.IsPlayer))]"
 									size = { 8 5 }
 								}
 
-								text_multi = {
-									name = "character_name"
-									text = "CHARACTER_TT_NAME_AGE"
-									default_format = "#high"
-									using = Font_Size_Medium
-									max_width = 350
-									autoresize = yes
-									fonttintcolor = "[TooltipInfo.GetTintColor]"
-								}
+								#AGOT Modified
+								# text_multi = {
+									# name = "character_name"
+									# text = "CHARACTER_TT_NAME_AGE"
+									# default_format = "#high"
+									# using = Font_Size_Medium
+									# max_width = 350
+									# autoresize = yes
+									# fonttintcolor = "[TooltipInfo.GetTintColor]"
+								# }
+								agot_cooltip_name_flavorization = {}
 
 								vbox = {
 									layoutpolicy_vertical = expanding
@@ -811,6 +819,8 @@ types GameTooltipTypes
 						layoutpolicy_horizontal = expanding
 
 						text_multi = {
+							#AGOT Added
+							using = visible_if_not_dragon
 							name = "character_relation_to_you"
 							margin_top = 10
 							max_width = 308
@@ -821,6 +831,13 @@ types GameTooltipTypes
 							autoresize = yes
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
 						}
+						#AGOT Added
+						agot_dragonrider_tooltip_relation = {}
+						agot_bonded_tooltip_relation = {}
+						agot_host_tooltip_relation = {}
+						agot_owned_tooltip_relation = {}
+						agot_freedom_tooltip_relation = {}
+						agot_wild_tooltip_relation = {}
 
 						expand = {}
 					}
@@ -836,19 +853,26 @@ types GameTooltipTypes
 							spacing = 2
 
 							text_single = {
-								visible = "[Not( Character.IsPlayer )]"
+								#AGOT Modified
+								# visible = "[Not( Character.IsPlayer )]"
+								visible = "[And(Not(Character.IsPlayer), Not(IsCharacterDragon))]"
 								text = "[Character.GetAIPersonalityNoTooltip]"
 								default_format = "#L"
 								tooltip = "AI_PERSONALITY_TT"
 								align = nobaseline
 								fonttintcolor = "[TooltipInfo.GetTintColor]"
 							}
+							#AGOT Added
+							agot_dragon_type_living = {}
+							agot_dragon_type_dead = {}
 
 							hbox = {
 								layoutpolicy_horizontal = expanding
 
 								icon = {
-									visible = "[Not(Character.IsFemale)]"
+									#AGOT Modified
+									# visible = "[Not(Character.IsFemale)]"
+									visible = "[GetScriptedGui('agot_male_gender_shown').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]"
 									size = { 20 20 }
 									framesize = { 40 40 }
 									frame = "[Character.GetSexualityFrame]"
@@ -858,7 +882,9 @@ types GameTooltipTypes
 								}
 
 								icon = {
-									visible = "[Character.IsFemale]"
+									#AGOT Modified
+									# visible = "[Character.IsFemale]"
+									visible = "[GetScriptedGui('agot_female_gender_shown').IsShown(GuiScope.SetRoot(Character.MakeScope).End)]" 
 									size = { 20 20 }
 									framesize = { 40 40 }
 									frame = "[Character.GetSexualityFrame]"
@@ -866,6 +892,10 @@ types GameTooltipTypes
 									tooltip = "SEXUALITY_TT"
 									color = "[TooltipInfo.GetTintColor]"
 								}
+								#AGOT Added
+								agot_dragon_unknown_gender_icon_tt = {}
+								agot_dragon_male_gender_icon_tt = {}
+								agot_dragon_female_gender_icon_tt = {}
 
 								portrait_status_icons = {
 									blockoverride "direction"
@@ -886,7 +916,9 @@ types GameTooltipTypes
 							layoutpolicy_horizontal = expanding
 
 							text_single = {
-								visible = "[Character.IsAlive]"
+								#AGOT Modified
+								# visible = "[Character.IsAlive]"
+								visible = "[And(Character.IsAlive, Not(IsCharacterDragon))]"
 								text = "[Character.Custom('CooltipSpouseListing')]"
 								layoutpolicy_horizontal = expanding
 								align = nobaseline
@@ -925,6 +957,8 @@ types GameTooltipTypes
 					}
 
 					hbox = {
+						#AGOT Added
+						visible = "[Not(IsCharacterDragon)]"
 						layoutpolicy_horizontal = expanding
 						spacing = 10
 
@@ -1342,6 +1376,8 @@ types GameTooltipTypes
 		alwaystransparent = no
 
 		using = DefaultTooltipBackground
+		#AGOT Added
+		using = visible_if_not_dragon
 
 		flowcontainer = {
 			direction = vertical
@@ -2509,7 +2545,7 @@ template unit_icon_item_tooltip {
 				}
 
 				# #--------------------------------------
-				# |  ¤ Attrition:1%/month
+				# |  ¤ Attrition: 1%/month
 				# |  & Well supplied (100) -10/month
 				# | -> Province, 17 days left (29 May yyyy)
 				# | () Movement locked
@@ -3689,8 +3725,9 @@ types LawTooltipTypes
 			tintcolor = "[TooltipInfo.GetTintColor]"
 
 			modify_texture = {
-				visible = "[Not( Or( EqualTo_string( LawGroup.GetKey, 'camp_purpose'), EqualTo_string( LawGroup.GetKey, 'nomadic_authority') ) )]"
-
+				#AGOT Modified
+				# visible = "[Not( Or( EqualTo_string( LawGroup.GetKey, 'camp_purpose'), EqualTo_string( LawGroup.GetKey, 'nomadic_authority') ) )]"
+				visible = "[Not(Or(EqualTo_string(LawGroup.GetKey, 'pirate_haven_port_laws'), Or(EqualTo_string(LawGroup.GetKey, 'camp_purpose'), EqualTo_string(LawGroup.GetKey, 'nomadic_authority'))))]"
 				texture = "gfx/interface/colors/colors_textured.dds"
 				blend_mode = add
 				framesize = { 96 96 }
@@ -3948,6 +3985,12 @@ container = {
 	using = dynasty_house_tooltip
 }
 
+#AGOT Added
+container = {
+	alwaystransparent = no
+	name = "agot_dragon_army_comptooltip"
+	using = army_tooltip
+}
 ### These templates can very likely be extended to most custom tooltips with header, blocker, effects, flavor, etc
 
 local_template era_innov_blockers
@@ -4831,8 +4874,27 @@ types CultureTooltips
 				}
 
 
-				block "extra_info"
-				{}
+				#AGOT Modified
+				# block "extra_info"
+				# {}
+				block "extra_info" {
+					text_single = {
+						layoutpolicy_horizontal = growing
+						layoutpolicy_vertical = growing
+						text = "CLICK_TO_VIEW"
+						align = top
+						using = DefaultTooltipText
+						visible = "[Not(Culture.MakeScope.Var('agot_culture_tt_desc').IsSet)]"
+					}
+					text_multi = {
+						layoutpolicy_horizontal = growing
+						text = "AGOT_CULTURE_COOLTIP_CLICK"
+						margin = { 10 0 }
+						visible = "[Culture.MakeScope.Var('agot_culture_tt_desc').IsSet]"
+						autoresize = yes
+						max_width = 380
+					}
+				}
 			}
 		}
 
@@ -4917,7 +4979,8 @@ types CultureTooltips
 				spacer = {
 					size = { 0 5 }
 				}
-
+				#AGOT Added
+				agot_culture_tooltip_rd = {}
 				text_single = {
 					layoutpolicy_horizontal = expanding
 					text = "CULTURE_RD_TOOLTIP_ETHOS"
@@ -5175,7 +5238,11 @@ types CultureTooltips
 				text = "CULTURE_COOLTIP_CLICK"
 				margin = { 10 0 }
 				fonttintcolor = "[TooltipInfo.GetTintColor]"
+				#AGOT Added
+				visible = "[Not(Culture.MakeScope.Var('agot_culture_tt_desc').IsSet)]"
 			}
+			#AGOT Added
+			agot_culture_tooltip_click = {}
 
 		}
 	}
@@ -5603,7 +5670,7 @@ types InventoryTooltips
 						text_single = {
 							layoutpolicy_horizontal = expanding
 							name = "rarity"
-							text = "[Artifact.GetSlotType] [Artifact.GetRarity]" ### TWR ITA
+							text = "[Artifact.GetRarityAndSlotType]"
 							align = top
 							using = Font_Size_Medium
 							fonttintcolor = "[TooltipInfo.GetTintColor]"
@@ -6458,31 +6525,32 @@ types StruggleTooltipTypes {
 		}
 	}
 
-	type StrugglePhaseEffectFaith = vbox {
-		container = {
-			name = "faith_effect"
+	#AGOT Disabled; no faith in struggle
+	# type StrugglePhaseEffectFaith = vbox {
+		# container = {
+			# name = "faith_effect"
 
-			tooltipwidget = phase_effect_tooltip_faith
+			# tooltipwidget = phase_effect_tooltip_faith
 
-			icon = {
-				parentanchor = center
-				size = { 55 55 }
-				texture = "gfx/interface/icons/struggle_banners/icon_background_01.dds"
-			}
+			# icon = {
+				# parentanchor = center
+				# size = { 55 55 }
+				# texture = "gfx/interface/icons/struggle_banners/icon_background_01.dds"
+			# }
 
-			icon = {
-				parentanchor = center
-				size = { 40 40 }
-				texture = "gfx/interface/icons/struggle_effects/faith.dds"
-			}
-		}
+			# icon = {
+				# parentanchor = center
+				# size = { 40 40 }
+				# texture = "gfx/interface/icons/struggle_effects/faith.dds"
+			# }
+		# }
 
-		text_single = {
-			layoutpolicy_horizontal = expanding
-			align = center
-			text = "STRUGGLE_EFFECT_LABEL_FAITH"
-		}
-	}
+		# text_single = {
+			# layoutpolicy_horizontal = expanding
+			# align = center
+			# text = "STRUGGLE_EFFECT_LABEL_FAITH"
+		# }
+	# }
 
 	type StrugglePhaseEffectOther = vbox {
 		container = {
@@ -6609,54 +6677,55 @@ template phase_effect_tooltip_culture {
 	}
 }
 
-template phase_effect_tooltip_faith {
-	object_tooltip_pop_out = {
-		blockoverride "header_additions"
-		{
-			hbox = {
-				margin_right = 10
-				margin_top = 8
-				margin_left = -4
+#AGOT Disabled; no faith in struggle
+# template phase_effect_tooltip_faith {
+	# object_tooltip_pop_out = {
+		# blockoverride "header_additions"
+		# {
+			# hbox = {
+				# margin_right = 10
+				# margin_top = 8
+				# margin_left = -4
 
-				container = {
-					icon = {
-						parentanchor = center
-						size = { 55 55 }
-						texture = "gfx/interface/icons/struggle_banners/icon_background_01.dds"
-					}
+				# container = {
+					# icon = {
+						# parentanchor = center
+						# size = { 55 55 }
+						# texture = "gfx/interface/icons/struggle_banners/icon_background_01.dds"
+					# }
 
-					icon = {
-						parentanchor = center
-						size = { 40 40 }
-						texture = "gfx/interface/icons/struggle_effects/faith.dds"
-					}
-				}
-			}
-		}
+					# icon = {
+						# parentanchor = center
+						# size = { 40 40 }
+						# texture = "gfx/interface/icons/struggle_effects/faith.dds"
+					# }
+				# }
+			# }
+		# }
 
-		blockoverride "title_text" {
-			margin = { 0 8 }
-			text = "STRUGGLE_PHASE_EFFECTS_FAITH_TT_HEADER"
-			default_format = "#T"
-		}
+		# blockoverride "title_text" {
+			# margin = { 0 8 }
+			# text = "STRUGGLE_PHASE_EFFECTS_FAITH_TT_HEADER"
+			# default_format = "#T"
+		# }
 
-		blockoverride "concept_link" {}
+		# blockoverride "concept_link" {}
 
-		blockoverride "main_description" {
-			vbox = {
+		# blockoverride "main_description" {
+			# vbox = {
 
-				textbox = {
-					layoutpolicy_horizontal = expanding
-					text = "[Struggle.GetFaithEffect(StrugglePhase.Self, Character.Self)]"
-					using = StruggleEffectTooltipText
-					multiline = yes
-					fonttintcolor = "[TooltipInfo.GetTintColor]"
-					alwaystransparent = no
-				}
-			}
-		}
-	}
-}
+				# textbox = {
+					# layoutpolicy_horizontal = expanding
+					# text = "[Struggle.GetFaithEffect(StrugglePhase.Self, Character.Self)]"
+					# using = StruggleEffectTooltipText
+					# multiline = yes
+					# fonttintcolor = "[TooltipInfo.GetTintColor]"
+					# alwaystransparent = no
+				# }
+			# }
+		# }
+	# }
+# }
 
 template phase_effect_tooltip_other {
 	object_tooltip_pop_out = {
@@ -6735,7 +6804,8 @@ template phase_effect {
 
 			StrugglePhaseEffectCulture = {}
 
-			StrugglePhaseEffectFaith = {}
+			#AGOT Disabled; no faith in struggle
+			# StrugglePhaseEffectFaith = {}
 
 			StrugglePhaseEffectOther = {}
 		}
