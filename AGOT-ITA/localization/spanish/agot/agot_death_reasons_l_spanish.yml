@@ -1,5 +1,6 @@
 ﻿l_spanish:
- #AGOT
+
+death_erased_for_script:0 "non dovresti vedere questo personaggio, per favore segnala un bug se lo vedi"
   death_broken_heart:0 "è morto a causa di un cuore spezzato" # tristezza
   death_dragon_hatching_sacrifice:0 "è stato sacrificato in una cerimonia di schiusa di uova di drago"
   death_dragon_hatching_sacrifice_killer:0 "è stato sacrificato nella cerimonia di schiusa di uova di drago di [TARGET_CHARACTER.GetUINamePossessive]"
@@ -148,9 +149,11 @@ death_bloodrider_suicide_killer: 0 "si è suicidat[Select_CString(CHARACTER.IsFe
 death_vanished_into_rainwood:0 "svanì nel Bosco della Pioggia"
 death_fell_into_shipbreaker_bay:0 "cadde sugli scogli frastagliati della Baia Spezzanavi"
 death_drinking_celebrating:0 "bevve accidentalmente fino a morire [CHARACTER.GetHerselfHimself|l] durante i festeggiamenti"
-death_doom:0 "fu consumato dal Destino di Valyria"
+death_crushed_by_kraken: 0 "è stat[Select_CString(CHARACTER.IsFemale,'a','o')] schiacciat[Select_CString(CHARACTER.IsFemale,'a','o')] da un kraken"
 death_raid_pirate:0 "fu ucciso durante una razzia di navi pirata"
 death_raid_pirate_killer:0 "fu ucciso durante una razzia di navi pirata orchestrata da [TARGET_CHARACTER.GetUIName]"
+ death_hanged_killer:0 "was hanged by [TARGET_CHARACTER.GetUIName]"
+death_doom:0 "fu consumato dal Destino di Valyria"
 death_framed_poison_tyrion:0 "fu avvelenato da [GetScriptedCharacterByHistoryID( 'Lannister_8' ).GetUIName]"
 death_framed_murder_tyrion_killer:0 "fu avvelenato da [TARGET_CHARACTER.GetUIName]"
 death_framed_execution_theon:1 "fu giustiziato per ordine di [GetScriptedCharacterByHistoryID( 'Greyjoy_14' ).GetUINamePossessive]"
@@ -169,5 +172,3 @@ death_battle_trident:0 "fu ucciso nella Battaglia del Tridente"
 death_battle_trident_killer:0 "fu ucciso al Tridente da [TARGET_CHARACTER.GetUIName]"
 death_battle_kingsroad:0 "fu ucciso nella Battaglia della Strada del Re"
 death_battle_kingsroad_killer:0 "fu ucciso nella Battaglia della Strada del Re da [TARGET_CHARACTER.GetUIName]"
-death_crushed_by_kraken: 0 "è stat[Select_CString(CHARACTER.IsFemale,'a','o')] schiacciat[Select_CString(CHARACTER.IsFemale,'a','o')] da un kraken"
-death_erased_for_script:0 "non dovresti vedere questo personaggio, per favore segnala un bug se lo vedi"

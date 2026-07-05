@@ -393,7 +393,7 @@ agot_scenario_trp.1015.desc:0 "Disastro! L'armata del Drago ha stabilito una tes
   agot_scenario_trp.1032.b:0 "Non mi piegherò a questo principe presuntuoso!"
 
   agot_scenario_trp.1033.t:0 "Roccia del Drago Si Sottomette"
-  agot_scenario_trp.1033.desc:0 "È giunta notizia da Roccia del Drago, [dragonstone_claimant.GetTitledFirstName] mi ha scritto riconoscendo il mio regno come il legittimo sovrano dei Sette Regni e assicurando che [dragonstone_claimant.GetSheHe] non sfiderà il mio regno né cercherà di farmi del male.\n\nCon il suo supporto e riconoscimento pubblico, la più grande minaccia alla mia legittimità è stata soppressa prima che potesse anche iniziare. Il mio regno è sicuro."
+agot_scenario_trp.1033.desc: 0 "Da Roccia del Drago è giunta risposta: [dragonstone_claimant.Custom('IT_NAM_COL3')][dragonstone_claimant.GetTitledFirstName] mi ha scritto, riconoscendo il mio dominio come legittimo sovrano dei Sette Regni e assicurando che [Select_CString(dragonstone_claimant.IsFemale,'ella','egli')] non contesterà il mio regno né cercherà di farmi del male.\n\nCon il sostegno e il pubblico riconoscimento di [Select_CString(dragonstone_claimant.IsFemale,'lei','lui')], la più grande minaccia alla mia legittimità è stata soffocata prima ancora che potesse cominciare. Il mio regno è saldo."
   agot_scenario_trp.1033.a:0 "Certamente, Roccia del Drago #emp è#! la nostra sede ancestrale..."
   agot_scenario_trp.1033.a.f:0 "Anche se [dragonstone_claimant.GetTitledFirstNameNoTooltip] si è sottomesso, non è necessario trattare [dragonstone_claimant.GetSheHe] con gentilezza."
 

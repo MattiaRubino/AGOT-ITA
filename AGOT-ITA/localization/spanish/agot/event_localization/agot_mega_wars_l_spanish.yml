@@ -153,7 +153,7 @@ agot_mega_wars.0503.desc.msg: "[old_demesne_main_title.GetName] è stat[Select_C
   agot_mega_wars.0510.desc.b:0 "\nIo, [choosing_ruler.GetFullName], decreto formalmente che:"
   agot_mega_wars.0510.desc.c:0 "\n $EFFECT_LIST_BULLET$# Da ora in poi governerò [primary_target_title.GetName]"
   agot_mega_wars.0510.desc.d:0 "\n $EFFECT_LIST_BULLET$# [chosen_crown_ruler.GetName] governerà da ora in poi [primary_target_title.GetName]"
-  agot_mega_wars.0510.desc.e:0 "\n $EFFECT_LIST_BULLET$# [war_loser.GetName] sarà deposto a favore di [primary_target_title.GetHolder.GetTitledFirstName]"
+agot_mega_wars.0510.desc.e: 0 "\n $EFFECT_LIST_BULLET$# [war_loser.GetName] sarà depost[Select_CString(war_loser.IsFemale,'a','o')] in favore di [primary_target_title.GetHolder.Custom('IT_NAM_COL2')][primary_target_title.GetHolder.GetTitledFirstName]"
   agot_mega_wars.0510.desc.f:0 "\n $EFFECT_LIST_BULLET$# [old_demesne_main_title.GetHolder.GetLadyLord|U] [old_demesne_main_title.GetHolder.GetFirstName] riceverà [old_demesne_main_title.GetName]"
   agot_mega_wars.0510.a:0 "Terrò le mie ambizioni per me stesso."
   agot_mega_wars.0510.b:0 "Mi chiedo come governerà [primary_target_title.GetHolder.GetTitledFirstName]..."

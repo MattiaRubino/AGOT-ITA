@@ -120,7 +120,8 @@ agot_travel_events.0010.b.tt:0 "Il tuo seguito prende nota della tua cavalleria 
   agot_travel_events.1002.t:0 "Grande Inverno: Parco degli Dei"
   agot_travel_events.1002.desc:0 "Ginocchioni davanti all'albero cuore, mi sento in pace.\n\nPosso sentire ogni cosa nel bosco molto più chiaramente: il suono del vento tra i rami, l'acqua sulle rocce, il passo degli animali nel bosco, e attraverso tutto questo, #italic sì#!, i Vecchi Dei, i #bold veri#! dei, stanno parlando con me."
   agot_travel_events.1002.a:0 "Mi sento rinato, un seguace di [GetReligionByKey('the_pact_religion').GetName]."
-  agot_travel_events.1002.b:0 "Mi sento di nuovo in sintonia con [GetReligionByKey('the_pact_religion').GetName]."
+agot_travel_events.1002.b: 0 "No, devo restare fedele a [ROOT.Char.GetFaith.HighGodName]!"
+ agot_travel_events.1002.c:0 "I feel newly attuned to the [GetReligionByKey('the_pact_religion').GetName]."
 
   agot_travel_events.1003.t:0 "Grande Inverno: Parco degli Dei"
   agot_travel_events.1003.desc:0 "Disteso nella pozza, sento tutto lo stress e le preoccupazioni che mi hanno afflitto per lungo tempo lavarsi via con le acque calde. In contrasto con l'aria frizzante sopra, l'abbraccio delle sorgenti calde offre un conforto che non provo da anni. Potrei fluttuare qui per età, anche se ora che mi sono rilassato devo tornare a occuparmi delle cose."

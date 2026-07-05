@@ -38,7 +38,7 @@ vs_oathkeeper_historical_description: 0 "Giuramento è una spada lunga d'acciaio
   vs_longclaw_name:0 "Lungo Artiglio"
   vs_longclaw_description:0 "Lungo Artiglio è la spada bastarda in acciaio di Valyria ancestrale della Casa Mormont che è stata nelle mani della loro dinastia per centinaia di anni. Questa spada è più lunga della maggior parte, affusolata per tagliare oltre che per colpire. Tre solchi corrono in parte lungo la lama scura, migliorando già il sublime equilibrio."
   vs_nightfall_name:0 "Nightfall"
-  vs_nightfall_description:0 "Nightfall è una spada in acciaio di Valyria che apparteneva alla Casa Harlaw verso la fine del terzo secolo AC. La spada lunga dalla lama scura fu pagata col prezzo del ferro, sottratta a un corsaro ucciso da Lord Dalton Greyjoy. Ha un pomo di luna di pietra."
+vs_nightfall_description: 0 "Crepuscolo è una spada d'acciaio di Valyria appartenuta alla Casa Harlaw verso la fine del terzo secolo D.C. La spada lunga dalla lama scura fu pagata al prezzo del ferro, sottratta a un corsaro ucciso da Lord Dalton Greyjoy. Ha un pomo in pietra di luna."
   vs_orphan_maker_name:0 "Creatore di Orfani"
   vs_orphan_maker_description:0 "Creatore di Orfani è la spada in acciaio di Valyria, originariamente di proprietà della casa Roxton, che è stata usata da diversi cavalieri che combattevano per i Verdi nella Danza dei Draghi. La lavorazione metallica blu scura è intagliata in punte minacciose, conferendo un'aura macabra a questa temibile arma."
   vs_poison_name:0 "Veleno"
@@ -782,7 +782,7 @@ dragon_egg_lime_desc_living:0 "Un vivido lucore agrumato riveste il guscio, vibr
 
   agot_empty:0 ""
   agot_artifact_dragon_skull_natural:0 "$agot_empty$"
-  agot_artifact_dragon_skull_slain:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip] è stato ucciso da [ROOT.Var('killer').Char.GetName]."
+agot_artifact_dragon_skull_slain: 0 " [ROOT.Var('dragon').Char.GetNameNoTooltip] è stat[Select_CString(ROOT.Var('dragon').Char.IsFemale,'a','o')] uccis[Select_CString(ROOT.Var('dragon').Char.IsFemale,'a','o')] da [ROOT.Var('killer').Char.GetName]."
   agot_artifact_dragon_skull_past_rider:0 "In vita, [ROOT.Var('rider').Char.GetName] rivendicò questo drago come suo primo cavaliere."
   agot_artifact_dragon_skull_famous_past_rider:0 "[ROOT.Var('dragon').Char.GetNameNoTooltip] è stato famosamente cavalcato da [ROOT.Var('famous_rider').Char.GetNameNicknamed]."
   agot_artifact_dragon_skull_wall_ornament:0 "Fissa chiunque passi sotto i suoi occhi vuoti, come se in qualche modo stesse ancora osservando."

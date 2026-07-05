@@ -47,7 +47,7 @@ agot_events_rr_minor.0100.desc:0 "È giunto il momento di prendere un'importante
   agot_events_rr_minor.0100.b:0 "È un pericolo troppo grande...""
 
   agot_events_rr_minor.0101.t:0 "Cos'è la Lealtà?"
-agot_events_rr_minor.0101.desc:0 "Le mie guardie si affrettano da me nella sala del trono, recando notizia: [traitor_scope.Custom('IT_NAM_COL3')][traitor_scope.GetTitledFirstName] ha condotto le forze delle Terre dell'Ovest fino alle porte di Approdo del Re per proteggermi dai bastardi traditori delle case [GetScriptedCharacterByHistoryID('Baratheon_2').GetHouse.GetName], [GetScriptedCharacterByHistoryID('Stark_3').GetHouse.GetName], [GetScriptedCharacterByHistoryID('Arryn_3').GetHouse.GetName] e [GetScriptedCharacterByHistoryID('Tully_1').GetHouse.GetName]! \n\nDa entrambe le parti il mio consiglio mi incalza. [advisor.GetName] mi esorta a non lasciarlo entrare in città, poiché teme che [GetScriptedCharacterByHistoryID('Lannister_1').GetFirstName] possa celare le proprie vere intenzioni, mentre [traitor.GetName] si esprime in favore di Lord [traitor_scope.GetHouse.GetBaseNameNoTooltip]..."
+agot_events_rr_minor.0101.desc: 0 "Le mie guardie accorrono prontamente da me nella sala del trono, portando notizie: [traitor_scope.Custom('IT_NAM_COL3')][traitor_scope.GetTitledFirstName] ha condotto le forze delle Terre dell'Ovest alle porte di Approdo del Re per proteggermi dai traditori bastardi delle casate [GetScriptedCharacterByHistoryID('Baratheon_2').GetHouse.GetName], [GetScriptedCharacterByHistoryID('Stark_3').GetHouse.GetName], [GetScriptedCharacterByHistoryID('Arryn_3').GetHouse.GetName] e [GetScriptedCharacterByHistoryID('Tully_1').GetHouse.GetName]! \n\nDa entrambe le parti, il mio consiglio mi offre consiglio. [advisor.GetName] mi esorta a non lasciarlo entrare in città, poiché teme che [GetScriptedCharacterByHistoryID('Lannister_1').GetFirstName] possa celare le sue vere intenzioni, mentre [traitor.GetName] parla in favore di Lord [traitor_scope.GetHouse.GetBaseNameNoTooltip]..."
 
   agot_events_rr_minor.0101.a:0 "È un servo leale, lasciatelo entrare!"
   agot_events_rr_minor.0101.a.tt:0 "Dovrai aprire le porte..."
@@ -201,7 +201,7 @@ agot_events_rr_minor.0131.desc: "Mentre [GetScriptedCharacterByHistoryID('Arryn_
 
 
   agot_events_rr_minor.0132.desc_opening:0 "[informer.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
-agot_events_rr_minor.0132.desc_body:0 "Ci è giunta notizia dai sudroni di un grande avvenimento nella loro guerra. Il guerriero che sarebbe re, [baratheon.GetFullName], ha ucciso il drago [targaryen.GetName] nella Battaglia di [location.GetName], infrangendo l'ultima speranza della dinastia [GetScriptedCharacterByHistoryID('Targaryen_1').GetHouse.GetName]. Ora è tempo per noi di ingraziarci questo nuovo Re, e trovare un pretesto per depredare le terre verdi!"
+agot_events_rr_minor.0132.desc_body: 0 "Ci è giunta notizia dai popoli delle terre verdi di un grande avvenimento nella loro guerra. Il guerriero che sarebbe stato re, [baratheon.GetFullName], ha ucciso il drago [targaryen.GetName] nella Battaglia di [location.GetName], infrangendo l'ultima speranza della dinastia [GetScriptedCharacterByHistoryID('Targaryen_1').GetHouse.GetName]. Ora è il momento per noi di ingraziarci questo nuovo Re e trovare un pretesto per devastare le terre verdi!"
   agot_events_rr_minor.0132.a: "Preparate le lunghe navi, temeranno di nuovo gli Uomini di Ferro."
   agot_events_rr_minor.0132.b: "Non mi interessa delle guerre dei popoli delle terre verdi."
 
