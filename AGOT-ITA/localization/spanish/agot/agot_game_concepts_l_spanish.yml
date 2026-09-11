@@ -301,6 +301,28 @@ game_concept_story_content_daemon_blackfyre_236_desc:0 "#tooltip_heading Stile d
   game_concept_story_content_runceford_redwyne_239:0 "$game_concept_story_generic_prefix$ $bookmark_239_runceford_redwyne$"
   game_concept_story_content_runceford_redwyne_239_desc:0 "#tooltip_heading Stile della Storia: Leggero#!\n\nNei panni di Runceford Redwyne, tua figlia Olenna è promessa in sposa a Daeron Targaryen — ma ciò potrebbe cambiare presto, e dovrai agire di conseguenza. Vivrai eventi di storia scritti legati ai fidanzamenti dei figli di Aegon Targaryen."
 
+ # Bells of War
+game_concept_story_content_thys_o_rell_182: 0 "$game_concept_story_generic_prefix$ $bookmark_182_thys_o_rell$"
+game_concept_story_content_thys_o_rell_182_desc: 0 "#tooltip_heading Stile narrativo: Leggero#!\n\nNei panni di Thys O’rel, sei il Primo Magistro di Lorath. Sei un conquistatore in ascesa che avanza attraverso le Città Libere curandosi ben poco dei propri nemici; tuttavia, le tue azioni ti hanno procurato avversari che potrebbero presto colpirti. Vivrai eventi narrativi prestabiliti legati alle reazioni dei tuoi vicini alle tue recenti conquiste."
+ 
+game_concept_story_content_haratt_ekna_182: 0 "$game_concept_story_generic_prefix$ $bookmark_182_haratt_ekna$"
+game_concept_story_content_haratt_ekna_182_desc: 0 "#tooltip_heading Stile narrativo: Leggero#!\n\nNei panni di Haratt Ekna, sei il candidato anti-Norvos nell'elezione del Primo Magistro di Qohor. Se verrai eletto Primo Magistro, vivrai eventi prestabiliti riguardanti i rapporti tra Qohor e Norvos."
+
+game_concept_story_content_korena_ostorlat_182: 0 "$game_concept_story_generic_prefix$ $bookmark_182_korena_ostorlat$"
+game_concept_story_content_korena_ostorlat_182_desc: 0 "#tooltip_heading Stile narrativo: Leggero#!\n\nNei panni di Korena Ostorlat, sei il candidato filo-Norvos nell'elezione del Primo Magistro di Qohor. Se verrai eletto Primo Magistro, vivrai eventi prestabiliti riguardanti i rapporti tra Qohor e Norvos."
+ 
+game_concept_story_content_krahas_segal_182: 0 "$game_concept_story_generic_prefix$ $bookmark_182_krahas_segal$"
+game_concept_story_content_krahas_segal_182_desc: 0 "#tooltip_heading Stile narrativo: Leggero#!\n\nNei panni di Krahas Segal, stai combattendo contro i tuoi ex alleati, la Confederazione Rhoynar, per il ducato di Gar Sagon. Se uscirai vittorioso da questa guerra prestabilita, otterrai le terre della Confederazione Rhoynar."
+
+game_concept_story_content_arhe_meali_182: 0 "$game_concept_story_generic_prefix$ $bookmark_182_arhe_meali$"
+game_concept_story_content_arhe_meali_182_desc: 0 "#tooltip_heading Stile narrativo: Leggero#!\n\nNei panni di Asuhara Arhe Meali, sei alla guida della Confederazione Rhoynar, impegnata in una feroce guerra contro Krahas Segal, governatore volanteno di Gar Sagon. Se otterrai la vittoria contro i Volanteni, vivrai eventi prestabiliti che determineranno il futuro della Confederazione Rhoynar."
+
+ #Governments
+
+game_concept_norvos_govt_i: 0 "@norvos_government!"
+game_concept_norvos_govt: 0 "Norvos"
+game_concept_norvos_govt_desc: 0 "Sotto la [government_form|E] $game_concept_norvos_govt$, i governanti seguono la [law|E] di [succession|E] [GetLaw('norvos_regency_succession_law').GetName], che attribuisce grande importanza alla [piety|E]. Il Sacerdozio Barbuto mantiene un ruolo unico nel governo, regnando sia come [ceremonial_liege|E] sia come [diarch|E] al fianco di un magistro eletto.\n\nAnalogamente alla $game_concept_government_form$ $game_concept_administrative$, i personaggi governano dalle proprie [estates|E] e possono ricevere incarichi territoriali di rango comitale o superiore facendo uso di [influence|E] e pietà."
+
   game_concept_nw_govt:0 "Guardiani della Notte"
   game_concept_nw_govt_desc:0 "Sotto il $game_concept_nw_govt$ [government_form|E], il [liege|E] supremo distribuisce [land|E] ai [vassals|E] per governare e proteggere. Solo i fratelli giurati dei Guardiani della Notte possono detenere titoli sotto questo governo, e alla loro morte, i titoli tornano al loro signore."
   game_concept_nw_govt_i:0 "@nights_watch_government!"
@@ -328,6 +350,10 @@ game_concept_pirate_no_dlc_govt_i:0 "@pirate_government!"
   game_concept_silent_sisters_govt:0 "Sorellanza del Silenzio"
   game_concept_silent_sisters_govt_desc:0 "La $game_concept_silent_sisters_govt$ è un governo non giocabile che rappresenta l’ordine delle donne che si occupano dei morti nella religione dei Sette."
   game_concept_silent_sisters_govt_i:0 "@silent_sisters_government!"
+
+game_concept_lorathi_principality_govt: 0 "Principato Lorathi"
+game_concept_lorathi_principality_govt_desc: 0 "Il $game_concept_lorathi_principality_govt$ è una forma di governo non giocabile che rappresenta i tre principi cerimoniali eletti di Lorath."
+game_concept_lorathi_principality_govt_i: 0 "@lorathi_principality_government!"
 
   game_concept_ruins_govt:0 "Rovina"
   game_concept_ruins_govt_desc:0 "Il $game_concept_ruins_govt$ è un governo non giocabile che rappresenta i regni caduti in rovina, ora sorvegliati dai Custodi fino al loro ripristino."
@@ -419,3 +445,11 @@ game_concept_agot_paramour_desc:0 "Un $game_concept_agot_paramour$ è una $game_
 game_concept_agot_milk_name:0 "Nome da latte"
 game_concept_agot_milk_names:0 "Nomi da latte"
 game_concept_agot_milk_name_desc:0 "Un $game_concept_agot_milk_name$ è un nome infantile temporaneo dato a un [character|E] tra il Popolo Libero prima che riceva un vero nome.\n\nA causa delle dure condizioni oltre la Bariera e del rischio di morte infantile, è considerato di cattivo auspicio assegnare troppo presto a un bambino un nome permanente. Al suo posto, viene usato un semplice soprannome nei primissimi anni.\n\nNe esistono due forme comuni. Alcuni bambini ricevono nomi da latte generici, che vengono completamente abbandonati quando raggiungono la prima infanzia in buona salute e ricevono un nome appropriato. Altri ricevono nomi da latte animali, prendendo il nome di una giovane creatura; crescendo, il nome matura nella forma adulta di quell'animale, e al raggiungimento dell'età adulta ottiene un epiteto descrittivo."
+
+ # Three Princes
+game_concept_agot_lorathi_princes: 0 "Tre Principi di Lorath"
+game_concept_agot_lorathi_prince: 0 "Principe"
+game_concept_agot_fisher_prince: 0 "Principe dei Pescatori"
+game_concept_agot_harvest_prince: 0 "Principe del Raccolto"
+game_concept_agot_streets_prince: 0 "Principe delle Strade"
+game_concept_agot_lorathi_princes_desc: 0 "Un tempo i Tre Principi di Lorath governavano congiuntamente la città-stato insulare. Nella storia più recente, tuttavia, i Principi ricoprono cariche puramente cerimoniali, conducendo vite sfarzose come manifestazioni simboliche del Raccolto, dei Pescatori e delle Strade.\n\nSebbene la loro autorità sia svanita, ogni Principe viene ancora scelto da un diverso corpo elettorale, rispecchiando il popolo e gli interessi che un tempo rappresentava.\n\nIl Principe del Raccolto è eletto da tutti coloro che possiedono [counties|E] nelle isole di Lorath propriamente dette.\n\nIl Principe dei Pescatori è eletto da tutti coloro che controllano un [building|E] portuale nella propria provincia capitale o possiedono personalmente una nave.\n\nIl Principe delle Strade è eletto da tutti i sudditi liberi della Città Libera di Lorath."

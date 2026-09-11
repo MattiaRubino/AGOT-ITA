@@ -60,48 +60,6 @@ free_city_events.9999.desc_magister_winner: "Hanno scelto me. Il Conclave mi ha 
   free_city_events.9999.a:0 "Lunga vita al Primo Magistro! Lunga vita a [term_limit_country.GetName]!"
   free_city_events.9999.b:0 "Mi chiedo che tipo di sovrano sarà [magister_winner.GetFirstName]..."
 
-
- ### Decisions/Interactions ###
-  agot_attempt_triarchy:0 "Tentativo di Formare la Triarchia"
-  agot_attempt_triarchy_desc:0 "Contatta le altre Tre Figlie per formare la Triarchia"
-  agot_attempt_triarchy_tooltip:0 "Contatta i tuoi colleghi sovrani per formare la triarchia"
-  agot_attempt_triarchy_confirm:0 "Portami il mio sigillo"
-  request_war_interaction:0 "Richiedi il Permesso per la Guerra"
-  request_war_desc:0 "Richiedi che l'Alto Consiglio voti per concederti il permesso di dichiarare guerra"
-  request_war_effect_tt:0 "L'Alto Consiglio si riunirà e voterà sulla tua richiesta di dichiarare guerra a [recipient.GetName]."
-
-  agot_stepstones_rhoynish_culture:0 "Una Nuova Identità"
-  agot_stepstones_rhoynish_culture_desc:0 "Siamo stati bloccati su queste isole per lungo tempo, e per molto tempo ci siamo attenuti alle nostre radici della Rhoynar e delle Vecchie Principate. Ma davvero desideriamo rimanere così?"
-  agot_stepstones_rhoynish_culture_tooltip:0 "Una nuova cultura divergente emergerà da $rhoynish$, con il suo proprio insieme di tradizioni."
-agot_stepstones_rhoynish_culture_confirm:0 "Verso nuovi inizi"
-
-  agot_seize_control:0 "Prendere il Controllo"
-  agot_seize_control_desc:0 "Una dittatura non può durare per sempre; se voglio garantire la successione della mia dinastia devo abbandonare ogni pretesa di democrazia."
-  agot_seize_control_tooltip:0 "Metti fine per sempre alle elezioni convertendoti a un governo feudale"
-  agot_seize_control_confirm:0 "Portami il mio sigillo"
-  agot_seize_control_full_county_control_tt:0 "Hai il controllo massimo della [county_control|E] nella tua [capital|E]"
-  strong_hook_on_all_powerful_vassals_tt:0 "Hai un [strong_hook|E] su tutti i tuoi [powerful_vassals|E]"
-
-  agot_form_undisputed_lands:0 "Stabilire le Terre Contese"
-  agot_form_undisputed_lands_decision_desc:0 "Queste terre sono state combattute e contese sin dalla Rovina di Valyria, ma finalmente le ho unite."
-  agot_form_undisputed_lands_decision_tooltip:0 "Forma un regno da queste terre un tempo contese"
-  agot_form_undisputed_lands_confirm:0 "All'infamia e all'immortalità!"
-three_daughters_confederation: "Esiste la confederazione delle Tre Figlie"
-
-  agot_break_braavos_pentos_treaty:0 "Rompi il Trattato Braavos-Pentos"
-  agot_break_braavos_pentos_treaty_desc:0 "Dal 209, i Braavosi costringono l’orgogliosa città di Pentos a rispettare un trattato oppressivo. È giunto il momento per Pentos di stracciare quell'accordo e governarsi liberamente!"
-  agot_break_braavos_pentos_treaty_effect_tt:0 "Il Trattato Braavos-Pentos verrà spezzato. Pentos potrà nuovamente #bold sviluppare il proprio esercito, assoldare mercenari e partecipare alla schiavitù#!."
-  agot_break_braavos_pentos_treaty_effect_2_tt:0 "Braavos otterrà un casus belli per #bold 15 anni#! che gli permetterà di tentare di ristabilire il trattato."
-  agot_break_braavos_pentos_treaty_tooltip:0 "Rompi il Trattato Braavos-Pentos"
-  agot_break_braavos_pentos_treaty_confirm:0 "Per Pentos!"
-  agot_create_braavos_pentos_treaty_effect_tt:0 "[GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] sarà permanentemente applicato a tutti i personaggi sotto il dominio di Pentos. Potrà essere rimosso solo se Pentos si libererà con la guerra."
-  agot_break_braavos_pentos_treaty_as_braavos:0 "$agot_break_braavos_pentos_treaty$"
-  agot_break_braavos_pentos_treaty_as_braavos_desc:0 "Abbiamo rispettato fedelmente i confini di Pentos, come stabilito nel Trattato Braavos-Pentos del 209. Ma ora è giunto il tempo dell'espansione; cos'è un pezzo di carta in confronto alla conquista?"
-  agot_break_braavos_pentos_treaty_as_braavos_effect_tt:0 "Tu, e ogni vassallo braavosi, sarete liberi di dichiarare guerra a Pentos e ai suoi vassalli."
-  agot_break_braavos_pentos_treaty_as_braavos_confirm:0 "Per Braavos!"
-  agot_braavos_pentos_treaty_is_active:0 "Non puoi dichiarare guerra finché il [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] è attivo."
-  agot_break_braavos_pentos_treaty_as_braavos_tooltip:0 "$agot_break_braavos_pentos_treaty_tooltip$"
-
  ### Misc ###
   THREE_DAUGHTERS:0 "Alto Consiglio della Triarchia"
   HIGH_COUNCIL_TRIARCHY:0 "Alto Consiglio"
@@ -116,6 +74,9 @@ three_daughters_confederation: "Esiste la confederazione delle Tre Figlie"
   high_councilor_diarch_title:0 "Consigliere dell'Alto Consiglio"
   tyniate_diarchy_type:1 "Conclave Magisteriale"
   tyniate_diarch_title:0 "Tyniate"
+norvos_high_priestship_diarchy_type: 1 "Consiglio Religioso"
+norvos_high_priestship_diarch_title: 0 "Patriarca"
+norvos_high_priestship_diarch_title_possessive: "del Patriarca"
   war_approved:0 "Guerra Approvata"
   war_denied:0 "Guerra Negata"
 

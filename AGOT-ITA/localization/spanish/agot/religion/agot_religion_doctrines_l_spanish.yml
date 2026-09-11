@@ -142,7 +142,7 @@
   doctrine_pantheon_first_men_garth_name:0 "Garth Manoverde"
   doctrine_pantheon_first_men_garth_desc:0 "Garth il Verde aveva molti fedeli nell’Altopiano; alcuni arrivarono a venerarlo come un dio."
   doctrine_pantheon_lhazar_name:0 "Il Grande Pastore"
-  doctrine_pantheon_lhazar_desc:0 "Come un pastore guida e protegge il suo gregge, così il Grande Pastore guida e protegge il popolo di Lhazaar."
+doctrine_pantheon_lhazar_desc: 0 "Come un pastore custodisce e guida il proprio gregge, così il Grande Pastore guida e protegge il popolo di Lhazar."
   doctrine_pantheon_ghis_name:0 "Dèi di Ghis"
   doctrine_pantheon_ghis_desc:0 "Gli antichi dèi di Ghis erano venerati ben prima che il Dominio Libero nascesse. I loro Octarchi predicavano e governavano dagli Otto Alti, guidando il vecchio impero alla grandezza dopo Grazdan."
   doctrine_pantheon_ghis_spears_name:0 "Signora delle Lame"
@@ -294,7 +294,7 @@ doctrine_parameter_old_gods_buildings:0 "La linea di [buildings|E] #V Bosco degl
 
   tenet_god_kings_name:0 "Re Divini"
   tenet_god_kings_desc:0 "Chi può dubitare degli dèi, soprattutto quando uno cammina tra noi? Non tutte le divinità rifiutano la carne mortale, e i fedeli di questa fede hanno la fortuna di essere guidati da una tale presenza."
-  doctrine_parameter_can_change_crown_authority_frequently:0 "I sovrani possono cambiare l’Autorità Regia ogni 3 anni"
+doctrine_parameter_can_change_realm_authority_frequently: 0 "I sovrani possono modificare l'Autorità della Corona, Tribale e Nomade, nonché la Burocrazia Imperiale e Celeste, ogni 3 anni"
 
   tenet_greensight_name:0 "Vista Verde"
   tenet_greensight_desc:0 "Gli Antichi Dei offrono molti doni, ma nessuno è grande quanto la Vista Verde: vedere attraverso gli occhi di uccelli e bestie, vedere epoche passate e future, vedere il mondo come lo vedono gli dèi, cosa potrebbe essere più grande?"
@@ -416,7 +416,7 @@ doctrine_parameter_old_gods_buildings:0 "La linea di [buildings|E] #V Bosco degl
 
   tenet_holy_water_name:0 "Acqua Sacra"
   tenet_holy_water_desc:0 "Il fiume, l’acqua, è dono della Madre. Dall’acqua nasce la vita, la speranza e la giustizia."
-  doctrine_parameter_unlock_water_anti_dragon_maa:0 "Può arruolare i [GetMaA('water_wizards').GetName] come [men_at_arms|E]"
+doctrine_parameter_unlock_water_anti_dragon_maa: 0 "Può reclutare [GetMaA('water_wizards').GetName] come [men_at_arms|E] quando i [dragons_plural|E] sono presenti nel mondo"
 
   tenet_secret_tongue_name:0 "Lingua Segreta"
   tenet_secret_tongue_desc:0 "Le nostre parole sono preziose e la nostra lingua è sacra: non è fatta per gli infedeli e gli eretici."
@@ -595,5 +595,7 @@ agot_tenet_faithandreason_desc: 0 "La fede non è un ostacolo all'apprendimento 
   doctrine_parameter_hostility_override_special_doctrine_agot_is_chosen_faith:0 "Le [faiths|E] con la [doctrine|E] $special_doctrine_agot_is_chosen_faith_name$ sono considerate [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
   doctrine_parameter_hostility_override_special_doctrine_agot_is_temples_faith:0 "Le [faiths|E] con la [doctrine|E] $special_doctrine_agot_is_temples_faith_name$ sono considerate [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
   AGOT_FAITH_HARD_TO_CONVERT_REASON: "La fede ha una maggiore resistenza alla conversione:"
-  AGOT_FAITH_CANNOT_DEMAND_CONVERSION:0 "La fede impedisce di esigere la conversione degli altri"
+WAS_AGOT_FAITH_CANNOT_DEMAND_CONVERSION: 0 "La Fede impedisce di esigere la conversione altrui."
+I_WAS_AGOT_FAITH_CANNOT_DEMAND_CONVERSION: 0 "La Fede ti impedisce di esigere la conversione altrui."
+THEY_WAS_AGOT_FAITH_CANNOT_DEMAND_CONVERSION: 0 "La Fede impedisce loro di esigere la conversione altrui."
 allows_brewery_name: "Birrificio Consentito"

@@ -4,3 +4,10 @@ CHARACTER_IS_THE_PRIMARY_HEIR_OF_CHARACTER: 0 "[CHARACTER.GetShortUIName|U] è l
   NOT_CHARACTER_ARE_IS_INCAPABLE: "[CHARACTER.GetShortUIName|U] non [CharAreIs(CHARACTER)] incapace"
   IS_NOT_A_HEIR_TO_A_TITLE:0 "Non è #bold l'erede#! di un titolo"
   PLACE_IN_LINE_OF_SUCCESSION:0 "La posizione nella linea di successione #bold non#! è minore o uguale a 2"
+
+HAS_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 0 "Non è #bold in grado#! di creare un legame con un drago poiché è [GetTrait('dragonwidowed').GetName(GetNullCharacter)]"
+NOT_HAS_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 0 "È in grado di creare un legame con un drago"
+I_HAVE_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 1 "Non sei #bold in grado#! di creare un legame con un drago poiché sei [GetTrait('dragonwidowed').GetName(GetPlayer)]"
+NOT_I_HAVE_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 1 "Sei in grado di creare un legame con un drago"
+THEY_HAVE_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'non sei','non è')] #bold in grado#! di creare un legame con un drago poiché [Select_CString(CHARACTER.IsLocalPlayer,'sei','è')] [GetTrait('dragonwidowed').GetName(CHARACTER.Self)]"
+NOT_THEY_HAVE_TRAIT_WITH_CAN_NOT_BOND_DRAGON_FLAG_TRIGGER: 0 "[Select_CString(CHARACTER.IsLocalPlayer,'Tu',CHARACTER.GetShortUIName)] [Select_CString(CHARACTER.IsLocalPlayer,'sei','è')] in grado di creare un legame con un drago"

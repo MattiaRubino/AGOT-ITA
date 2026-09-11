@@ -29,8 +29,27 @@ agot_birth_events.1000.a:0 "Che nasca Casa Bittersteel!"
 agot_birth_events.1000.a_tt:0 "Fonderai un ramo cadetto e il tuo matrimonio diventerà patrilineare"
 agot_birth_events.1000.b:0 "No, l'accordo attuale è sufficiente."
 
+agot_birth_events.1500.t: 0 "Un'Eredità Macchiata"
+agot_birth_events.1500.desc: 0 "Il travaglio è stato lungo e straziante, ma infine il pianto di un bambino squarcia l'aria. Il sollievo mi pervade. Poi volgo lo sguardo verso la levatrice.\n\nNon dice nulla.\n\n«Che cosa c'è?» domando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]... il bambino ha un aspetto innaturale», risponde.\n\n[real_father.GetFirstName] e io abbiamo sempre saputo che un'unione come la nostra comportava dei rischi, eppure il senso di colpa grava pesantemente sul mio cuore mentre osservo il neonato."
+agot_birth_events.1500.twins: 0 "Il travaglio è stato lungo e straziante, ma infine il pianto dei miei figli squarcia l'aria. Il sollievo mi pervade. Poi volgo lo sguardo verso la levatrice.\n\nNon dice nulla.\n\n«Che cosa c'è?» domando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]... i bambini hanno un aspetto innaturale», risponde.\n\n[real_father.GetFirstName] e io abbiamo sempre saputo che un'unione come la nostra comportava dei rischi, eppure il senso di colpa grava pesantemente sul mio cuore mentre osservo i miei gemelli appena nati."
+agot_birth_events.1500.a: 0 "Ciò che è stato fatto non può essere disfatto..."
+
+agot_birth_events.1501.t: 0 "Un'Eredità Macchiata"
+agot_birth_events.1501.desc: 0 "Cammino avanti e indietro con ansia fuori dalla camera del parto finché una delle levatrici non emerge. Il sollievo mi invade quando mi assicura che il travaglio si è concluso senza complicazioni.\n\nPoi vedo l'espressione sul suo volto.\n\n«Che cosa c'è?» domando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]... il bambino ha un aspetto innaturale», risponde.\n\n[mother.GetFirstName] e io abbiamo sempre saputo che un'unione come la nostra comportava dei rischi, eppure il senso di colpa grava pesantemente sul mio cuore mentre ascolto mio figlio piangere oltre la porta."
+agot_birth_events.1501.twins: 0 "Cammino avanti e indietro con ansia fuori dalla camera del parto finché una delle levatrici non emerge. Il sollievo mi invade quando mi assicura che il travaglio si è concluso senza complicazioni e che sono nati due gemelli.\n\nPoi vedo l'espressione sul suo volto.\n\n«Che cosa c'è?» domando.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]... i bambini hanno un aspetto innaturale», risponde.\n\n[mother.GetFirstName] e io abbiamo sempre saputo che un'unione come la nostra comportava dei rischi, eppure il senso di colpa grava pesantemente sul mio cuore mentre ascolto i miei figli piangere oltre la porta."
+agot_birth_events.1501.a: 0 "Ciò che è stato fatto non può essere disfatto..."
+
 agot_birth_events.2000.t:0 "Una Casata Tutta Mia"
 agot_birth_events.2000.desc:0 "La grande spada in acciaio di Valyria, [vs_blackfyre.GetName], è giunta in mio possesso. È il simbolo supremo del potere, del valore e della legittimità dei Targaryen.\n\nMa io non sono un Targaryen. Come bastardo, non potrei mai rivendicare l'eredità legata a [vs_blackfyre.GetNameNoTooltip]. Ma forse potrei fondare una mia casata, una che rifletta senza dubbio la storia e il prestigio della spada..."
 agot_birth_events.2000.a:0 "Che nasca Casa Blackfyre!"
 agot_birth_events.2000.a_tt:0 "Fonderai Casa Blackfyre."
 agot_birth_events.2000.b:0 "No, preferisco l'assetto attuale."
+
+ #Vanilla Additions
+birth.3001.desc_incompatible_biology: 0 "Ha un aspetto deforme e ricorda a malapena un bambino umano. La levatrice tenta disperatamente di nascondere il proprio disgusto mentre tutti fissano la creatura senza vita davanti a loro,"
+birth.3001.desc_incompatible_biology.nohead: 0 "che è completamente priva di testa!"
+birth.3001.desc_incompatible_biology.eightdigits: 0 "che ha otto dita per ciascuna mano!"
+birth.3001.desc_incompatible_biology.threeeyes: 0 "che porta un terzo occhio al centro della fronte!"
+birth.3001.desc_incompatible_biology.fisheyes: 0 "che ha occhi acquosi e vitrei, più adatti a un pesce che a un essere umano!"
+birth.3001.desc_incompatible_biology.unicornhorn: 0 "che presenta una protuberanza sulla fronte, l'inizio di un corno!"
+birth.3001.desc_incompatible_biology.fur: 0 "che è ricoperta di pelliccia come gli Uomini Pelosi delle leggende!"

@@ -37,7 +37,7 @@ agot_knighthood_maintenance.0009.desc_liege_war_against_knight_liege: "Poiché i
   agot_knighthood_maintenance.0010.b.tt:0 "I cavaliere vicini verranno informati del tuo status e potrebbero offrirti la carica di scudiero."
 
   agot_knighthood_maintenance.0011.t:0 "Una Richiesta Inusuale"
-  agot_knighthood_maintenance.0011.desc:0 "[knightless_squire.GetName] è venuto da me con una richiesta inusuale. Il suo cavaliere è morto, lasciandola senza nessuno che un giorno lo nomini cavaliere! [knightless_squire.GetSheHe] teme di diventare qualcuno che trascorre l'intera vita come scudiero e, per questo, mi supplica di prenderlo come mio scudiero."
+agot_knighthood_maintenance.0011.desc: 0 "[knightless_squire.GetName] è venut[Select_CString(knightless_squire.IsFemale,'a','o')] da me con una richiesta insolita. Il suo cavaliere è morto, lasciando [Select_CString(knightless_squire.IsFemale,'lei','lui')] senza qualcuno che un giorno possa conferir[Select_CString(knightless_squire.IsFemale,'le','gli')] il titolo di cavaliere! [Select_CString(knightless_squire.IsFemale,'Lei','Lui')] teme di trascorrere tutta la vita come [Select_CString(knightless_squire.IsFemale,'scudiera','scudiero')] e, per questo, mi implora di prender[Select_CString(knightless_squire.IsFemale,'la','lo')] come [Select_CString(knightless_squire.IsFemale,'mia scudiera','mio scudiero')]."
   agot_knighthood_maintenance.0011.a:0 "Va bene, lo farò."
   agot_knighthood_maintenance.0011.b:0 "No, non voglio uno scudiero."
   agot_knighthood_maintenance.0011.b.tt:0 "Non accetterai [knightless_squire.GetNameNoTooltip] come tuo scudiero."

@@ -15,9 +15,6 @@
   agot_decisions_events.0003.b:0 "Qualcosa a cui fare attenzione."
   agot_decisions_events.0003.c:0 "Interessante."
 
-  k_undisputed_lands:0 "Terre Indiscusse"
- k_undisputed_lands_adj:0 "$k_undisputed_lands$"
-
   bind_dragon_horn_decision:0 "Vincola il Corno del Drago"
   bind_dragon_horn_decision_desc:0 "Un rituale di sangue stabilirà una connessione magica tra me e il corno del drago in mio possesso. Senza il vincolo, il corno non funzionerà correttamente."
   bind_dragon_horn_decision_effect:0 "Cercherai di vincolarti al corno del drago — a un costo elevato."
@@ -121,6 +118,11 @@
   agot_decisions_events.0205.desc:0 "Braavos ha annunciato che il [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] è stato dichiarato nullo e privo di valore!\n\nOra la città di Pentos può ricostruire liberamente i propri eserciti, praticare la schiavitù e assoldare mercenari. Inoltre, i Braavosi possono dichiarare guerra a Pentos e ai suoi vassalli senza vincoli!"
   agot_decisions_events.0205.a:0 "Non ci riguarda più di tanto."
   agot_decisions_events.0205.a_pentos_pov:0 "E così crollano le stesse parole del Titano!"
+
+ agot_decisions_events.0206.t:0 "$agot_decisions_events.0200.t$"
+agot_decisions_events.0206.desc: 0 "È giunta alla mia corte la notizia che il reame di Pentos ha subito un cambio forzato al vertice.\n\nNon possiamo più presumere che [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] venga fatto rispettare da ciò che resta dei magistri pentoshi. Pentos potrà anche essere libera di ricostruire i propri eserciti e i propri campi di schiavi, ma Braavos sarà altrettanto libera di attaccarla qualora lo ritenessimo necessario..."
+ agot_decisions_events.0206.a:0 "$agot_decisions_events.0200.a$"
+agot_decisions_events.0206.b: 0 "Braavos imporrà nuovamente il trattato quando sarà pronta."
 
  #Retrieve Hidden Artifacts
  #Rhaenys' Circlet

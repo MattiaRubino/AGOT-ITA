@@ -15,6 +15,23 @@
   lp_feudal_vassal_desc:0 "$game_concept_feudal_desc$"
 
  # Free Cities
+norvos_government: 0 "Norvoshi Sacerdotale"
+norvos_government_adjective: 0 "Norvoshi Sacerdotale"
+ norvos_government_filter_option:0 "$norvos_government$"
+norvos_government_filter_option_desc: 0 "Mostra solo i personaggi con [government|E] $norvos_government$"
+norvos_government_desc: 0 "Sotto la [government_form|E] $norvos_government$, il potere è bilanciato tra il governo dei magistri e i teocratici Preti Barbuti."
+norvos_govt_concept: 0 "[norvos_govt_i|E]"
+government_is_norvos: 0 "Il tipo di [government|E] è [GetGovernment( 'norvos_government' ).GetName]"
+norvos_government_vassals_label: 1 "Gli [obligations|E] $norvos_government$ sono gli stessi per tutti i [vassals|E] $norvos_government$"
+ norvos_vassal:0 "$norvos_government$"
+
+ norvos_government_house_attribute_flavor_name_no_tooltip:0 "$administrative_government_house_attribute_flavor_name_no_tooltip$"
+ norvos_government_house_attribute_flavor_name:0 "$administrative_government_house_attribute_flavor_name$"
+
+norvos_regency_succession_law: 0 "Elettiva Norvoshi"
+ norvos_regency_succession_subname:0 "$free_city_election_succession_law_subname$"
+norvos_regency_succession_law_effects: 0 "\n#V Sotto $norvos_regency_succession_law$, i governanti terrieri di $k_norvos$ vengono scelti tra i cittadini più ricchi e influenti, ma i Preti Barbuti esercitano un'enorme influenza su chi sia infine autorizzato a governare le terre del reame.#!"
+
   free_city_election_succession_law:0 "Elezione della Città Libera"
   free_city_election_succession_law_subname:0 "Eletto, a Termine o a Vita"
 free_city_election_succession_law_effects:0 "\n#V Con $free_city_election_succession_law$, il sovrano della Città Libera verrà scelto dai cittadini più ricchi e influenti. A seconda delle leggi del reame, diversi gruppi potranno esercitare maggiore influenza e la durata del mandato potrà variare — alcune città potrebbero perfino nominare un sovrano a vita.#!"
@@ -103,6 +120,20 @@ agot_pirate_sailing_requirements: 0 "Può organizzare un'[activity|E] [GetActivi
   silent_sisterhood_government_desc:0 "La [government_form|E] della Sorellanza del Silenzio è riservata all’ordine delle Sorelle Silenziose. Non possiedono [domain|E], non hanno [vassals|E], né guidano [armies|E]."
   silent_sisterhood_govt_concept:0 "[silent_sisters_govt_i|E]"
   government_is_silent_sisters:0 "Il tipo di [government|E] è [GetGovernment( 'silent_sisterhood_government' ).GetName]"
+
+ # Lorathi Principality
+lorathi_principality_government_with_icon: 0 "@government_type_lorathi_principality! $lorathi_principality_government$"
+lorathi_principality_government: 0 "Principato Lorathi"
+lorathi_principality_government_desc: 0 "I tre Principati Lorathi del Raccolto, dei Pescatori e delle Strade un tempo governavano ogni aspetto della Città Libera di Lorath. Ora sono soltanto cariche cerimoniali, elette da coloro che abitano Lorath e le sue isole."
+lorathi_principality_government_adjective: 0 "Principesco Lorathi"
+lorathi_principality_government_realm: 0 "Principato Lorathi"
+ lorathi_principality_government_filter_option:0 "$game_concept_lorathi_principality_govt$"
+lorathi_principality_government_filter_option_desc: 0 "Mostra solo i personaggi con il [government|E] Principato Lorathi"
+lorathi_principality_govt_concept: 0 "[lorathi_principality_govt_i|E]"
+government_is_lorathi_principality: 0 "Il tipo di [government|E] è [GetGovernment( 'lorathi_principality_government' ).GetName]"
+
+lorathi_principality_succession_law: 0 "Successione Principesca Lorathi"
+lorathi_principality_succession_law_effects: 0 "\n#V Sotto $lorathi_principality_succession_law$, ciascuno degli [agot_lorathi_princes|E] viene eletto da uno specifico gruppo di elettori.#!"
 
  # Dummy adv govt for bookmark purposes
   dummy_adventurer_govt_for_bms:0 "$landless_adventurer_government$"

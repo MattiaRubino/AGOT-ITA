@@ -6,3 +6,11 @@
   msg_inherited_legitimate_title_desc:0 "Hai ottenuto il titolo di [title.GetName]. Le grandi terre dei tuoi antenati sono ora sotto il tuo dominio."
   msg_inherited_illegitimate_title:0 "Pretendente a [title.GetNameNoTooltip]"
   msg_inherited_illegitimate_title_desc:0 "Hai ottenuto il titolo di [title.GetName]. Non essendo parte della [agot_legitimate_house|E] di [title.GetNameNoTooltip], molti considerano il tuo dominio illegittimo."
+
+msg_end_diarchy_effect_norvos: 0 "Non sono più in [sharing_power|E] con il mio precedente [diarch|E]."
+msg_end_diarchy_effect_norvos_vassal: 0 "Il mio [liege|E] non è più in [sharing_power|E] con il precedente [diarch|E]."
+msg_end_diarchy_effect_vanilla: 0 "Non sono più in [sharing_power|E] con il mio [diarch|E]."
+on_left_diarchy.notification.vassal.desc_vanilla: 0 "Il mio [liege|E] non è più in [sharing_power|E] con il precedente [diarch|E]."
+
+on_norvos_diarch_change.notification.liege.death.desc: 1 "La recente [character_death_death|E] [old_diarch.GetShortUINamePossessive|U] ha portato all'ascesa di un nuovo [liege.GetDiarchTitle]."
+on_norvos_diarch_change.notification.vassal.death.desc: 1 "La recente [character_death_death|E] [old_diarch.GetShortUINamePossessive|U] ha portato all'ascesa di un nuovo [liege.GetDiarchTitle] di [liege.GetPrimaryTitle.GetName]."

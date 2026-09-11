@@ -35,6 +35,10 @@
   building_large_ruin_04:0 "Rovina di Grandi Dimensioni Restaurata"
   building_large_ruin_04_desc:0 "Una volta una rovina di grandi dimensioni spazzata via nelle pagine della storia, è stata completamente ricostruita, e forse anche superata rispetto a ciò che era originariamente."
 
+building_type_special_ruin_01: 0 "Rovine Venerabili"
+building_special_ruin_01: 0 "Rovine Venerabili Abbandonate"
+building_special_ruin_01_desc: 0 "Una venerabile rovina, abbandonata al proprio destino nella natura selvaggia.\n\n@warning_icon! #X Richiede un [great_project|E] per essere restaurata#!"
+
  ### Ruin Afflictions
  # Salted Earth
   building_type_ruin_salted_earth_01:0 "Terra Salata"
@@ -72,6 +76,14 @@ building_ruin_infamous_01_desc: "Si ritiene che le rovine che adornano queste te
   building_ruin_wildfire_02:0 "Scoppio Contenuto"
 building_ruin_wildfire_02_desc: "Ora che l'Altofuoco è stato contenuto, il processo di ricostruzione è divenuto più agevole: la minaccia costante che ogni progresso venga ridotto in brace non è più così opprimente. Tuttavia, le terre e la gente attorno alle rovine ormai arse hanno pagato un prezzo."
 
+ # Stone Men
+building_type_ruin_stone_men_01: 0 "Presenza degli Uomini di Pietra"
+building_ruin_stone_men_01: 0 "Uomini di Pietra Attivi"
+building_ruin_stone_men_01_desc: 0 "Un tempo abitato da uomini e donne sani di mente, questo luogo ospita ormai soltanto coloro che sono affetti dal morbo grigio, una malattia che corrompe tanto la mente quanto il corpo. Sebbene solitamente se ne stiano per conto proprio, rappresentano comunque un pericolo, poiché si può contrarre la malattia da loro con il semplice contatto."
+
+building_ruin_stone_men_02: 0 "Uomini di Pietra Sottomessi"
+building_ruin_stone_men_02_desc: 0 "Con la forza, la coercizione o altri mezzi, gli Uomini di Pietra appestati di questo luogo sono stati neutralizzati, e la loro assenza consente ora di proseguire gli sforzi di ripopolamento in condizioni più sicure, sebbene possa ancora persistere il rischio di contagio."
+
  # Interaction
   agot_ruin_begin_reconstruction:0 "Ripristina Rovine"
   agot_ruin_begin_reconstruction_desc:0 "Assumi il controllo di uno sforzo di ricostruzione per riportare l'antica gloria della zona."
@@ -95,12 +107,14 @@ ruin_history_morne: "Un tempo seggio reale di Tarth, qui gli Evenstar di Casa Ta
   ruin_history_landless:0 ""
 ruin_history_generic: "Il mondo è punteggiato di rovine, da Westeros a Essos, da Sothoryos a Ulthos; sono sparse in ogni terra. Alcune furono un tempo grandi fortezze e castelli, che resistettero agli nemici per migliaia d'anni prima di cadere dinanzi a un avversario imbattibile. Altre erano torri di guardia e piccoli fortilizi, spezzati da razzie minori e perduti al tempo. Di molte si cantano leggende, mentre altre giacciono dimenticate e respinte da ogni cantore.\n\nPer rivendicare una contea distrutta e iniziare la ricostruzione, vai alla schermata del possedimento e scegli "Restore Ruins". Quando possiedi una baronia in rovina, puoi migliorare l'edificio principale delle rovine per avviare il restauro."
   reconstruct_ruin_confirm_title:0 "Iniziare il Ripristino?"
-reconstruct_small_ruin_confirm_desc: 0 "Restaurare rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 200#!."
-reconstruct_med_ruin_confirm_desc: 0 "Restaurare rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 400#!."
-reconstruct_large_ruin_confirm_desc: 0 "Restaurare rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler intraprendere il processo di restauro?\n\nIl tuo investimento iniziale richiederà @gold_icon!#high 600#!."
-  reconstruct_small_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 200#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
-  reconstruct_med_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 400#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
-  reconstruct_large_ruin_tooltip:0 "Devi avere almeno @gold_icon!#high 600#! e confinare con le rovine oppure esserne il signore de jure per iniziare il restauro."
+reconstruct_small_ruin_confirm_desc: 0 "Restaurare delle rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler iniziare il processo di restauro?\n\nIl tuo investimento iniziale richiederà [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 200#!."
+reconstruct_med_ruin_confirm_desc: 0 "Restaurare delle rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler iniziare il processo di restauro?\n\nIl tuo investimento iniziale richiederà [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 400#!."
+reconstruct_large_ruin_confirm_desc: 0 "Restaurare delle rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler iniziare il processo di restauro?\n\nIl tuo investimento iniziale richiederà [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 600#!."
+reconstruct_special_ruin_confirm_desc: 0 "Restaurare delle rovine è un'impresa ardua, costosa e talvolta pericolosa. Sei sicuro di voler iniziare il processo di restauro?\n\nIl tuo investimento iniziale richiederà [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 1000#!."
+reconstruct_small_ruin_tooltip: 0 "Devi possedere almeno [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 200#! e confinare con la rovina oppure esserne il signore de jure per iniziare il restauro."
+reconstruct_med_ruin_tooltip: 0 "Devi possedere almeno [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 400#! e confinare con la rovina oppure esserne il signore de jure per iniziare il restauro."
+reconstruct_large_ruin_tooltip: 0 "Devi possedere almeno [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 600#! e confinare con la rovina oppure esserne il signore de jure per iniziare il restauro."
+reconstruct_special_ruin_tooltip: 0 "Devi possedere almeno [Select_CString(GetPlayer.HasTreasury, '@treasury_icon!', '@gold_icon!')]#high 1000#! e confinare con la rovina oppure esserne il signore de jure per iniziare il restauro."
   reconstruct_summerhall_tooltip:0 "Perfino gli operai trovano questo luogo funesto e si rifiutano di lavorarci. Non potrai restaurare Summerhall."
   reconstruct_ruin_confirm_button:0 "Conferma"
 

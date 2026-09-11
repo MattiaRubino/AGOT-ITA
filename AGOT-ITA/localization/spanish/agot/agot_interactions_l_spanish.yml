@@ -72,7 +72,8 @@ maester_child_language_rank_5:1 "L'[aptitude|E] del tuo [GetCourtPositionType('m
 
   raise_to_nobility_interaction:0 "Eleva a Nobiltà"
   raise_to_nobility_interaction_desc:0 "Eleva [recipient.GetShortUINameNoTooltip] alla nobiltà"
-  raise_to_nobility_tt:0 "Verrà elevat[recipient.Custom('DE_END_PRO_S_N')] alla nobiltà e fonderà una nuova dinastia"
+raise_to_nobility_tt: 0 "Verrà elevato alla nobiltà e fonderà una nuova [dynasty|E]"
+raise_to_nobility_house_relation_impact_tt: 0 "Le nostre [houses|E] inizieranno con #P eccellenti#! [house_relations|E]"
   raised_me_to_nobility_opinion:0 "Elevat[recipient.Custom('DE_END_PRO_S_N')] alla Nobiltà"
 
   already_offered_concubine_warning:0 "@warning_icon! #X ai già offerto una concubina a [recipient.GetShortUIName], offrendone un'altra si #underline sovrascrivera#! il modificatore [opinion|E] esistente!#!"

@@ -60,8 +60,6 @@ game_concept_agot_desert_nw:0 "Disertare i Guardiani della Notte"
 game_concept_agot_desert_nw_desc:0 "Una [decision|E] che permette al $first_ranger_landless_male$ di disertare l'[nw_govt|E] e diventare un [adventurer|E]."
 first_ranger_has_to_be_beyond_the_wall:0 "Il tuo [agot_ranger_camp|E] deve trovarsi oltre la Bariera"
 
-agot_wall_reclamation_post_nw_cb:0 "Riconquista dei Guardiani della Notte"
-
  #Government
   game_concept_nwfr_govt:0 "Ranger"
   game_concept_nwfr_govt_desc:0 "Sotto la [government_form|E] del $game_concept_nwfr_govt$, il $first_ranger_landless_male$ può avventurarsi oltre la Barriera con un piccolo gruppo di Ranger. Solo i confratelli giurati dei [GetGovernment( 'nights_watch_government' ).GetName] possono diventare Ranger, e solo il $first_ranger_landless_male$ può guidare un [agot_ranger_camp|E]."
@@ -319,6 +317,7 @@ agot_nw_ranger_events.0001.desc.fr_to_lc_reclaim:0 "La Bariera è di nuovo nelle
   agot_nw_ranger_events.0016.desc.second:0 "Un ranger in più, e saremo pronti a varcare la Barriera."
   agot_nw_ranger_events.0016.a:0 "Spero che tu sia pronto."
   agot_nw_ranger_events.0016.a.tt:0 "[ranger_candidate.GetTitledFirstName] si unisce al tuo Accampamento dei Ranger"
+agot_nw_ranger_events.0016.b: 0 "Non è rimasto più nessuno da prendere."
 
  #First Ranger is back on the Wall III
   agot_nw_ranger_events.0017.t:0 "Un Nuovo Giorno"
@@ -561,6 +560,11 @@ agot_nw_ranger_events.0020.b:0 "Mi domando come sarebbe stare al suo posto."
   agot_nw_ranger_events.0028.desc.fail_e:0 "\n\nSebbene [my_ranger.GetTitledFirstNameNoTooltip] tentasse di fermar[main_figure.Custom('DE_PRO_POS_P_3P')], il Bruto ebbe la meglio e fuggì con del bottino, lasciando il campo scosso."
   agot_nw_ranger_events.0028.a.success:0 "Il campo è salvo, ancora una volta."
   agot_nw_ranger_events.0028.a.failure:0 "Dovremo riprenderci da questo colpo."
+
+ #The Night's Watch is no more (for the Wildling who controls Castle Black)
+ agot_nw_ranger_events.0029.t:0 "$agot_nw_ranger_events.0019.t$"
+agot_nw_ranger_events.0029.desc: 0 "I fratelli in nero sono finiti. Con il loro ordine infranto e le loro forze ormai esaurite, coloro che ancora presidiavano i castelli lungo la Bariera hanno abbandonato i propri posti e sono fuggiti verso sud.\n\nPer migliaia di anni, queste fortezze si sono opposte al Popolo Libero, presidiate da uomini che avevano giurato di impedirci di passare nelle terre oltre la Bariera. Ora i loro cancelli sono spalancati, le torri vuote e, uno dopo l'altro, i loro castelli sono caduti nelle mie mani.\n\nLa Bariera rimane, ma gli uomini che la sorvegliavano non ci sono più."
+agot_nw_ranger_events.0029.a: 0 "La Bariera appartiene ora al Popolo Libero."
 
  ######################
  ### RECLAIM THE NW ###

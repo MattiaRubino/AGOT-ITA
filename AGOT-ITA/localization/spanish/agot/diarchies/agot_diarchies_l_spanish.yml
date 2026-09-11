@@ -1,5 +1,17 @@
 ﻿l_spanish:
   diarch_succession_score.regency.your_hand:0 "[ROOT.Char.GetLiege.Custom('GetLiegeYour')|U] Mano" 
 
+promote_soft_power_mandate: 0 "Promuovi il Potere Indiretto"
+promote_soft_power_mandate_desc: 0 "Il [diarch|E] si concentra sul consolidare la propria presa sul reame attraverso il potere indiretto, lasciando le incombenze quotidiane al [liege|e] nominale."
+mandate_aptitude.promote_soft_power.primary_skill.learning: 0 "Il [mandate|E] si basa sull'[learning|E]"
+mandate_aptitude.promote_soft_power.secondary_skill.intrigue: 0 "Il [mandate|E] utilizza l'[intrigue|E]"
+mandate_aptitude.promote_soft_power.secondary_skill.stewardship: 0 "Il [mandate|E] utilizza la [stewardship|E]"
+mandate_aptitude.promote_soft_power.bonus_trait.zealous: 0 "[GetTrait('zealous').GetName( ROOT.Char )] eccelle"
+mandate_aptitude.promote_soft_power.bonus_trait.patient: 0 "[GetTrait('just').GetName( ROOT.Char )] eccelle"
+mandate_aptitude.promote_soft_power.malus_trait.impatient: 0 "[GetTrait('impatient').GetName( ROOT.Char )] è senza speranza"
+mandate_aptitude.promote_soft_power.malus_trait.cynical: 0 "[GetTrait('cynical').GetName( ROOT.Char )] è senza speranza"
+diarch_can_force_step_down_admin_appointments: 0 "I [diarchs|E] possono utilizzare l'[character_interaction|E] #V $governor_removal_interaction$#! sui [governors|E] del reame"
+diarch_must_approve_war_declaration: 0 "Il [liege|E] deve ottenere l'approvazione del proprio [diarch|E] per dichiarare guerra"
+
   liege_dismiss_free_city_diarch_interaction:0 "Rimuovi il Diarca"
   liege_dismiss_free_city_diarch_interaction_desc:0 "Non puoi farlo."

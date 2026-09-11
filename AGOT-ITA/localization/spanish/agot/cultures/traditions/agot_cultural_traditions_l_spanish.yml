@@ -31,6 +31,7 @@ cheaper_tour_activity_discount:0 "[GetPlayer.GetCulture.GetName] [culture|E]"
 culture_parameter_hunts_cd_ten_percent_quicker:0 "Ritardo tra le [activities|E] [GetActivityType('activity_hunt').GetName]: #P -10% #!"
 culture_parameter_more_likely_to_steal_artifacts:0 "I membri di questa cultura hanno maggiori probabilità di rubare [artifacts|E] in battaglie o razzie"
 culture_parameter_immune_to_all_diseases_except_greyscale:0 "I membri di questa cultura sono immuni a tutte le malattie tranne la [GetTrait('greyscale').GetName( GetNullCharacter )], con cui nascono sempre"
+culture_parameter_malformed_infants_more_common: 0 "È più probabile che i bambini nascano con tratti [congenital|E] #N negativi#!"
 
  #Child Traits
   culture_parameter_bossy_trait_more_common:0 "[children|E] hanno più probabilità di ottenere il tratto [GetTrait('bossy').GetName( GetNullCharacter )]"
@@ -48,6 +49,9 @@ culture_parameter_fashionable_trait_more_common:0 "Il [trait|E] [GetTrait('fashi
 culture_parameter_possessed_trait_more_common:0 "Il [trait|E] [GetTrait('possessed_1').GetName( GetNullCharacter )] è più comune"
 culture_parameter_deceitful_trait_more_common:0 "Il [trait|E] [GetTrait('deceitful').GetName( GetNullCharacter )] è più comune"
 culture_parameter_gregarious_trait_more_common: 0 "Il [trait|E] [GetTrait('gregarious').GetName( GetNullCharacter )] è più comune"
+culture_parameter_lustful_trait_more_common: 0 "Il [trait|E] [GetTrait('lustful').GetName( GetNullCharacter )] è più comune"
+culture_parameter_eccentric_trait_more_common: 0 "Il [trait|E] [GetTrait('eccentric').GetName( GetNullCharacter )] è più comune"
+culture_parameter_sadistic_trait_more_common: 0 "Il [trait|E] [GetTrait('sadistic').GetName( GetNullCharacter )] è più comune"
 
  #Commander Traits
   culture_parameter_organizer_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('organizer').GetName( GetNullCharacter )] è più comune"
@@ -59,6 +63,7 @@ culture_parameter_gregarious_trait_more_common: 0 "Il [trait|E] [GetTrait('grega
   culture_parameter_forder_trait_more_common:0 "Il tratto da [commander_trait|E] [GetTrait('forder').GetName( GetNullCharacter )] è più comune"
 culture_parameter_open_terrain_expert_trait_more_common:0 "Il [commander_trait|E] [GetTrait('open_terrain_expert').GetName( GetNullCharacter )] è più comune"
 culture_parameter_reaver_trait_more_common:0 "Il [commander_trait|E] [GetTrait('reaver').GetName( GetNullCharacter )] è più comune"
+culture_parameter_unyielding_defender_trait_more_common: 0 "Il [commander_trait|E] [GetTrait('unyielding_defender').GetName( GetNullCharacter )] è più comune"
 
  #Terrain Bonuses
   culture_parameter_wetlands_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ottengono bonus aggiuntivi nelle Zone Umide"
@@ -66,6 +71,9 @@ culture_parameter_reaver_trait_more_common:0 "Il [commander_trait|E] [GetTrait('
 culture_parameter_steppe_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ricevono bonus aggiuntivi nella Steppa"
 culture_parameter_urban_trait_bonuses:0 "Alcuni [commander_traits|E] e [personality_traits|E] ricevono bonus aggiuntivi in ambiente urbano"
 culture_parameter_bog_hunt_success_chance:0 "Probabilità di successo della caccia aumentata in [GetTerrain( 'the_bog' ).GetName]"
+
+ #Misc Trait Bonuses
+culture_parameter_raid_bonuses: 0 "Alcuni [commander_traits|E] e [personality_traits|E] conferiscono bonus aggiuntivi alle razzie"
 
  #Trait Valued
   culture_parameter_shrewd_trait_more_valued:0 "Il tratto [GetTrait('shrewd').GetName( GetNullCharacter )] è maggiormente apprezzato"
@@ -97,6 +105,10 @@ culture_parameter_dull_trait_looked_down_upon:0 "Il [trait|E] [GetTrait('dull').
 culture_parameter_eunuch_trait_is_looked_down_upon:0 "I [traits|E] [GetTrait('eunuch_1').GetName(GetNullCharacter)] e [GetTrait('beardless_eunuch').GetName(GetNullCharacter)] sono disprezzati"
 culture_parameter_impatient_trait_is_looked_down_upon:0 "Il [trait|E] [GetTrait('impatient').GetName(GetNullCharacter)] è disprezzato"
 culture_parameter_sadistic_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('sadistic').GetName(GetNullCharacter)] è malvisto"
+culture_parameter_arrogant_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('arrogant').GetName(GetNullCharacter)] è malvisto"
+culture_parameter_forgiving_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('forgiving').GetName(GetNullCharacter)] è malvisto"
+culture_parameter_greedy_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('greedy').GetName(GetNullCharacter)] è malvisto"
+culture_parameter_trusting_trait_looked_down_upon: 0 "Il [trait|E] [GetTrait('trusting').GetName(GetNullCharacter)] è malvisto"
 
  #Wanderers Extra Skills
   culture_parameter_wanderers_gain_extra_learning_skills:0 "I [wanderers|E] acquisiscono nel tempo competenze aggiuntive nel sapere, come [learning|E] o [lifestyle_traits|E]"
@@ -130,6 +142,7 @@ culture_parameter_ironborn_great_fleet_bonuses: 0 "La serie di [great_projects|E
 culture_parameter_better_watchtower_bonuses: 0 "La serie di [buildings|E] #V $building_type_watchtowers_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_better_monastic_school_bonuses: 0 "La serie di [buildings|E] #V $building_type_monastic_schools_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
 culture_parameter_better_scriptorium_bonuses: 0 "La serie di [buildings|E] #V $building_type_scriptorium_01$#! ha bonus aggiuntivi nelle [counties|E] di questa [culture|E]"
+watermills_without_innovations_unlock_name: 0 "#V $tradition_agot_rivermen_main_name$#!"
 
  #Naming
 culture_parameter_uses_generic_milk_names:0 "I personaggi di questa cultura usano [agot_milk_names|E] per i neonati"
@@ -239,6 +252,9 @@ tradition_agot_ghis_desc:0 "Fu con disciplina e fermezza che l'Antico Impero di 
 
 tradition_agot_rhoynar_name:0 "Sulla Madre dei Fiumi"
 tradition_agot_rhoynar_desc:0 "È sulle rive del Rhoyne, il grande fiume dell'Essos occidentale, che sorse una delle grandi civiltà del mondo. I Rhoynar sono celebri per la bellezza delle loro città e per l'uso e l'insegnamento della fusione del ferro."
+
+tradition_agot_ib_name: 0 "Sotto il Dominio dell'Ombra"
+tradition_agot_ib_desc: 0 "#italic “E poco dopo, l'intrepido navigatore si ritroverà ad attraversare il cuore del Mare dei Brividi, dove ogni scoglio e ogni onda sono governati dagli uomini pelosi della grande isola di Ib.”#!"
 
 tradition_agot_candling_name:0 "Sotto la Grande Candela"
 tradition_agot_candling_desc:0 "Ogni onore alla Grande Candela. Tutti venereranno la Grande Candela. La Grande Candela è saggia. La Grande Candela è la nostra padrona; essa sceglierà chi andrà e chi resterà. CAN-DE-LA, CAN-DE-LA, CAN-DE-LA..."
@@ -395,6 +411,15 @@ tradition_agot_first_clans_desc:0 "#italic «...e nei tempi antichi Joramun, che
 
 tradition_agot_nonteloshi_name:0 "Con Vincoli di Cortesia"
 tradition_agot_nonteloshi_desc:0 "#italic «Si parla di Nove Città Libere, sebbene in tutta l'ampiezza di Essos si possano trovare molte altre città, insediamenti e avamposti valyriani, alcuni più grandi e popolosi di Gulltown, Porto Bianco o persino Lannisport. La distinzione che separa le Nove non è la loro grandezza, ma le loro origini.»#!"
+
+tradition_agot_ibbenese_name: 0 "Sui Mari dei Brividi"
+tradition_agot_ibbenese_desc: 0 "#italic “Gli Ibbenesi si distinguono dalle altre stirpi dell'umanità. Sono un popolo massiccio, largo di petto e di spalle, ma raramente superano i cinque piedi e mezzo d'altezza, con gambe corte e robuste e lunghe braccia. Benché bassi e tozzi, possiedono una forza feroce; nella lotta, il loro sport prediletto, nessun uomo dei Sette Regni può sperare di eguagliarli.”#!"
+
+tradition_agot_ibbatese_name: 0 "Sulle Alture Gelate"
+tradition_agot_ibbatese_desc: 0 "#italic “Gli Ibbenesi dei boschi e delle montagne nutrono per gli stranieri ancor meno simpatia dei loro cugini del mare e raramente parlano una lingua diversa dalla propria. Boscaioli, caprai e minatori, dimorano in caverne o in case di pietra grigia scavate nella terra e coperte di ardesia o paglia.”#!"
+
+tradition_agot_sarese_name: 0 "Sulle Coste Gelide"
+tradition_agot_sarese_desc: 0 "#italic “Ib Sar, la sua unica città, nacque in origine come luogo d'esilio e punizione, dove gli Ibbenesi di un tempo mandavano i criminali più famigerati, spesso dopo averli mutilati affinché non potessero mai fare ritorno a Ib.”#!"
 
 tradition_agot_valemen_main_name:0 "Cavalleria dei Falchi"
 tradition_agot_valemen_main_desc:0 "#italic «Come accadde per gli uomini della Valle, alcuni si sottomisero agli Andali, persino abbracciando la fede dei Sette. In molti casi, gli Andali presero in moglie le spose e le figlie dei re sconfitti, quale mezzo per consolidare il proprio diritto a governare. Poiché, nonostante tutto, i Primi Uomini erano assai più numerosi degli Andali e non potevano semplicemente essere messi da parte.»#!"

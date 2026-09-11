@@ -48,7 +48,11 @@ RELUCTANT_TO_LOSE_LORDSHIP: 0 "Riluttante a rinunciare alla signoria: $VALUE|=+0
   agot_grant_title_blocked:0 "Non puoi cedere questo [titolo|E]"
   AGOT_IS_DWARF:0 "[secondary_actor.GetFirstName] è un nano: $VALUE|=+0$"
 AGOT_PIRATE_MARRYING_OUTSIDE_GOVT:0 "[secondary_actor.GetFirstName] è un [pirate_govt|E]: $VALUE|=+0$"
+AGOT_INCOMPATIBLE_BIOLOGY: 0 "È improbabile che possano generare una prole vitale: $VALUE|+=0$"
 
 grant_only_one_settlement_at_a_time:0 "#N #italic Puoi concedere solo un [settlement_holding|E] alla volta#!#!\n"
 recipient_at_settlement_limit:0 "#N #italic [recipient.GetShortUINameNotMe] ha raggiunto il proprio [settlement_holding_limit|E]#!#!\n"
 recipient_needs_to_border_settlement_county:0 "#N #italic [recipient.GetShortUINameNotMe] deve confinare con la contea dell’insediamento che gli viene concesso#!#!\n"
+
+agot_children_chance_verylow: 0 "Probabilità di avere figli: #value Molto Bassa#!"
+agot_children_chance_vanilla: 0 "[MatchOffer.GetChanceOfChildrenDesc]"
