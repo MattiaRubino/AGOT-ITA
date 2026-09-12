@@ -1,0 +1,55 @@
+﻿l_spanish:
+
+agot_a_new_harvest_prince_is_elected_tt: 0 "Un nuovo Principe del Raccolto sarà eletto a breve"
+agot_a_new_harvest_prince_is_elected_soon_tt: 0 "Un nuovo Principe del Raccolto sarà eletto tra tre giorni"
+agot_a_new_harvest_prince_is_elected_eight_tt: 0 "Le elezioni per il Principato del Raccolto inizieranno tra otto giorni"
+
+agot_a_new_fisher_prince_is_elected_tt: 0 "Un nuovo Principe dei Pescatori sarà eletto a breve"
+agot_a_new_fisher_prince_is_elected_soon_tt: 0 "Un nuovo Principe dei Pescatori sarà eletto tra tre giorni"
+agot_a_new_fisher_prince_is_elected_eight_tt: 0 "Le elezioni per il Principato dei Pescatori inizieranno tra otto giorni"
+
+agot_a_new_prince_of_streets_is_elected_tt: 0 "Un nuovo Principe delle Strade sarà eletto a breve"
+agot_a_new_prince_of_streets_is_elected_soon_tt: 0 "Un nuovo Principe delle Strade sarà eletto tra tre giorni"
+agot_a_new_prince_of_streets_is_elected_eight_tt: 0 "Le elezioni per il Principato delle Strade inizieranno tra otto giorni"
+
+agot_three_princes.1000.t: 0 "La Morte del Principe del Raccolto"
+agot_three_princes.1000.desc: 0 "Il [agot_harvest_prince|E] è morto, ponendo fine al suo mandato come uno dei tre principi cerimoniali di Lorath. In quanto proprietario terriero sulle isole del [GetTitleByKey('k_lorath').GetName], mi è concesso il diritto di votare nell'elezione del suo successore. Tra i candidati proposti dagli elettori proprietari terrieri, chi desidero vedere assumere questa posizione privilegiata, seppur interamente cerimoniale?"
+agot_three_princes.1000.a: 0 "Devo valutare attentamente le mie possibilità."
+
+agot_three_princes.1001.t: 0 "Elezione del Principe del Raccolto"
+agot_three_princes.1001.desc: 0 "Gli elettori proprietari terrieri delle isole lorathiane hanno presentato i propri candidati, e ora è giunto il momento che ciascun elettore esprima il proprio voto. La carica di Principe del Raccolto potrà anche avere ben poca autorità al giorno d'oggi, ma l'onore di portarne il titolo rimane assai ambito. Quale candidato riceverà il mio voto?"
+agot_three_princes.1001.a: 0 "Vi è dignità in [harvest_prince_candidate_one.GetFullNameNicknamed]."
+agot_three_princes.1001.b: 0 "[harvest_prince_candidate_two.GetFullNameNicknamed] comprende le necessità della terra."
+agot_three_princes.1001.c: 0 "Vedo un Principe del Raccolto in [harvest_prince_candidate_three.GetFullNameNicknamed]."
+
+agot_three_princes.1003.t: 0 "Un Nuovo Principe del Raccolto!"
+agot_three_princes.1003.desc: 0 "Le schede sono state raccolte, i voti sono stati conteggiati e il risultato è chiaro. [lorath_new_harvest_prince.GetFirstName] è stat[Select_CString(lorath_new_harvest_prince.IsFemale,'a','o')] proclamat[Select_CString(lorath_new_harvest_prince.IsFemale,'a','o')] nuovo Principe del Raccolto! Tra le acclamazioni degli elettori riuniti, [Select_CString(lorath_new_harvest_prince.IsFemale,'lei','lui')] verrà scortat[Select_CString(lorath_new_harvest_prince.IsFemale,'a','o')] a [GetTitleByKey('c_palliera').GetName], dove prenderà il proprio legittimo seggio nella Sala del Raccolto."
+agot_three_princes.1003.a: 0 "Gli elettori hanno parlato."
+
+agot_three_princes.2000.t: 0 "La Morte del Principe Pescatore"
+agot_three_princes.2000.desc: 0 "Il [agot_fisher_prince|E] è morto, ponendo fine al suo mandato come uno dei tre principi cerimoniali di Lorath. In quanto cittadino del [GetTitleByKey('k_lorath').GetName] proprietario di una nave, mi è concesso il diritto di votare nell'elezione del suo successore. Tra i candidati proposti dagli elettori armatori, chi desidero vedere assumere questa posizione privilegiata, seppur interamente cerimoniale?"
+agot_three_princes.2000.a: 0 "Devo valutare attentamente le mie possibilità."
+
+agot_three_princes.2001.t: 0 "Elezione del Principe Pescatore"
+agot_three_princes.2001.desc: 0 "Gli elettori armatori delle isole lorathiane hanno presentato i propri candidati, e ora è giunto il momento che ciascun elettore esprima il proprio voto. La carica di Principe Pescatore potrà anche aver perduto la sua antica autorità, ma il titolo rimane un fiero simbolo delle tradizioni marinare di Lorath. Quale candidato riceverà il mio voto?"
+agot_three_princes.2001.a: 0 "Nessuno conosce il mare meglio di [fisher_prince_candidate_one.GetFullNameNicknamed]."
+agot_three_princes.2001.b: 0 "[fisher_prince_candidate_two.GetFullNameNicknamed] ha tutte le qualità per essere un ottimo Principe Pescatore."
+agot_three_princes.2001.c: 0 "Il mare scorre profondo nell'animo di [fisher_prince_candidate_three.GetFullNameNicknamed]."
+
+agot_three_princes.2003.t: 0 "Un Nuovo Principe Pescatore!"
+agot_three_princes.2003.desc: 0 "Le schede sono state raccolte, i voti sono stati conteggiati e il risultato è chiaro. [lorath_new_fisher_prince.GetFirstName] è stat[Select_CString(lorath_new_fisher_prince.IsFemale,'a','o')] proclamat[Select_CString(lorath_new_fisher_prince.IsFemale,'a','o')] nuovo Principe Pescatore! Tra le acclamazioni degli elettori riuniti, [Select_CString(lorath_new_fisher_prince.IsFemale,'lei','lui')] verrà scortat[Select_CString(lorath_new_fisher_prince.IsFemale,'a','o')] a [GetTitleByKey('c_qapahienn').GetName], dove prenderà il proprio legittimo seggio nella Sala dei Pescatori."
+agot_three_princes.2003.a: 0 "Gli elettori hanno parlato."
+
+agot_three_princes.3000.t: 0 "La Morte del Principe delle Strade"
+agot_three_princes.3000.desc: 0 "Il [agot_streets_prince|E] è morto, ponendo fine al suo mandato come uno dei tre principi cerimoniali di Lorath. In quanto libero cittadino del [GetTitleByKey('k_lorath').GetName], mi è concesso il diritto di votare nell'elezione del suo successore. Tra i candidati proposti dagli uomini liberi delle isole lorathiane, chi desidero vedere assumere questa posizione privilegiata, seppur interamente cerimoniale?"
+agot_three_princes.3000.a: 0 "Devo valutare attentamente le mie possibilità."
+
+agot_three_princes.3001.t: 0 "Elezione del Principe delle Strade"
+agot_three_princes.3001.desc: 0 "Gli uomini liberi delle isole lorathiane hanno presentato i propri candidati, e ora è giunto il momento che ciascun elettore esprima il proprio voto. La carica di Principe delle Strade potrà anche avere ben poca autorità, ma chi la ricopre rimane un simbolo della gente comune che affolla le strade e i mercati di Lorath. Quale candidato riceverà il mio voto?"
+agot_three_princes.3001.a: 0 "La gente comune si fida di [prince_of_streets_candidate_one.GetFullNameNicknamed]."
+agot_three_princes.3001.b: 0 "[prince_of_streets_candidate_two.GetFullNameNicknamed] conosce le strade di Lorath meglio di quasi chiunque altro."
+agot_three_princes.3001.c: 0 "[prince_of_streets_candidate_three.GetFullNameNicknamed] ha una voce che il popolo ascolterà."
+
+agot_three_princes.3003.t: 0 "Un Nuovo Principe delle Strade!"
+agot_three_princes.3003.desc: 0 "Le schede sono state raccolte, i voti sono stati conteggiati e il risultato è chiaro. [lorath_new_prince_of_streets.GetFirstName] è stat[Select_CString(lorath_new_prince_of_streets.IsFemale,'a','o')] proclamat[Select_CString(lorath_new_prince_of_streets.IsFemale,'a','o')] nuovo Principe delle Strade! Tra le acclamazioni degli elettori riuniti, [Select_CString(lorath_new_prince_of_streets.IsFemale,'lei','lui')] verrà scortat[Select_CString(lorath_new_prince_of_streets.IsFemale,'a','o')] a [GetTitleByKey('c_west_catch').GetName], dove prenderà il proprio legittimo seggio nella Sala delle Strade."
+agot_three_princes.3003.a: 0 "Gli elettori hanno parlato."

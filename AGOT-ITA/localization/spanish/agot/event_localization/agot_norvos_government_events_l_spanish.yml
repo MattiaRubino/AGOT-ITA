@@ -1,0 +1,26 @@
+﻿l_spanish:
+
+norvos_government_events.0001.t: 0 "Condanna dei Preti Barbuti"
+norvos_government_events.0001.desc: 0 "[shadowy_priests.GetName] ha emanato un editto che mi condanna per i miei peccati!\n\nOra sono stato marchiato come paria nella politica norvoshi, e la mia posizione sociale resterà compromessa per i prossimi dieci anni."
+norvos_government_events.0001.a: 0 "Questa è una sfortunata piega degli eventi."
+
+norvos_government_events.0050.t: 0 "La Fede Sbagliata"
+norvos_government_events.0050.desc: 0 "[shadowy_priests.GetName] mi ha dichiarato peccatore per essermi convertito a [ROOT.Char.GetFaith.GetName] e ha ordinato il mio arresto!\n\nSebbene altre Città Libere possano ospitare governanti di fedi e credi differenti, a Norvos la parola dei Preti Barbuti e del loro dio segreto rimane suprema.\n\nDi conseguenza, io e gli altri convertiti attendiamo il giudizio degli stessi sommi sacerdoti."
+norvos_government_events.0050.a: 0 "[ROOT.Char.GetFaith.HighGodName] vale davvero tutto questo?"
+norvos_government_events.0050.a_tt: 0 "I Preti Barbuti decideranno il tuo destino."
+
+norvos_government_events.0051.t: 0 "La Fede Sbagliata"
+norvos_government_events.0051.desc: 0 "[shadowy_priests.GetName] ha pronunciato [Select_CString(shadowy_priests.IsFemale,'la sua','il suo')] sentenza:\n\n"
+norvos_government_events.0051.desc_judgement_conversion: 0 "Io e gli altri convertiti avremo salva la vita se rinnegheremo la nostra fede e torneremo alla religione dei Preti Barbuti."
+norvos_government_events.0051.desc_judgement_death: 0 "Io e gli altri convertiti siamo stati condannati a morte per aver diffuso l'eresia nella Grande Norvos!"
+norvos_government_events.0051.a: 0 "[ROOT.Char.GetFaith.HighGodName], salvami!"
+norvos_government_events.0051.b: 0 "Mi riconvertirò."
+norvos_government_events.0051.c: 0 "Mi rifiuto di riconvertirmi."
+norvos_government_events.0051.d: 0 "Mi convertirò pubblicamente, ma continuerò a professare la mia fede in segreto."
+
+norvos_government_events.0502.t: 0 "I Peccati di [accused.GetShortUINameNoTooltip]"
+norvos_government_events.0502.desc: 0 "[accused.GetName] è stat[Select_CString(accused.IsFemale,'a','o')] giustiziat[Select_CString(accused.IsFemale,'a','o')] per la conversione a [ROOT.Char.GetFaith.GetName].\n\nOra devo decidere se riconvertirmi alla fede dei Preti Barbuti oppure raggiungere [accused.GetNameNoTooltip] nella morte."
+norvos_government_events.0502.a: 0 "Mi riconvertirò per salvare la mia vita."
+norvos_government_events.0502.b: 0 "Mi convertirò pubblicamente, ma continuerò a professare la mia fede in segreto."
+norvos_government_events.0502.c: 0 "Che morte sia."
+norvos_government_events.0502_secret_conversion_tt: 0 "Ti converti segretamente a [converted_faith.GetName]"

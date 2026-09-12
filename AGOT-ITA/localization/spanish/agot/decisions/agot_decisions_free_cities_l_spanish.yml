@@ -1,0 +1,57 @@
+﻿l_spanish:
+
+agot_attempt_triarchy: 0 "Tentativo di Formare la Triarchia"
+agot_attempt_triarchy_desc: 0 "Rivolgiti alle altre Figlie per formare la Triarchia"
+agot_attempt_triarchy_tooltip: 0 "Rivolgiti agli altri sovrani per formare la Triarchia"
+agot_attempt_triarchy_confirm: 0 "Portatemi il mio sigillo"
+
+agot_stepstones_rhoynish_culture: 0 "Una Nuova Identità"
+agot_stepstones_rhoynish_culture_desc: 0 "Da lungo tempo siamo bloccati su queste isole, e altrettanto a lungo siamo rimasti fedeli alle nostre radici del Rhoyne e degli Antichi Principati. Ma vogliamo davvero continuare così?"
+agot_stepstones_rhoynish_culture_tooltip: 0 "Da $rhoynish$ emergerà una nuova cultura divergente, dotata di un proprio insieme di tradizioni."
+agot_stepstones_rhoynish_culture_confirm: 0 "A un nuovo inizio"
+
+agot_seize_control: 0 "Prendi il Controllo"
+agot_seize_control_desc: 0 "Una dittatura non può durare per sempre; se voglio assicurare la successione della mia dinastia, devo abbandonare ogni pretesa di democrazia."
+agot_seize_control_tooltip: 0 "Poni per sempre fine alle elezioni adottando un governo Feudale"
+agot_seize_control_confirm: 0 "Portatemi il mio sigillo"
+agot_seize_control_full_county_control_tt: 0 "Hai il massimo [county_control|E] nella tua [capital|E]"
+strong_hook_on_all_powerful_vassals_tt: 0 "Hai un [strong_hook|E] su tutti i tuoi [powerful_vassals|E]"
+
+agot_form_undisputed_lands: 0 "Poni Fine alle Contese"
+agot_form_undisputed_lands_decision_desc: 0 "Queste terre sono state contese e dilaniate sin dal Disastro di Valyria, ma finalmente sono riuscito a unirle."
+agot_form_undisputed_lands_decision_tooltip: 0 "Fonda un regno su queste terre un tempo contese"
+agot_form_undisputed_lands_confirm: 0 "All'infamia e all'immortalità!"
+three_daughters_confederation: 0 "La Confederazione delle Tre Figlie esiste"
+
+agot_break_braavos_pentos_treaty: 0 "Infrangi il Trattato Braavos-Pentos"
+agot_break_braavos_pentos_treaty_desc: 0 "Dal 209, i Braavosiani costringono l'orgogliosa città di Pentos a sottostare a un trattato oppressivo. È giunto il momento che Pentos faccia a pezzi questo accordo e torni a governarsi liberamente!"
+agot_break_braavos_pentos_treaty_effect_tt: 0 "Il Trattato Braavos-Pentos verrà infranto. Pentos potrà nuovamente #bold sviluppare le proprie forze militari, assoldare mercenari e praticare la schiavitù#!."
+agot_break_braavos_pentos_treaty_effect_2_tt: 0 "Braavos otterrà per #bold 15 anni#! un casus belli che le consentirà di tentare di imporre nuovamente il trattato."
+agot_break_braavos_pentos_treaty_tooltip: 0 "Infrangi il Trattato Braavos-Pentos"
+agot_break_braavos_pentos_treaty_confirm: 0 "Per Pentos!"
+
+agot_create_braavos_pentos_treaty_effect_tt: 0 "[GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] verrà aggiunto permanentemente a tutti i personaggi sotto il dominio di Pentos. Potrà essere rimosso soltanto qualora Pentos conquisti la propria libertà attraverso la guerra."
+ agot_break_braavos_pentos_treaty_as_braavos:0 "$agot_break_braavos_pentos_treaty$"
+agot_break_braavos_pentos_treaty_as_braavos_desc: 0 "Abbiamo rispettato diligentemente i confini di Pentos, come stabilito dal Trattato Braavos-Pentos del 209. Ma il momento è propizio per espanderci; che valore ha un pezzo di pergamena dinanzi alla conquista?"
+agot_break_braavos_pentos_treaty_as_braavos_effect_tt: 0 "Tu e tutti i vassalli braavosiani sarete liberi di dichiarare guerra a Pentos e ai suoi vassalli."
+agot_break_braavos_pentos_treaty_as_braavos_confirm: 0 "Per Braavos!"
+agot_braavos_pentos_treaty_is_active: 0 "Non puoi dichiarare guerra finché [GetModifier('agot_pentos_braavos_treaty').GetNameWithTooltip] è attivo."
+ agot_break_braavos_pentos_treaty_as_braavos_tooltip:0 "$agot_break_braavos_pentos_treaty_tooltip$"
+
+agot_overthrow_bearded_priests: 0 "Rovescia i Preti Barbuti"
+agot_overthrow_bearded_priests_desc: 0 "Si dice che i Preti Barbuti siano i veri sovrani di Norvos. Esercitano un oscuro dominio sul reame, mentre il governo dei magistri non è altro che una facciata incaricata delle incombenze quotidiane. È giunto il momento di strappare una volta per tutte il controllo della città ai Preti Barbuti!"
+
+norvos_diarch_attempt_to_overthrow_liege.tt.majority_powerful_conspirators_support: 0 "Attualmente hai [SCOPE.ScriptValue('norvos_pv_overthrow_tally_display_value')|0] sostenitori idonei tra [powerful_vassal|E] e [powerful_family|E] #weak (te compreso)#! nella tua congiura, sui [SCOPE.ScriptValue('norvos_pv_overthrow_threshold_display_value')|0] richiesti"
+
+agot_attempt_to_overthrow_bearded_priests.tt.liege_accepts.keep_hof: 0 "[liege.Custom('IT_NAM_COL3')][liege.GetTitledFirstName] conserverà i propri titoli di [head_of_faith|E]."
+agot_attempt_to_overthrow_bearded_priests.tt.liege_fights_and_loses.may_lose_everything: 0 "[liege.Custom('IT_NAM_COL3')][liege.GetTitledFirstName] sarà costrett[Select_CString(liege.IsFemale,'a','o')] ad abdicare dai propri titoli di [head_of_faith|E]"
+
+agot_attempt_to_overthrow_bearded_priests.tt.liege_response: 0 "Il tuo [diarch|E] potrà cedere, tentare di batterti nella [skill|E] che sceglierai oppure affidare il compito a un rappresentante"
+agot_attempt_to_overthrow_bearded_priests.tt.liege_response.information_on_converting_councillors: 0 "#WEAK I [powerful_vassals|E] che sostengono il tuo colpo di stato si rifiuteranno di agire come rappresentanti del tuo [diarch|E]#!"
+agot_attempt_to_overthrow_bearded_priests.tt.convert_to_free_city: 0 "Norvos verrà trasformata in un reame con governo [GetGovernment( 'administrative_government' ).GetName]"
+norvos_estate_tier_change_warning: 0 "@warning_icon! #warning La [estate|E] di [usurper.GetName] e quella di ogni personaggio nel tuo reame diventeranno di [title_tier|e] [duchy|e], il che potrebbe modificare i [domicile_buildings|E] già costruiti!#!"
+
+diarch_attempt_to_overthrow_liege.tt.win.norvos_diarch_captured: 0 "#P Vittoria#!: hai [imprisoned|E] il tuo [diarch|E]"
+diarch_attempt_to_overthrow_liege.tt.win.norvos_diarch_dies: 0 "#P Vittoria#!: il tuo [diarch|E] [character_death_dies|E]"
+norvos_diarch_coup_liege_interaction.tt.promising_nothing: 0 "Vuole che rischi tutto in cambio di nulla: $VALUE|+=0$"
+norvos_diarch_coup_liege_interaction.tt.has_eroded_bp_power: 0 "Ha sensibilmente eroso l'influenza dei Preti Barbuti sulle [swing_scales_of_power|E]"

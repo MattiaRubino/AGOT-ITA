@@ -1,0 +1,48 @@
+﻿l_spanish:
+
+request_war_three_daughters_interaction: 0 "Richiedi il Permesso di Guerra"
+request_war_three_daughters_desc: 0 "Chiedi che l'Alto Consiglio voti per concederti il permesso di dichiarare guerra"
+request_war_three_daughters_effect_tt: 0 "L'Alto Consiglio si riunirà e voterà sulla tua richiesta di dichiarare guerra a [recipient.GetName]."
+
+request_war_authorization_norvos_interaction: 0 "Richiedi l'Autorizzazione alla Guerra"
+request_war_authorization_norvos_interaction_desc: 0 "Supplica [recipient.GetShortUIName] di concederti un'autorizzazione di #V 5 anni#! per muovere guerra in nome di [actor.GetPrimaryTitle.GetNameNoTier]."
+request_war_authorization_norvos_interaction_permission_granted_tt: 0 "Potrai dichiarare guerra contro nemici esterni per #V 5 anni#!."
+war_support_from_diarch_needed: 0 "Devi ottenere dal tuo [diarch|E] il permesso di dichiarare guerra. Usa l'[character_interaction|E] #V Richiedi l'Autorizzazione alla Guerra#! per ottenerlo."
+
+request_appointment_support_from_norvos_shadow_govt: 0 "Chiedi di Benedire la Candidatura"
+request_appointment_support_from_norvos_shadow_govt_desc: 0 "Chiedi ai Preti Barbuti di Norvos di sostenere ufficialmente un candidato"
+recipient_secondary_request_appointment_support_from_norvos_shadow_govt: 0 "Candidato"
+
+norvos_coup_liege_interaction: 0 "Recluta un Congiurato per il Colpo di Stato"
+norvos_coup_liege_interaction_desc: 0 "Tenta di convincere le [powerful_families|E] e i [powerful_vassals|E] del reame a sostenere il tuo piano per rovesciare il dominio dei Preti Barbuti sul reame"
+recipient_secondary_norvos_coup_liege_interaction: 0 "Congiurato"
+norvos_coup_liege_interaction_conspirator_must_be_pf_or_pv: 0 "Deve appartenere a una [powerful_family|E] o essere un [powerful_vassal|E]!"
+diarchy_swing_min_threshold: 0 "Le tue [scales_of_power|E] devono essere inferiori a [EmptyScope.ScriptValue('norvos_diarchy_swing_value_required_for_coup')|V0]!"
+
+sell_extra_son_into_norvos_priesthood_interaction: 0 "Vendi ai Preti Barbuti"
+sell_extra_son_into_norvos_priesthood_interaction_desc: 0 "Vendi [recipient.GetShortUINameNoTooltip] ai Preti Barbuti affinché venga addestrat[Select_CString(recipient.IsFemale,'a','o')] per la Guardia Sacra, in cambio di influenza e [gold|E]"
+
+request_political_scheming_support_from_bearded_priests: 0 "Richiedi Sostegno Politico"
+request_political_scheming_support_from_bearded_priests_desc: 0 "Chiedi ai Preti Barbuti di benedire le tue trame politiche"
+
+donate_support_to_bearded_priests_interaction: 0 "Fai una Donazione ai Preti Barbuti"
+donate_support_to_bearded_priests_interaction_desc: 0 "Accresci la tua influenza presso i Preti Barbuti inviando loro [gold|E]"
+donate_support_to_bearded_priests_interaction_accept_notification: 0 "I Preti Barbuti Accettano la Tua Donazione"
+donate_support_to_bearded_priests_interaction_decline_notification: 0 "I Preti Barbuti Rifiutano la Tua Donazione"
+
+ask_bearded_priests_for_boost_efficiency_interaction: 0 "Chiedi Consiglio sul Governo"
+ask_bearded_priests_for_boost_efficiency_interaction_desc: 0 "Chiedi ai Preti Barbuti di aiutarti ad aumentare la tua [governor_efficiency|E]"
+ask_bearded_priests_efficiency_interaction_cooldown_tt: 0 "Puoi chiedere ai Preti Barbuti di influenzare la tua [governor_efficiency|E] soltanto una volta ogni 5 anni"
+
+piety_level_too_low_reason_secondary_recipient: 0 "Il [piety_level|E] [secondary_recipient.GetShortUINamePossessive] è troppo basso: $VALUE|=+0$"
+piety_level_reason_secondary_recipient: 0 "[piety_level|E] [secondary_recipient.GetShortUINamePossessive]: $VALUE|=+0$"
+piety_level_too_low_reason: 0 "Il [piety_level|E] [actor.GetShortUINamePossessive] è troppo basso: $VALUE|=+0$"
+piety_level_reason: 0 "[piety_level|E] [actor.GetShortUINamePossessive]: $VALUE|=+0$"
+piety_two_or_more_virtuous_traits_actor: 0 "[actor.GetShortUIName] possiede due o più tratti virtuosi: $VALUE|=+0$"
+piety_two_or_more_virtuous_traits_secondary_recipient: 0 "[secondary_recipient.GetShortUIName] possiede due o più tratti virtuosi: $VALUE|=+0$"
+piety_two_or_more_sinful_traits_actor: 0 "[actor.GetShortUIName] possiede due o più tratti peccaminosi: $VALUE|=+0$"
+piety_two_or_more_sinful_traits_secondary_recipient: 0 "[secondary_recipient.GetShortUIName] possiede due o più tratti peccaminosi: $VALUE|=+0$"
+not_bearded_priest: 0 "La [faith|E] non è $fc_pan_bearded$"
+unelectable_trait_desc: 0 "Possiede un tratto che ne impedisce l'elezione"
+mismatched_faiths_reason_actor: 0 "[actor.GetShortUIName] non segue la Fede dei Preti Barbuti: $VALUE|=+0$"
+mismatched_faiths_reason_secondary_recipient: 0 "[secondary_recipient.GetShortUIName] non segue la Fede dei Preti Barbuti: $VALUE|=+0$"

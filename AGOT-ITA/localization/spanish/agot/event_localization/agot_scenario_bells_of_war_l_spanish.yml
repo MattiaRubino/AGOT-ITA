@@ -1,0 +1,127 @@
+﻿l_spanish:
+ #Marked for Review
+
+ # Lorath Intro - Thys O'rel
+agot_bells_of_war.0001.t: 0 "Espandere il Labirinto"
+agot_bells_of_war.0001.desc: 0 "Dopo la mia vittoriosa campagna contro Norvos, ho rivolto la potenza di Lorath contro la colonia ibbenese nell'Ascia, guidata dal leggendario [ibbenese_colony_leader.GetName].\n\nTuttavia, la mia campagna contro gli uomini di Ibben procede più lentamente di quanto avessi previsto. [ibbenese_colony_leader.Custom('IT_NAM_COL3')][ibbenese_colony_leader.GetTitledFirstNameNoTooltip] ha sfruttato a proprio vantaggio il terreno impervio, e i miei capitani sono stati irritantemente lenti nell'adattarsi.\n\nSe non riusciremo presto a trionfare sugli Ibbenesi, temo che i nemici di Lorath possano approfittare del fatto che la mia attenzione sia lontana da casa."
+agot_bells_of_war.0001.a: 0 "Gli Ibbenesi saranno spezzati!"
+
+ # Norvos Intro - Egoh Dazh Reo
+agot_bells_of_war.0002.t: 0 "Le Campane di Guerra"
+agot_bells_of_war.0002.desc: 0 "Quasi tre anni fa, gli eserciti di Lorath sconfissero Norvos in battaglia. Tra le promesse della mia campagna elettorale, giurai di vendicare i torti inflitti dai Lorathi. Dall'inizio del mio mandato ho atteso e preparato con impazienza quel momento.\n\nOra, i rapporti dei miei esploratori e delle mie spie indicano che [lorathi_leader.GetName] è impantanat[Select_CString(lorathi_leader.IsFemale,'a','o')] contro gli Ibbenesi nell'Ascia. È chiaro che questi aspiranti conquistatori hanno fatto il passo più lungo della gamba.\n\nComunque sia, le forze di Lorath rimangono una minaccia per Norvos se restiamo soli. La mia alleata a Qohor, [qohor_m1.GetNamePossessive], è tra i favoriti nelle imminenti elezioni e ha promesso il proprio sostegno a un contrattacco contro Lorath. Non dobbiamo fare altro che attendere il momento propizio."
+agot_bells_of_war.0002.a: 0 "Le campane di guerra suoneranno presto!"
+
+ # Qohor M1 - Korena Ostorlat
+agot_bells_of_war.0003.t: 0 "Le Elezioni Incombenti"
+agot_bells_of_war.0003.desc: 0 "[old_qohor_guy.GetName] sta morendo.\n\nSebbene la mia candidatura resterà strettamente ufficiosa fino alla morte [old_qohor_guy.Custom('IT_NAM_COL2')][old_qohor_guy.GetTitledFirstNameNoTooltip], le mie spie sparse per la città riferiscono che sono tra i principali candidati alla carica di Primo Magistro. Il mio unico rivale è [qohor_m2.GetName], il mio opposto ideologico.\n\nPer dimostrare la mia forza, ho promesso sostegno ai Norvoshi per lanciare un contrattacco contro i Lorathi. Con una vigorosa campagna militare, posso consolidare il sostegno degli alleati stranieri di Qohor e soffocare i sobillatori interni con un solo colpo. O almeno così spero."
+agot_bells_of_war.0003.a: 0 "Le elezioni si avvicinano..."
+
+ # Qohor M2 - Haratt Ekna
+agot_bells_of_war.0004.t: 0 "Le Elezioni Incombenti"
+agot_bells_of_war.0004.desc: 0 "[old_qohor_guy.GetName] morirà presto, per fortuna. I primi rapporti dei miei alleati indicano che la mia unica vera rivale per la carica di Primo Magistro è [qohor_m1.GetName].\n\nNel tentativo di ottenere sostegno alla mia candidatura, non ho risparmiato sforzi nel manifestare il mio disprezzo per la vicinanza del reame a Norvos. Se sarò eletto, Norvos pagherà per le sue trasgressioni contro Qohor."
+agot_bells_of_war.0004.a: 0 "Presto giungerà la mia ascesa!"
+
+ # Qohor Old Guy - Emondar Johibors
+agot_bells_of_war.0005.t: 0 "Le Elezioni Incombenti"
+agot_bells_of_war.0005.desc: 0 "La mia vita sta volgendo al termine, ma soprattutto sta per finire il mio mandato come Primo Magistro — e il mondo lo sa.\n\nI miei stessi compatrioti scommettono su quanto presto morirò, mentre gli stranieri cercano di ingraziarsi i candidati delle imminenti elezioni. A quanto pare, il reame non vede l'ora di voltare pagina senza di me."
+agot_bells_of_war.0005.a: 0 "Sono ancora qui, almeno per ora."
+
+ # Aegon IV
+agot_bells_of_war.0006.t: 0 "Il Torneo degli Scudieri"
+agot_bells_of_war.0006.desc: 0 "Si avvicina l'onomastico di [daemon_blackfyre.GetName], figlio di mia cugina [daena_targaryen.GetNamePossessive]. Sebbene abbia mantenuto le distanze dal ragazzo, gli sono ancora affezionato... forse persino più che agli #italic altri miei#! figli, oserei dire.\n\nDesidero onorare il ragazzo e fargli un dono che non dimenticherà. Conoscendo la sua passione per la scherma, ho ordinato ai miei consiglieri di preparare un grande torneo per gli Scudieri più illustri del reame, incluso naturalmente [daemon_blackfyre.GetFirstNameNoTooltip]."
+agot_bells_of_war.0006.a: 0 "Buona fortuna, [daemon_blackfyre.GetFirstNameNoTooltip]."
+
+ # Rhoyne
+agot_bells_of_war.0007.t: 0 "La Prima Figlia Colpisce"
+agot_bells_of_war.0007.desc: 0 "I Volanteni ci hanno traditi. Sebbene la [rhoynar_confederation.GetName] abbia versato sangue per conquistare la fortezza strategica di Gar Sagon, i Volanteni ne hanno preso il controllo e ci hanno dichiarati loro nemici.\n\n[volantis_invader.GetName] è arrivat[Select_CString(volantis_invader.IsFemale,'a','o')] con un esercito imponente e non perde tempo nel chiarire che i Rhoynar sono ormai nemici di Volantis...\n\nGli altri Rhoynar hanno risposto alla mia chiamata e si sono uniti a me nel tentativo di respingere i nostri traditori. La [rhoynar_confederation.GetName] deve prevalere, altrimenti sarà la nostra rovina completa.\n\nI Volanteni sostengono di essere gli eredi dei draghi..."
+agot_bells_of_war.0007.a: 0 "Allora permetteremo loro di incontrare i propri antenati!"
+
+ # Rhoyne - Volantis Governor
+agot_bells_of_war.0008.t: 0 "Attacco ai Rhoynar"
+agot_bells_of_war.0008.desc: 0 "Ho lanciato un'invasione per annientare una volta per tutte la [rhoynar_confederation.GetName]. Sebbene siano stati indispensabili nella conquista di Gar Sagon, non posso permettere che il loro potere cresca in questa regione, tantomeno che controllino la stessa Gar Sagon.\n\nUn esercito imponente è ai miei ordini, e trionferò conquistando queste terre dell'entroterra per Volantis!"
+agot_bells_of_war.0008.a: 0 "Spero di liquidare rapidamente questi confederati."
+
+agot_bells_of_war.0009.t: 0 "Il Torneo degli Scudieri"
+agot_bells_of_war.0009.desc: 0 "[aegon_iv.GetName] ha indetto un torneo per Scudieri ad Approdo del Re. Ha invitato molti Scudieri illustri del reame, compresi i miei figli [baelor.GetName] e [maekar.GetName]. Tra i partecipanti figura anche [daemon_blackfyre.GetName], che molti ritengono essere un figlio non riconosciuto di mio padre.\n\nNon so cosa stia tramando mio padre, ma so che non porterà nulla di buono al nostro rapporto..."
+agot_bells_of_war.0009.a: 0 "Che cosa sta tramando mio padre?"
+
+agot_bells_of_war.0010.t: 0 "Il Torneo degli Scudieri"
+agot_bells_of_war.0010.desc: 0 "[squire_tourney_participant.GetName] è stat[Select_CString(squire_tourney_participant.IsFemale,'a','o')] invitat[Select_CString(squire_tourney_participant.IsFemale,'a','o')] a partecipare a un grande torneo per Scudieri ad Approdo del Re. I migliori giovani guerrieri del reame si riuniranno per competere, e [squire_tourney_participant.GetFirstNameNoTooltip] avrà l'occasione di dimostrare il proprio valore tra loro.\n\nÈ un onore raro per uno Scudiero ricevere un simile invito. Non posso fare a meno di provare un misto di orgoglio e preoccupazione. [squire_tourney_participant.GetFirstNameNoTooltip] è ancora giovane, e un torneo può essere un luogo pericoloso.\n\nEppure questa è un'opportunità che non può essere lasciata sfuggire. Se [squire_tourney_participant.GetFirstNameNoTooltip] riuscirà a distinguersi, potrebbe essere l'inizio di un futuro promettente."
+agot_bells_of_war.0010.two_squires_desc: 0 "[squire_tourney_participant.GetName] e [squire_tourney_participant_2.GetName] sono stat[Select_CString(Or(squire_tourney_participant.IsFemale,squire_tourney_participant_2.IsFemale),'e','i')] entrambi invitati a partecipare a un grande torneo per Scudieri ad Approdo del Re. I migliori giovani guerrieri del reame si riuniranno per competere, ed entrambi avranno l'occasione di dimostrare il proprio valore tra loro.\n\nÈ un onore raro per uno Scudiero ricevere un simile invito. Non posso fare a meno di provare un misto di orgoglio e preoccupazione. Sono ancora giovani, e un torneo può essere un luogo pericoloso.\n\nEppure questa è un'opportunità che non può essere lasciata sfuggire. Se uno dei due riuscirà a distinguersi, potrebbe essere l'inizio di un futuro promettente."
+agot_bells_of_war.0010.a: 0 "Rendici orgogliosi, [squire_tourney_participant.GetFirstNameNoTooltip]!"
+agot_bells_of_war.0010.two_squires_a: 0 "Rendeteci orgogliosi!"
+
+agot_bells_of_war.0020.t: 0 "Il Torneo Ha Inizio"
+agot_bells_of_war.0020.desc: 0 "Il Torneo degli Scudieri è iniziato, con i seguenti abbinamenti iniziali:\n\n[squire_1.GetName][squire_1.Custom('AGOTGetSurname')] contro [squire_2.GetName][squire_2.Custom('AGOTGetSurname')]\n[squire_3.GetName][squire_3.Custom('AGOTGetSurname')] contro [squire_4.GetName][squire_4.Custom('AGOTGetSurname')]\n[squire_5.GetName][squire_5.Custom('AGOTGetSurname')] contro [squire_6.GetName][squire_6.Custom('AGOTGetSurname')]\n[squire_7.GetName][squire_7.Custom('AGOTGetSurname')] contro [squire_8.GetName][squire_8.Custom('AGOTGetSurname')]\n[squire_9.GetName][squire_9.Custom('AGOTGetSurname')] contro [squire_10.GetName][squire_10.Custom('AGOTGetSurname')]\n[squire_11.GetName][squire_11.Custom('AGOTGetSurname')] contro [squire_12.GetName][squire_12.Custom('AGOTGetSurname')]\n[squire_13.GetName][squire_13.Custom('AGOTGetSurname')] contro [squire_14.GetName][squire_14.Custom('AGOTGetSurname')]\n[squire_15.GetName][squire_15.Custom('AGOTGetSurname')] contro [squire_16.GetName][squire_16.Custom('AGOTGetSurname')]"
+agot_bells_of_war.0020.a: 0 "Che il torneo abbia inizio!"
+
+agot_bells_of_war.0021.t: 0 "I Finalisti del Torneo"
+agot_bells_of_war.0021.desc: 0 "Dopo una serie di incontri combattuti, due Scudieri sono emersi come finalisti del torneo!\n\n[top_bracket_finalist.GetName] affronterà presto [bottom_bracket_finalist.GetName] per conquistare il titolo di campione."
+agot_bells_of_war.0021.desc_daemon_blackfyre_flavor: 0 "\n\nMio figlio prospera in questo ambiente. Senza dubbio è forse il miglior spadaccino della sua età. È come se fosse nato con una spada in mano... Se vincerà questo torneo, dovrà essere ricompensato con un premio degno della sua straordinaria prestazione."
+agot_bells_of_war.0021.a: 0 "Che emozione!"
+
+agot_bells_of_war.0022.t: 0 "Il Campione del Torneo"
+agot_bells_of_war.0022.desc: 0 "Risuona una musica festosa mentre [champion.GetName] viene incoronat[Select_CString(champion.IsFemale,'a','o')] campione del torneo! Dopo aver sconfitto [loser.GetName], [Select_CString(champion.IsFemale,'lei','lui')] è [Select_CString(champion.IsFemale,'la vincitrice indiscussa','il vincitore indiscusso')] e può ora reclamare i propri premi: oro, fama e lodi."
+agot_bells_of_war.0022.desc_generic_aegon_bastard_flavor: 0 "\n\nLa prestazione di [champion.GetNamePossessiveNoTooltip] è stata a dir poco esemplare. La sua prova ha impressionato non soltanto me, ma anche i miei vassalli e cortigiani. Tutti vedono [champion.GetNameNoTooltip] come un #italic vero#! rampollo di Casa Targaryen... ma io vedo [champion.GetNameNoTooltip] come [Select_CString(champion.IsFemale,'una figlia prediletta','un figlio prediletto')] degn[Select_CString(champion.IsFemale,'a','o')] di essere onorat[Select_CString(champion.IsFemale,'a','o')]."
+agot_bells_of_war.0022.a: 0 "Congratulazioni, e goditi i tuoi premi."
+agot_bells_of_war.0022.generic_targaryen_description: 0 "Una prova degna di un premio all'altezza di Casa Targaryen!"
+agot_bells_of_war.0022.baelor_or_maekar_extra_snark: 0 "[champion.GetFirstNameNoTooltip] è un #italic vero #!guerriero, a differenza di suo padre. Deve essere ricompensato!"
+agot_bells_of_war.0022.b: 0 "[champion.GetFirstNameNoTooltip] merita il favore reale #italic e #!il riconoscimento."
+agot_bells_of_war.0022.c: 0 "Devo concedere i premi previsti e nulla più."
+
+agot_bells_of_war.0023.t: 0 "Guai al Torneo"
+agot_bells_of_war.0023.desc: 0 "È trascorso del tempo da quando ho concesso il mio favore reale e il mio riconoscimento a [champion.GetName]. Sebbene [Select_CString(champion.IsFemale,'lei','lui')] meritasse senza dubbio ogni onore e ogni lode ricevuti, alcuni membri della mia stessa famiglia e della mia corte hanno espresso incredulità e sconcerto dinanzi alla mia generosità. Fanno ben poco per nascondere la loro gelosia e la ostentano con orgoglio, come se potesse intimidirmi."
+agot_bells_of_war.0023.a: 0 "Che importa? Io sono il re!"
+
+agot_bells_of_war.0024.t: 0 "La Fine del Torneo"
+agot_bells_of_war.0024.squire_winner_desc: 0 "[champion.GetName] ha trionfato nel torneo, sconfiggendo ogni sfidante che si è frapposto sul suo cammino. Non potrei essere più orgoglioso di vedere [champion.GetNameNoTooltip] conquistare gli onori del campione. È un grande risultato per una persona tanto giovane, e spero che sia soltanto il primo di molti."
+agot_bells_of_war.0024.squire_loser_desc: 0 "[champion.GetName] ha trionfato nel torneo, dimostrando di essere [Select_CString(champion.IsFemale,'la migliore giovane guerriera','il miglior giovane guerriero')] del reame. [my_squire.GetName] non avrà raggiunto la vittoria finale, ma può comunque essere orgoglios[Select_CString(my_squire.IsFemale,'a','o')] di aver gareggiato tra avversari tanto formidabili."
+agot_bells_of_war.0024.blackfyre_sword_reaction_desc: 0 "\n\nIl re ha scelto di donare la spada d'acciaio valyriano Blackfyre a [champion.GetNameNoTooltip]. Un tempo brandita da Aegon il Conquistatore e tramandata di re in erede, Blackfyre è più di una semplice lama. È un simbolo della monarchia Targaryen e della sua legittimità."
+agot_bells_of_war.0024.daemon_reaction_desc: 0 "\n\nIl re ha ufficialmente riconosciuto Daemon come proprio figlio e ha scelto di celebrare l'occasione donandogli la spada d'acciaio valyriano Blackfyre. Un tempo brandita da Aegon il Conquistatore e tramandata di re in erede, Blackfyre è più di una semplice lama. È un simbolo della monarchia Targaryen e della sua legittimità."
+agot_bells_of_war.0024.a: 0 "Un'ottima prova!"
+agot_bells_of_war.0024.b: 0 "Che sfortuna..."
+agot_bells_of_war.0024.c: 0 "Padre, che cosa hai fatto..."
+
+agot_bells_of_war.0031.t: 0 "L'Ascesa degli Ostorlat"
+agot_bells_of_war.0031.desc: 0 "La giornata volge al termine, mentre i voti sono stati espressi per determinare il futuro di Qohor — e, sotto molti aspetti, quello dell'intera regione. Mentre attendo, [ROOT.Char.Custom('IdleActivity')], un attendente si avvicina con delle notizie:\n\nLe elezioni sono concluse e ho trionfato! Ora devo onorare le mie promesse elettorali..."
+agot_bells_of_war.0031.a: 0 "Mandate notizia a Norvos: Qohor si schiererà contro Lorath."
+agot_bells_of_war.0031.a_tt: 0 "Norvos inizierà presto una guerra contro Lorath e tu sarai chiamato come alleato."
+
+agot_bells_of_war.0032.t: 0 "L'Ascesa degli Ekna"
+agot_bells_of_war.0032.desc: 0 "La giornata volge al termine, mentre i voti sono stati espressi per determinare il futuro di Qohor — e, sotto molti aspetti, quello dell'intera regione. Mentre attendo, [ROOT.Char.Custom('IdleActivity')], un attendente si avvicina con delle notizie:\n\nLe elezioni sono concluse e ho trionfato! Ora devo onorare le mie promesse elettorali..."
+agot_bells_of_war.0032.a: 0 "Mandate notizia a Norvos: Qohor non tollererà più insulti!"
+
+ agot_bells_of_war.0033.t:0 "$agot_bells_of_war.0002.t$"
+agot_bells_of_war.0033.desc: 0 "La mia alleata, [qohor_leader.GetName], ha trionfato nelle elezioni qohorik. Ha promesso sostegno immediato a un attacco contro Lorath, per vendicare l'umiliazione subita dai Norvoshi per mano del giovane magistro-conquistatore [lorath_leader.GetNameNicknamed].\n\nLa Grande Norvos tornerà ancora una volta alle armi!"
+agot_bells_of_war.0033.a: 0 "Fate suonare le campane di guerra!"
+
+ agot_bells_of_war.0034.t:0 "$agot_bells_of_war.0002.t$"
+agot_bells_of_war.0034.desc: 0 "[norvos_leader.GetName] di Norvos ha ricevuto notizia della mia vittoria nelle recenti elezioni, insieme alla conferma del mio sostegno contro Lorath. [lorath_leader.GetNameNicknamed] ha spinto troppo oltre le proprie ambizioni espansionistiche, dunque il momento è propizio per colpire!"
+agot_bells_of_war.0034.a: 0 "Sento le campane di guerra!"
+agot_bells_of_war.0034.a.tt: 0 "Tu e [norvos_leader.GetNameNoTooltip] siete diventati alleati"
+
+agot_bells_of_war.0035.t: 0 "L'Alleanza Norvos-Qohor"
+agot_bells_of_war.0035.desc: 0 "Un attendente accorre per riferirmi le ultime notizie: [norvos_leader.GetName] e [qohor_leader.GetName] hanno stretto un'alleanza per fermare le mie conquiste. Hanno dichiarato congiuntamente guerra a Lorath e intendono riconquistare i territori perduti di Norvos."
+agot_bells_of_war.0035.a: 0 "Notizie terribili."
+
+agot_bells_of_war.0036.t: 0 "Qohor all'Offensiva"
+agot_bells_of_war.0036.desc: 0 "Le elezioni di Qohor non sono andate secondo i piani.\n\nLa mia alleata, [ostorlat.GetName], è stata sconfitta da [qohor_leader.GetName], un candidato che si dichiara fondamentalmente ostile a Norvos. [qohor_leader.Custom('IT_NAM_COL3')][qohor_leader.GetTitledFirstNameNoTooltip] non ha perso tempo dopo essere entrat[Select_CString(qohor_leader.IsFemale,'a','o')] in carica e ha lanciato un'offensiva contro Norvos!"
+agot_bells_of_war.0036.a: 0 "È un disastro."
+
+agot_bells_of_war.0037.t: 0 "Piani Elettorali Svaniti"
+agot_bells_of_war.0037.desc: 0 "I risultati delle elezioni di Qohor mi hanno finalmente raggiunto.\n\nLa mia alleata, [ostorlat.GetName], è stata sconfitta da un terzo candidato sconosciuto, [qohor_leader.GetName]. Sebbene non possa dire quale destino attenda Qohor, so che Norvos ora si trova sola contro Lorath."
+agot_bells_of_war.0037.a: 0 "Devo fermare Lorath adesso."
+agot_bells_of_war.0037.b: 0 "Da soli non abbiamo alcuna possibilità."
+
+agot_bells_of_war.0050.t: 0 "Vittoria contro il Traditore dell'Alleanza"
+agot_bells_of_war.0050.desc: 0 "La Confederazione Rhoynar ha trionfato contro i traditori volanteni. Abbiamo conquistato Gar Sagon per noi.\n\nOra dobbiamo decidere se sciogliere la nostra confederazione e governare come un unico reame."
+agot_bells_of_war.0050.a: 0 "Sciogli la confederazione."
+agot_bells_of_war.0050.b: 0 "Preserva la confederazione."
+
+agot_bells_of_war.0051.t: 0 "Vittoria contro la Confederazione Rhoynar"
+agot_bells_of_war.0051.desc: 0 "Le mie forze hanno trionfato in nome di Volantis. La minaccia a Gar Sagon è stata schiacciata, e ho costretto i Rhoynar a fuggire dalla regione."
+agot_bells_of_war.0051.a: 0 "I Triarchi saranno soddisfatti."
+
+agot_bells_of_war.0052.t: 0 "La Fine della Confederazione Rhoynar"
+agot_bells_of_war.0052.desc: 0 "[confederation_leader.GetName] ha proclamato la nostra vittoria sui traditori volanteni.\n\nCon la guerra conclusa, [confederation_leader.GetNameNoTooltip] ha rivendicato Gar Sagon come proprio feudo e ha proclamato lo scioglimento della Confederazione Rhoynar. Ha inoltre rivendicato il dominio su noi pochi che un tempo combattevamo al suo fianco come compagni confederati. Nel bene o nel male, ciò che resta della Confederazione Rhoynar è stato ora riunito in un nuovo reame sotto la guida [Select_CString(confederation_leader.IsFemale,'della Lady','del Lord')] [confederation_leader.GetNameNoTooltip]!"
+agot_bells_of_war.0052.a: 0 "Un nuovo giorno sorge sul Rhoyne."
